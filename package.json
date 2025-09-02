@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/shell",
-	"version": "10",
+	"version": "11",
 	"private": true,
 	"type": "module",
 	"scripts": {
@@ -16,7 +16,12 @@
 		"lint": "oxlint . --fix -D correctness --ignore-path .gitignore",
 		"format": "prettier --write src/ e2e/",
 		"format:check": "prettier --check src/ e2e/",
-		"install:browser": "pnpm exec playwright install chromium"
+		"install:browser": "pnpm exec playwright install chromium",
+		"link:ui": "rm -rf ./node_modules/@septkit/ui && ln -s ../../../ui ./node_modules/@septkit/ui",
+		"unlink:ui": "rm -rf ./node_modules/@septkit/ui && pnpm install",
+		"link:fileio": "rm -rf ./node_modules/@septkit/fileio && ln -s ../../../fileio ./node_modules/@septkit/fileio",
+		"unlink:fileio": "rm -rf ./node_modules/@septkit/fileio && pnpm install",
+		"unlink:all": "rm -rf ./node_modules/@septkit && pnpm install"
 	},
 	"dependencies": {
 		"@septkit/fileio": "catalog:",
