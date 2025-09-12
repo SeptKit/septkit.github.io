@@ -15,7 +15,7 @@
 					"ASD",
 					"SCD"
 				],
-				"entryPoint": "/src/shell.js"
+				"entryPoint": "/shell.js"
 			}
 		],
 		"menu": [
@@ -25,7 +25,7 @@
 				"path": [
 					"Instantiate"
 				],
-				"entryPoint": "/src/menu.js"
+				"entryPoint": "/menu.js"
 			}
 		]
 	},
