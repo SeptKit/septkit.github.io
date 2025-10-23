@@ -1,0 +1,81 @@
+{
+	"name": "@septkit/ext-openscd-plugin-loader",
+	"version": "6",
+	"type": "module",
+	"description": "This is an example extension written in Vue.JS for SeptKit Platform",
+	"contributes": {
+		"customEditors": [
+			{
+				"id": "sprinteins.ext-openscd-plugin-loader.sld",
+				"displayName": "Single Line Editor",
+				"entryPoint": "/set-editor.js?plugin=https%3A%2F%2Fopenenergytools.github.io%2Fscl-editor%2Fplugins%2Foscd-designer%2Foscd-designer.js",
+				"iframe": true
+			},
+			{
+				"id": "sprinteins.ext-openscd-plugin-loader.template-generator",
+				"displayName": "Template Generator",
+				"entryPoint": "/set-editor.js?plugin=https%3A%2F%2Fopenenergytools.github.io%2Fscl-editor%2Fplugins%2Foscd-template-generator%2Foscd-template-generator.js",
+				"iframe": true
+			},
+			{
+				"id": "sprinteins.ext-openscd-plugin-loader.template-updater",
+				"displayName": "Template Updater",
+				"entryPoint": "/set-editor.js?plugin=https%3A%2F%2Fopenenergytools.github.io%2Fscl-editor%2Fplugins%2Ftemplate-update%2Fscl-template-update.js",
+				"iframe": true
+			},
+			{
+				"id": "sprinteins.ext-openscd-plugin-loader.data-type-templates",
+				"displayName": "DataType Templates",
+				"entryPoint": "/set-editor.js?plugin=https%3A%2F%2Fopenenergytools.github.io%2Fscl-editor%2Fplugins%2Fscl-template%2Fscl-template.js",
+				"iframe": true
+			}
+		]
+	},
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"build:watch": "npm run build -- --watch",
+		"build:serve": "concurrently \"npm run preview\" \"npm run build:watch\"",
+		"preview": "vite preview --port 54944",
+		"type-check": "vue-tsc --build",
+		"lint": "oxlint . --fix -D correctness --ignore-path .gitignore",
+		"format": "prettier --write src/",
+		"format:check": "prettier --check src/",
+		"ci-tests": "npm run format:check && npm run lint && npm run build && npm run test",
+		"test": "vitest --project unit",
+		"test:watch": "npm run test -- --watch",
+		"link:fileio": "rm -rf ./node_modules/@septkit/fileio && ln -s ../../../../fileio ./node_modules/@septkit/fileio",
+		"unlink:fileio": "rm -rf ./node_modules/@septkit/fileio && pnpm install"
+	},
+	"dependencies": {
+		"@openscd/oscd-api": "^0.1.5",
+		"@septkit/fileio": "catalog:",
+		"@septkit/ui": "catalog:",
+		"@tailwindcss/vite": "^4.1.13",
+		"@tsconfig/node22": "^22.0.2",
+		"@vitejs/plugin-vue": "^6.0.0",
+		"@webcomponents/scoped-custom-element-registry": "^0.0.10",
+		"dexie": "^4.2.0",
+		"oxlint": "~1.6.0",
+		"prettier": "3.5.3",
+		"tailwindcss": "^4.1.13",
+		"vite": "^7.0.0",
+		"vite-plugin-css-injected-by-js": "^3.5.2",
+		"vite-plugin-static-copy": "^3.1.1",
+		"vite-plugin-vue-devtools": "^7.7.7",
+		"vitest-browser-vue": "^1.0.0",
+		"vue": "^3.5.17"
+	},
+	"devDependencies": {
+		"@testing-library/vue": "^8.1.0",
+		"@types/node": "^22.15.32",
+		"@vitest/browser": "^3.2.4",
+		"@vue/test-utils": "^2.4.6",
+		"@vue/tsconfig": "^0.7.0",
+		"concurrently": "^9.2.0",
+		"playwright": "^1.53.2",
+		"typescript": "~5.8.0",
+		"vitest": "^3.2.4",
+		"vue-tsc": "^2.2.10"
+	}
+}
