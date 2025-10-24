@@ -2,5 +2,6 @@
 	"https://septkit.github.io/extensions/structure/15/",
 	"https://septkit.github.io/extensions/dataflow/17/",
 	"https://septkit.github.io/extensions/openscd-plugin-loader/6/",
-    "https://septkit.github.io/extensions/logic-editor/2/"
+    "https://septkit.github.io/extensions/logic-editor/2/",
+	"https://septkit.github.io/extensions/explorer/1",
 ]
