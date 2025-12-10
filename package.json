@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/shell",
-	"version": "24",
+	"version": "25",
 	"private": true,
 	"type": "module",
 	"scripts": {
@@ -36,6 +36,8 @@
 		"@tailwindcss/vite": "^4.1.11",
 		"@vueuse/core": "^13.5.0",
 		"concurrently": "^9.2.1",
+		"dompurify": "^3.3.0",
+		"marked": "^17.0.1",
 		"pinia": "^3.0.3",
 		"reka-ui": "^2.5.1",
 		"tailwindcss": "^4.1.11",
