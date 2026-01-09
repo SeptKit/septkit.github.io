@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to a simple versioning system, increasing the number by one for each modification.
 
+## [26] - 2026-01-09
+
+### Added
+
+- Include version and changelog entries of last 30 days of every extension in Statusbar
+
 ## [25] - 2025-12-09
 
 ### Added
