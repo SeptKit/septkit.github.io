@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to a simple versioning system, increasing the number by one for each modification.
 
+## [UNRELEASED]
+
+## [27] - 2026-02-11
+
+- Rename menu item "Save" to "Save a Copy"
+
 ## [26] - 2026-01-09
 
 ### Added

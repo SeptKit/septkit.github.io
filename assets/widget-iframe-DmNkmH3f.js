@@ -1,0 +1,1 @@
+import{h as a,W as o}from"./widget-portal-CheJzXk4.js";import{M as r,aS as i,s,aK as n}from"./index-DZbsyNsc.js";const f=r({__name:"widget-iframe",setup(c){const t=i();return a(window,e=>{console.debug("widget-iframe expect",{newWidget:e}),t.value=e}),(e,d)=>(n(),s(o,{widget:t.value,rootId:"main-area-widget-root"},null,8,["widget"]))}});export{f as default};
