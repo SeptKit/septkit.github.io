@@ -7,6 +7,10 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [29] - 2026-02-24
+
+- File IO update
+
 ## [27] - 2026-02-11
 
 - Rename menu item "Save" to "Save a Copy"
