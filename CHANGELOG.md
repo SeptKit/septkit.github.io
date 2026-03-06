@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [30] - 2026-03-02
+
+### Fixed
+
+- All Extensions now update correctly when switching the active file (no reload needed)
+
 ## [29] - 2026-02-24
 
 - File IO update
