@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [31] - 2026-03-06
+
+### Fixed
+
+- PWA update
+
 ## [30] - 2026-03-02
 
 ### Fixed
