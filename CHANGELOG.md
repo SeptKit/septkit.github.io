@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [33] - 2026-03-13
+
+### Changed
+
+- Add History Hitem with initial version and revision when creating a new project
+
 ## [31] - 2026-03-06
 
 ### Fixed
