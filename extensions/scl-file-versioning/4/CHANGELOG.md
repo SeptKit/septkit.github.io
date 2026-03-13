@@ -7,7 +7,7 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
-## [3] - 2026-03-13
+## [4] - 2026-03-13
 
 ### Fixed
 
