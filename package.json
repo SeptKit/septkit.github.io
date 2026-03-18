@@ -1,7 +1,7 @@
 {
 	"name": "@septkit/shell",
 	"displayName": "Shell",
-	"version": "33",
+	"version": "34",
 	"private": true,
 	"type": "module",
 	"scripts": {
