@@ -7,6 +7,18 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [37] - 2026-03-26
+
+### Added
+
+- Path reference to uuid equivalent resolution on import
+
+## [36] - 2026-03-26
+
+### Fixed
+
+- Correct order of SMV FCDA dataset on export
+
 ## [33] - 2026-03-13
 
 ### Changed
