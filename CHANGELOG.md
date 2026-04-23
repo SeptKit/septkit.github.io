@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [38] - 2026-04-01
+
+### Changed
+
+- Security update
+
 ## [37] - 2026-03-26
 
 ### Added
