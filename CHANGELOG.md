@@ -7,6 +7,18 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [39] - 2026-04-24
+
+### Changed
+
+- File import and export now use the Dialecte SCL library, improving attribute handling and schema compliance
+- File picker accepts all supported SCL extensions instead of a hardcoded value
+- Export flow simplified - formatting and download handled automatically
+
+### Removed
+
+- `@septkit/fileio` dependency replaced by `@dialecte/scl`
+
 ## [38] - 2026-04-01
 
 ### Changed
