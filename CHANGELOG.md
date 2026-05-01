@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [40] - 2026-05-01
+
+### Added
+
+- File switcher in navbar: select dropdown lists all IndexedDB databases and allows switching the active file
+
 ## [39] - 2026-04-24
 
 ### Changed
