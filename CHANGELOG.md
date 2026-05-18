@@ -7,6 +7,19 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [41] - 2026-05-05
+
+### Added
+
+- Namespace mismatch handling on file open with dedicated update modal
+- Generic `BaseModal` component and reusable dialog store/modal for alert and confirm flows
+- Component and store tests for namespace update and modal interactions
+
+### Changed
+
+- Replaced native `window.alert` and `window.confirm` usage with app-level dialog modal flows
+- New file and namespace dialogs now use the shared modal base component
+
 ## [40] - 2026-05-01
 
 ### Added
