@@ -7,6 +7,20 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [42] - 2026-05-19
+
+### Added
+
+- Project-based data management: open, switch, and restore projects across sessions
+
+### Changed
+
+- Menu actions renamed to project-centric (Open Project, Add Document, New Project)
+
+### Removed
+
+- Active SCL file info badge in navbar (replaced by project-level tracking)
+
 ## [41] - 2026-05-05
 
 ### Added

@@ -1,7 +1,7 @@
 {
 	"name": "@septkit/shell",
 	"displayName": "Shell",
-	"version": "41",
+	"version": "42",
 	"private": true,
 	"type": "module",
 	"scripts": {
@@ -32,7 +32,8 @@
 		"unlink:all": "rm -rf ./node_modules/@septkit && pnpm install"
 	},
 	"dependencies": {
-		"@dialecte/scl": "^0.1.15",
+		"@dialecte/core": "0.2.12",
+		"@dialecte/scl": "0.2.8",
 		"@septkit/fileio": "catalog:",
 		"@septkit/ui": "catalog:",
 		"@tailwindcss/vite": "4.2.2",
