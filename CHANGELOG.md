@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [44] - 2026-06-22
+
+### Added
+
+- "All Extensions" changelog view combining recent entries from every extension, newest first
+
 ## [42] - 2026-05-19
 
 ### Added

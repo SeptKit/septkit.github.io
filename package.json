@@ -1,7 +1,7 @@
 {
 	"name": "@septkit/shell",
 	"displayName": "Shell",
-	"version": "43",
+	"version": "44",
 	"private": true,
 	"type": "module",
 	"scripts": {
@@ -62,7 +62,7 @@
 		"jiti": "^2.6.1",
 		"npm-run-all2": "^8.0.4",
 		"oxlint": "~1.6.0",
-		"playwright": "^1.59.1",
+		"playwright": "catalog:",
 		"prettier": "3.5.3",
 		"typescript": "~5.8.3",
 		"vite": "^8.0.8",
