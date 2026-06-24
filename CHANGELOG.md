@@ -7,6 +7,17 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [45] - 2026-06-23
+
+### Fixed
+
+- Namespace update no longer produces invalid XML for files without an `eIEC61850-6-100` declaration, so OpenSCD-created SLD files can be opened and saved again
+
+### Changed
+
+- Namespace mismatch modal now shows a before/after overview table (Namespace, Loaded File, After Import, Action) with Update / Create / Keep actions
+- Modal lists additional namespace declarations (e.g. `eLabelInfo`, `esld`, `sxy`) as read-only Keep rows when they carry a version/revision/release triplet
+
 ## [44] - 2026-06-22
 
 ### Added
