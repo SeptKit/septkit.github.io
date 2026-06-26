@@ -1,17 +1,17 @@
 [
-	"https://septkit.github.io/extensions/structure/64/",
+	"https://septkit.github.io/extensions/structure/65/",
 	"https://septkit.github.io/extensions/dataflow/51/",
-	"https://septkit.github.io/extensions/explorer/13/",
+	"https://septkit.github.io/extensions/explorer/14/",
 	"https://septkit.github.io/extensions/ied-browser/8/",
 	"https://septkit.github.io/extensions/label-manager/15/",
 	"https://septkit.github.io/extensions/library/9/",
 	"https://septkit.github.io/extensions/merging-editor/4/",
 	"https://septkit.github.io/extensions/behavior-description/14/",
 	"https://septkit.github.io/extensions/logic-editor/5/",
-	"https://septkit.github.io/extensions/notes-sidebar/4/",
+	"https://septkit.github.io/extensions/notes-sidebar/5/",
 	"https://septkit.github.io/extensions/openscd-plugin-loader/20/",
-	"https://septkit.github.io/extensions/s-ied-implementation/16/",
-	"https://septkit.github.io/extensions/scl-file-versioning/10/",
-	"https://septkit.github.io/extensions/compare/6/",
+	"https://septkit.github.io/extensions/s-ied-implementation/17/",
+	"https://septkit.github.io/extensions/scl-file-versioning/11/",
+	"https://septkit.github.io/extensions/compare/7/",
 	"https://septkit.github.io/extensions/validation/1/"
 ]
