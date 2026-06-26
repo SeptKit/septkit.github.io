@@ -5,7 +5,11 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to a simple versioning system, increasing the number by one for each modification.
 
-## [UNRELEASED]
+## [46] - 2026-06-26
+
+### Fixed
+
+- Extension cleanup failures during a widget switch no longer abort switching to the next extension
 
 ## [45] - 2026-06-23
 
