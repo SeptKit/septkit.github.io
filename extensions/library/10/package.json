@@ -1,0 +1,81 @@
+{
+	"name": "@septkit/ext-library",
+	"version": "10",
+	"displayName": "Library",
+	"description": "Library",
+	"private": true,
+	"type": "module",
+	"contributes": {
+		"primarySidebars": [
+			{
+				"id": "sprinteins.ext-library.sidebar",
+				"displayName": "NSD",
+				"icon": "/assets/icon.svg",
+				"entryPoint": "/set-sidebar.js"
+			}
+		],
+		"customEditors": [
+			{
+				"id": "sprinteins.ext-library.data-type-templates",
+				"displayName": "DataTypeTemplates",
+				"fileSelectors": [
+					"SSD",
+					"ASD",
+					"SCD"
+				],
+				"entryPoint": "/set-editor.js"
+			}
+		]
+	},
+	"scripts": {
+		"dev": "vite --force",
+		"build": "vite build",
+		"build:watch": "npm run build -- --watch",
+		"build:serve": "concurrently \"npm run preview\" \"npm run build:watch\"",
+		"preview": "vite preview --port 54945",
+		"test": "vitest --project unit",
+		"test:watch": "pnpm test --watch",
+		"build-only": "vite build",
+		"type-check": "vue-tsc --build",
+		"lint": "oxlint . --fix -D correctness --ignore-path .gitignore",
+		"format": "prettier --write src/",
+		"format:check": "prettier --check src/",
+		"install:browser": "pnpm exec playwright install chromium",
+		"ci-tests": "npm run format:check && npm run lint && npm run type-check && npm run build && npm run test"
+	},
+	"dependencies": {
+		"@dialecte/core": "catalog:",
+		"@dialecte/nsd": "0.0.1",
+		"@dialecte/scl": "catalog:",
+		"@septkit/shell-lib": "catalog:",
+		"@septkit/ui": "catalog:",
+		"@tailwindcss/vite": "4.2.2",
+		"@vueuse/core": "^14.2.1",
+		"pinia": "^3.0.4",
+		"tailwindcss": "4.2.2",
+		"vite-plugin-css-injected-by-js": "^3.5.2",
+		"vite-plugin-static-copy": "^4.0.1",
+		"vue": "^3.5.32"
+	},
+	"devDependencies": {
+		"@testing-library/vue": "^8.1.0",
+		"@tsconfig/node24": "24.0.0",
+		"@types/jsdom": "^21.1.7",
+		"@types/node": "^22.19.17",
+		"@vitejs/plugin-vue": "^6.0.5",
+		"@vitest/browser-playwright": "^4.1.4",
+		"@vue/test-utils": "^2.4.6",
+		"@vue/tsconfig": "^0.9.1",
+		"concurrently": "^9.2.1",
+		"daisyui": "^5.5.19",
+		"jiti": "^2.6.1",
+		"oxlint": "~1.6.0",
+		"playwright": "catalog:",
+		"prettier": "3.5.3",
+		"typescript": "~5.8.3",
+		"vite": "^8.0.8",
+		"vite-plugin-vue-devtools": "^8.1.1",
+		"vitest": "^4.1.4",
+		"vue-tsc": "^3.2.6"
+	}
+}
