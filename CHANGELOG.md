@@ -5,6 +5,28 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to a simple versioning system, increasing the number by one for each modification.
 
+## [48] - 2026-07-05
+
+### Added
+
+- Project tree panel: browse, switch, and expand projects directly in the primary sidebar, always visible above the active extension widget and resizable independently of it
+
+### Changed
+
+- Project tree moved from the Explorer extension into the shell (previously disappeared when switching to a widget without one)
+
+## [47] - 2026-07-02
+
+### Added
+
+- Close and reopen the left sidebar by clicking its active icon in the activity bar
+- On small screens the sidebar starts closed and opens via the activity bar icons
+
+### Changed
+
+- Dragging the left sidebar below its minimum width now snaps it closed
+- Improved spacing between the activity bar icons
+
 ## [46] - 2026-06-26
 
 ### Fixed
