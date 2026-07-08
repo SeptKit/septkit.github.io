@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to a simple versioning system, increasing the number by one for each modification.
 
+## [49] - 2026-07-07
+
+### Fixed
+
+- Iframe-based editors (the OpenSCD editors: Single Line Editor, Template Generator, Template Updater, DataType Templates) now follow the active document. Selecting a different file in the project tree updates the editor instead of staying stuck on the first document that was opened.
+
 ## [48] - 2026-07-05
 
 ### Added
