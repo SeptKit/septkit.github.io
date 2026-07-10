@@ -1,7 +1,7 @@
 {
 	"name": "@septkit/shell",
 	"displayName": "Shell",
-	"version": "49",
+	"version": "50",
 	"private": true,
 	"type": "module",
 	"scripts": {
@@ -29,7 +29,9 @@
 		"unlink:ui": "rm -rf ./node_modules/@septkit/ui && pnpm install",
 		"link:fileio": "rm -rf ./node_modules/@septkit/fileio && ln -s ../../../fileio ./node_modules/@septkit/fileio",
 		"unlink:fileio": "rm -rf ./node_modules/@septkit/fileio && pnpm install",
-		"unlink:all": "rm -rf ./node_modules/@septkit && pnpm install"
+		"unlink:all": "rm -rf ./node_modules/@septkit && pnpm install",
+		"//====== CI ======//": "",
+		"ci-tests": "npm run format:check && npm run lint && npm run build && npm run test"
 	},
 	"dependencies": {
 		"@dialecte/core": "catalog:",
