@@ -9,6 +9,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [50] - 2026-07-10
 
+### Fixed
+
+- Hide prefixed disposable documents from projects
+
+## [50] - 2026-07-10
+
 ### Changed
 
 - Project document lists now stay in sync automatically and remain sorted by name.
