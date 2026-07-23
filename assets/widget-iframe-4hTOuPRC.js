@@ -1,0 +1,1 @@
+import{P as e,Y as t,ht as n,z as r}from"./extension-api-DdB7t3g3.js";import{r as i,t as a}from"./widget-portal-CRBANVFg.js";var o=r({__name:`widget-iframe`,setup(r){let o=n();return a(window,e=>{console.debug(`widget-iframe expect`,{newWidget:e}),o.value=e}),(n,r)=>(t(),e(i,{widget:o.value,rootId:`main-area-widget-root`},null,8,[`widget`]))}});export{o as default};
