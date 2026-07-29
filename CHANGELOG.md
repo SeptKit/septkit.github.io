@@ -7,6 +7,17 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [56] 2026-07-27
+
+### Changed
+
+- Improved OpenSCD extension behavior.
+
+### Fixed
+
+- Fixed an error that could occur when switching quickly between editor tabs.
+- Fixed OpenSCD-based plugins (e.g. Supervision) staying blank after switching the active project while the plugin's tab stayed open.
+
 ## [50] - 2026-07-10
 
 ### Fixed
