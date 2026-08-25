@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [23] - 2026-08-25
+
+### Fixed
+
+- `AllAtLeastOneGroup(n)` DOs declared directly on an LNClass (not nested inside a DA) now correctly render as a multi-select in the LNodeType tree, instead of incorrectly showing as an `AllOnlyOneGroup` single-select
+
 ## [22] - 2026-08-21
 
 ### Added
