@@ -7,9 +7,16 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [28] - 2026-08-31
+
+### Added
+
+- Eligible ICD data values can now be selected in the data-model comparison and imported when applying an IED implementation
+- A selected value matched only against the vendor's data-model type (no `DAI` instance in the ICD) now creates the missing `DOI`/`SDI`/`DAI` chain on apply
+
 ## [27] - 2026-08-14
 
-## Fixed
+### Fixed
 
 - Clicking "Edit Link" or "Resolve" now reopens the browser panel if it was previously dragged fully closed
 

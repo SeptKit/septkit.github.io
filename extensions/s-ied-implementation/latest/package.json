@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-specification-ied-implementation",
-	"version": "27",
+	"version": "28",
 	"displayName": "S-IED Implementation",
 	"description": "SeptKit extension - S-IED implementation",
 	"private": true,
