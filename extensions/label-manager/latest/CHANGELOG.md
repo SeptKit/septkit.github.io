@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to a simple versioning system, increasing the number by one for each modification.
 
+## [25] - 2026-08-31
+
+### Fixed
+
+- Boolean label properties are now edited with a checkbox instead of a True/False dropdown; selecting a value now reliably persists and is displayed, where previously choosing "False" appeared to do nothing
+
 ## [24] - 2026-08-25
 
 ### Changed
