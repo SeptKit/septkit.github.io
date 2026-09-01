@@ -7,6 +7,13 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [13] - 2026-09-01
+
+### Fixed
+
+- Importing a PLCopen file no longer loses the connections between blocks: the network now appears complete on the first import, without the canvas flickering
+- A change that could not be stored - because the opened document could not be loaded, or because a connection was lost while writing - now shows the "Not saved" indicator instead of disappearing silently
+
 ## [12] - 2026-08-19
 
 ### Added
