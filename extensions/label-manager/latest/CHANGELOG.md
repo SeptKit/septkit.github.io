@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to a simple versioning system, increasing the number by one for each modification.
 
+## [27] - 2026-09-02
+
+### Fixed
+
+- The "Printout IEC 104 Address list" button is now disabled until the label data has finished loading, so the export always reflects the loaded rows instead of producing an empty file when clicked too early
+
 ## [26] - 2026-09-01
 
 ### Added
