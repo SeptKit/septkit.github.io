@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [2] - 2026-09-02
+
+### Added
+
+- Dataflow Matrix View for specified Dataflows between LNodes
+
 ## [1] - 2026-09-01
 
 ### Added

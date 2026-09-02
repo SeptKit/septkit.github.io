@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-dataflow-matrix",
-	"version": "1",
+	"version": "2",
 	"displayName": "Dataflow Matrix",
 	"description": "Matrix view of dataflows between LNodes",
 	"private": true,
@@ -47,6 +47,7 @@
 	"dependencies": {
 		"@dialecte/core": "catalog:",
 		"@dialecte/scl": "catalog:",
+		"@lucide/vue": "^1.27.0",
 		"@septkit/shell-lib": "catalog:",
 		"@septkit/ui": "catalog:",
 		"@tailwindcss/vite": "4.2.2",
