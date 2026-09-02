@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to a simple versioning system, increasing the number by one for each modification.
 
+## [26] - 2026-09-01
+
+### Added
+
+- Export the project-wide IEC 104 address list to an Excel file via a "Printout IEC 104 Address list" button; each row lists the IEC 104 address (casdu, ioa, type), the 61850 data model path, the sending and receiving function, and the label information
+
 ## [25] - 2026-08-31
 
 ### Fixed
