@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [29] - 2026-09-03
+
+### Added
+
+- Load ICDs without Substation mappings and manually link their IED-side LNs or LN0s to specification LNodes
+
 ## [28] - 2026-08-31
 
 ### Added
