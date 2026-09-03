@@ -7,6 +7,14 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [30] - 2026-09-03
+
+### Changed
+
+- Inputs that are handled inside the IED can no longer be mapped: the Resolve action is disabled and the Inputs table shows "No mapping allowed"
+- Automatic matching no longer proposes an ExtRef for inputs that are handled inside the IED
+- The explorer tree no longer counts inputs handled inside the IED as missing ExtRefs, so an LNode can reach a complete count
+
 ## [29] - 2026-09-03
 
 ### Added
