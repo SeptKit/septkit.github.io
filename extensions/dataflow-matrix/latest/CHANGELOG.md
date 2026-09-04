@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [3] - 2026-09-03
+
+### Added
+
+- Click a populated matrix cell to see the specified dataflows between the two LNodes in a details sidebar
+
 ## [2] - 2026-09-02
 
 ### Added
