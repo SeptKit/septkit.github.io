@@ -7,6 +7,13 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [31] - 2026-09-04
+
+### Fixed
+
+- Performance improvements on apply changes
+- handling of namespaced attributes while taking over elements from another file
+
 ## [30] - 2026-09-03
 
 ### Changed
