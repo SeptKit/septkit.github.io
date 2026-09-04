@@ -7,6 +7,18 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [14] - 2026-09-03
+
+### Fixed
+
+- Opening a Behavior Description whose logic file is not stored in this browser - for example after exporting the project and importing it in another browser - now shows a "Logic file not found" message instead of silently opening an empty logic and overwriting the link to the original logic file
+- The "Logic file not found" message offers "Import logic file" to re-link the logic, and "Create new logic" to deliberately start over with an empty logic, after a confirmation
+- Opening the Logic Editor no longer links an empty logic file to the Behavior Description: the link is only written once the logic actually gets content, so a Behavior Description that was only looked at stays without a reference
+
+### Added
+
+- The Behavior Description overview shows "No logic file yet" when none is linked, and a "Logic file not found" marker when the linked file is not stored in this browser
+
 ## [13] - 2026-09-01
 
 ### Fixed

@@ -1,7 +1,7 @@
 {
 	"name": "@septkit/ext-logic-editor",
 	"displayName": "Logic Editor",
-	"version": "13",
+	"version": "14",
 	"description": "Create function block diagrams to document logic",
 	"private": true,
 	"type": "module",
