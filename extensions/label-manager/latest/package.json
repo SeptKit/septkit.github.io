@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-label-manager",
-	"version": "27",
+	"version": "28",
 	"displayName": "Label Manager",
 	"description": "Extension for managing labels",
 	"private": true,

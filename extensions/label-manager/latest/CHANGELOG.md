@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to a simple versioning system, increasing the number by one for each modification.
 
+## [28] - 2026-09-07
+
+### Fixed
+
+- Editing a value or property while a column filter is active now keeps the new value after the filter is removed; previously the table reverted to the old value (even though the change was saved) until the view was reopened
+
 ## [27] - 2026-09-02
 
 ### Fixed
