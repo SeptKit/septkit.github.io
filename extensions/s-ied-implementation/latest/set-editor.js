@@ -86373,7 +86373,7 @@ function dU(e) {
 function fU(e, t) {
 	let n = t.tokens.map((e) => e.toLowerCase()).filter(Boolean);
 	return e.filter((e) => {
-		if (t.pathConstraintEnabled && e.path !== t.targetPath) return !1;
+		if (!gU(t.targetKind, t.targetCdc, e.cdc) || t.pathConstraintEnabled && e.path !== t.targetPath) return !1;
 		let r = e.path.toLowerCase();
 		return n.every((e) => r.includes(e));
 	});
@@ -86385,15 +86385,15 @@ function pU(e, t, n) {
 		none: []
 	};
 	for (let i of e) {
-		let e = +(i.path === t.targetPath), a = dU(i), o = a === n.currentMatchId, s = {
+		let e = t.targetKind === "DOS", a = Number(i.path === t.targetPath) + Number(e), o = e ? 2 : 1, s = dU(i), c = s === n.currentMatchId, l = {
 			candidate: i,
-			score: e,
-			maxScore: 1,
-			compositeId: a,
-			isLinkedToCurrent: o,
-			isLinkedToOther: !o && n.linkedIds.has(a)
+			score: a,
+			maxScore: o,
+			compositeId: s,
+			isLinkedToCurrent: c,
+			isLinkedToOther: !c && n.linkedIds.has(s)
 		};
-		e === 1 ? r.perfect.push(s) : r.none.push(s);
+		a === o ? r.perfect.push(l) : a > 0 ? r.partial.push(l) : r.none.push(l);
 	}
 	return r;
 }
@@ -86406,7 +86406,7 @@ function hU(e, t, n) {
 	let i = [];
 	for (let t of e) {
 		let e = r.get(t.path);
-		e && i.push({
+		!e || !gU(t.kind, t.cdc, e.cdc) || i.push({
 			projectId: t.id,
 			tag: t.kind,
 			icd: {
@@ -86420,43 +86420,46 @@ function hU(e, t, n) {
 	}
 	return i;
 }
+function gU(e, t, n) {
+	return e !== "DOS" || !!t && t === n;
+}
 //#endregion
 //#region src/mapping/matching.service.ts
-async function gU(e) {
+async function _U(e) {
 	let [t, n] = await Promise.all([e.query.mapping.getIedTree(), e.query.mapping.getSubstationTree()]);
 	if (!t) return [];
 	let r = /* @__PURE__ */ new Map();
-	return vU(t, [], e, r, await yU(e, n, r));
+	return yU(t, [], e, r, await bU(e, n, r));
 }
-async function _U(e, t, n) {
+async function vU(e, t, n) {
 	let r = n.get(t.id);
 	if (r) return r;
 	let i = await e.query.getAttributes(t);
 	return n.set(t.id, i), i;
 }
-async function vU(e, t, n, r, i) {
+async function yU(e, t, n, r, i) {
 	if (e.tagName === "LN" || e.tagName === "LN0") {
-		let a = await _U(n, e, r), o = xU(t, a);
+		let a = await vU(n, e, r), o = SU(t, a);
 		return [{
 			targetRecord: e,
 			docId: n.documentId,
 			ancestors: t,
 			targetAttrs: a,
 			physicalAttrs: o,
-			specNamingAttrs: i.get(SU(o)) ?? null
+			specNamingAttrs: i.get(CU(o)) ?? null
 		}];
 	}
-	let a = e.tagName === "SCL" ? {} : await _U(n, e, r), o = e.tagName === "SCL" ? [] : [...t, {
+	let a = e.tagName === "SCL" ? {} : await vU(n, e, r), o = e.tagName === "SCL" ? [] : [...t, {
 		tag: e.tagName,
 		attrs: a
 	}];
-	return (await Promise.all((e.tree ?? []).map((e) => vU(e, o, n, r, i)))).flat();
+	return (await Promise.all((e.tree ?? []).map((e) => yU(e, o, n, r, i)))).flat();
 }
-async function yU(e, t, n) {
+async function bU(e, t, n) {
 	let r = /* @__PURE__ */ new Map();
 	if (!t) return r;
-	let i = await Promise.all(bU(t).map(async ({ lnode: t, naming: r }) => {
-		let [i, a] = await Promise.all([_U(e, t, n), _U(e, r, n)]);
+	let i = await Promise.all(xU(t).map(async ({ lnode: t, naming: r }) => {
+		let [i, a] = await Promise.all([vU(e, t, n), vU(e, r, n)]);
 		return {
 			attrs: i,
 			namingAttrs: a
@@ -86464,7 +86467,7 @@ async function yU(e, t, n) {
 	}));
 	for (let { attrs: e, namingAttrs: t } of i) {
 		if (!e.iedName) continue;
-		let n = SU({
+		let n = CU({
 			iedName: e.iedName,
 			ldInst: e.ldInst ?? "",
 			prefix: e.prefix ?? "",
@@ -86479,7 +86482,7 @@ async function yU(e, t, n) {
 	}
 	return r;
 }
-function bU(e) {
+function xU(e) {
 	let t = [];
 	if (e.tagName === "LNode") {
 		let n = e.tree?.find((e) => e.tagName === "LNodeSpecNaming");
@@ -86488,10 +86491,10 @@ function bU(e) {
 			naming: n
 		});
 	}
-	for (let n of e.tree ?? []) t.push(...bU(n));
+	for (let n of e.tree ?? []) t.push(...xU(n));
 	return t;
 }
-function xU(e, t) {
+function SU(e, t) {
 	let n = e.find((e) => e.tag === "IED"), r = e.find((e) => e.tag === "LDevice");
 	return {
 		iedName: n?.attrs.name ?? "",
@@ -86501,7 +86504,7 @@ function xU(e, t) {
 		lnInst: t.inst ?? ""
 	};
 }
-function SU(e) {
+function CU(e) {
 	return [
 		e.iedName,
 		e.ldInst,
@@ -86510,7 +86513,7 @@ function SU(e) {
 		e.lnInst
 	].join("|");
 }
-async function CU(e, t) {
+async function wU(e, t) {
 	if (t.tag === "LNodeSpecNaming") {
 		let n = await e.query.getRecord({
 			tagName: "LNodeSpecNaming",
@@ -86534,13 +86537,13 @@ async function CU(e, t) {
 }
 //#endregion
 //#region src/mapping/auto-match.service.ts
-async function wU(e) {
+async function TU(e) {
 	let { projectDoc: t, icdDocs: n, reservedIcdIds: r } = e;
 	if (n.length === 0) return [];
-	let i = (await Promise.all(n.map(gU))).flat();
+	let i = (await Promise.all(n.map(_U))).flat();
 	if (i.length === 0) return [];
 	i.sort((e, t) => e.docId.localeCompare(t.docId) || e.targetRecord.id.localeCompare(t.targetRecord.id));
-	let a = await TU(t);
+	let a = await EU(t);
 	if (a.size === 0) return [];
 	let o = new Set(r), s = [], c = await Promise.all((await t.query.getRecordsByTagName("LNode")).map(async (e) => {
 		let n = await t.query.getAttributes(e);
@@ -86573,18 +86576,18 @@ async function wU(e) {
 	}
 	return s;
 }
-async function TU(e) {
+async function EU(e) {
 	let t = /* @__PURE__ */ new Set(), n = await Promise.all((await e.query.getRecordsByTagName("IED")).map((t) => e.query.getAttributes(t)));
 	for (let { name: e, manufacturer: r } of n) r === "S_IED" && e && t.add(e);
 	return t;
 }
 //#endregion
 //#region src/data-model/flatten/flatten-data-model.service.ts
-async function EU(e, t) {
+async function DU(e, t) {
 	let { nodes: n } = await e.query.dataModel.flatten({ ref: t });
-	return n.map(DU);
+	return n.map(OU);
 }
-function DU(e) {
+function OU(e) {
 	return {
 		id: e.ref.id,
 		path: e.path,
@@ -86599,10 +86602,10 @@ function DU(e) {
 		valKind: e.valKind
 	};
 }
-async function OU(e, t) {
-	return (await e.query.dataModel.flattenSpec({ ref: t })).map(kU);
+async function kU(e, t) {
+	return (await e.query.dataModel.flattenSpec({ ref: t })).map(AU);
 }
-function kU(e) {
+function AU(e) {
 	return {
 		id: e.ref.id,
 		path: e.path,
@@ -86611,10 +86614,10 @@ function kU(e) {
 		valKind: e.valKind
 	};
 }
-async function AU(e, t) {
-	return (await e.query.dataModel.flattenInstance({ ref: t })).map(jU);
+async function jU(e, t) {
+	return (await e.query.dataModel.flattenInstance({ ref: t })).map(MU);
 }
-function jU(e) {
+function MU(e) {
 	return {
 		id: e.ref.id,
 		path: e.path,
@@ -86625,8 +86628,8 @@ function jU(e) {
 }
 //#endregion
 //#region src/data-model/refs/collect-refs.service.ts
-async function MU(e, t) {
-	let n = await FU(e, t, "LNodeInputs", "SourceRef"), r = [];
+async function NU(e, t) {
+	let n = await IU(e, t, "LNodeInputs", "SourceRef"), r = [];
 	for (let t of n) {
 		let n = await e.query.any.getAttributes(t);
 		r.push({
@@ -86638,13 +86641,13 @@ async function MU(e, t) {
 			pDA: n.pDA ?? "",
 			service: n.service ?? "",
 			extRefAddr: n.extRefAddr ?? "",
-			referencedLNodeId: await PU(e, t, "source")
+			referencedLNodeId: await FU(e, t, "source")
 		});
 	}
 	return r;
 }
-async function NU(e, t) {
-	let n = await FU(e, t, "LNodeOutputs", "ControlRef"), r = [];
+async function PU(e, t) {
+	let n = await IU(e, t, "LNodeOutputs", "ControlRef"), r = [];
 	for (let t of n) {
 		let n = await e.query.any.getAttributes(t);
 		r.push({
@@ -86654,15 +86657,15 @@ async function NU(e, t) {
 			pLN: n.pLN ?? "",
 			pDO: n.pDO ?? "",
 			extCtrlAddr: n.extCtrlAddr ?? "",
-			referencedLNodeId: await PU(e, t, "controlled")
+			referencedLNodeId: await FU(e, t, "controlled")
 		});
 	}
 	return r;
 }
-async function PU(e, t, n) {
+async function FU(e, t, n) {
 	return (await e.query.reference.resolveReferencePath(t, n))?.record?.id ?? null;
 }
-async function FU(e, t, n, r) {
+async function IU(e, t, n, r) {
 	let i = await e.query.any.getChildren(t, n), a = [];
 	for (let t of i) {
 		let i = await e.query.any.getChildren({
@@ -86675,13 +86678,13 @@ async function FU(e, t, n, r) {
 }
 //#endregion
 //#region src/data-model/refs/internal-service.ts
-var IU = "Internal";
-function LU(e) {
-	return e.service === IU;
+var LU = "Internal";
+function RU(e) {
+	return e.service === LU;
 }
 //#endregion
 //#region src/mapping/candidates.service.ts
-var RU = [
+var zU = [
 	"iedName",
 	"ldInst",
 	"prefix",
@@ -86689,7 +86692,7 @@ var RU = [
 	"lnInst",
 	"doName",
 	"daName"
-], zU = [
+], BU = [
 	"iedName",
 	"ldInst",
 	"prefix",
@@ -86697,41 +86700,43 @@ var RU = [
 	"lnInst",
 	"doName"
 ];
-async function BU(e) {
-	return KU(e, "ExtRef", LH, RU);
+async function VU(e) {
+	return qU(e, "ExtRef", LH, zU);
 }
-async function VU(e, t) {
-	return WU(e, "ExtRef", t);
+async function HU(e, t) {
+	return GU(e, "ExtRef", t);
 }
-async function HU(e) {
-	return KU(e, "ExtCtrl", RH, zU);
+async function UU(e) {
+	return qU(e, "ExtCtrl", RH, BU);
 }
-async function UU(e, t) {
-	return WU(e, "ExtCtrl", t);
+async function WU(e, t) {
+	return GU(e, "ExtCtrl", t);
 }
-async function WU(e, t, n) {
+async function GU(e, t, n) {
 	return (await e.query.reference.buildElementPath({
 		tagName: t,
 		id: n
 	}))?.path ?? null;
 }
-async function GU(e, t) {
+async function KU(e, t) {
 	let [{ nodes: n }, r] = await Promise.all([e.query.dataModel.flatten({ ref: t }), e.query.dataModel.flattenInstance({ ref: t })]), i = /* @__PURE__ */ new Map();
 	for (let t of n) i.set(t.path, {
 		id: t.ref.id,
 		docId: e.documentId,
 		path: t.path,
-		kind: t.kind
+		kind: t.kind,
+		cdc: t.cdc
 	});
 	for (let t of r) i.set(t.path, {
 		id: t.ref.id,
 		docId: e.documentId,
 		path: t.path,
-		kind: t.kind
+		kind: t.kind,
+		cdc: i.get(t.path)?.cdc
 	});
 	return [...i.values()];
 }
-async function KU(e, t, n, r) {
+async function qU(e, t, n, r) {
 	let i = await e.query.getRecordsByTagName(t), a = [];
 	for (let t of i) {
 		let i = await e.query.any.getAttributes(t), o = {};
@@ -86742,12 +86747,12 @@ async function KU(e, t, n, r) {
 			docId: e.documentId,
 			intAddr: i.intAddr ?? "",
 			attrs: o,
-			ownerLn: await qU(e, t)
+			ownerLn: await JU(e, t)
 		});
 	}
 	return a;
 }
-async function qU(e, t) {
+async function JU(e, t) {
 	let n = (await e.query.findAncestors(t, { stopAtTagName: "LN" })).find((e) => e.tagName === "LN" || e.tagName === "LN0");
 	if (!n) return;
 	let r = await e.query.any.getAttributes(n), i = `${r.prefix ?? ""}${r.lnClass ?? ""}${r.inst ?? ""}` || n.tagName;
@@ -86759,7 +86764,7 @@ async function qU(e, t) {
 }
 //#endregion
 //#region src/mapping/auto-children.service.ts
-async function JU(e) {
+async function YU(e) {
 	let { projectDoc: t, openIcd: n, lnMatches: r } = e, i = [], a = /* @__PURE__ */ new Map(), o = /* @__PURE__ */ new Map();
 	for (let e of r) {
 		let r = n(e.icd.documentId);
@@ -86769,24 +86774,25 @@ async function JU(e) {
 		let c = {
 			tagName: "LNode",
 			id: e.projectId
-		}, l = (await OU(t, c)).map((e) => ({
+		}, [l, u] = await Promise.all([kU(t, c), DU(t, c)]), d = new Map(u.filter((e) => e.kind === "DO").map((e) => [e.path, e.cdc])), f = l.map((e) => ({
 			id: e.id,
 			path: e.path,
-			kind: e.kind
+			kind: e.kind,
+			cdc: e.kind === "DOS" ? d.get(e.path) : void 0
 		}));
-		if (l.length > 0) {
-			let t = await GU(r, s);
-			i.push(...hU(l, t, {
+		if (f.length > 0) {
+			let t = await KU(r, s);
+			i.push(...hU(f, t, {
 				anchorId: e.projectId,
 				documentId: e.icd.documentId
 			}));
 		}
-		let u = (await MU(t, c)).filter((e) => !LU(e));
-		if (u.length > 0) {
-			let t = a.get(e.icd.documentId) ?? BU(r);
+		let p = (await NU(t, c)).filter((e) => !RU(e));
+		if (p.length > 0) {
+			let t = a.get(e.icd.documentId) ?? VU(r);
 			a.set(e.icd.documentId, t);
 			let n = await t;
-			i.push(...uU(u.map((e) => ({
+			i.push(...uU(p.map((e) => ({
 				id: e.id,
 				target: {
 					pLN: e.pLN,
@@ -86801,12 +86807,12 @@ async function JU(e) {
 				linkedLnId: s.id
 			}));
 		}
-		let d = await NU(t, c);
-		if (d.length > 0) {
-			let t = o.get(e.icd.documentId) ?? HU(r);
+		let m = await PU(t, c);
+		if (m.length > 0) {
+			let t = o.get(e.icd.documentId) ?? UU(r);
 			o.set(e.icd.documentId, t);
 			let n = await t;
-			i.push(...uU(d.map((e) => ({
+			i.push(...uU(m.map((e) => ({
 				id: e.id,
 				target: {
 					pLN: e.pLN,
@@ -86825,7 +86831,7 @@ async function JU(e) {
 }
 //#endregion
 //#region src/mapping/apply/apply.service.ts
-async function YU(e) {
+async function XU(e) {
 	let t = /* @__PURE__ */ new Set();
 	for (let n of await e.query.getRecordsByTagName("IED")) {
 		let { name: r, manufacturer: i } = await e.query.getAttributes(n);
@@ -86838,21 +86844,21 @@ async function YU(e) {
 	}
 	return n;
 }
-async function XU(e, t) {
+async function ZU(e, t) {
 	let n = [];
 	for (let r of await e.query.getRecordsByTagName("LNode")) (await e.query.getAttributes(r)).iedName === t && n.push(r.id);
 	return n;
 }
-async function ZU(e) {
+async function QU(e) {
 	let { projectDoc: t, viewedName: n, formerLnodeIds: r } = e;
-	if (await QU(t, n)) return null;
+	if (await $U(t, n)) return null;
 	for (let e of r) {
 		let { iedName: n } = await t.query.getAttributes({
 			tagName: "LNode",
 			id: e
 		});
 		if (!n || n === "None") continue;
-		let r = await QU(t, n);
+		let r = await $U(t, n);
 		if (r) return {
 			ref: r,
 			name: n
@@ -86860,21 +86866,21 @@ async function ZU(e) {
 	}
 	return null;
 }
-async function QU(e, t) {
+async function $U(e, t) {
 	for (let n of await e.query.getRecordsByTagName("IED")) if ((await e.query.getAttributes(n)).name === t) return {
 		tagName: "IED",
 		id: n.id
 	};
 	return null;
 }
-async function $U(e) {
+async function eW(e) {
 	let t = await e.query.getRecordsByTagName("IED");
 	return t.length > 0 ? t[0].id : null;
 }
-async function eW(e) {
+async function tW(e) {
 	let { projectDoc: t, plan: n, valueImportOverrides: r, openIcd: i, getIcdMeta: a } = e;
-	await tW(t, n);
-	let { entries: o, icds: s } = await rW(n, i, a);
+	await nW(t, n);
+	let { entries: o, icds: s } = await iW(n, i, a);
 	return s.length === 0 ? null : t.transaction((e) => e.mapping.applyPlan({
 		entries: o,
 		icds: s,
@@ -86882,20 +86888,20 @@ async function eW(e) {
 		valueImportOverrides: r
 	}));
 }
-async function tW(e, t) {
-	for (let n of t.values()) if (n.tag === "SourceRef" && LU(await e.query.getAttributes({
+async function nW(e, t) {
+	for (let n of t.values()) if (n.tag === "SourceRef" && RU(await e.query.getAttributes({
 		tagName: "SourceRef",
 		id: n.projectId
 	}))) throw Error(`Cannot map internal service input ${n.projectId}`);
 }
-async function nW(e) {
-	let { projectDoc: t, plan: n, openIcd: r, getIcdMeta: i } = e, { entries: a, icds: o } = await rW(n, r, i);
+async function rW(e) {
+	let { projectDoc: t, plan: n, openIcd: r, getIcdMeta: i } = e, { entries: a, icds: o } = await iW(n, r, i);
 	return t.query.mapping.computePlanStatus({
 		entries: a,
 		icds: o
 	});
 }
-async function rW(e, t, n) {
+async function iW(e, t, n) {
 	let r = [...e.values()].map((e) => ({
 		projectId: e.projectId,
 		tag: e.tag,
@@ -86905,7 +86911,7 @@ async function rW(e, t, n) {
 	for (let e of new Set(r.map((e) => e.icd.documentId))) {
 		let r = t(e);
 		if (!r) continue;
-		let a = await $U(r);
+		let a = await eW(r);
 		if (!a) continue;
 		let o = n(e);
 		i.push({
@@ -86926,7 +86932,7 @@ async function rW(e, t, n) {
 }
 //#endregion
 //#region src/mapping/apply/value-import-selection.store.ts
-var iW = zP("s-ied-implementation/value-import-selection", () => {
+var aW = zP("s-ied-implementation/value-import-selection", () => {
 	let e = /* @__PURE__ */ R(/* @__PURE__ */ new Map()), t = /* @__PURE__ */ R(/* @__PURE__ */ new Map());
 	function n(t, n) {
 		let r = new Map(e.value);
@@ -86953,8 +86959,8 @@ var iW = zP("s-ied-implementation/value-import-selection", () => {
 		isSelected: r,
 		reconcile: i
 	};
-}), aW = zP("s-ied-implementation/mapping-plan", () => {
-	let e = /* @__PURE__ */ R(/* @__PURE__ */ new Map()), t = iW(), n = /* @__PURE__ */ R(/* @__PURE__ */ new Set()), r = PH(), { loadedIcds: i, selectedIcdDocuments: a } = BP(r);
+}), oW = zP("s-ied-implementation/mapping-plan", () => {
+	let e = /* @__PURE__ */ R(/* @__PURE__ */ new Map()), t = aW(), n = /* @__PURE__ */ R(/* @__PURE__ */ new Set()), r = PH(), { loadedIcds: i, selectedIcdDocuments: a } = BP(r);
 	H(() => i.value.map((e) => e.documentId), (t) => {
 		let n = new Set(t), r = /* @__PURE__ */ new Set();
 		for (let t of e.value.values()) n.has(t.icd.documentId) || r.add(t.icd.documentId);
@@ -86969,7 +86975,7 @@ var iW = zP("s-ied-implementation/value-import-selection", () => {
 		for (let t of e.value.values()) t.source === "manual" && r.add(yH(t.icd));
 		o.value = !0;
 		try {
-			let i = await wU({
+			let i = await TU({
 				projectDoc: nP.value,
 				icdDocs: a.value,
 				reservedIcdIds: r
@@ -86987,7 +86993,7 @@ var iW = zP("s-ied-implementation/value-import-selection", () => {
 			e.value = wH(e.value, [], n.value);
 			return;
 		}
-		let o = await JU({
+		let o = await YU({
 			projectDoc: nP.value,
 			openIcd: (e) => r.openDocument(e),
 			lnMatches: a
@@ -87026,7 +87032,7 @@ var iW = zP("s-ied-implementation/value-import-selection", () => {
 	}
 	async function h() {
 		if (e.value.size === 0) return null;
-		let n = await eW({
+		let n = await tW({
 			projectDoc: nP.value,
 			plan: e.value,
 			valueImportOverrides: t.overrides,
@@ -87042,7 +87048,7 @@ var iW = zP("s-ied-implementation/value-import-selection", () => {
 			t() && (g.value = /* @__PURE__ */ new Map(), _.value = 0, v.value = 0);
 			return;
 		}
-		let n = await nW({
+		let n = await rW({
 			projectDoc: nP.value,
 			plan: e.value,
 			openIcd: (e) => r.openDocument(e),
@@ -87083,63 +87089,63 @@ var iW = zP("s-ied-implementation/value-import-selection", () => {
 		matchedIdFor: w,
 		idOf: T
 	};
-}), oW = new Set([
+}), sW = new Set([
 	"DOS",
 	"SDS",
 	"DAS"
 ]);
-function sW(e) {
+function cW(e) {
 	let { lnodeId: t, plan: n, totals: r } = e, i = n.get(t)?.source ?? "unlinked", a = 0, o = 0, s = 0;
-	for (let e of n.values()) e.anchorId === t && (e.tag === "SourceRef" ? a += 1 : e.tag === "ControlRef" ? o += 1 : oW.has(e.tag) && (s += 1));
+	for (let e of n.values()) e.anchorId === t && (e.tag === "SourceRef" ? a += 1 : e.tag === "ControlRef" ? o += 1 : sW.has(e.tag) && (s += 1));
 	return {
 		link: i,
-		sr: cW(a, r.sourceRefs),
-		cr: cW(o, r.controlRefs),
-		dm: cW(s, r.dataModel)
+		sr: lW(a, r.sourceRefs),
+		cr: lW(o, r.controlRefs),
+		dm: lW(s, r.dataModel)
 	};
 }
-function cW(e, t) {
+function lW(e, t) {
 	return {
 		done: e,
 		total: t
 	};
 }
-function lW(e) {
+function uW(e) {
 	return e.total > 0 && e.done >= e.total;
 }
 //#endregion
 //#region src/sidebar/lnode-totals.service.ts
-async function uW(e, t) {
+async function dW(e, t) {
 	let n = {
 		tagName: "LNode",
 		id: t
 	}, [r, i, a] = await Promise.all([
-		MU(e, n),
 		NU(e, n),
-		OU(e, n)
+		PU(e, n),
+		kU(e, n)
 	]);
 	return {
-		sourceRefs: r.filter((e) => !LU(e)).length,
+		sourceRefs: r.filter((e) => !RU(e)).length,
 		controlRefs: i.length,
 		dataModel: a.length
 	};
 }
-async function dW(e) {
+async function fW(e) {
 	return (await e.query.getRecordsByTagName("LNode")).map((e) => e.id);
 }
 //#endregion
 //#region src/sidebar/use-lnode-metrics.ts
-function fW() {
-	let { plan: e } = BP(aW()), t = /* @__PURE__ */ R(/* @__PURE__ */ new Map()), n = FH();
+function pW() {
+	let { plan: e } = BP(oW()), t = /* @__PURE__ */ R(/* @__PURE__ */ new Map()), n = FH();
 	async function r() {
-		let e = n(), r = nP.value, i = await dW(r), a = /* @__PURE__ */ new Map();
-		for (let e of i) a.set(e, await uW(r, e));
+		let e = n(), r = nP.value, i = await fW(r), a = /* @__PURE__ */ new Map();
+		for (let e of i) a.set(e, await dW(r, e));
 		e() && (t.value = a);
 	}
 	H(() => nP.value ? nP.value.documentId : null, () => void r(), { immediate: !0 });
 	function i(n) {
 		let r = t.value.get(n);
-		return r ? sW({
+		return r ? cW({
 			lnodeId: n,
 			plan: e.value,
 			totals: r
@@ -87149,18 +87155,18 @@ function fW() {
 }
 //#endregion
 //#region src/sidebar/components/lnode-metrics-badges.vue?vue&type=script&setup=true&lang.ts
-var pW = {
+var mW = {
 	key: 0,
 	class: "flex items-center gap-1 ml-2 pr-1 shrink-0"
-}, mW = ["title"], hW = ["title"], gW = ["title"], _W = /* @__PURE__ */ U({
+}, hW = ["title"], gW = ["title"], _W = ["title"], vW = /* @__PURE__ */ U({
 	__name: "lnode-metrics-badges",
 	props: { metrics: {} },
 	setup(e) {
 		let t = e;
 		function n(e) {
-			return e.total === 0 ? "badge-ghost opacity-50" : lW(e) ? "badge-ghost" : "badge-warning badge-soft";
+			return e.total === 0 ? "badge-ghost opacity-50" : uW(e) ? "badge-ghost" : "badge-warning badge-soft";
 		}
-		return (e, r) => t.metrics ? (G(), K("div", pW, [
+		return (e, r) => t.metrics ? (G(), K("div", mW, [
 			t.metrics.link === "unlinked" ? X("", !0) : (G(), q(z(qV), {
 				key: 0,
 				class: "size-3 text-base-content/40",
@@ -87171,26 +87177,26 @@ var pW = {
 				key: 1,
 				class: A(["badge badge-xs", n(t.metrics.dm)]),
 				title: `Data model: ${t.metrics.dm.done}/${t.metrics.dm.total} mapped`
-			}, "DM " + j(t.metrics.dm.done) + "/" + j(t.metrics.dm.total), 11, mW)) : X("", !0),
+			}, "DM " + j(t.metrics.dm.done) + "/" + j(t.metrics.dm.total), 11, hW)) : X("", !0),
 			t.metrics.sr.total > 0 ? (G(), K("span", {
 				key: 2,
 				class: A(["badge badge-xs", n(t.metrics.sr)]),
 				title: `Inputs: ${t.metrics.sr.done}/${t.metrics.sr.total} mapped`
-			}, "SR " + j(t.metrics.sr.done) + "/" + j(t.metrics.sr.total), 11, hW)) : X("", !0),
+			}, "SR " + j(t.metrics.sr.done) + "/" + j(t.metrics.sr.total), 11, gW)) : X("", !0),
 			t.metrics.cr.total > 0 ? (G(), K("span", {
 				key: 3,
 				class: A(["badge badge-xs", n(t.metrics.cr)]),
 				title: `Outputs: ${t.metrics.cr.done}/${t.metrics.cr.total} mapped`
-			}, "CR " + j(t.metrics.cr.done) + "/" + j(t.metrics.cr.total), 11, gW)) : X("", !0)
+			}, "CR " + j(t.metrics.cr.done) + "/" + j(t.metrics.cr.total), 11, _W)) : X("", !0)
 		])) : X("", !0);
 	}
-}), vW = {
+}), yW = {
 	key: 1,
 	class: "p-4 text-sm text-center text-base-content/70"
-}, yW = /* @__PURE__ */ U({
+}, bW = /* @__PURE__ */ U({
 	__name: "sidebar-explorer",
 	setup(e) {
-		let t = VP(), { selectedSied: n } = BP(t), { metricsFor: r } = fW(), { state: i, refresh: a } = wd({
+		let t = VP(), { selectedSied: n } = BP(t), { metricsFor: r } = pW(), { state: i, refresh: a } = wd({
 			document: nP,
 			fetcher: () => lH(nP.value, n.value),
 			initial: []
@@ -87210,22 +87216,22 @@ var pW = {
 			"onUpdate:expanded": n[0] ||= (e) => s.value = e,
 			onSelect: n[1] ||= (e) => z(t).selectedNode = e
 		}, {
-			"node-suffix": V(({ node: e }) => [e.tag === "LNode" ? (G(), q(_W, {
+			"node-suffix": V(({ node: e }) => [e.tag === "LNode" ? (G(), q(vW, {
 				key: 0,
 				metrics: z(r)(e.id)
 			}, null, 8, ["metrics"])) : X("", !0)]),
 			_: 1
-		}, 8, ["items", "expanded"])) : (G(), K("div", vW, " No data to display. Please select an S-IED with linked LNodes. "));
+		}, 8, ["items", "expanded"])) : (G(), K("div", yW, " No data to display. Please select an S-IED with linked LNodes. "));
 	}
-}), bW = { class: "grid grid-rows-[auto_1fr] h-full overflow-hidden" }, xW = {
+}), xW = { class: "grid grid-rows-[auto_1fr] h-full overflow-hidden" }, SW = {
 	class: "collapse collapse-arrow",
 	open: ""
-}, SW = { class: "collapse-content p-3" }, CW = { class: "grid grid-rows-[auto_1fr] overflow-hidden" }, wW = { class: "overflow-y-auto p-3" }, TW = /* @__PURE__ */ U({
+}, CW = { class: "collapse-content p-3" }, wW = { class: "grid grid-rows-[auto_1fr] overflow-hidden" }, TW = { class: "overflow-y-auto p-3" }, EW = /* @__PURE__ */ U({
 	__name: "primary-sidebar",
 	setup(e) {
-		return (e, t) => (G(), K("aside", bW, [J("details", xW, [t[0] ||= J("summary", { class: "collapse-title font-semibold border-b border-b-base-300" }, "Filter", -1), J("div", SW, [Y(_H)])]), J("section", CW, [t[1] ||= J("div", { class: "font-semibold border-b border-b-base-300 px-4 py-3 text-sm" }, "Explorer", -1), J("div", wW, [Y(yW)])])]));
+		return (e, t) => (G(), K("aside", xW, [J("details", SW, [t[0] ||= J("summary", { class: "collapse-title font-semibold border-b border-b-base-300" }, "Filter", -1), J("div", CW, [Y(_H)])]), J("section", wW, [t[1] ||= J("div", { class: "font-semibold border-b border-b-base-300 px-4 py-3 text-sm" }, "Explorer", -1), J("div", TW, [Y(bW)])])]));
 	}
-}), EW = zP("s-ied-implementation/dialog", () => {
+}), DW = zP("s-ied-implementation/dialog", () => {
 	let e = {
 		component: void 0,
 		props: void 0,
@@ -87255,58 +87261,58 @@ var pW = {
 		handleClose: i,
 		setCurrentDialog: a
 	};
-}), DW = { class: "modal-box w-11/12 max-w-3xl" }, OW = ["disabled"], kW = /* @__PURE__ */ ((e, t) => {
+}), OW = { class: "modal-box w-11/12 max-w-3xl" }, kW = ["disabled"], AW = /* @__PURE__ */ ((e, t) => {
 	let n = e.__vccOpts || e;
 	for (let [e, r] of t) n[e] = r;
 	return n;
 })(/* @__PURE__ */ U({
 	__name: "dialog-container",
 	setup(e) {
-		let t = EW(), { currentDialog: n } = BP(t), r = ei("dialogRef");
+		let t = DW(), { currentDialog: n } = BP(t), r = ei("dialogRef");
 		return Ri(() => {
 			r.value && (t.dialogRef = r.value);
 		}), (e, r) => (G(), K("dialog", {
 			class: "modal",
 			ref: "dialogRef",
 			onCancel: r[1] ||= (e) => z(n).isLoading?.value ? e.preventDefault() : null
-		}, [J("div", DW, [J("button", {
+		}, [J("div", OW, [J("button", {
 			class: "dialog-button",
 			onClick: r[0] ||= (...e) => z(t).handleClose && z(t).handleClose(...e),
 			disabled: z(n).isLoading?.value
-		}, [Y(z(iH), { class: "h-4 w-4" })], 8, OW), z(n).component ? (G(), q(Zi(z(n).component), ye(_s({ key: 0 }, z(n).props)), null, 16)) : X("", !0)])], 544));
+		}, [Y(z(iH), { class: "h-4 w-4" })], 8, kW), z(n).component ? (G(), q(Zi(z(n).component), ye(_s({ key: 0 }, z(n).props)), null, 16)) : X("", !0)])], 544));
 	}
 }), [["__scopeId", "data-v-8fb66709"]]);
 //#endregion
 //#region src/data-model/refs/node-attributes.service.ts
-async function AW(e) {
+async function jW(e) {
 	let { sclDocument: t, ref: n } = e, r = await t.query.any.getRecord(n);
 	return r ? await t.query.any.getAttributes(r) : {};
 }
-async function jW(e) {
+async function MW(e) {
 	let { sclDocument: t, parentRef: n, childTag: r } = e, i = (await t.query.any.getChildren(n, r))?.[0];
 	return i ? await t.query.any.getAttributes(i) : {};
 }
 //#endregion
 //#region src/data-model/merge/merge-data-model.ts
-function MW(e) {
+function NW(e) {
 	return !!e.spec || !!e.specDataType;
 }
-function NW(e) {
+function PW(e) {
 	return !!e.impl || !!e.implDataType;
 }
-function PW(e) {
+function FW(e) {
 	let t = /* @__PURE__ */ new Map(), n = [], r = (e) => {
 		let r = t.get(e);
 		return r || (r = { path: e }, t.set(e, r), n.push(e)), r;
 	};
-	for (let t of e.specDataType) r(t.path).specDataType = FW(t);
+	for (let t of e.specDataType) r(t.path).specDataType = IW(t);
 	for (let t of e.spec) r(t.path).spec = {
 		id: t.id,
 		kind: t.kind,
 		val: t.val,
 		valKind: t.valKind
 	};
-	for (let t of e.implDataType) r(t.path).implDataType = FW(t);
+	for (let t of e.implDataType) r(t.path).implDataType = IW(t);
 	for (let t of e.impl) r(t.path).impl = {
 		id: t.id,
 		kind: t.kind,
@@ -87315,7 +87321,7 @@ function PW(e) {
 	};
 	return n.map((e) => t.get(e));
 }
-function FW(e) {
+function IW(e) {
 	return {
 		kind: e.kind,
 		id: e.id,
@@ -87331,7 +87337,7 @@ function FW(e) {
 }
 //#endregion
 //#region src/data-model/status/status.ts
-var IW = {
+var LW = {
 	matched: {
 		label: "matched",
 		text: "text-base-content/40",
@@ -87356,40 +87362,40 @@ var IW = {
 		badge: "badge-error",
 		hint: "Present on both sides but the content differs — resolve or fork the type."
 	}
-}, LW = [
+}, RW = [
 	"mismatch",
 	"missing",
 	"extra",
 	"matched"
-], RW = {
+], zW = {
 	matched: 0,
 	extra: 1,
 	missing: 2,
 	mismatch: 3
 };
-function zW(e, t) {
-	return RW[e] >= RW[t] ? e : t;
-}
-function BW(e) {
-	return e.reduce((e, t) => zW(e, t), "matched");
+function BW(e, t) {
+	return zW[e] >= zW[t] ? e : t;
 }
 function VW(e) {
+	return e.reduce((e, t) => BW(e, t), "matched");
+}
+function HW(e) {
 	return e !== "matched";
 }
 //#endregion
 //#region src/data-model/tree/data-model-tree.helper.ts
-function HW(e) {
+function UW(e) {
 	return e.kind === "Val";
 }
 //#endregion
 //#region src/data-model/status/val-kind.ts
-var UW = "If true, an IED or IED configurator can import values modified by another tool from an SCD file, even if valKind=RO or valKind=Conf. The IED configurator remains responsible for value consistency and allowance.", WW = {
+var WW = "If true, an IED or IED configurator can import values modified by another tool from an SCD file, even if valKind=RO or valKind=Conf. The IED configurator remains responsible for value consistency and allowance.", GW = {
 	Spec: "Specification value defined during system specification; not visible online at the IED.",
 	Conf: "Configuration value defined during system configuration; not visible online at the IED.",
 	RO: "Read-only value available online at the IED; not writable during operation.",
 	Set: "Settable value available online at the IED; may be changed during operation."
 };
-function GW(e, t) {
+function KW(e, t) {
 	return e ? {
 		value: e,
 		inherited: !1
@@ -87398,26 +87404,26 @@ function GW(e, t) {
 		inherited: !0
 	} : { inherited: !1 };
 }
-function KW(e, t) {
-	let n = WW[e];
+function qW(e, t) {
+	let n = GW[e];
 	return t ? `${n}\n\nEffective valKind inherited from the data type.` : n;
 }
-function qW(e) {
-	return `${e ? "Value import permitted" : "Value import blocked"}: ${UW}`;
+function JW(e) {
+	return `${e ? "Value import permitted" : "Value import blocked"}: ${WW}`;
 }
 //#endregion
 //#region src/data-model/tree/build-data-model-tree.ts
-function JW(e) {
-	let t = MW(e), n = NW(e);
+function YW(e) {
+	let t = NW(e), n = PW(e);
 	return t && n ? "matched" : t ? "missing" : "extra";
 }
-function YW(e) {
-	let t = JW(e);
+function XW(e) {
+	let t = YW(e);
 	if (t !== "matched") return t;
 	let n = e.specDataType, r = e.implDataType;
 	return !n || !r ? "matched" : n.cdc !== r.cdc || n.bType !== r.bType || n.fc !== r.fc ? "mismatch" : "matched";
 }
-function XW(e, t = YW, n) {
+function ZW(e, t = XW, n) {
 	let r = /* @__PURE__ */ new Map(), i = [], a = (e) => {
 		let t = r.get(e);
 		if (t) return t;
@@ -87436,19 +87442,19 @@ function XW(e, t = YW, n) {
 	};
 	for (let r of e) {
 		let e = a(r.path);
-		e.spec = nG(r, "spec"), e.impl = nG(r, "impl"), e.kind = e.spec?.kind ?? e.impl?.kind ?? e.kind, e.specified = !!r.spec, e.specKind = r.spec?.kind, e.implKind = r.impl?.kind, e.specId = r.spec?.id, e.implId = r.impl?.id, e.valueImport = n?.get(r.path), e.status = t(r), e.children.push(...ZW(e, r));
+		e.spec = rG(r, "spec"), e.impl = rG(r, "impl"), e.kind = e.spec?.kind ?? e.impl?.kind ?? e.kind, e.specified = !!r.spec, e.specKind = r.spec?.kind, e.implKind = r.impl?.kind, e.specId = r.spec?.id, e.implId = r.impl?.id, e.valueImport = n?.get(r.path), e.status = t(r), e.children.push(...QW(e, r));
 	}
-	for (let e of i) aG(e);
+	for (let e of i) oG(e);
 	return i;
 }
-function ZW(e, t) {
+function QW(e, t) {
 	let n = [], r = e.depth + 1, i = t.specDataType?.enum ?? [], a = t.implDataType?.enum ?? [];
 	if (i.length || a.length) {
-		let t = new Set(i.map(eG)), o = new Set(a.map(eG)), s = /* @__PURE__ */ new Map();
-		for (let e of [...i, ...a]) s.set(eG(e), e);
+		let t = new Set(i.map(tG)), o = new Set(a.map(tG)), s = /* @__PURE__ */ new Map();
+		for (let e of [...i, ...a]) s.set(tG(e), e);
 		let c = [...s.entries()].sort((e, t) => e[1].ord - t[1].ord);
 		for (let [i, a] of c) {
-			let s = tG(t.has(i), o.has(i));
+			let s = nG(t.has(i), o.has(i));
 			n.push({
 				path: `${e.path}.[${a.ord}]`,
 				name: a.value,
@@ -87465,9 +87471,9 @@ function ZW(e, t) {
 			});
 		}
 	}
-	return n.push(...QW(e, t, r)), n;
+	return n.push(...$W(e, t, r)), n;
 }
-function QW(e, t, n) {
+function $W(e, t, n) {
 	let r = t.spec?.val, i = t.specDataType?.val, a = t.impl?.val, o = t.implDataType?.val;
 	if ([
 		r,
@@ -87475,7 +87481,7 @@ function QW(e, t, n) {
 		a,
 		o
 	].every((e) => e === void 0)) return [];
-	let s = r ?? i, c = a ?? o, l = tG(s !== void 0, c !== void 0), u = l === "matched" && s !== c ? "mismatch" : l, d = $W({
+	let s = r ?? i, c = a ?? o, l = nG(s !== void 0, c !== void 0), u = l === "matched" && s !== c ? "mismatch" : l, d = eG({
 		specEffective: s,
 		implEffective: c,
 		specFallback: r === void 0 && i !== void 0,
@@ -87524,21 +87530,21 @@ function QW(e, t, n) {
 		children: []
 	}];
 }
-function $W(e) {
+function eG(e) {
 	let { specEffective: t, implEffective: n, specFallback: r, implFallback: i, status: a } = e;
 	if (!r && !i) return;
 	let o = [];
 	return r && o.push(`Specification has no DAS value — using the type default "${t}".`), i && o.push(`IED has no DAI value — using the type default "${n}".`), a === "matched" ? o.push("Effective values match.") : a === "mismatch" ? o.push(`Effective values differ: "${t}" vs "${n}".`) : a === "missing" ? o.push("The IED defines no effective value.") : o.push("The specification defines no effective value."), o.join("\n");
 }
-function eG(e) {
+function tG(e) {
 	return `${e.ord}:${e.value}`;
 }
-function tG(e, t) {
+function nG(e, t) {
 	return e && t ? "matched" : e ? "missing" : "extra";
 }
-function nG(e, t) {
+function rG(e, t) {
 	if (t === "spec") {
-		if (!MW(e)) return;
+		if (!NW(e)) return;
 		let t = e.specDataType;
 		return {
 			kind: t?.kind ?? e.spec?.kind ?? "",
@@ -87546,10 +87552,10 @@ function nG(e, t) {
 			bType: t?.bType,
 			fc: t?.fc,
 			type: t?.type,
-			...rG(e.spec?.valKind, t?.valKind)
+			...iG(e.spec?.valKind, t?.valKind)
 		};
 	}
-	if (!NW(e)) return;
+	if (!PW(e)) return;
 	let n = e.implDataType;
 	return {
 		kind: n?.kind ?? e.impl?.kind ?? "",
@@ -87557,38 +87563,38 @@ function nG(e, t) {
 		bType: n?.bType,
 		fc: n?.fc,
 		type: n?.type,
-		...rG(e.impl?.valKind, n?.valKind)
+		...iG(e.impl?.valKind, n?.valKind)
 	};
 }
-function rG(e, t) {
-	let n = GW(e, t);
+function iG(e, t) {
+	let n = KW(e, t);
 	return n.value ? {
 		valKind: n.value,
 		valKindInherited: n.inherited
 	} : {};
 }
-function iG(e, t) {
+function aG(e, t) {
 	let n = e, r = 0, i;
 	for (let e of t) {
 		if (e.contextOnly) continue;
-		n = zW(n, e.rollup), r += (e.status === "matched" ? 0 : 1) + e.divergentCount;
-		let t = HW(e) ? e.status : e.valBadge;
-		t && (i = i ? zW(i, t) : t);
+		n = BW(n, e.rollup), r += (e.status === "matched" ? 0 : 1) + e.divergentCount;
+		let t = UW(e) ? e.status : e.valBadge;
+		t && (i = i ? BW(i, t) : t);
 	}
 	return {
-		rollup: BW([e, n]),
+		rollup: VW([e, n]),
 		divergentCount: r,
 		valBadge: i
 	};
 }
-function aG(e) {
-	for (let t of e.children) aG(t);
-	let t = iG(e.status, e.children);
+function oG(e) {
+	for (let t of e.children) oG(t);
+	let t = aG(e.status, e.children);
 	return e.rollup = t.rollup, e.divergentCount = t.divergentCount, t.valBadge && (e.valBadge = t.valBadge), e.rollup;
 }
 //#endregion
 //#region src/data-model/value-import/value-import.service.ts
-async function oG(e, t, n, r) {
+async function sG(e, t, n, r) {
 	let i = /* @__PURE__ */ new Set(), a = /* @__PURE__ */ new Map();
 	for (let e of n) {
 		e.impl?.kind === "DAI" && i.add(e.impl.id);
@@ -87623,7 +87629,7 @@ async function oG(e, t, n, r) {
 				tagName: s.side.kind,
 				id: n.icd.recordId
 			},
-			dataModelNode: sG(n.icd.recordId, s.path, s.side)
+			dataModelNode: cG(n.icd.recordId, s.path, s.side)
 		});
 	}
 	let s = await Promise.all(o.map(async ({ path: n, projectDas: r, icdRef: i, dataModelNode: a }) => [n, await RN({
@@ -87641,7 +87647,7 @@ async function oG(e, t, n, r) {
 	})]));
 	return new Map(s);
 }
-function sG(e, t, n) {
+function cG(e, t, n) {
 	let r = n.kind;
 	return {
 		path: t,
@@ -87663,8 +87669,8 @@ function sG(e, t, n) {
 }
 //#endregion
 //#region src/data-model/use-specification-view.ts
-function cG() {
-	let { selectedNode: e } = BP(VP()), { plan: t } = BP(aW()), n = iW(), r = PH(), i = Z(() => e.value?.tag === "LNode"), a = /* @__PURE__ */ R(null), o = /* @__PURE__ */ R([]), s = /* @__PURE__ */ R([]), c = /* @__PURE__ */ R([]), l = /* @__PURE__ */ R([]), u = /* @__PURE__ */ R(!1), d = FH(), f = FH(), p = FH();
+function lG() {
+	let { selectedNode: e } = BP(VP()), { plan: t } = BP(oW()), n = aW(), r = PH(), i = Z(() => e.value?.tag === "LNode"), a = /* @__PURE__ */ R(null), o = /* @__PURE__ */ R([]), s = /* @__PURE__ */ R([]), c = /* @__PURE__ */ R([]), l = /* @__PURE__ */ R([]), u = /* @__PURE__ */ R(!1), d = FH(), f = FH(), p = FH();
 	async function m() {
 		let t = e.value;
 		if (!t || t.tag !== "LNode") {
@@ -87677,14 +87683,14 @@ function cG() {
 			let e = {
 				tagName: "LNode",
 				id: t.id
-			}, r = await AW({
+			}, r = await jW({
 				sclDocument: nP.value,
 				ref: e
-			}), i = await jW({
+			}), i = await MW({
 				sclDocument: nP.value,
 				parentRef: e,
 				childTag: "LNodeSpecNaming"
-			}), [u, d] = await Promise.all([EU(nP.value, e), OU(nP.value, e)]), f = await MU(nP.value, e), p = await NU(nP.value, e);
+			}), [u, d] = await Promise.all([DU(nP.value, e), kU(nP.value, e)]), f = await NU(nP.value, e), p = await PU(nP.value, e);
 			if (!n()) return;
 			a.value = {
 				id: t.id,
@@ -87712,7 +87718,7 @@ function cG() {
 		if (!i) return y();
 		let a = r.openDocument(i.icd.documentId);
 		if (!a || !vH(i.icd)) return y();
-		let o = f(), s = await AW({
+		let o = f(), s = await jW({
 			sclDocument: a,
 			ref: {
 				tagName: i.icd.tag,
@@ -87725,7 +87731,7 @@ function cG() {
 			tagName: i.icd.tag,
 			id: i.icd.recordId
 		}, l = [], u = [];
-		if (c && ([l, u] = await Promise.all([AU(a, c), EU(a, c)]), !o())) return;
+		if (c && ([l, u] = await Promise.all([jU(a, c), DU(a, c)]), !o())) return;
 		let d = `${s.prefix ?? ""}${s.lnClass ?? ""}${s.lnInst ?? ""}`, p = [
 			s.iedName,
 			s.ldInst,
@@ -87740,12 +87746,12 @@ function cG() {
 		}, v.value = l, _.value = u;
 	}
 	H([e, Z(() => e.value?.tag === "LNode" ? t.value.get(e.value.id) : void 0)], () => b(), { immediate: !0 });
-	let x = Z(() => !!g.value), S = Z(() => PW({
+	let x = Z(() => !!g.value), S = Z(() => FW({
 		spec: s.value,
 		specDataType: o.value,
 		impl: v.value,
 		implDataType: _.value
-	})), C = /* @__PURE__ */ R(/* @__PURE__ */ new Map()), w = Z(() => JSON.stringify(S.value.flatMap((e) => {
+	})), C = Z(() => new Map(o.value.filter((e) => e.kind === "DO").map((e) => [e.path, e.cdc]))), w = /* @__PURE__ */ R(/* @__PURE__ */ new Map()), T = Z(() => JSON.stringify(S.value.flatMap((e) => {
 		if (e.spec?.kind !== "DAS") return [];
 		let n = t.value.get(e.spec.id);
 		return [[
@@ -87753,9 +87759,9 @@ function cG() {
 			n?.icd.documentId,
 			n?.icd.recordId
 		]];
-	}))), T = Z(() => {
+	}))), ee = Z(() => {
 		let e = /* @__PURE__ */ new Map();
-		for (let [t, r] of C.value) {
+		for (let [t, r] of w.value) {
 			let i = r.project.ref.id;
 			e.set(t, {
 				id: i,
@@ -87765,25 +87771,25 @@ function cG() {
 		}
 		return e;
 	});
-	async function ee() {
+	async function E() {
 		let e = p(), n = g.value?.documentId, i = n ? r.openDocument(n) : void 0;
 		if (!i) {
-			e() && (C.value = /* @__PURE__ */ new Map());
+			e() && (w.value = /* @__PURE__ */ new Map());
 			return;
 		}
-		let a = await oG(nP.value, i, S.value, t.value);
-		e() && (C.value = a);
+		let a = await sG(nP.value, i, S.value, t.value);
+		e() && (w.value = a);
 	}
 	H([
 		S,
-		w,
+		T,
 		() => nP.value.documentId,
 		() => g.value?.documentId
-	], () => ee(), { immediate: !0 });
-	function E(e, t) {
+	], () => E(), { immediate: !0 });
+	function te(e, t) {
 		n.setSelected(e, t);
 	}
-	let te = Z(() => XW(S.value, void 0, T.value));
+	let ne = Z(() => ZW(S.value, void 0, ee.value));
 	return {
 		isLnodeSelected: i,
 		loading: u,
@@ -87795,35 +87801,36 @@ function cG() {
 			return n ? t.value.get(n.id)?.source ?? null : null;
 		}),
 		dataModelRows: o,
+		dataModelCdcByPath: C,
 		specRows: s,
 		unifiedRows: S,
-		unifiedTree: te,
-		setValueImportSelected: E,
+		unifiedTree: ne,
+		setValueImportSelected: te,
 		sourceRefs: c,
 		controlRefs: l
 	};
 }
 //#endregion
 //#region src/data-model/components/tabs/specification-header.vue?vue&type=script&setup=true&lang.ts
-var lG = { class: "flex items-stretch gap-3 px-4 py-3 bg-base-100 border-b border-base-300" }, uG = { class: "flex-1 min-w-0" }, dG = {
+var uG = { class: "flex items-stretch gap-3 px-4 py-3 bg-base-100 border-b border-base-300" }, dG = { class: "flex-1 min-w-0" }, fG = {
 	key: 0,
 	class: "flex flex-wrap items-center gap-1.5"
-}, fG = { class: "badge badge-primary badge-soft font-medium" }, pG = {
+}, pG = { class: "badge badge-primary badge-soft font-medium" }, mG = {
 	key: 0,
 	class: "badge badge-sm badge-ghost"
-}, mG = {
+}, hG = {
 	key: 1,
 	class: "text-sm text-base-content/50"
-}, hG = {
+}, gG = {
 	key: 2,
 	class: "mt-2 flex flex-wrap gap-1 rounded-box bg-base-200 p-2"
-}, gG = { class: "flex items-center shrink-0 text-base-content/30" }, _G = { class: "flex-1 min-w-0" }, vG = {
+}, _G = { class: "flex items-center shrink-0 text-base-content/30" }, vG = { class: "flex-1 min-w-0" }, yG = {
 	key: 0,
 	class: "flex flex-wrap items-center gap-1.5"
-}, yG = { class: "badge badge-success badge-soft font-medium" }, bG = ["title"], xG = { class: "text-xs text-base-content/50 truncate" }, SG = {
+}, bG = { class: "badge badge-success badge-soft font-medium" }, xG = ["title"], SG = { class: "text-xs text-base-content/50 truncate" }, CG = {
 	key: 1,
 	class: "flex items-center gap-2"
-}, CG = /* @__PURE__ */ U({
+}, wG = /* @__PURE__ */ U({
 	__name: "specification-header",
 	props: {
 		spec: {},
@@ -87837,12 +87844,12 @@ var lG = { class: "flex items-stretch gap-3 px-4 py-3 bg-base-100 border-b borde
 		function n(e) {
 			return `${e.prefix ?? ""}${e.lnClass ?? ""}${e.lnInst ?? ""}` || "—";
 		}
-		return (r, i) => (G(), K("div", lG, [
-			J("div", uG, [
+		return (r, i) => (G(), K("div", uG, [
+			J("div", dG, [
 				i[4] ||= J("div", { class: "text-xs uppercase tracking-wide text-base-content/40 mb-1" }, "Specification", -1),
-				e.spec ? (G(), K("div", dG, [
-					J("span", fG, j(n(e.spec.attrs)), 1),
-					e.spec.attrs.ldInst ? (G(), K("span", pG, "ldInst: " + j(e.spec.attrs.ldInst), 1)) : X("", !0),
+				e.spec ? (G(), K("div", fG, [
+					J("span", pG, j(n(e.spec.attrs)), 1),
+					e.spec.attrs.ldInst ? (G(), K("span", mG, "ldInst: " + j(e.spec.attrs.ldInst), 1)) : X("", !0),
 					e.spec.specNaming ? (G(), K("button", {
 						key: 1,
 						type: "button",
@@ -87850,37 +87857,37 @@ var lG = { class: "flex items-stretch gap-3 px-4 py-3 bg-base-100 border-b borde
 						title: "Toggle LNodeSpecNaming details",
 						onClick: i[0] ||= (e) => t.value = !t.value
 					}, [Y(z(KV), { class: "size-3" }), i[3] ||= fs(" LNodeSpecNaming ", -1)], 2)) : X("", !0)
-				])) : (G(), K("p", mG, "No selection")),
-				e.spec?.specNaming && t.value ? (G(), K("div", hG, [(G(!0), K(Jo, null, ta(e.spec.specNaming, (e, t) => (G(), K("span", {
+				])) : (G(), K("p", hG, "No selection")),
+				e.spec?.specNaming && t.value ? (G(), K("div", gG, [(G(!0), K(Jo, null, ta(e.spec.specNaming, (e, t) => (G(), K("span", {
 					key: t,
 					class: "badge badge-sm badge-ghost"
 				}, j(t) + ": " + j(e || "—"), 1))), 128))])) : X("", !0)
 			]),
-			J("div", gG, [Y(z(FV), { class: "size-5" })]),
-			J("div", _G, [i[8] ||= J("div", { class: "text-xs uppercase tracking-wide text-base-content/40 mb-1" }, "Implementation", -1), e.isLinked && e.impl ? (G(), K("div", vG, [
-				J("span", yG, j(n(e.impl.attrs)), 1),
+			J("div", _G, [Y(z(FV), { class: "size-5" })]),
+			J("div", vG, [i[8] ||= J("div", { class: "text-xs uppercase tracking-wide text-base-content/40 mb-1" }, "Implementation", -1), e.isLinked && e.impl ? (G(), K("div", yG, [
+				J("span", bG, j(n(e.impl.attrs)), 1),
 				e.matchSource ? (G(), K("span", {
 					key: 0,
 					class: A(["badge badge-xs", e.matchSource === "auto" ? "badge-info badge-soft" : "badge-neutral badge-soft"]),
 					title: e.matchSource === "auto" ? "Automatically matched" : "Manually matched"
-				}, j(e.matchSource), 11, bG)) : X("", !0),
-				J("span", xG, j(e.impl.lnPath), 1),
+				}, j(e.matchSource), 11, xG)) : X("", !0),
+				J("span", SG, j(e.impl.lnPath), 1),
 				J("button", {
 					type: "button",
 					class: "btn btn-error btn-soft btn-xs gap-1",
 					onClick: i[1] ||= (e) => r.$emit("unlink")
 				}, [Y(z(rH), { class: "size-3" }), i[5] ||= fs(" Unlink ", -1)])
-			])) : (G(), K("div", SG, [i[7] ||= J("span", { class: "text-sm text-base-content/50" }, "Not linked", -1), J("button", {
+			])) : (G(), K("div", CG, [i[7] ||= J("span", { class: "text-sm text-base-content/50" }, "Not linked", -1), J("button", {
 				type: "button",
 				class: "btn btn-primary btn-sm gap-1",
 				onClick: i[2] ||= (e) => r.$emit("resolve")
 			}, [Y(z(qV), { class: "size-3.5" }), i[6] ||= fs(" Resolve LN ", -1)])]))])
 		]));
 	}
-}), wG = { class: "flex flex-col gap-1" }, TG = {
+}), TG = { class: "flex flex-col gap-1" }, EG = {
 	key: 0,
 	class: "flex flex-wrap gap-1"
-}, EG = ["onClick"], DG = /* @__PURE__ */ U({
+}, DG = ["onClick"], OG = /* @__PURE__ */ U({
 	__name: "token-filter-input",
 	props: {
 		modelValue: {},
@@ -87908,7 +87915,7 @@ var lG = { class: "flex items-stretch gap-3 px-4 py-3 bg-base-100 border-b borde
 		function l(e) {
 			e.key === "Enter" ? (n.canCommit ? n.canCommit(i.value) : i.value.trim()) && (e.preventDefault(), o(i.value)) : e.key === "Backspace" && !i.value && n.modelValue.length && s(n.modelValue[n.modelValue.length - 1]);
 		}
-		return (t, n) => (G(), K("div", wG, [e.modelValue.length ? (G(), K("div", TG, [(G(!0), K(Jo, null, ta(e.modelValue, (e) => W(t.$slots, "chip", {
+		return (t, n) => (G(), K("div", TG, [e.modelValue.length ? (G(), K("div", EG, [(G(!0), K(Jo, null, ta(e.modelValue, (e) => W(t.$slots, "chip", {
 			token: e,
 			remove: () => s(e)
 		}, () => [(G(), K("span", {
@@ -87918,7 +87925,7 @@ var lG = { class: "flex items-stretch gap-3 px-4 py-3 bg-base-100 border-b borde
 			type: "button",
 			class: "cursor-pointer ml-0.5",
 			onClick: Gl((t) => s(e), ["stop"])
-		}, "✕", 8, EG)]))])), 256))])) : X("", !0), Y(z(Uz), {
+		}, "✕", 8, DG)]))])), 256))])) : X("", !0), Y(z(Uz), {
 			"model-value": i.value,
 			"ignore-filter": !0,
 			"open-on-focus": !0,
@@ -87962,7 +87969,7 @@ var lG = { class: "flex items-stretch gap-3 px-4 py-3 bg-base-100 border-b borde
 			_: 1
 		}, 8, ["model-value"])]));
 	}
-}), OG = ["title", "aria-label"], kG = /* @__PURE__ */ U({
+}), kG = ["title", "aria-label"], AG = /* @__PURE__ */ U({
 	__name: "status-glyph",
 	props: { status: {} },
 	setup(e) {
@@ -87975,18 +87982,18 @@ var lG = { class: "flex items-stretch gap-3 px-4 py-3 bg-base-100 border-b borde
 		return (e, r) => (G(), K("span", {
 			role: "img",
 			class: "inline-flex items-center justify-center",
-			title: z(IW)[n.status].hint,
-			"aria-label": `${z(IW)[n.status].label}: ${z(IW)[n.status].hint}`
+			title: z(LW)[n.status].hint,
+			"aria-label": `${z(LW)[n.status].label}: ${z(LW)[n.status].hint}`
 		}, [(G(), q(Zi(t[n.status]), {
 			"aria-hidden": "true",
 			focusable: "false",
-			class: A(["size-3.5", z(IW)[n.status].text])
-		}, null, 8, ["class"]))], 8, OG));
+			class: A(["size-3.5", z(LW)[n.status].text])
+		}, null, 8, ["class"]))], 8, kG));
 	}
 });
 //#endregion
 //#region src/data-model/status/row-lifecycle.ts
-function AG(e, t) {
+function jG(e, t) {
 	if (t === "applied") return "applied";
 	if (t === "pending") return "pending";
 	switch (e) {
@@ -87996,7 +88003,7 @@ function AG(e, t) {
 		case "matched": return "matched";
 	}
 }
-var jG = {
+var MG = {
 	applied: {
 		label: "Applied",
 		badge: "badge-success badge-soft",
@@ -88027,7 +88034,7 @@ var jG = {
 		badge: "badge-ghost",
 		hint: "Present on both sides with equivalent content."
 	}
-}, MG = ["title"], NG = /* @__PURE__ */ U({
+}, NG = ["title"], PG = /* @__PURE__ */ U({
 	__name: "lifecycle-badge",
 	props: { lifecycle: {} },
 	setup(e) {
@@ -88040,15 +88047,15 @@ var jG = {
 			matched: IV
 		}, n = e;
 		return (e, r) => (G(), K("span", {
-			class: A(["badge badge-sm gap-1 whitespace-nowrap", z(jG)[n.lifecycle].badge]),
-			title: z(jG)[n.lifecycle].hint
+			class: A(["badge badge-sm gap-1 whitespace-nowrap", z(MG)[n.lifecycle].badge]),
+			title: z(MG)[n.lifecycle].hint
 		}, [(G(), q(Zi(t[n.lifecycle]), {
 			class: "size-3",
 			"aria-hidden": "true",
 			focusable: "false"
-		})), fs(" " + j(z(jG)[n.lifecycle].label), 1)], 10, MG));
+		})), fs(" " + j(z(MG)[n.lifecycle].label), 1)], 10, NG));
 	}
-}), PG = ["aria-label", "title"], FG = /* @__PURE__ */ U({
+}), FG = ["aria-label", "title"], IG = /* @__PURE__ */ U({
 	__name: "kind-icon",
 	props: {
 		kind: {},
@@ -88072,9 +88079,9 @@ var jG = {
 			key: 1,
 			"aria-hidden": "true",
 			class: A(["size-3 text-[0.5rem] font-bold leading-none flex items-center justify-center", n.value?.text])
-		}, j(e.kind.slice(0, 1)), 3))], 10, PG)) : X("", !0);
+		}, j(e.kind.slice(0, 1)), 3))], 10, FG)) : X("", !0);
 	}
-}), IG = { class: "text-right sticky right-0 bg-base-100" }, LG = ["disabled", "title"], RG = /* @__PURE__ */ U({
+}), LG = { class: "text-right sticky right-0 bg-base-100" }, RG = ["disabled", "title"], zG = /* @__PURE__ */ U({
 	__name: "plan-action-cell",
 	props: {
 		pending: { type: Boolean },
@@ -88086,7 +88093,7 @@ var jG = {
 	emits: ["resolve"],
 	setup(e, { emit: t }) {
 		let n = t;
-		return (t, r) => (G(), K("td", IG, [J("button", {
+		return (t, r) => (G(), K("td", LG, [J("button", {
 			type: "button",
 			class: "btn btn-xs btn-primary btn-soft gap-1 whitespace-nowrap disabled:opacity-40 disabled:cursor-not-allowed",
 			disabled: !!e.blockedReason || !e.pending && !e.isLinked,
@@ -88095,22 +88102,22 @@ var jG = {
 		}, [Y(z(qV), {
 			class: "size-3",
 			"aria-hidden": "true"
-		}), fs(" " + j(e.pending ? "Edit Link" : "Resolve"), 1)], 8, LG)]));
+		}), fs(" " + j(e.pending ? "Edit Link" : "Resolve"), 1)], 8, RG)]));
 	}
 });
 //#endregion
 //#region src/data-model/tree/data-model-tree-view.ts
-function zG(e, t) {
+function BG(e, t) {
 	let n = e.path.toLowerCase();
 	return !(!t.tokens.every((e) => n.includes(e.toLowerCase())) || t.statuses.size > 0 && !t.statuses.has(e.status));
 }
-function BG(e, t) {
+function VG(e, t) {
 	if (t.tokens.length === 0 && t.statuses.size === 0) return [...e];
 	let n = [];
 	for (let r of e) {
 		if (r.contextOnly) continue;
-		let e = new Map(BG(r.children, t).map((e) => [e.path, e]));
-		if (zG(r, t) || e.size > 0) {
+		let e = new Map(VG(r.children, t).map((e) => [e.path, e]));
+		if (BG(r, t) || e.size > 0) {
 			let t = r.children.flatMap((t) => {
 				if (t.contextOnly) return t.contextFor && e.has(t.contextFor) ? [t] : [];
 				let n = e.get(t.path);
@@ -88119,13 +88126,13 @@ function BG(e, t) {
 			n.push({
 				...r,
 				children: t,
-				...iG(r.status, t)
+				...aG(r.status, t)
 			});
 		}
 	}
 	return n;
 }
-function VG(e, t, n = !1) {
+function HG(e, t, n = !1) {
 	let r = [], i = (e) => {
 		for (let a of e) {
 			let e = a.children.length > 0, o = e && (n || t(a.path));
@@ -88138,7 +88145,7 @@ function VG(e, t, n = !1) {
 	};
 	return i(e), r;
 }
-function HG(e) {
+function UG(e) {
 	let t = {
 		matched: 0,
 		extra: 0,
@@ -88149,49 +88156,49 @@ function HG(e) {
 	};
 	return n(e), t;
 }
-function UG(e) {
+function WG(e) {
 	let t = [], n = (e) => {
-		for (let r of e) r.children.length > 0 && (VW(r.rollup) || r.divergentCount > 0) && t.push(r.path), n(r.children);
+		for (let r of e) r.children.length > 0 && (HW(r.rollup) || r.divergentCount > 0) && t.push(r.path), n(r.children);
 	};
 	return n(e), t;
 }
 //#endregion
 //#region src/data-model/components/tree/data-model-tree.vue?vue&type=script&setup=true&lang.ts
-var WG = { class: "flex flex-col gap-2 min-h-0" }, GG = {
+var GG = { class: "flex flex-col gap-2 min-h-0" }, KG = {
 	key: 0,
 	class: "flex flex-wrap items-center gap-1.5"
-}, KG = ["title", "onClick"], qG = { class: "opacity-60" }, JG = { class: "overflow-auto min-h-0 rounded-box border border-base-300" }, YG = { class: "table table-sm table-pin-rows" }, XG = { class: "whitespace-nowrap" }, ZG = [
+}, qG = ["title", "onClick"], JG = { class: "opacity-60" }, YG = { class: "overflow-auto min-h-0 rounded-box border border-base-300" }, XG = { class: "table table-sm table-pin-rows" }, ZG = { class: "whitespace-nowrap" }, QG = [
 	"title",
 	"aria-label",
 	"onClick"
-], QG = {
+], $G = {
 	key: 1,
 	class: "inline-block w-3.5 shrink-0"
-}, $G = ["title"], eK = ["title", "aria-label"], tK = ["title", "aria-label"], nK = ["title", "aria-label"], rK = { class: "text-xs text-base-content/70 max-w-40" }, iK = ["title"], aK = ["aria-label", "title"], oK = { class: "truncate" }, sK = {
+}, eK = ["title"], tK = ["title", "aria-label"], nK = ["title", "aria-label"], rK = ["title", "aria-label"], iK = { class: "text-xs text-base-content/70 max-w-40" }, aK = ["title"], oK = ["aria-label", "title"], sK = { class: "truncate" }, cK = {
 	key: 0,
 	class: "text-base-content/40"
-}, cK = {
+}, lK = {
 	key: 2,
 	class: "text-base-content/30"
-}, lK = { class: "text-xs text-base-content/70 max-w-40" }, uK = ["title"], dK = ["aria-label", "title"], fK = {
+}, uK = { class: "text-xs text-base-content/70 max-w-40" }, dK = ["title"], fK = ["aria-label", "title"], pK = {
 	key: 1,
 	class: "truncate"
-}, pK = {
+}, mK = {
 	key: 2,
 	class: "text-base-content/30"
-}, mK = { class: "text-center" }, hK = {
+}, hK = { class: "text-center" }, gK = {
 	key: 0,
 	class: "sticky right-0 bg-base-100"
-}, gK = {
+}, _K = {
 	class: "flex cursor-pointer items-center justify-center gap-2 rounded-md px-2 py-1 text-xs font-medium text-base-content/70 transition-colors hover:bg-primary/10 has-[:checked]:bg-primary/10 has-[:checked]:text-primary focus-within:outline-2 focus-within:outline-primary",
 	title: "Import value"
-}, _K = ["checked", "onChange"], vK = {
+}, vK = ["checked", "onChange"], yK = {
 	key: 2,
 	class: "sticky right-0 bg-base-100"
-}, yK = { key: 0 }, bK = {
+}, bK = { key: 0 }, xK = {
 	colspan: "5",
 	class: "text-center text-sm text-base-content/40 py-6"
-}, xK = 12, SK = /* @__PURE__ */ U({
+}, SK = 12, CK = /* @__PURE__ */ U({
 	__name: "data-model-tree",
 	props: {
 		nodes: {},
@@ -88199,7 +88206,7 @@ var WG = { class: "flex flex-col gap-2 min-h-0" }, GG = {
 	},
 	emits: ["resolve", "value-import-selection"],
 	setup(e, { emit: t }) {
-		let n = e, r = t, i = aW(), { plan: a } = BP(i), o = Z(() => HG(n.nodes)), s = Z(() => LW.filter((e) => o.value[e] > 0)), c = /* @__PURE__ */ R(/* @__PURE__ */ new Set());
+		let n = e, r = t, i = oW(), { plan: a } = BP(i), o = Z(() => UG(n.nodes)), s = Z(() => RW.filter((e) => o.value[e] > 0)), c = /* @__PURE__ */ R(/* @__PURE__ */ new Set());
 		function l(e) {
 			let t = new Set(c.value);
 			t.has(e) ? t.delete(e) : t.add(e), c.value = t;
@@ -88210,11 +88217,11 @@ var WG = { class: "flex flex-col gap-2 min-h-0" }, GG = {
 			if (!t) return [];
 			let r = /* @__PURE__ */ new Set(), i = (e) => {
 				for (let n of e) {
-					if (n.path.toLowerCase().includes(t) && n.path.toLowerCase() !== t && r.add(n.path), r.size >= xK) return;
+					if (n.path.toLowerCase().includes(t) && n.path.toLowerCase() !== t && r.add(n.path), r.size >= SK) return;
 					i(n.children);
 				}
 			};
-			return i(n.nodes), [...r].slice(0, xK).map((e) => ({
+			return i(n.nodes), [...r].slice(0, SK).map((e) => ({
 				value: e,
 				terminal: !0
 			}));
@@ -88225,12 +88232,12 @@ var WG = { class: "flex flex-col gap-2 min-h-0" }, GG = {
 			t.has(e) ? t.delete(e) : t.add(e), f.value = t;
 		}
 		function h() {
-			f.value = new Set(UG(n.nodes));
+			f.value = new Set(WG(n.nodes));
 		}
-		let g = Z(() => BG(n.nodes, {
+		let g = Z(() => VG(n.nodes, {
 			tokens: u.value,
 			statuses: c.value
-		})), _ = Z(() => VG(g.value, (e) => f.value.has(e), p.value));
+		})), _ = Z(() => HG(g.value, (e) => f.value.has(e), p.value));
 		function v(e) {
 			if (!e.specId) return null;
 			let t = a.value.get(e.specId);
@@ -88240,7 +88247,7 @@ var WG = { class: "flex flex-col gap-2 min-h-0" }, GG = {
 			return !e.specId || !a.value.get(e.specId) ? null : i.statusFor(e.specId);
 		}
 		function b(e) {
-			return AG(e.status, y(e));
+			return jG(e.status, y(e));
 		}
 		function x(e) {
 			return e.specKind ?? "DOS";
@@ -88259,10 +88266,10 @@ var WG = { class: "flex flex-col gap-2 min-h-0" }, GG = {
 			return e ? e.val ?? e.cdc ?? e.bType ?? "" : "";
 		}
 		function T(e) {
-			if (HW(e)) return e.contextOnly ? "DA" : "DAS";
+			if (UW(e)) return e.contextOnly ? "DA" : "DAS";
 		}
 		function ee(e) {
-			if (HW(e)) return e.contextOnly ? "DA" : "DAI";
+			if (UW(e)) return e.contextOnly ? "DA" : "DAI";
 		}
 		let E = {
 			DO: "Data Object",
@@ -88273,7 +88280,7 @@ var WG = { class: "flex flex-col gap-2 min-h-0" }, GG = {
 			Val: "Value"
 		};
 		function te(e) {
-			if (HW(e)) {
+			if (UW(e)) {
 				let t = e.contextOnly ? "Type default (DataTypeTemplates DA/BDA Val) — context only, not compared" : "Specified value (DAS Val) vs implemented value (DAI Val)";
 				return e.valueTip ? `${t}\n\n${e.valueTip}` : t;
 			}
@@ -88281,56 +88288,56 @@ var WG = { class: "flex flex-col gap-2 min-h-0" }, GG = {
 			return e.specKind && n.push(`specification: ${e.specKind}`), e.implKind && n.push(`implementation: ${e.implKind}`), n.length ? `${t}\n${n.join("\n")}` : t;
 		}
 		function ne(e) {
-			return HW(e) ? e.spec ? "Val" : void 0 : e.specKind ?? e.spec?.kind ?? void 0;
+			return UW(e) ? e.spec ? "Val" : void 0 : e.specKind ?? e.spec?.kind ?? void 0;
 		}
 		function re(e) {
-			return HW(e) ? e.impl ? "Val" : void 0 : e.implKind ?? e.impl?.kind ?? void 0;
+			return UW(e) ? e.impl ? "Val" : void 0 : e.implKind ?? e.impl?.kind ?? void 0;
 		}
 		function D(e) {
-			if (HW(e)) return te(e);
+			if (UW(e)) return te(e);
 			let t = ne(e);
 			return t ? e.specKind ? `Specification (${t})` : `Specification type (${t})` : "";
 		}
 		function ie(e) {
-			if (HW(e)) return te(e);
+			if (UW(e)) return te(e);
 			let t = re(e);
 			return t ? e.implKind ? `Implementation (${t})` : `Implementation type (${t})` : "";
 		}
 		function ae(e) {
-			return e?.valKind ? `${e.valKind}: ${KW(e.valKind, e.valKindInherited ?? !1)}` : "";
+			return e?.valKind ? `${e.valKind}: ${qW(e.valKind, e.valKindInherited ?? !1)}` : "";
 		}
-		return (t, n) => (G(), K("div", WG, [
-			s.value.length ? (G(), K("div", GG, [(G(!0), K(Jo, null, ta(s.value, (e) => (G(), K("button", {
+		return (t, n) => (G(), K("div", GG, [
+			s.value.length ? (G(), K("div", KG, [(G(!0), K(Jo, null, ta(s.value, (e) => (G(), K("button", {
 				key: e,
 				type: "button",
-				class: A(["badge gap-1 cursor-pointer text-xs shrink-0", c.value.has(e) ? `${z(IW)[e].badge} badge-soft` : "badge-outline opacity-50"]),
-				title: z(IW)[e].hint,
+				class: A(["badge gap-1 cursor-pointer text-xs shrink-0", c.value.has(e) ? `${z(LW)[e].badge} badge-soft` : "badge-outline opacity-50"]),
+				title: z(LW)[e].hint,
 				onClick: (t) => l(e)
 			}, [
-				Y(kG, { status: e }, null, 8, ["status"]),
-				fs(" " + j(z(IW)[e].label) + " ", 1),
-				J("span", qG, j(o.value[e]), 1)
-			], 10, KG))), 128)), J("button", {
+				Y(AG, { status: e }, null, 8, ["status"]),
+				fs(" " + j(z(LW)[e].label) + " ", 1),
+				J("span", JG, j(o.value[e]), 1)
+			], 10, qG))), 128)), J("button", {
 				type: "button",
 				class: "btn btn-ghost btn-xs ml-auto",
 				title: "Expand all branches with a divergence",
 				onClick: h
 			}, " Expand divergent ")])) : X("", !0),
-			Y(DG, {
+			Y(OG, {
 				modelValue: u.value,
 				"onUpdate:modelValue": n[0] ||= (e) => u.value = e,
 				suggest: d,
 				placeholder: "Filter by path…",
 				"empty-label": "No matching paths"
 			}, null, 8, ["modelValue"]),
-			J("div", JG, [J("table", YG, [n[2] ||= J("thead", null, [J("tr", null, [
+			J("div", YG, [J("table", XG, [n[2] ||= J("thead", null, [J("tr", null, [
 				J("th", null, "Element"),
 				J("th", null, "Specification"),
 				J("th", null, "Implementation"),
 				J("th", { class: "text-center" }, "Status"),
 				J("th", { class: "w-20 sticky right-0 bg-base-100" })
 			])], -1), J("tbody", null, [(G(!0), K(Jo, null, ta(_.value, ({ node: t, hasChildren: r, expanded: i }) => (G(), K("tr", { key: t.path }, [
-				J("td", XG, [J("div", {
+				J("td", ZG, [J("div", {
 					class: "flex items-center",
 					style: he({ paddingLeft: `${t.depth * 1.1}rem` })
 				}, [
@@ -88344,8 +88351,8 @@ var WG = { class: "flex flex-col gap-2 min-h-0" }, GG = {
 					}, [Y(z(RV), {
 						class: A(["size-3.5 transition-transform", { "rotate-90": i }]),
 						"aria-hidden": "true"
-					}, null, 8, ["class"])], 8, ZG)) : (G(), K("span", QG)),
-					Y(FG, {
+					}, null, 8, ["class"])], 8, QG)) : (G(), K("span", $G)),
+					Y(IG, {
 						kind: t.kind,
 						title: te(t),
 						class: "mx-1"
@@ -88353,36 +88360,36 @@ var WG = { class: "flex flex-col gap-2 min-h-0" }, GG = {
 					J("span", {
 						class: "text-xs font-medium text-base-content/70",
 						title: te(t)
-					}, j(t.name), 9, $G),
+					}, j(t.name), 9, eK),
 					t.valBadge && !t.valueImport ? (G(), K("span", {
 						key: 2,
-						class: A(["badge badge-xs badge-soft ml-1.5", z(IW)[t.valBadge].badge]),
-						title: `Values in this branch: ${z(IW)[t.valBadge].label}`,
-						"aria-label": `Values in this branch: ${z(IW)[t.valBadge].label}`
-					}, "Val", 10, eK)) : X("", !0),
-					t.valueImport && !z(HW)(t) ? (G(), K("span", {
+						class: A(["badge badge-xs badge-soft ml-1.5", z(LW)[t.valBadge].badge]),
+						title: `Values in this branch: ${z(LW)[t.valBadge].label}`,
+						"aria-label": `Values in this branch: ${z(LW)[t.valBadge].label}`
+					}, "Val", 10, tK)) : X("", !0),
+					t.valueImport && !z(UW)(t) ? (G(), K("span", {
 						key: 3,
-						class: A(["badge badge-xs badge-soft ml-1.5", t.valBadge ? z(IW)[t.valBadge].badge : "badge-ghost"]),
+						class: A(["badge badge-xs badge-soft ml-1.5", t.valBadge ? z(LW)[t.valBadge].badge : "badge-ghost"]),
 						"aria-label": "Value marker"
 					}, "Val", 2)) : X("", !0),
-					t.valueImport && !z(HW)(t) && t.valueImport.candidate.blockedReason !== "valImport-absent" ? (G(), K("span", {
+					t.valueImport && !z(UW)(t) && t.valueImport.candidate.blockedReason !== "valImport-absent" ? (G(), K("span", {
 						key: 4,
 						class: A(["badge badge-xs ml-1", t.valueImport.candidate.icd.valImport ? "badge-ghost text-base-content/60" : "badge-error badge-soft"]),
-						title: z(qW)(t.valueImport.candidate.icd.valImport),
+						title: z(JW)(t.valueImport.candidate.icd.valImport),
 						"aria-label": t.valueImport.candidate.icd.valImport ? "Value import permitted" : "Value import blocked"
-					}, "Import", 10, tK)) : X("", !0),
+					}, "Import", 10, nK)) : X("", !0),
 					r && !i && t.divergentCount > 0 ? (G(), K("span", {
 						key: 5,
-						class: A(["badge badge-xs badge-soft ml-1.5", z(IW)[t.rollup].badge]),
+						class: A(["badge badge-xs badge-soft ml-1.5", z(LW)[t.rollup].badge]),
 						title: `${t.divergentCount} divergent descendant(s)`,
 						"aria-label": `${t.divergentCount} divergent descendant(s)`
-					}, j(t.divergentCount), 11, nK)) : X("", !0)
+					}, j(t.divergentCount), 11, rK)) : X("", !0)
 				], 4)]),
-				J("td", rK, [J("div", {
+				J("td", iK, [J("div", {
 					class: "flex items-center gap-1.5 truncate",
 					title: w(t.spec)
 				}, [
-					Y(FG, {
+					Y(IG, {
 						kind: ne(t),
 						"color-kind": T(t),
 						title: D(t)
@@ -88396,14 +88403,14 @@ var WG = { class: "flex flex-col gap-2 min-h-0" }, GG = {
 						class: "badge badge-xs bg-scl-turquoise-50 text-scl-turquoise-800",
 						"aria-label": `Specification valKind ${t.spec.valKind}`,
 						title: ae(t.spec)
-					}, j(t.spec.valKind), 9, aK)) : X("", !0),
-					t.spec ? (G(), K(Jo, { key: 1 }, [J("span", oK, j(w(t.spec)), 1), t.spec.fc ? (G(), K("span", sK, "· " + j(t.spec.fc), 1)) : X("", !0)], 64)) : (G(), K("span", cK, "—"))
-				], 8, iK)]),
-				J("td", lK, [J("div", {
+					}, j(t.spec.valKind), 9, oK)) : X("", !0),
+					t.spec ? (G(), K(Jo, { key: 1 }, [J("span", sK, j(w(t.spec)), 1), t.spec.fc ? (G(), K("span", cK, "· " + j(t.spec.fc), 1)) : X("", !0)], 64)) : (G(), K("span", lK, "—"))
+				], 8, aK)]),
+				J("td", uK, [J("div", {
 					class: "flex items-center gap-1.5 truncate",
 					title: w(t.impl)
 				}, [
-					Y(FG, {
+					Y(IG, {
 						kind: re(t),
 						"color-kind": ee(t),
 						title: ie(t)
@@ -88417,20 +88424,20 @@ var WG = { class: "flex flex-col gap-2 min-h-0" }, GG = {
 						class: "badge badge-xs bg-scl-turquoise-50 text-scl-turquoise-800",
 						"aria-label": `Implementation valKind ${t.impl.valKind}`,
 						title: ae(t.impl)
-					}, j(t.impl.valKind), 9, dK)) : X("", !0),
-					t.impl ? (G(), K("span", fK, j(w(t.impl)), 1)) : (G(), K("span", pK, "—"))
-				], 8, uK)]),
-				J("td", mK, [t.contextOnly ? X("", !0) : (G(), q(NG, {
+					}, j(t.impl.valKind), 9, fK)) : X("", !0),
+					t.impl ? (G(), K("span", pK, j(w(t.impl)), 1)) : (G(), K("span", mK, "—"))
+				], 8, dK)]),
+				J("td", hK, [t.contextOnly ? X("", !0) : (G(), q(PG, {
 					key: 0,
 					lifecycle: b(t)
 				}, null, 8, ["lifecycle"]))]),
-				z(HW)(t) && !t.contextOnly && t.valueImport?.candidate.eligible ? (G(), K("td", hK, [J("label", gK, [J("input", {
+				z(UW)(t) && !t.contextOnly && t.valueImport?.candidate.eligible ? (G(), K("td", gK, [J("label", _K, [J("input", {
 					type: "checkbox",
 					class: "checkbox checkbox-primary checkbox-xs",
 					checked: t.valueImport.selected,
 					"aria-label": "Import value",
 					onChange: (e) => C(t, e)
-				}, null, 40, _K), n[1] ||= J("span", { class: "select-none" }, "Import", -1)])])) : t.specId ? (G(), q(RG, {
+				}, null, 40, vK), n[1] ||= J("span", { class: "select-none" }, "Import", -1)])])) : t.specId ? (G(), q(zG, {
 					key: 1,
 					pending: !!v(t),
 					"is-linked": e.isLinked,
@@ -88441,15 +88448,15 @@ var WG = { class: "flex flex-col gap-2 min-h-0" }, GG = {
 					"pending",
 					"is-linked",
 					"onResolve"
-				])) : (G(), K("td", vK))
-			]))), 128)), _.value.length ? X("", !0) : (G(), K("tr", yK, [J("td", bK, j(e.nodes.length ? "No elements match the filter." : "No data model (LNode has no lnType or spec)."), 1)]))])])])
+				])) : (G(), K("td", yK))
+			]))), 128)), _.value.length ? X("", !0) : (G(), K("tr", bK, [J("td", xK, j(e.nodes.length ? "No elements match the filter." : "No data model (LNode has no lnType or spec)."), 1)]))])])])
 		]));
 	}
 });
 //#endregion
 //#region src/data-model/refs/use-pending-ref-paths.ts
-function CK(e, t, n) {
-	let r = PH(), { plan: i } = BP(aW()), a = /* @__PURE__ */ R(/* @__PURE__ */ new Map()), o = FH();
+function wK(e, t, n) {
+	let r = PH(), { plan: i } = BP(oW()), a = /* @__PURE__ */ R(/* @__PURE__ */ new Map()), o = FH();
 	async function s() {
 		let s = o(), c = /* @__PURE__ */ new Map();
 		for (let a of B(e)) {
@@ -88468,11 +88475,11 @@ function CK(e, t, n) {
 }
 //#endregion
 //#region src/data-model/components/tabs/specification-inputs-tab.vue?vue&type=script&setup=true&lang.ts
-var wK = { class: "flex flex-col min-h-0 gap-2" }, TK = { class: "overflow-auto min-h-0 rounded-box border border-base-300" }, EK = { class: "table table-sm table-pin-rows" }, DK = { class: "font-medium text-xs" }, OK = { class: "text-xs" }, kK = { class: "text-xs" }, AK = { class: "text-xs" }, jK = { class: "text-xs" }, MK = { class: "text-xs" }, NK = { class: "whitespace-nowrap" }, PK = ["title"], FK = ["title"], IK = {
+var TK = { class: "flex flex-col min-h-0 gap-2" }, EK = { class: "overflow-auto min-h-0 rounded-box border border-base-300" }, DK = { class: "table table-sm table-pin-rows" }, OK = { class: "font-medium text-xs" }, kK = { class: "text-xs" }, AK = { class: "text-xs" }, jK = { class: "text-xs" }, MK = { class: "text-xs" }, NK = { class: "text-xs" }, PK = { class: "whitespace-nowrap" }, FK = ["title"], IK = ["title"], LK = {
 	key: 3,
 	class: "text-base-content/30 text-xs",
 	title: "No ExtRef selected"
-}, LK = { key: 0 }, RK = "Internal service — consumed inside the IED, no ExtRef mapping", zK = /* @__PURE__ */ U({
+}, RK = { key: 0 }, zK = "Internal service — consumed inside the IED, no ExtRef mapping", BK = /* @__PURE__ */ U({
 	__name: "specification-inputs-tab",
 	props: {
 		rows: {},
@@ -88480,13 +88487,13 @@ var wK = { class: "flex flex-col min-h-0 gap-2" }, TK = { class: "overflow-auto 
 	},
 	emits: ["resolve"],
 	setup(e, { emit: t }) {
-		let n = e, r = t, { plan: i } = BP(aW());
+		let n = e, r = t, { plan: i } = BP(oW());
 		function a(e) {
 			let t = i.value.get(e.id);
 			return t ? { source: t.source } : null;
 		}
-		let { pendingPaths: o } = CK(() => n.rows, "extRefAddr", VU);
-		return (t, n) => (G(), K("div", wK, [J("div", TK, [J("table", EK, [n[1] ||= J("thead", null, [J("tr", null, [
+		let { pendingPaths: o } = wK(() => n.rows, "extRefAddr", HU);
+		return (t, n) => (G(), K("div", TK, [J("div", EK, [J("table", DK, [n[1] ||= J("thead", null, [J("tr", null, [
 			J("th", null, "Input"),
 			J("th", null, "Inst"),
 			J("th", null, "pLN"),
@@ -88496,20 +88503,20 @@ var wK = { class: "flex flex-col min-h-0 gap-2" }, TK = { class: "overflow-auto 
 			J("th", null, "ExtRef"),
 			J("th", { class: "w-32 sticky right-0 bg-base-100" })
 		])], -1), J("tbody", null, [(G(!0), K(Jo, null, ta(e.rows, (t) => (G(), K("tr", { key: t.id }, [
-			J("td", DK, j(t.input || "—"), 1),
-			J("td", OK, j(t.inputInst || "—"), 1),
-			J("td", kK, j(t.pLN || "—"), 1),
-			J("td", AK, j(t.pDO || "—"), 1),
-			J("td", jK, j(t.pDA || "—"), 1),
-			J("td", MK, j(t.service || "—"), 1),
-			J("td", NK, [t.extRefAddr ? (G(), K("span", {
+			J("td", OK, j(t.input || "—"), 1),
+			J("td", kK, j(t.inputInst || "—"), 1),
+			J("td", AK, j(t.pLN || "—"), 1),
+			J("td", jK, j(t.pDO || "—"), 1),
+			J("td", MK, j(t.pDA || "—"), 1),
+			J("td", NK, j(t.service || "—"), 1),
+			J("td", PK, [t.extRefAddr ? (G(), K("span", {
 				key: 0,
 				class: "badge badge-xs badge-success badge-soft",
 				title: t.extRefAddr
-			}, j(t.extRefAddr), 9, PK)) : z(LU)(t) ? (G(), K("span", {
+			}, j(t.extRefAddr), 9, FK)) : z(RU)(t) ? (G(), K("span", {
 				key: 1,
 				class: "badge badge-xs badge-ghost",
-				title: RK
+				title: zK
 			}, "No mapping allowed")) : a(t) ? (G(), K("span", {
 				key: 2,
 				class: "badge badge-xs badge-soft gap-1",
@@ -88517,11 +88524,11 @@ var wK = { class: "flex flex-col min-h-0 gap-2" }, TK = { class: "overflow-auto 
 			}, [a(t).source === "manual" ? (G(), q(z(YV), {
 				key: 0,
 				class: "size-2.5"
-			})) : X("", !0), fs(j(z(o).get(t.id) ?? a(t).source), 1)], 8, FK)) : (G(), K("span", IK, "No ExtRef selected"))]),
-			Y(RG, {
+			})) : X("", !0), fs(j(z(o).get(t.id) ?? a(t).source), 1)], 8, IK)) : (G(), K("span", LK, "No ExtRef selected"))]),
+			Y(zG, {
 				pending: !!a(t),
 				"is-linked": e.isLinked,
-				"blocked-reason": z(LU)(t) ? RK : void 0,
+				"blocked-reason": z(RU)(t) ? zK : void 0,
 				"resolve-title": "Resolve to an ExtRef",
 				"pending-title": "Edit link in the ExtRef browser",
 				onResolve: (e) => r("resolve", t)
@@ -88531,16 +88538,16 @@ var wK = { class: "flex flex-col min-h-0 gap-2" }, TK = { class: "overflow-auto 
 				"blocked-reason",
 				"onResolve"
 			])
-		]))), 128)), e.rows.length ? X("", !0) : (G(), K("tr", LK, [...n[0] ||= [J("td", {
+		]))), 128)), e.rows.length ? X("", !0) : (G(), K("tr", RK, [...n[0] ||= [J("td", {
 			colspan: "8",
 			class: "text-center text-sm text-base-content/40 py-6"
 		}, " No source references on this LNode. ", -1)]]))])])])]));
 	}
-}), BK = { class: "flex flex-col min-h-0 gap-2" }, VK = { class: "overflow-auto min-h-0 rounded-box border border-base-300" }, HK = { class: "table table-sm table-pin-rows" }, UK = { class: "font-medium text-xs" }, WK = { class: "text-xs" }, GK = { class: "text-xs" }, KK = { class: "text-xs" }, qK = { class: "whitespace-nowrap" }, JK = ["title"], YK = ["title"], XK = {
+}), VK = { class: "flex flex-col min-h-0 gap-2" }, HK = { class: "overflow-auto min-h-0 rounded-box border border-base-300" }, UK = { class: "table table-sm table-pin-rows" }, WK = { class: "font-medium text-xs" }, GK = { class: "text-xs" }, KK = { class: "text-xs" }, qK = { class: "text-xs" }, JK = { class: "whitespace-nowrap" }, YK = ["title"], XK = ["title"], ZK = {
 	key: 2,
 	class: "text-base-content/30 text-xs",
 	title: "No ExtCtrl selected"
-}, ZK = { key: 0 }, QK = /* @__PURE__ */ U({
+}, QK = { key: 0 }, $K = /* @__PURE__ */ U({
 	__name: "specification-outputs-tab",
 	props: {
 		rows: {},
@@ -88548,13 +88555,13 @@ var wK = { class: "flex flex-col min-h-0 gap-2" }, TK = { class: "overflow-auto 
 	},
 	emits: ["resolve"],
 	setup(e, { emit: t }) {
-		let n = e, r = t, { plan: i } = BP(aW());
+		let n = e, r = t, { plan: i } = BP(oW());
 		function a(e) {
 			let t = i.value.get(e.id);
 			return t ? { source: t.source } : null;
 		}
-		let { pendingPaths: o } = CK(() => n.rows, "extCtrlAddr", UU);
-		return (t, n) => (G(), K("div", BK, [J("div", VK, [J("table", HK, [n[1] ||= J("thead", null, [J("tr", null, [
+		let { pendingPaths: o } = wK(() => n.rows, "extCtrlAddr", WU);
+		return (t, n) => (G(), K("div", VK, [J("div", HK, [J("table", UK, [n[1] ||= J("thead", null, [J("tr", null, [
 			J("th", null, "Output"),
 			J("th", null, "Inst"),
 			J("th", null, "pLN"),
@@ -88562,23 +88569,23 @@ var wK = { class: "flex flex-col min-h-0 gap-2" }, TK = { class: "overflow-auto 
 			J("th", null, "ExtCtrl"),
 			J("th", { class: "w-32 sticky right-0 bg-base-100" })
 		])], -1), J("tbody", null, [(G(!0), K(Jo, null, ta(e.rows, (t) => (G(), K("tr", { key: t.id }, [
-			J("td", UK, j(t.output || "—"), 1),
-			J("td", WK, j(t.outputInst || "—"), 1),
-			J("td", GK, j(t.pLN || "—"), 1),
-			J("td", KK, j(t.pDO || "—"), 1),
-			J("td", qK, [t.extCtrlAddr ? (G(), K("span", {
+			J("td", WK, j(t.output || "—"), 1),
+			J("td", GK, j(t.outputInst || "—"), 1),
+			J("td", KK, j(t.pLN || "—"), 1),
+			J("td", qK, j(t.pDO || "—"), 1),
+			J("td", JK, [t.extCtrlAddr ? (G(), K("span", {
 				key: 0,
 				class: "badge badge-xs badge-success badge-soft",
 				title: t.extCtrlAddr
-			}, j(t.extCtrlAddr), 9, JK)) : a(t) ? (G(), K("span", {
+			}, j(t.extCtrlAddr), 9, YK)) : a(t) ? (G(), K("span", {
 				key: 1,
 				class: "badge badge-xs badge-soft gap-1",
 				title: `${a(t).source === "auto" ? "Auto-matched" : "Manually linked"}: ${z(o).get(t.id) ?? "resolving…"}`
 			}, [a(t).source === "manual" ? (G(), q(z(YV), {
 				key: 0,
 				class: "size-2.5"
-			})) : X("", !0), fs(j(z(o).get(t.id) ?? a(t).source), 1)], 8, YK)) : (G(), K("span", XK, "No ExtCtrl selected"))]),
-			Y(RG, {
+			})) : X("", !0), fs(j(z(o).get(t.id) ?? a(t).source), 1)], 8, XK)) : (G(), K("span", ZK, "No ExtCtrl selected"))]),
+			Y(zG, {
 				pending: !!a(t),
 				"is-linked": e.isLinked,
 				"resolve-title": "Resolve to an ExtCtrl",
@@ -88589,21 +88596,21 @@ var wK = { class: "flex flex-col min-h-0 gap-2" }, TK = { class: "overflow-auto 
 				"is-linked",
 				"onResolve"
 			])
-		]))), 128)), e.rows.length ? X("", !0) : (G(), K("tr", ZK, [...n[0] ||= [J("td", {
+		]))), 128)), e.rows.length ? X("", !0) : (G(), K("tr", QK, [...n[0] ||= [J("td", {
 			colspan: "6",
 			class: "text-center text-sm text-base-content/40 py-6"
 		}, " No control references on this LNode. ", -1)]]))])])])]));
 	}
-}), $K = ["title"], eq = {
+}), eq = ["title"], tq = {
 	key: 0,
 	class: "flex flex-col gap-3"
-}, tq = {
+}, nq = {
 	key: 1,
 	class: "flex items-center justify-center py-8 text-sm text-base-content/50"
-}, nq = {
+}, rq = {
 	key: 2,
 	class: "-mx-6 px-2 max-h-[60vh] overflow-y-auto"
-}, rq = /* @__PURE__ */ U({
+}, iq = /* @__PURE__ */ U({
 	__name: "icd-tree-dialog",
 	props: {
 		documentId: {},
@@ -88626,31 +88633,31 @@ var wK = { class: "flex flex-col min-h-0 gap-2" }, TK = { class: "overflow-auto 
 		}), (t, n) => (G(), K(Jo, null, [J("h3", {
 			class: "font-bold text-lg mb-4 truncate",
 			title: e.filename
-		}, j(e.filename), 9, $K), i.value ? (G(), K("div", eq, [...n[1] ||= [ps("<div class=\"skeleton h-5 w-1/3 rounded\"></div><div class=\"skeleton h-5 w-1/2 rounded\"></div><div class=\"skeleton h-5 w-2/5 rounded\"></div><div class=\"skeleton h-5 w-3/5 rounded\"></div><div class=\"skeleton h-5 w-1/4 rounded\"></div><div class=\"skeleton h-5 w-2/3 rounded\"></div>", 6)]])) : r.value.length ? (G(), K("div", nq, [Y(z(Mv), {
+		}, j(e.filename), 9, eq), i.value ? (G(), K("div", tq, [...n[1] ||= [ps("<div class=\"skeleton h-5 w-1/3 rounded\"></div><div class=\"skeleton h-5 w-1/2 rounded\"></div><div class=\"skeleton h-5 w-2/5 rounded\"></div><div class=\"skeleton h-5 w-3/5 rounded\"></div><div class=\"skeleton h-5 w-1/4 rounded\"></div><div class=\"skeleton h-5 w-2/3 rounded\"></div>", 6)]])) : r.value.length ? (G(), K("div", rq, [Y(z(Mv), {
 			items: r.value,
 			expanded: a.value,
 			"onUpdate:expanded": n[0] ||= (e) => a.value = e
-		}, null, 8, ["items", "expanded"])])) : (G(), K("div", tq, " No data. "))], 64));
+		}, null, 8, ["items", "expanded"])])) : (G(), K("div", nq, " No data. "))], 64));
 	}
-}), iq = { class: "bg-primary shrink-0" }, aq = {
+}), aq = { class: "bg-primary shrink-0" }, oq = {
 	key: 0,
 	class: "flex items-center gap-1.5 text-sm text-primary-content/70 group-hover:text-primary-content"
-}, oq = {
+}, sq = {
 	key: 1,
 	class: "flex items-center gap-1.5 text-sm text-primary-content/80"
-}, sq = { class: "tabular-nums" }, cq = {
+}, cq = { class: "tabular-nums" }, lq = {
 	key: 0,
 	class: "bg-base-200 border-b border-base-300"
-}, lq = { class: "divide-y divide-base-300" }, uq = ["title"], dq = {
+}, uq = { class: "divide-y divide-base-300" }, dq = ["title"], fq = {
 	key: 0,
 	class: "text-xs text-base-content/40 tabular-nums shrink-0"
-}, fq = { class: "flex gap-1 ml-2 shrink-0" }, pq = ["onClick"], mq = ["onClick"], hq = { class: "flex justify-end px-4 py-2 border-t border-base-300" }, gq = /* @__PURE__ */ U({
+}, pq = { class: "flex gap-1 ml-2 shrink-0" }, mq = ["onClick"], hq = ["onClick"], gq = { class: "flex justify-end px-4 py-2 border-t border-base-300" }, _q = /* @__PURE__ */ U({
 	__name: "icd-section",
 	setup(e) {
-		let t = PH(), n = EW(), r = /* @__PURE__ */ R(!1);
+		let t = PH(), n = DW(), r = /* @__PURE__ */ R(!1);
 		function i(e) {
 			n.setCurrentDialog({
-				component: rq,
+				component: iq,
 				props: {
 					documentId: e.documentId,
 					filename: e.filename
@@ -88664,15 +88671,15 @@ var wK = { class: "flex flex-col min-h-0 gap-2" }, TK = { class: "overflow-auto 
 		});
 		return H(o, async (e) => {
 			e?.length && (await t.loadIcds(Array.from(e)), r.value = !0);
-		}), (e, n) => (G(), K(Jo, null, [J("header", iq, [J("button", {
+		}), (e, n) => (G(), K(Jo, null, [J("header", aq, [J("button", {
 			type: "button",
 			class: "group w-full flex items-center gap-3 px-4 py-2.5 cursor-pointer select-none hover:bg-primary-content/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-primary-content/60",
 			onClick: n[0] ||= (e) => z(t).loadedIcds.length ? r.value = !r.value : z(a)()
-		}, [n[3] ||= J("span", { class: "font-semibold text-base flex-1 text-primary-content text-left" }, "IED", -1), z(t).loadedIcds.length ? (G(), K("span", oq, [
+		}, [n[3] ||= J("span", { class: "font-semibold text-base flex-1 text-primary-content text-left" }, "IED", -1), z(t).loadedIcds.length ? (G(), K("span", sq, [
 			(G(), q(Zi(z(fv).IED), { class: "size-3" })),
-			J("span", sq, j(z(t).loadedIcds.length) + " ICD" + j(z(t).loadedIcds.length === 1 ? "" : "s"), 1),
+			J("span", cq, j(z(t).loadedIcds.length) + " ICD" + j(z(t).loadedIcds.length === 1 ? "" : "s"), 1),
 			(G(), q(Zi(r.value ? z(zV) : z(LV)), { class: "size-4" }))
-		])) : (G(), K("span", aq, [(G(), q(Zi(z(fv).IED), { class: "size-3" })), n[2] ||= fs(" Load ICD ", -1)]))])]), r.value && z(t).loadedIcds.length ? (G(), K("div", cq, [J("ul", lq, [(G(!0), K(Jo, null, ta(z(t).loadedIcds, (e) => (G(), K("li", {
+		])) : (G(), K("span", oq, [(G(), q(Zi(z(fv).IED), { class: "size-3" })), n[2] ||= fs(" Load ICD ", -1)]))])]), r.value && z(t).loadedIcds.length ? (G(), K("div", lq, [J("ul", uq, [(G(!0), K(Jo, null, ta(z(t).loadedIcds, (e) => (G(), K("li", {
 			key: e.documentId,
 			class: "flex items-center gap-3 px-4 py-2.5 group/row"
 		}, [
@@ -88680,27 +88687,27 @@ var wK = { class: "flex flex-col min-h-0 gap-2" }, TK = { class: "overflow-auto 
 			J("span", {
 				class: "flex-1 text-sm font-medium truncate",
 				title: e.filename
-			}, j(e.filename), 9, uq),
-			e.version || e.revision ? (G(), K("span", dq, j([e.version && `v${e.version}`, e.revision && `r${e.revision}`].filter(Boolean).join(" ")), 1)) : X("", !0),
-			J("div", fq, [J("button", {
+			}, j(e.filename), 9, dq),
+			e.version || e.revision ? (G(), K("span", fq, j([e.version && `v${e.version}`, e.revision && `r${e.revision}`].filter(Boolean).join(" ")), 1)) : X("", !0),
+			J("div", pq, [J("button", {
 				type: "button",
 				class: "btn btn-primary btn-soft btn-xs btn-circle opacity-0 group-hover/row:opacity-100 focus-visible:opacity-100 transition-opacity",
 				title: "Explore ICD tree",
 				onClick: (t) => i(e)
-			}, [Y(z($V), { class: "size-3" })], 8, pq), J("button", {
+			}, [Y(z($V), { class: "size-3" })], 8, mq), J("button", {
 				type: "button",
 				class: "btn btn-error btn-soft btn-xs btn-circle opacity-0 group-hover/row:opacity-100 focus-visible:opacity-100 transition-opacity",
 				title: "Remove ICD",
 				onClick: Gl((n) => z(t).removeIcd(e.documentId), ["stop"])
-			}, [Y(z(tH), { class: "size-3" })], 8, mq)])
-		]))), 128))]), J("div", hq, [J("button", {
+			}, [Y(z(tH), { class: "size-3" })], 8, hq)])
+		]))), 128))]), J("div", gq, [J("button", {
 			type: "button",
 			class: "btn btn-primary btn-soft btn-xs gap-1.5",
 			onClick: n[1] ||= (e) => z(a)()
 		}, [J("span", { class: A(["flex items-center justify-center rounded-full p-0.5", z(kg).IED?.background]) }, [(G(), q(Zi(z(fv).IED), { class: A(["size-3", z(kg).IED?.text]) }, null, 8, ["class"]))], 2), n[4] ||= fs(" Add ICD ", -1)])])])) : X("", !0)], 64));
 	}
-}), _q = "Unassigned";
-function vq(e) {
+}), vq = "Unassigned";
+function yq(e) {
 	return {
 		sied: e,
 		lnodes: 0,
@@ -88714,7 +88721,7 @@ function vq(e) {
 		total: 0
 	};
 }
-function yq(e, t, n) {
+function bq(e, t, n) {
 	switch (e.total++, t.source === "manual" ? e.manual++ : e.auto++, n === "applied" ? e.applied++ : e.pending++, t.tag) {
 		case "LNode":
 			e.lnodes++;
@@ -88732,13 +88739,13 @@ function yq(e, t, n) {
 			break;
 	}
 }
-function bq(e, t, n) {
-	let r = vq(""), i = /* @__PURE__ */ new Map();
+function xq(e, t, n) {
+	let r = yq(""), i = /* @__PURE__ */ new Map();
 	for (let a of e.values()) {
 		let e = n(a.projectId);
-		yq(r, a, e);
-		let o = a.tag === "LNode" ? a.projectId : a.anchorId, s = o && t.get(o) || _q, c = i.get(s);
-		c || (c = vq(s), i.set(s, c)), yq(c, a, e);
+		bq(r, a, e);
+		let o = a.tag === "LNode" ? a.projectId : a.anchorId, s = o && t.get(o) || vq, c = i.get(s);
+		c || (c = yq(s), i.set(s, c)), bq(c, a, e);
 	}
 	return {
 		total: r,
@@ -88747,17 +88754,17 @@ function bq(e, t, n) {
 }
 //#endregion
 //#region src/mapping/apply/use-apply.ts
-var xq = bq(/* @__PURE__ */ new Map(), /* @__PURE__ */ new Map(), () => "pending");
-function Sq() {
-	let e = aW(), { plan: t, pendingCount: n, appliedCount: r } = BP(e), { selectedSied: i } = BP(VP()), a = /* @__PURE__ */ R(xq), o = FH();
+var Sq = xq(/* @__PURE__ */ new Map(), /* @__PURE__ */ new Map(), () => "pending");
+function Cq() {
+	let e = oW(), { plan: t, pendingCount: n, appliedCount: r } = BP(e), { selectedSied: i } = BP(VP()), a = /* @__PURE__ */ R(Sq), o = FH();
 	async function s() {
 		let n = o();
 		if (!nP.value || t.value.size === 0) {
-			n() && (a.value = xq);
+			n() && (a.value = Sq);
 			return;
 		}
-		let r = await YU(nP.value);
-		n() && (a.value = bq(t.value, r, (t) => e.statusFor(t)));
+		let r = await XU(nP.value);
+		n() && (a.value = xq(t.value, r, (t) => e.statusFor(t)));
 	}
 	H([
 		() => t.value,
@@ -88768,7 +88775,7 @@ function Sq() {
 	let c = Z(() => n.value > 0), l = Z(() => t.value.size === 0 ? "Match at least one element to apply." : n.value === 0 ? "Nothing new to apply." : null), u = /* @__PURE__ */ R(!1), d = /* @__PURE__ */ R(null), f = /* @__PURE__ */ R(null);
 	async function p() {
 		if (!c.value || u.value) return;
-		let t = i.value, n = t && t !== "not-assigned" ? t.name : null, r = n && nP.value ? await XU(nP.value, n) : [];
+		let t = i.value, n = t && t !== "not-assigned" ? t.name : null, r = n && nP.value ? await ZU(nP.value, n) : [];
 		u.value = !0, d.value = null, f.value = null;
 		try {
 			let t = await e.applyPlan();
@@ -88785,7 +88792,7 @@ function Sq() {
 	}
 	async function m(e, t) {
 		if (!e || !nP.value) return;
-		let n = await ZU({
+		let n = await QU({
 			projectDoc: nP.value,
 			viewedName: e,
 			formerLnodeIds: t
@@ -88810,43 +88817,43 @@ function Sq() {
 }
 //#endregion
 //#region src/mapping/apply/apply-bar.vue?vue&type=script&setup=true&lang.ts
-var Cq = { class: "mt-auto flex items-center gap-3 px-4 py-2 border-t border-base-300 bg-base-100 shrink-0" }, wq = { class: "flex flex-wrap items-center gap-1.5 text-xs" }, Tq = { class: "badge badge-sm badge-ghost" }, Eq = { class: "badge badge-sm badge-ghost" }, Dq = { class: "badge badge-sm badge-ghost" }, Oq = { class: "badge badge-sm badge-ghost" }, kq = {
+var wq = { class: "mt-auto flex items-center gap-3 px-4 py-2 border-t border-base-300 bg-base-100 shrink-0" }, Tq = { class: "flex flex-wrap items-center gap-1.5 text-xs" }, Eq = { class: "badge badge-sm badge-ghost" }, Dq = { class: "badge badge-sm badge-ghost" }, Oq = { class: "badge badge-sm badge-ghost" }, kq = { class: "badge badge-sm badge-ghost" }, Aq = {
 	key: 0,
 	class: "badge badge-sm badge-ghost"
-}, Aq = {
+}, jq = {
 	key: 1,
 	class: "badge badge-sm badge-success"
-}, jq = {
+}, Mq = {
 	key: 2,
 	class: "badge badge-sm badge-warning"
-}, Mq = {
+}, Nq = {
 	key: 0,
 	class: "text-xs text-base-content/50 ml-auto"
-}, Nq = ["disabled"], Pq = {
+}, Pq = ["disabled"], Fq = {
 	key: 0,
 	class: "loading loading-spinner loading-xs"
-}, Fq = { class: "modal-box" }, Iq = { class: "mt-3 text-sm space-y-1" }, Lq = { class: "font-medium" }, Rq = { class: "font-medium" }, zq = {
+}, Iq = { class: "modal-box" }, Lq = { class: "mt-3 text-sm space-y-1" }, Rq = { class: "font-medium" }, zq = { class: "font-medium" }, Bq = {
 	key: 0,
 	class: "mt-3 space-y-1"
-}, Bq = { class: "collapse-title min-h-0 py-2 text-sm flex items-center gap-2" }, Vq = { class: "font-medium" }, Hq = { class: "badge badge-xs badge-ghost" }, Uq = {
+}, Vq = { class: "collapse-title min-h-0 py-2 text-sm flex items-center gap-2" }, Hq = { class: "font-medium" }, Uq = { class: "badge badge-xs badge-ghost" }, Wq = {
 	key: 0,
 	class: "badge badge-xs badge-warning ml-auto"
-}, Wq = { class: "collapse-content text-xs text-base-content/70" }, Gq = {
+}, Gq = { class: "collapse-content text-xs text-base-content/70" }, Kq = {
 	key: 1,
 	class: "alert alert-error mt-3 text-sm"
-}, Kq = { class: "alert alert-success mt-3 text-sm" }, qq = {
+}, qq = { class: "alert alert-success mt-3 text-sm" }, Jq = {
 	key: 0,
 	class: "alert alert-warning mt-2 text-sm"
-}, Jq = {
+}, Yq = {
 	key: 1,
 	class: "alert alert-warning mt-2 text-sm"
-}, Yq = { class: "modal-action" }, Xq = { method: "dialog" }, Zq = ["disabled"], Qq = ["disabled"], $q = {
+}, Xq = { class: "modal-action" }, Zq = { method: "dialog" }, Qq = ["disabled"], $q = ["disabled"], eJ = {
 	key: 0,
 	class: "loading loading-spinner loading-xs"
-}, eJ = /* @__PURE__ */ U({
+}, tJ = /* @__PURE__ */ U({
 	__name: "apply-bar",
 	setup(e) {
-		let { overview: t, canApply: n, blockedReason: r, appliedCount: i, pendingCount: a, isApplying: o, error: s, result: c, apply: l } = Sq(), u = /* @__PURE__ */ R(null);
+		let { overview: t, canApply: n, blockedReason: r, appliedCount: i, pendingCount: a, isApplying: o, error: s, result: c, apply: l } = Cq(), u = /* @__PURE__ */ R(null);
 		function d() {
 			s.value = null, c.value = null, u.value?.showModal();
 		}
@@ -88856,71 +88863,71 @@ var Cq = { class: "mt-auto flex items-center gap-3 px-4 py-2 border-t border-bas
 		function p() {
 			u.value?.close();
 		}
-		return (e, l) => (G(), K(Jo, null, [J("div", Cq, [
-			J("div", wq, [
+		return (e, l) => (G(), K(Jo, null, [J("div", wq, [
+			J("div", Tq, [
 				l[0] ||= J("span", { class: "text-base-content/50" }, "Session:", -1),
-				J("span", Tq, j(z(t).total.lnodes) + " LNode", 1),
-				J("span", Eq, j(z(t).total.dataModel) + " data model", 1),
-				J("span", Dq, j(z(t).total.inputs) + " in", 1),
-				J("span", Oq, j(z(t).total.outputs) + " out", 1),
-				z(t).perSied.length ? (G(), K("span", kq, j(z(t).perSied.length) + " S-IED", 1)) : X("", !0),
-				z(i) > 0 ? (G(), K("span", Aq, j(z(i)) + " applied", 1)) : X("", !0),
-				z(a) > 0 ? (G(), K("span", jq, j(z(a)) + " pending", 1)) : X("", !0)
+				J("span", Eq, j(z(t).total.lnodes) + " LNode", 1),
+				J("span", Dq, j(z(t).total.dataModel) + " data model", 1),
+				J("span", Oq, j(z(t).total.inputs) + " in", 1),
+				J("span", kq, j(z(t).total.outputs) + " out", 1),
+				z(t).perSied.length ? (G(), K("span", Aq, j(z(t).perSied.length) + " S-IED", 1)) : X("", !0),
+				z(i) > 0 ? (G(), K("span", jq, j(z(i)) + " applied", 1)) : X("", !0),
+				z(a) > 0 ? (G(), K("span", Mq, j(z(a)) + " pending", 1)) : X("", !0)
 			]),
-			z(r) ? (G(), K("span", Mq, j(z(r)), 1)) : X("", !0),
+			z(r) ? (G(), K("span", Nq, j(z(r)), 1)) : X("", !0),
 			J("button", {
 				type: "button",
 				class: A(["btn btn-primary btn-sm gap-1.5", { "ml-auto": !z(r) }]),
 				disabled: !z(n) || z(o),
 				onClick: d
-			}, [z(o) ? (G(), K("span", Pq)) : (G(), q(z(XV), {
+			}, [z(o) ? (G(), K("span", Fq)) : (G(), q(z(XV), {
 				key: 1,
 				class: "size-4"
-			})), l[1] ||= fs(" Apply ", -1)], 10, Nq)
+			})), l[1] ||= fs(" Apply ", -1)], 10, Pq)
 		]), J("dialog", {
 			ref_key: "dialog",
 			ref: u,
 			class: "modal"
-		}, [J("div", Fq, [
+		}, [J("div", Iq, [
 			l[4] ||= J("h3", { class: "text-lg font-semibold" }, "Apply mapping", -1),
 			l[5] ||= J("p", { class: "mt-2 text-sm text-base-content/70" }, " Takes over every matched vendor IED into the project and writes each binding. The touched S-IED placeholders are removed; any still-unmapped LNodes are reset to unallocated. This edits the project SCL. ", -1),
-			J("ul", Iq, [
-				J("li", null, [J("span", Lq, j(z(t).total.lnodes), 1), fs(" LNode(s) across " + j(z(t).perSied.length) + " S-IED(s) ", 1)]),
-				J("li", null, [J("span", Rq, j(z(t).total.dataModel), 1), fs(" data-model, " + j(z(t).total.inputs) + " input, " + j(z(t).total.outputs) + " output binding(s) ", 1)]),
+			J("ul", Lq, [
+				J("li", null, [J("span", Rq, j(z(t).total.lnodes), 1), fs(" LNode(s) across " + j(z(t).perSied.length) + " S-IED(s) ", 1)]),
+				J("li", null, [J("span", zq, j(z(t).total.dataModel), 1), fs(" data-model, " + j(z(t).total.inputs) + " input, " + j(z(t).total.outputs) + " output binding(s) ", 1)]),
 				J("li", null, j(z(t).total.manual) + " manual, " + j(z(t).total.auto) + " auto-matched · " + j(z(t).total.pending) + " pending, " + j(z(t).total.applied) + " applied ", 1)
 			]),
-			z(t).perSied.length ? (G(), K("div", zq, [l[2] ||= J("p", { class: "text-xs font-medium text-base-content/60" }, "Per S-IED", -1), (G(!0), K(Jo, null, ta(z(t).perSied, (e) => (G(), K("details", {
+			z(t).perSied.length ? (G(), K("div", Bq, [l[2] ||= J("p", { class: "text-xs font-medium text-base-content/60" }, "Per S-IED", -1), (G(!0), K(Jo, null, ta(z(t).perSied, (e) => (G(), K("details", {
 				key: e.sied,
 				class: "collapse collapse-arrow bg-base-200 rounded-box"
-			}, [J("summary", Bq, [
-				J("span", Vq, j(e.sied), 1),
-				J("span", Hq, j(e.lnodes) + " LNode", 1),
-				e.pending ? (G(), K("span", Uq, j(e.pending) + " pending", 1)) : X("", !0),
+			}, [J("summary", Vq, [
+				J("span", Hq, j(e.sied), 1),
+				J("span", Uq, j(e.lnodes) + " LNode", 1),
+				e.pending ? (G(), K("span", Wq, j(e.pending) + " pending", 1)) : X("", !0),
 				e.applied ? (G(), K("span", {
 					key: 1,
 					class: A(["badge badge-xs badge-success", { "ml-auto": !e.pending }])
 				}, j(e.applied) + " applied", 3)) : X("", !0)
-			]), J("div", Wq, j(e.dataModel) + " data-model, " + j(e.inputs) + " input, " + j(e.outputs) + " output · " + j(e.manual) + " manual, " + j(e.auto) + " auto ", 1)]))), 128))])) : X("", !0),
-			z(s) ? (G(), K("div", Gq, [Y(z(BV), { class: "size-4" }), J("span", null, j(z(s)), 1)])) : z(c) ? (G(), K(Jo, { key: 2 }, [
-				J("div", Kq, [Y(z(IV), { class: "size-4" }), J("span", null, "Applied. Integrated " + j(z(c).integratedIeds) + " IED(s), bound " + j(z(c).boundElements) + " element(s). You can close this dialog.", 1)]),
-				z(c).skipped.length ? (G(), K("div", qq, [Y(z(nH), { class: "size-4" }), J("span", null, j(z(c).skipped.length) + " matched element(s) could not be bound and were skipped.", 1)])) : X("", !0),
-				z(c).valueImportsSkipped ? (G(), K("div", Jq, [Y(z(nH), { class: "size-4" }), J("span", null, j(z(c).valueImportsSkipped) + " selected value(s) were not written.", 1)])) : X("", !0)
+			]), J("div", Gq, j(e.dataModel) + " data-model, " + j(e.inputs) + " input, " + j(e.outputs) + " output · " + j(e.manual) + " manual, " + j(e.auto) + " auto ", 1)]))), 128))])) : X("", !0),
+			z(s) ? (G(), K("div", Kq, [Y(z(BV), { class: "size-4" }), J("span", null, j(z(s)), 1)])) : z(c) ? (G(), K(Jo, { key: 2 }, [
+				J("div", qq, [Y(z(IV), { class: "size-4" }), J("span", null, "Applied. Integrated " + j(z(c).integratedIeds) + " IED(s), bound " + j(z(c).boundElements) + " element(s). You can close this dialog.", 1)]),
+				z(c).skipped.length ? (G(), K("div", Jq, [Y(z(nH), { class: "size-4" }), J("span", null, j(z(c).skipped.length) + " matched element(s) could not be bound and were skipped.", 1)])) : X("", !0),
+				z(c).valueImportsSkipped ? (G(), K("div", Yq, [Y(z(nH), { class: "size-4" }), J("span", null, j(z(c).valueImportsSkipped) + " selected value(s) were not written.", 1)])) : X("", !0)
 			], 64)) : X("", !0),
-			J("div", Yq, [z(c) ? (G(), K("button", {
+			J("div", Xq, [z(c) ? (G(), K("button", {
 				key: 1,
 				type: "button",
 				class: "btn btn-primary btn-sm",
 				onClick: p
-			}, "Done")) : (G(), K(Jo, { key: 0 }, [J("form", Xq, [J("button", {
+			}, "Done")) : (G(), K(Jo, { key: 0 }, [J("form", Zq, [J("button", {
 				type: "submit",
 				class: "btn btn-ghost btn-sm",
 				disabled: z(o)
-			}, " Cancel ", 8, Zq)]), J("button", {
+			}, " Cancel ", 8, Qq)]), J("button", {
 				type: "button",
 				class: "btn btn-primary btn-sm gap-1.5",
 				disabled: !z(n) || z(o),
 				onClick: f
-			}, [z(o) ? (G(), K("span", $q)) : X("", !0), l[3] ||= fs(" Confirm apply ", -1)], 8, Qq)], 64))])
+			}, [z(o) ? (G(), K("span", eJ)) : X("", !0), l[3] ||= fs(" Confirm apply ", -1)], 8, $q)], 64))])
 		]), l[6] ||= J("form", {
 			method: "dialog",
 			class: "modal-backdrop"
@@ -88929,7 +88936,7 @@ var Cq = { class: "mt-auto flex items-center gap-3 px-4 py-2 border-t border-bas
 });
 //#endregion
 //#region src/mapping/matching/strategy/lnode.strategy.ts
-function tJ(e) {
+function nJ(e) {
 	return {
 		kind: "LNode",
 		identityKeys(e) {
@@ -88971,7 +88978,7 @@ function tJ(e) {
 }
 //#endregion
 //#region src/mapping/components/parts/icd-source-switches.vue?vue&type=script&setup=true&lang.ts
-var nJ = ["title", "onClick"], rJ = /* @__PURE__ */ U({
+var rJ = ["title", "onClick"], iJ = /* @__PURE__ */ U({
 	__name: "icd-source-switches",
 	props: {
 		icds: {},
@@ -88986,12 +88993,12 @@ var nJ = ["title", "onClick"], rJ = /* @__PURE__ */ U({
 			class: A(["badge gap-1 cursor-pointer text-xs shrink-0", e.selectedIds.includes(t.documentId) ? "badge-secondary" : "badge-outline"]),
 			title: e.selectedIds.includes(t.documentId) ? "Click to exclude" : "Click to include",
 			onClick: (e) => n("toggle", t.documentId)
-		}, j(t.filename), 11, nJ))), 128));
+		}, j(t.filename), 11, rJ))), 128));
 	}
-}), iJ = ["title", "onClick"], aJ = {
+}), aJ = ["title", "onClick"], oJ = {
 	key: 0,
 	class: "opacity-50"
-}, oJ = /* @__PURE__ */ U({
+}, sJ = /* @__PURE__ */ U({
 	__name: "constraint-switches",
 	props: { chips: {} },
 	emits: ["toggle"],
@@ -89003,25 +89010,25 @@ var nJ = ["title", "onClick"], rJ = /* @__PURE__ */ U({
 			class: A(["badge gap-1 cursor-pointer text-xs shrink-0", e.enabled ? "badge-primary" : "badge-outline"]),
 			title: e.enabled ? "Click to disable filter" : "Click to enable filter",
 			onClick: (t) => n("toggle", e.key)
-		}, [fs(j(e.label) + " ", 1), e.enabled ? (G(), K("span", aJ, "✕")) : X("", !0)], 10, iJ))), 128));
+		}, [fs(j(e.label) + " ", 1), e.enabled ? (G(), K("span", oJ, "✕")) : X("", !0)], 10, aJ))), 128));
 	}
-}), sJ = { class: "match-tree-leaf flex h-10 min-w-0 flex-1 items-center gap-1.5 pl-2" }, cJ = { class: "min-w-0 max-w-full flex-1" }, lJ = ["title"], uJ = {
+}), cJ = { class: "match-tree-leaf flex h-10 min-w-0 flex-1 items-center gap-1.5 pl-2" }, lJ = { class: "min-w-0 max-w-full flex-1" }, uJ = ["title"], dJ = {
 	key: 0,
 	class: "match-tree-leaf__icon-tooltip tooltip tooltip-bottom tooltip-end shrink-0",
 	"data-tip": "Perfect match",
 	"aria-label": "Perfect match"
-}, dJ = ["data-tip", "aria-label"], fJ = ["data-tip", "aria-label"], pJ = {
+}, fJ = ["data-tip", "aria-label"], pJ = ["data-tip", "aria-label"], mJ = {
 	key: 0,
 	class: "match-tree-leaf__icon-tooltip tooltip tooltip-bottom tooltip-end shrink-0",
 	"aria-label": "Matched via LNodeSpecNaming attributes"
-}, mJ = {
+}, hJ = {
 	key: 1,
 	class: "match-tree-leaf__icon-tooltip tooltip tooltip-bottom tooltip-end shrink-0",
 	"aria-label": "Matched via LN attributes"
-}, hJ = {
+}, gJ = {
 	key: 2,
 	class: "badge badge-xs badge-soft shrink-0"
-}, gJ = /* @__PURE__ */ U({
+}, _J = /* @__PURE__ */ U({
 	__name: "match-tree-leaf-label",
 	props: { node: {} },
 	setup(e) {
@@ -89032,8 +89039,8 @@ var nJ = ["title", "onClick"], rJ = /* @__PURE__ */ U({
 		function r(e) {
 			return (e.leaf?.badges ?? []).map((e) => `${e.label} (${e.tone === "success" ? "+" : "-"})`).join("\n");
 		}
-		return (e, i) => (G(), K("div", sJ, [
-			J("span", cJ, [J("span", {
+		return (e, i) => (G(), K("div", cJ, [
+			J("span", lJ, [J("span", {
 				class: "inline-block max-w-full overflow-hidden text-ellipsis",
 				title: r(t.node),
 				style: {
@@ -89042,8 +89049,8 @@ var nJ = ["title", "onClick"], rJ = /* @__PURE__ */ U({
 					"-webkit-line-clamp": "2",
 					"-webkit-box-orient": "vertical"
 				}
-			}, j(t.node.name), 9, lJ)]),
-			t.node.leaf?.matchState === "perfect" ? (G(), K("span", uJ, [Y(z(VV), {
+			}, j(t.node.name), 9, uJ)]),
+			t.node.leaf?.matchState === "perfect" ? (G(), K("span", dJ, [Y(z(VV), {
 				class: "size-4 text-success",
 				"aria-hidden": "true"
 			})])) : t.node.leaf?.matchState === "partial" ? (G(), K("span", {
@@ -89054,7 +89061,7 @@ var nJ = ["title", "onClick"], rJ = /* @__PURE__ */ U({
 			}, [Y(z(HV), {
 				class: "size-4 text-warning",
 				"aria-hidden": "true"
-			})], 8, dJ)) : (G(), K("span", {
+			})], 8, fJ)) : (G(), K("span", {
 				key: 2,
 				class: "match-tree-leaf__icon-tooltip tooltip tooltip-bottom tooltip-end shrink-0",
 				"data-tip": n(t.node),
@@ -89062,74 +89069,75 @@ var nJ = ["title", "onClick"], rJ = /* @__PURE__ */ U({
 			}, [Y(z(UV), {
 				class: "size-4 text-error",
 				"aria-hidden": "true"
-			})], 8, fJ)),
-			(G(!0), K(Jo, null, ta(t.node.leaf?.tags ?? [], (e) => (G(), K(Jo, { key: e }, [e === "LNodeSpecNaming" ? (G(), K("span", pJ, [i[0] ||= J("div", { class: "tooltip-content w-52 text-center text-xs leading-tight whitespace-nowrap" }, [
+			})], 8, pJ)),
+			(G(!0), K(Jo, null, ta(t.node.leaf?.tags ?? [], (e) => (G(), K(Jo, { key: e }, [e === "LNodeSpecNaming" ? (G(), K("span", mJ, [i[0] ||= J("div", { class: "tooltip-content w-52 text-center text-xs leading-tight whitespace-nowrap" }, [
 				fs(" Matched via LNodeSpecNaming"),
 				J("br"),
 				fs("attributes ")
 			], -1), Y(z(eH), {
 				class: "size-4 text-scl-turquoise-800",
 				"aria-hidden": "true"
-			})])) : e === "LN Attributes" ? (G(), K("span", mJ, [i[1] ||= J("div", { class: "tooltip-content w-52 text-center text-xs leading-tight whitespace-nowrap" }, [
+			})])) : e === "LN Attributes" ? (G(), K("span", hJ, [i[1] ||= J("div", { class: "tooltip-content w-52 text-center text-xs leading-tight whitespace-nowrap" }, [
 				fs(" Matched via LN"),
 				J("br"),
 				fs("attributes ")
 			], -1), (G(), q(Zi(z(fv).LN), {
 				class: "size-4",
 				"aria-hidden": "true"
-			}))])) : (G(), K("span", hJ, j(e), 1))], 64))), 128))
+			}))])) : (G(), K("span", gJ, j(e), 1))], 64))), 128))
 		]));
 	}
-}), _J = { class: "ml-2 pr-1 shrink-0" }, vJ = {
+}), vJ = { class: "ml-2 pr-1 shrink-0" }, yJ = {
 	key: 1,
 	type: "button",
 	class: "btn btn-xs btn-default gap-1 cursor-not-allowed",
 	disabled: ""
-}, yJ = /* @__PURE__ */ U({
+}, bJ = /* @__PURE__ */ U({
 	__name: "match-tree-leaf-actions",
 	props: { node: {} },
 	emits: ["link", "unlink"],
 	setup(e, { emit: t }) {
 		let n = t;
-		return (t, r) => (G(), K("div", _J, [e.node.leaf?.isLinkedToCurrent ? (G(), K("button", {
+		return (t, r) => (G(), K("div", vJ, [e.node.leaf?.isLinkedToCurrent ? (G(), K("button", {
 			key: 0,
 			type: "button",
 			class: "btn btn-xs btn-error btn-soft gap-1",
 			onClick: r[0] ||= Gl((t) => n("unlink", e.node.leaf.compositeId), ["stop"])
-		}, [Y(z(rH), { class: "size-3" }), r[2] ||= fs(" Unlink ", -1)])) : e.node.leaf?.isLinkedToOther ? (G(), K("button", vJ, [Y(z(qV), { class: "size-3" }), r[3] ||= fs(" Linked ", -1)])) : (G(), K("button", {
+		}, [Y(z(rH), { class: "size-3" }), r[2] ||= fs(" Unlink ", -1)])) : e.node.leaf?.isLinkedToOther ? (G(), K("button", yJ, [Y(z(qV), { class: "size-3" }), r[3] ||= fs(" Linked ", -1)])) : (G(), K("button", {
 			key: 2,
 			type: "button",
 			class: "btn btn-xs btn-primary btn-soft gap-1",
 			onClick: r[1] ||= Gl((t) => n("link", e.node.leaf.compositeId), ["stop"])
 		}, [Y(z(qV), { class: "size-3" }), r[4] ||= fs(" Link ", -1)]))]));
 	}
-}), bJ = { class: "flex h-full min-h-0 flex-col overflow-hidden bg-base-200" }, xJ = {
+}), xJ = { class: "flex h-full min-h-0 flex-col overflow-hidden bg-base-200" }, SJ = {
 	key: 0,
 	class: "p-4 text-center text-sm text-base-content/50"
-}, SJ = { class: "flex min-h-0 flex-1 flex-col gap-3 overflow-auto p-4" }, CJ = { class: "flex flex-wrap gap-1.5" }, wJ = { class: "badge badge-sm badge-neutral gap-1 shrink-0" }, TJ = { class: "opacity-50" }, EJ = { class: "font-medium" }, DJ = { class: "opacity-50" }, OJ = ["onClick"], kJ = {
+}, CJ = { class: "flex min-h-0 flex-1 flex-col gap-3 overflow-auto p-4" }, wJ = { class: "flex flex-wrap gap-1.5" }, TJ = ["title"], EJ = { class: "badge badge-sm badge-neutral gap-1 shrink-0" }, DJ = { class: "opacity-50" }, OJ = { class: "font-medium" }, kJ = { class: "opacity-50" }, AJ = ["onClick"], jJ = {
 	key: 0,
 	class: "flex justify-center py-6"
-}, AJ = {
+}, MJ = {
 	key: 0,
 	class: "text-sm text-base-content/50 text-center py-4"
-}, jJ = {
+}, NJ = {
 	key: 1,
 	class: "text-sm text-base-content/50 text-center py-4"
-}, MJ = {
+}, PJ = {
 	key: 2,
 	class: "flex flex-col gap-4"
-}, NJ = { class: "px-3 py-2 border-b border-base-300 text-sm font-semibold" }, PJ = { class: "p-2" }, FJ = {
+}, FJ = { class: "px-3 py-2 border-b border-base-300 text-sm font-semibold" }, IJ = { class: "p-2" }, LJ = {
 	key: 1,
 	class: "pl-2 truncate"
-}, IJ = {
+}, RJ = {
 	class: "z-10 flex w-full shrink-0 flex-wrap items-center gap-3 border-t border-base-300 bg-base-100 px-4 py-3 text-xs text-base-content/70",
 	"aria-label": "Match status legend"
-}, LJ = { class: "flex items-center gap-1" }, RJ = { class: "flex items-center gap-1" }, zJ = { class: "flex items-center gap-1" }, BJ = /* @__PURE__ */ U({
+}, zJ = { class: "flex items-center gap-1" }, BJ = { class: "flex items-center gap-1" }, VJ = { class: "flex items-center gap-1" }, HJ = /* @__PURE__ */ U({
 	__name: "match-tree",
 	props: {
 		icds: {},
 		selectedIcdIds: {},
 		constraintChips: {},
+		contextChips: {},
 		tokens: {},
 		suggest: { type: Function },
 		canCommit: { type: Function },
@@ -89160,31 +89168,39 @@ var nJ = ["title", "onClick"], rJ = /* @__PURE__ */ U({
 		function o(e) {
 			return e;
 		}
-		return (t, n) => (G(), K("div", bJ, [e.hasIcds ? (G(), K(Jo, { key: 1 }, [J("div", SJ, [
-			J("div", CJ, [Y(rJ, {
-				icds: e.icds,
-				"selected-ids": e.selectedIcdIds,
-				onToggle: n[0] ||= (e) => r("toggleIcd", e)
-			}, null, 8, ["icds", "selected-ids"]), Y(oJ, {
-				chips: e.constraintChips,
-				onToggle: n[1] ||= (e) => r("toggleConstraint", e)
-			}, null, 8, ["chips"])]),
-			Y(DG, {
+		return (t, n) => (G(), K("div", xJ, [e.hasIcds ? (G(), K(Jo, { key: 1 }, [J("div", CJ, [
+			J("div", wJ, [
+				Y(iJ, {
+					icds: e.icds,
+					"selected-ids": e.selectedIcdIds,
+					onToggle: n[0] ||= (e) => r("toggleIcd", e)
+				}, null, 8, ["icds", "selected-ids"]),
+				(G(!0), K(Jo, null, ta(e.contextChips ?? [], (e) => (G(), K("span", {
+					key: e.key,
+					class: "badge badge-secondary text-xs shrink-0",
+					title: e.title
+				}, j(e.label), 9, TJ))), 128)),
+				Y(sJ, {
+					chips: e.constraintChips,
+					onToggle: n[1] ||= (e) => r("toggleConstraint", e)
+				}, null, 8, ["chips"])
+			]),
+			Y(OG, {
 				"model-value": e.tokens,
 				suggest: e.suggest,
 				"can-commit": e.canCommit,
 				placeholder: e.tokenPlaceholder,
 				"onUpdate:modelValue": n[2] ||= (e) => r("update:tokens", e)
 			}, {
-				chip: V(({ token: e, remove: t }) => [J("span", wJ, [
-					J("span", TJ, j(z(eU)(e).element) + ":", 1),
-					J("span", EJ, j(z(eU)(e).attribute), 1),
-					J("span", DJ, ":" + j(z(eU)(e).value), 1),
+				chip: V(({ token: e, remove: t }) => [J("span", EJ, [
+					J("span", DJ, j(z(eU)(e).element) + ":", 1),
+					J("span", OJ, j(z(eU)(e).attribute), 1),
+					J("span", kJ, ":" + j(z(eU)(e).value), 1),
 					J("button", {
 						type: "button",
 						class: "cursor-pointer ml-0.5",
 						onClick: Gl((e) => t(), ["stop"])
-					}, "✕", 8, OJ)
+					}, "✕", 8, AJ)
 				])]),
 				_: 1
 			}, 8, [
@@ -89193,10 +89209,10 @@ var nJ = ["title", "onClick"], rJ = /* @__PURE__ */ U({
 				"can-commit",
 				"placeholder"
 			]),
-			e.loading ? (G(), K("div", kJ, [...n[5] ||= [J("span", { class: "loading loading-spinner loading-sm text-primary" }, null, -1)]])) : (G(), K(Jo, { key: 1 }, [e.hasSelection ? a.value ? (G(), K("div", MJ, [(G(!0), K(Jo, null, ta(e.trees, (e) => (G(), K("section", {
+			e.loading ? (G(), K("div", jJ, [...n[5] ||= [J("span", { class: "loading loading-spinner loading-sm text-primary" }, null, -1)]])) : (G(), K(Jo, { key: 1 }, [e.hasSelection ? a.value ? (G(), K("div", PJ, [(G(!0), K(Jo, null, ta(e.trees, (e) => (G(), K("section", {
 				key: e.documentId,
 				class: "rounded-box border border-base-300 bg-base-100"
-			}, [J("div", NJ, j(e.filename), 1), J("div", PJ, [Y(z(Mv), {
+			}, [J("div", FJ, j(e.filename), 1), J("div", IJ, [Y(z(Mv), {
 				items: e.root.children ?? [],
 				expanded: i.value[e.documentId] ?? {
 					scoped: [],
@@ -89204,11 +89220,11 @@ var nJ = ["title", "onClick"], rJ = /* @__PURE__ */ U({
 				},
 				"onUpdate:expanded": (t) => i.value[e.documentId] = t
 			}, {
-				"node-label": V(({ node: e }) => [o(e).leaf ? (G(), q(gJ, {
+				"node-label": V(({ node: e }) => [o(e).leaf ? (G(), q(_J, {
 					key: 0,
 					node: o(e)
-				}, null, 8, ["node"])) : (G(), K("span", FJ, j(o(e).name), 1))]),
-				"node-suffix": V(({ node: e }) => [o(e).leaf ? (G(), q(yJ, {
+				}, null, 8, ["node"])) : (G(), K("span", LJ, j(o(e).name), 1))]),
+				"node-suffix": V(({ node: e }) => [o(e).leaf ? (G(), q(bJ, {
 					key: 0,
 					node: o(e),
 					onLink: n[3] ||= (e) => r("link", e),
@@ -89219,24 +89235,24 @@ var nJ = ["title", "onClick"], rJ = /* @__PURE__ */ U({
 				"items",
 				"expanded",
 				"onUpdate:expanded"
-			])])]))), 128))])) : (G(), K("p", jJ, " No matching LNs for the active filters. ")) : (G(), K("p", AJ, " Select an element to browse matches. "))], 64))
-		]), J("div", IJ, [
-			J("span", LJ, [Y(z(VV), {
+			])])]))), 128))])) : (G(), K("p", NJ, " No matching LNs for the active filters. ")) : (G(), K("p", MJ, " Select an element to browse matches. "))], 64))
+		]), J("div", RJ, [
+			J("span", zJ, [Y(z(VV), {
 				class: "size-3.5 text-success",
 				"aria-hidden": "true"
 			}), n[6] ||= fs("Perfect", -1)]),
-			J("span", RJ, [Y(z(HV), {
+			J("span", BJ, [Y(z(HV), {
 				class: "size-3.5 text-warning",
 				"aria-hidden": "true"
 			}), n[7] ||= fs("Partial", -1)]),
-			J("span", zJ, [Y(z(UV), {
+			J("span", VJ, [Y(z(UV), {
 				class: "size-3.5 text-error",
 				"aria-hidden": "true"
 			}), n[8] ||= fs("Unmatched", -1)]),
 			W(t.$slots, "context-legend")
-		])], 64)) : (G(), K("p", xJ, " Load ICD files to browse elements. "))]));
+		])], 64)) : (G(), K("p", SJ, " Load ICD files to browse elements. "))]));
 	}
-}), VJ = {
+}), UJ = {
 	IED: [
 		"name",
 		"manufacturer",
@@ -89256,19 +89272,19 @@ var nJ = ["title", "onClick"], rJ = /* @__PURE__ */ U({
 		"inst",
 		"lnType"
 	]
-}, HJ = { class: "flex items-center gap-1" }, UJ = { class: "flex items-center gap-1" }, WJ = /* @__PURE__ */ U({
+}, WJ = { class: "flex items-center gap-1" }, GJ = { class: "flex items-center gap-1" }, KJ = /* @__PURE__ */ U({
 	__name: "ln-browser",
 	emits: ["linked"],
 	setup(e, { emit: t }) {
-		let n = t, r = aW(), i = PH(), a = VP(), { loadedIcds: o, selectedIcdDocumentIds: s, selectedIcdDocuments: c } = BP(i), { selectedNode: l } = BP(a), { plan: u, linkedIds: d } = BP(r), f = /* @__PURE__ */ R(null), p = /* @__PURE__ */ R(null);
+		let n = t, r = oW(), i = PH(), a = VP(), { loadedIcds: o, selectedIcdDocumentIds: s, selectedIcdDocuments: c } = BP(i), { selectedNode: l } = BP(a), { plan: u, linkedIds: d } = BP(r), f = /* @__PURE__ */ R(null), p = /* @__PURE__ */ R(null);
 		H(l, async (e) => {
 			if (!e || e.tag !== "LNode" && e.tag !== "LNodeSpecNaming") {
 				f.value = null, p.value = null;
 				return;
 			}
-			p.value = e.id, f.value = await CU(nP.value, e);
+			p.value = e.id, f.value = await wU(nP.value, e);
 		}, { immediate: !0 });
-		let m = Z(() => f.value ? tJ(f.value) : null), h = /* @__PURE__ */ R([]), g = /* @__PURE__ */ R(!1), _ = FH();
+		let m = Z(() => f.value ? nJ(f.value) : null), h = /* @__PURE__ */ R([]), g = /* @__PURE__ */ R(!1), _ = FH();
 		async function v() {
 			let e = c.value;
 			if (y.value = [], !e.length) {
@@ -89279,7 +89295,7 @@ var nJ = ["title", "onClick"], rJ = /* @__PURE__ */ U({
 			g.value = !0;
 			try {
 				let n = [];
-				for (let t of e) n.push(...await gU(t));
+				for (let t of e) n.push(...await _U(t));
 				if (!t()) return;
 				h.value = n;
 			} finally {
@@ -89290,7 +89306,7 @@ var nJ = ["title", "onClick"], rJ = /* @__PURE__ */ U({
 		let y = /* @__PURE__ */ R([]), b = Z(() => y.value.map(rU).filter((e) => e !== null));
 		function x(e) {
 			return tU(e, {
-				elementAttrs: VJ,
+				elementAttrs: UJ,
 				values: function* (e, t) {
 					for (let n of h.value) {
 						if (e === "LN" || e === "LN0") {
@@ -89383,7 +89399,7 @@ var nJ = ["title", "onClick"], rJ = /* @__PURE__ */ U({
 				break;
 			}
 		}
-		return (e, t) => (G(), q(BJ, {
+		return (e, t) => (G(), q(HJ, {
 			icds: z(o).map((e) => ({
 				documentId: e.documentId,
 				filename: e.filename
@@ -89404,10 +89420,10 @@ var nJ = ["title", "onClick"], rJ = /* @__PURE__ */ U({
 			onLink: ne,
 			onUnlink: re
 		}, {
-			"context-legend": V(() => [J("span", HJ, [(G(), q(Zi(z(fv).LNodeSpecNaming), {
+			"context-legend": V(() => [J("span", WJ, [(G(), q(Zi(z(fv).LNodeSpecNaming), {
 				class: "size-3.5",
 				"aria-hidden": "true"
-			})), t[1] ||= fs(" LNodeSpecNaming ", -1)]), J("span", UJ, [(G(), q(Zi(z(fv).LN), {
+			})), t[1] ||= fs(" LNodeSpecNaming ", -1)]), J("span", GJ, [(G(), q(Zi(z(fv).LN), {
 				class: "size-3.5",
 				"aria-hidden": "true"
 			})), t[2] ||= fs(" LN Attributes ", -1)])]),
@@ -89427,7 +89443,7 @@ var nJ = ["title", "onClick"], rJ = /* @__PURE__ */ U({
 });
 //#endregion
 //#region src/mapping/matching/strategy/ref.strategy.ts
-function GJ(e) {
+function qJ(e) {
 	let { kind: t, keys: n, target: r, anchorId: i } = e;
 	return {
 		kind: t,
@@ -89469,16 +89485,16 @@ function GJ(e) {
 		}
 	};
 }
-function KJ(e, t) {
-	return GJ({
+function JJ(e, t) {
+	return qJ({
 		kind: "SourceRef",
 		keys: LH,
 		target: e,
 		anchorId: t
 	});
 }
-function qJ(e, t) {
-	return GJ({
+function YJ(e, t) {
+	return qJ({
 		kind: "ControlRef",
 		keys: RH,
 		target: e,
@@ -89487,7 +89503,7 @@ function qJ(e, t) {
 }
 //#endregion
 //#region src/mapping/components/child-element-browser.vue?vue&type=script&setup=true&lang.ts
-var JJ = 12, YJ = /* @__PURE__ */ U({
+var XJ = 12, ZJ = /* @__PURE__ */ U({
 	__name: "child-element-browser",
 	props: {
 		kind: {},
@@ -89499,7 +89515,7 @@ var JJ = 12, YJ = /* @__PURE__ */ U({
 	},
 	emits: ["linked"],
 	setup(e, { emit: t }) {
-		let n = e, r = t, i = aW(), a = PH(), { loadedIcds: o } = BP(a), { plan: s, linkedIds: c } = BP(i), l = Z(() => n.kind === "SourceRef" ? KJ(n.target, n.anchorId) : qJ(n.target, n.anchorId)), u = /* @__PURE__ */ R([]), d = /* @__PURE__ */ R(!1);
+		let n = e, r = t, i = oW(), a = PH(), { loadedIcds: o } = BP(a), { plan: s, linkedIds: c } = BP(i), l = Z(() => n.kind === "SourceRef" ? JJ(n.target, n.anchorId) : YJ(n.target, n.anchorId)), u = /* @__PURE__ */ R([]), d = /* @__PURE__ */ R(!1);
 		async function f() {
 			p.value = [];
 			let e = a.openDocument(n.lnScope.documentId);
@@ -89509,7 +89525,7 @@ var JJ = 12, YJ = /* @__PURE__ */ U({
 			}
 			d.value = !0;
 			try {
-				u.value = n.kind === "SourceRef" ? await BU(e) : await HU(e);
+				u.value = n.kind === "SourceRef" ? await VU(e) : await UU(e);
 			} finally {
 				d.value = !1;
 			}
@@ -89526,7 +89542,7 @@ var JJ = 12, YJ = /* @__PURE__ */ U({
 			let n = /* @__PURE__ */ new Set();
 			for (let e of u.value) {
 				let r = e.intAddr;
-				if (r && r.toLowerCase().includes(t) && r.toLowerCase() !== t && n.add(r), n.size >= JJ) break;
+				if (r && r.toLowerCase().includes(t) && r.toLowerCase() !== t && n.add(r), n.size >= XJ) break;
 			}
 			return [...n].map((e) => ({
 				value: e,
@@ -89606,7 +89622,7 @@ var JJ = 12, YJ = /* @__PURE__ */ U({
 				break;
 			}
 		}
-		return (t, n) => (G(), q(BJ, {
+		return (t, n) => (G(), q(HJ, {
 			icds: v.value,
 			"selected-icd-ids": [e.lnScope.documentId],
 			"constraint-chips": g.value,
@@ -89636,7 +89652,7 @@ var JJ = 12, YJ = /* @__PURE__ */ U({
 });
 //#endregion
 //#region src/mapping/matching/strategy/data-model.strategy.ts
-function XJ(e, t) {
+function QJ(e, t) {
 	return {
 		kind: e,
 		identityKeys() {
@@ -89649,9 +89665,9 @@ function XJ(e, t) {
 				badges: [{
 					key: "path",
 					label: t.path,
-					tone: e.score === 1 ? "success" : "neutral"
+					tone: e.score === e.maxScore ? "success" : "neutral"
 				}],
-				tags: [t.kind],
+				tags: [t.kind, ...t.cdc ? [`CDC: ${t.cdc}`] : []],
 				score: e.score,
 				maxScore: e.maxScore,
 				isLinkedToCurrent: e.isLinkedToCurrent,
@@ -89675,18 +89691,19 @@ function XJ(e, t) {
 }
 //#endregion
 //#region src/mapping/components/data-model-browser.vue?vue&type=script&setup=true&lang.ts
-var ZJ = 12, QJ = /* @__PURE__ */ U({
+var $J = 12, eY = /* @__PURE__ */ U({
 	__name: "data-model-browser",
 	props: {
 		kind: {},
 		projectId: {},
 		path: {},
+		cdc: {},
 		anchorId: {},
 		lnScope: {}
 	},
 	emits: ["linked"],
 	setup(e, { emit: t }) {
-		let n = e, r = t, i = aW(), a = PH(), { loadedIcds: o } = BP(a), { plan: s, linkedIds: c } = BP(i), l = Z(() => XJ(n.kind, n.anchorId)), u = /* @__PURE__ */ R([]), d = /* @__PURE__ */ R(!1);
+		let n = e, r = t, i = oW(), a = PH(), { loadedIcds: o } = BP(a), { plan: s, linkedIds: c } = BP(i), l = Z(() => QJ(n.kind, n.anchorId)), u = /* @__PURE__ */ R([]), d = /* @__PURE__ */ R(!1);
 		async function f() {
 			p.value = [];
 			let e = a.openDocument(n.lnScope.documentId);
@@ -89696,7 +89713,7 @@ var ZJ = 12, QJ = /* @__PURE__ */ U({
 			}
 			d.value = !0;
 			try {
-				u.value = await GU(e, n.lnScope.ln);
+				u.value = await KU(e, n.lnScope.ln);
 			} finally {
 				d.value = !1;
 			}
@@ -89707,7 +89724,7 @@ var ZJ = 12, QJ = /* @__PURE__ */ U({
 			let t = e.trim().toLowerCase();
 			if (!t) return [];
 			let n = /* @__PURE__ */ new Set();
-			for (let e of u.value) if (e.path.toLowerCase().includes(t) && e.path.toLowerCase() !== t && n.add(e.path), n.size >= ZJ) break;
+			for (let e of u.value) if (e.path.toLowerCase().includes(t) && e.path.toLowerCase() !== t && n.add(e.path), n.size >= $J) break;
 			return [...n].map((e) => ({
 				value: e,
 				terminal: !0
@@ -89717,38 +89734,44 @@ var ZJ = 12, QJ = /* @__PURE__ */ U({
 			key: "path",
 			label: `path: ${n.path}`,
 			enabled: h.value
-		}]);
-		function _() {
+		}]), _ = Z(() => n.kind === "DOS" && n.cdc ? [{
+			key: "cdc",
+			label: `CDC: ${n.cdc}`,
+			title: "Required Common Data Class"
+		}] : []);
+		function v() {
 			h.value = !h.value;
 		}
-		let v = Z(() => {
+		let y = Z(() => {
 			let e = o.value.find((e) => e.documentId === n.lnScope.documentId);
 			return e ? [{
 				documentId: e.documentId,
 				filename: e.filename
 			}] : [];
-		}), y = Z(() => mU(u.value, {
+		}), b = Z(() => mU(u.value, {
 			targetPath: n.path,
+			targetKind: n.kind,
+			targetCdc: n.cdc,
 			tokens: p.value,
 			pathConstraintEnabled: h.value
 		}, {
 			currentMatchId: i.matchedIdFor(n.projectId),
 			linkedIds: c.value
-		})), b = Z(() => {
+		})), x = Z(() => {
 			let e = /* @__PURE__ */ new Map();
 			for (let t of [
 				"perfect",
 				"partial",
 				"none"
-			]) for (let n of y.value[t]) e.set(n.compositeId, n);
+			]) for (let n of b.value[t]) e.set(n.compositeId, n);
 			return e;
-		}), x = Z(() => {
+		}), S = Z(() => {
 			let e = l.value;
 			return zH([
-				...y.value.perfect,
-				...y.value.partial,
-				...y.value.none
-			], v.value, {
+				...b.value.perfect,
+				...b.value.partial,
+				...b.value.none
+			], y.value, {
 				getDocId: (e) => e.candidate.docId,
 				getPathSegments: (e) => e.candidate.path.split(".").slice(0, -1).map((e) => ({
 					tag: "DO",
@@ -89762,75 +89785,77 @@ var ZJ = 12, QJ = /* @__PURE__ */ U({
 				})
 			});
 		});
-		function S(e) {
-			let t = b.value.get(e);
+		function C(e) {
+			let t = x.value.get(e);
 			t && (i.link(l.value.toMatch(n.projectId, t)), r("linked"));
 		}
-		function C(e) {
+		function w(e) {
 			for (let [t, n] of s.value.entries()) if (i.idOf(n.icd) === e) {
 				i.unlink(t);
 				break;
 			}
 		}
-		return (t, n) => (G(), q(BJ, {
-			icds: v.value,
+		return (t, n) => (G(), q(HJ, {
+			icds: y.value,
 			"selected-icd-ids": [e.lnScope.documentId],
 			"constraint-chips": g.value,
+			"context-chips": _.value,
 			tokens: p.value,
 			suggest: m,
 			"token-placeholder": "Filter DO/DA by path…",
-			trees: x.value,
+			trees: S.value,
 			loading: d.value,
 			"has-selection": !0,
-			"has-icds": !!v.value.length,
+			"has-icds": !!y.value.length,
 			onToggleIcd: () => {},
-			onToggleConstraint: _,
+			onToggleConstraint: v,
 			"onUpdate:tokens": n[0] ||= (e) => p.value = e,
-			onLink: S,
-			onUnlink: C
+			onLink: C,
+			onUnlink: w
 		}, null, 8, [
 			"icds",
 			"selected-icd-ids",
 			"constraint-chips",
+			"context-chips",
 			"tokens",
 			"trees",
 			"loading",
 			"has-icds"
 		]));
 	}
-}), $J = {
+}), tY = {
 	role: "tablist",
 	class: "tabs tabs-bordered px-4 pt-2 shrink-0"
-}, eY = ["onClick"], tY = { class: "badge badge-xs badge-ghost" }, nY = { class: "flex-1 min-h-0 overflow-hidden p-4" }, rY = {
+}, nY = ["onClick"], rY = { class: "badge badge-xs badge-ghost" }, iY = { class: "flex-1 min-h-0 overflow-hidden p-4" }, aY = {
 	key: 0,
 	class: "flex justify-center py-8"
-}, iY = {
+}, oY = {
 	key: 1,
 	class: "flex flex-1 items-center justify-center p-8 text-center"
-}, aY = {
+}, sY = {
 	key: 0,
 	class: "flex flex-col h-full min-h-0"
-}, oY = { class: "flex items-center justify-between px-4 py-2 bg-base-200 shrink-0" }, sY = { class: "font-medium" }, cY = /* @__PURE__ */ U({
+}, cY = { class: "flex items-center justify-between px-4 py-2 bg-base-200 shrink-0" }, lY = { class: "font-medium" }, uY = /* @__PURE__ */ U({
 	__name: "specification-view",
 	setup(e) {
-		let { isLnodeSelected: t, loading: n, spec: r, impl: i, isLinked: a, matchSource: o, unifiedTree: s, setValueImportSelected: c, sourceRefs: l, controlRefs: u } = cG(), d = aW(), { selectedNode: f } = BP(VP()), p = /* @__PURE__ */ R("data-model"), m = /* @__PURE__ */ R(null), h = Z(() => m.value !== null), g = /* @__PURE__ */ R(), _ = Z(() => {
-			switch (m.value?.kind) {
+		let { isLnodeSelected: t, loading: n, spec: r, impl: i, isLinked: a, matchSource: o, unifiedTree: s, setValueImportSelected: c, dataModelCdcByPath: l, sourceRefs: u, controlRefs: d } = lG(), f = oW(), { selectedNode: p } = BP(VP()), m = /* @__PURE__ */ R("data-model"), h = /* @__PURE__ */ R(null), g = Z(() => h.value !== null), _ = /* @__PURE__ */ R(), v = Z(() => {
+			switch (h.value?.kind) {
 				case "LNode": return "LN Browser";
 				case "SourceRef": return "ExtRef Browser";
 				case "ControlRef": return "ExtCtrl Browser";
 				default: return "Data Model Browser";
 			}
-		}), v = /* @__PURE__ */ R(35);
-		H(h, (e) => {
+		}), y = /* @__PURE__ */ R(35);
+		H(g, (e) => {
 			if (e) return;
-			let t = g.value?.getSize();
-			t && (v.value = t), g.value?.resize(0);
+			let t = _.value?.getSize();
+			t && (y.value = t), _.value?.resize(0);
 		});
-		let y = Z(() => i.value && i.value.icdLn ? {
+		let b = Z(() => i.value && i.value.icdLn ? {
 			documentId: i.value.documentId,
 			ln: i.value.icdLn
-		} : null), b = Z(() => {
-			let e = m.value;
+		} : null), x = Z(() => {
+			let e = h.value;
 			return !e || e.kind !== "SourceRef" && e.kind !== "ControlRef" ? null : e.kind === "SourceRef" ? {
 				pLN: e.row.pLN,
 				pDO: e.row.pDO,
@@ -89840,42 +89865,42 @@ var ZJ = 12, QJ = /* @__PURE__ */ U({
 				pDO: e.row.pDO
 			};
 		});
-		function x(e) {
-			m.value = e, g.value?.getSize() || g.value?.resize(v.value);
+		function S(e) {
+			h.value = e, _.value?.getSize() || _.value?.resize(y.value);
 		}
-		function S() {
-			x({ kind: "LNode" });
+		function C() {
+			S({ kind: "LNode" });
 		}
-		function C(e) {
-			x({
+		function w(e) {
+			S({
 				kind: "SourceRef",
 				row: e
 			});
 		}
-		function w(e) {
-			x({
+		function T(e) {
+			S({
 				kind: "ControlRef",
 				row: e
 			});
 		}
-		function T(e) {
-			x({
+		function ee(e) {
+			S({
 				kind: "DataModel",
 				row: e
 			});
 		}
-		function ee() {
-			m.value = null;
-		}
 		function E() {
-			f.value && d.unlink(f.value.id);
+			h.value = null;
 		}
-		H(f, () => {
-			m.value && m.value.kind !== "LNode" && x({ kind: "LNode" });
+		function te() {
+			p.value && f.unlink(p.value.id);
+		}
+		H(p, () => {
+			h.value && h.value.kind !== "LNode" && S({ kind: "LNode" });
 		}), H(a, (e) => {
-			!e && m.value && m.value.kind !== "LNode" && x({ kind: "LNode" });
+			!e && h.value && h.value.kind !== "LNode" && S({ kind: "LNode" });
 		});
-		let te = Z(() => [
+		let ne = Z(() => [
 			{
 				id: "data-model",
 				label: "Data Model",
@@ -89884,15 +89909,15 @@ var ZJ = 12, QJ = /* @__PURE__ */ U({
 			{
 				id: "inputs",
 				label: "Inputs",
-				count: l.value.length
+				count: u.value.length
 			},
 			{
 				id: "outputs",
 				label: "Outputs",
-				count: u.value.length
+				count: d.value.length
 			}
 		]);
-		return (e, d) => (G(), q(z(yV), {
+		return (e, f) => (G(), q(z(yV), {
 			direction: "horizontal",
 			class: "h-full min-h-0 overflow-hidden"
 		}, {
@@ -89902,65 +89927,65 @@ var ZJ = 12, QJ = /* @__PURE__ */ U({
 					class: "flex flex-col min-w-0"
 				}, {
 					default: V(() => [
-						Y(gq),
+						Y(_q),
 						z(t) ? (G(), K(Jo, { key: 0 }, [
-							Y(CG, {
+							Y(wG, {
 								spec: z(r),
 								impl: z(i),
 								"is-linked": z(a),
 								"match-source": z(o),
-								onResolve: S,
-								onUnlink: E
+								onResolve: C,
+								onUnlink: te
 							}, null, 8, [
 								"spec",
 								"impl",
 								"is-linked",
 								"match-source"
 							]),
-							J("div", $J, [(G(!0), K(Jo, null, ta(te.value, (e) => (G(), K("button", {
+							J("div", tY, [(G(!0), K(Jo, null, ta(ne.value, (e) => (G(), K("button", {
 								key: e.id,
 								role: "tab",
-								class: A(["tab gap-1.5", { "tab-active": p.value === e.id }]),
-								onClick: (t) => p.value = e.id
-							}, [fs(j(e.label) + " ", 1), J("span", tY, j(e.count), 1)], 10, eY))), 128))]),
-							J("div", nY, [z(n) ? (G(), K("div", rY, [...d[0] ||= [J("span", { class: "loading loading-spinner loading-sm text-primary" }, null, -1)]])) : (G(), K(Jo, { key: 1 }, [
-								ur(Y(SK, {
+								class: A(["tab gap-1.5", { "tab-active": m.value === e.id }]),
+								onClick: (t) => m.value = e.id
+							}, [fs(j(e.label) + " ", 1), J("span", rY, j(e.count), 1)], 10, nY))), 128))]),
+							J("div", iY, [z(n) ? (G(), K("div", aY, [...f[0] ||= [J("span", { class: "loading loading-spinner loading-sm text-primary" }, null, -1)]])) : (G(), K(Jo, { key: 1 }, [
+								ur(Y(CK, {
 									nodes: z(s),
 									"is-linked": z(a),
 									class: "h-full",
-									onResolve: T,
+									onResolve: ee,
 									onValueImportSelection: z(c)
 								}, null, 8, [
 									"nodes",
 									"is-linked",
 									"onValueImportSelection"
-								]), [[Ac, p.value === "data-model"]]),
-								ur(Y(zK, {
-									rows: z(l),
-									"is-linked": z(a),
-									class: "h-full",
-									onResolve: C
-								}, null, 8, ["rows", "is-linked"]), [[Ac, p.value === "inputs"]]),
-								ur(Y(QK, {
+								]), [[Ac, m.value === "data-model"]]),
+								ur(Y(BK, {
 									rows: z(u),
 									"is-linked": z(a),
 									class: "h-full",
 									onResolve: w
-								}, null, 8, ["rows", "is-linked"]), [[Ac, p.value === "outputs"]])
+								}, null, 8, ["rows", "is-linked"]), [[Ac, m.value === "inputs"]]),
+								ur(Y($K, {
+									rows: z(d),
+									"is-linked": z(a),
+									class: "h-full",
+									onResolve: T
+								}, null, 8, ["rows", "is-linked"]), [[Ac, m.value === "outputs"]])
 							], 64))])
-						], 64)) : (G(), K("div", iY, [...d[1] ||= [J("p", { class: "text-sm text-base-content/50" }, [
+						], 64)) : (G(), K("div", oY, [...f[1] ||= [J("p", { class: "text-sm text-base-content/50" }, [
 							fs(" Select an "),
 							J("span", { class: "font-medium" }, "LNode"),
 							fs(" in the explorer to view and map its implementation. ")
 						], -1)]])),
-						Y(eJ)
+						Y(tJ)
 					]),
 					_: 1
 				}),
-				ur(Y(z(SV), { class: "w-1" }, null, 512), [[Ac, h.value]]),
+				ur(Y(z(SV), { class: "w-1" }, null, 512), [[Ac, g.value]]),
 				Y(z(bV), {
 					ref_key: "browserPanelRef",
-					ref: g,
+					ref: _,
 					"default-size": 0,
 					"min-size": 20,
 					"max-size": 65,
@@ -89968,35 +89993,37 @@ var ZJ = 12, QJ = /* @__PURE__ */ U({
 					collapsible: "",
 					class: "border-l border-base-300 bg-base-100 overflow-hidden flex flex-col"
 				}, {
-					default: V(() => [m.value ? (G(), K("div", aY, [J("header", oY, [J("span", sY, j(_.value), 1), J("button", {
+					default: V(() => [h.value ? (G(), K("div", sY, [J("header", cY, [J("span", lY, j(v.value), 1), J("button", {
 						type: "button",
 						class: "btn btn-ghost btn-xs btn-square",
-						onClick: ee
-					}, [Y(z(iH), { class: "size-4" })])]), m.value.kind === "LNode" ? (G(), q(WJ, {
+						onClick: E
+					}, [Y(z(iH), { class: "size-4" })])]), h.value.kind === "LNode" ? (G(), q(KJ, {
 						key: 0,
 						class: "flex-1 min-h-0 overflow-auto"
-					})) : m.value.kind === "DataModel" && y.value && z(f) ? (G(), q(QJ, {
-						key: `DataModel:${m.value.row.id}`,
-						kind: m.value.row.kind,
-						"project-id": m.value.row.id,
-						path: m.value.row.path,
-						"anchor-id": z(f).id,
-						"ln-scope": y.value,
+					})) : h.value.kind === "DataModel" && b.value && z(p) ? (G(), q(eY, {
+						key: `DataModel:${h.value.row.id}`,
+						kind: h.value.row.kind,
+						"project-id": h.value.row.id,
+						path: h.value.row.path,
+						cdc: z(l).get(h.value.row.path),
+						"anchor-id": z(p).id,
+						"ln-scope": b.value,
 						class: "flex-1 min-h-0 overflow-auto"
 					}, null, 8, [
 						"kind",
 						"project-id",
 						"path",
+						"cdc",
 						"anchor-id",
 						"ln-scope"
-					])) : y.value && z(f) && b.value && (m.value.kind === "SourceRef" || m.value.kind === "ControlRef") ? (G(), q(YJ, {
-						key: `${m.value.kind}:${m.value.row.id}`,
-						kind: m.value.kind,
-						"project-id": m.value.row.id,
-						"anchor-id": z(f).id,
-						target: b.value,
-						"ln-scope": y.value,
-						label: m.value.kind === "SourceRef" ? m.value.row.input : m.value.row.output,
+					])) : b.value && z(p) && x.value && (h.value.kind === "SourceRef" || h.value.kind === "ControlRef") ? (G(), q(ZJ, {
+						key: `${h.value.kind}:${h.value.row.id}`,
+						kind: h.value.kind,
+						"project-id": h.value.row.id,
+						"anchor-id": z(p).id,
+						target: x.value,
+						"ln-scope": b.value,
+						label: h.value.kind === "SourceRef" ? h.value.row.input : h.value.row.output,
 						class: "flex-1 min-h-0 overflow-auto"
 					}, null, 8, [
 						"kind",
@@ -90012,20 +90039,20 @@ var ZJ = 12, QJ = /* @__PURE__ */ U({
 			_: 1
 		}));
 	}
-}), lY = { class: "flex flex-col overflow-hidden h-full" }, uY = {
+}), dY = { class: "flex flex-col overflow-hidden h-full" }, fY = {
 	key: 0,
 	class: "flex-1 min-h-0 overflow-hidden"
-}, dY = /* @__PURE__ */ U({
+}, pY = /* @__PURE__ */ U({
 	__name: "data-model-container",
 	props: { collapsed: { type: Boolean } },
 	emits: ["toggle"],
 	setup(e) {
-		return (t, n) => (G(), K("section", lY, [J("header", {
+		return (t, n) => (G(), K("section", dY, [J("header", {
 			class: "flex items-center justify-between px-4 py-2 bg-base-200 cursor-pointer select-none shrink-0",
 			onClick: n[0] ||= (e) => t.$emit("toggle")
-		}, [n[1] ||= J("span", { class: "font-medium text-lg" }, "Implementation", -1), (G(), q(Zi(e.collapsed ? z(LV) : z(zV)), { class: "size-4" }))]), e.collapsed ? X("", !0) : (G(), K("div", uY, [Y(cY)]))]));
+		}, [n[1] ||= J("span", { class: "font-medium text-lg" }, "Implementation", -1), (G(), q(Zi(e.collapsed ? z(LV) : z(zV)), { class: "size-4" }))]), e.collapsed ? X("", !0) : (G(), K("div", fY, [Y(uY)]))]));
 	}
-}), fY = ["id"], pY = /* @__PURE__ */ U({
+}), mY = ["id"], hY = /* @__PURE__ */ U({
 	__name: "app",
 	setup(e) {
 		let t = VP(), n = /* @__PURE__ */ R(!1);
@@ -90036,28 +90063,28 @@ var ZJ = 12, QJ = /* @__PURE__ */ U({
 			id: z("ext-specification-ied-implementation"),
 			class: "h-full"
 		}, [Y(wV, null, {
-			"primary-sidebar": V(() => [Y(TW)]),
-			"main-area": V(() => [Y(z(dY), {
+			"primary-sidebar": V(() => [Y(EW)]),
+			"main-area": V(() => [Y(z(pY), {
 				class: "h-full w-full",
 				collapsed: n.value,
 				onToggle: t[0] ||= (e) => n.value = !n.value
 			}, null, 8, ["collapsed"])]),
 			_: 1
-		}), Y(kW)], 8, fY)) : X("", !0);
+		}), Y(AW)], 8, mY)) : X("", !0);
 	}
 });
 //#endregion
 //#region set-editor.ts
-function mY(e, t) {
+function gY(e, t) {
 	AS(document.getElementById(e), { detail: `could not find root element: ${e}` }), t.project, t.activeDocumentId, t.commands;
 	let n = (e) => {
 		e ? iP(t.project.openDocument(e)) : aP();
 	};
 	n(t.activeDocumentId.value);
-	let r = t.activeDocumentId.subscribe(n), i = tu(pY), a = wP();
+	let r = t.activeDocumentId.subscribe(n), i = tu(hY), a = wP();
 	return i.use(a), i.mount(`#${e}`), () => {
 		PH(a).destroy(), r(), i.unmount(), TP(a), aP();
 	};
 }
 //#endregion
-export { mY as default };
+export { gY as default };

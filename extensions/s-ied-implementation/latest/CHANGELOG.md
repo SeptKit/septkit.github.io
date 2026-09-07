@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [32] - 2026-09-07
+
+### Fixed
+
+- Data Object matching now shows only implementation candidates with the same identifiable Common Data Class
+
 ## [31] - 2026-09-04
 
 ### Fixed
