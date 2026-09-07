@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [4] - 2026-09-07
+
+### Added
+
+- Toggle to only show exchanging LNodes (hide LNodes that send or receive no dataflows)
+
 ## [3] - 2026-09-03
 
 ### Added
