@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:scl="http://www.iec.ch/61850/2003/SCL"
+  xmlns:eLabelInfo="http://www.elia.be/iec61850/set/privateElements.xsd"
+  targetNamespace="http://www.iec.ch/61850/2003/SCL"
+  elementFormDefault="qualified"
+  attributeFormDefault="unqualified">
+
+  <!-- =========================
+       Simple Types
+       ========================= -->
+  <xs:simpleType name="tBooleanLexical">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="true"/>
+      <xs:enumeration value="false"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+	<!-- ****************************** -->
+	<!-- XSD Version Management -->
+	<!-- ****************************** -->
+	<xs:attribute name="version" type="scl:tSclVersion" fixed="2026">
+		<xs:annotation>
+			<xs:documentation>Attribute used to identify version of the XSD. To be added to SCL header</xs:documentation>
+		</xs:annotation>
+	</xs:attribute>
+	<xs:attribute name="revision" type="scl:tSclRevision" fixed="A">
+		<xs:annotation>
+			<xs:documentation>Attribute used to identify revision of the XSD. To be added to SCL header</xs:documentation>
+		</xs:annotation>
+	</xs:attribute>
+	<xs:attribute name="release" type="scl:tSclRelease" fixed="1">
+		<xs:annotation>
+			<xs:documentation>Attribute used to identify release of the XSD. To be added to SCL header</xs:documentation>
+		</xs:annotation>
+	</xs:attribute>
+	
+  <!-- =========================
+       eLabelInfo Namespace Definitions
+       (global element declarations)
+       ========================= -->
+
+  <!-- Global element for LabelInfo -->
+  <xs:element name="LabelInfo" type="eLabelInfo:tLabelInfo"
+              xmlns="http://www.elia.be/iec61850/set/privateElements.xsd"/>
+
+  <!-- Properties -->
+  <xs:element name="BooleanProperty" type="eLabelInfo:tBooleanProperty"
+              xmlns="http://www.elia.be/iec61850/set/privateElements.xsd"/>
+  <xs:element name="TextProperty" type="eLabelInfo:tTextProperty"
+              xmlns="http://www.elia.be/iec61850/set/privateElements.xsd"/>
+  <xs:element name="ListProperty" type="eLabelInfo:tListProperty"
+              xmlns="http://www.elia.be/iec61850/set/privateElements.xsd"/>
+  <xs:element name="BooleanItem" type="eLabelInfo:tBooleanItem"
+              xmlns="http://www.elia.be/iec61850/set/privateElements.xsd"/>
+  <xs:element name="Address" type="eLabelInfo:tAddress"
+              xmlns="http://www.elia.be/iec61850/set/privateElements.xsd"/>
+
+  <!-- =========================
+       eLabelInfo Complex Types
+       ========================= -->
+
+  <xs:complexType name="tLabelInfo"
+    xmlns="http://www.elia.be/iec61850/set/privateElements.xsd">
+    <xs:sequence>
+      <xs:choice minOccurs="0" maxOccurs="unbounded">
+        <xs:element ref="eLabelInfo:BooleanProperty"/>
+        <xs:element ref="eLabelInfo:TextProperty"/>
+        <xs:element ref="eLabelInfo:ListProperty"/>
+        <xs:element ref="eLabelInfo:Address"/>
+      </xs:choice>
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="LabelId" type="xs:string" use="required"/>
+  </xs:complexType>
+
+  <xs:complexType name="tBooleanProperty"
+    xmlns="http://www.elia.be/iec61850/set/privateElements.xsd">
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="value" type="scl:tBooleanLexical" use="required"/>
+    <xs:attribute name="locked" type="scl:tBooleanLexical" use="required"/>	
+  </xs:complexType>
+
+  <xs:complexType name="tTextProperty"
+    xmlns="http://www.elia.be/iec61850/set/privateElements.xsd">
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="value" type="xs:string" use="required"/>
+    <xs:attribute name="locked" type="scl:tBooleanLexical" use="required"/>		
+  </xs:complexType>
+
+  <xs:complexType name="tListProperty"
+    xmlns="http://www.elia.be/iec61850/set/privateElements.xsd">
+    <xs:sequence>
+      <xs:element ref="eLabelInfo:BooleanItem" minOccurs="0" maxOccurs="unbounded"/>
+    </xs:sequence>
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="min" type="xs:nonNegativeInteger" use="optional"/>
+    <xs:attribute name="max" type="xs:nonNegativeInteger" use="optional"/>
+    <xs:attribute name="locked" type="scl:tBooleanLexical" use="required"/>		
+  </xs:complexType>
+
+  <xs:complexType name="tBooleanItem"
+    xmlns="http://www.elia.be/iec61850/set/privateElements.xsd">
+    <xs:attribute name="name" type="xs:string" use="required"/>
+    <xs:attribute name="value" type="scl:tBooleanLexical" use="required"/>
+    <xs:attribute name="Text" type="xs:string" use="optional"/>
+  </xs:complexType>
+
+  <xs:complexType name="tAddress"
+    xmlns="http://www.elia.be/iec61850/set/privateElements.xsd">
+    <xs:attribute name="casdu" type="xs:unsignedInt" use="required"/>
+    <xs:attribute name="ioa" type="xs:unsignedInt" use="required"/>
+    <xs:attribute name="ti" type="xs:unsignedInt" use="required"/>
+    <xs:attribute name="locked" type="scl:tBooleanLexical" use="required"/>		
+  </xs:complexType>
+
+</xs:schema>
