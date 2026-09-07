@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## Unreleased
 
+## [68] - 2026-09-07
+
+### Added
+
+- Edit an existing dataflow placeholder
+
 ## [67] - 2026-08-28
 
 ### Fixed

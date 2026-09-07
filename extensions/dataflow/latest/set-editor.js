@@ -1,4 +1,4 @@
-(function(){try{if(typeof document<`u`){var e=document.createElement(`style`);e.appendChild(document.createTextNode(`.btn[data-v-c8124502]:disabled{border-color:var(--color-ocean-gray-200);background-color:var(--color-ocean-gray-75);color:var(--color-ocean-gray-200)}.controlled-connection__delete-btn[data-v-c1214892]{all:unset;cursor:pointer;color:#0000;border-radius:50%;flex-shrink:0;align-items:center;padding:3px;display:flex;position:absolute;left:120%}.container:hover .controlled-connection .controlled-connection__delete-btn[data-v-c1214892]{color:var(--color-ocean-gray-300);background:var(--color-base-100,#fff);outline:2px solid var(--color-ocean-gray-200)}.controlled-connection:hover .controlled-connection__delete-btn[data-v-c1214892]:hover{color:var(--color-primary,#dc2626);outline:2px solid var(--color-primary)}.dataflow-group[data-v-d6b5587f]{grid-template-columns:repeat(3,1fr);gap:20px;display:grid}.dataflow-group [data-v-d6b5587f]{align-self:center}.dataflow-group__overlay[data-v-d6b5587f]{pointer-events:none;grid-template-columns:1fr 1fr;align-items:center;display:grid;position:absolute;top:50%;left:0;right:0;transform:translateY(-50%)}.dataflow-group__overlay button[data-v-d6b5587f]{pointer-events:auto}.dataflow-group__supervision-col[data-v-d6b5587f]{justify-content:center;display:flex}.dataflow-group__actions[data-v-d6b5587f]{justify-content:center;align-items:center;gap:.5rem;display:flex}.dataflow-group__action-btn[data-v-d6b5587f]{all:unset;cursor:pointer;color:#0000;border-radius:50%;flex-shrink:0;align-items:center;padding:3px;display:flex}.dataflow-group:hover .dataflow-group__action-btn[data-v-d6b5587f]{color:var(--color-ocean-gray-300);background:var(--color-base-100,#fff);outline:2px solid var(--color-ocean-gray-200)}.dataflow-group:hover .dataflow-group__action-btn[data-v-d6b5587f]:disabled{color:var(--color-ocean-gray-200);outline-color:var(--color-ocean-gray-100)}.dataflow-group .dataflow-group__action-btn[data-v-d6b5587f]:not(:disabled):hover{color:var(--color-primary);outline:2px solid var(--color-primary)}.dataflow-group__line--active[data-v-d6b5587f]{border-width:2px}.dataflow-group__left-port span[data-v-d6b5587f],.dataflow-group__right-port span[data-v-d6b5587f]{border:2px var(--tw-border-style) var(--color-ocean-gray-100);border-radius:var(--radius-sm);padding:.25rem .5rem}.dataflows[data-v-5e3be295] *{cursor:pointer;align-self:center}.dataflows__chevron-btn[data-v-5e3be295]{all:unset;cursor:pointer;color:var(--color-ocean-gray-300);background:var(--color-base-100,#fff);outline:2px solid var(--color-ocean-gray-300);border-radius:50%;margin-top:.2rem;padding:3px}.dataflows__action-btn[data-v-5e3be295]{all:unset;cursor:pointer;color:#0000;border-radius:50%;flex-shrink:0;align-items:center;padding:3px;display:flex}.dataflows:hover .dataflows__action-btn[data-v-5e3be295]{color:var(--color-ocean-gray-300);background:var(--color-base-100,#fff);outline:2px solid var(--color-ocean-gray-300)}.dataflows:hover .dataflows__action-btn[data-v-5e3be295]:hover{color:var(--color-primary);outline:2px solid var(--color-primary)}.dataflows:hover .dataflows__action-btn[data-v-5e3be295]:disabled{color:var(--color-ocean-gray-200);outline-color:var(--color-ocean-gray-100)}.dataflows.dataflows--detailed[data-v-5e3be295]{grid-auto-rows:50px;margin-bottom:2rem}.dataflows__left-port span[data-v-5e3be295],.dataflows__right-port span[data-v-5e3be295]{border:2px var(--tw-border-style) var(--color-ocean-gray-100);border-radius:var(--radius-sm);padding:.25rem .5rem}.placeholder--resolver-button[data-v-71710c62]{background-color:var(--color-primary);color:#fff;z-index:2;cursor:pointer;border-width:1px;border-radius:4px;grid-row-start:1;grid-column-start:3;place-self:center;padding:.5rem;font-size:.875rem;line-height:1.25rem;position:relative}.placeholder--resolver-button[data-v-71710c62]:disabled{border-color:var(--color-ocean-gray-200);background-color:var(--color-ocean-gray-75);color:var(--color-ocean-gray-200);cursor:default}.placeholder--actions[data-v-71710c62]{z-index:3;grid-row-start:1;grid-column-start:3;place-self:center;align-items:center;gap:.5rem;display:flex;position:relative;right:5%}.placeholder--delete-button[data-v-71710c62]{all:unset;cursor:pointer;color:#0000;border-radius:50%;flex-shrink:0;align-items:center;padding:3px;display:flex}.placeholder-port:hover .placeholder--delete-button[data-v-71710c62],.placeholder-port:focus-within .placeholder--delete-button[data-v-71710c62]{color:var(--color-ocean-gray-300);background:var(--color-base-100);outline:2px solid var(--color-ocean-gray-200)}.placeholder-port .placeholder--delete-button[data-v-71710c62]:hover,.placeholder-port .placeholder--delete-button[data-v-71710c62]:focus-visible{color:var(--color-primary);outline:2px solid var(--color-primary)}.placeholder--resolver-button[data-v-21ad7820]{z-index:2;background-color:var(--color-primary);color:#fff;cursor:pointer;border-style:solid;border-width:1px;border-radius:4px;grid-row-start:1;grid-column-start:3;place-self:center;padding:.5rem;font-size:.875rem;line-height:1.25rem;position:relative}.placeholder--resolver-button[data-v-21ad7820]:disabled{border-color:var(--color-ocean-gray-200);background-color:var(--color-ocean-gray-75);color:var(--color-ocean-gray-200);cursor:default}.placeholder--actions[data-v-21ad7820]{z-index:3;grid-row-start:1;grid-column-start:3;place-self:center;align-items:center;gap:.5rem;display:flex;position:relative;left:5%}.placeholder--delete-button[data-v-21ad7820]{all:unset;cursor:pointer;color:#0000;border-radius:50%;flex-shrink:0;align-items:center;padding:3px;display:flex}.placeholder-port:hover .placeholder--delete-button[data-v-21ad7820],.placeholder-port:focus-within .placeholder--delete-button[data-v-21ad7820]{color:var(--color-ocean-gray-300);background:var(--color-base-100);outline:2px solid var(--color-ocean-gray-200)}.placeholder-port .placeholder--delete-button[data-v-21ad7820]:hover,.placeholder-port .placeholder--delete-button[data-v-21ad7820]:focus-visible{color:var(--color-primary);outline:2px solid var(--color-primary)}.layout[data-v-7e8ad238]{grid-template-columns:1fr 20rem;height:100%;display:grid;overflow-y:scroll}.sidebar[data-v-7e8ad238]{border-left:1px solid var(--border-color);height:100%;padding:1.5rem}.main[data-v-7e8ad238]{height:100%;padding:1rem}.root[data-v-6bc2b856]{flex-direction:column;gap:1rem;display:flex}.tab[data-v-6bc2b856]{transition:all .2s}.tabs[data-v-6bc2b856]{width:auto;margin:0 auto;display:inline-block}@layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orient:inline) and (not (color:rgb(from red r g b)))){*,:before,:after,::backdrop{--tw-translate-x:0;--tw-translate-y:0;--tw-translate-z:0;--tw-rotate-x:initial;--tw-rotate-y:initial;--tw-rotate-z:initial;--tw-skew-x:initial;--tw-skew-y:initial;--tw-space-y-reverse:0;--tw-divide-y-reverse:0;--tw-border-style:solid;--tw-leading:initial;--tw-font-weight:initial;--tw-tracking:initial;--tw-shadow:0 0 #0000;--tw-shadow-color:initial;--tw-shadow-alpha:100%;--tw-inset-shadow:0 0 #0000;--tw-inset-shadow-color:initial;--tw-inset-shadow-alpha:100%;--tw-ring-color:initial;--tw-ring-shadow:0 0 #0000;--tw-inset-ring-color:initial;--tw-inset-ring-shadow:0 0 #0000;--tw-ring-inset:initial;--tw-ring-offset-width:0;--tw-ring-offset-color:#fff;--tw-ring-offset-shadow:0 0 #0000;--tw-outline-style:solid;--tw-blur:initial;--tw-brightness:initial;--tw-contrast:initial;--tw-grayscale:initial;--tw-hue-rotate:initial;--tw-invert:initial;--tw-opacity:initial;--tw-saturate:initial;--tw-sepia:initial;--tw-drop-shadow:initial;--tw-drop-shadow-color:initial;--tw-drop-shadow-alpha:100%;--tw-drop-shadow-size:initial;--tw-content:""}}}@layer theme{:root,:host{--font-sans:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";--font-mono:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;--color-gray-200:oklch(92.8% .006 264.531);--color-neutral-50:oklch(98.5% 0 0);--color-neutral-700:oklch(37.1% 0 0);--color-stone-700:oklch(37.4% .01 67.558);--color-black:#000;--color-white:#fff;--spacing:.25rem;--container-sm:24rem;--container-md:28rem;--container-lg:32rem;--container-xl:36rem;--container-2xl:42rem;--container-3xl:48rem;--container-5xl:64rem;--text-xs:.75rem;--text-xs--line-height:calc(1 / .75);--text-sm:.875rem;--text-sm--line-height:calc(1.25 / .875);--text-base:1rem;--text-base--line-height:calc(1.5 / 1);--text-lg:1.125rem;--text-lg--line-height:calc(1.75 / 1.125);--text-3xl:1.875rem;--text-3xl--line-height:calc(2.25 / 1.875);--font-weight-medium:500;--font-weight-semibold:600;--font-weight-bold:700;--tracking-wide:.025em;--radius-sm:.25rem;--radius-md:.375rem;--radius-lg:.5rem;--radius-xl:.75rem;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4, 0, .2, 1);--default-font-family:var(--font-sans);--default-mono-font-family:var(--font-mono)}}@layer base{@supports (not ((-webkit-appearance:-apple-pay-button))) or (contain-intrinsic-size:1px){::placeholder{color:currentColor}@supports (color:color-mix(in lab, red, red)){::placeholder{color:color-mix(in oklab, currentcolor 50%, transparent)}}}*,:after,:before,::backdrop{box-sizing:border-box;border:0 solid;margin:0;padding:0}::file-selector-button{box-sizing:border-box;border:0 solid;margin:0;padding:0}html,:host{-webkit-text-size-adjust:100%;tab-size:4;line-height:1.5;font-family:var(--default-font-family,ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");font-feature-settings:var(--default-font-feature-settings,normal);font-variation-settings:var(--default-font-variation-settings,normal);-webkit-tap-highlight-color:transparent}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;-webkit-text-decoration:inherit;-webkit-text-decoration:inherit;-webkit-text-decoration:inherit;-webkit-text-decoration:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,samp,pre{font-family:var(--default-mono-font-family,ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace);font-feature-settings:var(--default-mono-font-feature-settings,normal);font-variation-settings:var(--default-mono-font-variation-settings,normal);font-size:1em}small{font-size:80%}sub,sup{vertical-align:baseline;font-size:75%;line-height:0;position:relative}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}:-moz-focusring{outline:auto}progress{vertical-align:baseline}summary{display:list-item}ol,ul,menu{list-style:none}img,svg,video,canvas,audio,iframe,embed,object{vertical-align:middle;display:block}img,video{max-width:100%;height:auto}button,input,select,optgroup,textarea{font:inherit;font-feature-settings:inherit;font-variation-settings:inherit;letter-spacing:inherit;color:inherit;opacity:1;background-color:#0000;border-radius:0}::file-selector-button{font:inherit;font-feature-settings:inherit;font-variation-settings:inherit;letter-spacing:inherit;color:inherit;opacity:1;background-color:#0000;border-radius:0}:where(select:is([multiple],[size])) optgroup{font-weight:bolder}:where(select:is([multiple],[size])) optgroup option{padding-inline-start:20px}::file-selector-button{margin-inline-end:4px}::placeholder{opacity:1}@supports (not ((-webkit-appearance:-apple-pay-button))) or (contain-intrinsic-size:1px){::placeholder{color:currentColor}@supports (color:color-mix(in lab, red, red)){::placeholder{color:color-mix(in oklab, currentcolor 50%, transparent)}}}textarea{resize:vertical}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-date-and-time-value{min-height:1lh;text-align:inherit}::-webkit-datetime-edit{display:inline-flex}::-webkit-datetime-edit-fields-wrapper{padding:0}::-webkit-datetime-edit{padding-block:0}::-webkit-datetime-edit-year-field{padding-block:0}::-webkit-datetime-edit-month-field{padding-block:0}::-webkit-datetime-edit-day-field{padding-block:0}::-webkit-datetime-edit-hour-field{padding-block:0}::-webkit-datetime-edit-minute-field{padding-block:0}::-webkit-datetime-edit-second-field{padding-block:0}::-webkit-datetime-edit-millisecond-field{padding-block:0}::-webkit-datetime-edit-meridiem-field{padding-block:0}::-webkit-calendar-picker-indicator{line-height:1}:-moz-ui-invalid{box-shadow:none}button,input:where([type=button],[type=reset],[type=submit]){appearance:button}::file-selector-button{appearance:button}::-webkit-inner-spin-button{height:auto}::-webkit-outer-spin-button{height:auto}[hidden]:where(:not([hidden=until-found])){display:none!important}@property --radialprogress{syntax:"<percentage>";inherits:true;initial-value:0%}@property --aura-angle{syntax:"<angle>";inherits:false;initial-value:0deg}:root{scrollbar-color:currentColor #0000}@supports (color:color-mix(in lab, red, red)){:root{scrollbar-color:color-mix(in oklch, currentColor 35%, #0000) #0000}}:root{--fx-noise:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.34' numOctaves='4' stitchTiles='stitch'%3E%3C/feTurbulence%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23a)' opacity='0.2'%3E%3C/rect%3E%3C/svg%3E");--page-scroll-lock:initial;--page-overflow:var(--page-scroll-lock) hidden;--page-has-backdrop:var(--page-scroll-lock) 1;--page-scroll-bg:var(--page-scroll-lock) var(--root-bg,#0000)}@supports (color:color-mix(in lab, red, red)){:root{--page-scroll-bg:var(--page-scroll-lock) color-mix(in srgb, var(--root-bg,#0000), oklch(0% 0 0) calc(var(--page-has-backdrop,0) * 40%))}}:root{background-image:var(--page-scroll-lock) linear-gradient(var(--root-bg,#0000), var(--root-bg,#0000));transition:var(--page-scroll-lock) background-color .3s ease-out;animation:var(--page-scroll-lock) set-page-has-scroll forwards;animation-timeline:var(--page-scroll-lock) scroll();--page-has-scroll:initial;scrollbar-gutter:var(--page-has-scroll) var(--page-scroll-lock) stable}@keyframes set-page-has-scroll{0%,to{--page-has-scroll:1}}:root,[data-theme]{background-color:var(--root-bg);color:var(--color-base-content)}:root{background-color:var(--page-scroll-bg,var(--root-bg));--fx-noise:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.34' numOctaves='4' stitchTiles='stitch'%3E%3C/feTurbulence%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23a)' opacity='0.2'%3E%3C/rect%3E%3C/svg%3E");scrollbar-color:currentColor #0000}@supports (color:color-mix(in lab, red, red)){:root{scrollbar-color:color-mix(in oklch, currentColor 35%, #0000) #0000}}:root:not(span){overflow:var(--page-overflow)}:root{background:var(--page-scroll-bg,var(--root-bg));--page-scroll-bg-on:linear-gradient(var(--root-bg,#0000), var(--root-bg,#0000)) var(--root-bg,#0000)}@supports (color:color-mix(in lab, red, red)){:root{--page-scroll-bg-on:linear-gradient(var(--root-bg,#0000), var(--root-bg,#0000)) color-mix(in srgb, var(--root-bg,#0000), oklch(0% 0 0) calc(var(--page-has-backdrop,0) * 40%))}}:root{--page-scroll-transition-on:background-color .3s ease-out;transition:var(--page-scroll-transition);scrollbar-gutter:var(--page-scroll-gutter,unset);scrollbar-gutter:if(style(--page-has-scroll: 1): var(--page-scroll-gutter,unset) ; else: unset)}:root,[data-theme]{background:var(--page-scroll-bg,var(--root-bg));color:var(--color-base-content)}:where(:root,[data-theme]){--root-bg:var(--color-base-100)}:where(:root),[data-theme=ocean-light]{--lightningcss-light:initial;--lightningcss-dark: ;color-scheme:light;--color-base-100:oklch(98% 0 0);--color-base-200:oklch(97% 0 0);--color-base-300:oklch(92% 0 0);--color-base-content:oklch(37% 0 0);--color-primary:oklch(58.13% .0903 209.8);--color-primary-content:oklch(100% 0 0);--color-secondary:oklch(65.24% .0821 207.95);--color-secondary-content:oklch(100% 0 0);--color-accent:oklch(60% .118 184.704);--color-accent-content:oklch(98% .001 106.423);--color-neutral:oklch(55% .013 58.071);--color-neutral-content:oklch(98% .031 120.757);--color-info:oklch(70% .165 254.624);--color-info-content:oklch(98% .001 106.423);--color-success:oklch(72% .219 149.579);--color-success-content:oklch(98% .001 106.423);--color-warning:oklch(87% .169 91.605);--color-warning-content:oklch(98% .001 106.423);--color-error:oklch(63% .237 25.331);--color-error-content:oklch(98% .001 106.423);--radius-selector:.25rem;--radius-field:.25rem;--radius-box:.25rem;--size-selector:.21875rem;--size-field:.21875rem;--border:1.5px;--depth:1;--noise:1;--border-color:var(--color-base-300)}:root:has(input.theme-controller[value=ocean-light]:checked){--lightningcss-light:initial;--lightningcss-dark: ;color-scheme:light;--color-base-100:oklch(98% 0 0);--color-base-200:oklch(97% 0 0);--color-base-300:oklch(92% 0 0);--color-base-content:oklch(37% 0 0);--color-primary:oklch(58.13% .0903 209.8);--color-primary-content:oklch(100% 0 0);--color-secondary:oklch(65.24% .0821 207.95);--color-secondary-content:oklch(100% 0 0);--color-accent:oklch(60% .118 184.704);--color-accent-content:oklch(98% .001 106.423);--color-neutral:oklch(55% .013 58.071);--color-neutral-content:oklch(98% .031 120.757);--color-info:oklch(70% .165 254.624);--color-info-content:oklch(98% .001 106.423);--color-success:oklch(72% .219 149.579);--color-success-content:oklch(98% .001 106.423);--color-warning:oklch(87% .169 91.605);--color-warning-content:oklch(98% .001 106.423);--color-error:oklch(63% .237 25.331);--color-error-content:oklch(98% .001 106.423);--radius-selector:.25rem;--radius-field:.25rem;--radius-box:.25rem;--size-selector:.21875rem;--size-field:.21875rem;--border:1.5px;--depth:1;--noise:1;--border-color:var(--color-base-300)}}@layer components;@layer utilities{@layer daisyui.l1.l2.l3{.tab{cursor:pointer;appearance:none;text-align:center;webkit-user-select:none;-webkit-user-select:none;user-select:none;flex-wrap:wrap;justify-content:center;align-items:center;display:inline-flex;position:relative}@media (hover:hover){.tab:hover{color:var(--color-base-content)}}.tab{--tab-p:.75rem;--tab-bg:var(--color-base-100);--tab-border-color:var(--color-base-300);--tab-radius-ss:0;--tab-radius-se:0;--tab-radius-es:0;--tab-radius-ee:0;--tab-order:0;--tab-radius-min:calc(.75rem - var(--border));--tab-radius-limit:min(var(--radius-field), var(--tab-radius-min));--tab-radius-grad:#0000 calc(69% - var(--border)), var(--tab-border-color) calc(69% - var(--border) + .25px), var(--tab-border-color) 69%, var(--tab-bg) calc(69% + .25px);order:var(--tab-order);height:var(--tab-height);padding-inline:var(--tab-p);border-color:#0000;font-size:.875rem}.tab:is(input[type=radio]){min-width:fit-content}.tab:is(input[type=radio]):after{--tw-content:attr(aria-label);content:var(--tw-content)}.tab:is(label){position:relative}.tab:is(label) input{cursor:pointer;appearance:none;opacity:0;position:absolute;inset:0}:is(.tab:checked,.tab:is(label:has(:checked)),.tab:is(.tab-active,[aria-selected=true],[aria-current=true],[aria-current=page]))+.tab-content{display:block}.tab:not(:checked,label:has(:checked),:hover,.tab-active,[aria-selected=true],[aria-current=true],[aria-current=page]){color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.tab:not(:checked,label:has(:checked),:hover,.tab-active,[aria-selected=true],[aria-current=true],[aria-current=page]){color:color-mix(in oklab, var(--color-base-content) 50%, transparent)}}.tab:not(input):empty{cursor:default;flex-grow:1}.tab:focus{--tw-outline-style:none;outline-style:none}@media (forced-colors:active){.tab:focus{outline-offset:2px;outline:2px solid #0000}}.tab:focus-visible,.tab:is(label:has(:checked:focus-visible)){outline-offset:-5px;outline:2px solid}.tab[disabled]{pointer-events:none;opacity:.4}.menu :where(li ul){white-space:nowrap;margin-inline-start:1rem;padding-inline-start:.5rem;position:relative}.menu :where(li ul):before{background-color:var(--color-base-content);opacity:.1;width:var(--border);content:"";inset-inline-start:0;position:absolute;top:.75rem;bottom:.75rem}.menu :where(li:not(.menu-title)>:not(ul,details,.menu-title,.btn)),.menu :where(li:not(.menu-title)>details>summary:not(.menu-title)){border-radius:var(--radius-field);text-align:start;text-wrap:balance;-webkit-user-select:none;user-select:none;grid-auto-columns:minmax(auto,max-content) auto max-content;grid-auto-flow:column;align-content:flex-start;align-items:center;gap:.5rem;padding-block:.375rem;padding-inline:.75rem;transition-property:color,background-color,box-shadow;transition-duration:.2s;transition-timing-function:cubic-bezier(0,0,.2,1);display:grid}@media (forced-colors:active){.menu :where(li>details>summary){outline-offset:2px;outline:2px solid #0000}}@media (prefers-reduced-motion:no-preference){.menu details::details-content{transition-behavior:allow-discrete;transition-property:block-size,content-visibility;transition-duration:.2s;transition-timing-function:cubic-bezier(0,0,.2,1)}}.menu :where(li:not(.menu-title,.disabled)>:not(ul,details,.menu-title),li:not(.menu-title,.disabled)>details>summary:not(.menu-title)):not(.menu-active,:active,.btn).menu-focus,.menu :where(li:not(.menu-title,.disabled)>:not(ul,details,.menu-title),li:not(.menu-title,.disabled)>details>summary:not(.menu-title)):not(.menu-active,:active,.btn):focus-visible{cursor:pointer;background-color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.menu :where(li:not(.menu-title,.disabled)>:not(ul,details,.menu-title),li:not(.menu-title,.disabled)>details>summary:not(.menu-title)):not(.menu-active,:active,.btn).menu-focus,.menu :where(li:not(.menu-title,.disabled)>:not(ul,details,.menu-title),li:not(.menu-title,.disabled)>details>summary:not(.menu-title)):not(.menu-active,:active,.btn):focus-visible{background-color:color-mix(in oklab, var(--color-base-content) 10%, transparent)}}.menu :where(li:not(.menu-title,.disabled)>:not(ul,details,.menu-title),li:not(.menu-title,.disabled)>details>summary:not(.menu-title)):not(.menu-active,:active,.btn).menu-focus,.menu :where(li:not(.menu-title,.disabled)>:not(ul,details,.menu-title),li:not(.menu-title,.disabled)>details>summary:not(.menu-title)):not(.menu-active,:active,.btn):focus-visible{color:var(--color-base-content);--tw-outline-style:none;outline-style:none}@media (forced-colors:active){.menu :where(li:not(.menu-title,.disabled)>:not(ul,details,.menu-title),li:not(.menu-title,.disabled)>details>summary:not(.menu-title)):not(.menu-active,:active,.btn).menu-focus,.menu :where(li:not(.menu-title,.disabled)>:not(ul,details,.menu-title),li:not(.menu-title,.disabled)>details>summary:not(.menu-title)):not(.menu-active,:active,.btn):focus-visible{outline-offset:2px;outline:2px solid #0000}}.menu :where(li:not(.menu-title,.disabled)>:not(ul,details,.menu-title):not(.menu-active,:active,.btn):hover,li:not(.menu-title,.disabled)>details>summary:not(.menu-title):not(.menu-active,:active,.btn):hover){cursor:pointer;background-color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.menu :where(li:not(.menu-title,.disabled)>:not(ul,details,.menu-title):not(.menu-active,:active,.btn):hover,li:not(.menu-title,.disabled)>details>summary:not(.menu-title):not(.menu-active,:active,.btn):hover){background-color:color-mix(in oklab, var(--color-base-content) 10%, transparent)}}.menu :where(li:not(.menu-title,.disabled)>:not(ul,details,.menu-title):not(.menu-active,:active,.btn):hover,li:not(.menu-title,.disabled)>details>summary:not(.menu-title):not(.menu-active,:active,.btn):hover){--tw-outline-style:none;outline-style:none}@media (forced-colors:active){.menu :where(li:not(.menu-title,.disabled)>:not(ul,details,.menu-title):not(.menu-active,:active,.btn):hover,li:not(.menu-title,.disabled)>details>summary:not(.menu-title):not(.menu-active,:active,.btn):hover){outline-offset:2px;outline:2px solid #0000}}.menu :where(li:not(.menu-title,.disabled)>:not(ul,details,.menu-title):not(.menu-active,:active,.btn):hover,li:not(.menu-title,.disabled)>details>summary:not(.menu-title):not(.menu-active,:active,.btn):hover){box-shadow:inset 0 1px oklch(0% 0 0/.01),inset 0 -1px oklch(100% 0 0/.01)}.menu :where(li)>:not(ul,.menu-title,details,.btn):active,.menu :where(li)>:not(ul,.menu-title,details,.btn).menu-active,.menu :where(li)>details>summary:active{--tw-outline-style:none;outline-style:none}@media (forced-colors:active){.menu :where(li)>:not(ul,.menu-title,details,.btn):active,.menu :where(li)>:not(ul,.menu-title,details,.btn).menu-active,.menu :where(li)>details>summary:active{outline-offset:2px;outline:2px solid #0000}}.menu :where(li)>:not(ul,.menu-title,details,.btn):active,.menu :where(li)>:not(ul,.menu-title,details,.btn).menu-active,.menu :where(li)>details>summary:active{color:var(--menu-active-fg);background-color:var(--menu-active-bg);background-size:auto, calc(var(--noise) * 100%);background-image:none, var(--fx-noise)}:is(.menu :where(li)>:not(ul,.menu-title,details,.btn):active,.menu :where(li)>:not(ul,.menu-title,details,.btn).menu-active,.menu :where(li)>details>summary:active):not(:is(.menu :where(li)>:not(ul,.menu-title,details,.btn):active,.menu :where(li)>:not(ul,.menu-title,details,.btn).menu-active,.menu :where(li)>details>summary:active):active){box-shadow:0 2px calc(var(--depth) * 3px) -2px var(--menu-active-bg)}.menu :where(li).menu-disabled{pointer-events:none;color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.menu :where(li).menu-disabled{color:color-mix(in oklab, var(--color-base-content) 20%, transparent)}}@media (forced-colors:active){.dropdown>:not(:has(~[class*=dropdown-content])):focus{outline-offset:2px;outline:2px solid #0000}}@media (prefers-reduced-motion:no-preference){.dropdown[popover],.dropdown .dropdown-content{transition-behavior:allow-discrete;transition-property:opacity,scale,display;transition-duration:.2s;transition-timing-function:cubic-bezier(.4,0,.2,1);animation:.2s dropdown}}@starting-style{.dropdown[popover],.dropdown .dropdown-content{opacity:0;scale:.95}}@supports not (position-area:bottom){.dropdown[popover]{margin:auto}.dropdown[popover].dropdown-close{transform-origin:top;opacity:0;display:none;scale:.95}.dropdown[popover].dropdown-open:not(:popover-open){transform-origin:top;opacity:0;display:none;scale:.95}.dropdown[popover]::backdrop{background-color:oklab(0% none none/.3)}}.btn{cursor:pointer;text-align:center;vertical-align:middle;outline-offset:2px;webkit-user-select:none;-webkit-user-select:none;user-select:none;padding-inline:var(--btn-p);color:var(--btn-fg);--tw-prose-links:var(--btn-fg);height:var(--size);font-size:var(--fontsize,.875rem);outline-color:var(--btn-color,var(--color-base-content));background-color:var(--btn-bg);background-size:auto, calc(var(--noise) * 100%);background-image:none, var(--btn-noise);border-width:var(--border);border-style:solid;border-color:var(--btn-border);text-shadow:0 .5px oklch(100% 0 0 / calc(var(--depth) * .15));touch-action:manipulation;box-shadow:0 .5px 0 .5px oklch(100% 0 0 / calc(var(--depth) * 6%)) inset, var(--btn-shadow);--size:calc(var(--size-field,.25rem) * 10);--btn-bg:var(--btn-color,var(--color-base-200));--btn-fg:var(--color-base-content);--btn-p:1rem;--btn-border:var(--btn-bg);border-start-start-radius:var(--join-ss,var(--radius-field));border-start-end-radius:var(--join-se,var(--radius-field));border-end-end-radius:var(--join-ee,var(--radius-field));border-end-start-radius:var(--join-es,var(--radius-field));flex-wrap:nowrap;flex-shrink:0;justify-content:center;align-items:center;gap:.375rem;font-weight:600;transition-property:color,background-color,border-color,box-shadow;transition-duration:.2s;transition-timing-function:cubic-bezier(0,0,.2,1);display:inline-flex}@supports (color:color-mix(in lab, red, red)){.btn{--btn-border:color-mix(in oklab, var(--btn-bg), #000 calc(var(--depth) * 5%))}}.btn{--btn-shadow:0 3px 2px -2px var(--btn-bg), 0 4px 3px -2px var(--btn-bg)}@supports (color:color-mix(in lab, red, red)){.btn{--btn-shadow:0 3px 2px -2px color-mix(in oklab, var(--btn-bg) calc(var(--depth) * 30%), #0000), 0 4px 3px -2px color-mix(in oklab, var(--btn-bg) calc(var(--depth) * 30%), #0000)}}.btn{--btn-noise:var(--fx-noise)}@media (hover:hover){.btn:hover{--btn-bg:var(--btn-color,var(--color-base-200))}@supports (color:color-mix(in lab, red, red)){.btn:hover{--btn-bg:color-mix(in oklab, var(--btn-color,var(--color-base-200)), #000 7%)}}}.btn:focus-visible{isolation:isolate;outline-width:2px;outline-style:solid}.btn:has(:focus-visible){isolation:isolate;outline-width:2px;outline-style:solid}.btn:active:not(.btn-active){--btn-bg:var(--btn-color,var(--color-base-200));translate:0 .5px}@supports (color:color-mix(in lab, red, red)){.btn:active:not(.btn-active){--btn-bg:color-mix(in oklab, var(--btn-color,var(--color-base-200)), #000 5%)}}.btn:active:not(.btn-active){--btn-border:var(--btn-color,var(--color-base-200))}@supports (color:color-mix(in lab, red, red)){.btn:active:not(.btn-active){--btn-border:color-mix(in oklab, var(--btn-color,var(--color-base-200)), #000 7%)}}.btn:active:not(.btn-active){--btn-shadow:0 0 0 0 oklch(0% 0 0/0), 0 0 0 0 oklch(0% 0 0/0)}.btn:is(input[type=checkbox],input[type=radio]){appearance:none}.btn:is(input[type=checkbox],input[type=radio])[aria-label]:after{--tw-content:attr(aria-label);content:var(--tw-content)}.btn:where(input:checked:not(.filter .btn)){--btn-color:var(--color-primary);--btn-fg:var(--color-primary-content);isolation:isolate}.collapse{border-radius:var(--radius-box,1rem);isolation:isolate;grid-template-rows:max-content 0fr;grid-template-columns:minmax(0,1fr);width:100%;display:grid;position:relative;overflow:hidden}@media (prefers-reduced-motion:no-preference){.collapse{transition:grid-template-rows .2s}}.collapse>input:is([type=checkbox],[type=radio]){appearance:none;opacity:0;z-index:1;grid-row-start:1;grid-column-start:1;width:100%;min-height:1lh;padding:1rem;padding-inline-end:3rem;transition:background-color .2s ease-out}.collapse:is([open],[tabindex]:focus:not(.collapse-close),[tabindex]:focus-within:not(.collapse-close)){grid-template-rows:max-content 1fr}.collapse:not(.collapse-close):has(>input:is([type=checkbox],[type=radio]):checked){grid-template-rows:max-content 1fr}.collapse:is([open],[tabindex]:focus:not(.collapse-close),[tabindex]:focus-within:not(.collapse-close))>.collapse-content,.collapse:not(.collapse-close)>:where(input:is([type=checkbox],[type=radio]):checked~.collapse-content){content-visibility:visible;min-height:fit-content}@supports not (content-visibility:visible){.collapse:is([open],[tabindex]:focus:not(.collapse-close),[tabindex]:focus-within:not(.collapse-close))>.collapse-content,.collapse:not(.collapse-close)>:where(input:is([type=checkbox],[type=radio]):checked~.collapse-content){visibility:visible}}.collapse:focus-visible{outline-color:var(--color-base-content);outline-offset:2px;outline-width:2px;outline-style:solid}.collapse:has(>input:is([type=checkbox],[type=radio]):focus-visible){outline-color:var(--color-base-content);outline-offset:2px;outline-width:2px;outline-style:solid}.collapse:has(summary:focus-visible){outline-color:var(--color-base-content);outline-offset:2px;outline-width:2px;outline-style:solid}.collapse:not(.collapse-close)>input[type=checkbox],.collapse:not(.collapse-close)>input[type=radio]:not(:checked),.collapse:not(.collapse-close)>.collapse-title{cursor:pointer}:is(.collapse[tabindex]:focus:not(.collapse-close,.collapse[open]),.collapse[tabindex]:focus-within:not(.collapse-close,.collapse[open]))>.collapse-title{cursor:unset}.collapse:is([open],[tabindex]:focus:not(.collapse-close),[tabindex]:focus-within:not(.collapse-close))>:where(.collapse-content),.collapse:not(.collapse-close)>:where(input:is([type=checkbox],[type=radio]):checked~.collapse-content){padding-bottom:1rem}.collapse:is(details){width:100%}@media (prefers-reduced-motion:no-preference){.collapse:is(details)::details-content{transition:content-visibility .2s allow-discrete, visibility .2s allow-discrete, min-height .2s ease-out allow-discrete, padding .1s ease-out 20ms, background-color .2s ease-out, height .2s;interpolate-size:allow-keywords;height:0}.collapse:is(details):where([open])::details-content{height:auto}}.collapse:is(details) summary{display:block;position:relative}.collapse:is(details) summary::-webkit-details-marker{display:none}.collapse:is(details)>.collapse-content{content-visibility:visible}.collapse:is(details) summary{outline:none}.collapse-content{content-visibility:hidden;min-height:0;cursor:unset;grid-row-start:2;grid-column-start:1;padding-left:1rem;padding-right:1rem}@supports not (content-visibility:hidden){.collapse-content{visibility:hidden}}@media (prefers-reduced-motion:no-preference){.collapse-content{transition:content-visibility .2s allow-discrete, visibility .2s allow-discrete, min-height .2s ease-out allow-discrete, padding .1s ease-out 20ms, background-color .2s ease-out}}@supports (color:color-mix(in lab, red, red)){:is(.list>:not(:last-child).list-row,.list>:not(:last-child) .list-row):after{border-color:color-mix(in oklab, var(--color-base-content) 5%, transparent)}.toggle{box-shadow:0 1px color-mix(in oklab, currentColor calc(var(--depth) * 10%), #0000) inset;--input-color:color-mix(in oklab, var(--color-base-content) 50%, #0000)}}@media (forced-colors:active){.toggle>:focus{outline-offset:2px;outline:2px solid #0000}}@supports (color:color-mix(in lab, red, red)){.toggle:before{box-shadow:0 -1px oklch(0% 0 0 / calc(var(--depth) * .1)) inset, 0 8px 0 -4px oklch(100% 0 0 / calc(var(--depth) * .1)) inset, 0 1px color-mix(in oklab, currentColor calc(var(--depth) * 10%), #0000)}}@media (forced-colors:active){.toggle:before{outline-style:var(--tw-outline-style);outline-offset:calc(1px * -1);outline-width:1px}}@media print{.toggle:before{outline-offset:-1rem;outline:.25rem solid}}@starting-style{:is(.toggle:checked,.toggle[aria-checked=true],.toggle:has(>input:checked)):before{opacity:0}}.input{cursor:text;border:var(--border) solid #0000;appearance:none;background-color:var(--color-base-100);vertical-align:middle;white-space:nowrap;width:clamp(3rem,20rem,100%);height:var(--size);font-size:max(var(--font-size,.875rem), .875rem);touch-action:manipulation;border-color:var(--input-color);box-shadow:0 1px var(--input-color) inset, 0 -1px oklch(100% 0 0 / calc(var(--depth) * .1)) inset;border-start-start-radius:var(--join-ss,var(--radius-field));border-start-end-radius:var(--join-se,var(--radius-field));border-end-end-radius:var(--join-ee,var(--radius-field));border-end-start-radius:var(--join-es,var(--radius-field));flex-shrink:1;align-items:center;gap:.5rem;padding-inline:.75rem;display:inline-flex;position:relative}@supports (color:color-mix(in lab, red, red)){.input{box-shadow:0 1px color-mix(in oklab, var(--input-color) calc(var(--depth) * 10%), #0000) inset, 0 -1px oklch(100% 0 0 / calc(var(--depth) * .1)) inset}}.input{--size:calc(var(--size-field,.25rem) * 10);--input-color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.input{--input-color:color-mix(in oklab, var(--color-base-content) 20%, #0000)}}.input:where(input){display:inline-flex}.input :where(input){appearance:none;background-color:#0000;border:none;width:100%;height:100%;display:inline-flex}.input :where(input):focus,.input :where(input):focus-within{--tw-outline-style:none;outline-style:none}@media (forced-colors:active){.input :where(input):focus,.input :where(input):focus-within{outline-offset:2px;outline:2px solid #0000}}.input :where(input[type=url]),.input :where(input[type=email]){direction:ltr}.input :where(input[type=date]){display:inline-flex}@supports (color:color-mix(in lab, red, red)){.input:focus,.input:focus-within{box-shadow:0 1px color-mix(in oklab, var(--input-color) calc(var(--depth) * 10%), #0000)}}@media (pointer:coarse){@supports (-webkit-touch-callout:none){.input:focus,.input:focus-within{--font-size:1rem}}}.input:is(:disabled,[disabled]),fieldset:disabled .input{cursor:not-allowed;border-color:var(--color-base-200);background-color:var(--color-base-200);color:var(--color-base-content)}.input:has(>input[disabled]){cursor:not-allowed;border-color:var(--color-base-200);background-color:var(--color-base-200);color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.input:is(:disabled,[disabled]),fieldset:disabled .input{color:color-mix(in oklab, var(--color-base-content) 40%, transparent)}.input:has(>input[disabled]){color:color-mix(in oklab, var(--color-base-content) 40%, transparent)}}:is(.input:has(>input[disabled]),.input:is(:disabled,[disabled]),fieldset:disabled .input)::placeholder{color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){:is(.input:has(>input[disabled]),.input:is(:disabled,[disabled]),fieldset:disabled .input)::placeholder{color:color-mix(in oklab, var(--color-base-content) 20%, transparent)}}.input::-webkit-date-and-time-value{text-align:inherit}.input[type=number]::-webkit-inner-spin-button{margin-block:-.75rem;margin-inline-end:-.75rem}.input::-webkit-calendar-picker-indicator{position:absolute;inset-inline-end:.75em}.input:has(>input[type=date]) :where(input[type=date]){webkit-appearance:none;appearance:none;display:inline-flex}.input:has(>input[type=date]) input[type=date]::-webkit-calendar-picker-indicator{cursor:pointer;width:1em;height:1em;position:absolute;inset-inline-end:.75em}.indicator{width:max-content;display:inline-flex;position:relative}.indicator :where(.indicator-item){z-index:1;white-space:nowrap;top:var(--indicator-t,0);bottom:var(--indicator-b,auto);left:var(--indicator-s,auto);right:var(--indicator-e,0);translate:var(--indicator-x,50%) var(--indicator-y,-50%);position:absolute}.table{border-collapse:separate;--tw-border-spacing-x:calc(.25rem * 0);--tw-border-spacing-y:calc(.25rem * 0);width:100%;border-spacing:var(--tw-border-spacing-x) var(--tw-border-spacing-y);border-radius:var(--radius-box);text-align:left;font-size:.875rem;position:relative}.table:where(:is(:lang(ae),:lang(ar),:lang(arc),:lang(bcc),:lang(bqi),:lang(ckb),:lang(dv),:lang(fa),:lang(glk),:lang(he),:lang(ku),:lang(mzn),:lang(nqo),:lang(pnb),:lang(ps),:lang(sd),:lang(ug),:lang(ur),:lang(yi)),[dir=rtl],[dir=rtl] *){text-align:right}@media (hover:hover){:is(.table tr.row-hover,.table tr.row-hover:nth-child(2n)):hover{background-color:var(--color-base-200)}}.table :where(th,td){vertical-align:middle;padding-block:.75rem;padding-inline:1rem}.table :where(thead,tfoot){white-space:nowrap;color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.table :where(thead,tfoot){color:color-mix(in oklab, var(--color-base-content) 60%, transparent)}}.table :where(thead,tfoot){font-size:.875rem;font-weight:600}.table :where(tfoot tr:first-child :is(td,th)){border-top:var(--border) solid var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.table :where(tfoot tr:first-child :is(td,th)){border-top:var(--border) solid color-mix(in oklch, var(--color-base-content) 5%, #0000)}}.table :where(.table-pin-rows thead tr){z-index:1;background-color:var(--color-base-100);position:sticky;top:0}.table :where(.table-pin-rows tfoot tr){z-index:1;background-color:var(--color-base-100);position:sticky;bottom:0}.table :where(.table-pin-cols tr th){background-color:var(--color-base-100);position:sticky;left:0;right:0}.table :where(thead tr :is(td,th),tbody tr:not(:last-child) :is(td,th)){border-bottom:var(--border) solid var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.table :where(thead tr :is(td,th),tbody tr:not(:last-child) :is(td,th)){border-bottom:var(--border) solid color-mix(in oklch, var(--color-base-content) 5%, #0000)}}.range{appearance:none;webkit-appearance:none;--range-thumb:var(--color-base-100);--range-thumb-size:calc(var(--size-selector,.25rem) * 6);--range-progress:currentColor;--range-fill:1;--range-p:.25rem;--range-bg:currentColor}@supports (color:color-mix(in lab, red, red)){.range{--range-bg:color-mix(in oklab, currentColor 10%, #0000)}}.range{cursor:pointer;vertical-align:middle;--radius-selector-max:calc(var(--radius-selector) + var(--radius-selector) + var(--radius-selector));border-radius:calc(var(--radius-selector) + min(var(--range-p), var(--radius-selector-max)));width:clamp(3rem,20rem,100%);height:var(--range-thumb-size);background-color:#0000;border:none;overflow:hidden}[dir=rtl] .range{--range-dir:-1}.range:focus{outline:none}.range:focus-visible{outline-offset:2px;outline:2px solid}.range::-webkit-slider-runnable-track{background-color:var(--range-bg);border-radius:var(--radius-selector);width:100%;height:calc(var(--range-thumb-size) * .5)}@media (forced-colors:active){.range::-webkit-slider-runnable-track{border:1px solid}.range::-moz-range-track{border:1px solid}}.range::-webkit-slider-thumb{box-sizing:border-box;border-radius:calc(var(--radius-selector) + min(var(--range-p), var(--radius-selector-max)));background-color:var(--range-thumb);height:var(--range-thumb-size);width:var(--range-thumb-size);border:var(--range-p) solid;appearance:none;webkit-appearance:none;color:var(--range-progress);box-shadow:0 -1px oklch(0% 0 0 / calc(var(--depth) * .1)) inset, 0 8px 0 -4px oklch(100% 0 0 / calc(var(--depth) * .1)) inset, 0 1px currentColor, 0 0 0 2rem var(--range-thumb) inset, calc((var(--range-dir,1) * -100cqw) - (var(--range-dir,1) * var(--range-thumb-size) / 2)) 0 0 calc(100cqw * var(--range-fill));position:relative;top:50%;transform:translateY(-50%)}@supports (color:color-mix(in lab, red, red)){.range::-webkit-slider-thumb{box-shadow:0 -1px oklch(0% 0 0 / calc(var(--depth) * .1)) inset, 0 8px 0 -4px oklch(100% 0 0 / calc(var(--depth) * .1)) inset, 0 1px color-mix(in oklab, currentColor calc(var(--depth) * 10%), #0000), 0 0 0 2rem var(--range-thumb) inset, calc((var(--range-dir,1) * -100cqw) - (var(--range-dir,1) * var(--range-thumb-size) / 2)) 0 0 calc(100cqw * var(--range-fill))}}.range::-moz-range-track{background-color:var(--range-bg);border-radius:var(--radius-selector);width:100%;height:calc(var(--range-thumb-size) * .5)}.range::-moz-range-thumb{box-sizing:border-box;border-radius:calc(var(--radius-selector) + min(var(--range-p), var(--radius-selector-max)));height:var(--range-thumb-size);width:var(--range-thumb-size);border:var(--range-p) solid;color:var(--range-progress);box-shadow:0 -1px oklch(0% 0 0 / calc(var(--depth) * .1)) inset, 0 8px 0 -4px oklch(100% 0 0 / calc(var(--depth) * .1)) inset, 0 1px currentColor, 0 0 0 2rem var(--range-thumb) inset, calc((var(--range-dir,1) * -100cqw) - (var(--range-dir,1) * var(--range-thumb-size) / 2)) 0 0 calc(100cqw * var(--range-fill));background-color:currentColor;position:relative;top:50%}@supports (color:color-mix(in lab, red, red)){.range::-moz-range-thumb{box-shadow:0 -1px oklch(0% 0 0 / calc(var(--depth) * .1)) inset, 0 8px 0 -4px oklch(100% 0 0 / calc(var(--depth) * .1)) inset, 0 1px color-mix(in oklab, currentColor calc(var(--depth) * 10%), #0000), 0 0 0 2rem var(--range-thumb) inset, calc((var(--range-dir,1) * -100cqw) - (var(--range-dir,1) * var(--range-thumb-size) / 2)) 0 0 calc(100cqw * var(--range-fill))}}.range:disabled{cursor:not-allowed;opacity:.3}.select{border:var(--border) solid #0000;appearance:none;background-color:var(--color-base-100);vertical-align:middle;width:clamp(3rem,20rem,100%);height:var(--size);touch-action:manipulation;white-space:nowrap;text-overflow:ellipsis;box-shadow:0 1px var(--input-color) inset, 0 -1px oklch(100% 0 0 / calc(var(--depth) * .1)) inset;background-image:linear-gradient(45deg,#0000 50%,currentColor 50%),linear-gradient(135deg,currentColor 50%,#0000 50%);background-position:calc(100% - 20px) calc(1px + 50%),calc(100% - 16.1px) calc(1px + 50%);background-repeat:no-repeat;background-size:4px 4px,4px 4px;border-start-start-radius:var(--join-ss,var(--radius-field));border-start-end-radius:var(--join-se,var(--radius-field));border-end-end-radius:var(--join-ee,var(--radius-field));border-end-start-radius:var(--join-es,var(--radius-field));flex-shrink:1;align-items:center;gap:.375rem;padding-inline:.75rem 1.75rem;font-size:.875rem;display:inline-flex;position:relative;overflow:hidden}@supports (color:color-mix(in lab, red, red)){.select{box-shadow:0 1px color-mix(in oklab, var(--input-color) calc(var(--depth) * 10%), #0000) inset, 0 -1px oklch(100% 0 0 / calc(var(--depth) * .1)) inset}}.select{border-color:var(--input-color);--input-color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.select{--input-color:color-mix(in oklab, var(--color-base-content) 20%, #0000)}}.select{--size:calc(var(--size-field,.25rem) * 10)}@media (forced-colors:active){.select select:focus,.select select:focus-within{outline-offset:2px;outline:2px solid #0000}}.select:focus,.select:focus-within{--input-color:var(--color-base-content);box-shadow:0 1px var(--input-color)}@supports (color:color-mix(in lab, red, red)){.select:focus,.select:focus-within{box-shadow:0 1px color-mix(in oklab, var(--input-color) calc(var(--depth) * 10%), #0000)}}.select:focus,.select:focus-within{outline:2px solid var(--input-color);outline-offset:2px;isolation:isolate}.select:is(:disabled,[disabled]),fieldset:disabled .select{cursor:not-allowed;border-color:var(--color-base-200);background-color:var(--color-base-200);color:var(--color-base-content)}.select:has(>select[disabled]){cursor:not-allowed;border-color:var(--color-base-200);background-color:var(--color-base-200);color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.select:is(:disabled,[disabled]),fieldset:disabled .select{color:color-mix(in oklab, var(--color-base-content) 40%, transparent)}.select:has(>select[disabled]){color:color-mix(in oklab, var(--color-base-content) 40%, transparent)}}:is(.select:has(>select[disabled]),.select:is(:disabled,[disabled]),fieldset:disabled .select)::placeholder{color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){:is(.select:has(>select[disabled]),.select:is(:disabled,[disabled]),fieldset:disabled .select)::placeholder{color:color-mix(in oklab, var(--color-base-content) 20%, transparent)}}@supports (appearance:base-select){.select,.select select{appearance:base-select}:is(.select,.select select)::picker(select){appearance:base-select}}:is(.select,.select select) option{border-radius:var(--radius-field);white-space:normal;padding-block:.375rem;padding-inline:.75rem;transition-property:color,background-color;transition-duration:.2s;transition-timing-function:cubic-bezier(0,0,.2,1)}@supports (color:color-mix(in lab, red, red)){:is(.select,.select select) option:not(:disabled):hover,:is(.select,.select select) option:not(:disabled):focus-visible{background-color:color-mix(in oklab, var(--color-base-content) 10%, transparent)}}@media (forced-colors:active){:is(.select,.select select) option:not(:disabled):hover,:is(.select,.select select) option:not(:disabled):focus-visible{outline-offset:2px;outline:2px solid #0000}}.collapse-title{grid-row-start:1;grid-column-start:1;width:100%;min-height:1lh;padding:1rem;padding-inline-end:3rem;transition:background-color .2s ease-out;position:relative}.checkbox{border:var(--border) solid var(--input-color,var(--color-base-content))}@supports (color:color-mix(in lab, red, red)){.checkbox{border:var(--border) solid var(--input-color,color-mix(in oklab, var(--color-base-content) 20%, #0000))}}.checkbox{cursor:pointer;appearance:none;border-radius:var(--radius-selector);vertical-align:middle;color:var(--color-base-content);box-shadow:0 1px oklch(0% 0 0 / calc(var(--depth) * .1)) inset, 0 0 #0000 inset, 0 0 #0000;--size:calc(var(--size-selector,.25rem) * 6);width:var(--size);height:var(--size);background-size:auto, calc(var(--noise) * 100%);background-image:none, var(--fx-noise);flex-shrink:0;padding:.25rem;transition:background-color .2s,box-shadow .2s;display:inline-block;position:relative}.checkbox:before{--tw-content:"";content:var(--tw-content);opacity:0;clip-path:polygon(20% 100%,20% 80%,50% 80%,50% 80%,70% 80%,70% 100%);width:100%;height:100%;box-shadow:0px 3px 0 0px oklch(100% 0 0 / calc(var(--depth) * .1)) inset;background-color:currentColor;font-size:1rem;line-height:.75;transition:clip-path .3s .1s,opacity .1s .1s,rotate .3s .1s,translate .3s .1s;display:block;rotate:45deg}.checkbox:focus-visible{outline:2px solid var(--input-color,currentColor);outline-offset:2px}.checkbox:checked,.checkbox[aria-checked=true]{background-color:var(--input-color,#0000);box-shadow:0 0 #0000 inset, 0 8px 0 -4px oklch(100% 0 0 / calc(var(--depth) * .1)) inset, 0 1px oklch(0% 0 0 / calc(var(--depth) * .1))}:is(.checkbox:checked,.checkbox[aria-checked=true]):before{clip-path:polygon(20% 100%,20% 80%,50% 80%,50% 0%,70% 0%,70% 100%);opacity:1}@media (forced-colors:active){:is(.checkbox:checked,.checkbox[aria-checked=true]):before{--tw-content:"✔︎";clip-path:none;background-color:#0000;rotate:0deg}}@media print{:is(.checkbox:checked,.checkbox[aria-checked=true]):before{--tw-content:"✔︎";clip-path:none;background-color:#0000;rotate:0deg}}.checkbox:indeterminate{background-color:var(--input-color,var(--color-base-content))}@supports (color:color-mix(in lab, red, red)){.checkbox:indeterminate{background-color:var(--input-color,color-mix(in oklab, var(--color-base-content) 20%, #0000))}}.checkbox:indeterminate:before{opacity:1;clip-path:polygon(20% 100%,20% 80%,50% 80%,50% 80%,80% 80%,80% 100%);translate:0 -35%;rotate:0deg}@supports (color:color-mix(in lab, red, red)){.radio{border:var(--border) solid var(--input-color,color-mix(in srgb, currentColor 20%, #0000))}}@media (prefers-reduced-motion:no-preference){.radio:checked,.radio[aria-checked=true]{animation:.2s ease-out radio}}@media (forced-colors:active){:is(.radio:checked,.radio[aria-checked=true]):before{outline-style:var(--tw-outline-style);outline-offset:calc(1px * -1);outline-width:1px}}@media print{:is(.radio:checked,.radio[aria-checked=true]):before{outline-offset:-1rem;outline:.25rem solid}}@supports (color:color-mix(in lab, red, red)){.progress{background-color:color-mix(in oklab, currentcolor 20%, transparent)}}@media (prefers-reduced-motion:no-preference){.progress:indeterminate{animation:5s ease-in-out infinite progress}}@supports ((-moz-appearance:none)){.progress:indeterminate::-moz-progress-bar{background-color:#0000}@media (prefers-reduced-motion:no-preference){.progress:indeterminate::-moz-progress-bar{background-image:repeating-linear-gradient(90deg,currentColor -1% 10%,#0000 10% 90%);background-position-x:15%;background-size:200%;animation:5s ease-in-out infinite progress}}.progress::-moz-progress-bar{border-radius:var(--radius-box);background-color:currentColor}}@supports ((-webkit-appearance:none)){.progress::-webkit-progress-bar{border-radius:var(--radius-box);background-color:#0000}.progress::-webkit-progress-value{border-radius:var(--radius-box);background-color:currentColor}}.modal-backdrop{color:#0000;z-index:-1;grid-row-start:1;grid-column-start:1;place-self:stretch stretch;display:grid}.modal-backdrop button{cursor:pointer}.filter input[type=radio]{width:auto}.filter input:not(:last-child){margin-inline-end:.25rem}.filter:not(:has(input:checked:not(.filter-reset))) .filter-reset{opacity:0;border-width:0;width:0;margin-inline:0;padding-inline:0;scale:0}.filter:not(:has(input:checked:not(.filter-reset))) input[type=reset]{opacity:0;border-width:0;width:0;margin-inline:0;padding-inline:0;scale:0}.filter:has(input:checked:not(.filter-reset)) input:not(:checked,.filter-reset,input[type=reset]){opacity:0;border-width:0;width:0;margin-inline:0;padding-inline:0;scale:0}@supports (color:color-mix(in lab, red, red)){.label{color:color-mix(in oklab, currentcolor 60%, transparent)}.label:is(.input>*,.select>*):first-child{border-inline-end:var(--border) solid color-mix(in oklab, currentColor 10%, #0000)}.label:is(.input>*,.select>*):last-child{border-inline-start:var(--border) solid color-mix(in oklab, currentColor 10%, #0000)}}.modal-action{justify-content:flex-end;gap:.5rem;margin-top:1.5rem;display:flex}@supports (color:color-mix(in lab, red, red)){.status{background-color:color-mix(in oklab, var(--color-base-content) 20%, transparent);color:color-mix(in oklab, var(--color-black) 30%, transparent);box-shadow:0 2px 3px -1px color-mix(in oklab, currentColor calc(var(--depth) * 100%), #0000)}}.tabs{--tabs-height:auto;--tabs-direction:row;--tab-height:calc(var(--size-field,.25rem) * 10);height:var(--tabs-height);flex-wrap:wrap;flex-direction:var(--tabs-direction);display:flex}@supports (color:color-mix(in lab, red, red)){.alert{box-shadow:0 3px 0 -2px oklch(100% 0 0 / calc(var(--depth) * .08)) inset, 0 1px color-mix(in oklab, color-mix(in oklab, #000 20%, var(--alert-color,var(--color-base-200))) calc(var(--depth) * 20%), #0000), 0 4px 3px -2px oklch(0% 0 0 / calc(var(--depth) * .08))}}@media (forced-colors:active){.link:focus{outline-offset:2px;outline:2px solid #0000}}.btn-error{--btn-color:var(--color-error);--btn-fg:var(--color-error-content)}.btn-primary{--btn-color:var(--color-primary);--btn-fg:var(--color-primary-content)}.modal{pointer-events:none;visibility:hidden;width:100%;max-width:none;height:100%;max-height:none;color:inherit;transition:overlay .3s allow-discrete, visibility .3s allow-discrete, background-color .3s ease-out, opacity .1s ease-out;overscroll-behavior:contain;z-index:999;scrollbar-gutter:auto;background-color:#0000;place-items:center;margin:0;padding:0;display:grid;position:fixed;inset:0;overflow:clip}.modal::backdrop{display:none}.modal[popover]{color:inherit;background:0 0;border:0;max-width:none;max-height:none;margin:0;padding:0;inset:0}.modal[popover]::backdrop{background-color:oklch(0% 0 0/.4);transition:background-color .3s ease-out}.tooltip{--tt-bg:var(--color-neutral);--tt-off:calc(100% + .5rem);--tt-tail:calc(100% + 1px + .25rem);--tt-tail-off:.5rem;display:inline-block;position:relative}.tooltip>.tooltip-content,.tooltip[data-tip]:before{border-radius:var(--radius-field);text-align:center;white-space:normal;max-width:20rem;color:var(--color-neutral-content);opacity:0;background-color:var(--tt-bg);pointer-events:none;z-index:2;--tw-content:attr(data-tip);content:var(--tw-content);width:max-content;padding-block:.25rem;padding-inline:.5rem;font-size:.875rem;line-height:1.25;position:absolute}.tooltip:after{opacity:0;background-color:var(--tt-bg);content:"";pointer-events:none;--mask-tooltip:url("data:image/svg+xml,%3Csvg width='10' height='4' viewBox='0 0 8 4' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.500009 1C3.5 1 3.00001 4 5.00001 4C7 4 6.5 1 9.5 1C10 1 10 0.499897 10 0H0C-1.99338e-08 0.5 0 1 0.500009 1Z' fill='black'/%3E%3C/svg%3E%0A");width:.625rem;height:.25rem;-webkit-mask-position:-1px 0;mask-position:-1px 0;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-image:var(--mask-tooltip);-webkit-mask-image:var(--mask-tooltip);-webkit-mask-image:var(--mask-tooltip);-webkit-mask-image:var(--mask-tooltip);mask-image:var(--mask-tooltip);display:block;position:absolute}@media (prefers-reduced-motion:no-preference){.tooltip>.tooltip-content,.tooltip[data-tip]:before,.tooltip:after{transition:opacity .2s cubic-bezier(.4,0,.2,1) 75ms,transform .2s cubic-bezier(.4,0,.2,1) 75ms}}:is(.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))).tooltip-open,.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))):hover,.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))):has(:focus-visible))>.tooltip-content,:is(.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))).tooltip-open,.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))):hover,.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))):has(:focus-visible))[data-tip]:before,:is(.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))).tooltip-open,.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))):hover,.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))):has(:focus-visible)):after{opacity:1;--tt-pos:0rem}@media (prefers-reduced-motion:no-preference){:is(.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))).tooltip-open,.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))):hover,.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))):has(:focus-visible))>.tooltip-content,:is(.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))).tooltip-open,.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))):hover,.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))):has(:focus-visible))[data-tip]:before,:is(.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))).tooltip-open,.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))):hover,.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))):has(:focus-visible)):after{transition:opacity .2s cubic-bezier(.4,0,.2,1),transform .2s cubic-bezier(.4,0,.2,1)}}.tab:is(.tabs>.tab){cursor:pointer;appearance:none;text-align:center;webkit-user-select:none;-webkit-user-select:none;user-select:none;flex-wrap:wrap;justify-content:center;align-items:center;display:inline-flex;position:relative}@media (hover:hover){.tab:is(.tabs>.tab):hover{color:var(--color-base-content)}}.tab:is(.tabs>.tab){--tab-p:.75rem;--tab-bg:var(--color-base-100);--tab-border-color:var(--color-base-300);--tab-radius-ss:0;--tab-radius-se:0;--tab-radius-es:0;--tab-radius-ee:0;--tab-order:0;--tab-radius-min:calc(.75rem - var(--border));--tab-radius-limit:min(var(--radius-field), var(--tab-radius-min));--tab-radius-grad:#0000 calc(69% - var(--border)), var(--tab-border-color) calc(69% - var(--border) + .25px), var(--tab-border-color) 69%, var(--tab-bg) calc(69% + .25px);order:var(--tab-order);height:var(--tab-height);padding-inline:var(--tab-p);border-color:#0000;font-size:.875rem}.tab:is(.tabs>.tab):is(input[type=radio]){min-width:fit-content}.tab:is(.tabs>.tab):is(input[type=radio]):after{--tw-content:attr(aria-label);content:var(--tw-content)}.tab:is(.tabs>.tab):is(label){position:relative}.tab:is(.tabs>.tab):is(label) input{cursor:pointer;appearance:none;opacity:0;position:absolute;inset:0}:is(.tab:is(.tabs>.tab):checked,.tab:is(.tabs>.tab):is(label:has(:checked)),.tab:is(.tabs>.tab):is(.tab-active,[aria-selected=true],[aria-current=true],[aria-current=page]))+.tab-content{display:block}.tab:is(.tabs>.tab):not(:checked,label:has(:checked),:hover,.tab-active,[aria-selected=true],[aria-current=true],[aria-current=page]){color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.tab:is(.tabs>.tab):not(:checked,label:has(:checked),:hover,.tab-active,[aria-selected=true],[aria-current=true],[aria-current=page]){color:color-mix(in oklab, var(--color-base-content) 50%, transparent)}}.tab:is(.tabs>.tab):not(input):empty{cursor:default;flex-grow:1}.tab:is(.tabs>.tab):focus{--tw-outline-style:none;outline-style:none}@media (forced-colors:active){.tab:is(.tabs>.tab):focus{outline-offset:2px;outline:2px solid #0000}}.tab:is(.tabs>.tab):focus-visible,.tab:is(.tabs>.tab):is(label:has(:checked:focus-visible)){outline-offset:-5px;outline:2px solid}.tab:is(.tabs>.tab)[disabled]{pointer-events:none;opacity:.4}.menu{--menu-active-fg:var(--color-neutral-content);--menu-active-bg:var(--color-neutral);flex-flow:column wrap;width:fit-content;padding:.5rem;font-size:.875rem;display:flex}.menu :where(li ul,li menu){white-space:nowrap;margin-inline-start:1rem;padding-inline-start:.5rem;position:relative}.menu :where(li ul,li menu):before{background-color:var(--color-base-content);opacity:.1;width:var(--border);content:"";inset-inline-start:0;position:absolute;top:.75rem;bottom:.75rem}.menu :where(li>.menu-dropdown:not(.menu-dropdown-show)){display:none}.menu :where(li:not(.menu-title)>:not(ul,menu,details,.menu-title,.btn)),.menu :where(li:not(.menu-title)>details>summary:not(.menu-title)){border-radius:var(--radius-field);text-align:start;-webkit-user-select:none;user-select:none;grid-auto-columns:minmax(auto,max-content) auto max-content;grid-auto-flow:column;align-content:flex-start;align-items:center;gap:.5rem;padding-block:.375rem;padding-inline:.75rem;transition-property:color,background-color,box-shadow;transition-duration:.2s;transition-timing-function:cubic-bezier(0,0,.2,1);display:grid}.menu :where(li>details>summary){--tw-outline-style:none;outline-style:none}@media (forced-colors:active){.menu :where(li>details>summary){outline-offset:2px;outline:2px solid #0000}}.menu :where(li>details>summary)::-webkit-details-marker{display:none}:is(.menu :where(li>details>summary),.menu :where(li>.menu-dropdown-toggle)):after{content:"";transform-origin:50%;pointer-events:none;justify-self:flex-end;width:.375rem;height:.375rem;transition-property:rotate,translate;transition-duration:.2s;display:block;translate:0 -1px;rotate:-135deg;box-shadow:inset 2px 2px}.menu details{interpolate-size:allow-keywords;overflow:hidden}.menu details::details-content{block-size:0}@media (prefers-reduced-motion:no-preference){.menu details::details-content{transition-behavior:allow-discrete;transition-property:block-size,content-visibility;transition-duration:.2s;transition-timing-function:cubic-bezier(0,0,.2,1)}}.menu details[open]::details-content{block-size:auto}.menu :where(li>details[open]>summary):after,.menu :where(li>.menu-dropdown-toggle.menu-dropdown-show):after{translate:0 1px;rotate:45deg}.menu :where(li:not(.menu-title,.disabled)>:not(ul,menu,details,.menu-title),li:not(.menu-title,.disabled)>details>summary:not(.menu-title)):not(.menu-active,:active,.btn).menu-focus,.menu :where(li:not(.menu-title,.disabled)>:not(ul,menu,details,.menu-title),li:not(.menu-title,.disabled)>details>summary:not(.menu-title)):not(.menu-active,:active,.btn):focus-visible{cursor:pointer;background-color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.menu :where(li:not(.menu-title,.disabled)>:not(ul,menu,details,.menu-title),li:not(.menu-title,.disabled)>details>summary:not(.menu-title)):not(.menu-active,:active,.btn).menu-focus,.menu :where(li:not(.menu-title,.disabled)>:not(ul,menu,details,.menu-title),li:not(.menu-title,.disabled)>details>summary:not(.menu-title)):not(.menu-active,:active,.btn):focus-visible{background-color:color-mix(in oklab, var(--color-base-content) 10%, transparent)}}.menu :where(li:not(.menu-title,.disabled)>:not(ul,menu,details,.menu-title),li:not(.menu-title,.disabled)>details>summary:not(.menu-title)):not(.menu-active,:active,.btn).menu-focus,.menu :where(li:not(.menu-title,.disabled)>:not(ul,menu,details,.menu-title),li:not(.menu-title,.disabled)>details>summary:not(.menu-title)):not(.menu-active,:active,.btn):focus-visible{color:var(--color-base-content);--tw-outline-style:none;outline-style:none}@media (forced-colors:active){.menu :where(li:not(.menu-title,.disabled)>:not(ul,menu,details,.menu-title),li:not(.menu-title,.disabled)>details>summary:not(.menu-title)):not(.menu-active,:active,.btn).menu-focus,.menu :where(li:not(.menu-title,.disabled)>:not(ul,menu,details,.menu-title),li:not(.menu-title,.disabled)>details>summary:not(.menu-title)):not(.menu-active,:active,.btn):focus-visible{outline-offset:2px;outline:2px solid #0000}}.menu :where(li:not(.menu-title,.disabled)>:not(ul,menu,details,.menu-title):not(.menu-active,:active,.btn):hover,li:not(.menu-title,.disabled)>details>summary:not(.menu-title):not(.menu-active,:active,.btn):hover){cursor:pointer;background-color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.menu :where(li:not(.menu-title,.disabled)>:not(ul,menu,details,.menu-title):not(.menu-active,:active,.btn):hover,li:not(.menu-title,.disabled)>details>summary:not(.menu-title):not(.menu-active,:active,.btn):hover){background-color:color-mix(in oklab, var(--color-base-content) 10%, transparent)}}.menu :where(li:not(.menu-title,.disabled)>:not(ul,menu,details,.menu-title):not(.menu-active,:active,.btn):hover,li:not(.menu-title,.disabled)>details>summary:not(.menu-title):not(.menu-active,:active,.btn):hover){--tw-outline-style:none;outline-style:none}@media (forced-colors:active){.menu :where(li:not(.menu-title,.disabled)>:not(ul,menu,details,.menu-title):not(.menu-active,:active,.btn):hover,li:not(.menu-title,.disabled)>details>summary:not(.menu-title):not(.menu-active,:active,.btn):hover){outline-offset:2px;outline:2px solid #0000}}.menu :where(li:not(.menu-title,.disabled)>:not(ul,menu,details,.menu-title):not(.menu-active,:active,.btn):hover,li:not(.menu-title,.disabled)>details>summary:not(.menu-title):not(.menu-active,:active,.btn):hover){box-shadow:inset 0 1px oklch(0% 0 0/.01),inset 0 -1px oklch(100% 0 0/.01)}.menu :where(li:empty){background-color:var(--color-base-content);opacity:.1;height:1px;margin:.5rem 1rem}.menu :where(li){flex-flow:column wrap;flex-shrink:0;align-items:stretch;display:flex;position:relative}.menu :where(li) .badge{justify-self:flex-end}.menu :where(li)>:not(ul,menu,.menu-title,details,.btn):active,.menu :where(li)>:not(ul,menu,.menu-title,details,.btn).menu-active,.menu :where(li)>details>summary:active{--tw-outline-style:none;outline-style:none}@media (forced-colors:active){.menu :where(li)>:not(ul,menu,.menu-title,details,.btn):active,.menu :where(li)>:not(ul,menu,.menu-title,details,.btn).menu-active,.menu :where(li)>details>summary:active{outline-offset:2px;outline:2px solid #0000}}.menu :where(li)>:not(ul,menu,.menu-title,details,.btn):active,.menu :where(li)>:not(ul,menu,.menu-title,details,.btn).menu-active,.menu :where(li)>details>summary:active{color:var(--menu-active-fg);background-color:var(--menu-active-bg);background-size:auto, calc(var(--noise) * 100%);background-image:none, var(--fx-noise)}:is(.menu :where(li)>:not(ul,menu,.menu-title,details,.btn):active,.menu :where(li)>:not(ul,menu,.menu-title,details,.btn).menu-active,.menu :where(li)>details>summary:active):not(:is(.menu :where(li)>:not(ul,menu,.menu-title,details,.btn):active,.menu :where(li)>:not(ul,menu,.menu-title,details,.btn).menu-active,.menu :where(li)>details>summary:active):active){box-shadow:0 2px calc(var(--depth) * 3px) -2px var(--menu-active-bg)}.menu :where(li).menu-disabled,.menu :where(li) [disabled]{pointer-events:none;color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.menu :where(li).menu-disabled,.menu :where(li) [disabled]{color:color-mix(in oklab, var(--color-base-content) 20%, transparent)}}.menu .dropdown:focus-within .menu-dropdown-toggle:after{translate:0 1px;rotate:45deg}.menu .dropdown-content{margin-top:.5rem;padding:.5rem}.menu .dropdown-content:before{display:none}.dropdown{position-area:var(--anchor-v,bottom) var(--anchor-h,span-right);display:inline-block;position:relative}.dropdown>:not(:has(~[class*=dropdown-content])):focus{--tw-outline-style:none;outline-style:none}@media (forced-colors:active){.dropdown>:not(:has(~[class*=dropdown-content])):focus{outline-offset:2px;outline:2px solid #0000}}.dropdown .dropdown-content{position:absolute}.dropdown.dropdown-close .dropdown-content,.dropdown:not(details,.dropdown-open,.dropdown-hover:hover,:focus-within) .dropdown-content,.dropdown.dropdown-hover:not(:hover) [tabindex]:first-child:focus:not(:focus-visible)~.dropdown-content{transform-origin:top;opacity:0;display:none;scale:.95}.dropdown[popover],.dropdown .dropdown-content{z-index:999}@media (prefers-reduced-motion:no-preference){.dropdown[popover],.dropdown .dropdown-content{transition-behavior:allow-discrete;transition-property:opacity,scale,display,overlay;transition-duration:.2s;transition-timing-function:cubic-bezier(.4,0,.2,1);animation:.2s dropdown}}@starting-style{.dropdown[popover],.dropdown .dropdown-content{opacity:0;scale:.95}}:is(.dropdown:not(.dropdown-close).dropdown-open,.dropdown:not(.dropdown-close):not(.dropdown-hover):focus,.dropdown:not(.dropdown-close):focus-within)>[tabindex]:first-child{pointer-events:none}:is(.dropdown:not(.dropdown-close).dropdown-open,.dropdown:not(.dropdown-close):not(.dropdown-hover):focus,.dropdown:not(.dropdown-close):focus-within) .dropdown-content,.dropdown:not(.dropdown-close).dropdown-hover:hover .dropdown-content{opacity:1;scale:1}.dropdown:is(details){overflow:revert-layer}.dropdown:is(details) summary::-webkit-details-marker{display:none}.dropdown:where([popover]){background:0 0}.dropdown[popover]{color:inherit;position:fixed}@supports not (position-area:bottom){.dropdown[popover]{margin:auto}.dropdown[popover].dropdown-close{transform-origin:top;opacity:0;display:none;scale:.95}.dropdown[popover].dropdown-open:not(:popover-open){transform-origin:top;opacity:0;display:none;scale:.95}.dropdown[popover]::backdrop{background-color:oklab(0% none none/.3)}}:is(.dropdown[popover].dropdown-close,.dropdown[popover]:not(.dropdown-open,:popover-open)){transform-origin:top;opacity:0;display:none;scale:.95}:where(.btn){width:unset}.btn{--size:calc(var(--size-field,.25rem) * 10);--btn-p:1rem;--btn-fg:var(--color-base-content);cursor:pointer;text-align:center;vertical-align:middle;outline-offset:2px;webkit-user-select:none;-webkit-user-select:none;user-select:none;border-width:var(--border);touch-action:manipulation;--btn-bg:var(--btn-color,var(--color-base-200));--btn-border:var(--btn-color,var(--color-base-200));border-start-start-radius:var(--join-ss,var(--radius-field));border-start-end-radius:var(--join-se,var(--radius-field));border-end-end-radius:var(--join-ee,var(--radius-field));border-end-start-radius:var(--join-es,var(--radius-field));flex-wrap:nowrap;flex-shrink:0;justify-content:center;align-items:center;gap:.375rem;font-weight:600;transition-property:color,background-color,border-color,box-shadow,transform;transition-duration:.2s;transition-timing-function:cubic-bezier(0,0,.2,1);display:inline-flex}@supports (color:color-mix(in lab, red, red)){.btn{--btn-border:color-mix(in oklab, var(--btn-color,var(--color-base-200)), #000 calc(var(--depth) * 5%))}}.btn{--btn-soft-bg:initial;--btn-shadow:0 3px 2px -2px var(--btn-bg), 0 4px 3px -2px var(--btn-bg)}@supports (color:color-mix(in lab, red, red)){.btn{--btn-shadow:0 3px 2px -2px color-mix(in oklab, var(--btn-bg) calc(var(--depth) * 30%), #0000), 0 4px 3px -2px color-mix(in oklab, var(--btn-bg) calc(var(--depth) * 30%), #0000)}}.btn{--btn-inset:0 .5px 0 .5px oklch(100% 0 0 / calc(var(--depth) * 6%));height:var(--size);padding-inline:var(--btn-p);font-size:var(--fontsize,.875rem);background-color:var(--btn-bg);color:var(--btn-fg);border-color:var(--btn-border);border-style:var(--btn-border-style,solid);outline-color:var(--btn-color,var(--color-base-content));--tw-prose-links:var(--btn-fg);background-image:none, var(--fx-noise);background-size:auto, calc(var(--noise,0) * 100%);text-shadow:0 .5px oklch(100% 0 0 / calc(var(--depth) * .15));box-shadow:var(--btn-inset) inset, var(--btn-shadow)}.btn:is([type=checkbox],[type=radio]){appearance:none}.btn:is([type=checkbox],[type=radio])[aria-label]:after{--tw-content:attr(aria-label);content:var(--tw-content)}.loading{pointer-events:none;aspect-ratio:1;vertical-align:middle;width:calc(var(--size-selector,.25rem) * 6);background-color:currentColor;display:inline-block;-webkit-mask-image:url("data:image/svg+xml,%3Csvg width='24' height='24' stroke='black' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg transform-origin='center'%3E%3Ccircle cx='12' cy='12' r='9.5' fill='none' stroke-width='3' stroke-linecap='round'%3E%3CanimateTransform attributeName='transform' type='rotate' from='0 12 12' to='360 12 12' dur='8s' repeatCount='indefinite'/%3E%3Canimate attributeName='stroke-dasharray' values='0,150;42,150;42,150' keyTimes='0;0.475;1' dur='6s' repeatCount='indefinite'/%3E%3Canimate attributeName='stroke-dashoffset' values='0;-16;-59' keyTimes='0;0.475;1' dur='6s' repeatCount='indefinite'/%3E%3C/circle%3E%3C/g%3E%3C/svg%3E");mask-image:url("data:image/svg+xml,%3Csvg width='24' height='24' stroke='black' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg transform-origin='center'%3E%3Ccircle cx='12' cy='12' r='9.5' fill='none' stroke-width='3' stroke-linecap='round'%3E%3CanimateTransform attributeName='transform' type='rotate' from='0 12 12' to='360 12 12' dur='8s' repeatCount='indefinite'/%3E%3Canimate attributeName='stroke-dasharray' values='0,150;42,150;42,150' keyTimes='0;0.475;1' dur='6s' repeatCount='indefinite'/%3E%3Canimate attributeName='stroke-dashoffset' values='0;-16;-59' keyTimes='0;0.475;1' dur='6s' repeatCount='indefinite'/%3E%3C/circle%3E%3C/g%3E%3C/svg%3E");-webkit-mask-position:50%;mask-position:50%;-webkit-mask-size:100%;mask-size:100%;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat}@media (prefers-reduced-motion:no-preference){.loading{-webkit-mask-image:url("data:image/svg+xml,%3Csvg width='24' height='24' stroke='black' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg transform-origin='center'%3E%3Ccircle cx='12' cy='12' r='9.5' fill='none' stroke-width='3' stroke-linecap='round'%3E%3CanimateTransform attributeName='transform' type='rotate' from='0 12 12' to='360 12 12' dur='2s' repeatCount='indefinite'/%3E%3Canimate attributeName='stroke-dasharray' values='0,150;42,150;42,150' keyTimes='0;0.475;1' dur='1.5s' repeatCount='indefinite'/%3E%3Canimate attributeName='stroke-dashoffset' values='0;-16;-59' keyTimes='0;0.475;1' dur='1.5s' repeatCount='indefinite'/%3E%3C/circle%3E%3C/g%3E%3C/svg%3E");mask-image:url("data:image/svg+xml,%3Csvg width='24' height='24' stroke='black' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg transform-origin='center'%3E%3Ccircle cx='12' cy='12' r='9.5' fill='none' stroke-width='3' stroke-linecap='round'%3E%3CanimateTransform attributeName='transform' type='rotate' from='0 12 12' to='360 12 12' dur='2s' repeatCount='indefinite'/%3E%3Canimate attributeName='stroke-dasharray' values='0,150;42,150;42,150' keyTimes='0;0.475;1' dur='1.5s' repeatCount='indefinite'/%3E%3Canimate attributeName='stroke-dashoffset' values='0;-16;-59' keyTimes='0;0.475;1' dur='1.5s' repeatCount='indefinite'/%3E%3C/circle%3E%3C/g%3E%3C/svg%3E")}}.filter{flex-wrap:wrap;display:flex}.filter [type=radio]{width:auto}.filter input{opacity:1;transition:visibility .1s allow-discrete, margin .1s, opacity .3s, padding .3s, border-width .1s;overflow:hidden;scale:1}.filter input.filter-reset{aspect-ratio:1}.filter input.filter-reset:after{--tw-content:"×";content:var(--tw-content)}.filter>input:not(:last-child),.filter>:not(:last-child) input{margin-inline-end:.25rem}.list{flex-direction:column;font-size:.875rem;display:flex}.list .list-row{--list-grid-cols:minmax(0, auto) 1fr;border-radius:var(--radius-box);word-break:break-word;grid-auto-flow:column;grid-template-columns:var(--list-grid-cols);gap:1rem;padding:1rem;display:grid;position:relative}:is(.list>:not(:last-child).list-row,.list>:not(:last-child) .list-row):after{content:"";border-bottom:var(--border) solid;inset-inline:var(--radius-box);border-color:var(--color-base-content);position:absolute;bottom:0}@supports (color:color-mix(in lab, red, red)){:is(.list>:not(:last-child).list-row,.list>:not(:last-child) .list-row):after{border-color:color-mix(in oklab, var(--color-base-content) 5%, transparent)}}.toast{translate:var(--toast-x,0) var(--toast-y,0);inset-inline:auto 1rem;background-color:#0000;flex-direction:column;gap:.5rem;width:max-content;max-width:calc(100vw - 2rem);display:flex;position:fixed;top:auto;bottom:1rem}@media (prefers-reduced-motion:no-preference){.toast>*{animation:.25s ease-out toast}}.toggle{border:var(--border) solid currentColor;color:var(--input-color);cursor:pointer;appearance:none;vertical-align:middle;webkit-user-select:none;-webkit-user-select:none;user-select:none;--radius-selector-max:calc(var(--radius-selector) + var(--radius-selector) + var(--radius-selector));border-radius:calc(var(--radius-selector) + min(var(--toggle-p), var(--radius-selector-max)) + min(var(--border), var(--radius-selector-max)));padding:var(--toggle-p);flex-shrink:0;grid-template-columns:0fr 1fr 1fr;place-content:center;display:inline-grid;position:relative;box-shadow:inset 0 1px}@supports (color:color-mix(in lab, red, red)){.toggle{box-shadow:0 1px color-mix(in oklab, currentColor calc(var(--depth) * 10%), #0000) inset}}.toggle{--input-color:var(--color-base-content);transition:color .3s,grid-template-columns .2s}@supports (color:color-mix(in lab, red, red)){.toggle{--input-color:color-mix(in oklab, var(--color-base-content) 50%, #0000)}}.toggle{--toggle-p:calc(var(--size) * .125);--size:calc(var(--size-selector,.25rem) * 6);width:calc((var(--size) * 2) - (var(--border) + var(--toggle-p)) * 2);height:var(--size)}.toggle>*{z-index:1;cursor:pointer;appearance:none;background-color:#0000;border:none;grid-column:2/span 1;grid-row-start:1;height:100%;padding:.125rem;transition:opacity .2s,rotate .4s}.toggle>:focus{--tw-outline-style:none;outline-style:none}@media (forced-colors:active){.toggle>:focus{outline-offset:2px;outline:2px solid #0000}}.toggle>:nth-child(2){color:var(--color-base-100);rotate:0deg}.toggle>:nth-child(3){color:var(--color-base-100);opacity:0;rotate:-15deg}.toggle:has(:checked)>:nth-child(2){opacity:0;rotate:15deg}.toggle:has(:checked)>:nth-child(3){opacity:1;rotate:0deg}.toggle:before{aspect-ratio:1;border-radius:var(--radius-selector);--tw-content:"";content:var(--tw-content);width:100%;height:100%;box-shadow:0 -1px oklch(0% 0 0 / calc(var(--depth) * .1)) inset, 0 8px 0 -4px oklch(100% 0 0 / calc(var(--depth) * .1)) inset, 0 1px currentColor;background-color:currentColor;grid-row-start:1;grid-column-start:2;transition:background-color .1s,translate .2s,inset-inline-start .2s;position:relative;inset-inline-start:0;translate:0}@supports (color:color-mix(in lab, red, red)){.toggle:before{box-shadow:0 -1px oklch(0% 0 0 / calc(var(--depth) * .1)) inset, 0 8px 0 -4px oklch(100% 0 0 / calc(var(--depth) * .1)) inset, 0 1px color-mix(in oklab, currentColor calc(var(--depth) * 10%), #0000)}}.toggle:before{background-size:auto, calc(var(--noise) * 100%);background-image:none, var(--fx-noise)}@media (forced-colors:active){.toggle:before{outline-style:var(--tw-outline-style);outline-offset:calc(1px * -1);outline-width:1px}}@media print{.toggle:before{outline-offset:-1rem;outline:.25rem solid}}.toggle:focus-visible{outline-offset:2px;outline:2px solid}.toggle:has(:focus-visible){outline-offset:2px;outline:2px solid}.toggle:checked,.toggle[aria-checked=true]{background-color:var(--color-base-100);--input-color:var(--color-base-content);grid-template-columns:1fr 1fr 0fr}.toggle:has(>input:checked){background-color:var(--color-base-100);--input-color:var(--color-base-content);grid-template-columns:1fr 1fr 0fr}:is(.toggle:checked,.toggle[aria-checked=true],.toggle:has(>input:checked)):before{background-color:currentColor}@starting-style{:is(.toggle:checked,.toggle[aria-checked=true],.toggle:has(>input:checked)):before{opacity:0}}.toggle:indeterminate{grid-template-columns:.5fr 1fr .5fr}.toggle:disabled{cursor:not-allowed;opacity:.3}.toggle:disabled:before{border:var(--border) solid currentColor;background-color:#0000}.input{appearance:none;background-color:var(--color-base-100);vertical-align:middle;white-space:nowrap;--size:calc(var(--size-field,.25rem) * var(--in-size-mul));--input-color:var(--color-base-content);flex-shrink:1;align-items:center;gap:.5rem;padding-inline:.75rem;display:inline-flex;position:relative}@supports (color:color-mix(in lab, red, red)){.input{--input-color:color-mix(in oklab, var(--color-base-content) 20%, #0000)}}.input{cursor:text;width:clamp(3rem,20rem,100%);height:var(--size);font-size:max(var(--font-size,0rem), var(--font-size-min));touch-action:manipulation;border:var(--border) solid var(--input-color,#0000);box-shadow:0 1px var(--input-color) inset, 0 -1px oklch(100% 0 0 / calc(var(--depth) * .1)) inset;border-start-start-radius:var(--join-ss,var(--radius-field));border-start-end-radius:var(--join-se,var(--radius-field));border-end-end-radius:var(--join-ee,var(--radius-field));border-end-start-radius:var(--join-es,var(--radius-field))}@supports (color:color-mix(in lab, red, red)){.input{box-shadow:0 1px color-mix(in oklab, var(--input-color) calc(var(--depth) * 10%), #0000) inset, 0 -1px oklch(100% 0 0 / calc(var(--depth) * .1)) inset}}.input input{appearance:none;background-color:#0000;border:none;width:100%;height:100%}.input input::placeholder{color:var(--color-base-content);opacity:.5}.input input:focus,.input input:focus-within{--tw-outline-style:none;outline-style:none}@media (forced-colors:active){.input input:focus,.input input:focus-within{outline-offset:2px;outline:2px solid #0000}}.input input::-webkit-calendar-picker-indicator{inset-inline-end:-.15em}.input::-webkit-inner-spin-button{margin-inline-end:-10px}.input::-webkit-calendar-picker-indicator{inset-inline-end:.75em}input.input,.input input{display:inline-flex;position:relative}:is(input.input,.input input)[type=url],:is(input.input,.input input)[type=email]{text-align:left}:is(input.input,.input input)::-webkit-datetime-edit{min-height:100%;text-align:inherit;align-items:center;display:grid}:is(input.input,.input input)::-webkit-date-and-time-value{min-height:100%;text-align:inherit;align-items:center;display:grid}:is(input.input,.input input)::-webkit-inner-spin-button{margin-block:calc(.25rem * var(--spin-my))}:is(input.input,.input input)::-webkit-calendar-picker-indicator{cursor:pointer;width:1em;height:1em;position:absolute}:is(input.input,.input input)::-webkit-color-swatch-wrapper{padding-block:.25rem}.input:focus,.input:focus-within{--input-color:var(--color-base-content);box-shadow:0 1px var(--input-color)}@supports (color:color-mix(in lab, red, red)){.input:focus,.input:focus-within{box-shadow:0 1px color-mix(in oklab, var(--input-color) calc(var(--depth) * 10%), #0000)}}.input:focus,.input:focus-within{outline:2px solid var(--input-color);outline-offset:2px;isolation:isolate}@media (pointer:coarse){@supports (-webkit-touch-callout:none){.input:focus,.input:focus-within{--font-size:1rem}}}.input:is(:disabled,[disabled]),fieldset:disabled .input{cursor:not-allowed;border-color:var(--color-base-200);background-color:var(--color-base-200)}.input:has(>input[disabled]){cursor:not-allowed;border-color:var(--color-base-200);background-color:var(--color-base-200)}:is(.input:has(>input[disabled]),.input:is(:disabled,[disabled]),fieldset:disabled .input):is(input),:is(.input:has(>input[disabled]),.input:is(:disabled,[disabled]),fieldset:disabled .input) :is(input){color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){:is(.input:has(>input[disabled]),.input:is(:disabled,[disabled]),fieldset:disabled .input):is(input),:is(.input:has(>input[disabled]),.input:is(:disabled,[disabled]),fieldset:disabled .input) :is(input){color:color-mix(in oklab, var(--color-base-content) 40%, transparent)}}.input:is(:disabled,[disabled]),fieldset:disabled .input{box-shadow:none}.input:has(>input[disabled]){box-shadow:none}:is(.input:has(>input[disabled]),.input:is(:disabled,[disabled]),fieldset:disabled .input)::placeholder,:is(.input:has(>input[disabled]),.input:is(:disabled,[disabled]),fieldset:disabled .input) ::placeholder{color:var(--color-base-content);opacity:.2}.input:has(>input[disabled])>input[disabled]{cursor:not-allowed}.steps{counter-reset:step;grid-auto-columns:1fr;grid-auto-flow:column;display:inline-grid;overflow:auto hidden}.steps .step{text-align:center;--step-bg:var(--color-base-300);--step-fg:var(--color-base-content);grid-template-rows:40px 1fr;grid-template-columns:auto;place-items:center;min-width:4rem;display:grid}.steps .step:before{width:100%;height:.5rem;color:var(--step-bg);background-color:var(--step-bg);content:"";border:1px solid;grid-row-start:1;grid-column-start:1;margin-inline-start:-100%;top:0}.steps .step>.step-icon{--tw-content:counter(step);content:var(--tw-content);counter-increment:step;z-index:1;color:var(--step-fg);background-color:var(--step-bg);border:1px solid var(--step-bg);border-radius:3.40282e38px;grid-row-start:1;grid-column-start:1;place-self:center;place-items:center;width:2rem;height:2rem;display:grid;position:relative}.steps .step:not(:has(.step-icon)):after{--tw-content:counter(step);content:var(--tw-content);counter-increment:step;z-index:1;color:var(--step-fg);background-color:var(--step-bg);border:1px solid var(--step-bg);border-radius:3.40282e38px;grid-row-start:1;grid-column-start:1;place-self:center;place-items:center;width:2rem;height:2rem;display:grid;position:relative}.steps .step:first-child:before{--tw-content:none;content:var(--tw-content)}.steps .step[data-content]:after{--tw-content:attr(data-content);content:var(--tw-content)}.select{appearance:none;background-color:var(--color-base-100);vertical-align:middle;--size:calc(var(--size-field,.25rem) * var(--sl-size-mul));--input-color:var(--color-base-content);flex-shrink:1;align-items:center;gap:.375rem;padding-inline:.75rem 1.75rem;display:inline-flex;position:relative}@supports (color:color-mix(in lab, red, red)){.select{--input-color:color-mix(in oklab, var(--color-base-content) 20%, #0000)}}.select{width:clamp(3rem,20rem,100%);height:var(--size);font-size:max(var(--font-size,0rem), var(--font-size-min));touch-action:manipulation;white-space:nowrap;text-overflow:ellipsis;border:var(--border) solid var(--input-color,#0000);box-shadow:0 1px var(--input-color) inset, 0 -1px oklch(100% 0 0 / calc(var(--depth) * .1)) inset;background-image:linear-gradient(45deg,#0000 50%,currentColor 50%),linear-gradient(135deg,currentColor 50%,#0000 50%);background-position:calc(100% - 20px) calc(1px + 50%),calc(100% - 16.1px) calc(1px + 50%);background-repeat:no-repeat;background-size:4px 4px,4px 4px;border-start-start-radius:var(--join-ss,var(--radius-field));border-start-end-radius:var(--join-se,var(--radius-field));border-end-end-radius:var(--join-ee,var(--radius-field));border-end-start-radius:var(--join-es,var(--radius-field));overflow:hidden}@supports (color:color-mix(in lab, red, red)){.select{box-shadow:0 1px color-mix(in oklab, var(--input-color) calc(var(--depth) * 10%), #0000) inset, 0 -1px oklch(100% 0 0 / calc(var(--depth) * .1)) inset}}[dir=rtl] .select{background-position:12px calc(1px + 50%),16px calc(1px + 50%)}[dir=rtl] .select::picker(select){translate:.5rem}[dir=rtl] .select select::picker(select){translate:.5rem}.select[multiple]{background-image:none;height:auto;padding-block:.75rem;padding-inline-end:.75rem;overflow:auto}.select select{appearance:none;width:calc(100% + 2.75rem);height:calc(100% - calc(var(--border) * 2));background:inherit;border-radius:inherit;border-style:none;align-items:center;margin-inline:-.75rem -1.75rem;padding-inline:.75rem 1.75rem}.select select::placeholder{color:var(--color-base-content);opacity:.5}.select select:focus,.select select:focus-within{--tw-outline-style:none;outline-style:none}@media (forced-colors:active){.select select:focus,.select select:focus-within{outline-offset:2px;outline:2px solid #0000}}.select select:not(:last-child){background-image:none;margin-inline-end:-1.375rem}:is(.select:focus,.select:focus-within,.select:open){--input-color:var(--color-base-content);box-shadow:0 1px var(--input-color)}@supports (color:color-mix(in lab, red, red)){:is(.select:focus,.select:focus-within,.select:open){box-shadow:0 1px color-mix(in oklab, var(--input-color) calc(var(--depth) * 10%), #0000)}}:is(.select:focus,.select:focus-within,.select:open){outline:2px solid var(--input-color);outline-offset:2px;isolation:isolate;background-image:linear-gradient(135deg,#0000 50%,currentColor 50%),linear-gradient(45deg,currentColor 50%,#0000 50%)}.select:is(:disabled,[disabled]),fieldset:disabled .select{cursor:not-allowed;border-color:var(--color-base-200);background-color:var(--color-base-200)}.select:has(>select[disabled]){cursor:not-allowed;border-color:var(--color-base-200);background-color:var(--color-base-200)}:is(.select:has(>select[disabled]),.select:is(:disabled,[disabled]),fieldset:disabled .select):is(select),:is(.select:has(>select[disabled]),.select:is(:disabled,[disabled]),fieldset:disabled .select) :is(select){color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){:is(.select:has(>select[disabled]),.select:is(:disabled,[disabled]),fieldset:disabled .select):is(select),:is(.select:has(>select[disabled]),.select:is(:disabled,[disabled]),fieldset:disabled .select) :is(select){color:color-mix(in oklab, var(--color-base-content) 40%, transparent)}}.select:is(:disabled,[disabled]),fieldset:disabled .select{box-shadow:none}.select:has(>select[disabled]){box-shadow:none}:is(.select:has(>select[disabled]),.select:is(:disabled,[disabled]),fieldset:disabled .select)::placeholder,:is(.select:has(>select[disabled]),.select:is(:disabled,[disabled]),fieldset:disabled .select) ::placeholder{color:var(--color-base-content);opacity:.2}.select:has(>select[disabled])>select[disabled]{cursor:not-allowed}@supports (appearance:base-select){:is(.select,.select select){appearance:base-select}:is(.select,.select select)::picker(select){appearance:base-select}}:is(.select,.select select)::picker(select){color:inherit;border:var(--border) solid var(--color-base-200);border-radius:var(--radius-box);background-color:inherit;max-height:min(24rem,70dvh);box-shadow:0 2px calc(var(--depth) * 3px) -2px oklch(0% 0 0/.2);box-shadow:0 20px 25px -5px rgb(0 0 0/calc(var(--depth) * .1)), 0 8px 10px -6px rgb(0 0 0/calc(var(--depth) * .1));margin-block:.5rem;margin-inline:.5rem;padding:.5rem;translate:-.5rem}:is(.select,.select select)::picker-icon{display:none}:is(.select,.select select) selectedcontent{text-overflow:ellipsis;white-space:nowrap;width:100%;overflow:hidden}:is(.select,.select select) optgroup{padding-top:.5em}:is(.select,.select select) optgroup option:first-child{margin-top:.5em}:is(.select,.select select) option{border-radius:var(--radius-field);padding-block:.375rem;padding-inline:calc(.25rem * var(--option-px));white-space:normal;transition-property:color,background-color;transition-duration:.2s;transition-timing-function:cubic-bezier(0,0,.2,1)}:is(.select,.select select) option:not(:disabled):hover,:is(.select,.select select) option:not(:disabled):focus-visible{cursor:pointer;background-color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){:is(.select,.select select) option:not(:disabled):hover,:is(.select,.select select) option:not(:disabled):focus-visible{background-color:color-mix(in oklab, var(--color-base-content) 10%, transparent)}}:is(.select,.select select) option:not(:disabled):hover,:is(.select,.select select) option:not(:disabled):focus-visible{--tw-outline-style:none;outline-style:none}@media (forced-colors:active){:is(.select,.select select) option:not(:disabled):hover,:is(.select,.select select) option:not(:disabled):focus-visible{outline-offset:2px;outline:2px solid #0000}}:is(.select,.select select) option:not(:disabled):active{background-color:var(--color-neutral);color:var(--color-neutral-content);box-shadow:0 2px calc(var(--depth) * 3px) -2px var(--color-neutral)}.radio{cursor:pointer;appearance:none;vertical-align:middle;border:var(--border) solid var(--input-color,currentColor);border-radius:3.40282e38px;flex-shrink:0;padding:.25rem;display:inline-block;position:relative}@supports (color:color-mix(in lab, red, red)){.radio{border:var(--border) solid var(--input-color,color-mix(in srgb, currentColor 20%, #0000))}}.radio{box-shadow:0 1px oklch(0% 0 0 / calc(var(--depth) * .1)) inset;--size:calc(var(--size-selector,.25rem) * 6);width:var(--size);height:var(--size);color:var(--input-color,currentColor)}.radio:before{--tw-content:"";content:var(--tw-content);background-size:auto, calc(var(--noise) * 100%);background-image:none, var(--fx-noise);border-radius:3.40282e38px;width:100%;height:100%;display:block}.radio:focus-visible{outline:2px solid}.radio:checked,.radio[aria-checked=true]{background-color:var(--color-base-100);border-color:currentColor}@media (prefers-reduced-motion:no-preference){.radio:checked,.radio[aria-checked=true]{animation:.2s ease-out radio}}:is(.radio:checked,.radio[aria-checked=true]):before{box-shadow:0 -1px oklch(0% 0 0 / calc(var(--depth) * .1)) inset, 0 8px 0 -4px oklch(100% 0 0 / calc(var(--depth) * .1)) inset, 0 1px oklch(0% 0 0 / calc(var(--depth) * .1));background-color:currentColor}@media (forced-colors:active){:is(.radio:checked,.radio[aria-checked=true]):before{outline-style:var(--tw-outline-style);outline-offset:calc(1px * -1);outline-width:1px}}@media print{:is(.radio:checked,.radio[aria-checked=true]):before{outline-offset:-1rem;outline:.25rem solid}}.progress{appearance:none;border-radius:var(--radius-box);background-color:currentColor;width:100%;height:.5rem;position:relative;overflow:hidden}@supports (color:color-mix(in lab, red, red)){.progress{background-color:color-mix(in oklab, currentcolor 20%, transparent)}}.progress{color:var(--color-base-content)}.progress:indeterminate{background-image:repeating-linear-gradient(90deg,currentColor -1% 10%,#0000 10% 90%);background-position-x:15%;background-size:200%}@media (prefers-reduced-motion:no-preference){.progress:indeterminate{animation:5s ease-in-out infinite progress}}@supports ((-moz-appearance:none)){.progress:indeterminate::-moz-progress-bar{background-color:#0000}@media (prefers-reduced-motion:no-preference){.progress:indeterminate::-moz-progress-bar{background-image:repeating-linear-gradient(90deg,currentColor -1% 10%,#0000 10% 90%);background-position-x:15%;background-size:200%;animation:5s ease-in-out infinite progress}}.progress::-moz-progress-bar{border-radius:var(--radius-box);background-color:currentColor}}@supports ((-webkit-appearance:none)){.progress::-webkit-progress-bar{border-radius:var(--radius-box);background-color:#0000}.progress::-webkit-progress-value{border-radius:var(--radius-box);background-color:currentColor}}.stack{grid-template-rows:3px 4px 1fr 4px 3px;grid-template-columns:3px 4px 1fr 4px 3px;display:inline-grid}.stack>*{width:100%;height:100%}.stack>:nth-child(n+2){opacity:.7;width:100%}.stack>:nth-child(2){z-index:2;opacity:.9}.stack>:first-child{z-index:3;width:100%}.modal-box{background-color:var(--color-base-100);border-top-left-radius:var(--modal-tl,var(--radius-box));border-top-right-radius:var(--modal-tr,var(--radius-box));border-bottom-left-radius:var(--modal-bl,var(--radius-box));border-bottom-right-radius:var(--modal-br,var(--radius-box));opacity:0;overscroll-behavior:contain;grid-row-start:1;grid-column-start:1;width:91.6667%;max-width:32rem;max-height:100vh;padding:1.5rem;transition:translate .3s ease-out,scale .3s ease-out,opacity .2s ease-out 50ms,box-shadow .3s ease-out;overflow-y:auto;scale:.95;box-shadow:0 25px 50px -12px oklch(0% 0 0/.25)}.label{white-space:nowrap;color:currentColor;align-items:center;gap:.375rem;display:inline-flex}@supports (color:color-mix(in lab, red, red)){.label{color:color-mix(in oklab, currentcolor 60%, transparent)}}.label:has(input){cursor:pointer}.label:is(.input>*,.select>*){white-space:nowrap;height:calc(100% - .5rem);font-size:inherit;align-items:center;padding-inline:.75rem;display:flex}.label:is(.input>*,.select>*):first-child{border-inline-end:var(--border) solid currentColor;margin-inline:-.75rem .75rem}@supports (color:color-mix(in lab, red, red)){.label:is(.input>*,.select>*):first-child{border-inline-end:var(--border) solid color-mix(in oklab, currentColor 10%, #0000)}}.label:is(.input>*,.select>*):last-child{border-inline-start:var(--border) solid currentColor;margin-inline:.75rem -.75rem}@supports (color:color-mix(in lab, red, red)){.label:is(.input>*,.select>*):last-child{border-inline-start:var(--border) solid color-mix(in oklab, currentColor 10%, #0000)}}.status{aspect-ratio:1;border-radius:var(--radius-selector);background-color:var(--color-base-content);width:.5rem;height:.5rem;display:inline-block}@supports (color:color-mix(in lab, red, red)){.status{background-color:color-mix(in oklab, var(--color-base-content) 20%, transparent)}}.status{vertical-align:middle;color:#0000004d;background-position:50%;background-repeat:no-repeat}@supports (color:color-mix(in lab, red, red)){.status{color:color-mix(in oklab, var(--color-black) 30%, transparent)}}.status{background-image:radial-gradient(circle at 35% 30%, oklch(1 0 0 / calc(var(--depth) * .5)), #0000);box-shadow:0 2px 3px -1px}@supports (color:color-mix(in lab, red, red)){.status{box-shadow:0 2px 3px -1px color-mix(in oklab, currentColor calc(var(--depth) * 100%), #0000)}}.badge{border-radius:var(--radius-selector);vertical-align:middle;color:var(--badge-fg);border:var(--border) solid var(--badge-color,var(--color-base-200));background-size:auto, calc(var(--noise) * 100%);background-image:none, var(--fx-noise);background-color:var(--badge-bg);--badge-bg:var(--badge-color,var(--color-base-100));--badge-fg:var(--color-base-content);--size:calc(var(--size-selector,.25rem) * 6);width:fit-content;height:var(--size);padding-inline:calc(var(--size) / 2 - var(--border));justify-content:center;align-items:center;gap:.5rem;font-size:.875rem;display:inline-flex}.footer{grid-auto-flow:row;place-items:start;gap:2.5rem 1rem;width:100%;font-size:.875rem;line-height:1.25rem;display:grid}.footer>:not(script,style,template){place-items:start;gap:.5rem;display:grid}.footer.footer-center{text-align:center;grid-auto-flow:column dense;place-items:center}.footer.footer-center>:not(script,style,template){place-items:center}.alert{--alert-border-color:var(--color-base-200);border-radius:var(--radius-box);color:var(--color-base-content);background-color:var(--alert-color,var(--color-base-200));text-align:start;background-size:auto, calc(var(--noise) * 33%);background-image:none, var(--fx-noise);box-shadow:0 3px 0 -2px oklch(100% 0 0 / calc(var(--depth) * .08)) inset, 0 1px #000, 0 4px 3px -2px oklch(0% 0 0 / calc(var(--depth) * .08));border-style:solid;grid-template-columns:auto;grid-auto-flow:column;justify-content:start;place-items:center start;gap:1rem;padding-block:.75rem;padding-inline:1rem;font-size:.875rem;line-height:1.25rem;display:grid}@supports (color:color-mix(in lab, red, red)){.alert{box-shadow:0 3px 0 -2px oklch(100% 0 0 / calc(var(--depth) * .08)) inset, 0 1px color-mix(in oklab, color-mix(in oklab, #000 20%, var(--alert-color,var(--color-base-200))) calc(var(--depth) * 20%), #0000), 0 4px 3px -2px oklch(0% 0 0 / calc(var(--depth) * .08))}}.alert:has(:nth-child(2)){grid-template-columns:auto minmax(auto,1fr)}.chat{--mask-chat:url("data:image/svg+xml,%3csvg width='13' height='13' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill='black' d='M0 11.5004C0 13.0004 2 13.0004 2 13.0004H12H13V0.00036329L12.5 0C12.5 0 11.977 2.09572 11.8581 2.50033C11.6075 3.35237 10.9149 4.22374 9 5.50036C6 7.50036 0 10.0004 0 11.5004Z'/%3e%3c/svg%3e");grid-auto-rows:min-content;column-gap:.75rem;padding-block:.25rem;display:grid}.mask{vertical-align:middle;display:inline-block;-webkit-mask-position:50%;mask-position:50%;-webkit-mask-size:contain;mask-size:contain;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat}.link{cursor:pointer;text-decoration-line:underline}.link:focus{--tw-outline-style:none;outline-style:none}@media (forced-colors:active){.link:focus{outline-offset:2px;outline:2px solid #0000}}.link:focus-visible{outline-offset:2px;outline:2px solid}.btn-dash{--btn-bg:#0000;color:var(--btn-rest-fg,var(--btn-color,var(--color-base-content)));--btn-border:var(--btn-color,var(--color-base-content));--btn-border-style:dashed;--btn-inset:0 0 0 0 oklch(0% 0 0/0);--btn-shadow:0 0 0 0 oklch(0% 0 0/0);background-image:none}.btn-outline{--btn-bg:#0000;color:var(--btn-rest-fg,var(--btn-color,var(--color-base-content)));--btn-border:var(--btn-color,var(--color-base-content));--btn-border-style:solid;--btn-inset:0 0 0 0 oklch(0% 0 0/0);--btn-shadow:0 0 0 0 oklch(0% 0 0/0);background-image:none}.btn-soft{--btn-bg:var(--btn-color,var(--color-base-content))}@supports (color:color-mix(in lab, red, red)){.btn-soft{--btn-bg:color-mix(in oklab, var(--btn-color,var(--color-base-content)) 8%, var(--btn-soft-bg,var(--color-base-100)))}}.btn-soft{color:var(--btn-rest-fg,var(--btn-color,var(--color-base-content)));--btn-border:var(--btn-color,var(--color-base-content))}@supports (color:color-mix(in lab, red, red)){.btn-soft{--btn-border:color-mix(in oklab, var(--btn-color,var(--color-base-content)) 10%, var(--btn-soft-bg,var(--color-base-100)))}}.btn-soft{--btn-border-style:solid;--btn-inset:0 0 0 0 oklch(0% 0 0/0);--btn-shadow:0 0 0 0 oklch(0% 0 0/0);background-image:none}.btn-ghost{--btn-bg:#0000;color:var(--btn-rest-fg,var(--btn-color,var(--color-base-content,currentColor)));--btn-border:#0000;--btn-inset:0 0 0 0 oklch(0% 0 0/0);--btn-shadow:0 0 0 0 oklch(0% 0 0/0);background-image:none}}@layer daisyui.l1.l2{:root:has(:is(.modal.modal-open,.modal[open],.modal:target,.modal-toggle:checked+.modal)){--page-has-backdrop:1;--page-overflow:hidden;--page-scroll-bg:var(--page-scroll-bg-on);--page-scroll-gutter:stable;--page-scroll-transition:var(--page-scroll-transition-on);animation:forwards set-page-has-scroll;animation-timeline:scroll()}@starting-style{.modal.modal-open,.modal[open],.modal:target,.modal-toggle:checked+.modal{opacity:0}}.collapse-arrow>.collapse-title:after{width:.5rem;height:.5rem;display:block;position:absolute;transform:translateY(-100%)rotate(45deg)}@media (prefers-reduced-motion:no-preference){.collapse-arrow>.collapse-title:after{transition-property:all;transition-duration:.2s;transition-timing-function:cubic-bezier(.4,0,.2,1)}}.collapse-arrow>.collapse-title:after{content:"";transform-origin:75% 75%;pointer-events:none;top:50%;inset-inline-end:1.4rem;box-shadow:2px 2px}.btn:disabled:not(.btn-link,.btn-ghost){background-color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.btn:disabled:not(.btn-link,.btn-ghost){background-color:color-mix(in oklab, var(--color-base-content) 10%, transparent)}}.btn:disabled:not(.btn-link,.btn-ghost){box-shadow:none}.btn:disabled{pointer-events:none;--btn-border:#0000;--btn-noise:none;--btn-fg:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.btn:disabled{--btn-fg:color-mix(in oklch, var(--color-base-content) 20%, #0000)}}.btn[disabled]:not(.btn-link,.btn-ghost){background-color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.btn[disabled]:not(.btn-link,.btn-ghost){background-color:color-mix(in oklab, var(--color-base-content) 10%, transparent)}}.btn[disabled]:not(.btn-link,.btn-ghost){box-shadow:none}.btn[disabled]{pointer-events:none;--btn-border:#0000;--btn-noise:none;--btn-fg:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.btn[disabled]{--btn-fg:color-mix(in oklch, var(--color-base-content) 20%, #0000)}}@media (prefers-reduced-motion:no-preference){.collapse[open].collapse-arrow>.collapse-title:after,.collapse.collapse-open.collapse-arrow>.collapse-title:after{transform:translateY(-50%)rotate(225deg)}}.collapse.collapse-open.collapse-plus>.collapse-title:after{--tw-content:"−";content:var(--tw-content)}:is(.collapse[tabindex].collapse-arrow:focus:not(.collapse-close),.collapse.collapse-arrow[tabindex]:focus-within:not(.collapse-close))>.collapse-title:after,.collapse.collapse-arrow:not(.collapse-close)>input:is([type=checkbox],[type=radio]):checked~.collapse-title:after{transform:translateY(-50%)rotate(225deg)}.collapse[open].collapse-plus>.collapse-title:after,.collapse[tabindex].collapse-plus:focus:not(.collapse-close)>.collapse-title:after,.collapse.collapse-plus:not(.collapse-close)>input:is([type=checkbox],[type=radio]):checked~.collapse-title:after{--tw-content:"−";content:var(--tw-content)}.checkbox:disabled,.radio:disabled{cursor:not-allowed;opacity:.2}.radio-sm{padding:.1875rem}.radio-sm[type=radio]{--size:calc(var(--size-selector,.25rem) * 5)}.badge-primary{--badge-color:var(--color-primary);--badge-fg:var(--color-primary-content)}.diff{webkit-user-select:none;-webkit-user-select:none;user-select:none;direction:ltr;grid-template-rows:1fr 1.8rem 1fr;grid-template-columns:auto 1fr;align-items:normal;width:100%;display:grid;position:relative;overflow:hidden;container-type:inline-size}.diff:focus-visible,.diff:focus-visible{outline-style:var(--tw-outline-style);outline-offset:1px;outline-width:2px;outline-color:var(--color-base-content)}.diff:has(.diff-item-1:focus-visible){outline-style:var(--tw-outline-style);outline-offset:1px;outline-width:2px;outline-color:var(--color-base-content)}.diff:focus-visible .diff-resizer{min-width:95cqi;max-width:95cqi}.diff:has(.diff-item-1:focus-visible){outline-style:var(--tw-outline-style);outline-offset:1px;outline-width:2px}.diff:has(.diff-item-1:focus-visible) .diff-resizer{min-width:5cqi;max-width:5cqi}.diff:hover .diff-item-2:after{height:2.4rem}@supports (-webkit-overflow-scrolling:touch) and (overflow:-webkit-paged-x){.diff:focus .diff-resizer{min-width:5cqi;max-width:5cqi}.diff:has(.diff-item-1:focus) .diff-resizer{min-width:95cqi;max-width:95cqi}}.modal.modal-open,.modal[open],.modal:target,.modal-toggle:checked+.modal{pointer-events:auto;visibility:visible;opacity:1;transition:visibility 0s allow-discrete, background-color .3s ease-out, opacity .1s ease-out;background-color:oklch(0% 0 0/.4)}.modal:popover-open{pointer-events:auto;visibility:visible;opacity:1;transition:visibility 0s allow-discrete, background-color .3s ease-out, opacity .1s ease-out;background-color:oklch(0% 0 0/.4)}.modal:popover-open .modal-box{opacity:1;translate:0;scale:1}:root:has(.modal:popover-open){--page-scroll-lock: }:is(.modal.modal-open,.modal[open],.modal:target,.modal-toggle:checked+.modal) .modal-box{opacity:1;translate:0;scale:1}:root:has(:is(.modal.modal-open,.modal[open],.modal:target,.modal-toggle:checked+.modal)){--page-scroll-lock: }@starting-style{.modal.modal-open,.modal[open],.modal:target,.modal-toggle:checked+.modal{opacity:0}.modal:popover-open{opacity:0}}.tooltip>.tooltip-content,.tooltip[data-tip]:before{transform:translateX(var(--tt-trans,-50%)) translateY(var(--tt-pos,.25rem));inset:auto auto var(--tt-off) 50%}.tooltip:after{transform:translateX(var(--tt-trans,-50%)) translateY(var(--tt-pos,.25rem));inset:auto auto var(--tt-tail) 50%}.btn:where(:checked:not(.filter [type=radio].btn)){--btn-color:var(--color-primary);--btn-fg:var(--color-primary-content);isolation:isolate}@media (hover:hover){.btn:hover{--btn-bg:var(--btn-hover-bg,var(--btn-color,var(--color-base-200)))}@supports (color:color-mix(in lab, red, red)){.btn:hover{--btn-bg:var(--btn-hover-bg,color-mix(in oklab, var(--btn-color,var(--color-base-200)), #000 7%))}}.btn:hover{color:var(--btn-fg);--btn-border:var(--btn-hover-border,var(--btn-bg))}@supports (color:color-mix(in lab, red, red)){.btn:hover{--btn-border:var(--btn-hover-border,color-mix(in oklab, var(--btn-bg), #000 calc(var(--depth) * 5%)))}}.btn:hover{--btn-border-style:solid;--btn-inset:var(--btn-hover-inset,0 .5px 0 .5px oklch(100% 0 0 / calc(var(--depth) * 6%)));--btn-shadow:var(--btn-hover-shadow,0 3px 2px -2px var(--btn-bg), 0 4px 3px -2px var(--btn-bg))}@supports (color:color-mix(in lab, red, red)){.btn:hover{--btn-shadow:var(--btn-hover-shadow,0 3px 2px -2px color-mix(in oklab, var(--btn-bg) calc(var(--depth) * 30%), #0000), 0 4px 3px -2px color-mix(in oklab, var(--btn-bg) calc(var(--depth) * 30%), #0000))}}}.btn:active:not(.btn-active){translate:0 var(--btn-active-translate,.5px);--btn-bg:var(--btn-active-bg,var(--btn-color,var(--color-base-200)))}@supports (color:color-mix(in lab, red, red)){.btn:active:not(.btn-active){--btn-bg:var(--btn-active-bg,color-mix(in oklab, var(--btn-color,var(--color-base-200)), #000 5%))}}.btn:active:not(.btn-active){color:var(--btn-fg,var(--color-base-content));--btn-border:var(--btn-active-border,var(--btn-color,var(--color-base-200)))}@supports (color:color-mix(in lab, red, red)){.btn:active:not(.btn-active){--btn-border:var(--btn-active-border,color-mix(in oklab, var(--btn-color,var(--color-base-200)), #000 7%))}}.btn:active:not(.btn-active){--btn-border-style:solid;--btn-shadow:var(--btn-active-shadow,0 0 0 0 oklch(0% 0 0/0))}.btn:where(:checked:not(.filter [type=radio].btn),:not([type=radio],[type=checkbox]):focus-visible){--btn-bg:var(--btn-color,var(--color-base-200));color:var(--btn-fg,var(--color-base-content));--btn-border:var(--btn-bg)}@supports (color:color-mix(in lab, red, red)){.btn:where(:checked:not(.filter [type=radio].btn),:not([type=radio],[type=checkbox]):focus-visible){--btn-border:color-mix(in oklab, var(--btn-bg), #000 calc(var(--depth) * 5%))}}.btn:where(:checked:not(.filter [type=radio].btn),:not([type=radio],[type=checkbox]):focus-visible){--btn-border-style:solid;--btn-inset:0 .5px 0 .5px oklch(100% 0 0 / calc(var(--depth) * 6%));--btn-shadow:0 3px 2px -2px var(--btn-bg), 0 4px 3px -2px var(--btn-bg)}@supports (color:color-mix(in lab, red, red)){.btn:where(:checked:not(.filter [type=radio].btn),:not([type=radio],[type=checkbox]):focus-visible){--btn-shadow:0 3px 2px -2px color-mix(in oklab, var(--btn-bg) calc(var(--depth) * 30%), #0000), 0 4px 3px -2px color-mix(in oklab, var(--btn-bg) calc(var(--depth) * 30%), #0000)}}.btn:where(:checked:not(.filter [type=radio].btn),:not([type=radio],[type=checkbox]):focus-visible){isolation:isolate}.btn:focus-visible{isolation:isolate;outline-width:2px;outline-style:solid}.btn:has(:focus-visible){isolation:isolate;outline-width:2px;outline-style:solid}.list .list-row:has(.list-col-grow:first-child){--list-grid-cols:1fr}.list .list-row:has(.list-col-grow:nth-child(2)){--list-grid-cols:minmax(0, auto) 1fr}.list .list-row:has(.list-col-grow:nth-child(3)){--list-grid-cols:minmax(0, auto) minmax(0, auto) 1fr}.list .list-row:has(.list-col-grow:nth-child(4)){--list-grid-cols:minmax(0, auto) minmax(0, auto) minmax(0, auto) 1fr}.list .list-row:has(.list-col-grow:nth-child(5)){--list-grid-cols:minmax(0, auto) minmax(0, auto) minmax(0, auto) minmax(0, auto) 1fr}.list .list-row:has(.list-col-grow:nth-child(6)){--list-grid-cols:minmax(0, auto) minmax(0, auto) minmax(0, auto) minmax(0, auto) minmax(0, auto) 1fr}.list .list-row>*{grid-row-start:1}.input{--in-size-mul:10;--font-size-min:.875rem;--spin-my:-3}.floating-label:has(.input){--top-mul:5;--font-size:.875rem}.steps .step-neutral+.step-neutral:before,.steps .step-neutral:after,.steps .step-neutral>.step-icon{--step-bg:var(--color-neutral);--step-fg:var(--color-neutral-content)}.steps .step-primary+.step-primary:before,.steps .step-primary:after,.steps .step-primary>.step-icon{--step-bg:var(--color-primary);--step-fg:var(--color-primary-content)}.steps .step-secondary+.step-secondary:before,.steps .step-secondary:after,.steps .step-secondary>.step-icon{--step-bg:var(--color-secondary);--step-fg:var(--color-secondary-content)}.steps .step-accent+.step-accent:before,.steps .step-accent:after,.steps .step-accent>.step-icon{--step-bg:var(--color-accent);--step-fg:var(--color-accent-content)}.steps .step-info+.step-info:before,.steps .step-info:after,.steps .step-info>.step-icon{--step-bg:var(--color-info);--step-fg:var(--color-info-content)}.steps .step-success+.step-success:before,.steps .step-success:after,.steps .step-success>.step-icon{--step-bg:var(--color-success);--step-fg:var(--color-success-content)}.steps .step-warning+.step-warning:before,.steps .step-warning:after,.steps .step-warning>.step-icon{--step-bg:var(--color-warning);--step-fg:var(--color-warning-content)}.steps .step-error+.step-error:before,.steps .step-error:after,.steps .step-error>.step-icon{--step-bg:var(--color-error);--step-fg:var(--color-error-content)}.select{--sl-size-mul:10;--font-size-min:.875rem;--option-px:3}.floating-label:has(.select){--top-mul:5;--font-size:.875rem}.swap{cursor:pointer;vertical-align:middle;webkit-user-select:none;-webkit-user-select:none;user-select:none;place-content:center;display:inline-grid;position:relative}.swap input{appearance:none;border:none}.swap>*{grid-row-start:1;grid-column-start:1}@media (prefers-reduced-motion:no-preference){.swap>*{transition-property:transform,rotate,opacity;transition-duration:.2s;transition-timing-function:cubic-bezier(0,0,.2,1)}}.swap .swap-on,.swap .swap-indeterminate,.swap input:indeterminate~.swap-on,.swap input:is(:checked,:indeterminate)~.swap-off{opacity:0}.swap input:checked~.swap-on,.swap input:indeterminate~.swap-indeterminate{opacity:1;backface-visibility:visible}.radio:disabled{cursor:not-allowed;opacity:.2}.btn-active{--btn-bg:var(--btn-color,var(--color-base-200))}@supports (color:color-mix(in lab, red, red)){.btn-active{--btn-bg:color-mix(in oklab, var(--btn-color,var(--color-base-200)), #000 7%)}}.btn-active{--btn-shadow:0 0 0 0 oklch(0% 0 0/0), 0 0 0 0 oklch(0% 0 0/0);--btn-hover-bg:var(--btn-color,var(--color-base-200))}@supports (color:color-mix(in lab, red, red)){.btn-active{--btn-hover-bg:color-mix(in oklab, var(--btn-color,var(--color-base-200)), #000 7%)}}.btn-active{--btn-hover-border:var(--btn-color,var(--color-base-200))}@supports (color:color-mix(in lab, red, red)){.btn-active{--btn-hover-border:color-mix(in oklab, var(--btn-color,var(--color-base-200)), #000 calc(var(--depth) * 5%))}}.btn-active{--btn-hover-inset:0 .5px 0 .5px oklch(100% 0 0 / calc(var(--depth) * 6%));--btn-hover-shadow:0 0 0 0 oklch(0% 0 0/0), 0 0 0 0 oklch(0% 0 0/0);--btn-active-translate:0;--btn-active-bg:var(--btn-color,var(--color-base-200))}@supports (color:color-mix(in lab, red, red)){.btn-active{--btn-active-bg:color-mix(in oklab, var(--btn-color,var(--color-base-200)), #000 7%)}}.btn-active{--btn-active-border:var(--btn-color,var(--color-base-200))}@supports (color:color-mix(in lab, red, red)){.btn-active{--btn-active-border:color-mix(in oklab, var(--btn-color,var(--color-base-200)), #000 calc(var(--depth) * 5%))}}.btn-active{--btn-active-inset:0 .5px 0 .5px oklch(100% 0 0 / calc(var(--depth) * 6%));--btn-active-shadow:0 0 0 0 oklch(0% 0 0/0), 0 0 0 0 oklch(0% 0 0/0);isolation:isolate}:is(.stack,.stack.stack-bottom)>*{grid-area:3/3/6/4}:is(.stack,.stack.stack-bottom)>:nth-child(2){grid-area:2/2/5/5}:is(.stack,.stack.stack-bottom)>:first-child{grid-area:1/1/4/6}.stack.stack-top>*{grid-area:1/3/4/4}.stack.stack-top>:nth-child(2){grid-area:2/2/5/5}.stack.stack-top>:first-child{grid-area:3/1/6/6}.stack.stack-start>*{grid-area:3/1/4/4}.stack.stack-start>:nth-child(2){grid-area:2/2/5/5}.stack.stack-start>:first-child{grid-area:1/3/6/6}.stack.stack-end>*{grid-area:3/3/4/6}.stack.stack-end>:nth-child(2){grid-area:2/2/5/5}.stack.stack-end>:first-child{grid-area:1/1/6/4}.btn-circle{width:var(--size);height:var(--size);border-radius:3.40282e38px;padding-inline:0}.btn-square{width:var(--size);height:var(--size);padding-inline:0}.btn-wide{width:100%;max-width:16rem}.btn-block{width:100%}.loading-lg{width:calc(var(--size-selector,.25rem) * 7)}.badge-ghost{border-color:var(--color-base-200);background-color:var(--color-base-200);color:var(--color-base-content);background-image:none}.badge-soft{color:var(--badge-color,var(--color-base-content));background-color:var(--badge-color,var(--color-base-content))}@supports (color:color-mix(in lab, red, red)){.badge-soft{background-color:color-mix(in oklab, var(--badge-color,var(--color-base-content)) 8%, var(--color-base-100))}}.badge-soft{border-color:var(--badge-color,var(--color-base-content))}@supports (color:color-mix(in lab, red, red)){.badge-soft{border-color:color-mix(in oklab, var(--badge-color,var(--color-base-content)) 10%, var(--color-base-100))}}.badge-soft{background-image:none}.input-ghost{box-shadow:none;background-color:#0000;border-color:#0000}.input-ghost:focus,.input-ghost:focus-within{background-color:var(--color-base-100);color:var(--color-base-content);box-shadow:none;border-color:#0000}.loading-spinner{-webkit-mask-image:url("data:image/svg+xml,%3Csvg width='24' height='24' stroke='black' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg transform-origin='center'%3E%3Ccircle cx='12' cy='12' r='9.5' fill='none' stroke-width='3' stroke-linecap='round'%3E%3CanimateTransform attributeName='transform' type='rotate' from='0 12 12' to='360 12 12' dur='8s' repeatCount='indefinite'/%3E%3Canimate attributeName='stroke-dasharray' values='0,150;42,150;42,150' keyTimes='0;0.475;1' dur='6s' repeatCount='indefinite'/%3E%3Canimate attributeName='stroke-dashoffset' values='0;-16;-59' keyTimes='0;0.475;1' dur='6s' repeatCount='indefinite'/%3E%3C/circle%3E%3C/g%3E%3C/svg%3E");mask-image:url("data:image/svg+xml,%3Csvg width='24' height='24' stroke='black' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg transform-origin='center'%3E%3Ccircle cx='12' cy='12' r='9.5' fill='none' stroke-width='3' stroke-linecap='round'%3E%3CanimateTransform attributeName='transform' type='rotate' from='0 12 12' to='360 12 12' dur='8s' repeatCount='indefinite'/%3E%3Canimate attributeName='stroke-dasharray' values='0,150;42,150;42,150' keyTimes='0;0.475;1' dur='6s' repeatCount='indefinite'/%3E%3Canimate attributeName='stroke-dashoffset' values='0;-16;-59' keyTimes='0;0.475;1' dur='6s' repeatCount='indefinite'/%3E%3C/circle%3E%3C/g%3E%3C/svg%3E")}@media (prefers-reduced-motion:no-preference){.loading-spinner{-webkit-mask-image:url("data:image/svg+xml,%3Csvg width='24' height='24' stroke='black' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg transform-origin='center'%3E%3Ccircle cx='12' cy='12' r='9.5' fill='none' stroke-width='3' stroke-linecap='round'%3E%3CanimateTransform attributeName='transform' type='rotate' from='0 12 12' to='360 12 12' dur='2s' repeatCount='indefinite'/%3E%3Canimate attributeName='stroke-dasharray' values='0,150;42,150;42,150' keyTimes='0;0.475;1' dur='1.5s' repeatCount='indefinite'/%3E%3Canimate attributeName='stroke-dashoffset' values='0;-16;-59' keyTimes='0;0.475;1' dur='1.5s' repeatCount='indefinite'/%3E%3C/circle%3E%3C/g%3E%3C/svg%3E");mask-image:url("data:image/svg+xml,%3Csvg width='24' height='24' stroke='black' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg transform-origin='center'%3E%3Ccircle cx='12' cy='12' r='9.5' fill='none' stroke-width='3' stroke-linecap='round'%3E%3CanimateTransform attributeName='transform' type='rotate' from='0 12 12' to='360 12 12' dur='2s' repeatCount='indefinite'/%3E%3Canimate attributeName='stroke-dasharray' values='0,150;42,150;42,150' keyTimes='0;0.475;1' dur='1.5s' repeatCount='indefinite'/%3E%3Canimate attributeName='stroke-dashoffset' values='0;-16;-59' keyTimes='0;0.475;1' dur='1.5s' repeatCount='indefinite'/%3E%3C/circle%3E%3C/g%3E%3C/svg%3E")}}.badge-sm{--size:calc(var(--size-selector,.25rem) * 5);font-size:.75rem}.badge-xs{--size:calc(var(--size-selector,.25rem) * 4);font-size:.625rem}.alert-error{color:var(--color-error-content);--alert-border-color:var(--color-error);--alert-color:var(--color-error)}.alert-success{color:var(--color-success-content);--alert-border-color:var(--color-success);--alert-color:var(--color-success)}.alert-warning{color:var(--color-warning-content);--alert-border-color:var(--color-warning);--alert-color:var(--color-warning)}.progress-primary{color:var(--color-primary)}.input-lg{--in-size-mul:12;--font-size-min:1.125rem;--spin-my:-3}.floating-label:has(.input-lg){--top-mul:6;--font-size:1.125rem}.input-md{--in-size-mul:10;--font-size-min:.875rem;--spin-my:-3}.floating-label:has(.input-md){--top-mul:5;--font-size:.875rem}.input-sm{--in-size-mul:8;--font-size-min:.75rem;--spin-my:-2}.floating-label:has(.input-sm){--top-mul:4;--font-size:.75rem}.input-xl{--in-size-mul:14;--font-size-min:1.375rem;--spin-my:-4}.floating-label:has(.input-xl){--top-mul:7;--font-size:1.375rem}.input-xs{--in-size-mul:6;--font-size-min:.6875rem;--spin-my:-1}.floating-label:has(.input-xs){--top-mul:3;--font-size:.6875rem}.btn-neutral{--btn-color:var(--color-neutral);--btn-fg:var(--color-neutral-content);--btn-soft-bg:var(--color-neutral-content) 80%;--btn-rest-fg:initial}.btn-accent{--btn-color:var(--color-accent);--btn-fg:var(--color-accent-content);--btn-soft-bg:initial}.btn-error{--btn-color:var(--color-error);--btn-fg:var(--color-error-content);--btn-soft-bg:initial}.btn-info{--btn-color:var(--color-info);--btn-fg:var(--color-info-content);--btn-soft-bg:initial}.btn-lg{--fontsize:1.125rem;--btn-p:1.25rem;--size:calc(var(--size-field,.25rem) * 12)}.btn-md{--fontsize:.875rem;--btn-p:1rem;--size:calc(var(--size-field,.25rem) * 10)}.btn-primary{--btn-color:var(--color-primary);--btn-fg:var(--color-primary-content);--btn-soft-bg:initial}.btn-secondary{--btn-color:var(--color-secondary);--btn-fg:var(--color-secondary-content);--btn-soft-bg:initial}.btn-sm{--fontsize:.75rem;--btn-p:.75rem;--size:calc(var(--size-field,.25rem) * 8)}.btn-success{--btn-color:var(--color-success);--btn-fg:var(--color-success-content);--btn-soft-bg:initial}.btn-warning{--btn-color:var(--color-warning);--btn-fg:var(--color-warning-content);--btn-soft-bg:initial}.btn-xl{--fontsize:1.375rem;--btn-p:1.5rem;--size:calc(var(--size-field,.25rem) * 14)}.btn-xs{--fontsize:.6875rem;--btn-p:.5rem;--size:calc(var(--size-field,.25rem) * 6)}.badge-error{--badge-color:var(--color-error);--badge-fg:var(--color-error-content)}.badge-info{--badge-color:var(--color-info);--badge-fg:var(--color-info-content)}.badge-neutral{--badge-color:var(--color-neutral);--badge-fg:var(--color-neutral-content)}.badge-success{--badge-color:var(--color-success);--badge-fg:var(--color-success-content)}.badge-warning{--badge-color:var(--color-warning);--badge-fg:var(--color-warning-content)}.input-accent,.input-accent:focus,.input-accent:focus-within{--input-color:var(--color-accent)}.input-error,.input-error:focus,.input-error:focus-within{--input-color:var(--color-error)}.input-info,.input-info:focus,.input-info:focus-within{--input-color:var(--color-info)}.input-neutral,.input-neutral:focus,.input-neutral:focus-within{--input-color:var(--color-neutral)}.input-primary,.input-primary:focus,.input-primary:focus-within{--input-color:var(--color-primary)}.input-secondary,.input-secondary:focus,.input-secondary:focus-within{--input-color:var(--color-secondary)}.input-success,.input-success:focus,.input-success:focus-within{--input-color:var(--color-success)}.input-warning,.input-warning:focus,.input-warning:focus-within{--input-color:var(--color-warning)}}.\\!pointer-events-none{pointer-events:none!important}.collapse:not(td,tr,colgroup){visibility:revert-layer}.collapse{visibility:collapse}.-top-3{top:calc(var(--spacing) * -3)}.top-0{top:calc(var(--spacing) * 0)}.top-2{top:calc(var(--spacing) * 2)}.top-\\[-0\\.45rem\\]{top:-.45rem}.-right-3{right:calc(var(--spacing) * -3)}.right-2{right:calc(var(--spacing) * 2)}.right-\\[75\\%\\]{right:75%}.left-\\[10\\%\\]{left:10%}.left-\\[60\\%\\]{left:60%}.left-\\[70\\%\\]{left:70%}.-z-1{z-index:calc(1 * -1)}.z-2{z-index:2}.z-10{z-index:10}.col-span-1{grid-column:span 1/span 1}.col-span-2{grid-column:span 2/span 2}.col-span-full{grid-column:1/-1}.col-start-1{grid-column-start:1}.col-start-2{grid-column-start:2}.col-start-3{grid-column-start:3}.col-start-4{grid-column-start:4}.col-start-5{grid-column-start:5}.row-span-full{grid-row:1/-1}.row-start-1{grid-row-start:1}.row-start-2{grid-row-start:2}.row-start-3{grid-row-start:3}.row-start-4{grid-row-start:4}@media (width>=40rem){.container{max-width:40rem}}@media (width>=48rem){.container{max-width:48rem}}@media (width>=64rem){.container{max-width:64rem}}@media (width>=80rem){.container{max-width:80rem}}@media (width>=96rem){.container{max-width:96rem}}.mt-2{margin-top:calc(var(--spacing) * 2)}.mt-4{margin-top:calc(var(--spacing) * 4)}.-mr-2\\.25{margin-right:calc(var(--spacing) * -2.25)}.-mr-\\[8\\.5px\\]{margin-right:-8.5px}.-mr-\\[9px\\]{margin-right:-9px}.mr-2{margin-right:calc(var(--spacing) * 2)}.mr-2\\.25{margin-right:calc(var(--spacing) * 2.25)}.mr-3{margin-right:calc(var(--spacing) * 3)}.mr-\\[9px\\]{margin-right:9px}.mb-2{margin-bottom:calc(var(--spacing) * 2)}.mb-6{margin-bottom:calc(var(--spacing) * 6)}.mb-8{margin-bottom:calc(var(--spacing) * 8)}.-ml-2\\.25{margin-left:calc(var(--spacing) * -2.25)}.-ml-\\[9px\\]{margin-left:-9px}.-ml-\\[12px\\]{margin-left:-12px}.ml-3{margin-left:calc(var(--spacing) * 3)}.table{display:table}.h-12{height:calc(var(--spacing) * 12)}.h-18{height:calc(var(--spacing) * 18)}.h-\\[2px\\]{height:2px}.h-\\[12px\\]{height:12px}.h-\\[20px\\]{height:20px}.h-\\[50px\\]{height:50px}.max-h-\\[85vh\\]{max-height:85vh}.min-h-\\[450px\\]{min-height:450px}.w-1\\/2{width:50%}.w-2\\/3{width:66.6667%}.w-3\\/4{width:75%}.w-4\\/5{width:80%}.w-5\\/8{width:62.5%}.w-\\[20px\\]{width:20px}.w-\\[50px\\]{width:50px}.w-\\[fit-content\\]{width:fit-content}.w-lg{width:var(--container-lg)}.max-w-\\[9ch\\]{max-width:9ch}.max-w-full{max-width:100%}.max-w-none{max-width:none}.flex-shrink{flex-shrink:1}.list-disc{list-style-type:disc}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.grid-cols-\\[1fr_20px_0\\.5fr_20px_1fr\\]{grid-template-columns:1fr 20px .5fr 20px 1fr}.grid-cols-\\[1fr_20px_1fr_20px_1fr\\]{grid-template-columns:1fr 20px 1fr 20px 1fr}.grid-cols-\\[1fr_auto_1fr\\]{grid-template-columns:1fr auto 1fr}.grid-cols-\\[max-content_auto\\]{grid-template-columns:max-content auto}.grid-rows-\\[50px\\]{grid-template-rows:50px}.grid-rows-\\[50px_50px_1fr_80px\\]{grid-template-rows:50px 50px 1fr 80px}.grid-rows-\\[50px_50px_80px\\]{grid-template-rows:50px 50px 80px}.gap-x-2{column-gap:calc(var(--spacing) * 2)}.gap-x-6{column-gap:calc(var(--spacing) * 6)}.self-center{align-self:center}.self-end{align-self:flex-end}.self-start{align-self:flex-start}.justify-self-center{justify-self:center}.justify-self-end{justify-self:flex-end}.justify-self-start{justify-self:flex-start}.rounded-box{border-radius:var(--radius-box);border-radius:var(--radius-box)}.rounded-sm{border-radius:var(--radius-sm)}.rounded-xl{border-radius:var(--radius-xl)}.border,.border-1{border-style:var(--tw-border-style);border-width:1px}.border-l{border-left-style:var(--tw-border-style);border-left-width:1px}.border-dashed{--tw-border-style:dashed;border-style:dashed}.border-none{--tw-border-style:none;border-style:none}.border-solid{--tw-border-style:solid;border-style:solid}.border-\\(--color-info\\){border-color:var(--color-info)}.border-\\(--color-ocean-gray-100\\){border-color:var(--color-ocean-gray-100)}.border-\\(--color-success\\){border-color:var(--color-success)}.border-\\(--color-warning\\){border-color:var(--color-warning)}.border-\\[var\\(--color-gray-200\\)\\]{border-color:var(--color-gray-200)}.border-\\[var\\(--color-primary\\)\\]{border-color:var(--color-primary)}.bg-\\(--color-ocean-gray-25\\){background-color:var(--color-ocean-gray-25)}.bg-\\(--color-ocean-gray-50\\){background-color:var(--color-ocean-gray-50)}.bg-\\(--color-ocean-gray-100\\){background-color:var(--color-ocean-gray-100)}.bg-\\(--color-primary\\){background-color:var(--color-primary)}@layer daisyui.l1{.alert-soft{color:var(--alert-color,var(--color-base-content));background:var(--alert-color,var(--color-base-content))}@supports (color:color-mix(in lab, red, red)){.alert-soft{background:color-mix(in oklab, var(--alert-color,var(--color-base-content)) 8%, var(--color-base-100))}}.alert-soft{--alert-border-color:var(--alert-color,var(--color-base-content))}@supports (color:color-mix(in lab, red, red)){.alert-soft{--alert-border-color:color-mix(in oklab, var(--alert-color,var(--color-base-content)) 10%, var(--color-base-100))}}.alert-soft{box-shadow:none;background-image:none}.btn-ghost:not(.btn-active,:hover,:active:focus,:focus-visible,input:checked:not(.filter .btn)){--btn-shadow:"";--btn-bg:#0000;--btn-border:#0000;--btn-noise:none}.btn-ghost:not(.btn-active,:hover,:active:focus,:focus-visible,input:checked:not(.filter .btn)):not(:disabled,[disabled],.btn-disabled){--btn-fg:var(--btn-color,currentColor);outline-color:currentColor}@media (hover:none){.btn-ghost:not(.btn-active,:active,:focus-visible,input:checked:not(.filter .btn)):hover{--btn-shadow:"";--btn-bg:#0000;--btn-fg:var(--btn-color,currentColor);--btn-border:#0000;--btn-noise:none;outline-color:currentColor}}.filter:not(:has(:checked:not(.filter-reset))) :is(.filter-reset,[type=reset]):not(:focus-visible){visibility:hidden}.filter:not(:has(:checked:not(.filter-reset))) :is(.filter-reset,[type=reset]):not(:focus-visible){opacity:0;border-width:0;width:0;margin-inline:0;padding-inline:0;scale:0}.filter:not(:has(:focus-visible)):has(:checked:not(.filter-reset,[type=checkbox])) :is(input,button):not(:checked,.filter-reset,[type=reset]){opacity:0;border-width:0;width:0;margin-inline:0;padding-inline:0;scale:0}.btn-link{--btn-bg:#0000;color:var(--btn-color,var(--color-primary));--btn-border:#0000;--btn-inset:0 0 0 0 oklch(0% 0 0/0);--btn-shadow:0 0 0 0 oklch(0% 0 0/0);background-image:none;text-decoration-line:underline}}.p-0{padding:calc(var(--spacing) * 0)}.p-\\[3px\\]{padding:3px}.px-5{padding-inline:calc(var(--spacing) * 5)}.ps-5{padding-inline-start:calc(var(--spacing) * 5)}.pt-1{padding-top:calc(var(--spacing) * 1)}.pl-4{padding-left:calc(var(--spacing) * 4)}.pl-5{padding-left:calc(var(--spacing) * 5)}.text-lg{font-size:var(--text-lg);line-height:var(--tw-leading,var(--text-lg--line-height))}.font-bold{--tw-font-weight:var(--font-weight-bold);font-weight:var(--font-weight-bold)}.text-\\(--color-ocean-gray-100\\){color:var(--color-ocean-gray-100)}.text-\\(--color-primary\\){color:var(--color-primary)}.text-\\(--color-success\\){color:var(--color-success)}@supports (color:color-mix(in lab, red, red)){.text-base-content\\/60{color:color-mix(in oklab, var(--color-base-content) 60%, transparent)}}.text-white{color:var(--color-white)}.outline-2{outline-style:var(--tw-outline-style);outline-width:2px}.outline-\\(--color-success\\){outline-color:var(--color-success)}:is(.\\*\\:pointer-events-auto>*){pointer-events:auto}.after\\:start-0:after{content:var(--tw-content);inset-inline-start:calc(var(--spacing) * 0)}.after\\:\\!top-3:after{content:var(--tw-content);top:calc(var(--spacing) * 3)!important}@media (hover:hover){.hover\\:cursor-pointer:hover{cursor:pointer}}.disabled\\:border-\\(--color-ocean-gray-200\\):disabled{border-color:var(--color-ocean-gray-200)}.disabled\\:bg-\\(--color-ocean-gray-75\\):disabled{background-color:var(--color-ocean-gray-75)}.disabled\\:text-\\(--color-ocean-gray-200\\):disabled{color:var(--color-ocean-gray-200)}.\\[\\&_dt\\]\\:mr-1 dt{margin-right:calc(var(--spacing) * 1)}.\\[\\&_dt\\,dd\\]\\:inline dt,.\\[\\&_dt\\,dd\\]\\:inline dd{display:inline}.\\[\\&\\>dt\\]\\:text-right>dt{text-align:right}.prose :where(a.btn:not(.btn-link)):not(:where([class~=not-prose],[class~=not-prose] *)){text-decoration-line:none}@layer daisyui{.btn:is(:disabled,[disabled],[aria-disabled=true]){pointer-events:none;color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.btn:is(:disabled,[disabled],[aria-disabled=true]){color:color-mix(in oklch, var(--color-base-content) 20%, #0000)}}.btn:is(:disabled,[disabled],[aria-disabled=true]){--btn-bg:#0000;--btn-border:#0000;--btn-inset:0 0 0 0 oklch(0% 0 0/0);--btn-shadow:0 0 0 0 oklch(0% 0 0/0);background-image:none}.btn:is(:disabled,[disabled],[aria-disabled=true]):not(.btn-link,.btn-ghost){background-color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.btn:is(:disabled,[disabled],[aria-disabled=true]):not(.btn-link,.btn-ghost){background-color:color-mix(in oklab, var(--color-base-content) 10%, transparent)}}.btn-disabled{pointer-events:none;color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.btn-disabled{color:color-mix(in oklch, var(--color-base-content) 20%, #0000)}}.btn-disabled{--btn-bg:#0000;--btn-border:#0000;--btn-inset:0 0 0 0 oklch(0% 0 0/0);--btn-shadow:0 0 0 0 oklch(0% 0 0/0);background-image:none}.btn-disabled:not(.btn-link,.btn-ghost){background-color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.btn-disabled:not(.btn-link,.btn-ghost){background-color:color-mix(in oklab, var(--color-base-content) 10%, transparent)}}}.pointer-events-none{pointer-events:none}.invisible{visibility:hidden}.visible{visibility:visible}.sr-only{clip-path:inset(50%);white-space:nowrap;border-width:0;width:1px;height:1px;margin:-1px;padding:0;position:absolute;overflow:hidden}.absolute{position:absolute}.fixed{position:fixed}.relative{position:relative}.static{position:static}.inset-0{inset:calc(var(--spacing) * 0)}.start{inset-inline-start:var(--spacing)}.end{inset-inline-end:var(--spacing)}.top-1\\/2{top:50%}.left-0{left:calc(var(--spacing) * 0)}.left-1\\/2{left:50%}.join{--join-ss:0;--join-se:0;--join-es:0;--join-ee:0;--join-v:0;--join-h:1;align-items:stretch;display:inline-flex}@scope(.join){:scope>:where(:focus,:has(:focus)){z-index:1}@media (hover:hover){:scope>:where(.btn:hover,:has(.btn:hover)){isolation:isolate}}:scope :where(:scope>:first-child){--join-ss:var(--radius-field);--join-se:calc(var(--radius-field) * var(--join-v));--join-es:calc(var(--radius-field) * var(--join-h));--join-ee:0}:scope :where(:scope>:last-child){--join-ss:0;--join-se:calc(var(--radius-field) * var(--join-h));--join-es:calc(var(--radius-field) * var(--join-v));--join-ee:var(--radius-field)}:scope :where(:scope>:only-child){--join-ss:var(--radius-field);--join-se:var(--radius-field);--join-es:var(--radius-field);--join-ee:var(--radius-field)}}.z-1{z-index:1}.z-40{z-index:40}.z-50{z-index:50}.container{width:100%}@media (width>=40rem){.container{max-width:40rem}}@media (width>=48rem){.container{max-width:48rem}}@media (width>=64rem){.container{max-width:64rem}}@media (width>=80rem){.container{max-width:80rem}}@media (width>=96rem){.container{max-width:96rem}}.m-3{margin:calc(var(--spacing) * 3)}.mx-3{margin-inline:calc(var(--spacing) * 3)}.mx-auto{margin-inline:auto}.my-0\\.5{margin-block:calc(var(--spacing) * .5)}@layer daisyui.l1.l2.l3.l4{.join-item>*{--join-ss:initial;--join-se:initial;--join-es:initial;--join-ee:initial}}.join-item{border-style:solid;border-width:var(--border,1px);border-start-start-radius:var(--join-ss);border-start-end-radius:var(--join-se);border-end-end-radius:var(--join-ee);border-end-start-radius:var(--join-es)}.join-item:not(:first-child,:disabled,[disabled],.btn-disabled){margin-block-start:calc(var(--border,1px) * -1 * var(--join-v));margin-inline-start:calc(var(--border,1px) * -1 * var(--join-h))}.join-item:is(:disabled,[disabled],.btn-disabled){border-width:var(--border,1px);border-inline-end-width:calc(var(--border,1px) * var(--join-v));border-block-end-width:calc(var(--border,1px) * var(--join-h))}.mt-0\\.5{margin-top:calc(var(--spacing) * .5)}.mt-1{margin-top:calc(var(--spacing) * 1)}.mt-1\\.5{margin-top:calc(var(--spacing) * 1.5)}.mt-3{margin-top:calc(var(--spacing) * 3)}.-mr-1{margin-right:calc(var(--spacing) * -1)}.mr-auto{margin-right:auto}.mb-1{margin-bottom:calc(var(--spacing) * 1)}.mb-3{margin-bottom:calc(var(--spacing) * 3)}.mb-4{margin-bottom:calc(var(--spacing) * 4)}.ml-1{margin-left:calc(var(--spacing) * 1)}.ml-auto{margin-left:auto}.alert{border-width:var(--border);border-color:var(--alert-border-color,var(--color-base-200))}.block{display:block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.inline{display:inline}.inline-block{display:inline-block}.inline-flex{display:inline-flex}.size-2{width:calc(var(--spacing) * 2);height:calc(var(--spacing) * 2)}.size-3{width:calc(var(--spacing) * 3);height:calc(var(--spacing) * 3)}.size-3\\.5{width:calc(var(--spacing) * 3.5);height:calc(var(--spacing) * 3.5)}.size-4{width:calc(var(--spacing) * 4);height:calc(var(--spacing) * 4)}.size-5{width:calc(var(--spacing) * 5);height:calc(var(--spacing) * 5)}.size-6{width:calc(var(--spacing) * 6);height:calc(var(--spacing) * 6)}.size-8{width:calc(var(--spacing) * 8);height:calc(var(--spacing) * 8)}.size-max{width:max-content;height:max-content}.h-3{height:calc(var(--spacing) * 3)}.h-3\\.5{height:calc(var(--spacing) * 3.5)}.h-4{height:calc(var(--spacing) * 4)}.h-5{height:calc(var(--spacing) * 5)}.h-7{height:calc(var(--spacing) * 7)}.h-40{height:calc(var(--spacing) * 40)}.h-64{height:calc(var(--spacing) * 64)}.h-72{height:calc(var(--spacing) * 72)}.h-\\[21px\\]{height:21px}.h-\\[32rem\\]{height:32rem}.h-full{height:100%}.h-px{height:1px}.max-h-52{max-height:calc(var(--spacing) * 52)}.max-h-60{max-height:calc(var(--spacing) * 60)}.max-h-\\[90\\%\\]{max-height:90%}.min-h-0{min-height:calc(var(--spacing) * 0)}.w-3{width:calc(var(--spacing) * 3)}.w-3\\.5{width:calc(var(--spacing) * 3.5)}.w-4{width:calc(var(--spacing) * 4)}.w-5{width:calc(var(--spacing) * 5)}.w-6\\.25{width:calc(var(--spacing) * 6.25)}.w-8{width:calc(var(--spacing) * 8)}.w-24{width:calc(var(--spacing) * 24)}.w-52{width:calc(var(--spacing) * 52)}.w-64{width:calc(var(--spacing) * 64)}.w-96{width:calc(var(--spacing) * 96)}.w-fit{width:fit-content}.w-full{width:100%}.w-px{width:1px}.max-w-2xl{max-width:var(--container-2xl)}.max-w-3xl{max-width:var(--container-3xl)}.max-w-5xl{max-width:var(--container-5xl)}.max-w-40{max-width:calc(var(--spacing) * 40)}.max-w-\\[12ch\\]{max-width:12ch}.max-w-fit{max-width:fit-content}.max-w-md{max-width:var(--container-md)}.max-w-sm{max-width:var(--container-sm)}.max-w-xl{max-width:var(--container-xl)}.min-w-0{min-width:calc(var(--spacing) * 0)}.flex-1{flex:1}.shrink{flex-shrink:1}.shrink-0{flex-shrink:0}.grow{flex-grow:1}.-translate-x-1\\/2{--tw-translate-x:calc(calc(1 / 2 * 100%) * -1);translate:var(--tw-translate-x) var(--tw-translate-y)}.-translate-y-1\\/2{--tw-translate-y:calc(calc(1 / 2 * 100%) * -1);translate:var(--tw-translate-x) var(--tw-translate-y)}.transform{transform:var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,)}.cursor-default{cursor:default}.cursor-pointer{cursor:pointer}.list-none{list-style-type:none}.grid-cols-\\[repeat\\(auto-fill\\,minmax\\(160px\\,1fr\\)\\)\\]{grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.place-items-center{place-items:center}.items-baseline{align-items:baseline}.items-center{align-items:center}.items-start{align-items:flex-start}.items-stretch{align-items:stretch}.justify-between{justify-content:space-between}.justify-center{justify-content:center}.justify-end{justify-content:flex-end}.gap-1{gap:calc(var(--spacing) * 1)}.gap-1\\.5{gap:calc(var(--spacing) * 1.5)}.gap-2{gap:calc(var(--spacing) * 2)}.gap-3{gap:calc(var(--spacing) * 3)}.gap-4{gap:calc(var(--spacing) * 4)}:where(.space-y-1>:not(:last-child)){--tw-space-y-reverse:0;margin-block-start:calc(calc(var(--spacing) * 1) * var(--tw-space-y-reverse));margin-block-end:calc(calc(var(--spacing) * 1) * calc(1 - var(--tw-space-y-reverse)))}:where(.space-y-2>:not(:last-child)){--tw-space-y-reverse:0;margin-block-start:calc(calc(var(--spacing) * 2) * var(--tw-space-y-reverse));margin-block-end:calc(calc(var(--spacing) * 2) * calc(1 - var(--tw-space-y-reverse)))}:where(.space-y-4>:not(:last-child)){--tw-space-y-reverse:0;margin-block-start:calc(calc(var(--spacing) * 4) * var(--tw-space-y-reverse));margin-block-end:calc(calc(var(--spacing) * 4) * calc(1 - var(--tw-space-y-reverse)))}.gap-x-4{column-gap:calc(var(--spacing) * 4)}.gap-x-8{column-gap:calc(var(--spacing) * 8)}.gap-y-1{row-gap:calc(var(--spacing) * 1)}.gap-y-3{row-gap:calc(var(--spacing) * 3)}:where(.divide-y>:not(:last-child)){--tw-divide-y-reverse:0;border-bottom-style:var(--tw-border-style);border-top-style:var(--tw-border-style);border-top-width:calc(1px * var(--tw-divide-y-reverse));border-bottom-width:calc(1px * calc(1 - var(--tw-divide-y-reverse)))}:where(.divide-warning\\/15>:not(:last-child)){border-color:var(--color-warning)}@supports (color:color-mix(in lab, red, red)){:where(.divide-warning\\/15>:not(:last-child)){border-color:color-mix(in oklab, var(--color-warning) 15%, transparent)}}.truncate{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.overflow-auto{overflow:auto}.overflow-hidden{overflow:hidden}.overflow-y-auto{overflow-y:auto}.rounded{border-radius:.25rem}.rounded-box{border-radius:var(--radius-box)}.rounded-full{border-radius:3.40282e38px}.rounded-lg{border-radius:var(--radius-lg)}.rounded-md{border-radius:var(--radius-md)}.border{border-style:var(--tw-border-style);border-width:1px}.border-2{border-style:var(--tw-border-style);border-width:2px}.border-s{border-inline-start-style:var(--tw-border-style);border-inline-start-width:1px}.border-t{border-top-style:var(--tw-border-style);border-top-width:1px}.border-b{border-bottom-style:var(--tw-border-style);border-bottom-width:1px}.border-base-200{border-color:var(--color-base-200)}.border-base-300{border-color:var(--color-base-300)}.border-error\\/40{border-color:var(--color-error)}@supports (color:color-mix(in lab, red, red)){.border-error\\/40{border-color:color-mix(in oklab, var(--color-error) 40%, transparent)}}.border-info{border-color:var(--color-info)}.border-primary{border-color:var(--color-primary)}.border-success{border-color:var(--color-success)}.border-transparent{border-color:#0000}.border-warning,.border-warning\\/25{border-color:var(--color-warning)}@supports (color:color-mix(in lab, red, red)){.border-warning\\/25{border-color:color-mix(in oklab, var(--color-warning) 25%, transparent)}}.border-warning\\/40{border-color:var(--color-warning)}@supports (color:color-mix(in lab, red, red)){.border-warning\\/40{border-color:color-mix(in oklab, var(--color-warning) 40%, transparent)}}.bg-accent{background-color:var(--color-accent)}.bg-base-100{background-color:var(--color-base-100)}.bg-base-200{background-color:var(--color-base-200)}.bg-base-300{background-color:var(--color-base-300)}.bg-base-content\\/10{background-color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.bg-base-content\\/10{background-color:color-mix(in oklab, var(--color-base-content) 10%, transparent)}}.bg-black\\/40{background-color:#0006}@supports (color:color-mix(in lab, red, red)){.bg-black\\/40{background-color:color-mix(in oklab, var(--color-black) 40%, transparent)}}.bg-error,.bg-error\\/10{background-color:var(--color-error)}@supports (color:color-mix(in lab, red, red)){.bg-error\\/10{background-color:color-mix(in oklab, var(--color-error) 10%, transparent)}}.bg-info,.bg-info\\/15{background-color:var(--color-info)}@supports (color:color-mix(in lab, red, red)){.bg-info\\/15{background-color:color-mix(in oklab, var(--color-info) 15%, transparent)}}.bg-neutral{background-color:var(--color-neutral)}.bg-neutral-50{background-color:var(--color-neutral-50)}.bg-primary{background-color:var(--color-primary)}.bg-scl-amber-50{background-color:oklch(97.3% .039 92.73)}.bg-scl-amber-100{background-color:oklch(94.5% .076 91.82)}.bg-scl-blue-50{background-color:oklch(96.6% .009 258.34)}.bg-scl-blue-100{background-color:oklch(92.2% .023 258.36)}.bg-scl-crimson-50{background-color:oklch(96.1% .012 350.97)}.bg-scl-crimson-100{background-color:oklch(92.1% .023 353.17)}.bg-scl-darkred-50{background-color:oklch(96.3% .011 3.49)}.bg-scl-darkred-100{background-color:oklch(91.7% .029 1.38)}.bg-scl-gray-50{background-color:oklch(97.6% 0 89.88)}.bg-scl-gray-100{background-color:oklch(94.6% 0 89.88)}.bg-scl-green-50{background-color:oklch(97.1% .014 145.47)}.bg-scl-green-100{background-color:oklch(94.1% .024 145.38)}.bg-scl-lime-50{background-color:oklch(98.1% .013 115.83)}.bg-scl-lime-100{background-color:oklch(96.1% .02 115.96)}.bg-scl-navy-50{background-color:oklch(95.9% .009 279.69)}.bg-scl-navy-100{background-color:oklch(90.7% .023 280.57)}.bg-scl-orange-100{background-color:oklch(96% .023 65.46)}.bg-scl-petrol-50{background-color:oklch(95.3% .011 189.82)}.bg-scl-petrol-100{background-color:oklch(90.7% .02 189.18)}.bg-scl-red-50{background-color:oklch(96.5% .014 17.4)}.bg-scl-red-100{background-color:oklch(92.3% .03 17.71)}.bg-scl-sky-50{background-color:oklch(97.6% .008 236.56)}.bg-scl-sky-100{background-color:oklch(94.2% .02 238.67)}.bg-scl-steel-50{background-color:oklch(96.4% .002 247.84)}.bg-scl-steel-100{background-color:oklch(91.8% .003 247.86)}.bg-scl-stone-50{background-color:oklch(97.3% 0 89.88)}.bg-scl-stone-100{background-color:oklch(94.3% 0 89.88)}.bg-scl-turquoise-50{background-color:oklch(97.4% .008 207.14)}.bg-scl-turquoise-100{background-color:oklch(94.7% .013 208.76)}.bg-secondary{background-color:var(--color-secondary)}.bg-success,.bg-success\\/15{background-color:var(--color-success)}@supports (color:color-mix(in lab, red, red)){.bg-success\\/15{background-color:color-mix(in oklab, var(--color-success) 15%, transparent)}}.bg-warning,.bg-warning\\/5{background-color:var(--color-warning)}@supports (color:color-mix(in lab, red, red)){.bg-warning\\/5{background-color:color-mix(in oklab, var(--color-warning) 5%, transparent)}}.bg-warning\\/20{background-color:var(--color-warning)}@supports (color:color-mix(in lab, red, red)){.bg-warning\\/20{background-color:color-mix(in oklab, var(--color-warning) 20%, transparent)}}.bg-white{background-color:var(--color-white)}.p-1{padding:calc(var(--spacing) * 1)}.p-2{padding:calc(var(--spacing) * 2)}.p-3{padding:calc(var(--spacing) * 3)}.p-4{padding:calc(var(--spacing) * 4)}.p-6{padding:calc(var(--spacing) * 6)}.px-2{padding-inline:calc(var(--spacing) * 2)}.px-3{padding-inline:calc(var(--spacing) * 3)}.px-4{padding-inline:calc(var(--spacing) * 4)}.py-0\\.5{padding-block:calc(var(--spacing) * .5)}.py-1{padding-block:calc(var(--spacing) * 1)}.py-1\\.5{padding-block:calc(var(--spacing) * 1.5)}.py-2{padding-block:calc(var(--spacing) * 2)}.py-2\\.5{padding-block:calc(var(--spacing) * 2.5)}.pb-4{padding-bottom:calc(var(--spacing) * 4)}.pl-2{padding-left:calc(var(--spacing) * 2)}.pl-7{padding-left:calc(var(--spacing) * 7)}.text-center{text-align:center}.font-mono{font-family:var(--font-mono)}.font-sans{font-family:var(--font-sans)}.text-3xl{font-size:var(--text-3xl);line-height:var(--tw-leading,var(--text-3xl--line-height))}.text-base{font-size:var(--text-base);line-height:var(--tw-leading,var(--text-base--line-height))}.text-sm{font-size:var(--text-sm);line-height:var(--tw-leading,var(--text-sm--line-height))}.text-xs{font-size:var(--text-xs);line-height:var(--tw-leading,var(--text-xs--line-height))}.text-\\[10px\\]{font-size:10px}.leading-none{--tw-leading:1;line-height:1}.font-medium{--tw-font-weight:var(--font-weight-medium);font-weight:var(--font-weight-medium)}.font-semibold{--tw-font-weight:var(--font-weight-semibold);font-weight:var(--font-weight-semibold)}.tracking-wide{--tw-tracking:var(--tracking-wide);letter-spacing:var(--tracking-wide)}.break-all{word-break:break-all}.whitespace-pre-wrap{white-space:pre-wrap}.text-base-content,.text-base-content\\/40{color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.text-base-content\\/40{color:color-mix(in oklab, var(--color-base-content) 40%, transparent)}}.text-base-content\\/45{color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.text-base-content\\/45{color:color-mix(in oklab, var(--color-base-content) 45%, transparent)}}.text-base-content\\/60{color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.text-base-content\\/60{color:color-mix(in oklab, var(--color-base-content) 60%, transparent)}}.text-base-content\\/70{color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.text-base-content\\/70{color:color-mix(in oklab, var(--color-base-content) 70%, transparent)}}.text-base-content\\/80{color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.text-base-content\\/80{color:color-mix(in oklab, var(--color-base-content) 80%, transparent)}}.text-black{color:var(--color-black)}.text-error{color:var(--color-error)}.text-info{color:var(--color-info)}.text-info-content{color:var(--color-info-content)}.text-neutral-700{color:var(--color-neutral-700)}.text-primary{color:var(--color-primary)}.text-primary-content{color:var(--color-primary-content)}.text-scl-amber-800{color:oklch(49.1% .1 87.15)}.text-scl-amber-900{color:oklch(41.3% .084 88.59)}.text-scl-blue-700{color:oklch(48.2% .119 256.34)}.text-scl-blue-800{color:oklch(42.3% .116 256.9)}.text-scl-blue-900{color:oklch(35.3% .1 257.66)}.text-scl-crimson-800{color:oklch(50.4% .164 4.81)}.text-scl-crimson-900{color:oklch(43.4% .143 5.75)}.text-scl-darkred-800{color:oklch(41.9% .152 12.61)}.text-scl-darkred-900{color:oklch(35.7% .129 11.88)}.text-scl-gray-700{color:oklch(46% 0 89.88)}.text-scl-gray-800{color:oklch(40.2% 0 89.88)}.text-scl-gray-900{color:oklch(33.3% 0 89.88)}.text-scl-green-800{color:oklch(47.2% .149 143.25)}.text-scl-green-900{color:oklch(40.8% .129 143.19)}.text-scl-lime-800{color:oklch(50.7% .105 121.4)}.text-scl-lime-900{color:oklch(43.9% .093 121.9)}.text-scl-navy-700{color:oklch(40.8% .126 276.47)}.text-scl-navy-800{color:oklch(35.6% .118 275.57)}.text-scl-navy-900{color:oklch(30.2% .101 275.54)}.text-scl-orange-900{color:oklch(46.7% .135 38.49)}.text-scl-petrol-700{color:oklch(47.1% .042 189.21)}.text-scl-petrol-800{color:oklch(40.6% .036 185.33)}.text-scl-petrol-900{color:oklch(34% .029 185.65)}.text-scl-red-700{color:oklch(53.5% .192 26.68)}.text-scl-red-800{color:oklch(47.5% .173 26.97)}.text-scl-red-900{color:oklch(40.3% .147 26.94)}.text-scl-sky-800{color:oklch(49.9% .098 238.14)}.text-scl-sky-900{color:oklch(42.8% .085 238.12)}.text-scl-steel-800{color:oklch(37.4% .015 240.3)}.text-scl-steel-900{color:oklch(31.4% .014 248.26)}.text-scl-stone-700{color:oklch(46.8% 0 89.88)}.text-scl-stone-800{color:oklch(40.2% 0 89.88)}.text-scl-stone-900{color:oklch(34.1% 0 89.88)}.text-scl-turquoise-800{color:oklch(50.6% .077 209.3)}.text-scl-turquoise-900{color:oklch(43.1% .067 209.33)}.text-stone-700{color:var(--color-stone-700)}.text-success{color:var(--color-success)}.text-success-content{color:var(--color-success-content)}.text-warning{color:var(--color-warning)}.capitalize{text-transform:capitalize}.uppercase{text-transform:uppercase}.line-through{text-decoration-line:line-through}.opacity-30{opacity:.3}.opacity-50{opacity:.5}.opacity-55{opacity:.55}.opacity-60{opacity:.6}.opacity-70{opacity:.7}.shadow-md{--tw-shadow:0 4px 6px -1px var(--tw-shadow-color,#0000001a), 0 2px 4px -2px var(--tw-shadow-color,#0000001a);box-shadow:var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 3px 0 var(--tw-shadow-color,#0000001a), 0 1px 2px -1px var(--tw-shadow-color,#0000001a);box-shadow:var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px var(--tw-shadow-color,#0000001a), 0 8px 10px -6px var(--tw-shadow-color,#0000001a);box-shadow:var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow)}.outline{outline-style:var(--tw-outline-style);outline-width:1px}.filter{filter:var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,)}.transition{transition-property:color,background-color,border-color,outline-color,text-decoration-color,fill,stroke,--tw-gradient-from,--tw-gradient-via,--tw-gradient-to,opacity,box-shadow,transform,translate,scale,rotate,filter,-webkit-backdrop-filter,backdrop-filter,display,content-visibility,overlay,pointer-events;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--tw-duration,var(--default-transition-duration))}.transition-all{transition-property:all;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--tw-duration,var(--default-transition-duration))}.transition-colors{transition-property:color,background-color,border-color,outline-color,text-decoration-color,fill,stroke,--tw-gradient-from,--tw-gradient-via,--tw-gradient-to;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--tw-duration,var(--default-transition-duration))}.transition-opacity{transition-property:opacity;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--tw-duration,var(--default-transition-duration))}.outline-none{--tw-outline-style:none;outline-style:none}.select-none{-webkit-user-select:none;user-select:none}@media (hover:hover){.hover\\:opacity-100:hover{opacity:1}}.data-disabled\\:pointer-events-none[data-disabled]{pointer-events:none}.data-disabled\\:opacity-40[data-disabled]{opacity:.4}.data-highlighted\\:bg-primary[data-highlighted]{background-color:var(--color-primary)}.data-highlighted\\:text-primary-content[data-highlighted]{color:var(--color-primary-content)}.data-highlighted\\:outline-none[data-highlighted]{--tw-outline-style:none;outline-style:none}@media (width>=48rem){.md\\:block{display:block}.md\\:flex-row{flex-direction:row}.md\\:items-center{align-items:center}}}@keyframes dropdown{0%{opacity:0}}@keyframes rotator{89.9999%,to{--first-item-position:0 0%}90%,99.9999%{--first-item-position:0 calc(var(--items) * 100%)}to{translate:0 -100%}}@keyframes radio{0%{padding:5px}50%{padding:3px}}@keyframes toast{0%{opacity:0;scale:.9}to{opacity:1;scale:1}}@keyframes skeleton{0%{background-position:150%}to{background-position:-50%}}@keyframes progress{50%{background-position-x:-115%}}@keyframes rating{0%,40%{filter:brightness(1.05)contrast(1.05);scale:1.1}}@keyframes aura{to{--aura-angle:360deg;transform:translateZ(1px)}}@keyframes aura-glow{20%,80%{opacity:.7;filter:blur(.25rem)}50%{opacity:1;filter:blur(.75rem)}}@keyframes aura-glow-after{20%,80%{opacity:.3;filter:blur(1rem)}50%{opacity:.6;filter:blur(1.5rem)}}@keyframes menu{0%{opacity:0}}@property --tw-space-y-reverse{syntax:"*";inherits:false;initial-value:0}@property --tw-divide-y-reverse{syntax:"*";inherits:false;initial-value:0}@property --tw-leading{syntax:"*";inherits:false}@property --tw-tracking{syntax:"*";inherits:false}@property --tw-shadow{syntax:"*";inherits:false;initial-value:0 0 #0000}@property --tw-shadow-color{syntax:"*";inherits:false}@property --tw-shadow-alpha{syntax:"<percentage>";inherits:false;initial-value:100%}@property --tw-inset-shadow{syntax:"*";inherits:false;initial-value:0 0 #0000}@property --tw-inset-shadow-color{syntax:"*";inherits:false}@property --tw-inset-shadow-alpha{syntax:"<percentage>";inherits:false;initial-value:100%}@property --tw-ring-color{syntax:"*";inherits:false}@property --tw-ring-shadow{syntax:"*";inherits:false;initial-value:0 0 #0000}@property --tw-inset-ring-color{syntax:"*";inherits:false}@property --tw-inset-ring-shadow{syntax:"*";inherits:false;initial-value:0 0 #0000}@property --tw-ring-inset{syntax:"*";inherits:false}@property --tw-ring-offset-width{syntax:"<length>";inherits:false;initial-value:0}@property --tw-ring-offset-color{syntax:"*";inherits:false;initial-value:#fff}@property --tw-ring-offset-shadow{syntax:"*";inherits:false;initial-value:0 0 #0000}.explorer-tree__item[data-v-8ff519a8]:focus-visible,.explorer-tree__item--selectable[data-v-8ff519a8]:hover{background-color:currentColor}@supports (color:color-mix(in lab, red, red)){.explorer-tree__item[data-v-8ff519a8]:focus-visible,.explorer-tree__item--selectable[data-v-8ff519a8]:hover{background-color:color-mix(in srgb, currentColor 6%, transparent)}}.explorer-tree__item[data-selected][data-v-8ff519a8]{background-color:var(--color-primary)}@supports (color:color-mix(in lab, red, red)){.explorer-tree__item[data-selected][data-v-8ff519a8]{background-color:color-mix(in srgb, var(--color-primary) 12%, transparent)}}.explorer-tree__item[data-selected] .explorer-tree__item-select-target[data-v-8ff519a8]{color:var(--color-primary)}.explorer-tree__chevron[data-v-8ff519a8]{cursor:pointer;transition:transform .15s}.explorer-tree__chevron[data-v-8ff519a8]:hover{stroke-width:2.5px}.explorer-tree__item[data-expanded] .explorer-tree__chevron[data-v-8ff519a8]{margin-top:-3px;transform:rotate(90deg)}.tooltip[data-v-8ff519a8]:after{inset:auto auto 1.5rem 50%}.tooltip[data-v-8ff519a8]:before{inset:auto auto calc(1.5rem + 3px) 50%}.code-block[data-v-642c3143]{background:#24292e}.code-block .toolbar[data-v-642c3143]{border-bottom:1px solid #ffffff14;padding:.25rem .4rem}.code-block .tool-btn[data-v-642c3143]{color:#adbac7;cursor:pointer;border-radius:.25rem;align-items:center;gap:.25rem;padding:.1rem .4rem;font-size:.7rem;display:inline-flex}.code-block .tool-btn[data-v-642c3143]:hover{color:#e1e4e8;background:#ffffff14}.code-block .tool-btn.active[data-v-642c3143]{color:#79c0ff;background:#58a6ff2e}.code-block .code-scroll[data-v-642c3143]{-webkit-user-select:text;user-select:text}.code-block .shiki-host[data-v-642c3143]{width:max-content;min-width:100%}.code-block[data-v-642c3143] pre.shiki{box-sizing:border-box;tab-size:2;width:max-content;min-width:100%;min-height:100%;margin:0;padding:.75rem 0;font-size:.8rem;line-height:1.6;overflow:visible}.code-block[data-v-642c3143] pre.shiki code{counter-reset:line;display:block}.code-block[data-v-642c3143] pre.shiki .line{counter-increment:line;text-indent:0;min-width:100%;min-height:1.6em;padding-left:3.5rem;display:inline-block;position:relative}.code-block[data-v-642c3143] pre.shiki .line:before{content:counter(line);text-align:right;color:#6e7681;-webkit-user-select:none;user-select:none;width:2.75rem;padding-right:.5rem;position:absolute;left:0}.code-block.wrap .shiki-host[data-v-642c3143],.code-block.wrap[data-v-642c3143] pre.shiki{width:100%}.code-block.wrap[data-v-642c3143] pre.shiki .line{white-space:pre-wrap;overflow-wrap:anywhere}.code-block[data-v-642c3143] pre.shiki .line.diff.add{background:#2ea0432e}.code-block[data-v-642c3143] pre.shiki .line.diff.add:after{content:"+";color:#3fb950;position:absolute;left:2.75rem}.code-block[data-v-642c3143] pre.shiki .line.diff.remove{background:#f8514929}.code-block[data-v-642c3143] pre.shiki .line.diff.remove:after{content:"-";color:#f85149;position:absolute;left:2.75rem}:root{--color-ocean-gray-00:#fff;--color-ocean-gray-25:#fafbfb;--color-ocean-gray-50:#f5f6f7;--color-ocean-gray-75:#eaeeef;--color-ocean-gray-100:#e1e4e6;--color-ocean-gray-150:#c6ced1;--color-ocean-gray-200:#bac1c4;--color-ocean-gray-250:#9fadb2;--color-ocean-gray-300:#889499;--color-ocean-gray-350:#72858c;--color-ocean-gray-400:#617177;--color-ocean-gray-450:#3f555e;--color-ocean-gray-500:#394d55;--color-ocean-gray-550:#34464d;--color-ocean-gray-600:#2e3e44;--color-ocean-gray-650:#27353b;--color-ocean-gray-700:#222e33;--color-ocean-gray-750:#1f272b;--color-ocean-gray-800:#171f22;--color-ocean-gray-850:#11171a;--color-ocean-gray-900:#0b0f11;--color-chart-1:#f7931e;--color-chart-2:#40535b;--color-chart-3:#2798aa;--color-chart-4:#6da89c;--color-chart-5:#a4cadd;--color-chart-6:#97b42d;--color-chart-7:#ffcb05;--color-chart-8:#ee652e;--color-chart-9:#528694;--color-chart-10:#a10f3b}@property --tw-translate-x{syntax:"*";inherits:false;initial-value:0}@property --tw-translate-y{syntax:"*";inherits:false;initial-value:0}@property --tw-translate-z{syntax:"*";inherits:false;initial-value:0}@property --tw-rotate-x{syntax:"*";inherits:false}@property --tw-rotate-y{syntax:"*";inherits:false}@property --tw-rotate-z{syntax:"*";inherits:false}@property --tw-skew-x{syntax:"*";inherits:false}@property --tw-skew-y{syntax:"*";inherits:false}@property --tw-border-style{syntax:"*";inherits:false;initial-value:solid}@property --tw-font-weight{syntax:"*";inherits:false}@property --tw-outline-style{syntax:"*";inherits:false;initial-value:solid}@property --tw-blur{syntax:"*";inherits:false}@property --tw-brightness{syntax:"*";inherits:false}@property --tw-contrast{syntax:"*";inherits:false}@property --tw-grayscale{syntax:"*";inherits:false}@property --tw-hue-rotate{syntax:"*";inherits:false}@property --tw-invert{syntax:"*";inherits:false}@property --tw-opacity{syntax:"*";inherits:false}@property --tw-saturate{syntax:"*";inherits:false}@property --tw-sepia{syntax:"*";inherits:false}@property --tw-drop-shadow{syntax:"*";inherits:false}@property --tw-drop-shadow-color{syntax:"*";inherits:false}@property --tw-drop-shadow-alpha{syntax:"<percentage>";inherits:false;initial-value:100%}@property --tw-drop-shadow-size{syntax:"*";inherits:false}@property --tw-content{syntax:"*";inherits:false;initial-value:""}`)),document.head.appendChild(e)}}catch(e){console.error(`vite-plugin-css-injected-by-js`,e)}})();//#region \0rolldown/runtime.js
+(function(){try{if(typeof document<`u`){var e=document.createElement(`style`);e.appendChild(document.createTextNode(`.btn[data-v-c8124502]:disabled{border-color:var(--color-ocean-gray-200);background-color:var(--color-ocean-gray-75);color:var(--color-ocean-gray-200)}.controlled-connection__delete-btn[data-v-c1214892]{all:unset;cursor:pointer;color:#0000;border-radius:50%;flex-shrink:0;align-items:center;padding:3px;display:flex;position:absolute;left:120%}.container:hover .controlled-connection .controlled-connection__delete-btn[data-v-c1214892]{color:var(--color-ocean-gray-300);background:var(--color-base-100,#fff);outline:2px solid var(--color-ocean-gray-200)}.controlled-connection:hover .controlled-connection__delete-btn[data-v-c1214892]:hover{color:var(--color-primary,#dc2626);outline:2px solid var(--color-primary)}.dataflow-group[data-v-d6b5587f]{grid-template-columns:repeat(3,1fr);gap:20px;display:grid}.dataflow-group [data-v-d6b5587f]{align-self:center}.dataflow-group__overlay[data-v-d6b5587f]{pointer-events:none;grid-template-columns:1fr 1fr;align-items:center;display:grid;position:absolute;top:50%;left:0;right:0;transform:translateY(-50%)}.dataflow-group__overlay button[data-v-d6b5587f]{pointer-events:auto}.dataflow-group__supervision-col[data-v-d6b5587f]{justify-content:center;display:flex}.dataflow-group__actions[data-v-d6b5587f]{justify-content:center;align-items:center;gap:.5rem;display:flex}.dataflow-group__action-btn[data-v-d6b5587f]{all:unset;cursor:pointer;color:#0000;border-radius:50%;flex-shrink:0;align-items:center;padding:3px;display:flex}.dataflow-group:hover .dataflow-group__action-btn[data-v-d6b5587f]{color:var(--color-ocean-gray-300);background:var(--color-base-100,#fff);outline:2px solid var(--color-ocean-gray-200)}.dataflow-group:hover .dataflow-group__action-btn[data-v-d6b5587f]:disabled{color:var(--color-ocean-gray-200);outline-color:var(--color-ocean-gray-100)}.dataflow-group .dataflow-group__action-btn[data-v-d6b5587f]:not(:disabled):hover{color:var(--color-primary);outline:2px solid var(--color-primary)}.dataflow-group__line--active[data-v-d6b5587f]{border-width:2px}.dataflow-group__left-port span[data-v-d6b5587f],.dataflow-group__right-port span[data-v-d6b5587f]{border:2px var(--tw-border-style) var(--color-ocean-gray-100);border-radius:var(--radius-sm);padding:.25rem .5rem}.dataflows[data-v-5e3be295] *{cursor:pointer;align-self:center}.dataflows__chevron-btn[data-v-5e3be295]{all:unset;cursor:pointer;color:var(--color-ocean-gray-300);background:var(--color-base-100,#fff);outline:2px solid var(--color-ocean-gray-300);border-radius:50%;margin-top:.2rem;padding:3px}.dataflows__action-btn[data-v-5e3be295]{all:unset;cursor:pointer;color:#0000;border-radius:50%;flex-shrink:0;align-items:center;padding:3px;display:flex}.dataflows:hover .dataflows__action-btn[data-v-5e3be295]{color:var(--color-ocean-gray-300);background:var(--color-base-100,#fff);outline:2px solid var(--color-ocean-gray-300)}.dataflows:hover .dataflows__action-btn[data-v-5e3be295]:hover{color:var(--color-primary);outline:2px solid var(--color-primary)}.dataflows:hover .dataflows__action-btn[data-v-5e3be295]:disabled{color:var(--color-ocean-gray-200);outline-color:var(--color-ocean-gray-100)}.dataflows.dataflows--detailed[data-v-5e3be295]{grid-auto-rows:50px;margin-bottom:2rem}.dataflows__left-port span[data-v-5e3be295],.dataflows__right-port span[data-v-5e3be295]{border:2px var(--tw-border-style) var(--color-ocean-gray-100);border-radius:var(--radius-sm);padding:.25rem .5rem}.placeholder--resolver-button[data-v-012d328c]{z-index:2;background-color:var(--color-primary);color:#fff;cursor:pointer;border-style:solid;border-width:1px;border-radius:4px;grid-row-start:1;grid-column-start:3;place-self:center start;padding:.5rem;font-size:.875rem;line-height:1.25rem;position:relative;left:40%}.placeholder--resolver-button-right[data-v-012d328c]{justify-self:end;left:auto;right:40%}.placeholder--resolver-button[data-v-012d328c]:disabled{border-color:var(--color-ocean-gray-200);background-color:var(--color-ocean-gray-75);color:var(--color-ocean-gray-200);cursor:default}.placeholder--icon-actions[data-v-012d328c]{z-index:3;grid-row-start:1;grid-column-start:3;place-self:center start;align-items:center;gap:.5rem;display:flex;position:relative;left:10%}.placeholder--icon-actions-right[data-v-012d328c]{justify-self:end;left:auto;right:15%}.placeholder--icon-button[data-v-012d328c]{all:unset;cursor:pointer;color:#0000;border-radius:50%;flex-shrink:0;align-items:center;padding:3px;display:flex}.placeholder-port:hover .placeholder--icon-button[data-v-012d328c],.placeholder-port:focus-within .placeholder--icon-button[data-v-012d328c]{color:var(--color-ocean-gray-300);background:var(--color-base-100);outline:2px solid var(--color-ocean-gray-200)}.placeholder-port .placeholder--icon-button[data-v-012d328c]:hover,.placeholder-port .placeholder--icon-button[data-v-012d328c]:focus-visible{color:var(--color-primary);outline:2px solid var(--color-primary)}.layout[data-v-7e8ad238]{grid-template-columns:1fr 20rem;height:100%;display:grid;overflow-y:scroll}.sidebar[data-v-7e8ad238]{border-left:1px solid var(--border-color);height:100%;padding:1.5rem}.main[data-v-7e8ad238]{height:100%;padding:1rem}.root[data-v-6bc2b856]{flex-direction:column;gap:1rem;display:flex}.tab[data-v-6bc2b856]{transition:all .2s}.tabs[data-v-6bc2b856]{width:auto;margin:0 auto;display:inline-block}@layer properties{@supports (((-webkit-hyphens:none)) and (not (margin-trim:inline))) or ((-moz-orient:inline) and (not (color:rgb(from red r g b)))){*,:before,:after,::backdrop{--tw-translate-x:0;--tw-translate-y:0;--tw-translate-z:0;--tw-rotate-x:initial;--tw-rotate-y:initial;--tw-rotate-z:initial;--tw-skew-x:initial;--tw-skew-y:initial;--tw-space-y-reverse:0;--tw-divide-y-reverse:0;--tw-border-style:solid;--tw-leading:initial;--tw-font-weight:initial;--tw-tracking:initial;--tw-shadow:0 0 #0000;--tw-shadow-color:initial;--tw-shadow-alpha:100%;--tw-inset-shadow:0 0 #0000;--tw-inset-shadow-color:initial;--tw-inset-shadow-alpha:100%;--tw-ring-color:initial;--tw-ring-shadow:0 0 #0000;--tw-inset-ring-color:initial;--tw-inset-ring-shadow:0 0 #0000;--tw-ring-inset:initial;--tw-ring-offset-width:0;--tw-ring-offset-color:#fff;--tw-ring-offset-shadow:0 0 #0000;--tw-outline-style:solid;--tw-blur:initial;--tw-brightness:initial;--tw-contrast:initial;--tw-grayscale:initial;--tw-hue-rotate:initial;--tw-invert:initial;--tw-opacity:initial;--tw-saturate:initial;--tw-sepia:initial;--tw-drop-shadow:initial;--tw-drop-shadow-color:initial;--tw-drop-shadow-alpha:100%;--tw-drop-shadow-size:initial;--tw-content:""}}}@layer theme{:root,:host{--font-sans:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";--font-mono:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;--color-gray-200:oklch(92.8% .006 264.531);--color-neutral-50:oklch(98.5% 0 0);--color-neutral-700:oklch(37.1% 0 0);--color-stone-700:oklch(37.4% .01 67.558);--color-black:#000;--color-white:#fff;--spacing:.25rem;--container-sm:24rem;--container-md:28rem;--container-lg:32rem;--container-xl:36rem;--container-2xl:42rem;--container-3xl:48rem;--container-5xl:64rem;--text-xs:.75rem;--text-xs--line-height:calc(1 / .75);--text-sm:.875rem;--text-sm--line-height:calc(1.25 / .875);--text-base:1rem;--text-base--line-height:calc(1.5 / 1);--text-lg:1.125rem;--text-lg--line-height:calc(1.75 / 1.125);--text-3xl:1.875rem;--text-3xl--line-height:calc(2.25 / 1.875);--font-weight-medium:500;--font-weight-semibold:600;--font-weight-bold:700;--tracking-wide:.025em;--radius-sm:.25rem;--radius-md:.375rem;--radius-lg:.5rem;--radius-xl:.75rem;--default-transition-duration:.15s;--default-transition-timing-function:cubic-bezier(.4, 0, .2, 1);--default-font-family:var(--font-sans);--default-mono-font-family:var(--font-mono)}}@layer base{@supports (not ((-webkit-appearance:-apple-pay-button))) or (contain-intrinsic-size:1px){::placeholder{color:currentColor}@supports (color:color-mix(in lab, red, red)){::placeholder{color:color-mix(in oklab, currentcolor 50%, transparent)}}}*,:after,:before,::backdrop{box-sizing:border-box;border:0 solid;margin:0;padding:0}::file-selector-button{box-sizing:border-box;border:0 solid;margin:0;padding:0}html,:host{-webkit-text-size-adjust:100%;tab-size:4;line-height:1.5;font-family:var(--default-font-family,ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");font-feature-settings:var(--default-font-feature-settings,normal);font-variation-settings:var(--default-font-variation-settings,normal);-webkit-tap-highlight-color:transparent}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;-webkit-text-decoration:inherit;-webkit-text-decoration:inherit;-webkit-text-decoration:inherit;-webkit-text-decoration:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,samp,pre{font-family:var(--default-mono-font-family,ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace);font-feature-settings:var(--default-mono-font-feature-settings,normal);font-variation-settings:var(--default-mono-font-variation-settings,normal);font-size:1em}small{font-size:80%}sub,sup{vertical-align:baseline;font-size:75%;line-height:0;position:relative}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}:-moz-focusring{outline:auto}progress{vertical-align:baseline}summary{display:list-item}ol,ul,menu{list-style:none}img,svg,video,canvas,audio,iframe,embed,object{vertical-align:middle;display:block}img,video{max-width:100%;height:auto}button,input,select,optgroup,textarea{font:inherit;font-feature-settings:inherit;font-variation-settings:inherit;letter-spacing:inherit;color:inherit;opacity:1;background-color:#0000;border-radius:0}::file-selector-button{font:inherit;font-feature-settings:inherit;font-variation-settings:inherit;letter-spacing:inherit;color:inherit;opacity:1;background-color:#0000;border-radius:0}:where(select:is([multiple],[size])) optgroup{font-weight:bolder}:where(select:is([multiple],[size])) optgroup option{padding-inline-start:20px}::file-selector-button{margin-inline-end:4px}::placeholder{opacity:1}@supports (not ((-webkit-appearance:-apple-pay-button))) or (contain-intrinsic-size:1px){::placeholder{color:currentColor}@supports (color:color-mix(in lab, red, red)){::placeholder{color:color-mix(in oklab, currentcolor 50%, transparent)}}}textarea{resize:vertical}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-date-and-time-value{min-height:1lh;text-align:inherit}::-webkit-datetime-edit{display:inline-flex}::-webkit-datetime-edit-fields-wrapper{padding:0}::-webkit-datetime-edit{padding-block:0}::-webkit-datetime-edit-year-field{padding-block:0}::-webkit-datetime-edit-month-field{padding-block:0}::-webkit-datetime-edit-day-field{padding-block:0}::-webkit-datetime-edit-hour-field{padding-block:0}::-webkit-datetime-edit-minute-field{padding-block:0}::-webkit-datetime-edit-second-field{padding-block:0}::-webkit-datetime-edit-millisecond-field{padding-block:0}::-webkit-datetime-edit-meridiem-field{padding-block:0}::-webkit-calendar-picker-indicator{line-height:1}:-moz-ui-invalid{box-shadow:none}button,input:where([type=button],[type=reset],[type=submit]){appearance:button}::file-selector-button{appearance:button}::-webkit-inner-spin-button{height:auto}::-webkit-outer-spin-button{height:auto}[hidden]:where(:not([hidden=until-found])){display:none!important}@property --radialprogress{syntax:"<percentage>";inherits:true;initial-value:0%}@property --aura-angle{syntax:"<angle>";inherits:false;initial-value:0deg}:root{scrollbar-color:currentColor #0000}@supports (color:color-mix(in lab, red, red)){:root{scrollbar-color:color-mix(in oklch, currentColor 35%, #0000) #0000}}:root{--fx-noise:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.34' numOctaves='4' stitchTiles='stitch'%3E%3C/feTurbulence%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23a)' opacity='0.2'%3E%3C/rect%3E%3C/svg%3E");--page-scroll-lock:initial;--page-overflow:var(--page-scroll-lock) hidden;--page-has-backdrop:var(--page-scroll-lock) 1;--page-scroll-bg:var(--page-scroll-lock) var(--root-bg,#0000)}@supports (color:color-mix(in lab, red, red)){:root{--page-scroll-bg:var(--page-scroll-lock) color-mix(in srgb, var(--root-bg,#0000), oklch(0% 0 0) calc(var(--page-has-backdrop,0) * 40%))}}:root{background-image:var(--page-scroll-lock) linear-gradient(var(--root-bg,#0000), var(--root-bg,#0000));transition:var(--page-scroll-lock) background-color .3s ease-out;animation:var(--page-scroll-lock) set-page-has-scroll forwards;animation-timeline:var(--page-scroll-lock) scroll();--page-has-scroll:initial;scrollbar-gutter:var(--page-has-scroll) var(--page-scroll-lock) stable}@keyframes set-page-has-scroll{0%,to{--page-has-scroll:1}}:root,[data-theme]{background-color:var(--root-bg);color:var(--color-base-content)}:root{background-color:var(--page-scroll-bg,var(--root-bg));--fx-noise:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'%3E%3Cfilter id='a'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.34' numOctaves='4' stitchTiles='stitch'%3E%3C/feTurbulence%3E%3C/filter%3E%3Crect width='200' height='200' filter='url(%23a)' opacity='0.2'%3E%3C/rect%3E%3C/svg%3E");scrollbar-color:currentColor #0000}@supports (color:color-mix(in lab, red, red)){:root{scrollbar-color:color-mix(in oklch, currentColor 35%, #0000) #0000}}:root:not(span){overflow:var(--page-overflow)}:root{background:var(--page-scroll-bg,var(--root-bg));--page-scroll-bg-on:linear-gradient(var(--root-bg,#0000), var(--root-bg,#0000)) var(--root-bg,#0000)}@supports (color:color-mix(in lab, red, red)){:root{--page-scroll-bg-on:linear-gradient(var(--root-bg,#0000), var(--root-bg,#0000)) color-mix(in srgb, var(--root-bg,#0000), oklch(0% 0 0) calc(var(--page-has-backdrop,0) * 40%))}}:root{--page-scroll-transition-on:background-color .3s ease-out;transition:var(--page-scroll-transition);scrollbar-gutter:var(--page-scroll-gutter,unset);scrollbar-gutter:if(style(--page-has-scroll: 1): var(--page-scroll-gutter,unset) ; else: unset)}:root,[data-theme]{background:var(--page-scroll-bg,var(--root-bg));color:var(--color-base-content)}:where(:root,[data-theme]){--root-bg:var(--color-base-100)}:where(:root),[data-theme=ocean-light]{--lightningcss-light:initial;--lightningcss-dark: ;color-scheme:light;--color-base-100:oklch(98% 0 0);--color-base-200:oklch(97% 0 0);--color-base-300:oklch(92% 0 0);--color-base-content:oklch(37% 0 0);--color-primary:oklch(58.13% .0903 209.8);--color-primary-content:oklch(100% 0 0);--color-secondary:oklch(65.24% .0821 207.95);--color-secondary-content:oklch(100% 0 0);--color-accent:oklch(60% .118 184.704);--color-accent-content:oklch(98% .001 106.423);--color-neutral:oklch(55% .013 58.071);--color-neutral-content:oklch(98% .031 120.757);--color-info:oklch(70% .165 254.624);--color-info-content:oklch(98% .001 106.423);--color-success:oklch(72% .219 149.579);--color-success-content:oklch(98% .001 106.423);--color-warning:oklch(87% .169 91.605);--color-warning-content:oklch(98% .001 106.423);--color-error:oklch(63% .237 25.331);--color-error-content:oklch(98% .001 106.423);--radius-selector:.25rem;--radius-field:.25rem;--radius-box:.25rem;--size-selector:.21875rem;--size-field:.21875rem;--border:1.5px;--depth:1;--noise:1;--border-color:var(--color-base-300)}:root:has(input.theme-controller[value=ocean-light]:checked){--lightningcss-light:initial;--lightningcss-dark: ;color-scheme:light;--color-base-100:oklch(98% 0 0);--color-base-200:oklch(97% 0 0);--color-base-300:oklch(92% 0 0);--color-base-content:oklch(37% 0 0);--color-primary:oklch(58.13% .0903 209.8);--color-primary-content:oklch(100% 0 0);--color-secondary:oklch(65.24% .0821 207.95);--color-secondary-content:oklch(100% 0 0);--color-accent:oklch(60% .118 184.704);--color-accent-content:oklch(98% .001 106.423);--color-neutral:oklch(55% .013 58.071);--color-neutral-content:oklch(98% .031 120.757);--color-info:oklch(70% .165 254.624);--color-info-content:oklch(98% .001 106.423);--color-success:oklch(72% .219 149.579);--color-success-content:oklch(98% .001 106.423);--color-warning:oklch(87% .169 91.605);--color-warning-content:oklch(98% .001 106.423);--color-error:oklch(63% .237 25.331);--color-error-content:oklch(98% .001 106.423);--radius-selector:.25rem;--radius-field:.25rem;--radius-box:.25rem;--size-selector:.21875rem;--size-field:.21875rem;--border:1.5px;--depth:1;--noise:1;--border-color:var(--color-base-300)}}@layer components;@layer utilities{@layer daisyui.l1.l2.l3{.tab{cursor:pointer;appearance:none;text-align:center;webkit-user-select:none;-webkit-user-select:none;user-select:none;flex-wrap:wrap;justify-content:center;align-items:center;display:inline-flex;position:relative}@media (hover:hover){.tab:hover{color:var(--color-base-content)}}.tab{--tab-p:.75rem;--tab-bg:var(--color-base-100);--tab-border-color:var(--color-base-300);--tab-radius-ss:0;--tab-radius-se:0;--tab-radius-es:0;--tab-radius-ee:0;--tab-order:0;--tab-radius-min:calc(.75rem - var(--border));--tab-radius-limit:min(var(--radius-field), var(--tab-radius-min));--tab-radius-grad:#0000 calc(69% - var(--border)), var(--tab-border-color) calc(69% - var(--border) + .25px), var(--tab-border-color) 69%, var(--tab-bg) calc(69% + .25px);order:var(--tab-order);height:var(--tab-height);padding-inline:var(--tab-p);border-color:#0000;font-size:.875rem}.tab:is(input[type=radio]){min-width:fit-content}.tab:is(input[type=radio]):after{--tw-content:attr(aria-label);content:var(--tw-content)}.tab:is(label){position:relative}.tab:is(label) input{cursor:pointer;appearance:none;opacity:0;position:absolute;inset:0}:is(.tab:checked,.tab:is(label:has(:checked)),.tab:is(.tab-active,[aria-selected=true],[aria-current=true],[aria-current=page]))+.tab-content{display:block}.tab:not(:checked,label:has(:checked),:hover,.tab-active,[aria-selected=true],[aria-current=true],[aria-current=page]){color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.tab:not(:checked,label:has(:checked),:hover,.tab-active,[aria-selected=true],[aria-current=true],[aria-current=page]){color:color-mix(in oklab, var(--color-base-content) 50%, transparent)}}.tab:not(input):empty{cursor:default;flex-grow:1}.tab:focus{--tw-outline-style:none;outline-style:none}@media (forced-colors:active){.tab:focus{outline-offset:2px;outline:2px solid #0000}}.tab:focus-visible,.tab:is(label:has(:checked:focus-visible)){outline-offset:-5px;outline:2px solid}.tab[disabled]{pointer-events:none;opacity:.4}.menu :where(li ul){white-space:nowrap;margin-inline-start:1rem;padding-inline-start:.5rem;position:relative}.menu :where(li ul):before{background-color:var(--color-base-content);opacity:.1;width:var(--border);content:"";inset-inline-start:0;position:absolute;top:.75rem;bottom:.75rem}.menu :where(li:not(.menu-title)>:not(ul,details,.menu-title,.btn)),.menu :where(li:not(.menu-title)>details>summary:not(.menu-title)){border-radius:var(--radius-field);text-align:start;text-wrap:balance;-webkit-user-select:none;user-select:none;grid-auto-columns:minmax(auto,max-content) auto max-content;grid-auto-flow:column;align-content:flex-start;align-items:center;gap:.5rem;padding-block:.375rem;padding-inline:.75rem;transition-property:color,background-color,box-shadow;transition-duration:.2s;transition-timing-function:cubic-bezier(0,0,.2,1);display:grid}@media (forced-colors:active){.menu :where(li>details>summary){outline-offset:2px;outline:2px solid #0000}}@media (prefers-reduced-motion:no-preference){.menu details::details-content{transition-behavior:allow-discrete;transition-property:block-size,content-visibility;transition-duration:.2s;transition-timing-function:cubic-bezier(0,0,.2,1)}}.menu :where(li:not(.menu-title,.disabled)>:not(ul,details,.menu-title),li:not(.menu-title,.disabled)>details>summary:not(.menu-title)):not(.menu-active,:active,.btn).menu-focus,.menu :where(li:not(.menu-title,.disabled)>:not(ul,details,.menu-title),li:not(.menu-title,.disabled)>details>summary:not(.menu-title)):not(.menu-active,:active,.btn):focus-visible{cursor:pointer;background-color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.menu :where(li:not(.menu-title,.disabled)>:not(ul,details,.menu-title),li:not(.menu-title,.disabled)>details>summary:not(.menu-title)):not(.menu-active,:active,.btn).menu-focus,.menu :where(li:not(.menu-title,.disabled)>:not(ul,details,.menu-title),li:not(.menu-title,.disabled)>details>summary:not(.menu-title)):not(.menu-active,:active,.btn):focus-visible{background-color:color-mix(in oklab, var(--color-base-content) 10%, transparent)}}.menu :where(li:not(.menu-title,.disabled)>:not(ul,details,.menu-title),li:not(.menu-title,.disabled)>details>summary:not(.menu-title)):not(.menu-active,:active,.btn).menu-focus,.menu :where(li:not(.menu-title,.disabled)>:not(ul,details,.menu-title),li:not(.menu-title,.disabled)>details>summary:not(.menu-title)):not(.menu-active,:active,.btn):focus-visible{color:var(--color-base-content);--tw-outline-style:none;outline-style:none}@media (forced-colors:active){.menu :where(li:not(.menu-title,.disabled)>:not(ul,details,.menu-title),li:not(.menu-title,.disabled)>details>summary:not(.menu-title)):not(.menu-active,:active,.btn).menu-focus,.menu :where(li:not(.menu-title,.disabled)>:not(ul,details,.menu-title),li:not(.menu-title,.disabled)>details>summary:not(.menu-title)):not(.menu-active,:active,.btn):focus-visible{outline-offset:2px;outline:2px solid #0000}}.menu :where(li:not(.menu-title,.disabled)>:not(ul,details,.menu-title):not(.menu-active,:active,.btn):hover,li:not(.menu-title,.disabled)>details>summary:not(.menu-title):not(.menu-active,:active,.btn):hover){cursor:pointer;background-color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.menu :where(li:not(.menu-title,.disabled)>:not(ul,details,.menu-title):not(.menu-active,:active,.btn):hover,li:not(.menu-title,.disabled)>details>summary:not(.menu-title):not(.menu-active,:active,.btn):hover){background-color:color-mix(in oklab, var(--color-base-content) 10%, transparent)}}.menu :where(li:not(.menu-title,.disabled)>:not(ul,details,.menu-title):not(.menu-active,:active,.btn):hover,li:not(.menu-title,.disabled)>details>summary:not(.menu-title):not(.menu-active,:active,.btn):hover){--tw-outline-style:none;outline-style:none}@media (forced-colors:active){.menu :where(li:not(.menu-title,.disabled)>:not(ul,details,.menu-title):not(.menu-active,:active,.btn):hover,li:not(.menu-title,.disabled)>details>summary:not(.menu-title):not(.menu-active,:active,.btn):hover){outline-offset:2px;outline:2px solid #0000}}.menu :where(li:not(.menu-title,.disabled)>:not(ul,details,.menu-title):not(.menu-active,:active,.btn):hover,li:not(.menu-title,.disabled)>details>summary:not(.menu-title):not(.menu-active,:active,.btn):hover){box-shadow:inset 0 1px oklch(0% 0 0/.01),inset 0 -1px oklch(100% 0 0/.01)}.menu :where(li)>:not(ul,.menu-title,details,.btn):active,.menu :where(li)>:not(ul,.menu-title,details,.btn).menu-active,.menu :where(li)>details>summary:active{--tw-outline-style:none;outline-style:none}@media (forced-colors:active){.menu :where(li)>:not(ul,.menu-title,details,.btn):active,.menu :where(li)>:not(ul,.menu-title,details,.btn).menu-active,.menu :where(li)>details>summary:active{outline-offset:2px;outline:2px solid #0000}}.menu :where(li)>:not(ul,.menu-title,details,.btn):active,.menu :where(li)>:not(ul,.menu-title,details,.btn).menu-active,.menu :where(li)>details>summary:active{color:var(--menu-active-fg);background-color:var(--menu-active-bg);background-size:auto, calc(var(--noise) * 100%);background-image:none, var(--fx-noise)}:is(.menu :where(li)>:not(ul,.menu-title,details,.btn):active,.menu :where(li)>:not(ul,.menu-title,details,.btn).menu-active,.menu :where(li)>details>summary:active):not(:is(.menu :where(li)>:not(ul,.menu-title,details,.btn):active,.menu :where(li)>:not(ul,.menu-title,details,.btn).menu-active,.menu :where(li)>details>summary:active):active){box-shadow:0 2px calc(var(--depth) * 3px) -2px var(--menu-active-bg)}.menu :where(li).menu-disabled{pointer-events:none;color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.menu :where(li).menu-disabled{color:color-mix(in oklab, var(--color-base-content) 20%, transparent)}}@media (forced-colors:active){.dropdown>:not(:has(~[class*=dropdown-content])):focus{outline-offset:2px;outline:2px solid #0000}}@media (prefers-reduced-motion:no-preference){.dropdown[popover],.dropdown .dropdown-content{transition-behavior:allow-discrete;transition-property:opacity,scale,display;transition-duration:.2s;transition-timing-function:cubic-bezier(.4,0,.2,1);animation:.2s dropdown}}@starting-style{.dropdown[popover],.dropdown .dropdown-content{opacity:0;scale:.95}}@supports not (position-area:bottom){.dropdown[popover]{margin:auto}.dropdown[popover].dropdown-close{transform-origin:top;opacity:0;display:none;scale:.95}.dropdown[popover].dropdown-open:not(:popover-open){transform-origin:top;opacity:0;display:none;scale:.95}.dropdown[popover]::backdrop{background-color:oklab(0% none none/.3)}}.btn{cursor:pointer;text-align:center;vertical-align:middle;outline-offset:2px;webkit-user-select:none;-webkit-user-select:none;user-select:none;padding-inline:var(--btn-p);color:var(--btn-fg);--tw-prose-links:var(--btn-fg);height:var(--size);font-size:var(--fontsize,.875rem);outline-color:var(--btn-color,var(--color-base-content));background-color:var(--btn-bg);background-size:auto, calc(var(--noise) * 100%);background-image:none, var(--btn-noise);border-width:var(--border);border-style:solid;border-color:var(--btn-border);text-shadow:0 .5px oklch(100% 0 0 / calc(var(--depth) * .15));touch-action:manipulation;box-shadow:0 .5px 0 .5px oklch(100% 0 0 / calc(var(--depth) * 6%)) inset, var(--btn-shadow);--size:calc(var(--size-field,.25rem) * 10);--btn-bg:var(--btn-color,var(--color-base-200));--btn-fg:var(--color-base-content);--btn-p:1rem;--btn-border:var(--btn-bg);border-start-start-radius:var(--join-ss,var(--radius-field));border-start-end-radius:var(--join-se,var(--radius-field));border-end-end-radius:var(--join-ee,var(--radius-field));border-end-start-radius:var(--join-es,var(--radius-field));flex-wrap:nowrap;flex-shrink:0;justify-content:center;align-items:center;gap:.375rem;font-weight:600;transition-property:color,background-color,border-color,box-shadow;transition-duration:.2s;transition-timing-function:cubic-bezier(0,0,.2,1);display:inline-flex}@supports (color:color-mix(in lab, red, red)){.btn{--btn-border:color-mix(in oklab, var(--btn-bg), #000 calc(var(--depth) * 5%))}}.btn{--btn-shadow:0 3px 2px -2px var(--btn-bg), 0 4px 3px -2px var(--btn-bg)}@supports (color:color-mix(in lab, red, red)){.btn{--btn-shadow:0 3px 2px -2px color-mix(in oklab, var(--btn-bg) calc(var(--depth) * 30%), #0000), 0 4px 3px -2px color-mix(in oklab, var(--btn-bg) calc(var(--depth) * 30%), #0000)}}.btn{--btn-noise:var(--fx-noise)}@media (hover:hover){.btn:hover{--btn-bg:var(--btn-color,var(--color-base-200))}@supports (color:color-mix(in lab, red, red)){.btn:hover{--btn-bg:color-mix(in oklab, var(--btn-color,var(--color-base-200)), #000 7%)}}}.btn:focus-visible{isolation:isolate;outline-width:2px;outline-style:solid}.btn:has(:focus-visible){isolation:isolate;outline-width:2px;outline-style:solid}.btn:active:not(.btn-active){--btn-bg:var(--btn-color,var(--color-base-200));translate:0 .5px}@supports (color:color-mix(in lab, red, red)){.btn:active:not(.btn-active){--btn-bg:color-mix(in oklab, var(--btn-color,var(--color-base-200)), #000 5%)}}.btn:active:not(.btn-active){--btn-border:var(--btn-color,var(--color-base-200))}@supports (color:color-mix(in lab, red, red)){.btn:active:not(.btn-active){--btn-border:color-mix(in oklab, var(--btn-color,var(--color-base-200)), #000 7%)}}.btn:active:not(.btn-active){--btn-shadow:0 0 0 0 oklch(0% 0 0/0), 0 0 0 0 oklch(0% 0 0/0)}.btn:is(input[type=checkbox],input[type=radio]){appearance:none}.btn:is(input[type=checkbox],input[type=radio])[aria-label]:after{--tw-content:attr(aria-label);content:var(--tw-content)}.btn:where(input:checked:not(.filter .btn)){--btn-color:var(--color-primary);--btn-fg:var(--color-primary-content);isolation:isolate}.collapse{border-radius:var(--radius-box,1rem);isolation:isolate;grid-template-rows:max-content 0fr;grid-template-columns:minmax(0,1fr);width:100%;display:grid;position:relative;overflow:hidden}@media (prefers-reduced-motion:no-preference){.collapse{transition:grid-template-rows .2s}}.collapse>input:is([type=checkbox],[type=radio]){appearance:none;opacity:0;z-index:1;grid-row-start:1;grid-column-start:1;width:100%;min-height:1lh;padding:1rem;padding-inline-end:3rem;transition:background-color .2s ease-out}.collapse:is([open],[tabindex]:focus:not(.collapse-close),[tabindex]:focus-within:not(.collapse-close)){grid-template-rows:max-content 1fr}.collapse:not(.collapse-close):has(>input:is([type=checkbox],[type=radio]):checked){grid-template-rows:max-content 1fr}.collapse:is([open],[tabindex]:focus:not(.collapse-close),[tabindex]:focus-within:not(.collapse-close))>.collapse-content,.collapse:not(.collapse-close)>:where(input:is([type=checkbox],[type=radio]):checked~.collapse-content){content-visibility:visible;min-height:fit-content}@supports not (content-visibility:visible){.collapse:is([open],[tabindex]:focus:not(.collapse-close),[tabindex]:focus-within:not(.collapse-close))>.collapse-content,.collapse:not(.collapse-close)>:where(input:is([type=checkbox],[type=radio]):checked~.collapse-content){visibility:visible}}.collapse:focus-visible{outline-color:var(--color-base-content);outline-offset:2px;outline-width:2px;outline-style:solid}.collapse:has(>input:is([type=checkbox],[type=radio]):focus-visible){outline-color:var(--color-base-content);outline-offset:2px;outline-width:2px;outline-style:solid}.collapse:has(summary:focus-visible){outline-color:var(--color-base-content);outline-offset:2px;outline-width:2px;outline-style:solid}.collapse:not(.collapse-close)>input[type=checkbox],.collapse:not(.collapse-close)>input[type=radio]:not(:checked),.collapse:not(.collapse-close)>.collapse-title{cursor:pointer}:is(.collapse[tabindex]:focus:not(.collapse-close,.collapse[open]),.collapse[tabindex]:focus-within:not(.collapse-close,.collapse[open]))>.collapse-title{cursor:unset}.collapse:is([open],[tabindex]:focus:not(.collapse-close),[tabindex]:focus-within:not(.collapse-close))>:where(.collapse-content),.collapse:not(.collapse-close)>:where(input:is([type=checkbox],[type=radio]):checked~.collapse-content){padding-bottom:1rem}.collapse:is(details){width:100%}@media (prefers-reduced-motion:no-preference){.collapse:is(details)::details-content{transition:content-visibility .2s allow-discrete, visibility .2s allow-discrete, min-height .2s ease-out allow-discrete, padding .1s ease-out 20ms, background-color .2s ease-out, height .2s;interpolate-size:allow-keywords;height:0}.collapse:is(details):where([open])::details-content{height:auto}}.collapse:is(details) summary{display:block;position:relative}.collapse:is(details) summary::-webkit-details-marker{display:none}.collapse:is(details)>.collapse-content{content-visibility:visible}.collapse:is(details) summary{outline:none}.collapse-content{content-visibility:hidden;min-height:0;cursor:unset;grid-row-start:2;grid-column-start:1;padding-left:1rem;padding-right:1rem}@supports not (content-visibility:hidden){.collapse-content{visibility:hidden}}@media (prefers-reduced-motion:no-preference){.collapse-content{transition:content-visibility .2s allow-discrete, visibility .2s allow-discrete, min-height .2s ease-out allow-discrete, padding .1s ease-out 20ms, background-color .2s ease-out}}@supports (color:color-mix(in lab, red, red)){:is(.list>:not(:last-child).list-row,.list>:not(:last-child) .list-row):after{border-color:color-mix(in oklab, var(--color-base-content) 5%, transparent)}.toggle{box-shadow:0 1px color-mix(in oklab, currentColor calc(var(--depth) * 10%), #0000) inset;--input-color:color-mix(in oklab, var(--color-base-content) 50%, #0000)}}@media (forced-colors:active){.toggle>:focus{outline-offset:2px;outline:2px solid #0000}}@supports (color:color-mix(in lab, red, red)){.toggle:before{box-shadow:0 -1px oklch(0% 0 0 / calc(var(--depth) * .1)) inset, 0 8px 0 -4px oklch(100% 0 0 / calc(var(--depth) * .1)) inset, 0 1px color-mix(in oklab, currentColor calc(var(--depth) * 10%), #0000)}}@media (forced-colors:active){.toggle:before{outline-style:var(--tw-outline-style);outline-offset:calc(1px * -1);outline-width:1px}}@media print{.toggle:before{outline-offset:-1rem;outline:.25rem solid}}@starting-style{:is(.toggle:checked,.toggle[aria-checked=true],.toggle:has(>input:checked)):before{opacity:0}}.input{cursor:text;border:var(--border) solid #0000;appearance:none;background-color:var(--color-base-100);vertical-align:middle;white-space:nowrap;width:clamp(3rem,20rem,100%);height:var(--size);font-size:max(var(--font-size,.875rem), .875rem);touch-action:manipulation;border-color:var(--input-color);box-shadow:0 1px var(--input-color) inset, 0 -1px oklch(100% 0 0 / calc(var(--depth) * .1)) inset;border-start-start-radius:var(--join-ss,var(--radius-field));border-start-end-radius:var(--join-se,var(--radius-field));border-end-end-radius:var(--join-ee,var(--radius-field));border-end-start-radius:var(--join-es,var(--radius-field));flex-shrink:1;align-items:center;gap:.5rem;padding-inline:.75rem;display:inline-flex;position:relative}@supports (color:color-mix(in lab, red, red)){.input{box-shadow:0 1px color-mix(in oklab, var(--input-color) calc(var(--depth) * 10%), #0000) inset, 0 -1px oklch(100% 0 0 / calc(var(--depth) * .1)) inset}}.input{--size:calc(var(--size-field,.25rem) * 10);--input-color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.input{--input-color:color-mix(in oklab, var(--color-base-content) 20%, #0000)}}.input:where(input){display:inline-flex}.input :where(input){appearance:none;background-color:#0000;border:none;width:100%;height:100%;display:inline-flex}.input :where(input):focus,.input :where(input):focus-within{--tw-outline-style:none;outline-style:none}@media (forced-colors:active){.input :where(input):focus,.input :where(input):focus-within{outline-offset:2px;outline:2px solid #0000}}.input :where(input[type=url]),.input :where(input[type=email]){direction:ltr}.input :where(input[type=date]){display:inline-flex}@supports (color:color-mix(in lab, red, red)){.input:focus,.input:focus-within{box-shadow:0 1px color-mix(in oklab, var(--input-color) calc(var(--depth) * 10%), #0000)}}@media (pointer:coarse){@supports (-webkit-touch-callout:none){.input:focus,.input:focus-within{--font-size:1rem}}}.input:is(:disabled,[disabled]),fieldset:disabled .input{cursor:not-allowed;border-color:var(--color-base-200);background-color:var(--color-base-200);color:var(--color-base-content)}.input:has(>input[disabled]){cursor:not-allowed;border-color:var(--color-base-200);background-color:var(--color-base-200);color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.input:is(:disabled,[disabled]),fieldset:disabled .input{color:color-mix(in oklab, var(--color-base-content) 40%, transparent)}.input:has(>input[disabled]){color:color-mix(in oklab, var(--color-base-content) 40%, transparent)}}:is(.input:has(>input[disabled]),.input:is(:disabled,[disabled]),fieldset:disabled .input)::placeholder{color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){:is(.input:has(>input[disabled]),.input:is(:disabled,[disabled]),fieldset:disabled .input)::placeholder{color:color-mix(in oklab, var(--color-base-content) 20%, transparent)}}.input::-webkit-date-and-time-value{text-align:inherit}.input[type=number]::-webkit-inner-spin-button{margin-block:-.75rem;margin-inline-end:-.75rem}.input::-webkit-calendar-picker-indicator{position:absolute;inset-inline-end:.75em}.input:has(>input[type=date]) :where(input[type=date]){webkit-appearance:none;appearance:none;display:inline-flex}.input:has(>input[type=date]) input[type=date]::-webkit-calendar-picker-indicator{cursor:pointer;width:1em;height:1em;position:absolute;inset-inline-end:.75em}.indicator{width:max-content;display:inline-flex;position:relative}.indicator :where(.indicator-item){z-index:1;white-space:nowrap;top:var(--indicator-t,0);bottom:var(--indicator-b,auto);left:var(--indicator-s,auto);right:var(--indicator-e,0);translate:var(--indicator-x,50%) var(--indicator-y,-50%);position:absolute}.table{border-collapse:separate;--tw-border-spacing-x:calc(.25rem * 0);--tw-border-spacing-y:calc(.25rem * 0);width:100%;border-spacing:var(--tw-border-spacing-x) var(--tw-border-spacing-y);border-radius:var(--radius-box);text-align:left;font-size:.875rem;position:relative}.table:where(:is(:lang(ae),:lang(ar),:lang(arc),:lang(bcc),:lang(bqi),:lang(ckb),:lang(dv),:lang(fa),:lang(glk),:lang(he),:lang(ku),:lang(mzn),:lang(nqo),:lang(pnb),:lang(ps),:lang(sd),:lang(ug),:lang(ur),:lang(yi)),[dir=rtl],[dir=rtl] *){text-align:right}@media (hover:hover){:is(.table tr.row-hover,.table tr.row-hover:nth-child(2n)):hover{background-color:var(--color-base-200)}}.table :where(th,td){vertical-align:middle;padding-block:.75rem;padding-inline:1rem}.table :where(thead,tfoot){white-space:nowrap;color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.table :where(thead,tfoot){color:color-mix(in oklab, var(--color-base-content) 60%, transparent)}}.table :where(thead,tfoot){font-size:.875rem;font-weight:600}.table :where(tfoot tr:first-child :is(td,th)){border-top:var(--border) solid var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.table :where(tfoot tr:first-child :is(td,th)){border-top:var(--border) solid color-mix(in oklch, var(--color-base-content) 5%, #0000)}}.table :where(.table-pin-rows thead tr){z-index:1;background-color:var(--color-base-100);position:sticky;top:0}.table :where(.table-pin-rows tfoot tr){z-index:1;background-color:var(--color-base-100);position:sticky;bottom:0}.table :where(.table-pin-cols tr th){background-color:var(--color-base-100);position:sticky;left:0;right:0}.table :where(thead tr :is(td,th),tbody tr:not(:last-child) :is(td,th)){border-bottom:var(--border) solid var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.table :where(thead tr :is(td,th),tbody tr:not(:last-child) :is(td,th)){border-bottom:var(--border) solid color-mix(in oklch, var(--color-base-content) 5%, #0000)}}.range{appearance:none;webkit-appearance:none;--range-thumb:var(--color-base-100);--range-thumb-size:calc(var(--size-selector,.25rem) * 6);--range-progress:currentColor;--range-fill:1;--range-p:.25rem;--range-bg:currentColor}@supports (color:color-mix(in lab, red, red)){.range{--range-bg:color-mix(in oklab, currentColor 10%, #0000)}}.range{cursor:pointer;vertical-align:middle;--radius-selector-max:calc(var(--radius-selector) + var(--radius-selector) + var(--radius-selector));border-radius:calc(var(--radius-selector) + min(var(--range-p), var(--radius-selector-max)));width:clamp(3rem,20rem,100%);height:var(--range-thumb-size);background-color:#0000;border:none;overflow:hidden}[dir=rtl] .range{--range-dir:-1}.range:focus{outline:none}.range:focus-visible{outline-offset:2px;outline:2px solid}.range::-webkit-slider-runnable-track{background-color:var(--range-bg);border-radius:var(--radius-selector);width:100%;height:calc(var(--range-thumb-size) * .5)}@media (forced-colors:active){.range::-webkit-slider-runnable-track{border:1px solid}.range::-moz-range-track{border:1px solid}}.range::-webkit-slider-thumb{box-sizing:border-box;border-radius:calc(var(--radius-selector) + min(var(--range-p), var(--radius-selector-max)));background-color:var(--range-thumb);height:var(--range-thumb-size);width:var(--range-thumb-size);border:var(--range-p) solid;appearance:none;webkit-appearance:none;color:var(--range-progress);box-shadow:0 -1px oklch(0% 0 0 / calc(var(--depth) * .1)) inset, 0 8px 0 -4px oklch(100% 0 0 / calc(var(--depth) * .1)) inset, 0 1px currentColor, 0 0 0 2rem var(--range-thumb) inset, calc((var(--range-dir,1) * -100cqw) - (var(--range-dir,1) * var(--range-thumb-size) / 2)) 0 0 calc(100cqw * var(--range-fill));position:relative;top:50%;transform:translateY(-50%)}@supports (color:color-mix(in lab, red, red)){.range::-webkit-slider-thumb{box-shadow:0 -1px oklch(0% 0 0 / calc(var(--depth) * .1)) inset, 0 8px 0 -4px oklch(100% 0 0 / calc(var(--depth) * .1)) inset, 0 1px color-mix(in oklab, currentColor calc(var(--depth) * 10%), #0000), 0 0 0 2rem var(--range-thumb) inset, calc((var(--range-dir,1) * -100cqw) - (var(--range-dir,1) * var(--range-thumb-size) / 2)) 0 0 calc(100cqw * var(--range-fill))}}.range::-moz-range-track{background-color:var(--range-bg);border-radius:var(--radius-selector);width:100%;height:calc(var(--range-thumb-size) * .5)}.range::-moz-range-thumb{box-sizing:border-box;border-radius:calc(var(--radius-selector) + min(var(--range-p), var(--radius-selector-max)));height:var(--range-thumb-size);width:var(--range-thumb-size);border:var(--range-p) solid;color:var(--range-progress);box-shadow:0 -1px oklch(0% 0 0 / calc(var(--depth) * .1)) inset, 0 8px 0 -4px oklch(100% 0 0 / calc(var(--depth) * .1)) inset, 0 1px currentColor, 0 0 0 2rem var(--range-thumb) inset, calc((var(--range-dir,1) * -100cqw) - (var(--range-dir,1) * var(--range-thumb-size) / 2)) 0 0 calc(100cqw * var(--range-fill));background-color:currentColor;position:relative;top:50%}@supports (color:color-mix(in lab, red, red)){.range::-moz-range-thumb{box-shadow:0 -1px oklch(0% 0 0 / calc(var(--depth) * .1)) inset, 0 8px 0 -4px oklch(100% 0 0 / calc(var(--depth) * .1)) inset, 0 1px color-mix(in oklab, currentColor calc(var(--depth) * 10%), #0000), 0 0 0 2rem var(--range-thumb) inset, calc((var(--range-dir,1) * -100cqw) - (var(--range-dir,1) * var(--range-thumb-size) / 2)) 0 0 calc(100cqw * var(--range-fill))}}.range:disabled{cursor:not-allowed;opacity:.3}.select{border:var(--border) solid #0000;appearance:none;background-color:var(--color-base-100);vertical-align:middle;width:clamp(3rem,20rem,100%);height:var(--size);touch-action:manipulation;white-space:nowrap;text-overflow:ellipsis;box-shadow:0 1px var(--input-color) inset, 0 -1px oklch(100% 0 0 / calc(var(--depth) * .1)) inset;background-image:linear-gradient(45deg,#0000 50%,currentColor 50%),linear-gradient(135deg,currentColor 50%,#0000 50%);background-position:calc(100% - 20px) calc(1px + 50%),calc(100% - 16.1px) calc(1px + 50%);background-repeat:no-repeat;background-size:4px 4px,4px 4px;border-start-start-radius:var(--join-ss,var(--radius-field));border-start-end-radius:var(--join-se,var(--radius-field));border-end-end-radius:var(--join-ee,var(--radius-field));border-end-start-radius:var(--join-es,var(--radius-field));flex-shrink:1;align-items:center;gap:.375rem;padding-inline:.75rem 1.75rem;font-size:.875rem;display:inline-flex;position:relative;overflow:hidden}@supports (color:color-mix(in lab, red, red)){.select{box-shadow:0 1px color-mix(in oklab, var(--input-color) calc(var(--depth) * 10%), #0000) inset, 0 -1px oklch(100% 0 0 / calc(var(--depth) * .1)) inset}}.select{border-color:var(--input-color);--input-color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.select{--input-color:color-mix(in oklab, var(--color-base-content) 20%, #0000)}}.select{--size:calc(var(--size-field,.25rem) * 10)}@media (forced-colors:active){.select select:focus,.select select:focus-within{outline-offset:2px;outline:2px solid #0000}}.select:focus,.select:focus-within{--input-color:var(--color-base-content);box-shadow:0 1px var(--input-color)}@supports (color:color-mix(in lab, red, red)){.select:focus,.select:focus-within{box-shadow:0 1px color-mix(in oklab, var(--input-color) calc(var(--depth) * 10%), #0000)}}.select:focus,.select:focus-within{outline:2px solid var(--input-color);outline-offset:2px;isolation:isolate}.select:is(:disabled,[disabled]),fieldset:disabled .select{cursor:not-allowed;border-color:var(--color-base-200);background-color:var(--color-base-200);color:var(--color-base-content)}.select:has(>select[disabled]){cursor:not-allowed;border-color:var(--color-base-200);background-color:var(--color-base-200);color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.select:is(:disabled,[disabled]),fieldset:disabled .select{color:color-mix(in oklab, var(--color-base-content) 40%, transparent)}.select:has(>select[disabled]){color:color-mix(in oklab, var(--color-base-content) 40%, transparent)}}:is(.select:has(>select[disabled]),.select:is(:disabled,[disabled]),fieldset:disabled .select)::placeholder{color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){:is(.select:has(>select[disabled]),.select:is(:disabled,[disabled]),fieldset:disabled .select)::placeholder{color:color-mix(in oklab, var(--color-base-content) 20%, transparent)}}@supports (appearance:base-select){.select,.select select{appearance:base-select}:is(.select,.select select)::picker(select){appearance:base-select}}:is(.select,.select select) option{border-radius:var(--radius-field);white-space:normal;padding-block:.375rem;padding-inline:.75rem;transition-property:color,background-color;transition-duration:.2s;transition-timing-function:cubic-bezier(0,0,.2,1)}@supports (color:color-mix(in lab, red, red)){:is(.select,.select select) option:not(:disabled):hover,:is(.select,.select select) option:not(:disabled):focus-visible{background-color:color-mix(in oklab, var(--color-base-content) 10%, transparent)}}@media (forced-colors:active){:is(.select,.select select) option:not(:disabled):hover,:is(.select,.select select) option:not(:disabled):focus-visible{outline-offset:2px;outline:2px solid #0000}}.collapse-title{grid-row-start:1;grid-column-start:1;width:100%;min-height:1lh;padding:1rem;padding-inline-end:3rem;transition:background-color .2s ease-out;position:relative}.checkbox{border:var(--border) solid var(--input-color,var(--color-base-content))}@supports (color:color-mix(in lab, red, red)){.checkbox{border:var(--border) solid var(--input-color,color-mix(in oklab, var(--color-base-content) 20%, #0000))}}.checkbox{cursor:pointer;appearance:none;border-radius:var(--radius-selector);vertical-align:middle;color:var(--color-base-content);box-shadow:0 1px oklch(0% 0 0 / calc(var(--depth) * .1)) inset, 0 0 #0000 inset, 0 0 #0000;--size:calc(var(--size-selector,.25rem) * 6);width:var(--size);height:var(--size);background-size:auto, calc(var(--noise) * 100%);background-image:none, var(--fx-noise);flex-shrink:0;padding:.25rem;transition:background-color .2s,box-shadow .2s;display:inline-block;position:relative}.checkbox:before{--tw-content:"";content:var(--tw-content);opacity:0;clip-path:polygon(20% 100%,20% 80%,50% 80%,50% 80%,70% 80%,70% 100%);width:100%;height:100%;box-shadow:0px 3px 0 0px oklch(100% 0 0 / calc(var(--depth) * .1)) inset;background-color:currentColor;font-size:1rem;line-height:.75;transition:clip-path .3s .1s,opacity .1s .1s,rotate .3s .1s,translate .3s .1s;display:block;rotate:45deg}.checkbox:focus-visible{outline:2px solid var(--input-color,currentColor);outline-offset:2px}.checkbox:checked,.checkbox[aria-checked=true]{background-color:var(--input-color,#0000);box-shadow:0 0 #0000 inset, 0 8px 0 -4px oklch(100% 0 0 / calc(var(--depth) * .1)) inset, 0 1px oklch(0% 0 0 / calc(var(--depth) * .1))}:is(.checkbox:checked,.checkbox[aria-checked=true]):before{clip-path:polygon(20% 100%,20% 80%,50% 80%,50% 0%,70% 0%,70% 100%);opacity:1}@media (forced-colors:active){:is(.checkbox:checked,.checkbox[aria-checked=true]):before{--tw-content:"✔︎";clip-path:none;background-color:#0000;rotate:0deg}}@media print{:is(.checkbox:checked,.checkbox[aria-checked=true]):before{--tw-content:"✔︎";clip-path:none;background-color:#0000;rotate:0deg}}.checkbox:indeterminate{background-color:var(--input-color,var(--color-base-content))}@supports (color:color-mix(in lab, red, red)){.checkbox:indeterminate{background-color:var(--input-color,color-mix(in oklab, var(--color-base-content) 20%, #0000))}}.checkbox:indeterminate:before{opacity:1;clip-path:polygon(20% 100%,20% 80%,50% 80%,50% 80%,80% 80%,80% 100%);translate:0 -35%;rotate:0deg}@supports (color:color-mix(in lab, red, red)){.radio{border:var(--border) solid var(--input-color,color-mix(in srgb, currentColor 20%, #0000))}}@media (prefers-reduced-motion:no-preference){.radio:checked,.radio[aria-checked=true]{animation:.2s ease-out radio}}@media (forced-colors:active){:is(.radio:checked,.radio[aria-checked=true]):before{outline-style:var(--tw-outline-style);outline-offset:calc(1px * -1);outline-width:1px}}@media print{:is(.radio:checked,.radio[aria-checked=true]):before{outline-offset:-1rem;outline:.25rem solid}}@supports (color:color-mix(in lab, red, red)){.progress{background-color:color-mix(in oklab, currentcolor 20%, transparent)}}@media (prefers-reduced-motion:no-preference){.progress:indeterminate{animation:5s ease-in-out infinite progress}}@supports ((-moz-appearance:none)){.progress:indeterminate::-moz-progress-bar{background-color:#0000}@media (prefers-reduced-motion:no-preference){.progress:indeterminate::-moz-progress-bar{background-image:repeating-linear-gradient(90deg,currentColor -1% 10%,#0000 10% 90%);background-position-x:15%;background-size:200%;animation:5s ease-in-out infinite progress}}.progress::-moz-progress-bar{border-radius:var(--radius-box);background-color:currentColor}}@supports ((-webkit-appearance:none)){.progress::-webkit-progress-bar{border-radius:var(--radius-box);background-color:#0000}.progress::-webkit-progress-value{border-radius:var(--radius-box);background-color:currentColor}}.modal-backdrop{color:#0000;z-index:-1;grid-row-start:1;grid-column-start:1;place-self:stretch stretch;display:grid}.modal-backdrop button{cursor:pointer}@supports (color:color-mix(in lab, red, red)){.label{color:color-mix(in oklab, currentcolor 60%, transparent)}.label:is(.input>*,.select>*):first-child{border-inline-end:var(--border) solid color-mix(in oklab, currentColor 10%, #0000)}.label:is(.input>*,.select>*):last-child{border-inline-start:var(--border) solid color-mix(in oklab, currentColor 10%, #0000)}}.modal-action{justify-content:flex-end;gap:.5rem;margin-top:1.5rem;display:flex}@supports (color:color-mix(in lab, red, red)){.status{background-color:color-mix(in oklab, var(--color-base-content) 20%, transparent);color:color-mix(in oklab, var(--color-black) 30%, transparent);box-shadow:0 2px 3px -1px color-mix(in oklab, currentColor calc(var(--depth) * 100%), #0000)}}.tabs{--tabs-height:auto;--tabs-direction:row;--tab-height:calc(var(--size-field,.25rem) * 10);height:var(--tabs-height);flex-wrap:wrap;flex-direction:var(--tabs-direction);display:flex}@supports (color:color-mix(in lab, red, red)){.alert{box-shadow:0 3px 0 -2px oklch(100% 0 0 / calc(var(--depth) * .08)) inset, 0 1px color-mix(in oklab, color-mix(in oklab, #000 20%, var(--alert-color,var(--color-base-200))) calc(var(--depth) * 20%), #0000), 0 4px 3px -2px oklch(0% 0 0 / calc(var(--depth) * .08))}}@media (forced-colors:active){.link:focus{outline-offset:2px;outline:2px solid #0000}}.btn-error{--btn-color:var(--color-error);--btn-fg:var(--color-error-content)}.btn-primary{--btn-color:var(--color-primary);--btn-fg:var(--color-primary-content)}.modal{pointer-events:none;visibility:hidden;width:100%;max-width:none;height:100%;max-height:none;color:inherit;transition:overlay .3s allow-discrete, visibility .3s allow-discrete, background-color .3s ease-out, opacity .1s ease-out;overscroll-behavior:contain;z-index:999;scrollbar-gutter:auto;background-color:#0000;place-items:center;margin:0;padding:0;display:grid;position:fixed;inset:0;overflow:clip}.modal::backdrop{display:none}.modal[popover]{color:inherit;background:0 0;border:0;max-width:none;max-height:none;margin:0;padding:0;inset:0}.modal[popover]::backdrop{background-color:oklch(0% 0 0/.4);transition:background-color .3s ease-out}.tooltip{--tt-bg:var(--color-neutral);--tt-off:calc(100% + .5rem);--tt-tail:calc(100% + 1px + .25rem);--tt-tail-off:.5rem;display:inline-block;position:relative}.tooltip>.tooltip-content,.tooltip[data-tip]:before{border-radius:var(--radius-field);text-align:center;white-space:normal;max-width:20rem;color:var(--color-neutral-content);opacity:0;background-color:var(--tt-bg);pointer-events:none;z-index:2;--tw-content:attr(data-tip);content:var(--tw-content);width:max-content;padding-block:.25rem;padding-inline:.5rem;font-size:.875rem;line-height:1.25;position:absolute}.tooltip:after{opacity:0;background-color:var(--tt-bg);content:"";pointer-events:none;--mask-tooltip:url("data:image/svg+xml,%3Csvg width='10' height='4' viewBox='0 0 8 4' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M0.500009 1C3.5 1 3.00001 4 5.00001 4C7 4 6.5 1 9.5 1C10 1 10 0.499897 10 0H0C-1.99338e-08 0.5 0 1 0.500009 1Z' fill='black'/%3E%3C/svg%3E%0A");width:.625rem;height:.25rem;-webkit-mask-position:-1px 0;mask-position:-1px 0;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat;-webkit-mask-image:var(--mask-tooltip);-webkit-mask-image:var(--mask-tooltip);-webkit-mask-image:var(--mask-tooltip);-webkit-mask-image:var(--mask-tooltip);mask-image:var(--mask-tooltip);display:block;position:absolute}@media (prefers-reduced-motion:no-preference){.tooltip>.tooltip-content,.tooltip[data-tip]:before,.tooltip:after{transition:opacity .2s cubic-bezier(.4,0,.2,1) 75ms,transform .2s cubic-bezier(.4,0,.2,1) 75ms}}:is(.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))).tooltip-open,.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))):hover,.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))):has(:focus-visible))>.tooltip-content,:is(.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))).tooltip-open,.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))):hover,.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))):has(:focus-visible))[data-tip]:before,:is(.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))).tooltip-open,.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))):hover,.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))):has(:focus-visible)):after{opacity:1;--tt-pos:0rem}@media (prefers-reduced-motion:no-preference){:is(.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))).tooltip-open,.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))):hover,.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))):has(:focus-visible))>.tooltip-content,:is(.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))).tooltip-open,.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))):hover,.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))):has(:focus-visible))[data-tip]:before,:is(.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))).tooltip-open,.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))):hover,.tooltip:is([data-tip]:not([data-tip=""]),:has(.tooltip-content:not(:empty))):has(:focus-visible)):after{transition:opacity .2s cubic-bezier(.4,0,.2,1),transform .2s cubic-bezier(.4,0,.2,1)}}.tab:is(.tabs>.tab){cursor:pointer;appearance:none;text-align:center;webkit-user-select:none;-webkit-user-select:none;user-select:none;flex-wrap:wrap;justify-content:center;align-items:center;display:inline-flex;position:relative}@media (hover:hover){.tab:is(.tabs>.tab):hover{color:var(--color-base-content)}}.tab:is(.tabs>.tab){--tab-p:.75rem;--tab-bg:var(--color-base-100);--tab-border-color:var(--color-base-300);--tab-radius-ss:0;--tab-radius-se:0;--tab-radius-es:0;--tab-radius-ee:0;--tab-order:0;--tab-radius-min:calc(.75rem - var(--border));--tab-radius-limit:min(var(--radius-field), var(--tab-radius-min));--tab-radius-grad:#0000 calc(69% - var(--border)), var(--tab-border-color) calc(69% - var(--border) + .25px), var(--tab-border-color) 69%, var(--tab-bg) calc(69% + .25px);order:var(--tab-order);height:var(--tab-height);padding-inline:var(--tab-p);border-color:#0000;font-size:.875rem}.tab:is(.tabs>.tab):is(input[type=radio]){min-width:fit-content}.tab:is(.tabs>.tab):is(input[type=radio]):after{--tw-content:attr(aria-label);content:var(--tw-content)}.tab:is(.tabs>.tab):is(label){position:relative}.tab:is(.tabs>.tab):is(label) input{cursor:pointer;appearance:none;opacity:0;position:absolute;inset:0}:is(.tab:is(.tabs>.tab):checked,.tab:is(.tabs>.tab):is(label:has(:checked)),.tab:is(.tabs>.tab):is(.tab-active,[aria-selected=true],[aria-current=true],[aria-current=page]))+.tab-content{display:block}.tab:is(.tabs>.tab):not(:checked,label:has(:checked),:hover,.tab-active,[aria-selected=true],[aria-current=true],[aria-current=page]){color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.tab:is(.tabs>.tab):not(:checked,label:has(:checked),:hover,.tab-active,[aria-selected=true],[aria-current=true],[aria-current=page]){color:color-mix(in oklab, var(--color-base-content) 50%, transparent)}}.tab:is(.tabs>.tab):not(input):empty{cursor:default;flex-grow:1}.tab:is(.tabs>.tab):focus{--tw-outline-style:none;outline-style:none}@media (forced-colors:active){.tab:is(.tabs>.tab):focus{outline-offset:2px;outline:2px solid #0000}}.tab:is(.tabs>.tab):focus-visible,.tab:is(.tabs>.tab):is(label:has(:checked:focus-visible)){outline-offset:-5px;outline:2px solid}.tab:is(.tabs>.tab)[disabled]{pointer-events:none;opacity:.4}.menu{--menu-active-fg:var(--color-neutral-content);--menu-active-bg:var(--color-neutral);flex-flow:column wrap;width:fit-content;padding:.5rem;font-size:.875rem;display:flex}.menu :where(li ul,li menu){white-space:nowrap;margin-inline-start:1rem;padding-inline-start:.5rem;position:relative}.menu :where(li ul,li menu):before{background-color:var(--color-base-content);opacity:.1;width:var(--border);content:"";inset-inline-start:0;position:absolute;top:.75rem;bottom:.75rem}.menu :where(li>.menu-dropdown:not(.menu-dropdown-show)){display:none}.menu :where(li:not(.menu-title)>:not(ul,menu,details,.menu-title,.btn)),.menu :where(li:not(.menu-title)>details>summary:not(.menu-title)){border-radius:var(--radius-field);text-align:start;-webkit-user-select:none;user-select:none;grid-auto-columns:minmax(auto,max-content) auto max-content;grid-auto-flow:column;align-content:flex-start;align-items:center;gap:.5rem;padding-block:.375rem;padding-inline:.75rem;transition-property:color,background-color,box-shadow;transition-duration:.2s;transition-timing-function:cubic-bezier(0,0,.2,1);display:grid}.menu :where(li>details>summary){--tw-outline-style:none;outline-style:none}@media (forced-colors:active){.menu :where(li>details>summary){outline-offset:2px;outline:2px solid #0000}}.menu :where(li>details>summary)::-webkit-details-marker{display:none}:is(.menu :where(li>details>summary),.menu :where(li>.menu-dropdown-toggle)):after{content:"";transform-origin:50%;pointer-events:none;justify-self:flex-end;width:.375rem;height:.375rem;transition-property:rotate,translate;transition-duration:.2s;display:block;translate:0 -1px;rotate:-135deg;box-shadow:inset 2px 2px}.menu details{interpolate-size:allow-keywords;overflow:hidden}.menu details::details-content{block-size:0}@media (prefers-reduced-motion:no-preference){.menu details::details-content{transition-behavior:allow-discrete;transition-property:block-size,content-visibility;transition-duration:.2s;transition-timing-function:cubic-bezier(0,0,.2,1)}}.menu details[open]::details-content{block-size:auto}.menu :where(li>details[open]>summary):after,.menu :where(li>.menu-dropdown-toggle.menu-dropdown-show):after{translate:0 1px;rotate:45deg}.menu :where(li:not(.menu-title,.disabled)>:not(ul,menu,details,.menu-title),li:not(.menu-title,.disabled)>details>summary:not(.menu-title)):not(.menu-active,:active,.btn).menu-focus,.menu :where(li:not(.menu-title,.disabled)>:not(ul,menu,details,.menu-title),li:not(.menu-title,.disabled)>details>summary:not(.menu-title)):not(.menu-active,:active,.btn):focus-visible{cursor:pointer;background-color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.menu :where(li:not(.menu-title,.disabled)>:not(ul,menu,details,.menu-title),li:not(.menu-title,.disabled)>details>summary:not(.menu-title)):not(.menu-active,:active,.btn).menu-focus,.menu :where(li:not(.menu-title,.disabled)>:not(ul,menu,details,.menu-title),li:not(.menu-title,.disabled)>details>summary:not(.menu-title)):not(.menu-active,:active,.btn):focus-visible{background-color:color-mix(in oklab, var(--color-base-content) 10%, transparent)}}.menu :where(li:not(.menu-title,.disabled)>:not(ul,menu,details,.menu-title),li:not(.menu-title,.disabled)>details>summary:not(.menu-title)):not(.menu-active,:active,.btn).menu-focus,.menu :where(li:not(.menu-title,.disabled)>:not(ul,menu,details,.menu-title),li:not(.menu-title,.disabled)>details>summary:not(.menu-title)):not(.menu-active,:active,.btn):focus-visible{color:var(--color-base-content);--tw-outline-style:none;outline-style:none}@media (forced-colors:active){.menu :where(li:not(.menu-title,.disabled)>:not(ul,menu,details,.menu-title),li:not(.menu-title,.disabled)>details>summary:not(.menu-title)):not(.menu-active,:active,.btn).menu-focus,.menu :where(li:not(.menu-title,.disabled)>:not(ul,menu,details,.menu-title),li:not(.menu-title,.disabled)>details>summary:not(.menu-title)):not(.menu-active,:active,.btn):focus-visible{outline-offset:2px;outline:2px solid #0000}}.menu :where(li:not(.menu-title,.disabled)>:not(ul,menu,details,.menu-title):not(.menu-active,:active,.btn):hover,li:not(.menu-title,.disabled)>details>summary:not(.menu-title):not(.menu-active,:active,.btn):hover){cursor:pointer;background-color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.menu :where(li:not(.menu-title,.disabled)>:not(ul,menu,details,.menu-title):not(.menu-active,:active,.btn):hover,li:not(.menu-title,.disabled)>details>summary:not(.menu-title):not(.menu-active,:active,.btn):hover){background-color:color-mix(in oklab, var(--color-base-content) 10%, transparent)}}.menu :where(li:not(.menu-title,.disabled)>:not(ul,menu,details,.menu-title):not(.menu-active,:active,.btn):hover,li:not(.menu-title,.disabled)>details>summary:not(.menu-title):not(.menu-active,:active,.btn):hover){--tw-outline-style:none;outline-style:none}@media (forced-colors:active){.menu :where(li:not(.menu-title,.disabled)>:not(ul,menu,details,.menu-title):not(.menu-active,:active,.btn):hover,li:not(.menu-title,.disabled)>details>summary:not(.menu-title):not(.menu-active,:active,.btn):hover){outline-offset:2px;outline:2px solid #0000}}.menu :where(li:not(.menu-title,.disabled)>:not(ul,menu,details,.menu-title):not(.menu-active,:active,.btn):hover,li:not(.menu-title,.disabled)>details>summary:not(.menu-title):not(.menu-active,:active,.btn):hover){box-shadow:inset 0 1px oklch(0% 0 0/.01),inset 0 -1px oklch(100% 0 0/.01)}.menu :where(li:empty){background-color:var(--color-base-content);opacity:.1;height:1px;margin:.5rem 1rem}.menu :where(li){flex-flow:column wrap;flex-shrink:0;align-items:stretch;display:flex;position:relative}.menu :where(li) .badge{justify-self:flex-end}.menu :where(li)>:not(ul,menu,.menu-title,details,.btn):active,.menu :where(li)>:not(ul,menu,.menu-title,details,.btn).menu-active,.menu :where(li)>details>summary:active{--tw-outline-style:none;outline-style:none}@media (forced-colors:active){.menu :where(li)>:not(ul,menu,.menu-title,details,.btn):active,.menu :where(li)>:not(ul,menu,.menu-title,details,.btn).menu-active,.menu :where(li)>details>summary:active{outline-offset:2px;outline:2px solid #0000}}.menu :where(li)>:not(ul,menu,.menu-title,details,.btn):active,.menu :where(li)>:not(ul,menu,.menu-title,details,.btn).menu-active,.menu :where(li)>details>summary:active{color:var(--menu-active-fg);background-color:var(--menu-active-bg);background-size:auto, calc(var(--noise) * 100%);background-image:none, var(--fx-noise)}:is(.menu :where(li)>:not(ul,menu,.menu-title,details,.btn):active,.menu :where(li)>:not(ul,menu,.menu-title,details,.btn).menu-active,.menu :where(li)>details>summary:active):not(:is(.menu :where(li)>:not(ul,menu,.menu-title,details,.btn):active,.menu :where(li)>:not(ul,menu,.menu-title,details,.btn).menu-active,.menu :where(li)>details>summary:active):active){box-shadow:0 2px calc(var(--depth) * 3px) -2px var(--menu-active-bg)}.menu :where(li).menu-disabled,.menu :where(li) [disabled]{pointer-events:none;color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.menu :where(li).menu-disabled,.menu :where(li) [disabled]{color:color-mix(in oklab, var(--color-base-content) 20%, transparent)}}.menu .dropdown:focus-within .menu-dropdown-toggle:after{translate:0 1px;rotate:45deg}.menu .dropdown-content{margin-top:.5rem;padding:.5rem}.menu .dropdown-content:before{display:none}.dropdown{position-area:var(--anchor-v,bottom) var(--anchor-h,span-right);display:inline-block;position:relative}.dropdown>:not(:has(~[class*=dropdown-content])):focus{--tw-outline-style:none;outline-style:none}@media (forced-colors:active){.dropdown>:not(:has(~[class*=dropdown-content])):focus{outline-offset:2px;outline:2px solid #0000}}.dropdown .dropdown-content{position:absolute}.dropdown.dropdown-close .dropdown-content,.dropdown:not(details,.dropdown-open,.dropdown-hover:hover,:focus-within) .dropdown-content,.dropdown.dropdown-hover:not(:hover) [tabindex]:first-child:focus:not(:focus-visible)~.dropdown-content{transform-origin:top;opacity:0;display:none;scale:.95}.dropdown[popover],.dropdown .dropdown-content{z-index:999}@media (prefers-reduced-motion:no-preference){.dropdown[popover],.dropdown .dropdown-content{transition-behavior:allow-discrete;transition-property:opacity,scale,display,overlay;transition-duration:.2s;transition-timing-function:cubic-bezier(.4,0,.2,1);animation:.2s dropdown}}@starting-style{.dropdown[popover],.dropdown .dropdown-content{opacity:0;scale:.95}}:is(.dropdown:not(.dropdown-close).dropdown-open,.dropdown:not(.dropdown-close):not(.dropdown-hover):focus,.dropdown:not(.dropdown-close):focus-within)>[tabindex]:first-child{pointer-events:none}:is(.dropdown:not(.dropdown-close).dropdown-open,.dropdown:not(.dropdown-close):not(.dropdown-hover):focus,.dropdown:not(.dropdown-close):focus-within) .dropdown-content,.dropdown:not(.dropdown-close).dropdown-hover:hover .dropdown-content{opacity:1;scale:1}.dropdown:is(details){overflow:revert-layer}.dropdown:is(details) summary::-webkit-details-marker{display:none}.dropdown:where([popover]){background:0 0}.dropdown[popover]{color:inherit;position:fixed}@supports not (position-area:bottom){.dropdown[popover]{margin:auto}.dropdown[popover].dropdown-close{transform-origin:top;opacity:0;display:none;scale:.95}.dropdown[popover].dropdown-open:not(:popover-open){transform-origin:top;opacity:0;display:none;scale:.95}.dropdown[popover]::backdrop{background-color:oklab(0% none none/.3)}}:is(.dropdown[popover].dropdown-close,.dropdown[popover]:not(.dropdown-open,:popover-open)){transform-origin:top;opacity:0;display:none;scale:.95}:where(.btn){width:unset}.btn{--size:calc(var(--size-field,.25rem) * 10);--btn-p:1rem;--btn-fg:var(--color-base-content);cursor:pointer;text-align:center;vertical-align:middle;outline-offset:2px;webkit-user-select:none;-webkit-user-select:none;user-select:none;border-width:var(--border);touch-action:manipulation;--btn-bg:var(--btn-color,var(--color-base-200));--btn-border:var(--btn-color,var(--color-base-200));border-start-start-radius:var(--join-ss,var(--radius-field));border-start-end-radius:var(--join-se,var(--radius-field));border-end-end-radius:var(--join-ee,var(--radius-field));border-end-start-radius:var(--join-es,var(--radius-field));flex-wrap:nowrap;flex-shrink:0;justify-content:center;align-items:center;gap:.375rem;font-weight:600;transition-property:color,background-color,border-color,box-shadow,transform;transition-duration:.2s;transition-timing-function:cubic-bezier(0,0,.2,1);display:inline-flex}@supports (color:color-mix(in lab, red, red)){.btn{--btn-border:color-mix(in oklab, var(--btn-color,var(--color-base-200)), #000 calc(var(--depth) * 5%))}}.btn{--btn-soft-bg:initial;--btn-shadow:0 3px 2px -2px var(--btn-bg), 0 4px 3px -2px var(--btn-bg)}@supports (color:color-mix(in lab, red, red)){.btn{--btn-shadow:0 3px 2px -2px color-mix(in oklab, var(--btn-bg) calc(var(--depth) * 30%), #0000), 0 4px 3px -2px color-mix(in oklab, var(--btn-bg) calc(var(--depth) * 30%), #0000)}}.btn{--btn-inset:0 .5px 0 .5px oklch(100% 0 0 / calc(var(--depth) * 6%));height:var(--size);padding-inline:var(--btn-p);font-size:var(--fontsize,.875rem);background-color:var(--btn-bg);color:var(--btn-fg);border-color:var(--btn-border);border-style:var(--btn-border-style,solid);outline-color:var(--btn-color,var(--color-base-content));--tw-prose-links:var(--btn-fg);background-image:none, var(--fx-noise);background-size:auto, calc(var(--noise,0) * 100%);text-shadow:0 .5px oklch(100% 0 0 / calc(var(--depth) * .15));box-shadow:var(--btn-inset) inset, var(--btn-shadow)}.btn:is([type=checkbox],[type=radio]){appearance:none}.btn:is([type=checkbox],[type=radio])[aria-label]:after{--tw-content:attr(aria-label);content:var(--tw-content)}.loading{pointer-events:none;aspect-ratio:1;vertical-align:middle;width:calc(var(--size-selector,.25rem) * 6);background-color:currentColor;display:inline-block;-webkit-mask-image:url("data:image/svg+xml,%3Csvg width='24' height='24' stroke='black' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg transform-origin='center'%3E%3Ccircle cx='12' cy='12' r='9.5' fill='none' stroke-width='3' stroke-linecap='round'%3E%3CanimateTransform attributeName='transform' type='rotate' from='0 12 12' to='360 12 12' dur='8s' repeatCount='indefinite'/%3E%3Canimate attributeName='stroke-dasharray' values='0,150;42,150;42,150' keyTimes='0;0.475;1' dur='6s' repeatCount='indefinite'/%3E%3Canimate attributeName='stroke-dashoffset' values='0;-16;-59' keyTimes='0;0.475;1' dur='6s' repeatCount='indefinite'/%3E%3C/circle%3E%3C/g%3E%3C/svg%3E");mask-image:url("data:image/svg+xml,%3Csvg width='24' height='24' stroke='black' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg transform-origin='center'%3E%3Ccircle cx='12' cy='12' r='9.5' fill='none' stroke-width='3' stroke-linecap='round'%3E%3CanimateTransform attributeName='transform' type='rotate' from='0 12 12' to='360 12 12' dur='8s' repeatCount='indefinite'/%3E%3Canimate attributeName='stroke-dasharray' values='0,150;42,150;42,150' keyTimes='0;0.475;1' dur='6s' repeatCount='indefinite'/%3E%3Canimate attributeName='stroke-dashoffset' values='0;-16;-59' keyTimes='0;0.475;1' dur='6s' repeatCount='indefinite'/%3E%3C/circle%3E%3C/g%3E%3C/svg%3E");-webkit-mask-position:50%;mask-position:50%;-webkit-mask-size:100%;mask-size:100%;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat}@media (prefers-reduced-motion:no-preference){.loading{-webkit-mask-image:url("data:image/svg+xml,%3Csvg width='24' height='24' stroke='black' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg transform-origin='center'%3E%3Ccircle cx='12' cy='12' r='9.5' fill='none' stroke-width='3' stroke-linecap='round'%3E%3CanimateTransform attributeName='transform' type='rotate' from='0 12 12' to='360 12 12' dur='2s' repeatCount='indefinite'/%3E%3Canimate attributeName='stroke-dasharray' values='0,150;42,150;42,150' keyTimes='0;0.475;1' dur='1.5s' repeatCount='indefinite'/%3E%3Canimate attributeName='stroke-dashoffset' values='0;-16;-59' keyTimes='0;0.475;1' dur='1.5s' repeatCount='indefinite'/%3E%3C/circle%3E%3C/g%3E%3C/svg%3E");mask-image:url("data:image/svg+xml,%3Csvg width='24' height='24' stroke='black' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg transform-origin='center'%3E%3Ccircle cx='12' cy='12' r='9.5' fill='none' stroke-width='3' stroke-linecap='round'%3E%3CanimateTransform attributeName='transform' type='rotate' from='0 12 12' to='360 12 12' dur='2s' repeatCount='indefinite'/%3E%3Canimate attributeName='stroke-dasharray' values='0,150;42,150;42,150' keyTimes='0;0.475;1' dur='1.5s' repeatCount='indefinite'/%3E%3Canimate attributeName='stroke-dashoffset' values='0;-16;-59' keyTimes='0;0.475;1' dur='1.5s' repeatCount='indefinite'/%3E%3C/circle%3E%3C/g%3E%3C/svg%3E")}}.filter{flex-wrap:wrap;display:flex}.filter [type=radio]{width:auto}.filter input{opacity:1;transition:visibility .1s allow-discrete, margin .1s, opacity .3s, padding .3s, border-width .1s;overflow:hidden;scale:1}.filter input.filter-reset{aspect-ratio:1}.filter input.filter-reset:after{--tw-content:"×";content:var(--tw-content)}.filter>input:not(:last-child),.filter>:not(:last-child) input{margin-inline-end:.25rem}.list{flex-direction:column;font-size:.875rem;display:flex}.list .list-row{--list-grid-cols:minmax(0, auto) 1fr;border-radius:var(--radius-box);word-break:break-word;grid-auto-flow:column;grid-template-columns:var(--list-grid-cols);gap:1rem;padding:1rem;display:grid;position:relative}:is(.list>:not(:last-child).list-row,.list>:not(:last-child) .list-row):after{content:"";border-bottom:var(--border) solid;inset-inline:var(--radius-box);border-color:var(--color-base-content);position:absolute;bottom:0}@supports (color:color-mix(in lab, red, red)){:is(.list>:not(:last-child).list-row,.list>:not(:last-child) .list-row):after{border-color:color-mix(in oklab, var(--color-base-content) 5%, transparent)}}.toast{translate:var(--toast-x,0) var(--toast-y,0);inset-inline:auto 1rem;background-color:#0000;flex-direction:column;gap:.5rem;width:max-content;max-width:calc(100vw - 2rem);display:flex;position:fixed;top:auto;bottom:1rem}@media (prefers-reduced-motion:no-preference){.toast>*{animation:.25s ease-out toast}}.toggle{border:var(--border) solid currentColor;color:var(--input-color);cursor:pointer;appearance:none;vertical-align:middle;webkit-user-select:none;-webkit-user-select:none;user-select:none;--radius-selector-max:calc(var(--radius-selector) + var(--radius-selector) + var(--radius-selector));border-radius:calc(var(--radius-selector) + min(var(--toggle-p), var(--radius-selector-max)) + min(var(--border), var(--radius-selector-max)));padding:var(--toggle-p);flex-shrink:0;grid-template-columns:0fr 1fr 1fr;place-content:center;display:inline-grid;position:relative;box-shadow:inset 0 1px}@supports (color:color-mix(in lab, red, red)){.toggle{box-shadow:0 1px color-mix(in oklab, currentColor calc(var(--depth) * 10%), #0000) inset}}.toggle{--input-color:var(--color-base-content);transition:color .3s,grid-template-columns .2s}@supports (color:color-mix(in lab, red, red)){.toggle{--input-color:color-mix(in oklab, var(--color-base-content) 50%, #0000)}}.toggle{--toggle-p:calc(var(--size) * .125);--size:calc(var(--size-selector,.25rem) * 6);width:calc((var(--size) * 2) - (var(--border) + var(--toggle-p)) * 2);height:var(--size)}.toggle>*{z-index:1;cursor:pointer;appearance:none;background-color:#0000;border:none;grid-column:2/span 1;grid-row-start:1;height:100%;padding:.125rem;transition:opacity .2s,rotate .4s}.toggle>:focus{--tw-outline-style:none;outline-style:none}@media (forced-colors:active){.toggle>:focus{outline-offset:2px;outline:2px solid #0000}}.toggle>:nth-child(2){color:var(--color-base-100);rotate:0deg}.toggle>:nth-child(3){color:var(--color-base-100);opacity:0;rotate:-15deg}.toggle:has(:checked)>:nth-child(2){opacity:0;rotate:15deg}.toggle:has(:checked)>:nth-child(3){opacity:1;rotate:0deg}.toggle:before{aspect-ratio:1;border-radius:var(--radius-selector);--tw-content:"";content:var(--tw-content);width:100%;height:100%;box-shadow:0 -1px oklch(0% 0 0 / calc(var(--depth) * .1)) inset, 0 8px 0 -4px oklch(100% 0 0 / calc(var(--depth) * .1)) inset, 0 1px currentColor;background-color:currentColor;grid-row-start:1;grid-column-start:2;transition:background-color .1s,translate .2s,inset-inline-start .2s;position:relative;inset-inline-start:0;translate:0}@supports (color:color-mix(in lab, red, red)){.toggle:before{box-shadow:0 -1px oklch(0% 0 0 / calc(var(--depth) * .1)) inset, 0 8px 0 -4px oklch(100% 0 0 / calc(var(--depth) * .1)) inset, 0 1px color-mix(in oklab, currentColor calc(var(--depth) * 10%), #0000)}}.toggle:before{background-size:auto, calc(var(--noise) * 100%);background-image:none, var(--fx-noise)}@media (forced-colors:active){.toggle:before{outline-style:var(--tw-outline-style);outline-offset:calc(1px * -1);outline-width:1px}}@media print{.toggle:before{outline-offset:-1rem;outline:.25rem solid}}.toggle:focus-visible{outline-offset:2px;outline:2px solid}.toggle:has(:focus-visible){outline-offset:2px;outline:2px solid}.toggle:checked,.toggle[aria-checked=true]{background-color:var(--color-base-100);--input-color:var(--color-base-content);grid-template-columns:1fr 1fr 0fr}.toggle:has(>input:checked){background-color:var(--color-base-100);--input-color:var(--color-base-content);grid-template-columns:1fr 1fr 0fr}:is(.toggle:checked,.toggle[aria-checked=true],.toggle:has(>input:checked)):before{background-color:currentColor}@starting-style{:is(.toggle:checked,.toggle[aria-checked=true],.toggle:has(>input:checked)):before{opacity:0}}.toggle:indeterminate{grid-template-columns:.5fr 1fr .5fr}.toggle:disabled{cursor:not-allowed;opacity:.3}.toggle:disabled:before{border:var(--border) solid currentColor;background-color:#0000}.input{appearance:none;background-color:var(--color-base-100);vertical-align:middle;white-space:nowrap;--size:calc(var(--size-field,.25rem) * var(--in-size-mul));--input-color:var(--color-base-content);flex-shrink:1;align-items:center;gap:.5rem;padding-inline:.75rem;display:inline-flex;position:relative}@supports (color:color-mix(in lab, red, red)){.input{--input-color:color-mix(in oklab, var(--color-base-content) 20%, #0000)}}.input{cursor:text;width:clamp(3rem,20rem,100%);height:var(--size);font-size:max(var(--font-size,0rem), var(--font-size-min));touch-action:manipulation;border:var(--border) solid var(--input-color,#0000);box-shadow:0 1px var(--input-color) inset, 0 -1px oklch(100% 0 0 / calc(var(--depth) * .1)) inset;border-start-start-radius:var(--join-ss,var(--radius-field));border-start-end-radius:var(--join-se,var(--radius-field));border-end-end-radius:var(--join-ee,var(--radius-field));border-end-start-radius:var(--join-es,var(--radius-field))}@supports (color:color-mix(in lab, red, red)){.input{box-shadow:0 1px color-mix(in oklab, var(--input-color) calc(var(--depth) * 10%), #0000) inset, 0 -1px oklch(100% 0 0 / calc(var(--depth) * .1)) inset}}.input input{appearance:none;background-color:#0000;border:none;width:100%;height:100%}.input input::placeholder{color:var(--color-base-content);opacity:.5}.input input:focus,.input input:focus-within{--tw-outline-style:none;outline-style:none}@media (forced-colors:active){.input input:focus,.input input:focus-within{outline-offset:2px;outline:2px solid #0000}}.input input::-webkit-calendar-picker-indicator{inset-inline-end:-.15em}.input::-webkit-inner-spin-button{margin-inline-end:-10px}.input::-webkit-calendar-picker-indicator{inset-inline-end:.75em}input.input,.input input{display:inline-flex;position:relative}:is(input.input,.input input)[type=url],:is(input.input,.input input)[type=email]{text-align:left}:is(input.input,.input input)::-webkit-datetime-edit{min-height:100%;text-align:inherit;align-items:center;display:grid}:is(input.input,.input input)::-webkit-date-and-time-value{min-height:100%;text-align:inherit;align-items:center;display:grid}:is(input.input,.input input)::-webkit-inner-spin-button{margin-block:calc(.25rem * var(--spin-my))}:is(input.input,.input input)::-webkit-calendar-picker-indicator{cursor:pointer;width:1em;height:1em;position:absolute}:is(input.input,.input input)::-webkit-color-swatch-wrapper{padding-block:.25rem}.input:focus,.input:focus-within{--input-color:var(--color-base-content);box-shadow:0 1px var(--input-color)}@supports (color:color-mix(in lab, red, red)){.input:focus,.input:focus-within{box-shadow:0 1px color-mix(in oklab, var(--input-color) calc(var(--depth) * 10%), #0000)}}.input:focus,.input:focus-within{outline:2px solid var(--input-color);outline-offset:2px;isolation:isolate}@media (pointer:coarse){@supports (-webkit-touch-callout:none){.input:focus,.input:focus-within{--font-size:1rem}}}.input:is(:disabled,[disabled]),fieldset:disabled .input{cursor:not-allowed;border-color:var(--color-base-200);background-color:var(--color-base-200)}.input:has(>input[disabled]){cursor:not-allowed;border-color:var(--color-base-200);background-color:var(--color-base-200)}:is(.input:has(>input[disabled]),.input:is(:disabled,[disabled]),fieldset:disabled .input):is(input),:is(.input:has(>input[disabled]),.input:is(:disabled,[disabled]),fieldset:disabled .input) :is(input){color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){:is(.input:has(>input[disabled]),.input:is(:disabled,[disabled]),fieldset:disabled .input):is(input),:is(.input:has(>input[disabled]),.input:is(:disabled,[disabled]),fieldset:disabled .input) :is(input){color:color-mix(in oklab, var(--color-base-content) 40%, transparent)}}.input:is(:disabled,[disabled]),fieldset:disabled .input{box-shadow:none}.input:has(>input[disabled]){box-shadow:none}:is(.input:has(>input[disabled]),.input:is(:disabled,[disabled]),fieldset:disabled .input)::placeholder,:is(.input:has(>input[disabled]),.input:is(:disabled,[disabled]),fieldset:disabled .input) ::placeholder{color:var(--color-base-content);opacity:.2}.input:has(>input[disabled])>input[disabled]{cursor:not-allowed}.steps{counter-reset:step;grid-auto-columns:1fr;grid-auto-flow:column;display:inline-grid;overflow:auto hidden}.steps .step{text-align:center;--step-bg:var(--color-base-300);--step-fg:var(--color-base-content);grid-template-rows:40px 1fr;grid-template-columns:auto;place-items:center;min-width:4rem;display:grid}.steps .step:before{width:100%;height:.5rem;color:var(--step-bg);background-color:var(--step-bg);content:"";border:1px solid;grid-row-start:1;grid-column-start:1;margin-inline-start:-100%;top:0}.steps .step>.step-icon{--tw-content:counter(step);content:var(--tw-content);counter-increment:step;z-index:1;color:var(--step-fg);background-color:var(--step-bg);border:1px solid var(--step-bg);border-radius:3.40282e38px;grid-row-start:1;grid-column-start:1;place-self:center;place-items:center;width:2rem;height:2rem;display:grid;position:relative}.steps .step:not(:has(.step-icon)):after{--tw-content:counter(step);content:var(--tw-content);counter-increment:step;z-index:1;color:var(--step-fg);background-color:var(--step-bg);border:1px solid var(--step-bg);border-radius:3.40282e38px;grid-row-start:1;grid-column-start:1;place-self:center;place-items:center;width:2rem;height:2rem;display:grid;position:relative}.steps .step:first-child:before{--tw-content:none;content:var(--tw-content)}.steps .step[data-content]:after{--tw-content:attr(data-content);content:var(--tw-content)}.select{appearance:none;background-color:var(--color-base-100);vertical-align:middle;--size:calc(var(--size-field,.25rem) * var(--sl-size-mul));--input-color:var(--color-base-content);flex-shrink:1;align-items:center;gap:.375rem;padding-inline:.75rem 1.75rem;display:inline-flex;position:relative}@supports (color:color-mix(in lab, red, red)){.select{--input-color:color-mix(in oklab, var(--color-base-content) 20%, #0000)}}.select{width:clamp(3rem,20rem,100%);height:var(--size);font-size:max(var(--font-size,0rem), var(--font-size-min));touch-action:manipulation;white-space:nowrap;text-overflow:ellipsis;border:var(--border) solid var(--input-color,#0000);box-shadow:0 1px var(--input-color) inset, 0 -1px oklch(100% 0 0 / calc(var(--depth) * .1)) inset;background-image:linear-gradient(45deg,#0000 50%,currentColor 50%),linear-gradient(135deg,currentColor 50%,#0000 50%);background-position:calc(100% - 20px) calc(1px + 50%),calc(100% - 16.1px) calc(1px + 50%);background-repeat:no-repeat;background-size:4px 4px,4px 4px;border-start-start-radius:var(--join-ss,var(--radius-field));border-start-end-radius:var(--join-se,var(--radius-field));border-end-end-radius:var(--join-ee,var(--radius-field));border-end-start-radius:var(--join-es,var(--radius-field));overflow:hidden}@supports (color:color-mix(in lab, red, red)){.select{box-shadow:0 1px color-mix(in oklab, var(--input-color) calc(var(--depth) * 10%), #0000) inset, 0 -1px oklch(100% 0 0 / calc(var(--depth) * .1)) inset}}[dir=rtl] .select{background-position:12px calc(1px + 50%),16px calc(1px + 50%)}[dir=rtl] .select::picker(select){translate:.5rem}[dir=rtl] .select select::picker(select){translate:.5rem}.select[multiple]{background-image:none;height:auto;padding-block:.75rem;padding-inline-end:.75rem;overflow:auto}.select select{appearance:none;width:calc(100% + 2.75rem);height:calc(100% - calc(var(--border) * 2));background:inherit;border-radius:inherit;border-style:none;align-items:center;margin-inline:-.75rem -1.75rem;padding-inline:.75rem 1.75rem}.select select::placeholder{color:var(--color-base-content);opacity:.5}.select select:focus,.select select:focus-within{--tw-outline-style:none;outline-style:none}@media (forced-colors:active){.select select:focus,.select select:focus-within{outline-offset:2px;outline:2px solid #0000}}.select select:not(:last-child){background-image:none;margin-inline-end:-1.375rem}:is(.select:focus,.select:focus-within,.select:open){--input-color:var(--color-base-content);box-shadow:0 1px var(--input-color)}@supports (color:color-mix(in lab, red, red)){:is(.select:focus,.select:focus-within,.select:open){box-shadow:0 1px color-mix(in oklab, var(--input-color) calc(var(--depth) * 10%), #0000)}}:is(.select:focus,.select:focus-within,.select:open){outline:2px solid var(--input-color);outline-offset:2px;isolation:isolate;background-image:linear-gradient(135deg,#0000 50%,currentColor 50%),linear-gradient(45deg,currentColor 50%,#0000 50%)}.select:is(:disabled,[disabled]),fieldset:disabled .select{cursor:not-allowed;border-color:var(--color-base-200);background-color:var(--color-base-200)}.select:has(>select[disabled]){cursor:not-allowed;border-color:var(--color-base-200);background-color:var(--color-base-200)}:is(.select:has(>select[disabled]),.select:is(:disabled,[disabled]),fieldset:disabled .select):is(select),:is(.select:has(>select[disabled]),.select:is(:disabled,[disabled]),fieldset:disabled .select) :is(select){color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){:is(.select:has(>select[disabled]),.select:is(:disabled,[disabled]),fieldset:disabled .select):is(select),:is(.select:has(>select[disabled]),.select:is(:disabled,[disabled]),fieldset:disabled .select) :is(select){color:color-mix(in oklab, var(--color-base-content) 40%, transparent)}}.select:is(:disabled,[disabled]),fieldset:disabled .select{box-shadow:none}.select:has(>select[disabled]){box-shadow:none}:is(.select:has(>select[disabled]),.select:is(:disabled,[disabled]),fieldset:disabled .select)::placeholder,:is(.select:has(>select[disabled]),.select:is(:disabled,[disabled]),fieldset:disabled .select) ::placeholder{color:var(--color-base-content);opacity:.2}.select:has(>select[disabled])>select[disabled]{cursor:not-allowed}@supports (appearance:base-select){:is(.select,.select select){appearance:base-select}:is(.select,.select select)::picker(select){appearance:base-select}}:is(.select,.select select)::picker(select){color:inherit;border:var(--border) solid var(--color-base-200);border-radius:var(--radius-box);background-color:inherit;max-height:min(24rem,70dvh);box-shadow:0 2px calc(var(--depth) * 3px) -2px oklch(0% 0 0/.2);box-shadow:0 20px 25px -5px rgb(0 0 0/calc(var(--depth) * .1)), 0 8px 10px -6px rgb(0 0 0/calc(var(--depth) * .1));margin-block:.5rem;margin-inline:.5rem;padding:.5rem;translate:-.5rem}:is(.select,.select select)::picker-icon{display:none}:is(.select,.select select) selectedcontent{text-overflow:ellipsis;white-space:nowrap;width:100%;overflow:hidden}:is(.select,.select select) optgroup{padding-top:.5em}:is(.select,.select select) optgroup option:first-child{margin-top:.5em}:is(.select,.select select) option{border-radius:var(--radius-field);padding-block:.375rem;padding-inline:calc(.25rem * var(--option-px));white-space:normal;transition-property:color,background-color;transition-duration:.2s;transition-timing-function:cubic-bezier(0,0,.2,1)}:is(.select,.select select) option:not(:disabled):hover,:is(.select,.select select) option:not(:disabled):focus-visible{cursor:pointer;background-color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){:is(.select,.select select) option:not(:disabled):hover,:is(.select,.select select) option:not(:disabled):focus-visible{background-color:color-mix(in oklab, var(--color-base-content) 10%, transparent)}}:is(.select,.select select) option:not(:disabled):hover,:is(.select,.select select) option:not(:disabled):focus-visible{--tw-outline-style:none;outline-style:none}@media (forced-colors:active){:is(.select,.select select) option:not(:disabled):hover,:is(.select,.select select) option:not(:disabled):focus-visible{outline-offset:2px;outline:2px solid #0000}}:is(.select,.select select) option:not(:disabled):active{background-color:var(--color-neutral);color:var(--color-neutral-content);box-shadow:0 2px calc(var(--depth) * 3px) -2px var(--color-neutral)}.radio{cursor:pointer;appearance:none;vertical-align:middle;border:var(--border) solid var(--input-color,currentColor);border-radius:3.40282e38px;flex-shrink:0;padding:.25rem;display:inline-block;position:relative}@supports (color:color-mix(in lab, red, red)){.radio{border:var(--border) solid var(--input-color,color-mix(in srgb, currentColor 20%, #0000))}}.radio{box-shadow:0 1px oklch(0% 0 0 / calc(var(--depth) * .1)) inset;--size:calc(var(--size-selector,.25rem) * 6);width:var(--size);height:var(--size);color:var(--input-color,currentColor)}.radio:before{--tw-content:"";content:var(--tw-content);background-size:auto, calc(var(--noise) * 100%);background-image:none, var(--fx-noise);border-radius:3.40282e38px;width:100%;height:100%;display:block}.radio:focus-visible{outline:2px solid}.radio:checked,.radio[aria-checked=true]{background-color:var(--color-base-100);border-color:currentColor}@media (prefers-reduced-motion:no-preference){.radio:checked,.radio[aria-checked=true]{animation:.2s ease-out radio}}:is(.radio:checked,.radio[aria-checked=true]):before{box-shadow:0 -1px oklch(0% 0 0 / calc(var(--depth) * .1)) inset, 0 8px 0 -4px oklch(100% 0 0 / calc(var(--depth) * .1)) inset, 0 1px oklch(0% 0 0 / calc(var(--depth) * .1));background-color:currentColor}@media (forced-colors:active){:is(.radio:checked,.radio[aria-checked=true]):before{outline-style:var(--tw-outline-style);outline-offset:calc(1px * -1);outline-width:1px}}@media print{:is(.radio:checked,.radio[aria-checked=true]):before{outline-offset:-1rem;outline:.25rem solid}}.progress{appearance:none;border-radius:var(--radius-box);background-color:currentColor;width:100%;height:.5rem;position:relative;overflow:hidden}@supports (color:color-mix(in lab, red, red)){.progress{background-color:color-mix(in oklab, currentcolor 20%, transparent)}}.progress{color:var(--color-base-content)}.progress:indeterminate{background-image:repeating-linear-gradient(90deg,currentColor -1% 10%,#0000 10% 90%);background-position-x:15%;background-size:200%}@media (prefers-reduced-motion:no-preference){.progress:indeterminate{animation:5s ease-in-out infinite progress}}@supports ((-moz-appearance:none)){.progress:indeterminate::-moz-progress-bar{background-color:#0000}@media (prefers-reduced-motion:no-preference){.progress:indeterminate::-moz-progress-bar{background-image:repeating-linear-gradient(90deg,currentColor -1% 10%,#0000 10% 90%);background-position-x:15%;background-size:200%;animation:5s ease-in-out infinite progress}}.progress::-moz-progress-bar{border-radius:var(--radius-box);background-color:currentColor}}@supports ((-webkit-appearance:none)){.progress::-webkit-progress-bar{border-radius:var(--radius-box);background-color:#0000}.progress::-webkit-progress-value{border-radius:var(--radius-box);background-color:currentColor}}.stack{grid-template-rows:3px 4px 1fr 4px 3px;grid-template-columns:3px 4px 1fr 4px 3px;display:inline-grid}.stack>*{width:100%;height:100%}.stack>:nth-child(n+2){opacity:.7;width:100%}.stack>:nth-child(2){z-index:2;opacity:.9}.stack>:first-child{z-index:3;width:100%}.modal-box{background-color:var(--color-base-100);border-top-left-radius:var(--modal-tl,var(--radius-box));border-top-right-radius:var(--modal-tr,var(--radius-box));border-bottom-left-radius:var(--modal-bl,var(--radius-box));border-bottom-right-radius:var(--modal-br,var(--radius-box));opacity:0;overscroll-behavior:contain;grid-row-start:1;grid-column-start:1;width:91.6667%;max-width:32rem;max-height:100vh;padding:1.5rem;transition:translate .3s ease-out,scale .3s ease-out,opacity .2s ease-out 50ms,box-shadow .3s ease-out;overflow-y:auto;scale:.95;box-shadow:0 25px 50px -12px oklch(0% 0 0/.25)}.label{white-space:nowrap;color:currentColor;align-items:center;gap:.375rem;display:inline-flex}@supports (color:color-mix(in lab, red, red)){.label{color:color-mix(in oklab, currentcolor 60%, transparent)}}.label:has(input){cursor:pointer}.label:is(.input>*,.select>*){white-space:nowrap;height:calc(100% - .5rem);font-size:inherit;align-items:center;padding-inline:.75rem;display:flex}.label:is(.input>*,.select>*):first-child{border-inline-end:var(--border) solid currentColor;margin-inline:-.75rem .75rem}@supports (color:color-mix(in lab, red, red)){.label:is(.input>*,.select>*):first-child{border-inline-end:var(--border) solid color-mix(in oklab, currentColor 10%, #0000)}}.label:is(.input>*,.select>*):last-child{border-inline-start:var(--border) solid currentColor;margin-inline:.75rem -.75rem}@supports (color:color-mix(in lab, red, red)){.label:is(.input>*,.select>*):last-child{border-inline-start:var(--border) solid color-mix(in oklab, currentColor 10%, #0000)}}.status{aspect-ratio:1;border-radius:var(--radius-selector);background-color:var(--color-base-content);width:.5rem;height:.5rem;display:inline-block}@supports (color:color-mix(in lab, red, red)){.status{background-color:color-mix(in oklab, var(--color-base-content) 20%, transparent)}}.status{vertical-align:middle;color:#0000004d;background-position:50%;background-repeat:no-repeat}@supports (color:color-mix(in lab, red, red)){.status{color:color-mix(in oklab, var(--color-black) 30%, transparent)}}.status{background-image:radial-gradient(circle at 35% 30%, oklch(1 0 0 / calc(var(--depth) * .5)), #0000);box-shadow:0 2px 3px -1px}@supports (color:color-mix(in lab, red, red)){.status{box-shadow:0 2px 3px -1px color-mix(in oklab, currentColor calc(var(--depth) * 100%), #0000)}}.badge{border-radius:var(--radius-selector);vertical-align:middle;color:var(--badge-fg);border:var(--border) solid var(--badge-color,var(--color-base-200));background-size:auto, calc(var(--noise) * 100%);background-image:none, var(--fx-noise);background-color:var(--badge-bg);--badge-bg:var(--badge-color,var(--color-base-100));--badge-fg:var(--color-base-content);--size:calc(var(--size-selector,.25rem) * 6);width:fit-content;height:var(--size);padding-inline:calc(var(--size) / 2 - var(--border));justify-content:center;align-items:center;gap:.5rem;font-size:.875rem;display:inline-flex}.footer{grid-auto-flow:row;place-items:start;gap:2.5rem 1rem;width:100%;font-size:.875rem;line-height:1.25rem;display:grid}.footer>:not(script,style,template){place-items:start;gap:.5rem;display:grid}.footer.footer-center{text-align:center;grid-auto-flow:column dense;place-items:center}.footer.footer-center>:not(script,style,template){place-items:center}.alert{--alert-border-color:var(--color-base-200);border-radius:var(--radius-box);color:var(--color-base-content);background-color:var(--alert-color,var(--color-base-200));text-align:start;background-size:auto, calc(var(--noise) * 33%);background-image:none, var(--fx-noise);box-shadow:0 3px 0 -2px oklch(100% 0 0 / calc(var(--depth) * .08)) inset, 0 1px #000, 0 4px 3px -2px oklch(0% 0 0 / calc(var(--depth) * .08));border-style:solid;grid-template-columns:auto;grid-auto-flow:column;justify-content:start;place-items:center start;gap:1rem;padding-block:.75rem;padding-inline:1rem;font-size:.875rem;line-height:1.25rem;display:grid}@supports (color:color-mix(in lab, red, red)){.alert{box-shadow:0 3px 0 -2px oklch(100% 0 0 / calc(var(--depth) * .08)) inset, 0 1px color-mix(in oklab, color-mix(in oklab, #000 20%, var(--alert-color,var(--color-base-200))) calc(var(--depth) * 20%), #0000), 0 4px 3px -2px oklch(0% 0 0 / calc(var(--depth) * .08))}}.alert:has(:nth-child(2)){grid-template-columns:auto minmax(auto,1fr)}.chat{--mask-chat:url("data:image/svg+xml,%3csvg width='13' height='13' xmlns='http://www.w3.org/2000/svg'%3e%3cpath fill='black' d='M0 11.5004C0 13.0004 2 13.0004 2 13.0004H12H13V0.00036329L12.5 0C12.5 0 11.977 2.09572 11.8581 2.50033C11.6075 3.35237 10.9149 4.22374 9 5.50036C6 7.50036 0 10.0004 0 11.5004Z'/%3e%3c/svg%3e");grid-auto-rows:min-content;column-gap:.75rem;padding-block:.25rem;display:grid}.mask{vertical-align:middle;display:inline-block;-webkit-mask-position:50%;mask-position:50%;-webkit-mask-size:contain;mask-size:contain;-webkit-mask-repeat:no-repeat;mask-repeat:no-repeat}.link{cursor:pointer;text-decoration-line:underline}.link:focus{--tw-outline-style:none;outline-style:none}@media (forced-colors:active){.link:focus{outline-offset:2px;outline:2px solid #0000}}.link:focus-visible{outline-offset:2px;outline:2px solid}.btn-dash{--btn-bg:#0000;color:var(--btn-rest-fg,var(--btn-color,var(--color-base-content)));--btn-border:var(--btn-color,var(--color-base-content));--btn-border-style:dashed;--btn-inset:0 0 0 0 oklch(0% 0 0/0);--btn-shadow:0 0 0 0 oklch(0% 0 0/0);background-image:none}.btn-outline{--btn-bg:#0000;color:var(--btn-rest-fg,var(--btn-color,var(--color-base-content)));--btn-border:var(--btn-color,var(--color-base-content));--btn-border-style:solid;--btn-inset:0 0 0 0 oklch(0% 0 0/0);--btn-shadow:0 0 0 0 oklch(0% 0 0/0);background-image:none}.btn-soft{--btn-bg:var(--btn-color,var(--color-base-content))}@supports (color:color-mix(in lab, red, red)){.btn-soft{--btn-bg:color-mix(in oklab, var(--btn-color,var(--color-base-content)) 8%, var(--btn-soft-bg,var(--color-base-100)))}}.btn-soft{color:var(--btn-rest-fg,var(--btn-color,var(--color-base-content)));--btn-border:var(--btn-color,var(--color-base-content))}@supports (color:color-mix(in lab, red, red)){.btn-soft{--btn-border:color-mix(in oklab, var(--btn-color,var(--color-base-content)) 10%, var(--btn-soft-bg,var(--color-base-100)))}}.btn-soft{--btn-border-style:solid;--btn-inset:0 0 0 0 oklch(0% 0 0/0);--btn-shadow:0 0 0 0 oklch(0% 0 0/0);background-image:none}.btn-ghost{--btn-bg:#0000;color:var(--btn-rest-fg,var(--btn-color,var(--color-base-content,currentColor)));--btn-border:#0000;--btn-inset:0 0 0 0 oklch(0% 0 0/0);--btn-shadow:0 0 0 0 oklch(0% 0 0/0);background-image:none}}@layer daisyui.l1.l2{:root:has(:is(.modal.modal-open,.modal[open],.modal:target,.modal-toggle:checked+.modal)){--page-has-backdrop:1;--page-overflow:hidden;--page-scroll-bg:var(--page-scroll-bg-on);--page-scroll-gutter:stable;--page-scroll-transition:var(--page-scroll-transition-on);animation:forwards set-page-has-scroll;animation-timeline:scroll()}@starting-style{.modal.modal-open,.modal[open],.modal:target,.modal-toggle:checked+.modal{opacity:0}}.collapse-arrow>.collapse-title:after{width:.5rem;height:.5rem;display:block;position:absolute;transform:translateY(-100%)rotate(45deg)}@media (prefers-reduced-motion:no-preference){.collapse-arrow>.collapse-title:after{transition-property:all;transition-duration:.2s;transition-timing-function:cubic-bezier(.4,0,.2,1)}}.collapse-arrow>.collapse-title:after{content:"";transform-origin:75% 75%;pointer-events:none;top:50%;inset-inline-end:1.4rem;box-shadow:2px 2px}.btn:disabled:not(.btn-link,.btn-ghost){background-color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.btn:disabled:not(.btn-link,.btn-ghost){background-color:color-mix(in oklab, var(--color-base-content) 10%, transparent)}}.btn:disabled:not(.btn-link,.btn-ghost){box-shadow:none}.btn:disabled{pointer-events:none;--btn-border:#0000;--btn-noise:none;--btn-fg:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.btn:disabled{--btn-fg:color-mix(in oklch, var(--color-base-content) 20%, #0000)}}.btn[disabled]:not(.btn-link,.btn-ghost){background-color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.btn[disabled]:not(.btn-link,.btn-ghost){background-color:color-mix(in oklab, var(--color-base-content) 10%, transparent)}}.btn[disabled]:not(.btn-link,.btn-ghost){box-shadow:none}.btn[disabled]{pointer-events:none;--btn-border:#0000;--btn-noise:none;--btn-fg:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.btn[disabled]{--btn-fg:color-mix(in oklch, var(--color-base-content) 20%, #0000)}}@media (prefers-reduced-motion:no-preference){.collapse[open].collapse-arrow>.collapse-title:after,.collapse.collapse-open.collapse-arrow>.collapse-title:after{transform:translateY(-50%)rotate(225deg)}}.collapse.collapse-open.collapse-plus>.collapse-title:after{--tw-content:"−";content:var(--tw-content)}:is(.collapse[tabindex].collapse-arrow:focus:not(.collapse-close),.collapse.collapse-arrow[tabindex]:focus-within:not(.collapse-close))>.collapse-title:after,.collapse.collapse-arrow:not(.collapse-close)>input:is([type=checkbox],[type=radio]):checked~.collapse-title:after{transform:translateY(-50%)rotate(225deg)}.collapse[open].collapse-plus>.collapse-title:after,.collapse[tabindex].collapse-plus:focus:not(.collapse-close)>.collapse-title:after,.collapse.collapse-plus:not(.collapse-close)>input:is([type=checkbox],[type=radio]):checked~.collapse-title:after{--tw-content:"−";content:var(--tw-content)}.checkbox:disabled,.radio:disabled{cursor:not-allowed;opacity:.2}.radio-sm{padding:.1875rem}.radio-sm[type=radio]{--size:calc(var(--size-selector,.25rem) * 5)}.badge-primary{--badge-color:var(--color-primary);--badge-fg:var(--color-primary-content)}.diff{webkit-user-select:none;-webkit-user-select:none;user-select:none;direction:ltr;grid-template-rows:1fr 1.8rem 1fr;grid-template-columns:auto 1fr;align-items:normal;width:100%;display:grid;position:relative;overflow:hidden;container-type:inline-size}.diff:focus-visible,.diff:focus-visible{outline-style:var(--tw-outline-style);outline-offset:1px;outline-width:2px;outline-color:var(--color-base-content)}.diff:has(.diff-item-1:focus-visible){outline-style:var(--tw-outline-style);outline-offset:1px;outline-width:2px;outline-color:var(--color-base-content)}.diff:focus-visible .diff-resizer{min-width:95cqi;max-width:95cqi}.diff:has(.diff-item-1:focus-visible){outline-style:var(--tw-outline-style);outline-offset:1px;outline-width:2px}.diff:has(.diff-item-1:focus-visible) .diff-resizer{min-width:5cqi;max-width:5cqi}.diff:hover .diff-item-2:after{height:2.4rem}@supports (-webkit-overflow-scrolling:touch) and (overflow:-webkit-paged-x){.diff:focus .diff-resizer{min-width:5cqi;max-width:5cqi}.diff:has(.diff-item-1:focus) .diff-resizer{min-width:95cqi;max-width:95cqi}}.modal.modal-open,.modal[open],.modal:target,.modal-toggle:checked+.modal{pointer-events:auto;visibility:visible;opacity:1;transition:visibility 0s allow-discrete, background-color .3s ease-out, opacity .1s ease-out;background-color:oklch(0% 0 0/.4)}.modal:popover-open{pointer-events:auto;visibility:visible;opacity:1;transition:visibility 0s allow-discrete, background-color .3s ease-out, opacity .1s ease-out;background-color:oklch(0% 0 0/.4)}.modal:popover-open .modal-box{opacity:1;translate:0;scale:1}:root:has(.modal:popover-open){--page-scroll-lock: }:is(.modal.modal-open,.modal[open],.modal:target,.modal-toggle:checked+.modal) .modal-box{opacity:1;translate:0;scale:1}:root:has(:is(.modal.modal-open,.modal[open],.modal:target,.modal-toggle:checked+.modal)){--page-scroll-lock: }@starting-style{.modal.modal-open,.modal[open],.modal:target,.modal-toggle:checked+.modal{opacity:0}.modal:popover-open{opacity:0}}.tooltip>.tooltip-content,.tooltip[data-tip]:before{transform:translateX(var(--tt-trans,-50%)) translateY(var(--tt-pos,.25rem));inset:auto auto var(--tt-off) 50%}.tooltip:after{transform:translateX(var(--tt-trans,-50%)) translateY(var(--tt-pos,.25rem));inset:auto auto var(--tt-tail) 50%}.btn:where(:checked:not(.filter [type=radio].btn)){--btn-color:var(--color-primary);--btn-fg:var(--color-primary-content);isolation:isolate}@media (hover:hover){.btn:hover{--btn-bg:var(--btn-hover-bg,var(--btn-color,var(--color-base-200)))}@supports (color:color-mix(in lab, red, red)){.btn:hover{--btn-bg:var(--btn-hover-bg,color-mix(in oklab, var(--btn-color,var(--color-base-200)), #000 7%))}}.btn:hover{color:var(--btn-fg);--btn-border:var(--btn-hover-border,var(--btn-bg))}@supports (color:color-mix(in lab, red, red)){.btn:hover{--btn-border:var(--btn-hover-border,color-mix(in oklab, var(--btn-bg), #000 calc(var(--depth) * 5%)))}}.btn:hover{--btn-border-style:solid;--btn-inset:var(--btn-hover-inset,0 .5px 0 .5px oklch(100% 0 0 / calc(var(--depth) * 6%)));--btn-shadow:var(--btn-hover-shadow,0 3px 2px -2px var(--btn-bg), 0 4px 3px -2px var(--btn-bg))}@supports (color:color-mix(in lab, red, red)){.btn:hover{--btn-shadow:var(--btn-hover-shadow,0 3px 2px -2px color-mix(in oklab, var(--btn-bg) calc(var(--depth) * 30%), #0000), 0 4px 3px -2px color-mix(in oklab, var(--btn-bg) calc(var(--depth) * 30%), #0000))}}}.btn:active:not(.btn-active){translate:0 var(--btn-active-translate,.5px);--btn-bg:var(--btn-active-bg,var(--btn-color,var(--color-base-200)))}@supports (color:color-mix(in lab, red, red)){.btn:active:not(.btn-active){--btn-bg:var(--btn-active-bg,color-mix(in oklab, var(--btn-color,var(--color-base-200)), #000 5%))}}.btn:active:not(.btn-active){color:var(--btn-fg,var(--color-base-content));--btn-border:var(--btn-active-border,var(--btn-color,var(--color-base-200)))}@supports (color:color-mix(in lab, red, red)){.btn:active:not(.btn-active){--btn-border:var(--btn-active-border,color-mix(in oklab, var(--btn-color,var(--color-base-200)), #000 7%))}}.btn:active:not(.btn-active){--btn-border-style:solid;--btn-shadow:var(--btn-active-shadow,0 0 0 0 oklch(0% 0 0/0))}.btn:where(:checked:not(.filter [type=radio].btn),:not([type=radio],[type=checkbox]):focus-visible){--btn-bg:var(--btn-color,var(--color-base-200));color:var(--btn-fg,var(--color-base-content));--btn-border:var(--btn-bg)}@supports (color:color-mix(in lab, red, red)){.btn:where(:checked:not(.filter [type=radio].btn),:not([type=radio],[type=checkbox]):focus-visible){--btn-border:color-mix(in oklab, var(--btn-bg), #000 calc(var(--depth) * 5%))}}.btn:where(:checked:not(.filter [type=radio].btn),:not([type=radio],[type=checkbox]):focus-visible){--btn-border-style:solid;--btn-inset:0 .5px 0 .5px oklch(100% 0 0 / calc(var(--depth) * 6%));--btn-shadow:0 3px 2px -2px var(--btn-bg), 0 4px 3px -2px var(--btn-bg)}@supports (color:color-mix(in lab, red, red)){.btn:where(:checked:not(.filter [type=radio].btn),:not([type=radio],[type=checkbox]):focus-visible){--btn-shadow:0 3px 2px -2px color-mix(in oklab, var(--btn-bg) calc(var(--depth) * 30%), #0000), 0 4px 3px -2px color-mix(in oklab, var(--btn-bg) calc(var(--depth) * 30%), #0000)}}.btn:where(:checked:not(.filter [type=radio].btn),:not([type=radio],[type=checkbox]):focus-visible){isolation:isolate}.btn:focus-visible{isolation:isolate;outline-width:2px;outline-style:solid}.btn:has(:focus-visible){isolation:isolate;outline-width:2px;outline-style:solid}.list .list-row:has(.list-col-grow:first-child){--list-grid-cols:1fr}.list .list-row:has(.list-col-grow:nth-child(2)){--list-grid-cols:minmax(0, auto) 1fr}.list .list-row:has(.list-col-grow:nth-child(3)){--list-grid-cols:minmax(0, auto) minmax(0, auto) 1fr}.list .list-row:has(.list-col-grow:nth-child(4)){--list-grid-cols:minmax(0, auto) minmax(0, auto) minmax(0, auto) 1fr}.list .list-row:has(.list-col-grow:nth-child(5)){--list-grid-cols:minmax(0, auto) minmax(0, auto) minmax(0, auto) minmax(0, auto) 1fr}.list .list-row:has(.list-col-grow:nth-child(6)){--list-grid-cols:minmax(0, auto) minmax(0, auto) minmax(0, auto) minmax(0, auto) minmax(0, auto) 1fr}.list .list-row>*{grid-row-start:1}.input{--in-size-mul:10;--font-size-min:.875rem;--spin-my:-3}.floating-label:has(.input){--top-mul:5;--font-size:.875rem}.steps .step-neutral+.step-neutral:before,.steps .step-neutral:after,.steps .step-neutral>.step-icon{--step-bg:var(--color-neutral);--step-fg:var(--color-neutral-content)}.steps .step-primary+.step-primary:before,.steps .step-primary:after,.steps .step-primary>.step-icon{--step-bg:var(--color-primary);--step-fg:var(--color-primary-content)}.steps .step-secondary+.step-secondary:before,.steps .step-secondary:after,.steps .step-secondary>.step-icon{--step-bg:var(--color-secondary);--step-fg:var(--color-secondary-content)}.steps .step-accent+.step-accent:before,.steps .step-accent:after,.steps .step-accent>.step-icon{--step-bg:var(--color-accent);--step-fg:var(--color-accent-content)}.steps .step-info+.step-info:before,.steps .step-info:after,.steps .step-info>.step-icon{--step-bg:var(--color-info);--step-fg:var(--color-info-content)}.steps .step-success+.step-success:before,.steps .step-success:after,.steps .step-success>.step-icon{--step-bg:var(--color-success);--step-fg:var(--color-success-content)}.steps .step-warning+.step-warning:before,.steps .step-warning:after,.steps .step-warning>.step-icon{--step-bg:var(--color-warning);--step-fg:var(--color-warning-content)}.steps .step-error+.step-error:before,.steps .step-error:after,.steps .step-error>.step-icon{--step-bg:var(--color-error);--step-fg:var(--color-error-content)}.select{--sl-size-mul:10;--font-size-min:.875rem;--option-px:3}.floating-label:has(.select){--top-mul:5;--font-size:.875rem}.swap{cursor:pointer;vertical-align:middle;webkit-user-select:none;-webkit-user-select:none;user-select:none;place-content:center;display:inline-grid;position:relative}.swap input{appearance:none;border:none}.swap>*{grid-row-start:1;grid-column-start:1}@media (prefers-reduced-motion:no-preference){.swap>*{transition-property:transform,rotate,opacity;transition-duration:.2s;transition-timing-function:cubic-bezier(0,0,.2,1)}}.swap .swap-on,.swap .swap-indeterminate,.swap input:indeterminate~.swap-on,.swap input:is(:checked,:indeterminate)~.swap-off{opacity:0}.swap input:checked~.swap-on,.swap input:indeterminate~.swap-indeterminate{opacity:1;backface-visibility:visible}.radio:disabled{cursor:not-allowed;opacity:.2}.btn-active{--btn-bg:var(--btn-color,var(--color-base-200))}@supports (color:color-mix(in lab, red, red)){.btn-active{--btn-bg:color-mix(in oklab, var(--btn-color,var(--color-base-200)), #000 7%)}}.btn-active{--btn-shadow:0 0 0 0 oklch(0% 0 0/0), 0 0 0 0 oklch(0% 0 0/0);--btn-hover-bg:var(--btn-color,var(--color-base-200))}@supports (color:color-mix(in lab, red, red)){.btn-active{--btn-hover-bg:color-mix(in oklab, var(--btn-color,var(--color-base-200)), #000 7%)}}.btn-active{--btn-hover-border:var(--btn-color,var(--color-base-200))}@supports (color:color-mix(in lab, red, red)){.btn-active{--btn-hover-border:color-mix(in oklab, var(--btn-color,var(--color-base-200)), #000 calc(var(--depth) * 5%))}}.btn-active{--btn-hover-inset:0 .5px 0 .5px oklch(100% 0 0 / calc(var(--depth) * 6%));--btn-hover-shadow:0 0 0 0 oklch(0% 0 0/0), 0 0 0 0 oklch(0% 0 0/0);--btn-active-translate:0;--btn-active-bg:var(--btn-color,var(--color-base-200))}@supports (color:color-mix(in lab, red, red)){.btn-active{--btn-active-bg:color-mix(in oklab, var(--btn-color,var(--color-base-200)), #000 7%)}}.btn-active{--btn-active-border:var(--btn-color,var(--color-base-200))}@supports (color:color-mix(in lab, red, red)){.btn-active{--btn-active-border:color-mix(in oklab, var(--btn-color,var(--color-base-200)), #000 calc(var(--depth) * 5%))}}.btn-active{--btn-active-inset:0 .5px 0 .5px oklch(100% 0 0 / calc(var(--depth) * 6%));--btn-active-shadow:0 0 0 0 oklch(0% 0 0/0), 0 0 0 0 oklch(0% 0 0/0);isolation:isolate}:is(.stack,.stack.stack-bottom)>*{grid-area:3/3/6/4}:is(.stack,.stack.stack-bottom)>:nth-child(2){grid-area:2/2/5/5}:is(.stack,.stack.stack-bottom)>:first-child{grid-area:1/1/4/6}.stack.stack-top>*{grid-area:1/3/4/4}.stack.stack-top>:nth-child(2){grid-area:2/2/5/5}.stack.stack-top>:first-child{grid-area:3/1/6/6}.stack.stack-start>*{grid-area:3/1/4/4}.stack.stack-start>:nth-child(2){grid-area:2/2/5/5}.stack.stack-start>:first-child{grid-area:1/3/6/6}.stack.stack-end>*{grid-area:3/3/4/6}.stack.stack-end>:nth-child(2){grid-area:2/2/5/5}.stack.stack-end>:first-child{grid-area:1/1/6/4}.btn-circle{width:var(--size);height:var(--size);border-radius:3.40282e38px;padding-inline:0}.btn-square{width:var(--size);height:var(--size);padding-inline:0}.btn-wide{width:100%;max-width:16rem}.btn-block{width:100%}.loading-lg{width:calc(var(--size-selector,.25rem) * 7)}.badge-ghost{border-color:var(--color-base-200);background-color:var(--color-base-200);color:var(--color-base-content);background-image:none}.badge-soft{color:var(--badge-color,var(--color-base-content));background-color:var(--badge-color,var(--color-base-content))}@supports (color:color-mix(in lab, red, red)){.badge-soft{background-color:color-mix(in oklab, var(--badge-color,var(--color-base-content)) 8%, var(--color-base-100))}}.badge-soft{border-color:var(--badge-color,var(--color-base-content))}@supports (color:color-mix(in lab, red, red)){.badge-soft{border-color:color-mix(in oklab, var(--badge-color,var(--color-base-content)) 10%, var(--color-base-100))}}.badge-soft{background-image:none}.input-ghost{box-shadow:none;background-color:#0000;border-color:#0000}.input-ghost:focus,.input-ghost:focus-within{background-color:var(--color-base-100);color:var(--color-base-content);box-shadow:none;border-color:#0000}.loading-spinner{-webkit-mask-image:url("data:image/svg+xml,%3Csvg width='24' height='24' stroke='black' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg transform-origin='center'%3E%3Ccircle cx='12' cy='12' r='9.5' fill='none' stroke-width='3' stroke-linecap='round'%3E%3CanimateTransform attributeName='transform' type='rotate' from='0 12 12' to='360 12 12' dur='8s' repeatCount='indefinite'/%3E%3Canimate attributeName='stroke-dasharray' values='0,150;42,150;42,150' keyTimes='0;0.475;1' dur='6s' repeatCount='indefinite'/%3E%3Canimate attributeName='stroke-dashoffset' values='0;-16;-59' keyTimes='0;0.475;1' dur='6s' repeatCount='indefinite'/%3E%3C/circle%3E%3C/g%3E%3C/svg%3E");mask-image:url("data:image/svg+xml,%3Csvg width='24' height='24' stroke='black' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg transform-origin='center'%3E%3Ccircle cx='12' cy='12' r='9.5' fill='none' stroke-width='3' stroke-linecap='round'%3E%3CanimateTransform attributeName='transform' type='rotate' from='0 12 12' to='360 12 12' dur='8s' repeatCount='indefinite'/%3E%3Canimate attributeName='stroke-dasharray' values='0,150;42,150;42,150' keyTimes='0;0.475;1' dur='6s' repeatCount='indefinite'/%3E%3Canimate attributeName='stroke-dashoffset' values='0;-16;-59' keyTimes='0;0.475;1' dur='6s' repeatCount='indefinite'/%3E%3C/circle%3E%3C/g%3E%3C/svg%3E")}@media (prefers-reduced-motion:no-preference){.loading-spinner{-webkit-mask-image:url("data:image/svg+xml,%3Csvg width='24' height='24' stroke='black' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg transform-origin='center'%3E%3Ccircle cx='12' cy='12' r='9.5' fill='none' stroke-width='3' stroke-linecap='round'%3E%3CanimateTransform attributeName='transform' type='rotate' from='0 12 12' to='360 12 12' dur='2s' repeatCount='indefinite'/%3E%3Canimate attributeName='stroke-dasharray' values='0,150;42,150;42,150' keyTimes='0;0.475;1' dur='1.5s' repeatCount='indefinite'/%3E%3Canimate attributeName='stroke-dashoffset' values='0;-16;-59' keyTimes='0;0.475;1' dur='1.5s' repeatCount='indefinite'/%3E%3C/circle%3E%3C/g%3E%3C/svg%3E");mask-image:url("data:image/svg+xml,%3Csvg width='24' height='24' stroke='black' viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'%3E%3Cg transform-origin='center'%3E%3Ccircle cx='12' cy='12' r='9.5' fill='none' stroke-width='3' stroke-linecap='round'%3E%3CanimateTransform attributeName='transform' type='rotate' from='0 12 12' to='360 12 12' dur='2s' repeatCount='indefinite'/%3E%3Canimate attributeName='stroke-dasharray' values='0,150;42,150;42,150' keyTimes='0;0.475;1' dur='1.5s' repeatCount='indefinite'/%3E%3Canimate attributeName='stroke-dashoffset' values='0;-16;-59' keyTimes='0;0.475;1' dur='1.5s' repeatCount='indefinite'/%3E%3C/circle%3E%3C/g%3E%3C/svg%3E")}}.badge-sm{--size:calc(var(--size-selector,.25rem) * 5);font-size:.75rem}.badge-xs{--size:calc(var(--size-selector,.25rem) * 4);font-size:.625rem}.alert-error{color:var(--color-error-content);--alert-border-color:var(--color-error);--alert-color:var(--color-error)}.alert-success{color:var(--color-success-content);--alert-border-color:var(--color-success);--alert-color:var(--color-success)}.alert-warning{color:var(--color-warning-content);--alert-border-color:var(--color-warning);--alert-color:var(--color-warning)}.progress-primary{color:var(--color-primary)}.input-lg{--in-size-mul:12;--font-size-min:1.125rem;--spin-my:-3}.floating-label:has(.input-lg){--top-mul:6;--font-size:1.125rem}.input-md{--in-size-mul:10;--font-size-min:.875rem;--spin-my:-3}.floating-label:has(.input-md){--top-mul:5;--font-size:.875rem}.input-sm{--in-size-mul:8;--font-size-min:.75rem;--spin-my:-2}.floating-label:has(.input-sm){--top-mul:4;--font-size:.75rem}.input-xl{--in-size-mul:14;--font-size-min:1.375rem;--spin-my:-4}.floating-label:has(.input-xl){--top-mul:7;--font-size:1.375rem}.input-xs{--in-size-mul:6;--font-size-min:.6875rem;--spin-my:-1}.floating-label:has(.input-xs){--top-mul:3;--font-size:.6875rem}.btn-neutral{--btn-color:var(--color-neutral);--btn-fg:var(--color-neutral-content);--btn-soft-bg:var(--color-neutral-content) 80%;--btn-rest-fg:initial}.btn-accent{--btn-color:var(--color-accent);--btn-fg:var(--color-accent-content);--btn-soft-bg:initial}.btn-error{--btn-color:var(--color-error);--btn-fg:var(--color-error-content);--btn-soft-bg:initial}.btn-info{--btn-color:var(--color-info);--btn-fg:var(--color-info-content);--btn-soft-bg:initial}.btn-lg{--fontsize:1.125rem;--btn-p:1.25rem;--size:calc(var(--size-field,.25rem) * 12)}.btn-md{--fontsize:.875rem;--btn-p:1rem;--size:calc(var(--size-field,.25rem) * 10)}.btn-primary{--btn-color:var(--color-primary);--btn-fg:var(--color-primary-content);--btn-soft-bg:initial}.btn-secondary{--btn-color:var(--color-secondary);--btn-fg:var(--color-secondary-content);--btn-soft-bg:initial}.btn-sm{--fontsize:.75rem;--btn-p:.75rem;--size:calc(var(--size-field,.25rem) * 8)}.btn-success{--btn-color:var(--color-success);--btn-fg:var(--color-success-content);--btn-soft-bg:initial}.btn-warning{--btn-color:var(--color-warning);--btn-fg:var(--color-warning-content);--btn-soft-bg:initial}.btn-xl{--fontsize:1.375rem;--btn-p:1.5rem;--size:calc(var(--size-field,.25rem) * 14)}.btn-xs{--fontsize:.6875rem;--btn-p:.5rem;--size:calc(var(--size-field,.25rem) * 6)}.badge-error{--badge-color:var(--color-error);--badge-fg:var(--color-error-content)}.badge-info{--badge-color:var(--color-info);--badge-fg:var(--color-info-content)}.badge-neutral{--badge-color:var(--color-neutral);--badge-fg:var(--color-neutral-content)}.badge-success{--badge-color:var(--color-success);--badge-fg:var(--color-success-content)}.badge-warning{--badge-color:var(--color-warning);--badge-fg:var(--color-warning-content)}.input-accent,.input-accent:focus,.input-accent:focus-within{--input-color:var(--color-accent)}.input-error,.input-error:focus,.input-error:focus-within{--input-color:var(--color-error)}.input-info,.input-info:focus,.input-info:focus-within{--input-color:var(--color-info)}.input-neutral,.input-neutral:focus,.input-neutral:focus-within{--input-color:var(--color-neutral)}.input-primary,.input-primary:focus,.input-primary:focus-within{--input-color:var(--color-primary)}.input-secondary,.input-secondary:focus,.input-secondary:focus-within{--input-color:var(--color-secondary)}.input-success,.input-success:focus,.input-success:focus-within{--input-color:var(--color-success)}.input-warning,.input-warning:focus,.input-warning:focus-within{--input-color:var(--color-warning)}}.\\!pointer-events-none{pointer-events:none!important}.collapse:not(td,tr,colgroup){visibility:revert-layer}.collapse{visibility:collapse}.-top-3{top:calc(var(--spacing) * -3)}.top-0{top:calc(var(--spacing) * 0)}.top-2{top:calc(var(--spacing) * 2)}.top-\\[-0\\.45rem\\]{top:-.45rem}.-right-3{right:calc(var(--spacing) * -3)}.right-2{right:calc(var(--spacing) * 2)}.right-\\[60\\%\\]{right:60%}.left-\\[60\\%\\]{left:60%}.-z-1{z-index:calc(1 * -1)}.z-2{z-index:2}.z-10{z-index:10}.col-span-1{grid-column:span 1/span 1}.col-span-2{grid-column:span 2/span 2}.col-span-full{grid-column:1/-1}.col-start-1{grid-column-start:1}.col-start-2{grid-column-start:2}.col-start-3{grid-column-start:3}.col-start-4{grid-column-start:4}.col-start-5{grid-column-start:5}.row-span-full{grid-row:1/-1}.row-start-1{grid-row-start:1}.row-start-2{grid-row-start:2}.row-start-3{grid-row-start:3}.row-start-4{grid-row-start:4}@media (width>=40rem){.container{max-width:40rem}}@media (width>=48rem){.container{max-width:48rem}}@media (width>=64rem){.container{max-width:64rem}}@media (width>=80rem){.container{max-width:80rem}}@media (width>=96rem){.container{max-width:96rem}}.mt-2{margin-top:calc(var(--spacing) * 2)}.mt-4{margin-top:calc(var(--spacing) * 4)}.-mr-2\\.25{margin-right:calc(var(--spacing) * -2.25)}.-mr-\\[8\\.5px\\]{margin-right:-8.5px}.-mr-\\[9px\\]{margin-right:-9px}.mr-2{margin-right:calc(var(--spacing) * 2)}.mr-2\\.25{margin-right:calc(var(--spacing) * 2.25)}.mr-3{margin-right:calc(var(--spacing) * 3)}.mr-\\[9px\\]{margin-right:9px}.mb-2{margin-bottom:calc(var(--spacing) * 2)}.mb-6{margin-bottom:calc(var(--spacing) * 6)}.mb-8{margin-bottom:calc(var(--spacing) * 8)}.-ml-2\\.25{margin-left:calc(var(--spacing) * -2.25)}.-ml-\\[9px\\]{margin-left:-9px}.-ml-\\[12px\\]{margin-left:-12px}.ml-3{margin-left:calc(var(--spacing) * 3)}.table{display:table}.h-12{height:calc(var(--spacing) * 12)}.h-18{height:calc(var(--spacing) * 18)}.h-\\[2px\\]{height:2px}.h-\\[12px\\]{height:12px}.h-\\[20px\\]{height:20px}.h-\\[50px\\]{height:50px}.max-h-\\[85vh\\]{max-height:85vh}.min-h-\\[450px\\]{min-height:450px}.w-1\\/2{width:50%}.w-2\\/3{width:66.6667%}.w-5\\/8{width:62.5%}.w-\\[20px\\]{width:20px}.w-\\[50px\\]{width:50px}.w-lg{width:var(--container-lg)}.max-w-full{max-width:100%}.max-w-none{max-width:none}.flex-shrink{flex-shrink:1}.list-disc{list-style-type:disc}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.grid-cols-\\[1fr_20px_0\\.5fr_20px_1fr\\]{grid-template-columns:1fr 20px .5fr 20px 1fr}.grid-cols-\\[1fr_20px_1fr_20px_1fr\\]{grid-template-columns:1fr 20px 1fr 20px 1fr}.grid-cols-\\[1fr_auto_1fr\\]{grid-template-columns:1fr auto 1fr}.grid-cols-\\[max-content_auto\\]{grid-template-columns:max-content auto}.grid-rows-\\[50px\\]{grid-template-rows:50px}.grid-rows-\\[50px_50px_1fr_80px\\]{grid-template-rows:50px 50px 1fr 80px}.grid-rows-\\[50px_50px_80px\\]{grid-template-rows:50px 50px 80px}.gap-x-2{column-gap:calc(var(--spacing) * 2)}.gap-x-6{column-gap:calc(var(--spacing) * 6)}.self-center{align-self:center}.self-end{align-self:flex-end}.self-start{align-self:flex-start}.justify-self-center{justify-self:center}.justify-self-end{justify-self:flex-end}.justify-self-start{justify-self:flex-start}.rounded-box{border-radius:var(--radius-box);border-radius:var(--radius-box)}.rounded-sm{border-radius:var(--radius-sm)}.rounded-xl{border-radius:var(--radius-xl)}.border,.border-1{border-style:var(--tw-border-style);border-width:1px}.border-l{border-left-style:var(--tw-border-style);border-left-width:1px}.border-dashed{--tw-border-style:dashed;border-style:dashed}.border-none{--tw-border-style:none;border-style:none}.border-solid{--tw-border-style:solid;border-style:solid}.border-\\(--color-info\\){border-color:var(--color-info)}.border-\\(--color-ocean-gray-100\\){border-color:var(--color-ocean-gray-100)}.border-\\(--color-success\\){border-color:var(--color-success)}.border-\\(--color-warning\\){border-color:var(--color-warning)}.border-\\[var\\(--color-gray-200\\)\\]{border-color:var(--color-gray-200)}.border-\\[var\\(--color-primary\\)\\]{border-color:var(--color-primary)}.bg-\\(--color-ocean-gray-25\\){background-color:var(--color-ocean-gray-25)}.bg-\\(--color-ocean-gray-50\\){background-color:var(--color-ocean-gray-50)}.bg-\\(--color-ocean-gray-100\\){background-color:var(--color-ocean-gray-100)}.bg-\\(--color-primary\\){background-color:var(--color-primary)}@layer daisyui.l1{.alert-soft{color:var(--alert-color,var(--color-base-content));background:var(--alert-color,var(--color-base-content))}@supports (color:color-mix(in lab, red, red)){.alert-soft{background:color-mix(in oklab, var(--alert-color,var(--color-base-content)) 8%, var(--color-base-100))}}.alert-soft{--alert-border-color:var(--alert-color,var(--color-base-content))}@supports (color:color-mix(in lab, red, red)){.alert-soft{--alert-border-color:color-mix(in oklab, var(--alert-color,var(--color-base-content)) 10%, var(--color-base-100))}}.alert-soft{box-shadow:none;background-image:none}.btn-ghost:not(.btn-active,:hover,:active:focus,:focus-visible,input:checked:not(.filter .btn)){--btn-shadow:"";--btn-bg:#0000;--btn-border:#0000;--btn-noise:none}.btn-ghost:not(.btn-active,:hover,:active:focus,:focus-visible,input:checked:not(.filter .btn)):not(:disabled,[disabled],.btn-disabled){--btn-fg:var(--btn-color,currentColor);outline-color:currentColor}@media (hover:none){.btn-ghost:not(.btn-active,:active,:focus-visible,input:checked:not(.filter .btn)):hover{--btn-shadow:"";--btn-bg:#0000;--btn-fg:var(--btn-color,currentColor);--btn-border:#0000;--btn-noise:none;outline-color:currentColor}}.filter:not(:has(:checked:not(.filter-reset))) :is(.filter-reset,[type=reset]):not(:focus-visible){visibility:hidden}.filter:not(:has(:checked:not(.filter-reset))) :is(.filter-reset,[type=reset]):not(:focus-visible){opacity:0;border-width:0;width:0;margin-inline:0;padding-inline:0;scale:0}.filter:not(:has(:focus-visible)):has(:checked:not(.filter-reset,[type=checkbox])) :is(input,button):not(:checked,.filter-reset,[type=reset]){opacity:0;border-width:0;width:0;margin-inline:0;padding-inline:0;scale:0}.btn-link{--btn-bg:#0000;color:var(--btn-color,var(--color-primary));--btn-border:#0000;--btn-inset:0 0 0 0 oklch(0% 0 0/0);--btn-shadow:0 0 0 0 oklch(0% 0 0/0);background-image:none;text-decoration-line:underline}}.p-0{padding:calc(var(--spacing) * 0)}.p-\\[3px\\]{padding:3px}.px-5{padding-inline:calc(var(--spacing) * 5)}.ps-5{padding-inline-start:calc(var(--spacing) * 5)}.pt-1{padding-top:calc(var(--spacing) * 1)}.pl-4{padding-left:calc(var(--spacing) * 4)}.pl-5{padding-left:calc(var(--spacing) * 5)}.text-lg{font-size:var(--text-lg);line-height:var(--tw-leading,var(--text-lg--line-height))}.font-bold{--tw-font-weight:var(--font-weight-bold);font-weight:var(--font-weight-bold)}.text-\\(--color-ocean-gray-100\\){color:var(--color-ocean-gray-100)}.text-\\(--color-primary\\){color:var(--color-primary)}.text-\\(--color-success\\){color:var(--color-success)}@supports (color:color-mix(in lab, red, red)){.text-base-content\\/60{color:color-mix(in oklab, var(--color-base-content) 60%, transparent)}}.text-white{color:var(--color-white)}.outline-2{outline-style:var(--tw-outline-style);outline-width:2px}.outline-\\(--color-success\\){outline-color:var(--color-success)}:is(.\\*\\:pointer-events-auto>*){pointer-events:auto}.after\\:start-0:after{content:var(--tw-content);inset-inline-start:calc(var(--spacing) * 0)}.after\\:\\!top-3:after{content:var(--tw-content);top:calc(var(--spacing) * 3)!important}@media (hover:hover){.hover\\:cursor-pointer:hover{cursor:pointer}}.disabled\\:border-\\(--color-ocean-gray-200\\):disabled{border-color:var(--color-ocean-gray-200)}.disabled\\:bg-\\(--color-ocean-gray-75\\):disabled{background-color:var(--color-ocean-gray-75)}.disabled\\:text-\\(--color-ocean-gray-200\\):disabled{color:var(--color-ocean-gray-200)}.\\[\\&_dt\\]\\:mr-1 dt{margin-right:calc(var(--spacing) * 1)}.\\[\\&_dt\\,dd\\]\\:inline dt,.\\[\\&_dt\\,dd\\]\\:inline dd{display:inline}.\\[\\&\\>dt\\]\\:text-right>dt{text-align:right}.prose :where(a.btn:not(.btn-link)):not(:where([class~=not-prose],[class~=not-prose] *)){text-decoration-line:none}@layer daisyui{.btn:is(:disabled,[disabled],[aria-disabled=true]){pointer-events:none;color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.btn:is(:disabled,[disabled],[aria-disabled=true]){color:color-mix(in oklch, var(--color-base-content) 20%, #0000)}}.btn:is(:disabled,[disabled],[aria-disabled=true]){--btn-bg:#0000;--btn-border:#0000;--btn-inset:0 0 0 0 oklch(0% 0 0/0);--btn-shadow:0 0 0 0 oklch(0% 0 0/0);background-image:none}.btn:is(:disabled,[disabled],[aria-disabled=true]):not(.btn-link,.btn-ghost){background-color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.btn:is(:disabled,[disabled],[aria-disabled=true]):not(.btn-link,.btn-ghost){background-color:color-mix(in oklab, var(--color-base-content) 10%, transparent)}}.btn-disabled{pointer-events:none;color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.btn-disabled{color:color-mix(in oklch, var(--color-base-content) 20%, #0000)}}.btn-disabled{--btn-bg:#0000;--btn-border:#0000;--btn-inset:0 0 0 0 oklch(0% 0 0/0);--btn-shadow:0 0 0 0 oklch(0% 0 0/0);background-image:none}.btn-disabled:not(.btn-link,.btn-ghost){background-color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.btn-disabled:not(.btn-link,.btn-ghost){background-color:color-mix(in oklab, var(--color-base-content) 10%, transparent)}}}.pointer-events-none{pointer-events:none}.invisible{visibility:hidden}.visible{visibility:visible}.sr-only{clip-path:inset(50%);white-space:nowrap;border-width:0;width:1px;height:1px;margin:-1px;padding:0;position:absolute;overflow:hidden}.absolute{position:absolute}.fixed{position:fixed}.relative{position:relative}.static{position:static}.inset-0{inset:calc(var(--spacing) * 0)}.start{inset-inline-start:var(--spacing)}.end{inset-inline-end:var(--spacing)}.top-1\\/2{top:50%}.left-0{left:calc(var(--spacing) * 0)}.left-1\\/2{left:50%}.join{--join-ss:0;--join-se:0;--join-es:0;--join-ee:0;--join-v:0;--join-h:1;align-items:stretch;display:inline-flex}@scope(.join){:scope>:where(:focus,:has(:focus)){z-index:1}@media (hover:hover){:scope>:where(.btn:hover,:has(.btn:hover)){isolation:isolate}}:scope :where(:scope>:first-child){--join-ss:var(--radius-field);--join-se:calc(var(--radius-field) * var(--join-v));--join-es:calc(var(--radius-field) * var(--join-h));--join-ee:0}:scope :where(:scope>:last-child){--join-ss:0;--join-se:calc(var(--radius-field) * var(--join-h));--join-es:calc(var(--radius-field) * var(--join-v));--join-ee:var(--radius-field)}:scope :where(:scope>:only-child){--join-ss:var(--radius-field);--join-se:var(--radius-field);--join-es:var(--radius-field);--join-ee:var(--radius-field)}}.z-1{z-index:1}.z-40{z-index:40}.z-50{z-index:50}.container{width:100%}@media (width>=40rem){.container{max-width:40rem}}@media (width>=48rem){.container{max-width:48rem}}@media (width>=64rem){.container{max-width:64rem}}@media (width>=80rem){.container{max-width:80rem}}@media (width>=96rem){.container{max-width:96rem}}.m-3{margin:calc(var(--spacing) * 3)}.mx-3{margin-inline:calc(var(--spacing) * 3)}.mx-auto{margin-inline:auto}.my-0\\.5{margin-block:calc(var(--spacing) * .5)}@layer daisyui.l1.l2.l3.l4{.join-item>*{--join-ss:initial;--join-se:initial;--join-es:initial;--join-ee:initial}}.join-item{border-style:solid;border-width:var(--border,1px);border-start-start-radius:var(--join-ss);border-start-end-radius:var(--join-se);border-end-end-radius:var(--join-ee);border-end-start-radius:var(--join-es)}.join-item:not(:first-child,:disabled,[disabled],.btn-disabled){margin-block-start:calc(var(--border,1px) * -1 * var(--join-v));margin-inline-start:calc(var(--border,1px) * -1 * var(--join-h))}.join-item:is(:disabled,[disabled],.btn-disabled){border-width:var(--border,1px);border-inline-end-width:calc(var(--border,1px) * var(--join-v));border-block-end-width:calc(var(--border,1px) * var(--join-h))}.mt-0\\.5{margin-top:calc(var(--spacing) * .5)}.mt-1{margin-top:calc(var(--spacing) * 1)}.mt-1\\.5{margin-top:calc(var(--spacing) * 1.5)}.mt-3{margin-top:calc(var(--spacing) * 3)}.-mr-1{margin-right:calc(var(--spacing) * -1)}.mr-auto{margin-right:auto}.mb-1{margin-bottom:calc(var(--spacing) * 1)}.mb-3{margin-bottom:calc(var(--spacing) * 3)}.mb-4{margin-bottom:calc(var(--spacing) * 4)}.ml-1{margin-left:calc(var(--spacing) * 1)}.ml-auto{margin-left:auto}.alert{border-width:var(--border);border-color:var(--alert-border-color,var(--color-base-200))}.block{display:block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.inline{display:inline}.inline-block{display:inline-block}.inline-flex{display:inline-flex}.size-2{width:calc(var(--spacing) * 2);height:calc(var(--spacing) * 2)}.size-3{width:calc(var(--spacing) * 3);height:calc(var(--spacing) * 3)}.size-3\\.5{width:calc(var(--spacing) * 3.5);height:calc(var(--spacing) * 3.5)}.size-4{width:calc(var(--spacing) * 4);height:calc(var(--spacing) * 4)}.size-5{width:calc(var(--spacing) * 5);height:calc(var(--spacing) * 5)}.size-6{width:calc(var(--spacing) * 6);height:calc(var(--spacing) * 6)}.size-8{width:calc(var(--spacing) * 8);height:calc(var(--spacing) * 8)}.size-max{width:max-content;height:max-content}.h-3{height:calc(var(--spacing) * 3)}.h-3\\.5{height:calc(var(--spacing) * 3.5)}.h-4{height:calc(var(--spacing) * 4)}.h-5{height:calc(var(--spacing) * 5)}.h-7{height:calc(var(--spacing) * 7)}.h-40{height:calc(var(--spacing) * 40)}.h-64{height:calc(var(--spacing) * 64)}.h-72{height:calc(var(--spacing) * 72)}.h-\\[21px\\]{height:21px}.h-\\[32rem\\]{height:32rem}.h-full{height:100%}.h-px{height:1px}.max-h-52{max-height:calc(var(--spacing) * 52)}.max-h-60{max-height:calc(var(--spacing) * 60)}.max-h-\\[90\\%\\]{max-height:90%}.min-h-0{min-height:calc(var(--spacing) * 0)}.w-3{width:calc(var(--spacing) * 3)}.w-3\\.5{width:calc(var(--spacing) * 3.5)}.w-4{width:calc(var(--spacing) * 4)}.w-5{width:calc(var(--spacing) * 5)}.w-6\\.25{width:calc(var(--spacing) * 6.25)}.w-8{width:calc(var(--spacing) * 8)}.w-24{width:calc(var(--spacing) * 24)}.w-52{width:calc(var(--spacing) * 52)}.w-64{width:calc(var(--spacing) * 64)}.w-96{width:calc(var(--spacing) * 96)}.w-fit{width:fit-content}.w-full{width:100%}.w-px{width:1px}.max-w-2xl{max-width:var(--container-2xl)}.max-w-3xl{max-width:var(--container-3xl)}.max-w-5xl{max-width:var(--container-5xl)}.max-w-40{max-width:calc(var(--spacing) * 40)}.max-w-\\[12ch\\]{max-width:12ch}.max-w-fit{max-width:fit-content}.max-w-md{max-width:var(--container-md)}.max-w-sm{max-width:var(--container-sm)}.max-w-xl{max-width:var(--container-xl)}.min-w-0{min-width:calc(var(--spacing) * 0)}.flex-1{flex:1}.shrink{flex-shrink:1}.shrink-0{flex-shrink:0}.grow{flex-grow:1}.-translate-x-1\\/2{--tw-translate-x:calc(calc(1 / 2 * 100%) * -1);translate:var(--tw-translate-x) var(--tw-translate-y)}.-translate-y-1\\/2{--tw-translate-y:calc(calc(1 / 2 * 100%) * -1);translate:var(--tw-translate-x) var(--tw-translate-y)}.transform{transform:var(--tw-rotate-x,) var(--tw-rotate-y,) var(--tw-rotate-z,) var(--tw-skew-x,) var(--tw-skew-y,)}.cursor-default{cursor:default}.cursor-pointer{cursor:pointer}.list-none{list-style-type:none}.grid-cols-\\[repeat\\(auto-fill\\,minmax\\(160px\\,1fr\\)\\)\\]{grid-template-columns:repeat(auto-fill,minmax(160px,1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.place-items-center{place-items:center}.items-baseline{align-items:baseline}.items-center{align-items:center}.items-start{align-items:flex-start}.items-stretch{align-items:stretch}.justify-between{justify-content:space-between}.justify-center{justify-content:center}.justify-end{justify-content:flex-end}.gap-1{gap:calc(var(--spacing) * 1)}.gap-1\\.5{gap:calc(var(--spacing) * 1.5)}.gap-2{gap:calc(var(--spacing) * 2)}.gap-3{gap:calc(var(--spacing) * 3)}.gap-4{gap:calc(var(--spacing) * 4)}:where(.space-y-1>:not(:last-child)){--tw-space-y-reverse:0;margin-block-start:calc(calc(var(--spacing) * 1) * var(--tw-space-y-reverse));margin-block-end:calc(calc(var(--spacing) * 1) * calc(1 - var(--tw-space-y-reverse)))}:where(.space-y-2>:not(:last-child)){--tw-space-y-reverse:0;margin-block-start:calc(calc(var(--spacing) * 2) * var(--tw-space-y-reverse));margin-block-end:calc(calc(var(--spacing) * 2) * calc(1 - var(--tw-space-y-reverse)))}:where(.space-y-4>:not(:last-child)){--tw-space-y-reverse:0;margin-block-start:calc(calc(var(--spacing) * 4) * var(--tw-space-y-reverse));margin-block-end:calc(calc(var(--spacing) * 4) * calc(1 - var(--tw-space-y-reverse)))}.gap-x-4{column-gap:calc(var(--spacing) * 4)}.gap-x-8{column-gap:calc(var(--spacing) * 8)}.gap-y-1{row-gap:calc(var(--spacing) * 1)}.gap-y-3{row-gap:calc(var(--spacing) * 3)}:where(.divide-y>:not(:last-child)){--tw-divide-y-reverse:0;border-bottom-style:var(--tw-border-style);border-top-style:var(--tw-border-style);border-top-width:calc(1px * var(--tw-divide-y-reverse));border-bottom-width:calc(1px * calc(1 - var(--tw-divide-y-reverse)))}:where(.divide-warning\\/15>:not(:last-child)){border-color:var(--color-warning)}@supports (color:color-mix(in lab, red, red)){:where(.divide-warning\\/15>:not(:last-child)){border-color:color-mix(in oklab, var(--color-warning) 15%, transparent)}}.truncate{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.overflow-auto{overflow:auto}.overflow-hidden{overflow:hidden}.overflow-y-auto{overflow-y:auto}.rounded{border-radius:.25rem}.rounded-box{border-radius:var(--radius-box)}.rounded-full{border-radius:3.40282e38px}.rounded-lg{border-radius:var(--radius-lg)}.rounded-md{border-radius:var(--radius-md)}.border{border-style:var(--tw-border-style);border-width:1px}.border-2{border-style:var(--tw-border-style);border-width:2px}.border-s{border-inline-start-style:var(--tw-border-style);border-inline-start-width:1px}.border-t{border-top-style:var(--tw-border-style);border-top-width:1px}.border-b{border-bottom-style:var(--tw-border-style);border-bottom-width:1px}.border-base-200{border-color:var(--color-base-200)}.border-base-300{border-color:var(--color-base-300)}.border-error\\/40{border-color:var(--color-error)}@supports (color:color-mix(in lab, red, red)){.border-error\\/40{border-color:color-mix(in oklab, var(--color-error) 40%, transparent)}}.border-info{border-color:var(--color-info)}.border-primary{border-color:var(--color-primary)}.border-success{border-color:var(--color-success)}.border-transparent{border-color:#0000}.border-warning,.border-warning\\/25{border-color:var(--color-warning)}@supports (color:color-mix(in lab, red, red)){.border-warning\\/25{border-color:color-mix(in oklab, var(--color-warning) 25%, transparent)}}.border-warning\\/40{border-color:var(--color-warning)}@supports (color:color-mix(in lab, red, red)){.border-warning\\/40{border-color:color-mix(in oklab, var(--color-warning) 40%, transparent)}}.bg-accent{background-color:var(--color-accent)}.bg-base-100{background-color:var(--color-base-100)}.bg-base-200{background-color:var(--color-base-200)}.bg-base-300{background-color:var(--color-base-300)}.bg-base-content\\/10{background-color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.bg-base-content\\/10{background-color:color-mix(in oklab, var(--color-base-content) 10%, transparent)}}.bg-black\\/40{background-color:#0006}@supports (color:color-mix(in lab, red, red)){.bg-black\\/40{background-color:color-mix(in oklab, var(--color-black) 40%, transparent)}}.bg-error,.bg-error\\/10{background-color:var(--color-error)}@supports (color:color-mix(in lab, red, red)){.bg-error\\/10{background-color:color-mix(in oklab, var(--color-error) 10%, transparent)}}.bg-info,.bg-info\\/15{background-color:var(--color-info)}@supports (color:color-mix(in lab, red, red)){.bg-info\\/15{background-color:color-mix(in oklab, var(--color-info) 15%, transparent)}}.bg-neutral{background-color:var(--color-neutral)}.bg-neutral-50{background-color:var(--color-neutral-50)}.bg-primary{background-color:var(--color-primary)}.bg-scl-amber-50{background-color:oklch(97.3% .039 92.73)}.bg-scl-amber-100{background-color:oklch(94.5% .076 91.82)}.bg-scl-blue-50{background-color:oklch(96.6% .009 258.34)}.bg-scl-blue-100{background-color:oklch(92.2% .023 258.36)}.bg-scl-crimson-50{background-color:oklch(96.1% .012 350.97)}.bg-scl-crimson-100{background-color:oklch(92.1% .023 353.17)}.bg-scl-darkred-50{background-color:oklch(96.3% .011 3.49)}.bg-scl-darkred-100{background-color:oklch(91.7% .029 1.38)}.bg-scl-gray-50{background-color:oklch(97.6% 0 89.88)}.bg-scl-gray-100{background-color:oklch(94.6% 0 89.88)}.bg-scl-green-50{background-color:oklch(97.1% .014 145.47)}.bg-scl-green-100{background-color:oklch(94.1% .024 145.38)}.bg-scl-lime-50{background-color:oklch(98.1% .013 115.83)}.bg-scl-lime-100{background-color:oklch(96.1% .02 115.96)}.bg-scl-navy-50{background-color:oklch(95.9% .009 279.69)}.bg-scl-navy-100{background-color:oklch(90.7% .023 280.57)}.bg-scl-orange-100{background-color:oklch(96% .023 65.46)}.bg-scl-petrol-50{background-color:oklch(95.3% .011 189.82)}.bg-scl-petrol-100{background-color:oklch(90.7% .02 189.18)}.bg-scl-red-50{background-color:oklch(96.5% .014 17.4)}.bg-scl-red-100{background-color:oklch(92.3% .03 17.71)}.bg-scl-sky-50{background-color:oklch(97.6% .008 236.56)}.bg-scl-sky-100{background-color:oklch(94.2% .02 238.67)}.bg-scl-steel-50{background-color:oklch(96.4% .002 247.84)}.bg-scl-steel-100{background-color:oklch(91.8% .003 247.86)}.bg-scl-stone-50{background-color:oklch(97.3% 0 89.88)}.bg-scl-stone-100{background-color:oklch(94.3% 0 89.88)}.bg-scl-turquoise-50{background-color:oklch(97.4% .008 207.14)}.bg-scl-turquoise-100{background-color:oklch(94.7% .013 208.76)}.bg-secondary{background-color:var(--color-secondary)}.bg-success,.bg-success\\/15{background-color:var(--color-success)}@supports (color:color-mix(in lab, red, red)){.bg-success\\/15{background-color:color-mix(in oklab, var(--color-success) 15%, transparent)}}.bg-warning,.bg-warning\\/5{background-color:var(--color-warning)}@supports (color:color-mix(in lab, red, red)){.bg-warning\\/5{background-color:color-mix(in oklab, var(--color-warning) 5%, transparent)}}.bg-warning\\/20{background-color:var(--color-warning)}@supports (color:color-mix(in lab, red, red)){.bg-warning\\/20{background-color:color-mix(in oklab, var(--color-warning) 20%, transparent)}}.bg-white{background-color:var(--color-white)}.p-1{padding:calc(var(--spacing) * 1)}.p-2{padding:calc(var(--spacing) * 2)}.p-3{padding:calc(var(--spacing) * 3)}.p-4{padding:calc(var(--spacing) * 4)}.p-6{padding:calc(var(--spacing) * 6)}.px-2{padding-inline:calc(var(--spacing) * 2)}.px-3{padding-inline:calc(var(--spacing) * 3)}.px-4{padding-inline:calc(var(--spacing) * 4)}.py-0\\.5{padding-block:calc(var(--spacing) * .5)}.py-1{padding-block:calc(var(--spacing) * 1)}.py-1\\.5{padding-block:calc(var(--spacing) * 1.5)}.py-2{padding-block:calc(var(--spacing) * 2)}.py-2\\.5{padding-block:calc(var(--spacing) * 2.5)}.pb-4{padding-bottom:calc(var(--spacing) * 4)}.pl-2{padding-left:calc(var(--spacing) * 2)}.pl-7{padding-left:calc(var(--spacing) * 7)}.text-center{text-align:center}.text-left{text-align:left}.font-mono{font-family:var(--font-mono)}.font-sans{font-family:var(--font-sans)}.text-3xl{font-size:var(--text-3xl);line-height:var(--tw-leading,var(--text-3xl--line-height))}.text-base{font-size:var(--text-base);line-height:var(--tw-leading,var(--text-base--line-height))}.text-sm{font-size:var(--text-sm);line-height:var(--tw-leading,var(--text-sm--line-height))}.text-xs{font-size:var(--text-xs);line-height:var(--tw-leading,var(--text-xs--line-height))}.text-\\[10px\\]{font-size:10px}.leading-none{--tw-leading:1;line-height:1}.font-medium{--tw-font-weight:var(--font-weight-medium);font-weight:var(--font-weight-medium)}.font-semibold{--tw-font-weight:var(--font-weight-semibold);font-weight:var(--font-weight-semibold)}.tracking-wide{--tw-tracking:var(--tracking-wide);letter-spacing:var(--tracking-wide)}.break-all{word-break:break-all}.whitespace-pre-wrap{white-space:pre-wrap}.text-base-content,.text-base-content\\/40{color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.text-base-content\\/40{color:color-mix(in oklab, var(--color-base-content) 40%, transparent)}}.text-base-content\\/45{color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.text-base-content\\/45{color:color-mix(in oklab, var(--color-base-content) 45%, transparent)}}.text-base-content\\/60{color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.text-base-content\\/60{color:color-mix(in oklab, var(--color-base-content) 60%, transparent)}}.text-base-content\\/70{color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.text-base-content\\/70{color:color-mix(in oklab, var(--color-base-content) 70%, transparent)}}.text-base-content\\/80{color:var(--color-base-content)}@supports (color:color-mix(in lab, red, red)){.text-base-content\\/80{color:color-mix(in oklab, var(--color-base-content) 80%, transparent)}}.text-black{color:var(--color-black)}.text-error{color:var(--color-error)}.text-info{color:var(--color-info)}.text-info-content{color:var(--color-info-content)}.text-neutral-700{color:var(--color-neutral-700)}.text-primary{color:var(--color-primary)}.text-primary-content{color:var(--color-primary-content)}.text-scl-amber-800{color:oklch(49.1% .1 87.15)}.text-scl-amber-900{color:oklch(41.3% .084 88.59)}.text-scl-blue-700{color:oklch(48.2% .119 256.34)}.text-scl-blue-800{color:oklch(42.3% .116 256.9)}.text-scl-blue-900{color:oklch(35.3% .1 257.66)}.text-scl-crimson-800{color:oklch(50.4% .164 4.81)}.text-scl-crimson-900{color:oklch(43.4% .143 5.75)}.text-scl-darkred-800{color:oklch(41.9% .152 12.61)}.text-scl-darkred-900{color:oklch(35.7% .129 11.88)}.text-scl-gray-700{color:oklch(46% 0 89.88)}.text-scl-gray-800{color:oklch(40.2% 0 89.88)}.text-scl-gray-900{color:oklch(33.3% 0 89.88)}.text-scl-green-800{color:oklch(47.2% .149 143.25)}.text-scl-green-900{color:oklch(40.8% .129 143.19)}.text-scl-lime-800{color:oklch(50.7% .105 121.4)}.text-scl-lime-900{color:oklch(43.9% .093 121.9)}.text-scl-navy-700{color:oklch(40.8% .126 276.47)}.text-scl-navy-800{color:oklch(35.6% .118 275.57)}.text-scl-navy-900{color:oklch(30.2% .101 275.54)}.text-scl-orange-900{color:oklch(46.7% .135 38.49)}.text-scl-petrol-700{color:oklch(47.1% .042 189.21)}.text-scl-petrol-800{color:oklch(40.6% .036 185.33)}.text-scl-petrol-900{color:oklch(34% .029 185.65)}.text-scl-red-700{color:oklch(53.5% .192 26.68)}.text-scl-red-800{color:oklch(47.5% .173 26.97)}.text-scl-red-900{color:oklch(40.3% .147 26.94)}.text-scl-sky-800{color:oklch(49.9% .098 238.14)}.text-scl-sky-900{color:oklch(42.8% .085 238.12)}.text-scl-steel-800{color:oklch(37.4% .015 240.3)}.text-scl-steel-900{color:oklch(31.4% .014 248.26)}.text-scl-stone-700{color:oklch(46.8% 0 89.88)}.text-scl-stone-800{color:oklch(40.2% 0 89.88)}.text-scl-stone-900{color:oklch(34.1% 0 89.88)}.text-scl-turquoise-800{color:oklch(50.6% .077 209.3)}.text-scl-turquoise-900{color:oklch(43.1% .067 209.33)}.text-stone-700{color:var(--color-stone-700)}.text-success{color:var(--color-success)}.text-success-content{color:var(--color-success-content)}.text-warning{color:var(--color-warning)}.capitalize{text-transform:capitalize}.uppercase{text-transform:uppercase}.line-through{text-decoration-line:line-through}.opacity-30{opacity:.3}.opacity-50{opacity:.5}.opacity-55{opacity:.55}.opacity-60{opacity:.6}.opacity-70{opacity:.7}.shadow-md{--tw-shadow:0 4px 6px -1px var(--tw-shadow-color,#0000001a), 0 2px 4px -2px var(--tw-shadow-color,#0000001a);box-shadow:var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 3px 0 var(--tw-shadow-color,#0000001a), 0 1px 2px -1px var(--tw-shadow-color,#0000001a);box-shadow:var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow)}.shadow-xl{--tw-shadow:0 20px 25px -5px var(--tw-shadow-color,#0000001a), 0 8px 10px -6px var(--tw-shadow-color,#0000001a);box-shadow:var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow)}.outline{outline-style:var(--tw-outline-style);outline-width:1px}.filter{filter:var(--tw-blur,) var(--tw-brightness,) var(--tw-contrast,) var(--tw-grayscale,) var(--tw-hue-rotate,) var(--tw-invert,) var(--tw-saturate,) var(--tw-sepia,) var(--tw-drop-shadow,)}.transition{transition-property:color,background-color,border-color,outline-color,text-decoration-color,fill,stroke,--tw-gradient-from,--tw-gradient-via,--tw-gradient-to,opacity,box-shadow,transform,translate,scale,rotate,filter,-webkit-backdrop-filter,backdrop-filter,display,content-visibility,overlay,pointer-events;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--tw-duration,var(--default-transition-duration))}.transition-all{transition-property:all;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--tw-duration,var(--default-transition-duration))}.transition-colors{transition-property:color,background-color,border-color,outline-color,text-decoration-color,fill,stroke,--tw-gradient-from,--tw-gradient-via,--tw-gradient-to;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--tw-duration,var(--default-transition-duration))}.transition-opacity{transition-property:opacity;transition-timing-function:var(--tw-ease,var(--default-transition-timing-function));transition-duration:var(--tw-duration,var(--default-transition-duration))}.outline-none{--tw-outline-style:none;outline-style:none}.select-none{-webkit-user-select:none;user-select:none}@media (hover:hover){.hover\\:opacity-100:hover{opacity:1}}.data-disabled\\:pointer-events-none[data-disabled]{pointer-events:none}.data-disabled\\:opacity-40[data-disabled]{opacity:.4}.data-highlighted\\:bg-primary[data-highlighted]{background-color:var(--color-primary)}.data-highlighted\\:text-primary-content[data-highlighted]{color:var(--color-primary-content)}.data-highlighted\\:outline-none[data-highlighted]{--tw-outline-style:none;outline-style:none}@media (width>=48rem){.md\\:block{display:block}.md\\:flex-row{flex-direction:row}.md\\:items-center{align-items:center}}}@keyframes dropdown{0%{opacity:0}}@keyframes rotator{89.9999%,to{--first-item-position:0 0%}90%,99.9999%{--first-item-position:0 calc(var(--items) * 100%)}to{translate:0 -100%}}@keyframes radio{0%{padding:5px}50%{padding:3px}}@keyframes toast{0%{opacity:0;scale:.9}to{opacity:1;scale:1}}@keyframes skeleton{0%{background-position:150%}to{background-position:-50%}}@keyframes progress{50%{background-position-x:-115%}}@keyframes rating{0%,40%{filter:brightness(1.05)contrast(1.05);scale:1.1}}@keyframes aura{to{--aura-angle:360deg;transform:translateZ(1px)}}@keyframes aura-glow{20%,80%{opacity:.7;filter:blur(.25rem)}50%{opacity:1;filter:blur(.75rem)}}@keyframes aura-glow-after{20%,80%{opacity:.3;filter:blur(1rem)}50%{opacity:.6;filter:blur(1.5rem)}}@keyframes menu{0%{opacity:0}}@property --tw-space-y-reverse{syntax:"*";inherits:false;initial-value:0}@property --tw-divide-y-reverse{syntax:"*";inherits:false;initial-value:0}@property --tw-leading{syntax:"*";inherits:false}@property --tw-tracking{syntax:"*";inherits:false}@property --tw-shadow{syntax:"*";inherits:false;initial-value:0 0 #0000}@property --tw-shadow-color{syntax:"*";inherits:false}@property --tw-shadow-alpha{syntax:"<percentage>";inherits:false;initial-value:100%}@property --tw-inset-shadow{syntax:"*";inherits:false;initial-value:0 0 #0000}@property --tw-inset-shadow-color{syntax:"*";inherits:false}@property --tw-inset-shadow-alpha{syntax:"<percentage>";inherits:false;initial-value:100%}@property --tw-ring-color{syntax:"*";inherits:false}@property --tw-ring-shadow{syntax:"*";inherits:false;initial-value:0 0 #0000}@property --tw-inset-ring-color{syntax:"*";inherits:false}@property --tw-inset-ring-shadow{syntax:"*";inherits:false;initial-value:0 0 #0000}@property --tw-ring-inset{syntax:"*";inherits:false}@property --tw-ring-offset-width{syntax:"<length>";inherits:false;initial-value:0}@property --tw-ring-offset-color{syntax:"*";inherits:false;initial-value:#fff}@property --tw-ring-offset-shadow{syntax:"*";inherits:false;initial-value:0 0 #0000}@property --tw-blur{syntax:"*";inherits:false}@property --tw-brightness{syntax:"*";inherits:false}@property --tw-contrast{syntax:"*";inherits:false}@property --tw-grayscale{syntax:"*";inherits:false}@property --tw-hue-rotate{syntax:"*";inherits:false}@property --tw-invert{syntax:"*";inherits:false}@property --tw-opacity{syntax:"*";inherits:false}@property --tw-saturate{syntax:"*";inherits:false}@property --tw-sepia{syntax:"*";inherits:false}@property --tw-drop-shadow{syntax:"*";inherits:false}@property --tw-drop-shadow-color{syntax:"*";inherits:false}@property --tw-drop-shadow-alpha{syntax:"<percentage>";inherits:false;initial-value:100%}@property --tw-drop-shadow-size{syntax:"*";inherits:false}.explorer-tree__item[data-v-8ff519a8]:focus-visible,.explorer-tree__item--selectable[data-v-8ff519a8]:hover{background-color:currentColor}@supports (color:color-mix(in lab, red, red)){.explorer-tree__item[data-v-8ff519a8]:focus-visible,.explorer-tree__item--selectable[data-v-8ff519a8]:hover{background-color:color-mix(in srgb, currentColor 6%, transparent)}}.explorer-tree__item[data-selected][data-v-8ff519a8]{background-color:var(--color-primary)}@supports (color:color-mix(in lab, red, red)){.explorer-tree__item[data-selected][data-v-8ff519a8]{background-color:color-mix(in srgb, var(--color-primary) 12%, transparent)}}.explorer-tree__item[data-selected] .explorer-tree__item-select-target[data-v-8ff519a8]{color:var(--color-primary)}.explorer-tree__chevron[data-v-8ff519a8]{cursor:pointer;transition:transform .15s}.explorer-tree__chevron[data-v-8ff519a8]:hover{stroke-width:2.5px}.explorer-tree__item[data-expanded] .explorer-tree__chevron[data-v-8ff519a8]{margin-top:-3px;transform:rotate(90deg)}.tooltip[data-v-8ff519a8]:after{inset:auto auto 1.5rem 50%}.tooltip[data-v-8ff519a8]:before{inset:auto auto calc(1.5rem + 3px) 50%}.code-block[data-v-642c3143]{background:#24292e}.code-block .toolbar[data-v-642c3143]{border-bottom:1px solid #ffffff14;padding:.25rem .4rem}.code-block .tool-btn[data-v-642c3143]{color:#adbac7;cursor:pointer;border-radius:.25rem;align-items:center;gap:.25rem;padding:.1rem .4rem;font-size:.7rem;display:inline-flex}.code-block .tool-btn[data-v-642c3143]:hover{color:#e1e4e8;background:#ffffff14}.code-block .tool-btn.active[data-v-642c3143]{color:#79c0ff;background:#58a6ff2e}.code-block .code-scroll[data-v-642c3143]{-webkit-user-select:text;user-select:text}.code-block .shiki-host[data-v-642c3143]{width:max-content;min-width:100%}.code-block[data-v-642c3143] pre.shiki{box-sizing:border-box;tab-size:2;width:max-content;min-width:100%;min-height:100%;margin:0;padding:.75rem 0;font-size:.8rem;line-height:1.6;overflow:visible}.code-block[data-v-642c3143] pre.shiki code{counter-reset:line;display:block}.code-block[data-v-642c3143] pre.shiki .line{counter-increment:line;text-indent:0;min-width:100%;min-height:1.6em;padding-left:3.5rem;display:inline-block;position:relative}.code-block[data-v-642c3143] pre.shiki .line:before{content:counter(line);text-align:right;color:#6e7681;-webkit-user-select:none;user-select:none;width:2.75rem;padding-right:.5rem;position:absolute;left:0}.code-block.wrap .shiki-host[data-v-642c3143],.code-block.wrap[data-v-642c3143] pre.shiki{width:100%}.code-block.wrap[data-v-642c3143] pre.shiki .line{white-space:pre-wrap;overflow-wrap:anywhere}.code-block[data-v-642c3143] pre.shiki .line.diff.add{background:#2ea0432e}.code-block[data-v-642c3143] pre.shiki .line.diff.add:after{content:"+";color:#3fb950;position:absolute;left:2.75rem}.code-block[data-v-642c3143] pre.shiki .line.diff.remove{background:#f8514929}.code-block[data-v-642c3143] pre.shiki .line.diff.remove:after{content:"-";color:#f85149;position:absolute;left:2.75rem}:root{--color-ocean-gray-00:#fff;--color-ocean-gray-25:#fafbfb;--color-ocean-gray-50:#f5f6f7;--color-ocean-gray-75:#eaeeef;--color-ocean-gray-100:#e1e4e6;--color-ocean-gray-150:#c6ced1;--color-ocean-gray-200:#bac1c4;--color-ocean-gray-250:#9fadb2;--color-ocean-gray-300:#889499;--color-ocean-gray-350:#72858c;--color-ocean-gray-400:#617177;--color-ocean-gray-450:#3f555e;--color-ocean-gray-500:#394d55;--color-ocean-gray-550:#34464d;--color-ocean-gray-600:#2e3e44;--color-ocean-gray-650:#27353b;--color-ocean-gray-700:#222e33;--color-ocean-gray-750:#1f272b;--color-ocean-gray-800:#171f22;--color-ocean-gray-850:#11171a;--color-ocean-gray-900:#0b0f11;--color-chart-1:#f7931e;--color-chart-2:#40535b;--color-chart-3:#2798aa;--color-chart-4:#6da89c;--color-chart-5:#a4cadd;--color-chart-6:#97b42d;--color-chart-7:#ffcb05;--color-chart-8:#ee652e;--color-chart-9:#528694;--color-chart-10:#a10f3b}@property --tw-translate-x{syntax:"*";inherits:false;initial-value:0}@property --tw-translate-y{syntax:"*";inherits:false;initial-value:0}@property --tw-translate-z{syntax:"*";inherits:false;initial-value:0}@property --tw-rotate-x{syntax:"*";inherits:false}@property --tw-rotate-y{syntax:"*";inherits:false}@property --tw-rotate-z{syntax:"*";inherits:false}@property --tw-skew-x{syntax:"*";inherits:false}@property --tw-skew-y{syntax:"*";inherits:false}@property --tw-border-style{syntax:"*";inherits:false;initial-value:solid}@property --tw-font-weight{syntax:"*";inherits:false}@property --tw-outline-style{syntax:"*";inherits:false;initial-value:solid}@property --tw-content{syntax:"*";inherits:false;initial-value:""}`)),document.head.appendChild(e)}}catch(e){console.error(`vite-plugin-css-injected-by-js`,e)}})();//#region \0rolldown/runtime.js
 var e = Object.defineProperty, t = (t, n) => {
 	let r = {};
 	for (var i in t) e(r, i, {
@@ -5179,7 +5179,7 @@ var Qu = {
 };
 `${Qu.prefix}${Qu.uri}`;
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/@dialecte_core@0.4.9/node_modules/@dialecte/core/dist/project-D-KS3OPN.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/@dialecte_core@0.4.11/node_modules/@dialecte/core/dist/project-BjO7cVmO.js
 var $u = Object.create, ed = Object.defineProperty, td = Object.getOwnPropertyDescriptor, nd = Object.getOwnPropertyNames, rd = Object.getPrototypeOf, id = Object.prototype.hasOwnProperty, ad = (e, t) => () => (t || (e((t = { exports: {} }).exports, t), e = null), t.exports), od = (e, t, n, r) => {
 	if (t && typeof t == "object" || typeof t == "function") for (var i = nd(t), a = 0, o = i.length, s; a < o; a++) s = i[a], !id.call(e, s) && s !== n && ed(e, s, {
 		get: ((e) => t[e]).bind(null, s),
@@ -10264,7 +10264,7 @@ var { liveQuery: _d, mergeRanges: vd, rangesOverlap: yd, RangeSet: bd, cmp: xd, 
 	}
 });
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/dialecte/create-document-store.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/dialecte/create-document-store.js
 function Od(e) {
 	let t = /* @__PURE__ */ an(null), n = e?.extensions, r = {}, i = {};
 	if (n) for (let [e, t] of Object.entries(n)) t.query && (r[e] = t.query), t.transaction && (i[e] = t.transaction);
@@ -10323,7 +10323,7 @@ function Nd(e) {
 	}
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/createContext.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/createContext.js
 function Pd(e, t) {
 	let n = typeof e == "string" && !t ? `${e}Context` : t, r = Symbol(n);
 	return [(t) => {
@@ -10333,18 +10333,18 @@ function Pd(e, t) {
 	}, (e) => (pr(r, e), e)];
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/ConfigProvider/ConfigProvider.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/ConfigProvider/ConfigProvider.js
 var [Fd, Id] = /* @__PURE__ */ Pd("ConfigProvider");
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/renderSlotFragments.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/renderSlotFragments.js
 function Ld(e) {
 	return e ? e.flatMap((e) => e.type === H ? Ld(e.children) : [e]) : [];
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/Primitive/Slot.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/Primitive/Slot.js
 var [Rd, zd] = /* @__PURE__ */ Pd("PopperRoot");
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/defu@6.1.7/node_modules/defu/dist/defu.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/defu@6.1.7/node_modules/defu/dist/defu.js
 function Bd(e) {
 	if (typeof e != "object" || !e) return !1;
 	let t = Object.getPrototypeOf(e);
@@ -10370,13 +10370,13 @@ function Hd(e) {
 }
 jd(() => /* @__PURE__ */ R([]));
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/@floating-ui_utils@0.2.11/node_modules/@floating-ui/utils/dist/floating-ui.utils.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/@floating-ui_utils@0.2.11/node_modules/@floating-ui/utils/dist/floating-ui.utils.js
 var Ud = Math.round, Wd = (e) => ({
 	x: e,
 	y: e
 });
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/@floating-ui_utils@0.2.11/node_modules/@floating-ui/utils/dist/floating-ui.utils.dom.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/@floating-ui_utils@0.2.11/node_modules/@floating-ui/utils/dist/floating-ui.utils.dom.js
 function Gd() {
 	return typeof window < "u";
 }
@@ -10472,7 +10472,7 @@ function _f(e, t) {
 	delete e[t];
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/Popper/PopperContent.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/Popper/PopperContent.js
 var vf = {
 	side: "bottom",
 	sideOffset: 0,
@@ -10493,7 +10493,7 @@ var vf = {
 }, [yf, bf] = /* @__PURE__ */ Pd("PopperContent");
 ({ ...vf });
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/@lucide_vue@1.23.0_vue@3.5.39_typescript@5.8.3_/node_modules/@lucide/vue/dist/esm/shared/src/utils/isEmptyString.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/@lucide_vue@1.23.0_vue@3.5.39_typescript@5.8.3_/node_modules/@lucide/vue/dist/esm/shared/src/utils/isEmptyString.js
 var xf = ["Enter", " "], Sf = [
 	"ArrowDown",
 	"PageUp",
@@ -11536,7 +11536,7 @@ var Mp = class {
 	}
 }).NULL;
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/schema.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/schema.js
 var Pp = class {
 	constructor(e, t, n) {
 		this.normal = t, this.property = e, n && (this.space = n);
@@ -11544,19 +11544,19 @@ var Pp = class {
 };
 Pp.prototype.normal = {}, Pp.prototype.property = {}, Pp.prototype.space = void 0;
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/merge.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/merge.js
 function Fp(e, t) {
 	let n = {}, r = {};
 	for (let t of e) Object.assign(n, t.property), Object.assign(r, t.normal);
 	return new Pp(n, r, t);
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/normalize.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/normalize.js
 function Ip(e) {
 	return e.toLowerCase();
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/types.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/types.js
 var Lp = /* @__PURE__ */ pf({
 	boolean: () => zp,
 	booleanish: () => Bp,
@@ -11570,7 +11570,7 @@ function Gp() {
 	return 2 ** ++Rp;
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/info.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/info.js
 var Kp = class {
 	constructor(e, t) {
 		this.attribute = t, this.property = e;
@@ -11578,7 +11578,7 @@ var Kp = class {
 };
 Kp.prototype.attribute = "", Kp.prototype.booleanish = !1, Kp.prototype.boolean = !1, Kp.prototype.commaOrSpaceSeparated = !1, Kp.prototype.commaSeparated = !1, Kp.prototype.defined = !1, Kp.prototype.mustUseProperty = !1, Kp.prototype.number = !1, Kp.prototype.overloadedBoolean = !1, Kp.prototype.property = "", Kp.prototype.spaceSeparated = !1, Kp.prototype.space = void 0;
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/defined-info.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/defined-info.js
 var qp = Object.keys(Lp), Jp = class extends Kp {
 	constructor(e, t, n, r) {
 		let i = -1;
@@ -11593,7 +11593,7 @@ function Yp(e, t, n) {
 	n && (e[t] = n);
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/create.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/create.js
 function Xp(e) {
 	let t = {}, n = {};
 	for (let [r, i] of Object.entries(e.properties)) {
@@ -11603,7 +11603,7 @@ function Xp(e) {
 	return new Pp(t, n, e.space);
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/aria.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/aria.js
 var Zp = Xp({
 	properties: {
 		ariaActiveDescendant: null,
@@ -11661,17 +11661,17 @@ var Zp = Xp({
 	}
 });
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/case-sensitive-transform.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/case-sensitive-transform.js
 function Qp(e, t) {
 	return t in e ? e[t] : t;
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/case-insensitive-transform.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/case-insensitive-transform.js
 function $p(e, t) {
 	return Qp(e, t.toLowerCase());
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/html.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/html.js
 var em = Xp({
 	attributes: {
 		acceptcharset: "accept-charset",
@@ -12613,7 +12613,7 @@ Fp([
 	im
 ], "html");
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/index.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/index.js
 var dm = Fp([
 	Zp,
 	tm,
@@ -12634,7 +12634,7 @@ function pm(e, t) {
 	return r.handlers = n.handlers || {}, r.invalid = n.invalid, r.unknown = n.unknown, r;
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/stringify-entities@4.0.4/node_modules/stringify-entities/lib/core.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/stringify-entities@4.0.4/node_modules/stringify-entities/lib/core.js
 var mm = /["&'<>`]/g, hm = /[\uD800-\uDBFF][\uDC00-\uDFFF]/g, gm = /[\x01-\t\v\f\x0E-\x1F\x7F\x81\x8D\x8F\x90\x9D\xA0-\uFFFF]/g, _m = /[|\\{}()[\]^$+*?.]/g, vm = /* @__PURE__ */ new WeakMap();
 function ym(e, t) {
 	if (e = e.replace(t.subset ? bm(t.subset) : mm, r), t.subset || t.escapeOnly) return e;
@@ -12656,21 +12656,21 @@ function xm(e) {
 	return RegExp("(?:" + t.join("|") + ")", "g");
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/stringify-entities@4.0.4/node_modules/stringify-entities/lib/util/to-hexadecimal.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/stringify-entities@4.0.4/node_modules/stringify-entities/lib/util/to-hexadecimal.js
 var Sm = /[\dA-Fa-f]/;
 function Cm(e, t, n) {
 	let r = "&#x" + e.toString(16).toUpperCase();
 	return n && t && !Sm.test(String.fromCharCode(t)) ? r : r + ";";
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/stringify-entities@4.0.4/node_modules/stringify-entities/lib/util/to-decimal.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/stringify-entities@4.0.4/node_modules/stringify-entities/lib/util/to-decimal.js
 var wm = /\d/;
 function Tm(e, t, n) {
 	let r = "&#" + String(e);
 	return n && t && !wm.test(String.fromCharCode(t)) ? r : r + ";";
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/character-entities-legacy@3.0.0/node_modules/character-entities-legacy/index.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/character-entities-legacy@3.0.0/node_modules/character-entities-legacy/index.js
 var Em = /* @__PURE__ */ "AElig.AMP.Aacute.Acirc.Agrave.Aring.Atilde.Auml.COPY.Ccedil.ETH.Eacute.Ecirc.Egrave.Euml.GT.Iacute.Icirc.Igrave.Iuml.LT.Ntilde.Oacute.Ocirc.Ograve.Oslash.Otilde.Ouml.QUOT.REG.THORN.Uacute.Ucirc.Ugrave.Uuml.Yacute.aacute.acirc.acute.aelig.agrave.amp.aring.atilde.auml.brvbar.ccedil.cedil.cent.copy.curren.deg.divide.eacute.ecirc.egrave.eth.euml.frac12.frac14.frac34.gt.iacute.icirc.iexcl.igrave.iquest.iuml.laquo.lt.macr.micro.middot.nbsp.not.ntilde.oacute.ocirc.ograve.ordf.ordm.oslash.otilde.ouml.para.plusmn.pound.quot.raquo.reg.sect.shy.sup1.sup2.sup3.szlig.thorn.times.uacute.ucirc.ugrave.uml.uuml.yacute.yen.yuml".split("."), Dm = {
 	nbsp: "\xA0",
 	iexcl: "¡",
@@ -12945,7 +12945,7 @@ function Nm(e, t, n, r) {
 	return "";
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/stringify-entities@4.0.4/node_modules/stringify-entities/lib/util/format-smart.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/stringify-entities@4.0.4/node_modules/stringify-entities/lib/util/format-smart.js
 function Pm(e, t, n) {
 	let r = Cm(e, t, n.omitOptionalSemicolons), i;
 	if ((n.useNamedReferences || n.useShortestReferences) && (i = Nm(e, t, n.omitOptionalSemicolons, n.attribute)), (n.useShortestReferences || !i) && n.useShortestReferences) {
@@ -12955,12 +12955,12 @@ function Pm(e, t, n) {
 	return i && (!n.useShortestReferences || i.length < r.length) ? i : r;
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/stringify-entities@4.0.4/node_modules/stringify-entities/lib/index.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/stringify-entities@4.0.4/node_modules/stringify-entities/lib/index.js
 function Fm(e, t) {
 	return ym(e, Object.assign({ format: Pm }, t));
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/handle/comment.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/handle/comment.js
 var Im = /^>|^->|<!--|-->|--!>|<!-$/g, Lm = [">"], Rm = ["<", ">"];
 function zm(e, t, n, r) {
 	return r.settings.bogusComments ? "<?" + Fm(e.value, Object.assign({}, r.settings.characterReferences, { subset: Lm })) + ">" : "<!--" + e.value.replace(Im, i) + "-->";
@@ -12969,12 +12969,12 @@ function zm(e, t, n, r) {
 	}
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/handle/doctype.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/handle/doctype.js
 function Bm(e, t, n, r) {
 	return "<!" + (r.settings.upperDoctype ? "DOCTYPE" : "doctype") + (r.settings.tightDoctype ? "" : " ") + "html>";
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/ccount@2.0.1/node_modules/ccount/index.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/ccount@2.0.1/node_modules/ccount/index.js
 function Vm(e, t) {
 	let n = String(e);
 	if (typeof t != "string") throw TypeError("Expected character");
@@ -12983,18 +12983,18 @@ function Vm(e, t) {
 	return r;
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/comma-separated-tokens@2.0.3/node_modules/comma-separated-tokens/index.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/comma-separated-tokens@2.0.3/node_modules/comma-separated-tokens/index.js
 function Hm(e, t) {
 	let n = t || {};
 	return (e[e.length - 1] === "" ? [...e, ""] : e).join((n.padRight ? " " : "") + "," + (n.padLeft === !1 ? "" : " ")).trim();
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/space-separated-tokens@2.0.2/node_modules/space-separated-tokens/index.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/space-separated-tokens@2.0.2/node_modules/space-separated-tokens/index.js
 function Um(e) {
 	return e.join(" ").trim();
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-whitespace@3.0.0/node_modules/hast-util-whitespace/lib/index.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-whitespace@3.0.0/node_modules/hast-util-whitespace/lib/index.js
 var Wm = /[ \t\n\f\r]/g;
 function Gm(e) {
 	return typeof e == "object" ? e.type === "text" ? Km(e.value) : !1 : Km(e);
@@ -13003,7 +13003,7 @@ function Km(e) {
 	return e.replace(Wm, "") === "";
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/omission/util/siblings.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/omission/util/siblings.js
 var qm = Xm(1), Jm = Xm(-1), Ym = [];
 function Xm(e) {
 	return t;
@@ -13014,7 +13014,7 @@ function Xm(e) {
 	}
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/omission/omission.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/omission/omission.js
 var Zm = {}.hasOwnProperty;
 function Qm(e) {
 	return t;
@@ -13023,7 +13023,7 @@ function Qm(e) {
 	}
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/omission/closing.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/omission/closing.js
 var $m = Qm({
 	body: nh,
 	caption: eh,
@@ -13105,7 +13105,7 @@ function mh(e, t, n) {
 	return !r || r.type === "element" && (r.tagName === "td" || r.tagName === "th");
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/omission/opening.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/omission/opening.js
 var hh = Qm({
 	body: vh,
 	colgroup: yh,
@@ -13139,7 +13139,7 @@ function bh(e, t, n) {
 	return n && r && r.type === "element" && (r.tagName === "thead" || r.tagName === "tbody") && $m(r, n.children.indexOf(r), n) ? !1 : !!(i && i.type === "element" && i.tagName === "tr");
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/handle/element.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/handle/element.js
 var xh = {
 	name: [["	\n\f\r &/=>".split(""), "	\n\f\r \"&'/=>`".split("")], ["\0	\n\f\r \"&'/<=>".split(""), "\0	\n\f\r \"&'/<=>`".split("")]],
 	unquoted: [["	\n\f\r &>".split(""), "\0	\n\f\r \"&'<=>`".split("")], ["\0	\n\f\r \"&'<=>`".split(""), "\0	\n\f\r \"&'<=>`".split("")]],
@@ -13179,18 +13179,18 @@ function wh(e, t, n) {
 	})) + o), c + (s && "=" + s));
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/handle/text.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/handle/text.js
 var Th = ["<", "&"];
 function Eh(e, t, n, r) {
 	return n && n.type === "element" && (n.tagName === "script" || n.tagName === "style") ? e.value : Fm(e.value, Object.assign({}, r.settings.characterReferences, { subset: Th }));
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/handle/raw.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/handle/raw.js
 function Dh(e, t, n, r) {
 	return r.settings.allowDangerousHtml ? e.value : Eh(e, t, n, r);
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/handle/root.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/handle/root.js
 function Oh(e, t, n, r) {
 	return r.all(e);
 }
@@ -13213,7 +13213,7 @@ function Ah(e) {
 	throw Error("Cannot compile unknown node `" + e.type + "`");
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/oniguruma-parser@0.12.2/node_modules/oniguruma-parser/dist/utils.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/oniguruma-parser@0.12.2/node_modules/oniguruma-parser/dist/utils.js
 var jh = String.raw, Mh = jh`\[\^?`, Nh = `c.? | C(?:-.?)?|${jh`[pP]\{(?:\^?[-\x20_]*[A-Za-z][-\x20\w]*\})?`}|${jh`x[89A-Fa-f]\p{AHex}(?:\\x[89A-Fa-f]\p{AHex})*`}|${jh`u(?:\p{AHex}{4})? | x\{[^\}]*\}? | x\p{AHex}{0,2}`}|${jh`o\{[^\}]*\}?`}|${jh`\d{1,3}`}`;
 new RegExp(jh`
   \\ (?:
@@ -13251,7 +13251,7 @@ function Ph(e) {
 	return e.replace(/[- _]+/g, "").toLowerCase();
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/regex@6.1.0/node_modules/regex/src/utils-internals.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/regex@6.1.0/node_modules/regex/src/utils-internals.js
 var Fh = String.raw`\(\?(?:[:=!>A-Za-z\-]|<[=!]|\(DEFINE\))`;
 Object.freeze({
 	DEFAULT: "DEFAULT",
@@ -13275,11 +13275,11 @@ new RegExp(String.raw`
 | \\?.
 `.replace(/\s+/g, ""), "gsu");
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/regex-recursion@6.0.2/node_modules/regex-recursion/src/index.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/regex-recursion@6.0.2/node_modules/regex-recursion/src/index.js
 var Lh = String.raw, Rh = Lh`\(\?R=(?<rDepth>[^\)]+)\)|${Lh`\\g<(?<gRNameOrNum>[^>&]+)&R=(?<gRDepth>[^>]+)>`}`, zh = Lh`\(\?<(?![=!])(?<captureName>[^>]+)>`;
 Lh`${zh}|(?<unnamed>\()(?!\?)`, new RegExp(Lh`${zh}|${Rh}|\(\?|\\?.`, "gsu");
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/oniguruma-to-es@4.3.6/node_modules/oniguruma-to-es/dist/esm/index.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/oniguruma-to-es@4.3.6/node_modules/oniguruma-to-es/dist/esm/index.js
 var Bh = String.fromCodePoint, Vh = String.raw, Hh = {}, Uh = globalThis.RegExp;
 Hh.flagGroups = (() => {
 	try {
@@ -13330,7 +13330,7 @@ Vh`\t`, Vh`\n`, Vh`\v`, Vh`\f`, Vh`\r`, Vh`\u2028`, Vh`\u2029`, Vh`\uFEFF`;
 var qh = [Object.freeze(JSON.parse("{\"displayName\":\"Java\",\"name\":\"java\",\"patterns\":[{\"begin\":\"\\\\b(package)\\\\b\\\\s*\",\"beginCaptures\":{\"1\":{\"name\":\"keyword.other.package.java\"}},\"contentName\":\"storage.modifier.package.java\",\"end\":\"\\\\s*(;)\",\"endCaptures\":{\"1\":{\"name\":\"punctuation.terminator.java\"}},\"name\":\"meta.package.java\",\"patterns\":[{\"include\":\"#comments\"},{\"match\":\"(?<=\\\\.)\\\\s*\\\\.|\\\\.(?=\\\\s*;)\",\"name\":\"invalid.illegal.character_not_allowed_here.java\"},{\"match\":\"(?<!_)_(?=\\\\s*([.;]))|\\\\b\\\\d+|-+\",\"name\":\"invalid.illegal.character_not_allowed_here.java\"},{\"match\":\"[A-Z]+\",\"name\":\"invalid.deprecated.package_name_not_lowercase.java\"},{\"match\":\"\\\\b(?<!\\\\$)(abstract|assert|boolean|break|byte|case|catch|char|class|const|continue|default|do|double|else|enum|extends|final|finally|float|for|goto|if|implements|import|instanceof|int|interface|long|native|new|non-sealed|package|permits|private|protected|public|return|sealed|short|static|strictfp|super|switch|syncronized|this|throws??|transient|try|void|volatile|while|yield|true|false|null)\\\\b\",\"name\":\"invalid.illegal.character_not_allowed_here.java\"},{\"match\":\"\\\\.\",\"name\":\"punctuation.separator.java\"}]},{\"begin\":\"\\\\b(import)\\\\b\\\\s*\\\\b(static)?\\\\b\\\\s\",\"beginCaptures\":{\"1\":{\"name\":\"keyword.other.import.java\"},\"2\":{\"name\":\"storage.modifier.java\"}},\"contentName\":\"storage.modifier.import.java\",\"end\":\"\\\\s*(;)\",\"endCaptures\":{\"1\":{\"name\":\"punctuation.terminator.java\"}},\"name\":\"meta.import.java\",\"patterns\":[{\"include\":\"#comments\"},{\"match\":\"(?<=\\\\.)\\\\s*\\\\.|\\\\.(?=\\\\s*;)\",\"name\":\"invalid.illegal.character_not_allowed_here.java\"},{\"match\":\"(?<!\\\\.)\\\\s*\\\\*\",\"name\":\"invalid.illegal.character_not_allowed_here.java\"},{\"match\":\"(?<!_)_(?=\\\\s*([.;]))|\\\\b\\\\d+|-+\",\"name\":\"invalid.illegal.character_not_allowed_here.java\"},{\"match\":\"\\\\b(?<!\\\\$)(abstract|assert|boolean|break|byte|case|catch|char|class|const|continue|default|do|double|else|enum|extends|final|finally|float|for|goto|if|implements|import|instanceof|int|interface|long|native|new|non-sealed|package|permits|private|protected|public|return|sealed|short|static|strictfp|super|switch|syncronized|this|throws??|transient|try|void|volatile|while|yield|true|false|null)\\\\b\",\"name\":\"invalid.illegal.character_not_allowed_here.java\"},{\"match\":\"\\\\.\",\"name\":\"punctuation.separator.java\"},{\"match\":\"\\\\*\",\"name\":\"variable.language.wildcard.java\"}]},{\"include\":\"#comments-javadoc\"},{\"include\":\"#code\"},{\"include\":\"#module\"}],\"repository\":{\"all-types\":{\"patterns\":[{\"include\":\"#primitive-arrays\"},{\"include\":\"#primitive-types\"},{\"include\":\"#object-types\"}]},\"annotations\":{\"patterns\":[{\"begin\":\"((@)\\\\s*([^(\\\\s]+))(\\\\()\",\"beginCaptures\":{\"2\":{\"name\":\"punctuation.definition.annotation.java\"},\"3\":{\"name\":\"storage.type.annotation.java\"},\"4\":{\"name\":\"punctuation.definition.annotation-arguments.begin.bracket.round.java\"}},\"end\":\"\\\\)\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.definition.annotation-arguments.end.bracket.round.java\"}},\"name\":\"meta.declaration.annotation.java\",\"patterns\":[{\"captures\":{\"1\":{\"name\":\"constant.other.key.java\"},\"2\":{\"name\":\"keyword.operator.assignment.java\"}},\"match\":\"(\\\\w*)\\\\s*(=)\"},{\"include\":\"#code\"}]},{\"captures\":{\"1\":{\"name\":\"punctuation.definition.annotation.java\"},\"2\":{\"name\":\"storage.modifier.java\"},\"3\":{\"name\":\"storage.type.annotation.java\"},\"5\":{\"name\":\"punctuation.definition.annotation.java\"},\"6\":{\"name\":\"storage.type.annotation.java\"}},\"match\":\"(@)(interface)\\\\s+(\\\\w*)|((@)\\\\s*(\\\\w+))\",\"name\":\"meta.declaration.annotation.java\"}]},\"anonymous-block-and-instance-initializer\":{\"begin\":\"\\\\{\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.section.block.begin.bracket.curly.java\"}},\"end\":\"}\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.section.block.end.bracket.curly.java\"}},\"patterns\":[{\"include\":\"#code\"}]},\"anonymous-classes-and-new\":{\"begin\":\"\\\\bnew\\\\b\",\"beginCaptures\":{\"0\":{\"name\":\"keyword.control.new.java\"}},\"end\":\"(?=[])-.:;?}]|/(?![*/])|[!%\\\\&=^|])\",\"patterns\":[{\"include\":\"#comments\"},{\"include\":\"#function-call\"},{\"include\":\"#all-types\"},{\"begin\":\"(?<=\\\\))\",\"end\":\"(?=[])-.:;?}]|/(?![*/])|[!%\\\\&=^|])\",\"patterns\":[{\"include\":\"#comments\"},{\"begin\":\"\\\\{\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.section.inner-class.begin.bracket.curly.java\"}},\"end\":\"}\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.section.inner-class.end.bracket.curly.java\"}},\"name\":\"meta.inner-class.java\",\"patterns\":[{\"include\":\"#class-body\"}]}]},{\"begin\":\"(?<=])\",\"end\":\"(?=[])-.:;?}]|/(?![*/])|[!%\\\\&=^|])\",\"patterns\":[{\"include\":\"#comments\"},{\"begin\":\"\\\\{\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.section.array-initializer.begin.bracket.curly.java\"}},\"end\":\"}\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.section.array-initializer.end.bracket.curly.java\"}},\"name\":\"meta.array-initializer.java\",\"patterns\":[{\"include\":\"#code\"}]}]},{\"include\":\"#parens\"}]},\"assertions\":{\"patterns\":[{\"begin\":\"\\\\b(assert)\\\\s\",\"beginCaptures\":{\"1\":{\"name\":\"keyword.control.assert.java\"}},\"end\":\"$\",\"name\":\"meta.declaration.assertion.java\",\"patterns\":[{\"match\":\":\",\"name\":\"keyword.operator.assert.expression-separator.java\"},{\"include\":\"#code\"}]}]},\"class\":{\"begin\":\"(?=\\\\w?[-\\\\w\\\\s]*\\\\b(?:class|(?<!@)interface|enum)\\\\s+[$\\\\w]+)\",\"end\":\"}\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.section.class.end.bracket.curly.java\"}},\"name\":\"meta.class.java\",\"patterns\":[{\"include\":\"#storage-modifiers\"},{\"include\":\"#generics\"},{\"include\":\"#comments\"},{\"captures\":{\"1\":{\"name\":\"storage.modifier.java\"},\"2\":{\"name\":\"entity.name.type.class.java\"}},\"match\":\"(class|(?<!@)interface|enum)\\\\s+([$\\\\w]+)\",\"name\":\"meta.class.identifier.java\"},{\"begin\":\"extends\",\"beginCaptures\":{\"0\":{\"name\":\"storage.modifier.extends.java\"}},\"end\":\"(?=\\\\{|implements|permits)\",\"name\":\"meta.definition.class.inherited.classes.java\",\"patterns\":[{\"include\":\"#object-types-inherited\"},{\"include\":\"#comments\"}]},{\"begin\":\"(implements)\\\\s\",\"beginCaptures\":{\"1\":{\"name\":\"storage.modifier.implements.java\"}},\"end\":\"(?=\\\\s*extends|permits|\\\\{)\",\"name\":\"meta.definition.class.implemented.interfaces.java\",\"patterns\":[{\"include\":\"#object-types-inherited\"},{\"include\":\"#comments\"}]},{\"begin\":\"(permits)\\\\s\",\"beginCaptures\":{\"1\":{\"name\":\"storage.modifier.permits.java\"}},\"end\":\"(?=\\\\s*extends|implements|\\\\{)\",\"name\":\"meta.definition.class.permits.classes.java\",\"patterns\":[{\"include\":\"#object-types-inherited\"},{\"include\":\"#comments\"}]},{\"begin\":\"\\\\{\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.section.class.begin.bracket.curly.java\"}},\"contentName\":\"meta.class.body.java\",\"end\":\"(?=})\",\"patterns\":[{\"include\":\"#class-body\"}]}]},\"class-body\":{\"patterns\":[{\"include\":\"#comments-javadoc\"},{\"include\":\"#comments\"},{\"include\":\"#enums\"},{\"include\":\"#class\"},{\"include\":\"#generics\"},{\"include\":\"#static-initializer\"},{\"include\":\"#class-fields-and-methods\"},{\"include\":\"#annotations\"},{\"include\":\"#storage-modifiers\"},{\"include\":\"#member-variables\"},{\"include\":\"#code\"}]},\"class-fields-and-methods\":{\"patterns\":[{\"begin\":\"(?==)\",\"end\":\"(?=;)\",\"patterns\":[{\"include\":\"#code\"}]},{\"include\":\"#methods\"}]},\"code\":{\"patterns\":[{\"include\":\"#annotations\"},{\"include\":\"#comments\"},{\"include\":\"#enums\"},{\"include\":\"#class\"},{\"include\":\"#record\"},{\"include\":\"#anonymous-block-and-instance-initializer\"},{\"include\":\"#try-catch-finally\"},{\"include\":\"#assertions\"},{\"include\":\"#parens\"},{\"include\":\"#constants-and-special-vars\"},{\"include\":\"#numbers\"},{\"include\":\"#anonymous-classes-and-new\"},{\"include\":\"#lambda-expression\"},{\"include\":\"#keywords\"},{\"include\":\"#storage-modifiers\"},{\"include\":\"#method-call\"},{\"include\":\"#function-call\"},{\"include\":\"#variables\"},{\"include\":\"#variables-local\"},{\"include\":\"#objects\"},{\"include\":\"#properties\"},{\"include\":\"#strings\"},{\"include\":\"#all-types\"},{\"match\":\",\",\"name\":\"punctuation.separator.delimiter.java\"},{\"match\":\"\\\\.\",\"name\":\"punctuation.separator.period.java\"},{\"match\":\";\",\"name\":\"punctuation.terminator.java\"}]},\"comments\":{\"patterns\":[{\"captures\":{\"0\":{\"name\":\"punctuation.definition.comment.java\"}},\"match\":\"/\\\\*\\\\*/\",\"name\":\"comment.block.empty.java\"},{\"include\":\"#comments-inline\"}]},\"comments-inline\":{\"patterns\":[{\"begin\":\"/\\\\*\",\"captures\":{\"0\":{\"name\":\"punctuation.definition.comment.java\"}},\"end\":\"\\\\*/\",\"name\":\"comment.block.java\"},{\"begin\":\"(^[\\\\t ]+)?(?=//)\",\"beginCaptures\":{\"1\":{\"name\":\"punctuation.whitespace.comment.leading.java\"}},\"end\":\"(?!\\\\G)\",\"patterns\":[{\"begin\":\"//\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.definition.comment.java\"}},\"end\":\"\\\\n\",\"name\":\"comment.line.double-slash.java\"}]}]},\"comments-javadoc\":{\"patterns\":[{\"begin\":\"^\\\\s*(/\\\\*\\\\*)(?!/)\",\"beginCaptures\":{\"1\":{\"name\":\"punctuation.definition.comment.java\"}},\"end\":\"\\\\*/\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.definition.comment.java\"}},\"name\":\"comment.block.javadoc.java\",\"patterns\":[{\"match\":\"@(author|deprecated|return|see|serial|since|version)\\\\b\",\"name\":\"keyword.other.documentation.javadoc.java\"},{\"captures\":{\"1\":{\"name\":\"keyword.other.documentation.javadoc.java\"},\"2\":{\"name\":\"variable.parameter.java\"}},\"match\":\"(@param)\\\\s+(\\\\S+)\"},{\"captures\":{\"1\":{\"name\":\"keyword.other.documentation.javadoc.java\"},\"2\":{\"name\":\"entity.name.type.class.java\"}},\"match\":\"(@(?:exception|throws))\\\\s+(\\\\S+)\"},{\"captures\":{\"1\":{\"name\":\"keyword.other.documentation.javadoc.java\"},\"2\":{\"name\":\"entity.name.type.class.java\"},\"3\":{\"name\":\"variable.parameter.java\"}},\"match\":\"\\\\{(@link)\\\\s+(\\\\S+)?#([$\\\\w]+\\\\s*\\\\([^()]*\\\\)).*?}\"}]}]},\"constants-and-special-vars\":{\"patterns\":[{\"match\":\"\\\\b(true|false|null)\\\\b\",\"name\":\"constant.language.java\"},{\"match\":\"\\\\bthis\\\\b\",\"name\":\"variable.language.this.java\"},{\"match\":\"\\\\bsuper\\\\b\",\"name\":\"variable.language.java\"}]},\"enums\":{\"begin\":\"^\\\\s*([\\\\w\\\\s]*)(enum)\\\\s+(\\\\w+)\",\"beginCaptures\":{\"1\":{\"patterns\":[{\"include\":\"#storage-modifiers\"}]},\"2\":{\"name\":\"storage.modifier.java\"},\"3\":{\"name\":\"entity.name.type.enum.java\"}},\"end\":\"}\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.section.enum.end.bracket.curly.java\"}},\"name\":\"meta.enum.java\",\"patterns\":[{\"begin\":\"\\\\b(extends)\\\\b\",\"beginCaptures\":{\"1\":{\"name\":\"storage.modifier.extends.java\"}},\"end\":\"(?=\\\\{|\\\\bimplements\\\\b)\",\"name\":\"meta.definition.class.inherited.classes.java\",\"patterns\":[{\"include\":\"#object-types-inherited\"},{\"include\":\"#comments\"}]},{\"begin\":\"\\\\b(implements)\\\\b\",\"beginCaptures\":{\"1\":{\"name\":\"storage.modifier.implements.java\"}},\"end\":\"(?=\\\\{|\\\\bextends\\\\b)\",\"name\":\"meta.definition.class.implemented.interfaces.java\",\"patterns\":[{\"include\":\"#object-types-inherited\"},{\"include\":\"#comments\"}]},{\"begin\":\"\\\\{\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.section.enum.begin.bracket.curly.java\"}},\"end\":\"(?=})\",\"patterns\":[{\"begin\":\"(?<=\\\\{)\",\"end\":\"(?=[;}])\",\"patterns\":[{\"include\":\"#comments-javadoc\"},{\"include\":\"#comments\"},{\"begin\":\"\\\\b(\\\\w+)\\\\b\",\"beginCaptures\":{\"1\":{\"name\":\"constant.other.enum.java\"}},\"end\":\"(,)|(?=[;}])\",\"endCaptures\":{\"1\":{\"name\":\"punctuation.separator.delimiter.java\"}},\"patterns\":[{\"include\":\"#comments-javadoc\"},{\"include\":\"#comments\"},{\"begin\":\"\\\\(\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.bracket.round.java\"}},\"end\":\"\\\\)\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.bracket.round.java\"}},\"patterns\":[{\"include\":\"#code\"}]},{\"begin\":\"\\\\{\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.bracket.curly.java\"}},\"end\":\"}\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.bracket.curly.java\"}},\"patterns\":[{\"include\":\"#class-body\"}]}]}]},{\"include\":\"#class-body\"}]}]},\"function-call\":{\"begin\":\"([$A-Z_a-z][$\\\\w]*)\\\\s*(\\\\()\",\"beginCaptures\":{\"1\":{\"name\":\"entity.name.function.java\"},\"2\":{\"name\":\"punctuation.definition.parameters.begin.bracket.round.java\"}},\"end\":\"\\\\)\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.definition.parameters.end.bracket.round.java\"}},\"name\":\"meta.function-call.java\",\"patterns\":[{\"include\":\"#code\"}]},\"generics\":{\"begin\":\"<\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.bracket.angle.java\"}},\"end\":\">\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.bracket.angle.java\"}},\"patterns\":[{\"match\":\"\\\\b(extends|super)\\\\b\",\"name\":\"storage.modifier.$1.java\"},{\"captures\":{\"1\":{\"name\":\"storage.type.java\"}},\"match\":\"(?<!\\\\.)([$A-Z_a-z][$0-9A-Z_a-z]*)(?=\\\\s*<)\"},{\"include\":\"#primitive-arrays\"},{\"match\":\"[$A-Z_a-z][$0-9A-Z_a-z]*\",\"name\":\"storage.type.generic.java\"},{\"match\":\"\\\\?\",\"name\":\"storage.type.generic.wildcard.java\"},{\"match\":\"&\",\"name\":\"punctuation.separator.types.java\"},{\"match\":\",\",\"name\":\"punctuation.separator.delimiter.java\"},{\"match\":\"\\\\.\",\"name\":\"punctuation.separator.period.java\"},{\"include\":\"#parens\"},{\"include\":\"#generics\"},{\"include\":\"#comments\"}]},\"keywords\":{\"patterns\":[{\"match\":\"\\\\bthrow\\\\b\",\"name\":\"keyword.control.throw.java\"},{\"match\":\"[:?]\",\"name\":\"keyword.control.ternary.java\"},{\"match\":\"\\\\b(return|yield|break|case|continue|default|do|while|for|switch|if|else)\\\\b\",\"name\":\"keyword.control.java\"},{\"match\":\"\\\\b(instanceof)\\\\b\",\"name\":\"keyword.operator.instanceof.java\"},{\"match\":\"(<<|>>>?|[\\\\^~])\",\"name\":\"keyword.operator.bitwise.java\"},{\"match\":\"(([\\\\&^|]|<<|>>>?)=)\",\"name\":\"keyword.operator.assignment.bitwise.java\"},{\"match\":\"(===?|!=|<=|>=|<>|[<>])\",\"name\":\"keyword.operator.comparison.java\"},{\"match\":\"([-%*+/]=)\",\"name\":\"keyword.operator.assignment.arithmetic.java\"},{\"match\":\"(=)\",\"name\":\"keyword.operator.assignment.java\"},{\"match\":\"(--|\\\\+\\\\+)\",\"name\":\"keyword.operator.increment-decrement.java\"},{\"match\":\"([-%*+/])\",\"name\":\"keyword.operator.arithmetic.java\"},{\"match\":\"(!|&&|\\\\|\\\\|)\",\"name\":\"keyword.operator.logical.java\"},{\"match\":\"([\\\\&|])\",\"name\":\"keyword.operator.bitwise.java\"},{\"match\":\"\\\\b(const|goto)\\\\b\",\"name\":\"keyword.reserved.java\"}]},\"lambda-expression\":{\"patterns\":[{\"match\":\"->\",\"name\":\"storage.type.function.arrow.java\"}]},\"member-variables\":{\"begin\":\"(?=private|protected|public|native|synchronized|abstract|threadsafe|transient|static|final)\",\"end\":\"(?=[;=])\",\"patterns\":[{\"include\":\"#storage-modifiers\"},{\"include\":\"#variables\"},{\"include\":\"#primitive-arrays\"},{\"include\":\"#object-types\"}]},\"method-call\":{\"begin\":\"(\\\\.)\\\\s*([$A-Z_a-z][$\\\\w]*)\\\\s*(\\\\()\",\"beginCaptures\":{\"1\":{\"name\":\"punctuation.separator.period.java\"},\"2\":{\"name\":\"entity.name.function.java\"},\"3\":{\"name\":\"punctuation.definition.parameters.begin.bracket.round.java\"}},\"end\":\"\\\\)\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.definition.parameters.end.bracket.round.java\"}},\"name\":\"meta.method-call.java\",\"patterns\":[{\"include\":\"#code\"}]},\"methods\":{\"begin\":\"(?!new)(?=[<\\\\w].*\\\\s+)(?=([^/=]|/(?!/))+\\\\()\",\"end\":\"(})|(?=;)\",\"endCaptures\":{\"1\":{\"name\":\"punctuation.section.method.end.bracket.curly.java\"}},\"name\":\"meta.method.java\",\"patterns\":[{\"include\":\"#storage-modifiers\"},{\"begin\":\"(\\\\w+)\\\\s*(\\\\()\",\"beginCaptures\":{\"1\":{\"name\":\"entity.name.function.java\"},\"2\":{\"name\":\"punctuation.definition.parameters.begin.bracket.round.java\"}},\"end\":\"\\\\)\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.definition.parameters.end.bracket.round.java\"}},\"name\":\"meta.method.identifier.java\",\"patterns\":[{\"include\":\"#parameters\"},{\"include\":\"#parens\"},{\"include\":\"#comments\"}]},{\"include\":\"#generics\"},{\"begin\":\"(?=\\\\w.*\\\\s+\\\\w+\\\\s*\\\\()\",\"end\":\"(?=\\\\s+\\\\w+\\\\s*\\\\()\",\"name\":\"meta.method.return-type.java\",\"patterns\":[{\"include\":\"#all-types\"},{\"include\":\"#parens\"},{\"include\":\"#comments\"}]},{\"include\":\"#throws\"},{\"begin\":\"\\\\{\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.section.method.begin.bracket.curly.java\"}},\"contentName\":\"meta.method.body.java\",\"end\":\"(?=})\",\"patterns\":[{\"include\":\"#code\"}]},{\"include\":\"#comments\"}]},\"module\":{\"begin\":\"((open)\\\\s)?(module)\\\\s+(\\\\w+)\",\"beginCaptures\":{\"1\":{\"name\":\"storage.modifier.java\"},\"3\":{\"name\":\"storage.modifier.java\"},\"4\":{\"name\":\"entity.name.type.module.java\"}},\"end\":\"}\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.section.module.end.bracket.curly.java\"}},\"name\":\"meta.module.java\",\"patterns\":[{\"begin\":\"\\\\{\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.section.module.begin.bracket.curly.java\"}},\"contentName\":\"meta.module.body.java\",\"end\":\"(?=})\",\"patterns\":[{\"include\":\"#comments\"},{\"include\":\"#comments-javadoc\"},{\"match\":\"\\\\b(requires|transitive|exports|opens|to|uses|provides|with)\\\\b\",\"name\":\"keyword.module.java\"}]}]},\"numbers\":{\"patterns\":[{\"match\":\"\\\\b(?<!\\\\$)0([Xx])((?<!\\\\.)\\\\h([_\\\\h]*\\\\h)?[Ll]?(?!\\\\.)|(\\\\h([_\\\\h]*\\\\h)?\\\\.?|(\\\\h([_\\\\h]*\\\\h)?)?\\\\.\\\\h([_\\\\h]*\\\\h)?)[Pp][-+]?[0-9]([0-9_]*[0-9])?[DFdf]?)\\\\b(?!\\\\$)\",\"name\":\"constant.numeric.hex.java\"},{\"match\":\"\\\\b(?<!\\\\$)0([Bb])[01]([01_]*[01])?[Ll]?\\\\b(?!\\\\$)\",\"name\":\"constant.numeric.binary.java\"},{\"match\":\"\\\\b(?<!\\\\$)0[0-7]([0-7_]*[0-7])?[Ll]?\\\\b(?!\\\\$)\",\"name\":\"constant.numeric.octal.java\"},{\"match\":\"(?<!\\\\$)(\\\\b[0-9]([0-9_]*[0-9])?\\\\.\\\\B(?!\\\\.)|\\\\b[0-9]([0-9_]*[0-9])?\\\\.([Ee][-+]?[0-9]([0-9_]*[0-9])?)[DFdf]?\\\\b|\\\\b[0-9]([0-9_]*[0-9])?\\\\.([Ee][-+]?[0-9]([0-9_]*[0-9])?)?[DFdf]\\\\b|\\\\b[0-9]([0-9_]*[0-9])?\\\\.([0-9]([0-9_]*[0-9])?)([Ee][-+]?[0-9]([0-9_]*[0-9])?)?[DFdf]?\\\\b|(?<!\\\\.)\\\\B\\\\.[0-9]([0-9_]*[0-9])?([Ee][-+]?[0-9]([0-9_]*[0-9])?)?[DFdf]?\\\\b|\\\\b[0-9]([0-9_]*[0-9])?([Ee][-+]?[0-9]([0-9_]*[0-9])?)[DFdf]?\\\\b|\\\\b[0-9]([0-9_]*[0-9])?([Ee][-+]?[0-9]([0-9_]*[0-9])?)?[DFdf]\\\\b|\\\\b(0|[1-9]([0-9_]*[0-9])?)(?!\\\\.)[Ll]?\\\\b)(?!\\\\$)\",\"name\":\"constant.numeric.decimal.java\"}]},\"object-types\":{\"patterns\":[{\"include\":\"#generics\"},{\"begin\":\"\\\\b((?:[A-Z_a-z]\\\\w*\\\\s*\\\\.\\\\s*)*)([A-Z_]\\\\w*)\\\\s*(?=\\\\[)\",\"beginCaptures\":{\"1\":{\"patterns\":[{\"match\":\"[A-Z_a-z]\\\\w*\",\"name\":\"storage.type.java\"},{\"match\":\"\\\\.\",\"name\":\"punctuation.separator.period.java\"}]},\"2\":{\"name\":\"storage.type.object.array.java\"}},\"end\":\"(?!\\\\s*\\\\[)\",\"patterns\":[{\"include\":\"#comments\"},{\"include\":\"#parens\"}]},{\"captures\":{\"1\":{\"patterns\":[{\"match\":\"[A-Z_a-z]\\\\w*\",\"name\":\"storage.type.java\"},{\"match\":\"\\\\.\",\"name\":\"punctuation.separator.period.java\"}]}},\"match\":\"\\\\b((?:[A-Z_a-z]\\\\w*\\\\s*\\\\.\\\\s*)*[A-Z_]\\\\w*)\\\\s*(?=<)\"},{\"captures\":{\"1\":{\"patterns\":[{\"match\":\"[A-Z_a-z]\\\\w*\",\"name\":\"storage.type.java\"},{\"match\":\"\\\\.\",\"name\":\"punctuation.separator.period.java\"}]}},\"match\":\"\\\\b((?:[A-Z_a-z]\\\\w*\\\\s*\\\\.\\\\s*)*[A-Z_]\\\\w*)\\\\b((?=\\\\s*[\\\\n$A-Z_a-z])|(?=\\\\s*\\\\.\\\\.\\\\.))\"}]},\"object-types-inherited\":{\"patterns\":[{\"include\":\"#generics\"},{\"captures\":{\"1\":{\"name\":\"punctuation.separator.period.java\"}},\"match\":\"\\\\b(?:[A-Z]\\\\w*\\\\s*(\\\\.)\\\\s*)*[A-Z]\\\\w*\\\\b\",\"name\":\"entity.other.inherited-class.java\"},{\"match\":\",\",\"name\":\"punctuation.separator.delimiter.java\"}]},\"objects\":{\"match\":\"(?<![$\\\\w])[$A-Z_a-z][$\\\\w]*(?=\\\\s*\\\\.\\\\s*[$\\\\w]+)\",\"name\":\"variable.other.object.java\"},\"parameters\":{\"patterns\":[{\"match\":\"\\\\bfinal\\\\b\",\"name\":\"storage.modifier.java\"},{\"include\":\"#annotations\"},{\"include\":\"#all-types\"},{\"include\":\"#strings\"},{\"match\":\"\\\\w+\",\"name\":\"variable.parameter.java\"},{\"match\":\",\",\"name\":\"punctuation.separator.delimiter.java\"},{\"match\":\"\\\\.\\\\.\\\\.\",\"name\":\"punctuation.definition.parameters.varargs.java\"}]},\"parens\":{\"patterns\":[{\"begin\":\"\\\\(\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.bracket.round.java\"}},\"end\":\"\\\\)\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.bracket.round.java\"}},\"patterns\":[{\"include\":\"#code\"}]},{\"begin\":\"\\\\[\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.bracket.square.java\"}},\"end\":\"]\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.bracket.square.java\"}},\"patterns\":[{\"include\":\"#code\"}]},{\"begin\":\"\\\\{\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.bracket.curly.java\"}},\"end\":\"}\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.bracket.curly.java\"}},\"patterns\":[{\"include\":\"#code\"}]}]},\"primitive-arrays\":{\"patterns\":[{\"begin\":\"\\\\b(void|boolean|byte|char|short|int|float|long|double)\\\\b\\\\s*(?=\\\\[)\",\"beginCaptures\":{\"1\":{\"name\":\"storage.type.primitive.array.java\"}},\"end\":\"(?!\\\\s*\\\\[)\",\"patterns\":[{\"include\":\"#comments\"},{\"include\":\"#parens\"}]}]},\"primitive-types\":{\"match\":\"\\\\b(void|boolean|byte|char|short|int|float|long|double)\\\\b\",\"name\":\"storage.type.primitive.java\"},\"properties\":{\"patterns\":[{\"captures\":{\"1\":{\"name\":\"punctuation.separator.period.java\"},\"2\":{\"name\":\"keyword.control.new.java\"}},\"match\":\"(\\\\.)\\\\s*(new)\"},{\"captures\":{\"1\":{\"name\":\"punctuation.separator.period.java\"},\"2\":{\"name\":\"variable.other.object.property.java\"}},\"match\":\"(\\\\.)\\\\s*([$A-Z_a-z][$\\\\w]*)(?=\\\\s*\\\\.\\\\s*[$A-Z_a-z][$\\\\w]*)\"},{\"captures\":{\"1\":{\"name\":\"punctuation.separator.period.java\"},\"2\":{\"name\":\"variable.other.object.property.java\"}},\"match\":\"(\\\\.)\\\\s*([$A-Z_a-z][$\\\\w]*)\"},{\"captures\":{\"1\":{\"name\":\"punctuation.separator.period.java\"},\"2\":{\"name\":\"invalid.illegal.identifier.java\"}},\"match\":\"(\\\\.)\\\\s*([0-9][$\\\\w]*)\"}]},\"record\":{\"begin\":\"(?=\\\\w?[\\\\w\\\\s]*\\\\brecord\\\\s+[$\\\\w]+)\",\"end\":\"}\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.section.class.end.bracket.curly.java\"}},\"name\":\"meta.record.java\",\"patterns\":[{\"include\":\"#storage-modifiers\"},{\"include\":\"#generics\"},{\"include\":\"#comments\"},{\"begin\":\"(record)\\\\s+([$\\\\w]+)(<[$\\\\w]+>)?(\\\\()\",\"beginCaptures\":{\"1\":{\"name\":\"storage.modifier.java\"},\"2\":{\"name\":\"entity.name.type.record.java\"},\"3\":{\"patterns\":[{\"include\":\"#generics\"}]},\"4\":{\"name\":\"punctuation.definition.parameters.begin.bracket.round.java\"}},\"end\":\"\\\\)\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.definition.parameters.end.bracket.round.java\"}},\"name\":\"meta.record.identifier.java\",\"patterns\":[{\"include\":\"#code\"}]},{\"begin\":\"(implements)\\\\s\",\"beginCaptures\":{\"1\":{\"name\":\"storage.modifier.implements.java\"}},\"end\":\"(?=\\\\s*\\\\{)\",\"name\":\"meta.definition.class.implemented.interfaces.java\",\"patterns\":[{\"include\":\"#object-types-inherited\"},{\"include\":\"#comments\"}]},{\"include\":\"#record-body\"}]},\"record-body\":{\"begin\":\"\\\\{\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.section.class.begin.bracket.curly.java\"}},\"end\":\"(?=})\",\"name\":\"meta.record.body.java\",\"patterns\":[{\"include\":\"#record-constructor\"},{\"include\":\"#class-body\"}]},\"record-constructor\":{\"begin\":\"(?!new)(?=[<\\\\w].*\\\\s+)(?=([^(/=]|/(?!/))+(?=\\\\{))\",\"end\":\"(})|(?=;)\",\"endCaptures\":{\"1\":{\"name\":\"punctuation.section.method.end.bracket.curly.java\"}},\"name\":\"meta.method.java\",\"patterns\":[{\"include\":\"#storage-modifiers\"},{\"begin\":\"(\\\\w+)\",\"beginCaptures\":{\"1\":{\"name\":\"entity.name.function.java\"}},\"end\":\"(?=\\\\s*\\\\{)\",\"name\":\"meta.method.identifier.java\",\"patterns\":[{\"include\":\"#comments\"}]},{\"include\":\"#comments\"},{\"begin\":\"\\\\{\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.section.method.begin.bracket.curly.java\"}},\"contentName\":\"meta.method.body.java\",\"end\":\"(?=})\",\"patterns\":[{\"include\":\"#code\"}]}]},\"static-initializer\":{\"patterns\":[{\"include\":\"#anonymous-block-and-instance-initializer\"},{\"match\":\"static\",\"name\":\"storage.modifier.java\"}]},\"storage-modifiers\":{\"match\":\"\\\\b(public|private|protected|static|final|native|synchronized|abstract|threadsafe|transient|volatile|default|strictfp|sealed|non-sealed)\\\\b\",\"name\":\"storage.modifier.java\"},\"strings\":{\"patterns\":[{\"begin\":\"\\\"\\\"\\\"\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.definition.string.begin.java\"}},\"end\":\"\\\"\\\"\\\"\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.definition.string.end.java\"}},\"name\":\"string.quoted.triple.java\",\"patterns\":[{\"match\":\"(\\\\\\\\\\\"\\\"\\\")(?!\\\")|(\\\\\\\\.)\",\"name\":\"constant.character.escape.java\"}]},{\"begin\":\"\\\"\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.definition.string.begin.java\"}},\"end\":\"\\\"\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.definition.string.end.java\"}},\"name\":\"string.quoted.double.java\",\"patterns\":[{\"match\":\"\\\\\\\\.\",\"name\":\"constant.character.escape.java\"}]},{\"begin\":\"'\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.definition.string.begin.java\"}},\"end\":\"'\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.definition.string.end.java\"}},\"name\":\"string.quoted.single.java\",\"patterns\":[{\"match\":\"\\\\\\\\.\",\"name\":\"constant.character.escape.java\"}]}]},\"throws\":{\"begin\":\"throws\",\"beginCaptures\":{\"0\":{\"name\":\"storage.modifier.java\"}},\"end\":\"(?=[;{])\",\"name\":\"meta.throwables.java\",\"patterns\":[{\"match\":\",\",\"name\":\"punctuation.separator.delimiter.java\"},{\"match\":\"[$A-Z_a-z][$.0-9A-Z_a-z]*\",\"name\":\"storage.type.java\"},{\"include\":\"#comments\"}]},\"try-catch-finally\":{\"patterns\":[{\"begin\":\"\\\\btry\\\\b\",\"beginCaptures\":{\"0\":{\"name\":\"keyword.control.try.java\"}},\"end\":\"}\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.section.try.end.bracket.curly.java\"}},\"name\":\"meta.try.java\",\"patterns\":[{\"begin\":\"\\\\(\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.section.try.resources.begin.bracket.round.java\"}},\"end\":\"\\\\)\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.section.try.resources.end.bracket.round.java\"}},\"name\":\"meta.try.resources.java\",\"patterns\":[{\"include\":\"#code\"}]},{\"begin\":\"\\\\{\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.section.try.begin.bracket.curly.java\"}},\"contentName\":\"meta.try.body.java\",\"end\":\"(?=})\",\"patterns\":[{\"include\":\"#code\"}]}]},{\"begin\":\"\\\\b(catch)\\\\b\",\"beginCaptures\":{\"1\":{\"name\":\"keyword.control.catch.java\"}},\"end\":\"}\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.section.catch.end.bracket.curly.java\"}},\"name\":\"meta.catch.java\",\"patterns\":[{\"include\":\"#comments\"},{\"begin\":\"\\\\(\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.definition.parameters.begin.bracket.round.java\"}},\"contentName\":\"meta.catch.parameters.java\",\"end\":\"\\\\)\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.definition.parameters.end.bracket.round.java\"}},\"patterns\":[{\"include\":\"#comments\"},{\"include\":\"#storage-modifiers\"},{\"begin\":\"[$A-Z_a-z][$.0-9A-Z_a-z]*\",\"beginCaptures\":{\"0\":{\"name\":\"storage.type.java\"}},\"end\":\"(\\\\|)|(?=\\\\))\",\"endCaptures\":{\"1\":{\"name\":\"punctuation.catch.separator.java\"}},\"patterns\":[{\"include\":\"#comments\"},{\"captures\":{\"0\":{\"name\":\"variable.parameter.java\"}},\"match\":\"\\\\w+\"}]}]},{\"begin\":\"\\\\{\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.section.catch.begin.bracket.curly.java\"}},\"contentName\":\"meta.catch.body.java\",\"end\":\"(?=})\",\"patterns\":[{\"include\":\"#code\"}]}]},{\"begin\":\"\\\\bfinally\\\\b\",\"beginCaptures\":{\"0\":{\"name\":\"keyword.control.finally.java\"}},\"end\":\"}\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.section.finally.end.bracket.curly.java\"}},\"name\":\"meta.finally.java\",\"patterns\":[{\"begin\":\"\\\\{\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.section.finally.begin.bracket.curly.java\"}},\"contentName\":\"meta.finally.body.java\",\"end\":\"(?=})\",\"patterns\":[{\"include\":\"#code\"}]}]}]},\"variables\":{\"begin\":\"(?=\\\\b((void|boolean|byte|char|short|int|float|long|double)|(?>(\\\\w+\\\\.)*[A-Z_]+\\\\w*))\\\\b\\\\s*(<[],.<>?\\\\[\\\\w\\\\s]*>)?\\\\s*((\\\\[])*)?\\\\s+[$A-Z_a-z][$\\\\w]*([]$,\\\\[\\\\w][],\\\\[\\\\w\\\\s]*)?\\\\s*([:;=]))\",\"end\":\"(?=[:;=])\",\"name\":\"meta.definition.variable.java\",\"patterns\":[{\"captures\":{\"1\":{\"name\":\"variable.other.definition.java\"}},\"match\":\"([$A-Z_a-z][$\\\\w]*)(?=\\\\s*(\\\\[])*\\\\s*([,:;=]))\"},{\"include\":\"#all-types\"},{\"include\":\"#code\"}]},\"variables-local\":{\"begin\":\"(?=\\\\b(var)\\\\b\\\\s+[$A-Z_a-z][$\\\\w]*\\\\s*([:;=]))\",\"end\":\"(?=[:;=])\",\"name\":\"meta.definition.variable.local.java\",\"patterns\":[{\"match\":\"\\\\bvar\\\\b\",\"name\":\"storage.type.local.java\"},{\"captures\":{\"1\":{\"name\":\"variable.other.definition.java\"}},\"match\":\"([$A-Z_a-z][$\\\\w]*)(?=\\\\s*(\\\\[])*\\\\s*([:;=]))\"},{\"include\":\"#code\"}]}},\"scopeName\":\"source.java\"}"))];
 Object.freeze(JSON.parse("{\"displayName\":\"XML\",\"name\":\"xml\",\"patterns\":[{\"begin\":\"(<\\\\?)\\\\s*([-0-9A-Z_a-z]+)\",\"captures\":{\"1\":{\"name\":\"punctuation.definition.tag.xml\"},\"2\":{\"name\":\"entity.name.tag.xml\"}},\"end\":\"(\\\\?>)\",\"name\":\"meta.tag.preprocessor.xml\",\"patterns\":[{\"match\":\" ([-A-Za-z]+)\",\"name\":\"entity.other.attribute-name.xml\"},{\"include\":\"#doublequotedString\"},{\"include\":\"#singlequotedString\"}]},{\"begin\":\"(<!)(DOCTYPE)\\\\s+([:A-Z_a-z][-.0-:A-Z_a-z]*)\",\"captures\":{\"1\":{\"name\":\"punctuation.definition.tag.xml\"},\"2\":{\"name\":\"keyword.other.doctype.xml\"},\"3\":{\"name\":\"variable.language.documentroot.xml\"}},\"end\":\"\\\\s*(>)\",\"name\":\"meta.tag.sgml.doctype.xml\",\"patterns\":[{\"include\":\"#internalSubset\"}]},{\"include\":\"#comments\"},{\"begin\":\"(<)((?:([-0-9A-Z_a-z]+)(:))?([-0-:A-Z_a-z]+))(?=(\\\\s[^>]*)?></\\\\2>)\",\"beginCaptures\":{\"1\":{\"name\":\"punctuation.definition.tag.xml\"},\"2\":{\"name\":\"entity.name.tag.xml\"},\"3\":{\"name\":\"entity.name.tag.namespace.xml\"},\"4\":{\"name\":\"punctuation.separator.namespace.xml\"},\"5\":{\"name\":\"entity.name.tag.localname.xml\"}},\"end\":\"(>)(</)((?:([-0-9A-Z_a-z]+)(:))?([-0-:A-Z_a-z]+))(>)\",\"endCaptures\":{\"1\":{\"name\":\"punctuation.definition.tag.xml\"},\"2\":{\"name\":\"punctuation.definition.tag.xml\"},\"3\":{\"name\":\"entity.name.tag.xml\"},\"4\":{\"name\":\"entity.name.tag.namespace.xml\"},\"5\":{\"name\":\"punctuation.separator.namespace.xml\"},\"6\":{\"name\":\"entity.name.tag.localname.xml\"},\"7\":{\"name\":\"punctuation.definition.tag.xml\"}},\"name\":\"meta.tag.no-content.xml\",\"patterns\":[{\"include\":\"#tagStuff\"}]},{\"begin\":\"(</?)(?:([-.\\\\w]+)((:)))?([-.:\\\\w]+)\",\"captures\":{\"1\":{\"name\":\"punctuation.definition.tag.xml\"},\"2\":{\"name\":\"entity.name.tag.namespace.xml\"},\"3\":{\"name\":\"entity.name.tag.xml\"},\"4\":{\"name\":\"punctuation.separator.namespace.xml\"},\"5\":{\"name\":\"entity.name.tag.localname.xml\"}},\"end\":\"(/?>)\",\"name\":\"meta.tag.xml\",\"patterns\":[{\"include\":\"#tagStuff\"}]},{\"include\":\"#entity\"},{\"include\":\"#bare-ampersand\"},{\"begin\":\"<%@\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.section.embedded.begin.xml\"}},\"end\":\"%>\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.section.embedded.end.xml\"}},\"name\":\"source.java-props.embedded.xml\",\"patterns\":[{\"match\":\"page|include|taglib\",\"name\":\"keyword.other.page-props.xml\"}]},{\"begin\":\"<%[!=]?(?!--)\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.section.embedded.begin.xml\"}},\"end\":\"(?!--)%>\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.section.embedded.end.xml\"}},\"name\":\"source.java.embedded.xml\",\"patterns\":[{\"include\":\"source.java\"}]},{\"begin\":\"<!\\\\[CDATA\\\\[\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.definition.string.begin.xml\"}},\"end\":\"]]>\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.definition.string.end.xml\"}},\"name\":\"string.unquoted.cdata.xml\"}],\"repository\":{\"EntityDecl\":{\"begin\":\"(<!)(ENTITY)\\\\s+(%\\\\s+)?([:A-Z_a-z][-.0-:A-Z_a-z]*)(\\\\s+(?:SYSTEM|PUBLIC)\\\\s+)?\",\"captures\":{\"1\":{\"name\":\"punctuation.definition.tag.xml\"},\"2\":{\"name\":\"keyword.other.entity.xml\"},\"3\":{\"name\":\"punctuation.definition.entity.xml\"},\"4\":{\"name\":\"variable.language.entity.xml\"},\"5\":{\"name\":\"keyword.other.entitytype.xml\"}},\"end\":\"(>)\",\"patterns\":[{\"include\":\"#doublequotedString\"},{\"include\":\"#singlequotedString\"}]},\"bare-ampersand\":{\"match\":\"&\",\"name\":\"invalid.illegal.bad-ampersand.xml\"},\"comments\":{\"patterns\":[{\"begin\":\"<%--\",\"captures\":{\"0\":{\"name\":\"punctuation.definition.comment.xml\"},\"end\":\"--%>\",\"name\":\"comment.block.xml\"}},{\"begin\":\"<!--\",\"captures\":{\"0\":{\"name\":\"punctuation.definition.comment.xml\"}},\"end\":\"-->\",\"name\":\"comment.block.xml\",\"patterns\":[{\"begin\":\"--(?!>)\",\"captures\":{\"0\":{\"name\":\"invalid.illegal.bad-comments-or-CDATA.xml\"}}}]}]},\"doublequotedString\":{\"begin\":\"\\\"\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.definition.string.begin.xml\"}},\"end\":\"\\\"\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.definition.string.end.xml\"}},\"name\":\"string.quoted.double.xml\",\"patterns\":[{\"include\":\"#entity\"},{\"include\":\"#bare-ampersand\"}]},\"entity\":{\"captures\":{\"1\":{\"name\":\"punctuation.definition.constant.xml\"},\"3\":{\"name\":\"punctuation.definition.constant.xml\"}},\"match\":\"(&)([:A-Z_a-z][-.0-:A-Z_a-z]*|#[0-9]+|#x\\\\h+)(;)\",\"name\":\"constant.character.entity.xml\"},\"internalSubset\":{\"begin\":\"(\\\\[)\",\"captures\":{\"1\":{\"name\":\"punctuation.definition.constant.xml\"}},\"end\":\"(])\",\"name\":\"meta.internalsubset.xml\",\"patterns\":[{\"include\":\"#EntityDecl\"},{\"include\":\"#parameterEntity\"},{\"include\":\"#comments\"}]},\"parameterEntity\":{\"captures\":{\"1\":{\"name\":\"punctuation.definition.constant.xml\"},\"3\":{\"name\":\"punctuation.definition.constant.xml\"}},\"match\":\"(%)([:A-Z_a-z][-.0-:A-Z_a-z]*)(;)\",\"name\":\"constant.character.parameter-entity.xml\"},\"singlequotedString\":{\"begin\":\"'\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.definition.string.begin.xml\"}},\"end\":\"'\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.definition.string.end.xml\"}},\"name\":\"string.quoted.single.xml\",\"patterns\":[{\"include\":\"#entity\"},{\"include\":\"#bare-ampersand\"}]},\"tagStuff\":{\"patterns\":[{\"captures\":{\"1\":{\"name\":\"entity.other.attribute-name.namespace.xml\"},\"2\":{\"name\":\"entity.other.attribute-name.xml\"},\"3\":{\"name\":\"punctuation.separator.namespace.xml\"},\"4\":{\"name\":\"entity.other.attribute-name.localname.xml\"}},\"match\":\"(?:^|\\\\s+)(?:([-.\\\\w]+)((:)))?([-.:\\\\w]+)\\\\s*=\"},{\"include\":\"#doublequotedString\"},{\"include\":\"#singlequotedString\"}]}},\"scopeName\":\"text.xml\",\"embeddedLangs\":[\"java\"]}")), [...qh], Object.freeze(JSON.parse("{\"colors\":{\"activityBar.activeBorder\":\"#f9826c\",\"activityBar.background\":\"#24292e\",\"activityBar.border\":\"#1b1f23\",\"activityBar.foreground\":\"#e1e4e8\",\"activityBar.inactiveForeground\":\"#6a737d\",\"activityBarBadge.background\":\"#0366d6\",\"activityBarBadge.foreground\":\"#fff\",\"badge.background\":\"#044289\",\"badge.foreground\":\"#c8e1ff\",\"breadcrumb.activeSelectionForeground\":\"#d1d5da\",\"breadcrumb.focusForeground\":\"#e1e4e8\",\"breadcrumb.foreground\":\"#959da5\",\"breadcrumbPicker.background\":\"#2b3036\",\"button.background\":\"#176f2c\",\"button.foreground\":\"#dcffe4\",\"button.hoverBackground\":\"#22863a\",\"button.secondaryBackground\":\"#444d56\",\"button.secondaryForeground\":\"#fff\",\"button.secondaryHoverBackground\":\"#586069\",\"checkbox.background\":\"#444d56\",\"checkbox.border\":\"#1b1f23\",\"debugToolBar.background\":\"#2b3036\",\"descriptionForeground\":\"#959da5\",\"diffEditor.insertedTextBackground\":\"#28a74530\",\"diffEditor.removedTextBackground\":\"#d73a4930\",\"dropdown.background\":\"#2f363d\",\"dropdown.border\":\"#1b1f23\",\"dropdown.foreground\":\"#e1e4e8\",\"dropdown.listBackground\":\"#24292e\",\"editor.background\":\"#24292e\",\"editor.findMatchBackground\":\"#ffd33d44\",\"editor.findMatchHighlightBackground\":\"#ffd33d22\",\"editor.focusedStackFrameHighlightBackground\":\"#2b6a3033\",\"editor.foldBackground\":\"#58606915\",\"editor.foreground\":\"#e1e4e8\",\"editor.inactiveSelectionBackground\":\"#3392FF22\",\"editor.lineHighlightBackground\":\"#2b3036\",\"editor.linkedEditingBackground\":\"#3392FF22\",\"editor.selectionBackground\":\"#3392FF44\",\"editor.selectionHighlightBackground\":\"#17E5E633\",\"editor.selectionHighlightBorder\":\"#17E5E600\",\"editor.stackFrameHighlightBackground\":\"#C6902625\",\"editor.wordHighlightBackground\":\"#17E5E600\",\"editor.wordHighlightBorder\":\"#17E5E699\",\"editor.wordHighlightStrongBackground\":\"#17E5E600\",\"editor.wordHighlightStrongBorder\":\"#17E5E666\",\"editorBracketHighlight.foreground1\":\"#79b8ff\",\"editorBracketHighlight.foreground2\":\"#ffab70\",\"editorBracketHighlight.foreground3\":\"#b392f0\",\"editorBracketHighlight.foreground4\":\"#79b8ff\",\"editorBracketHighlight.foreground5\":\"#ffab70\",\"editorBracketHighlight.foreground6\":\"#b392f0\",\"editorBracketMatch.background\":\"#17E5E650\",\"editorBracketMatch.border\":\"#17E5E600\",\"editorCursor.foreground\":\"#c8e1ff\",\"editorError.foreground\":\"#f97583\",\"editorGroup.border\":\"#1b1f23\",\"editorGroupHeader.tabsBackground\":\"#1f2428\",\"editorGroupHeader.tabsBorder\":\"#1b1f23\",\"editorGutter.addedBackground\":\"#28a745\",\"editorGutter.deletedBackground\":\"#ea4a5a\",\"editorGutter.modifiedBackground\":\"#2188ff\",\"editorIndentGuide.activeBackground\":\"#444d56\",\"editorIndentGuide.background\":\"#2f363d\",\"editorLineNumber.activeForeground\":\"#e1e4e8\",\"editorLineNumber.foreground\":\"#444d56\",\"editorOverviewRuler.border\":\"#1b1f23\",\"editorWarning.foreground\":\"#ffea7f\",\"editorWhitespace.foreground\":\"#444d56\",\"editorWidget.background\":\"#1f2428\",\"errorForeground\":\"#f97583\",\"focusBorder\":\"#005cc5\",\"foreground\":\"#d1d5da\",\"gitDecoration.addedResourceForeground\":\"#34d058\",\"gitDecoration.conflictingResourceForeground\":\"#ffab70\",\"gitDecoration.deletedResourceForeground\":\"#ea4a5a\",\"gitDecoration.ignoredResourceForeground\":\"#6a737d\",\"gitDecoration.modifiedResourceForeground\":\"#79b8ff\",\"gitDecoration.submoduleResourceForeground\":\"#6a737d\",\"gitDecoration.untrackedResourceForeground\":\"#34d058\",\"input.background\":\"#2f363d\",\"input.border\":\"#1b1f23\",\"input.foreground\":\"#e1e4e8\",\"input.placeholderForeground\":\"#959da5\",\"list.activeSelectionBackground\":\"#39414a\",\"list.activeSelectionForeground\":\"#e1e4e8\",\"list.focusBackground\":\"#044289\",\"list.hoverBackground\":\"#282e34\",\"list.hoverForeground\":\"#e1e4e8\",\"list.inactiveFocusBackground\":\"#1d2d3e\",\"list.inactiveSelectionBackground\":\"#282e34\",\"list.inactiveSelectionForeground\":\"#e1e4e8\",\"notificationCenterHeader.background\":\"#24292e\",\"notificationCenterHeader.foreground\":\"#959da5\",\"notifications.background\":\"#2f363d\",\"notifications.border\":\"#1b1f23\",\"notifications.foreground\":\"#e1e4e8\",\"notificationsErrorIcon.foreground\":\"#ea4a5a\",\"notificationsInfoIcon.foreground\":\"#79b8ff\",\"notificationsWarningIcon.foreground\":\"#ffab70\",\"panel.background\":\"#1f2428\",\"panel.border\":\"#1b1f23\",\"panelInput.border\":\"#2f363d\",\"panelTitle.activeBorder\":\"#f9826c\",\"panelTitle.activeForeground\":\"#e1e4e8\",\"panelTitle.inactiveForeground\":\"#959da5\",\"peekViewEditor.background\":\"#1f242888\",\"peekViewEditor.matchHighlightBackground\":\"#ffd33d33\",\"peekViewResult.background\":\"#1f2428\",\"peekViewResult.matchHighlightBackground\":\"#ffd33d33\",\"pickerGroup.border\":\"#444d56\",\"pickerGroup.foreground\":\"#e1e4e8\",\"progressBar.background\":\"#0366d6\",\"quickInput.background\":\"#24292e\",\"quickInput.foreground\":\"#e1e4e8\",\"scrollbar.shadow\":\"#0008\",\"scrollbarSlider.activeBackground\":\"#6a737d88\",\"scrollbarSlider.background\":\"#6a737d33\",\"scrollbarSlider.hoverBackground\":\"#6a737d44\",\"settings.headerForeground\":\"#e1e4e8\",\"settings.modifiedItemIndicator\":\"#0366d6\",\"sideBar.background\":\"#1f2428\",\"sideBar.border\":\"#1b1f23\",\"sideBar.foreground\":\"#d1d5da\",\"sideBarSectionHeader.background\":\"#1f2428\",\"sideBarSectionHeader.border\":\"#1b1f23\",\"sideBarSectionHeader.foreground\":\"#e1e4e8\",\"sideBarTitle.foreground\":\"#e1e4e8\",\"statusBar.background\":\"#24292e\",\"statusBar.border\":\"#1b1f23\",\"statusBar.debuggingBackground\":\"#931c06\",\"statusBar.debuggingForeground\":\"#fff\",\"statusBar.foreground\":\"#d1d5da\",\"statusBar.noFolderBackground\":\"#24292e\",\"statusBarItem.prominentBackground\":\"#282e34\",\"statusBarItem.remoteBackground\":\"#24292e\",\"statusBarItem.remoteForeground\":\"#d1d5da\",\"tab.activeBackground\":\"#24292e\",\"tab.activeBorder\":\"#24292e\",\"tab.activeBorderTop\":\"#f9826c\",\"tab.activeForeground\":\"#e1e4e8\",\"tab.border\":\"#1b1f23\",\"tab.hoverBackground\":\"#24292e\",\"tab.inactiveBackground\":\"#1f2428\",\"tab.inactiveForeground\":\"#959da5\",\"tab.unfocusedActiveBorder\":\"#24292e\",\"tab.unfocusedActiveBorderTop\":\"#1b1f23\",\"tab.unfocusedHoverBackground\":\"#24292e\",\"terminal.ansiBlack\":\"#586069\",\"terminal.ansiBlue\":\"#2188ff\",\"terminal.ansiBrightBlack\":\"#959da5\",\"terminal.ansiBrightBlue\":\"#79b8ff\",\"terminal.ansiBrightCyan\":\"#56d4dd\",\"terminal.ansiBrightGreen\":\"#85e89d\",\"terminal.ansiBrightMagenta\":\"#b392f0\",\"terminal.ansiBrightRed\":\"#f97583\",\"terminal.ansiBrightWhite\":\"#fafbfc\",\"terminal.ansiBrightYellow\":\"#ffea7f\",\"terminal.ansiCyan\":\"#39c5cf\",\"terminal.ansiGreen\":\"#34d058\",\"terminal.ansiMagenta\":\"#b392f0\",\"terminal.ansiRed\":\"#ea4a5a\",\"terminal.ansiWhite\":\"#d1d5da\",\"terminal.ansiYellow\":\"#ffea7f\",\"terminal.foreground\":\"#d1d5da\",\"terminal.tab.activeBorder\":\"#f9826c\",\"terminalCursor.background\":\"#586069\",\"terminalCursor.foreground\":\"#79b8ff\",\"textBlockQuote.background\":\"#24292e\",\"textBlockQuote.border\":\"#444d56\",\"textCodeBlock.background\":\"#2f363d\",\"textLink.activeForeground\":\"#c8e1ff\",\"textLink.foreground\":\"#79b8ff\",\"textPreformat.foreground\":\"#d1d5da\",\"textSeparator.foreground\":\"#586069\",\"titleBar.activeBackground\":\"#24292e\",\"titleBar.activeForeground\":\"#e1e4e8\",\"titleBar.border\":\"#1b1f23\",\"titleBar.inactiveBackground\":\"#1f2428\",\"titleBar.inactiveForeground\":\"#959da5\",\"tree.indentGuidesStroke\":\"#2f363d\",\"welcomePage.buttonBackground\":\"#2f363d\",\"welcomePage.buttonHoverBackground\":\"#444d56\"},\"displayName\":\"GitHub Dark\",\"name\":\"github-dark\",\"semanticHighlighting\":true,\"tokenColors\":[{\"scope\":[\"comment\",\"punctuation.definition.comment\",\"string.comment\"],\"settings\":{\"foreground\":\"#6a737d\"}},{\"scope\":[\"constant\",\"entity.name.constant\",\"variable.other.constant\",\"variable.other.enummember\",\"variable.language\"],\"settings\":{\"foreground\":\"#79b8ff\"}},{\"scope\":[\"entity\",\"entity.name\"],\"settings\":{\"foreground\":\"#b392f0\"}},{\"scope\":\"variable.parameter.function\",\"settings\":{\"foreground\":\"#e1e4e8\"}},{\"scope\":\"entity.name.tag\",\"settings\":{\"foreground\":\"#85e89d\"}},{\"scope\":\"keyword\",\"settings\":{\"foreground\":\"#f97583\"}},{\"scope\":[\"storage\",\"storage.type\"],\"settings\":{\"foreground\":\"#f97583\"}},{\"scope\":[\"storage.modifier.package\",\"storage.modifier.import\",\"storage.type.java\"],\"settings\":{\"foreground\":\"#e1e4e8\"}},{\"scope\":[\"string\",\"punctuation.definition.string\",\"string punctuation.section.embedded source\"],\"settings\":{\"foreground\":\"#9ecbff\"}},{\"scope\":\"support\",\"settings\":{\"foreground\":\"#79b8ff\"}},{\"scope\":\"meta.property-name\",\"settings\":{\"foreground\":\"#79b8ff\"}},{\"scope\":\"variable\",\"settings\":{\"foreground\":\"#ffab70\"}},{\"scope\":\"variable.other\",\"settings\":{\"foreground\":\"#e1e4e8\"}},{\"scope\":\"invalid.broken\",\"settings\":{\"fontStyle\":\"italic\",\"foreground\":\"#fdaeb7\"}},{\"scope\":\"invalid.deprecated\",\"settings\":{\"fontStyle\":\"italic\",\"foreground\":\"#fdaeb7\"}},{\"scope\":\"invalid.illegal\",\"settings\":{\"fontStyle\":\"italic\",\"foreground\":\"#fdaeb7\"}},{\"scope\":\"invalid.unimplemented\",\"settings\":{\"fontStyle\":\"italic\",\"foreground\":\"#fdaeb7\"}},{\"scope\":\"carriage-return\",\"settings\":{\"background\":\"#f97583\",\"content\":\"^M\",\"fontStyle\":\"italic underline\",\"foreground\":\"#24292e\"}},{\"scope\":\"message.error\",\"settings\":{\"foreground\":\"#fdaeb7\"}},{\"scope\":\"string variable\",\"settings\":{\"foreground\":\"#79b8ff\"}},{\"scope\":[\"source.regexp\",\"string.regexp\"],\"settings\":{\"foreground\":\"#dbedff\"}},{\"scope\":[\"string.regexp.character-class\",\"string.regexp constant.character.escape\",\"string.regexp source.ruby.embedded\",\"string.regexp string.regexp.arbitrary-repitition\"],\"settings\":{\"foreground\":\"#dbedff\"}},{\"scope\":\"string.regexp constant.character.escape\",\"settings\":{\"fontStyle\":\"bold\",\"foreground\":\"#85e89d\"}},{\"scope\":\"support.constant\",\"settings\":{\"foreground\":\"#79b8ff\"}},{\"scope\":\"support.variable\",\"settings\":{\"foreground\":\"#79b8ff\"}},{\"scope\":\"meta.module-reference\",\"settings\":{\"foreground\":\"#79b8ff\"}},{\"scope\":\"punctuation.definition.list.begin.markdown\",\"settings\":{\"foreground\":\"#ffab70\"}},{\"scope\":[\"markup.heading\",\"markup.heading entity.name\"],\"settings\":{\"fontStyle\":\"bold\",\"foreground\":\"#79b8ff\"}},{\"scope\":\"markup.quote\",\"settings\":{\"foreground\":\"#85e89d\"}},{\"scope\":\"markup.italic\",\"settings\":{\"fontStyle\":\"italic\",\"foreground\":\"#e1e4e8\"}},{\"scope\":\"markup.bold\",\"settings\":{\"fontStyle\":\"bold\",\"foreground\":\"#e1e4e8\"}},{\"scope\":[\"markup.underline\"],\"settings\":{\"fontStyle\":\"underline\"}},{\"scope\":[\"markup.strikethrough\"],\"settings\":{\"fontStyle\":\"strikethrough\"}},{\"scope\":\"markup.inline.raw\",\"settings\":{\"foreground\":\"#79b8ff\"}},{\"scope\":[\"markup.deleted\",\"meta.diff.header.from-file\",\"punctuation.definition.deleted\"],\"settings\":{\"background\":\"#86181d\",\"foreground\":\"#fdaeb7\"}},{\"scope\":[\"markup.inserted\",\"meta.diff.header.to-file\",\"punctuation.definition.inserted\"],\"settings\":{\"background\":\"#144620\",\"foreground\":\"#85e89d\"}},{\"scope\":[\"markup.changed\",\"punctuation.definition.changed\"],\"settings\":{\"background\":\"#c24e00\",\"foreground\":\"#ffab70\"}},{\"scope\":[\"markup.ignored\",\"markup.untracked\"],\"settings\":{\"background\":\"#79b8ff\",\"foreground\":\"#2f363d\"}},{\"scope\":\"meta.diff.range\",\"settings\":{\"fontStyle\":\"bold\",\"foreground\":\"#b392f0\"}},{\"scope\":\"meta.diff.header\",\"settings\":{\"foreground\":\"#79b8ff\"}},{\"scope\":\"meta.separator\",\"settings\":{\"fontStyle\":\"bold\",\"foreground\":\"#79b8ff\"}},{\"scope\":\"meta.output\",\"settings\":{\"foreground\":\"#79b8ff\"}},{\"scope\":[\"brackethighlighter.tag\",\"brackethighlighter.curly\",\"brackethighlighter.round\",\"brackethighlighter.square\",\"brackethighlighter.angle\",\"brackethighlighter.quote\"],\"settings\":{\"foreground\":\"#d1d5da\"}},{\"scope\":\"brackethighlighter.unmatched\",\"settings\":{\"foreground\":\"#fdaeb7\"}},{\"scope\":[\"constant.other.reference.link\",\"string.other.link\"],\"settings\":{\"fontStyle\":\"underline\",\"foreground\":\"#dbedff\"}}],\"type\":\"dark\"}"));
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/@dialecte_scl@0.3.12/node_modules/@dialecte/scl/dist/hooks-Cm_UYBBt.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/@dialecte_scl@0.3.13/node_modules/@dialecte/scl/dist/hooks-D5DJSztS.js
 var Jh = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.AllocationRoleRef.AnalogueWiringParameters.AnalogueWiringParametersRef.Application.ApplicationSclRef.Association.Authentication.BDA.Bay.BayType.BehaviorDescription.BehaviorDescriptionRef.BehaviorReference.BinaryWiringParameters.BinaryWiringParametersRef.BitRate.CheckoutID.ClientLN.ClientServices.CommProt.Communication.CommunicationServiceSpecifications.ConductingEquipment.ConfDataSet.ConfLNs.ConfLdName.ConfLogControl.ConfReportControl.ConfSG.ConfSigRef.ConnectedAP.ConnectivityNode.ControlRef.ControllingLNode.DA.DAI.DAS.DAType.DO.DOI.DOS.DOType.DataObjectDirectory.DataSet.DataSetDirectory.DataTypeTemplates.DynAssociation.DynDataSet.EnumType.EnumVal.EqFunction.EqSubFunction.ExtCtrl.ExtRef.FCDA.FileHandling.Function.FunctionCatRef.FunctionCategory.FunctionCategoryRef.FunctionRef.FunctionRole.FunctionRoleContent.FunctionSclRef.FunctionTemplate.FunctionalSubVariant.FunctionalVariant.FunctionalVariantGroup.FunctionalVariantRef.GOOSE.GOOSEMcSecurity.GOOSESecurity.GSE.GSEControl.GSEDir.GSESettings.GSSE.GeneralEquipment.GetCBValues.GetDataObjectDefinition.GetDataSetValue.GetDirectory.GooseParameters.GooseParametersRef.Header.History.Hitem.IED.IEDName.IEDSourceFiles.InputVar.InputVarRef.Inputs.IssuerName.KDC.L2CommParameters.L3IPv4CommParameters.L3IPv6CommParameters.LDevice.LN.LN0.LNode.LNodeDataRef.LNodeInputRef.LNodeInputs.LNodeOutputRef.LNodeOutputs.LNodeSpecNaming.LNodeType.Label.Labels.Line.Log.LogControl.LogParameters.LogParametersRef.LogSettings.MaxTime.McSecurity.MinRequestedSCDFile.MinRequestedSCDFiles.MinTime.MultiAPPerSubNet.NeutralPoint.OptFields.OutputVar.OutputVarRef.Outputs.P.PhysConn.PowerSystemRelation.PowerSystemRelationRef.PowerSystemRelations.PowerTransformer.Private.Process.ProcessEcho.ProcessResource.ProcessResourceRef.ProcessResources.Project.ProjectProcessReference.ProtNs.Protocol.ReadWrite.RedProt.ReportControl.ReportParameters.ReportParametersRef.ReportSettings.Resource.RptEnabled.SCL.SCSM.SDI.SDO.SDS.SGEdit.SMV.SMVParameters.SMVParametersRef.SMVSecurity.SMVSettings.SMVsc.SVMcSecurity.SampledValueControl.SamplesPerSec.SclFileReference.SecPerSamples.Security.Server.ServerAt.ServiceSpecifications.Services.SetDataSetValue.SettingControl.SettingGroups.SignalRole.SmpRate.SmvOpts.SourceFiles.SourceRef.SubCategory.SubCheckoutID.SubEquipment.SubFunction.SubFunctionTemplate.SubNetwork.Subject.SubscriberLNode.Substation.SupSubscription.TapChanger.Terminal.Text.TimeSyncProt.TimerActivatedControl.TransformerWinding.TrgOps.Val.ValueHandling.Variable.VariableApplyTo.VariableRef.Voltage.VoltageLevel".split("."), Yh = {
 	AccessControl: {
 		tag: "AccessControl",
@@ -33321,7 +33321,7 @@ ig(tg), [...[
 var sg = new Map(Object.entries(rg).map(([e, t]) => [e, [...new Set(t.map((e) => e.attribute))]])), cg = og(rg);
 new Set(cg.keys()), [...Yh.LNode?.attributes?.identityFields ?? [], ...sg.get("LNode") ?? []], new Set(Yh.LNode.attributes.details.lnClass.facets.enumeration), new Set(Object.values(tg).flatMap((e) => e.flatMap((e) => [e.attribute.path, e.attribute.uuid]))), new Set(Object.values(Xh).map((e) => e.uri)), new Set(Object.values(Xh).map((e) => e.prefix).filter(Boolean));
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.51_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/utils/registry.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.53_daisyui@5.5.19_tailwindcss@4.2.2_typescript@5.8.3_vite@8.0.9_@types+node@22.19.17_jiti@2.6.1_/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/utils/registry.js
 function lg() {
 	if (typeof matchMedia == "function") return matchMedia("(pointer:coarse)").matches ? "coarse" : "fine";
 }
@@ -33537,7 +33537,7 @@ function Sg(e) {
 	}
 }
 //#endregion
-//#region node_modules/.pnpm/@dialecte+core@0.4.9/node_modules/@dialecte/core/dist/utils-C5_11hqg.js
+//#region node_modules/.pnpm/@dialecte+core@0.4.11/node_modules/@dialecte/core/dist/utils-C5_11hqg.js
 var Cg = {
 	UNKNOWN: {
 		code: "D0001",
@@ -33769,7 +33769,7 @@ function Pg(e) {
 	prefix: "dev"
 }.prefix}`;
 //#endregion
-//#region node_modules/.pnpm/@dialecte+core@0.4.9/node_modules/@dialecte/core/dist/helpers.js
+//#region node_modules/.pnpm/@dialecte+core@0.4.11/node_modules/@dialecte/core/dist/helpers.js
 var Fg = {
 	uri: "http://www.w3.org/2001/XMLSchema-instance",
 	prefix: "xsi"
@@ -33901,7 +33901,7 @@ function Wg(e) {
 	}
 }
 //#endregion
-//#region node_modules/.pnpm/@dialecte+scl@0.3.12/node_modules/@dialecte/scl/dist/hooks-Cm_UYBBt.js
+//#region node_modules/.pnpm/@dialecte+scl@0.3.13/node_modules/@dialecte/scl/dist/hooks-D5DJSztS.js
 var Gg = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.AllocationRoleRef.AnalogueWiringParameters.AnalogueWiringParametersRef.Application.ApplicationSclRef.Association.Authentication.BDA.Bay.BayType.BehaviorDescription.BehaviorDescriptionRef.BehaviorReference.BinaryWiringParameters.BinaryWiringParametersRef.BitRate.CheckoutID.ClientLN.ClientServices.CommProt.Communication.CommunicationServiceSpecifications.ConductingEquipment.ConfDataSet.ConfLNs.ConfLdName.ConfLogControl.ConfReportControl.ConfSG.ConfSigRef.ConnectedAP.ConnectivityNode.ControlRef.ControllingLNode.DA.DAI.DAS.DAType.DO.DOI.DOS.DOType.DataObjectDirectory.DataSet.DataSetDirectory.DataTypeTemplates.DynAssociation.DynDataSet.EnumType.EnumVal.EqFunction.EqSubFunction.ExtCtrl.ExtRef.FCDA.FileHandling.Function.FunctionCatRef.FunctionCategory.FunctionCategoryRef.FunctionRef.FunctionRole.FunctionRoleContent.FunctionSclRef.FunctionTemplate.FunctionalSubVariant.FunctionalVariant.FunctionalVariantGroup.FunctionalVariantRef.GOOSE.GOOSEMcSecurity.GOOSESecurity.GSE.GSEControl.GSEDir.GSESettings.GSSE.GeneralEquipment.GetCBValues.GetDataObjectDefinition.GetDataSetValue.GetDirectory.GooseParameters.GooseParametersRef.Header.History.Hitem.IED.IEDName.IEDSourceFiles.InputVar.InputVarRef.Inputs.IssuerName.KDC.L2CommParameters.L3IPv4CommParameters.L3IPv6CommParameters.LDevice.LN.LN0.LNode.LNodeDataRef.LNodeInputRef.LNodeInputs.LNodeOutputRef.LNodeOutputs.LNodeSpecNaming.LNodeType.Label.Labels.Line.Log.LogControl.LogParameters.LogParametersRef.LogSettings.MaxTime.McSecurity.MinRequestedSCDFile.MinRequestedSCDFiles.MinTime.MultiAPPerSubNet.NeutralPoint.OptFields.OutputVar.OutputVarRef.Outputs.P.PhysConn.PowerSystemRelation.PowerSystemRelationRef.PowerSystemRelations.PowerTransformer.Private.Process.ProcessEcho.ProcessResource.ProcessResourceRef.ProcessResources.Project.ProjectProcessReference.ProtNs.Protocol.ReadWrite.RedProt.ReportControl.ReportParameters.ReportParametersRef.ReportSettings.Resource.RptEnabled.SCL.SCSM.SDI.SDO.SDS.SGEdit.SMV.SMVParameters.SMVParametersRef.SMVSecurity.SMVSettings.SMVsc.SVMcSecurity.SampledValueControl.SamplesPerSec.SclFileReference.SecPerSamples.Security.Server.ServerAt.ServiceSpecifications.Services.SetDataSetValue.SettingControl.SettingGroups.SignalRole.SmpRate.SmvOpts.SourceFiles.SourceRef.SubCategory.SubCheckoutID.SubEquipment.SubFunction.SubFunctionTemplate.SubNetwork.Subject.SubscriberLNode.Substation.SupSubscription.TapChanger.Terminal.Text.TimeSyncProt.TimerActivatedControl.TransformerWinding.TrgOps.Val.ValueHandling.Variable.VariableApplyTo.VariableRef.Voltage.VoltageLevel".split("."), Kg = {
 	AccessControl: {
 		tag: "AccessControl",
@@ -53892,7 +53892,7 @@ t_(Qg), [...[
 var i_ = new Map(Object.entries(e_).map(([e, t]) => [e, [...new Set(t.map((e) => e.attribute))]])), a_ = r_(e_);
 new Set(a_.keys()), new Set([...Kg.LNode?.attributes?.identityFields ?? [], ...i_.get("LNode") ?? []]), new Set(Kg.LNode.attributes.details.lnClass.facets.enumeration), new Set(Object.values(Qg).flatMap((e) => e.flatMap((e) => [e.attribute.path, e.attribute.uuid]))), new Set(Object.values(qg).map((e) => e.uri)), new Set(Object.values(qg).map((e) => e.prefix).filter(Boolean));
 //#endregion
-//#region node_modules/.pnpm/@dialecte+core@0.4.9/node_modules/@dialecte/core/dist/project-D-KS3OPN.js
+//#region node_modules/.pnpm/@dialecte+core@0.4.11/node_modules/@dialecte/core/dist/project-BjO7cVmO.js
 var o_ = Object.create, s_ = Object.defineProperty, c_ = Object.getOwnPropertyDescriptor, l_ = Object.getOwnPropertyNames, u_ = Object.getPrototypeOf, d_ = Object.prototype.hasOwnProperty, f_ = (e, t) => () => (t || (e((t = { exports: {} }).exports, t), e = null), t.exports), p_ = (e, t, n, r) => {
 	if (t && typeof t == "object" || typeof t == "function") for (var i = l_(t), a = 0, o = i.length, s; a < o; a++) s = i[a], !d_.call(e, s) && s !== n && s_(e, s, {
 		get: ((e) => t[e]).bind(null, s),
@@ -55649,8 +55649,8 @@ async function X_(e) {
 function Z_(e) {
 	let { attributes: t, tagName: n } = e;
 	if (!(!t || !Array.isArray(t))) for (let e of t) {
-		let { name: t } = e;
-		!(t === "xmlns" || t.startsWith("xmlns:")) && t.includes(":") && wg("PREFIXED_ATTRIBUTE_NAME", {
+		let { name: t, namespace: r } = e;
+		t === "xmlns" || t.startsWith("xmlns:") || !t.includes(":") || typeof r == "object" && r?.prefix === t.slice(0, t.indexOf(":")) || wg("PREFIXED_ATTRIBUTE_NAME", {
 			detail: `Attribute '${t}' on '${n}' is prefixed — pass a local name plus its namespace instead: { name: '${Og(t)}', namespace }.`,
 			ref: { tagName: n }
 		});
@@ -59731,13 +59731,13 @@ async function yv(e, t, n, r) {
 //#region src/dialecte-extension/lnode/query/generate-path-for-control-ref.ts
 async function bv(e, t, n) {
 	let r = await yv(e, t), i = Z(n, "output"), a = Z(n, "outputInst"), o = `${r}.${i}`;
-	return a && (o += `(${a})`), o;
+	return a && a !== "1" && (o += `(${a})`), o;
 }
 //#endregion
 //#region src/dialecte-extension/lnode/query/generate-path-for-source-ref.ts
 async function xv(e, t, n) {
 	let r = await yv(e, t), i = Z(n, "input"), a = Z(n, "inputInst"), o = Z(n, "pDA"), s = `${r}.${i}`;
-	return a && (s += `(${a})`), o && (s += `.${o}`), s;
+	return a && a !== "1" && (s += `(${a})`), o && (s += `.${o}`), s;
 }
 //#endregion
 //#region src/dialecte-extension/application/transaction/application-references.ts
@@ -61621,6 +61621,17 @@ var Nb = {
 //#endregion
 //#region src/dialecte-extension/placeholder/query/build-process-resource-attributes.ts
 async function Pb(e, t) {
+	let n = await Fb(e, t);
+	return Object.entries(n).map(([e, t]) => ({
+		name: e,
+		value: t
+	}));
+}
+async function Fb(e, t) {
+	if (!t) return {
+		resourceName: "",
+		resourceUuid: ""
+	};
 	let n = await e.getRecord({
 		tagName: "ProcessResource",
 		id: t
@@ -61633,17 +61644,50 @@ async function Pb(e, t) {
 		let n = await e.getAttribute(t, { name: "name" });
 		n && o.push(n);
 	}
-	return o.push(r), [{
-		name: "resourceName",
-		value: o.join("/")
-	}, {
-		name: "resourceUuid",
-		value: i
-	}];
+	return o.push(r), {
+		resourceName: o.join("/"),
+		resourceUuid: i
+	};
+}
+//#endregion
+//#region src/dialecte-extension/placeholder/query/find-placeholders-using-data-path.ts
+async function Ib(e, t) {
+	let n = await e.getRecord({
+		tagName: "LNode",
+		id: t.lnodeId
+	});
+	X(n, `LNode not found: ${t.lnodeId}`);
+	let r = await e.getAttribute(n, { name: "uuid" });
+	if (!r) return [];
+	let i = [], a = await ty(e, n, t.doName, t.daName);
+	return a?.target.tagName === "DAS" ? i.push(...await e.getChildren(a.target, "SubscriberLNode")) : a && i.push(...await e.getChildren(a.target, "ControllingLNode")), t.daName ? i.push(...await e.findByAttributes({
+		tagName: "SourceRef",
+		attributes: {
+			sourceLNodeUuid: r,
+			sourceDoName: t.doName,
+			sourceDaName: t.daName
+		}
+	})) : i.push(...await e.findByAttributes({
+		tagName: "ControlRef",
+		attributes: {
+			controlledLNodeUuid: r,
+			controlledDoName: t.doName
+		}
+	})), i.filter((e) => e.id !== t.excludedPlaceholderId);
+}
+//#endregion
+//#region src/dialecte-extension/placeholder/query/find-process-resource-id.ts
+async function Lb(e, t) {
+	if (!t) return "";
+	let [n] = await e.findByAttributes({
+		tagName: "ProcessResource",
+		attributes: { uuid: t }
+	});
+	return n?.id ?? "";
 }
 //#endregion
 //#region src/dialecte-extension/placeholder/query/is-subscriber-lnode-resolved.ts
-async function Fb(e, t, n) {
+async function Rb(e, t, n) {
 	let { sourceLnodeRecord: r, inputName: i, preferredLnode: a, dataflowType: o, dataObject: s, dataAttribute: c } = n, l = await e.getAttribute(r, { name: "uuid" });
 	for (let n of t) {
 		let { sourceLNodeUuid: t, input: r, service: u, sourceDoName: d, sourceDaName: f } = await e.getAttributes(n);
@@ -61662,7 +61706,7 @@ async function Fb(e, t, n) {
 }
 //#endregion
 //#region src/dialecte-extension/placeholder/query/is-source-ref-placeholder-resolved.ts
-async function Ib(e, t, n) {
+async function zb(e, t, n) {
 	let { placeholderId: r, subscriberLnodeRecord: i, inputName: a, preferredLnode: o, preferredDataObject: s, preferredDataAttribute: c, dataflowType: l } = n;
 	for (let n of t) {
 		if (n.id === r) continue;
@@ -61687,7 +61731,7 @@ async function Ib(e, t, n) {
 }
 //#endregion
 //#region src/dialecte-extension/placeholder/query/is-controlling-lnode-resolved.ts
-async function Lb(e, t, n) {
+async function Bb(e, t, n) {
 	let { controlledLnodeUuid: r, outputName: i, dataObject: a, preferredLnode: o } = n;
 	for (let n of t) {
 		let { controlledLNodeUuid: t, controlledDoName: s, output: c } = await e.getAttributes(n);
@@ -61706,7 +61750,7 @@ async function Lb(e, t, n) {
 }
 //#endregion
 //#region src/dialecte-extension/placeholder/query/is-control-ref-placeholder-resolved.ts
-async function Rb(e, t, n) {
+async function Vb(e, t, n) {
 	let { placeholderId: r, controllingLnodeRecord: i, outputName: a, preferredLnode: o, preferredDataObject: s } = n;
 	for (let n of t) {
 		if (n.id === r) continue;
@@ -61731,7 +61775,7 @@ async function Rb(e, t, n) {
 }
 //#endregion
 //#region src/dialecte-extension/placeholder/transaction/create-controlling-lnode.ts
-async function zb(e, t, n) {
+async function Hb(e, t, n) {
 	let r = [{
 		name: "outputName",
 		value: t.outputName
@@ -61752,7 +61796,7 @@ async function zb(e, t, n) {
 }
 //#endregion
 //#region src/dialecte-extension/placeholder/transaction/create-control-ref-placeholder.ts
-async function Bb(e, t) {
+async function Ub(e, t) {
 	let n = await Rv(e, t.controllingLnodeId), r = t.processResourceId ? await Pb(e, t.processResourceId) : [{
 		name: "resourceName",
 		value: ""
@@ -61802,7 +61846,7 @@ async function Bb(e, t) {
 }
 //#endregion
 //#region src/dialecte-extension/placeholder/transaction/create-source-ref-placeholder.ts
-async function Vb(e, t) {
+async function Wb(e, t) {
 	let n = await Wv(e, t.subscriberLnodeId), r = t.processResourceId ? await Pb(e, t.processResourceId) : [{
 		name: "resourceName",
 		value: ""
@@ -61864,12 +61908,12 @@ async function Vb(e, t) {
 }
 //#endregion
 //#region src/lnode/lnode.types.ts
-var Hb = ["q", "t"], Ub = /* @__PURE__ */ function(e) {
+var Gb = ["q", "t"], Kb = /* @__PURE__ */ function(e) {
 	return e.NONE = "None", e.S_IED = "S-IED", e.REAL_IED = "Real IED", e;
 }({});
 //#endregion
 //#region src/dialecte-extension/placeholder/transaction/create-subscriber-lnode.ts
-async function Wb(e, t, n) {
+async function qb(e, t, n) {
 	let r = [{
 		name: "inputName",
 		value: t.inputName
@@ -61904,7 +61948,7 @@ async function Wb(e, t, n) {
 }
 //#endregion
 //#region src/dialecte-extension/placeholder/transaction/delete-controlling-lnode.ts
-async function Gb(e, t) {
+async function Jb(e, t) {
 	let n = await e.getRecord({
 		tagName: "ControllingLNode",
 		id: t.controllingLnodeId
@@ -61913,7 +61957,7 @@ async function Gb(e, t) {
 }
 //#endregion
 //#region src/dialecte-extension/placeholder/transaction/delete-control-ref-placeholder.ts
-async function Kb(e, t) {
+async function Yb(e, t) {
 	let n = await e.getRecord({
 		tagName: "ControlRef",
 		id: t
@@ -61922,7 +61966,7 @@ async function Kb(e, t) {
 }
 //#endregion
 //#region src/dialecte-extension/placeholder/transaction/delete-source-ref-placeholder.ts
-async function qb(e, t) {
+async function Xb(e, t) {
 	let n = await e.getRecord({
 		tagName: "SourceRef",
 		id: t
@@ -61931,7 +61975,7 @@ async function qb(e, t) {
 }
 //#endregion
 //#region src/dialecte-extension/placeholder/transaction/delete-subscriber-lnode.ts
-async function Jb(e, t) {
+async function Zb(e, t) {
 	let n = await e.getRecord({
 		tagName: "SubscriberLNode",
 		id: t.subscriberLnodeId
@@ -61939,51 +61983,215 @@ async function Jb(e, t) {
 	X(n, `SubscriberLNode not found: ${t.subscriberLnodeId}`), await e.delete(n), await ry(e, t.lnodeId, t.dataObject, t.dataAttribute);
 }
 //#endregion
+//#region src/dialecte-extension/application/transaction/sync-application-references.ts
+async function Qb(e, t, n, r) {
+	if (n.kind === "lnodeData") {
+		await $b(e, t, n, r);
+		return;
+	}
+	if (n.kind === "lnodeInput") {
+		let i = await e.getRecord({
+			tagName: "SourceRef",
+			id: n.sourceRefId
+		});
+		X(i, `SourceRef not found: ${n.sourceRefId}`), await Zv(e, i), r && await Cv(e, t, [i]);
+		return;
+	}
+	let i = await e.getRecord({
+		tagName: "ControlRef",
+		id: n.controlRefId
+	});
+	X(i, `ControlRef not found: ${n.controlRefId}`), await Zv(e, i), r && await wv(e, t, i);
+}
+async function $b(e, t, n, r) {
+	if ((await Ib(e, {
+		lnodeId: t,
+		doName: n.previousDoName,
+		daName: n.previousDaName,
+		excludedPlaceholderId: n.placeholderId
+	})).length === 0) {
+		let r = await e.getRecord({
+			tagName: "LNode",
+			id: t
+		}), i = r && await e.getAttribute(r, { name: "uuid" });
+		i && await Qv(e, i, n.previousDoName, n.previousDaName);
+	}
+	r && await Sv(e, t, {
+		signalRoles: n.signalRoles,
+		doName: n.doName,
+		daName: n.daName
+	});
+}
+//#endregion
+//#region src/dialecte-extension/placeholder/transaction/update-controlling-lnode.ts
+async function ex(e, t, n) {
+	let r = await e.getRecord({
+		tagName: "ControllingLNode",
+		id: t.controllingLnodeId
+	});
+	X(r, `ControllingLNode not found: ${t.controllingLnodeId}`);
+	let i = {
+		outputName: t.outputName,
+		pLN: t.preferredLnode ?? "",
+		...await Fb(e, t.processResourceId)
+	}, a;
+	if (t.dataObject === t.previousDataObject) a = Rg({ record: await e.update(r, { attributes: i }) });
+	else {
+		let o = await Iv(e, t.lnodeId, t.dataObject, n), s = await e.addChild(o, {
+			tagName: "ControllingLNode",
+			namespace: qg.v2019C1,
+			attributes: Object.entries(i).map(([e, t]) => ({
+				name: e,
+				value: t
+			}))
+		});
+		await e.delete(r), await ry(e, t.lnodeId, t.previousDataObject), a = Rg({ record: s });
+	}
+	return await Qb(e, t.lnodeId, {
+		kind: "lnodeData",
+		placeholderId: a.id,
+		signalRoles: ["Control"],
+		previousDoName: t.previousDataObject,
+		doName: t.dataObject
+	}, t.withApplicationReferences), a;
+}
+//#endregion
+//#region src/dialecte-extension/placeholder/transaction/update-control-ref-placeholder.ts
+async function tx(e, t) {
+	let n = await e.getRecord({
+		tagName: "ControlRef",
+		id: t.controlRefId
+	});
+	X(n, `ControlRef not found: ${t.controlRefId}`), X(!await e.getAttribute(n, { name: "controlledLNodeUuid" }), `ControlRef ${t.controlRefId} is a resolved dataflow and cannot be edited as a placeholder`);
+	let r = Rg({ record: await e.update(n, { attributes: {
+		pLN: t.preferredLnode,
+		pDO: t.preferredDataObject,
+		output: t.outputName,
+		outputInst: t.outputInstance,
+		...await Fb(e, t.processResourceId)
+	} }) });
+	return await Qb(e, t.controllingLnodeId, {
+		kind: "lnodeOutput",
+		controlRefId: r.id
+	}, t.withApplicationReferences), r;
+}
+//#endregion
+//#region src/dialecte-extension/placeholder/transaction/update-source-ref-placeholder.ts
+async function nx(e, t) {
+	let n = await e.getRecord({
+		tagName: "SourceRef",
+		id: t.sourceRefId
+	});
+	X(n, `SourceRef not found: ${t.sourceRefId}`), X(!await e.getAttribute(n, { name: "sourceLNodeUuid" }), `SourceRef ${t.sourceRefId} is a resolved dataflow and cannot be edited as a placeholder`);
+	let r = Rg({ record: await e.update(n, { attributes: {
+		pLN: t.preferredLnode,
+		pDO: t.preferredDataObject,
+		pDA: t.preferredDataAttribute,
+		input: t.inputName,
+		inputInst: t.inputInstance,
+		...await Fb(e, t.processResourceId)
+	} }) });
+	return await Qb(e, t.subscriberLnodeId, {
+		kind: "lnodeInput",
+		sourceRefId: r.id
+	}, t.withApplicationReferences), r;
+}
+//#endregion
+//#region src/dialecte-extension/placeholder/transaction/update-subscriber-lnode.ts
+async function rx(e, t, n) {
+	let r = await e.getRecord({
+		tagName: "SubscriberLNode",
+		id: t.subscriberLnodeId
+	});
+	X(r, `SubscriberLNode not found: ${t.subscriberLnodeId}`);
+	let i = await e.getAttribute(r, { name: "service" }), a = {
+		inputName: t.inputName,
+		pLN: t.preferredLnode ?? "",
+		...await Fb(e, t.processResourceId)
+	}, o = t.dataObject === t.previousDataObject && t.dataAttribute === t.previousDataAttribute, s;
+	if (o) s = Rg({ record: await e.update(r, { attributes: a }) });
+	else {
+		let o = await Iv(e, t.lnodeId, t.dataObject, n), c = await Vv(e, {
+			lnodeId: t.lnodeId,
+			signalNamePath: t.dataObject,
+			parentRecord: o,
+			attributeNamePath: t.dataAttribute,
+			lnodeTypes: n
+		}), l = await e.addChild(c, {
+			tagName: "SubscriberLNode",
+			namespace: qg.v2019C1,
+			attributes: [...Object.entries(a).map(([e, t]) => ({
+				name: e,
+				value: t
+			})), {
+				name: "service",
+				value: i ?? ""
+			}]
+		});
+		await e.delete(r), await ry(e, t.lnodeId, t.previousDataObject, t.previousDataAttribute), s = Rg({ record: l });
+	}
+	let c = ["Process"];
+	return Sg(i) === Q.REPORT && c.push("Signalisation"), await Qb(e, t.lnodeId, {
+		kind: "lnodeData",
+		placeholderId: s.id,
+		signalRoles: c,
+		previousDoName: t.previousDataObject,
+		previousDaName: t.previousDataAttribute,
+		doName: t.dataObject,
+		daName: t.dataAttribute
+	}, t.withApplicationReferences), s;
+}
+//#endregion
 //#region src/document.store.ts
-var { document: $, isHydrated: Yb, hydrate: Xb, clear: Zb } = Od({ extensions: {
+var { document: $, isHydrated: ix, hydrate: ax, clear: ox } = Od({ extensions: {
 	connection: sy,
 	implementation: Eb,
 	lnode: Nb,
 	placeholder: {
 		query: {
 			buildProcessResourceAttributes: Pb,
-			isSubscriberLnodeResolved: Fb,
-			isSourceRefPlaceholderResolved: Ib,
-			isControllingLnodeResolved: Lb,
-			isControlRefPlaceholderResolved: Rb
+			findPlaceholdersUsingDataPath: Ib,
+			isSubscriberLnodeResolved: Rb,
+			isSourceRefPlaceholderResolved: zb,
+			isControllingLnodeResolved: Bb,
+			isControlRefPlaceholderResolved: Vb
 		},
 		transaction: {
-			createControllingLnode: zb,
-			createControlRefPlaceholder: Bb,
-			createSourceRefPlaceholder: Vb,
-			createSubscriberLnode: Wb,
-			deleteControllingLnode: Gb,
-			deleteControlRefPlaceholder: Kb,
-			deleteSourceRefPlaceholder: qb,
-			deleteSubscriberLnode: Jb
+			createControllingLnode: Hb,
+			createControlRefPlaceholder: Ub,
+			createSourceRefPlaceholder: Wb,
+			createSubscriberLnode: qb,
+			deleteControllingLnode: Jb,
+			deleteControlRefPlaceholder: Yb,
+			deleteSourceRefPlaceholder: Xb,
+			deleteSubscriberLnode: Zb,
+			updateControllingLnode: ex,
+			updateControlRefPlaceholder: tx,
+			updateSourceRefPlaceholder: nx,
+			updateSubscriberLnode: rx
 		}
 	}
 } });
 //#endregion
 //#region src/lnode/services/find-all-lnode-types.ts
-async function Qb(e) {
+async function sx(e) {
 	let t = e.query, n = await t.getRecordsByTagName("LNodeType"), r = [];
 	for (let e of n) r.push({
 		id: e.id,
 		typeId: Z(e, "id") ?? "",
 		lnClass: Z(e, "lnClass") ?? "",
-		dataObjects: await $b(t, e)
+		dataObjects: await cx(t, e)
 	});
 	return r;
 }
-async function $b(e, t) {
+async function cx(e, t) {
 	if (!t.children) return [];
 	let [n, r] = await Promise.all([e.getRecordsByTagName("DOType"), e.getRecordsByTagName("DAType")]), i = [], a = await e.getChildren({
 		tagName: "LNodeType",
 		id: t.id
 	}, "DO");
 	for (let t of a) {
-		let { name: a, type: o, desc: s } = await e.getAttributes(t), c = await ex(e, {
+		let { name: a, type: o, desc: s } = await e.getAttributes(t), c = await lx(e, {
 			id: t.id,
 			namePath: a,
 			desc: s ?? "",
@@ -61996,18 +62204,18 @@ async function $b(e, t) {
 	}
 	return i;
 }
-async function ex(e, t) {
+async function lx(e, t) {
 	let { id: n, namePath: r, desc: i, doTypeId: a, allDoTypes: o, allDaTypes: s, visitedDoTypeIds: c } = t;
 	if (c.has(a)) return [];
 	c.add(a);
-	let l = ix(o, a);
+	let l = px(o, a);
 	if (!l || !l.children) return [];
 	let u = await e.getChildren({
 		tagName: "DOType",
 		id: l.id
 	}, "SDO"), d = [];
 	for (let t of u) {
-		let { name: a, type: l } = await e.getAttributes(t), u = await ex(e, {
+		let { name: a, type: l } = await e.getAttributes(t), u = await lx(e, {
 			id: n,
 			namePath: `${r}.${a}`,
 			desc: i,
@@ -62019,7 +62227,7 @@ async function ex(e, t) {
 		d.push(...u);
 	}
 	if (l.children.some((e) => e.tagName === "DA")) {
-		let t = await tx(e, l, s);
+		let t = await ux(e, l, s);
 		d.push({
 			id: n,
 			namePath: r,
@@ -62030,13 +62238,13 @@ async function ex(e, t) {
 	}
 	return d;
 }
-async function tx(e, t, n) {
+async function ux(e, t, n) {
 	let r = await e.getChildren({
 		tagName: "DOType",
 		id: t.id
 	}, "DA"), i = [];
 	for (let t of r) {
-		let { name: r, fc: a } = await e.getAttributes(t), o = await nx(e, {
+		let { name: r, fc: a } = await e.getAttributes(t), o = await dx(e, {
 			daId: t.id,
 			record: t,
 			allDaTypes: n,
@@ -62048,11 +62256,11 @@ async function tx(e, t, n) {
 	}
 	return i;
 }
-async function nx(e, t) {
+async function dx(e, t) {
 	let { daId: n, record: r, allDaTypes: i, path: a, fc: o, visitedDaTypeIds: s } = t, c = Z(r, "bType") ?? "";
 	if (c === "Struct") {
 		let t = Z(r, "type") ?? "", c = i.find((e) => e.attributes?.find((e) => e.name === "id" && e.value === t));
-		return c ? rx(e, {
+		return c ? fx(e, {
 			daId: n,
 			daTypeRecord: c,
 			allDaTypes: i,
@@ -62069,7 +62277,7 @@ async function nx(e, t) {
 		fc: o
 	}];
 }
-async function rx(e, t) {
+async function fx(e, t) {
 	let { daId: n, daTypeRecord: r, allDaTypes: i, pathPrefix: a, fc: o, visitedDaTypeIds: s } = t, c = Z(r, "id");
 	if (c) {
 		if (s.has(c)) return [];
@@ -62081,7 +62289,7 @@ async function rx(e, t) {
 		id: r.id
 	}, "BDA"), u = [];
 	for (let t of l) {
-		let r = Z(t, "name") ?? "", c = await nx(e, {
+		let r = Z(t, "name") ?? "", c = await dx(e, {
 			daId: n,
 			record: t,
 			allDaTypes: i,
@@ -62093,13 +62301,13 @@ async function rx(e, t) {
 	}
 	return u;
 }
-function ix(e, t) {
+function px(e, t) {
 	return e.find((e) => e.attributes?.some((e) => e.name === "id" && e.value === t));
 }
 //#endregion
 //#region src/lnode/services/enrich-with-data-object-specifications.ts
-async function ax(e, t) {
-	let n = e.query, r = await Qb(e), i = await n.getRecordsByTagName("Private"), a = await n.getRecordsByTagName("DOS"), o = await n.getRecordsByTagName("SDS"), s = await n.getRecordsByTagName("DAS"), c = await n.getRecordsByTagName("SubscriberLNode");
+async function mx(e, t) {
+	let n = e.query, r = await sx(e), i = await n.getRecordsByTagName("Private"), a = await n.getRecordsByTagName("DOS"), o = await n.getRecordsByTagName("SDS"), s = await n.getRecordsByTagName("DAS"), c = await n.getRecordsByTagName("SubscriberLNode");
 	function l(e, t) {
 		let n = [];
 		if (e.children) {
@@ -62190,7 +62398,7 @@ async function ax(e, t) {
 }
 //#endregion
 //#region src/lnode/services/find-all-lnodes.ts
-async function ox(e) {
+async function hx(e) {
 	let t = e.query, n = await t.getRecordsByTagName("LNode"), r = [];
 	for (let e of n) {
 		let { uuid: n, iedName: i, prefix: a, lnClass: o, lnInst: s, lnType: c, ldInst: l } = await t.getAttributes(e);
@@ -62210,44 +62418,44 @@ async function ox(e) {
 }
 //#endregion
 //#region src/lnode/services/find-all-enriched-lnodes.ts
-async function sx(e) {
-	let t = await ox(e);
-	return t.length ? ax(e, t) : [];
+async function gx(e) {
+	let t = await hx(e);
+	return t.length ? mx(e, t) : [];
 }
 //#endregion
 //#region src/lnode/services/find-controllable-dos-for-ln-type.ts
-async function cx(e, t) {
+async function _x(e, t) {
 	let n = t.dataObjects.map((e) => e.type), r = await e.query.lnode.findControllableDoTypes(n), i = new Set(r.map((e) => Z(e, "id")));
 	return t.dataObjects.filter((e) => i.has(e.type));
 }
 //#endregion
 //#region src/lnode/services/get-implementation-info.ts
-async function lx(e, t) {
+async function vx(e, t) {
 	let { lnode: n, ied: r, ln: i } = await e.query.lnode.findLnodeImplementation(t);
 	if (!r || !i) return {
-		implementationStatus: Ub.NONE,
+		implementationStatus: Kb.NONE,
 		ldPath: "",
 		lnLabel: ""
 	};
 	let a = await e.query.getAttribute(r, { name: "manufacturer" }), { iedName: o, ldInst: s } = await e.query.getAttributes(n), { lnClass: c, inst: l } = await e.query.getAttributes(i), u = await e.query.getAttribute(i, { name: "prefix" }) ?? "";
 	return {
-		implementationStatus: ux(a),
+		implementationStatus: yx(a),
 		ldPath: `${o}/${s}`,
 		lnLabel: `${u}${c}${l ?? ""}`
 	};
 }
-function ux(e) {
-	return e === "S_IED" ? Ub.S_IED : e ? Ub.REAL_IED : Ub.NONE;
+function yx(e) {
+	return e === "S_IED" ? Kb.S_IED : e ? Kb.REAL_IED : Kb.NONE;
 }
 //#endregion
 //#region src/lnode/lnode.service.ts
-var dx = {
-	getImplementationInfo: lx,
-	findAllLnodes: ox,
-	findAllEnrichedLnodes: sx,
-	findAllLnodeTypes: Qb,
-	enrichWithDataObjectSpecifications: ax,
-	findControllableDosForLnType: cx,
+var bx = {
+	getImplementationInfo: vx,
+	findAllLnodes: hx,
+	findAllEnrichedLnodes: gx,
+	findAllLnodeTypes: sx,
+	enrichWithDataObjectSpecifications: mx,
+	findControllableDosForLnType: _x,
 	async findLnRecordForLnode(e, t) {
 		let n = await e.query.getRecord({
 			tagName: "LNode",
@@ -62285,31 +62493,31 @@ var dx = {
 	async ensureDas(e, t) {
 		return await e.transaction((e) => e.lnode.ensureDas(t));
 	}
-}, fx = Gu("dataflow/lnode", () => {
+}, xx = Gu("dataflow/lnode", () => {
 	let e = /* @__PURE__ */ R([]), t = /* @__PURE__ */ R([]);
 	function n(e) {
-		return dx.getImplementationInfo($.value, e);
+		return bx.getImplementationInfo($.value, e);
 	}
 	async function r() {
-		e.value = await dx.findAllEnrichedLnodes($.value), t.value = await dx.findAllLnodeTypes($.value);
+		e.value = await bx.findAllEnrichedLnodes($.value), t.value = await bx.findAllLnodeTypes($.value);
 	}
 	async function i(t) {
-		let n = (await dx.findAllEnrichedLnodes($.value)).find((e) => e.id === t);
+		let n = (await bx.findAllEnrichedLnodes($.value)).find((e) => e.id === t);
 		if (!n) return;
 		let r = e.value.findIndex((e) => e.id === t);
 		r !== -1 && (e.value[r] = n);
 	}
 	function a(e) {
-		return dx.findControllableDosForLnType($.value, e);
+		return bx.findControllableDosForLnType($.value, e);
 	}
 	function o(e) {
-		return dx.findProcessResourcesForLnode($.value, e);
+		return bx.findProcessResourcesForLnode($.value, e);
 	}
 	function s(e) {
-		return dx.findLnRecordForLnode($.value, e);
+		return bx.findLnRecordForLnode($.value, e);
 	}
 	function c(e, t, n) {
-		return dx.generatePathForLnode($.value, e, t, n);
+		return bx.generatePathForLnode($.value, e, t, n);
 	}
 	return {
 		lnodes: e,
@@ -62322,24 +62530,24 @@ var dx = {
 		findLnRecordForLnode: s,
 		generatePathForLnode: c
 	};
-}), px = {
+}), Sx = {
 	key: 0,
 	class: "bg-(--color-primary) text-white z-1 relative p-1 rounded-sm text-sm mb-4 inline-block"
-}, mx = { class: "[&_dt,dd]:inline [&_dt]:mr-1" }, hx = { class: "mt-4" }, gx = { key: 0 }, _x = { class: "mt-4" }, vx = /* @__PURE__ */ ei({
+}, Cx = { class: "[&_dt,dd]:inline [&_dt]:mr-1" }, wx = { class: "mt-4" }, Tx = { key: 0 }, Ex = { class: "mt-4" }, Dx = /* @__PURE__ */ ei({
 	__name: "controlled-dataflow.sidebar-details",
 	props: { controlledConnection: {} },
 	setup(e) {
-		let t = e, { lnodes: n } = Ku(fx()), r = J(() => n.value.find((e) => e.id === t.controlledConnection.controlledLnodeId)?.dataObjectSpecifications?.find((e) => e.namePath === t.controlledConnection.controlledDataObject));
+		let t = e, { lnodes: n } = Ku(xx()), r = J(() => n.value.find((e) => e.id === t.controlledConnection.controlledLnodeId)?.dataObjectSpecifications?.find((e) => e.namePath === t.controlledConnection.controlledDataObject));
 		return (t, n) => (U(), W(H, null, [
 			n[7] ||= G("h2", { class: "text-lg font-bold mb-2" }, "Specified Controlled Dataflow", -1),
-			e.controlledConnection.dataflowType ? (U(), W("span", px, A(e.controlledConnection.dataflowType), 1)) : q("", !0),
-			G("dl", mx, [
+			e.controlledConnection.dataflowType ? (U(), W("span", Sx, A(e.controlledConnection.dataflowType), 1)) : q("", !0),
+			G("dl", Cx, [
 				G("div", null, [n[0] ||= G("dt", null, "Output:", -1), G("dd", null, A(e.controlledConnection.outputName), 1)]),
 				G("div", null, [n[1] ||= G("dt", null, "Output Instance:", -1), G("dd", null, A(e.controlledConnection.outputInstance || "-"), 1)]),
-				G("div", hx, [n[2] ||= G("dt", null, "Controlled DO:", -1), G("dd", null, A(e.controlledConnection.controlledDataObject || "-"), 1)]),
-				r.value?.desc ? (U(), W("div", gx, [n[3] ||= G("dt", null, "Controlled DO Desc:", -1), G("dd", null, A(r.value.desc), 1)])) : q("", !0),
+				G("div", wx, [n[2] ||= G("dt", null, "Controlled DO:", -1), G("dd", null, A(e.controlledConnection.controlledDataObject || "-"), 1)]),
+				r.value?.desc ? (U(), W("div", Tx, [n[3] ||= G("dt", null, "Controlled DO Desc:", -1), G("dd", null, A(r.value.desc), 1)])) : q("", !0),
 				G("div", null, [n[4] ||= G("dt", null, "Preferred LN:", -1), G("dd", null, A(e.controlledConnection.preferredLnode || "-"), 1)]),
-				G("div", _x, [n[5] ||= G("dt", null, "Preferred DO:", -1), G("dd", null, A(e.controlledConnection.preferredDataObject || "-"), 1)]),
+				G("div", Ex, [n[5] ||= G("dt", null, "Preferred DO:", -1), G("dd", null, A(e.controlledConnection.preferredDataObject || "-"), 1)]),
 				G("div", null, [n[6] ||= G("dt", null, "Process Resource:", -1), G("dd", null, A(e.controlledConnection.processResource || "-"), 1)])
 			])
 		], 64));
@@ -62347,7 +62555,7 @@ var dx = {
 });
 //#endregion
 //#region src/connections/services/create-connection.ts
-async function yx(e, t, n, r, i, a) {
+async function Ox(e, t, n, r, i, a) {
 	let o = {
 		dataflowType: t.type,
 		sourceLnode: n,
@@ -62364,7 +62572,7 @@ async function yx(e, t, n, r, i, a) {
 }
 //#endregion
 //#region src/connections/services/create-controlled-connection.ts
-async function bx(e, t, n, r, i, a) {
+async function kx(e, t, n, r, i, a) {
 	let o = {
 		controllingLnode: n,
 		controlledLnode: r,
@@ -62377,17 +62585,17 @@ async function bx(e, t, n, r, i, a) {
 }
 //#endregion
 //#region src/connections/services/delete-connection.ts
-async function xx(e, t) {
+async function Ax(e, t) {
 	X(!t.isImplemented, "Cannot delete an implemented connection"), await e.transaction((e) => e.connection.deleteSourceRef(t.id));
 }
 //#endregion
 //#region src/implementation/services/create-implemented-dataflow-manually.ts
-async function Sx(e, t) {
+async function jx(e, t) {
 	return e.transaction((e) => e.implementation.createImplementedDataflow(t));
 }
 //#endregion
 //#region src/implementation/services/find-control-block-options-for-ln.ts
-async function Cx(e, t, n, r, i) {
+async function Mx(e, t, n, r, i) {
 	let { iedName: a, ldInst: o, lnClass: s, lnInst: c, prefix: l } = await e.query.getAttributes({
 		id: t,
 		tagName: "LNode"
@@ -62430,8 +62638,8 @@ async function Cx(e, t, n, r, i) {
 }
 //#endregion
 //#region src/implementation/services/find-control-block-options-for-implementation.ts
-async function wx(e, t, n, r, i) {
-	let a = await Cx(e, t, n, r, i), { ldInst: o } = await e.query.getAttributes({
+async function Nx(e, t, n, r, i) {
+	let a = await Mx(e, t, n, r, i), { ldInst: o } = await e.query.getAttributes({
 		tagName: "LNode",
 		id: t
 	});
@@ -62442,7 +62650,7 @@ async function wx(e, t, n, r, i) {
 }
 //#endregion
 //#region src/implementation/implementation.mappers.ts
-function Tx(e) {
+function Px(e) {
 	return {
 		id: e.id,
 		uuid: Z(e, "uuid") || "",
@@ -62467,7 +62675,7 @@ function Tx(e) {
 		iedName: Z(e, "iedName") || ""
 	};
 }
-function Ex(e) {
+function Fx(e) {
 	return {
 		id: e.id,
 		name: Z(e, "name") ?? "",
@@ -62475,13 +62683,13 @@ function Ex(e) {
 		datSet: Z(e, "datSet") ?? ""
 	};
 }
-function Dx(e) {
+function Ix(e) {
 	return {
 		id: e.id,
 		name: Z(e, "name") ?? ""
 	};
 }
-function Ox(e) {
+function Lx(e) {
 	return {
 		id: e.id,
 		doName: Z(e, "doName") ?? "",
@@ -62495,16 +62703,16 @@ function Ox(e) {
 }
 //#endregion
 //#region src/implementation/services/find-ext-ref-by-uuid.ts
-async function kx(e, t) {
+async function Rx(e, t) {
 	let [n] = await e.query.findByAttributes({
 		tagName: "ExtRef",
 		attributes: { uuid: t }
 	});
-	return X(n, `ExtRef record not found for uuid: ${t}`), Tx(n);
+	return X(n, `ExtRef record not found for uuid: ${t}`), Px(n);
 }
 //#endregion
 //#region src/implementation/services/find-ext-ref-options-for-ln.ts
-async function Ax(e, t, n) {
+async function zx(e, t, n) {
 	let r = await e.query.implementation.findUnresolvedExtRefsWithinLn(t), i = [];
 	for (let t of r) {
 		let { intAddr: r, pLN: a, pDO: o, pDA: s, pServT: c } = await e.query.getAttributes(t);
@@ -62521,7 +62729,7 @@ async function Ax(e, t, n) {
 }
 //#endregion
 //#region src/implementation/services/find-all-lns-within-ied.ts
-async function jx(e, t) {
+async function Bx(e, t) {
 	let n = await e.query.implementation.findLnsWithinIed(t), r = [];
 	for (let t of n) r.push({
 		id: t.id,
@@ -62531,8 +62739,8 @@ async function jx(e, t) {
 }
 //#endregion
 //#region src/implementation/services/find-ln-for-lnode.ts
-async function Mx(e, t) {
-	let n = await dx.findLnRecordForLnode(e, t);
+async function Vx(e, t) {
+	let n = await bx.findLnRecordForLnode(e, t);
 	if (n) return {
 		id: n.id,
 		path: await e.query.implementation.buildLnPath(n.id),
@@ -62542,30 +62750,30 @@ async function Mx(e, t) {
 }
 //#endregion
 //#region src/implementation/services/find-ext-ref-options-for-subscriber-ied.ts
-async function Nx(e, t, n) {
+async function Hx(e, t, n) {
 	let { iedName: r } = await e.query.getAttributes({
 		tagName: "LNode",
 		id: t
 	});
 	X(r, "iedName of subscriber LNode not found");
-	let i = await jx(e, r);
+	let i = await Bx(e, r);
 	i.sort((e, t) => e.path.localeCompare(t.path));
 	let a = {};
 	for (let t of i) {
-		let r = await Ax(e, t.id, n);
-		r.length !== 0 && (a[Px(t.path)] = r);
+		let r = await zx(e, t.id, n);
+		r.length !== 0 && (a[Ux(t.path)] = r);
 	}
-	let o = await Mx(e, t);
+	let o = await Vx(e, t);
 	X(o, "Subscriber LN record not found");
-	let s = Px(o.path);
+	let s = Ux(o.path);
 	return Object.fromEntries(Object.entries(a).sort(([e], [t]) => e === s ? -1 : +(t === s)));
 }
-function Px(e) {
+function Ux(e) {
 	return e.split("/").slice(1).join("/");
 }
 //#endregion
 //#region src/implementation/services/control-block-details.ts
-function Fx(e) {
+function Wx(e) {
 	let t = (t) => e.find((e) => {
 		let n = Z(e, "type");
 		return n === t || n === `tP_${t}`;
@@ -62577,13 +62785,13 @@ function Fx(e) {
 		vlanPriority: t("VLAN-PRIORITY")
 	};
 }
-async function Ix(e, t) {
+async function Gx(e, t) {
 	return (await e.query.getChildren(t, "IEDName")).map((e) => ({
 		iedName: e.value ?? "",
 		apRef: Z(e, "apRef") ?? ""
 	}));
 }
-async function Lx(e, t) {
+async function Kx(e, t) {
 	let { ClientLN: n } = await e.query.findDescendants(t, { collect: "ClientLN" });
 	return n.map((e) => ({
 		apRef: Z(e, "apRef") ?? "",
@@ -62596,7 +62804,7 @@ async function Lx(e, t) {
 }
 //#endregion
 //#region src/implementation/services/find-gse-control-block-details.ts
-async function Rx(e, t) {
+async function qx(e, t) {
 	let n = await e.query.getRecord({
 		tagName: "GSEControl",
 		id: t
@@ -62620,13 +62828,13 @@ async function Rx(e, t) {
 	let { P: o } = await e.query.findDescendants(a, { collect: "P" });
 	return {
 		appId: Z(n, "appID") ?? "",
-		communicationDetails: Fx(o),
-		subscribers: await Ix(e, n)
+		communicationDetails: Wx(o),
+		subscribers: await Gx(e, n)
 	};
 }
 //#endregion
 //#region src/implementation/services/find-report-control-block-details.ts
-async function zx(e, t) {
+async function Jx(e, t) {
 	let n = await e.query.getRecord({
 		tagName: "ReportControl",
 		id: t
@@ -62655,12 +62863,12 @@ async function zx(e, t) {
 			seqNum: Z(i, "seqNum") ?? "",
 			timeStamp: Z(i, "timeStamp") ?? ""
 		},
-		subscribers: await Lx(e, n)
+		subscribers: await Kx(e, n)
 	};
 }
 //#endregion
 //#region src/implementation/services/find-smv-control-block-details.ts
-async function Bx(e, t) {
+async function Yx(e, t) {
 	let n = await e.query.getRecord({
 		tagName: "SampledValueControl",
 		id: t
@@ -62690,7 +62898,7 @@ async function Bx(e, t) {
 		nofAsdu: Z(n, "nofASDU") ?? "",
 		smpMod: Z(n, "smpMod") ?? "",
 		smpRate: Z(n, "smpRate") ?? "",
-		communicationDetails: Fx(s),
+		communicationDetails: Wx(s),
 		smvOpts: {
 			refreshTime: Z(a, "refreshTime") ?? "",
 			sampleSynchronized: Z(a, "sampleSynchronized") ?? "",
@@ -62699,12 +62907,12 @@ async function Bx(e, t) {
 			security: Z(a, "security") ?? "",
 			synchSourceId: Z(a, "synchSourceId") ?? ""
 		},
-		subscribers: await Ix(e, n)
+		subscribers: await Gx(e, n)
 	};
 }
 //#endregion
 //#region src/implementation/services/find-supervision-details.ts
-async function Vx(e, t) {
+async function Xx(e, t) {
 	let n = await e.query.getRecord({
 		tagName: "ExtRef",
 		id: t
@@ -62726,16 +62934,16 @@ async function Vx(e, t) {
 }
 //#endregion
 //#region src/implementation/services/find-target-ln-options-for-lnode.ts
-async function Hx(e, t) {
+async function Zx(e, t) {
 	let { iedName: n } = await e.query.getAttributes({
 		tagName: "LNode",
 		id: t
 	});
-	return X(n, "iedName of subscriber LNode not found"), (await jx(e, n)).sort((e, t) => e.path.localeCompare(t.path));
+	return X(n, "iedName of subscriber LNode not found"), (await Bx(e, n)).sort((e, t) => e.path.localeCompare(t.path));
 }
 //#endregion
 //#region src/implementation/services/implement-dataflow.ts
-async function Ux(e, t, n, r, i, a) {
+async function Qx(e, t, n, r, i, a) {
 	X(t.sourceLnodeId && t.subscriberLnodeId, "Connection must have both source and subscriber LNode IDs to implement"), X(t.dataflowType, "Connection must have a dataflow type to implement");
 	let o = {
 		dataflowType: t.dataflowType,
@@ -62754,20 +62962,20 @@ async function Ux(e, t, n, r, i, a) {
 }
 //#endregion
 //#region src/implementation/implementation.service.ts
-var Wx = {
-	implementDataflow: Ux,
-	createImplementedDataflowManually: Sx,
-	findGseControlBlockDetails: Rx,
-	findSmvControlBlockDetails: Bx,
-	findReportControlBlockDetails: zx,
-	findSupervisionDetails: Vx,
-	findControlBlockOptionsForImplementation: wx,
-	findControlBlockOptionsForLn: Cx,
-	findExtRefByUuid: kx,
-	findExtRefOptionsForLn: Ax,
-	findExtRefOptionsForSubscriberIed: Nx,
-	findLnForLnode: Mx,
-	findTargetLnOptionsForLnode: Hx,
+var $x = {
+	implementDataflow: Qx,
+	createImplementedDataflowManually: jx,
+	findGseControlBlockDetails: qx,
+	findSmvControlBlockDetails: Yx,
+	findReportControlBlockDetails: Jx,
+	findSupervisionDetails: Xx,
+	findControlBlockOptionsForImplementation: Nx,
+	findControlBlockOptionsForLn: Mx,
+	findExtRefByUuid: Rx,
+	findExtRefOptionsForLn: zx,
+	findExtRefOptionsForSubscriberIed: Hx,
+	findLnForLnode: Vx,
+	findTargetLnOptionsForLnode: Zx,
 	unimplementDataflow: (e, t, n) => e.transaction((e) => e.implementation.unimplementDataflow({
 		extRefId: n.id,
 		sourceRefId: t.id
@@ -62783,30 +62991,30 @@ var Wx = {
 			srcLdInst: n,
 			controlBlockName: r
 		});
-		return X(i, "Control Block record not found"), Ex(i);
+		return X(i, "Control Block record not found"), Fx(i);
 	},
 	async findDataSetOfControlBlock(e, t, n) {
 		let r = await e.query.implementation.findLinkedDataSet({
 			id: t,
 			tagName: cb(n)
 		});
-		return X(r, "Data Set record not found"), Dx(r);
+		return X(r, "Data Set record not found"), Ix(r);
 	},
 	async findFcdasForDataSet(e, t) {
 		return (await e.query.getChildren({
 			tagName: "DataSet",
 			id: t
-		}, "FCDA")).map(Ox);
+		}, "FCDA")).map(Lx);
 	}
 };
 //#endregion
 //#region src/connections/services/delete-implementation-only-connection.ts
-async function Gx(e, t) {
-	X(t.isImplementationOnly, `Connection ${t.id} is not a manually created implemented (implementation-only) connection`), await Wx.removeImplementedExtRef(e, t.id);
+async function eS(e, t) {
+	X(t.isImplementationOnly, `Connection ${t.id} is not a manually created implemented (implementation-only) connection`), await $x.removeImplementedExtRef(e, t.id);
 }
 //#endregion
 //#region src/connections/services/find-matching-ext-ref.ts
-async function Kx(e, t) {
+async function tS(e, t) {
 	let n = e.query, r = await n.getRecord({
 		tagName: "SourceRef",
 		id: t.id
@@ -62818,9 +63026,9 @@ async function Kx(e, t) {
 			tagName: "ExtRef",
 			attributes: { uuid: i }
 		});
-		return X(e, `ExtRef with uuid ${i} not found`), Tx(e);
+		return X(e, `ExtRef with uuid ${i} not found`), Px(e);
 	}
-	if (!qx(t)) return null;
+	if (!nS(t)) return null;
 	X(t.dataflowType, "Dataflow type not set for dataflow connection to implement");
 	let a = await n.connection.findMatchingExtRefByPreferredValues({
 		subscriberLnodeId: t.subscriberLnodeId,
@@ -62829,28 +63037,28 @@ async function Kx(e, t) {
 		preferredDataAttribute: t.preferredDataAttribute,
 		serviceType: t.dataflowType
 	});
-	return a ? Tx(a) : null;
+	return a ? Px(a) : null;
 }
-function qx(e) {
+function nS(e) {
 	return e.preferredLnode.trim() !== "" && e.preferredDataObject.trim() !== "" && e.preferredDataAttribute.trim() !== "";
 }
 //#endregion
 //#region src/connections/services/delete-implemented-connection.ts
-async function Jx(e, t) {
-	let n = await Kx(e, t);
-	X(n, `No matching ExtRef found for connection ${t.id}`), await Wx.unimplementDataflow(e, t, n), await xx(e, {
+async function rS(e, t) {
+	let n = await tS(e, t);
+	X(n, `No matching ExtRef found for connection ${t.id}`), await $x.unimplementDataflow(e, t, n), await Ax(e, {
 		...t,
 		isImplemented: !1
 	});
 }
 //#endregion
 //#region src/connections/services/delete-connection-group.ts
-async function Yx(e, t) {
-	for (let n of t) n.isImplementationOnly ? await Gx(e, n) : n.isImplemented ? await Jx(e, n) : await xx(e, n);
+async function iS(e, t) {
+	for (let n of t) n.isImplementationOnly ? await eS(e, n) : n.isImplemented ? await rS(e, n) : await Ax(e, n);
 }
 //#endregion
 //#region src/connections/services/find-all-controlled-connections.ts
-async function Xx(e) {
+async function aS(e) {
 	let t = e.query, n = await t.getRecordsByTagName("ControlRef");
 	if (!n.length) return [];
 	let r = [];
@@ -62878,7 +63086,7 @@ async function Xx(e) {
 }
 //#endregion
 //#region src/connections/services/map-record-to-connection.ts
-function Zx(e, t, n, r, i, a, o = !1) {
+function oS(e, t, n, r, i, a, o = !1) {
 	let s = xg(e, "service");
 	return {
 		id: e.id,
@@ -62900,7 +63108,7 @@ function Zx(e, t, n, r, i, a, o = !1) {
 		extRefUuid: a ?? ""
 	};
 }
-function Qx(e, t, n, r) {
+function sS(e, t, n, r) {
 	return {
 		id: e.id,
 		sourceLnodeId: t,
@@ -62923,7 +63131,7 @@ function Qx(e, t, n, r) {
 }
 //#endregion
 //#region src/connections/services/find-manual-implemented-connections.ts
-async function $x(e) {
+async function cS(e) {
 	let t = e.query, n = (await t.getRecordsByTagName("ExtRef")).filter((e) => Z(e, "srcCBName"));
 	if (!n.length) return [];
 	let r = await t.getRecordsByTagName("SourceRef"), i = new Set(r.map((e) => Z(e, "extRefUuid")).filter((e) => !!e)), a = await t.getRecordsByTagName("LNode"), o = [];
@@ -62939,13 +63147,13 @@ async function $x(e) {
 		}), f = await t.connection.findSubscriberMappingForExtRef(e), p = f ? await t.connection.findLnodeMatchingMapping(a, f) : void 0;
 		if (!d || !p) continue;
 		let m = !!await t.implementation.findSupervisionForExtRef(e);
-		o.push(Qx(e, d.id, p.id, m));
+		o.push(sS(e, d.id, p.id, m));
 	}
 	return o;
 }
 //#endregion
 //#region src/connections/services/find-all-existing-connections.ts
-async function eS(e) {
+async function lS(e) {
 	let t = e.query, n = await t.getRecordsByTagName("SourceRef"), r = [];
 	for (let e of n) {
 		let n = await t.getAttribute(e, { name: "sourceLNodeUuid" });
@@ -62963,14 +63171,14 @@ async function eS(e) {
 			});
 			X(e, `ExtRef record not found for uuid: ${d}`), l = !!await t.getAttribute(e, { name: "srcCBName" }), l && (u = !!await t.implementation.findSupervisionForExtRef(e));
 		}
-		r.push(Zx(e, i.id, a.id, l, c, d, u));
+		r.push(oS(e, i.id, a.id, l, c, d, u));
 	}
-	let i = await $x(e);
+	let i = await cS(e);
 	return [...r, ...i];
 }
 //#endregion
 //#region src/connections/services/find-existing-inputs.ts
-async function tS(e, t) {
+async function uS(e, t) {
 	let n = await e.query.getRecord({
 		tagName: "LNode",
 		id: t.id
@@ -62983,7 +63191,7 @@ async function tS(e, t) {
 }
 //#endregion
 //#region src/connections/services/find-existing-outputs.ts
-async function nS(e, t) {
+async function dS(e, t) {
 	let n = await e.query.getRecord({
 		tagName: "LNode",
 		id: t.id
@@ -62996,75 +63204,75 @@ async function nS(e, t) {
 }
 //#endregion
 //#region src/connections/services/find-ext-ref-for-connection.ts
-async function rS(e, t) {
-	if (!t.isImplementationOnly) return await Kx(e, t);
+async function fS(e, t) {
+	if (!t.isImplementationOnly) return await tS(e, t);
 	let n = await e.query.getRecord({
 		tagName: "ExtRef",
 		id: t.id
 	});
-	return X(n, "ExtRef record not found"), Tx(n);
+	return X(n, "ExtRef record not found"), Px(n);
 }
 //#endregion
 //#region src/connections/connection.service.ts
-var iS = {
-	findAllExistingConnections: eS,
-	findAllControlledConnections: Xx,
-	findExistingInputs: tS,
-	findExistingOutputs: nS,
-	findMatchingExtRef: Kx,
-	findExtRefForConnection: rS,
-	createConnection: yx,
-	createControlledConnection: bx,
-	deleteImplementationOnlyConnection: Gx,
-	deleteImplementedConnection: Jx,
-	deleteConnection: xx,
-	deleteConnectionGroup: Yx,
+var pS = {
+	findAllExistingConnections: lS,
+	findAllControlledConnections: aS,
+	findExistingInputs: uS,
+	findExistingOutputs: dS,
+	findMatchingExtRef: tS,
+	findExtRefForConnection: fS,
+	createConnection: Ox,
+	createControlledConnection: kx,
+	deleteImplementationOnlyConnection: eS,
+	deleteImplementedConnection: rS,
+	deleteConnection: Ax,
+	deleteConnectionGroup: iS,
 	deleteControlledConnection: (e, t) => e.transaction((e) => e.connection.deleteControlRef(t.id)),
 	calculateNextInputInstance: (e, t, n, r) => e.query.connection.calculateNextInputInstance(r.id, t, n),
 	calculateNextOutputInstance: (e, t, n) => e.query.connection.calculateNextOutputInstance(n.id, t)
-}, aS = Gu("dataflow/connection", () => {
+}, mS = Gu("dataflow/connection", () => {
 	let e = /* @__PURE__ */ R([]), t = /* @__PURE__ */ R([]);
 	async function n() {
-		e.value = await iS.findAllExistingConnections($.value), t.value = await iS.findAllControlledConnections($.value);
+		e.value = await pS.findAllExistingConnections($.value), t.value = await pS.findAllControlledConnections($.value);
 	}
 	function r(e) {
-		return iS.findExistingInputs($.value, e);
+		return pS.findExistingInputs($.value, e);
 	}
 	function i(e) {
-		return iS.findExistingOutputs($.value, e);
+		return pS.findExistingOutputs($.value, e);
 	}
 	function a(e, t, n) {
-		return iS.calculateNextInputInstance($.value, e, t, n);
+		return pS.calculateNextInputInstance($.value, e, t, n);
 	}
 	function o(e, t) {
-		return iS.calculateNextOutputInstance($.value, e, t);
+		return pS.calculateNextOutputInstance($.value, e, t);
 	}
 	function s(e) {
-		return iS.findMatchingExtRef($.value, e);
+		return pS.findMatchingExtRef($.value, e);
 	}
 	function c(e) {
-		return iS.findExtRefForConnection($.value, e);
+		return pS.findExtRefForConnection($.value, e);
 	}
 	function l(e, t, n, r, i) {
-		return iS.createConnection($.value, e, t, n, r, i);
+		return pS.createConnection($.value, e, t, n, r, i);
 	}
 	function u(e, t, n, r, i) {
-		return iS.createControlledConnection($.value, e, t, n, r, i);
+		return pS.createControlledConnection($.value, e, t, n, r, i);
 	}
 	function d(e) {
-		return iS.deleteConnection($.value, e);
+		return pS.deleteConnection($.value, e);
 	}
 	function f(e) {
-		return iS.deleteControlledConnection($.value, e);
+		return pS.deleteControlledConnection($.value, e);
 	}
 	function p(e) {
-		return iS.deleteConnectionGroup($.value, e);
+		return pS.deleteConnectionGroup($.value, e);
 	}
 	function m(e) {
-		return iS.deleteImplementedConnection($.value, e);
+		return pS.deleteImplementedConnection($.value, e);
 	}
 	function h(e) {
-		return iS.deleteImplementationOnlyConnection($.value, e);
+		return pS.deleteImplementationOnlyConnection($.value, e);
 	}
 	return {
 		connections: e,
@@ -63087,13 +63295,13 @@ var iS = {
 });
 //#endregion
 //#region src/lnode/get-lnode-label.ts
-function oS(e) {
+function hS(e) {
 	return `${e.prefix}${e.lnClass}${e.lnInst}`;
 }
 //#endregion
 //#region src/placeholders/services/find-placeholders-for-dataflow-controller.ts
-async function sS(e) {
-	let t = await dx.findAllEnrichedLnodes(e);
+async function gS(e) {
+	let t = await bx.findAllEnrichedLnodes(e);
 	if (!t.length) return [];
 	let n = await e.query.getRecordsByTagName("ControlRef"), r = [];
 	for (let i of t) for (let t of i.dataObjectSpecifications ?? []) {
@@ -63102,14 +63310,17 @@ async function sS(e) {
 			id: t.id
 		}, "ControllingLNode");
 		for (let o of a) {
-			let { outputName: a, pLN: s, resourceName: c } = await e.query.getAttributes(o);
+			let { outputName: a, pLN: s, resourceName: c, resourceUuid: l } = await e.query.getAttributes(o);
 			X(a, `Attribute outputName not found on record ${o.id}`), r.push({
 				id: o.id,
 				controlledLnodeId: i.id,
 				dataObject: t.namePath,
 				outputName: a,
 				preferredLnode: s ?? "",
-				processResource: c ?? "",
+				processResource: l ? {
+					id: await Lb(e.query, l),
+					name: c ?? ""
+				} : void 0,
 				isResolved: await e.query.placeholder.isControllingLnodeResolved(n, {
 					controlledLnodeUuid: i.uuid,
 					outputName: a,
@@ -63123,27 +63334,30 @@ async function sS(e) {
 }
 //#endregion
 //#region src/placeholders/services/find-placeholders-for-controlled-dataflow.ts
-async function cS(e) {
+async function _S(e) {
 	let t = e.query, n = await t.getRecordsByTagName("ControlRef"), r = [];
 	for (let e of n) await t.getAttribute(e, { name: "controlledLNodeUuid" }) || r.push(e);
 	if (!r.length) return [];
 	let i = [];
 	for (let e of r) {
-		let { outputInst: r, output: a, pLN: o, pDO: s, resourceName: c } = await t.getAttributes(e), l = (await t.findAncestors(e, {
+		let { outputInst: r, output: a, pLN: o, pDO: s, resourceName: c, resourceUuid: l } = await t.getAttributes(e), u = (await t.findAncestors(e, {
 			stopAtTagName: "LNode",
 			order: "top-down"
 		}))[0];
-		X(l, "ControlRef has no LNode ancestor"), i.push({
+		X(u, "ControlRef has no LNode ancestor"), i.push({
 			id: e.id,
-			controllingLnodeId: l.id,
+			controllingLnodeId: u.id,
 			outputInstance: r ?? "",
 			outputName: a ?? "",
 			preferredLnode: o ?? "",
 			preferredDataObject: s ?? "",
-			processResource: c ?? "",
+			processResource: l ? {
+				id: await Lb(t, l),
+				name: c ?? ""
+			} : void 0,
 			isResolved: await t.placeholder.isControlRefPlaceholderResolved(n, {
 				placeholderId: e.id,
-				controllingLnodeRecord: l,
+				controllingLnodeRecord: u,
 				outputName: a,
 				preferredLnode: o,
 				preferredDataObject: s
@@ -63154,7 +63368,7 @@ async function cS(e) {
 }
 //#endregion
 //#region src/placeholders/services/find-placeholders-for-dataflow-source.ts
-async function lS(e) {
+async function vS(e) {
 	let t = await e.query.getRecordsByTagName("SourceRef"), n = [], r = [];
 	for (let i of t) {
 		let { sourceLNodeUuid: t } = await e.query.getAttributes(i);
@@ -63162,12 +63376,12 @@ async function lS(e) {
 	}
 	let i = [];
 	for (let n of r) {
-		let { service: r, pLN: a, pDO: o, pDA: s, input: c, inputInst: l, resourceName: u } = await e.query.getAttributes(n), d = (await e.query.findAncestors(n, {
+		let { service: r, pLN: a, pDO: o, pDA: s, input: c, inputInst: l, resourceName: u, resourceUuid: d } = await e.query.getAttributes(n), f = (await e.query.findAncestors(n, {
 			stopAtTagName: "LNode",
 			order: "top-down"
 		}))[0];
-		X(d, "SourceRef has no LNode ancestor");
-		let f = {
+		X(f, "SourceRef has no LNode ancestor");
+		let p = {
 			id: n.id,
 			dataflowType: Sg(r),
 			preferredLnode: a ?? "",
@@ -63175,51 +63389,59 @@ async function lS(e) {
 			preferredDataAttribute: s ?? "",
 			input: c,
 			inputInst: l ?? "",
-			processResource: u ?? "",
-			lnodeId: d.id,
+			processResource: d ? {
+				id: await Lb(e.query, d),
+				name: u ?? ""
+			} : void 0,
+			lnodeId: f.id,
 			isResolved: await e.query.placeholder.isSourceRefPlaceholderResolved(t, {
 				placeholderId: n.id,
-				subscriberLnodeRecord: d,
+				subscriberLnodeRecord: f,
 				inputName: c,
 				preferredLnode: a,
+				preferredDataObject: o,
+				preferredDataAttribute: s,
 				dataflowType: Sg(r)
 			})
 		};
-		i.push(f);
+		i.push(p);
 	}
 	return i;
 }
 //#endregion
 //#region src/placeholders/services/find-placeholders-for-dataflow-subscriber.ts
-async function uS(e) {
+async function yS(e) {
 	let t = e.query, n = await t.getRecordsByTagName("SubscriberLNode");
 	if (!n.length) return [];
 	let r = await t.getRecordsByTagName("SourceRef"), i = [];
-	for (let e of n) {
-		let n = await t.findAncestors(e, { stopAtTagName: "LNode" }), a = n.find((e) => e.tagName === "DOS"), o = n.find((e) => e.tagName === "DAS"), s = n.find((e) => e.tagName === "LNode");
-		X(a, "DOS record not found in ancestors"), X(o, "DAS record not found in ancestors"), X(s, "Source LNode record not found in ancestors");
-		let c = await t.getAttribute(s, { name: "lnType" }), [l] = await t.findByAttributes({
+	for (let a of n) {
+		let n = await t.findAncestors(a, { stopAtTagName: "LNode" }), o = n.find((e) => e.tagName === "DOS"), s = n.find((e) => e.tagName === "DAS"), c = n.find((e) => e.tagName === "LNode");
+		X(o, "DOS record not found in ancestors"), X(s, "DAS record not found in ancestors"), X(c, "Source LNode record not found in ancestors");
+		let l = await t.getAttribute(c, { name: "lnType" }), [u] = await t.findByAttributes({
 			tagName: "LNodeType",
-			attributes: { id: c }
-		}), { dosNamePath: u, dasNamePath: d } = await t.lnode.getDosAndDasNamePath(a, o, l);
-		X(u, "DOS name path not found"), X(d, "DAS name path not found");
-		let { inputName: f, pLN: p, service: m, resourceName: h } = await t.getAttributes(e);
+			attributes: { id: l }
+		}), { dosNamePath: d, dasNamePath: f } = await t.lnode.getDosAndDasNamePath(o, s, u);
+		X(d, "DOS name path not found"), X(f, "DAS name path not found");
+		let { inputName: p, pLN: m, service: h, resourceName: g, resourceUuid: _ } = await t.getAttributes(a);
 		i.push({
-			lnodeId: s.id,
-			id: e.id,
-			dataObject: u ?? "",
-			dataAttribute: d ?? "",
-			dataflowType: Sg(m),
-			preferredLnode: p,
-			input: f,
-			processResource: h,
+			lnodeId: c.id,
+			id: a.id,
+			dataObject: d ?? "",
+			dataAttribute: f ?? "",
+			dataflowType: Sg(h),
+			preferredLnode: m,
+			input: p,
+			processResource: _ ? {
+				id: await Lb(e.query, _),
+				name: g ?? ""
+			} : void 0,
 			isResolved: await t.placeholder.isSubscriberLnodeResolved(r, {
-				sourceLnodeRecord: s,
-				inputName: f,
-				preferredLnode: p,
-				dataflowType: m,
-				dataObject: u,
-				dataAttribute: d
+				sourceLnodeRecord: c,
+				inputName: p,
+				preferredLnode: m,
+				dataflowType: h,
+				dataObject: d,
+				dataAttribute: f
 			})
 		});
 	}
@@ -63227,11 +63449,11 @@ async function uS(e) {
 }
 //#endregion
 //#region src/placeholders/placeholder.service.ts
-var dS = {
-	findPlaceholdersForDataflowSubscriber: uS,
-	findPlaceholdersForDataflowSource: lS,
-	findPlaceholdersForControlledDataflow: cS,
-	findPlaceholdersForDataflowController: sS,
+var bS = {
+	findPlaceholdersForDataflowSubscriber: yS,
+	findPlaceholdersForDataflowSource: vS,
+	findPlaceholdersForControlledDataflow: _S,
+	findPlaceholdersForDataflowController: gS,
 	async createPlaceholderForDataflowSubscriber(e, t, n, r, i) {
 		return (await e.transaction((e) => e.placeholder.createSubscriberLnode({
 			sourceLnodeId: t.id,
@@ -63278,6 +63500,57 @@ var dS = {
 			withApplicationReferences: r
 		}, i))).id;
 	},
+	async updatePlaceholderForDataflowSubscriber(e, t, n, r, i) {
+		return (await e.transaction((e) => e.placeholder.updateSubscriberLnode({
+			subscriberLnodeId: t.id,
+			lnodeId: t.lnodeId,
+			previousDataObject: t.dataObject,
+			previousDataAttribute: t.dataAttribute,
+			dataObject: n.dataObject,
+			dataAttribute: n.dataAttribute,
+			inputName: n.inputName,
+			preferredLnode: n.preferredLnode,
+			processResourceId: n.processResourceId,
+			withApplicationReferences: r
+		}, i))).id;
+	},
+	async updatePlaceholderForDataflowSource(e, t, n, r) {
+		return (await e.transaction((e) => e.placeholder.updateSourceRefPlaceholder({
+			sourceRefId: t.id,
+			subscriberLnodeId: t.lnodeId,
+			inputName: n.inputName,
+			inputInstance: n.inputInstance,
+			preferredLnode: n.preferredLnode,
+			preferredDataObject: n.preferredDataObject,
+			preferredDataAttribute: n.preferredDataAttribute,
+			processResourceId: n.processResourceId,
+			withApplicationReferences: r
+		}))).id;
+	},
+	async updatePlaceholderForControlledDataflow(e, t, n, r) {
+		return (await e.transaction((e) => e.placeholder.updateControlRefPlaceholder({
+			controlRefId: t.id,
+			controllingLnodeId: t.controllingLnodeId,
+			outputName: n.outputName,
+			outputInstance: n.outputInstance,
+			preferredLnode: n.preferredLnode,
+			preferredDataObject: n.preferredDataObject,
+			processResourceId: n.processResourceId,
+			withApplicationReferences: r
+		}))).id;
+	},
+	async updatePlaceholderForDataflowController(e, t, n, r, i) {
+		return (await e.transaction((e) => e.placeholder.updateControllingLnode({
+			controllingLnodeId: t.id,
+			lnodeId: t.controlledLnodeId,
+			previousDataObject: t.dataObject,
+			dataObject: n.dataObject,
+			outputName: n.outputName,
+			preferredLnode: n.preferredLnode,
+			processResourceId: n.processResourceId,
+			withApplicationReferences: r
+		}, i))).id;
+	},
 	async deletePlaceholderForDataflowSubscriber(e, t) {
 		await e.transaction((e) => e.placeholder.deleteSubscriberLnode({
 			subscriberLnodeId: t.id,
@@ -63299,35 +63572,26 @@ var dS = {
 			dataObject: t.dataObject
 		}));
 	}
-}, fS = Gu("dataflow/placeholder", () => {
+}, xS = Gu("dataflow/placeholder", () => {
 	let e = /* @__PURE__ */ R([]), t = /* @__PURE__ */ R([]), n = /* @__PURE__ */ R([]), r = /* @__PURE__ */ R([]);
 	async function i() {
 		let i = $.value;
-		e.value = await dS.findPlaceholdersForDataflowSubscriber(i), t.value = await dS.findPlaceholdersForDataflowSource(i), n.value = await dS.findPlaceholdersForControlledDataflow(i), r.value = await dS.findPlaceholdersForDataflowController(i);
+		e.value = await bS.findPlaceholdersForDataflowSubscriber(i), t.value = await bS.findPlaceholdersForDataflowSource(i), n.value = await bS.findPlaceholdersForControlledDataflow(i), r.value = await bS.findPlaceholdersForDataflowController(i);
 	}
-	async function a(e, t, n, r) {
-		return await dS.createPlaceholderForDataflowSubscriber($.value, e, t, n, r);
+	async function a(e) {
+		e.lnodeIdToRefresh && await xx().refreshLnode(e.lnodeIdToRefresh), await i(), e.placeholderId && qu().setActiveElement(e.placeholderId), gD().handleClose();
 	}
-	async function o(e, t, n) {
-		return await dS.createPlaceholderForDataflowSource($.value, e, t, n);
+	async function o(e) {
+		await bS.deletePlaceholderForDataflowSubscriber($.value, e);
 	}
-	async function s(e, t, n) {
-		return await dS.createPlaceholderForControlledDataflow($.value, e, t, n);
+	async function s(e) {
+		await bS.deletePlaceholderForDataflowSource($.value, e);
 	}
-	async function c(e, t, n, r) {
-		return await dS.createPlaceholderForDataflowController($.value, e, t, n, r);
+	async function c(e) {
+		await bS.deletePlaceholderForControlledDataflow($.value, e);
 	}
 	async function l(e) {
-		await dS.deletePlaceholderForDataflowSubscriber($.value, e);
-	}
-	async function u(e) {
-		await dS.deletePlaceholderForDataflowSource($.value, e);
-	}
-	async function d(e) {
-		await dS.deletePlaceholderForControlledDataflow($.value, e);
-	}
-	async function f(e) {
-		await dS.deletePlaceholderForDataflowController($.value, e);
+		await bS.deletePlaceholderForDataflowController($.value, e);
 	}
 	return {
 		placeholdersForDataflowSubscriber: e,
@@ -63335,24 +63599,21 @@ var dS = {
 		placeholdersForControlledDataflow: n,
 		placeholdersForDataflowController: r,
 		loadPlaceholders: i,
-		createPlaceholderForDataflowSubscriber: a,
-		createPlaceholderForDataflowSource: o,
-		createPlaceholderForControlledDataflow: s,
-		createPlaceholderForDataflowController: c,
-		deletePlaceholderForDataflowSubscriber: l,
-		deletePlaceholderForDataflowSource: u,
-		deletePlaceholderForControlledDataflow: d,
-		deletePlaceholderForDataflowController: f
+		refreshAfterPlaceholderMutation: a,
+		deletePlaceholderForDataflowSubscriber: o,
+		deletePlaceholderForDataflowSource: s,
+		deletePlaceholderForControlledDataflow: c,
+		deletePlaceholderForDataflowController: l
 	};
-}), pS = typeof window < "u" && typeof document < "u";
+}), SS = typeof window < "u" && typeof document < "u";
 typeof WorkerGlobalScope < "u" && globalThis instanceof WorkerGlobalScope;
-var mS = () => {};
+var CS = () => {};
 //#endregion
 //#region node_modules/.pnpm/@vueuse+core@14.2.1_vue@3.5.32_typescript@5.8.3_/node_modules/@vueuse/core/dist/index.js
-function hS(e, t, n) {
+function wS(e, t, n) {
 	let r;
 	r = /* @__PURE__ */ rn(n) ? { evaluating: n } : n || {};
-	let { lazy: i = !1, flush: a = "sync", evaluating: o = void 0, shallow: s = !0, onError: c = globalThis.reportError ?? mS } = r, l = /* @__PURE__ */ an(!i), u = s ? /* @__PURE__ */ an(t) : /* @__PURE__ */ R(t), d = 0;
+	let { lazy: i = !1, flush: a = "sync", evaluating: o = void 0, shallow: s = !0, onError: c = globalThis.reportError ?? CS } = r, l = /* @__PURE__ */ an(!i), u = s ? /* @__PURE__ */ an(t) : /* @__PURE__ */ R(t), d = 0;
 	return vr(async (t) => {
 		if (!l.value) return;
 		d++;
@@ -63374,28 +63635,28 @@ function hS(e, t, n) {
 		}
 	}, { flush: a }), i ? J(() => (l.value = !0, u.value)) : u;
 }
-pS && window.document, pS && window.navigator, pS && window.location;
+SS && window.document, SS && window.navigator, SS && window.location;
 //#endregion
 //#region \0plugin-vue:export-helper
-var gS = (e, t) => {
+var TS = (e, t) => {
 	let n = e.__vccOpts || e;
 	for (let [e, r] of t) n[e] = r;
 	return n;
-}, _S = {}, vS = { class: "btn bg-(--color-primary) border-none text-white disabled:bg-(--color-ocean-gray-75) disabled:border-(--color-ocean-gray-200) disabled:text-(--color-ocean-gray-200)" };
-function yS(e, t) {
-	return U(), W("button", vS, [aa(e.$slots, "default")]);
+}, ES = {}, DS = { class: "btn bg-(--color-primary) border-none text-white disabled:bg-(--color-ocean-gray-75) disabled:border-(--color-ocean-gray-200) disabled:text-(--color-ocean-gray-200)" };
+function OS(e, t) {
+	return U(), W("button", DS, [aa(e.$slots, "default")]);
 }
-var bS = /* @__PURE__ */ gS(_S, [["render", yS]]), xS = { class: "grid grid-cols-2 gap-4" }, SS = {
+var kS = /* @__PURE__ */ TS(ES, [["render", OS]]), AS = { class: "grid grid-cols-2 gap-4" }, jS = {
 	id: "subscriber-select",
 	required: "",
 	disabled: "",
 	class: "select col-start-2"
-}, CS = ["value"], wS = { class: "grid grid-cols-2 gap-4" }, TS = ["value", "title"], ES = { class: "grid grid-cols-2 gap-4" }, DS = {
+}, MS = ["value"], NS = { class: "grid grid-cols-2 gap-4" }, PS = ["value", "title"], FS = { class: "grid grid-cols-2 gap-4" }, IS = {
 	id: "source-select",
 	required: "",
 	disabled: "",
 	class: "select col-start-2"
-}, OS = ["value"], kS = { class: "grid grid-cols-2 gap-4" }, AS = { class: "flex items-center" }, jS = { class: "flex items-center" }, MS = ["value"], NS = { class: "grid grid-cols-2 gap-4" }, PS = { class: "flex items-center" }, FS = { class: "modal-action" }, IS = /* @__PURE__ */ ei({
+}, LS = ["value"], RS = { class: "grid grid-cols-2 gap-4" }, zS = { class: "flex items-center" }, BS = { class: "flex items-center" }, VS = ["value"], HS = { class: "grid grid-cols-2 gap-4" }, US = { class: "flex items-center" }, WS = { class: "modal-action" }, GS = /* @__PURE__ */ ei({
 	__name: "controlled-dataflow-form",
 	props: {
 		sourceLnode: {},
@@ -63404,7 +63665,7 @@ var bS = /* @__PURE__ */ gS(_S, [["render", yS]]), xS = { class: "grid grid-cols
 		placeholderForDataflowController: {}
 	},
 	setup(e) {
-		let t = e, n = JE(), r = qu(), i = aS(), a = fx(), o = fS(), { lnodeTypes: s } = Ku(a), c = /* @__PURE__ */ R(h()), l = /* @__PURE__ */ R(!1), u = /* @__PURE__ */ R([]), d = /* @__PURE__ */ R(!1), f = /* @__PURE__ */ R(!0);
+		let t = e, n = gD(), r = qu(), i = mS(), a = xx(), o = xS(), { lnodeTypes: s } = Ku(a), c = /* @__PURE__ */ R(h()), l = /* @__PURE__ */ R(!1), u = /* @__PURE__ */ R([]), d = /* @__PURE__ */ R(!1), f = /* @__PURE__ */ R(!0);
 		m(), Vi(async () => {
 			u.value = await i.findExistingOutputs(t.sourceLnode);
 		}), xr(l, (e) => {
@@ -63416,7 +63677,7 @@ var bS = /* @__PURE__ */ gS(_S, [["render", yS]]), xS = { class: "grid grid-cols
 			let n = c.value.outputName !== t && c.value.outputName !== "";
 			!l.value && !n && (c.value.outputName = e);
 		});
-		let p = hS(async function() {
+		let p = wS(async function() {
 			let e = s.value.find((e) => e.typeId === t.subscriberLnode.lnType);
 			return e ? (await a.findControllableDosForLnType(e)).map((e) => ({
 				namePath: e.namePath,
@@ -63457,11 +63718,11 @@ var bS = /* @__PURE__ */ gS(_S, [["render", yS]]), xS = { class: "grid grid-cols
 			onSubmit: Jl(g, ["prevent"]),
 			class: "flex flex-col gap-4 mt-4"
 		}, [
-			G("div", xS, [r[7] ||= G("label", {
+			G("div", AS, [r[7] ||= G("label", {
 				for: "subscriber-select",
 				class: "col-start-1 self-center"
-			}, "Controlled", -1), G("select", SS, [G("option", { value: t.subscriberLnode.id }, A(z(oS)(e.subscriberLnode)), 9, CS)])]),
-			G("div", wS, [r[9] ||= G("label", {
+			}, "Controlled", -1), G("select", jS, [G("option", { value: t.subscriberLnode.id }, A(z(hS)(e.subscriberLnode)), 9, MS)])]),
+			G("div", NS, [r[9] ||= G("label", {
 				for: "data-object-select",
 				class: "col-start-1 self-center"
 			}, "Controlled Signal (DO)", -1), B(G("select", {
@@ -63476,16 +63737,16 @@ var bS = /* @__PURE__ */ gS(_S, [["render", yS]]), xS = { class: "grid grid-cols
 				key: e.namePath,
 				value: e.namePath,
 				title: e.desc ? `Desc: ${e.desc}` : ""
-			}, A(e.desc ? e.namePath + " ⓘ" : e.namePath), 9, TS))), 128))], 512), [[Rl, c.value.controlledSignal]])]),
+			}, A(e.desc ? e.namePath + " ⓘ" : e.namePath), 9, PS))), 128))], 512), [[Rl, c.value.controlledSignal]])]),
 			r[17] ||= G("hr", { class: "solid" }, null, -1),
-			G("div", ES, [r[10] ||= G("label", {
+			G("div", FS, [r[10] ||= G("label", {
 				for: "source-select",
 				class: "col-start-1 self-center"
-			}, "Controlling", -1), G("select", DS, [G("option", { value: t.sourceLnode.id }, A(z(oS)(e.sourceLnode)), 9, OS)])]),
-			G("div", kS, [
+			}, "Controlling", -1), G("select", IS, [G("option", { value: t.sourceLnode.id }, A(z(hS)(e.sourceLnode)), 9, LS)])]),
+			G("div", RS, [
 				G("fieldset", null, [
 					r[13] ||= G("legend", { class: "col-start-1 self-start" }, "Controlling Output Name", -1),
-					G("div", AS, [B(G("input", {
+					G("div", zS, [B(G("input", {
 						type: "radio",
 						id: "dataflow-control-new-output",
 						name: "output",
@@ -63493,7 +63754,7 @@ var bS = /* @__PURE__ */ gS(_S, [["render", yS]]), xS = { class: "grid grid-cols
 						value: !1,
 						class: "radio radio-sm mr-2"
 					}, null, 512), [[Ll, l.value]]), r[11] ||= G("label", { for: "dataflow-control-new-output" }, "New Output", -1)]),
-					G("div", jS, [B(G("input", {
+					G("div", BS, [B(G("input", {
 						type: "radio",
 						id: "dataflow-control-existing-output",
 						name: "output",
@@ -63520,9 +63781,9 @@ var bS = /* @__PURE__ */ gS(_S, [["render", yS]]), xS = { class: "grid grid-cols
 				}, [(U(!0), W(H, null, V(u.value, (e) => (U(), W("option", {
 					key: e,
 					value: e
-				}, A(e), 9, MS))), 128))], 512)), [[Rl, c.value.outputName]]) : q("", !0)
+				}, A(e), 9, VS))), 128))], 512)), [[Rl, c.value.outputName]]) : q("", !0)
 			]),
-			G("div", NS, [r[14] ||= G("label", {
+			G("div", HS, [r[14] ||= G("label", {
 				for: "output-instance-input",
 				class: "col-start-1 self-center"
 			}, "Output Instance", -1), B(G("input", {
@@ -63534,13 +63795,13 @@ var bS = /* @__PURE__ */ gS(_S, [["render", yS]]), xS = { class: "grid grid-cols
 				"onUpdate:modelValue": r[5] ||= (e) => c.value.outputInstance = e
 			}, null, 512), [[Pl, c.value.outputInstance]])]),
 			r[18] ||= G("hr", { class: "solid" }, null, -1),
-			G("div", PS, [B(G("input", {
+			G("div", US, [B(G("input", {
 				type: "checkbox",
 				"onUpdate:modelValue": r[6] ||= (e) => f.value = e,
 				class: "checkbox mr-2",
 				id: "dataflow-control-checkbox-add-references"
 			}, null, 512), [[Fl, f.value]]), r[15] ||= G("label", { for: "dataflow-control-checkbox-add-references" }, "Add References to Application", -1)]),
-			G("div", FS, [K(bS, {
+			G("div", WS, [K(kS, {
 				"data-testId": "save-dataflow-connection",
 				disabled: d.value
 			}, {
@@ -63552,7 +63813,7 @@ var bS = /* @__PURE__ */ gS(_S, [["render", yS]]), xS = { class: "grid grid-cols
 });
 //#endregion
 //#region src/shared/option-helpers.ts
-function LS(e) {
+function KS(e) {
 	return e === Q.GOOSE || e === Q.SMV ? {
 		shouldAddQuality: !0,
 		shouldAddTimestamp: !1
@@ -63564,29 +63825,29 @@ function LS(e) {
 		shouldAddTimestamp: !1
 	};
 }
-function RS(e, t) {
-	return BS(t, e.fc) && !zS(e.namePath);
+function qS(e, t) {
+	return YS(t, e.fc) && !JS(e.namePath);
 }
-function zS(e) {
+function JS(e) {
 	let t = e.split(".").at(-1);
-	return Hb.includes(t);
+	return Gb.includes(t);
 }
-function BS(e, t) {
+function YS(e, t) {
 	return e ? bg[e].includes(t) : !0;
 }
 //#endregion
 //#region src/connections/components/dataflow-form.vue?vue&type=script&setup=true&lang.ts
-var VS = { class: "grid grid-cols-2 gap-4" }, HS = {
+var XS = { class: "grid grid-cols-2 gap-4" }, ZS = {
 	id: "source-select",
 	required: "",
 	disabled: "",
 	class: "select col-start-2"
-}, US = ["value"], WS = { class: "grid grid-cols-2 gap-4" }, GS = ["disabled"], KS = ["value", "title"], qS = { class: "grid grid-cols-2 gap-4" }, JS = ["disabled"], YS = ["value", "title"], XS = { class: "grid grid-cols-2 gap-4" }, ZS = {
+}, QS = ["value"], $S = { class: "grid grid-cols-2 gap-4" }, eC = ["disabled"], tC = ["value", "title"], nC = { class: "grid grid-cols-2 gap-4" }, rC = ["disabled"], iC = ["value", "title"], aC = { class: "grid grid-cols-2 gap-4" }, oC = {
 	id: "subscriber-select",
 	required: "",
 	disabled: "",
 	class: "select col-start-2"
-}, QS = ["value"], $S = { class: "grid grid-cols-2 gap-4" }, eC = { class: "flex items-center" }, tC = { class: "flex items-center" }, nC = ["value"], rC = { class: "grid grid-cols-2 gap-4" }, iC = { class: "flex items-center" }, aC = { class: "modal-action" }, oC = /* @__PURE__ */ ei({
+}, sC = ["value"], cC = { class: "grid grid-cols-2 gap-4" }, lC = { class: "flex items-center" }, uC = { class: "flex items-center" }, dC = ["value"], fC = { class: "grid grid-cols-2 gap-4" }, pC = { class: "flex items-center" }, mC = { class: "modal-action" }, hC = /* @__PURE__ */ ei({
 	__name: "dataflow-form",
 	props: {
 		sourceLnode: {},
@@ -63596,12 +63857,12 @@ var VS = { class: "grid grid-cols-2 gap-4" }, HS = {
 		placeholderForDataflowSource: {}
 	},
 	setup(e) {
-		let t = e, n = JE(), r = qu(), i = aS(), a = fx(), o = fS(), { lnodeTypes: s } = Ku(a), c = /* @__PURE__ */ R(g()), l = /* @__PURE__ */ R(!1), u = /* @__PURE__ */ R(!1), d = /* @__PURE__ */ R([]), f = /* @__PURE__ */ R(!0), p = J(() => {
+		let t = e, n = gD(), r = qu(), i = mS(), a = xx(), o = xS(), { lnodeTypes: s } = Ku(a), c = /* @__PURE__ */ R(g()), l = /* @__PURE__ */ R(!1), u = /* @__PURE__ */ R(!1), d = /* @__PURE__ */ R([]), f = /* @__PURE__ */ R(!0), p = J(() => {
 			if (!t.dataflowType || !t.sourceLnode) return [];
 			let e = s.value.find((e) => e.typeId === t.sourceLnode.lnType);
 			if (!e) return [];
 			let n = [];
-			for (let r of e.dataObjects) r.dataAttributes.filter((e) => RS(e, t.dataflowType)).length && n.push({
+			for (let r of e.dataObjects) r.dataAttributes.filter((e) => qS(e, t.dataflowType)).length && n.push({
 				namePath: r.namePath,
 				desc: r.desc
 			});
@@ -63613,7 +63874,7 @@ var VS = { class: "grid grid-cols-2 gap-4" }, HS = {
 			let n = s.value.find((e) => e.typeId === t.sourceLnode.lnType);
 			if (!n) return [];
 			let r = n.dataObjects.find((t) => t.namePath === e);
-			return r ? r.dataAttributes.filter((e) => RS(e, t.dataflowType)).sort((e, t) => e.namePath.localeCompare(t.namePath)) : [];
+			return r ? r.dataAttributes.filter((e) => qS(e, t.dataflowType)).sort((e, t) => e.namePath.localeCompare(t.namePath)) : [];
 		});
 		Vi(async () => {
 			d.value = await i.findExistingInputs(t.subscriberLnode);
@@ -63631,7 +63892,7 @@ var VS = { class: "grid grid-cols-2 gap-4" }, HS = {
 			() => t.dataflowType
 		], function() {
 			b(), h(), c.value.type = t.dataflowType;
-			let e = LS(t.dataflowType);
+			let e = KS(t.dataflowType);
 			c.value.includeQuality = e.shouldAddQuality, c.value.includeTimestamp = e.shouldAddTimestamp;
 		}, { immediate: !0 });
 		function h() {
@@ -63685,11 +63946,11 @@ var VS = { class: "grid grid-cols-2 gap-4" }, HS = {
 			onSubmit: Jl(v, ["prevent"]),
 			class: "flex flex-col gap-4 mt-4"
 		}, [
-			G("div", VS, [r[11] ||= G("label", {
+			G("div", XS, [r[11] ||= G("label", {
 				for: "source-select",
 				class: "col-start-1 self-center"
-			}, "Source", -1), G("select", HS, [G("option", { value: t.sourceLnode.id }, A(z(oS)(e.sourceLnode)), 9, US)])]),
-			G("div", WS, [r[13] ||= G("label", {
+			}, "Source", -1), G("select", ZS, [G("option", { value: t.sourceLnode.id }, A(z(hS)(e.sourceLnode)), 9, QS)])]),
+			G("div", $S, [r[13] ||= G("label", {
 				for: "data-object-select",
 				class: "col-start-1 self-center"
 			}, "Signal (DO)", -1), B(G("select", {
@@ -63706,8 +63967,8 @@ var VS = { class: "grid grid-cols-2 gap-4" }, HS = {
 				key: e.namePath,
 				value: e.namePath,
 				title: e.desc ? `Desc: ${e.desc}` : ""
-			}, A(e.desc ? e.namePath + " ⓘ" : e.namePath), 9, KS))), 128))], 40, GS), [[Rl, c.value.signal]])]),
-			G("div", qS, [r[15] ||= G("label", {
+			}, A(e.desc ? e.namePath + " ⓘ" : e.namePath), 9, tC))), 128))], 40, eC), [[Rl, c.value.signal]])]),
+			G("div", nC, [r[15] ||= G("label", {
 				for: "data-attribute-select",
 				class: "col-start-1 self-center"
 			}, "Attribute (DA)", -1), B(G("select", {
@@ -63723,16 +63984,16 @@ var VS = { class: "grid grid-cols-2 gap-4" }, HS = {
 				key: e.namePath,
 				value: e.namePath,
 				title: e.desc ? `Desc: ${e.desc}` : ""
-			}, A(e.desc ? e.namePath + " ⓘ" : e.namePath), 9, YS))), 128))], 8, JS), [[Rl, c.value.attribute]])]),
+			}, A(e.desc ? e.namePath + " ⓘ" : e.namePath), 9, iC))), 128))], 8, rC), [[Rl, c.value.attribute]])]),
 			r[25] ||= G("hr", { class: "solid" }, null, -1),
-			G("div", XS, [r[16] ||= G("label", {
+			G("div", aC, [r[16] ||= G("label", {
 				for: "subscriber-select",
 				class: "col-start-1 self-center"
-			}, "Target", -1), G("select", ZS, [G("option", { value: t.subscriberLnode.id }, A(z(oS)(e.subscriberLnode)), 9, QS)])]),
-			G("div", $S, [
+			}, "Target", -1), G("select", oC, [G("option", { value: t.subscriberLnode.id }, A(z(hS)(e.subscriberLnode)), 9, sC)])]),
+			G("div", cC, [
 				G("fieldset", null, [
 					r[19] ||= G("legend", { class: "col-start-1 self-start" }, "Input Name", -1),
-					G("div", eC, [B(G("input", {
+					G("div", lC, [B(G("input", {
 						type: "radio",
 						id: "dataflow-new-input",
 						name: "input",
@@ -63740,7 +64001,7 @@ var VS = { class: "grid grid-cols-2 gap-4" }, HS = {
 						value: !1,
 						class: "radio radio-sm mr-2"
 					}, null, 512), [[Ll, u.value]]), r[17] ||= G("label", { for: "dataflow-new-input" }, "New Input", -1)]),
-					G("div", tC, [B(G("input", {
+					G("div", uC, [B(G("input", {
 						type: "radio",
 						id: "dataflow-existing-input",
 						name: "input",
@@ -63767,9 +64028,9 @@ var VS = { class: "grid grid-cols-2 gap-4" }, HS = {
 				}, [(U(!0), W(H, null, V(d.value, (e) => (U(), W("option", {
 					key: e,
 					value: e
-				}, A(e), 9, nC))), 128))], 512)), [[Rl, c.value.inputName]]) : q("", !0)
+				}, A(e), 9, dC))), 128))], 512)), [[Rl, c.value.inputName]]) : q("", !0)
 			]),
-			G("div", rC, [r[20] ||= G("label", {
+			G("div", fC, [r[20] ||= G("label", {
 				for: "input-instance-input",
 				class: "col-start-1 self-center"
 			}, "Input Instance", -1), B(G("input", {
@@ -63793,13 +64054,13 @@ var VS = { class: "grid grid-cols-2 gap-4" }, HS = {
 				class: "checkbox mr-2",
 				id: "checkbox-include-timestamp"
 			}, null, 512), [[Fl, c.value.includeTimestamp]]), r[22] ||= G("label", { for: "checkbox-include-timestamp" }, "Include Timestamp", -1)]),
-			G("div", iC, [B(G("input", {
+			G("div", pC, [B(G("input", {
 				type: "checkbox",
 				"onUpdate:modelValue": r[10] ||= (e) => f.value = e,
 				class: "checkbox mr-2",
 				id: "dataflow-checkbox-add-references"
 			}, null, 512), [[Fl, f.value]]), r[23] ||= G("label", { for: "dataflow-checkbox-add-references" }, "Add References to Application", -1)]),
-			G("div", aC, [K(bS, {
+			G("div", mC, [K(kS, {
 				type: "submit",
 				"data-testId": "save-dataflow-connection",
 				disabled: l.value
@@ -63809,7 +64070,7 @@ var VS = { class: "grid grid-cols-2 gap-4" }, HS = {
 			}, 8, ["disabled"])])
 		], 32));
 	}
-}), sC = { class: "grid grid-cols-2 gap-4 mt-4" }, cC = ["value", "disabled"], lC = /* @__PURE__ */ ei({
+}), gC = { class: "grid grid-cols-2 gap-4 mt-4" }, _C = ["value", "disabled"], vC = /* @__PURE__ */ ei({
 	__name: "dataflow-creation",
 	props: {
 		sourceLnode: {},
@@ -63828,7 +64089,7 @@ var VS = { class: "grid grid-cols-2 gap-4" }, HS = {
 		}
 		return (e, f) => (U(), W(H, null, [
 			f[3] ||= G("h3", { class: "font-bold text-lg" }, "Create Dataflow", -1),
-			G("div", sC, [f[2] ||= G("label", {
+			G("div", gC, [f[2] ||= G("label", {
 				for: "dataflow-type-select",
 				class: "col-start-1 self-center"
 			}, "Dataflow Type", -1), B(G("select", {
@@ -63844,9 +64105,9 @@ var VS = { class: "grid grid-cols-2 gap-4" }, HS = {
 				key: e,
 				value: e,
 				disabled: e === z(Q).CONTROL && !c.value || e === z(Q).SMV && !l.value || e === z(Q).INTERNAL && !u.value
-			}, A(e), 9, cC))), 128))], 544), [[Rl, o.value]])]),
+			}, A(e), 9, _C))), 128))], 544), [[Rl, o.value]])]),
 			f[4] ||= G("hr", { class: "solid mt-4" }, null, -1),
-			o.value === z(Q).CONTROL ? (U(), os(IS, {
+			o.value === z(Q).CONTROL ? (U(), os(GS, {
 				key: 1,
 				sourceLnode: t.sourceLnode,
 				subscriberLnode: t.subscriberLnode,
@@ -63859,7 +64120,7 @@ var VS = { class: "grid grid-cols-2 gap-4" }, HS = {
 				"dataflowType",
 				"placeholderForControlledDataflow",
 				"placeholderForDataflowController"
-			])) : (U(), os(oC, {
+			])) : (U(), os(hC, {
 				key: 0,
 				sourceLnode: t.sourceLnode,
 				subscriberLnode: t.subscriberLnode,
@@ -63875,150 +64136,376 @@ var VS = { class: "grid grid-cols-2 gap-4" }, HS = {
 			]))
 		], 64));
 	}
-}), uC = { class: "grid grid-cols-2 gap-4 items-center" }, dC = ["value"], fC = { class: "grid grid-cols-2 gap-4 items-center" }, pC = ["value"], mC = { class: "grid grid-cols-2 gap-4 items-center" }, hC = ["value", "title"], gC = { class: "grid grid-cols-2 gap-4 mt-4" }, _C = { class: "flex items-center" }, vC = { class: "flex items-center" }, yC = ["value"], bC = { class: "grid grid-cols-2 gap-4" }, xC = { class: "flex items-center" }, SC = { class: "modal-action" }, CC = /* @__PURE__ */ ei({
-	__name: "placeholder-for-controlled-dataflow-form",
-	props: { controllingLnode: {} },
-	setup(e) {
-		let t = e, n = JE(), r = fS(), i = aS(), a = fx(), { lnodeTypes: o } = Ku(a), s = /* @__PURE__ */ R(_()), c = /* @__PURE__ */ R(!1), l = /* @__PURE__ */ R([]), u = /* @__PURE__ */ R(!0), d = /* @__PURE__ */ R(!1);
-		Vi(async () => {
-			l.value = await i.findExistingOutputs(t.controllingLnode);
-		}), xr(c, (e) => {
-			e ? s.value.outputName = "" : s.value.outputName = s.value.preferredDataObject;
-		}), xr(() => s.value.preferredDataObject, (e, t) => {
-			let n = s.value.outputName !== t && s.value.outputName !== "";
-			!c.value && !n && (s.value.outputName = e);
-		}), xr(() => s.value.outputName, async (e) => {
-			let n = await i.calculateNextOutputInstance(e, t.controllingLnode);
-			s.value.outputInstance = n.toString();
+});
+//#endregion
+//#region src/placeholders/placeholder-form.composable.ts
+function yC(e) {
+	let t = xS(), { lnodeTypes: n } = Ku(xx()), r = /* @__PURE__ */ R(d()), i = /* @__PURE__ */ R(!0), { isSaving: a, guardedSave: o } = EC("placeholder for dataflow subscriber", e.mode);
+	xr(() => e.dataflowType, () => {
+		r.value = d();
+	}, { immediate: !0 });
+	let s = CC(() => e.sourceLnode.id), c = wC(n), l = J(() => {
+		let t = n.value.find((t) => t.typeId === e.sourceLnode.lnType);
+		return t ? t.dataObjects.filter((t) => t.dataAttributes.some((t) => qS(t, e.dataflowType))).map((e) => ({
+			namePath: e.namePath,
+			desc: e.desc
+		})).sort((e, t) => e.namePath.localeCompare(t.namePath)) : [];
+	}), u = J(() => {
+		let t = r.value.dataObject;
+		if (!t) return [];
+		let i = n.value.find((t) => t.typeId === e.sourceLnode.lnType)?.dataObjects.find((e) => e.namePath === t);
+		return i ? i.dataAttributes.filter((t) => qS(t, e.dataflowType)).sort((e, t) => e.namePath.localeCompare(t.namePath)) : [];
+	});
+	function d() {
+		return e.mode === "edit" && e.placeholder ? {
+			dataObject: e.placeholder.dataObject,
+			dataAttribute: e.placeholder.dataAttribute,
+			inputName: e.placeholder.input,
+			dataflowType: e.dataflowType,
+			processResourceId: e.placeholder.processResource?.id ?? "",
+			preferredLnode: e.placeholder.preferredLnode ?? ""
+		} : {
+			dataObject: "",
+			dataAttribute: "",
+			inputName: "",
+			dataflowType: e.dataflowType,
+			processResourceId: "",
+			preferredLnode: ""
+		};
+	}
+	function f(e) {
+		for (let t of e) r.value[t] = "";
+	}
+	async function p() {
+		await o(async () => {
+			let a = e.mode === "edit" && e.placeholder ? await bS.updatePlaceholderForDataflowSubscriber($.value, e.placeholder, r.value, i.value, n.value) : await bS.createPlaceholderForDataflowSubscriber($.value, e.sourceLnode, r.value, i.value, n.value);
+			await t.refreshAfterPlaceholderMutation({
+				placeholderId: a,
+				lnodeIdToRefresh: e.sourceLnode.id
+			});
 		});
-		let f = J(() => [...o.value].sort((e, t) => e.lnClass.localeCompare(t.lnClass))), p = hS(async () => (await a.findProcessResourcesForLnode(t.controllingLnode.id)).map((e) => ({
-			name: fg(e, "name"),
-			id: e.id
-		})).sort((e, t) => e.name.localeCompare(t.name)), []), m = hS(async function() {
-			if (!s.value.preferredLnode) return [];
-			let e = o.value.find((e) => e.lnClass === s.value.preferredLnode);
-			return X(e, `LNodeType of lnClass ${s.value.preferredLnode} not found`), (await a.findControllableDosForLnType(e)).map((e) => ({
-				namePath: e.namePath,
-				desc: e.desc
-			})).sort((e, t) => e.namePath.localeCompare(t.namePath));
-		}, []);
-		async function h() {
-			try {
-				if (!g(s.value)) return;
-				d.value = !0;
-				let e = await r.createPlaceholderForControlledDataflow(s.value, t.controllingLnode, u.value);
-				await r.loadPlaceholders(), await i.loadConnections(), qu().setActiveElement(e), n.handleClose();
-			} catch (e) {
-				console.error("Error creating placeholder for controlled dataflow port:", e), alert(`Error creating placeholder: ${e instanceof Error ? e.message : "Unknown error"}`);
-			} finally {
-				d.value = !1;
-			}
+	}
+	return {
+		formValues: r,
+		shouldAddReferences: i,
+		isSaving: a,
+		processResourceOptions: s,
+		sortedLnodeTypes: c,
+		dataObjectOptions: l,
+		attributeOptions: u,
+		resetFields: f,
+		save: p
+	};
+}
+function bC(e) {
+	let t = xS(), n = mS(), { lnodeTypes: r } = Ku(xx()), i = /* @__PURE__ */ R(m()), a = /* @__PURE__ */ R(!0), o = /* @__PURE__ */ R(!1), s = /* @__PURE__ */ R([]), { isSaving: c, guardedSave: l } = EC("placeholder for dataflow source", e.mode);
+	Vi(async () => {
+		s.value = await n.findExistingInputs(e.subscriberLnode);
+	}), xr(() => e.dataflowType, () => {
+		i.value = m();
+	}, { immediate: !0 }), xr(o, () => {
+		i.value.inputName = "";
+	}), xr([() => i.value.inputName, () => i.value.preferredDataAttribute], async ([t, r]) => {
+		if (!t) {
+			i.value.inputInstance = "";
+			return;
 		}
-		function g(e) {
-			return e.outputName ? !0 : (alert("Please enter a controlling output name."), !1);
+		let a = await n.calculateNextInputInstance(t, r, e.subscriberLnode);
+		i.value.inputInstance = a.toString();
+	});
+	let u = CC(() => e.subscriberLnode.id), d = J(() => r.value.filter((t) => e.dataflowType === Q.SMV ? t.lnClass === "TCTR" || t.lnClass === "TVTR" : !0).sort((e, t) => e.lnClass.localeCompare(t.lnClass))), f = J(() => {
+		let e = r.value.find((e) => e.lnClass === i.value.preferredLnode);
+		return e ? e.dataObjects.filter((e) => e.dataAttributes.some((e) => qS(e, i.value.dataflowType))).map((e) => ({
+			namePath: e.namePath,
+			desc: e.desc
+		})).sort((e, t) => e.namePath.localeCompare(t.namePath)) : [];
+	}), p = J(() => {
+		let e = i.value.preferredDataObject;
+		if (!e) return [];
+		let t = r.value.find((e) => e.lnClass === i.value.preferredLnode)?.dataObjects.find((t) => t.namePath === e);
+		return t ? t.dataAttributes.filter((e) => qS(e, i.value.dataflowType)).sort((e, t) => e.namePath.localeCompare(t.namePath)) : [];
+	});
+	function m() {
+		return e.mode === "edit" && e.placeholder ? {
+			dataflowType: e.dataflowType,
+			inputName: e.placeholder.input,
+			inputInstance: e.placeholder.inputInst,
+			preferredLnode: e.placeholder.preferredLnode,
+			preferredDataObject: e.placeholder.preferredDataObject,
+			preferredDataAttribute: e.placeholder.preferredDataAttribute,
+			processResourceId: e.placeholder.processResource?.id ?? ""
+		} : {
+			dataflowType: e.dataflowType,
+			inputName: "",
+			inputInstance: "",
+			preferredLnode: "",
+			preferredDataObject: "",
+			preferredDataAttribute: "",
+			processResourceId: ""
+		};
+	}
+	function h(e) {
+		for (let t of e) i.value[t] = "";
+	}
+	async function g() {
+		await l(async () => {
+			let n = e.mode === "edit" && e.placeholder ? await bS.updatePlaceholderForDataflowSource($.value, e.placeholder, i.value, a.value) : await bS.createPlaceholderForDataflowSource($.value, i.value, e.subscriberLnode, a.value);
+			await t.refreshAfterPlaceholderMutation({ placeholderId: n });
+		});
+	}
+	return {
+		formValues: i,
+		shouldAddReferences: a,
+		shouldUseExistingInput: o,
+		existingInputs: s,
+		isSaving: c,
+		processResourceOptions: u,
+		preferredLnodeOptions: d,
+		dataObjectOptions: f,
+		dataAttributeOptions: p,
+		resetFields: h,
+		save: g
+	};
+}
+function xC(e) {
+	let t = xS(), n = mS(), { lnodeTypes: r } = Ku(xx()), i = /* @__PURE__ */ R(p()), a = /* @__PURE__ */ R(!1), o = /* @__PURE__ */ R([]), s = /* @__PURE__ */ R(!0), { isSaving: c, guardedSave: l } = EC("placeholder for controlled dataflow", e.mode);
+	Vi(async () => {
+		o.value = await n.findExistingOutputs(e.controllingLnode);
+	}), xr(a, (e) => {
+		e ? i.value.outputName = "" : i.value.outputName = i.value.preferredDataObject;
+	}), xr(() => i.value.preferredDataObject, (e, t) => {
+		let n = i.value.outputName !== t && i.value.outputName !== "";
+		!a.value && !n && (i.value.outputName = e);
+	}), xr(() => i.value.outputName, async (t) => {
+		let r = await n.calculateNextOutputInstance(t, e.controllingLnode);
+		i.value.outputInstance = r.toString();
+	});
+	let u = wC(r), d = CC(() => e.controllingLnode.id), f = TC(r, () => i.value.preferredLnode);
+	function p() {
+		return e.mode === "edit" && e.placeholder ? {
+			dataflowType: Q.CONTROL,
+			outputName: e.placeholder.outputName,
+			outputInstance: e.placeholder.outputInstance,
+			preferredLnode: e.placeholder.preferredLnode,
+			preferredDataObject: e.placeholder.preferredDataObject,
+			processResourceId: e.placeholder.processResource?.id ?? ""
+		} : {
+			dataflowType: Q.CONTROL,
+			outputName: "",
+			outputInstance: "",
+			preferredLnode: "",
+			preferredDataObject: "",
+			processResourceId: ""
+		};
+	}
+	function m(e) {
+		for (let t of e) i.value[t] = "";
+	}
+	function h() {
+		return i.value.outputName ? !0 : (alert("Please enter a controlling output name."), !1);
+	}
+	async function g() {
+		h() && await l(async () => {
+			let n = e.mode === "edit" && e.placeholder ? await bS.updatePlaceholderForControlledDataflow($.value, e.placeholder, i.value, s.value) : await bS.createPlaceholderForControlledDataflow($.value, i.value, e.controllingLnode, s.value);
+			await t.refreshAfterPlaceholderMutation({ placeholderId: n });
+		});
+	}
+	return {
+		formValues: i,
+		shouldAddReferences: s,
+		shouldUseExistingOutput: a,
+		existingOutputs: o,
+		isSaving: c,
+		sortedLnodeTypes: u,
+		processResourceOptions: d,
+		controllableDoOptions: f,
+		resetFields: m,
+		save: g
+	};
+}
+function SC(e) {
+	let t = xS(), { lnodeTypes: n } = Ku(xx()), r = /* @__PURE__ */ R(u()), i = /* @__PURE__ */ R(!0), { isSaving: a, guardedSave: o } = EC("placeholder for dataflow controller", e.mode);
+	xr(() => r.value.dataObject, (e, t) => {
+		r.value.outputName !== t && r.value.outputName !== "" || (r.value.outputName = e);
+	});
+	let s = J(() => n.value.filter((e) => e.lnClass === "IHMI" || e.lnClass === "ITCI").sort((e, t) => e.lnClass.localeCompare(t.lnClass))), c = CC(() => e.controlledLnode.id), l = TC(n, () => e.controlledLnode.lnType, "typeId");
+	function u() {
+		return e.mode === "edit" && e.placeholder ? {
+			outputName: e.placeholder.outputName,
+			preferredLnode: e.placeholder.preferredLnode,
+			dataObject: e.placeholder.dataObject,
+			processResourceId: e.placeholder.processResource?.id ?? ""
+		} : {
+			outputName: "",
+			preferredLnode: "",
+			dataObject: "",
+			processResourceId: ""
+		};
+	}
+	function d() {
+		return r.value.outputName ? r.value.dataObject ? !0 : (alert("Please enter a data object to be controlled."), !1) : (alert("Please enter a controlling output name."), !1);
+	}
+	async function f() {
+		d() && await o(async () => {
+			let a = e.mode === "edit" && e.placeholder ? await bS.updatePlaceholderForDataflowController($.value, e.placeholder, r.value, i.value, n.value) : await bS.createPlaceholderForDataflowController($.value, r.value, e.controlledLnode, i.value, n.value);
+			await t.refreshAfterPlaceholderMutation({
+				placeholderId: a,
+				lnodeIdToRefresh: e.controlledLnode.id
+			});
+		});
+	}
+	return {
+		formValues: r,
+		shouldAddReferences: i,
+		isSaving: a,
+		controllingLnodeTypesToSelect: s,
+		processResourceOptions: c,
+		controllableDoOptions: l,
+		save: f
+	};
+}
+function CC(e) {
+	let t = xx();
+	return wS(async () => (await t.findProcessResourcesForLnode(e())).map((e) => ({
+		name: fg(e, "name"),
+		id: e.id
+	})).sort((e, t) => e.name.localeCompare(t.name)));
+}
+function wC(e) {
+	return J(() => [...e.value].sort((e, t) => e.lnClass.localeCompare(t.lnClass)));
+}
+function TC(e, t, n = "lnClass") {
+	let r = xx();
+	return wS(async function() {
+		let i = t();
+		if (!i) return [];
+		let a = e.value.find((e) => e[n] === i);
+		return X(a, `LNodeType with ${n} ${i} not found`), (await r.findControllableDosForLnType(a)).map((e) => ({
+			namePath: e.namePath,
+			desc: e.desc
+		})).sort((e, t) => e.namePath.localeCompare(t.namePath));
+	}, []);
+}
+function EC(e, t) {
+	let n = /* @__PURE__ */ R(!1);
+	async function r(r) {
+		try {
+			n.value = !0, await r();
+		} catch (n) {
+			DC(e, t, n);
+		} finally {
+			n.value = !1;
 		}
-		function _() {
-			return {
-				dataflowType: Q.CONTROL,
-				outputName: "",
-				outputInstance: "",
-				preferredLnode: "",
-				preferredDataObject: "",
-				processResourceId: ""
-			};
-		}
-		function v(e) {
-			for (let t of e) s.value[t] = "";
-		}
-		return (e, t) => (U(), W("form", {
-			onSubmit: Jl(h, ["prevent"]),
+	}
+	return {
+		isSaving: n,
+		guardedSave: r
+	};
+}
+function DC(e, t, n) {
+	let r = t === "edit" ? "updating" : "creating";
+	console.error(`Error ${r} ${e}:`, n), alert(`Error ${r} placeholder: ${n instanceof Error ? n.message : "Unknown error"}`);
+}
+//#endregion
+//#region src/placeholders/components/placeholder-for-controlled-dataflow-form.vue?vue&type=script&setup=true&lang.ts
+var OC = { class: "grid grid-cols-2 gap-4 items-center" }, kC = ["value"], AC = { class: "grid grid-cols-2 gap-4 items-center" }, jC = ["value"], MC = { class: "grid grid-cols-2 gap-4 items-center" }, NC = ["value", "title"], PC = { class: "grid grid-cols-2 gap-4 mt-4" }, FC = { class: "flex items-center" }, IC = { class: "flex items-center" }, LC = ["value"], RC = { class: "grid grid-cols-2 gap-4" }, zC = { class: "flex items-center" }, BC = { class: "modal-action" }, VC = /* @__PURE__ */ ei({
+	__name: "placeholder-for-controlled-dataflow-form",
+	props: {
+		controllingLnode: {},
+		mode: { default: "create" },
+		placeholder: {}
+	},
+	setup(e) {
+		let { formValues: t, shouldAddReferences: n, shouldUseExistingOutput: r, existingOutputs: i, isSaving: a, sortedLnodeTypes: o, processResourceOptions: s, controllableDoOptions: c, resetFields: l, save: u } = xC(e);
+		return (e, d) => (U(), W("form", {
+			onSubmit: d[10] ||= Jl((...e) => z(u) && z(u)(...e), ["prevent"]),
 			method: "dialog",
 			class: "flex flex-col gap-4 mt-4"
 		}, [
-			G("div", uC, [t[11] ||= G("label", {
+			G("div", OC, [d[12] ||= G("label", {
 				for: "process-resource-select",
 				class: "col-start-1"
 			}, "Process Resource", -1), B(G("select", {
 				id: "process-resource-select",
 				name: "processResource",
 				class: "select col-start-2",
-				"onUpdate:modelValue": t[0] ||= (e) => s.value.processResourceId = e
-			}, [t[10] ||= G("option", {
+				"onUpdate:modelValue": d[0] ||= (e) => z(t).processResourceId = e
+			}, [d[11] ||= G("option", {
 				key: "empty",
 				value: ""
-			}, "-", -1), (U(!0), W(H, null, V(z(p), (e) => (U(), W("option", {
+			}, "-", -1), (U(!0), W(H, null, V(z(s), (e) => (U(), W("option", {
 				key: e.id,
 				value: e.id
-			}, A(e.name), 9, dC))), 128))], 512), [[Rl, s.value.processResourceId]])]),
-			G("div", fC, [t[13] ||= G("label", { for: "preferred-lnode-select" }, "Preferred LNode", -1), B(G("select", {
+			}, A(e.name), 9, kC))), 128))], 512), [[Rl, z(t).processResourceId]])]),
+			G("div", AC, [d[14] ||= G("label", { for: "preferred-lnode-select" }, "Preferred LNode", -1), B(G("select", {
 				id: "preferred-lnode-select",
 				name: "preferredLnode",
 				class: "select col-start-2",
-				"onUpdate:modelValue": t[1] ||= (e) => s.value.preferredLnode = e,
-				onChange: t[2] ||= (e) => v(["preferredDataObject"])
-			}, [t[12] ||= G("option", {
+				"onUpdate:modelValue": d[1] ||= (e) => z(t).preferredLnode = e,
+				onChange: d[2] ||= (e) => z(l)(["preferredDataObject"])
+			}, [d[13] ||= G("option", {
 				key: "empty",
 				value: ""
-			}, "-", -1), (U(!0), W(H, null, V(f.value, (e) => (U(), W("option", {
+			}, "-", -1), (U(!0), W(H, null, V(z(o), (e) => (U(), W("option", {
 				key: e.lnClass,
 				value: e.lnClass
-			}, A(e.lnClass), 9, pC))), 128))], 544), [[Rl, s.value.preferredLnode]])]),
-			G("div", mC, [t[15] ||= G("label", { for: "data-object-select" }, "Preferred Data Object", -1), B(G("select", {
+			}, A(e.lnClass), 9, jC))), 128))], 544), [[Rl, z(t).preferredLnode]])]),
+			G("div", MC, [d[16] ||= G("label", { for: "data-object-select" }, "Preferred Data Object", -1), B(G("select", {
 				required: "",
 				id: "data-object-select",
 				name: "data object",
 				class: "select col-start-2",
-				"onUpdate:modelValue": t[3] ||= (e) => s.value.preferredDataObject = e
-			}, [t[14] ||= G("option", {
+				"onUpdate:modelValue": d[3] ||= (e) => z(t).preferredDataObject = e
+			}, [d[15] ||= G("option", {
 				key: "empty",
 				value: "",
 				disabled: ""
-			}, "-", -1), (U(!0), W(H, null, V(z(m), (e) => (U(), W("option", {
+			}, "-", -1), (U(!0), W(H, null, V(z(c), (e) => (U(), W("option", {
 				key: e.namePath,
 				value: e.namePath,
 				title: e.desc ? `Desc: ${e.desc}` : ""
-			}, A(e.desc ? e.namePath + " ⓘ" : e.namePath), 9, hC))), 128))], 512), [[Rl, s.value.preferredDataObject]])]),
-			G("div", gC, [
+			}, A(e.desc ? e.namePath + " ⓘ" : e.namePath), 9, NC))), 128))], 512), [[Rl, z(t).preferredDataObject]])]),
+			G("div", PC, [
 				G("fieldset", null, [
-					t[18] ||= G("legend", { class: "col-start-1 self-start" }, "Controlling Output Name", -1),
-					G("div", _C, [B(G("input", {
+					d[19] ||= G("legend", { class: "col-start-1 self-start" }, "Controlling Output Name", -1),
+					G("div", FC, [B(G("input", {
 						type: "radio",
 						id: "dataflow-control-new-output",
 						name: "output",
-						"onUpdate:modelValue": t[4] ||= (e) => c.value = e,
+						"onUpdate:modelValue": d[4] ||= (e) => /* @__PURE__ */ rn(r) ? r.value = e : null,
 						value: !1,
 						class: "radio radio-sm mr-2"
-					}, null, 512), [[Ll, c.value]]), t[16] ||= G("label", { for: "dataflow-control-new-output" }, "New Output", -1)]),
-					G("div", vC, [B(G("input", {
+					}, null, 512), [[Ll, z(r)]]), d[17] ||= G("label", { for: "dataflow-control-new-output" }, "New Output", -1)]),
+					G("div", IC, [B(G("input", {
 						type: "radio",
 						id: "dataflow-control-existing-output",
 						name: "output",
-						"onUpdate:modelValue": t[5] ||= (e) => c.value = e,
+						"onUpdate:modelValue": d[5] ||= (e) => /* @__PURE__ */ rn(r) ? r.value = e : null,
 						value: !0,
 						class: "radio radio-sm mr-2"
-					}, null, 512), [[Ll, c.value]]), t[17] ||= G("label", { for: "dataflow-control-existing-output" }, "Existing Output", -1)])
+					}, null, 512), [[Ll, z(r)]]), d[18] ||= G("label", { for: "dataflow-control-existing-output" }, "Existing Output", -1)])
 				]),
-				c.value ? q("", !0) : B((U(), W("input", {
+				z(r) ? q("", !0) : B((U(), W("input", {
 					key: 0,
 					"aria-label": "New Output Name",
 					required: "",
 					type: "text",
 					placeholder: "Output Name",
 					class: "input col-start-2",
-					"onUpdate:modelValue": t[6] ||= (e) => s.value.outputName = e
-				}, null, 512)), [[Pl, s.value.outputName]]),
-				c.value ? B((U(), W("select", {
+					"onUpdate:modelValue": d[6] ||= (e) => z(t).outputName = e
+				}, null, 512)), [[Pl, z(t).outputName]]),
+				z(r) ? B((U(), W("select", {
 					key: 1,
 					"aria-label": "Existing Output Name Select",
 					required: "",
 					class: "select col-start-2",
-					"onUpdate:modelValue": t[7] ||= (e) => s.value.outputName = e
-				}, [(U(!0), W(H, null, V(l.value, (e) => (U(), W("option", {
+					"onUpdate:modelValue": d[7] ||= (e) => z(t).outputName = e
+				}, [(U(!0), W(H, null, V(z(i), (e) => (U(), W("option", {
 					key: e,
 					value: e
-				}, A(e), 9, yC))), 128))], 512)), [[Rl, s.value.outputName]]) : q("", !0)
+				}, A(e), 9, LC))), 128))], 512)), [[Rl, z(t).outputName]]) : q("", !0)
 			]),
-			G("div", bC, [t[19] ||= G("label", {
+			G("div", RC, [d[20] ||= G("label", {
 				for: "output-instance-input",
 				class: "col-start-1 self-center"
 			}, "Output Instance", -1), B(G("input", {
@@ -64027,174 +64514,129 @@ var VS = { class: "grid grid-cols-2 gap-4" }, HS = {
 				disabled: "",
 				type: "text",
 				class: "input col-start-2",
-				"onUpdate:modelValue": t[8] ||= (e) => s.value.outputInstance = e
-			}, null, 512), [[Pl, s.value.outputInstance]])]),
-			t[22] ||= G("hr", { class: "solid" }, null, -1),
-			G("div", xC, [B(G("input", {
+				"onUpdate:modelValue": d[8] ||= (e) => z(t).outputInstance = e
+			}, null, 512), [[Pl, z(t).outputInstance]])]),
+			d[23] ||= G("hr", { class: "solid" }, null, -1),
+			G("div", zC, [B(G("input", {
 				type: "checkbox",
-				"onUpdate:modelValue": t[9] ||= (e) => u.value = e,
+				"onUpdate:modelValue": d[9] ||= (e) => /* @__PURE__ */ rn(n) ? n.value = e : null,
 				class: "checkbox mr-2",
 				id: "dataflow-control-checkbox-add-references"
-			}, null, 512), [[Fl, u.value]]), t[20] ||= G("label", { for: "dataflow-control-checkbox-add-references" }, "Add References to Application", -1)]),
-			G("div", SC, [K(bS, { disabled: d.value }, {
-				default: dr(() => [...t[21] ||= [hs("Save", -1)]]),
+			}, null, 512), [[Fl, z(n)]]), d[21] ||= G("label", { for: "dataflow-control-checkbox-add-references" }, "Add References to Application", -1)]),
+			G("div", BC, [K(kS, { disabled: z(a) }, {
+				default: dr(() => [...d[22] ||= [hs("Save", -1)]]),
 				_: 1
 			}, 8, ["disabled"])])
 		], 32));
 	}
-}), wC = { class: "grid grid-cols-2 gap-4 items-center" }, TC = { class: "grid grid-cols-2 gap-4 items-center" }, EC = ["value", "title"], DC = { class: "grid grid-cols-2 gap-4 items-center" }, OC = ["value", "title"], kC = { class: "grid grid-cols-2 gap-4 items-center" }, AC = ["value"], jC = { class: "grid grid-cols-2 gap-4 items-center" }, MC = ["value"], NC = { class: "flex items-center" }, PC = { class: "modal-action" }, FC = /* @__PURE__ */ ei({
+}), HC = { class: "grid grid-cols-2 gap-4 items-center" }, UC = { class: "grid grid-cols-2 gap-4 items-center" }, WC = ["value", "title"], GC = { class: "grid grid-cols-2 gap-4 items-center" }, KC = ["value", "title"], qC = { class: "grid grid-cols-2 gap-4 items-center" }, JC = ["value"], YC = { class: "grid grid-cols-2 gap-4 items-center" }, XC = ["value"], ZC = { class: "flex items-center" }, QC = { class: "modal-action" }, $C = /* @__PURE__ */ ei({
 	__name: "placeholder-for-dataflow-subscriber-form",
 	props: {
 		sourceLnode: {},
-		dataflowType: {}
+		dataflowType: {},
+		mode: { default: "create" },
+		placeholder: {}
 	},
 	setup(e) {
-		let t = e, n = JE(), r = fS(), i = fx(), { lnodeTypes: a } = Ku(i), o = /* @__PURE__ */ R(m()), s = /* @__PURE__ */ R(!0), c = /* @__PURE__ */ R(!1);
-		xr(() => t.dataflowType, () => {
-			o.value = m();
-		}, { immediate: !0 });
-		async function l() {
-			try {
-				c.value = !0;
-				let e = await r.createPlaceholderForDataflowSubscriber(t.sourceLnode, o.value, s.value, a.value);
-				await i.refreshLnode(t.sourceLnode.id), await r.loadPlaceholders(), qu().setActiveElement(e), n.handleClose();
-			} catch (e) {
-				console.error("Error creating placeholder for dataflow subscriber port:", e), alert(`Error creating placeholder: ${e instanceof Error ? e.message : "Unknown error"}`);
-			} finally {
-				c.value = !1;
-			}
-		}
-		let u = hS(async () => (await i.findProcessResourcesForLnode(t.sourceLnode.id)).map((e) => ({
-			name: fg(e, "name"),
-			id: e.id
-		})).sort((e, t) => e.name.localeCompare(t.name))), d = J(() => [...a.value].sort((e, t) => e.lnClass.localeCompare(t.lnClass))), f = J(() => {
-			let e = a.value.find((e) => e.typeId === t.sourceLnode.lnType);
-			if (!e) return [];
-			let n = [];
-			for (let r of e.dataObjects) r.dataAttributes.filter((e) => RS(e, t.dataflowType)).length && n.push({
-				namePath: r.namePath,
-				desc: r.desc
-			});
-			return n.sort((e, t) => e.namePath.localeCompare(t.namePath));
-		}), p = J(() => {
-			let e = o.value.dataObject;
-			if (!e) return [];
-			let n = a.value.find((e) => e.typeId === t.sourceLnode.lnType);
-			if (!n) return [];
-			let r = n.dataObjects.find((t) => t.namePath === e);
-			return r ? r.dataAttributes.filter((e) => RS(e, t.dataflowType)).sort((e, t) => e.namePath.localeCompare(t.namePath)) : [];
-		});
-		function m() {
-			return {
-				dataObject: "",
-				dataAttribute: "",
-				inputName: "",
-				dataflowType: t.dataflowType,
-				processResourceId: "",
-				preferredLnode: ""
-			};
-		}
-		function h(e) {
-			for (let t of e) o.value[t] = "";
-		}
-		return (e, t) => (U(), W("form", {
-			onSubmit: Jl(l, ["prevent"]),
+		let { formValues: t, shouldAddReferences: n, isSaving: r, processResourceOptions: i, sortedLnodeTypes: a, dataObjectOptions: o, attributeOptions: s, resetFields: c, save: l } = yC(e);
+		return (e, u) => (U(), W("form", {
+			onSubmit: u[7] ||= Jl((...e) => z(l) && z(l)(...e), ["prevent"]),
 			method: "dialog",
 			class: "flex flex-col gap-4 mt-4"
 		}, [
-			G("div", wC, [t[7] ||= G("label", { for: "input-name" }, "Input Name", -1), B(G("input", {
+			G("div", HC, [u[8] ||= G("label", { for: "input-name" }, "Input Name", -1), B(G("input", {
 				required: "",
 				id: "input-name",
 				name: "inputName",
-				"onUpdate:modelValue": t[0] ||= (e) => o.value.inputName = e,
+				"onUpdate:modelValue": u[0] ||= (e) => z(t).inputName = e,
 				placeholder: "Input Name",
 				class: "input col-start-2"
-			}, null, 512), [[Pl, o.value.inputName]])]),
-			G("div", TC, [t[9] ||= G("label", { for: "data-object-select" }, "Data Object", -1), B(G("select", {
+			}, null, 512), [[Pl, z(t).inputName]])]),
+			G("div", UC, [u[10] ||= G("label", { for: "data-object-select" }, "Data Object", -1), B(G("select", {
 				required: "",
 				id: "data-object-select",
 				name: "data object",
 				class: "select col-start-2",
-				"onUpdate:modelValue": t[1] ||= (e) => o.value.dataObject = e,
-				onChange: t[2] ||= (e) => h(["dataAttribute"])
-			}, [t[8] ||= G("option", {
+				"onUpdate:modelValue": u[1] ||= (e) => z(t).dataObject = e,
+				onChange: u[2] ||= (e) => z(c)(["dataAttribute"])
+			}, [u[9] ||= G("option", {
 				key: "empty",
 				value: "",
 				disabled: ""
-			}, "-", -1), (U(!0), W(H, null, V(f.value, (e) => (U(), W("option", {
+			}, "-", -1), (U(!0), W(H, null, V(z(o), (e) => (U(), W("option", {
 				key: e.namePath,
 				value: e.namePath,
 				title: e.desc ? `Desc: ${e.desc}` : ""
-			}, A(e.desc ? e.namePath + " ⓘ" : e.namePath), 9, EC))), 128))], 544), [[Rl, o.value.dataObject]])]),
-			G("div", DC, [t[11] ||= G("label", { for: "data-attribute-select" }, "Data Attribute", -1), B(G("select", {
+			}, A(e.desc ? e.namePath + " ⓘ" : e.namePath), 9, WC))), 128))], 544), [[Rl, z(t).dataObject]])]),
+			G("div", GC, [u[12] ||= G("label", { for: "data-attribute-select" }, "Data Attribute", -1), B(G("select", {
 				required: "",
 				id: "data-attribute-select",
 				name: "data attribute",
-				"onUpdate:modelValue": t[3] ||= (e) => o.value.dataAttribute = e,
+				"onUpdate:modelValue": u[3] ||= (e) => z(t).dataAttribute = e,
 				class: "select col-start-2"
-			}, [t[10] ||= G("option", {
+			}, [u[11] ||= G("option", {
 				key: "empty",
 				value: "",
 				disabled: ""
-			}, "-", -1), (U(!0), W(H, null, V(p.value, (e) => (U(), W("option", {
+			}, "-", -1), (U(!0), W(H, null, V(z(s), (e) => (U(), W("option", {
 				key: e.namePath,
 				value: e.namePath,
 				title: e.desc
-			}, A(e.desc ? e.namePath + " ⓘ" : e.namePath), 9, OC))), 128))], 512), [[Rl, o.value.dataAttribute]])]),
-			G("div", kC, [t[13] ||= G("label", {
+			}, A(e.desc ? e.namePath + " ⓘ" : e.namePath), 9, KC))), 128))], 512), [[Rl, z(t).dataAttribute]])]),
+			G("div", qC, [u[14] ||= G("label", {
 				for: "process-resource-select",
 				class: "col-start-1"
 			}, "Process Resource", -1), B(G("select", {
 				id: "process-resource-select",
 				name: "processResource",
 				class: "select col-start-2",
-				"onUpdate:modelValue": t[4] ||= (e) => o.value.processResourceId = e
-			}, [t[12] ||= G("option", {
+				"onUpdate:modelValue": u[4] ||= (e) => z(t).processResourceId = e
+			}, [u[13] ||= G("option", {
 				key: "empty",
 				value: ""
-			}, "-", -1), (U(!0), W(H, null, V(z(u), (e) => (U(), W("option", {
+			}, "-", -1), (U(!0), W(H, null, V(z(i), (e) => (U(), W("option", {
 				key: e.id,
 				value: e.id
-			}, A(e.name), 9, AC))), 128))], 512), [[Rl, o.value.processResourceId]])]),
-			G("div", jC, [t[15] ||= G("label", { for: "preferred-lnode-select" }, "Preferred LNode", -1), B(G("select", {
+			}, A(e.name), 9, JC))), 128))], 512), [[Rl, z(t).processResourceId]])]),
+			G("div", YC, [u[16] ||= G("label", { for: "preferred-lnode-select" }, "Preferred LNode", -1), B(G("select", {
 				id: "preferred-lnode-select",
 				name: "preferredLnode",
 				class: "select col-start-2",
-				"onUpdate:modelValue": t[5] ||= (e) => o.value.preferredLnode = e
-			}, [t[14] ||= G("option", {
+				"onUpdate:modelValue": u[5] ||= (e) => z(t).preferredLnode = e
+			}, [u[15] ||= G("option", {
 				key: "empty",
 				value: ""
-			}, "-", -1), (U(!0), W(H, null, V(d.value, (e) => (U(), W("option", {
+			}, "-", -1), (U(!0), W(H, null, V(z(a), (e) => (U(), W("option", {
 				key: e.lnClass,
 				value: e.lnClass
-			}, A(e.lnClass), 9, MC))), 128))], 512), [[Rl, o.value.preferredLnode]])]),
-			t[18] ||= G("hr", { class: "solid" }, null, -1),
-			G("div", NC, [B(G("input", {
+			}, A(e.lnClass), 9, XC))), 128))], 512), [[Rl, z(t).preferredLnode]])]),
+			u[19] ||= G("hr", { class: "solid" }, null, -1),
+			G("div", ZC, [B(G("input", {
 				type: "checkbox",
-				"onUpdate:modelValue": t[6] ||= (e) => s.value = e,
+				"onUpdate:modelValue": u[6] ||= (e) => /* @__PURE__ */ rn(n) ? n.value = e : null,
 				class: "checkbox mr-2",
 				id: "placeholder-for-dataflow-subscriber-checkbox-add-references"
-			}, null, 512), [[Fl, s.value]]), t[16] ||= G("label", { for: "placeholder-for-dataflow-subscriber-checkbox-add-references" }, "Add References to Application", -1)]),
-			G("div", PC, [K(bS, { disabled: c.value }, {
-				default: dr(() => [...t[17] ||= [hs("Save", -1)]]),
+			}, null, 512), [[Fl, z(n)]]), u[17] ||= G("label", { for: "placeholder-for-dataflow-subscriber-checkbox-add-references" }, "Add References to Application", -1)]),
+			G("div", QC, [K(kS, { disabled: z(r) }, {
+				default: dr(() => [...u[18] ||= [hs("Save", -1)]]),
 				_: 1
 			}, 8, ["disabled"])])
 		], 32));
 	}
-}), IC = {
+}), ew = {
 	key: 0,
 	class: "font-bold text-lg mb-4"
-}, LC = {
+}, tw = {
 	key: 1,
 	class: "font-bold text-lg mb-4"
-}, RC = { class: "grid grid-cols-2 gap-4 items-center" }, zC = ["value", "disabled"], BC = /* @__PURE__ */ ei({
+}, nw = { class: "grid grid-cols-2 gap-4 items-center" }, rw = ["value", "disabled"], iw = /* @__PURE__ */ ei({
 	__name: "source-placeholder-port-creation",
 	props: { sourceLnode: {} },
 	setup(e) {
 		let t = e, n = /* @__PURE__ */ R(), r = J(() => t.sourceLnode.lnClass === "IHMI" || t.sourceLnode.lnClass === "ITCI"), i = J(() => t.sourceLnode.lnClass === "TCTR" || t.sourceLnode.lnClass === "TVTR"), a = J(() => Object.values(Q));
 		return (e, o) => (U(), W(H, null, [
-			n.value === z(Q).CONTROL ? (U(), W("h3", IC, " Create Placeholder - Control data from ")) : (U(), W("h3", LC, "Create Placeholder - Provide data to")),
-			G("div", RC, [o[2] ||= G("label", { for: "dataflow-type-select" }, "Dataflow Type", -1), B(G("select", {
+			n.value === z(Q).CONTROL ? (U(), W("h3", ew, " Create Placeholder - Control data from ")) : (U(), W("h3", tw, "Create Placeholder - Send data to")),
+			G("div", nw, [o[2] ||= G("label", { for: "dataflow-type-select" }, "Dataflow Type", -1), B(G("select", {
 				id: "dataflow-type-select",
 				name: "dataflowType",
 				class: "select col-start-2",
@@ -64203,240 +64645,151 @@ var VS = { class: "grid grid-cols-2 gap-4" }, HS = {
 				key: e,
 				value: e,
 				disabled: e === z(Q).CONTROL && !r.value || e === z(Q).SMV && !i.value
-			}, A(e), 9, zC))), 128))], 512), [[Rl, n.value]])]),
+			}, A(e), 9, rw))), 128))], 512), [[Rl, n.value]])]),
 			o[3] ||= G("hr", { class: "solid mt-4" }, null, -1),
-			n.value === z(Q).CONTROL ? (U(), os(CC, {
+			n.value === z(Q).CONTROL ? (U(), os(VC, {
 				key: 3,
 				controllingLnode: t.sourceLnode
-			}, null, 8, ["controllingLnode"])) : (U(), os(FC, {
+			}, null, 8, ["controllingLnode"])) : (U(), os($C, {
 				key: 2,
 				sourceLnode: t.sourceLnode,
 				dataflowType: n.value
 			}, null, 8, ["sourceLnode", "dataflowType"]))
 		], 64));
 	}
-}), VC = { class: "grid grid-cols-2 gap-4 items-center" }, HC = ["value", "title"], UC = { class: "grid grid-cols-2 gap-4 items-center" }, WC = { class: "grid grid-cols-2 gap-4 items-center" }, GC = ["value"], KC = { class: "grid grid-cols-2 gap-4 items-center" }, qC = ["value"], JC = { class: "flex items-center" }, YC = { class: "modal-action" }, XC = /* @__PURE__ */ ei({
+}), aw = { class: "grid grid-cols-2 gap-4 items-center" }, ow = ["value", "title"], sw = { class: "grid grid-cols-2 gap-4 items-center" }, cw = { class: "grid grid-cols-2 gap-4 items-center" }, lw = ["value"], uw = { class: "grid grid-cols-2 gap-4 items-center" }, dw = ["value"], fw = { class: "flex items-center" }, pw = { class: "modal-action" }, mw = /* @__PURE__ */ ei({
 	__name: "placeholder-for-dataflow-controller-form",
-	props: { controlledLnode: {} },
+	props: {
+		controlledLnode: {},
+		mode: { default: "create" },
+		placeholder: {}
+	},
 	setup(e) {
-		let t = e, n = JE(), r = fS(), i = fx(), { lnodeTypes: a } = Ku(i), o = /* @__PURE__ */ R(m()), s = /* @__PURE__ */ R(!0), c = /* @__PURE__ */ R(!1);
-		xr(() => o.value.dataObject, (e, t) => {
-			o.value.outputName !== t && o.value.outputName !== "" || (o.value.outputName = e);
-		});
-		let l = J(() => a.value.filter((e) => e.lnClass === "IHMI" || e.lnClass === "ITCI").sort((e, t) => e.lnClass.localeCompare(t.lnClass))), u = hS(async () => (await i.findProcessResourcesForLnode(t.controlledLnode.id)).map((e) => ({
-			name: fg(e, "name"),
-			id: e.id
-		})).sort((e, t) => e.name.localeCompare(t.name))), d = hS(async function() {
-			let e = a.value.find((e) => e.typeId === t.controlledLnode.lnType);
-			return X(e, `LNodeType of class ${t.controlledLnode.lnClass} not found`), (await i.findControllableDosForLnType(e)).map((e) => ({
-				namePath: e.namePath,
-				desc: e.desc
-			})).sort((e, t) => e.namePath.localeCompare(t.namePath));
-		}, []);
-		async function f() {
-			try {
-				if (!p(o.value)) return;
-				c.value = !0;
-				let e = await r.createPlaceholderForDataflowController(o.value, t.controlledLnode, s.value, a.value);
-				await i.refreshLnode(t.controlledLnode.id), await r.loadPlaceholders(), qu().setActiveElement(e), n.handleClose();
-			} catch (e) {
-				console.error("Error creating placeholder for dataflow controller port:", e), alert(`Error creating placeholder: ${e instanceof Error ? e.message : "Unknown error"}`);
-			} finally {
-				c.value = !1;
-			}
-		}
-		function p(e) {
-			return e.outputName ? e.dataObject ? !0 : (alert("Please enter a data object to be controlled."), !1) : (alert("Please enter a controlling output name."), !1);
-		}
-		function m() {
-			return {
-				outputName: "",
-				preferredLnode: "",
-				dataObject: "",
-				processResourceId: ""
-			};
-		}
-		return (e, t) => (U(), W("form", {
-			onSubmit: Jl(f, ["prevent"]),
+		let { formValues: t, shouldAddReferences: n, isSaving: r, controllingLnodeTypesToSelect: i, processResourceOptions: a, controllableDoOptions: o, save: s } = SC(e);
+		return (e, c) => (U(), W("form", {
+			onSubmit: c[5] ||= Jl((...e) => z(s) && z(s)(...e), ["prevent"]),
 			method: "dialog",
 			class: "flex flex-col gap-4 mt-4"
 		}, [
-			G("div", VC, [t[6] ||= G("label", { for: "data-object-select" }, "Controlled Data Object", -1), B(G("select", {
+			G("div", aw, [c[7] ||= G("label", { for: "data-object-select" }, "Controlled Data Object", -1), B(G("select", {
 				required: "",
 				id: "data-object-select",
 				name: "data object",
 				class: "select col-start-2",
-				"onUpdate:modelValue": t[0] ||= (e) => o.value.dataObject = e
-			}, [t[5] ||= G("option", {
+				"onUpdate:modelValue": c[0] ||= (e) => z(t).dataObject = e
+			}, [c[6] ||= G("option", {
 				key: "empty",
 				value: "",
 				disabled: ""
-			}, "-", -1), (U(!0), W(H, null, V(z(d), (e) => (U(), W("option", {
+			}, "-", -1), (U(!0), W(H, null, V(z(o), (e) => (U(), W("option", {
 				key: e.namePath,
 				value: e.namePath,
 				title: e.desc ? `Desc: ${e.desc}` : ""
-			}, A(e.desc ? e.namePath + " ⓘ" : e.namePath), 9, HC))), 128))], 512), [[Rl, o.value.dataObject]])]),
-			G("div", UC, [t[7] ||= G("label", { for: "output-name" }, "Controlling Output Name", -1), B(G("input", {
+			}, A(e.desc ? e.namePath + " ⓘ" : e.namePath), 9, ow))), 128))], 512), [[Rl, z(t).dataObject]])]),
+			G("div", sw, [c[8] ||= G("label", { for: "output-name" }, "Controlling Output Name", -1), B(G("input", {
 				id: "output-name",
 				required: "",
 				type: "text",
 				placeholder: "Output Name",
 				class: "input col-start-2",
-				"onUpdate:modelValue": t[1] ||= (e) => o.value.outputName = e
-			}, null, 512), [[Pl, o.value.outputName]])]),
-			G("div", WC, [t[9] ||= G("label", {
+				"onUpdate:modelValue": c[1] ||= (e) => z(t).outputName = e
+			}, null, 512), [[Pl, z(t).outputName]])]),
+			G("div", cw, [c[10] ||= G("label", {
 				for: "process-resource-select",
 				class: "col-start-1"
 			}, "Process Resource", -1), B(G("select", {
 				id: "process-resource-select",
 				name: "processResource",
 				class: "select col-start-2",
-				"onUpdate:modelValue": t[2] ||= (e) => o.value.processResourceId = e
-			}, [t[8] ||= G("option", {
+				"onUpdate:modelValue": c[2] ||= (e) => z(t).processResourceId = e
+			}, [c[9] ||= G("option", {
 				key: "empty",
 				value: ""
-			}, "-", -1), (U(!0), W(H, null, V(z(u), (e) => (U(), W("option", {
+			}, "-", -1), (U(!0), W(H, null, V(z(a), (e) => (U(), W("option", {
 				key: e.id,
 				value: e.id
-			}, A(e.name), 9, GC))), 128))], 512), [[Rl, o.value.processResourceId]])]),
-			G("div", KC, [t[11] ||= G("label", { for: "preferred-lnode-select" }, "Preferred LNode", -1), B(G("select", {
+			}, A(e.name), 9, lw))), 128))], 512), [[Rl, z(t).processResourceId]])]),
+			G("div", uw, [c[12] ||= G("label", { for: "preferred-lnode-select" }, "Preferred LNode", -1), B(G("select", {
 				id: "preferred-lnode-select",
 				name: "preferredLnode",
 				class: "select col-start-2",
-				"onUpdate:modelValue": t[3] ||= (e) => o.value.preferredLnode = e
-			}, [t[10] ||= G("option", {
+				"onUpdate:modelValue": c[3] ||= (e) => z(t).preferredLnode = e
+			}, [c[11] ||= G("option", {
 				key: "empty",
 				value: ""
-			}, "-", -1), (U(!0), W(H, null, V(l.value, (e) => (U(), W("option", {
+			}, "-", -1), (U(!0), W(H, null, V(z(i), (e) => (U(), W("option", {
 				key: e.lnClass,
 				value: e.lnClass
-			}, A(e.lnClass), 9, qC))), 128))], 512), [[Rl, o.value.preferredLnode]])]),
-			t[14] ||= G("hr", { class: "solid" }, null, -1),
-			G("div", JC, [B(G("input", {
+			}, A(e.lnClass), 9, dw))), 128))], 512), [[Rl, z(t).preferredLnode]])]),
+			c[15] ||= G("hr", { class: "solid" }, null, -1),
+			G("div", fw, [B(G("input", {
 				type: "checkbox",
-				"onUpdate:modelValue": t[4] ||= (e) => s.value = e,
+				"onUpdate:modelValue": c[4] ||= (e) => /* @__PURE__ */ rn(n) ? n.value = e : null,
 				class: "checkbox mr-2",
 				id: "dataflow-control-checkbox-add-references"
-			}, null, 512), [[Fl, s.value]]), t[12] ||= G("label", { for: "dataflow-control-checkbox-add-references" }, "Add References to Application", -1)]),
-			G("div", YC, [K(bS, { disabled: c.value }, {
-				default: dr(() => [...t[13] ||= [hs("Save", -1)]]),
+			}, null, 512), [[Fl, z(n)]]), c[13] ||= G("label", { for: "dataflow-control-checkbox-add-references" }, "Add References to Application", -1)]),
+			G("div", pw, [K(kS, { disabled: z(r) }, {
+				default: dr(() => [...c[14] ||= [hs("Save", -1)]]),
 				_: 1
 			}, 8, ["disabled"])])
 		], 32));
 	}
-}), ZC = { class: "grid grid-cols-2 gap-4" }, QC = { class: "flex items-center" }, $C = { class: "flex items-center" }, ew = ["value"], tw = { class: "grid grid-cols-2 gap-4" }, nw = { class: "grid grid-cols-2 gap-4" }, rw = ["value"], iw = { class: "grid grid-cols-2 gap-4" }, aw = ["value", "title"], ow = { class: "grid grid-cols-2 gap-4" }, sw = ["value", "title"], cw = { class: "grid grid-cols-2 gap-4" }, lw = ["value"], uw = { class: "flex items-center" }, dw = { class: "modal-action" }, fw = /* @__PURE__ */ ei({
+}), hw = { class: "grid grid-cols-2 gap-4" }, gw = { class: "flex items-center" }, _w = { class: "flex items-center" }, vw = ["value"], yw = { class: "grid grid-cols-2 gap-4" }, bw = { class: "grid grid-cols-2 gap-4" }, xw = ["value"], Sw = { class: "grid grid-cols-2 gap-4" }, Cw = ["value", "title"], ww = { class: "grid grid-cols-2 gap-4" }, Tw = ["value", "title"], Ew = { class: "grid grid-cols-2 gap-4" }, Dw = ["value"], Ow = { class: "flex items-center" }, kw = { class: "modal-action" }, Aw = /* @__PURE__ */ ei({
 	__name: "placeholder-for-dataflow-source-form",
 	props: {
 		dataflowType: {},
-		subscriberLnode: {}
+		subscriberLnode: {},
+		mode: { default: "create" },
+		placeholder: {}
 	},
 	setup(e) {
-		let t = e, n = JE(), r = fS(), i = aS(), a = fx(), { lnodeTypes: o } = Ku(a), s = /* @__PURE__ */ R(g()), c = /* @__PURE__ */ R(!0), l = /* @__PURE__ */ R(!1), u = /* @__PURE__ */ R([]), d = /* @__PURE__ */ R(!1);
-		Vi(async () => {
-			u.value = await i.findExistingInputs(t.subscriberLnode);
-		}), xr(() => t.dataflowType, () => {
-			s.value = g();
-		}, { immediate: !0 }), xr(l, () => {
-			s.value.inputName = "";
-		}), xr([() => s.value.inputName, () => s.value.preferredDataAttribute], async ([e, n]) => {
-			if (!e) {
-				s.value.inputInstance = "";
-				return;
-			}
-			let r = await i.calculateNextInputInstance(e, n, t.subscriberLnode);
-			s.value.inputInstance = r.toString();
-		});
-		let f = hS(async () => (await a.findProcessResourcesForLnode(t.subscriberLnode.id)).map((e) => ({
-			name: fg(e, "name"),
-			id: e.id
-		})).sort((e, t) => e.name.localeCompare(t.name))), p = J(() => o.value.filter((e) => t.dataflowType === Q.SMV ? e.lnClass === "TCTR" || e.lnClass === "TVTR" : !0).sort((e, t) => e.lnClass.localeCompare(t.lnClass))), m = J(() => {
-			let e = o.value.find((e) => e.lnClass === s.value.preferredLnode);
-			if (!e) return [];
-			let t = [];
-			for (let n of e.dataObjects) n.dataAttributes.filter((e) => RS(e, s.value.dataflowType)).length && t.push({
-				namePath: n.namePath,
-				desc: n.desc
-			});
-			return t.sort((e, t) => e.namePath.localeCompare(t.namePath));
-		}), h = J(() => {
-			let e = s.value.preferredDataObject;
-			if (!e) return [];
-			let t = o.value.find((e) => e.lnClass === s.value.preferredLnode);
-			if (!t) return [];
-			let n = t.dataObjects.find((t) => t.namePath === e);
-			return n ? n.dataAttributes.filter((e) => RS(e, s.value.dataflowType)).sort((e, t) => e.namePath.localeCompare(t.namePath)) : [];
-		});
-		function g() {
-			return {
-				dataflowType: t.dataflowType,
-				inputName: "",
-				inputInstance: "",
-				preferredLnode: "",
-				preferredDataObject: "",
-				preferredDataAttribute: "",
-				processResourceId: ""
-			};
-		}
-		async function _() {
-			try {
-				d.value = !0;
-				let e = await r.createPlaceholderForDataflowSource(s.value, t.subscriberLnode, c.value);
-				await r.loadPlaceholders(), qu().setActiveElement(e), n.handleClose();
-			} catch (e) {
-				console.error("Error creating placeholder for dataflow source port:", e), alert(`Error creating placeholder: ${e instanceof Error ? e.message : "Unknown error"}`);
-			} finally {
-				d.value = !1;
-			}
-		}
-		function v(e) {
-			for (let t of e) s.value[t] = "";
-		}
-		return (e, t) => (U(), W("form", {
+		let { formValues: t, shouldAddReferences: n, shouldUseExistingInput: r, existingInputs: i, isSaving: a, processResourceOptions: o, preferredLnodeOptions: s, dataObjectOptions: c, dataAttributeOptions: l, resetFields: u, save: d } = bC(e);
+		return (e, f) => (U(), W("form", {
 			method: "dialog",
-			onSubmit: Jl(_, ["prevent"]),
+			onSubmit: f[12] ||= Jl((...e) => z(d) && z(d)(...e), ["prevent"]),
 			class: "flex flex-col gap-4 mt-4"
 		}, [
-			G("div", ZC, [
+			G("div", hw, [
 				G("fieldset", null, [
-					t[14] ||= G("legend", { class: "col-start-1 self-start" }, "Input Name", -1),
-					G("div", QC, [B(G("input", {
+					f[15] ||= G("legend", { class: "col-start-1 self-start" }, "Input Name", -1),
+					G("div", gw, [B(G("input", {
 						type: "radio",
 						id: "placeholder-for-dataflow-source-new-input",
 						name: "input",
-						"onUpdate:modelValue": t[0] ||= (e) => l.value = e,
+						"onUpdate:modelValue": f[0] ||= (e) => /* @__PURE__ */ rn(r) ? r.value = e : null,
 						value: !1,
 						class: "radio radio-sm mr-2"
-					}, null, 512), [[Ll, l.value]]), t[12] ||= G("label", { for: "placeholder-for-dataflow-source-new-input" }, "New Input", -1)]),
-					G("div", $C, [B(G("input", {
+					}, null, 512), [[Ll, z(r)]]), f[13] ||= G("label", { for: "placeholder-for-dataflow-source-new-input" }, "New Input", -1)]),
+					G("div", _w, [B(G("input", {
 						type: "radio",
 						id: "placeholder-for-dataflow-source-existing-input",
 						name: "input",
-						"onUpdate:modelValue": t[1] ||= (e) => l.value = e,
+						"onUpdate:modelValue": f[1] ||= (e) => /* @__PURE__ */ rn(r) ? r.value = e : null,
 						value: !0,
 						class: "radio radio-sm mr-2"
-					}, null, 512), [[Ll, l.value]]), t[13] ||= G("label", { for: "placeholder-for-dataflow-source-existing-input" }, "Existing Input", -1)])
+					}, null, 512), [[Ll, z(r)]]), f[14] ||= G("label", { for: "placeholder-for-dataflow-source-existing-input" }, "Existing Input", -1)])
 				]),
-				l.value ? q("", !0) : B((U(), W("input", {
+				z(r) ? q("", !0) : B((U(), W("input", {
 					key: 0,
 					"aria-label": "New Input Name",
 					required: "",
 					type: "text",
 					placeholder: "Input Name",
 					class: "input col-start-2",
-					"onUpdate:modelValue": t[2] ||= (e) => s.value.inputName = e
-				}, null, 512)), [[Pl, s.value.inputName]]),
-				l.value ? B((U(), W("select", {
+					"onUpdate:modelValue": f[2] ||= (e) => z(t).inputName = e
+				}, null, 512)), [[Pl, z(t).inputName]]),
+				z(r) ? B((U(), W("select", {
 					key: 1,
 					"aria-label": "Existing Input Name Select",
 					required: "",
 					class: "select col-start-2",
-					"onUpdate:modelValue": t[3] ||= (e) => s.value.inputName = e
-				}, [(U(!0), W(H, null, V(u.value, (e) => (U(), W("option", {
+					"onUpdate:modelValue": f[3] ||= (e) => z(t).inputName = e
+				}, [(U(!0), W(H, null, V(z(i), (e) => (U(), W("option", {
 					key: e,
 					value: e
-				}, A(e), 9, ew))), 128))], 512)), [[Rl, s.value.inputName]]) : q("", !0)
+				}, A(e), 9, vw))), 128))], 512)), [[Rl, z(t).inputName]]) : q("", !0)
 			]),
-			G("div", tw, [t[15] ||= G("label", {
+			G("div", yw, [f[16] ||= G("label", {
 				for: "input-instance-input",
 				class: "col-start-1 self-center"
 			}, "Input Instance", -1), B(G("input", {
@@ -64445,99 +64798,99 @@ var VS = { class: "grid grid-cols-2 gap-4" }, HS = {
 				disabled: "",
 				type: "text",
 				class: "input col-start-2",
-				"onUpdate:modelValue": t[4] ||= (e) => s.value.inputInstance = e
-			}, null, 512), [[Pl, s.value.inputInstance]])]),
-			G("div", nw, [t[17] ||= G("label", {
+				"onUpdate:modelValue": f[4] ||= (e) => z(t).inputInstance = e
+			}, null, 512), [[Pl, z(t).inputInstance]])]),
+			G("div", bw, [f[18] ||= G("label", {
 				for: "preferred-lnode-select",
 				class: "col-start-1 self-center"
 			}, "Preferred LNode", -1), B(G("select", {
 				id: "preferred-lnode-select",
 				class: "select col-start-2",
-				"onUpdate:modelValue": t[5] ||= (e) => s.value.preferredLnode = e,
-				onChange: t[6] ||= (e) => v(["preferredDataObject"])
-			}, [t[16] ||= G("option", {
+				"onUpdate:modelValue": f[5] ||= (e) => z(t).preferredLnode = e,
+				onChange: f[6] ||= (e) => z(u)(["preferredDataObject"])
+			}, [f[17] ||= G("option", {
 				key: "empty",
 				value: ""
-			}, "-", -1), (U(!0), W(H, null, V(p.value, (e) => (U(), W("option", {
+			}, "-", -1), (U(!0), W(H, null, V(z(s), (e) => (U(), W("option", {
 				key: e.id,
 				value: e.lnClass
-			}, A(e.lnClass), 9, rw))), 128))], 544), [[Rl, s.value.preferredLnode]])]),
-			G("div", iw, [t[19] ||= G("label", {
+			}, A(e.lnClass), 9, xw))), 128))], 544), [[Rl, z(t).preferredLnode]])]),
+			G("div", Sw, [f[20] ||= G("label", {
 				for: "data-object-select",
 				class: "col-start-1 self-center"
 			}, "Preferred Data Object", -1), B(G("select", {
 				id: "data-object-select",
 				class: "select col-start-2",
-				"onUpdate:modelValue": t[7] ||= (e) => s.value.preferredDataObject = e,
-				onChange: t[8] ||= (e) => v(["preferredDataAttribute"])
-			}, [t[18] ||= G("option", {
+				"onUpdate:modelValue": f[7] ||= (e) => z(t).preferredDataObject = e,
+				onChange: f[8] ||= (e) => z(u)(["preferredDataAttribute"])
+			}, [f[19] ||= G("option", {
 				key: "empty",
 				value: ""
-			}, "-", -1), (U(!0), W(H, null, V(m.value, (e) => (U(), W("option", {
+			}, "-", -1), (U(!0), W(H, null, V(z(c), (e) => (U(), W("option", {
 				key: e.namePath,
 				value: e.namePath,
 				title: e.desc ? `Desc: ${e.desc}` : ""
-			}, A(e.desc ? e.namePath + " ⓘ" : e.namePath), 9, aw))), 128))], 544), [[Rl, s.value.preferredDataObject]])]),
-			G("div", ow, [t[21] ||= G("label", {
+			}, A(e.desc ? e.namePath + " ⓘ" : e.namePath), 9, Cw))), 128))], 544), [[Rl, z(t).preferredDataObject]])]),
+			G("div", ww, [f[22] ||= G("label", {
 				for: "data-attribute-select",
 				class: "col-start-1 self-center"
 			}, "Preferred Data Attribute", -1), B(G("select", {
 				id: "data-attribute-select",
 				class: "select col-start-2",
-				"onUpdate:modelValue": t[9] ||= (e) => s.value.preferredDataAttribute = e
-			}, [t[20] ||= G("option", {
+				"onUpdate:modelValue": f[9] ||= (e) => z(t).preferredDataAttribute = e
+			}, [f[21] ||= G("option", {
 				key: "empty",
 				value: ""
-			}, "-", -1), (U(!0), W(H, null, V(h.value, (e) => (U(), W("option", {
+			}, "-", -1), (U(!0), W(H, null, V(z(l), (e) => (U(), W("option", {
 				key: e.namePath,
 				value: e.namePath,
 				title: e.desc ? `Desc: ${e.desc}` : ""
-			}, A(e.desc ? e.namePath + " ⓘ" : e.namePath), 9, sw))), 128))], 512), [[Rl, s.value.preferredDataAttribute]])]),
-			G("div", cw, [t[23] ||= G("label", {
+			}, A(e.desc ? e.namePath + " ⓘ" : e.namePath), 9, Tw))), 128))], 512), [[Rl, z(t).preferredDataAttribute]])]),
+			G("div", Ew, [f[24] ||= G("label", {
 				for: "process-resource-select",
 				class: "col-start-1"
 			}, "Process Resource", -1), B(G("select", {
 				id: "process-resource-select",
 				name: "processResource",
 				class: "select col-start-2",
-				"onUpdate:modelValue": t[10] ||= (e) => s.value.processResourceId = e
-			}, [t[22] ||= G("option", {
+				"onUpdate:modelValue": f[10] ||= (e) => z(t).processResourceId = e
+			}, [f[23] ||= G("option", {
 				key: "empty",
 				value: ""
-			}, "-", -1), (U(!0), W(H, null, V(z(f), (e) => (U(), W("option", {
+			}, "-", -1), (U(!0), W(H, null, V(z(o), (e) => (U(), W("option", {
 				key: e.id,
 				value: e.id
-			}, A(e.name), 9, lw))), 128))], 512), [[Rl, s.value.processResourceId]])]),
-			t[26] ||= G("hr", { class: "solid" }, null, -1),
-			G("div", uw, [B(G("input", {
+			}, A(e.name), 9, Dw))), 128))], 512), [[Rl, z(t).processResourceId]])]),
+			f[27] ||= G("hr", { class: "solid" }, null, -1),
+			G("div", Ow, [B(G("input", {
 				type: "checkbox",
-				"onUpdate:modelValue": t[11] ||= (e) => c.value = e,
+				"onUpdate:modelValue": f[11] ||= (e) => /* @__PURE__ */ rn(n) ? n.value = e : null,
 				class: "checkbox mr-2",
 				id: "placeholder-for-dataflow-source-checkbox-add-references"
-			}, null, 512), [[Fl, c.value]]), t[24] ||= G("label", { for: "placeholder-for-dataflow-source-checkbox-add-references" }, "Add References to Application", -1)]),
-			G("div", dw, [K(bS, {
+			}, null, 512), [[Fl, z(n)]]), f[25] ||= G("label", { for: "placeholder-for-dataflow-source-checkbox-add-references" }, "Add References to Application", -1)]),
+			G("div", kw, [K(kS, {
 				type: "submit",
-				disabled: d.value
+				disabled: z(a)
 			}, {
-				default: dr(() => [...t[25] ||= [hs("Save", -1)]]),
+				default: dr(() => [...f[26] ||= [hs("Save", -1)]]),
 				_: 1
 			}, 8, ["disabled"])])
 		], 32));
 	}
-}), pw = {
+}), jw = {
 	key: 0,
 	class: "font-bold text-lg mb-4"
-}, mw = {
+}, Mw = {
 	key: 1,
 	class: "font-bold text-lg mb-4"
-}, hw = { class: "grid grid-cols-2 gap-4 items-center" }, gw = ["value"], _w = /* @__PURE__ */ ei({
+}, Nw = { class: "grid grid-cols-2 gap-4 items-center" }, Pw = ["value"], Fw = /* @__PURE__ */ ei({
 	__name: "subscriber-placeholder-port-creation",
 	props: { subscriberLnode: {} },
 	setup(e) {
 		let t = e, n = /* @__PURE__ */ R(), r = J(() => Object.values(Q));
 		return (e, i) => (U(), W(H, null, [
-			n.value === z(Q).CONTROL ? (U(), W("h3", pw, " Create Placeholder - Controlled data by ")) : (U(), W("h3", mw, "Create Placeholder - Receive data from")),
-			G("div", hw, [i[2] ||= G("label", { for: "dataflow-type-select" }, "Dataflow Type", -1), B(G("select", {
+			n.value === z(Q).CONTROL ? (U(), W("h3", jw, " Create Placeholder - Controlled data by ")) : (U(), W("h3", Mw, "Create Placeholder - Subscribe data from")),
+			G("div", Nw, [i[2] ||= G("label", { for: "dataflow-type-select" }, "Dataflow Type", -1), B(G("select", {
 				id: "dataflow-type-select",
 				name: "dataflowType",
 				class: "select col-start-2",
@@ -64545,81 +64898,139 @@ var VS = { class: "grid grid-cols-2 gap-4" }, HS = {
 			}, [i[1] ||= G("option", { value: "undefined" }, "-", -1), (U(!0), W(H, null, V(r.value, (e) => (U(), W("option", {
 				key: e,
 				value: e
-			}, A(e), 9, gw))), 128))], 512), [[Rl, n.value]])]),
+			}, A(e), 9, Pw))), 128))], 512), [[Rl, n.value]])]),
 			i[3] ||= G("hr", { class: "solid mt-4" }, null, -1),
-			n.value === z(Q).CONTROL ? (U(), os(XC, {
+			n.value === z(Q).CONTROL ? (U(), os(mw, {
 				key: 3,
 				controlledLnode: t.subscriberLnode
-			}, null, 8, ["controlledLnode"])) : (U(), os(fw, {
+			}, null, 8, ["controlledLnode"])) : (U(), os(Aw, {
 				key: 2,
 				subscriberLnode: t.subscriberLnode,
 				dataflowType: n.value
 			}, null, 8, ["subscriberLnode", "dataflowType"]))
 		], 64));
 	}
-}), vw = Gu("dataflow/implementation", () => {
+}), Iw = { class: "font-bold text-lg mb-4" }, Lw = { class: "grid grid-cols-2 gap-4 items-center" }, Rw = ["value"], zw = /* @__PURE__ */ ei({
+	__name: "placeholder-edit",
+	props: {
+		sourceLnode: {},
+		subscriberLnode: {},
+		placeholderForDataflowSubscriber: {},
+		placeholderForDataflowSource: {},
+		placeholderForControlledDataflow: {},
+		placeholderForDataflowController: {}
+	},
+	setup(e) {
+		let t = e, n = J(() => t.placeholderForDataflowSubscriber ? "Edit Placeholder - Send data to" : t.placeholderForControlledDataflow ? "Edit Placeholder - Control data from" : t.placeholderForDataflowSource ? "Edit Placeholder - Subscribe data from" : (X(t.placeholderForDataflowController, "No placeholder was provided to PlaceholderEdit"), "Edit Placeholder - Controlled data by")), r = J(() => t.placeholderForDataflowSubscriber ? t.placeholderForDataflowSubscriber.dataflowType : t.placeholderForDataflowSource ? t.placeholderForDataflowSource.dataflowType : Q.CONTROL);
+		function i(e, t) {
+			return X(e, t), e;
+		}
+		return (t, a) => (U(), W(H, null, [
+			G("h3", Iw, A(n.value), 1),
+			G("div", Lw, [a[0] ||= G("label", { for: "dataflow-type-input" }, "Dataflow Type", -1), G("input", {
+				id: "dataflow-type-input",
+				disabled: "",
+				type: "text",
+				class: "input col-start-2",
+				value: r.value
+			}, null, 8, Rw)]),
+			a[1] ||= G("hr", { class: "solid mt-4" }, null, -1),
+			e.placeholderForDataflowSubscriber ? (U(), os($C, {
+				key: 0,
+				mode: "edit",
+				sourceLnode: i(e.sourceLnode, "Source LNode is undefined"),
+				dataflowType: e.placeholderForDataflowSubscriber.dataflowType,
+				placeholder: e.placeholderForDataflowSubscriber
+			}, null, 8, [
+				"sourceLnode",
+				"dataflowType",
+				"placeholder"
+			])) : e.placeholderForControlledDataflow ? (U(), os(VC, {
+				key: 1,
+				mode: "edit",
+				controllingLnode: i(e.sourceLnode, "Source LNode is undefined"),
+				placeholder: e.placeholderForControlledDataflow
+			}, null, 8, ["controllingLnode", "placeholder"])) : e.placeholderForDataflowSource ? (U(), os(Aw, {
+				key: 2,
+				mode: "edit",
+				subscriberLnode: i(e.subscriberLnode, "Subscriber LNode is undefined"),
+				dataflowType: e.placeholderForDataflowSource.dataflowType,
+				placeholder: e.placeholderForDataflowSource
+			}, null, 8, [
+				"subscriberLnode",
+				"dataflowType",
+				"placeholder"
+			])) : e.placeholderForDataflowController ? (U(), os(mw, {
+				key: 3,
+				mode: "edit",
+				controlledLnode: i(e.subscriberLnode, "Subscriber LNode is undefined"),
+				placeholder: e.placeholderForDataflowController
+			}, null, 8, ["controlledLnode", "placeholder"])) : q("", !0)
+		], 64));
+	}
+}), Bw = Gu("dataflow/implementation", () => {
 	function e(e, t, n, r, i) {
-		return Wx.implementDataflow($.value, e, t, n, r, i);
+		return $x.implementDataflow($.value, e, t, n, r, i);
 	}
 	function t(e) {
-		return Wx.createImplementedDataflowManually($.value, e);
+		return $x.createImplementedDataflowManually($.value, e);
 	}
 	function n(e, t) {
-		return Wx.unimplementDataflow($.value, e, t);
+		return $x.unimplementDataflow($.value, e, t);
 	}
 	function r(e, t, n) {
-		return Wx.findControlBlock($.value, e, t, n);
+		return $x.findControlBlock($.value, e, t, n);
 	}
 	function i(e, t) {
-		return Wx.findDataSetOfControlBlock($.value, e, t);
+		return $x.findDataSetOfControlBlock($.value, e, t);
 	}
 	function a(e) {
-		return Wx.findFcdasForDataSet($.value, e);
+		return $x.findFcdasForDataSet($.value, e);
 	}
 	function o(e) {
-		return Wx.findGseControlBlockDetails($.value, e);
+		return $x.findGseControlBlockDetails($.value, e);
 	}
 	function s(e) {
-		return Wx.findSmvControlBlockDetails($.value, e);
+		return $x.findSmvControlBlockDetails($.value, e);
 	}
 	function c(e) {
-		return Wx.findReportControlBlockDetails($.value, e);
+		return $x.findReportControlBlockDetails($.value, e);
 	}
 	function l(e) {
-		return Wx.findSupervisionDetails($.value, e);
+		return $x.findSupervisionDetails($.value, e);
 	}
 	function u(e) {
-		return Wx.findPathToLn($.value, e);
+		return $x.findPathToLn($.value, e);
 	}
 	function d(e) {
-		return Wx.findPathToLnParentOfExtRef($.value, e);
+		return $x.findPathToLnParentOfExtRef($.value, e);
 	}
 	function f(e) {
-		return Wx.findLnIdOfExtRef($.value, e);
+		return $x.findLnIdOfExtRef($.value, e);
 	}
 	function p(e) {
-		return Wx.findTargetLnOptionsForLnode($.value, e);
+		return $x.findTargetLnOptionsForLnode($.value, e);
 	}
 	function m(e) {
-		return Wx.findLnForLnode($.value, e);
+		return $x.findLnForLnode($.value, e);
 	}
 	function h(e) {
-		return Wx.findExtRefByUuid($.value, e);
+		return $x.findExtRefByUuid($.value, e);
 	}
 	function g(e, t) {
-		return Wx.findExtRefOptionsForLn($.value, e, t);
+		return $x.findExtRefOptionsForLn($.value, e, t);
 	}
 	function _(e, t) {
-		return Wx.findExtRefOptionsForSubscriberIed($.value, e, t);
+		return $x.findExtRefOptionsForSubscriberIed($.value, e, t);
 	}
 	function v(e, t, n, r) {
-		return Wx.findControlBlockOptionsForLn($.value, e, t, n, r);
+		return $x.findControlBlockOptionsForLn($.value, e, t, n, r);
 	}
 	function y(e, t, n) {
-		return Wx.findAutoProposedControlBlockId($.value, e, t, n);
+		return $x.findAutoProposedControlBlockId($.value, e, t, n);
 	}
 	function b(e, t, n, r) {
-		return Wx.findControlBlockOptionsForImplementation($.value, e, t, n, r);
+		return $x.findControlBlockOptionsForImplementation($.value, e, t, n, r);
 	}
 	return {
 		implementDataflow: e,
@@ -64644,10 +65055,10 @@ var VS = { class: "grid grid-cols-2 gap-4" }, HS = {
 		findControlBlockOptionsForImplementation: b,
 		findAutoProposedControlBlockId: y
 	};
-}), yw = "--color-success", bw = "--color-ocean-gray-200", xw = "--color-warning", Sw = "--color-info", Cw = { class: "grid grid-cols-[1fr_20px_0.5fr_20px_1fr] w-full grid-rows-[50px_50px_80px]" }, ww = { class: "col-start-1 col-span-2 self-end justify-self-center row-start-1 text-center text-xs px-5" }, Tw = { class: "col-start-1 col-span-2 self-center justify-self-center row-start-2 text-center" }, Ew = { class: "col-start-4 col-span-2 self-end justify-self-center row-start-1 text-center text-xs px-5" }, Dw = { class: "col-start-4 col-span-2 self-center justify-self-center row-start-2 text-center" }, Ow = { class: "col-span-full row-start-3" }, kw = { class: "grid grid-cols-[1fr_20px_0.5fr_20px_1fr] h-[50px]" }, Aw = { class: "col-start-1 col-span-1 self-center justify-self-end" }, jw = { class: "border-2 border-(--color-ocean-gray-100) px-2 py-1 mr-2 rounded-sm" }, Mw = {
+}), Vw = "--color-success", Hw = "--color-ocean-gray-200", Uw = "--color-warning", Ww = "--color-info", Gw = { class: "grid grid-cols-[1fr_20px_0.5fr_20px_1fr] w-full grid-rows-[50px_50px_80px]" }, Kw = { class: "col-start-1 col-span-2 self-end justify-self-center row-start-1 text-center text-xs px-5" }, qw = { class: "col-start-1 col-span-2 self-center justify-self-center row-start-2 text-center" }, Jw = { class: "col-start-4 col-span-2 self-end justify-self-center row-start-1 text-center text-xs px-5" }, Yw = { class: "col-start-4 col-span-2 self-center justify-self-center row-start-2 text-center" }, Xw = { class: "col-span-full row-start-3" }, Zw = { class: "grid grid-cols-[1fr_20px_0.5fr_20px_1fr] h-[50px]" }, Qw = { class: "col-start-1 col-span-1 self-center justify-self-end" }, $w = { class: "border-2 border-(--color-ocean-gray-100) px-2 py-1 mr-2 rounded-sm" }, eT = {
 	key: 0,
 	class: "bg-(--color-primary) text-white col-start-3 self-center justify-self-center z-1 p-1 rounded-sm text-sm row-start-1"
-}, Nw = { class: "col-start-5 col-span-1 self-center justify-self-start" }, Pw = { class: "border-2 border-(--color-ocean-gray-100) px-2 py-1 mr-2 rounded-sm" }, Fw = /* @__PURE__ */ ei({
+}, tT = { class: "col-start-5 col-span-1 self-center justify-self-start" }, nT = { class: "border-2 border-(--color-ocean-gray-100) px-2 py-1 mr-2 rounded-sm" }, rT = /* @__PURE__ */ ei({
 	__name: "single-dataflow-line",
 	props: {
 		sourceSecondaryLabel: {},
@@ -64659,47 +65070,47 @@ var VS = { class: "grid grid-cols-2 gap-4" }, HS = {
 		subscriberPortLabels: {}
 	},
 	setup(e) {
-		return (t, n) => (U(), W("div", Cw, [
+		return (t, n) => (U(), W("div", Gw, [
 			n[2] ||= G("div", { class: "col-start-1 col-span-2 row-span-full bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-ocean-gray-100) border-2" }, null, -1),
-			G("div", ww, A(e.sourceSecondaryLabel), 1),
-			G("div", Tw, A(e.sourcePrimaryLabel), 1),
+			G("div", Kw, A(e.sourceSecondaryLabel), 1),
+			G("div", qw, A(e.sourcePrimaryLabel), 1),
 			n[3] ||= G("div", { class: "col-start-4 col-span-2 row-span-full bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-ocean-gray-100) border-2" }, null, -1),
-			G("div", Ew, A(e.subscriberSecondaryLabel), 1),
-			G("div", Dw, A(e.subscriberPrimaryLabel), 1),
-			G("div", Ow, [G("div", kw, [
-				G("div", Aw, [(U(!0), W(H, null, V(e.sourcePortLabels, (e) => (U(), W("span", jw, A(e), 1))), 256))]),
+			G("div", Jw, A(e.subscriberSecondaryLabel), 1),
+			G("div", Yw, A(e.subscriberPrimaryLabel), 1),
+			G("div", Xw, [G("div", Zw, [
+				G("div", Qw, [(U(!0), W(H, null, V(e.sourcePortLabels, (e) => (U(), W("span", $w, A(e), 1))), 256))]),
 				n[0] ||= gs("<div class=\"rounded-full w-[20px] h-[20px] col-start-2 col-span-1 self-center justify-self-end -mr-[9px] bg-(--color-ocean-gray-100)\"></div><div class=\"col-start-3 col-span-1 row-start-1 flex items-center\"><div class=\"border h-[2px] w-full border-(--color-ocean-gray-100) border-solid\"></div></div><svg height=\"12\" width=\"8\" class=\"col-start-3 col-span-1 self-center justify-self-end mr-[9px] row-start-1\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"0,0 8,6 0,12\" style=\"fill:var(--color-ocean-gray-100);\"></polygon></svg>", 3),
-				e.dataflowType ? (U(), W("div", Mw, A(e.dataflowType), 1)) : q("", !0),
+				e.dataflowType ? (U(), W("div", eT, A(e.dataflowType), 1)) : q("", !0),
 				n[1] ||= G("div", { class: "rounded-full w-[20px] h-[20px] col-start-4 col-span-1 self-center justify-self-start -ml-[9px] bg-(--color-ocean-gray-100)" }, null, -1),
-				G("div", Nw, [(U(!0), W(H, null, V(e.subscriberPortLabels, (e) => (U(), W("span", Pw, A(e), 1))), 256))])
+				G("div", tT, [(U(!0), W(H, null, V(e.subscriberPortLabels, (e) => (U(), W("span", nT, A(e), 1))), 256))])
 			])])
 		]));
 	}
-}), Iw = new Intl.Collator("en", {
+}), iT = new Intl.Collator("en", {
 	numeric: !0,
 	sensitivity: "base"
-}), Lw = new Map([["TCTR", 0], ["TVTR", 1]]), Rw = new Map([["AmpSv", 0], ["VolSv", 1]]), zw = new Map([
+}), aT = new Map([["TCTR", 0], ["TVTR", 1]]), oT = new Map([["AmpSv", 0], ["VolSv", 1]]), sT = new Map([
 	["instMag.i", 0],
 	["instMag.f", 1],
 	["q", 2]
 ]);
-function Bw(e, t, n) {
+function cT(e, t, n) {
 	let r = n.get(e ?? ""), i = n.get(t ?? "");
-	return r !== void 0 && i !== void 0 ? r - i : r === void 0 ? i === void 0 ? Iw.compare(e ?? "", t ?? "") : 1 : -1;
+	return r !== void 0 && i !== void 0 ? r - i : r === void 0 ? i === void 0 ? iT.compare(e ?? "", t ?? "") : 1 : -1;
 }
-function Vw(e, t) {
-	let n = Bw(e.lnClass, t.lnClass, Lw), r = Iw.compare(e.prefix ?? "", t.prefix ?? ""), i = Iw.compare(e.lnInst ?? "", t.lnInst ?? ""), a = Bw(e.doName, t.doName, Rw), o = Bw(e.daName, t.daName, zw);
+function lT(e, t) {
+	let n = cT(e.lnClass, t.lnClass, aT), r = iT.compare(e.prefix ?? "", t.prefix ?? ""), i = iT.compare(e.lnInst ?? "", t.lnInst ?? ""), a = cT(e.doName, t.doName, oT), o = cT(e.daName, t.daName, sT);
 	return n || r || i || a || o;
 }
-function Hw(e) {
-	return e.toSorted(Vw);
+function uT(e) {
+	return e.toSorted(lT);
 }
 //#endregion
 //#region src/implementation/components/implemented-dataflow-details.vue?vue&type=script&setup=true&lang.ts
-var Uw = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-ocean-gray-100) border-2 p-3" }, Ww = { class: "flex items-center justify-center gap-2 mb-4" }, Gw = { class: "text-xs" }, Kw = { class: "flex flex-col justify-between gap-4" }, qw = { class: "flex-1 bg-(--color-ocean-gray-50) rounded-xl border-(--color-ocean-gray-100) border-2 p-3" }, Jw = { class: "text-center mb-4" }, Yw = { key: 0 }, Xw = { class: "grid grid-cols-[max-content_auto] gap-x-2" }, Zw = { class: "collapse collapse-arrow mt-2" }, Qw = { class: "collapse-content text-sm px-5 pt-1" }, $w = { class: "list-disc pl-4" }, eT = { key: 0 }, tT = { key: 0 }, nT = { class: "collapse collapse-arrow mt-2" }, rT = { class: "collapse-content text-sm px-5 pt-1" }, iT = { class: "grid grid-cols-[max-content_auto] gap-x-2 [&>dt]:text-right" }, aT = { key: 1 }, oT = { class: "grid grid-cols-[max-content_auto] gap-x-2" }, sT = { class: "collapse collapse-arrow mt-2" }, cT = { class: "collapse-content text-sm px-5 pt-1" }, lT = { class: "grid grid-cols-[max-content_auto] gap-x-2 [&>dt]:text-right" }, uT = { class: "collapse collapse-arrow mt-2" }, dT = { class: "collapse-content text-sm px-5 pt-1" }, fT = { class: "list-disc pl-4" }, pT = { key: 0 }, mT = { key: 0 }, hT = { class: "collapse collapse-arrow mt-2" }, gT = { class: "collapse-content text-sm px-5 pt-1" }, _T = { class: "grid grid-cols-[max-content_auto] gap-x-2 [&>dt]:text-right" }, vT = { key: 2 }, yT = { class: "grid grid-cols-[max-content_auto] gap-x-2" }, bT = { class: "collapse collapse-arrow mt-2" }, xT = { class: "collapse-content text-sm px-5 pt-1" }, ST = { class: "grid grid-cols-[max-content_auto] gap-x-2 [&>dt]:text-right" }, CT = { class: "collapse collapse-arrow mt-2" }, wT = { class: "collapse-content text-sm px-5 pt-1" }, TT = { class: "grid grid-cols-[max-content_auto] gap-x-2 [&>dt]:text-right" }, ET = { class: "collapse collapse-arrow mt-2" }, DT = { class: "collapse-content text-sm px-5 pt-1" }, OT = { class: "list-disc pl-4" }, kT = { key: 0 }, AT = { key: 0 }, jT = { class: "flex-1 bg-(--color-ocean-gray-50) rounded-xl border-(--color-ocean-gray-100) border-2 p-3" }, MT = { class: "text-center mb-4" }, NT = { class: "list-disc pl-5" }, PT = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-ocean-gray-100) border-2 p-3 mt-4" }, FT = { class: "flex items-center justify-center gap-2 mb-4" }, IT = { class: "text-xs" }, LT = { class: "flex gap-4" }, RT = { class: "grid grid-cols-[max-content_auto] gap-x-2 flex-1" }, zT = {
+var dT = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-ocean-gray-100) border-2 p-3" }, fT = { class: "flex items-center justify-center gap-2 mb-4" }, pT = { class: "text-xs" }, mT = { class: "flex flex-col justify-between gap-4" }, hT = { class: "flex-1 bg-(--color-ocean-gray-50) rounded-xl border-(--color-ocean-gray-100) border-2 p-3" }, gT = { class: "text-center mb-4" }, _T = { key: 0 }, vT = { class: "grid grid-cols-[max-content_auto] gap-x-2" }, yT = { class: "collapse collapse-arrow mt-2" }, bT = { class: "collapse-content text-sm px-5 pt-1" }, xT = { class: "list-disc pl-4" }, ST = { key: 0 }, CT = { key: 0 }, wT = { class: "collapse collapse-arrow mt-2" }, TT = { class: "collapse-content text-sm px-5 pt-1" }, ET = { class: "grid grid-cols-[max-content_auto] gap-x-2 [&>dt]:text-right" }, DT = { key: 1 }, OT = { class: "grid grid-cols-[max-content_auto] gap-x-2" }, kT = { class: "collapse collapse-arrow mt-2" }, AT = { class: "collapse-content text-sm px-5 pt-1" }, jT = { class: "grid grid-cols-[max-content_auto] gap-x-2 [&>dt]:text-right" }, MT = { class: "collapse collapse-arrow mt-2" }, NT = { class: "collapse-content text-sm px-5 pt-1" }, PT = { class: "list-disc pl-4" }, FT = { key: 0 }, IT = { key: 0 }, LT = { class: "collapse collapse-arrow mt-2" }, RT = { class: "collapse-content text-sm px-5 pt-1" }, zT = { class: "grid grid-cols-[max-content_auto] gap-x-2 [&>dt]:text-right" }, BT = { key: 2 }, VT = { class: "grid grid-cols-[max-content_auto] gap-x-2" }, HT = { class: "collapse collapse-arrow mt-2" }, UT = { class: "collapse-content text-sm px-5 pt-1" }, WT = { class: "grid grid-cols-[max-content_auto] gap-x-2 [&>dt]:text-right" }, GT = { class: "collapse collapse-arrow mt-2" }, KT = { class: "collapse-content text-sm px-5 pt-1" }, qT = { class: "grid grid-cols-[max-content_auto] gap-x-2 [&>dt]:text-right" }, JT = { class: "collapse collapse-arrow mt-2" }, YT = { class: "collapse-content text-sm px-5 pt-1" }, XT = { class: "list-disc pl-4" }, ZT = { key: 0 }, QT = { key: 0 }, $T = { class: "flex-1 bg-(--color-ocean-gray-50) rounded-xl border-(--color-ocean-gray-100) border-2 p-3" }, eE = { class: "text-center mb-4" }, tE = { class: "list-disc pl-5" }, nE = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-ocean-gray-100) border-2 p-3 mt-4" }, rE = { class: "flex items-center justify-center gap-2 mb-4" }, iE = { class: "text-xs" }, aE = { class: "flex gap-4" }, oE = { class: "grid grid-cols-[max-content_auto] gap-x-2 flex-1" }, sE = {
 	key: 0,
 	class: "flex-1 border-l border-(--color-ocean-gray-100) pl-4"
-}, BT = /* @__PURE__ */ ei({
+}, cE = /* @__PURE__ */ ei({
 	__name: "implemented-dataflow-details",
 	props: {
 		controlBlock: {},
@@ -64711,14 +65122,14 @@ var Uw = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-oc
 		extRefLnPath: {}
 	},
 	setup(e) {
-		let t = e, n = vw(), r = /* @__PURE__ */ R(), i = /* @__PURE__ */ R(), a = /* @__PURE__ */ R(), o = /* @__PURE__ */ R(null);
+		let t = e, n = Bw(), r = /* @__PURE__ */ R(), i = /* @__PURE__ */ R(), a = /* @__PURE__ */ R(), o = /* @__PURE__ */ R(null);
 		vr(() => {
 			async function e() {
 				t.extRef.serviceType === Q.GOOSE ? (r.value = await n.findGseControlBlockDetails(t.controlBlock.id), o.value = await n.findSupervisionDetails(t.extRef.id)) : t.extRef.serviceType === Q.SMV ? (i.value = await n.findSmvControlBlockDetails(t.controlBlock.id), o.value = await n.findSupervisionDetails(t.extRef.id)) : t.extRef.serviceType === Q.REPORT && (a.value = await n.findReportControlBlockDetails(t.controlBlock.id));
 			}
 			e();
 		});
-		let s = J(() => t.extRef.serviceType === Q.SMV ? Hw(t.fcdas) : t.fcdas), c = hS(async () => s.value.map((e) => {
+		let s = J(() => t.extRef.serviceType === Q.SMV ? uT(t.fcdas) : t.fcdas), c = wS(async () => s.value.map((e) => {
 			let n = `${e.prefix}${e.lnClass}${e.lnInst}`, r = e.ldInst === t.extRef.ldInst && e.prefix === t.extRef.prefix && e.lnClass === t.extRef.lnClass && e.lnInst === t.extRef.lnInst && e.doName === t.extRef.doName && e.daName === t.extRef.daName;
 			return {
 				...e,
@@ -64731,20 +65142,20 @@ var Uw = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-oc
 				isMatch: r
 			};
 		}), []);
-		return (t, n) => (U(), W(H, null, [G("div", Uw, [G("div", Ww, [n[0] ||= G("span", {
+		return (t, n) => (U(), W(H, null, [G("div", dT, [G("div", fT, [n[0] ||= G("span", {
 			class: "bg-(--color-primary) text-white p-1 rounded-sm text-xs",
 			"data-testid": "source-flag"
-		}, "Source", -1), G("div", Gw, A(e.sourceLnPath), 1)]), G("div", Kw, [G("div", qw, [
-			G("div", Jw, A(e.controlBlock.name), 1),
-			r.value ? (U(), W("div", Yw, [
-				G("dl", Xw, [
+		}, "Source", -1), G("div", pT, A(e.sourceLnPath), 1)]), G("div", mT, [G("div", hT, [
+			G("div", gT, A(e.controlBlock.name), 1),
+			r.value ? (U(), W("div", _T, [
+				G("dl", vT, [
 					n[1] ||= G("dt", null, "App ID:", -1),
 					G("dd", null, A(r.value.appId), 1),
 					n[2] ||= G("dt", null, "ConfRev:", -1),
 					G("dd", null, A(e.controlBlock.confRev), 1)
 				]),
-				G("details", Zw, [n[3] ||= G("summary", { class: "collapse-title after:start-0 after:!top-3 ps-5 p-0" }, " IED Subscribers ", -1), G("div", Qw, [G("ul", $w, [(U(!0), W(H, null, V(r.value.subscribers, (e, t) => (U(), W("li", { key: t }, [hs(A(e.iedName) + " ", 1), e.apRef ? (U(), W("span", eT, " (" + A(e.apRef) + ") ", 1)) : q("", !0)]))), 128)), r.value.subscribers.length === 0 ? (U(), W("li", tT, "No subscribers yet.")) : q("", !0)])])]),
-				G("details", nT, [n[8] ||= G("summary", { class: "collapse-title after:start-0 after:!top-3 ps-5 p-0" }, " Communication ", -1), G("div", rT, [G("dl", iT, [
+				G("details", yT, [n[3] ||= G("summary", { class: "collapse-title after:start-0 after:!top-3 ps-5 p-0" }, " IED Subscribers ", -1), G("div", bT, [G("ul", xT, [(U(!0), W(H, null, V(r.value.subscribers, (e, t) => (U(), W("li", { key: t }, [hs(A(e.iedName) + " ", 1), e.apRef ? (U(), W("span", ST, " (" + A(e.apRef) + ") ", 1)) : q("", !0)]))), 128)), r.value.subscribers.length === 0 ? (U(), W("li", CT, "No subscribers yet.")) : q("", !0)])])]),
+				G("details", wT, [n[8] ||= G("summary", { class: "collapse-title after:start-0 after:!top-3 ps-5 p-0" }, " Communication ", -1), G("div", TT, [G("dl", ET, [
 					n[4] ||= G("dt", null, "MAC Address:", -1),
 					G("dd", null, A(r.value.communicationDetails.macAddress), 1),
 					n[5] ||= G("dt", null, "App ID:", -1),
@@ -64755,8 +65166,8 @@ var Uw = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-oc
 					G("dd", null, A(r.value.communicationDetails.vlanPriority), 1)
 				])])])
 			])) : q("", !0),
-			i.value ? (U(), W("div", aT, [
-				G("dl", oT, [
+			i.value ? (U(), W("div", DT, [
+				G("dl", OT, [
 					n[9] ||= G("dt", null, "SMV ID:", -1),
 					G("dd", null, A(i.value.smvId), 1),
 					n[10] ||= G("dt", null, "ConfRev:", -1),
@@ -64770,7 +65181,7 @@ var Uw = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-oc
 					n[14] ||= G("dt", null, "SmpRate:", -1),
 					G("dd", null, A(i.value.smpRate), 1)
 				]),
-				G("details", sT, [n[21] ||= G("summary", { class: "collapse-title after:start-0 after:!top-3 ps-5 p-0" }, "SmvOpts", -1), G("div", cT, [G("dl", lT, [
+				G("details", kT, [n[21] ||= G("summary", { class: "collapse-title after:start-0 after:!top-3 ps-5 p-0" }, "SmvOpts", -1), G("div", AT, [G("dl", jT, [
 					n[15] ||= G("dt", null, "RefreshTime:", -1),
 					G("dd", null, A(i.value.smvOpts.refreshTime), 1),
 					n[16] ||= G("dt", null, "SampleSynchronized:", -1),
@@ -64784,8 +65195,8 @@ var Uw = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-oc
 					n[20] ||= G("dt", null, "SynchSourceId:", -1),
 					G("dd", null, A(i.value.smvOpts.synchSourceId), 1)
 				])])]),
-				G("details", uT, [n[22] ||= G("summary", { class: "collapse-title after:start-0 after:!top-3 ps-5 p-0" }, " IED Subscribers ", -1), G("div", dT, [G("ul", fT, [(U(!0), W(H, null, V(i.value.subscribers, (e, t) => (U(), W("li", { key: t }, [hs(A(e.iedName) + " ", 1), e.apRef ? (U(), W("span", pT, " (" + A(e.apRef) + ") ", 1)) : q("", !0)]))), 128)), i.value.subscribers.length === 0 ? (U(), W("li", mT, "No subscribers yet.")) : q("", !0)])])]),
-				G("details", hT, [n[27] ||= G("summary", { class: "collapse-title after:start-0 after:!top-3 ps-5 p-0" }, " Communication ", -1), G("div", gT, [G("dl", _T, [
+				G("details", MT, [n[22] ||= G("summary", { class: "collapse-title after:start-0 after:!top-3 ps-5 p-0" }, " IED Subscribers ", -1), G("div", NT, [G("ul", PT, [(U(!0), W(H, null, V(i.value.subscribers, (e, t) => (U(), W("li", { key: t }, [hs(A(e.iedName) + " ", 1), e.apRef ? (U(), W("span", FT, " (" + A(e.apRef) + ") ", 1)) : q("", !0)]))), 128)), i.value.subscribers.length === 0 ? (U(), W("li", IT, "No subscribers yet.")) : q("", !0)])])]),
+				G("details", LT, [n[27] ||= G("summary", { class: "collapse-title after:start-0 after:!top-3 ps-5 p-0" }, " Communication ", -1), G("div", RT, [G("dl", zT, [
 					n[23] ||= G("dt", null, "MAC Address:", -1),
 					G("dd", null, A(i.value.communicationDetails.macAddress), 1),
 					n[24] ||= G("dt", null, "App ID:", -1),
@@ -64796,8 +65207,8 @@ var Uw = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-oc
 					G("dd", null, A(i.value.communicationDetails.vlanPriority), 1)
 				])])])
 			])) : q("", !0),
-			a.value ? (U(), W("div", vT, [
-				G("dl", yT, [
+			a.value ? (U(), W("div", BT, [
+				G("dl", VT, [
 					n[28] ||= G("dt", null, "RPT ID:", -1),
 					G("dd", null, A(a.value.rptId), 1),
 					n[29] ||= G("dt", null, "ConfRev:", -1),
@@ -64805,7 +65216,7 @@ var Uw = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-oc
 					n[30] ||= G("dt", null, "Buffered:", -1),
 					G("dd", null, A(a.value.buffered), 1)
 				]),
-				G("details", bT, [n[36] ||= G("summary", { class: "collapse-title after:start-0 after:!top-3 ps-5 p-0" }, "TrgOps", -1), G("div", xT, [G("dl", ST, [
+				G("details", HT, [n[36] ||= G("summary", { class: "collapse-title after:start-0 after:!top-3 ps-5 p-0" }, "TrgOps", -1), G("div", UT, [G("dl", WT, [
 					n[31] ||= G("dt", null, "Dchg:", -1),
 					G("dd", null, A(a.value.trgOps.dchg), 1),
 					n[32] ||= G("dt", null, "Dupd:", -1),
@@ -64817,7 +65228,7 @@ var Uw = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-oc
 					n[35] ||= G("dt", null, "Qchg:", -1),
 					G("dd", null, A(a.value.trgOps.qchg), 1)
 				])])]),
-				G("details", CT, [n[45] ||= G("summary", { class: "collapse-title after:start-0 after:!top-3 ps-5 p-0" }, "OptFields", -1), G("div", wT, [G("dl", TT, [
+				G("details", GT, [n[45] ||= G("summary", { class: "collapse-title after:start-0 after:!top-3 ps-5 p-0" }, "OptFields", -1), G("div", KT, [G("dl", qT, [
 					n[37] ||= G("dt", null, "BufOvfl:", -1),
 					G("dd", null, A(a.value.optFields.bufOvfl), 1),
 					n[38] ||= G("dt", null, "ConfigRef:", -1),
@@ -64835,15 +65246,15 @@ var Uw = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-oc
 					n[44] ||= G("dt", null, "TimeStamp:", -1),
 					G("dd", null, A(a.value.optFields.timeStamp), 1)
 				])])]),
-				G("details", ET, [n[46] ||= G("summary", { class: "collapse-title after:start-0 after:!top-3 ps-5 p-0" }, " IED Subscribers ", -1), G("div", DT, [G("ul", OT, [(U(!0), W(H, null, V(a.value.subscribers, (e, t) => (U(), W("li", { key: t }, [hs(A(e.iedName) + "/" + A(e.ldInst) + "/" + A(e.prefix) + A(e.lnClass) + A(e.lnInst) + " ", 1), e.apRef ? (U(), W("span", kT, " (" + A(e.apRef) + ") ", 1)) : q("", !0)]))), 128)), a.value.subscribers.length === 0 ? (U(), W("li", AT, " No subscribers yet. ")) : q("", !0)])])])
+				G("details", JT, [n[46] ||= G("summary", { class: "collapse-title after:start-0 after:!top-3 ps-5 p-0" }, " IED Subscribers ", -1), G("div", YT, [G("ul", XT, [(U(!0), W(H, null, V(a.value.subscribers, (e, t) => (U(), W("li", { key: t }, [hs(A(e.iedName) + "/" + A(e.ldInst) + "/" + A(e.prefix) + A(e.lnClass) + A(e.lnInst) + " ", 1), e.apRef ? (U(), W("span", ZT, " (" + A(e.apRef) + ") ", 1)) : q("", !0)]))), 128)), a.value.subscribers.length === 0 ? (U(), W("li", QT, " No subscribers yet. ")) : q("", !0)])])])
 			])) : q("", !0)
-		]), G("div", jT, [G("div", MT, A(e.dataSet.name), 1), G("ul", NT, [(U(!0), W(H, null, V(z(c), (e) => (U(), W("li", {
+		]), G("div", $T, [G("div", eE, A(e.dataSet.name), 1), G("ul", tE, [(U(!0), W(H, null, V(z(c), (e) => (U(), W("li", {
 			key: e.id,
 			class: k({ "font-bold": e.isMatch })
-		}, A(`${e.displayLabel} (fc: ${e.displayFc})`), 3))), 128))])])])]), G("div", PT, [G("div", FT, [n[47] ||= G("span", {
+		}, A(`${e.displayLabel} (fc: ${e.displayFc})`), 3))), 128))])])])]), G("div", nE, [G("div", rE, [n[47] ||= G("span", {
 			class: "bg-(--color-primary) text-white p-1 rounded-sm text-xs",
 			"data-testid": "target-flag"
-		}, "Target", -1), G("div", IT, A(e.subscriberLnPath), 1)]), G("div", LT, [G("dl", RT, [
+		}, "Target", -1), G("div", iE, A(e.subscriberLnPath), 1)]), G("div", aE, [G("dl", oE, [
 			n[48] ||= G("dt", null, "ExtRef location:", -1),
 			G("dd", null, A(e.extRefLnPath), 1),
 			n[49] ||= G("dt", null, "intAddr:", -1),
@@ -64858,16 +65269,16 @@ var Uw = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-oc
 			G("dd", null, A(e.extRef.pDo || "-"), 1),
 			n[54] ||= G("dt", null, "pDA:", -1),
 			G("dd", null, A(e.extRef.pDa || "-"), 1)
-		]), o.value ? (U(), W("div", zT, [n[55] ||= G("div", null, "Supervision:", -1), G("div", null, A(o.value.ldInst) + "/" + A(o.value.prefix) + A(o.value.lnClass) + A(o.value.lnInst) + " → " + A(o.value.val), 1)])) : q("", !0)])])], 64));
+		]), o.value ? (U(), W("div", sE, [n[55] ||= G("div", null, "Supervision:", -1), G("div", null, A(o.value.ldInst) + "/" + A(o.value.prefix) + A(o.value.lnClass) + A(o.value.lnInst) + " → " + A(o.value.val), 1)])) : q("", !0)])])], 64));
 	}
-}), VT = /* @__PURE__ */ ei({
+}), lE = /* @__PURE__ */ ei({
 	__name: "implemented-dataflow-view",
 	props: {
 		connection: {},
 		extRef: {}
 	},
 	setup(e) {
-		let t = e, n = vw(), r = fx(), i = hS(async () => t.extRef.srcCbName ? await n.findControlBlock(t.extRef.iedName, t.extRef.srcLdInst, t.extRef.srcCbName) : null, null), a = hS(async () => !i.value || t.extRef.srcCbName !== i.value.name ? null : (X(t.extRef?.serviceType, "Dataflow Type is undefined"), await n.findDataSetOfControlBlock(i.value.id, t.extRef.serviceType)), null), o = hS(async () => a.value ? await n.findFcdasForDataSet(a.value.id) : [], []), s = hS(async () => t.connection ? (X(t.connection.sourceLnodeId, "Source LNode Id is undefined"), await r.generatePathForLnode(t.connection.sourceLnodeId)) : "", ""), c = J(() => s.value.split("/").slice(-1).join("")), l = J(() => s.value.split("/").slice(0, -1).join("/")), u = hS(async () => t.connection ? await r.generatePathForLnode(t.connection.subscriberLnodeId) : "", ""), d = J(() => u.value.split("/").slice(-1).join("")), f = J(() => u.value.split("/").slice(0, -1).join("/")), p = J(() => `${t.extRef.iedName}/${t.extRef.ldInst}`), m = J(() => `${t.extRef.prefix ?? ""}${t.extRef.lnClass}${t.extRef.lnInst ?? ""}`), h = J(() => p.value + "/" + m.value), g = hS(async () => await n.findPathToLnParentOfExtRef(t.extRef.id), ""), _ = hS(async () => {
+		let t = e, n = Bw(), r = xx(), i = wS(async () => t.extRef.srcCbName ? await n.findControlBlock(t.extRef.iedName, t.extRef.srcLdInst, t.extRef.srcCbName) : null, null), a = wS(async () => !i.value || t.extRef.srcCbName !== i.value.name ? null : (X(t.extRef?.serviceType, "Dataflow Type is undefined"), await n.findDataSetOfControlBlock(i.value.id, t.extRef.serviceType)), null), o = wS(async () => a.value ? await n.findFcdasForDataSet(a.value.id) : [], []), s = wS(async () => t.connection ? (X(t.connection.sourceLnodeId, "Source LNode Id is undefined"), await r.generatePathForLnode(t.connection.sourceLnodeId)) : "", ""), c = J(() => s.value.split("/").slice(-1).join("")), l = J(() => s.value.split("/").slice(0, -1).join("/")), u = wS(async () => t.connection ? await r.generatePathForLnode(t.connection.subscriberLnodeId) : "", ""), d = J(() => u.value.split("/").slice(-1).join("")), f = J(() => u.value.split("/").slice(0, -1).join("/")), p = J(() => `${t.extRef.iedName}/${t.extRef.ldInst}`), m = J(() => `${t.extRef.prefix ?? ""}${t.extRef.lnClass}${t.extRef.lnInst ?? ""}`), h = J(() => p.value + "/" + m.value), g = wS(async () => await n.findPathToLnParentOfExtRef(t.extRef.id), ""), _ = wS(async () => {
 			if (t.connection) {
 				let e = await r.findLnRecordForLnode(t.connection.subscriberLnodeId);
 				return X(e, "Subscriber LNode record not found"), await n.findPathToLn(e.id);
@@ -64879,7 +65290,7 @@ var Uw = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-oc
 		});
 		return (t, n) => (U(), W(H, null, [
 			n[1] ||= G("h2", { class: "font-bold text-lg mb-4" }, "Implemented Dataflow Details", -1),
-			e.connection ? (U(), W(H, { key: 0 }, [n[0] ||= G("h3", { class: "mb-4" }, "Specification:", -1), K(Fw, {
+			e.connection ? (U(), W(H, { key: 0 }, [n[0] ||= G("h3", { class: "mb-4" }, "Specification:", -1), K(rT, {
 				sourceSecondaryLabel: l.value,
 				sourcePrimaryLabel: c.value,
 				subscriberSecondaryLabel: f.value,
@@ -64898,7 +65309,7 @@ var Uw = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-oc
 				"subscriberPortLabels"
 			])], 64)) : q("", !0),
 			n[2] ||= G("h3", { class: "mb-4" }, "Implementation:", -1),
-			K(Fw, {
+			K(rT, {
 				sourceSecondaryLabel: p.value,
 				sourcePrimaryLabel: m.value,
 				subscriberSecondaryLabel: v.value,
@@ -64916,7 +65327,7 @@ var Uw = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-oc
 				"sourcePortLabels",
 				"subscriberPortLabels"
 			]),
-			z(i) && z(a) ? (U(), os(BT, {
+			z(i) && z(a) ? (U(), os(cE, {
 				key: 1,
 				controlBlock: z(i),
 				dataSet: z(a),
@@ -64936,11 +65347,11 @@ var Uw = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-oc
 			])) : q("", !0)
 		], 64));
 	}
-}), HT = {
+}), uE = {
 	key: 0,
 	role: "alert",
 	class: "alert alert-soft alert-error"
-}, UT = { class: "flex items-center" }, WT = { class: "flex items-center" }, GT = { key: 0 }, KT = ["label"], qT = ["value"], JT = { key: 1 }, YT = ["value"], XT = { class: "flex items-center" }, ZT = ["disabled"], QT = { class: "flex items-center" }, $T = { key: 2 }, eE = ["label"], tE = ["value", "disabled"], nE = { key: 3 }, rE = { class: "modal-action" }, iE = /* @__PURE__ */ gS(/* @__PURE__ */ ei({
+}, dE = { class: "flex items-center" }, fE = { class: "flex items-center" }, pE = { key: 0 }, mE = ["label"], hE = ["value"], gE = { key: 1 }, _E = ["value"], vE = { class: "flex items-center" }, yE = ["disabled"], bE = { class: "flex items-center" }, xE = { key: 2 }, SE = ["label"], CE = ["value", "disabled"], wE = { key: 3 }, TE = { class: "modal-action" }, EE = /* @__PURE__ */ TS(/* @__PURE__ */ ei({
 	__name: "implement-dataflow-view",
 	props: {
 		connection: {},
@@ -64948,14 +65359,14 @@ var Uw = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-oc
 		onSuccess: { type: Function }
 	},
 	setup(e) {
-		let t = e, n = JE(), r = aS(), i = vw(), a = fx(), { lnodes: o, lnodeTypes: s } = Ku(a), c = /* @__PURE__ */ R(!0), l = /* @__PURE__ */ R(""), u = /* @__PURE__ */ R(""), d = /* @__PURE__ */ R("auto"), f = /* @__PURE__ */ R(""), p = J(() => {
+		let t = e, n = gD(), r = mS(), i = Bw(), a = xx(), { lnodes: o, lnodeTypes: s } = Ku(a), c = /* @__PURE__ */ R(!0), l = /* @__PURE__ */ R(""), u = /* @__PURE__ */ R(""), d = /* @__PURE__ */ R("auto"), f = /* @__PURE__ */ R(""), p = J(() => {
 			let e = o.value.find((e) => e.id === t.connection.sourceLnodeId);
 			return X(e, "Source LNode not found"), e;
 		}), m = J(() => !(t.connection.notPossibleToImplement || !t.extRef && c.value && !l.value || !t.extRef && !c.value && !u.value || d.value === "select" && !f.value)), h = J(() => {
 			if (t.extRef) return !0;
 			if (c.value) return !!l.value;
 			if (!c.value) return !!u.value;
-		}), g = hS(async () => {
+		}), g = wS(async () => {
 			if (!h.value) return null;
 			let e = u.value;
 			if (!e) {
@@ -64963,16 +65374,16 @@ var Uw = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-oc
 				X(t, "ExtRef ID is undefined"), e = await i.findLnIdOfExtRef(t);
 			}
 			return X(e, "LN Subscriber record ID is undefined"), X(t.connection.sourceLnodeId, "Source LNode ID is undefined"), X(t.connection.dataflowType, "Dataflow type is undefined"), await i.findAutoProposedControlBlockId(t.connection.sourceLnodeId, t.connection.dataflowType, e);
-		}, null), _ = hS(async () => (X(t.connection.sourceLnodeId, "Source LNode Id is undefined"), X(t.connection.dataflowType, "Dataflow type is undefined"), await i.findControlBlockOptionsForImplementation(t.connection.sourceLnodeId, t.connection.dataflowType, t.connection.sourceDataObject, t.connection.sourceDataAttribute)), []), v = J(() => {
+		}, null), _ = wS(async () => (X(t.connection.sourceLnodeId, "Source LNode Id is undefined"), X(t.connection.dataflowType, "Dataflow type is undefined"), await i.findControlBlockOptionsForImplementation(t.connection.sourceLnodeId, t.connection.dataflowType, t.connection.sourceDataObject, t.connection.sourceDataAttribute)), []), v = J(() => {
 			let e = {};
 			for (let t of _.value) e[t.ldPath] || (e[t.ldPath] = []), e[t.ldPath].push(t);
 			return e;
-		}), y = hS(async () => t.extRef || c.value ? [] : await i.findTargetLnOptionsForLnode(t.connection.subscriberLnodeId), []), b = hS(async () => t.extRef ? {} : await i.findExtRefOptionsForSubscriberIed(t.connection.subscriberLnodeId, {
+		}), y = wS(async () => t.extRef || c.value ? [] : await i.findTargetLnOptionsForLnode(t.connection.subscriberLnodeId), []), b = wS(async () => t.extRef ? {} : await i.findExtRefOptionsForSubscriberIed(t.connection.subscriberLnodeId, {
 			dataflowType: t.connection.dataflowType,
 			sourceLnClass: p.value.lnClass,
 			sourceDataObject: t.connection.sourceDataObject,
 			sourceDataAttribute: t.connection.sourceDataAttribute
-		}), {}), x = hS(async () => (X(t.connection.sourceLnodeId, "Source LNode Id is undefined"), await a.generatePathForLnode(t.connection.sourceLnodeId)), ""), S = J(() => x.value.split("/").slice(-1).join("")), C = J(() => x.value.split("/").slice(0, -1).join("/")), ee = hS(async () => await a.generatePathForLnode(t.connection.subscriberLnodeId), ""), w = J(() => ee.value.split("/").slice(-1).join("")), te = J(() => ee.value?.split("/").slice(0, -1).join("/")), T = J(() => `${p.value.iedName}/${p.value.ldInst}`), ne = J(() => `${p.value.prefix}${p.value.lnClass}${p.value.lnInst}`), re = hS(async () => {
+		}), {}), x = wS(async () => (X(t.connection.sourceLnodeId, "Source LNode Id is undefined"), await a.generatePathForLnode(t.connection.sourceLnodeId)), ""), S = J(() => x.value.split("/").slice(-1).join("")), C = J(() => x.value.split("/").slice(0, -1).join("/")), ee = wS(async () => await a.generatePathForLnode(t.connection.subscriberLnodeId), ""), w = J(() => ee.value.split("/").slice(-1).join("")), te = J(() => ee.value?.split("/").slice(0, -1).join("/")), T = J(() => `${p.value.iedName}/${p.value.ldInst}`), ne = J(() => `${p.value.prefix}${p.value.lnClass}${p.value.lnInst}`), re = wS(async () => {
 			let e = await i.findLnForLnode(t.connection.subscriberLnodeId);
 			return X(e, "Subscriber LN record not found"), u.value ||= e.id, e.path;
 		}, ""), ie = J(() => re.value.split("/").slice(0, -1).join("/")), ae = J(() => re.value.split("/").slice(-1).join(""));
@@ -65007,9 +65418,9 @@ var Uw = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-oc
 			method: "dialog",
 			onSubmit: Jl(oe, ["prevent"]),
 			class: "flex flex-col gap-4"
-		}, [n[23] ||= G("h2", { class: "font-bold text-lg" }, "Implement Dataflow", -1), e.connection.notPossibleToImplement ? (U(), W("div", HT, [G("span", null, A(e.connection.dataflowType === z(Q).INTERNAL ? "Internal dataflows cannot be implemented." : "Source or subscriber LNode is not mapped to a real IED."), 1)])) : (U(), W(H, { key: 1 }, [
+		}, [n[23] ||= G("h2", { class: "font-bold text-lg" }, "Implement Dataflow", -1), e.connection.notPossibleToImplement ? (U(), W("div", uE, [G("span", null, A(e.connection.dataflowType === z(Q).INTERNAL ? "Internal dataflows cannot be implemented." : "Source or subscriber LNode is not mapped to a real IED."), 1)])) : (U(), W(H, { key: 1 }, [
 			n[22] ||= G("h3", { class: "mb-4" }, "Specification:", -1),
-			K(Fw, {
+			K(rT, {
 				sourceSecondaryLabel: C.value,
 				sourcePrimaryLabel: S.value,
 				subscriberSecondaryLabel: te.value,
@@ -65028,7 +65439,7 @@ var Uw = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-oc
 			]),
 			e.extRef ? (U(), W(H, { key: 0 }, [
 				n[7] ||= G("h3", { class: "mb-4" }, "Implementation:", -1),
-				K(Fw, {
+				K(rT, {
 					sourceSecondaryLabel: T.value,
 					sourcePrimaryLabel: ne.value,
 					subscriberSecondaryLabel: ie.value,
@@ -65051,7 +65462,7 @@ var Uw = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-oc
 				}, [G("span", null, "Automatically found matching ExtRef.")], -1)
 			], 64)) : (U(), W(H, { key: 1 }, [
 				n[14] ||= G("h3", { class: "mb-4" }, "Implementation:", -1),
-				K(Fw, {
+				K(rT, {
 					sourceSecondaryLabel: T.value,
 					sourcePrimaryLabel: ne.value,
 					subscriberSecondaryLabel: ie.value,
@@ -65071,7 +65482,7 @@ var Uw = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-oc
 				}, [G("span", null, "No automatically matching ExtRef found.")], -1),
 				G("fieldset", null, [
 					n[11] ||= G("legend", { class: "font-bold" }, "ExtRef", -1),
-					G("div", UT, [B(G("input", {
+					G("div", dE, [B(G("input", {
 						type: "radio",
 						id: "dataflow-existing-extref",
 						name: "dataflow-extref-mode",
@@ -65079,7 +65490,7 @@ var Uw = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-oc
 						value: !0,
 						class: "radio radio-sm mr-2"
 					}, null, 512), [[Ll, c.value]]), n[9] ||= G("label", { for: "dataflow-existing-extref" }, "Select existing", -1)]),
-					G("div", WT, [B(G("input", {
+					G("div", fE, [B(G("input", {
 						type: "radio",
 						id: "dataflow-new-extref",
 						name: "dataflow-extref-mode",
@@ -65088,7 +65499,7 @@ var Uw = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-oc
 						class: "radio radio-sm mr-2"
 					}, null, 512), [[Ll, c.value]]), n[10] ||= G("label", { for: "dataflow-new-extref" }, "Create new", -1)])
 				]),
-				c.value ? (U(), W("div", GT, [B(G("select", {
+				c.value ? (U(), W("div", pE, [B(G("select", {
 					class: "select w-lg",
 					"onUpdate:modelValue": n[2] ||= (e) => l.value = e
 				}, [n[12] ||= G("option", {
@@ -65101,7 +65512,7 @@ var Uw = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-oc
 				}, [(U(!0), W(H, null, V(e, (e) => (U(), W("option", {
 					key: e.extRefId,
 					value: e.extRefId
-				}, A(e.label), 9, qT))), 128))], 8, KT))), 128))], 512), [[Rl, l.value]])])) : (U(), W("div", JT, [B(G("select", {
+				}, A(e.label), 9, hE))), 128))], 8, mE))), 128))], 512), [[Rl, l.value]])])) : (U(), W("div", gE, [B(G("select", {
 					class: "select w-lg",
 					"onUpdate:modelValue": n[3] ||= (e) => u.value = e
 				}, [n[13] ||= G("option", {
@@ -65110,11 +65521,11 @@ var Uw = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-oc
 				}, "Select target LN", -1), (U(!0), W(H, null, V(z(y), (e) => (U(), W("option", {
 					key: e.id,
 					value: e.id
-				}, A(e.path), 9, YT))), 128))], 512), [[Rl, u.value]])]))
+				}, A(e.path), 9, _E))), 128))], 512), [[Rl, u.value]])]))
 			], 64)),
 			G("fieldset", null, [
 				n[18] ||= G("legend", { class: "font-bold" }, "ControlBlock & DataSet", -1),
-				G("div", XT, [B(G("input", {
+				G("div", vE, [B(G("input", {
 					type: "radio",
 					id: "dataflow-auto-cb",
 					name: "dataflow-cb-mode",
@@ -65122,8 +65533,8 @@ var Uw = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-oc
 					value: "auto",
 					disabled: !!z(g),
 					class: "radio radio-sm mr-2"
-				}, null, 8, ZT), [[Ll, d.value]]), n[16] ||= G("label", { for: "dataflow-auto-cb" }, "Automatically create", -1)]),
-				G("div", QT, [B(G("input", {
+				}, null, 8, yE), [[Ll, d.value]]), n[16] ||= G("label", { for: "dataflow-auto-cb" }, "Automatically create", -1)]),
+				G("div", bE, [B(G("input", {
 					type: "radio",
 					id: "dataflow-select-cb",
 					name: "dataflow-cb-mode",
@@ -65132,7 +65543,7 @@ var Uw = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-oc
 					class: "radio radio-sm mr-2"
 				}, null, 512), [[Ll, d.value]]), n[17] ||= G("label", { for: "dataflow-select-cb" }, "Select existing", -1)])
 			]),
-			d.value === "select" ? (U(), W("div", $T, [B(G("select", {
+			d.value === "select" ? (U(), W("div", xE, [B(G("select", {
 				class: "select w-lg",
 				"onUpdate:modelValue": n[6] ||= (e) => f.value = e
 			}, [n[19] ||= G("option", {
@@ -65145,8 +65556,8 @@ var Uw = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-oc
 				key: e.id,
 				value: e.id,
 				disabled: !e.dataSetName
-			}, A(e.name) + " (DS: " + A(e.dataSetName ?? "no DataSet") + A(e.dataSetName ? ", " + (e.fcdaExists ? "FCDA exists" : "no FCDA") : "") + ") ", 9, tE))), 128))], 8, eE))), 128))], 512), [[Rl, f.value]])])) : (U(), W("div", nE, [...n[20] ||= [G("p", { class: "text-sm text-base-content/60" }, " A new ControlBlock and DataSet will be created automatically. ", -1)]])),
-			G("div", rE, [K(bS, {
+			}, A(e.name) + " (DS: " + A(e.dataSetName ?? "no DataSet") + A(e.dataSetName ? ", " + (e.fcdaExists ? "FCDA exists" : "no FCDA") : "") + ") ", 9, CE))), 128))], 8, SE))), 128))], 512), [[Rl, f.value]])])) : (U(), W("div", wE, [...n[20] ||= [G("p", { class: "text-sm text-base-content/60" }, " A new ControlBlock and DataSet will be created automatically. ", -1)]])),
+			G("div", TE, [K(kS, {
 				type: "submit",
 				disabled: !m.value
 			}, {
@@ -65155,13 +65566,13 @@ var Uw = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-oc
 			}, 8, ["disabled"])])
 		], 64))], 32));
 	}
-}), [["__scopeId", "data-v-c8124502"]]), aE = { class: "flex flex-col gap-4" }, oE = {
+}), [["__scopeId", "data-v-c8124502"]]), DE = { class: "flex flex-col gap-4" }, OE = {
 	key: 0,
 	class: "alert alert-warning alert-soft text-sm"
-}, sE = {
+}, kE = {
 	key: 1,
 	class: "alert alert-error alert-soft text-sm"
-}, cE = { class: "flex flex-col gap-1" }, lE = { class: "flex justify-end gap-2" }, uE = ["disabled"], dE = ["disabled"], fE = /* @__PURE__ */ ei({
+}, AE = { class: "flex flex-col gap-1" }, jE = { class: "flex justify-end gap-2" }, ME = ["disabled"], NE = ["disabled"], PE = /* @__PURE__ */ ei({
 	__name: "delete-confirmation",
 	props: {
 		message: {},
@@ -65169,7 +65580,7 @@ var Uw = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-oc
 		onConfirm: { type: Function }
 	},
 	setup(e) {
-		let t = e, n = JE(), r = /* @__PURE__ */ R(null), i = /* @__PURE__ */ R(!1);
+		let t = e, n = gD(), r = /* @__PURE__ */ R(null), i = /* @__PURE__ */ R(!1);
 		async function a() {
 			r.value = null, i.value = !0;
 			try {
@@ -65180,24 +65591,24 @@ var Uw = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-oc
 				i.value = !1;
 			}
 		}
-		return (t, o) => (U(), W("div", aE, [
+		return (t, o) => (U(), W("div", DE, [
 			o[2] ||= G("h3", { class: "text-lg font-semibold" }, "Confirm deletion", -1),
 			G("p", null, A(e.message), 1),
-			e.warningMessage ? (U(), W("div", oE, [G("span", null, A(e.warningMessage), 1)])) : q("", !0),
-			r.value ? (U(), W("div", sE, [G("div", cE, [o[1] ||= G("span", { class: "font-semibold" }, "Deletion failed:", -1), G("span", null, A(r.value), 1)])])) : q("", !0),
-			G("div", lE, [G("button", {
+			e.warningMessage ? (U(), W("div", OE, [G("span", null, A(e.warningMessage), 1)])) : q("", !0),
+			r.value ? (U(), W("div", kE, [G("div", AE, [o[1] ||= G("span", { class: "font-semibold" }, "Deletion failed:", -1), G("span", null, A(r.value), 1)])])) : q("", !0),
+			G("div", jE, [G("button", {
 				class: "btn btn-ghost",
 				disabled: i.value,
 				onClick: o[0] ||= (...e) => z(n).handleClose && z(n).handleClose(...e)
-			}, " Cancel ", 8, uE), G("button", {
+			}, " Cancel ", 8, ME), G("button", {
 				class: "btn btn-error",
 				disabled: i.value,
 				"data-testid": "df-delete-confirm",
 				onClick: a
-			}, " Delete ", 8, dE)])
+			}, " Delete ", 8, NE)])
 		]));
 	}
-}), pE = { class: "modal-action" }, mE = /* @__PURE__ */ ei({
+}), FE = { class: "modal-action" }, IE = /* @__PURE__ */ ei({
 	__name: "unimplement-dataflow-view",
 	props: {
 		connection: {},
@@ -65205,7 +65616,7 @@ var Uw = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-oc
 		confirmUnimplementCallback: { type: Function }
 	},
 	setup(e) {
-		let t = e, n = aS(), r = vw(), i = JE();
+		let t = e, n = mS(), r = Bw(), i = gD();
 		async function a() {
 			try {
 				t.confirmUnimplementCallback ? await t.confirmUnimplementCallback() : (await r.unimplementDataflow(t.connection, t.extRef), await n.loadConnections()), i.handleClose();
@@ -65213,7 +65624,7 @@ var Uw = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-oc
 				console.error("Error unimplementing dataflow:", e), alert(`Error unimplementing dataflow: ${e instanceof Error ? e.message : "Unknown error"}`);
 			}
 		}
-		return (e, t) => (U(), W(H, null, [t[1] ||= G("h3", { class: "font-bold text-lg mb-4" }, "Unimplement Dataflow?", -1), G("div", pE, [K(bS, {
+		return (e, t) => (U(), W(H, null, [t[1] ||= G("h3", { class: "font-bold text-lg mb-4" }, "Unimplement Dataflow?", -1), G("div", FE, [K(kS, {
 			"data-testid": "df-unimplement-confirm",
 			onClick: a
 		}, {
@@ -65224,26 +65635,26 @@ var Uw = { class: "bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-oc
 });
 //#endregion
 //#region src/implementation/use-create-implemented-dataflow-options.ts
-function hE(e) {
-	let { sourceLnode: t, subscriberLnode: n, lnodeTypes: r, selectedDataflowType: i, selectedDo: a, selectedDa: o } = e, s = vw(), c = hS(async () => {
+function LE(e) {
+	let { sourceLnode: t, subscriberLnode: n, lnodeTypes: r, selectedDataflowType: i, selectedDo: a, selectedDa: o } = e, s = Bw(), c = wS(async () => {
 		let e = await s.findLnForLnode(t.value.id);
 		return X(e, "Source LN not found in IED"), e;
-	}, null), l = hS(async () => {
+	}, null), l = wS(async () => {
 		let e = await s.findLnForLnode(n.value.id);
 		return X(e, "Target LN not found in IED"), e;
 	}, null), u = J(() => {
 		let e = c.value;
 		if (!(!e?.lnType || !e?.lnClass)) return r.value.find((t) => t.typeId === e.lnType && t.lnClass === e.lnClass);
-	}), d = J(() => !u.value || !i.value ? [] : u.value.dataObjects.filter((e) => e.dataAttributes.some((e) => RS(e, i.value))).sort((e, t) => e.namePath.localeCompare(t.namePath))), f = J(() => {
+	}), d = J(() => !u.value || !i.value ? [] : u.value.dataObjects.filter((e) => e.dataAttributes.some((e) => qS(e, i.value))).sort((e, t) => e.namePath.localeCompare(t.namePath))), f = J(() => {
 		if (!u.value || !a.value || !i.value) return [];
 		let e = u.value.dataObjects.find((e) => e.namePath === a.value);
-		return e ? e.dataAttributes.filter((e) => RS(e, i.value)).sort((e, t) => e.namePath.localeCompare(t.namePath)) : [];
-	}), p = hS(async () => l.value ? s.findExtRefOptionsForLn(l.value.id, {
+		return e ? e.dataAttributes.filter((e) => qS(e, i.value)).sort((e, t) => e.namePath.localeCompare(t.namePath)) : [];
+	}), p = wS(async () => l.value ? s.findExtRefOptionsForLn(l.value.id, {
 		dataflowType: i.value,
 		sourceLnClass: t.value.lnClass,
 		sourceDataObject: a.value,
 		sourceDataAttribute: o.value
-	}) : [], []), m = hS(async () => !t.value.id || !a.value || !o.value || !i.value ? [] : s.findControlBlockOptionsForLn(t.value.id, i.value, a.value, o.value), []);
+	}) : [], []), m = wS(async () => !t.value.id || !a.value || !o.value || !i.value ? [] : s.findControlBlockOptionsForLn(t.value.id, i.value, a.value, o.value), []);
 	return {
 		sourceLn: c,
 		targetLn: l,
@@ -65255,7 +65666,7 @@ function hE(e) {
 			for (let t of m.value) e[t.ldPath] || (e[t.ldPath] = []), e[t.ldPath].push(t);
 			return e;
 		}),
-		autoProposedControlBlockId: hS(async () => {
+		autoProposedControlBlockId: wS(async () => {
 			if (!l.value || !i.value || !m.value.length) return null;
 			let e = await s.findAutoProposedControlBlockId(t.value.id, i.value, l.value.id);
 			return e && m.value.find((t) => t.id === e)?.dataSetName ? e : null;
@@ -65265,21 +65676,21 @@ function hE(e) {
 }
 //#endregion
 //#region src/implementation/components/create-implemented-dataflow.vue?vue&type=script&setup=true&lang.ts
-var gE = { class: "grid grid-cols-2 gap-4" }, _E = { class: "col-start-2 text-sm self-center w-full" }, vE = { class: "grid grid-cols-2 gap-4" }, yE = ["value", "disabled"], bE = { class: "grid grid-cols-2 gap-4" }, xE = ["disabled"], SE = ["value", "title"], CE = { class: "grid grid-cols-2 gap-4" }, wE = ["disabled"], TE = ["value", "title"], EE = { class: "flex gap-4" }, DE = { class: "flex items-center gap-2" }, OE = { class: "flex items-center gap-2" }, kE = { class: "grid grid-cols-2 gap-4" }, AE = { class: "col-start-2" }, jE = ["disabled"], ME = ["label"], NE = ["value", "disabled"], PE = { class: "grid grid-cols-2 gap-4" }, FE = { class: "col-start-2 text-sm self-center w-full" }, IE = { class: "grid grid-cols-2 gap-4" }, LE = ["title"], RE = { class: "flex items-center gap-2 mb-1" }, zE = ["disabled"], BE = { class: "flex items-center gap-2" }, VE = ["disabled"], HE = { class: "grid grid-cols-2 gap-4" }, UE = {
+var RE = { class: "grid grid-cols-2 gap-4" }, zE = { class: "col-start-2 text-sm self-center w-full" }, BE = { class: "grid grid-cols-2 gap-4" }, VE = ["value", "disabled"], HE = { class: "grid grid-cols-2 gap-4" }, UE = ["disabled"], WE = ["value", "title"], GE = { class: "grid grid-cols-2 gap-4" }, KE = ["disabled"], qE = ["value", "title"], JE = { class: "flex gap-4" }, YE = { class: "flex items-center gap-2" }, XE = { class: "flex items-center gap-2" }, ZE = { class: "grid grid-cols-2 gap-4" }, QE = { class: "col-start-2" }, $E = ["disabled"], eD = ["label"], tD = ["value", "disabled"], nD = { class: "grid grid-cols-2 gap-4" }, rD = { class: "col-start-2 text-sm self-center w-full" }, iD = { class: "grid grid-cols-2 gap-4" }, aD = ["title"], oD = { class: "flex items-center gap-2 mb-1" }, sD = ["disabled"], cD = { class: "flex items-center gap-2" }, lD = ["disabled"], uD = { class: "grid grid-cols-2 gap-4" }, dD = {
 	key: 0,
 	class: "col-start-2"
-}, WE = ["value"], GE = { class: "grid grid-cols-2 gap-4" }, KE = { class: "modal-action" }, qE = /* @__PURE__ */ ei({
+}, fD = ["value"], pD = { class: "grid grid-cols-2 gap-4" }, mD = { class: "modal-action" }, hD = /* @__PURE__ */ ei({
 	__name: "create-implemented-dataflow",
 	props: {
 		sourceLnode: {},
 		subscriberLnode: {}
 	},
 	setup(e) {
-		let t = e, n = aS(), r = fx(), i = JE(), a = qu(), o = vw(), { lnodeTypes: s } = Ku(r), { connections: c } = Ku(n), l = /* @__PURE__ */ R(), u = /* @__PURE__ */ R(""), d = /* @__PURE__ */ R(""), f = /* @__PURE__ */ R(""), p = /* @__PURE__ */ R(!0), m = /* @__PURE__ */ R(""), h = /* @__PURE__ */ R(!1), g = /* @__PURE__ */ R(!1), _ = /* @__PURE__ */ R(""), v = [
+		let t = e, n = mS(), r = xx(), i = gD(), a = qu(), o = Bw(), { lnodeTypes: s } = Ku(r), { connections: c } = Ku(n), l = /* @__PURE__ */ R(), u = /* @__PURE__ */ R(""), d = /* @__PURE__ */ R(""), f = /* @__PURE__ */ R(""), p = /* @__PURE__ */ R(!0), m = /* @__PURE__ */ R(""), h = /* @__PURE__ */ R(!1), g = /* @__PURE__ */ R(!1), _ = /* @__PURE__ */ R(""), v = [
 			Q.GOOSE,
 			Q.SMV,
 			Q.REPORT
-		], y = J(() => t.sourceLnode.lnClass === "TCTR" || t.sourceLnode.lnClass === "TVTR"), { sourceLn: b, targetLn: x, doOptions: S, daOptions: C, extRefOptions: ee, controlBlockOptionsByLdPath: w, autoProposedControlBlockId: te, preselectedExtRef: T } = hE({
+		], y = J(() => t.sourceLnode.lnClass === "TCTR" || t.sourceLnode.lnClass === "TVTR"), { sourceLn: b, targetLn: x, doOptions: S, daOptions: C, extRefOptions: ee, controlBlockOptionsByLdPath: w, autoProposedControlBlockId: te, preselectedExtRef: T } = LE({
 			sourceLnode: /* @__PURE__ */ _n(() => t.sourceLnode),
 			subscriberLnode: /* @__PURE__ */ _n(() => t.subscriberLnode),
 			lnodeTypes: s,
@@ -65291,7 +65702,7 @@ var gE = { class: "grid grid-cols-2 gap-4" }, _E = { class: "col-start-2 text-sm
 			l.value = void 0, u.value = "", d.value = "", f.value = "", p.value = !0, m.value = "", h.value = !1, g.value = !1, _.value = "";
 		}), xr(l, (e) => {
 			u.value = "", d.value = "", f.value = "";
-			let t = LS(e);
+			let t = KS(e);
 			h.value = t.shouldAddQuality, g.value = t.shouldAddTimestamp;
 		}), xr(u, () => {
 			d.value = "", f.value = "";
@@ -65334,8 +65745,8 @@ var gE = { class: "grid grid-cols-2 gap-4" }, _E = { class: "col-start-2 text-sm
 			class: "flex flex-col gap-4"
 		}, [
 			t[28] ||= G("h2", { class: "font-bold text-lg" }, "Create Implemented Dataflow", -1),
-			G("div", gE, [t[10] ||= G("span", { class: "font-semibold self-center" }, "Source", -1), G("span", _E, A(z(b).path), 1)]),
-			G("div", vE, [t[12] ||= G("label", {
+			G("div", RE, [t[10] ||= G("span", { class: "font-semibold self-center" }, "Source", -1), G("span", zE, A(z(b).path), 1)]),
+			G("div", BE, [t[12] ||= G("label", {
 				for: "dataflow-type-select",
 				class: "self-center"
 			}, "Dataflow Type", -1), B(G("select", {
@@ -65349,8 +65760,8 @@ var gE = { class: "grid grid-cols-2 gap-4" }, _E = { class: "col-start-2 text-sm
 				key: e,
 				value: e,
 				disabled: e === z(Q).SMV && !y.value
-			}, A(e), 9, yE)), 64))], 512), [[Rl, l.value]])]),
-			G("div", bE, [t[14] ||= G("label", {
+			}, A(e), 9, VE)), 64))], 512), [[Rl, l.value]])]),
+			G("div", HE, [t[14] ||= G("label", {
 				for: "do-select",
 				class: "self-center"
 			}, "Signal (DO)", -1), B(G("select", {
@@ -65365,8 +65776,8 @@ var gE = { class: "grid grid-cols-2 gap-4" }, _E = { class: "col-start-2 text-sm
 				key: e.namePath,
 				value: e.namePath,
 				title: e.desc ? `Desc: ${e.desc}` : ""
-			}, A(e.desc ? e.namePath + " ⓘ" : e.namePath), 9, SE))), 128))], 8, xE), [[Rl, u.value]])]),
-			G("div", CE, [t[16] ||= G("label", {
+			}, A(e.desc ? e.namePath + " ⓘ" : e.namePath), 9, WE))), 128))], 8, UE), [[Rl, u.value]])]),
+			G("div", GE, [t[16] ||= G("label", {
 				for: "da-select",
 				class: "self-center"
 			}, "Attribute (DA)", -1), B(G("select", {
@@ -65381,22 +65792,22 @@ var gE = { class: "grid grid-cols-2 gap-4" }, _E = { class: "col-start-2 text-sm
 				key: e.namePath,
 				value: e.namePath,
 				title: e.desc ? `Desc: ${e.desc}` : ""
-			}, A(e.desc ? e.namePath + " ⓘ" : e.namePath), 9, TE))), 128))], 8, wE), [[Rl, d.value]])]),
-			G("div", EE, [G("div", DE, [B(G("input", {
+			}, A(e.desc ? e.namePath + " ⓘ" : e.namePath), 9, qE))), 128))], 8, KE), [[Rl, d.value]])]),
+			G("div", JE, [G("div", YE, [B(G("input", {
 				type: "checkbox",
 				id: "include-quality",
 				class: "checkbox",
 				"onUpdate:modelValue": t[3] ||= (e) => h.value = e
-			}, null, 512), [[Fl, h.value]]), t[17] ||= G("label", { for: "include-quality" }, "Include Quality", -1)]), G("div", OE, [B(G("input", {
+			}, null, 512), [[Fl, h.value]]), t[17] ||= G("label", { for: "include-quality" }, "Include Quality", -1)]), G("div", XE, [B(G("input", {
 				type: "checkbox",
 				id: "include-timestamp",
 				class: "checkbox",
 				"onUpdate:modelValue": t[4] ||= (e) => g.value = e
 			}, null, 512), [[Fl, g.value]]), t[18] ||= G("label", { for: "include-timestamp" }, "Include Timestamp", -1)])]),
-			G("div", kE, [t[20] ||= G("label", {
+			G("div", ZE, [t[20] ||= G("label", {
 				for: "cb-select",
 				class: "self-center"
-			}, "Control Block", -1), G("div", AE, [B(G("select", {
+			}, "Control Block", -1), G("div", QE, [B(G("select", {
 				id: "cb-select",
 				class: "select w-full",
 				"onUpdate:modelValue": t[5] ||= (e) => f.value = e,
@@ -65411,13 +65822,13 @@ var gE = { class: "grid grid-cols-2 gap-4" }, _E = { class: "col-start-2 text-sm
 				key: e.id,
 				value: e.id,
 				disabled: !e.dataSetName
-			}, A(e.name) + " (DS: " + A(e.dataSetName ?? "no DataSet") + A(e.dataSetName ? ", " + (e.fcdaExists ? "FCDA exists" : "no FCDA") : "") + ") ", 9, NE))), 128))], 8, ME))), 128))], 8, jE), [[Rl, f.value]])])]),
+			}, A(e.name) + " (DS: " + A(e.dataSetName ?? "no DataSet") + A(e.dataSetName ? ", " + (e.fcdaExists ? "FCDA exists" : "no FCDA") : "") + ") ", 9, tD))), 128))], 8, eD))), 128))], 8, $E), [[Rl, f.value]])])]),
 			t[29] ||= G("hr", null, null, -1),
-			G("div", PE, [t[21] ||= G("span", { class: "font-semibold self-center" }, "Target", -1), G("span", FE, A(z(x).path), 1)]),
-			G("div", IE, [t[24] ||= G("span", null, "ExtRef", -1), G("div", {
+			G("div", nD, [t[21] ||= G("span", { class: "font-semibold self-center" }, "Target", -1), G("span", rD, A(z(x).path), 1)]),
+			G("div", iD, [t[24] ||= G("span", null, "ExtRef", -1), G("div", {
 				class: "col-start-2",
 				title: ne.value ? "" : "Not available: dataflow type, DO and DA must be selected first."
-			}, [G("div", RE, [B(G("input", {
+			}, [G("div", oD, [B(G("input", {
 				type: "radio",
 				id: "extref-existing",
 				name: "extref-mode",
@@ -65425,7 +65836,7 @@ var gE = { class: "grid grid-cols-2 gap-4" }, _E = { class: "col-start-2 text-sm
 				"onUpdate:modelValue": t[6] ||= (e) => p.value = e,
 				value: !0,
 				disabled: !ne.value
-			}, null, 8, zE), [[Ll, p.value]]), t[22] ||= G("label", { for: "extref-existing" }, "Select existing", -1)]), G("div", BE, [B(G("input", {
+			}, null, 8, sD), [[Ll, p.value]]), t[22] ||= G("label", { for: "extref-existing" }, "Select existing", -1)]), G("div", cD, [B(G("input", {
 				type: "radio",
 				id: "extref-new",
 				name: "extref-mode",
@@ -65433,8 +65844,8 @@ var gE = { class: "grid grid-cols-2 gap-4" }, _E = { class: "col-start-2 text-sm
 				"onUpdate:modelValue": t[7] ||= (e) => p.value = e,
 				value: !1,
 				disabled: !ne.value
-			}, null, 8, VE), [[Ll, p.value]]), t[23] ||= G("label", { for: "extref-new" }, "Create new", -1)])], 8, LE)]),
-			G("div", HE, [p.value && ne.value ? (U(), W("div", UE, [B(G("select", {
+			}, null, 8, lD), [[Ll, p.value]]), t[23] ||= G("label", { for: "extref-new" }, "Create new", -1)])], 8, aD)]),
+			G("div", uD, [p.value && ne.value ? (U(), W("div", dD, [B(G("select", {
 				class: "select w-full",
 				"onUpdate:modelValue": t[8] ||= (e) => m.value = e
 			}, [t[25] ||= G("option", {
@@ -65443,8 +65854,8 @@ var gE = { class: "grid grid-cols-2 gap-4" }, _E = { class: "col-start-2 text-sm
 			}, "Select ExtRef", -1), (U(!0), W(H, null, V(z(ee), (e) => (U(), W("option", {
 				key: e.extRefId,
 				value: e.extRefId
-			}, A(e.label), 9, WE))), 128))], 512), [[Rl, m.value]])])) : q("", !0)]),
-			G("div", GE, [t[26] ||= G("label", {
+			}, A(e.label), 9, fD))), 128))], 512), [[Rl, m.value]])])) : q("", !0)]),
+			G("div", pD, [t[26] ||= G("label", {
 				for: "description-input",
 				class: "self-center"
 			}, "Description (optional)", -1), B(G("input", {
@@ -65454,7 +65865,7 @@ var gE = { class: "grid grid-cols-2 gap-4" }, _E = { class: "col-start-2 text-sm
 				placeholder: "Description",
 				"onUpdate:modelValue": t[9] ||= (e) => _.value = e
 			}, null, 512), [[Pl, _.value]])]),
-			G("div", KE, [K(bS, {
+			G("div", mD, [K(kS, {
 				type: "submit",
 				disabled: !re.value
 			}, {
@@ -65463,19 +65874,20 @@ var gE = { class: "grid grid-cols-2 gap-4" }, _E = { class: "col-start-2 text-sm
 			}, 8, ["disabled"])])
 		], 32)) : q("", !0);
 	}
-}), JE = Gu("dataflow/dialog-store", () => {
+}), gD = Gu("dataflow/dialog-store", () => {
 	let e = {
 		component: void 0,
 		props: void 0
 	}, t = /* @__PURE__ */ R(), n = /* @__PURE__ */ R(e), r = /* @__PURE__ */ R(), i = /* @__PURE__ */ R(0), a = /* @__PURE__ */ Gt({
-		DataflowCreation: /* @__PURE__ */ an(lC),
-		SourcePlaceholderCreation: /* @__PURE__ */ an(BC),
-		SubscriberPlaceholderCreation: /* @__PURE__ */ an(_w),
-		ImplementedDataflowDetails: /* @__PURE__ */ an(VT),
-		ImplementDataflow: /* @__PURE__ */ an(iE),
-		DeleteConfirmation: /* @__PURE__ */ an(fE),
-		UnimplementDataflow: /* @__PURE__ */ an(mE),
-		CreateImplementedDataflow: /* @__PURE__ */ an(qE)
+		DataflowCreation: /* @__PURE__ */ an(vC),
+		SourcePlaceholderCreation: /* @__PURE__ */ an(iw),
+		SubscriberPlaceholderCreation: /* @__PURE__ */ an(Fw),
+		PlaceholderEdit: /* @__PURE__ */ an(zw),
+		ImplementedDataflowDetails: /* @__PURE__ */ an(lE),
+		ImplementDataflow: /* @__PURE__ */ an(EE),
+		DeleteConfirmation: /* @__PURE__ */ an(PE),
+		UnimplementDataflow: /* @__PURE__ */ an(IE),
+		CreateImplementedDataflow: /* @__PURE__ */ an(hD)
 	});
 	function o() {
 		t.value?.close();
@@ -65492,10 +65904,10 @@ var gE = { class: "grid grid-cols-2 gap-4" }, _E = { class: "col-start-2 text-sm
 		handleClose: o,
 		openDialogWithContent: s
 	};
-}), YE = (e) => e === "", XE = (...e) => e.filter((e, t, n) => !!e && e.trim() !== "" && n.indexOf(e) === t).join(" ").trim(), ZE = (e) => e.replace(/([a-z0-9])([A-Z])/g, "$1-$2").toLowerCase(), QE = (e) => e.replace(/^([A-Z])|[\s-_]+(\w)/g, (e, t, n) => n ? n.toUpperCase() : t.toLowerCase()), $E = (e) => {
-	let t = QE(e);
+}), _D = (e) => e === "", vD = (...e) => e.filter((e, t, n) => !!e && e.trim() !== "" && n.indexOf(e) === t).join(" ").trim(), yD = (e) => e.replace(/([a-z0-9])([A-Z])/g, "$1-$2").toLowerCase(), bD = (e) => e.replace(/^([A-Z])|[\s-_]+(\w)/g, (e, t, n) => n ? n.toUpperCase() : t.toLowerCase()), xD = (e) => {
+	let t = bD(e);
 	return t.charAt(0).toUpperCase() + t.slice(1);
-}, eD = {
+}, SD = {
 	xmlns: "http://www.w3.org/2000/svg",
 	width: 24,
 	height: 24,
@@ -65505,32 +65917,32 @@ var gE = { class: "grid grid-cols-2 gap-4" }, _E = { class: "col-start-2 text-sm
 	"stroke-width": 2,
 	"stroke-linecap": "round",
 	"stroke-linejoin": "round"
-}, tD = /* @__PURE__ */ Symbol("lucide-icons");
-function nD() {
-	return mr(tD, {});
+}, CD = /* @__PURE__ */ Symbol("lucide-icons");
+function wD() {
+	return mr(CD, {});
 }
 //#endregion
 //#region node_modules/.pnpm/@lucide+vue@1.27.0_vue@3.5.32_typescript@5.8.3_/node_modules/@lucide/vue/dist/esm/Icon.mjs
-var rD = ({ name: e, iconNode: t, "icon-node": n, absoluteStrokeWidth: r, "absolute-stroke-width": i, strokeWidth: a, "stroke-width": o, size: s, color: c, ...l }, { slots: u }) => {
-	let { size: d, color: f, strokeWidth: p = 2, absoluteStrokeWidth: m = !1, class: h = "" } = nD(), g = J(() => {
-		let e = YE(r) || YE(i) || r === !0 || i === !0 || m === !0, t = a || o || p || eD["stroke-width"];
-		return e ? Number(t) * 24 / Number(s ?? d ?? eD.width) : t;
+var TD = ({ name: e, iconNode: t, "icon-node": n, absoluteStrokeWidth: r, "absolute-stroke-width": i, strokeWidth: a, "stroke-width": o, size: s, color: c, ...l }, { slots: u }) => {
+	let { size: d, color: f, strokeWidth: p = 2, absoluteStrokeWidth: m = !1, class: h = "" } = wD(), g = J(() => {
+		let e = _D(r) || _D(i) || r === !0 || i === !0 || m === !0, t = a || o || p || SD["stroke-width"];
+		return e ? Number(t) * 24 / Number(s ?? d ?? SD.width) : t;
 	});
 	return Ks("svg", {
-		...eD,
+		...SD,
 		...l,
-		width: s ?? d ?? eD.width,
-		height: s ?? d ?? eD.height,
-		stroke: c ?? f ?? eD.stroke,
+		width: s ?? d ?? SD.width,
+		height: s ?? d ?? SD.height,
+		stroke: c ?? f ?? SD.stroke,
 		"stroke-width": g.value,
-		class: XE("lucide", h, ...e ? [`lucide-${ZE($E(e))}-icon`, `lucide-${ZE(e)}`] : ["lucide-icon"])
+		class: vD("lucide", h, ...e ? [`lucide-${yD(xD(e))}-icon`, `lucide-${yD(e)}`] : ["lucide-icon"])
 	}, [...(t ?? n ?? []).map((e) => Ks(...e)), ...u.default ? [u.default()] : []]);
-}, iD = (e, t) => (n, { slots: r, attrs: i }) => Ks(rD, {
+}, ED = (e, t) => (n, { slots: r, attrs: i }) => Ks(TD, {
 	...i,
 	...n,
 	iconNode: t,
 	name: e
-}, r.default ? { default: r.default } : void 0), aD = iD("binoculars", [
+}, r.default ? { default: r.default } : void 0), DD = ED("binoculars", [
 	["path", {
 		d: "M10 10h4",
 		key: "tcdvrf"
@@ -65555,13 +65967,13 @@ var rD = ({ name: e, iconNode: t, "icon-node": n, absoluteStrokeWidth: r, "absol
 		d: "M9 7V4a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1v3",
 		key: "14fczp"
 	}]
-]), oD = iD("chevron-down", [["path", {
+]), OD = ED("chevron-down", [["path", {
 	d: "m6 9 6 6 6-6",
 	key: "qrunsl"
-}]]), sD = iD("chevron-up", [["path", {
+}]]), kD = ED("chevron-up", [["path", {
 	d: "m18 15-6-6-6 6",
 	key: "153udz"
-}]]), cD = iD("copy-check", [
+}]]), AD = ED("copy-check", [
 	["path", {
 		d: "m12 15 2 2 4-4",
 		key: "2c609p"
@@ -65579,7 +65991,7 @@ var rD = ({ name: e, iconNode: t, "icon-node": n, absoluteStrokeWidth: r, "absol
 		d: "M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2",
 		key: "zix9uf"
 	}]
-]), lD = iD("copy-minus", [
+]), jD = ED("copy-minus", [
 	["line", {
 		x1: "12",
 		x2: "18",
@@ -65600,7 +66012,7 @@ var rD = ({ name: e, iconNode: t, "icon-node": n, absoluteStrokeWidth: r, "absol
 		d: "M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2",
 		key: "zix9uf"
 	}]
-]), uD = iD("eye", [["path", {
+]), MD = ED("eye", [["path", {
 	d: "M2.062 12.348a1 1 0 0 1 0-.696 10.75 10.75 0 0 1 19.876 0 1 1 0 0 1 0 .696 10.75 10.75 0 0 1-19.876 0",
 	key: "1nclc0"
 }], ["circle", {
@@ -65608,13 +66020,19 @@ var rD = ({ name: e, iconNode: t, "icon-node": n, absoluteStrokeWidth: r, "absol
 	cy: "12",
 	r: "3",
 	key: "1v7zrd"
-}]]), dD = iD("plus", [["path", {
+}]]), ND = ED("pencil", [["path", {
+	d: "M21.174 6.812a1 1 0 0 0-3.986-3.987L3.842 16.174a2 2 0 0 0-.5.83l-1.321 4.352a.5.5 0 0 0 .623.622l4.353-1.32a2 2 0 0 0 .83-.497z",
+	key: "1a8usu"
+}], ["path", {
+	d: "m15 5 4 4",
+	key: "1mk7zo"
+}]]), PD = ED("plus", [["path", {
 	d: "M5 12h14",
 	key: "1ays0h"
 }], ["path", {
 	d: "M12 5v14",
 	key: "s699le"
-}]]), fD = iD("trash-2", [
+}]]), FD = ED("trash-2", [
 	["path", {
 		d: "M10 11v6",
 		key: "nco0om"
@@ -65635,11 +66053,11 @@ var rD = ({ name: e, iconNode: t, "icon-node": n, absoluteStrokeWidth: r, "absol
 		d: "M8 6V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2",
 		key: "e791ji"
 	}]
-]), pD = { class: "grid grid-cols-[1fr_20px_1fr_20px_1fr] h-[50px]" }, mD = ["onClick"], hD = { class: "border-2 border-(--color-ocean-gray-100) px-2 py-1 mr-2 rounded-sm" }, gD = { class: "border-2 border-(--color-ocean-gray-100) px-2 py-1 rounded-sm" }, _D = ["onClick"], vD = ["onClick"], yD = ["data-testid"], bD = ["onClick"], xD = { class: "controlled-connection col-start-3 self-center justify-self-center z-1 relative row-start-1 flex items-center" }, SD = ["onClick"], CD = ["onClick"], wD = ["onClick"], TD = ["onClick"], ED = { class: "border-2 border-(--color-ocean-gray-100) px-2 py-1 mr-2 rounded-sm" }, DD = /* @__PURE__ */ gS(/* @__PURE__ */ ei({
+]), ID = { class: "grid grid-cols-[1fr_20px_1fr_20px_1fr] h-[50px]" }, LD = ["onClick"], RD = { class: "border-2 border-(--color-ocean-gray-100) px-2 py-1 mr-2 rounded-sm" }, zD = { class: "border-2 border-(--color-ocean-gray-100) px-2 py-1 rounded-sm" }, BD = ["onClick"], VD = ["onClick"], HD = ["data-testid"], UD = ["onClick"], WD = { class: "controlled-connection col-start-3 self-center justify-self-center z-1 relative row-start-1 flex items-center" }, GD = ["onClick"], KD = ["onClick"], qD = ["onClick"], JD = ["onClick"], YD = { class: "border-2 border-(--color-ocean-gray-100) px-2 py-1 mr-2 rounded-sm" }, XD = /* @__PURE__ */ TS(/* @__PURE__ */ ei({
 	__name: "controlled-dataflows",
 	props: { controlledConnections: {} },
 	setup(e) {
-		let t = qu(), { activeElement: n } = Ku(t), r = aS(), i = fx(), a = JE();
+		let t = qu(), { activeElement: n } = Ku(t), r = mS(), i = xx(), a = gD();
 		async function o(e) {
 			a.openDialogWithContent("DeleteConfirmation", {
 				message: "Are you sure you want to delete this controlled dataflow?",
@@ -65648,18 +66066,18 @@ var rD = ({ name: e, iconNode: t, "icon-node": n, absoluteStrokeWidth: r, "absol
 				}
 			});
 		}
-		return (r, i) => (U(!0), W(H, null, V(e.controlledConnections, (e, r) => (U(), W("div", pD, [
+		return (r, i) => (U(!0), W(H, null, V(e.controlledConnections, (e, r) => (U(), W("div", ID, [
 			G("div", {
 				onClick: (n) => z(t).setOrResetActiveElement(e.id),
 				class: "col-start-1 col-span-1 self-center justify-self-end hover:cursor-pointer"
-			}, [G("span", hD, A(e.outputName), 1), G("span", gD, A(e.outputInstance), 1)], 8, mD),
+			}, [G("span", RD, A(e.outputName), 1), G("span", zD, A(e.outputInstance), 1)], 8, LD),
 			G("div", {
 				onClick: (n) => z(t).setOrResetActiveElement(e.id),
 				class: k(["rounded-full w-[20px] h-[20px] col-start-2 col-span-1 self-center justify-self-end -mr-[9px] hover:cursor-pointer", {
 					"bg-(--color-primary)": z(n) === e.id,
 					"bg-(--color-ocean-gray-100)": z(n) !== e.id
 				}])
-			}, null, 10, _D),
+			}, null, 10, BD),
 			G("div", {
 				class: "col-start-3 col-span-1 row-start-1 hover:cursor-pointer flex items-center",
 				onClick: (n) => z(t).setOrResetActiveElement(e.id)
@@ -65669,7 +66087,7 @@ var rD = ({ name: e, iconNode: t, "icon-node": n, absoluteStrokeWidth: r, "absol
 					"bg-(--color-ocean-gray-100)": z(n) !== e.id
 				}]),
 				"data-testid": `dataflow-controlled-connection-line-${r}`
-			}, null, 10, yD)], 8, vD),
+			}, null, 10, HD)], 8, VD),
 			(U(), W("svg", {
 				onClick: (n) => z(t).setOrResetActiveElement(e.id),
 				height: "12",
@@ -65679,91 +66097,91 @@ var rD = ({ name: e, iconNode: t, "icon-node": n, absoluteStrokeWidth: r, "absol
 			}, [G("polygon", {
 				points: "0,0 8,6 0,12",
 				style: ge({ fill: z(n) === e.id ? "var(--color-primary)" : "var(--color-ocean-gray-100)" })
-			}, null, 4)], 8, bD)),
-			G("div", xD, [G("span", {
+			}, null, 4)], 8, UD)),
+			G("div", WD, [G("span", {
 				onClick: (n) => z(t).setOrResetActiveElement(e.id),
 				class: "bg-(--color-primary) text-white p-1 rounded-sm text-sm hover:cursor-pointer"
-			}, A(e.dataflowType), 9, SD), G("button", {
+			}, A(e.dataflowType), 9, GD), G("button", {
 				class: "controlled-connection__delete-btn",
 				title: "Delete dataflow",
 				onClick: Jl((t) => o(e), ["stop"])
-			}, [K(z(fD), { size: 12 })], 8, CD)]),
+			}, [K(z(FD), { size: 12 })], 8, KD)]),
 			G("div", {
 				onClick: (n) => z(t).setOrResetActiveElement(e.id),
 				class: k(["rounded-full w-[20px] h-[20px] col-start-4 col-span-1 self-center justify-self-start -ml-[9px] hover:cursor-pointer", {
 					"bg-(--color-primary)": z(n) === e.id,
 					"bg-(--color-ocean-gray-100)": z(n) !== e.id
 				}])
-			}, null, 10, wD),
+			}, null, 10, qD),
 			G("div", {
 				onClick: (n) => z(t).setOrResetActiveElement(e.id),
 				class: "col-start-5 col-span-1 self-center justify-self-start hover:cursor-pointer"
-			}, [G("span", ED, A(e.controlledDataObject), 1)], 8, TD),
+			}, [G("span", YD, A(e.controlledDataObject), 1)], 8, JD),
 			z(n) == e.id ? (U(), os(Ir, {
 				key: 0,
 				to: "#sidebar-details"
-			}, [K(vx, { "controlled-connection": e }, null, 8, ["controlled-connection"])])) : q("", !0)
+			}, [K(Dx, { "controlled-connection": e }, null, 8, ["controlled-connection"])])) : q("", !0)
 		]))), 256));
 	}
-}), [["__scopeId", "data-v-c1214892"]]), OD = {
+}), [["__scopeId", "data-v-c1214892"]]), ZD = {
 	key: 0,
 	class: "bg-(--color-primary) text-white z-1 relative p-1 rounded-sm text-sm mb-4 inline-block"
-}, kD = { class: "[&_dt,dd]:inline [&_dt]:mr-1" }, AD = { class: "mt-4" }, jD = { key: 0 }, MD = { key: 1 }, ND = { class: "mt-4" }, PD = /* @__PURE__ */ ei({
+}, QD = { class: "[&_dt,dd]:inline [&_dt]:mr-1" }, $D = { class: "mt-4" }, eO = { key: 0 }, tO = { key: 1 }, nO = { class: "mt-4" }, rO = /* @__PURE__ */ ei({
 	__name: "specified-dataflow.sidebar-details",
 	props: { connection: {} },
 	setup(e) {
-		let t = e, { lnodes: n } = Ku(fx()), r = J(() => n.value.find((e) => e.id === t.connection.sourceLnodeId)?.dataObjectSpecifications?.find((e) => e.namePath === t.connection.sourceDataObject)), i = J(() => r?.value?.dataAttributeSpecifications?.find((e) => e.namePath === t.connection.sourceDataAttribute));
+		let t = e, { lnodes: n } = Ku(xx()), r = J(() => n.value.find((e) => e.id === t.connection.sourceLnodeId)?.dataObjectSpecifications?.find((e) => e.namePath === t.connection.sourceDataObject)), i = J(() => r?.value?.dataAttributeSpecifications?.find((e) => e.namePath === t.connection.sourceDataAttribute));
 		return (t, n) => (U(), W(H, null, [
 			n[10] ||= G("h2", { class: "text-lg font-bold mb-2" }, "Specified Dataflow", -1),
-			e.connection.dataflowType ? (U(), W("span", OD, A(e.connection.dataflowType), 1)) : q("", !0),
-			G("dl", kD, [
+			e.connection.dataflowType ? (U(), W("span", ZD, A(e.connection.dataflowType), 1)) : q("", !0),
+			G("dl", QD, [
 				G("div", null, [n[0] ||= G("dt", null, "Input:", -1), G("dd", null, A(e.connection.input), 1)]),
 				G("div", null, [n[1] ||= G("dt", null, "Input Instance:", -1), G("dd", null, A(e.connection.inputInstance || "-"), 1)]),
-				G("div", AD, [n[2] ||= G("dt", null, "DO:", -1), G("dd", null, A(e.connection.sourceDataObject || "-"), 1)]),
-				r.value?.desc ? (U(), W("div", jD, [n[3] ||= G("dt", null, "DO Desc:", -1), G("dd", null, A(r.value.desc), 1)])) : q("", !0),
+				G("div", $D, [n[2] ||= G("dt", null, "DO:", -1), G("dd", null, A(e.connection.sourceDataObject || "-"), 1)]),
+				r.value?.desc ? (U(), W("div", eO, [n[3] ||= G("dt", null, "DO Desc:", -1), G("dd", null, A(r.value.desc), 1)])) : q("", !0),
 				G("div", null, [n[4] ||= G("dt", null, "DA:", -1), G("dd", null, A(e.connection.sourceDataAttribute || "-"), 1)]),
-				i.value?.desc ? (U(), W("div", MD, [n[5] ||= G("dt", null, "DA Desc:", -1), G("dd", null, A(i.value.desc), 1)])) : q("", !0),
-				G("div", ND, [n[6] ||= G("dt", null, "Preferred LN:", -1), G("dd", null, A(e.connection.preferredLnode || "-"), 1)]),
+				i.value?.desc ? (U(), W("div", tO, [n[5] ||= G("dt", null, "DA Desc:", -1), G("dd", null, A(i.value.desc), 1)])) : q("", !0),
+				G("div", nO, [n[6] ||= G("dt", null, "Preferred LN:", -1), G("dd", null, A(e.connection.preferredLnode || "-"), 1)]),
 				G("div", null, [n[7] ||= G("dt", null, "Preferred DO:", -1), G("dd", null, A(e.connection.preferredDataObject || "-"), 1)]),
 				G("div", null, [n[8] ||= G("dt", null, "Preferred DA:", -1), G("dd", null, A(e.connection.preferredDataAttribute || "-"), 1)]),
 				G("div", null, [n[9] ||= G("dt", null, "Process Resource:", -1), G("dd", null, A(e.connection.processResource || "-"), 1)])
 			])
 		], 64));
 	}
-}), FD = { key: 0 }, ID = {
+}), iO = { key: 0 }, aO = {
 	key: 0,
 	class: "bg-(--color-primary) text-white z-1 relative p-1 rounded-sm text-sm mb-4 inline-block"
-}, LD = { class: "flex flex-col gap-4" }, RD = { class: "[&_dt,dd]:inline [&_dt]:mr-1" }, zD = { class: "[&_dt,dd]:inline [&_dt]:mr-1" }, BD = { key: 0 }, VD = /* @__PURE__ */ ei({
+}, oO = { class: "flex flex-col gap-4" }, sO = { class: "[&_dt,dd]:inline [&_dt]:mr-1" }, cO = { class: "[&_dt,dd]:inline [&_dt]:mr-1" }, lO = { key: 0 }, uO = /* @__PURE__ */ ei({
 	__name: "implemented-dataflow.sidebar-details",
 	props: { connection: {} },
 	setup(e) {
-		let t = e, n = vw(), r = fx(), i = hS(async () => !t.connection.extRefUuid || !t.connection.isImplemented ? null : await n.findExtRefByUuid(t.connection.extRefUuid), null), a = hS(async () => !i.value || !i.value.srcCbName ? null : await n.findControlBlock(i.value.iedName, i.value.srcLdInst, i.value.srcCbName), null), o = hS(async () => !i.value || !a.value || i.value.srcCbName !== a.value.name ? null : (X(t.connection.dataflowType, "Dataflow Type is undefined"), await n.findDataSetOfControlBlock(a.value.id, t.connection.dataflowType)), null), s = hS(async () => {
+		let t = e, n = Bw(), r = xx(), i = wS(async () => !t.connection.extRefUuid || !t.connection.isImplemented ? null : await n.findExtRefByUuid(t.connection.extRefUuid), null), a = wS(async () => !i.value || !i.value.srcCbName ? null : await n.findControlBlock(i.value.iedName, i.value.srcLdInst, i.value.srcCbName), null), o = wS(async () => !i.value || !a.value || i.value.srcCbName !== a.value.name ? null : (X(t.connection.dataflowType, "Dataflow Type is undefined"), await n.findDataSetOfControlBlock(a.value.id, t.connection.dataflowType)), null), s = wS(async () => {
 			X(t.connection.sourceLnodeId, "Source LNode Id is undefined");
 			let e = await r.findLnRecordForLnode(t.connection.sourceLnodeId);
 			return X(e, "Source LNode record not found"), await n.findPathToLn(e.id);
-		}, ""), c = hS(async () => {
+		}, ""), c = wS(async () => {
 			let e = await r.findLnRecordForLnode(t.connection.subscriberLnodeId);
 			return X(e, "Subscriber LNode record not found"), await n.findPathToLn(e.id);
-		}, ""), l = J(() => i.value ? `${i.value.iedName}/${i.value.srcLdInst}/${i.value.srcPrefix}${i.value.srcLnClass}${i.value.srcLnInst}` : ""), u = hS(async () => i.value ? await n.findPathToLnParentOfExtRef(i.value.id) : "", ""), d = hS(async () => i.value ? await n.findSupervisionDetails(i.value.id) : null, null);
+		}, ""), l = J(() => i.value ? `${i.value.iedName}/${i.value.srcLdInst}/${i.value.srcPrefix}${i.value.srcLnClass}${i.value.srcLnInst}` : ""), u = wS(async () => i.value ? await n.findPathToLnParentOfExtRef(i.value.id) : "", ""), d = wS(async () => i.value ? await n.findSupervisionDetails(i.value.id) : null, null);
 		return (t, n) => (U(), W(H, null, [
 			n[11] ||= G("h2", { class: "text-lg font-bold mb-2" }, "Implemented Dataflow", -1),
-			e.connection.isImplemented ? q("", !0) : (U(), W("p", FD, "Not implemented yet")),
-			z(i) ? (U(), W(H, { key: 1 }, [e.connection.dataflowType ? (U(), W("span", ID, A(z(i).serviceType), 1)) : q("", !0), G("div", LD, [
-				G("dl", RD, [G("div", null, [n[0] ||= G("dt", null, "DO:", -1), G("dd", null, A(z(i).doName), 1)]), G("div", null, [n[1] ||= G("dt", null, "DA:", -1), G("dd", null, A(z(i).daName), 1)])]),
+			e.connection.isImplemented ? q("", !0) : (U(), W("p", iO, "Not implemented yet")),
+			z(i) ? (U(), W(H, { key: 1 }, [e.connection.dataflowType ? (U(), W("span", aO, A(z(i).serviceType), 1)) : q("", !0), G("div", oO, [
+				G("dl", sO, [G("div", null, [n[0] ||= G("dt", null, "DO:", -1), G("dd", null, A(z(i).doName), 1)]), G("div", null, [n[1] ||= G("dt", null, "DA:", -1), G("dd", null, A(z(i).daName), 1)])]),
 				G("div", null, [n[2] ||= G("h3", { class: "font-semibold" }, "Source", -1), G("div", null, A(z(s)), 1)]),
 				G("div", null, [n[3] ||= G("h3", { class: "font-semibold" }, "Target", -1), G("div", null, A(z(c)), 1)]),
 				G("div", null, [n[4] ||= G("h3", { class: "font-semibold" }, "ExtRef", -1), G("div", null, A(z(u)), 1)]),
-				G("div", null, [n[9] ||= G("h3", { class: "font-semibold" }, "Control Block and Data Set", -1), G("dl", zD, [
+				G("div", null, [n[9] ||= G("h3", { class: "font-semibold" }, "Control Block and Data Set", -1), G("dl", cO, [
 					G("div", null, [n[5] ||= G("dt", null, "Location:", -1), G("dd", null, A(l.value), 1)]),
 					G("div", null, [n[6] ||= G("dt", null, "Control Block:", -1), G("dd", null, A(z(a)?.name), 1)]),
 					G("div", null, [n[7] ||= G("dt", null, "ConfRev:", -1), G("dd", null, A(z(a)?.confRev), 1)]),
 					G("div", null, [n[8] ||= G("dt", null, "DataSet:", -1), G("dd", null, A(z(o)?.name), 1)])
 				])]),
-				z(d) ? (U(), W("div", BD, [n[10] ||= G("h3", { class: "font-semibold" }, "Supervision", -1), G("div", null, A(z(d).ldInst) + "/" + A(z(d).prefix) + A(z(d).lnClass) + A(z(d).lnInst) + " → " + A(z(d).val), 1)])) : q("", !0)
+				z(d) ? (U(), W("div", lO, [n[10] ||= G("h3", { class: "font-semibold" }, "Supervision", -1), G("div", null, A(z(d).ldInst) + "/" + A(z(d).prefix) + A(z(d).lnClass) + A(z(d).lnInst) + " → " + A(z(d).val), 1)])) : q("", !0)
 			])], 64)) : q("", !0)
 		], 64));
 	}
-}), HD = ["aria-label"], UD = /* @__PURE__ */ ei({
+}), dO = ["aria-label"], fO = /* @__PURE__ */ ei({
 	__name: "supervision-indicator",
 	props: { ariaLabel: {} },
 	setup(e) {
@@ -65771,21 +66189,21 @@ var rD = ({ name: e, iconNode: t, "icon-node": n, absoluteStrokeWidth: r, "absol
 			class: "flex items-center rounded-full bg-white p-[3px] outline-2 outline-(--color-success) text-(--color-success)",
 			title: "Supervised",
 			"aria-label": e.ariaLabel ?? "Supervised dataflow"
-		}, [K(z(aD), { size: 12 })], 8, HD));
+		}, [K(z(DD), { size: 12 })], 8, dO));
 	}
-}), WD = ["onClick"], GD = { class: "dataflow-group__left-port justify-self-end" }, KD = { class: "dataflow-group__left-port__source-data-object mr-2" }, qD = { class: "dataflow-group__left-port__source-data-attribute" }, JD = { class: /* @__PURE__ */ k(["col-start-2 row-start-1 flex items-center relative"]) }, YD = { class: "dataflow-group__overlay" }, XD = { class: "dataflow-group__supervision-col" }, ZD = { class: "dataflow-group__actions" }, QD = ["onClick"], $D = ["onClick"], eO = ["onClick"], tO = [
+}), pO = ["onClick"], mO = { class: "dataflow-group__left-port justify-self-end" }, hO = { class: "dataflow-group__left-port__source-data-object mr-2" }, gO = { class: "dataflow-group__left-port__source-data-attribute" }, _O = { class: /* @__PURE__ */ k(["col-start-2 row-start-1 flex items-center relative"]) }, vO = { class: "dataflow-group__overlay" }, yO = { class: "dataflow-group__supervision-col" }, bO = { class: "dataflow-group__actions" }, xO = ["onClick"], SO = ["onClick"], CO = ["onClick"], wO = [
 	"title",
 	"disabled",
 	"onClick"
-], nO = {
+], TO = {
 	height: "12",
 	width: "8",
 	class: "col-start-2 justify-self-end row-start-1",
 	xmlns: "http://www.w3.org/2000/svg"
-}, rO = ["fill"], iO = {
+}, EO = ["fill"], DO = {
 	key: 0,
 	class: "dataflow-group__right-port col-start-3 justify-self-start"
-}, aO = { class: "dataflow-group__right-port__input mr-2" }, oO = { class: "dataflow-group__right-port__input-instance" }, sO = /* @__PURE__ */ gS(/* @__PURE__ */ ei({
+}, OO = { class: "dataflow-group__right-port__input mr-2" }, kO = { class: "dataflow-group__right-port__input-instance" }, AO = /* @__PURE__ */ TS(/* @__PURE__ */ ei({
 	__name: "dataflow-group",
 	props: {
 		connections: {},
@@ -65812,7 +66230,7 @@ var rD = ({ name: e, iconNode: t, "icon-node": n, absoluteStrokeWidth: r, "absol
 		function o(e) {
 			return r(e) && e.isImplemented && !e.isImplementationOnly;
 		}
-		let s = aS(), c = fx(), l = JE(), u = qu(), { activeElement: d } = Ku(u), f = J(() => t.connections.find((e) => e.id === d.value) ?? void 0);
+		let s = mS(), c = xx(), l = gD(), u = qu(), { activeElement: d } = Ku(u), f = J(() => t.connections.find((e) => e.id === d.value) ?? void 0);
 		function p(e) {
 			u.setOrResetActiveElement(e.id);
 		}
@@ -65855,7 +66273,7 @@ var rD = ({ name: e, iconNode: t, "icon-node": n, absoluteStrokeWidth: r, "absol
 			await s.loadConnections(), await c.refreshLnode(e.subscriberLnodeId), await c.refreshLnode(e.sourceLnodeId);
 		}
 		function g(e) {
-			return t.isDataflowImplementationEnabled ? e.notPossibleToImplement ? xw : e.isImplementationOnly ? Sw : e.isImplemented ? yw : bw : bw;
+			return t.isDataflowImplementationEnabled ? e.notPossibleToImplement ? Uw : e.isImplementationOnly ? Ww : e.isImplemented ? Vw : Hw : Hw;
 		}
 		return (t, n) => (U(), W(H, null, [(U(!0), W(H, null, V(e.connections, (t) => (U(), W("div", {
 			key: t.id,
@@ -65863,95 +66281,95 @@ var rD = ({ name: e, iconNode: t, "icon-node": n, absoluteStrokeWidth: r, "absol
 			"data-testid": "df-connection-row",
 			onClick: Jl((e) => p(t), ["stop"])
 		}, [
-			G("div", GD, [G("span", KD, A(t.sourceDataObject), 1), G("span", qD, A(t.sourceDataAttribute), 1)]),
-			G("div", JD, [G("div", {
+			G("div", mO, [G("span", hO, A(t.sourceDataObject), 1), G("span", gO, A(t.sourceDataAttribute), 1)]),
+			G("div", _O, [G("div", {
 				class: k([
 					"border-1 w-full",
 					{ "dataflow-group__line--active": z(d) === t.id },
 					e.isDataflowImplementationEnabled && !t.isImplemented ? "border-dashed" : "border-solid"
 				]),
 				style: ge({ borderColor: `var(${g(t)})` })
-			}, null, 6), G("div", YD, [G("div", XD, [e.isDataflowImplementationEnabled && t.isSupervised ? (U(), os(UD, {
+			}, null, 6), G("div", vO, [G("div", yO, [e.isDataflowImplementationEnabled && t.isSupervised ? (U(), os(fO, {
 				key: 0,
 				ariaLabel: "Supervised dataflow"
-			})) : q("", !0)]), G("div", ZD, [
+			})) : q("", !0)]), G("div", bO, [
 				i(t) ? (U(), W("button", {
 					key: 0,
 					class: "dataflow-group__action-btn",
 					title: "Implement",
 					"aria-label": "Implement dataflow",
 					onClick: Jl((n) => e.onImplement(t), ["stop"])
-				}, [K(z(cD), { size: 12 })], 8, QD)) : q("", !0),
+				}, [K(z(AD), { size: 12 })], 8, xO)) : q("", !0),
 				a(t) ? (U(), W("button", {
 					key: 1,
 					class: "dataflow-group__action-btn",
 					title: "Show implementation details",
 					"aria-label": "Show implementation details",
 					onClick: Jl((n) => e.onShowDetails(t), ["stop"])
-				}, [K(z(uD), { size: 12 })], 8, $D)) : q("", !0),
+				}, [K(z(MD), { size: 12 })], 8, SO)) : q("", !0),
 				o(t) ? (U(), W("button", {
 					key: 2,
 					class: "dataflow-group__action-btn",
 					title: "Unimplement",
 					"aria-label": "Unimplement dataflow",
 					onClick: Jl((n) => e.onUnimplement(t), ["stop"])
-				}, [K(z(lD), { size: 12 })], 8, eO)) : q("", !0),
+				}, [K(z(jD), { size: 12 })], 8, CO)) : q("", !0),
 				G("button", {
 					class: "dataflow-group__action-btn",
 					"aria-label": "Delete dataflow",
 					title: t.isImplemented && !e.isDataflowImplementationEnabled ? "This dataflow is implemented and can only be deleted using the dataflow implementation view" : "Delete dataflow",
 					disabled: t.isImplemented && !e.isDataflowImplementationEnabled,
 					onClick: Jl((e) => m(t), ["stop"])
-				}, [K(z(fD), { size: 12 })], 8, tO)
+				}, [K(z(FD), { size: 12 })], 8, wO)
 			])])]),
-			(U(), W("svg", nO, [G("polygon", {
+			(U(), W("svg", TO, [G("polygon", {
 				points: "0,0 8,6 0,12",
 				fill: `var(${g(t)})`
-			}, null, 8, rO)])),
-			t.isImplementationOnly ? q("", !0) : (U(), W("div", iO, [G("span", aO, A(t.input), 1), G("span", oO, A(t.inputInstance), 1)]))
-		], 8, WD))), 128)), f.value ? (U(), os(Ir, {
+			}, null, 8, EO)])),
+			t.isImplementationOnly ? q("", !0) : (U(), W("div", DO, [G("span", OO, A(t.input), 1), G("span", kO, A(t.inputInstance), 1)]))
+		], 8, pO))), 128)), f.value ? (U(), os(Ir, {
 			key: 0,
 			to: "#sidebar-details"
-		}, [e.isDataflowImplementationEnabled ? (U(), os(VD, {
+		}, [e.isDataflowImplementationEnabled ? (U(), os(uO, {
 			key: 1,
 			connection: f.value
-		}, null, 8, ["connection"])) : (U(), os(PD, {
+		}, null, 8, ["connection"])) : (U(), os(rO, {
 			key: 0,
 			connection: f.value
 		}, null, 8, ["connection"]))])) : q("", !0)], 64));
 	}
-}), [["__scopeId", "data-v-d6b5587f"]]), cO = ["onClick"], lO = { class: "dataflows__left-port justify-self-end" }, uO = { class: "dataflows__left-port__source-data-object mr-2" }, dO = { class: "dataflows__left-port__source-data-attribute" }, fO = { class: "dataflows__line col-start-3 row-start-1 flex items-center" }, pO = ["data-testid"], mO = {
+}), [["__scopeId", "data-v-d6b5587f"]]), jO = ["onClick"], MO = { class: "dataflows__left-port justify-self-end" }, NO = { class: "dataflows__left-port__source-data-object mr-2" }, PO = { class: "dataflows__left-port__source-data-attribute" }, FO = { class: "dataflows__line col-start-3 row-start-1 flex items-center" }, IO = ["data-testid"], LO = {
 	height: "12",
 	width: "8",
 	class: "col-start-3 justify-self-end mr-2.25 row-start-1",
 	xmlns: "http://www.w3.org/2000/svg"
-}, hO = { class: "col-start-3 row-start-1 z-1 grid grid-cols-[1fr_auto_1fr] items-center gap-3" }, gO = { class: "flex items-center gap-4 justify-center" }, _O = { class: "relative top-[-0.45rem] flex flex-col items-center justify-self-center" }, vO = {
+}, RO = { class: "col-start-3 row-start-1 z-1 grid grid-cols-[1fr_auto_1fr] items-center gap-3" }, zO = { class: "flex items-center gap-4 justify-center" }, BO = { class: "relative top-[-0.45rem] flex flex-col items-center justify-self-center" }, VO = {
 	key: 0,
 	class: "badge badge-warning badge-xs"
-}, yO = {
+}, HO = {
 	key: 1,
 	class: "badge badge-success badge-xs"
-}, bO = {
+}, UO = {
 	key: 2,
 	class: "badge badge-primary badge-xs"
-}, xO = {
+}, WO = {
 	key: 3,
 	class: "badge badge-primary badge-xs"
-}, SO = ["title"], CO = { class: "bg-(--color-primary) text-white p-1 rounded-sm text-sm justify-self-center" }, wO = { class: "flex items-center gap-2 justify-self-start" }, TO = ["onClick"], EO = [
+}, GO = ["title"], KO = { class: "bg-(--color-primary) text-white p-1 rounded-sm text-sm justify-self-center" }, qO = { class: "flex items-center gap-2 justify-self-start" }, JO = ["onClick"], YO = [
 	"title",
 	"disabled",
 	"onClick"
-], DO = {
+], XO = {
 	key: 0,
 	class: "dataflows__right-port col-start-5 justify-self-start"
-}, OO = { class: "dataflows__right-port__input mr-2" }, kO = { class: "dataflows__right-port__input-instance" }, AO = /* @__PURE__ */ gS(/* @__PURE__ */ ei({
+}, ZO = { class: "dataflows__right-port__input mr-2" }, QO = { class: "dataflows__right-port__input-instance" }, $O = /* @__PURE__ */ TS(/* @__PURE__ */ ei({
 	__name: "dataflows",
 	props: {
 		connections: {},
 		isDataflowImplementationEnabled: { type: Boolean }
 	},
 	setup(e) {
-		let t = e, n = aS(), r = vw(), i = fx(), a = JE(), o = qu(), { activeElement: s } = Ku(o), c = /* @__PURE__ */ R(null), l = /* @__PURE__ */ R(null), u = J(() => c.value);
+		let t = e, n = mS(), r = Bw(), i = xx(), a = gD(), o = qu(), { activeElement: s } = Ku(o), c = /* @__PURE__ */ R(null), l = /* @__PURE__ */ R(null), u = J(() => c.value);
 		xr(s, (e) => {
 			if (!e) {
 				w();
@@ -66064,7 +66482,7 @@ var rD = ({ name: e, iconNode: t, "icon-node": n, absoluteStrokeWidth: r, "absol
 		}
 		function T(e) {
 			let n = e.connections.length;
-			return t.isDataflowImplementationEnabled ? e.notPossibleToImplementCount === n ? xw : e.implementationOnlyCount === n ? Sw : e.implementedCount === n ? yw : bw : bw;
+			return t.isDataflowImplementationEnabled ? e.notPossibleToImplementCount === n ? Uw : e.implementationOnlyCount === n ? Ww : e.implementedCount === n ? Vw : Hw : Hw;
 		}
 		return (t, n) => (U(!0), W(H, null, V(f.value, (t, n) => (U(), W("div", {
 			key: t.key,
@@ -66072,12 +66490,12 @@ var rD = ({ name: e, iconNode: t, "icon-node": n, absoluteStrokeWidth: r, "absol
 			"data-testid": "df-group-row",
 			onClick: (e) => b(t.key, t.connections)
 		}, [
-			G("div", lO, [G("span", uO, A(t.key.split("/")[3]), 1), G("span", dO, A(t.connections[0].sourceDataAttribute) + A(t.connections.length > 1 ? ", ..." : ""), 1)]),
+			G("div", MO, [G("span", NO, A(t.key.split("/")[3]), 1), G("span", PO, A(t.connections[0].sourceDataAttribute) + A(t.connections.length > 1 ? ", ..." : ""), 1)]),
 			G("div", {
 				class: "rounded-full w-5 h-5 col-start-2 justify-self-end -mr-2.25",
 				style: ge({ backgroundColor: `var(${T(t)})` })
 			}, null, 4),
-			G("div", fO, [G("div", {
+			G("div", FO, [G("div", {
 				class: k([
 					"border-1 w-full",
 					{ "border-2": u.value === t.key },
@@ -66085,48 +66503,48 @@ var rD = ({ name: e, iconNode: t, "icon-node": n, absoluteStrokeWidth: r, "absol
 				]),
 				style: ge({ borderColor: `var(${T(t)})` }),
 				"data-testid": `dataflow-line-${n}`
-			}, null, 14, pO)]),
-			(U(), W("svg", mO, [G("polygon", {
+			}, null, 14, IO)]),
+			(U(), W("svg", LO, [G("polygon", {
 				points: "0,0 8,6 0,12",
 				style: ge({ fill: `var(${T(t)})` })
 			}, null, 4)])),
-			G("div", hO, [
-				G("div", gO, [G("div", _O, [e.isDataflowImplementationEnabled && t.notPossibleToImplementCount > 0 ? (U(), W("span", vO, A(t.notPossibleToImplementCount) + "/" + A(t.connections.length), 1)) : e.isDataflowImplementationEnabled && t.implementedCount == t.connections.length ? (U(), W("span", yO, A(t.implementedCount) + "/" + A(t.connections.length), 1)) : e.isDataflowImplementationEnabled ? (U(), W("span", bO, A(t.implementedCount) + "/" + A(t.connections.length), 1)) : (U(), W("span", xO, A(t.connections.length), 1)), G("button", {
+			G("div", RO, [
+				G("div", zO, [G("div", BO, [e.isDataflowImplementationEnabled && t.notPossibleToImplementCount > 0 ? (U(), W("span", VO, A(t.notPossibleToImplementCount) + "/" + A(t.connections.length), 1)) : e.isDataflowImplementationEnabled && t.implementedCount == t.connections.length ? (U(), W("span", HO, A(t.implementedCount) + "/" + A(t.connections.length), 1)) : e.isDataflowImplementationEnabled ? (U(), W("span", UO, A(t.implementedCount) + "/" + A(t.connections.length), 1)) : (U(), W("span", WO, A(t.connections.length), 1)), G("button", {
 					class: "dataflows__chevron-btn",
 					title: u.value === t.key ? "Collapse" : "Expand"
-				}, [u.value === t.key ? (U(), os(z(sD), {
+				}, [u.value === t.key ? (U(), os(z(kD), {
 					key: 0,
 					size: 12,
 					"stroke-width": "3"
-				})) : (U(), os(z(oD), {
+				})) : (U(), os(z(OD), {
 					key: 1,
 					size: 12,
 					"stroke-width": "3"
-				}))], 8, SO)]), e.isDataflowImplementationEnabled && t.isFullySupervised ? (U(), os(UD, {
+				}))], 8, GO)]), e.isDataflowImplementationEnabled && t.isFullySupervised ? (U(), os(fO, {
 					key: 0,
 					ariaLabel: "Supervised dataflow group"
 				})) : q("", !0)]),
-				G("div", CO, A(t.key.split("/")[0]), 1),
-				G("div", wO, [y(t) ? (U(), W("button", {
+				G("div", KO, A(t.key.split("/")[0]), 1),
+				G("div", qO, [y(t) ? (U(), W("button", {
 					key: 0,
 					class: "dataflows__action-btn",
 					title: "Unimplement dataflow group",
 					"aria-label": "Unimplement dataflow group",
 					onClick: Jl((e) => v(t.connections), ["stop"])
-				}, [K(z(lD), { size: 12 })], 8, TO)) : q("", !0), G("button", {
+				}, [K(z(jD), { size: 12 })], 8, JO)) : q("", !0), G("button", {
 					class: "dataflows__action-btn",
 					"aria-label": "Delete dataflow group",
 					title: t.implementedCount > 0 && !e.isDataflowImplementationEnabled ? "Implemented dataflows can be deleted only in the dataflow implementation view" : "Delete dataflow group",
 					disabled: t.implementedCount > 0 && !e.isDataflowImplementationEnabled || t.implementationOnlyCount > 0 && t.implementationOnlyCount < t.connections.length,
 					onClick: Jl((e) => x(t.connections), ["stop"])
-				}, [K(z(fD), { size: 12 })], 8, EO)])
+				}, [K(z(FD), { size: 12 })], 8, YO)])
 			]),
 			G("div", {
 				class: "rounded-full w-5 h-5 col-start-4 justify-self-start -ml-2.25",
 				style: ge({ backgroundColor: `var(${T(t)})` })
 			}, null, 4),
-			t.implementationOnlyCount === 0 ? (U(), W("div", DO, [G("span", OO, A(t.key.split("/")[1]), 1), G("span", kO, A(t.key.split("/")[2]), 1)])) : q("", !0),
-			u.value === t.key ? (U(), os(sO, {
+			t.implementationOnlyCount === 0 ? (U(), W("div", XO, [G("span", ZO, A(t.key.split("/")[1]), 1), G("span", QO, A(t.key.split("/")[2]), 1)])) : q("", !0),
+			u.value === t.key ? (U(), os(AO, {
 				key: 1,
 				connections: d.value ?? [],
 				"is-dataflow-implementation-enabled": e.isDataflowImplementationEnabled,
@@ -66134,338 +66552,384 @@ var rD = ({ name: e, iconNode: t, "icon-node": n, absoluteStrokeWidth: r, "absol
 				"on-show-details": h,
 				"on-unimplement": g
 			}, null, 8, ["connections", "is-dataflow-implementation-enabled"])) : q("", !0)
-		], 10, cO))), 128));
+		], 10, jO))), 128));
 	}
-}), [["__scopeId", "data-v-5e3be295"]]), jO = { class: "bg-(--color-primary) text-white z-1 relative p-1 rounded-sm text-sm mb-4 inline-block" }, MO = { class: "[&_dt,dd]:inline [&_dt]:mr-1" }, NO = { class: "mt-4" }, PO = { class: "mt-4" }, FO = /* @__PURE__ */ ei({
+}), [["__scopeId", "data-v-5e3be295"]]), ek = { class: "bg-(--color-primary) text-white z-1 relative p-1 rounded-sm text-sm mb-4 inline-block" }, tk = { class: "[&_dt,dd]:inline [&_dt]:mr-1" }, nk = { class: "mt-4" }, rk = { class: "mt-4" }, ik = /* @__PURE__ */ ei({
 	__name: "placeholder-for-dataflow-controller.sidebar-details",
 	props: { placeholder: {} },
 	setup(e) {
 		return (t, n) => (U(), W(H, null, [
 			n[5] ||= G("h2", { class: "text-lg font-bold mb-2" }, "Placeholder for Dataflow Controller", -1),
-			G("span", jO, A(z(Q).CONTROL), 1),
-			G("dl", MO, [
+			G("span", ek, A(z(Q).CONTROL), 1),
+			G("dl", tk, [
 				G("div", null, [n[0] ||= G("dt", null, "Output:", -1), G("dd", null, A(e.placeholder.outputName), 1)]),
 				G("div", null, [n[1] ||= G("dt", null, "Controlled DO:", -1), G("dd", null, A(e.placeholder.dataObject || "-"), 1)]),
-				G("div", NO, [n[2] ||= G("dt", null, "Preferred controlling LN:", -1), G("dd", null, A(e.placeholder.preferredLnode || "-"), 1)]),
-				G("div", null, [n[3] ||= G("dt", null, "Process Resource:", -1), G("dd", null, A(e.placeholder.processResource || "-"), 1)]),
-				G("div", PO, [n[4] ||= G("dt", null, "Placeholder is resolved:", -1), G("dd", null, A(e.placeholder.isResolved), 1)])
+				G("div", nk, [n[2] ||= G("dt", null, "Preferred controlling LN:", -1), G("dd", null, A(e.placeholder.preferredLnode || "-"), 1)]),
+				G("div", null, [n[3] ||= G("dt", null, "Process Resource:", -1), G("dd", null, A(e.placeholder.processResource?.name || "-"), 1)]),
+				G("div", rk, [n[4] ||= G("dt", null, "Placeholder is resolved:", -1), G("dd", null, A(e.placeholder.isResolved), 1)])
 			])
 		], 64));
 	}
-}), IO = {
+}), ak = {
 	key: 0,
 	class: "bg-(--color-primary) text-white z-1 relative p-1 rounded-sm text-sm mb-4 inline-block"
-}, LO = {
+}, ok = {
 	class: "[&_dt,dd]:inline [&_dt]:mr-1",
 	"data-testid": "placeholder-for-dataflow-source-details"
-}, RO = { class: "mt-4" }, zO = { key: 0 }, BO = { key: 1 }, VO = {
+}, sk = { class: "mt-4" }, ck = { key: 0 }, lk = { key: 1 }, uk = {
 	key: 2,
 	class: "mt-4"
-}, HO = /* @__PURE__ */ ei({
+}, dk = /* @__PURE__ */ ei({
 	__name: "placeholder-for-dataflow-source.sidebar-details",
 	props: { placeholder: {} },
 	setup(e) {
-		let t = e, { lnodeTypes: n } = Ku(fx()), r = J(() => n.value.find((e) => e.lnClass === t.placeholder.preferredLnode)?.dataObjects.find((e) => e.namePath === t.placeholder.preferredDataObject)), i = J(() => r?.value?.dataAttributes?.find((e) => e.namePath === t.placeholder.preferredDataAttribute));
+		let t = e, { lnodeTypes: n } = Ku(xx()), r = J(() => n.value.find((e) => e.lnClass === t.placeholder.preferredLnode)?.dataObjects.find((e) => e.namePath === t.placeholder.preferredDataObject)), i = J(() => r?.value?.dataAttributes?.find((e) => e.namePath === t.placeholder.preferredDataAttribute));
 		return (t, n) => (U(), W(H, null, [
 			n[9] ||= G("h2", { class: "text-lg font-bold mb-2" }, "Placeholder for Dataflow Source", -1),
-			e.placeholder.dataflowType ? (U(), W("span", IO, A(e.placeholder.dataflowType), 1)) : q("", !0),
-			G("dl", LO, [
+			e.placeholder.dataflowType ? (U(), W("span", ak, A(e.placeholder.dataflowType), 1)) : q("", !0),
+			G("dl", ok, [
 				G("div", null, [n[0] ||= G("dt", null, "Input:", -1), G("dd", null, A(e.placeholder.input), 1)]),
 				G("div", null, [n[1] ||= G("dt", null, "Input Instance:", -1), G("dd", null, A(e.placeholder.inputInst || "-"), 1)]),
-				G("div", RO, [n[2] ||= G("dt", null, "Preferred LN:", -1), G("dd", null, A(e.placeholder.preferredLnode || "-"), 1)]),
+				G("div", sk, [n[2] ||= G("dt", null, "Preferred LN:", -1), G("dd", null, A(e.placeholder.preferredLnode || "-"), 1)]),
 				G("div", null, [n[3] ||= G("dt", null, "Preferred DO:", -1), G("dd", null, A(e.placeholder.preferredDataObject || "-"), 1)]),
-				r.value?.desc ? (U(), W("div", zO, [n[4] ||= G("dt", null, "Preferred DO Desc:", -1), G("dd", null, A(r.value.desc), 1)])) : q("", !0),
+				r.value?.desc ? (U(), W("div", ck, [n[4] ||= G("dt", null, "Preferred DO Desc:", -1), G("dd", null, A(r.value.desc), 1)])) : q("", !0),
 				G("div", null, [n[5] ||= G("dt", null, "Preferred DA:", -1), G("dd", null, A(e.placeholder.preferredDataAttribute || "-"), 1)]),
-				i.value?.desc ? (U(), W("div", BO, [n[6] ||= G("dt", null, "Preferred DA Desc:", -1), G("dd", null, A(i.value.desc), 1)])) : q("", !0),
-				G("div", null, [n[7] ||= G("dt", null, "Process Resource:", -1), G("dd", null, A(e.placeholder.processResource || "-"), 1)]),
-				e.placeholder.isResolved == null ? q("", !0) : (U(), W("div", VO, [n[8] ||= G("dt", null, "Placeholder is resolved:", -1), G("dd", null, A(e.placeholder.isResolved), 1)]))
+				i.value?.desc ? (U(), W("div", lk, [n[6] ||= G("dt", null, "Preferred DA Desc:", -1), G("dd", null, A(i.value.desc), 1)])) : q("", !0),
+				G("div", null, [n[7] ||= G("dt", null, "Process Resource:", -1), G("dd", null, A(e.placeholder.processResource?.name || "-"), 1)]),
+				e.placeholder.isResolved == null ? q("", !0) : (U(), W("div", uk, [n[8] ||= G("dt", null, "Placeholder is resolved:", -1), G("dd", null, A(e.placeholder.isResolved), 1)]))
 			])
 		], 64));
 	}
-}), UO = { class: "col-start-3 col-span-1 row-start-1 !pointer-events-none *:pointer-events-auto" }, WO = ["onClick"], GO = ["data-testid"], KO = ["onClick"], qO = { class: "placeholder--actions" }, JO = ["onClick"], YO = ["disabled", "onClick"], XO = ["onClick"], ZO = ["onClick", "data-testid"], QO = { class: "col-start-5 col-span-1 self-center justify-self-start" }, $O = ["onClick"], ek = ["onClick"], tk = { class: "col-start-3 col-span-1 row-start-1 !pointer-events-none *:pointer-events-auto" }, nk = ["onClick"], rk = ["data-testid"], ik = ["onClick"], ak = { class: "placeholder--actions" }, ok = ["onClick"], sk = ["disabled", "onClick"], ck = ["onClick"], lk = ["onClick"], uk = { class: "col-start-5 col-span-1 self-center justify-self-start" }, dk = ["onClick"], fk = /* @__PURE__ */ gS(/* @__PURE__ */ ei({
+}), fk = ["disabled"], pk = /* @__PURE__ */ TS(/* @__PURE__ */ ei({
+	__name: "placeholder-port-actions",
+	props: {
+		resolveDisabled: {
+			type: Boolean,
+			default: !1
+		},
+		align: { default: "left" }
+	},
+	emits: [
+		"resolve",
+		"edit",
+		"delete"
+	],
+	setup(e) {
+		return (t, n) => (U(), W(H, null, [G("button", {
+			class: k(["placeholder--resolver-button", e.align === "right" ? "placeholder--resolver-button-right" : ""]),
+			disabled: e.resolveDisabled,
+			"aria-label": "Resolve placeholder",
+			title: "Resolve placeholder",
+			onClick: n[0] ||= (e) => t.$emit("resolve")
+		}, [K(z(PD), {
+			size: 12,
+			"stroke-width": "3"
+		})], 10, fk), G("div", { class: k(["placeholder--icon-actions", e.align === "right" ? "placeholder--icon-actions-right" : ""]) }, [G("button", {
+			class: "placeholder--icon-button",
+			"aria-label": "Edit placeholder",
+			title: "Edit placeholder",
+			"data-testid": "edit-placeholder-button",
+			onClick: n[1] ||= (e) => t.$emit("edit")
+		}, [K(z(ND), { size: 12 })]), G("button", {
+			class: "placeholder--icon-button",
+			"aria-label": "Delete placeholder",
+			title: "Delete placeholder",
+			onClick: n[2] ||= (e) => t.$emit("delete")
+		}, [K(z(FD), { size: 12 })])], 2)], 64));
+	}
+}), [["__scopeId", "data-v-012d328c"]]), mk = { class: "col-start-3 col-span-1 row-start-1 !pointer-events-none *:pointer-events-auto" }, hk = ["onClick"], gk = ["data-testid"], _k = ["onClick"], vk = ["onClick", "data-testid"], yk = { class: "col-start-5 col-span-1 self-center justify-self-start" }, bk = ["onClick"], xk = ["onClick"], Sk = { class: "col-start-3 col-span-1 row-start-1 !pointer-events-none *:pointer-events-auto" }, Ck = ["onClick"], wk = ["data-testid"], Tk = ["onClick"], Ek = ["onClick"], Dk = { class: "col-start-5 col-span-1 self-center justify-self-start" }, Ok = ["onClick"], kk = /* @__PURE__ */ ei({
 	__name: "subscriber-placeholder-ports",
 	props: {
 		sourceLnode: {},
 		subscriberLnode: {}
 	},
 	setup(e) {
-		let t = e, n = fx(), r = fS(), { placeholdersForDataflowSource: i, placeholdersForDataflowController: a } = Ku(r), o = qu(), { activeElement: s } = Ku(o), c = JE(), l = J(() => t.subscriberLnode.id ? a.value.filter((e) => e.controlledLnodeId === t.subscriberLnode.id) : []), u = J(() => t.subscriberLnode ? i?.value.filter((e) => e.lnodeId === t.subscriberLnode?.id) : []), d = J(() => t.sourceLnode?.lnClass === "IHMI" || t.sourceLnode?.lnClass === "ITCI"), f = J(() => t.sourceLnode?.lnClass === "TCTR" || t.sourceLnode?.lnClass === "TVTR");
-		function p(e) {
+		let t = e, n = xS(), { placeholdersForDataflowSource: r, placeholdersForDataflowController: i } = Ku(n), a = qu(), { activeElement: o } = Ku(a), s = gD(), c = J(() => t.subscriberLnode.id ? i.value.filter((e) => e.controlledLnodeId === t.subscriberLnode.id) : []), l = J(() => t.subscriberLnode ? r?.value.filter((e) => e.lnodeId === t.subscriberLnode?.id) : []), u = J(() => t.sourceLnode?.lnClass === "IHMI" || t.sourceLnode?.lnClass === "ITCI"), d = J(() => t.sourceLnode?.lnClass === "TCTR" || t.sourceLnode?.lnClass === "TVTR");
+		function f(e) {
 			let n = !!t.sourceLnode, r = !!t.subscriberLnode, i = !!e.preferredLnode, a = t.sourceLnode?.lnClass === e.preferredLnode;
-			return !n || !r || e.dataflowType === Q.SMV && !f.value || e.dataflowType === Q.INTERNAL && t.sourceLnode?.iedName !== t.subscriberLnode?.iedName ? !1 : i ? a : !0;
+			return !n || !r || e.dataflowType === Q.SMV && !d.value || e.dataflowType === Q.INTERNAL && t.sourceLnode?.iedName !== t.subscriberLnode?.iedName ? !1 : i ? a : !0;
 		}
-		function m(e) {
-			X(t.sourceLnode, "Source LNode is undefined"), c.openDialogWithContent("DataflowCreation", {
+		function p(e) {
+			X(t.sourceLnode, "Source LNode is undefined"), s.openDialogWithContent("DataflowCreation", {
 				sourceLnode: t.sourceLnode,
 				subscriberLnode: t.subscriberLnode,
 				placeholderForDataflowSource: e
 			});
 		}
-		function h(e) {
-			X(t.sourceLnode, "Source LNode is undefined"), c.openDialogWithContent("DataflowCreation", {
+		function m(e) {
+			X(t.sourceLnode, "Source LNode is undefined"), s.openDialogWithContent("DataflowCreation", {
 				sourceLnode: t.sourceLnode,
 				subscriberLnode: t.subscriberLnode,
 				placeholderForDataflowController: e
 			});
 		}
+		function h(e) {
+			s.openDialogWithContent("PlaceholderEdit", {
+				subscriberLnode: t.subscriberLnode,
+				placeholderForDataflowSource: e
+			});
+		}
 		function g(e) {
-			c.openDialogWithContent("DeleteConfirmation", {
-				message: "Are you sure you want to delete this placeholder?",
-				onConfirm: async () => {
-					await r.deletePlaceholderForDataflowSource(e), e.lnodeId && await n.refreshLnode(e.lnodeId), await r.loadPlaceholders();
-				}
+			s.openDialogWithContent("PlaceholderEdit", {
+				subscriberLnode: t.subscriberLnode,
+				placeholderForDataflowController: e
 			});
 		}
 		function _(e) {
-			c.openDialogWithContent("DeleteConfirmation", {
+			s.openDialogWithContent("DeleteConfirmation", {
 				message: "Are you sure you want to delete this placeholder?",
 				onConfirm: async () => {
-					await r.deletePlaceholderForDataflowController(e), await n.refreshLnode(e.controlledLnodeId), await r.loadPlaceholders();
+					await n.deletePlaceholderForDataflowSource(e), await n.refreshAfterPlaceholderMutation({ lnodeIdToRefresh: e.lnodeId });
 				}
 			});
 		}
-		return (e, t) => (U(), W(H, null, [(U(!0), W(H, null, V(u.value, (e, n) => (U(), W("div", {
+		function v(e) {
+			s.openDialogWithContent("DeleteConfirmation", {
+				message: "Are you sure you want to delete this placeholder?",
+				onConfirm: async () => {
+					await n.deletePlaceholderForDataflowController(e), await n.refreshAfterPlaceholderMutation({ lnodeIdToRefresh: e.controlledLnodeId });
+				}
+			});
+		}
+		return (e, t) => (U(), W(H, null, [(U(!0), W(H, null, V(l.value, (e, n) => (U(), W("div", {
 			"data-testid": "df-placeholder-for-dataflow-source-port",
 			class: "placeholder-port grid grid-cols-[1fr_20px_1fr_20px_1fr] h-[50px]",
 			key: `placeholder-for-dataflow-source-port-${n}`
 		}, [
-			G("div", UO, [G("div", {
+			G("div", mk, [G("div", {
 				class: "flex items-center justify-end h-full w-full hover:cursor-pointer",
-				onClick: (t) => z(o).setOrResetActiveElement(e.id)
+				onClick: (t) => z(a).setOrResetActiveElement(e.id)
 			}, [G("div", {
-				class: "relative w-4/5 h-[12px]",
+				class: "relative w-2/3 h-[12px]",
 				"data-testid": `placeholder-for-dataflow-source-line-${n}`
 			}, [G("div", { class: k(["absolute left-0 top-1/2 h-[2px] w-full -translate-y-1/2 border border-dashed", {
-				"border-[var(--color-primary)]": z(s) === e.id,
-				"border-[var(--color-gray-200)]": z(s) !== e.id
+				"border-[var(--color-primary)]": z(o) === e.id,
+				"border-[var(--color-gray-200)]": z(o) !== e.id
 			}]) }, null, 2), (U(), W("svg", {
 				width: "12",
 				height: "12",
-				class: k(["text-(--color-ocean-gray-100) absolute right-2 top-0", { "text-(--color-primary)": z(s) === e.id }]),
+				class: k(["text-(--color-ocean-gray-100) absolute right-2 top-0", { "text-(--color-primary)": z(o) === e.id }]),
 				viewBox: "0 0 12 12"
 			}, [...t[0] ||= [G("polygon", {
 				points: "3.6,0 12,6 3.6,12",
 				fill: "currentColor"
-			}, null, -1)]], 2))], 8, GO)], 8, WO)]),
+			}, null, -1)]], 2))], 8, gk)], 8, hk)]),
 			e.preferredLnode ? (U(), W("div", {
 				key: 0,
-				onClick: (t) => z(o).setOrResetActiveElement(e.id),
-				class: "bg-(--color-ocean-gray-25) col-start-3 self-center justify-self-end z-1 relative p-1 rounded-sm text-sm row-start-1 hover:cursor-pointer right-[75%]"
-			}, A(e.preferredLnode), 9, KO)) : q("", !0),
-			G("div", qO, [G("button", {
-				class: "placeholder--delete-button",
-				"aria-label": "Delete placeholder",
-				title: "Delete placeholder",
-				onClick: (t) => g(e)
-			}, [K(z(fD), { size: 12 })], 8, JO), G("button", {
-				class: "placeholder--resolver-button",
-				disabled: !p(e),
-				"aria-label": "Resolve placeholder",
-				title: "Resolve placeholder",
-				onClick: (t) => m(e)
-			}, [K(z(dD), {
-				size: 12,
-				"stroke-width": "3"
-			})], 8, YO)]),
-			e.preferredDataObject ? (U(), W("div", {
-				key: 1,
-				onClick: (t) => z(o).setOrResetActiveElement(e.id),
-				class: "bg-(--color-ocean-gray-25) col-start-3 self-center z-1 relative p-1 rounded-sm text-sm row-start-1 hover:cursor-pointer left-[60%] truncate max-w-[9ch] w-[fit-content]"
-			}, A(e.preferredDataObject), 9, XO)) : q("", !0),
+				onClick: (t) => z(a).setOrResetActiveElement(e.id),
+				class: "bg-(--color-ocean-gray-25) col-start-3 self-center justify-self-end z-1 relative p-1 rounded-sm text-sm row-start-1 hover:cursor-pointer right-[60%]"
+			}, A(e.preferredLnode), 9, _k)) : q("", !0),
+			K(pk, {
+				align: "right",
+				"resolve-disabled": !f(e),
+				onResolve: (t) => p(e),
+				onEdit: (t) => h(e),
+				onDelete: (t) => _(e)
+			}, null, 8, [
+				"resolve-disabled",
+				"onResolve",
+				"onEdit",
+				"onDelete"
+			]),
 			G("div", {
-				onClick: (t) => z(o).setOrResetActiveElement(e.id),
+				onClick: (t) => z(a).setOrResetActiveElement(e.id),
 				"data-testid": `placeholder-for-dataflow-source-port-${n}`,
-				class: k(["rounded-full w-[20px] h-[20px] col-start-4 col-span-1 bg-(--color-ocean-gray-100) z-2 self-center justify-self-start -ml-[9px] hover:cursor-pointer", { "bg-(--color-primary)": z(s) === e.id }])
-			}, null, 10, ZO),
-			G("div", QO, [G("span", {
-				onClick: (t) => z(o).setOrResetActiveElement(e.id),
+				class: k(["rounded-full w-[20px] h-[20px] col-start-4 col-span-1 bg-(--color-ocean-gray-100) z-2 self-center justify-self-start -ml-[9px] hover:cursor-pointer", { "bg-(--color-primary)": z(o) === e.id }])
+			}, null, 10, vk),
+			G("div", yk, [G("span", {
+				onClick: (t) => z(a).setOrResetActiveElement(e.id),
 				class: k([
 					"relative inline-block px-2 py-1 mr-2 rounded-sm hover:cursor-pointer border-2",
 					e.isResolved ? "border-solid" : "border-dashed",
 					"border-(--color-ocean-gray-100)"
 				])
-			}, [hs(A(e.input) + " ", 1), G("span", { class: k([{ "bg-(--color-primary)": z(s) === e.id }, "absolute -top-3 -right-3 bg-(--color-ocean-gray-100) text-white text-xs font-semibold rounded-full w-5 h-5 flex items-center justify-center"]) }, " 1+ ", 2)], 10, $O), G("span", {
-				onClick: (t) => z(o).setOrResetActiveElement(e.id),
+			}, [hs(A(e.input) + " ", 1), G("span", { class: k([{ "bg-(--color-primary)": z(o) === e.id }, "absolute -top-3 -right-3 bg-(--color-ocean-gray-100) text-white text-xs font-semibold rounded-full w-5 h-5 flex items-center justify-center"]) }, " 1+ ", 2)], 10, bk), G("span", {
+				onClick: (t) => z(a).setOrResetActiveElement(e.id),
 				class: k([
 					"px-2 py-1 rounded-sm hover:cursor-pointer border-2",
 					e.isResolved ? "border-solid" : "border-dashed",
 					"border-(--color-ocean-gray-100)"
 				])
-			}, A(e.inputInst), 11, ek)]),
-			z(s) == e.id ? (U(), os(Ir, {
-				key: 2,
+			}, A(e.inputInst), 11, xk)]),
+			z(o) == e.id ? (U(), os(Ir, {
+				key: 1,
 				to: "#sidebar-details"
-			}, [K(HO, { placeholder: e }, null, 8, ["placeholder"])])) : q("", !0)
-		]))), 128)), (U(!0), W(H, null, V(l.value, (e, n) => (U(), W("div", {
+			}, [K(dk, { placeholder: e }, null, 8, ["placeholder"])])) : q("", !0)
+		]))), 128)), (U(!0), W(H, null, V(c.value, (e, n) => (U(), W("div", {
 			class: "placeholder-port grid grid-cols-[1fr_20px_1fr_20px_1fr] h-[50px]",
 			key: `placeholder-for-dataflow-source-port-${n}`
 		}, [
-			G("div", tk, [G("div", {
+			G("div", Sk, [G("div", {
 				class: "flex items-center justify-end h-full w-full hover:cursor-pointer",
-				onClick: (t) => z(o).setOrResetActiveElement(e.id)
+				onClick: (t) => z(a).setOrResetActiveElement(e.id)
 			}, [G("div", {
-				class: "relative w-4/5 h-[12px]",
+				class: "relative w-2/3 h-[12px]",
 				"data-testid": `placeholder-for-dataflow-controller-line-${n}`
 			}, [G("div", { class: k(["absolute left-0 top-1/2 h-[2px] w-full -translate-y-1/2 border border-dashed", {
-				"border-[var(--color-primary)]": z(s) === e.id,
-				"border-[var(--color-gray-200)]": z(s) !== e.id
+				"border-[var(--color-primary)]": z(o) === e.id,
+				"border-[var(--color-gray-200)]": z(o) !== e.id
 			}]) }, null, 2), (U(), W("svg", {
 				width: "12",
 				height: "12",
-				class: k(["text-(--color-ocean-gray-100) absolute right-2 top-0", { "text-(--color-primary)": z(s) === e.id }]),
+				class: k(["text-(--color-ocean-gray-100) absolute right-2 top-0", { "text-(--color-primary)": z(o) === e.id }]),
 				viewBox: "0 0 12 12"
 			}, [...t[1] ||= [G("polygon", {
 				points: "3.6,0 12,6 3.6,12",
 				fill: "currentColor"
-			}, null, -1)]], 2))], 8, rk)], 8, nk)]),
+			}, null, -1)]], 2))], 8, wk)], 8, Ck)]),
 			e.preferredLnode ? (U(), W("div", {
 				key: 0,
-				onClick: (t) => z(o).setOrResetActiveElement(e.id),
-				class: "bg-(--color-ocean-gray-25) col-start-3 self-center justify-self-end z-1 relative p-1 rounded-sm text-sm row-start-1 hover:cursor-pointer right-[75%]"
-			}, A(e.preferredLnode), 9, ik)) : q("", !0),
-			G("div", ak, [G("button", {
-				class: "placeholder--delete-button",
-				"aria-label": "Delete placeholder",
-				title: "Delete placeholder",
-				onClick: (t) => _(e)
-			}, [K(z(fD), { size: 12 })], 8, ok), G("button", {
-				class: "placeholder--resolver-button",
-				disabled: !p(e) || !d.value,
-				"aria-label": "Resolve placeholder",
-				title: "Resolve placeholder",
-				onClick: (t) => h(e)
-			}, [K(z(dD), {
-				size: 12,
-				"stroke-width": "3"
-			})], 8, sk)]),
+				onClick: (t) => z(a).setOrResetActiveElement(e.id),
+				class: "bg-(--color-ocean-gray-25) col-start-3 self-center justify-self-end z-1 relative p-1 rounded-sm text-sm row-start-1 hover:cursor-pointer right-[60%]"
+			}, A(e.preferredLnode), 9, Tk)) : q("", !0),
+			K(pk, {
+				align: "right",
+				"resolve-disabled": !f(e) || !u.value,
+				onResolve: (t) => m(e),
+				onEdit: (t) => g(e),
+				onDelete: (t) => v(e)
+			}, null, 8, [
+				"resolve-disabled",
+				"onResolve",
+				"onEdit",
+				"onDelete"
+			]),
 			G("div", {
-				onClick: (t) => z(o).setOrResetActiveElement(e.id),
-				class: "bg-(--color-ocean-gray-25) col-start-3 self-center z-1 relative p-1 rounded-sm text-sm row-start-1 hover:cursor-pointer left-[60%] truncate max-w-[9ch] w-[fit-content]"
-			}, A(e.outputName), 9, ck),
-			G("div", {
-				onClick: (t) => z(o).setOrResetActiveElement(e.id),
-				class: k(["rounded-full w-[20px] h-[20px] col-start-4 col-span-1 bg-(--color-ocean-gray-100) z-2 self-center justify-self-start -ml-[9px] hover:cursor-pointer", { "bg-(--color-primary)": z(s) === e.id }])
-			}, null, 10, lk),
-			G("div", uk, [G("span", {
+				onClick: (t) => z(a).setOrResetActiveElement(e.id),
+				class: k(["rounded-full w-[20px] h-[20px] col-start-4 col-span-1 bg-(--color-ocean-gray-100) z-2 self-center justify-self-start -ml-[9px] hover:cursor-pointer", { "bg-(--color-primary)": z(o) === e.id }])
+			}, null, 10, Ek),
+			G("div", Dk, [G("span", {
 				class: k(["relative inline-block border-2 border-(--color-ocean-gray-100) px-2 py-1 mr-2 rounded-sm hover:cursor-pointer", e.isResolved ? "border-solid" : "border-dashed"]),
-				onClick: (t) => z(o).setOrResetActiveElement(e.id)
-			}, [G("span", null, A(e.dataObject), 1), G("span", { class: k([{ "bg-(--color-primary)": z(s) === e.id }, "absolute -top-3 -right-3 bg-(--color-ocean-gray-100) text-white text-xs font-semibold rounded-full w-5 h-5 flex items-center justify-center"]) }, " 1+ ", 2)], 10, dk)]),
-			z(s) == e.id ? (U(), os(Ir, {
+				onClick: (t) => z(a).setOrResetActiveElement(e.id)
+			}, [G("span", null, A(e.dataObject), 1), G("span", { class: k([{ "bg-(--color-primary)": z(o) === e.id }, "absolute -top-3 -right-3 bg-(--color-ocean-gray-100) text-white text-xs font-semibold rounded-full w-5 h-5 flex items-center justify-center"]) }, " 1+ ", 2)], 10, Ok)]),
+			z(o) == e.id ? (U(), os(Ir, {
 				key: 1,
 				to: "#sidebar-details"
-			}, [K(FO, { placeholder: e }, null, 8, ["placeholder"])])) : q("", !0)
+			}, [K(ik, { placeholder: e }, null, 8, ["placeholder"])])) : q("", !0)
 		]))), 128))], 64));
 	}
-}), [["__scopeId", "data-v-71710c62"]]), pk = { class: "bg-(--color-primary) text-white z-1 relative p-1 rounded-sm text-sm mb-4 inline-block" }, mk = { class: "[&_dt,dd]:inline [&_dt]:mr-1" }, hk = { class: "mt-4" }, gk = { class: "mt-4" }, _k = /* @__PURE__ */ ei({
+}), Ak = { class: "bg-(--color-primary) text-white z-1 relative p-1 rounded-sm text-sm mb-4 inline-block" }, jk = { class: "[&_dt,dd]:inline [&_dt]:mr-1" }, Mk = { class: "mt-4" }, Nk = { class: "mt-4" }, Pk = /* @__PURE__ */ ei({
 	__name: "placeholder-for-controlled-dataflow.sidebar-details",
 	props: { placeholder: {} },
 	setup(e) {
 		return (t, n) => (U(), W(H, null, [
 			n[6] ||= G("h2", { class: "text-lg font-bold mb-2" }, "Placeholder for Controlled Dataflow", -1),
-			G("span", pk, A(z(Q).CONTROL), 1),
-			G("dl", mk, [
+			G("span", Ak, A(z(Q).CONTROL), 1),
+			G("dl", jk, [
 				G("div", null, [n[0] ||= G("dt", null, "Output:", -1), G("dd", null, A(e.placeholder.outputName), 1)]),
 				G("div", null, [n[1] ||= G("dt", null, "Output Instance:", -1), G("dd", null, A(e.placeholder.outputInstance || "-"), 1)]),
-				G("div", hk, [n[2] ||= G("dt", null, "Preferred LN:", -1), G("dd", null, A(e.placeholder.preferredLnode || "-"), 1)]),
+				G("div", Mk, [n[2] ||= G("dt", null, "Preferred LN:", -1), G("dd", null, A(e.placeholder.preferredLnode || "-"), 1)]),
 				G("div", null, [n[3] ||= G("dt", null, "Preferred DO:", -1), G("dd", null, A(e.placeholder.preferredDataObject || "-"), 1)]),
-				G("div", null, [n[4] ||= G("dt", null, "Process Resource:", -1), G("dd", null, A(e.placeholder.processResource || "-"), 1)]),
-				G("div", gk, [n[5] ||= G("dt", null, "Placeholder is resolved:", -1), G("dd", null, A(e.placeholder.isResolved), 1)])
+				G("div", null, [n[4] ||= G("dt", null, "Process Resource:", -1), G("dd", null, A(e.placeholder.processResource?.name || "-"), 1)]),
+				G("div", Nk, [n[5] ||= G("dt", null, "Placeholder is resolved:", -1), G("dd", null, A(e.placeholder.isResolved), 1)])
 			])
 		], 64));
 	}
-}), vk = {
+}), Fk = {
 	key: 0,
 	class: "bg-(--color-primary) text-white z-1 relative p-1 rounded-sm text-sm mb-4 inline-block"
-}, yk = { class: "[&_dt,dd]:inline [&_dt]:mr-1" }, bk = { class: "mt-4" }, xk = { key: 0 }, Sk = { key: 1 }, Ck = { class: "mt-4" }, wk = {
+}, Ik = { class: "[&_dt,dd]:inline [&_dt]:mr-1" }, Lk = { class: "mt-4" }, Rk = { key: 0 }, zk = { key: 1 }, Bk = { class: "mt-4" }, Vk = {
 	key: 2,
 	class: "mt-4"
-}, Tk = /* @__PURE__ */ ei({
+}, Hk = /* @__PURE__ */ ei({
 	__name: "placeholder-for-dataflow-subscriber.sidebar-details",
 	props: {
 		placeholder: {},
 		sourceLnodeId: {}
 	},
 	setup(e) {
-		let t = e, { lnodes: n } = Ku(fx()), r = J(() => n.value.find((e) => e.id === t.sourceLnodeId)?.dataObjectSpecifications?.find((e) => e.namePath === t.placeholder.dataObject)), i = J(() => r?.value?.dataAttributeSpecifications?.find((e) => e.namePath === t.placeholder.dataAttribute));
+		let t = e, { lnodes: n } = Ku(xx()), r = J(() => n.value.find((e) => e.id === t.sourceLnodeId)?.dataObjectSpecifications?.find((e) => e.namePath === t.placeholder.dataObject)), i = J(() => r?.value?.dataAttributeSpecifications?.find((e) => e.namePath === t.placeholder.dataAttribute));
 		return (t, n) => (U(), W(H, null, [
 			n[8] ||= G("h2", { class: "text-lg font-bold mb-2" }, "Placeholder for Dataflow Subscriber", -1),
-			e.placeholder.dataflowType ? (U(), W("span", vk, A(e.placeholder.dataflowType), 1)) : q("", !0),
-			G("dl", yk, [
+			e.placeholder.dataflowType ? (U(), W("span", Fk, A(e.placeholder.dataflowType), 1)) : q("", !0),
+			G("dl", Ik, [
 				G("div", null, [n[0] ||= G("dt", null, "Input:", -1), G("dd", null, A(e.placeholder.input), 1)]),
-				G("div", bk, [n[1] ||= G("dt", null, "DO:", -1), G("dd", null, A(e.placeholder.dataObject || "-"), 1)]),
-				r.value?.desc ? (U(), W("div", xk, [n[2] ||= G("dt", null, "DO Desc:", -1), G("dd", null, A(r.value?.desc), 1)])) : q("", !0),
+				G("div", Lk, [n[1] ||= G("dt", null, "DO:", -1), G("dd", null, A(e.placeholder.dataObject || "-"), 1)]),
+				r.value?.desc ? (U(), W("div", Rk, [n[2] ||= G("dt", null, "DO Desc:", -1), G("dd", null, A(r.value?.desc), 1)])) : q("", !0),
 				G("div", null, [n[3] ||= G("dt", null, "DA:", -1), G("dd", null, A(e.placeholder.dataAttribute || "-"), 1)]),
-				i.value?.desc ? (U(), W("div", Sk, [n[4] ||= G("dt", null, "DA Desc:", -1), G("dd", null, A(i.value?.desc), 1)])) : q("", !0),
-				G("div", Ck, [n[5] ||= G("dt", null, "Preferred LN:", -1), G("dd", null, A(e.placeholder.preferredLnode || "-"), 1)]),
-				G("div", null, [n[6] ||= G("dt", null, "Process Resource:", -1), G("dd", null, A(e.placeholder.processResource || "-"), 1)]),
-				e.placeholder.isResolved == null ? q("", !0) : (U(), W("div", wk, [n[7] ||= G("dt", null, "Placeholder is resolved:", -1), G("dd", null, A(e.placeholder.isResolved), 1)]))
+				i.value?.desc ? (U(), W("div", zk, [n[4] ||= G("dt", null, "DA Desc:", -1), G("dd", null, A(i.value?.desc), 1)])) : q("", !0),
+				G("div", Bk, [n[5] ||= G("dt", null, "Preferred LN:", -1), G("dd", null, A(e.placeholder.preferredLnode || "-"), 1)]),
+				G("div", null, [n[6] ||= G("dt", null, "Process Resource:", -1), G("dd", null, A(e.placeholder.processResource?.name || "-"), 1)]),
+				e.placeholder.isResolved == null ? q("", !0) : (U(), W("div", Vk, [n[7] ||= G("dt", null, "Placeholder is resolved:", -1), G("dd", null, A(e.placeholder.isResolved), 1)]))
 			])
 		], 64));
 	}
-}), Ek = {
+}), Uk = {
 	"data-testid": "df-placeholder-for-dataflow-subscriber-port",
 	class: "placeholder-port grid grid-cols-[1fr_20px_1fr_20px_1fr] h-12"
-}, Dk = ["onClick"], Ok = ["onClick"], kk = { class: "col-start-3 col-span-1 row-start-1 !pointer-events-none *:pointer-events-auto" }, Ak = ["onClick"], jk = ["onClick"], Mk = ["onClick"], Nk = ["onClick"], Pk = { class: "placeholder--actions" }, Fk = ["disabled", "onClick"], Ik = ["onClick"], Lk = { class: "placeholder-port grid grid-cols-[1fr_20px_1fr_20px_1fr] h-12" }, Rk = ["onClick"], zk = ["onClick"], Bk = { class: "col-start-3 col-span-1 row-start-1 !pointer-events-none *:pointer-events-auto" }, Vk = ["onClick"], Hk = ["onClick"], Uk = ["onClick"], Wk = ["onClick"], Gk = { class: "placeholder--actions" }, Kk = ["disabled", "onClick"], qk = ["onClick"], Jk = /* @__PURE__ */ gS(/* @__PURE__ */ ei({
+}, Wk = ["onClick"], Gk = ["onClick"], Kk = { class: "col-start-3 col-span-1 row-start-1 !pointer-events-none *:pointer-events-auto" }, qk = ["onClick"], Jk = ["onClick"], Yk = ["onClick"], Xk = { class: "placeholder-port grid grid-cols-[1fr_20px_1fr_20px_1fr] h-12" }, Zk = ["onClick"], Qk = ["onClick"], $k = { class: "col-start-3 col-span-1 row-start-1 !pointer-events-none *:pointer-events-auto" }, eA = ["onClick"], tA = ["onClick"], nA = ["onClick"], rA = /* @__PURE__ */ ei({
 	__name: "source-placeholder-ports",
 	props: {
 		sourceLnode: {},
 		subscriberLnode: {}
 	},
 	setup(e) {
-		let t = e, n = qu(), { activeElement: r } = Ku(n), i = fx(), a = fS(), { placeholdersForDataflowSubscriber: o, placeholdersForControlledDataflow: s } = Ku(a), c = JE(), l = J(function() {
-			return t.sourceLnode.id ? o.value.filter(function(e) {
+		let t = e, n = qu(), { activeElement: r } = Ku(n), i = xS(), { placeholdersForDataflowSubscriber: a, placeholdersForControlledDataflow: o } = Ku(i), s = gD(), c = J(function() {
+			return t.sourceLnode.id ? a.value.filter(function(e) {
 				return e.lnodeId === t.sourceLnode.id;
 			}) : [];
-		}), u = J(function() {
-			return t.sourceLnode.id ? s.value.filter(function(e) {
+		}), l = J(function() {
+			return t.sourceLnode.id ? o.value.filter(function(e) {
 				return e.controllingLnodeId === t.sourceLnode.id;
 			}) : [];
 		});
-		function d(e) {
+		function u(e) {
 			let n = !!t.sourceLnode, r = !!t.subscriberLnode, i = !!n && !!r, a = !!e.preferredLnode, o = t.subscriberLnode?.lnClass === e.preferredLnode;
 			return !i || e.dataflowType === Q.INTERNAL && t.sourceLnode.iedName !== t.subscriberLnode?.iedName ? !1 : a ? o : !0;
 		}
-		function f(e) {
-			X(t.subscriberLnode, "Subscriber LNode is undefined"), c.openDialogWithContent("DataflowCreation", {
+		function d(e) {
+			X(t.subscriberLnode, "Subscriber LNode is undefined"), s.openDialogWithContent("DataflowCreation", {
 				sourceLnode: t.sourceLnode,
 				subscriberLnode: t.subscriberLnode,
 				placeholderForDataflowSubscriber: e
 			});
 		}
-		function p(e) {
-			X(t.subscriberLnode, "Subscriber LNode is undefined"), c.openDialogWithContent("DataflowCreation", {
+		function f(e) {
+			X(t.subscriberLnode, "Subscriber LNode is undefined"), s.openDialogWithContent("DataflowCreation", {
 				sourceLnode: t.sourceLnode,
 				subscriberLnode: t.subscriberLnode,
 				placeholderForControlledDataflow: e
 			});
 		}
+		function p(e) {
+			s.openDialogWithContent("PlaceholderEdit", {
+				sourceLnode: t.sourceLnode,
+				placeholderForDataflowSubscriber: e
+			});
+		}
 		function m(e) {
-			c.openDialogWithContent("DeleteConfirmation", {
-				message: "Are you sure you want to delete this placeholder?",
-				onConfirm: async () => {
-					await a.deletePlaceholderForDataflowSubscriber(e), await i.refreshLnode(e.lnodeId), await a.loadPlaceholders();
-				}
+			s.openDialogWithContent("PlaceholderEdit", {
+				sourceLnode: t.sourceLnode,
+				placeholderForControlledDataflow: e
 			});
 		}
 		function h(e) {
-			c.openDialogWithContent("DeleteConfirmation", {
+			s.openDialogWithContent("DeleteConfirmation", {
 				message: "Are you sure you want to delete this placeholder?",
 				onConfirm: async () => {
-					await a.deletePlaceholderForControlledDataflow(e), e.controllingLnodeId && await i.refreshLnode(e.controllingLnodeId), await a.loadPlaceholders();
+					await i.deletePlaceholderForDataflowSubscriber(e), await i.refreshAfterPlaceholderMutation({ lnodeIdToRefresh: e.lnodeId });
 				}
 			});
 		}
-		return (e, i) => (U(), W(H, null, [(U(!0), W(H, null, V(l.value, (e) => (U(), W("div", Ek, [
+		function g(e) {
+			s.openDialogWithContent("DeleteConfirmation", {
+				message: "Are you sure you want to delete this placeholder?",
+				onConfirm: async () => {
+					await i.deletePlaceholderForControlledDataflow(e), await i.refreshAfterPlaceholderMutation({ lnodeIdToRefresh: e.controllingLnodeId });
+				}
+			});
+		}
+		return (e, i) => (U(), W(H, null, [(U(!0), W(H, null, V(c.value, (e) => (U(), W("div", Uk, [
 			G("div", {
 				onClick: (t) => z(n).setOrResetActiveElement(e.id),
 				class: "col-start-1 col-span-1 self-center justify-self-end hover:cursor-pointer"
-			}, [G("span", { class: k([e.isResolved ? "border-solid" : "border-dashed", "relative inline-block border-2 border-(--color-ocean-gray-100) px-2 py-1 rounded-sm"]) }, [hs(A(e.dataObject) + "." + A(e.dataAttribute) + " ", 1), G("span", { class: k([{ "bg-(--color-primary)": z(r) === e.id }, "absolute -top-3 -right-3 bg-(--color-ocean-gray-100) text-white text-xs font-semibold rounded-full w-5 h-5 flex items-center justify-center"]) }, " 1+ ", 2)], 2)], 8, Dk),
+			}, [G("span", { class: k([e.isResolved ? "border-solid" : "border-dashed", "relative inline-block border-2 border-(--color-ocean-gray-100) px-2 py-1 rounded-sm"]) }, [hs(A(e.dataObject) + "." + A(e.dataAttribute) + " ", 1), G("span", { class: k([{ "bg-(--color-primary)": z(r) === e.id }, "absolute -top-3 -right-3 bg-(--color-ocean-gray-100) text-white text-xs font-semibold rounded-full w-5 h-5 flex items-center justify-center"]) }, " 1+ ", 2)], 2)], 8, Wk),
 			G("div", {
 				onClick: (t) => z(n).setOrResetActiveElement(e.id),
 				class: k([{ "bg-(--color-primary)": z(r) === e.id }, "rounded-full size-5 col-start-2 col-span-1 bg-(--color-ocean-gray-100) self-center justify-self-end -mr-[8.5px] hover:cursor-pointer"])
-			}, null, 10, Ok),
-			G("div", kk, [G("div", {
-				class: "flex items-center h-full w-4/5 hover:cursor-pointer",
+			}, null, 10, Gk),
+			G("div", Kk, [G("div", {
+				class: "flex items-center h-full w-2/3 hover:cursor-pointer",
 				onClick: (t) => z(n).setOrResetActiveElement(e.id)
 			}, [G("div", {
 				class: k(["h-[2px] w-full border border-dashed", {
@@ -66473,39 +66937,31 @@ var rD = ({ name: e, iconNode: t, "icon-node": n, absoluteStrokeWidth: r, "absol
 					"border-[var(--color-gray-200)]": z(r) !== e.id
 				}]),
 				onClick: (t) => z(n).setOrResetActiveElement(e.id)
-			}, null, 10, jk)], 8, Ak)]),
-			G("div", {
-				onClick: (t) => z(n).setOrResetActiveElement(e.id),
-				class: "bg-(--color-ocean-gray-25) col-start-3 self-center justify-self-start z-1 relative p-1 rounded-sm text-sm row-start-1 hover:cursor-pointer left-[10%] truncate max-w-[9ch]"
-			}, A(e.input), 9, Mk),
+			}, null, 10, Jk)], 8, qk)]),
 			e.preferredLnode ? (U(), W("div", {
 				key: 0,
 				onClick: (t) => z(n).setOrResetActiveElement(e.id),
-				class: "bg-(--color-ocean-gray-25) col-start-3 self-center justify-self-start z-1 relative p-1 rounded-sm text-sm row-start-1 hover:cursor-pointer left-[70%]"
-			}, A(e.preferredLnode), 9, Nk)) : q("", !0),
-			G("div", Pk, [G("button", {
-				class: "placeholder--resolver-button",
-				disabled: !d(e),
-				"aria-label": "Resolve placeholder",
-				title: "Resolve placeholder",
-				onClick: (t) => f(e)
-			}, [K(z(dD), {
-				size: 12,
-				"stroke-width": "3"
-			})], 8, Fk), G("button", {
-				class: "placeholder--delete-button",
-				"aria-label": "Delete placeholder",
-				title: "Delete placeholder",
-				onClick: (t) => m(e)
-			}, [K(z(fD), { size: 12 })], 8, Ik)]),
+				class: "bg-(--color-ocean-gray-25) col-start-3 self-center justify-self-start z-1 relative p-1 rounded-sm text-sm row-start-1 hover:cursor-pointer left-[60%]"
+			}, A(e.preferredLnode), 9, Yk)) : q("", !0),
+			K(pk, {
+				"resolve-disabled": !u(e),
+				onResolve: (t) => d(e),
+				onEdit: (t) => p(e),
+				onDelete: (t) => h(e)
+			}, null, 8, [
+				"resolve-disabled",
+				"onResolve",
+				"onEdit",
+				"onDelete"
+			]),
 			z(r) == e.id ? (U(), os(Ir, {
 				key: 1,
 				to: "#sidebar-details"
-			}, [K(Tk, {
+			}, [K(Hk, {
 				placeholder: e,
 				sourceLnodeId: t.sourceLnode.id
 			}, null, 8, ["placeholder", "sourceLnodeId"])])) : q("", !0)
-		]))), 256)), (U(!0), W(H, null, V(u.value, (e) => (U(), W("div", Lk, [
+		]))), 256)), (U(!0), W(H, null, V(l.value, (e) => (U(), W("div", Xk, [
 			G("div", {
 				name: "left-control-placeholder-label",
 				class: "col-start-1 col-span-1 self-center justify-self-end hover:cursor-pointer",
@@ -66516,13 +66972,13 @@ var rD = ({ name: e, iconNode: t, "icon-node": n, absoluteStrokeWidth: r, "absol
 			}, A(e.outputName), 3), G("span", {
 				name: "left-control-placeholder-output-instance",
 				class: k([e.isResolved ? "border-solid" : "border-dashed", "relative border-2 border-(--color-ocean-gray-100) px-2 py-1 rounded-sm"])
-			}, [hs(A(e.outputInstance) + " ", 1), G("span", { class: k([{ "bg-(--color-primary)": z(r) === e.id }, "absolute -top-3 -right-3 bg-(--color-ocean-gray-100) text-white text-xs font-semibold rounded-full w-5 h-5 flex items-center justify-center"]) }, " 1+ ", 2)], 2)], 8, Rk),
+			}, [hs(A(e.outputInstance) + " ", 1), G("span", { class: k([{ "bg-(--color-primary)": z(r) === e.id }, "absolute -top-3 -right-3 bg-(--color-ocean-gray-100) text-white text-xs font-semibold rounded-full w-5 h-5 flex items-center justify-center"]) }, " 1+ ", 2)], 2)], 8, Zk),
 			G("div", {
 				onClick: (t) => z(n).setOrResetActiveElement(e.id),
 				class: k([{ "bg-(--color-primary)": z(r) === e.id }, "rounded-full size-5 col-start-2 col-span-1 bg-(--color-ocean-gray-100) self-center justify-self-end -mr-[8.5px] hover:cursor-pointer"])
-			}, null, 10, zk),
-			G("div", Bk, [G("div", {
-				class: "flex items-center h-full w-3/4 hover:cursor-pointer",
+			}, null, 10, Qk),
+			G("div", $k, [G("div", {
+				class: "flex items-center h-full w-2/3 hover:cursor-pointer",
 				onClick: (t) => z(n).setOrResetActiveElement(e.id)
 			}, [G("div", {
 				class: k(["h-[2px] w-full border border-dashed", {
@@ -66530,46 +66986,38 @@ var rD = ({ name: e, iconNode: t, "icon-node": n, absoluteStrokeWidth: r, "absol
 					"border-[var(--color-gray-200)]": z(r) !== e.id
 				}]),
 				onClick: (t) => z(n).setOrResetActiveElement(e.id)
-			}, null, 10, Hk)], 8, Vk)]),
-			G("div", {
-				onClick: (t) => z(n).setOrResetActiveElement(e.id),
-				class: "bg-(--color-ocean-gray-25) col-start-3 self-center justify-self-start z-1 relative p-1 rounded-sm text-sm row-start-1 hover:cursor-pointer left-[10%] truncate max-w-[9ch]"
-			}, A(e.preferredDataObject), 9, Uk),
+			}, null, 10, tA)], 8, eA)]),
 			e.preferredLnode ? (U(), W("div", {
 				key: 0,
 				onClick: (t) => z(n).setOrResetActiveElement(e.id),
-				class: "bg-(--color-ocean-gray-25) col-start-3 self-center justify-self-start z-1 relative p-1 rounded-sm text-sm row-start-1 hover:cursor-pointer left-[70%]"
-			}, A(e.preferredLnode), 9, Wk)) : q("", !0),
-			G("div", Gk, [G("button", {
-				class: "placeholder--resolver-button",
-				disabled: !d(e),
-				"aria-label": "Resolve placeholder",
-				title: "Resolve placeholder",
-				onClick: (t) => p(e)
-			}, [K(z(dD), {
-				size: 12,
-				"stroke-width": "3"
-			})], 8, Kk), G("button", {
-				class: "placeholder--delete-button",
-				"aria-label": "Delete placeholder",
-				title: "Delete placeholder",
-				onClick: (t) => h(e)
-			}, [K(z(fD), { size: 12 })], 8, qk)]),
+				class: "bg-(--color-ocean-gray-25) col-start-3 self-center justify-self-start z-1 relative p-1 rounded-sm text-sm row-start-1 hover:cursor-pointer left-[60%]"
+			}, A(e.preferredLnode), 9, nA)) : q("", !0),
+			K(pk, {
+				"resolve-disabled": !u(e),
+				onResolve: (t) => f(e),
+				onEdit: (t) => m(e),
+				onDelete: (t) => g(e)
+			}, null, 8, [
+				"resolve-disabled",
+				"onResolve",
+				"onEdit",
+				"onDelete"
+			]),
 			z(r) == e.id ? (U(), os(Ir, {
 				key: 1,
 				to: "#sidebar-details"
-			}, [K(_k, { placeholder: e }, null, 8, ["placeholder"])])) : q("", !0)
+			}, [K(Pk, { placeholder: e }, null, 8, ["placeholder"])])) : q("", !0)
 		]))), 256))], 64));
 	}
-}), [["__scopeId", "data-v-21ad7820"]]), Yk = { class: "grid grid-cols-[1fr_20px_1fr_20px_1fr] w-full mb-8 grid-rows-[50px_50px_1fr_80px]" }, Xk = { class: "col-start-1 col-span-2 self-end justify-self-center row-start-1 text-center text-xs px-5 flex flex-col items-center gap-1" }, Zk = {
+}), iA = { class: "grid grid-cols-[1fr_20px_1fr_20px_1fr] w-full mb-8 grid-rows-[50px_50px_1fr_80px]" }, aA = { class: "col-start-1 col-span-2 self-end justify-self-center row-start-1 text-center text-xs px-5 flex flex-col items-center gap-1" }, oA = {
 	key: 0,
 	class: "badge badge-warning badge-sm",
 	"data-testid": "not-mapped-badge-source"
-}, Qk = ["value"], $k = ["label"], eA = ["value"], tA = { class: "col-start-4 col-span-2 self-end justify-self-center row-start-1 text-center text-xs px-5 flex flex-col items-center gap-1" }, nA = {
+}, sA = ["value"], cA = ["label"], lA = ["value"], uA = { class: "col-start-4 col-span-2 self-end justify-self-center row-start-1 text-center text-xs px-5 flex flex-col items-center gap-1" }, dA = {
 	key: 0,
 	class: "badge badge-warning badge-sm",
 	"data-testid": "not-mapped-badge-subscriber"
-}, rA = ["value"], iA = ["label"], aA = ["value"], oA = { class: "col-span-full row-start-3" }, sA = /* @__PURE__ */ ei({
+}, fA = ["value"], pA = ["label"], mA = ["value"], hA = { class: "col-span-full row-start-3" }, gA = /* @__PURE__ */ ei({
 	__name: "dataflow-visualisation",
 	props: { isDataflowImplementationEnabled: { type: Boolean } },
 	emits: [
@@ -66579,11 +67027,11 @@ var rD = ({ name: e, iconNode: t, "icon-node": n, absoluteStrokeWidth: r, "absol
 		"subscriberLnodeMappedToRealIedChange"
 	],
 	setup(e, { emit: t }) {
-		let n = t, r = e, i = JE(), a = aS(), o = fx(), { lnodes: s } = Ku(o), { connections: c, controlledConnections: l } = Ku(a), u = /* @__PURE__ */ R(), d = /* @__PURE__ */ R(), f = /* @__PURE__ */ R(), p = /* @__PURE__ */ R();
+		let n = t, r = e, i = gD(), a = mS(), o = xx(), { lnodes: s } = Ku(o), { connections: c, controlledConnections: l } = Ku(a), u = /* @__PURE__ */ R(), d = /* @__PURE__ */ R(), f = /* @__PURE__ */ R(), p = /* @__PURE__ */ R();
 		xr(() => s.value, () => {
 			u.value = void 0, d.value = void 0;
 		});
-		let m = hS(async () => await Promise.all(s.value.map(async (e) => {
+		let m = wS(async () => await Promise.all(s.value.map(async (e) => {
 			let t = (await o.generatePathForLnode(e.id))?.split("/");
 			X(t.length > 0, "LNode path is invalid");
 			let n = t[t.length - 1], r = t.slice(0, -1).join("/");
@@ -66592,9 +67040,9 @@ var rD = ({ name: e, iconNode: t, "icon-node": n, absoluteStrokeWidth: r, "absol
 				path: r,
 				label: n
 			};
-		}))), h = hS(async () => await Promise.all(s.value.map(async (e) => {
+		}))), h = wS(async () => await Promise.all(s.value.map(async (e) => {
 			let [t, n] = await Promise.all([o.getImplementationInfo(e.id), o.generatePathForLnode(e.id)]);
-			if (t.implementationStatus === Ub.REAL_IED) return {
+			if (t.implementationStatus === Kb.REAL_IED) return {
 				lnodeId: e.id,
 				path: t.ldPath,
 				label: t.lnLabel,
@@ -66607,15 +67055,15 @@ var rD = ({ name: e, iconNode: t, "icon-node": n, absoluteStrokeWidth: r, "absol
 				label: a,
 				implementationStatus: t.implementationStatus
 			};
-		}))), g = J(() => r.isDataflowImplementationEnabled ? h.value : m.value), _ = J(() => g.value ? se(g.value.filter((e) => e.lnodeId !== d.value)) : {}), v = J(() => g.value ? se(g.value.filter((e) => e.lnodeId !== u.value)) : {}), y = J(() => !u.value || !d.value ? [] : c.value.filter((e) => e.sourceLnodeId === u.value && e.subscriberLnodeId === d.value && (r.isDataflowImplementationEnabled || !e.isImplementationOnly))), b = J(() => !u.value || !d.value ? [] : l.value.filter((e) => e.controllingLnodeId === u.value && e.controlledLnodeId === d.value)), x = J(() => g.value?.find((e) => e.lnodeId === u.value)?.path ?? ""), S = J(() => g.value?.find((e) => e.lnodeId === d.value)?.path ?? ""), C = J(() => h.value?.find((e) => e.lnodeId === u.value)?.implementationStatus ?? Ub.NONE), ee = J(() => h.value?.find((e) => e.lnodeId === d.value)?.implementationStatus ?? Ub.NONE);
+		}))), g = J(() => r.isDataflowImplementationEnabled ? h.value : m.value), _ = J(() => g.value ? se(g.value.filter((e) => e.lnodeId !== d.value)) : {}), v = J(() => g.value ? se(g.value.filter((e) => e.lnodeId !== u.value)) : {}), y = J(() => !u.value || !d.value ? [] : c.value.filter((e) => e.sourceLnodeId === u.value && e.subscriberLnodeId === d.value && (r.isDataflowImplementationEnabled || !e.isImplementationOnly))), b = J(() => !u.value || !d.value ? [] : l.value.filter((e) => e.controllingLnodeId === u.value && e.controlledLnodeId === d.value)), x = J(() => g.value?.find((e) => e.lnodeId === u.value)?.path ?? ""), S = J(() => g.value?.find((e) => e.lnodeId === d.value)?.path ?? ""), C = J(() => h.value?.find((e) => e.lnodeId === u.value)?.implementationStatus ?? Kb.NONE), ee = J(() => h.value?.find((e) => e.lnodeId === d.value)?.implementationStatus ?? Kb.NONE);
 		function w(e) {
-			return e === Ub.NONE ? "Not mapped to IED" : "Mapped to S-IED";
+			return e === Kb.NONE ? "Not mapped to IED" : "Mapped to S-IED";
 		}
 		let te = J(() => w(C.value)), T = J(() => w(ee.value));
 		xr(C, (e) => {
-			e === Ub.REAL_IED ? n("sourceLnodeMappedToRealIedChange", !0) : n("sourceLnodeMappedToRealIedChange", !1);
+			e === Kb.REAL_IED ? n("sourceLnodeMappedToRealIedChange", !0) : n("sourceLnodeMappedToRealIedChange", !1);
 		}), xr(ee, (e) => {
-			e === Ub.REAL_IED ? n("subscriberLnodeMappedToRealIedChange", !0) : n("subscriberLnodeMappedToRealIedChange", !1);
+			e === Kb.REAL_IED ? n("subscriberLnodeMappedToRealIedChange", !0) : n("subscriberLnodeMappedToRealIedChange", !1);
 		});
 		function ne(e) {
 			return s.value.find((t) => t.id === e) ?? void 0;
@@ -66645,9 +67093,9 @@ var rD = ({ name: e, iconNode: t, "icon-node": n, absoluteStrokeWidth: r, "absol
 			}
 			return ug(n);
 		}
-		return (t, n) => (U(), W("div", Yk, [
+		return (t, n) => (U(), W("div", iA, [
 			n[4] ||= G("div", { class: "col-start-1 col-span-2 row-span-full bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-ocean-gray-100) border-2 min-h-[450px]" }, null, -1),
-			G("div", Xk, [e.isDataflowImplementationEnabled && u.value && C.value !== z(Ub).REAL_IED ? (U(), W("span", Zk, A(te.value), 1)) : q("", !0), hs(" " + A(x.value), 1)]),
+			G("div", aA, [e.isDataflowImplementationEnabled && u.value && C.value !== z(Kb).REAL_IED ? (U(), W("span", oA, A(te.value), 1)) : q("", !0), hs(" " + A(x.value), 1)]),
 			G("select", {
 				value: u.value ?? "",
 				onChange: n[0] ||= (e) => re(e.target.value),
@@ -66662,9 +67110,9 @@ var rD = ({ name: e, iconNode: t, "icon-node": n, absoluteStrokeWidth: r, "absol
 			}, [(U(!0), W(H, null, V(e, (e) => (U(), W("option", {
 				key: e.lnodeId,
 				value: e.lnodeId
-			}, A(e.label), 9, eA))), 128))], 8, $k))), 128))], 40, Qk),
+			}, A(e.label), 9, lA))), 128))], 8, cA))), 128))], 40, sA),
 			n[5] ||= G("div", { class: "col-start-4 col-span-2 row-span-full bg-(--color-ocean-gray-50) rounded-xl -z-1 border-(--color-ocean-gray-100) border-2 min-h-[450px]" }, null, -1),
-			G("div", tA, [e.isDataflowImplementationEnabled && d.value && ee.value !== z(Ub).REAL_IED ? (U(), W("span", nA, A(T.value), 1)) : q("", !0), hs(" " + A(S.value), 1)]),
+			G("div", uA, [e.isDataflowImplementationEnabled && d.value && ee.value !== z(Kb).REAL_IED ? (U(), W("span", dA, A(T.value), 1)) : q("", !0), hs(" " + A(S.value), 1)]),
 			G("select", {
 				value: d.value ?? "",
 				onChange: n[1] ||= (e) => ie(e.target.value),
@@ -66679,23 +67127,23 @@ var rD = ({ name: e, iconNode: t, "icon-node": n, absoluteStrokeWidth: r, "absol
 			}, [(U(!0), W(H, null, V(e, (e) => (U(), W("option", {
 				key: e.lnodeId,
 				value: e.lnodeId
-			}, A(e.label), 9, aA))), 128))], 8, iA))), 128))], 40, rA),
-			G("div", oA, [
-				y.value.length > 0 ? (U(), os(AO, {
+			}, A(e.label), 9, mA))), 128))], 8, pA))), 128))], 40, fA),
+			G("div", hA, [
+				y.value.length > 0 ? (U(), os($O, {
 					key: 0,
 					connections: y.value,
 					isDataflowImplementationEnabled: e.isDataflowImplementationEnabled
 				}, null, 8, ["connections", "isDataflowImplementationEnabled"])) : q("", !0),
-				b.value.length > 0 ? (U(), os(DD, {
+				b.value.length > 0 ? (U(), os(XD, {
 					key: 1,
 					controlledConnections: b.value
 				}, null, 8, ["controlledConnections"])) : q("", !0),
-				f.value && !e.isDataflowImplementationEnabled ? (U(), os(Jk, {
+				f.value && !e.isDataflowImplementationEnabled ? (U(), os(rA, {
 					key: 2,
 					sourceLnode: f.value,
 					subscriberLnode: p.value
 				}, null, 8, ["sourceLnode", "subscriberLnode"])) : q("", !0),
-				p.value && !e.isDataflowImplementationEnabled ? (U(), os(fk, {
+				p.value && !e.isDataflowImplementationEnabled ? (U(), os(kk, {
 					key: 3,
 					sourceLnode: f.value,
 					subscriberLnode: p.value
@@ -66707,7 +67155,7 @@ var rD = ({ name: e, iconNode: t, "icon-node": n, absoluteStrokeWidth: r, "absol
 				title: "Add source placeholder",
 				class: "btn btn-primary btn-circle size-5 col-span-1 self-center row-start-4 col-start-3 -ml-[12px] z-10",
 				onClick: ae
-			}, [K(z(dD), {
+			}, [K(z(PD), {
 				size: 12,
 				"stroke-width": "3"
 			})])) : q("", !0),
@@ -66717,19 +67165,19 @@ var rD = ({ name: e, iconNode: t, "icon-node": n, absoluteStrokeWidth: r, "absol
 				"aria-label": "Add subscriber placeholder",
 				title: "Add subscriber placeholder",
 				onClick: oe
-			}, [K(z(dD), {
+			}, [K(z(PD), {
 				size: 12,
 				"stroke-width": "3"
 			})])) : q("", !0)
 		]));
 	}
-}), cA = { class: "flex justify-between mb-6 w-full h-18" }, lA = {
+}), _A = { class: "flex justify-between mb-6 w-full h-18" }, vA = {
 	key: 0,
 	class: "grid grid-cols-2 gap-x-6 gap-y-1 text-sm"
-}, uA = { class: "flex items-center" }, dA = { class: "relative w-[50px] mr-2 flex items-center justify-center" }, fA = { class: "flex flex-col items-center justify-center w-full" }, pA = /* @__PURE__ */ ei({
+}, yA = { class: "flex items-center" }, bA = { class: "relative w-[50px] mr-2 flex items-center justify-center" }, xA = { class: "flex flex-col items-center justify-center w-full" }, SA = /* @__PURE__ */ ei({
 	__name: "dataflow-view",
 	setup(e) {
-		let t = /* @__PURE__ */ R(), n = /* @__PURE__ */ R(), r = /* @__PURE__ */ R(!1), i = /* @__PURE__ */ R(!1), a = /* @__PURE__ */ R(!1), o = JE(), { lnodes: s } = Ku(fx()), c = J(() => m(t.value)), l = J(() => m(n.value));
+		let t = /* @__PURE__ */ R(), n = /* @__PURE__ */ R(), r = /* @__PURE__ */ R(!1), i = /* @__PURE__ */ R(!1), a = /* @__PURE__ */ R(!1), o = gD(), { lnodes: s } = Ku(xx()), c = J(() => m(t.value)), l = J(() => m(n.value));
 		function u(e) {
 			t.value = e;
 		}
@@ -66759,7 +67207,7 @@ var rD = ({ name: e, iconNode: t, "icon-node": n, absoluteStrokeWidth: r, "absol
 				subscriberLnode: l.value
 			}, { class: "w-2/3 max-w-none" });
 		}
-		return (e, t) => (U(), W(H, null, [G("div", cA, [G("div", null, [
+		return (e, t) => (U(), W(H, null, [G("div", _A, [G("div", null, [
 			t[1] ||= G("span", { class: "mr-3" }, "Specification", -1),
 			B(G("input", {
 				type: "checkbox",
@@ -66768,61 +67216,61 @@ var rD = ({ name: e, iconNode: t, "icon-node": n, absoluteStrokeWidth: r, "absol
 				"data-testid": "df-implementation-toggle"
 			}, null, 512), [[Fl, r.value]]),
 			t[2] ||= G("span", { class: "ml-3" }, "Implementation", -1)
-		]), r.value ? (U(), W("div", lA, [t[5] ||= gs("<div class=\"flex items-center\"><div class=\"border border-(--color-success) w-[50px] h-[2px] mr-2\"></div><span>Implemented</span></div><div class=\"flex items-center\"><div class=\"border border-dashed w-[50px] h-[2px] mr-2\"></div><span>Specified</span></div><div class=\"flex items-center\"><div class=\"border border-(--color-warning) w-[50px] h-[2px] mr-2\"></div><span>Not possible to implement</span></div><div class=\"flex items-center\"><div class=\"border border-(--color-info) w-[50px] h-[2px] mr-2\"></div><span>Implementation only</span></div>", 4), G("div", uA, [G("div", dA, [t[3] ||= G("div", { class: "border w-full h-[2px]" }, null, -1), K(UD, { class: "absolute" })]), t[4] ||= G("span", null, "Supervised", -1)])])) : q("", !0)]), G("div", fA, [K(sA, {
+		]), r.value ? (U(), W("div", vA, [t[5] ||= gs("<div class=\"flex items-center\"><div class=\"border border-(--color-success) w-[50px] h-[2px] mr-2\"></div><span>Implemented</span></div><div class=\"flex items-center\"><div class=\"border border-dashed w-[50px] h-[2px] mr-2\"></div><span>Specified</span></div><div class=\"flex items-center\"><div class=\"border border-(--color-warning) w-[50px] h-[2px] mr-2\"></div><span>Not possible to implement</span></div><div class=\"flex items-center\"><div class=\"border border-(--color-info) w-[50px] h-[2px] mr-2\"></div><span>Implementation only</span></div>", 4), G("div", yA, [G("div", bA, [t[3] ||= G("div", { class: "border w-full h-[2px]" }, null, -1), K(fO, { class: "absolute" })]), t[4] ||= G("span", null, "Supervised", -1)])])) : q("", !0)]), G("div", xA, [K(gA, {
 			onSourceLnodeChange: u,
 			onSubscriberLnodeChange: d,
 			onSourceLnodeMappedToRealIedChange: f,
 			onSubscriberLnodeMappedToRealIedChange: p,
 			isDataflowImplementationEnabled: r.value
-		}, null, 8, ["isDataflowImplementationEnabled"]), r.value ? (U(), os(bS, {
+		}, null, 8, ["isDataflowImplementationEnabled"]), r.value ? (U(), os(kS, {
 			key: 1,
 			disabled: !i.value || !a.value,
 			"aria-label": "Add implemented dataflow",
 			onClick: g
 		}, {
-			default: dr(() => [K(z(dD), {
+			default: dr(() => [K(z(PD), {
 				size: 16,
 				"stroke-width": "3"
 			})]),
 			_: 1
-		}, 8, ["disabled"])) : (U(), os(bS, {
+		}, 8, ["disabled"])) : (U(), os(kS, {
 			key: 0,
 			disabled: !c.value || !l.value,
 			"aria-label": "Add specified dataflow",
 			onClick: h
 		}, {
-			default: dr(() => [K(z(dD), {
+			default: dr(() => [K(z(PD), {
 				size: 16,
 				"stroke-width": "3"
 			})]),
 			_: 1
 		}, 8, ["disabled"]))])], 64));
 	}
-}), mA = {}, hA = { class: "layout" }, gA = { class: "main" }, _A = { class: "sidebar" };
-function vA(e, t) {
-	return U(), W("div", hA, [G("div", gA, [aa(e.$slots, "main", {}, void 0, !0)]), G("div", _A, [aa(e.$slots, "sidebar", {}, void 0, !0)])]);
+}), CA = {}, wA = { class: "layout" }, TA = { class: "main" }, EA = { class: "sidebar" };
+function DA(e, t) {
+	return U(), W("div", wA, [G("div", TA, [aa(e.$slots, "main", {}, void 0, !0)]), G("div", EA, [aa(e.$slots, "sidebar", {}, void 0, !0)])]);
 }
-var yA = /* @__PURE__ */ gS(mA, [["render", vA], ["__scopeId", "data-v-7e8ad238"]]), bA = {}, xA = {
+var OA = /* @__PURE__ */ TS(CA, [["render", DA], ["__scopeId", "data-v-7e8ad238"]]), kA = {}, AA = {
 	name: "sidebar",
 	class: "root"
 };
-function SA(e, t) {
-	return U(), W("div", xA, [...t[0] ||= [G("div", {
+function jA(e, t) {
+	return U(), W("div", AA, [...t[0] ||= [G("div", {
 		id: "sidebar-details",
 		"data-testid": "df-sidebar-details"
 	}, null, -1)]]);
 }
-var CA = /* @__PURE__ */ gS(bA, [["render", SA], ["__scopeId", "data-v-6bc2b856"]]), wA = {
+var MA = /* @__PURE__ */ TS(kA, [["render", jA], ["__scopeId", "data-v-6bc2b856"]]), NA = {
 	class: "modal",
 	ref: "dialogRef",
 	"data-testid": "df-dialog"
-}, TA = /* @__PURE__ */ ei({
+}, PA = /* @__PURE__ */ ei({
 	__name: "dialog-container",
 	setup(e) {
-		let t = JE(), { currentDialogContent: n, dialogInstanceId: r } = Ku(t), i = ri("dialogRef");
+		let t = gD(), { currentDialogContent: n, dialogInstanceId: r } = Ku(t), i = ri("dialogRef");
 		return Vi(() => {
 			i.value && (t.dialogRef = i.value);
-		}), (e, i) => (U(), W("dialog", wA, [G("div", { class: k(["modal-box max-h-[85vh]", z(t).dialogAttributes?.class]) }, [G("button", {
+		}), (e, i) => (U(), W("dialog", NA, [G("div", { class: k(["modal-box max-h-[85vh]", z(t).dialogAttributes?.class]) }, [G("button", {
 			class: "btn btn-sm btn-circle btn-ghost absolute right-2 top-2",
 			"aria-label": "Close dialog",
 			onClick: i[0] ||= (...e) => z(t).handleClose && z(t).handleClose(...e)
@@ -66831,42 +67279,42 @@ var CA = /* @__PURE__ */ gS(bA, [["render", SA], ["__scopeId", "data-v-6bc2b856"
 			class: "modal-backdrop"
 		}, [G("button", null, "close")], -1)], 512));
 	}
-}), EA = ["id"], DA = { class: "px-5" }, OA = {
+}), FA = ["id"], IA = { class: "px-5" }, LA = {
 	key: 1,
 	class: "flex h-full items-center justify-center"
-}, kA = /* @__PURE__ */ ei({
+}, RA = /* @__PURE__ */ ei({
 	__name: "app",
 	setup(e) {
-		let t = aS(), n = fx(), r = fS();
+		let t = mS(), n = xx(), r = xS();
 		vr(() => {
-			Yb.value && i();
+			ix.value && i();
 		});
 		async function i() {
 			await n.loadLnodes(), await t.loadConnections(), await r.loadPlaceholders();
 		}
-		return (e, t) => z(Yb) ? (U(), W("article", {
+		return (e, t) => z(ix) ? (U(), W("article", {
 			key: 0,
 			id: z("ext-dataflow"),
 			style: { height: "100%" }
-		}, [K(yA, null, {
-			main: dr(() => [G("div", DA, [K(pA), K(TA)])]),
-			sidebar: dr(() => [K(CA)]),
+		}, [K(OA, null, {
+			main: dr(() => [G("div", IA, [K(SA), K(PA)])]),
+			sidebar: dr(() => [K(MA)]),
 			_: 1
-		})], 8, EA)) : (U(), W("div", OA, [...t[0] ||= [G("span", { class: "loading loading-spinner loading-lg" }, null, -1)]]));
+		})], 8, FA)) : (U(), W("div", LA, [...t[0] ||= [G("span", { class: "loading loading-spinner loading-lg" }, null, -1)]]));
 	}
 });
 //#endregion
 //#region set-editor.ts
-function AA(e, t) {
+function zA(e, t) {
 	Ng(document.getElementById(e), { detail: `could not find root element: ${e}` }), t.project, t.activeDocumentId, t.commands;
 	let n = (e) => {
-		e ? Xb(t.project.openDocument(e)) : Zb();
+		e ? ax(t.project.openDocument(e)) : ox();
 	};
 	n(t.activeDocumentId.value);
-	let r = t.activeDocumentId.subscribe(n), i = Au(), a = iu(kA);
+	let r = t.activeDocumentId.subscribe(n), i = Au(), a = iu(RA);
 	return a.use(i), a.mount(`#${e}`), () => {
-		r(), a.unmount(), ju(i), Zb();
+		r(), a.unmount(), ju(i), ox();
 	};
 }
 //#endregion
-export { AA as default };
+export { zA as default };
