@@ -7,6 +7,18 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [15] - 2026-09-04
+
+### Fixed
+
+- Behavior Description variables now use the data type of the data attribute they are linked to instead of always being treated as a boolean
+- Connections are checked against that real type, so a double-point or enumerated signal can no longer be wired into a block expecting a number or a boolean
+- A variable whose type cannot be determined is no longer silently saved as a boolean
+
+### Changed
+
+- The type of a Behavior Description variable is read-only in the variables table, unless no type can be determined
+
 ## [14] - 2026-09-03
 
 ### Fixed
