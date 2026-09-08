@@ -7,11 +7,7 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
-## [56] 2026-07-27
-
-### Changed
-
-- Improved OpenSCD extension behavior.
+## [56] - 2026-07-27
 
 ### Fixed
 
@@ -23,8 +19,6 @@ and this project adheres to a simple versioning system, increasing the number by
 ### Fixed
 
 - Hide prefixed disposable documents from projects
-
-## [50] - 2026-07-10
 
 ### Changed
 
