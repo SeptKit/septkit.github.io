@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [33] - 2026-09-07
+
+### Added
+
+- Live progress bar : when applying changes, one can see the progress of the different tasks being played
+
 ## [32] - 2026-09-07
 
 ### Fixed

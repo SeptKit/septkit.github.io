@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-specification-ied-implementation",
-	"version": "32",
+	"version": "33",
 	"displayName": "S-IED Implementation",
 	"description": "SeptKit extension - S-IED implementation",
 	"private": true,
@@ -50,8 +50,6 @@
 	"dependencies": {
 		"@dialecte/core": "catalog:",
 		"@dialecte/scl": "catalog:",
-		"@septkit/fileio": "catalog:",
-		"@septkit/sclsdk": "catalog:",
 		"@septkit/ui": "catalog:",
 		"@septkit/shell-lib": "catalog:",
 		"@vueuse/core": "^14.2.1",
