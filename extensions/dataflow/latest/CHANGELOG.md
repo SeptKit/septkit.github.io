@@ -7,6 +7,13 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## Unreleased
 
+## [69] - 2026-09-09
+
+### Fixed
+
+- Exclude existing ExtRefs with a serviceType that does not match the selected dataflow and show their description when choosing an ExtRef
+- Increase `confRev` of the control block when a signal is unimplemented and its FCDA is removed from the DataSet
+
 ## [68] - 2026-09-07
 
 ### Added
