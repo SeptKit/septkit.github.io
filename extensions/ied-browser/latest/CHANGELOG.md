@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [Unreleased]
 
+## [25] - 2026-09-10
+
+### Added
+
+- Reset relevant LNodes when (S-)IED is removed
+
 ## [23] - 2026-08-21
 
 ### Added
