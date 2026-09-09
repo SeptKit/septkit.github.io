@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [34] - 2026-09-09
+
+### Changed
+
+- Data-model comparison now shows omitted vendor `valImport` values as blocked with a red Import marker
+
 ## [33] - 2026-09-07
 
 ### Added
