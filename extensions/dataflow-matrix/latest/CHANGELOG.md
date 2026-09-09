@@ -7,6 +7,17 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [5] - 2026-09-09
+
+### Added
+
+- Filter the specification matrix by service type
+- Filter the specification matrix by Function/SubFunction hierarchy
+
+### Fixed
+
+- Selected matrix cell now scrolls into view when it is outside the visible area
+
 ## [4] - 2026-09-07
 
 ### Added

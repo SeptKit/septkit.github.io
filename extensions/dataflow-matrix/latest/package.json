@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-dataflow-matrix",
-	"version": "4",
+	"version": "5",
 	"displayName": "Dataflow Matrix",
 	"description": "Matrix view of dataflows between LNodes",
 	"private": true,
