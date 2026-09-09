@@ -7,6 +7,13 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [35] - 2026-09-09
+
+### Changed
+
+- Data-model comparison now shows the Import marker whenever an implementation value exists, including type defaults
+- Value imports can now use a specification type default when a `DAS` has no explicit `Val`
+
 ## [34] - 2026-09-09
 
 ### Changed
