@@ -1,8 +1,8 @@
 {
 	"name": "@septkit/ext-network",
-	"version": "1",
+	"version": "2",
 	"displayName": "Network",
-	"description": "Read-only view of the SCL communication network: subnetworks, connected APs and IP addressing",
+	"description": "Manage the SCL communication network",
 	"private": true,
 	"type": "module",
 	"contributes": {
