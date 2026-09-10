@@ -7,6 +7,18 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [58] - 2026-09-10
+
+### Added
+
+- Extensions can now access disk-backed storage sources and the PWA install surface via the shell API (`getStorageSources`, `getPwa`)
+
+## [57] - 2026-09-10
+
+### Fixed
+
+- Fixed an error that could occur when switching quickly between editor tabs.
+
 ## [56] - 2026-07-27
 
 ### Fixed

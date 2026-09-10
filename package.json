@@ -1,7 +1,7 @@
 {
 	"name": "@septkit/shell",
 	"displayName": "Shell",
-	"version": "57",
+	"version": "58",
 	"private": true,
 	"type": "module",
 	"scripts": {
@@ -20,6 +20,7 @@
 		"//====== CHECKS ======//": "",
 		"type-check": "vue-tsc --build",
 		"lint": "oxlint . --fix -D correctness --ignore-path .gitignore",
+		"check:agent-tags": "node scripts/check-agent-tags.mjs",
 		"format": "prettier --write src/ e2e/",
 		"format:check": "prettier --check src/ e2e/",
 		"//====== INSTALL ======//": "",
@@ -31,7 +32,7 @@
 		"unlink:fileio": "rm -rf ./node_modules/@septkit/fileio && pnpm install",
 		"unlink:all": "rm -rf ./node_modules/@septkit && pnpm install",
 		"//====== CI ======//": "",
-		"ci-tests": "npm run format:check && npm run lint && npm run build && npm run test"
+		"ci-tests": "npm run format:check && npm run lint && npm run check:agent-tags && npm run build && npm run test"
 	},
 	"dependencies": {
 		"@dialecte/core": "catalog:",
@@ -42,6 +43,7 @@
 		"@tailwindcss/vite": "4.2.2",
 		"@vueuse/core": "^14.2.1",
 		"concurrently": "^9.2.1",
+		"dexie": "4.2.0",
 		"dompurify": "^3.3.3",
 		"marked": "^17.0.6",
 		"pinia": "^3.0.4",
@@ -57,6 +59,7 @@
 		"@tsconfig/node24": "24.0.0",
 		"@types/jsdom": "^21.1.7",
 		"@types/node": "^22.19.17",
+		"@types/wicg-file-system-access": "^2023.10.7",
 		"@vitejs/plugin-vue": "^6.0.5",
 		"@vitest/browser-playwright": "^4.1.4",
 		"@vue/test-utils": "^2.4.6",
