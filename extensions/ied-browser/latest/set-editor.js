@@ -104308,7 +104308,7 @@ const Dpn = ["title", "data-testid"], Lpn = { class: "ied-flow-node__content" },
         h[3] || (h[3] = Ai("h2", {
           id: "ied-removal-title",
           class: "text-lg font-semibold"
-        }, "Remove IED?", -1)),
+        }, "Remove IED", -1)),
         Ai("p", n0n, "Remove " + Na(a.iedName) + " from this project?", 1),
         a.lnodeCount > 0 ? (on(), Yi("p", i0n, Na(a.lnodeCount) + " " + Na(a.lnodeCount === 1 ? "LNode" : "LNodes") + " will be reset. ", 1)) : su("", !0),
         Ai("div", r0n, [
@@ -104319,7 +104319,7 @@ const Dpn = ["title", "data-testid"], Lpn = { class: "ied-flow-node__content" },
           Ai("button", {
             class: "btn btn-error",
             onClick: h[1] || (h[1] = (b) => f.$emit("confirm"))
-          }, "Remove IED")
+          }, "Remove")
         ])
       ]),
       Ai("form", u0n, [
