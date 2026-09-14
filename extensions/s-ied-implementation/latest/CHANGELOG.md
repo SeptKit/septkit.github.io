@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [36] - 2026-09-14
+
+### Fixed
+
+- Mapped implementation LNs now display their actual instance number.
+
 ## [35] - 2026-09-09
 
 ### Changed
