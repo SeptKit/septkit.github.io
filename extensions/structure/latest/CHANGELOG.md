@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [78] - 2026-09-14
+
+### Added
+
+- Right-click a Substation, VoltageLevel, or Bay and choose "Extract as SSD" to export it as a standalone, reusable SSD template.
+
 ## [77] - 2026-09-11
 
 ### Changed
