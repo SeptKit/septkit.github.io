@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-library",
-	"version": "23",
+	"version": "24",
 	"displayName": "Library",
 	"description": "Library",
 	"private": true,
@@ -12,6 +12,12 @@
 				"displayName": "NSD",
 				"icon": "/assets/icon.svg",
 				"entryPoint": "/set-sidebar.js"
+			},
+			{
+				"id": "sprinteins.ext-library.sources-sidebar",
+				"displayName": "Templates",
+				"icon": "/assets/templates-icon.svg",
+				"entryPoint": "/set-sources-sidebar.js"
 			}
 		],
 		"customEditors": [

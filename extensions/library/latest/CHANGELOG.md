@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [24] - 2026-09-10
+
+### Added
+
+- Templates sidebar for managing Template Library folders: "Manage Sources" button opens a dialog with the source list, connection status (online/offline), per-source and bulk reconnect, add with browse flow (read-only option), and a PWA install nudge
+
 ## [23] - 2026-08-25
 
 ### Fixed
