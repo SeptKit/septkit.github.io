@@ -1,0 +1,1 @@
+import{J as e,N as t,R as n,mt as r}from"./extension-api-DCwFXqT0.js";import{r as i,t as a}from"./widget-portal-DbWZvu7G.js";var o=n({__name:`widget-iframe`,setup(n){let o=r();return a(window,e=>{console.debug(`widget-iframe expect`,{newWidget:e}),o.value=e}),(n,r)=>(e(),t(i,{widget:o.value,rootId:`main-area-widget-root`},null,8,[`widget`]))}});export{o as default};
