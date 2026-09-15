@@ -7,6 +7,11 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [60] - 2026-09-10
+
+### Added
+
+- Extensions can now access disk-backed storage sources and the PWA install surface via the shell API.
 ## [58] - 2026-09-10
 
 ### Added
