@@ -5,6 +5,21 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to a simple versioning system, increasing the number by one for each modification.
 
+## [3] - 2026-09-15
+
+### Added
+
+- GSE and SMV columns in the table, listing the `cbName` of each control-block mapping under a ConnectedAP (one per line). Each control block name is its own filter option; a row matches when the filter selection includes any of its GSE/SMV names.
+
+### Changed
+
+- Deleting a SubNetwork that still has connected APs now reassigns those ConnectedAPs to another existing SubNetwork - chosen in the confirmation dialog - instead of deleting them, so IEDs stay connected to the network.
+- Deletion is blocked when no other SubNetwork exists to reassign the connected APs to.
+
+### Fixed
+
+- A column filter's search box now narrows the selection to exactly the options shown, deselecting the rest; clearing the search restores the selection from before the search instead of leaving every option selected.
+
 ## [2] - 2026-09-10
 
 ### Added

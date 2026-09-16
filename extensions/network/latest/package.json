@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-network",
-	"version": "2",
+	"version": "3",
 	"displayName": "Network",
 	"description": "Manage the SCL communication network",
 	"private": true,
@@ -25,7 +25,7 @@
 		"build": "vite build",
 		"build:watch": "vite build --watch",
 		"build:serve": "concurrently \"npm run preview\" \"npm run build:watch\"",
-		"preview": "vite preview --port 56002",
+		"preview": "vite preview --port 56004",
 		"//====== TEST ======//": "",
 		"test": "vitest --project unit",
 		"test:watch": "pnpm test --watch",
