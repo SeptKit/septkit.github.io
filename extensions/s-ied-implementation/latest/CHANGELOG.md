@@ -7,6 +7,23 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [37] - 2026-09-16
+
+### Added
+
+- Inputs and outputs that are still dataflow placeholders are marked with an icon
+- Search ExtRef and ExtCtrl candidates by hierarchy path or internal address
+
+### Changed
+
+- Matching browsers stay open and highlight the element currently being mapped.
+- ExtRef and ExtCtrl browsers now show candidates across the linked IED, rank the linked LN's references first, and display each candidate's owning path
+- SourceRef matching now uses service information and shows the matching service evidence
+
+### Removed
+
+- Collapse button of the Implementation panel
+
 ## [36] - 2026-09-14
 
 ### Fixed
