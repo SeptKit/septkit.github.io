@@ -7,6 +7,14 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [Unreleased]
 
+## [28] - 2026-09-17
+
+### Added
+
+- Remove `ConnectedAP` entries from the `Communication` section when an (S-)IED is removed
+- Clean up implemented dataflow (subscriber `ExtRef`s, sender control-block entries, `DataSet`, `GSE`/`SMV` communication, supervision references) and clear `SourceRef` implementation-link fields when an (S-)IED is removed
+- Clean up unused DataTypeTemplates (`LNodeType`, `DOType`, `DAType`, `EnumType`) when an (S-)IED is removed
+
 ## [25] - 2026-09-10
 
 ### Added
