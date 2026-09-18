@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [6] - 2026-09-18
+
+### Added
+
+- Implementation mode of the dataflow matrix: showing dataflows between real LNs with dataflow type and implementation state counts
+
 ## [5] - 2026-09-09
 
 ### Added
