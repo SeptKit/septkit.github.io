@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [Unreleased]
 
+## [29] - 2026-09-18
+
+### Changed
+
+- The details sidebar next to the diagram can now be resized and remembers its width, matching the Structure extension
+
 ## [28] - 2026-09-17
 
 ### Added
