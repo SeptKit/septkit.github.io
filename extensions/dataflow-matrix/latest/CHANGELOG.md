@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [7] - 2026-09-21
+
+### Added
+
+- Select an implementation matrix cell to inspect physical LN, ExtRef, control block, dataset, and specification details
+
 ## [6] - 2026-09-18
 
 ### Added
