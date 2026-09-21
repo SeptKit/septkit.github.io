@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [81] - 2026-09-21
+
+### Added
+
+- Right-click a Substation, VoltageLevel, or Bay and choose "Instantiate" or "Update" then "Project" to instantiate an SSD template into the project, or update an instantiated one, through the merge review.
+
 ## [78] - 2026-09-14
 
 ### Added
