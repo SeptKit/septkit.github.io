@@ -7,6 +7,22 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [38] - 2026-09-21
+
+### Fixed
+
+- Implementation paths now show the containing IED and logical device for mapped LNodes
+
+### Changed
+
+- Data Model viewer no longer offers manual mapping actions for `SDS` or `DAS` rows; both remain automatic-only while `DOS` keeps manual mapping
+- added Edit button next to Unlink for resolved LNodes, allows the User to modify the existing link without unlinking it
+- Sidebar, IED, and element browser headers now share the same height for a more consistent layout
+
+### Removed
+
+- Redundant "Implementation" header bar above the data model view
+
 ## [37] - 2026-09-16
 
 ### Added
