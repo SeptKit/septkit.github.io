@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to a simple versioning system, increasing the number by one for each modification.
 
+## [4] - 2026-09-17
+
+### Added
+
+- AccessPoints that aren't connected to any SubNetwork now show up as rows in the network table, labeled "Unassigned" with an info icon explaining what that means.
+- Assign an unassigned AccessPoint to a SubNetwork directly from the SubNetwork dropdown; no IP, subnet mask, gateway or redundancy protocol is set until configured separately.
+- Unassign an AccessPoint from its SubNetwork via the dropdown; blocked while it still has GSE or SMV control blocks.
+- A sort button on each sortable column header (SubNetwork, IED, AP, IP, subnet mask, gateway, redProt): click once to sort ascending, again for descending, a third time to go back to the table's normal order.
+
+### Changed
+
+- The combined "ConnectedAP" column is now two columns, "IED" and "AP", each filterable on its own.
+- Assigning, reassigning, or unassigning an AccessPoint no longer re-sorts the whole table; the row you changed stays in place and only its SubNetwork value updates. The table is sorted (by SubNetwork, then IED, then AP) only when it's first loaded.
+
 ## [3] - 2026-09-15
 
 ### Added
