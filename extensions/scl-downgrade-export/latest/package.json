@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-scl-downgrade-export",
-	"version": "1",
+	"version": "2",
 	"displayName": "Export downgraded copy",
 	"description": "Exports the active SCL document downgraded to 2007B4 and 6-100 2019B9",
 	"private": true,
