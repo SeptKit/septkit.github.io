@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [8] - 2026-09-22
+
+### Changed
+
+- Order of dataflows in sidebar details
+
 ## [7] - 2026-09-21
 
 ### Added
