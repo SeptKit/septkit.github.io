@@ -105854,7 +105854,7 @@ var Lf = Id.default.uri, Rf = Id.v2019C1.uri, Soe = Id.v2019C1.prefix, zf = [
 	"Labels",
 	"FunctionSclRef",
 	"SclFileReference"
-], Coe = ["IEDSourceFiles"], Bf = new Set([
+], Coe = ["IEDSourceFiles", "MinRequestedSCDFiles"], Bf = new Set([
 	"Address",
 	"Certificate",
 	"Communication",

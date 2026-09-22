@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [UNRELEASED]
 
+## [3] - 2026-09-22
+
+### Fixed
+
+- `MinRequestedSCDFiles` is now removed from the downgraded copy, like `IEDSourceFiles`. It was still written into the downgraded file, which is invalid in 2007B4.
+
 ## [2] - 2026-09-21
 
 ### Added
