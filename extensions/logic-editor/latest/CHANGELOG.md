@@ -7,6 +7,19 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [16] - 2026-09-22
+
+### Changed
+
+- The type of a Behavior Description variable can now be changed in the variables table, also when it was derived from the SCL binding; a chosen type that differs from the derived one is marked as "override" and is kept when the logic is reopened, and the derived type stays in the list so the override can be undone
+- The type list now offers every IEC 61131-3 type an IEC 61850 data attribute can map to - `SINT`, `USINT`, `UINT`, `UDINT`, `LINT` and `DT` were missing
+- Types that have no IEC 61131-3 equivalent now carry the names of IEC TR 61850-90-11 - a double-point value is `DP_STATUS_KIND` instead of `Dbpos`, for example; a logic saved with the old names keeps working and is rewritten with the new ones on the next save
+- An enumerated signal can now be wired into a block that takes its base type, for example to convert it to a boolean, while two unrelated enumerations still cannot be mixed; the order in which the wires are drawn does not change the outcome
+
+### Fixed
+
+- A Behavior Description variable whose type cannot be determined is now reported as an error until a type is chosen, and is no longer exported as a boolean; saving the logic is refused while such a variable exists, so the exported file never misses one of its parameters
+
 ## [15] - 2026-09-04
 
 ### Fixed
