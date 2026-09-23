@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [9] - 2026-09-23
+
+### Fixed
+
+- Implementation dataflows now map ExtRefs under LN0 to the correct LN in the matrix table
+
 ## [8] - 2026-09-22
 
 ### Changed

@@ -83463,8 +83463,8 @@ function Jm(e) {
 //#endregion
 //#region src/dataflow/services/find-implementation-view-dataflows.ts
 async function Ym(e) {
-	let t = e.query, n = await t.getRecordsByTagName("LNode"), r = [], i = /* @__PURE__ */ new Set();
-	for (let e of await t.getRecordsByTagName("ExtRef")) {
+	let t = e.query, n = await t.getRecordsByTagName("LNode"), r = [], i = /* @__PURE__ */ new Set(), a = await t.getRecordsByTagName("ExtRef");
+	for (let e of a) {
 		let { uuid: a, srcCBName: o, iedName: s, ldInst: c, prefix: l, lnClass: u, lnInst: d, serviceType: f } = await t.getAttributes(e);
 		if (!o) continue;
 		let p = If(f);
@@ -83475,24 +83475,22 @@ async function Ym(e) {
 			prefix: l,
 			lnClass: u,
 			lnInst: d
-		}), h = await t.dataflow.findSubscriberMappingForExtRef(e), g = h ? await t.dataflow.findLnodeMatchingMapping(n, h) : void 0;
-		if (!m || !g) continue;
-		let _ = await t.getAttribute(m, { name: "iedName" }), v = await t.getAttribute(g, { name: "iedName" });
-		if (!await t.dataflow.isMappedToRealIed(_) || !await t.dataflow.isMappedToRealIed(v)) continue;
-		let y = await t.lnode.findLnodeImplementation(m.id), b = await t.lnode.findLnodeImplementation(g.id);
-		if (!y.ln || !b.ln) continue;
-		let x = a ? (await t.findByAttributes({
+		}), h = a ? (await t.findByAttributes({
 			tagName: "SourceRef",
 			attributes: { extRefUuid: a }
-		}))[0] : void 0;
-		r.push({
-			senderLnId: y.ln.id,
-			subscriberLnId: b.ln.id,
+		}))[0] : void 0, g = await t.dataflow.findSubscriberMappingForExtRef(e), _ = g ? await t.dataflow.findLnodeMatchingMapping(n, g) : void 0, v = h ? await t.lnode.findLnodeContainingRef(h) : _;
+		if (!m || !v) continue;
+		let y = await t.getAttribute(m, { name: "iedName" }), b = await t.getAttribute(v, { name: "iedName" });
+		if (!await t.dataflow.isMappedToRealIed(y) || !await t.dataflow.isMappedToRealIed(b)) continue;
+		let x = await t.lnode.findLnodeImplementation(m.id), S = await t.lnode.findLnodeImplementation(v.id);
+		!x.ln || !S.ln || (r.push({
+			senderLnId: x.ln.id,
+			subscriberLnId: S.ln.id,
 			type: p,
-			state: x ? Bf.SPECIFIED_AND_IMPLEMENTED : Bf.IMPLEMENTATION_ONLY,
+			state: h ? Bf.SPECIFIED_AND_IMPLEMENTED : Bf.IMPLEMENTATION_ONLY,
 			extRefId: e.id,
-			sourceRefId: x?.id
-		}), a && i.add(a);
+			sourceRefId: h?.id
+		}), a && i.add(a));
 	}
 	for (let e of await t.getRecordsByTagName("SourceRef")) {
 		let { extRefUuid: n, sourceLNodeUuid: a, service: o } = await t.getAttributes(e);
