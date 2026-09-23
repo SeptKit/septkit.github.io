@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [Unreleased]
 
+## [31] - 2026-09-23
+
+### Removed
+
+- Manual creation and removal of `MinRequestedSCDFile` entries via right-click - the element is no longer user-editable through a dedicated UI; automatic synchronisation is not implemented yet (#2990)
+
 ## [30] - 2026-09-22
 
 ### Added
