@@ -7,6 +7,17 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [Unreleased]
 
+## [30] - 2026-09-22
+
+### Added
+
+- Create a `MinRequestedSCDFile` on an IED via right-click - records the minimum SCD version an IED configuration is compatible with
+- Remove a single `MinRequestedSCDFile`, or all of them at once from the IED node
+
+### Changed
+
+- `MinRequestedSCDFile` nodes are now labelled with their version (or revision) instead of showing an identical placeholder
+
 ## [29] - 2026-09-18
 
 ### Changed
