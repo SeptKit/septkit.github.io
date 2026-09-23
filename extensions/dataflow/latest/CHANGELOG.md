@@ -7,12 +7,6 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## Unreleased
 
-## [70] - 2026-09-23
-
-### Added
-
-- Choose AccessPoint for GSE or SMV creation during dataflow implementation with option to reuse existing or create new communication
-
 ## [69] - 2026-09-09
 
 ### Fixed
