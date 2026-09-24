@@ -7,6 +7,20 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [Unreleased]
 
+## [34] - 2026-09-24
+
+### Added
+
+- Diagram style aligned with the structure extension: siblings sharing a tag are folded into a group tile and listed as rows inside it
+- The node or group member currently shown in the details sidebar is highlighted with a border in the diagram
+- Hovering a node's element icons shows informing tool-tips
+- Opening a creation form from the context menu (DataSet, control block, DOI/DAI, value) highlights the targeted node in the diagram
+
+### Changed
+
+- Clicking a diagram node or group member expands or collapses its children; the details sidebar opens only via the "Show details" button
+- Grouped nodes are rows inside their group tile and no longer carry their own collapse toggle, zoom-to-children on expand, or child-type badges
+
 ## [31] - 2026-09-23
 
 ### Removed

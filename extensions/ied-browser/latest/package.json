@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-ied-browser",
-	"version": "31",
+	"version": "34",
 	"displayName": "IED Browser",
 	"description": "SeptKit extension - browse and inspect IEDs in an SCL file",
 	"private": true,
@@ -55,7 +55,6 @@
 		"@vue-flow/controls": "^1.1.3",
 		"@vue-flow/core": "^1.48.2",
 		"@vueuse/core": "^14.2.1",
-		"elkjs": "^0.10.2",
 		"@lucide/vue": "^1.16.0",
 		"pinia": "^3.0.4",
 		"reka-ui": "^2.9.6",
