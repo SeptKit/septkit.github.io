@@ -7,6 +7,18 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [83] - 2026-09-22
+
+### Fixed
+
+- Tooltips on a node card are no longer cut off at the card's edge
+
+## [82] - 2026-09-22
+
+### Changed
+
+- Diagram positions are now calculated by the shared layout engine in `@septkit/ui` instead of an extension-local copy. No change to how the diagram looks or behaves.
+
 ## [81] - 2026-09-21
 
 ### Added
