@@ -7,6 +7,17 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [17] - 2026-09-28
+
+### Changed
+
+- Editing is disabled while the simulation runs: blocks cannot be added, moved, wired, renamed or deleted, undo and redo, import and reset are unavailable, and the edit entries of the context menu are greyed out; inputs can still be switched, and the canvas and the variables table tell why editing is disabled
+- A paused simulation stays editable; an edit then stops the simulation and a message says so, so the next run starts from a clean state
+
+### Fixed
+
+- Moving a block, undoing an edit or deleting an element no longer breaks a running or paused simulation
+
 ## [16] - 2026-09-22
 
 ### Changed
