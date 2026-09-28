@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [Unreleased]
 
+## [35] - 2026-09-28
+
+### Added
+
+- Choose communication access point during GSE and SMV control block creation
+
 ## [34] - 2026-09-24
 
 ### Added
