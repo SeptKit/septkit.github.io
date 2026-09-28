@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to a simple versioning system, increasing the number by one for each modification.
 
+## [29] - 2026-09-22
+
+### Added
+
+- The IEC 104 address list export now includes a "General Information" tab (shown first) with the SCL header data (id, version, revision, tool ID, name structure, file type, UUID, base UUID) and the full revision history, so the file can be traced back to its source when shared with external partners
+
+### Changed
+
+- The "Sending Function" and "Receiving Function" columns in the IEC 104 address list export now show a full path, e.g. `TEMPLATE/TEMPLATE/TEMPLATE/CT_Fn/Current transformer` for the sending function and `Customer/Acme` (instead of `Customer (Acme)`) for the receiving function, so the substation an address belongs to is clear
+
+### Fixed
+
+- The exported .xlsx columns now actually use their configured widths (e.g. a wider "Sending Function" column); previously every column rendered at the same default width because the width setting was silently dropped when writing multiple sheets
+
 ## [28] - 2026-09-07
 
 ### Fixed
