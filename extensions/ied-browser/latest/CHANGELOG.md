@@ -7,6 +7,13 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [Unreleased]
 
+## [36] - 2026-09-29
+
+### Changed
+
+- Diagram nodes and group tiles are now drawn by the shared components in `@septkit/ui`, the same ones the structure extension uses, so both diagrams look and behave alike
+- Group members are now full node cards instead of simple rows: they gain, where present, child-type count capsules (the element-type icon already existed on the row layout). Members without children sit in a shorter tile than before
+
 ## [35] - 2026-09-28
 
 ### Added
