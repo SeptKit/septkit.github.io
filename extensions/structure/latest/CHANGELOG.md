@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [85] - 2026-09-29
+
+### Fixed
+
+- The note form stays open when adding another note immediately after saving
+
 ## [84] - 2026-09-29
 
 ### Changed
