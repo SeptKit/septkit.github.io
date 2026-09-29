@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [84] - 2026-09-29
+
+### Changed
+
+- Diagram nodes and group tiles are now drawn by the shared components in `@septkit/ui`, the same ones the IED Browser uses. The collapsed chevron now points right instead of left, and a child-count capsule's tooltip now names the count as well as the element type (`3 × Function`, previously `Function`).
+
 ## [83] - 2026-09-22
 
 ### Fixed
