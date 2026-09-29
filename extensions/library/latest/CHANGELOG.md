@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [25] - 2026-09-23
+
+### Added
+
+- Templates sidebar now browses each attached source's folder/file tree - search by name or folder, expand/collapse folders (including source roots), and select a `.fsd`/`.asd`/`.ssd` file; empty folders show a subtle hint, offline sources are shown disabled until reconnected, hidden files (e.g. `.DS_Store`) are never listed, source names are visually set apart from folders/files, and expanded folders are remembered between visits
+
 ## [24] - 2026-09-10
 
 ### Added

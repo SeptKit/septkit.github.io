@@ -1,5 +1,5 @@
-(function(){try{if(typeof document<`u`){var e=document.createElement(`style`);e.appendChild(document.createTextNode(`.nsd-table__cell[data-v-c2395a98]{vertical-align:middle;text-align:left;overflow-wrap:anywhere;word-break:break-word;white-space:normal;font-weight:400}.nsd-table__thead th[data-v-c2395a98]{white-space:nowrap;text-overflow:ellipsis;word-break:normal;overflow-wrap:normal;background:0 0;overflow:hidden}.nsd-table[data-v-c2395a98] svg{width:1.25rem;height:1.25rem;display:block}.nsd-table__warning[data-v-c2395a98]{cursor:help;display:inline-flex}.nsd-table__floating-tooltip[data-v-c2395a98]{z-index:9999;background:var(--color-neutral,oklch(0% 0 0));max-width:16rem;color:var(--color-neutral-content,oklch(100% 0 0));white-space:normal;word-break:break-word;overflow-wrap:anywhere;pointer-events:none;border-radius:.375rem;padding:.375rem .625rem;font-size:.75rem;line-height:1.25;position:fixed;box-shadow:0 4px 12px #0000002e}.fileupload__dropzone--over[data-v-573fcb81]{border-color:oklch(var(--p));background-color:oklch(var(--p) / .05)}.fileupload__dropzone--disabled[data-v-573fcb81]{opacity:.6;cursor:not-allowed;pointer-events:none}.import-nsd-dialog[data-v-51813284]{flex-direction:column;width:min(860px,92vw);max-width:none;max-height:min(74vh,720px);display:flex}.import-nsd-dialog__close[data-v-51813284]{position:absolute;top:.5rem;right:.5rem}.import-nsd-dialog__body[data-v-51813284]{flex-direction:column;flex:1;gap:1rem;display:flex;overflow:hidden}.import-nsd-dialog__tableArea[data-v-51813284]{flex:1;overflow:auto}.import-nsd-dialog__messages[data-v-51813284]{min-height:1.25rem}.import-nsd-dialog__footer[data-v-51813284]{justify-content:flex-end;display:flex}.sidebar-nsd[data-v-953f068d]{flex-direction:column;gap:.5rem;display:flex}.sidebar-nsd__header[data-v-953f068d]{justify-content:space-between;align-items:center;display:flex}.sidebar-nsd__title[data-v-953f068d]{font-size:.875rem;font-weight:600}`)),document.head.appendChild(e)}}catch(e){console.error(`vite-plugin-css-injected-by-js`,e)}})();import { A as e, At as t, D as n, Et as r, G as i, I as a, L as o, M as s, N as c, O as l, Ot as u, P as d, Q as f, X as p, _t as m, at as h, bt as g, g as _, gt as v, h as y, it as b, j as x, jt as S, mt as C, n as w, nt as T, pt as E, r as D, s as ee, vt as te, wt as O, x as ne, xt as re, yt as k } from "./main-DX8Z9Ibe.js";
-import { a as A, c as j, d as ie, i as M, l as ae, o as N, r as oe, s as se, t as ce, u as le } from "./query-nsd-metadata-DDRP0JnM.js";
+(function(){try{if(typeof document<`u`){var e=document.createElement(`style`);e.appendChild(document.createTextNode(`.nsd-table__cell[data-v-c2395a98]{vertical-align:middle;text-align:left;overflow-wrap:anywhere;word-break:break-word;white-space:normal;font-weight:400}.nsd-table__thead th[data-v-c2395a98]{white-space:nowrap;text-overflow:ellipsis;word-break:normal;overflow-wrap:normal;background:0 0;overflow:hidden}.nsd-table[data-v-c2395a98] svg{width:1.25rem;height:1.25rem;display:block}.nsd-table__warning[data-v-c2395a98]{cursor:help;display:inline-flex}.nsd-table__floating-tooltip[data-v-c2395a98]{z-index:9999;background:var(--color-neutral,oklch(0% 0 0));max-width:16rem;color:var(--color-neutral-content,oklch(100% 0 0));white-space:normal;word-break:break-word;overflow-wrap:anywhere;pointer-events:none;border-radius:.375rem;padding:.375rem .625rem;font-size:.75rem;line-height:1.25;position:fixed;box-shadow:0 4px 12px #0000002e}.fileupload__dropzone--over[data-v-573fcb81]{border-color:oklch(var(--p));background-color:oklch(var(--p) / .05)}.fileupload__dropzone--disabled[data-v-573fcb81]{opacity:.6;cursor:not-allowed;pointer-events:none}.import-nsd-dialog[data-v-51813284]{flex-direction:column;width:min(860px,92vw);max-width:none;max-height:min(74vh,720px);display:flex}.import-nsd-dialog__close[data-v-51813284]{position:absolute;top:.5rem;right:.5rem}.import-nsd-dialog__body[data-v-51813284]{flex-direction:column;flex:1;gap:1rem;display:flex;overflow:hidden}.import-nsd-dialog__tableArea[data-v-51813284]{flex:1;overflow:auto}.import-nsd-dialog__messages[data-v-51813284]{min-height:1.25rem}.import-nsd-dialog__footer[data-v-51813284]{justify-content:flex-end;display:flex}.sidebar-nsd[data-v-953f068d]{flex-direction:column;gap:.5rem;display:flex}.sidebar-nsd__header[data-v-953f068d]{justify-content:space-between;align-items:center;display:flex}.sidebar-nsd__title[data-v-953f068d]{font-size:.875rem;font-weight:600}`)),document.head.appendChild(e)}}catch(e){console.error(`vite-plugin-css-injected-by-js`,e)}})();import { A as e, At as t, D as n, Et as r, G as i, I as a, L as o, M as s, N as c, O as l, Ot as u, P as d, Q as f, X as p, _t as m, at as h, bt as g, g as _, gt as v, h as y, it as b, j as x, jt as S, m as C, mt as w, n as T, nt as E, pt as D, r as ee, vt as te, wt as O, x as ne, xt as re, yt as k } from "./main-zh8a9KKB.js";
+import { a as A, c as j, d as ie, i as M, l as ae, o as N, r as oe, s as se, t as ce, u as le } from "./query-nsd-metadata-MOGPz9uN.js";
 //#region src/nsd/icons/upload-icon.vue
 var ue = {}, de = {
 	xmlns: "http://www.w3.org/2000/svg",
@@ -90,7 +90,7 @@ var me = /* @__PURE__ */ y(R, [["render", B]]), he = { class: "nsd-table text-sm
 		function _(e) {
 			return e.missingDependencyFileName ? `Missing dependency: ${e.missingDependencyFileName} — import this NSD file to resolve` : "Missing dependency — import the required NSD file to resolve";
 		}
-		let v = T(), y = m({
+		let v = E(), y = m({
 			visible: !1,
 			text: "",
 			left: 0,
@@ -162,7 +162,7 @@ var me = /* @__PURE__ */ y(R, [["render", B]]), he = { class: "nsd-table text-sm
 //#endregion
 //#region node_modules/.pnpm/@vueuse+shared@14.2.1_vue@3.5.32_typescript@5.8.3_/node_modules/@vueuse/shared/dist/index.js
 function Ie(e, t) {
-	return E() ? (v(e, t), !0) : !1;
+	return D() ? (v(e, t), !0) : !1;
 }
 function H() {
 	let e = /* @__PURE__ */ new Set(), t = (t) => {
@@ -236,7 +236,7 @@ function q(e, t = !1) {
 		return o != null && l.push(G(o, s).then(() => O(e)).finally(() => c?.())), Promise.race(l);
 	}
 	function r(r, a) {
-		if (!C(r)) return n((e) => e === r, a);
+		if (!w(r)) return n((e) => e === r, a);
 		let { flush: o = "sync", deep: s = !1, timeout: c, throwOnTimeout: l } = a ?? {}, u = null, d = [new Promise((n) => {
 			u = b([e, r], ([e, r]) => {
 				t !== (e === r) && (u ? u() : i(() => u?.()), n(e));
@@ -308,7 +308,7 @@ function We(e, t, n) {
 //#region node_modules/.pnpm/@vueuse+core@14.2.1_vue@3.5.32_typescript@5.8.3_/node_modules/@vueuse/core/dist/index.js
 function Ge(t, n, r) {
 	let i;
-	i = C(r) ? { evaluating: r } : r || {};
+	i = w(r) ? { evaluating: r } : r || {};
 	let { lazy: a = !1, flush: o = "sync", evaluating: s = void 0, shallow: c = !0, onError: l = globalThis.reportError ?? W } = i, u = g(!a), d = c ? g(n) : k(n), f = 0;
 	return h(async (e) => {
 		if (!u.value) return;
@@ -879,14 +879,14 @@ var Ot = { class: "sidebar-nsd" }, kt = {
 //#endregion
 //#region set-sidebar.ts
 function Nt(e, t) {
-	ee(document.getElementById(e), { detail: `could not find root element: ${e}` }), w({
+	C(document.getElementById(e), { detail: `could not find root element: ${e}` }), T({
 		project: t.project,
 		activeDocumentId: t.activeDocumentId,
 		commands: t.commands
 	});
 	let n = ne(Mt);
 	return n.use(_()), n.mount(`#${e}`), () => {
-		D(), n.unmount();
+		ee(), n.unmount();
 	};
 }
 //#endregion
