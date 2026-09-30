@@ -7,6 +7,10 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [Unreleased]
 
+### Fixed
+
+- IED diagram nodes now show meaningful titles for `LN0` and `Association` instead of tag placeholders.
+
 ## [36] - 2026-09-29
 
 ### Changed
