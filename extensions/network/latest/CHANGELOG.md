@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to a simple versioning system, increasing the number by one for each modification.
 
+## [5] - 2026-09-28
+
+### Changed
+
+- The communication network table now matches the Labels/Values table styling (framed, with grid lines).
+- Column filtering and sorting now use SET's shared table component; existing behaviour is unchanged.
+
 ## [4] - 2026-09-17
 
 ### Added
