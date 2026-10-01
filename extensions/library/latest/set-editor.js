@@ -1,12 +1,12 @@
-(function(){try{if(typeof document<`u`){var e=document.createElement(`style`);e.appendChild(document.createTextNode(`.lnode-type-list-layout[data-v-61ca118a]{border:1px solid var(--color-base-300,#e5e7eb);border-radius:.5rem;flex-direction:column;height:100%;display:flex;overflow:hidden}.lnode-type-list-layout__header[data-v-61ca118a]{border-bottom:1px solid var(--color-base-300,#e5e7eb);padding:.75rem}.lnode-type-list-layout__list[data-v-61ca118a]{flex:1;min-height:0;overflow-y:auto}.lnode-type-list-header[data-v-73c437e5]{align-items:center;gap:.5rem;display:flex}.lnode-type-list-header__search[data-v-73c437e5]{flex:1;min-width:0}.lnode-type-list-header__sort[data-v-73c437e5]{white-space:nowrap}ul[data-v-9a863e39]{margin:0;padding:0;list-style:none}li[data-v-9a863e39]{cursor:pointer;border-bottom:1px solid var(--color-base-300,#e5e7eb);justify-content:space-between;align-items:center;padding:.5rem .75rem;display:flex}li[data-v-9a863e39]:nth-child(2n){background:var(--color-base-200,#f5f5f5)}li.selected[data-v-9a863e39]{background:var(--color-primary,#2563eb);color:var(--color-primary-content,#fff)}span[data-v-9a863e39]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}button[data-v-9a863e39]{visibility:hidden}button[data-v-9a863e39]:not(:disabled){color:var(--color-error)}li:hover button[data-v-9a863e39]{visibility:visible}li.empty[data-v-9a863e39]{text-align:center;opacity:.6;cursor:default;background:0 0;border:none;padding:1rem;display:block}.ln-class-dialog[data-v-b9c4a18b]{flex-direction:column;gap:.75rem;max-height:80vh;display:flex}.ln-class-dialog__close[data-v-b9c4a18b]{position:absolute;top:.5rem;right:.5rem}.ln-class-dialog__title[data-v-b9c4a18b]{font-weight:600}.ln-class-dialog__search[data-v-b9c4a18b],.ln-class-dialog__name-input[data-v-b9c4a18b]{width:100%}.ln-class-dialog__list[data-v-b9c4a18b]{border:1px solid var(--color-base-300,#e5e7eb);border-radius:.25rem;flex:1;min-height:8rem;max-height:40vh;margin:0;padding:0;list-style:none;overflow-y:auto}.ln-class-dialog__row[data-v-b9c4a18b]{cursor:pointer;border-bottom:1px solid var(--color-base-300,#e5e7eb);flex-direction:column;padding:.4rem .6rem;display:flex}.ln-class-dialog__row--selected[data-v-b9c4a18b]{background:var(--color-primary,#2563eb);color:var(--color-primary-content,#fff)}.ln-class-dialog__namespace[data-v-b9c4a18b]{opacity:.7;font-size:.75rem}.ln-class-dialog__extended-by[data-v-b9c4a18b]{opacity:.7;font-size:.7rem;font-style:italic}.ln-class-dialog__empty[data-v-b9c4a18b]{text-align:center;opacity:.6;padding:1rem}.ln-class-dialog__actions[data-v-b9c4a18b]{justify-content:flex-end;display:flex}.lnode-type-list__error[data-v-d3cfc3c5]{color:var(--color-error,#dc2626);margin-top:.5rem;font-size:.75rem}.add-do-dialog[data-v-f9c51e84]{flex-direction:column;gap:.75rem;max-height:80vh;display:flex}.add-do-dialog__close[data-v-f9c51e84]{position:absolute;top:.5rem;right:.5rem}.add-do-dialog__title[data-v-f9c51e84]{font-weight:600}.add-do-dialog__search[data-v-f9c51e84],.add-do-dialog__name[data-v-f9c51e84]{width:100%}.add-do-dialog__list[data-v-f9c51e84]{border:1px solid var(--color-base-300,#e5e7eb);border-radius:.25rem;min-height:8rem;max-height:40vh;margin:0;padding:0;list-style:none;overflow-y:auto}.add-do-dialog__row[data-v-f9c51e84]{cursor:pointer;border-bottom:1px solid var(--color-base-300,#e5e7eb);grid-template-columns:minmax(3rem,max-content) 1fr max-content;gap:.75rem;padding:.4rem .6rem;display:grid}.add-do-dialog__row--selected[data-v-f9c51e84]{background:var(--color-primary,#2563eb);color:var(--color-primary-content,#fff)}.add-do-dialog__description[data-v-f9c51e84]{text-overflow:ellipsis;white-space:nowrap;opacity:.75;font-size:.75rem;overflow:hidden}.add-do-dialog__namespace[data-v-f9c51e84]{opacity:.7;font-size:.75rem}.add-do-dialog__empty[data-v-f9c51e84]{text-align:center;opacity:.6;padding:1rem}.add-do-dialog__error[data-v-f9c51e84]{color:var(--color-error,#dc2626);font-size:.75rem}.add-do-dialog__actions[data-v-f9c51e84]{justify-content:flex-end;display:flex}.enum-editor[data-v-fb6c3661]{flex-direction:column;gap:.75rem;display:flex}.enum-editor__close[data-v-fb6c3661]{position:absolute;top:.5rem;right:.5rem}.enum-editor__title[data-v-fb6c3661]{font-weight:600}.enum-editor__list[data-v-fb6c3661]{flex-direction:column;gap:.3rem;max-height:50vh;margin:0;padding:0;list-style:none;display:flex;overflow-y:auto}.enum-editor__row[data-v-fb6c3661]{align-items:center;gap:.4rem;display:flex}.enum-editor__ord[data-v-fb6c3661]{width:4rem}.enum-editor__value[data-v-fb6c3661]{flex:1}.enum-editor__actions[data-v-fb6c3661]{justify-content:space-between;display:flex}.lnode-type-details-header[data-v-9b5aed3f]{flex-direction:column;gap:.5rem;display:flex}.lnode-type-details-header__row[data-v-9b5aed3f]{flex-wrap:wrap;align-items:center;gap:.5rem;display:flex}.lnode-type-details-header__title-group[data-v-9b5aed3f]{flex:1;align-items:baseline;gap:.5rem;min-width:0;display:flex}.lnode-type-details-header__title[data-v-9b5aed3f]{text-overflow:ellipsis;white-space:nowrap;font-weight:600;overflow:hidden}.lnode-type-details-header__namespace[data-v-9b5aed3f]{opacity:.7;white-space:nowrap;text-overflow:ellipsis;min-width:0;font-size:.75rem;overflow:hidden}.lnode-type-details-header__search[data-v-9b5aed3f]{flex:1;min-width:8rem}.info-popup__close[data-v-5825e64d]{position:absolute;top:.5rem;right:.5rem}.info-popup__title[data-v-5825e64d]{margin-bottom:.75rem;font-weight:600}.info-popup__grid[data-v-5825e64d]{grid-template-columns:max-content 1fr;gap:.3rem .75rem;font-size:.85rem;display:grid}.info-popup__grid dt[data-v-5825e64d]{text-align:right;font-weight:600}.info-popup__grid dd[data-v-5825e64d]{margin:0}.info-popup__condition-description[data-v-5825e64d],.info-popup__meta[data-v-5825e64d]{opacity:.75}.lnode-type-details-layout[data-v-ce2d87fb]{border:1px solid var(--color-base-300,#e5e7eb);border-radius:.5rem;flex-direction:column;height:100%;display:flex;overflow:hidden}.lnode-type-details-layout__header[data-v-ce2d87fb]{border-bottom:1px solid var(--color-base-300,#e5e7eb);padding:.75rem}.lnode-type-details-layout__body[data-v-ce2d87fb]{flex:1;min-height:0;display:flex}.lnode-type-details-layout__tree[data-v-ce2d87fb]{flex:1;min-width:0;overflow-y:auto}.lnode-type-details-layout__references[data-v-ce2d87fb]:empty{display:none}.reference-panel[data-v-4531446f]{border-left:1px solid var(--color-base-300,#e5e7eb);flex-direction:column;width:18rem;height:100%;display:flex}.reference-panel__header[data-v-4531446f]{border-bottom:1px solid var(--color-base-300,#e5e7eb);justify-content:space-between;align-items:center;padding:.5rem .75rem;font-size:.85rem;font-weight:600;display:flex}.reference-panel__list[data-v-4531446f]{flex:1;margin:0;padding:0;list-style:none;overflow-y:auto}.reference-panel__list li[data-v-4531446f]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .75rem;font-size:.8rem;display:flex}.reference-panel__path[data-v-4531446f]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.reference-panel__empty[data-v-4531446f]{opacity:.6}.tree-node__row[data-v-34904b62]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__expander--leaf[data-v-34904b62]{cursor:default;width:1rem}.tree-node__name[data-v-34904b62]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__allatleastonegroup-select[data-v-34904b62]{max-width:16rem}.tree-node__row[data-v-35bf2d11]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__expander--leaf[data-v-35bf2d11]{cursor:default;width:1rem}.tree-node__name[data-v-35bf2d11]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__allonlyonegroup-select[data-v-35bf2d11]{max-width:16rem}.tree-node__row[data-v-80861559]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__expander--leaf[data-v-80861559]{cursor:default;width:1rem}.tree-node__name[data-v-80861559]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__row[data-v-8611a072]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__expander--leaf[data-v-8611a072]{cursor:default;width:1rem}.tree-node__name[data-v-8611a072]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__atleastone-select[data-v-8611a072]{max-width:16rem}.tree-node__row[data-v-535878a6]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__expander--leaf[data-v-535878a6]{cursor:default;width:1rem}.tree-node__name[data-v-535878a6]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__atmostone-select[data-v-535878a6]{max-width:16rem}.tree-node__row[data-v-0d88b4e7]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__row[data-v-0d88b4e7]:hover{background:var(--color-base-200,#f5f5f5)}.tree-node__expander[data-v-0d88b4e7]{cursor:pointer;background:0 0;border:none;width:1rem;padding:0;font-size:.7rem}.tree-node__expander--leaf[data-v-0d88b4e7]{cursor:default}.tree-node__name[data-v-0d88b4e7]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__info[data-v-0d88b4e7]{visibility:hidden;cursor:pointer;opacity:.7;background:0 0;border:none;font-size:.75rem}.tree-node__row:hover .tree-node__info[data-v-0d88b4e7]{visibility:visible}.tree-node__cdc[data-v-0d88b4e7]{opacity:.6;font-size:.75rem}.tree-node__enum[data-v-0d88b4e7]{margin-left:auto}.tree-node__setting-fc[data-v-0d88b4e7]{width:auto}.tree-node__instance-count[data-v-0d88b4e7]{width:3.5rem}.tree-node__enum-val[data-v-0d88b4e7]{border-bottom:1px solid var(--color-base-300,#e5e7eb);opacity:.9;align-items:center;gap:.4rem;padding:.25rem .5rem;display:flex}.tree-node__enum-ord[data-v-0d88b4e7]{font-variant-numeric:tabular-nums}.lnode-type-tree__warning[data-v-2b6ba5e0]{color:var(--color-warning,#b45309);padding:.4rem .75rem;font-size:.75rem}.lnode-type-tree__group-header[data-v-2b6ba5e0]{border-top:1px solid var(--color-base-300,#e5e7eb);border-bottom:1px solid var(--color-base-300,#e5e7eb);background:var(--color-base-200,#f3f4f6);padding:.35rem .75rem;font-size:.75rem;font-weight:600}.lnode-type-tree__empty[data-v-2b6ba5e0]{text-align:center;opacity:.6;padding:1rem}.lnode-type-details__error[data-v-10f13347]{color:var(--color-error,#dc2626);margin-top:.5rem;font-size:.75rem}.lnode-type-details__placeholder[data-v-10f13347]{text-align:center;opacity:.6;padding:2rem}main[data-v-c82fcc52]{grid-template-columns:minmax(16rem,1fr) 2fr;gap:1rem;height:100%;padding:1rem;display:grid;overflow:hidden}.pane[data-v-c82fcc52]{min-height:0;overflow:hidden}p[data-v-c82fcc52]{text-align:center;opacity:.6;grid-column:1/-1;align-self:center}`)),document.head.appendChild(e)}}catch(e){console.error(`vite-plugin-css-injected-by-js`,e)}})();import { $ as e, A as t, At as n, D as r, Et as i, F as a, I as o, L as s, M as c, N as l, Nt as u, Ot as d, P as f, Q as p, S as m, T as h, X as g, _, a as v, at as y, c as b, ct as x, d as S, et as C, f as ee, g as w, h as T, it as te, j as E, jt as D, lt as O, m as k, n as A, o as ne, p as j, q as M, r as re, s as N, u as P, v as ie, x as ae, y as oe, yt as F } from "./main-zh8a9KKB.js";
-import { a as se, d as ce, n as le, o as I, s as ue, u as de } from "./query-nsd-metadata-MOGPz9uN.js";
-import { a as L, i as fe, n as pe, r as me } from "./dist-D6zEJGK0.js";
+(function(){try{if(typeof document<`u`){var e=document.createElement(`style`);e.appendChild(document.createTextNode(`.lnode-type-list-layout[data-v-61ca118a]{border:1px solid var(--color-base-300,#e5e7eb);border-radius:.5rem;flex-direction:column;height:100%;display:flex;overflow:hidden}.lnode-type-list-layout__header[data-v-61ca118a]{border-bottom:1px solid var(--color-base-300,#e5e7eb);padding:.75rem}.lnode-type-list-layout__list[data-v-61ca118a]{flex:1;min-height:0;overflow-y:auto}.lnode-type-list-header[data-v-73c437e5]{align-items:center;gap:.5rem;display:flex}.lnode-type-list-header__search[data-v-73c437e5]{flex:1;min-width:0}.lnode-type-list-header__sort[data-v-73c437e5]{white-space:nowrap}ul[data-v-9a863e39]{margin:0;padding:0;list-style:none}li[data-v-9a863e39]{cursor:pointer;border-bottom:1px solid var(--color-base-300,#e5e7eb);justify-content:space-between;align-items:center;padding:.5rem .75rem;display:flex}li[data-v-9a863e39]:nth-child(2n){background:var(--color-base-200,#f5f5f5)}li.selected[data-v-9a863e39]{background:var(--color-primary,#2563eb);color:var(--color-primary-content,#fff)}span[data-v-9a863e39]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}button[data-v-9a863e39]{visibility:hidden}button[data-v-9a863e39]:not(:disabled){color:var(--color-error)}li:hover button[data-v-9a863e39]{visibility:visible}li.empty[data-v-9a863e39]{text-align:center;opacity:.6;cursor:default;background:0 0;border:none;padding:1rem;display:block}.ln-class-dialog[data-v-b9c4a18b]{flex-direction:column;gap:.75rem;max-height:80vh;display:flex}.ln-class-dialog__close[data-v-b9c4a18b]{position:absolute;top:.5rem;right:.5rem}.ln-class-dialog__title[data-v-b9c4a18b]{font-weight:600}.ln-class-dialog__search[data-v-b9c4a18b],.ln-class-dialog__name-input[data-v-b9c4a18b]{width:100%}.ln-class-dialog__list[data-v-b9c4a18b]{border:1px solid var(--color-base-300,#e5e7eb);border-radius:.25rem;flex:1;min-height:8rem;max-height:40vh;margin:0;padding:0;list-style:none;overflow-y:auto}.ln-class-dialog__row[data-v-b9c4a18b]{cursor:pointer;border-bottom:1px solid var(--color-base-300,#e5e7eb);flex-direction:column;padding:.4rem .6rem;display:flex}.ln-class-dialog__row--selected[data-v-b9c4a18b]{background:var(--color-primary,#2563eb);color:var(--color-primary-content,#fff)}.ln-class-dialog__namespace[data-v-b9c4a18b]{opacity:.7;font-size:.75rem}.ln-class-dialog__extended-by[data-v-b9c4a18b]{opacity:.7;font-size:.7rem;font-style:italic}.ln-class-dialog__empty[data-v-b9c4a18b]{text-align:center;opacity:.6;padding:1rem}.ln-class-dialog__actions[data-v-b9c4a18b]{justify-content:flex-end;display:flex}.lnode-type-list__error[data-v-d3cfc3c5]{color:var(--color-error,#dc2626);margin-top:.5rem;font-size:.75rem}.add-do-dialog[data-v-f9c51e84]{flex-direction:column;gap:.75rem;max-height:80vh;display:flex}.add-do-dialog__close[data-v-f9c51e84]{position:absolute;top:.5rem;right:.5rem}.add-do-dialog__title[data-v-f9c51e84]{font-weight:600}.add-do-dialog__search[data-v-f9c51e84],.add-do-dialog__name[data-v-f9c51e84]{width:100%}.add-do-dialog__list[data-v-f9c51e84]{border:1px solid var(--color-base-300,#e5e7eb);border-radius:.25rem;min-height:8rem;max-height:40vh;margin:0;padding:0;list-style:none;overflow-y:auto}.add-do-dialog__row[data-v-f9c51e84]{cursor:pointer;border-bottom:1px solid var(--color-base-300,#e5e7eb);grid-template-columns:minmax(3rem,max-content) 1fr max-content;gap:.75rem;padding:.4rem .6rem;display:grid}.add-do-dialog__row--selected[data-v-f9c51e84]{background:var(--color-primary,#2563eb);color:var(--color-primary-content,#fff)}.add-do-dialog__description[data-v-f9c51e84]{text-overflow:ellipsis;white-space:nowrap;opacity:.75;font-size:.75rem;overflow:hidden}.add-do-dialog__namespace[data-v-f9c51e84]{opacity:.7;font-size:.75rem}.add-do-dialog__empty[data-v-f9c51e84]{text-align:center;opacity:.6;padding:1rem}.add-do-dialog__error[data-v-f9c51e84]{color:var(--color-error,#dc2626);font-size:.75rem}.add-do-dialog__actions[data-v-f9c51e84]{justify-content:flex-end;display:flex}.enum-editor[data-v-fb6c3661]{flex-direction:column;gap:.75rem;display:flex}.enum-editor__close[data-v-fb6c3661]{position:absolute;top:.5rem;right:.5rem}.enum-editor__title[data-v-fb6c3661]{font-weight:600}.enum-editor__list[data-v-fb6c3661]{flex-direction:column;gap:.3rem;max-height:50vh;margin:0;padding:0;list-style:none;display:flex;overflow-y:auto}.enum-editor__row[data-v-fb6c3661]{align-items:center;gap:.4rem;display:flex}.enum-editor__ord[data-v-fb6c3661]{width:4rem}.enum-editor__value[data-v-fb6c3661]{flex:1}.enum-editor__actions[data-v-fb6c3661]{justify-content:space-between;display:flex}.lnode-type-details-header[data-v-9b5aed3f]{flex-direction:column;gap:.5rem;display:flex}.lnode-type-details-header__row[data-v-9b5aed3f]{flex-wrap:wrap;align-items:center;gap:.5rem;display:flex}.lnode-type-details-header__title-group[data-v-9b5aed3f]{flex:1;align-items:baseline;gap:.5rem;min-width:0;display:flex}.lnode-type-details-header__title[data-v-9b5aed3f]{text-overflow:ellipsis;white-space:nowrap;font-weight:600;overflow:hidden}.lnode-type-details-header__namespace[data-v-9b5aed3f]{opacity:.7;white-space:nowrap;text-overflow:ellipsis;min-width:0;font-size:.75rem;overflow:hidden}.lnode-type-details-header__search[data-v-9b5aed3f]{flex:1;min-width:8rem}.info-popup__close[data-v-5825e64d]{position:absolute;top:.5rem;right:.5rem}.info-popup__title[data-v-5825e64d]{margin-bottom:.75rem;font-weight:600}.info-popup__grid[data-v-5825e64d]{grid-template-columns:max-content 1fr;gap:.3rem .75rem;font-size:.85rem;display:grid}.info-popup__grid dt[data-v-5825e64d]{text-align:right;font-weight:600}.info-popup__grid dd[data-v-5825e64d]{margin:0}.info-popup__condition-description[data-v-5825e64d],.info-popup__meta[data-v-5825e64d]{opacity:.75}.lnode-type-details-layout[data-v-ce2d87fb]{border:1px solid var(--color-base-300,#e5e7eb);border-radius:.5rem;flex-direction:column;height:100%;display:flex;overflow:hidden}.lnode-type-details-layout__header[data-v-ce2d87fb]{border-bottom:1px solid var(--color-base-300,#e5e7eb);padding:.75rem}.lnode-type-details-layout__body[data-v-ce2d87fb]{flex:1;min-height:0;display:flex}.lnode-type-details-layout__tree[data-v-ce2d87fb]{flex:1;min-width:0;overflow-y:auto}.lnode-type-details-layout__references[data-v-ce2d87fb]:empty{display:none}.reference-panel[data-v-4531446f]{border-left:1px solid var(--color-base-300,#e5e7eb);flex-direction:column;width:18rem;height:100%;display:flex}.reference-panel__header[data-v-4531446f]{border-bottom:1px solid var(--color-base-300,#e5e7eb);justify-content:space-between;align-items:center;padding:.5rem .75rem;font-size:.85rem;font-weight:600;display:flex}.reference-panel__list[data-v-4531446f]{flex:1;margin:0;padding:0;list-style:none;overflow-y:auto}.reference-panel__list li[data-v-4531446f]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .75rem;font-size:.8rem;display:flex}.reference-panel__path[data-v-4531446f]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.reference-panel__empty[data-v-4531446f]{opacity:.6}.tree-node__row[data-v-34904b62]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__expander--leaf[data-v-34904b62]{cursor:default;width:1rem}.tree-node__name[data-v-34904b62]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__allatleastonegroup-select[data-v-34904b62]{max-width:16rem}.tree-node__row[data-v-35bf2d11]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__expander--leaf[data-v-35bf2d11]{cursor:default;width:1rem}.tree-node__name[data-v-35bf2d11]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__allonlyonegroup-select[data-v-35bf2d11]{max-width:16rem}.tree-node__row[data-v-80861559]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__expander--leaf[data-v-80861559]{cursor:default;width:1rem}.tree-node__name[data-v-80861559]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__row[data-v-8611a072]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__expander--leaf[data-v-8611a072]{cursor:default;width:1rem}.tree-node__name[data-v-8611a072]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__atleastone-select[data-v-8611a072]{max-width:16rem}.tree-node__row[data-v-535878a6]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__expander--leaf[data-v-535878a6]{cursor:default;width:1rem}.tree-node__name[data-v-535878a6]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__atmostone-select[data-v-535878a6]{max-width:16rem}.tree-node__row[data-v-0d88b4e7]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__row[data-v-0d88b4e7]:hover{background:var(--color-base-200,#f5f5f5)}.tree-node__expander[data-v-0d88b4e7]{cursor:pointer;background:0 0;border:none;width:1rem;padding:0;font-size:.7rem}.tree-node__expander--leaf[data-v-0d88b4e7]{cursor:default}.tree-node__name[data-v-0d88b4e7]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__info[data-v-0d88b4e7]{visibility:hidden;cursor:pointer;opacity:.7;background:0 0;border:none;font-size:.75rem}.tree-node__row:hover .tree-node__info[data-v-0d88b4e7]{visibility:visible}.tree-node__cdc[data-v-0d88b4e7]{opacity:.6;font-size:.75rem}.tree-node__enum[data-v-0d88b4e7]{margin-left:auto}.tree-node__setting-fc[data-v-0d88b4e7]{width:auto}.tree-node__instance-count[data-v-0d88b4e7]{width:3.5rem}.tree-node__enum-val[data-v-0d88b4e7]{border-bottom:1px solid var(--color-base-300,#e5e7eb);opacity:.9;align-items:center;gap:.4rem;padding:.25rem .5rem;display:flex}.tree-node__enum-ord[data-v-0d88b4e7]{font-variant-numeric:tabular-nums}.lnode-type-tree__warning[data-v-2b6ba5e0]{color:var(--color-warning,#b45309);padding:.4rem .75rem;font-size:.75rem}.lnode-type-tree__group-header[data-v-2b6ba5e0]{border-top:1px solid var(--color-base-300,#e5e7eb);border-bottom:1px solid var(--color-base-300,#e5e7eb);background:var(--color-base-200,#f3f4f6);padding:.35rem .75rem;font-size:.75rem;font-weight:600}.lnode-type-tree__empty[data-v-2b6ba5e0]{text-align:center;opacity:.6;padding:1rem}.lnode-type-details__error[data-v-10f13347]{color:var(--color-error,#dc2626);margin-top:.5rem;font-size:.75rem}.lnode-type-details__placeholder[data-v-10f13347]{text-align:center;opacity:.6;padding:2rem}main[data-v-c82fcc52]{grid-template-columns:minmax(16rem,1fr) 2fr;gap:1rem;height:100%;padding:1rem;display:grid;overflow:hidden}.pane[data-v-c82fcc52]{min-height:0;overflow:hidden}p[data-v-c82fcc52]{text-align:center;opacity:.6;grid-column:1/-1;align-self:center}`)),document.head.appendChild(e)}}catch(e){console.error(`vite-plugin-css-injected-by-js`,e)}})();import { At as e, C as t, D as n, F as r, Ft as i, I as a, L as o, M as s, Mt as c, N as l, Nt as u, Ot as d, P as f, Q as p, R as m, Y as h, _ as g, b as _, dt as v, et as y, k as b, n as x, nt as S, ot as C, r as w, s as T, st as E, tt as D, ut as O, v as k, w as A, x as j, xt as M, y as N, z as P } from "./main-CcXYMGUl.js";
+import { a as ee, d as te, f as F, n as ne, o as re, s as ie, u as ae } from "./query-nsd-metadata-RY2hJkJp.js";
+import { a as oe, i as se, n as ce, r as le } from "./dist-eNPaMkr4.js";
 //#region src/data-type-templates/lnode-type-list/layout.vue
-var he = {}, ge = { class: "lnode-type-list-layout" }, _e = { class: "lnode-type-list-layout__header" }, ve = { class: "lnode-type-list-layout__list" };
-function ye(t, n) {
-	return g(), f("section", ge, [E("header", _e, [e(t.$slots, "header", {}, void 0, !0)]), E("div", ve, [e(t.$slots, "list", {}, void 0, !0)])]);
+var ue = {}, de = { class: "lnode-type-list-layout" }, fe = { class: "lnode-type-list-layout__header" }, pe = { class: "lnode-type-list-layout__list" };
+function me(e, t) {
+	return p(), a("section", de, [l("header", fe, [D(e.$slots, "header", {}, void 0, !0)]), l("div", pe, [D(e.$slots, "list", {}, void 0, !0)])]);
 }
-var be = /* @__PURE__ */ T(he, [["render", ye], ["__scopeId", "data-v-61ca118a"]]), xe = { class: "lnode-type-list-header" }, Se = ["value"], Ce = ["title"], we = /* @__PURE__ */ T(/* @__PURE__ */ s({
+var he = /* @__PURE__ */ g(ue, [["render", me], ["__scopeId", "data-v-61ca118a"]]), ge = { class: "lnode-type-list-header" }, _e = ["value"], ve = ["title"], ye = /* @__PURE__ */ g(/* @__PURE__ */ P({
 	__name: "header",
 	props: {
 		search: { default: "" },
@@ -25,184 +25,184 @@ var be = /* @__PURE__ */ T(he, [["render", ye], ["__scopeId", "data-v-61ca118a"]
 		function i(e) {
 			r("search", e.target.value);
 		}
-		return (e, t) => (g(), f("div", xe, [
-			E("input", {
+		return (e, t) => (p(), a("div", ge, [
+			l("input", {
 				class: "input input-sm lnode-type-list-header__search",
 				type: "search",
 				placeholder: "Search...",
 				value: n.search,
 				"data-testid": "dtt-list-search",
 				onInput: i
-			}, null, 40, Se),
-			E("button", {
+			}, null, 40, _e),
+			l("button", {
 				class: "btn btn-sm lnode-type-list-header__sort",
 				title: n.ascending ? "Ascending" : "Descending",
 				"data-testid": "dtt-list-sort",
 				onClick: t[0] ||= (e) => r("sort", !n.ascending)
-			}, D(n.ascending ? "Ascending ▲" : "Descending ▼"), 9, Ce),
-			E("button", {
+			}, u(n.ascending ? "Ascending ▲" : "Descending ▼"), 9, ve),
+			l("button", {
 				class: "btn btn-sm btn-primary",
 				"data-testid": "dtt-list-new",
 				onClick: t[1] ||= (e) => r("new")
 			}, " New ")
 		]));
 	}
-}), [["__scopeId", "data-v-73c437e5"]]), Te = ["onClick"], Ee = [
+}), [["__scopeId", "data-v-73c437e5"]]), be = ["onClick"], xe = [
 	"title",
 	"disabled",
 	"onClick"
-], De = {
+], Se = {
 	key: 0,
 	class: "empty",
 	"data-testid": "dtt-list-empty"
-}, Oe = /* @__PURE__ */ T(/* @__PURE__ */ s({
+}, Ce = /* @__PURE__ */ g(/* @__PURE__ */ P({
 	__name: "list",
 	props: {
 		lNodeTypes: { default: () => [] },
 		selectedId: { default: void 0 }
 	},
 	emits: ["select", "delete"],
-	setup(e, { emit: t }) {
-		let n = e, i = t;
-		return (e, t) => (g(), f("ul", null, [(g(!0), f(r, null, p(n.lNodeTypes, (e) => (g(), f("li", {
-			key: e.id,
-			class: d({ selected: e.id === n.selectedId }),
+	setup(t, { emit: i }) {
+		let o = t, s = i;
+		return (t, i) => (p(), a("ul", null, [(p(!0), a(b, null, y(o.lNodeTypes, (t) => (p(), a("li", {
+			key: t.id,
+			class: e({ selected: t.id === o.selectedId }),
 			"data-testid": "dtt-lnode-type-row",
-			onClick: (t) => i("select", e.id)
-		}, [E("span", null, D(e.id) + ": " + D(e.lnClass), 1), E("button", {
+			onClick: (e) => s("select", t.id)
+		}, [l("span", null, u(t.id) + ": " + u(t.lnClass), 1), l("button", {
 			class: "btn btn-xs btn-ghost",
-			title: e.isReferenced ? "Cannot delete: LNodeType is in use" : "Delete LNodeType",
-			disabled: e.isReferenced,
+			title: t.isReferenced ? "Cannot delete: LNodeType is in use" : "Delete LNodeType",
+			disabled: t.isReferenced,
 			"data-testid": "dtt-lnode-type-delete",
-			onClick: h((t) => i("delete", e.id), ["stop"])
-		}, [o(de, { class: "w-5 h-5" })], 8, Ee)], 10, Te))), 128)), n.lNodeTypes.length ? l("", !0) : (g(), f("li", De, " No LNodeTypes found. "))]));
+			onClick: n((e) => s("delete", t.id), ["stop"])
+		}, [m(te, { class: "w-5 h-5" })], 8, xe)], 10, be))), 128)), o.lNodeTypes.length ? r("", !0) : (p(), a("li", Se, " No LNodeTypes found. "))]));
 	}
-}), [["__scopeId", "data-v-9a863e39"]]), ke = { class: "modal-box ln-class-dialog" }, Ae = { class: "ln-class-dialog__list" }, je = ["onClick"], Me = { class: "ln-class-dialog__name" }, R = { class: "ln-class-dialog__namespace" }, Ne = {
+}), [["__scopeId", "data-v-9a863e39"]]), we = { class: "modal-box ln-class-dialog" }, Te = { class: "ln-class-dialog__list" }, Ee = ["onClick"], De = { class: "ln-class-dialog__name" }, Oe = { class: "ln-class-dialog__namespace" }, ke = {
 	key: 0,
 	class: "ln-class-dialog__extended-by",
 	"data-testid": "dtt-ln-class-extended-by"
-}, Pe = {
+}, Ae = {
 	key: 0,
 	class: "ln-class-dialog__empty",
 	"data-testid": "dtt-ln-class-empty"
-}, Fe = { class: "ln-class-dialog__actions" }, z = ["disabled"], Ie = /* @__PURE__ */ T(/* @__PURE__ */ s({
+}, je = { class: "ln-class-dialog__actions" }, Me = ["disabled"], Ne = /* @__PURE__ */ g(/* @__PURE__ */ P({
 	__name: "ln-class-dialog",
 	props: { lnClasses: { default: () => [] } },
 	emits: ["create"],
-	setup(e, { expose: n, emit: i }) {
-		let a = e, s = i;
+	setup(t, { expose: n, emit: i }) {
+		let o = t, c = i;
 		n({
-			open: b,
-			close: x
+			open: S,
+			close: C
 		});
-		let c = F(), u = F(""), h = F(""), _ = F(), v = t(function() {
-			let e = u.value.trim().toLowerCase();
-			return e ? a.lnClasses.filter(function(t) {
+		let d = M(), f = M(""), h = M(""), g = M(), _ = s(function() {
+			let e = f.value.trim().toLowerCase();
+			return e ? o.lnClasses.filter(function(t) {
 				return t.lnClass.toLowerCase().includes(e) || t.namespace.label.toLowerCase().includes(e);
-			}) : a.lnClasses;
-		}), y = t(function() {
-			return !!_.value && h.value.trim().length > 0;
+			}) : o.lnClasses;
+		}), x = s(function() {
+			return !!g.value && h.value.trim().length > 0;
 		});
-		function b() {
-			u.value = "", h.value = "", _.value = void 0, c.value?.showModal();
-		}
-		function x() {
-			c.value?.close();
-		}
-		function S(e) {
-			_.value = e, h.value.trim() || (h.value = e.lnClass);
+		function S() {
+			f.value = "", h.value = "", g.value = void 0, d.value?.showModal();
 		}
 		function C() {
-			!_.value || !y.value || (s("create", _.value, h.value.trim()), x());
+			d.value?.close();
 		}
-		return (e, t) => (g(), f("dialog", {
+		function w(e) {
+			g.value = e, h.value.trim() || (h.value = e.lnClass);
+		}
+		function T() {
+			!g.value || !x.value || (c("create", g.value, h.value.trim()), C());
+		}
+		return (t, n) => (p(), a("dialog", {
 			ref_key: "dialogElement",
-			ref: c,
+			ref: d,
 			class: "modal",
 			"data-testid": "dtt-ln-class-dialog"
-		}, [E("div", ke, [
-			E("button", {
+		}, [l("div", we, [
+			l("button", {
 				class: "btn btn-sm btn-circle btn-ghost ln-class-dialog__close",
 				"data-testid": "dtt-ln-class-close",
-				onClick: x
-			}, [o(ce)]),
-			t[2] ||= E("h3", { class: "ln-class-dialog__title" }, "LNClass", -1),
-			O(E("input", {
-				"onUpdate:modelValue": t[0] ||= (e) => u.value = e,
+				onClick: C
+			}, [m(F)]),
+			n[2] ||= l("h3", { class: "ln-class-dialog__title" }, "LNClass", -1),
+			v(l("input", {
+				"onUpdate:modelValue": n[0] ||= (e) => f.value = e,
 				class: "input input-sm ln-class-dialog__search",
 				type: "search",
 				placeholder: "Search...",
 				"data-testid": "dtt-ln-class-search"
-			}, null, 512), [[m, u.value]]),
-			E("ul", Ae, [(g(!0), f(r, null, p(v.value, (e) => (g(), f("li", {
-				key: `${e.lnClass}:${e.documentId}`,
-				class: d(["ln-class-dialog__row", { "ln-class-dialog__row--selected": e === _.value }]),
+			}, null, 512), [[A, f.value]]),
+			l("ul", Te, [(p(!0), a(b, null, y(_.value, (t) => (p(), a("li", {
+				key: `${t.lnClass}:${t.documentId}`,
+				class: e(["ln-class-dialog__row", { "ln-class-dialog__row--selected": t === g.value }]),
 				"data-testid": "dtt-ln-class-row",
-				onClick: (t) => S(e)
+				onClick: (e) => w(t)
 			}, [
-				E("span", Me, D(e.lnClass), 1),
-				E("span", R, "[" + D(e.namespace.label) + "]", 1),
-				e.extendedBy.length ? (g(), f("span", Ne, " Extended by: " + D(e.extendedBy.map((e) => e.label).join(", ")), 1)) : l("", !0)
-			], 10, je))), 128)), v.value.length ? l("", !0) : (g(), f("li", Pe, " No LNClasses found. Import NSD files first. "))]),
-			O(E("input", {
-				"onUpdate:modelValue": t[1] ||= (e) => h.value = e,
+				l("span", De, u(t.lnClass), 1),
+				l("span", Oe, "[" + u(t.namespace.label) + "]", 1),
+				t.extendedBy.length ? (p(), a("span", ke, " Extended by: " + u(t.extendedBy.map((e) => e.label).join(", ")), 1)) : r("", !0)
+			], 10, Ee))), 128)), _.value.length ? r("", !0) : (p(), a("li", Ae, " No LNClasses found. Import NSD files first. "))]),
+			v(l("input", {
+				"onUpdate:modelValue": n[1] ||= (e) => h.value = e,
 				class: "input input-sm ln-class-dialog__name-input",
 				type: "text",
 				placeholder: "LNodeType base name",
 				"data-testid": "dtt-ln-class-name-input"
-			}, null, 512), [[m, h.value]]),
-			E("div", Fe, [E("button", {
+			}, null, 512), [[A, h.value]]),
+			l("div", je, [l("button", {
 				class: "btn btn-sm btn-primary",
-				disabled: !y.value,
+				disabled: !x.value,
 				"data-testid": "dtt-ln-class-create",
-				onClick: C
-			}, " Create ", 8, z)])
+				onClick: T
+			}, " Create ", 8, Me)])
 		])], 512));
 	}
-}), [["__scopeId", "data-v-b9c4a18b"]]), Le = { class: "modal-box" }, Re = { class: "py-4" }, ze = /* @__PURE__ */ s({
+}), [["__scopeId", "data-v-b9c4a18b"]]), Pe = { class: "modal-box" }, Fe = { class: "py-4" }, Ie = /* @__PURE__ */ P({
 	__name: "delete-confirm-dialog",
 	emits: ["confirm"],
 	setup(e, { expose: t, emit: n }) {
-		let r = n, i = F(), o = F();
-		function s(e) {
-			o.value = e, i.value?.showModal();
+		let r = n, i = M(), s = M();
+		function c(e) {
+			s.value = e, i.value?.showModal();
 		}
-		function c() {
+		function d() {
 			i.value?.close();
 		}
-		function l() {
-			o.value && r("confirm", o.value), c();
+		function f() {
+			s.value && r("confirm", s.value), d();
 		}
-		return t({ open: s }), (e, t) => (g(), f("dialog", {
+		return t({ open: c }), (e, t) => (p(), a("dialog", {
 			ref_key: "dialogElement",
 			ref: i,
 			class: "modal",
 			"data-testid": "dtt-delete-confirm-dialog"
-		}, [E("div", Le, [
-			t[2] ||= E("h3", { class: "font-bold text-lg" }, "Delete LNodeType", -1),
-			E("p", Re, [
-				t[0] ||= a(" Delete ", -1),
-				E("strong", null, D(o.value), 1),
-				t[1] ||= a(" ? ", -1)
+		}, [l("div", Pe, [
+			t[2] ||= l("h3", { class: "font-bold text-lg" }, "Delete LNodeType", -1),
+			l("p", Fe, [
+				t[0] ||= o(" Delete ", -1),
+				l("strong", null, u(s.value), 1),
+				t[1] ||= o(" ? ", -1)
 			]),
-			E("div", { class: "modal-action" }, [E("button", {
+			l("div", { class: "modal-action" }, [l("button", {
 				class: "btn",
 				"data-testid": "dtt-delete-cancel",
-				onClick: c
-			}, "Cancel"), E("button", {
+				onClick: d
+			}, "Cancel"), l("button", {
 				class: "btn btn-error",
 				"data-testid": "dtt-delete-confirm",
-				onClick: l
+				onClick: f
 			}, " Delete ")])
-		]), t[3] ||= E("form", {
+		]), t[3] ||= l("form", {
 			method: "dialog",
 			class: "modal-backdrop"
-		}, [E("button", null, "close")], -1)], 512));
+		}, [l("button", null, "close")], -1)], 512));
 	}
 });
 //#endregion
 //#region src/data-type-templates/dialecte/query/type-id.ts
-function Be(e) {
+function I(e) {
 	let t = e.lastIndexOf("_#v");
 	if (t === -1) return { baseName: e };
 	let n = e.slice(t + 3);
@@ -211,33 +211,33 @@ function Be(e) {
 		version: Number(n)
 	} : { baseName: e };
 }
-function Ve(e, t) {
+function L(e, t) {
 	return `${e}_#v${t}`;
 }
-async function He(e, t, n) {
+async function R(e, t, n) {
 	let r = await e.getRecordsByTagName(t), i = 0;
 	for (let e of r) {
 		let t = e.attributes.find((e) => e.name === "id")?.value;
 		if (!t) continue;
-		let r = Be(t);
+		let r = I(t);
 		r.baseName === n && (i = Math.max(i, r.version ?? 0));
 	}
 	return i + 1;
 }
 //#endregion
 //#region src/data-type-templates/dialecte/query/read-type-payloads.ts
-async function Ue(e, t) {
-	let n = await B(e, "LNodeType", t);
+async function Le(e, t) {
+	let n = await z(e, "LNodeType", t);
 	if (!n) return;
 	let r = [], i = {
 		id: t,
-		lnClass: H(n, "lnClass"),
-		desc: H(n, "desc"),
+		lnClass: B(n, "lnClass"),
+		desc: B(n, "desc"),
 		dos: [],
 		warnings: r
 	}, a = await e.getChildren(n, "DO");
 	for (let t of a) {
-		let n = H(t, "name"), a = H(t, "type"), o = await We(e, a, /* @__PURE__ */ new Set(), r);
+		let n = B(t, "name"), a = B(t, "type"), o = await Re(e, a, /* @__PURE__ */ new Set(), r);
 		if (!o) {
 			r.push(`DO "${n}": DOType "${a}" not found`);
 			continue;
@@ -249,26 +249,26 @@ async function Ue(e, t) {
 	}
 	return i;
 }
-async function We(e, t, n, r) {
-	let i = await B(e, "DOType", t);
+async function Re(e, t, n, r) {
+	let i = await z(e, "DOType", t);
 	if (!i) return;
 	if (n.has(`DOType:${t}`)) return r.push(`Cycle detected at DOType "${t}"`), {
-		baseName: Be(t).baseName,
-		cdc: H(i, "cdc"),
+		baseName: I(t).baseName,
+		cdc: B(i, "cdc"),
 		das: [],
 		sdos: [],
 		cyclic: !0
 	};
 	let a = new Set(n).add(`DOType:${t}`), o = {
-		baseName: Be(t).baseName,
-		cdc: H(i, "cdc"),
+		baseName: I(t).baseName,
+		cdc: B(i, "cdc"),
 		das: [],
 		sdos: []
 	}, s = await e.getChildren(i, "DA");
-	for (let t of s) o.das.push(await V(e, t, a, r));
+	for (let t of s) o.das.push(await Ve(e, t, a, r));
 	let c = await e.getChildren(i, "SDO");
 	for (let t of c) {
-		let n = H(t, "name"), i = H(t, "type"), s = await We(e, i, a, r);
+		let n = B(t, "name"), i = B(t, "type"), s = await Re(e, i, a, r);
 		if (!s) {
 			r.push(`SDO "${n}": DOType "${i}" not found`);
 			continue;
@@ -280,71 +280,71 @@ async function We(e, t, n, r) {
 	}
 	return o;
 }
-async function Ge(e, t, n, r) {
-	let i = await B(e, "DAType", t);
+async function ze(e, t, n, r) {
+	let i = await z(e, "DAType", t);
 	if (!i) return;
 	if (n.has(`DAType:${t}`)) return r.push(`Cycle detected at DAType "${t}"`), {
-		baseName: Be(t).baseName,
+		baseName: I(t).baseName,
 		bdas: [],
 		cyclic: !0
 	};
 	let a = new Set(n).add(`DAType:${t}`), o = {
-		baseName: Be(t).baseName,
+		baseName: I(t).baseName,
 		bdas: []
 	}, s = await e.getChildren(i, "BDA");
-	for (let t of s) o.bdas.push(await V(e, t, a, r));
+	for (let t of s) o.bdas.push(await Ve(e, t, a, r));
 	return o;
 }
-async function Ke(e, t) {
-	let n = await B(e, "EnumType", t);
+async function Be(e, t) {
+	let n = await z(e, "EnumType", t);
 	if (!n) return;
 	let r = await e.getChildren(n, "EnumVal");
 	return {
-		baseName: Be(t).baseName,
+		baseName: I(t).baseName,
 		vals: r.map(function(e) {
 			return {
-				ord: Number(H(e, "ord")),
+				ord: Number(B(e, "ord")),
 				value: e.value
 			};
 		})
 	};
 }
-async function B(e, t, n) {
+async function z(e, t, n) {
 	return (await e.findByAttributes({
 		tagName: t,
 		attributes: { id: n }
 	}))[0];
 }
-async function V(e, t, n, r) {
-	let i = H(t, "name"), a = H(t, "bType"), o = H(t, "type"), s = {
+async function Ve(e, t, n, r) {
+	let i = B(t, "name"), a = B(t, "bType"), o = B(t, "type"), s = {
 		name: i,
 		bType: a,
-		fc: H(t, "fc") || void 0,
-		vals: await qe(e, t)
+		fc: B(t, "fc") || void 0,
+		vals: await He(e, t)
 	};
-	return a === "Enum" && o && (s.enumType = await Ke(e, o)), a === "Struct" && o && (s.daType = await Ge(e, o, n, r), s.daType || r.push(`DA "${i}": DAType "${o}" not found`)), s;
+	return a === "Enum" && o && (s.enumType = await Be(e, o)), a === "Struct" && o && (s.daType = await ze(e, o, n, r), s.daType || r.push(`DA "${i}": DAType "${o}" not found`)), s;
 }
-async function qe(e, t) {
+async function He(e, t) {
 	return (await e.getChildren(t, "Val")).map((e) => e.value);
 }
-function H(e, t) {
+function B(e, t) {
 	return e.attributes.find((e) => e.name === t)?.value ?? "";
 }
 //#endregion
 //#region src/data-type-templates/dialecte/query/find-referencing-lnodes.ts
-var Je = "None";
-async function Ye(e, t) {
+var Ue = "None";
+async function We(e, t) {
 	let n = [], r = await e.findByAttributes({
 		tagName: "LNode",
 		attributes: { lnType: t }
 	});
 	for (let t of r) {
-		let r = H(t, "iedName");
+		let r = B(t, "iedName");
 		n.push({
 			tagName: "LNode",
-			path: await tt(e, t, $e(t)),
+			path: await Xe(e, t, Je(t)),
 			iedName: r || void 0,
-			isLocked: Qe(r),
+			isLocked: qe(r),
 			recordId: t.id
 		});
 	}
@@ -354,11 +354,11 @@ async function Ye(e, t) {
 			attributes: { lnType: t }
 		});
 		for (let t of i) {
-			let i = await tt(e, t, et(t));
+			let i = await Xe(e, t, Ye(t));
 			n.push({
 				tagName: r,
 				path: i,
-				iedName: await nt(e, t),
+				iedName: await Ze(e, t),
 				isLocked: !0,
 				recordId: t.id
 			});
@@ -366,7 +366,7 @@ async function Ye(e, t) {
 	}
 	return n;
 }
-async function Xe(e) {
+async function Ge(e) {
 	let t = /* @__PURE__ */ new Set();
 	for (let n of [
 		"LNode",
@@ -375,193 +375,57 @@ async function Xe(e) {
 	]) {
 		let r = await e.getRecordsByTagName(n);
 		for (let e of r) {
-			let n = H(e, "lnType");
+			let n = B(e, "lnType");
 			n && t.add(n);
 		}
 	}
 	return t;
 }
-async function Ze(e, t) {
-	let n = await Ye(e, t), r = n.some((e) => e.tagName !== "LNode"), i = n.some((e) => e.tagName === "LNode");
+async function Ke(e, t) {
+	let n = await We(e, t), r = n.some((e) => e.tagName !== "LNode"), i = n.some((e) => e.tagName === "LNode");
 	return r && !i;
 }
-function Qe(e) {
-	return !!e && e !== Je;
+function qe(e) {
+	return !!e && e !== Ue;
 }
-function $e(e) {
-	return `LNode.${H(e, "prefix")}${H(e, "lnClass")}${H(e, "lnInst")}`;
+function Je(e) {
+	return `LNode.${B(e, "prefix")}${B(e, "lnClass")}${B(e, "lnInst")}`;
 }
-function et(e) {
-	let t = H(e, "prefix"), n = H(e, "lnClass"), r = H(e, "inst");
+function Ye(e) {
+	let t = B(e, "prefix"), n = B(e, "lnClass"), r = B(e, "inst");
 	return `${e.tagName}.${t}${n}${r}`;
 }
-async function tt(e, t, n) {
+async function Xe(e, t, n) {
 	let r = await e.findAncestors(t, { order: "top-down" }), i = [];
 	for (let e of r) {
-		let t = H(e, "name") || H(e, "inst");
+		let t = B(e, "name") || B(e, "inst");
 		!t || e.tagName === "SCL" || i.push(t);
 	}
 	return [...i, n].join("/");
 }
-async function nt(e, t) {
+async function Ze(e, t) {
 	let n = (await e.findAncestors(t)).find((e) => e.tagName === "IED");
-	if (n) return H(n, "name") || void 0;
+	if (n) return B(n, "name") || void 0;
 }
 //#endregion
 //#region src/data-type-templates/dialecte/query/find-lnode-types.ts
-async function rt(e) {
-	let t = await e.getRecordsByTagName("LNodeType"), n = await Xe(e);
+async function Qe(e) {
+	let t = await e.getRecordsByTagName("LNodeType"), n = await Ge(e);
 	return t.map(function(e) {
-		let t = H(e, "id"), r = Be(t);
+		let t = B(e, "id"), r = I(t);
 		return {
 			id: t,
-			lnClass: H(e, "lnClass"),
-			desc: H(e, "desc"),
+			lnClass: B(e, "lnClass"),
+			desc: B(e, "desc"),
 			baseName: r.baseName,
 			version: r.version,
 			isReferenced: n.has(t)
 		};
 	});
 }
-`${{
-	uri: "http://dialecte.dev/XML/DEV",
-	prefix: "dev"
-}.prefix}`;
 //#endregion
-//#region node_modules/.pnpm/@dialecte+core@0.4.16/node_modules/@dialecte/core/dist/helpers.js
-var it = {
-	uri: "http://www.w3.org/2001/XMLSchema-instance",
-	prefix: "xsi"
-};
-`${it.prefix}${it.uri}`;
-function at(e, t) {
-	return e.tagName === t;
-}
-function ot(e) {
-	return {
-		id: e.id,
-		tagName: e.tagName,
-		namespace: e.namespace,
-		attributes: e.attributes,
-		value: e.value,
-		parent: e.parent,
-		children: e.children
-	};
-}
-function U(e) {
-	let { record: t, status: n } = e, r = n ?? ("status" in t ? t.status : "unchanged");
-	return {
-		...ot(t),
-		status: r
-	};
-}
-function st(e) {
-	let { record: t, status: n, tree: r } = e, i = r ?? ("tree" in t ? t.tree : []);
-	return {
-		...U({
-			record: t,
-			status: n
-		}),
-		tree: i
-	};
-}
-function ct(e) {
-	let { dialecteConfig: t, tagName: n, attributes: r } = e;
-	return (Array.isArray(r) ? r : Object.entries(r).map(([e, r]) => ({
-		name: e,
-		value: r,
-		namespace: t.definition[n]?.attributes.details[e]?.namespace || void 0
-	}))).map((e) => lt({
-		attribute: e,
-		dialecteConfig: t,
-		tagName: n
-	}));
-}
-function lt(e) {
-	let { attribute: t, dialecteConfig: n, tagName: r } = e, i;
-	typeof t.namespace == "string" ? (i = ne(n, t.namespace), i || j("UNKNOWN_NAMESPACE_PREFIX", {
-		detail: `Unknown namespace '${t.namespace}' on attribute '${t.name}' — use a registered namespace key or pass a full { name, namespace: { prefix, uri } }.`,
-		ref: { tagName: r }
-	})) : i = t.namespace;
-	let a = t.name.indexOf(":");
-	if (!i && a !== -1) {
-		let e = t.name.slice(0, a);
-		e !== "xmlns" && (i = ee(n, e), i || j("UNKNOWN_NAMESPACE_PREFIX", {
-			detail: `Unknown namespace prefix '${e}' on attribute '${t.name}' — pass it explicitly as { name, namespace: { prefix, uri } }.`,
-			ref: { tagName: r }
-		}));
-	}
-	return i && i.prefix && i.prefix !== "xmlns" ? {
-		...t,
-		name: `${i.prefix}:${P(t.name)}`,
-		namespace: i
-	} : (t.namespace, {
-		...t,
-		namespace: i
-	});
-}
-function ut(e) {
-	return k(e, { detail: "The record or ref is undefined" }), {
-		id: e.id,
-		tagName: e.tagName
-	};
-}
-function dt(e) {
-	let { dialecteConfig: t, hooks: n, record: r } = e, { id: i, tagName: a, attributes: o, namespace: s, value: c } = r, l = i ?? crypto.randomUUID(), u = o ? ct({
-		tagName: a,
-		attributes: o,
-		dialecteConfig: t
-	}) : [], d = {
-		id: l,
-		tagName: a,
-		attributes: u,
-		namespace: s ?? {
-			prefix: "prefixNeededForNotSupportedNamespace",
-			uri: "uriNeededForNotSupportedNamespace"
-		},
-		value: c ?? "",
-		parent: r.parent ?? null,
-		children: r.children ?? []
-	}, f = Object.values(t.namespaces).map(({ uri: e }) => e), p = s?.uri != null && !f.includes(s.uri);
-	if (!(t.elements.includes(a) && !p)) return d;
-	let m = t.definition[a].attributes.sequence, h = u.filter((e) => {
-		let t = m.includes(e.name), n = "namespace" in e && e.namespace != null;
-		if (!t && !n) return !1;
-		let r = e.value === void 0 || e.value === null || e.value === "";
-		return !(t && r);
-	}), g = t.namespaces.default.uri, _ = h.map((e) => {
-		if ("namespace" in e && e.namespace?.uri === g) {
-			let { namespace: t, ...n } = e;
-			return n;
-		}
-		return e;
-	}), v = r.parent?.tagName, y = v ? t.definition[v]?.children?.details?.[a]?.namespace : void 0, b = {
-		...d,
-		namespace: y ?? t.definition[a].namespace,
-		attributes: N(_, m)
-	};
-	return n?.afterStandardizedRecord && (b = n.afterStandardizedRecord({ record: b }), b = {
-		...b,
-		attributes: N(b.attributes, m)
-	}), b;
-}
-function ft(e) {
-	let { dialecteConfig: t, tagName: n, attributes: r } = e;
-	for (let e of r) {
-		let r = S({
-			dialecteConfig: t,
-			tagName: n,
-			attributeName: e.name
-		});
-		r.fixed !== void 0 && e.value !== r.fixed && j("FIXED_VALUE_VIOLATION", {
-			detail: `Attribute '${e.name}' on '${n}' is fixed to '${r.fixed}' but was set to '${String(e.value)}'.`,
-			ref: { tagName: n }
-		});
-	}
-}
-//#endregion
-//#region node_modules/.pnpm/@dialecte+scl@0.3.17/node_modules/@dialecte/scl/dist/hooks-BBGXNK0x.js
-var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.AllocationRoleRef.AnalogueWiringParameters.AnalogueWiringParametersRef.Application.ApplicationSclRef.Association.Authentication.BDA.Bay.BayType.BehaviorDescription.BehaviorDescriptionRef.BehaviorReference.BinaryWiringParameters.BinaryWiringParametersRef.BitRate.CheckoutID.ClientLN.ClientServices.CommProt.Communication.CommunicationServiceSpecifications.ConductingEquipment.ConfDataSet.ConfLNs.ConfLdName.ConfLogControl.ConfReportControl.ConfSG.ConfSigRef.ConnectedAP.ConnectivityNode.ControlRef.ControllingLNode.DA.DAI.DAS.DAType.DO.DOI.DOS.DOType.DataObjectDirectory.DataSet.DataSetDirectory.DataTypeTemplates.DynAssociation.DynDataSet.EnumType.EnumVal.EqFunction.EqSubFunction.ExtCtrl.ExtRef.FCDA.FileHandling.Function.FunctionCatRef.FunctionCategory.FunctionCategoryRef.FunctionRef.FunctionRole.FunctionRoleContent.FunctionSclRef.FunctionTemplate.FunctionalSubVariant.FunctionalVariant.FunctionalVariantGroup.FunctionalVariantRef.GOOSE.GOOSEMcSecurity.GOOSESecurity.GSE.GSEControl.GSEDir.GSESettings.GSSE.GeneralEquipment.GetCBValues.GetDataObjectDefinition.GetDataSetValue.GetDirectory.GooseParameters.GooseParametersRef.Header.History.Hitem.IED.IEDName.IEDSourceFiles.InputVar.InputVarRef.Inputs.IssuerName.KDC.L2CommParameters.L3IPv4CommParameters.L3IPv6CommParameters.LDevice.LN.LN0.LNode.LNodeDataRef.LNodeInputRef.LNodeInputs.LNodeOutputRef.LNodeOutputs.LNodeSpecNaming.LNodeType.Label.Labels.Line.Log.LogControl.LogParameters.LogParametersRef.LogSettings.MaxTime.McSecurity.MinRequestedSCDFile.MinRequestedSCDFiles.MinTime.MultiAPPerSubNet.NeutralPoint.OptFields.OutputVar.OutputVarRef.Outputs.P.PhysConn.PowerSystemRelation.PowerSystemRelationRef.PowerSystemRelations.PowerTransformer.Private.Process.ProcessEcho.ProcessResource.ProcessResourceRef.ProcessResources.Project.ProjectProcessReference.ProtNs.Protocol.ReadWrite.RedProt.ReportControl.ReportParameters.ReportParametersRef.ReportSettings.Resource.RptEnabled.SCL.SCSM.SDI.SDO.SDS.SGEdit.SMV.SMVParameters.SMVParametersRef.SMVSecurity.SMVSettings.SMVsc.SVMcSecurity.SampledValueControl.SamplesPerSec.SclFileReference.SecPerSamples.Security.Server.ServerAt.ServiceSpecifications.Services.SetDataSetValue.SettingControl.SettingGroups.SignalRole.SmpRate.SmvOpts.SourceFiles.SourceRef.SubCategory.SubCheckoutID.SubEquipment.SubFunction.SubFunctionTemplate.SubNetwork.Subject.SubscriberLNode.Substation.SupSubscription.TapChanger.Terminal.Text.TimeSyncProt.TimerActivatedControl.TransformerWinding.TrgOps.Val.ValueHandling.Variable.VariableApplyTo.VariableRef.Voltage.VoltageLevel".split("."), mt = {
+//#region node_modules/.pnpm/@dialecte+scl@0.4.1/node_modules/@dialecte/scl/dist/hooks-CZTZsrpD.js
+var $e = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.AllocationRoleRef.AnalogueWiringParameters.AnalogueWiringParametersRef.Application.ApplicationSclRef.Association.Authentication.BDA.Bay.BayType.BehaviorDescription.BehaviorDescriptionRef.BehaviorReference.BinaryWiringParameters.BinaryWiringParametersRef.BitRate.CheckoutID.ClientLN.ClientServices.CommProt.Communication.CommunicationServiceSpecifications.ConductingEquipment.ConfDataSet.ConfLNs.ConfLdName.ConfLogControl.ConfReportControl.ConfSG.ConfSigRef.ConnectedAP.ConnectivityNode.ControlRef.ControllingLNode.DA.DAI.DAS.DAType.DO.DOI.DOS.DOType.DataObjectDirectory.DataSet.DataSetDirectory.DataTypeTemplates.DynAssociation.DynDataSet.EnumType.EnumVal.EqFunction.EqSubFunction.ExtCtrl.ExtRef.FCDA.FileHandling.Function.FunctionCatRef.FunctionCategory.FunctionCategoryRef.FunctionRef.FunctionRole.FunctionRoleContent.FunctionSclRef.FunctionTemplate.FunctionalSubVariant.FunctionalVariant.FunctionalVariantGroup.FunctionalVariantRef.GOOSE.GOOSEMcSecurity.GOOSESecurity.GSE.GSEControl.GSEDir.GSESettings.GSSE.GeneralEquipment.GetCBValues.GetDataObjectDefinition.GetDataSetValue.GetDirectory.GooseParameters.GooseParametersRef.Header.History.Hitem.IED.IEDName.IEDSourceFiles.InputVar.InputVarRef.Inputs.IssuerName.KDC.L2CommParameters.L3IPv4CommParameters.L3IPv6CommParameters.LDevice.LN.LN0.LNode.LNodeDataRef.LNodeInputRef.LNodeInputs.LNodeOutputRef.LNodeOutputs.LNodeSpecNaming.LNodeType.Label.Labels.Line.Log.LogControl.LogParameters.LogParametersRef.LogSettings.MaxTime.McSecurity.MinRequestedSCDFile.MinRequestedSCDFiles.MinTime.MultiAPPerSubNet.NeutralPoint.OptFields.OutputVar.OutputVarRef.Outputs.P.PhysConn.PowerSystemRelation.PowerSystemRelationRef.PowerSystemRelations.PowerTransformer.Private.Process.ProcessEcho.ProcessResource.ProcessResourceRef.ProcessResources.Project.ProjectProcessReference.ProtNs.Protocol.ReadWrite.RedProt.ReportControl.ReportParameters.ReportParametersRef.ReportSettings.Resource.RptEnabled.SCL.SCSM.SDI.SDO.SDS.SGEdit.SMV.SMVParameters.SMVParametersRef.SMVSecurity.SMVSettings.SMVsc.SVMcSecurity.SampledValueControl.SamplesPerSec.SclFileReference.SecPerSamples.Security.Server.ServerAt.ServiceSpecifications.Services.SetDataSetValue.SettingControl.SettingGroups.SignalRole.SmpRate.SmvOpts.SourceFiles.SourceRef.SubCategory.SubCheckoutID.SubEquipment.SubFunction.SubFunctionTemplate.SubNetwork.Subject.SubscriberLNode.Substation.SupSubscription.TapChanger.Terminal.Text.TimeSyncProt.TimerActivatedControl.TransformerWinding.TrgOps.Val.ValueHandling.Variable.VariableApplyTo.VariableRef.Voltage.VoltageLevel".split("."), et = {
 	AccessControl: [],
 	AccessPoint: [
 		"Text",
@@ -1352,7 +1216,7 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		"ProcessResources",
 		"Variable"
 	]
-}, ht = {
+}, tt = {
 	AccessControl: ["LDevice"],
 	AccessPoint: ["IED"],
 	Address: [
@@ -1750,7 +1614,7 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 	],
 	Voltage: ["Line", "VoltageLevel"],
 	VoltageLevel: ["Substation"]
-}, gt = {
+}, nt = {
 	AccessControl: [],
 	AccessPoint: /* @__PURE__ */ "AccessControl.Association.Authentication.ClientLN.ClientServices.CommProt.ConfDataSet.ConfLNs.ConfLdName.ConfLogControl.ConfReportControl.ConfSG.ConfSigRef.DAI.DOI.DataObjectDirectory.DataSet.DataSetDirectory.DynAssociation.DynDataSet.ExtCtrl.ExtRef.FCDA.FileHandling.GOOSE.GOOSEMcSecurity.GOOSESecurity.GSEControl.GSEDir.GSESettings.GSSE.GetCBValues.GetDataObjectDefinition.GetDataSetValue.GetDirectory.IEDName.Inputs.IssuerName.LDevice.LN.LN0.Label.Labels.Log.LogControl.LogSettings.McSecurity.MultiAPPerSubNet.OptFields.Outputs.Private.Protocol.ReadWrite.RedProt.ReportControl.ReportSettings.RptEnabled.SCSM.SDI.SGEdit.SMVSecurity.SMVSettings.SMVsc.SVMcSecurity.SampledValueControl.SamplesPerSec.SecPerSamples.Security.Server.ServerAt.Services.SetDataSetValue.SettingControl.SettingGroups.SmpRate.SmvOpts.Subject.SupSubscription.Text.TimeSyncProt.TimerActivatedControl.TrgOps.Val.ValueHandling".split("."),
 	Address: ["P"],
@@ -2482,7 +2346,7 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 	VariableRef: ["FunctionalVariantRef", "Text"],
 	Voltage: [],
 	VoltageLevel: /* @__PURE__ */ "AllocationRole.AllocationRoleRef.AnalogueWiringParametersRef.Application.ApplicationSclRef.Bay.BehaviorDescription.BehaviorDescriptionRef.BehaviorReference.BinaryWiringParametersRef.ConductingEquipment.ConnectivityNode.ControlRef.ControllingLNode.DAS.DOS.EqFunction.EqSubFunction.Function.FunctionCatRef.FunctionCategory.FunctionCategoryRef.FunctionRef.FunctionRole.FunctionRoleContent.FunctionSclRef.FunctionalSubVariant.FunctionalVariant.FunctionalVariantGroup.FunctionalVariantRef.GeneralEquipment.GooseParametersRef.InputVar.InputVarRef.LNode.LNodeDataRef.LNodeInputRef.LNodeInputs.LNodeOutputRef.LNodeOutputs.LNodeSpecNaming.Label.Labels.LogParametersRef.NeutralPoint.OutputVar.OutputVarRef.PowerSystemRelation.PowerSystemRelationRef.PowerSystemRelations.PowerTransformer.Private.ProcessEcho.ProcessResource.ProcessResourceRef.ProcessResources.ReportParametersRef.Resource.SDS.SMVParametersRef.SclFileReference.SignalRole.SourceRef.SubCategory.SubCheckoutID.SubEquipment.SubFunction.SubscriberLNode.TapChanger.Terminal.Text.TransformerWinding.Val.Variable.VariableApplyTo.VariableRef.Voltage".split(".")
-}, _t = {
+}, rt = {
 	AccessControl: [
 		"AccessPoint",
 		"IED",
@@ -4255,13 +4119,13 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		"SCL",
 		"Substation"
 	]
-}, W = [
+}, it = [
 	"Communication",
 	"DataTypeTemplates",
 	"Header",
 	"History",
 	"SCL"
-], vt = {
+], V = {
 	AccessControl: {},
 	AccessPoint: {
 		clock: "",
@@ -5714,7 +5578,1123 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		templateUuid: "",
 		uuid: ""
 	}
-}, yt = {
+}, at = {
+	byTag: V,
+	byParent: {
+		AccessPoint: {
+			Text: V.Text,
+			Private: V.Private,
+			Server: V.Server,
+			LN: V.LN,
+			ServerAt: V.ServerAt,
+			Services: V.Services,
+			GOOSESecurity: V.GOOSESecurity,
+			SMVSecurity: V.SMVSecurity,
+			Labels: V.Labels
+		},
+		Address: { P: { type: "" } },
+		AllocationRole: {
+			Text: V.Text,
+			FunctionRef: V.FunctionRef
+		},
+		AllocationRoleRef: {
+			Text: V.Text,
+			FunctionalVariantRef: V.FunctionalVariantRef
+		},
+		AnalogueWiringParameters: { Text: V.Text },
+		AnalogueWiringParametersRef: { Text: V.Text },
+		Application: {
+			Text: V.Text,
+			FunctionRole: V.FunctionRole,
+			FunctionalVariant: V.FunctionalVariant,
+			FunctionalVariantGroup: V.FunctionalVariantGroup,
+			AllocationRoleRef: V.AllocationRoleRef,
+			ApplicationSclRef: V.ApplicationSclRef
+		},
+		ApplicationSclRef: {
+			Text: V.Text,
+			SclFileReference: V.SclFileReference
+		},
+		BDA: {
+			Text: V.Text,
+			Private: V.Private,
+			Val: V.Val,
+			Labels: V.Labels
+		},
+		Bay: {
+			Text: V.Text,
+			Private: V.Private,
+			Labels: V.Labels,
+			LNode: V.LNode,
+			PowerTransformer: V.PowerTransformer,
+			GeneralEquipment: V.GeneralEquipment,
+			ConductingEquipment: V.ConductingEquipment,
+			ConnectivityNode: V.ConnectivityNode,
+			Function: V.Function,
+			AllocationRole: V.AllocationRole,
+			Application: V.Application,
+			BehaviorDescription: V.BehaviorDescription,
+			FunctionCategory: V.FunctionCategory,
+			ProcessResources: V.ProcessResources,
+			Variable: V.Variable
+		},
+		BehaviorDescription: {
+			Text: V.Text,
+			InputVar: V.InputVar,
+			OutputVar: V.OutputVar,
+			BehaviorReference: V.BehaviorReference
+		},
+		BehaviorDescriptionRef: {
+			Text: V.Text,
+			FunctionalVariantRef: V.FunctionalVariantRef,
+			InputVarRef: V.InputVarRef,
+			OutputVarRef: V.OutputVarRef
+		},
+		BehaviorReference: { Text: V.Text },
+		BinaryWiringParameters: { Text: V.Text },
+		BinaryWiringParametersRef: { Text: V.Text },
+		CheckoutID: { SubCheckoutID: V.SubCheckoutID },
+		ClientServices: {
+			TimeSyncProt: V.TimeSyncProt,
+			GOOSEMcSecurity: V.GOOSEMcSecurity,
+			SVMcSecurity: V.SVMcSecurity,
+			Security: V.Security
+		},
+		Communication: {
+			Text: V.Text,
+			Private: V.Private,
+			SubNetwork: V.SubNetwork
+		},
+		CommunicationServiceSpecifications: {
+			Text: V.Text,
+			GooseParameters: V.GooseParameters,
+			SMVParameters: V.SMVParameters,
+			ReportParameters: V.ReportParameters
+		},
+		ConductingEquipment: {
+			Text: V.Text,
+			Private: V.Private,
+			Labels: V.Labels,
+			LNode: V.LNode,
+			Terminal: V.Terminal,
+			SubEquipment: V.SubEquipment,
+			EqFunction: V.EqFunction,
+			ProcessResources: V.ProcessResources,
+			Variable: V.Variable
+		},
+		ConnectedAP: {
+			Text: V.Text,
+			Private: V.Private,
+			Address: V.Address,
+			GSE: V.GSE,
+			SMV: V.SMV,
+			PhysConn: V.PhysConn
+		},
+		ConnectivityNode: {
+			Text: V.Text,
+			Private: V.Private,
+			Labels: V.Labels,
+			LNode: V.LNode,
+			ProcessResources: V.ProcessResources
+		},
+		ControlRef: {
+			Text: V.Text,
+			BinaryWiringParametersRef: V.BinaryWiringParametersRef,
+			AnalogueWiringParametersRef: V.AnalogueWiringParametersRef
+		},
+		ControllingLNode: {
+			Text: V.Text,
+			BinaryWiringParametersRef: V.BinaryWiringParametersRef,
+			AnalogueWiringParametersRef: V.AnalogueWiringParametersRef
+		},
+		DA: {
+			Text: V.Text,
+			Private: V.Private,
+			Val: V.Val,
+			Labels: V.Labels,
+			ProtNs: V.ProtNs
+		},
+		DAI: {
+			Text: V.Text,
+			Private: V.Private,
+			Val: V.Val,
+			Labels: V.Labels
+		},
+		DAS: {
+			Text: V.Text,
+			SubscriberLNode: V.SubscriberLNode,
+			ControllingLNode: V.ControllingLNode,
+			ProcessEcho: V.ProcessEcho,
+			LogParametersRef: V.LogParametersRef,
+			Val: V.Val,
+			Labels: V.Labels
+		},
+		DAType: {
+			Text: V.Text,
+			Private: V.Private,
+			BDA: V.BDA,
+			ProtNs: V.ProtNs,
+			Labels: V.Labels
+		},
+		DO: {
+			Text: V.Text,
+			Private: V.Private,
+			Labels: V.Labels
+		},
+		DOI: {
+			Text: V.Text,
+			Private: V.Private,
+			SDI: V.SDI,
+			DAI: V.DAI,
+			Labels: V.Labels
+		},
+		DOS: {
+			Text: V.Text,
+			SDS: V.SDS,
+			DAS: V.DAS,
+			SubscriberLNode: V.SubscriberLNode,
+			ControllingLNode: V.ControllingLNode,
+			ProcessEcho: V.ProcessEcho,
+			LogParametersRef: V.LogParametersRef,
+			Labels: V.Labels
+		},
+		DOType: {
+			Text: V.Text,
+			Private: V.Private,
+			SDO: V.SDO,
+			DA: V.DA,
+			Labels: V.Labels
+		},
+		DataSet: {
+			Text: V.Text,
+			Private: V.Private,
+			FCDA: V.FCDA
+		},
+		DataTypeTemplates: {
+			LNodeType: V.LNodeType,
+			DOType: V.DOType,
+			DAType: V.DAType,
+			EnumType: V.EnumType
+		},
+		EnumType: {
+			Text: V.Text,
+			Private: V.Private,
+			EnumVal: V.EnumVal
+		},
+		EqFunction: {
+			Text: V.Text,
+			Private: V.Private,
+			Labels: V.Labels,
+			LNode: V.LNode,
+			GeneralEquipment: V.GeneralEquipment,
+			EqSubFunction: V.EqSubFunction,
+			BehaviorDescription: V.BehaviorDescription,
+			FunctionSclRef: V.FunctionSclRef,
+			PowerSystemRelations: V.PowerSystemRelations,
+			ProcessResources: V.ProcessResources,
+			Variable: V.Variable
+		},
+		EqSubFunction: {
+			Text: V.Text,
+			Private: V.Private,
+			Labels: V.Labels,
+			LNode: V.LNode,
+			GeneralEquipment: V.GeneralEquipment,
+			EqSubFunction: V.EqSubFunction,
+			BehaviorDescription: V.BehaviorDescription,
+			FunctionSclRef: V.FunctionSclRef,
+			PowerSystemRelations: V.PowerSystemRelations,
+			ProcessResources: V.ProcessResources,
+			Variable: V.Variable
+		},
+		ExtCtrl: {
+			Text: V.Text,
+			Private: V.Private
+		},
+		ExtRef: {
+			Text: V.Text,
+			Private: V.Private
+		},
+		Function: {
+			Text: V.Text,
+			Private: V.Private,
+			Labels: V.Labels,
+			LNode: V.LNode,
+			SubFunction: V.SubFunction,
+			GeneralEquipment: V.GeneralEquipment,
+			ConductingEquipment: V.ConductingEquipment,
+			BehaviorDescription: V.BehaviorDescription,
+			FunctionSclRef: V.FunctionSclRef,
+			PowerSystemRelations: V.PowerSystemRelations,
+			ProcessResources: V.ProcessResources,
+			Variable: V.Variable
+		},
+		FunctionCatRef: { Text: V.Text },
+		FunctionCategory: {
+			Text: V.Text,
+			SubCategory: V.SubCategory,
+			FunctionCatRef: V.FunctionCatRef
+		},
+		FunctionCategoryRef: {
+			Text: V.Text,
+			FunctionalVariantRef: V.FunctionalVariantRef
+		},
+		FunctionRef: {
+			Text: V.Text,
+			FunctionalVariantRef: V.FunctionalVariantRef,
+			SignalRole: V.SignalRole
+		},
+		FunctionRole: {
+			Text: V.Text,
+			FunctionalVariantRef: V.FunctionalVariantRef,
+			FunctionRoleContent: V.FunctionRoleContent
+		},
+		FunctionRoleContent: {
+			Text: V.Text,
+			FunctionRef: V.FunctionRef,
+			BehaviorDescriptionRef: V.BehaviorDescriptionRef,
+			ProcessResourceRef: V.ProcessResourceRef,
+			VariableRef: V.VariableRef,
+			FunctionCategoryRef: V.FunctionCategoryRef,
+			PowerSystemRelationRef: V.PowerSystemRelationRef
+		},
+		FunctionSclRef: {
+			Text: V.Text,
+			SclFileReference: V.SclFileReference
+		},
+		FunctionTemplate: {
+			Text: V.Text,
+			LNode: V.LNode,
+			SubFunctionTemplate: V.SubFunctionTemplate,
+			GeneralEquipment: V.GeneralEquipment,
+			ConductingEquipment: V.ConductingEquipment
+		},
+		FunctionalSubVariant: {
+			Text: V.Text,
+			FunctionalSubVariant: V.FunctionalSubVariant,
+			VariableRef: V.VariableRef
+		},
+		FunctionalVariant: {
+			Text: V.Text,
+			FunctionalSubVariant: V.FunctionalSubVariant,
+			VariableRef: V.VariableRef
+		},
+		FunctionalVariantGroup: {
+			Text: V.Text,
+			FunctionalVariant: V.FunctionalVariant
+		},
+		FunctionalVariantRef: { Text: V.Text },
+		GOOSESecurity: {
+			Text: V.Text,
+			Private: V.Private,
+			Labels: V.Labels,
+			Subject: V.Subject,
+			IssuerName: V.IssuerName
+		},
+		GSE: {
+			Text: V.Text,
+			Private: V.Private,
+			Address: V.Address,
+			MinTime: V.MinTime,
+			MaxTime: V.MaxTime
+		},
+		GSEControl: {
+			Text: V.Text,
+			Private: V.Private,
+			IEDName: V.IEDName,
+			Protocol: V.Protocol
+		},
+		GSESettings: { McSecurity: V.McSecurity },
+		GeneralEquipment: {
+			Text: V.Text,
+			Private: V.Private,
+			Labels: V.Labels,
+			LNode: V.LNode,
+			EqFunction: V.EqFunction,
+			ProcessResources: V.ProcessResources,
+			Variable: V.Variable
+		},
+		GooseParameters: {
+			Text: V.Text,
+			L2CommParameters: V.L2CommParameters,
+			L3IPv4CommParameters: V.L3IPv4CommParameters,
+			L3IPv6CommParameters: V.L3IPv6CommParameters
+		},
+		GooseParametersRef: { Text: V.Text },
+		Header: {
+			Text: V.Text,
+			History: V.History,
+			SourceFiles: V.SourceFiles
+		},
+		History: { Hitem: V.Hitem },
+		Hitem: { SourceFiles: V.SourceFiles },
+		IED: {
+			Text: V.Text,
+			Private: V.Private,
+			Services: V.Services,
+			AccessPoint: V.AccessPoint,
+			KDC: V.KDC,
+			IEDSourceFiles: V.IEDSourceFiles,
+			MinRequestedSCDFiles: V.MinRequestedSCDFiles,
+			Labels: V.Labels,
+			CheckoutID: V.CheckoutID
+		},
+		IEDSourceFiles: {
+			Text: V.Text,
+			Private: V.Private,
+			SclFileReference: V.SclFileReference
+		},
+		InputVar: { Text: V.Text },
+		InputVarRef: {
+			Text: V.Text,
+			FunctionalVariantRef: V.FunctionalVariantRef
+		},
+		Inputs: {
+			Text: V.Text,
+			Private: V.Private,
+			ExtRef: V.ExtRef
+		},
+		L2CommParameters: { Text: V.Text },
+		L3IPv4CommParameters: { Text: V.Text },
+		L3IPv6CommParameters: { Text: V.Text },
+		LDevice: {
+			Text: V.Text,
+			Private: V.Private,
+			LN0: V.LN0,
+			LN: V.LN,
+			AccessControl: V.AccessControl,
+			Labels: V.Labels
+		},
+		LN: {
+			Text: V.Text,
+			Private: V.Private,
+			DataSet: V.DataSet,
+			ReportControl: V.ReportControl,
+			LogControl: V.LogControl,
+			DOI: V.DOI,
+			Inputs: V.Inputs,
+			Outputs: V.Outputs,
+			Log: V.Log,
+			Labels: V.Labels
+		},
+		LN0: {
+			Text: V.Text,
+			Private: V.Private,
+			DataSet: V.DataSet,
+			ReportControl: V.ReportControl,
+			LogControl: V.LogControl,
+			DOI: V.DOI,
+			Inputs: V.Inputs,
+			Outputs: V.Outputs,
+			Log: V.Log,
+			Labels: V.Labels,
+			GSEControl: V.GSEControl,
+			SampledValueControl: V.SampledValueControl,
+			SettingControl: V.SettingControl
+		},
+		LNode: {
+			Text: V.Text,
+			Private: V.Private,
+			Labels: V.Labels,
+			BehaviorDescription: V.BehaviorDescription,
+			DOS: V.DOS,
+			LNodeInputs: V.LNodeInputs,
+			LNodeOutputs: V.LNodeOutputs,
+			LNodeSpecNaming: V.LNodeSpecNaming
+		},
+		LNodeDataRef: {
+			Text: V.Text,
+			FunctionalVariantRef: V.FunctionalVariantRef
+		},
+		LNodeInputRef: {
+			Text: V.Text,
+			FunctionalVariantRef: V.FunctionalVariantRef
+		},
+		LNodeInputs: {
+			Text: V.Text,
+			SourceRef: V.SourceRef
+		},
+		LNodeOutputRef: {
+			Text: V.Text,
+			FunctionalVariantRef: V.FunctionalVariantRef
+		},
+		LNodeOutputs: {
+			Text: V.Text,
+			ControlRef: V.ControlRef
+		},
+		LNodeSpecNaming: { Text: V.Text },
+		LNodeType: {
+			Text: V.Text,
+			Private: V.Private,
+			DO: V.DO,
+			Labels: V.Labels
+		},
+		Labels: {
+			Text: V.Text,
+			Private: V.Private,
+			Label: V.Label
+		},
+		Line: {
+			Text: V.Text,
+			Private: V.Private,
+			Labels: V.Labels,
+			LNode: V.LNode,
+			GeneralEquipment: V.GeneralEquipment,
+			Function: V.Function,
+			Voltage: V.Voltage,
+			ConductingEquipment: V.ConductingEquipment,
+			ConnectivityNode: V.ConnectivityNode,
+			AllocationRole: V.AllocationRole,
+			Application: V.Application,
+			BehaviorDescription: V.BehaviorDescription,
+			FunctionCategory: V.FunctionCategory,
+			ProcessResources: V.ProcessResources,
+			Variable: V.Variable
+		},
+		Log: {
+			Text: V.Text,
+			Private: V.Private
+		},
+		LogControl: {
+			Text: V.Text,
+			Private: V.Private,
+			TrgOps: V.TrgOps
+		},
+		LogParameters: { Text: V.Text },
+		LogParametersRef: { Text: V.Text },
+		MinRequestedSCDFiles: {
+			Text: V.Text,
+			Private: V.Private,
+			MinRequestedSCDFile: V.MinRequestedSCDFile
+		},
+		NeutralPoint: {
+			Text: V.Text,
+			Private: V.Private
+		},
+		OutputVar: { Text: V.Text },
+		OutputVarRef: {
+			Text: V.Text,
+			FunctionalVariantRef: V.FunctionalVariantRef
+		},
+		Outputs: {
+			Text: V.Text,
+			Private: V.Private,
+			ExtCtrl: V.ExtCtrl
+		},
+		PhysConn: {
+			Text: V.Text,
+			Private: V.Private,
+			P: { type: "" }
+		},
+		PowerSystemRelation: { Text: V.Text },
+		PowerSystemRelationRef: {
+			Text: V.Text,
+			FunctionalVariantRef: V.FunctionalVariantRef
+		},
+		PowerSystemRelations: {
+			Text: V.Text,
+			PowerSystemRelation: V.PowerSystemRelation
+		},
+		PowerTransformer: {
+			Text: V.Text,
+			Private: V.Private,
+			Labels: V.Labels,
+			LNode: V.LNode,
+			TransformerWinding: V.TransformerWinding,
+			SubEquipment: V.SubEquipment,
+			EqFunction: V.EqFunction
+		},
+		Process: {
+			Text: V.Text,
+			Private: V.Private,
+			Labels: V.Labels,
+			LNode: V.LNode,
+			GeneralEquipment: V.GeneralEquipment,
+			Function: V.Function,
+			ConductingEquipment: V.ConductingEquipment,
+			Substation: V.Substation,
+			Line: V.Line,
+			Process: V.Process,
+			AllocationRole: V.AllocationRole,
+			Application: V.Application,
+			BehaviorDescription: V.BehaviorDescription,
+			FunctionCategory: V.FunctionCategory,
+			ProcessResources: V.ProcessResources,
+			Variable: V.Variable
+		},
+		ProcessEcho: { Text: V.Text },
+		ProcessResource: {
+			Text: V.Text,
+			Resource: V.Resource
+		},
+		ProcessResourceRef: {
+			Text: V.Text,
+			FunctionalVariantRef: V.FunctionalVariantRef
+		},
+		ProcessResources: {
+			Text: V.Text,
+			ProcessResource: V.ProcessResource
+		},
+		Project: {
+			Text: V.Text,
+			ProjectProcessReference: V.ProjectProcessReference
+		},
+		ProjectProcessReference: { Text: V.Text },
+		ReportControl: {
+			Text: V.Text,
+			Private: V.Private,
+			TrgOps: V.TrgOps,
+			OptFields: V.OptFields,
+			RptEnabled: V.RptEnabled
+		},
+		ReportParameters: { Text: V.Text },
+		ReportParametersRef: { Text: V.Text },
+		RptEnabled: {
+			Text: V.Text,
+			Private: V.Private,
+			ClientLN: V.ClientLN
+		},
+		SCL: {
+			Text: V.Text,
+			Private: V.Private,
+			Header: V.Header,
+			Substation: V.Substation,
+			Communication: V.Communication,
+			IED: V.IED,
+			DataTypeTemplates: V.DataTypeTemplates,
+			Line: V.Line,
+			Process: V.Process,
+			BayType: V.BayType,
+			FunctionTemplate: V.FunctionTemplate,
+			Project: V.Project,
+			ServiceSpecifications: V.ServiceSpecifications
+		},
+		SDI: {
+			Text: V.Text,
+			Private: V.Private,
+			SDI: V.SDI,
+			DAI: V.DAI,
+			Labels: V.Labels
+		},
+		SDO: {
+			Text: V.Text,
+			Private: V.Private,
+			Labels: V.Labels
+		},
+		SDS: {
+			Text: V.Text,
+			SDS: V.SDS,
+			DAS: V.DAS,
+			SubscriberLNode: V.SubscriberLNode,
+			ControllingLNode: V.ControllingLNode,
+			ProcessEcho: V.ProcessEcho,
+			LogParametersRef: V.LogParametersRef,
+			Labels: V.Labels
+		},
+		SMV: {
+			Text: V.Text,
+			Private: V.Private,
+			Address: V.Address
+		},
+		SMVParameters: {
+			Text: V.Text,
+			L2CommParameters: V.L2CommParameters,
+			L3IPv4CommParameters: V.L3IPv4CommParameters,
+			L3IPv6CommParameters: V.L3IPv6CommParameters
+		},
+		SMVParametersRef: { Text: V.Text },
+		SMVSecurity: {
+			Text: V.Text,
+			Private: V.Private,
+			Labels: V.Labels,
+			Subject: V.Subject,
+			IssuerName: V.IssuerName
+		},
+		SMVSettings: {
+			SmpRate: V.SmpRate,
+			SamplesPerSec: V.SamplesPerSec,
+			SecPerSamples: V.SecPerSamples,
+			McSecurity: V.McSecurity
+		},
+		SampledValueControl: {
+			Text: V.Text,
+			Private: V.Private,
+			IEDName: V.IEDName,
+			SmvOpts: V.SmvOpts,
+			Protocol: V.Protocol
+		},
+		SclFileReference: {
+			Text: V.Text,
+			Private: V.Private,
+			SubCheckoutID: V.SubCheckoutID
+		},
+		Server: {
+			Text: V.Text,
+			Private: V.Private,
+			Authentication: V.Authentication,
+			LDevice: V.LDevice,
+			Association: V.Association
+		},
+		ServerAt: {
+			Text: V.Text,
+			Private: V.Private
+		},
+		ServiceSpecifications: {
+			Text: V.Text,
+			GooseParameters: V.GooseParameters,
+			SMVParameters: V.SMVParameters,
+			ReportParameters: V.ReportParameters,
+			BinaryWiringParameters: V.BinaryWiringParameters,
+			AnalogueWiringParameters: V.AnalogueWiringParameters,
+			LogParameters: V.LogParameters
+		},
+		Services: {
+			DynAssociation: V.DynAssociation,
+			SettingGroups: V.SettingGroups,
+			GetDirectory: V.GetDirectory,
+			GetDataObjectDefinition: V.GetDataObjectDefinition,
+			DataObjectDirectory: V.DataObjectDirectory,
+			GetDataSetValue: V.GetDataSetValue,
+			SetDataSetValue: V.SetDataSetValue,
+			DataSetDirectory: V.DataSetDirectory,
+			ConfDataSet: V.ConfDataSet,
+			DynDataSet: V.DynDataSet,
+			ReadWrite: V.ReadWrite,
+			TimerActivatedControl: V.TimerActivatedControl,
+			ConfReportControl: V.ConfReportControl,
+			GetCBValues: V.GetCBValues,
+			ConfLogControl: V.ConfLogControl,
+			ReportSettings: V.ReportSettings,
+			LogSettings: V.LogSettings,
+			GSESettings: V.GSESettings,
+			SMVSettings: V.SMVSettings,
+			GSEDir: V.GSEDir,
+			GOOSE: V.GOOSE,
+			GSSE: V.GSSE,
+			SMVsc: V.SMVsc,
+			FileHandling: V.FileHandling,
+			ConfLNs: V.ConfLNs,
+			ClientServices: V.ClientServices,
+			ConfLdName: V.ConfLdName,
+			SupSubscription: V.SupSubscription,
+			ConfSigRef: V.ConfSigRef,
+			ValueHandling: V.ValueHandling,
+			RedProt: V.RedProt,
+			TimeSyncProt: V.TimeSyncProt,
+			CommProt: V.CommProt,
+			SCSM: V.SCSM,
+			Security: V.Security,
+			MultiAPPerSubNet: V.MultiAPPerSubNet
+		},
+		SettingControl: {
+			Text: V.Text,
+			Private: V.Private
+		},
+		SettingGroups: {
+			SGEdit: V.SGEdit,
+			ConfSG: V.ConfSG
+		},
+		SignalRole: {
+			Text: V.Text,
+			FunctionalVariantRef: V.FunctionalVariantRef,
+			LNodeInputRef: V.LNodeInputRef,
+			LNodeOutputRef: V.LNodeOutputRef,
+			LNodeDataRef: V.LNodeDataRef
+		},
+		SourceFiles: {
+			Text: V.Text,
+			Private: V.Private,
+			SclFileReference: V.SclFileReference
+		},
+		SourceRef: {
+			Text: V.Text,
+			GooseParametersRef: V.GooseParametersRef,
+			SMVParametersRef: V.SMVParametersRef,
+			ReportParametersRef: V.ReportParametersRef,
+			BinaryWiringParametersRef: V.BinaryWiringParametersRef,
+			AnalogueWiringParametersRef: V.AnalogueWiringParametersRef
+		},
+		SubCategory: {
+			Text: V.Text,
+			SubCategory: V.SubCategory,
+			FunctionCatRef: V.FunctionCatRef
+		},
+		SubCheckoutID: { SubCheckoutID: V.SubCheckoutID },
+		SubEquipment: {
+			Text: V.Text,
+			Private: V.Private,
+			Labels: V.Labels,
+			LNode: V.LNode,
+			EqFunction: V.EqFunction
+		},
+		SubFunction: {
+			Text: V.Text,
+			Private: V.Private,
+			Labels: V.Labels,
+			LNode: V.LNode,
+			GeneralEquipment: V.GeneralEquipment,
+			ConductingEquipment: V.ConductingEquipment,
+			SubFunction: V.SubFunction,
+			BehaviorDescription: V.BehaviorDescription,
+			FunctionSclRef: V.FunctionSclRef,
+			PowerSystemRelations: V.PowerSystemRelations,
+			ProcessResources: V.ProcessResources,
+			Variable: V.Variable
+		},
+		SubFunctionTemplate: {
+			Text: V.Text,
+			LNode: V.LNode,
+			GeneralEquipment: V.GeneralEquipment,
+			ConductingEquipment: V.ConductingEquipment,
+			SubFunctionTemplate: V.SubFunctionTemplate
+		},
+		SubNetwork: {
+			Text: V.Text,
+			Private: V.Private,
+			Labels: V.Labels,
+			BitRate: V.BitRate,
+			ConnectedAP: V.ConnectedAP,
+			CommunicationServiceSpecifications: V.CommunicationServiceSpecifications
+		},
+		SubscriberLNode: {
+			Text: V.Text,
+			GooseParametersRef: V.GooseParametersRef,
+			SMVParametersRef: V.SMVParametersRef,
+			ReportParametersRef: V.ReportParametersRef,
+			BinaryWiringParametersRef: V.BinaryWiringParametersRef
+		},
+		Substation: {
+			Text: V.Text,
+			Private: V.Private,
+			Labels: V.Labels,
+			LNode: V.LNode,
+			PowerTransformer: V.PowerTransformer,
+			GeneralEquipment: V.GeneralEquipment,
+			VoltageLevel: V.VoltageLevel,
+			Function: V.Function,
+			AllocationRole: V.AllocationRole,
+			Application: V.Application,
+			BehaviorDescription: V.BehaviorDescription,
+			FunctionCategory: V.FunctionCategory,
+			ProcessResources: V.ProcessResources,
+			Variable: V.Variable
+		},
+		TapChanger: {
+			Text: V.Text,
+			Private: V.Private,
+			Labels: V.Labels,
+			LNode: V.LNode,
+			SubEquipment: V.SubEquipment,
+			EqFunction: V.EqFunction
+		},
+		Terminal: {
+			Text: V.Text,
+			Private: V.Private
+		},
+		TransformerWinding: {
+			Text: V.Text,
+			Private: V.Private,
+			Labels: V.Labels,
+			LNode: V.LNode,
+			Terminal: V.Terminal,
+			SubEquipment: V.SubEquipment,
+			TapChanger: V.TapChanger,
+			NeutralPoint: V.NeutralPoint,
+			EqFunction: V.EqFunction
+		},
+		Variable: {
+			Text: V.Text,
+			VariableApplyTo: V.VariableApplyTo
+		},
+		VariableApplyTo: { Text: V.Text },
+		VariableRef: {
+			Text: V.Text,
+			FunctionalVariantRef: V.FunctionalVariantRef
+		},
+		VoltageLevel: {
+			Text: V.Text,
+			Private: V.Private,
+			Labels: V.Labels,
+			LNode: V.LNode,
+			PowerTransformer: V.PowerTransformer,
+			GeneralEquipment: V.GeneralEquipment,
+			Voltage: V.Voltage,
+			Bay: V.Bay,
+			Function: V.Function,
+			AllocationRole: V.AllocationRole,
+			Application: V.Application,
+			BehaviorDescription: V.BehaviorDescription,
+			FunctionCategory: V.FunctionCategory,
+			ProcessResources: V.ProcessResources,
+			Variable: V.Variable
+		}
+	}
+}, ot = {
+	AccessControl: [],
+	AccessPoint: ["name"],
+	Address: [],
+	AllocationRole: ["name"],
+	AllocationRoleRef: [],
+	AnalogueWiringParameters: ["id"],
+	AnalogueWiringParametersRef: ["id"],
+	Application: ["name"],
+	ApplicationSclRef: [],
+	Association: [
+		"apRef",
+		"iedName",
+		"kind",
+		"ldInst",
+		"lnClass",
+		"lnInst"
+	],
+	Authentication: [],
+	BDA: ["bType", "name"],
+	Bay: ["name"],
+	BayType: [],
+	BehaviorDescription: ["name"],
+	BehaviorDescriptionRef: [],
+	BehaviorReference: [],
+	BinaryWiringParameters: ["id"],
+	BinaryWiringParametersRef: ["id"],
+	BitRate: [],
+	CheckoutID: [
+		"fileType",
+		"revision",
+		"version"
+	],
+	ClientLN: [
+		"apRef",
+		"iedName",
+		"ldInst",
+		"lnClass",
+		"lnInst"
+	],
+	ClientServices: [],
+	CommProt: [],
+	Communication: [],
+	CommunicationServiceSpecifications: [],
+	ConductingEquipment: ["name", "type"],
+	ConfDataSet: ["max"],
+	ConfLNs: [],
+	ConfLdName: [],
+	ConfLogControl: ["max"],
+	ConfReportControl: ["max"],
+	ConfSG: [],
+	ConfSigRef: ["max"],
+	ConnectedAP: ["apName", "iedName"],
+	ConnectivityNode: ["name", "pathName"],
+	ControlRef: ["output"],
+	ControllingLNode: ["outputName"],
+	DA: [
+		"bType",
+		"fc",
+		"name"
+	],
+	DAI: ["name"],
+	DAS: ["name"],
+	DAType: ["id"],
+	DO: ["name", "type"],
+	DOI: ["name"],
+	DOS: ["name"],
+	DOType: ["cdc", "id"],
+	DataObjectDirectory: [],
+	DataSet: ["name"],
+	DataSetDirectory: [],
+	DataTypeTemplates: [],
+	DynAssociation: [],
+	DynDataSet: ["max"],
+	EnumType: ["id"],
+	EnumVal: ["ord"],
+	EqFunction: ["name"],
+	EqSubFunction: ["name"],
+	ExtCtrl: [],
+	ExtRef: [],
+	FCDA: ["fc"],
+	FileHandling: [],
+	Function: ["name"],
+	FunctionCatRef: [],
+	FunctionCategory: ["name"],
+	FunctionCategoryRef: [],
+	FunctionRef: [],
+	FunctionRole: ["name"],
+	FunctionRoleContent: [],
+	FunctionSclRef: [],
+	FunctionTemplate: ["name"],
+	FunctionalSubVariant: ["name"],
+	FunctionalVariant: ["name"],
+	FunctionalVariantGroup: ["name"],
+	FunctionalVariantRef: [],
+	GOOSE: ["max"],
+	GOOSEMcSecurity: [],
+	GOOSESecurity: ["name", "serialNumber"],
+	GSE: ["cbName", "ldInst"],
+	GSEControl: ["appID", "name"],
+	GSEDir: [],
+	GSESettings: [],
+	GSSE: ["max"],
+	GeneralEquipment: ["name", "type"],
+	GetCBValues: [],
+	GetDataObjectDefinition: [],
+	GetDataSetValue: [],
+	GetDirectory: [],
+	GooseParameters: ["id"],
+	GooseParametersRef: ["id"],
+	Header: ["id", "uuid"],
+	History: [],
+	Hitem: [
+		"revision",
+		"version",
+		"when"
+	],
+	IED: ["name"],
+	IEDName: ["apRef"],
+	IEDSourceFiles: [],
+	InputVar: ["varName"],
+	InputVarRef: [],
+	Inputs: [],
+	IssuerName: ["commonName", "idHierarchy"],
+	KDC: ["apName", "iedName"],
+	L2CommParameters: [],
+	L3IPv4CommParameters: [],
+	L3IPv6CommParameters: [],
+	LDevice: ["inst"],
+	LN: [
+		"inst",
+		"lnClass",
+		"lnType"
+	],
+	LN0: [
+		"inst",
+		"lnClass",
+		"lnType"
+	],
+	LNode: ["lnClass"],
+	LNodeDataRef: [],
+	LNodeInputRef: [],
+	LNodeInputs: [],
+	LNodeOutputRef: [],
+	LNodeOutputs: [],
+	LNodeSpecNaming: [],
+	LNodeType: ["id", "lnClass"],
+	Label: ["lang"],
+	Labels: [],
+	Line: ["name"],
+	Log: [],
+	LogControl: ["logName", "name"],
+	LogParameters: ["id"],
+	LogParametersRef: ["id"],
+	LogSettings: [],
+	MaxTime: [],
+	McSecurity: [],
+	MinRequestedSCDFile: [
+		"fileType",
+		"revision",
+		"version"
+	],
+	MinRequestedSCDFiles: [],
+	MinTime: [],
+	MultiAPPerSubNet: [],
+	NeutralPoint: ["cNodeName", "connectivityNode"],
+	OptFields: [],
+	OutputVar: ["varName"],
+	OutputVarRef: [],
+	Outputs: [],
+	P: ["type"],
+	PhysConn: ["type"],
+	PowerSystemRelation: ["name"],
+	PowerSystemRelationRef: [],
+	PowerSystemRelations: [],
+	PowerTransformer: ["name", "type"],
+	Private: ["type"],
+	Process: ["name"],
+	ProcessEcho: [],
+	ProcessResource: ["name"],
+	ProcessResourceRef: [],
+	ProcessResources: [],
+	Project: ["name"],
+	ProjectProcessReference: [],
+	ProtNs: [],
+	Protocol: ["mustUnderstand"],
+	ReadWrite: [],
+	RedProt: [],
+	ReportControl: ["confRev", "name"],
+	ReportParameters: ["id"],
+	ReportParametersRef: ["id"],
+	ReportSettings: [],
+	Resource: [],
+	RptEnabled: [],
+	SCL: [
+		"release",
+		"revision",
+		"version"
+	],
+	SCSM: [],
+	SDI: ["name"],
+	SDO: ["name", "type"],
+	SDS: ["name"],
+	SGEdit: [],
+	SMV: ["cbName", "ldInst"],
+	SMVParameters: ["id"],
+	SMVParametersRef: ["id"],
+	SMVSecurity: ["name", "serialNumber"],
+	SMVSettings: [],
+	SMVsc: ["max"],
+	SVMcSecurity: [],
+	SampledValueControl: [
+		"name",
+		"nofASDU",
+		"smpRate",
+		"smvID"
+	],
+	SamplesPerSec: [],
+	SclFileReference: [
+		"fileType",
+		"revision",
+		"version"
+	],
+	SecPerSamples: [],
+	Security: [],
+	Server: [],
+	ServerAt: ["apName"],
+	ServiceSpecifications: [],
+	Services: [],
+	SetDataSetValue: [],
+	SettingControl: ["numOfSGs"],
+	SettingGroups: [],
+	SignalRole: ["name"],
+	SmpRate: [],
+	SmvOpts: [],
+	SourceFiles: [],
+	SourceRef: ["input"],
+	SubCategory: ["name"],
+	SubCheckoutID: [
+		"fileType",
+		"revision",
+		"version"
+	],
+	SubEquipment: ["name"],
+	SubFunction: ["name"],
+	SubFunctionTemplate: ["name"],
+	SubNetwork: ["name"],
+	Subject: ["commonName", "idHierarchy"],
+	SubscriberLNode: ["inputName"],
+	Substation: ["name"],
+	SupSubscription: ["maxGo", "maxSv"],
+	TapChanger: ["name", "type"],
+	Terminal: ["cNodeName", "connectivityNode"],
+	Text: [],
+	TimeSyncProt: [],
+	TimerActivatedControl: [],
+	TransformerWinding: ["name", "type"],
+	TrgOps: [],
+	Val: [],
+	ValueHandling: [],
+	Variable: ["name"],
+	VariableApplyTo: [],
+	VariableRef: [],
+	Voltage: ["unit"],
+	VoltageLevel: ["name"]
+}, st = {
 	AccessControl: {
 		tag: "AccessControl",
 		namespace: {
@@ -5724,12 +6704,29 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		parents: ["LDevice"],
 		attributes: {
 			sequence: [],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {}
 		},
 		children: {
 			sequence: [],
 			any: !0,
 			details: {}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				particles: [{
+					kind: "any",
+					namespace: ["##other"],
+					processContents: "lax",
+					minOccurs: 1,
+					maxOccurs: 1
+				}]
+			}]
 		},
 		textContent: {}
 	},
@@ -5750,41 +6747,37 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"templateUuid",
 				"uuid"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				clock: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				kdc: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				name: {
+					type: { builtin: "normalizedString" },
 					required: !0,
 					facets: {
 						pattern: ["[A-Za-z0-9][0-9A-Za-z_]*"],
-						maxLength: 32,
-						whiteSpace: "replace"
+						maxLength: 32
 					}
 				},
 				router: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			},
-			identityFields: ["inst", "name"]
+			identityFields: ["name"]
 		},
 		children: {
 			sequence: [
@@ -5947,14 +6940,86 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 						} }]
 					}]
 				}
-			},
-			choices: [{
-				options: [
-					"LN",
-					"Server",
-					"ServerAt"
-				],
-				maxOccurs: 1
+			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [
+						{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						},
+						{
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "Private"
+						}
+					]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [
+					{
+						kind: "choice",
+						maxOccurs: 1,
+						particles: [
+							{
+								kind: "element",
+								name: "Server",
+								minOccurs: 1,
+								maxOccurs: 1
+							},
+							{
+								kind: "element",
+								name: "LN",
+								minOccurs: 1
+							},
+							{
+								kind: "element",
+								name: "ServerAt",
+								minOccurs: 1,
+								maxOccurs: 1
+							}
+						]
+					},
+					{
+						kind: "element",
+						name: "Services",
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "GOOSESecurity",
+						maxOccurs: 7
+					},
+					{
+						kind: "element",
+						name: "SMVSecurity",
+						maxOccurs: 7
+					},
+					{
+						kind: "element",
+						name: "Labels",
+						maxOccurs: 1
+					}
+				]
 			}]
 		},
 		constraints: [{
@@ -6002,8 +7067,44 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: ["P"],
 			details: { P: {
 				required: !0,
-				minOccurs: 1
+				minOccurs: 1,
+				attributes: {
+					sequence: ["type"],
+					details: { type: {
+						type: { union: [{
+							builtin: "Name",
+							facets: { enumeration: /* @__PURE__ */ "IP.IP-SUBNET.IP-GATEWAY.OSI-NSAP.OSI-TSEL.OSI-SSEL.OSI-PSEL.OSI-AP-Title.OSI-AP-Invoke.OSI-AE-Qualifier.OSI-AE-Invoke.MAC-Address.APPID.VLAN-PRIORITY.VLAN-ID.SNTP-Port.MMS-Port.DNSName.IPv6FlowLabel.IPv6ClassOfTraffic.C37-118-IP-Port.IP-UDP-PORT.IP-TCP-PORT.IPv6.IPv6-SUBNET.IPv6-GATEWAY.IPv6-IGMPv3Src.IP-IGMPv3Src.IP-ClassOfTraffic".split(".") }
+						}, {
+							builtin: "normalizedString",
+							facets: { pattern: ["[A-Z][0-9A-Za-z\\-]*"] }
+						}] },
+						required: !0,
+						facets: {
+							enumeration: /* @__PURE__ */ "IP.IP-SUBNET.IP-GATEWAY.OSI-NSAP.OSI-TSEL.OSI-SSEL.OSI-PSEL.OSI-AP-Title.OSI-AP-Invoke.OSI-AE-Qualifier.OSI-AE-Invoke.MAC-Address.APPID.VLAN-PRIORITY.VLAN-ID.SNTP-Port.MMS-Port.DNSName.IPv6FlowLabel.IPv6ClassOfTraffic.C37-118-IP-Port.IP-UDP-PORT.IP-TCP-PORT.IPv6.IPv6-SUBNET.IPv6-GATEWAY.IPv6-IGMPv3Src.IP-IGMPv3Src.IP-ClassOfTraffic".split("."),
+							pattern: ["[A-Z][0-9A-Za-z\\-]*", "[A-Za-z_:][-.:0-9A-Z_a-z]*"]
+						}
+					} },
+					identityFields: ["type"]
+				},
+				children: {
+					sequence: [],
+					details: {}
+				},
+				textContent: {
+					type: { builtin: "normalizedString" },
+					facets: { minLength: 1 }
+				}
 			} }
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "element",
+				name: "P",
+				minOccurs: 1
+			}]
 		}
 	},
 	AllocationRole: {
@@ -6030,29 +7131,19 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				name: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				},
-				originUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
-			}
+				originUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
+			},
+			identityFields: ["name"]
 		},
 		children: {
 			sequence: ["Text", "FunctionRef"],
@@ -6066,8 +7157,37 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					}
 				},
 				FunctionRef: {}
-			},
-			choices: [{ options: ["FunctionRef"] }]
+			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "any",
+						namespace: ["##other"],
+						processContents: "lax"
+					}, {
+						kind: "element",
+						name: "Text",
+						maxOccurs: 1
+					}]
+				}]
+			}, {
+				kind: "choice",
+				particles: [{
+					kind: "element",
+					name: "FunctionRef"
+				}]
+			}]
 		}
 	},
 	AllocationRoleRef: {
@@ -6085,17 +7205,14 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"desc"
 			],
 			details: {
-				allocationRole: { facets: {
-					pattern: [".+(/.+)*"],
-					whiteSpace: "replace"
-				} },
-				allocationRoleUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
+				allocationRole: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: [".+(/.+)*"] }
+				},
+				allocationRoleUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				}
 			}
 		},
@@ -6111,8 +7228,42 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					}
 				},
 				FunctionalVariantRef: {}
-			},
-			choices: [{ options: ["FunctionalVariantRef"] }]
+			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						}, {
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						}]
+					}]
+				}, {
+					kind: "choice",
+					particles: [{
+						kind: "element",
+						name: "FunctionalVariantRef"
+					}]
+				}]
+			}]
 		}
 	},
 	AnalogueWiringParameters: {
@@ -6133,23 +7284,24 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				dsgInp: { facets: { whiteSpace: "replace" } },
-				fctInp: { facets: { whiteSpace: "replace" } },
+				dsgInp: { type: { builtin: "normalizedString" } },
+				fctInp: { type: { builtin: "normalizedString" } },
 				id: {
+					type: { builtin: "token" },
 					required: !0,
 					facets: {
 						pattern: ["\\S+"],
 						minLength: 1,
-						maxLength: 255,
-						whiteSpace: "collapse"
+						maxLength: 255
 					}
 				},
-				inpNam: { facets: { whiteSpace: "replace" } },
-				inpRef: { facets: { whiteSpace: "replace" } }
-			}
+				inpNam: { type: { builtin: "normalizedString" } },
+				inpRef: { type: { builtin: "normalizedString" } }
+			},
+			identityFields: ["id"]
 		},
 		children: {
 			sequence: ["Text"],
@@ -6161,6 +7313,40 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					uri: "http://www.iec.ch/61850/2019/SCL/6-100"
 				}
 			} }
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [{
+								kind: "any",
+								namespace: ["##other"],
+								processContents: "lax"
+							}, {
+								kind: "element",
+								name: "Text",
+								maxOccurs: 1
+							}]
+						}]
+					}]
+				}]
+			}]
 		}
 	},
 	AnalogueWiringParametersRef: {
@@ -6179,15 +7365,13 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: ["desc", "id"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				id: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				}
 			}
 		},
@@ -6201,6 +7385,30 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					uri: "http://www.iec.ch/61850/2019/SCL/6-100"
 				}
 			} }
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "any",
+						namespace: ["##other"],
+						processContents: "lax"
+					}, {
+						kind: "element",
+						name: "Text",
+						maxOccurs: 1
+					}]
+				}]
+			}]
 		}
 	},
 	Application: {
@@ -6228,35 +7436,27 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				name: {
+					type: { builtin: "normalizedString" },
 					required: !0,
+					facets: { minLength: 1 }
+				},
+				originUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				type: {
+					type: { builtin: "token" },
 					facets: {
+						pattern: ["\\S+"],
 						minLength: 1,
-						whiteSpace: "replace"
+						maxLength: 255
 					}
 				},
-				originUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				type: { facets: {
-					pattern: ["\\S+"],
-					minLength: 1,
-					maxLength: 255,
-					whiteSpace: "collapse"
-				} },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
-			}
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
+			},
+			identityFields: ["name"]
 		},
 		children: {
 			sequence: [
@@ -6298,6 +7498,58 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				AllocationRoleRef: {},
 				ApplicationSclRef: { maxOccurs: 1 }
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "any",
+						namespace: ["##other"],
+						processContents: "lax"
+					}, {
+						kind: "element",
+						name: "Text",
+						maxOccurs: 1
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [
+					{
+						kind: "element",
+						name: "FunctionRole",
+						minOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "FunctionalVariant"
+					},
+					{
+						kind: "element",
+						name: "FunctionalVariantGroup"
+					},
+					{
+						kind: "element",
+						name: "AllocationRoleRef"
+					},
+					{
+						kind: "element",
+						name: "ApplicationSclRef",
+						maxOccurs: 1
+					}
+				]
+			}]
 		}
 	},
 	ApplicationSclRef: {
@@ -6331,6 +7583,34 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					}
 				}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "any",
+					namespace: ["##other"],
+					processContents: "lax"
+				}, {
+					kind: "element",
+					name: "Text",
+					maxOccurs: 1
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "SclFileReference",
+					maxOccurs: 1
+				}]
+			}]
 		}
 	},
 	Association: {
@@ -6356,23 +7636,26 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				apRef: {
+					type: { builtin: "normalizedString" },
 					required: !0,
 					facets: {
 						pattern: ["[A-Za-z0-9][0-9A-Za-z_]*"],
-						maxLength: 32,
-						whiteSpace: "replace"
+						maxLength: 32
 					}
 				},
-				associationID: { facets: {
-					pattern: ["[0-9A-Za-z]+"],
-					minLength: 1,
-					whiteSpace: "replace"
-				} },
+				associationID: {
+					type: { builtin: "normalizedString" },
+					facets: {
+						pattern: ["[0-9A-Za-z]+"],
+						minLength: 1
+					}
+				},
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				iedName: {
+					type: { builtin: "Name" },
 					required: !0,
 					facets: {
 						pattern: [
@@ -6385,33 +7668,304 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"[A-Za-z][0-9A-Za-z_]*",
 							"[A-Za-z_:][-.:0-9A-Z_a-z]*"
 						],
-						maxLength: 64,
-						whiteSpace: "collapse"
+						maxLength: 64
 					}
 				},
 				initiator: {
+					type: { builtin: "token" },
 					default: "client",
-					facets: {
-						enumeration: ["client", "server"],
-						whiteSpace: "collapse"
-					}
+					facets: { enumeration: ["client", "server"] }
 				},
 				kind: {
+					type: { builtin: "token" },
 					required: !0,
-					facets: {
-						enumeration: ["pre-established", "predefined"],
-						whiteSpace: "collapse"
-					}
+					facets: { enumeration: ["pre-established", "predefined"] }
 				},
 				ldInst: {
+					type: { builtin: "normalizedString" },
 					required: !0,
 					facets: {
 						pattern: ["[A-Za-z0-9][0-9A-Za-z_]*"],
-						maxLength: 64,
-						whiteSpace: "replace"
+						maxLength: 64
 					}
 				},
 				lnClass: {
+					type: { union: [{ union: [{
+						builtin: "Name",
+						facets: {
+							enumeration: [
+								"LLN0",
+								"LPHD",
+								"LCCH",
+								"LGOS",
+								"LSVS",
+								"LTIM",
+								"LTMS",
+								"LTRK"
+							],
+							pattern: ["L[A-Z]*", "LLN0"],
+							length: 4
+						}
+					}, { union: [
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"ANCR",
+									"ARCO",
+									"ARIS",
+									"ATCC",
+									"AVCO"
+								],
+								pattern: ["A[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"CALH",
+									"CCGR",
+									"CILO",
+									"CPOW",
+									"CSWI",
+									"CSYN"
+								],
+								pattern: ["C[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"FCNT",
+									"FCSD",
+									"FFIL",
+									"FLIM",
+									"FPID",
+									"FRMP",
+									"FSPT",
+									"FXOT",
+									"FXUT"
+								],
+								pattern: ["F[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"GAPC",
+									"GGIO",
+									"GLOG",
+									"GSAL"
+								],
+								pattern: ["G[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"IARC",
+									"IHMI",
+									"ISAF",
+									"ITCI",
+									"ITMI",
+									"ITPC"
+								],
+								pattern: ["I[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"KFAN",
+									"KFIL",
+									"KPMP",
+									"KTNK",
+									"KVLV"
+								],
+								pattern: ["K[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"MDIF",
+									"MENV",
+									"MFLK",
+									"MHAI",
+									"MHAN",
+									"MHYD",
+									"MMDC",
+									"MMET",
+									"MMTN",
+									"MMTR",
+									"MMXN",
+									"MMXU",
+									"MSQI",
+									"MSTA"
+								],
+								pattern: ["M[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: /* @__PURE__ */ "PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU".split("."),
+								pattern: ["P[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"QFVR",
+									"QITR",
+									"QIUB",
+									"QVTR",
+									"QVUB",
+									"QVVR"
+								],
+								pattern: ["Q[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"RADR",
+									"RBDR",
+									"RBRF",
+									"RDIR",
+									"RDRE",
+									"RDRS",
+									"RFLO",
+									"RMXU",
+									"RPSB",
+									"RREC",
+									"RSYN"
+								],
+								pattern: ["R[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"SARC",
+									"SCBR",
+									"SIMG",
+									"SIML",
+									"SLTC",
+									"SOPM",
+									"SPDC",
+									"SPTR",
+									"SSWI",
+									"STMP",
+									"SVBR"
+								],
+								pattern: ["S[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"TANG",
+									"TAXD",
+									"TCTR",
+									"TDST",
+									"TFLW",
+									"TFRQ",
+									"TGSN",
+									"THUM",
+									"TLVL",
+									"TMGF",
+									"TMVM",
+									"TPOS",
+									"TPRS",
+									"TRTN",
+									"TSND",
+									"TTMP",
+									"TTNS",
+									"TVBR",
+									"TVTR",
+									"TWPH"
+								],
+								pattern: ["T[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: ["XCBR", "XSWI"],
+								pattern: ["X[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"YEFN",
+									"YLTC",
+									"YPSH",
+									"YPTR"
+								],
+								pattern: ["Y[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"ZAXN",
+									"ZBAT",
+									"ZBSH",
+									"ZCAB",
+									"ZCAP",
+									"ZCON",
+									"ZGEN",
+									"ZGIL",
+									"ZLIN",
+									"ZMOT",
+									"ZREA",
+									"ZRES",
+									"ZRRC",
+									"ZSAR",
+									"ZSCR",
+									"ZSMC",
+									"ZTCF",
+									"ZTCR"
+								],
+								pattern: ["Z[A-Z]*"],
+								length: 4
+							}
+						}
+					] }] }, {
+						builtin: "Name",
+						facets: {
+							pattern: ["[A-Z]+"],
+							length: 4
+						}
+					}] },
 					required: !0,
 					facets: {
 						enumeration: /* @__PURE__ */ "LLN0.LPHD.LCCH.LGOS.LSVS.LTIM.LTMS.LTRK.ANCR.ARCO.ARIS.ATCC.AVCO.CALH.CCGR.CILO.CPOW.CSWI.CSYN.FCNT.FCSD.FFIL.FLIM.FPID.FRMP.FSPT.FXOT.FXUT.GAPC.GGIO.GLOG.GSAL.IARC.IHMI.ISAF.ITCI.ITMI.ITPC.KFAN.KFIL.KPMP.KTNK.KVLV.MDIF.MENV.MFLK.MHAI.MHAN.MHYD.MMDC.MMET.MMTN.MMTR.MMXN.MMXU.MSQI.MSTA.PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU.QFVR.QITR.QIUB.QVTR.QVUB.QVVR.RADR.RBDR.RBRF.RDIR.RDRE.RDRS.RFLO.RMXU.RPSB.RREC.RSYN.SARC.SCBR.SIMG.SIML.SLTC.SOPM.SPDC.SPTR.SSWI.STMP.SVBR.TANG.TAXD.TCTR.TDST.TFLW.TFRQ.TGSN.THUM.TLVL.TMGF.TMVM.TPOS.TPRS.TRTN.TSND.TTMP.TTNS.TVBR.TVTR.TWPH.XCBR.XSWI.YEFN.YLTC.YPSH.YPTR.ZAXN.ZBAT.ZBSH.ZCAB.ZCAP.ZCON.ZGEN.ZGIL.ZLIN.ZMOT.ZREA.ZRES.ZRRC.ZSAR.ZSCR.ZSMC.ZTCF.ZTCR".split("."),
@@ -6436,28 +7990,30 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"Y[A-Z]*",
 							"Z[A-Z]*"
 						],
-						length: 4,
-						whiteSpace: "collapse"
+						length: 4
 					}
 				},
 				lnInst: {
+					type: { union: [{
+						builtin: "normalizedString",
+						facets: { pattern: ["[0-9]{1,12}"] }
+					}, {
+						builtin: "normalizedString",
+						facets: { maxLength: 0 }
+					}] },
 					required: !0,
 					facets: {
 						pattern: ["[0-9]{1,12}"],
-						maxLength: 0,
-						whiteSpace: "replace"
+						maxLength: 0
 					}
 				},
-				lnUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
+				lnUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
 				prefix: {
+					type: { builtin: "normalizedString" },
 					default: "",
 					facets: {
 						pattern: ["[A-Za-z][0-9A-Za-z_]*", ""],
-						maxLength: 11,
-						whiteSpace: "replace"
+						maxLength: 11
 					}
 				}
 			},
@@ -6485,24 +8041,24 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				certificate: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				none: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "true"
 				},
 				password: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				strong: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				weak: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				}
 			}
 		},
@@ -6529,16 +8085,46 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"valImport",
 				"valKind"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				bType: {
+					type: { builtin: "Name" },
 					required: !0,
 					facets: {
 						enumeration: /* @__PURE__ */ "BOOLEAN.INT8.INT16.INT24.INT32.INT64.INT128.INT8U.INT16U.INT24U.INT32U.FLOAT32.FLOAT64.Enum.Dbpos.Tcmd.Quality.Timestamp.VisString32.VisString64.VisString65.VisString129.VisString255.Octet64.Unicode255.Struct.EntryTime.Check.ObjRef.Currency.PhyComAddr.TrgOps.OptFlds.SvOptFlds.LogOptFlds.EntryID.Octet6.Octet16".split("."),
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
 				count: {
+					type: { union: [{ builtin: "unsignedInt" }, { union: [{
+						builtin: "Name",
+						facets: { enumeration: [
+							"T",
+							"Test",
+							"Check",
+							"SIUnit",
+							"Oper",
+							"SBO",
+							"SBOw",
+							"Cancel",
+							"Addr",
+							"PRIORITY",
+							"VID",
+							"APPID",
+							"TransportInUse",
+							"IPClassOfTraffic",
+							"IPv6FlowLabel",
+							"IPAddressLength",
+							"IPAddress"
+						] }
+					}, {
+						builtin: "Name",
+						facets: {
+							pattern: ["[a-z][0-9A-Za-z]*"],
+							maxLength: 60
+						}
+					}] }] },
 					default: "0",
 					facets: {
 						enumeration: [
@@ -6563,15 +8149,42 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*", "[a-z][0-9A-Za-z]*"],
 						maxLength: 60,
 						minInclusive: 0,
-						maxInclusive: 4294967295,
-						whiteSpace: "collapse"
+						maxInclusive: 4294967295
 					}
 				},
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				name: {
+					type: { union: [{
+						builtin: "Name",
+						facets: { enumeration: [
+							"T",
+							"Test",
+							"Check",
+							"SIUnit",
+							"Oper",
+							"SBO",
+							"SBOw",
+							"Cancel",
+							"Addr",
+							"PRIORITY",
+							"VID",
+							"APPID",
+							"TransportInUse",
+							"IPClassOfTraffic",
+							"IPv6FlowLabel",
+							"IPAddressLength",
+							"IPAddress"
+						] }
+					}, {
+						builtin: "Name",
+						facets: {
+							pattern: ["[a-z][0-9A-Za-z]*"],
+							maxLength: 60
+						}
+					}] },
 					required: !0,
 					facets: {
 						enumeration: [
@@ -6594,20 +8207,20 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"IPAddress"
 						],
 						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*", "[a-z][0-9A-Za-z]*"],
-						maxLength: 60,
-						whiteSpace: "collapse"
+						maxLength: 60
 					}
 				},
-				sAddr: { facets: {
-					maxLength: 255,
-					whiteSpace: "replace"
-				} },
-				type: { facets: { whiteSpace: "replace" } },
+				sAddr: {
+					type: { builtin: "normalizedString" },
+					facets: { maxLength: 255 }
+				},
+				type: { type: { builtin: "normalizedString" } },
 				valImport: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				valKind: {
+					type: { builtin: "Name" },
 					default: "Set",
 					facets: {
 						enumeration: [
@@ -6616,8 +8229,7 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"RO",
 							"Set"
 						],
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				}
 			},
@@ -6656,6 +8268,54 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					}]
 				}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [
+							{
+								kind: "any",
+								namespace: ["##other"],
+								processContents: "lax"
+							},
+							{
+								kind: "element",
+								name: "Text",
+								maxOccurs: 1
+							},
+							{
+								kind: "element",
+								name: "Private"
+							}
+						]
+					}]
+				}, {
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "element",
+						name: "Val"
+					}, {
+						kind: "element",
+						name: "Labels",
+						maxOccurs: 1
+					}]
+				}]
+			}]
 		}
 	},
 	Bay: {
@@ -6672,27 +8332,22 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"templateUuid",
 				"uuid"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				name: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				},
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
-			}
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
+			},
+			identityFields: ["name"]
 		},
 		children: {
 			sequence: [
@@ -6962,6 +8617,98 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				Variable: {}
 			}
 		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [{
+								kind: "sequence",
+								minOccurs: 1,
+								maxOccurs: 1,
+								particles: [
+									{
+										kind: "any",
+										namespace: ["##other"],
+										processContents: "lax"
+									},
+									{
+										kind: "element",
+										name: "Text",
+										maxOccurs: 1
+									},
+									{
+										kind: "element",
+										name: "Private"
+									}
+								]
+							}, {
+								kind: "sequence",
+								minOccurs: 1,
+								maxOccurs: 1,
+								particles: [{
+									kind: "element",
+									name: "Labels",
+									maxOccurs: 1
+								}]
+							}]
+						}, {
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [{
+								kind: "element",
+								name: "LNode"
+							}]
+						}]
+					}]
+				}, {
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "element",
+						name: "PowerTransformer"
+					}, {
+						kind: "element",
+						name: "GeneralEquipment"
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [
+					{
+						kind: "element",
+						name: "ConductingEquipment"
+					},
+					{
+						kind: "element",
+						name: "ConnectivityNode"
+					},
+					{
+						kind: "element",
+						name: "Function"
+					}
+				]
+			}]
+		},
 		constraints: [{
 			kind: "unique",
 			name: "uniqueChildNameInBay",
@@ -7023,7 +8770,7 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: [],
 			details: {}
 		},
-		textContent: { facets: { whiteSpace: "replace" } }
+		textContent: { type: { builtin: "normalizedString" } }
 	},
 	BehaviorDescription: {
 		tag: "BehaviorDescription",
@@ -7058,47 +8805,49 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				fileReference: { facets: { whiteSpace: "collapse" } },
-				format: { facets: {
-					enumeration: [
-						"IEC 61131",
-						"Textual",
-						"Graphic"
-					],
-					maxLength: 64,
-					whiteSpace: "replace"
-				} },
-				isSimulation: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				isSpecification: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
-				name: {
-					required: !0,
+				fileReference: { type: { builtin: "anyURI" } },
+				format: {
+					type: { union: [{
+						builtin: "normalizedString",
+						facets: { enumeration: [
+							"IEC 61131",
+							"Textual",
+							"Graphic"
+						] }
+					}, {
+						builtin: "normalizedString",
+						facets: { maxLength: 64 }
+					}] },
 					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
+						enumeration: [
+							"IEC 61131",
+							"Textual",
+							"Graphic"
+						],
+						maxLength: 64
 					}
 				},
-				originUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
-			}
+				isSimulation: {
+					type: { builtin: "boolean" },
+					default: "false"
+				},
+				isSpecification: {
+					type: { builtin: "boolean" },
+					default: "true"
+				},
+				name: {
+					type: { builtin: "normalizedString" },
+					required: !0,
+					facets: { minLength: 1 }
+				},
+				originUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
+			},
+			identityFields: ["name"]
 		},
 		children: {
 			sequence: [
@@ -7120,6 +8869,48 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				OutputVar: {},
 				BehaviorReference: {}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "any",
+						namespace: ["##other"],
+						processContents: "lax"
+					}, {
+						kind: "element",
+						name: "Text",
+						maxOccurs: 1
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [
+					{
+						kind: "element",
+						name: "InputVar"
+					},
+					{
+						kind: "element",
+						name: "OutputVar"
+					},
+					{
+						kind: "element",
+						name: "BehaviorReference"
+					}
+				]
+			}]
 		},
 		constraints: [{
 			kind: "unique",
@@ -7147,17 +8938,14 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"desc"
 			],
 			details: {
-				behaviorDescription: { facets: {
-					pattern: [".+(/.+)*"],
-					whiteSpace: "replace"
-				} },
-				behaviorDescriptionUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
+				behaviorDescription: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: [".+(/.+)*"] }
+				},
+				behaviorDescriptionUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				}
 			}
 		},
@@ -7180,8 +8968,51 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				FunctionalVariantRef: {},
 				InputVarRef: {},
 				OutputVarRef: {}
-			},
-			choices: [{ options: ["FunctionalVariantRef"] }, { options: ["InputVarRef", "OutputVarRef"] }]
+			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						}, {
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						}]
+					}]
+				}, {
+					kind: "choice",
+					particles: [{
+						kind: "element",
+						name: "FunctionalVariantRef"
+					}]
+				}]
+			}, {
+				kind: "choice",
+				particles: [{
+					kind: "element",
+					name: "InputVarRef"
+				}, {
+					kind: "element",
+					name: "OutputVarRef"
+				}]
+			}]
 		}
 	},
 	BehaviorReference: {
@@ -7199,17 +9030,14 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"desc"
 			],
 			details: {
-				behaviorReference: { facets: {
-					pattern: [".+(/.+)*"],
-					whiteSpace: "replace"
-				} },
-				behaviorUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
+				behaviorReference: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: [".+(/.+)*"] }
+				},
+				behaviorUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				}
 			}
 		},
@@ -7223,6 +9051,30 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					uri: "http://www.iec.ch/61850/2019/SCL/6-100"
 				}
 			} }
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "any",
+						namespace: ["##other"],
+						processContents: "lax"
+					}, {
+						kind: "element",
+						name: "Text",
+						maxOccurs: 1
+					}]
+				}]
+			}]
 		}
 	},
 	BinaryWiringParameters: {
@@ -7249,50 +9101,51 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"vInOn"
 			],
 			details: {
-				debTm: { facets: { whiteSpace: "collapse" } },
+				debTm: { type: { builtin: "integer" } },
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				fastOutput: { facets: { whiteSpace: "collapse" } },
+				fastOutput: { type: { builtin: "boolean" } },
 				id: {
+					type: { builtin: "token" },
 					required: !0,
 					facets: {
 						pattern: ["\\S+"],
 						minLength: 1,
-						maxLength: 255,
-						whiteSpace: "collapse"
+						maxLength: 255
 					}
 				},
-				inpNam: { facets: { whiteSpace: "replace" } },
-				inpRef: { facets: { whiteSpace: "replace" } },
-				outNam: { facets: { whiteSpace: "replace" } },
-				outOffDl: { facets: {
-					pattern: ["(\\+|-)?([0-9]+(\\.[0-9]*)?|\\.[0-9]+)([Ee](\\+|-)?[0-9]+)?|INF|-INF|NaN"],
-					whiteSpace: "collapse"
-				} },
-				outOnDl: { facets: {
-					pattern: ["(\\+|-)?([0-9]+(\\.[0-9]*)?|\\.[0-9]+)([Ee](\\+|-)?[0-9]+)?|INF|-INF|NaN"],
-					whiteSpace: "collapse"
-				} },
-				outRef: { facets: { whiteSpace: "replace" } },
-				outTyp: { facets: {
-					enumeration: [
+				inpNam: { type: { builtin: "normalizedString" } },
+				inpRef: { type: { builtin: "normalizedString" } },
+				outNam: { type: { builtin: "normalizedString" } },
+				outOffDl: {
+					type: { builtin: "float" },
+					facets: { pattern: ["(\\+|-)?([0-9]+(\\.[0-9]*)?|\\.[0-9]+)([Ee](\\+|-)?[0-9]+)?|INF|-INF|NaN"] }
+				},
+				outOnDl: {
+					type: { builtin: "float" },
+					facets: { pattern: ["(\\+|-)?([0-9]+(\\.[0-9]*)?|\\.[0-9]+)([Ee](\\+|-)?[0-9]+)?|INF|-INF|NaN"] }
+				},
+				outRef: { type: { builtin: "normalizedString" } },
+				outTyp: {
+					type: { builtin: "normalizedString" },
+					facets: { enumeration: [
 						"Normally open",
 						"Normally closed",
 						"Change over"
-					],
-					whiteSpace: "replace"
-				} },
-				vInOff: { facets: {
-					pattern: ["(\\+|-)?([0-9]+(\\.[0-9]*)?|\\.[0-9]+)([Ee](\\+|-)?[0-9]+)?|INF|-INF|NaN"],
-					whiteSpace: "collapse"
-				} },
-				vInOn: { facets: {
-					pattern: ["(\\+|-)?([0-9]+(\\.[0-9]*)?|\\.[0-9]+)([Ee](\\+|-)?[0-9]+)?|INF|-INF|NaN"],
-					whiteSpace: "collapse"
-				} }
-			}
+					] }
+				},
+				vInOff: {
+					type: { builtin: "float" },
+					facets: { pattern: ["(\\+|-)?([0-9]+(\\.[0-9]*)?|\\.[0-9]+)([Ee](\\+|-)?[0-9]+)?|INF|-INF|NaN"] }
+				},
+				vInOn: {
+					type: { builtin: "float" },
+					facets: { pattern: ["(\\+|-)?([0-9]+(\\.[0-9]*)?|\\.[0-9]+)([Ee](\\+|-)?[0-9]+)?|INF|-INF|NaN"] }
+				}
+			},
+			identityFields: ["id"]
 		},
 		children: {
 			sequence: ["Text"],
@@ -7304,6 +9157,40 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					uri: "http://www.iec.ch/61850/2019/SCL/6-100"
 				}
 			} }
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [{
+								kind: "any",
+								namespace: ["##other"],
+								processContents: "lax"
+							}, {
+								kind: "element",
+								name: "Text",
+								maxOccurs: 1
+							}]
+						}]
+					}]
+				}]
+			}]
 		}
 	},
 	BinaryWiringParametersRef: {
@@ -7323,15 +9210,13 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: ["desc", "id"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				id: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				}
 			}
 		},
@@ -7345,6 +9230,30 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					uri: "http://www.iec.ch/61850/2019/SCL/6-100"
 				}
 			} }
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "any",
+						namespace: ["##other"],
+						processContents: "lax"
+					}, {
+						kind: "element",
+						name: "Text",
+						maxOccurs: 1
+					}]
+				}]
+			}]
 		}
 	},
 	BitRate: {
@@ -7358,37 +9267,35 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: ["multiplier", "unit"],
 			details: {
 				multiplier: {
+					type: { builtin: "normalizedString" },
 					fixed: "M",
-					facets: {
-						enumeration: [
-							"",
-							"m",
-							"k",
-							"M",
-							"mu",
-							"y",
-							"z",
-							"a",
-							"f",
-							"p",
-							"n",
-							"c",
-							"d",
-							"da",
-							"h",
-							"G",
-							"T",
-							"P",
-							"E",
-							"Z",
-							"Y"
-						],
-						whiteSpace: "replace"
-					}
+					facets: { enumeration: [
+						"",
+						"m",
+						"k",
+						"M",
+						"mu",
+						"y",
+						"z",
+						"a",
+						"f",
+						"p",
+						"n",
+						"c",
+						"d",
+						"da",
+						"h",
+						"G",
+						"T",
+						"P",
+						"E",
+						"Z",
+						"Y"
+					] }
 				},
 				unit: {
-					fixed: "b/s",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					fixed: "b/s"
 				}
 			}
 		},
@@ -7396,7 +9303,7 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: [],
 			details: {}
 		},
-		textContent: { facets: { whiteSpace: "collapse" } }
+		textContent: { type: { builtin: "decimal" } }
 	},
 	CheckoutID: {
 		tag: "CheckoutID",
@@ -7418,21 +9325,39 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"version",
 				"when"
 			],
+			any: !0,
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				engRight: { facets: {
-					enumeration: [
+				engRight: {
+					type: { builtin: "normalizedString" },
+					facets: { enumeration: [
 						"full",
 						"fix",
 						"dataflow"
-					],
-					whiteSpace: "replace"
-				} },
-				fileName: { facets: { whiteSpace: "replace" } },
+					] }
+				},
+				fileName: { type: { builtin: "normalizedString" } },
 				fileType: {
+					type: {
+						union: [{
+							builtin: "Name",
+							facets: { enumeration: [
+								"ICD",
+								"IID",
+								"CID",
+								"SSD",
+								"SCD",
+								"SED"
+							] }
+						}, {
+							builtin: "normalizedString",
+							facets: { pattern: ["[A-Z]{3}"] }
+						}],
+						facets: { enumeration: ["SED", "SCC"] }
+					},
 					required: !0,
 					facets: {
 						enumeration: [
@@ -7444,29 +9369,35 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"SSD",
 							"SCD"
 						],
-						pattern: ["[A-Z]{3}", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "replace"
+						pattern: ["[A-Z]{3}", "[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
-				fileUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				headerId: { facets: { whiteSpace: "replace" } },
+				fileUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				headerId: { type: { builtin: "normalizedString" } },
 				revision: {
-					required: !0,
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					required: !0
 				},
 				version: {
-					required: !0,
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					required: !0
 				},
-				when: { facets: { whiteSpace: "replace" } }
+				when: { type: { builtin: "normalizedString" } }
 			}
 		},
 		children: {
 			sequence: ["SubCheckoutID"],
 			details: { SubCheckoutID: { maxOccurs: 1 } }
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "element",
+				name: "SubCheckoutID",
+				maxOccurs: 1
+			}]
 		}
 	},
 	ClientLN: {
@@ -7489,18 +9420,19 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				apRef: {
+					type: { builtin: "normalizedString" },
 					required: !0,
 					facets: {
 						pattern: ["[A-Za-z0-9][0-9A-Za-z_]*"],
-						maxLength: 32,
-						whiteSpace: "replace"
+						maxLength: 32
 					}
 				},
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				iedName: {
+					type: { builtin: "Name" },
 					required: !0,
 					facets: {
 						pattern: [
@@ -7513,19 +9445,294 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"[A-Za-z][0-9A-Za-z_]*",
 							"[A-Za-z_:][-.:0-9A-Z_a-z]*"
 						],
-						maxLength: 64,
-						whiteSpace: "collapse"
+						maxLength: 64
 					}
 				},
 				ldInst: {
+					type: { builtin: "normalizedString" },
 					required: !0,
 					facets: {
 						pattern: ["[A-Za-z0-9][0-9A-Za-z_]*"],
-						maxLength: 64,
-						whiteSpace: "replace"
+						maxLength: 64
 					}
 				},
 				lnClass: {
+					type: { union: [{ union: [{
+						builtin: "Name",
+						facets: {
+							enumeration: [
+								"LLN0",
+								"LPHD",
+								"LCCH",
+								"LGOS",
+								"LSVS",
+								"LTIM",
+								"LTMS",
+								"LTRK"
+							],
+							pattern: ["L[A-Z]*", "LLN0"],
+							length: 4
+						}
+					}, { union: [
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"ANCR",
+									"ARCO",
+									"ARIS",
+									"ATCC",
+									"AVCO"
+								],
+								pattern: ["A[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"CALH",
+									"CCGR",
+									"CILO",
+									"CPOW",
+									"CSWI",
+									"CSYN"
+								],
+								pattern: ["C[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"FCNT",
+									"FCSD",
+									"FFIL",
+									"FLIM",
+									"FPID",
+									"FRMP",
+									"FSPT",
+									"FXOT",
+									"FXUT"
+								],
+								pattern: ["F[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"GAPC",
+									"GGIO",
+									"GLOG",
+									"GSAL"
+								],
+								pattern: ["G[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"IARC",
+									"IHMI",
+									"ISAF",
+									"ITCI",
+									"ITMI",
+									"ITPC"
+								],
+								pattern: ["I[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"KFAN",
+									"KFIL",
+									"KPMP",
+									"KTNK",
+									"KVLV"
+								],
+								pattern: ["K[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"MDIF",
+									"MENV",
+									"MFLK",
+									"MHAI",
+									"MHAN",
+									"MHYD",
+									"MMDC",
+									"MMET",
+									"MMTN",
+									"MMTR",
+									"MMXN",
+									"MMXU",
+									"MSQI",
+									"MSTA"
+								],
+								pattern: ["M[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: /* @__PURE__ */ "PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU".split("."),
+								pattern: ["P[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"QFVR",
+									"QITR",
+									"QIUB",
+									"QVTR",
+									"QVUB",
+									"QVVR"
+								],
+								pattern: ["Q[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"RADR",
+									"RBDR",
+									"RBRF",
+									"RDIR",
+									"RDRE",
+									"RDRS",
+									"RFLO",
+									"RMXU",
+									"RPSB",
+									"RREC",
+									"RSYN"
+								],
+								pattern: ["R[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"SARC",
+									"SCBR",
+									"SIMG",
+									"SIML",
+									"SLTC",
+									"SOPM",
+									"SPDC",
+									"SPTR",
+									"SSWI",
+									"STMP",
+									"SVBR"
+								],
+								pattern: ["S[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"TANG",
+									"TAXD",
+									"TCTR",
+									"TDST",
+									"TFLW",
+									"TFRQ",
+									"TGSN",
+									"THUM",
+									"TLVL",
+									"TMGF",
+									"TMVM",
+									"TPOS",
+									"TPRS",
+									"TRTN",
+									"TSND",
+									"TTMP",
+									"TTNS",
+									"TVBR",
+									"TVTR",
+									"TWPH"
+								],
+								pattern: ["T[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: ["XCBR", "XSWI"],
+								pattern: ["X[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"YEFN",
+									"YLTC",
+									"YPSH",
+									"YPTR"
+								],
+								pattern: ["Y[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"ZAXN",
+									"ZBAT",
+									"ZBSH",
+									"ZCAB",
+									"ZCAP",
+									"ZCON",
+									"ZGEN",
+									"ZGIL",
+									"ZLIN",
+									"ZMOT",
+									"ZREA",
+									"ZRES",
+									"ZRRC",
+									"ZSAR",
+									"ZSCR",
+									"ZSMC",
+									"ZTCF",
+									"ZTCR"
+								],
+								pattern: ["Z[A-Z]*"],
+								length: 4
+							}
+						}
+					] }] }, {
+						builtin: "Name",
+						facets: {
+							pattern: ["[A-Z]+"],
+							length: 4
+						}
+					}] },
 					required: !0,
 					facets: {
 						enumeration: /* @__PURE__ */ "LLN0.LPHD.LCCH.LGOS.LSVS.LTIM.LTMS.LTRK.ANCR.ARCO.ARIS.ATCC.AVCO.CALH.CCGR.CILO.CPOW.CSWI.CSYN.FCNT.FCSD.FFIL.FLIM.FPID.FRMP.FSPT.FXOT.FXUT.GAPC.GGIO.GLOG.GSAL.IARC.IHMI.ISAF.ITCI.ITMI.ITPC.KFAN.KFIL.KPMP.KTNK.KVLV.MDIF.MENV.MFLK.MHAI.MHAN.MHYD.MMDC.MMET.MMTN.MMTR.MMXN.MMXU.MSQI.MSTA.PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU.QFVR.QITR.QIUB.QVTR.QVUB.QVVR.RADR.RBDR.RBRF.RDIR.RDRE.RDRS.RFLO.RMXU.RPSB.RREC.RSYN.SARC.SCBR.SIMG.SIML.SLTC.SOPM.SPDC.SPTR.SSWI.STMP.SVBR.TANG.TAXD.TCTR.TDST.TFLW.TFRQ.TGSN.THUM.TLVL.TMGF.TMVM.TPOS.TPRS.TRTN.TSND.TTMP.TTNS.TVBR.TVTR.TWPH.XCBR.XSWI.YEFN.YLTC.YPSH.YPTR.ZAXN.ZBAT.ZBSH.ZCAB.ZCAP.ZCON.ZGEN.ZGIL.ZLIN.ZMOT.ZREA.ZRES.ZRRC.ZSAR.ZSCR.ZSMC.ZTCF.ZTCR".split("."),
@@ -7550,28 +9757,30 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"Y[A-Z]*",
 							"Z[A-Z]*"
 						],
-						length: 4,
-						whiteSpace: "collapse"
+						length: 4
 					}
 				},
 				lnInst: {
+					type: { union: [{
+						builtin: "normalizedString",
+						facets: { pattern: ["[0-9]{1,12}"] }
+					}, {
+						builtin: "normalizedString",
+						facets: { maxLength: 0 }
+					}] },
 					required: !0,
 					facets: {
 						pattern: ["[0-9]{1,12}"],
-						maxLength: 0,
-						whiteSpace: "replace"
+						maxLength: 0
 					}
 				},
-				lnUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
+				lnUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
 				prefix: {
+					type: { builtin: "normalizedString" },
 					default: "",
 					facets: {
 						pattern: ["[A-Za-z][0-9A-Za-z_]*", ""],
-						maxLength: 11,
-						whiteSpace: "replace"
+						maxLength: 11
 					}
 				}
 			}
@@ -7608,68 +9817,76 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				acceptServerInitiatedAssociation: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				bufReport: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				goose: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				gsse: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
-				maxAttributes: { facets: {
-					minInclusive: 0,
-					maxInclusive: 4294967295,
-					whiteSpace: "collapse"
-				} },
-				maxGOOSE: { facets: {
-					minInclusive: 0,
-					maxInclusive: 4294967295,
-					whiteSpace: "collapse"
-				} },
-				maxReports: { facets: {
-					minInclusive: 0,
-					maxInclusive: 4294967295,
-					whiteSpace: "collapse"
-				} },
-				maxSMV: { facets: {
-					minInclusive: 0,
-					maxInclusive: 4294967295,
-					whiteSpace: "collapse"
-				} },
+				maxAttributes: {
+					type: { builtin: "unsignedInt" },
+					facets: {
+						minInclusive: 0,
+						maxInclusive: 4294967295
+					}
+				},
+				maxGOOSE: {
+					type: { builtin: "unsignedInt" },
+					facets: {
+						minInclusive: 0,
+						maxInclusive: 4294967295
+					}
+				},
+				maxReports: {
+					type: { builtin: "unsignedInt" },
+					facets: {
+						minInclusive: 0,
+						maxInclusive: 4294967295
+					}
+				},
+				maxSMV: {
+					type: { builtin: "unsignedInt" },
+					facets: {
+						minInclusive: 0,
+						maxInclusive: 4294967295
+					}
+				},
 				noIctBinding: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				rGOOSE: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				rSV: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				readLog: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				supportsLdName: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				sv: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				unbufReport: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				}
 			}
 		},
@@ -7686,6 +9903,33 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				SVMcSecurity: { maxOccurs: 1 },
 				Security: { maxOccurs: 1 }
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [
+				{
+					kind: "element",
+					name: "TimeSyncProt",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "GOOSEMcSecurity",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "SVMcSecurity",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "Security",
+					maxOccurs: 1
+				}
+			]
 		}
 	},
 	CommProt: {
@@ -7698,8 +9942,8 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		attributes: {
 			sequence: ["ipv6"],
 			details: { ipv6: {
-				default: "false",
-				facets: { whiteSpace: "collapse" }
+				type: { builtin: "boolean" },
+				default: "false"
 			} }
 		},
 		children: {
@@ -7716,9 +9960,11 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		parents: ["SCL"],
 		attributes: {
 			sequence: ["desc"],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: { desc: {
-				default: "",
-				facets: { whiteSpace: "replace" }
+				type: { builtin: "normalizedString" },
+				default: ""
 			} }
 		},
 		children: {
@@ -7754,6 +10000,46 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				}
 			}
 		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [
+						{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						},
+						{
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "Private"
+						}
+					]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "SubNetwork",
+					minOccurs: 1
+				}]
+			}]
+		},
 		constraints: [{
 			kind: "unique",
 			name: "uniqueSubNetwork",
@@ -7779,8 +10065,8 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		attributes: {
 			sequence: ["desc"],
 			details: { desc: {
-				default: "",
-				facets: { whiteSpace: "replace" }
+				type: { builtin: "normalizedString" },
+				default: ""
 			} }
 		},
 		children: {
@@ -7814,12 +10100,53 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					minOccurs: 1,
 					maxOccurs: 1
 				}
-			},
-			choices: [{ options: [
-				"GooseParameters",
-				"ReportParameters",
-				"SMVParameters"
-			] }]
+			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "any",
+						namespace: ["##other"],
+						processContents: "lax"
+					}, {
+						kind: "element",
+						name: "Text",
+						maxOccurs: 1
+					}]
+				}]
+			}, {
+				kind: "choice",
+				particles: [
+					{
+						kind: "element",
+						name: "GooseParameters",
+						minOccurs: 1,
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "SMVParameters",
+						minOccurs: 1,
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "ReportParameters",
+						minOccurs: 1,
+						maxOccurs: 1
+					}
+				]
+			}]
 		},
 		constraints: [{
 			kind: "key",
@@ -7856,40 +10183,44 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"uuid",
 				"virtual"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				name: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				},
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
 				type: {
+					type: { union: [{
+						builtin: "Name",
+						facets: { enumeration: /* @__PURE__ */ "CBR.DIS.VTR.CTR.GEN.CAP.REA.CON.MOT.EFN.PSH.BAT.BSH.CAB.GIL.LIN.RES.RRC.SAR.TCF.TCR.IFL.FAN.SCR.SMC.PMP".split(".") }
+					}, {
+						builtin: "Name",
+						facets: {
+							pattern: ["E[A-Z]*"],
+							minLength: 3
+						}
+					}] },
 					required: !0,
 					facets: {
 						enumeration: /* @__PURE__ */ "CBR.DIS.VTR.CTR.GEN.CAP.REA.CON.MOT.EFN.PSH.BAT.BSH.CAB.GIL.LIN.RES.RRC.SAR.TCF.TCR.IFL.FAN.SCR.SMC.PMP".split("."),
 						pattern: ["E[A-Z]*", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						minLength: 3,
-						whiteSpace: "collapse"
+						minLength: 3
 					}
 				},
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
 				virtual: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				}
-			}
+			},
+			identityFields: ["name"]
 		},
 		children: {
 			sequence: [
@@ -8021,6 +10352,94 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				Variable: {}
 			}
 		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [{
+								kind: "sequence",
+								minOccurs: 1,
+								maxOccurs: 1,
+								particles: [{
+									kind: "sequence",
+									minOccurs: 1,
+									maxOccurs: 1,
+									particles: [
+										{
+											kind: "any",
+											namespace: ["##other"],
+											processContents: "lax"
+										},
+										{
+											kind: "element",
+											name: "Text",
+											maxOccurs: 1
+										},
+										{
+											kind: "element",
+											name: "Private"
+										}
+									]
+								}, {
+									kind: "sequence",
+									minOccurs: 1,
+									maxOccurs: 1,
+									particles: [{
+										kind: "element",
+										name: "Labels",
+										maxOccurs: 1
+									}]
+								}]
+							}, {
+								kind: "sequence",
+								minOccurs: 1,
+								maxOccurs: 1,
+								particles: [{
+									kind: "element",
+									name: "LNode"
+								}]
+							}]
+						}]
+					}]
+				}, {
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "element",
+						name: "Terminal",
+						maxOccurs: 2
+					}, {
+						kind: "element",
+						name: "SubEquipment"
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "EqFunction"
+				}]
+			}]
+		},
 		constraints: [{
 			kind: "unique",
 			name: "uniqueLNodeInConductingEquipment",
@@ -8087,22 +10506,24 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				max: {
+					type: { builtin: "unsignedInt" },
 					required: !0,
 					facets: {
 						minInclusive: 0,
-						maxInclusive: 4294967295,
-						whiteSpace: "collapse"
+						maxInclusive: 4294967295
 					}
 				},
-				maxAttributes: { facets: {
-					minInclusive: 0,
-					maxInclusive: 4294967295,
-					minExclusive: 0,
-					whiteSpace: "collapse"
-				} },
+				maxAttributes: {
+					type: { builtin: "unsignedInt" },
+					facets: {
+						minInclusive: 0,
+						maxInclusive: 4294967295,
+						minExclusive: 0
+					}
+				},
 				modify: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "true"
 				}
 			}
 		},
@@ -8122,12 +10543,12 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: ["fixLnInst", "fixPrefix"],
 			details: {
 				fixLnInst: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				fixPrefix: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				}
 			}
 		},
@@ -8159,50 +10580,17 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"xsi:type"
 			],
 			details: {
-				c37_238: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ftp: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ftps: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_8_1: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_8_2: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_9_3: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ipv6: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				mms: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
-				other: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				serverAssociationInitiation: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				sntp: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
+				c37_238: { default: "false" },
+				ftp: { default: "false" },
+				ftps: { default: "false" },
+				iec61850_8_1: { default: "true" },
+				iec61850_8_2: { default: "false" },
+				iec61850_9_3: { default: "false" },
+				ipv6: { default: "false" },
+				mms: { default: "true" },
+				other: { default: "false" },
+				serverAssociationInitiation: { default: "false" },
+				sntp: { default: "true" },
 				"xsi:type": {
 					namespace: {
 						prefix: "xsi",
@@ -8232,12 +10620,12 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		attributes: {
 			sequence: ["max"],
 			details: { max: {
+				type: { builtin: "unsignedInt" },
 				required: !0,
 				facets: {
 					minInclusive: 0,
 					maxInclusive: 4294967295,
-					minExclusive: 0,
-					whiteSpace: "collapse"
+					minExclusive: 0
 				}
 			} }
 		},
@@ -8262,10 +10650,11 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				bufConf: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				bufMode: {
+					type: { builtin: "Name" },
 					default: "both",
 					facets: {
 						enumeration: [
@@ -8273,23 +10662,24 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"buffered",
 							"both"
 						],
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
 				max: {
+					type: { builtin: "unsignedInt" },
 					required: !0,
 					facets: {
 						minInclusive: 0,
-						maxInclusive: 4294967295,
-						whiteSpace: "collapse"
+						maxInclusive: 4294967295
 					}
 				},
-				maxBuf: { facets: {
-					minInclusive: 0,
-					maxInclusive: 4294967295,
-					whiteSpace: "collapse"
-				} }
+				maxBuf: {
+					type: { builtin: "unsignedInt" },
+					facets: {
+						minInclusive: 0,
+						maxInclusive: 4294967295
+					}
+				}
 			}
 		},
 		children: {
@@ -8307,8 +10697,8 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		attributes: {
 			sequence: ["resvTms"],
 			details: { resvTms: {
-				default: "false",
-				facets: { whiteSpace: "collapse" }
+				type: { builtin: "boolean" },
+				default: "false"
 			} }
 		},
 		children: {
@@ -8326,12 +10716,12 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		attributes: {
 			sequence: ["max"],
 			details: { max: {
+				type: { builtin: "unsignedInt" },
 				required: !0,
 				facets: {
 					minInclusive: 0,
 					maxInclusive: 4294967295,
-					minExclusive: 0,
-					whiteSpace: "collapse"
+					minExclusive: 0
 				}
 			} }
 		},
@@ -8355,24 +10745,24 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"iedName",
 				"redProt"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				apName: {
+					type: { builtin: "normalizedString" },
 					required: !0,
 					facets: {
 						pattern: ["[A-Za-z0-9][0-9A-Za-z_]*"],
-						maxLength: 32,
-						whiteSpace: "replace"
+						maxLength: 32
 					}
 				},
-				apUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
+				apUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				iedName: {
+					type: { builtin: "Name" },
 					required: !0,
 					facets: {
 						pattern: [
@@ -8385,20 +10775,21 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"[A-Za-z][0-9A-Za-z_]*",
 							"[A-Za-z_:][-.:0-9A-Z_a-z]*"
 						],
-						maxLength: 64,
-						whiteSpace: "collapse"
+						maxLength: 64
 					}
 				},
-				redProt: { facets: {
-					enumeration: [
-						"none",
-						"hsr",
-						"prp",
-						"rstp"
-					],
-					pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-					whiteSpace: "collapse"
-				} }
+				redProt: {
+					type: { builtin: "Name" },
+					facets: {
+						enumeration: [
+							"none",
+							"hsr",
+							"prp",
+							"rstp"
+						],
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
+					}
+				}
 			},
 			identityFields: ["apName", "iedName"]
 		},
@@ -8432,6 +10823,60 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					} }]
 				}] }
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [
+						{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						},
+						{
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "Private"
+						}
+					]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [
+					{
+						kind: "element",
+						name: "Address",
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "GSE"
+					},
+					{
+						kind: "element",
+						name: "SMV"
+					},
+					{
+						kind: "element",
+						name: "PhysConn"
+					}
+				]
+			}]
 		},
 		constraints: [{
 			kind: "unique",
@@ -8482,35 +10927,27 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"templateUuid",
 				"uuid"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				name: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				},
 				pathName: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						pattern: [".+/.+(/.+)*"],
-						whiteSpace: "replace"
-					}
+					facets: { pattern: [".+/.+(/.+)*"] }
 				},
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			},
-			identityFields: ["pathName"]
+			identityFields: ["name", "pathName"]
 		},
 		children: {
 			sequence: [
@@ -8547,6 +10984,59 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				LNode: {},
 				ProcessResources: {}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [
+							{
+								kind: "any",
+								namespace: ["##other"],
+								processContents: "lax"
+							},
+							{
+								kind: "element",
+								name: "Text",
+								maxOccurs: 1
+							},
+							{
+								kind: "element",
+								name: "Private"
+							}
+						]
+					}, {
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "element",
+							name: "Labels",
+							maxOccurs: 1
+						}]
+					}]
+				}, {
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "element",
+						name: "LNode"
+					}]
+				}]
+			}]
 		},
 		constraints: [{
 			kind: "unique",
@@ -8611,60 +11101,38 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"uuid"
 			],
 			details: {
-				controlled: { facets: {
-					pattern: [".+(/.+)*"],
-					whiteSpace: "replace"
-				} },
-				controlledDoName: { facets: {
-					pattern: ["[A-Z][0-9A-Za-z]{0,11}(\\.[a-z][0-9A-Za-z]*(\\([0-9]+\\))?)?"],
-					whiteSpace: "replace"
-				} },
-				controlledLNodeUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+				controlled: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: [".+(/.+)*"] }
 				},
-				extCtrlAddr: { facets: { whiteSpace: "replace" } },
-				extCtrlUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				originUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
+				controlledDoName: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[A-Z][0-9A-Za-z]{0,11}(\\.[a-z][0-9A-Za-z]*(\\([0-9]+\\))?)?"] }
+				},
+				controlledLNodeUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				desc: {
+					type: { builtin: "normalizedString" },
+					default: ""
+				},
+				extCtrlAddr: { type: { builtin: "normalizedString" } },
+				extCtrlUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				originUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
 				output: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				},
 				outputInst: {
+					type: { builtin: "integer" },
 					default: "1",
-					facets: {
-						minInclusive: 1,
-						whiteSpace: "collapse"
-					}
+					facets: { minInclusive: 1 }
 				},
-				pDO: { facets: { whiteSpace: "replace" } },
-				pLN: { facets: { whiteSpace: "replace" } },
-				resourceName: { facets: { whiteSpace: "replace" } },
-				resourceUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				pDO: { type: { builtin: "normalizedString" } },
+				pLN: { type: { builtin: "normalizedString" } },
+				resourceName: { type: { builtin: "normalizedString" } },
+				resourceUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			},
 			identityFields: ["output", "outputInst"]
 		},
@@ -8693,10 +11161,49 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					minOccurs: 1,
 					maxOccurs: 1
 				}
-			},
-			choices: [{
-				options: ["AnalogueWiringParametersRef", "BinaryWiringParametersRef"],
-				maxOccurs: 1
+			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						}, {
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						}]
+					}]
+				}]
+			}, {
+				kind: "choice",
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "BinaryWiringParametersRef",
+					minOccurs: 1,
+					maxOccurs: 1
+				}, {
+					kind: "element",
+					name: "AnalogueWiringParametersRef",
+					minOccurs: 1,
+					maxOccurs: 1
+				}]
 			}]
 		}
 	},
@@ -8721,22 +11228,17 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				outputName: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				},
-				pLN: { facets: { whiteSpace: "replace" } },
-				resourceName: { facets: { whiteSpace: "replace" } },
-				resourceUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				pLN: { type: { builtin: "normalizedString" } },
+				resourceName: { type: { builtin: "normalizedString" } },
+				resourceUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			}
 		},
 		children: {
@@ -8764,10 +11266,44 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					minOccurs: 1,
 					maxOccurs: 1
 				}
-			},
-			choices: [{
-				options: ["AnalogueWiringParametersRef", "BinaryWiringParametersRef"],
-				maxOccurs: 1
+			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "any",
+						namespace: ["##other"],
+						processContents: "lax"
+					}, {
+						kind: "element",
+						name: "Text",
+						maxOccurs: 1
+					}]
+				}]
+			}, {
+				kind: "choice",
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "BinaryWiringParametersRef",
+					minOccurs: 1,
+					maxOccurs: 1
+				}, {
+					kind: "element",
+					name: "AnalogueWiringParametersRef",
+					minOccurs: 1,
+					maxOccurs: 1
+				}]
 			}]
 		}
 	},
@@ -8793,16 +11329,46 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"valImport",
 				"valKind"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				bType: {
+					type: { builtin: "Name" },
 					required: !0,
 					facets: {
 						enumeration: /* @__PURE__ */ "BOOLEAN.INT8.INT16.INT24.INT32.INT64.INT128.INT8U.INT16U.INT24U.INT32U.FLOAT32.FLOAT64.Enum.Dbpos.Tcmd.Quality.Timestamp.VisString32.VisString64.VisString65.VisString129.VisString255.Octet64.Unicode255.Struct.EntryTime.Check.ObjRef.Currency.PhyComAddr.TrgOps.OptFlds.SvOptFlds.LogOptFlds.EntryID.Octet6.Octet16".split("."),
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
 				count: {
+					type: { union: [{ builtin: "unsignedInt" }, { union: [{
+						builtin: "Name",
+						facets: { enumeration: [
+							"T",
+							"Test",
+							"Check",
+							"SIUnit",
+							"Oper",
+							"SBO",
+							"SBOw",
+							"Cancel",
+							"Addr",
+							"PRIORITY",
+							"VID",
+							"APPID",
+							"TransportInUse",
+							"IPClassOfTraffic",
+							"IPv6FlowLabel",
+							"IPAddressLength",
+							"IPAddress"
+						] }
+					}, {
+						builtin: "Name",
+						facets: {
+							pattern: ["[a-z][0-9A-Za-z]*"],
+							maxLength: 60
+						}
+					}] }] },
 					default: "0",
 					facets: {
 						enumeration: [
@@ -8827,23 +11393,47 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*", "[a-z][0-9A-Za-z]*"],
 						maxLength: 60,
 						minInclusive: 0,
-						maxInclusive: 4294967295,
-						whiteSpace: "collapse"
+						maxInclusive: 4294967295
 					}
 				},
 				dchg: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				dupd: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				fc: {
+					type: { union: [{
+						builtin: "Name",
+						facets: { enumeration: [
+							"ST",
+							"MX",
+							"CO",
+							"SP",
+							"SG",
+							"SE",
+							"SV",
+							"CF",
+							"DC",
+							"EX",
+							"SR",
+							"BL",
+							"OR"
+						] }
+					}, {
+						builtin: "Name",
+						facets: {
+							pattern: ["[A-Z]+"],
+							minLength: 1,
+							maxLength: 2
+						}
+					}] },
 					required: !0,
 					facets: {
 						enumeration: [
@@ -8863,11 +11453,38 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 						],
 						pattern: ["[A-Z]+", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
 						minLength: 1,
-						maxLength: 2,
-						whiteSpace: "collapse"
+						maxLength: 2
 					}
 				},
 				name: {
+					type: { union: [{
+						builtin: "Name",
+						facets: { enumeration: [
+							"T",
+							"Test",
+							"Check",
+							"SIUnit",
+							"Oper",
+							"SBO",
+							"SBOw",
+							"Cancel",
+							"Addr",
+							"PRIORITY",
+							"VID",
+							"APPID",
+							"TransportInUse",
+							"IPClassOfTraffic",
+							"IPv6FlowLabel",
+							"IPAddressLength",
+							"IPAddress"
+						] }
+					}, {
+						builtin: "Name",
+						facets: {
+							pattern: ["[a-z][0-9A-Za-z]*"],
+							maxLength: 60
+						}
+					}] },
 					required: !0,
 					facets: {
 						enumeration: [
@@ -8890,24 +11507,24 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"IPAddress"
 						],
 						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*", "[a-z][0-9A-Za-z]*"],
-						maxLength: 60,
-						whiteSpace: "collapse"
+						maxLength: 60
 					}
 				},
 				qchg: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
-				sAddr: { facets: {
-					maxLength: 255,
-					whiteSpace: "replace"
-				} },
-				type: { facets: { whiteSpace: "replace" } },
+				sAddr: {
+					type: { builtin: "normalizedString" },
+					facets: { maxLength: 255 }
+				},
+				type: { type: { builtin: "normalizedString" } },
 				valImport: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				valKind: {
+					type: { builtin: "Name" },
 					default: "Set",
 					facets: {
 						enumeration: [
@@ -8916,11 +11533,11 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"RO",
 							"Set"
 						],
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				}
-			}
+			},
+			identityFields: ["name"]
 		},
 		children: {
 			sequence: [
@@ -8958,6 +11575,62 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				ProtNs: {}
 			}
 		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [
+							{
+								kind: "any",
+								namespace: ["##other"],
+								processContents: "lax"
+							},
+							{
+								kind: "element",
+								name: "Text",
+								maxOccurs: 1
+							},
+							{
+								kind: "element",
+								name: "Private"
+							}
+						]
+					}]
+				}, {
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "element",
+						name: "Val"
+					}, {
+						kind: "element",
+						name: "Labels",
+						maxOccurs: 1
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "ProtNs"
+				}]
+			}]
+		},
 		constraints: [{
 			kind: "unique",
 			name: "uniqueProtNsInDA",
@@ -8991,17 +11664,49 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"valImport",
 				"valKind"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				ix: { facets: {
-					minInclusive: 0,
-					maxInclusive: 4294967295,
-					whiteSpace: "collapse"
-				} },
+				ix: {
+					type: { builtin: "unsignedInt" },
+					facets: {
+						minInclusive: 0,
+						maxInclusive: 4294967295
+					}
+				},
 				name: {
+					type: { union: [{
+						builtin: "Name",
+						facets: { enumeration: [
+							"T",
+							"Test",
+							"Check",
+							"SIUnit",
+							"Oper",
+							"SBO",
+							"SBOw",
+							"Cancel",
+							"Addr",
+							"PRIORITY",
+							"VID",
+							"APPID",
+							"TransportInUse",
+							"IPClassOfTraffic",
+							"IPv6FlowLabel",
+							"IPAddressLength",
+							"IPAddress"
+						] }
+					}, {
+						builtin: "Name",
+						facets: {
+							pattern: ["[a-z][0-9A-Za-z]*"],
+							maxLength: 60
+						}
+					}] },
 					required: !0,
 					facets: {
 						enumeration: [
@@ -9024,25 +11729,26 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"IPAddress"
 						],
 						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*", "[a-z][0-9A-Za-z]*"],
-						maxLength: 60,
-						whiteSpace: "collapse"
+						maxLength: 60
 					}
 				},
-				sAddr: { facets: {
-					maxLength: 255,
-					whiteSpace: "replace"
-				} },
-				valImport: { facets: { whiteSpace: "collapse" } },
-				valKind: { facets: {
-					enumeration: [
-						"Spec",
-						"Conf",
-						"RO",
-						"Set"
-					],
-					pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-					whiteSpace: "collapse"
-				} }
+				sAddr: {
+					type: { builtin: "normalizedString" },
+					facets: { maxLength: 255 }
+				},
+				valImport: { type: { builtin: "boolean" } },
+				valKind: {
+					type: { builtin: "Name" },
+					facets: {
+						enumeration: [
+							"Spec",
+							"Conf",
+							"RO",
+							"Set"
+						],
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
+					}
+				}
 			},
 			identityFields: ["ix", "name"]
 		},
@@ -9079,6 +11785,49 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					}]
 				}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [
+						{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						},
+						{
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "Private"
+						}
+					]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "Val"
+				}, {
+					kind: "element",
+					name: "Labels",
+					maxOccurs: 1
+				}]
+			}]
 		}
 	},
 	DAS: {
@@ -9101,23 +11850,50 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				ix: { facets: {
-					minInclusive: 0,
-					maxInclusive: 4294967295,
-					whiteSpace: "collapse"
-				} },
-				mappedDaName: { facets: {
-					pattern: ["(([A-Za-z][0-9A-Za-z_]{0,63})/([A-Za-z][0-9A-Za-z_]{0,63})/((LLN0|([A-Za-z][0-9A-Za-z_]{0,10})?[A-Z]{4}[0-9]{1,12}))\\.)?([A-Z][0-9A-Za-z]{0,11}(\\.[a-z][0-9A-Za-z]*(\\([0-9]+\\))?)?)\\.([a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?(\\.[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?)*)"],
-					whiteSpace: "replace"
-				} },
-				mappedLnUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
+				ix: {
+					type: { builtin: "unsignedInt" },
+					facets: {
+						minInclusive: 0,
+						maxInclusive: 4294967295
+					}
+				},
+				mappedDaName: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["(([A-Za-z][0-9A-Za-z_]{0,63})/([A-Za-z][0-9A-Za-z_]{0,63})/((LLN0|([A-Za-z][0-9A-Za-z_]{0,10})?[A-Z]{4}[0-9]{1,12}))\\.)?([A-Z][0-9A-Za-z]{0,11}(\\.[a-z][0-9A-Za-z]*(\\([0-9]+\\))?)?)\\.([a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?(\\.[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?)*)"] }
+				},
+				mappedLnUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
 				name: {
+					type: { union: [{
+						builtin: "Name",
+						facets: { enumeration: [
+							"T",
+							"Test",
+							"Check",
+							"SIUnit",
+							"Oper",
+							"SBO",
+							"SBOw",
+							"Cancel",
+							"Addr",
+							"PRIORITY",
+							"VID",
+							"APPID",
+							"TransportInUse",
+							"IPClassOfTraffic",
+							"IPv6FlowLabel",
+							"IPAddressLength",
+							"IPAddress"
+						] }
+					}, {
+						builtin: "Name",
+						facets: {
+							pattern: ["[a-z][0-9A-Za-z]*"],
+							maxLength: 60
+						}
+					}] },
 					required: !0,
 					facets: {
 						enumeration: [
@@ -9140,21 +11916,22 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"IPAddress"
 						],
 						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*", "[a-z][0-9A-Za-z]*"],
-						maxLength: 60,
-						whiteSpace: "collapse"
+						maxLength: 60
 					}
 				},
-				valImport: { facets: { whiteSpace: "collapse" } },
-				valKind: { facets: {
-					enumeration: [
-						"Spec",
-						"Conf",
-						"RO",
-						"Set"
-					],
-					pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-					whiteSpace: "collapse"
-				} }
+				valImport: { type: { builtin: "boolean" } },
+				valKind: {
+					type: { builtin: "Name" },
+					facets: {
+						enumeration: [
+							"Spec",
+							"Conf",
+							"RO",
+							"Set"
+						],
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
+					}
+				}
 			},
 			identityFields: ["ix", "name"]
 		},
@@ -9230,15 +12007,70 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 						uri: "http://www.iec.ch/61850/2019/SCL/6-100"
 					}
 				}
-			},
-			choices: [{ options: [
-				"ControllingLNode",
-				"Labels",
-				"LogParametersRef",
-				"ProcessEcho",
-				"SubscriberLNode",
-				"Val"
-			] }]
+			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "any",
+						namespace: ["##other"],
+						processContents: "lax"
+					}, {
+						kind: "element",
+						name: "Text",
+						maxOccurs: 1
+					}]
+				}]
+			}, {
+				kind: "choice",
+				particles: [
+					{
+						kind: "element",
+						name: "SubscriberLNode",
+						minOccurs: 1,
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "ControllingLNode",
+						minOccurs: 1,
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "ProcessEcho",
+						minOccurs: 1,
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "LogParametersRef",
+						minOccurs: 1,
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "Val",
+						minOccurs: 1,
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "Labels",
+						maxOccurs: 1
+					}
+				]
+			}]
 		}
 	},
 	DAType: {
@@ -9254,23 +12086,25 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"id",
 				"iedType"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				id: {
+					type: { builtin: "token" },
 					required: !0,
 					facets: {
 						pattern: ["\\S+"],
 						minLength: 1,
-						maxLength: 255,
-						whiteSpace: "collapse"
+						maxLength: 255
 					}
 				},
 				iedType: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				}
 			},
 			identityFields: ["id"]
@@ -9313,6 +12147,57 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					}]
 				}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [
+						{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						},
+						{
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "Private"
+						}
+					]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [
+					{
+						kind: "element",
+						name: "BDA",
+						minOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "ProtNs"
+					},
+					{
+						kind: "element",
+						name: "Labels",
+						maxOccurs: 1
+					}
+				]
+			}]
 		},
 		constraints: [{
 			kind: "unique",
@@ -9358,30 +12243,30 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"transient",
 				"type"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
-				accessControl: { facets: { whiteSpace: "replace" } },
+				accessControl: { type: { builtin: "normalizedString" } },
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				name: {
+					type: { builtin: "Name" },
 					required: !0,
 					facets: {
 						pattern: ["[A-Z][0-9A-Za-z]*", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						maxLength: 12,
-						whiteSpace: "collapse"
+						maxLength: 12
 					}
 				},
 				transient: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				type: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				}
 			},
 			identityFields: ["name"]
@@ -9417,6 +12302,46 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					}]
 				}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [
+						{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						},
+						{
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "Private"
+						}
+					]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "Labels",
+					maxOccurs: 1
+				}]
+			}]
 		}
 	},
 	DOI: {
@@ -9433,23 +12358,27 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"ix",
 				"name"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
-				accessControl: { facets: { whiteSpace: "replace" } },
+				accessControl: { type: { builtin: "normalizedString" } },
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				ix: { facets: {
-					minInclusive: 0,
-					maxInclusive: 4294967295,
-					whiteSpace: "collapse"
-				} },
+				ix: {
+					type: { builtin: "unsignedInt" },
+					facets: {
+						minInclusive: 0,
+						maxInclusive: 4294967295
+					}
+				},
 				name: {
+					type: { builtin: "Name" },
 					required: !0,
 					facets: {
 						pattern: ["[A-Z][0-9A-Za-z]*", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						maxLength: 12,
-						whiteSpace: "collapse"
+						maxLength: 12
 					}
 				}
 			},
@@ -9517,8 +12446,60 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 						} }]
 					}]
 				}
-			},
-			choices: [{ options: ["DAI", "SDI"] }]
+			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [
+						{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						},
+						{
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "Private"
+						}
+					]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "choice",
+					particles: [{
+						kind: "element",
+						name: "SDI",
+						minOccurs: 1,
+						maxOccurs: 1
+					}, {
+						kind: "element",
+						name: "DAI",
+						minOccurs: 1,
+						maxOccurs: 1
+					}]
+				}, {
+					kind: "element",
+					name: "Labels",
+					maxOccurs: 1
+				}]
+			}]
 		},
 		constraints: [{
 			kind: "unique",
@@ -9558,23 +12539,20 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				mappedDoName: { facets: {
-					pattern: ["(([A-Za-z][0-9A-Za-z_]{0,63})/([A-Za-z][0-9A-Za-z_]{0,63})/((LLN0|([A-Za-z][0-9A-Za-z_]{0,10})?[A-Z]{4}[0-9]{1,12}))\\.)?([A-Z][0-9A-Za-z]{0,11}(\\.[a-z][0-9A-Za-z]*(\\([0-9]+\\))?)?)"],
-					whiteSpace: "replace"
-				} },
-				mappedLnUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
+				mappedDoName: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["(([A-Za-z][0-9A-Za-z_]{0,63})/([A-Za-z][0-9A-Za-z_]{0,63})/((LLN0|([A-Za-z][0-9A-Za-z_]{0,10})?[A-Z]{4}[0-9]{1,12}))\\.)?([A-Z][0-9A-Za-z]{0,11}(\\.[a-z][0-9A-Za-z]*(\\([0-9]+\\))?)?)"] }
+				},
+				mappedLnUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
 				name: {
+					type: { builtin: "Name" },
 					required: !0,
 					facets: {
 						pattern: ["[A-Z][0-9A-Za-z]*", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						maxLength: 12,
-						whiteSpace: "collapse"
+						maxLength: 12
 					}
 				}
 			}
@@ -9673,15 +12651,80 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 						uri: "http://www.iec.ch/61850/2019/SCL/6-100"
 					}
 				}
-			},
-			choices: [{ options: [
-				"ControllingLNode",
-				"DAS",
-				"LogParametersRef",
-				"ProcessEcho",
-				"SDS",
-				"SubscriberLNode"
-			] }]
+			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "any",
+						namespace: ["##other"],
+						processContents: "lax"
+					}, {
+						kind: "element",
+						name: "Text",
+						maxOccurs: 1
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "choice",
+					particles: [
+						{
+							kind: "element",
+							name: "SDS",
+							minOccurs: 1,
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "DAS",
+							minOccurs: 1,
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "SubscriberLNode",
+							minOccurs: 1,
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "ControllingLNode",
+							minOccurs: 1,
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "ProcessEcho",
+							minOccurs: 1,
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "LogParametersRef",
+							minOccurs: 1,
+							maxOccurs: 1
+						}
+					]
+				}, {
+					kind: "element",
+					name: "Labels",
+					maxOccurs: 1
+				}]
+			}]
 		},
 		constraints: [{
 			kind: "unique",
@@ -9718,33 +12761,45 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"id",
 				"iedType"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				cdc: {
+					type: { union: [{
+						builtin: "Name",
+						facets: { enumeration: /* @__PURE__ */ "SPS.DPS.INS.ENS.ACT.ACD.SEC.BCR.HST.VSS.MV.CMV.SAV.WYE.DEL.SEQ.HMV.HWYE.HDEL.SPC.DPC.INC.ENC.BSC.ISC.APC.BAC.SPG.ING.ENG.ORG.TSG.CUG.VSG.ASG.CURVE.CSG.DPL.LPL.CSD.CST.BTS.UTS.LTS.GTS.MTS.NTS.STS.CTS.OTS.VSD.ORS.TCS".split(".") }
+					}, {
+						builtin: "Name",
+						facets: {
+							pattern: ["[A-Za-z]+"],
+							minLength: 1,
+							maxLength: 5
+						}
+					}] },
 					required: !0,
 					facets: {
 						enumeration: /* @__PURE__ */ "SPS.DPS.INS.ENS.ACT.ACD.SEC.BCR.HST.VSS.MV.CMV.SAV.WYE.DEL.SEQ.HMV.HWYE.HDEL.SPC.DPC.INC.ENC.BSC.ISC.APC.BAC.SPG.ING.ENG.ORG.TSG.CUG.VSG.ASG.CURVE.CSG.DPL.LPL.CSD.CST.BTS.UTS.LTS.GTS.MTS.NTS.STS.CTS.OTS.VSD.ORS.TCS".split("."),
 						pattern: ["[A-Za-z]+", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
 						minLength: 1,
-						maxLength: 5,
-						whiteSpace: "collapse"
+						maxLength: 5
 					}
 				},
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				id: {
+					type: { builtin: "token" },
 					required: !0,
 					facets: {
 						pattern: ["\\S+"],
 						minLength: 1,
-						maxLength: 255,
-						whiteSpace: "collapse"
+						maxLength: 255
 					}
 				},
 				iedType: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				}
 			},
 			identityFields: ["id"]
@@ -9807,8 +12862,60 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 						} }]
 					}]
 				}
-			},
-			choices: [{ options: ["DA", "SDO"] }]
+			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [
+						{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						},
+						{
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "Private"
+						}
+					]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "choice",
+					particles: [{
+						kind: "element",
+						name: "SDO",
+						minOccurs: 1,
+						maxOccurs: 1
+					}, {
+						kind: "element",
+						name: "DA",
+						minOccurs: 1,
+						maxOccurs: 1
+					}]
+				}, {
+					kind: "element",
+					name: "Labels",
+					maxOccurs: 1
+				}]
+			}]
 		},
 		constraints: [{
 			kind: "unique",
@@ -9844,50 +12951,17 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"xsi:type"
 			],
 			details: {
-				c37_238: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ftp: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ftps: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_8_1: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_8_2: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_9_3: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ipv6: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				mms: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
-				other: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				serverAssociationInitiation: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				sntp: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
+				c37_238: { default: "false" },
+				ftp: { default: "false" },
+				ftps: { default: "false" },
+				iec61850_8_1: { default: "true" },
+				iec61850_8_2: { default: "false" },
+				iec61850_9_3: { default: "false" },
+				ipv6: { default: "false" },
+				mms: { default: "true" },
+				other: { default: "false" },
+				serverAssociationInitiation: { default: "false" },
+				sntp: { default: "true" },
 				"xsi:type": {
 					namespace: {
 						prefix: "xsi",
@@ -9921,27 +12995,23 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"templateUuid",
 				"uuid"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				name: {
+					type: { builtin: "Name" },
 					required: !0,
 					facets: {
 						pattern: ["[A-Za-z][0-9A-Za-z_]*", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						maxLength: 32,
-						whiteSpace: "collapse"
+						maxLength: 32
 					}
 				},
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			},
 			identityFields: ["name"]
 		},
@@ -9960,10 +13030,46 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					minOccurs: 1,
 					maxOccurs: 1
 				}
-			},
-			choices: [{
-				options: ["FCDA"],
-				minOccurs: 1
+			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [
+						{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						},
+						{
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "Private"
+						}
+					]
+				}]
+			}, {
+				kind: "choice",
+				minOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "FCDA",
+					minOccurs: 1,
+					maxOccurs: 1
+				}]
 			}]
 		}
 	},
@@ -9990,50 +13096,17 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"xsi:type"
 			],
 			details: {
-				c37_238: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ftp: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ftps: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_8_1: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_8_2: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_9_3: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ipv6: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				mms: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
-				other: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				serverAssociationInitiation: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				sntp: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
+				c37_238: { default: "false" },
+				ftp: { default: "false" },
+				ftps: { default: "false" },
+				iec61850_8_1: { default: "true" },
+				iec61850_8_2: { default: "false" },
+				iec61850_9_3: { default: "false" },
+				ipv6: { default: "false" },
+				mms: { default: "true" },
+				other: { default: "false" },
+				serverAssociationInitiation: { default: "false" },
+				sntp: { default: "true" },
 				"xsi:type": {
 					namespace: {
 						prefix: "xsi",
@@ -10062,8 +13135,7 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		parents: ["SCL"],
 		attributes: {
 			sequence: [],
-			details: {},
-			identityFields: ["id", "lnClass"]
+			details: {}
 		},
 		children: {
 			sequence: [
@@ -10157,6 +13229,31 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					} }]
 				}] }
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [
+				{
+					kind: "element",
+					name: "LNodeType",
+					minOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "DOType",
+					minOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "DAType"
+				},
+				{
+					kind: "element",
+					name: "EnumType"
+				}
+			]
 		},
 		constraints: [
 			{
@@ -10266,11 +13363,13 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		parents: ["Services"],
 		attributes: {
 			sequence: ["max"],
-			details: { max: { facets: {
-				minInclusive: 0,
-				maxInclusive: 4294967295,
-				whiteSpace: "collapse"
-			} } }
+			details: { max: {
+				type: { builtin: "unsignedInt" },
+				facets: {
+					minInclusive: 0,
+					maxInclusive: 4294967295
+				}
+			} }
 		},
 		children: {
 			sequence: [],
@@ -10293,23 +13392,22 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				max: {
+					type: { builtin: "unsignedInt" },
 					required: !0,
 					facets: {
 						minInclusive: 0,
-						maxInclusive: 4294967295,
-						whiteSpace: "collapse"
+						maxInclusive: 4294967295
 					}
 				},
-				maxAttributes: { facets: {
-					minInclusive: 0,
-					maxInclusive: 4294967295,
-					minExclusive: 0,
-					whiteSpace: "collapse"
-				} },
-				modify: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
+				maxAttributes: {
+					type: { builtin: "unsignedInt" },
+					facets: {
+						minInclusive: 0,
+						maxInclusive: 4294967295,
+						minExclusive: 0
+					}
 				},
+				modify: { default: "true" },
 				"xsi:type": {
 					namespace: {
 						prefix: "xsi",
@@ -10333,18 +13431,20 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		parents: ["DataTypeTemplates"],
 		attributes: {
 			sequence: ["desc", "id"],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				id: {
+					type: { builtin: "token" },
 					required: !0,
 					facets: {
 						pattern: ["\\S+"],
 						minLength: 1,
-						maxLength: 255,
-						whiteSpace: "collapse"
+						maxLength: 255
 					}
 				}
 			},
@@ -10365,6 +13465,46 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					minOccurs: 1
 				}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [
+						{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						},
+						{
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "Private"
+						}
+					]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "EnumVal",
+					minOccurs: 1
+				}]
+			}]
 		},
 		constraints: [{
 			kind: "unique",
@@ -10402,15 +13542,15 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: ["desc", "ord"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				ord: {
+					type: { builtin: "int" },
 					required: !0,
 					facets: {
 						minInclusive: -2147483648,
-						maxInclusive: 2147483647,
-						whiteSpace: "collapse"
+						maxInclusive: 2147483647
 					}
 				}
 			},
@@ -10420,11 +13560,13 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: [],
 			details: {}
 		},
-		textContent: { facets: {
-			pattern: ["[\\x00-\\x7f\\x80-\\xff]*"],
-			maxLength: 127,
-			whiteSpace: "replace"
-		} }
+		textContent: {
+			type: { builtin: "normalizedString" },
+			facets: {
+				pattern: ["[\\x00-\\x7f\\x80-\\xff]*"],
+				maxLength: 127
+			}
+		}
 	},
 	EqFunction: {
 		tag: "EqFunction",
@@ -10448,27 +13590,21 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"type",
 				"uuid"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				name: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				},
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				type: { facets: { whiteSpace: "replace" } },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				type: { type: { builtin: "normalizedString" } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			},
 			identityFields: ["name"]
 		},
@@ -10608,6 +13744,80 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				ProcessResources: {},
 				Variable: {}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [{
+								kind: "sequence",
+								minOccurs: 1,
+								maxOccurs: 1,
+								particles: [
+									{
+										kind: "any",
+										namespace: ["##other"],
+										processContents: "lax"
+									},
+									{
+										kind: "element",
+										name: "Text",
+										maxOccurs: 1
+									},
+									{
+										kind: "element",
+										name: "Private"
+									}
+								]
+							}, {
+								kind: "sequence",
+								minOccurs: 1,
+								maxOccurs: 1,
+								particles: [{
+									kind: "element",
+									name: "Labels",
+									maxOccurs: 1
+								}]
+							}]
+						}, {
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [{
+								kind: "element",
+								name: "LNode"
+							}]
+						}]
+					}]
+				}, {
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "element",
+						name: "GeneralEquipment"
+					}, {
+						kind: "element",
+						name: "EqSubFunction"
+					}]
+				}]
+			}]
 		},
 		constraints: [{
 			kind: "unique",
@@ -10669,27 +13879,21 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"type",
 				"uuid"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				name: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				},
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				type: { facets: { whiteSpace: "replace" } },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				type: { type: { builtin: "normalizedString" } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			},
 			identityFields: ["name"]
 		},
@@ -10829,6 +14033,80 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				ProcessResources: {},
 				Variable: {}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [{
+								kind: "sequence",
+								minOccurs: 1,
+								maxOccurs: 1,
+								particles: [
+									{
+										kind: "any",
+										namespace: ["##other"],
+										processContents: "lax"
+									},
+									{
+										kind: "element",
+										name: "Text",
+										maxOccurs: 1
+									},
+									{
+										kind: "element",
+										name: "Private"
+									}
+								]
+							}, {
+								kind: "sequence",
+								minOccurs: 1,
+								maxOccurs: 1,
+								particles: [{
+									kind: "element",
+									name: "Labels",
+									maxOccurs: 1
+								}]
+							}]
+						}, {
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [{
+								kind: "element",
+								name: "LNode"
+							}]
+						}]
+					}]
+				}, {
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "element",
+						name: "GeneralEquipment"
+					}, {
+						kind: "element",
+						name: "EqSubFunction"
+					}]
+				}]
+			}]
 		},
 		constraints: [{
 			kind: "unique",
@@ -10904,140 +14182,708 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"templateUuid",
 				"uuid"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
-				apRef: { facets: {
-					pattern: ["[A-Za-z0-9][0-9A-Za-z_]*"],
-					maxLength: 32,
-					whiteSpace: "replace"
-				} },
-				checkInterlock: {
-					default: "true",
+				apRef: {
+					type: { builtin: "normalizedString" },
 					facets: {
-						enumeration: [
-							"true",
-							"false",
-							"conserve"
-						],
-						whiteSpace: "replace"
+						pattern: ["[A-Za-z0-9][0-9A-Za-z_]*"],
+						maxLength: 32
 					}
+				},
+				checkInterlock: {
+					type: { builtin: "normalizedString" },
+					default: "true",
+					facets: { enumeration: [
+						"true",
+						"false",
+						"conserve"
+					] }
 				},
 				checkSynchrocheck: {
+					type: { builtin: "normalizedString" },
 					default: "true",
-					facets: {
-						enumeration: [
-							"true",
-							"false",
-							"conserve"
-						],
-						whiteSpace: "replace"
-					}
+					facets: { enumeration: [
+						"true",
+						"false",
+						"conserve"
+					] }
 				},
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				doName: { facets: {
-					pattern: ["[A-Z][0-9A-Za-z]{0,11}(\\.[a-z][0-9A-Za-z]*(\\([0-9]+\\))?)?"],
-					whiteSpace: "replace"
-				} },
-				iedName: { facets: {
-					pattern: [
-						"[A-Za-z][0-9A-Za-z_]{0,2}",
-						"[A-Za-z][0-9A-Za-z_]{4,63}",
-						"[A-MO-Za-z][0-9A-Za-z_]{3}",
-						"N[0-9A-Za-np-z_][0-9A-Za-z_]{2}",
-						"No[0-9A-Za-mo-z_][0-9A-Za-z_]",
-						"Non[0-9A-Za-df-z_]",
-						"@",
-						"[A-Za-z][0-9A-Za-z_]*",
-						"[A-Za-z_:][-.:0-9A-Z_a-z]*"
-					],
-					maxLength: 64,
-					whiteSpace: "replace"
-				} },
-				intAddr: { facets: { whiteSpace: "replace" } },
-				ldInst: { facets: {
-					pattern: ["[A-Za-z0-9][0-9A-Za-z_]*"],
-					maxLength: 64,
-					whiteSpace: "replace"
-				} },
-				lnClass: { facets: {
-					enumeration: /* @__PURE__ */ "LLN0.LPHD.LCCH.LGOS.LSVS.LTIM.LTMS.LTRK.ANCR.ARCO.ARIS.ATCC.AVCO.CALH.CCGR.CILO.CPOW.CSWI.CSYN.FCNT.FCSD.FFIL.FLIM.FPID.FRMP.FSPT.FXOT.FXUT.GAPC.GGIO.GLOG.GSAL.IARC.IHMI.ISAF.ITCI.ITMI.ITPC.KFAN.KFIL.KPMP.KTNK.KVLV.MDIF.MENV.MFLK.MHAI.MHAN.MHYD.MMDC.MMET.MMTN.MMTR.MMXN.MMXU.MSQI.MSTA.PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU.QFVR.QITR.QIUB.QVTR.QVUB.QVVR.RADR.RBDR.RBRF.RDIR.RDRE.RDRS.RFLO.RMXU.RPSB.RREC.RSYN.SARC.SCBR.SIMG.SIML.SLTC.SOPM.SPDC.SPTR.SSWI.STMP.SVBR.TANG.TAXD.TCTR.TDST.TFLW.TFRQ.TGSN.THUM.TLVL.TMGF.TMVM.TPOS.TPRS.TRTN.TSND.TTMP.TTNS.TVBR.TVTR.TWPH.XCBR.XSWI.YEFN.YLTC.YPSH.YPTR.ZAXN.ZBAT.ZBSH.ZCAB.ZCAP.ZCON.ZGEN.ZGIL.ZLIN.ZMOT.ZREA.ZRES.ZRRC.ZSAR.ZSCR.ZSMC.ZTCF.ZTCR".split("."),
-					pattern: [
-						"[A-Z]+",
-						"L[A-Z]*",
-						"LLN0",
-						"[A-Za-z_:][-.:0-9A-Z_a-z]*",
-						"A[A-Z]*",
-						"C[A-Z]*",
-						"F[A-Z]*",
-						"G[A-Z]*",
-						"I[A-Z]*",
-						"K[A-Z]*",
-						"M[A-Z]*",
-						"P[A-Z]*",
-						"Q[A-Z]*",
-						"R[A-Z]*",
-						"S[A-Z]*",
-						"T[A-Z]*",
-						"X[A-Z]*",
-						"Y[A-Z]*",
-						"Z[A-Z]*"
-					],
-					length: 4,
-					whiteSpace: "collapse"
-				} },
-				lnInst: { facets: {
-					pattern: ["[0-9]{1,12}"],
-					whiteSpace: "replace"
-				} },
-				lnUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				pDO: { facets: {
-					pattern: ["[A-Z][0-9A-Za-z]{0,11}(\\.[a-z][0-9A-Za-z]*(\\([0-9]+\\))?)?"],
-					whiteSpace: "replace"
-				} },
-				pLN: { facets: {
-					enumeration: /* @__PURE__ */ "LLN0.LPHD.LCCH.LGOS.LSVS.LTIM.LTMS.LTRK.ANCR.ARCO.ARIS.ATCC.AVCO.CALH.CCGR.CILO.CPOW.CSWI.CSYN.FCNT.FCSD.FFIL.FLIM.FPID.FRMP.FSPT.FXOT.FXUT.GAPC.GGIO.GLOG.GSAL.IARC.IHMI.ISAF.ITCI.ITMI.ITPC.KFAN.KFIL.KPMP.KTNK.KVLV.MDIF.MENV.MFLK.MHAI.MHAN.MHYD.MMDC.MMET.MMTN.MMTR.MMXN.MMXU.MSQI.MSTA.PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU.QFVR.QITR.QIUB.QVTR.QVUB.QVVR.RADR.RBDR.RBRF.RDIR.RDRE.RDRS.RFLO.RMXU.RPSB.RREC.RSYN.SARC.SCBR.SIMG.SIML.SLTC.SOPM.SPDC.SPTR.SSWI.STMP.SVBR.TANG.TAXD.TCTR.TDST.TFLW.TFRQ.TGSN.THUM.TLVL.TMGF.TMVM.TPOS.TPRS.TRTN.TSND.TTMP.TTNS.TVBR.TVTR.TWPH.XCBR.XSWI.YEFN.YLTC.YPSH.YPTR.ZAXN.ZBAT.ZBSH.ZCAB.ZCAP.ZCON.ZGEN.ZGIL.ZLIN.ZMOT.ZREA.ZRES.ZRRC.ZSAR.ZSCR.ZSMC.ZTCF.ZTCR".split("."),
-					pattern: [
-						"[A-Z]+",
-						"L[A-Z]*",
-						"LLN0",
-						"[A-Za-z_:][-.:0-9A-Z_a-z]*",
-						"A[A-Z]*",
-						"C[A-Z]*",
-						"F[A-Z]*",
-						"G[A-Z]*",
-						"I[A-Z]*",
-						"K[A-Z]*",
-						"M[A-Z]*",
-						"P[A-Z]*",
-						"Q[A-Z]*",
-						"R[A-Z]*",
-						"S[A-Z]*",
-						"T[A-Z]*",
-						"X[A-Z]*",
-						"Y[A-Z]*",
-						"Z[A-Z]*"
-					],
-					length: 4,
-					whiteSpace: "collapse"
-				} },
-				prefix: { facets: {
-					pattern: ["[A-Za-z][0-9A-Za-z_]*", ""],
-					maxLength: 11,
-					whiteSpace: "replace"
-				} },
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				doName: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[A-Z][0-9A-Za-z]{0,11}(\\.[a-z][0-9A-Za-z]*(\\([0-9]+\\))?)?"] }
+				},
+				iedName: {
+					type: { union: [{
+						builtin: "Name",
+						facets: {
+							pattern: [
+								"[A-Za-z][0-9A-Za-z_]{0,2}",
+								"[A-Za-z][0-9A-Za-z_]{4,63}",
+								"[A-MO-Za-z][0-9A-Za-z_]{3}",
+								"N[0-9A-Za-np-z_][0-9A-Za-z_]{2}",
+								"No[0-9A-Za-mo-z_][0-9A-Za-z_]",
+								"Non[0-9A-Za-df-z_]",
+								"[A-Za-z][0-9A-Za-z_]*"
+							],
+							maxLength: 64
+						}
+					}, {
+						builtin: "normalizedString",
+						facets: { pattern: ["@"] }
+					}] },
+					facets: {
+						pattern: [
+							"[A-Za-z][0-9A-Za-z_]{0,2}",
+							"[A-Za-z][0-9A-Za-z_]{4,63}",
+							"[A-MO-Za-z][0-9A-Za-z_]{3}",
+							"N[0-9A-Za-np-z_][0-9A-Za-z_]{2}",
+							"No[0-9A-Za-mo-z_][0-9A-Za-z_]",
+							"Non[0-9A-Za-df-z_]",
+							"@",
+							"[A-Za-z][0-9A-Za-z_]*",
+							"[A-Za-z_:][-.:0-9A-Z_a-z]*"
+						],
+						maxLength: 64
+					}
+				},
+				intAddr: { type: { builtin: "normalizedString" } },
+				ldInst: {
+					type: { builtin: "normalizedString" },
+					facets: {
+						pattern: ["[A-Za-z0-9][0-9A-Za-z_]*"],
+						maxLength: 64
+					}
+				},
+				lnClass: {
+					type: { union: [{ union: [{
+						builtin: "Name",
+						facets: {
+							enumeration: [
+								"LLN0",
+								"LPHD",
+								"LCCH",
+								"LGOS",
+								"LSVS",
+								"LTIM",
+								"LTMS",
+								"LTRK"
+							],
+							pattern: ["L[A-Z]*", "LLN0"],
+							length: 4
+						}
+					}, { union: [
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"ANCR",
+									"ARCO",
+									"ARIS",
+									"ATCC",
+									"AVCO"
+								],
+								pattern: ["A[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"CALH",
+									"CCGR",
+									"CILO",
+									"CPOW",
+									"CSWI",
+									"CSYN"
+								],
+								pattern: ["C[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"FCNT",
+									"FCSD",
+									"FFIL",
+									"FLIM",
+									"FPID",
+									"FRMP",
+									"FSPT",
+									"FXOT",
+									"FXUT"
+								],
+								pattern: ["F[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"GAPC",
+									"GGIO",
+									"GLOG",
+									"GSAL"
+								],
+								pattern: ["G[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"IARC",
+									"IHMI",
+									"ISAF",
+									"ITCI",
+									"ITMI",
+									"ITPC"
+								],
+								pattern: ["I[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"KFAN",
+									"KFIL",
+									"KPMP",
+									"KTNK",
+									"KVLV"
+								],
+								pattern: ["K[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"MDIF",
+									"MENV",
+									"MFLK",
+									"MHAI",
+									"MHAN",
+									"MHYD",
+									"MMDC",
+									"MMET",
+									"MMTN",
+									"MMTR",
+									"MMXN",
+									"MMXU",
+									"MSQI",
+									"MSTA"
+								],
+								pattern: ["M[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: /* @__PURE__ */ "PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU".split("."),
+								pattern: ["P[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"QFVR",
+									"QITR",
+									"QIUB",
+									"QVTR",
+									"QVUB",
+									"QVVR"
+								],
+								pattern: ["Q[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"RADR",
+									"RBDR",
+									"RBRF",
+									"RDIR",
+									"RDRE",
+									"RDRS",
+									"RFLO",
+									"RMXU",
+									"RPSB",
+									"RREC",
+									"RSYN"
+								],
+								pattern: ["R[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"SARC",
+									"SCBR",
+									"SIMG",
+									"SIML",
+									"SLTC",
+									"SOPM",
+									"SPDC",
+									"SPTR",
+									"SSWI",
+									"STMP",
+									"SVBR"
+								],
+								pattern: ["S[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"TANG",
+									"TAXD",
+									"TCTR",
+									"TDST",
+									"TFLW",
+									"TFRQ",
+									"TGSN",
+									"THUM",
+									"TLVL",
+									"TMGF",
+									"TMVM",
+									"TPOS",
+									"TPRS",
+									"TRTN",
+									"TSND",
+									"TTMP",
+									"TTNS",
+									"TVBR",
+									"TVTR",
+									"TWPH"
+								],
+								pattern: ["T[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: ["XCBR", "XSWI"],
+								pattern: ["X[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"YEFN",
+									"YLTC",
+									"YPSH",
+									"YPTR"
+								],
+								pattern: ["Y[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"ZAXN",
+									"ZBAT",
+									"ZBSH",
+									"ZCAB",
+									"ZCAP",
+									"ZCON",
+									"ZGEN",
+									"ZGIL",
+									"ZLIN",
+									"ZMOT",
+									"ZREA",
+									"ZRES",
+									"ZRRC",
+									"ZSAR",
+									"ZSCR",
+									"ZSMC",
+									"ZTCF",
+									"ZTCR"
+								],
+								pattern: ["Z[A-Z]*"],
+								length: 4
+							}
+						}
+					] }] }, {
+						builtin: "Name",
+						facets: {
+							pattern: ["[A-Z]+"],
+							length: 4
+						}
+					}] },
+					facets: {
+						enumeration: /* @__PURE__ */ "LLN0.LPHD.LCCH.LGOS.LSVS.LTIM.LTMS.LTRK.ANCR.ARCO.ARIS.ATCC.AVCO.CALH.CCGR.CILO.CPOW.CSWI.CSYN.FCNT.FCSD.FFIL.FLIM.FPID.FRMP.FSPT.FXOT.FXUT.GAPC.GGIO.GLOG.GSAL.IARC.IHMI.ISAF.ITCI.ITMI.ITPC.KFAN.KFIL.KPMP.KTNK.KVLV.MDIF.MENV.MFLK.MHAI.MHAN.MHYD.MMDC.MMET.MMTN.MMTR.MMXN.MMXU.MSQI.MSTA.PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU.QFVR.QITR.QIUB.QVTR.QVUB.QVVR.RADR.RBDR.RBRF.RDIR.RDRE.RDRS.RFLO.RMXU.RPSB.RREC.RSYN.SARC.SCBR.SIMG.SIML.SLTC.SOPM.SPDC.SPTR.SSWI.STMP.SVBR.TANG.TAXD.TCTR.TDST.TFLW.TFRQ.TGSN.THUM.TLVL.TMGF.TMVM.TPOS.TPRS.TRTN.TSND.TTMP.TTNS.TVBR.TVTR.TWPH.XCBR.XSWI.YEFN.YLTC.YPSH.YPTR.ZAXN.ZBAT.ZBSH.ZCAB.ZCAP.ZCON.ZGEN.ZGIL.ZLIN.ZMOT.ZREA.ZRES.ZRRC.ZSAR.ZSCR.ZSMC.ZTCF.ZTCR".split("."),
+						pattern: [
+							"[A-Z]+",
+							"L[A-Z]*",
+							"LLN0",
+							"[A-Za-z_:][-.:0-9A-Z_a-z]*",
+							"A[A-Z]*",
+							"C[A-Z]*",
+							"F[A-Z]*",
+							"G[A-Z]*",
+							"I[A-Z]*",
+							"K[A-Z]*",
+							"M[A-Z]*",
+							"P[A-Z]*",
+							"Q[A-Z]*",
+							"R[A-Z]*",
+							"S[A-Z]*",
+							"T[A-Z]*",
+							"X[A-Z]*",
+							"Y[A-Z]*",
+							"Z[A-Z]*"
+						],
+						length: 4
+					}
+				},
+				lnInst: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[0-9]{1,12}"] }
+				},
+				lnUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				pDO: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[A-Z][0-9A-Za-z]{0,11}(\\.[a-z][0-9A-Za-z]*(\\([0-9]+\\))?)?"] }
+				},
+				pLN: {
+					type: { union: [{ union: [{
+						builtin: "Name",
+						facets: {
+							enumeration: [
+								"LLN0",
+								"LPHD",
+								"LCCH",
+								"LGOS",
+								"LSVS",
+								"LTIM",
+								"LTMS",
+								"LTRK"
+							],
+							pattern: ["L[A-Z]*", "LLN0"],
+							length: 4
+						}
+					}, { union: [
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"ANCR",
+									"ARCO",
+									"ARIS",
+									"ATCC",
+									"AVCO"
+								],
+								pattern: ["A[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"CALH",
+									"CCGR",
+									"CILO",
+									"CPOW",
+									"CSWI",
+									"CSYN"
+								],
+								pattern: ["C[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"FCNT",
+									"FCSD",
+									"FFIL",
+									"FLIM",
+									"FPID",
+									"FRMP",
+									"FSPT",
+									"FXOT",
+									"FXUT"
+								],
+								pattern: ["F[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"GAPC",
+									"GGIO",
+									"GLOG",
+									"GSAL"
+								],
+								pattern: ["G[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"IARC",
+									"IHMI",
+									"ISAF",
+									"ITCI",
+									"ITMI",
+									"ITPC"
+								],
+								pattern: ["I[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"KFAN",
+									"KFIL",
+									"KPMP",
+									"KTNK",
+									"KVLV"
+								],
+								pattern: ["K[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"MDIF",
+									"MENV",
+									"MFLK",
+									"MHAI",
+									"MHAN",
+									"MHYD",
+									"MMDC",
+									"MMET",
+									"MMTN",
+									"MMTR",
+									"MMXN",
+									"MMXU",
+									"MSQI",
+									"MSTA"
+								],
+								pattern: ["M[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: /* @__PURE__ */ "PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU".split("."),
+								pattern: ["P[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"QFVR",
+									"QITR",
+									"QIUB",
+									"QVTR",
+									"QVUB",
+									"QVVR"
+								],
+								pattern: ["Q[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"RADR",
+									"RBDR",
+									"RBRF",
+									"RDIR",
+									"RDRE",
+									"RDRS",
+									"RFLO",
+									"RMXU",
+									"RPSB",
+									"RREC",
+									"RSYN"
+								],
+								pattern: ["R[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"SARC",
+									"SCBR",
+									"SIMG",
+									"SIML",
+									"SLTC",
+									"SOPM",
+									"SPDC",
+									"SPTR",
+									"SSWI",
+									"STMP",
+									"SVBR"
+								],
+								pattern: ["S[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"TANG",
+									"TAXD",
+									"TCTR",
+									"TDST",
+									"TFLW",
+									"TFRQ",
+									"TGSN",
+									"THUM",
+									"TLVL",
+									"TMGF",
+									"TMVM",
+									"TPOS",
+									"TPRS",
+									"TRTN",
+									"TSND",
+									"TTMP",
+									"TTNS",
+									"TVBR",
+									"TVTR",
+									"TWPH"
+								],
+								pattern: ["T[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: ["XCBR", "XSWI"],
+								pattern: ["X[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"YEFN",
+									"YLTC",
+									"YPSH",
+									"YPTR"
+								],
+								pattern: ["Y[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"ZAXN",
+									"ZBAT",
+									"ZBSH",
+									"ZCAB",
+									"ZCAP",
+									"ZCON",
+									"ZGEN",
+									"ZGIL",
+									"ZLIN",
+									"ZMOT",
+									"ZREA",
+									"ZRES",
+									"ZRRC",
+									"ZSAR",
+									"ZSCR",
+									"ZSMC",
+									"ZTCF",
+									"ZTCR"
+								],
+								pattern: ["Z[A-Z]*"],
+								length: 4
+							}
+						}
+					] }] }, {
+						builtin: "Name",
+						facets: {
+							pattern: ["[A-Z]+"],
+							length: 4
+						}
+					}] },
+					facets: {
+						enumeration: /* @__PURE__ */ "LLN0.LPHD.LCCH.LGOS.LSVS.LTIM.LTMS.LTRK.ANCR.ARCO.ARIS.ATCC.AVCO.CALH.CCGR.CILO.CPOW.CSWI.CSYN.FCNT.FCSD.FFIL.FLIM.FPID.FRMP.FSPT.FXOT.FXUT.GAPC.GGIO.GLOG.GSAL.IARC.IHMI.ISAF.ITCI.ITMI.ITPC.KFAN.KFIL.KPMP.KTNK.KVLV.MDIF.MENV.MFLK.MHAI.MHAN.MHYD.MMDC.MMET.MMTN.MMTR.MMXN.MMXU.MSQI.MSTA.PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU.QFVR.QITR.QIUB.QVTR.QVUB.QVVR.RADR.RBDR.RBRF.RDIR.RDRE.RDRS.RFLO.RMXU.RPSB.RREC.RSYN.SARC.SCBR.SIMG.SIML.SLTC.SOPM.SPDC.SPTR.SSWI.STMP.SVBR.TANG.TAXD.TCTR.TDST.TFLW.TFRQ.TGSN.THUM.TLVL.TMGF.TMVM.TPOS.TPRS.TRTN.TSND.TTMP.TTNS.TVBR.TVTR.TWPH.XCBR.XSWI.YEFN.YLTC.YPSH.YPTR.ZAXN.ZBAT.ZBSH.ZCAB.ZCAP.ZCON.ZGEN.ZGIL.ZLIN.ZMOT.ZREA.ZRES.ZRRC.ZSAR.ZSCR.ZSMC.ZTCF.ZTCR".split("."),
+						pattern: [
+							"[A-Z]+",
+							"L[A-Z]*",
+							"LLN0",
+							"[A-Za-z_:][-.:0-9A-Z_a-z]*",
+							"A[A-Z]*",
+							"C[A-Z]*",
+							"F[A-Z]*",
+							"G[A-Z]*",
+							"I[A-Z]*",
+							"K[A-Z]*",
+							"M[A-Z]*",
+							"P[A-Z]*",
+							"Q[A-Z]*",
+							"R[A-Z]*",
+							"S[A-Z]*",
+							"T[A-Z]*",
+							"X[A-Z]*",
+							"Y[A-Z]*",
+							"Z[A-Z]*"
+						],
+						length: 4
+					}
+				},
+				prefix: {
+					type: { builtin: "normalizedString" },
+					facets: {
+						pattern: ["[A-Za-z][0-9A-Za-z_]*", ""],
+						maxLength: 11
+					}
+				},
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			}
 		},
 		children: {
@@ -11047,6 +14893,37 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				Text: { maxOccurs: 1 },
 				Private: {}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [
+						{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						},
+						{
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "Private"
+						}
+					]
+				}]
+			}]
 		}
 	},
 	ExtRef: {
@@ -11082,190 +14959,1044 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"templateUuid",
 				"uuid"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
-				daName: { facets: {
-					pattern: ["[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?(\\.[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?)*"],
-					whiteSpace: "replace"
-				} },
-				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+				daName: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?(\\.[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?)*"] }
 				},
-				doName: { facets: {
-					pattern: ["[A-Z][0-9A-Za-z]{0,11}(\\.[a-z][0-9A-Za-z]*(\\([0-9]+\\))?)?"],
-					whiteSpace: "replace"
-				} },
-				iedName: { facets: {
-					pattern: [
-						"[A-Za-z][0-9A-Za-z_]{0,2}",
-						"[A-Za-z][0-9A-Za-z_]{4,63}",
-						"[A-MO-Za-z][0-9A-Za-z_]{3}",
-						"N[0-9A-Za-np-z_][0-9A-Za-z_]{2}",
-						"No[0-9A-Za-mo-z_][0-9A-Za-z_]",
-						"Non[0-9A-Za-df-z_]",
-						"@",
-						"[A-Za-z][0-9A-Za-z_]*",
-						"[A-Za-z_:][-.:0-9A-Z_a-z]*"
-					],
-					maxLength: 64,
-					whiteSpace: "replace"
-				} },
-				intAddr: { facets: { whiteSpace: "replace" } },
-				ldInst: { facets: {
-					pattern: ["[A-Za-z0-9][0-9A-Za-z_]*"],
-					maxLength: 64,
-					whiteSpace: "replace"
-				} },
-				lnClass: { facets: {
-					enumeration: /* @__PURE__ */ "LLN0.LPHD.LCCH.LGOS.LSVS.LTIM.LTMS.LTRK.ANCR.ARCO.ARIS.ATCC.AVCO.CALH.CCGR.CILO.CPOW.CSWI.CSYN.FCNT.FCSD.FFIL.FLIM.FPID.FRMP.FSPT.FXOT.FXUT.GAPC.GGIO.GLOG.GSAL.IARC.IHMI.ISAF.ITCI.ITMI.ITPC.KFAN.KFIL.KPMP.KTNK.KVLV.MDIF.MENV.MFLK.MHAI.MHAN.MHYD.MMDC.MMET.MMTN.MMTR.MMXN.MMXU.MSQI.MSTA.PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU.QFVR.QITR.QIUB.QVTR.QVUB.QVVR.RADR.RBDR.RBRF.RDIR.RDRE.RDRS.RFLO.RMXU.RPSB.RREC.RSYN.SARC.SCBR.SIMG.SIML.SLTC.SOPM.SPDC.SPTR.SSWI.STMP.SVBR.TANG.TAXD.TCTR.TDST.TFLW.TFRQ.TGSN.THUM.TLVL.TMGF.TMVM.TPOS.TPRS.TRTN.TSND.TTMP.TTNS.TVBR.TVTR.TWPH.XCBR.XSWI.YEFN.YLTC.YPSH.YPTR.ZAXN.ZBAT.ZBSH.ZCAB.ZCAP.ZCON.ZGEN.ZGIL.ZLIN.ZMOT.ZREA.ZRES.ZRRC.ZSAR.ZSCR.ZSMC.ZTCF.ZTCR".split("."),
-					pattern: [
-						"[A-Z]+",
-						"L[A-Z]*",
-						"LLN0",
-						"[A-Za-z_:][-.:0-9A-Z_a-z]*",
-						"A[A-Z]*",
-						"C[A-Z]*",
-						"F[A-Z]*",
-						"G[A-Z]*",
-						"I[A-Z]*",
-						"K[A-Z]*",
-						"M[A-Z]*",
-						"P[A-Z]*",
-						"Q[A-Z]*",
-						"R[A-Z]*",
-						"S[A-Z]*",
-						"T[A-Z]*",
-						"X[A-Z]*",
-						"Y[A-Z]*",
-						"Z[A-Z]*"
-					],
-					length: 4,
-					whiteSpace: "collapse"
-				} },
-				lnInst: { facets: {
-					pattern: ["[0-9]{1,12}"],
-					whiteSpace: "replace"
-				} },
-				lnUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				pDA: { facets: {
-					pattern: ["[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?(\\.[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?)*"],
-					whiteSpace: "replace"
-				} },
-				pDO: { facets: {
-					pattern: ["[A-Z][0-9A-Za-z]{0,11}(\\.[a-z][0-9A-Za-z]*(\\([0-9]+\\))?)?"],
-					whiteSpace: "replace"
-				} },
-				pLN: { facets: {
-					enumeration: /* @__PURE__ */ "LLN0.LPHD.LCCH.LGOS.LSVS.LTIM.LTMS.LTRK.ANCR.ARCO.ARIS.ATCC.AVCO.CALH.CCGR.CILO.CPOW.CSWI.CSYN.FCNT.FCSD.FFIL.FLIM.FPID.FRMP.FSPT.FXOT.FXUT.GAPC.GGIO.GLOG.GSAL.IARC.IHMI.ISAF.ITCI.ITMI.ITPC.KFAN.KFIL.KPMP.KTNK.KVLV.MDIF.MENV.MFLK.MHAI.MHAN.MHYD.MMDC.MMET.MMTN.MMTR.MMXN.MMXU.MSQI.MSTA.PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU.QFVR.QITR.QIUB.QVTR.QVUB.QVVR.RADR.RBDR.RBRF.RDIR.RDRE.RDRS.RFLO.RMXU.RPSB.RREC.RSYN.SARC.SCBR.SIMG.SIML.SLTC.SOPM.SPDC.SPTR.SSWI.STMP.SVBR.TANG.TAXD.TCTR.TDST.TFLW.TFRQ.TGSN.THUM.TLVL.TMGF.TMVM.TPOS.TPRS.TRTN.TSND.TTMP.TTNS.TVBR.TVTR.TWPH.XCBR.XSWI.YEFN.YLTC.YPSH.YPTR.ZAXN.ZBAT.ZBSH.ZCAB.ZCAP.ZCON.ZGEN.ZGIL.ZLIN.ZMOT.ZREA.ZRES.ZRRC.ZSAR.ZSCR.ZSMC.ZTCF.ZTCR".split("."),
-					pattern: [
-						"[A-Z]+",
-						"L[A-Z]*",
-						"LLN0",
-						"[A-Za-z_:][-.:0-9A-Z_a-z]*",
-						"A[A-Z]*",
-						"C[A-Z]*",
-						"F[A-Z]*",
-						"G[A-Z]*",
-						"I[A-Z]*",
-						"K[A-Z]*",
-						"M[A-Z]*",
-						"P[A-Z]*",
-						"Q[A-Z]*",
-						"R[A-Z]*",
-						"S[A-Z]*",
-						"T[A-Z]*",
-						"X[A-Z]*",
-						"Y[A-Z]*",
-						"Z[A-Z]*"
-					],
-					length: 4,
-					whiteSpace: "collapse"
-				} },
-				pServT: { facets: {
-					enumeration: [
-						"Poll",
-						"Report",
-						"GOOSE",
-						"SMV"
-					],
-					pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-					whiteSpace: "collapse"
-				} },
-				prefix: { facets: {
-					pattern: ["[A-Za-z][0-9A-Za-z_]*", ""],
-					maxLength: 11,
-					whiteSpace: "replace"
-				} },
-				serviceType: { facets: {
-					enumeration: [
-						"Poll",
-						"Report",
-						"GOOSE",
-						"SMV"
-					],
-					pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-					whiteSpace: "collapse"
-				} },
-				srcCBName: { facets: {
-					pattern: ["[A-Za-z][0-9A-Za-z_]*", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-					maxLength: 32,
-					whiteSpace: "collapse"
-				} },
-				srcCBUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				srcLDInst: { facets: {
-					pattern: ["[A-Za-z0-9][0-9A-Za-z_]*"],
-					maxLength: 64,
-					whiteSpace: "replace"
-				} },
-				srcLNClass: { facets: {
-					enumeration: /* @__PURE__ */ "LLN0.LPHD.LCCH.LGOS.LSVS.LTIM.LTMS.LTRK.ANCR.ARCO.ARIS.ATCC.AVCO.CALH.CCGR.CILO.CPOW.CSWI.CSYN.FCNT.FCSD.FFIL.FLIM.FPID.FRMP.FSPT.FXOT.FXUT.GAPC.GGIO.GLOG.GSAL.IARC.IHMI.ISAF.ITCI.ITMI.ITPC.KFAN.KFIL.KPMP.KTNK.KVLV.MDIF.MENV.MFLK.MHAI.MHAN.MHYD.MMDC.MMET.MMTN.MMTR.MMXN.MMXU.MSQI.MSTA.PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU.QFVR.QITR.QIUB.QVTR.QVUB.QVVR.RADR.RBDR.RBRF.RDIR.RDRE.RDRS.RFLO.RMXU.RPSB.RREC.RSYN.SARC.SCBR.SIMG.SIML.SLTC.SOPM.SPDC.SPTR.SSWI.STMP.SVBR.TANG.TAXD.TCTR.TDST.TFLW.TFRQ.TGSN.THUM.TLVL.TMGF.TMVM.TPOS.TPRS.TRTN.TSND.TTMP.TTNS.TVBR.TVTR.TWPH.XCBR.XSWI.YEFN.YLTC.YPSH.YPTR.ZAXN.ZBAT.ZBSH.ZCAB.ZCAP.ZCON.ZGEN.ZGIL.ZLIN.ZMOT.ZREA.ZRES.ZRRC.ZSAR.ZSCR.ZSMC.ZTCF.ZTCR".split("."),
-					pattern: [
-						"[A-Z]+",
-						"L[A-Z]*",
-						"LLN0",
-						"[A-Za-z_:][-.:0-9A-Z_a-z]*",
-						"A[A-Z]*",
-						"C[A-Z]*",
-						"F[A-Z]*",
-						"G[A-Z]*",
-						"I[A-Z]*",
-						"K[A-Z]*",
-						"M[A-Z]*",
-						"P[A-Z]*",
-						"Q[A-Z]*",
-						"R[A-Z]*",
-						"S[A-Z]*",
-						"T[A-Z]*",
-						"X[A-Z]*",
-						"Y[A-Z]*",
-						"Z[A-Z]*"
-					],
-					length: 4,
-					whiteSpace: "collapse"
-				} },
-				srcLNInst: { facets: {
-					pattern: ["[0-9]{1,12}"],
-					whiteSpace: "replace"
-				} },
-				srcPrefix: { facets: {
-					pattern: ["[A-Za-z][0-9A-Za-z_]*", ""],
-					maxLength: 11,
-					whiteSpace: "replace"
-				} },
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				desc: {
+					type: { builtin: "normalizedString" },
+					default: ""
+				},
+				doName: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[A-Z][0-9A-Za-z]{0,11}(\\.[a-z][0-9A-Za-z]*(\\([0-9]+\\))?)?"] }
+				},
+				iedName: {
+					type: { union: [{
+						builtin: "Name",
+						facets: {
+							pattern: [
+								"[A-Za-z][0-9A-Za-z_]{0,2}",
+								"[A-Za-z][0-9A-Za-z_]{4,63}",
+								"[A-MO-Za-z][0-9A-Za-z_]{3}",
+								"N[0-9A-Za-np-z_][0-9A-Za-z_]{2}",
+								"No[0-9A-Za-mo-z_][0-9A-Za-z_]",
+								"Non[0-9A-Za-df-z_]",
+								"[A-Za-z][0-9A-Za-z_]*"
+							],
+							maxLength: 64
+						}
+					}, {
+						builtin: "normalizedString",
+						facets: { pattern: ["@"] }
+					}] },
+					facets: {
+						pattern: [
+							"[A-Za-z][0-9A-Za-z_]{0,2}",
+							"[A-Za-z][0-9A-Za-z_]{4,63}",
+							"[A-MO-Za-z][0-9A-Za-z_]{3}",
+							"N[0-9A-Za-np-z_][0-9A-Za-z_]{2}",
+							"No[0-9A-Za-mo-z_][0-9A-Za-z_]",
+							"Non[0-9A-Za-df-z_]",
+							"@",
+							"[A-Za-z][0-9A-Za-z_]*",
+							"[A-Za-z_:][-.:0-9A-Z_a-z]*"
+						],
+						maxLength: 64
+					}
+				},
+				intAddr: { type: { builtin: "normalizedString" } },
+				ldInst: {
+					type: { builtin: "normalizedString" },
+					facets: {
+						pattern: ["[A-Za-z0-9][0-9A-Za-z_]*"],
+						maxLength: 64
+					}
+				},
+				lnClass: {
+					type: { union: [{ union: [{
+						builtin: "Name",
+						facets: {
+							enumeration: [
+								"LLN0",
+								"LPHD",
+								"LCCH",
+								"LGOS",
+								"LSVS",
+								"LTIM",
+								"LTMS",
+								"LTRK"
+							],
+							pattern: ["L[A-Z]*", "LLN0"],
+							length: 4
+						}
+					}, { union: [
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"ANCR",
+									"ARCO",
+									"ARIS",
+									"ATCC",
+									"AVCO"
+								],
+								pattern: ["A[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"CALH",
+									"CCGR",
+									"CILO",
+									"CPOW",
+									"CSWI",
+									"CSYN"
+								],
+								pattern: ["C[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"FCNT",
+									"FCSD",
+									"FFIL",
+									"FLIM",
+									"FPID",
+									"FRMP",
+									"FSPT",
+									"FXOT",
+									"FXUT"
+								],
+								pattern: ["F[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"GAPC",
+									"GGIO",
+									"GLOG",
+									"GSAL"
+								],
+								pattern: ["G[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"IARC",
+									"IHMI",
+									"ISAF",
+									"ITCI",
+									"ITMI",
+									"ITPC"
+								],
+								pattern: ["I[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"KFAN",
+									"KFIL",
+									"KPMP",
+									"KTNK",
+									"KVLV"
+								],
+								pattern: ["K[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"MDIF",
+									"MENV",
+									"MFLK",
+									"MHAI",
+									"MHAN",
+									"MHYD",
+									"MMDC",
+									"MMET",
+									"MMTN",
+									"MMTR",
+									"MMXN",
+									"MMXU",
+									"MSQI",
+									"MSTA"
+								],
+								pattern: ["M[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: /* @__PURE__ */ "PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU".split("."),
+								pattern: ["P[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"QFVR",
+									"QITR",
+									"QIUB",
+									"QVTR",
+									"QVUB",
+									"QVVR"
+								],
+								pattern: ["Q[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"RADR",
+									"RBDR",
+									"RBRF",
+									"RDIR",
+									"RDRE",
+									"RDRS",
+									"RFLO",
+									"RMXU",
+									"RPSB",
+									"RREC",
+									"RSYN"
+								],
+								pattern: ["R[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"SARC",
+									"SCBR",
+									"SIMG",
+									"SIML",
+									"SLTC",
+									"SOPM",
+									"SPDC",
+									"SPTR",
+									"SSWI",
+									"STMP",
+									"SVBR"
+								],
+								pattern: ["S[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"TANG",
+									"TAXD",
+									"TCTR",
+									"TDST",
+									"TFLW",
+									"TFRQ",
+									"TGSN",
+									"THUM",
+									"TLVL",
+									"TMGF",
+									"TMVM",
+									"TPOS",
+									"TPRS",
+									"TRTN",
+									"TSND",
+									"TTMP",
+									"TTNS",
+									"TVBR",
+									"TVTR",
+									"TWPH"
+								],
+								pattern: ["T[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: ["XCBR", "XSWI"],
+								pattern: ["X[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"YEFN",
+									"YLTC",
+									"YPSH",
+									"YPTR"
+								],
+								pattern: ["Y[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"ZAXN",
+									"ZBAT",
+									"ZBSH",
+									"ZCAB",
+									"ZCAP",
+									"ZCON",
+									"ZGEN",
+									"ZGIL",
+									"ZLIN",
+									"ZMOT",
+									"ZREA",
+									"ZRES",
+									"ZRRC",
+									"ZSAR",
+									"ZSCR",
+									"ZSMC",
+									"ZTCF",
+									"ZTCR"
+								],
+								pattern: ["Z[A-Z]*"],
+								length: 4
+							}
+						}
+					] }] }, {
+						builtin: "Name",
+						facets: {
+							pattern: ["[A-Z]+"],
+							length: 4
+						}
+					}] },
+					facets: {
+						enumeration: /* @__PURE__ */ "LLN0.LPHD.LCCH.LGOS.LSVS.LTIM.LTMS.LTRK.ANCR.ARCO.ARIS.ATCC.AVCO.CALH.CCGR.CILO.CPOW.CSWI.CSYN.FCNT.FCSD.FFIL.FLIM.FPID.FRMP.FSPT.FXOT.FXUT.GAPC.GGIO.GLOG.GSAL.IARC.IHMI.ISAF.ITCI.ITMI.ITPC.KFAN.KFIL.KPMP.KTNK.KVLV.MDIF.MENV.MFLK.MHAI.MHAN.MHYD.MMDC.MMET.MMTN.MMTR.MMXN.MMXU.MSQI.MSTA.PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU.QFVR.QITR.QIUB.QVTR.QVUB.QVVR.RADR.RBDR.RBRF.RDIR.RDRE.RDRS.RFLO.RMXU.RPSB.RREC.RSYN.SARC.SCBR.SIMG.SIML.SLTC.SOPM.SPDC.SPTR.SSWI.STMP.SVBR.TANG.TAXD.TCTR.TDST.TFLW.TFRQ.TGSN.THUM.TLVL.TMGF.TMVM.TPOS.TPRS.TRTN.TSND.TTMP.TTNS.TVBR.TVTR.TWPH.XCBR.XSWI.YEFN.YLTC.YPSH.YPTR.ZAXN.ZBAT.ZBSH.ZCAB.ZCAP.ZCON.ZGEN.ZGIL.ZLIN.ZMOT.ZREA.ZRES.ZRRC.ZSAR.ZSCR.ZSMC.ZTCF.ZTCR".split("."),
+						pattern: [
+							"[A-Z]+",
+							"L[A-Z]*",
+							"LLN0",
+							"[A-Za-z_:][-.:0-9A-Z_a-z]*",
+							"A[A-Z]*",
+							"C[A-Z]*",
+							"F[A-Z]*",
+							"G[A-Z]*",
+							"I[A-Z]*",
+							"K[A-Z]*",
+							"M[A-Z]*",
+							"P[A-Z]*",
+							"Q[A-Z]*",
+							"R[A-Z]*",
+							"S[A-Z]*",
+							"T[A-Z]*",
+							"X[A-Z]*",
+							"Y[A-Z]*",
+							"Z[A-Z]*"
+						],
+						length: 4
+					}
+				},
+				lnInst: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[0-9]{1,12}"] }
+				},
+				lnUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				pDA: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?(\\.[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?)*"] }
+				},
+				pDO: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[A-Z][0-9A-Za-z]{0,11}(\\.[a-z][0-9A-Za-z]*(\\([0-9]+\\))?)?"] }
+				},
+				pLN: {
+					type: { union: [{ union: [{
+						builtin: "Name",
+						facets: {
+							enumeration: [
+								"LLN0",
+								"LPHD",
+								"LCCH",
+								"LGOS",
+								"LSVS",
+								"LTIM",
+								"LTMS",
+								"LTRK"
+							],
+							pattern: ["L[A-Z]*", "LLN0"],
+							length: 4
+						}
+					}, { union: [
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"ANCR",
+									"ARCO",
+									"ARIS",
+									"ATCC",
+									"AVCO"
+								],
+								pattern: ["A[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"CALH",
+									"CCGR",
+									"CILO",
+									"CPOW",
+									"CSWI",
+									"CSYN"
+								],
+								pattern: ["C[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"FCNT",
+									"FCSD",
+									"FFIL",
+									"FLIM",
+									"FPID",
+									"FRMP",
+									"FSPT",
+									"FXOT",
+									"FXUT"
+								],
+								pattern: ["F[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"GAPC",
+									"GGIO",
+									"GLOG",
+									"GSAL"
+								],
+								pattern: ["G[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"IARC",
+									"IHMI",
+									"ISAF",
+									"ITCI",
+									"ITMI",
+									"ITPC"
+								],
+								pattern: ["I[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"KFAN",
+									"KFIL",
+									"KPMP",
+									"KTNK",
+									"KVLV"
+								],
+								pattern: ["K[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"MDIF",
+									"MENV",
+									"MFLK",
+									"MHAI",
+									"MHAN",
+									"MHYD",
+									"MMDC",
+									"MMET",
+									"MMTN",
+									"MMTR",
+									"MMXN",
+									"MMXU",
+									"MSQI",
+									"MSTA"
+								],
+								pattern: ["M[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: /* @__PURE__ */ "PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU".split("."),
+								pattern: ["P[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"QFVR",
+									"QITR",
+									"QIUB",
+									"QVTR",
+									"QVUB",
+									"QVVR"
+								],
+								pattern: ["Q[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"RADR",
+									"RBDR",
+									"RBRF",
+									"RDIR",
+									"RDRE",
+									"RDRS",
+									"RFLO",
+									"RMXU",
+									"RPSB",
+									"RREC",
+									"RSYN"
+								],
+								pattern: ["R[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"SARC",
+									"SCBR",
+									"SIMG",
+									"SIML",
+									"SLTC",
+									"SOPM",
+									"SPDC",
+									"SPTR",
+									"SSWI",
+									"STMP",
+									"SVBR"
+								],
+								pattern: ["S[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"TANG",
+									"TAXD",
+									"TCTR",
+									"TDST",
+									"TFLW",
+									"TFRQ",
+									"TGSN",
+									"THUM",
+									"TLVL",
+									"TMGF",
+									"TMVM",
+									"TPOS",
+									"TPRS",
+									"TRTN",
+									"TSND",
+									"TTMP",
+									"TTNS",
+									"TVBR",
+									"TVTR",
+									"TWPH"
+								],
+								pattern: ["T[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: ["XCBR", "XSWI"],
+								pattern: ["X[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"YEFN",
+									"YLTC",
+									"YPSH",
+									"YPTR"
+								],
+								pattern: ["Y[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"ZAXN",
+									"ZBAT",
+									"ZBSH",
+									"ZCAB",
+									"ZCAP",
+									"ZCON",
+									"ZGEN",
+									"ZGIL",
+									"ZLIN",
+									"ZMOT",
+									"ZREA",
+									"ZRES",
+									"ZRRC",
+									"ZSAR",
+									"ZSCR",
+									"ZSMC",
+									"ZTCF",
+									"ZTCR"
+								],
+								pattern: ["Z[A-Z]*"],
+								length: 4
+							}
+						}
+					] }] }, {
+						builtin: "Name",
+						facets: {
+							pattern: ["[A-Z]+"],
+							length: 4
+						}
+					}] },
+					facets: {
+						enumeration: /* @__PURE__ */ "LLN0.LPHD.LCCH.LGOS.LSVS.LTIM.LTMS.LTRK.ANCR.ARCO.ARIS.ATCC.AVCO.CALH.CCGR.CILO.CPOW.CSWI.CSYN.FCNT.FCSD.FFIL.FLIM.FPID.FRMP.FSPT.FXOT.FXUT.GAPC.GGIO.GLOG.GSAL.IARC.IHMI.ISAF.ITCI.ITMI.ITPC.KFAN.KFIL.KPMP.KTNK.KVLV.MDIF.MENV.MFLK.MHAI.MHAN.MHYD.MMDC.MMET.MMTN.MMTR.MMXN.MMXU.MSQI.MSTA.PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU.QFVR.QITR.QIUB.QVTR.QVUB.QVVR.RADR.RBDR.RBRF.RDIR.RDRE.RDRS.RFLO.RMXU.RPSB.RREC.RSYN.SARC.SCBR.SIMG.SIML.SLTC.SOPM.SPDC.SPTR.SSWI.STMP.SVBR.TANG.TAXD.TCTR.TDST.TFLW.TFRQ.TGSN.THUM.TLVL.TMGF.TMVM.TPOS.TPRS.TRTN.TSND.TTMP.TTNS.TVBR.TVTR.TWPH.XCBR.XSWI.YEFN.YLTC.YPSH.YPTR.ZAXN.ZBAT.ZBSH.ZCAB.ZCAP.ZCON.ZGEN.ZGIL.ZLIN.ZMOT.ZREA.ZRES.ZRRC.ZSAR.ZSCR.ZSMC.ZTCF.ZTCR".split("."),
+						pattern: [
+							"[A-Z]+",
+							"L[A-Z]*",
+							"LLN0",
+							"[A-Za-z_:][-.:0-9A-Z_a-z]*",
+							"A[A-Z]*",
+							"C[A-Z]*",
+							"F[A-Z]*",
+							"G[A-Z]*",
+							"I[A-Z]*",
+							"K[A-Z]*",
+							"M[A-Z]*",
+							"P[A-Z]*",
+							"Q[A-Z]*",
+							"R[A-Z]*",
+							"S[A-Z]*",
+							"T[A-Z]*",
+							"X[A-Z]*",
+							"Y[A-Z]*",
+							"Z[A-Z]*"
+						],
+						length: 4
+					}
+				},
+				pServT: {
+					type: { builtin: "Name" },
+					facets: {
+						enumeration: [
+							"Poll",
+							"Report",
+							"GOOSE",
+							"SMV"
+						],
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
+					}
+				},
+				prefix: {
+					type: { builtin: "normalizedString" },
+					facets: {
+						pattern: ["[A-Za-z][0-9A-Za-z_]*", ""],
+						maxLength: 11
+					}
+				},
+				serviceType: {
+					type: { builtin: "Name" },
+					facets: {
+						enumeration: [
+							"Poll",
+							"Report",
+							"GOOSE",
+							"SMV"
+						],
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
+					}
+				},
+				srcCBName: {
+					type: { builtin: "Name" },
+					facets: {
+						pattern: ["[A-Za-z][0-9A-Za-z_]*", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
+						maxLength: 32
+					}
+				},
+				srcCBUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				srcLDInst: {
+					type: { builtin: "normalizedString" },
+					facets: {
+						pattern: ["[A-Za-z0-9][0-9A-Za-z_]*"],
+						maxLength: 64
+					}
+				},
+				srcLNClass: {
+					type: { union: [{ union: [{
+						builtin: "Name",
+						facets: {
+							enumeration: [
+								"LLN0",
+								"LPHD",
+								"LCCH",
+								"LGOS",
+								"LSVS",
+								"LTIM",
+								"LTMS",
+								"LTRK"
+							],
+							pattern: ["L[A-Z]*", "LLN0"],
+							length: 4
+						}
+					}, { union: [
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"ANCR",
+									"ARCO",
+									"ARIS",
+									"ATCC",
+									"AVCO"
+								],
+								pattern: ["A[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"CALH",
+									"CCGR",
+									"CILO",
+									"CPOW",
+									"CSWI",
+									"CSYN"
+								],
+								pattern: ["C[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"FCNT",
+									"FCSD",
+									"FFIL",
+									"FLIM",
+									"FPID",
+									"FRMP",
+									"FSPT",
+									"FXOT",
+									"FXUT"
+								],
+								pattern: ["F[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"GAPC",
+									"GGIO",
+									"GLOG",
+									"GSAL"
+								],
+								pattern: ["G[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"IARC",
+									"IHMI",
+									"ISAF",
+									"ITCI",
+									"ITMI",
+									"ITPC"
+								],
+								pattern: ["I[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"KFAN",
+									"KFIL",
+									"KPMP",
+									"KTNK",
+									"KVLV"
+								],
+								pattern: ["K[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"MDIF",
+									"MENV",
+									"MFLK",
+									"MHAI",
+									"MHAN",
+									"MHYD",
+									"MMDC",
+									"MMET",
+									"MMTN",
+									"MMTR",
+									"MMXN",
+									"MMXU",
+									"MSQI",
+									"MSTA"
+								],
+								pattern: ["M[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: /* @__PURE__ */ "PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU".split("."),
+								pattern: ["P[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"QFVR",
+									"QITR",
+									"QIUB",
+									"QVTR",
+									"QVUB",
+									"QVVR"
+								],
+								pattern: ["Q[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"RADR",
+									"RBDR",
+									"RBRF",
+									"RDIR",
+									"RDRE",
+									"RDRS",
+									"RFLO",
+									"RMXU",
+									"RPSB",
+									"RREC",
+									"RSYN"
+								],
+								pattern: ["R[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"SARC",
+									"SCBR",
+									"SIMG",
+									"SIML",
+									"SLTC",
+									"SOPM",
+									"SPDC",
+									"SPTR",
+									"SSWI",
+									"STMP",
+									"SVBR"
+								],
+								pattern: ["S[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"TANG",
+									"TAXD",
+									"TCTR",
+									"TDST",
+									"TFLW",
+									"TFRQ",
+									"TGSN",
+									"THUM",
+									"TLVL",
+									"TMGF",
+									"TMVM",
+									"TPOS",
+									"TPRS",
+									"TRTN",
+									"TSND",
+									"TTMP",
+									"TTNS",
+									"TVBR",
+									"TVTR",
+									"TWPH"
+								],
+								pattern: ["T[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: ["XCBR", "XSWI"],
+								pattern: ["X[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"YEFN",
+									"YLTC",
+									"YPSH",
+									"YPTR"
+								],
+								pattern: ["Y[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"ZAXN",
+									"ZBAT",
+									"ZBSH",
+									"ZCAB",
+									"ZCAP",
+									"ZCON",
+									"ZGEN",
+									"ZGIL",
+									"ZLIN",
+									"ZMOT",
+									"ZREA",
+									"ZRES",
+									"ZRRC",
+									"ZSAR",
+									"ZSCR",
+									"ZSMC",
+									"ZTCF",
+									"ZTCR"
+								],
+								pattern: ["Z[A-Z]*"],
+								length: 4
+							}
+						}
+					] }] }, {
+						builtin: "Name",
+						facets: {
+							pattern: ["[A-Z]+"],
+							length: 4
+						}
+					}] },
+					facets: {
+						enumeration: /* @__PURE__ */ "LLN0.LPHD.LCCH.LGOS.LSVS.LTIM.LTMS.LTRK.ANCR.ARCO.ARIS.ATCC.AVCO.CALH.CCGR.CILO.CPOW.CSWI.CSYN.FCNT.FCSD.FFIL.FLIM.FPID.FRMP.FSPT.FXOT.FXUT.GAPC.GGIO.GLOG.GSAL.IARC.IHMI.ISAF.ITCI.ITMI.ITPC.KFAN.KFIL.KPMP.KTNK.KVLV.MDIF.MENV.MFLK.MHAI.MHAN.MHYD.MMDC.MMET.MMTN.MMTR.MMXN.MMXU.MSQI.MSTA.PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU.QFVR.QITR.QIUB.QVTR.QVUB.QVVR.RADR.RBDR.RBRF.RDIR.RDRE.RDRS.RFLO.RMXU.RPSB.RREC.RSYN.SARC.SCBR.SIMG.SIML.SLTC.SOPM.SPDC.SPTR.SSWI.STMP.SVBR.TANG.TAXD.TCTR.TDST.TFLW.TFRQ.TGSN.THUM.TLVL.TMGF.TMVM.TPOS.TPRS.TRTN.TSND.TTMP.TTNS.TVBR.TVTR.TWPH.XCBR.XSWI.YEFN.YLTC.YPSH.YPTR.ZAXN.ZBAT.ZBSH.ZCAB.ZCAP.ZCON.ZGEN.ZGIL.ZLIN.ZMOT.ZREA.ZRES.ZRRC.ZSAR.ZSCR.ZSMC.ZTCF.ZTCR".split("."),
+						pattern: [
+							"[A-Z]+",
+							"L[A-Z]*",
+							"LLN0",
+							"[A-Za-z_:][-.:0-9A-Z_a-z]*",
+							"A[A-Z]*",
+							"C[A-Z]*",
+							"F[A-Z]*",
+							"G[A-Z]*",
+							"I[A-Z]*",
+							"K[A-Z]*",
+							"M[A-Z]*",
+							"P[A-Z]*",
+							"Q[A-Z]*",
+							"R[A-Z]*",
+							"S[A-Z]*",
+							"T[A-Z]*",
+							"X[A-Z]*",
+							"Y[A-Z]*",
+							"Z[A-Z]*"
+						],
+						length: 4
+					}
+				},
+				srcLNInst: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[0-9]{1,12}"] }
+				},
+				srcPrefix: {
+					type: { builtin: "normalizedString" },
+					facets: {
+						pattern: ["[A-Za-z][0-9A-Za-z_]*", ""],
+						maxLength: 11
+					}
+				},
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			}
 		},
 		children: {
@@ -11275,6 +16006,37 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				Text: { maxOccurs: 1 },
 				Private: {}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [
+						{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						},
+						{
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "Private"
+						}
+					]
+				}]
+			}]
 		}
 	},
 	FCDA: {
@@ -11297,15 +16059,40 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"prefix"
 			],
 			details: {
-				daName: { facets: {
-					pattern: ["[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?(\\.[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?)*"],
-					whiteSpace: "replace"
-				} },
-				doName: { facets: {
-					pattern: ["[A-Z][0-9A-Za-z]{0,11}(\\.[a-z][0-9A-Za-z]*(\\([0-9]+\\))?)?"],
-					whiteSpace: "replace"
-				} },
+				daName: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?(\\.[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?)*"] }
+				},
+				doName: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[A-Z][0-9A-Za-z]{0,11}(\\.[a-z][0-9A-Za-z]*(\\([0-9]+\\))?)?"] }
+				},
 				fc: {
+					type: { union: [{
+						builtin: "Name",
+						facets: { enumeration: [
+							"ST",
+							"MX",
+							"CO",
+							"SP",
+							"SG",
+							"SE",
+							"SV",
+							"CF",
+							"DC",
+							"EX",
+							"SR",
+							"BL",
+							"OR"
+						] }
+					}, {
+						builtin: "Name",
+						facets: {
+							pattern: ["[A-Z]+"],
+							minLength: 1,
+							maxLength: 2
+						}
+					}] },
 					required: !0,
 					facets: {
 						enumeration: [
@@ -11325,60 +16112,337 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 						],
 						pattern: ["[A-Z]+", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
 						minLength: 1,
-						maxLength: 2,
-						whiteSpace: "collapse"
+						maxLength: 2
 					}
 				},
-				ix: { facets: {
-					minInclusive: 0,
-					maxInclusive: 4294967295,
-					whiteSpace: "collapse"
-				} },
-				ldInst: { facets: {
-					pattern: ["[A-Za-z0-9][0-9A-Za-z_]*"],
-					maxLength: 64,
-					whiteSpace: "replace"
-				} },
-				lnClass: { facets: {
-					enumeration: /* @__PURE__ */ "LLN0.LPHD.LCCH.LGOS.LSVS.LTIM.LTMS.LTRK.ANCR.ARCO.ARIS.ATCC.AVCO.CALH.CCGR.CILO.CPOW.CSWI.CSYN.FCNT.FCSD.FFIL.FLIM.FPID.FRMP.FSPT.FXOT.FXUT.GAPC.GGIO.GLOG.GSAL.IARC.IHMI.ISAF.ITCI.ITMI.ITPC.KFAN.KFIL.KPMP.KTNK.KVLV.MDIF.MENV.MFLK.MHAI.MHAN.MHYD.MMDC.MMET.MMTN.MMTR.MMXN.MMXU.MSQI.MSTA.PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU.QFVR.QITR.QIUB.QVTR.QVUB.QVVR.RADR.RBDR.RBRF.RDIR.RDRE.RDRS.RFLO.RMXU.RPSB.RREC.RSYN.SARC.SCBR.SIMG.SIML.SLTC.SOPM.SPDC.SPTR.SSWI.STMP.SVBR.TANG.TAXD.TCTR.TDST.TFLW.TFRQ.TGSN.THUM.TLVL.TMGF.TMVM.TPOS.TPRS.TRTN.TSND.TTMP.TTNS.TVBR.TVTR.TWPH.XCBR.XSWI.YEFN.YLTC.YPSH.YPTR.ZAXN.ZBAT.ZBSH.ZCAB.ZCAP.ZCON.ZGEN.ZGIL.ZLIN.ZMOT.ZREA.ZRES.ZRRC.ZSAR.ZSCR.ZSMC.ZTCF.ZTCR".split("."),
-					pattern: [
-						"[A-Z]+",
-						"L[A-Z]*",
-						"LLN0",
-						"[A-Za-z_:][-.:0-9A-Z_a-z]*",
-						"A[A-Z]*",
-						"C[A-Z]*",
-						"F[A-Z]*",
-						"G[A-Z]*",
-						"I[A-Z]*",
-						"K[A-Z]*",
-						"M[A-Z]*",
-						"P[A-Z]*",
-						"Q[A-Z]*",
-						"R[A-Z]*",
-						"S[A-Z]*",
-						"T[A-Z]*",
-						"X[A-Z]*",
-						"Y[A-Z]*",
-						"Z[A-Z]*"
-					],
-					length: 4,
-					whiteSpace: "collapse"
-				} },
-				lnInst: { facets: {
-					pattern: ["[0-9]{1,12}"],
-					whiteSpace: "replace"
-				} },
-				lnUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
+				ix: {
+					type: { builtin: "unsignedInt" },
+					facets: {
+						minInclusive: 0,
+						maxInclusive: 4294967295
+					}
+				},
+				ldInst: {
+					type: { builtin: "normalizedString" },
+					facets: {
+						pattern: ["[A-Za-z0-9][0-9A-Za-z_]*"],
+						maxLength: 64
+					}
+				},
+				lnClass: {
+					type: { union: [{ union: [{
+						builtin: "Name",
+						facets: {
+							enumeration: [
+								"LLN0",
+								"LPHD",
+								"LCCH",
+								"LGOS",
+								"LSVS",
+								"LTIM",
+								"LTMS",
+								"LTRK"
+							],
+							pattern: ["L[A-Z]*", "LLN0"],
+							length: 4
+						}
+					}, { union: [
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"ANCR",
+									"ARCO",
+									"ARIS",
+									"ATCC",
+									"AVCO"
+								],
+								pattern: ["A[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"CALH",
+									"CCGR",
+									"CILO",
+									"CPOW",
+									"CSWI",
+									"CSYN"
+								],
+								pattern: ["C[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"FCNT",
+									"FCSD",
+									"FFIL",
+									"FLIM",
+									"FPID",
+									"FRMP",
+									"FSPT",
+									"FXOT",
+									"FXUT"
+								],
+								pattern: ["F[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"GAPC",
+									"GGIO",
+									"GLOG",
+									"GSAL"
+								],
+								pattern: ["G[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"IARC",
+									"IHMI",
+									"ISAF",
+									"ITCI",
+									"ITMI",
+									"ITPC"
+								],
+								pattern: ["I[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"KFAN",
+									"KFIL",
+									"KPMP",
+									"KTNK",
+									"KVLV"
+								],
+								pattern: ["K[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"MDIF",
+									"MENV",
+									"MFLK",
+									"MHAI",
+									"MHAN",
+									"MHYD",
+									"MMDC",
+									"MMET",
+									"MMTN",
+									"MMTR",
+									"MMXN",
+									"MMXU",
+									"MSQI",
+									"MSTA"
+								],
+								pattern: ["M[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: /* @__PURE__ */ "PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU".split("."),
+								pattern: ["P[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"QFVR",
+									"QITR",
+									"QIUB",
+									"QVTR",
+									"QVUB",
+									"QVVR"
+								],
+								pattern: ["Q[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"RADR",
+									"RBDR",
+									"RBRF",
+									"RDIR",
+									"RDRE",
+									"RDRS",
+									"RFLO",
+									"RMXU",
+									"RPSB",
+									"RREC",
+									"RSYN"
+								],
+								pattern: ["R[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"SARC",
+									"SCBR",
+									"SIMG",
+									"SIML",
+									"SLTC",
+									"SOPM",
+									"SPDC",
+									"SPTR",
+									"SSWI",
+									"STMP",
+									"SVBR"
+								],
+								pattern: ["S[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"TANG",
+									"TAXD",
+									"TCTR",
+									"TDST",
+									"TFLW",
+									"TFRQ",
+									"TGSN",
+									"THUM",
+									"TLVL",
+									"TMGF",
+									"TMVM",
+									"TPOS",
+									"TPRS",
+									"TRTN",
+									"TSND",
+									"TTMP",
+									"TTNS",
+									"TVBR",
+									"TVTR",
+									"TWPH"
+								],
+								pattern: ["T[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: ["XCBR", "XSWI"],
+								pattern: ["X[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"YEFN",
+									"YLTC",
+									"YPSH",
+									"YPTR"
+								],
+								pattern: ["Y[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"ZAXN",
+									"ZBAT",
+									"ZBSH",
+									"ZCAB",
+									"ZCAP",
+									"ZCON",
+									"ZGEN",
+									"ZGIL",
+									"ZLIN",
+									"ZMOT",
+									"ZREA",
+									"ZRES",
+									"ZRRC",
+									"ZSAR",
+									"ZSCR",
+									"ZSMC",
+									"ZTCF",
+									"ZTCR"
+								],
+								pattern: ["Z[A-Z]*"],
+								length: 4
+							}
+						}
+					] }] }, {
+						builtin: "Name",
+						facets: {
+							pattern: ["[A-Z]+"],
+							length: 4
+						}
+					}] },
+					facets: {
+						enumeration: /* @__PURE__ */ "LLN0.LPHD.LCCH.LGOS.LSVS.LTIM.LTMS.LTRK.ANCR.ARCO.ARIS.ATCC.AVCO.CALH.CCGR.CILO.CPOW.CSWI.CSYN.FCNT.FCSD.FFIL.FLIM.FPID.FRMP.FSPT.FXOT.FXUT.GAPC.GGIO.GLOG.GSAL.IARC.IHMI.ISAF.ITCI.ITMI.ITPC.KFAN.KFIL.KPMP.KTNK.KVLV.MDIF.MENV.MFLK.MHAI.MHAN.MHYD.MMDC.MMET.MMTN.MMTR.MMXN.MMXU.MSQI.MSTA.PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU.QFVR.QITR.QIUB.QVTR.QVUB.QVVR.RADR.RBDR.RBRF.RDIR.RDRE.RDRS.RFLO.RMXU.RPSB.RREC.RSYN.SARC.SCBR.SIMG.SIML.SLTC.SOPM.SPDC.SPTR.SSWI.STMP.SVBR.TANG.TAXD.TCTR.TDST.TFLW.TFRQ.TGSN.THUM.TLVL.TMGF.TMVM.TPOS.TPRS.TRTN.TSND.TTMP.TTNS.TVBR.TVTR.TWPH.XCBR.XSWI.YEFN.YLTC.YPSH.YPTR.ZAXN.ZBAT.ZBSH.ZCAB.ZCAP.ZCON.ZGEN.ZGIL.ZLIN.ZMOT.ZREA.ZRES.ZRRC.ZSAR.ZSCR.ZSMC.ZTCF.ZTCR".split("."),
+						pattern: [
+							"[A-Z]+",
+							"L[A-Z]*",
+							"LLN0",
+							"[A-Za-z_:][-.:0-9A-Z_a-z]*",
+							"A[A-Z]*",
+							"C[A-Z]*",
+							"F[A-Z]*",
+							"G[A-Z]*",
+							"I[A-Z]*",
+							"K[A-Z]*",
+							"M[A-Z]*",
+							"P[A-Z]*",
+							"Q[A-Z]*",
+							"R[A-Z]*",
+							"S[A-Z]*",
+							"T[A-Z]*",
+							"X[A-Z]*",
+							"Y[A-Z]*",
+							"Z[A-Z]*"
+						],
+						length: 4
+					}
+				},
+				lnInst: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[0-9]{1,12}"] }
+				},
+				lnUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
 				prefix: {
+					type: { builtin: "normalizedString" },
 					default: "",
 					facets: {
 						pattern: ["[A-Za-z][0-9A-Za-z_]*", ""],
-						maxLength: 11,
-						whiteSpace: "replace"
+						maxLength: 11
 					}
 				}
 			}
@@ -11403,16 +16467,16 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				ftp: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				ftps: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				mms: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "true"
 				}
 			}
 		},
@@ -11442,28 +16506,23 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"type",
 				"uuid"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				name: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				},
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				type: { facets: { whiteSpace: "replace" } },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
-			}
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				type: { type: { builtin: "normalizedString" } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
+			},
+			identityFields: ["name"]
 		},
 		children: {
 			sequence: [
@@ -11650,6 +16709,82 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				Variable: {}
 			}
 		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [
+								{
+									kind: "any",
+									namespace: ["##other"],
+									processContents: "lax"
+								},
+								{
+									kind: "element",
+									name: "Text",
+									maxOccurs: 1
+								},
+								{
+									kind: "element",
+									name: "Private"
+								}
+							]
+						}, {
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [{
+								kind: "element",
+								name: "Labels",
+								maxOccurs: 1
+							}]
+						}]
+					}, {
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "element",
+							name: "LNode"
+						}]
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [
+					{
+						kind: "element",
+						name: "SubFunction"
+					},
+					{
+						kind: "element",
+						name: "GeneralEquipment"
+					},
+					{
+						kind: "element",
+						name: "ConductingEquipment"
+					}
+				]
+			}]
+		},
 		constraints: [{
 			kind: "unique",
 			name: "uniqueLNodeInFunctionB",
@@ -11706,14 +16841,11 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		attributes: {
 			sequence: ["function", "functionUuid"],
 			details: {
-				function: { facets: {
-					pattern: [".+(/.+)*"],
-					whiteSpace: "replace"
-				} },
-				functionUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				function: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: [".+(/.+)*"] }
+				},
+				functionUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			}
 		},
 		children: {
@@ -11726,6 +16858,25 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					uri: "http://www.iec.ch/61850/2019/SCL/6-100"
 				}
 			} }
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "any",
+					namespace: ["##other"],
+					processContents: "lax"
+				}, {
+					kind: "element",
+					name: "Text",
+					maxOccurs: 1
+				}]
+			}]
 		}
 	},
 	FunctionCategory: {
@@ -11752,29 +16903,19 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				name: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				},
-				originUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
-			}
+				originUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
+			},
+			identityFields: ["name"]
 		},
 		children: {
 			sequence: [
@@ -11797,6 +16938,42 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					minOccurs: 1
 				}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "any",
+						namespace: ["##other"],
+						processContents: "lax"
+					}, {
+						kind: "element",
+						name: "Text",
+						maxOccurs: 1
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "SubCategory"
+				}, {
+					kind: "element",
+					name: "FunctionCatRef",
+					minOccurs: 1
+				}]
+			}]
 		}
 	},
 	FunctionCategoryRef: {
@@ -11815,17 +16992,14 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				functionCategory: { facets: {
-					pattern: [".+(/.+)*"],
-					whiteSpace: "replace"
-				} },
-				functionCategoryUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				functionCategory: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: [".+(/.+)*"] }
+				},
+				functionCategoryUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			}
 		},
 		children: {
@@ -11840,8 +17014,42 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					}
 				},
 				FunctionalVariantRef: {}
-			},
-			choices: [{ options: ["FunctionalVariantRef"] }]
+			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						}, {
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						}]
+					}]
+				}, {
+					kind: "choice",
+					particles: [{
+						kind: "element",
+						name: "FunctionalVariantRef"
+					}]
+				}]
+			}]
 		}
 	},
 	FunctionRef: {
@@ -11860,17 +17068,14 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				function: { facets: {
-					pattern: [".+(/.+)*"],
-					whiteSpace: "replace"
-				} },
-				functionUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				function: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: [".+(/.+)*"] }
+				},
+				functionUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			}
 		},
 		children: {
@@ -11890,8 +17095,50 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				},
 				FunctionalVariantRef: {},
 				SignalRole: {}
-			},
-			choices: [{ options: ["FunctionalVariantRef"] }]
+			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						}, {
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						}]
+					}]
+				}, {
+					kind: "choice",
+					particles: [{
+						kind: "element",
+						name: "FunctionalVariantRef"
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "SignalRole"
+				}]
+			}]
 		}
 	},
 	FunctionRole: {
@@ -11916,46 +17163,33 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				cardinality: {
+					type: { builtin: "normalizedString" },
 					default: "1..1",
-					facets: {
-						enumeration: [
-							"0..1",
-							"1..1",
-							"0..n",
-							"1..n"
-						],
-						whiteSpace: "replace"
-					}
+					facets: { enumeration: [
+						"0..1",
+						"1..1",
+						"0..n",
+						"1..n"
+					] }
 				},
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				max: { facets: {
-					minInclusive: 2,
-					whiteSpace: "collapse"
-				} },
+				max: {
+					type: { builtin: "integer" },
+					facets: { minInclusive: 2 }
+				},
 				name: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				},
-				originUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				selector: { facets: { whiteSpace: "replace" } },
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				type: { facets: { whiteSpace: "replace" } },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				originUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				selector: { type: { builtin: "normalizedString" } },
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				type: { type: { builtin: "normalizedString" } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			}
 		},
 		children: {
@@ -11979,10 +17213,55 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					minOccurs: 1,
 					maxOccurs: 1
 				}
-			},
-			choices: [{ options: ["FunctionalVariantRef"] }, {
-				options: ["FunctionRoleContent"],
-				minOccurs: 1
+			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						}, {
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						}]
+					}]
+				}, {
+					kind: "choice",
+					particles: [{
+						kind: "element",
+						name: "FunctionalVariantRef"
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "choice",
+					minOccurs: 1,
+					particles: [{
+						kind: "element",
+						name: "FunctionRoleContent",
+						minOccurs: 1,
+						maxOccurs: 1
+					}]
+				}]
 			}]
 		},
 		constraints: [{
@@ -12010,11 +17289,9 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		attributes: {
 			sequence: ["roleInst"],
 			details: { roleInst: {
+				type: { builtin: "integer" },
 				default: "1",
-				facets: {
-					minInclusive: 1,
-					whiteSpace: "collapse"
-				}
+				facets: { minInclusive: 1 }
 			} },
 			identityFields: ["roleInst"]
 		},
@@ -12067,15 +17344,71 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					minOccurs: 1,
 					maxOccurs: 1
 				}
-			},
-			choices: [{ options: [
-				"BehaviorDescriptionRef",
-				"FunctionCategoryRef",
-				"FunctionRef",
-				"PowerSystemRelationRef",
-				"ProcessResourceRef",
-				"VariableRef"
-			] }]
+			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "any",
+					namespace: ["##other"],
+					processContents: "lax"
+				}, {
+					kind: "element",
+					name: "Text",
+					maxOccurs: 1
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "choice",
+					particles: [
+						{
+							kind: "element",
+							name: "FunctionRef",
+							minOccurs: 1,
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "BehaviorDescriptionRef",
+							minOccurs: 1,
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "ProcessResourceRef",
+							minOccurs: 1,
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "VariableRef",
+							minOccurs: 1,
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "FunctionCategoryRef",
+							minOccurs: 1,
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "PowerSystemRelationRef",
+							minOccurs: 1,
+							maxOccurs: 1
+						}
+					]
+				}]
+			}]
 		}
 	},
 	FunctionSclRef: {
@@ -12114,6 +17447,34 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					}
 				}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "any",
+					namespace: ["##other"],
+					processContents: "lax"
+				}, {
+					kind: "element",
+					name: "Text",
+					maxOccurs: 1
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "SclFileReference",
+					maxOccurs: 1
+				}]
+			}]
 		}
 	},
 	FunctionTemplate: {
@@ -12135,29 +17496,18 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				name: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				},
-				originUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				type: { facets: { whiteSpace: "replace" } },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				originUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				type: { type: { builtin: "normalizedString" } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			}
 		},
 		children: {
@@ -12332,6 +17682,61 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					}
 				}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						}, {
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						}]
+					}]
+				}, {
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "element",
+						name: "LNode"
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [
+					{
+						kind: "element",
+						name: "SubFunctionTemplate"
+					},
+					{
+						kind: "element",
+						name: "GeneralEquipment"
+					},
+					{
+						kind: "element",
+						name: "ConductingEquipment"
+					}
+				]
+			}]
 		}
 	},
 	FunctionalSubVariant: {
@@ -12353,32 +17758,21 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				isBaseline: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				name: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				},
-				originUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				originUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			}
 		},
 		children: {
@@ -12398,8 +17792,45 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				},
 				FunctionalSubVariant: {},
 				VariableRef: {}
-			},
-			choices: [{ options: ["FunctionalSubVariant", "VariableRef"] }]
+			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						}, {
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						}]
+					}]
+				}, {
+					kind: "choice",
+					particles: [{
+						kind: "element",
+						name: "FunctionalSubVariant"
+					}, {
+						kind: "element",
+						name: "VariableRef"
+					}]
+				}]
+			}]
 		}
 	},
 	FunctionalVariant: {
@@ -12421,32 +17852,21 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				isBaseline: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				name: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				},
-				originUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				originUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			}
 		},
 		children: {
@@ -12466,8 +17886,45 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				},
 				FunctionalSubVariant: {},
 				VariableRef: {}
-			},
-			choices: [{ options: ["FunctionalSubVariant", "VariableRef"] }]
+			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						}, {
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						}]
+					}]
+				}, {
+					kind: "choice",
+					particles: [{
+						kind: "element",
+						name: "FunctionalSubVariant"
+					}, {
+						kind: "element",
+						name: "VariableRef"
+					}]
+				}]
+			}]
 		}
 	},
 	FunctionalVariantGroup: {
@@ -12488,28 +17945,17 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				name: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				},
-				originUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				originUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			}
 		},
 		children: {
@@ -12525,6 +17971,38 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				},
 				FunctionalVariant: {}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "any",
+						namespace: ["##other"],
+						processContents: "lax"
+					}, {
+						kind: "element",
+						name: "Text",
+						maxOccurs: 1
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "FunctionalVariant"
+				}]
+			}]
 		}
 	},
 	FunctionalVariantRef: {
@@ -12557,20 +18035,14 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"update"
 			],
 			details: {
-				functionalVariant: { facets: {
-					minLength: 1,
-					whiteSpace: "replace"
-				} },
-				functionalVariantUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
+				functionalVariant: {
+					type: { builtin: "normalizedString" },
+					facets: { minLength: 1 }
+				},
+				functionalVariantUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
 				update: {
 					default: "add",
-					facets: {
-						enumeration: ["add", "remove"],
-						whiteSpace: "preserve"
-					}
+					facets: { enumeration: ["add", "remove"] }
 				}
 			}
 		},
@@ -12584,6 +18056,25 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					uri: "http://www.iec.ch/61850/2019/SCL/6-100"
 				}
 			} }
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "any",
+					namespace: ["##other"],
+					processContents: "lax"
+				}, {
+					kind: "element",
+					name: "Text",
+					maxOccurs: 1
+				}]
+			}]
 		}
 	},
 	GOOSE: {
@@ -12602,24 +18093,24 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				fixedOffs: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				goose: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "true"
 				},
 				max: {
+					type: { builtin: "unsignedInt" },
 					required: !0,
 					facets: {
 						minInclusive: 0,
-						maxInclusive: 4294967295,
-						whiteSpace: "collapse"
+						maxInclusive: 4294967295
 					}
 				},
 				rGOOSE: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				}
 			}
 		},
@@ -12639,12 +18130,12 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: ["encryption", "signature"],
 			details: {
 				encryption: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				signature: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				}
 			}
 		},
@@ -12669,39 +18160,35 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"uuid",
 				"xferNumber"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				name: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				},
 				serialNumber: {
+					type: { builtin: "normalizedString" },
 					required: !0,
 					facets: {
 						pattern: ["[0-9]+"],
-						minLength: 1,
-						whiteSpace: "replace"
+						minLength: 1
 					}
 				},
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				xferNumber: { facets: {
-					minInclusive: 0,
-					maxInclusive: 4294967295,
-					whiteSpace: "collapse"
-				} }
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				xferNumber: {
+					type: { builtin: "unsignedInt" },
+					facets: {
+						minInclusive: 0,
+						maxInclusive: 4294967295
+					}
+				}
 			}
 		},
 		children: {
@@ -12747,6 +18234,61 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					maxOccurs: 1
 				}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [
+						{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						},
+						{
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "Private"
+						}
+					]
+				}, {
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "element",
+						name: "Labels",
+						maxOccurs: 1
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "Subject",
+					minOccurs: 1,
+					maxOccurs: 1
+				}, {
+					kind: "element",
+					name: "IssuerName",
+					minOccurs: 1,
+					maxOccurs: 1
+				}]
+			}]
 		}
 	},
 	GSE: {
@@ -12763,29 +18305,28 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"desc",
 				"ldInst"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				cbName: {
+					type: { builtin: "Name" },
 					required: !0,
 					facets: {
 						pattern: ["[A-Za-z][0-9A-Za-z_]*", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						maxLength: 32,
-						whiteSpace: "collapse"
+						maxLength: 32
 					}
 				},
-				cbUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
+				cbUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				ldInst: {
+					type: { builtin: "normalizedString" },
 					required: !0,
 					facets: {
 						pattern: ["[A-Za-z0-9][0-9A-Za-z_]*"],
-						maxLength: 64,
-						whiteSpace: "replace"
+						maxLength: 64
 					}
 				}
 			},
@@ -12807,6 +18348,64 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				MinTime: { maxOccurs: 1 },
 				MaxTime: { maxOccurs: 1 }
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [
+							{
+								kind: "any",
+								namespace: ["##other"],
+								processContents: "lax"
+							},
+							{
+								kind: "element",
+								name: "Text",
+								maxOccurs: 1
+							},
+							{
+								kind: "element",
+								name: "Private"
+							}
+						]
+					}]
+				}, {
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "element",
+						name: "Address",
+						maxOccurs: 1
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "MinTime",
+					maxOccurs: 1
+				}, {
+					kind: "element",
+					name: "MaxTime",
+					maxOccurs: 1
+				}]
+			}]
 		}
 	},
 	GSEControl: {
@@ -12829,69 +18428,67 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"type",
 				"uuid"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				appID: {
+					type: { builtin: "normalizedString" },
 					required: !0,
 					facets: {
 						pattern: ["[ -~]*"],
 						minLength: 1,
-						maxLength: 129,
-						whiteSpace: "replace"
+						maxLength: 129
 					}
 				},
-				confRev: { facets: {
-					minInclusive: 0,
-					maxInclusive: 4294967295,
-					whiteSpace: "collapse"
-				} },
-				datSet: { facets: {
-					pattern: ["[A-Za-z][0-9A-Za-z_]*", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-					maxLength: 32,
-					whiteSpace: "collapse"
-				} },
+				confRev: {
+					type: { builtin: "unsignedInt" },
+					facets: {
+						minInclusive: 0,
+						maxInclusive: 4294967295
+					}
+				},
+				datSet: {
+					type: { builtin: "Name" },
+					facets: {
+						pattern: ["[A-Za-z][0-9A-Za-z_]*", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
+						maxLength: 32
+					}
+				},
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				fixedOffs: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				name: {
+					type: { builtin: "Name" },
 					required: !0,
 					facets: {
 						pattern: ["[A-Za-z][0-9A-Za-z_]*", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						maxLength: 32,
-						whiteSpace: "collapse"
+						maxLength: 32
 					}
 				},
 				securityEnable: {
+					type: { builtin: "normalizedString" },
 					default: "None",
-					facets: {
-						enumeration: [
-							"None",
-							"Signature",
-							"SignatureAndEncryption"
-						],
-						whiteSpace: "replace"
-					}
+					facets: { enumeration: [
+						"None",
+						"Signature",
+						"SignatureAndEncryption"
+					] }
 				},
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
 				type: {
+					type: { builtin: "Name" },
 					default: "GOOSE",
 					facets: {
 						enumeration: ["GSSE", "GOOSE"],
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			},
 			identityFields: ["name"]
 		},
@@ -12909,6 +18506,64 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				IEDName: {},
 				Protocol: { maxOccurs: 1 }
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [
+								{
+									kind: "any",
+									namespace: ["##other"],
+									processContents: "lax"
+								},
+								{
+									kind: "element",
+									name: "Text",
+									maxOccurs: 1
+								},
+								{
+									kind: "element",
+									name: "Private"
+								}
+							]
+						}]
+					}]
+				}, {
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "element",
+						name: "IEDName"
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "Protocol",
+					maxOccurs: 1
+				}]
+			}]
 		}
 	},
 	GSEDir: {
@@ -12934,50 +18589,17 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"xsi:type"
 			],
 			details: {
-				c37_238: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ftp: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ftps: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_8_1: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_8_2: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_9_3: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ipv6: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				mms: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
-				other: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				serverAssociationInitiation: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				sntp: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
+				c37_238: { default: "false" },
+				ftp: { default: "false" },
+				ftps: { default: "false" },
+				iec61850_8_1: { default: "true" },
+				iec61850_8_2: { default: "false" },
+				iec61850_9_3: { default: "false" },
+				ipv6: { default: "false" },
+				mms: { default: "true" },
+				other: { default: "false" },
+				serverAssociationInitiation: { default: "false" },
+				sntp: { default: "true" },
 				"xsi:type": {
 					namespace: {
 						prefix: "xsi",
@@ -13014,6 +18636,7 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				appID: {
+					type: { builtin: "Name" },
 					default: "Fix",
 					facets: {
 						enumeration: [
@@ -13021,19 +18644,19 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"Conf",
 							"Fix"
 						],
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
 				cbName: {
+					type: { builtin: "Name" },
 					default: "Fix",
 					facets: {
 						enumeration: ["Conf", "Fix"],
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
 				datSet: {
+					type: { builtin: "Name" },
 					default: "Fix",
 					facets: {
 						enumeration: [
@@ -13041,11 +18664,11 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"Conf",
 							"Fix"
 						],
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
 				dataLabel: {
+					type: { builtin: "Name" },
 					default: "Fix",
 					facets: {
 						enumeration: [
@@ -13053,19 +18676,28 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"Conf",
 							"Fix"
 						],
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
 				kdaParticipant: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				}
 			}
 		},
 		children: {
 			sequence: ["McSecurity"],
 			details: { McSecurity: { maxOccurs: 1 } }
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "element",
+				name: "McSecurity",
+				maxOccurs: 1
+			}]
 		}
 	},
 	GSSE: {
@@ -13093,10 +18725,7 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"xsi:type"
 			],
 			details: {
-				bufConf: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
+				bufConf: { default: "false" },
 				bufMode: {
 					default: "both",
 					facets: {
@@ -13105,8 +18734,7 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"buffered",
 							"both"
 						],
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
 				delivery: {
@@ -13117,57 +18745,33 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"multicast",
 							"both"
 						],
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
-				deliveryConf: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				fixedOffs: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				goose: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
+				deliveryConf: { default: "false" },
+				fixedOffs: { default: "false" },
+				goose: { default: "true" },
 				max: {
+					type: { builtin: "unsignedInt" },
 					required: !0,
 					facets: {
 						minInclusive: 0,
-						maxInclusive: 4294967295,
-						whiteSpace: "collapse"
+						maxInclusive: 4294967295
 					}
 				},
 				maxAttributes: { facets: {
 					minInclusive: 0,
 					maxInclusive: 4294967295,
-					minExclusive: 0,
-					whiteSpace: "collapse"
+					minExclusive: 0
 				} },
 				maxBuf: { facets: {
 					minInclusive: 0,
-					maxInclusive: 4294967295,
-					whiteSpace: "collapse"
+					maxInclusive: 4294967295
 				} },
-				modify: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
-				rGOOSE: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				rSV: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				sv: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
+				modify: { default: "true" },
+				rGOOSE: { default: "false" },
+				rSV: { default: "false" },
+				sv: { default: "true" },
 				"xsi:type": {
 					namespace: {
 						prefix: "xsi",
@@ -13217,23 +18821,39 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"uuid",
 				"virtual"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				name: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				},
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
 				type: {
+					type: { union: [{
+						builtin: "Name",
+						facets: { enumeration: [
+							"AXN",
+							"BAT",
+							"MOT",
+							"FAN",
+							"FIL",
+							"PMP",
+							"TNK",
+							"VLV"
+						] }
+					}, {
+						builtin: "Name",
+						facets: {
+							pattern: ["E[A-Z]*"],
+							minLength: 3
+						}
+					}] },
 					required: !0,
 					facets: {
 						enumeration: [
@@ -13247,19 +18867,16 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"VLV"
 						],
 						pattern: ["E[A-Z]*", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						minLength: 3,
-						whiteSpace: "collapse"
+						minLength: 3
 					}
 				},
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
 				virtual: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				}
-			}
+			},
+			identityFields: ["name"]
 		},
 		children: {
 			sequence: [
@@ -13344,6 +18961,77 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				Variable: {}
 			}
 		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [{
+								kind: "sequence",
+								minOccurs: 1,
+								maxOccurs: 1,
+								particles: [
+									{
+										kind: "any",
+										namespace: ["##other"],
+										processContents: "lax"
+									},
+									{
+										kind: "element",
+										name: "Text",
+										maxOccurs: 1
+									},
+									{
+										kind: "element",
+										name: "Private"
+									}
+								]
+							}, {
+								kind: "sequence",
+								minOccurs: 1,
+								maxOccurs: 1,
+								particles: [{
+									kind: "element",
+									name: "Labels",
+									maxOccurs: 1
+								}]
+							}]
+						}, {
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [{
+								kind: "element",
+								name: "LNode"
+							}]
+						}]
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "EqFunction"
+				}]
+			}]
+		},
 		constraints: [{
 			kind: "unique",
 			name: "uniqueLNodeInGeneralEquipmentOfFuncForEquipment",
@@ -13412,50 +19100,17 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"xsi:type"
 			],
 			details: {
-				c37_238: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ftp: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ftps: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_8_1: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_8_2: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_9_3: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ipv6: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				mms: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
-				other: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				serverAssociationInitiation: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				sntp: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
+				c37_238: { default: "false" },
+				ftp: { default: "false" },
+				ftps: { default: "false" },
+				iec61850_8_1: { default: "true" },
+				iec61850_8_2: { default: "false" },
+				iec61850_9_3: { default: "false" },
+				ipv6: { default: "false" },
+				mms: { default: "true" },
+				other: { default: "false" },
+				serverAssociationInitiation: { default: "false" },
+				sntp: { default: "true" },
 				"xsi:type": {
 					namespace: {
 						prefix: "xsi",
@@ -13498,50 +19153,17 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"xsi:type"
 			],
 			details: {
-				c37_238: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ftp: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ftps: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_8_1: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_8_2: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_9_3: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ipv6: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				mms: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
-				other: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				serverAssociationInitiation: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				sntp: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
+				c37_238: { default: "false" },
+				ftp: { default: "false" },
+				ftps: { default: "false" },
+				iec61850_8_1: { default: "true" },
+				iec61850_8_2: { default: "false" },
+				iec61850_9_3: { default: "false" },
+				ipv6: { default: "false" },
+				mms: { default: "true" },
+				other: { default: "false" },
+				serverAssociationInitiation: { default: "false" },
+				sntp: { default: "true" },
 				"xsi:type": {
 					namespace: {
 						prefix: "xsi",
@@ -13584,50 +19206,17 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"xsi:type"
 			],
 			details: {
-				c37_238: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ftp: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ftps: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_8_1: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_8_2: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_9_3: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ipv6: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				mms: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
-				other: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				serverAssociationInitiation: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				sntp: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
+				c37_238: { default: "false" },
+				ftp: { default: "false" },
+				ftps: { default: "false" },
+				iec61850_8_1: { default: "true" },
+				iec61850_8_2: { default: "false" },
+				iec61850_9_3: { default: "false" },
+				ipv6: { default: "false" },
+				mms: { default: "true" },
+				other: { default: "false" },
+				serverAssociationInitiation: { default: "false" },
+				sntp: { default: "true" },
 				"xsi:type": {
 					namespace: {
 						prefix: "xsi",
@@ -13670,50 +19259,17 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"xsi:type"
 			],
 			details: {
-				c37_238: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ftp: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ftps: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_8_1: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_8_2: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_9_3: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ipv6: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				mms: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
-				other: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				serverAssociationInitiation: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				sntp: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
+				c37_238: { default: "false" },
+				ftp: { default: "false" },
+				ftps: { default: "false" },
+				iec61850_8_1: { default: "true" },
+				iec61850_8_2: { default: "false" },
+				iec61850_9_3: { default: "false" },
+				ipv6: { default: "false" },
+				mms: { default: "true" },
+				other: { default: "false" },
+				serverAssociationInitiation: { default: "false" },
+				sntp: { default: "true" },
 				"xsi:type": {
 					namespace: {
 						prefix: "xsi",
@@ -13752,26 +19308,27 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"securityEnabled"
 			],
 			details: {
-				cbName: { facets: { whiteSpace: "replace" } },
+				cbName: { type: { builtin: "normalizedString" } },
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				dsName: { facets: { whiteSpace: "replace" } },
-				goId: { facets: { whiteSpace: "replace" } },
+				dsName: { type: { builtin: "normalizedString" } },
+				goId: { type: { builtin: "normalizedString" } },
 				id: {
+					type: { builtin: "token" },
 					required: !0,
 					facets: {
 						pattern: ["\\S+"],
 						minLength: 1,
-						maxLength: 255,
-						whiteSpace: "collapse"
+						maxLength: 255
 					}
 				},
-				maxTime: { facets: { whiteSpace: "collapse" } },
-				minTime: { facets: { whiteSpace: "collapse" } },
-				securityEnabled: { facets: { whiteSpace: "collapse" } }
-			}
+				maxTime: { type: { builtin: "decimal" } },
+				minTime: { type: { builtin: "decimal" } },
+				securityEnabled: { type: { builtin: "boolean" } }
+			},
+			identityFields: ["id"]
 		},
 		children: {
 			sequence: [
@@ -13804,14 +19361,63 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					minOccurs: 1,
 					maxOccurs: 1
 				}
-			},
-			choices: [{
-				options: [
-					"L2CommParameters",
-					"L3IPv4CommParameters",
-					"L3IPv6CommParameters"
-				],
-				maxOccurs: 1
+			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [{
+								kind: "any",
+								namespace: ["##other"],
+								processContents: "lax"
+							}, {
+								kind: "element",
+								name: "Text",
+								maxOccurs: 1
+							}]
+						}]
+					}]
+				}]
+			}, {
+				kind: "choice",
+				maxOccurs: 1,
+				particles: [
+					{
+						kind: "element",
+						name: "L2CommParameters",
+						minOccurs: 1,
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "L3IPv4CommParameters",
+						minOccurs: 1,
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "L3IPv6CommParameters",
+						minOccurs: 1,
+						maxOccurs: 1
+					}
+				]
 			}]
 		}
 	},
@@ -13827,15 +19433,13 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: ["desc", "id"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				id: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				}
 			}
 		},
@@ -13849,6 +19453,30 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					uri: "http://www.iec.ch/61850/2019/SCL/6-100"
 				}
 			} }
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "any",
+						namespace: ["##other"],
+						processContents: "lax"
+					}, {
+						kind: "element",
+						name: "Text",
+						maxOccurs: 1
+					}]
+				}]
+			}]
 		}
 	},
 	Header: {
@@ -13870,48 +19498,58 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"version"
 			],
 			details: {
-				baseUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				fileType: { facets: {
-					enumeration: [
-						"ICD",
-						"IID",
-						"CID",
-						"SSD",
-						"SCD",
-						"SED"
-					],
-					pattern: ["[A-Z]{3}", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-					whiteSpace: "replace"
-				} },
+				baseUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				fileType: {
+					type: { union: [{
+						builtin: "Name",
+						facets: { enumeration: [
+							"ICD",
+							"IID",
+							"CID",
+							"SSD",
+							"SCD",
+							"SED"
+						] }
+					}, {
+						builtin: "normalizedString",
+						facets: { pattern: ["[A-Z]{3}"] }
+					}] },
+					facets: {
+						enumeration: [
+							"ICD",
+							"IID",
+							"CID",
+							"SSD",
+							"SCD",
+							"SED"
+						],
+						pattern: ["[A-Z]{3}", "[A-Za-z_:][-.:0-9A-Z_a-z]*"]
+					}
+				},
 				id: {
-					required: !0,
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					required: !0
 				},
 				nameStructure: {
+					type: { builtin: "Name" },
 					default: "IEDName",
 					facets: {
 						enumeration: ["IEDName"],
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
 				revision: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				toolID: { facets: { whiteSpace: "replace" } },
+				toolID: { type: { builtin: "normalizedString" } },
 				uuid: {
 					required: !0,
-					facets: {
-						pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-						whiteSpace: "preserve"
-					}
+					facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] }
 				},
-				version: { facets: { whiteSpace: "replace" } }
-			}
+				version: { type: { builtin: "normalizedString" } }
+			},
+			identityFields: ["uuid"]
 		},
 		children: {
 			sequence: [
@@ -13924,6 +19562,28 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				History: { maxOccurs: 1 },
 				SourceFiles: { maxOccurs: 1 }
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [
+				{
+					kind: "element",
+					name: "Text",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "History",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "SourceFiles",
+					maxOccurs: 1
+				}
+			]
 		},
 		constraints: [{
 			kind: "unique",
@@ -13955,8 +19615,7 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		parents: ["Header"],
 		attributes: {
 			sequence: [],
-			details: {},
-			identityFields: ["revision", "version"]
+			details: {}
 		},
 		children: {
 			sequence: ["Hitem"],
@@ -13964,6 +19623,16 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				required: !0,
 				minOccurs: 1
 			} }
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "element",
+				name: "Hitem",
+				minOccurs: 1
+			}]
 		}
 	},
 	Hitem: {
@@ -13982,22 +19651,24 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"who",
 				"why"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				revision: {
-					required: !0,
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					required: !0
 				},
 				version: {
-					required: !0,
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					required: !0
 				},
-				what: { facets: { whiteSpace: "replace" } },
+				what: { type: { builtin: "normalizedString" } },
 				when: {
-					required: !0,
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					required: !0
 				},
-				who: { facets: { whiteSpace: "replace" } },
-				why: { facets: { whiteSpace: "replace" } }
+				who: { type: { builtin: "normalizedString" } },
+				why: { type: { builtin: "normalizedString" } }
 			},
 			identityFields: ["revision", "version"]
 		},
@@ -14005,6 +19676,30 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: ["SourceFiles"],
 			any: !0,
 			details: { SourceFiles: { maxOccurs: 1 } }
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				particles: [{
+					kind: "any",
+					namespace: ["##other"],
+					processContents: "lax",
+					minOccurs: 1,
+					maxOccurs: 1
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "SourceFiles",
+					maxOccurs: 1
+				}]
+			}]
 		},
 		textContent: {}
 	},
@@ -14030,25 +19725,26 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"type",
 				"uuid"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
-				configVersion: { facets: { whiteSpace: "replace" } },
+				configVersion: { type: { builtin: "normalizedString" } },
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				engRight: {
+					type: { builtin: "normalizedString" },
 					default: "full",
-					facets: {
-						enumeration: [
-							"full",
-							"fix",
-							"dataflow"
-						],
-						whiteSpace: "replace"
-					}
+					facets: { enumeration: [
+						"full",
+						"fix",
+						"dataflow"
+					] }
 				},
-				manufacturer: { facets: { whiteSpace: "replace" } },
+				manufacturer: { type: { builtin: "normalizedString" } },
 				name: {
+					type: { builtin: "Name" },
 					required: !0,
 					facets: {
 						pattern: [
@@ -14061,44 +19757,35 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"[A-Za-z][0-9A-Za-z_]*",
 							"[A-Za-z_:][-.:0-9A-Z_a-z]*"
 						],
-						maxLength: 64,
-						whiteSpace: "collapse"
+						maxLength: 64
 					}
 				},
 				originalSclRelease: {
+					type: { builtin: "unsignedByte" },
 					default: "1",
 					facets: {
 						minInclusive: 0,
 						maxInclusive: 255,
-						minExclusive: 0,
-						whiteSpace: "collapse"
+						minExclusive: 0
 					}
 				},
 				originalSclRevision: {
+					type: { builtin: "Name" },
 					default: "A",
-					facets: {
-						pattern: ["[A-Z]", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
-					}
+					facets: { pattern: ["[A-Z]", "[A-Za-z_:][-.:0-9A-Z_a-z]*"] }
 				},
 				originalSclVersion: {
+					type: { builtin: "normalizedString" },
 					default: "2003",
 					facets: {
 						pattern: ["2[0-2][0-9]{2}"],
-						minLength: 1,
-						whiteSpace: "replace"
+						minLength: 1
 					}
 				},
-				owner: { facets: { whiteSpace: "replace" } },
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				type: { facets: { whiteSpace: "replace" } },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				owner: { type: { builtin: "normalizedString" } },
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				type: { type: { builtin: "normalizedString" } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			},
 			identityFields: ["name"]
 		},
@@ -14188,6 +19875,72 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				},
 				CheckoutID: {}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [
+						{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						},
+						{
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "Private"
+						}
+					]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [
+					{
+						kind: "element",
+						name: "Services",
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "AccessPoint",
+						minOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "KDC"
+					},
+					{
+						kind: "element",
+						name: "IEDSourceFiles",
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "MinRequestedSCDFiles",
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "Labels",
+						maxOccurs: 1
+					}
+				]
+			}]
 		},
 		constraints: [
 			{
@@ -14337,85 +20090,359 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				apRef: {
+					type: { builtin: "normalizedString" },
 					required: !0,
 					facets: {
 						pattern: ["[A-Za-z0-9][0-9A-Za-z_]*"],
-						maxLength: 32,
-						whiteSpace: "replace"
+						maxLength: 32
 					}
 				},
-				apUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				ldInst: { facets: {
-					pattern: ["[A-Za-z0-9][0-9A-Za-z_]*"],
-					maxLength: 64,
-					whiteSpace: "replace"
-				} },
-				ldUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				lnClass: { facets: {
-					enumeration: /* @__PURE__ */ "LLN0.LPHD.LCCH.LGOS.LSVS.LTIM.LTMS.LTRK.ANCR.ARCO.ARIS.ATCC.AVCO.CALH.CCGR.CILO.CPOW.CSWI.CSYN.FCNT.FCSD.FFIL.FLIM.FPID.FRMP.FSPT.FXOT.FXUT.GAPC.GGIO.GLOG.GSAL.IARC.IHMI.ISAF.ITCI.ITMI.ITPC.KFAN.KFIL.KPMP.KTNK.KVLV.MDIF.MENV.MFLK.MHAI.MHAN.MHYD.MMDC.MMET.MMTN.MMTR.MMXN.MMXU.MSQI.MSTA.PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU.QFVR.QITR.QIUB.QVTR.QVUB.QVVR.RADR.RBDR.RBRF.RDIR.RDRE.RDRS.RFLO.RMXU.RPSB.RREC.RSYN.SARC.SCBR.SIMG.SIML.SLTC.SOPM.SPDC.SPTR.SSWI.STMP.SVBR.TANG.TAXD.TCTR.TDST.TFLW.TFRQ.TGSN.THUM.TLVL.TMGF.TMVM.TPOS.TPRS.TRTN.TSND.TTMP.TTNS.TVBR.TVTR.TWPH.XCBR.XSWI.YEFN.YLTC.YPSH.YPTR.ZAXN.ZBAT.ZBSH.ZCAB.ZCAP.ZCON.ZGEN.ZGIL.ZLIN.ZMOT.ZREA.ZRES.ZRRC.ZSAR.ZSCR.ZSMC.ZTCF.ZTCR".split("."),
-					pattern: [
-						"[A-Z]+",
-						"L[A-Z]*",
-						"LLN0",
-						"[A-Za-z_:][-.:0-9A-Z_a-z]*",
-						"A[A-Z]*",
-						"C[A-Z]*",
-						"F[A-Z]*",
-						"G[A-Z]*",
-						"I[A-Z]*",
-						"K[A-Z]*",
-						"M[A-Z]*",
-						"P[A-Z]*",
-						"Q[A-Z]*",
-						"R[A-Z]*",
-						"S[A-Z]*",
-						"T[A-Z]*",
-						"X[A-Z]*",
-						"Y[A-Z]*",
-						"Z[A-Z]*"
-					],
-					length: 4,
-					whiteSpace: "collapse"
-				} },
-				lnInst: { facets: {
-					pattern: ["[0-9]{1,12}"],
-					whiteSpace: "replace"
-				} },
-				lnUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				prefix: { facets: {
-					pattern: ["[A-Za-z][0-9A-Za-z_]*", ""],
-					maxLength: 11,
-					whiteSpace: "replace"
-				} }
+				apUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				ldInst: {
+					type: { builtin: "normalizedString" },
+					facets: {
+						pattern: ["[A-Za-z0-9][0-9A-Za-z_]*"],
+						maxLength: 64
+					}
+				},
+				ldUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				lnClass: {
+					type: { union: [{ union: [{
+						builtin: "Name",
+						facets: {
+							enumeration: [
+								"LLN0",
+								"LPHD",
+								"LCCH",
+								"LGOS",
+								"LSVS",
+								"LTIM",
+								"LTMS",
+								"LTRK"
+							],
+							pattern: ["L[A-Z]*", "LLN0"],
+							length: 4
+						}
+					}, { union: [
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"ANCR",
+									"ARCO",
+									"ARIS",
+									"ATCC",
+									"AVCO"
+								],
+								pattern: ["A[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"CALH",
+									"CCGR",
+									"CILO",
+									"CPOW",
+									"CSWI",
+									"CSYN"
+								],
+								pattern: ["C[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"FCNT",
+									"FCSD",
+									"FFIL",
+									"FLIM",
+									"FPID",
+									"FRMP",
+									"FSPT",
+									"FXOT",
+									"FXUT"
+								],
+								pattern: ["F[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"GAPC",
+									"GGIO",
+									"GLOG",
+									"GSAL"
+								],
+								pattern: ["G[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"IARC",
+									"IHMI",
+									"ISAF",
+									"ITCI",
+									"ITMI",
+									"ITPC"
+								],
+								pattern: ["I[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"KFAN",
+									"KFIL",
+									"KPMP",
+									"KTNK",
+									"KVLV"
+								],
+								pattern: ["K[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"MDIF",
+									"MENV",
+									"MFLK",
+									"MHAI",
+									"MHAN",
+									"MHYD",
+									"MMDC",
+									"MMET",
+									"MMTN",
+									"MMTR",
+									"MMXN",
+									"MMXU",
+									"MSQI",
+									"MSTA"
+								],
+								pattern: ["M[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: /* @__PURE__ */ "PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU".split("."),
+								pattern: ["P[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"QFVR",
+									"QITR",
+									"QIUB",
+									"QVTR",
+									"QVUB",
+									"QVVR"
+								],
+								pattern: ["Q[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"RADR",
+									"RBDR",
+									"RBRF",
+									"RDIR",
+									"RDRE",
+									"RDRS",
+									"RFLO",
+									"RMXU",
+									"RPSB",
+									"RREC",
+									"RSYN"
+								],
+								pattern: ["R[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"SARC",
+									"SCBR",
+									"SIMG",
+									"SIML",
+									"SLTC",
+									"SOPM",
+									"SPDC",
+									"SPTR",
+									"SSWI",
+									"STMP",
+									"SVBR"
+								],
+								pattern: ["S[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"TANG",
+									"TAXD",
+									"TCTR",
+									"TDST",
+									"TFLW",
+									"TFRQ",
+									"TGSN",
+									"THUM",
+									"TLVL",
+									"TMGF",
+									"TMVM",
+									"TPOS",
+									"TPRS",
+									"TRTN",
+									"TSND",
+									"TTMP",
+									"TTNS",
+									"TVBR",
+									"TVTR",
+									"TWPH"
+								],
+								pattern: ["T[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: ["XCBR", "XSWI"],
+								pattern: ["X[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"YEFN",
+									"YLTC",
+									"YPSH",
+									"YPTR"
+								],
+								pattern: ["Y[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"ZAXN",
+									"ZBAT",
+									"ZBSH",
+									"ZCAB",
+									"ZCAP",
+									"ZCON",
+									"ZGEN",
+									"ZGIL",
+									"ZLIN",
+									"ZMOT",
+									"ZREA",
+									"ZRES",
+									"ZRRC",
+									"ZSAR",
+									"ZSCR",
+									"ZSMC",
+									"ZTCF",
+									"ZTCR"
+								],
+								pattern: ["Z[A-Z]*"],
+								length: 4
+							}
+						}
+					] }] }, {
+						builtin: "Name",
+						facets: {
+							pattern: ["[A-Z]+"],
+							length: 4
+						}
+					}] },
+					facets: {
+						enumeration: /* @__PURE__ */ "LLN0.LPHD.LCCH.LGOS.LSVS.LTIM.LTMS.LTRK.ANCR.ARCO.ARIS.ATCC.AVCO.CALH.CCGR.CILO.CPOW.CSWI.CSYN.FCNT.FCSD.FFIL.FLIM.FPID.FRMP.FSPT.FXOT.FXUT.GAPC.GGIO.GLOG.GSAL.IARC.IHMI.ISAF.ITCI.ITMI.ITPC.KFAN.KFIL.KPMP.KTNK.KVLV.MDIF.MENV.MFLK.MHAI.MHAN.MHYD.MMDC.MMET.MMTN.MMTR.MMXN.MMXU.MSQI.MSTA.PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU.QFVR.QITR.QIUB.QVTR.QVUB.QVVR.RADR.RBDR.RBRF.RDIR.RDRE.RDRS.RFLO.RMXU.RPSB.RREC.RSYN.SARC.SCBR.SIMG.SIML.SLTC.SOPM.SPDC.SPTR.SSWI.STMP.SVBR.TANG.TAXD.TCTR.TDST.TFLW.TFRQ.TGSN.THUM.TLVL.TMGF.TMVM.TPOS.TPRS.TRTN.TSND.TTMP.TTNS.TVBR.TVTR.TWPH.XCBR.XSWI.YEFN.YLTC.YPSH.YPTR.ZAXN.ZBAT.ZBSH.ZCAB.ZCAP.ZCON.ZGEN.ZGIL.ZLIN.ZMOT.ZREA.ZRES.ZRRC.ZSAR.ZSCR.ZSMC.ZTCF.ZTCR".split("."),
+						pattern: [
+							"[A-Z]+",
+							"L[A-Z]*",
+							"LLN0",
+							"[A-Za-z_:][-.:0-9A-Z_a-z]*",
+							"A[A-Z]*",
+							"C[A-Z]*",
+							"F[A-Z]*",
+							"G[A-Z]*",
+							"I[A-Z]*",
+							"K[A-Z]*",
+							"M[A-Z]*",
+							"P[A-Z]*",
+							"Q[A-Z]*",
+							"R[A-Z]*",
+							"S[A-Z]*",
+							"T[A-Z]*",
+							"X[A-Z]*",
+							"Y[A-Z]*",
+							"Z[A-Z]*"
+						],
+						length: 4
+					}
+				},
+				lnInst: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[0-9]{1,12}"] }
+				},
+				lnUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				prefix: {
+					type: { builtin: "normalizedString" },
+					facets: {
+						pattern: ["[A-Za-z][0-9A-Za-z_]*", ""],
+						maxLength: 11
+					}
+				}
 			}
 		},
 		children: {
 			sequence: [],
 			details: {}
 		},
-		textContent: { facets: {
-			pattern: [
-				"[A-Za-z][0-9A-Za-z_]{0,2}",
-				"[A-Za-z][0-9A-Za-z_]{4,63}",
-				"[A-MO-Za-z][0-9A-Za-z_]{3}",
-				"N[0-9A-Za-np-z_][0-9A-Za-z_]{2}",
-				"No[0-9A-Za-mo-z_][0-9A-Za-z_]",
-				"Non[0-9A-Za-df-z_]",
-				"[A-Za-z][0-9A-Za-z_]*",
-				"[A-Za-z_:][-.:0-9A-Z_a-z]*"
-			],
-			maxLength: 64,
-			whiteSpace: "collapse"
-		} }
+		textContent: {
+			type: { builtin: "Name" },
+			facets: {
+				pattern: [
+					"[A-Za-z][0-9A-Za-z_]{0,2}",
+					"[A-Za-z][0-9A-Za-z_]{4,63}",
+					"[A-MO-Za-z][0-9A-Za-z_]{3}",
+					"N[0-9A-Za-np-z_][0-9A-Za-z_]{2}",
+					"No[0-9A-Za-mo-z_][0-9A-Za-z_]",
+					"Non[0-9A-Za-df-z_]",
+					"[A-Za-z][0-9A-Za-z_]*",
+					"[A-Za-z_:][-.:0-9A-Z_a-z]*"
+				],
+				maxLength: 64
+			}
+		}
 	},
 	IEDSourceFiles: {
 		tag: "IEDSourceFiles",
@@ -14426,6 +20453,8 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		parents: ["IED"],
 		attributes: {
 			sequence: [],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {}
 		},
 		children: {
@@ -14440,6 +20469,40 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				Private: {},
 				SclFileReference: {}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [
+					{
+						kind: "any",
+						namespace: ["##other"],
+						processContents: "lax"
+					},
+					{
+						kind: "element",
+						name: "Text",
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "Private"
+					}
+				]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "SclFileReference"
+				}]
+			}]
 		}
 	},
 	InputVar: {
@@ -14463,43 +20526,38 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"varName"
 			],
 			details: {
-				daName: { facets: {
-					pattern: ["[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?(\\.[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?)*"],
-					whiteSpace: "replace"
-				} },
-				dataName: { facets: {
-					pattern: [".+(/.+)*"],
-					whiteSpace: "replace"
-				} },
-				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+				daName: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?(\\.[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?)*"] }
 				},
-				doName: { facets: {
-					pattern: ["[A-Z][0-9A-Za-z]{0,11}(\\.[a-z][0-9A-Za-z]*(\\([0-9]+\\))?)?"],
-					whiteSpace: "replace"
-				} },
-				inputName: { facets: {
-					pattern: [".+(/.+)*"],
-					whiteSpace: "replace"
-				} },
-				inputUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				lnodeUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				value: { facets: {
-					minLength: 1,
-					whiteSpace: "replace"
-				} },
+				dataName: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: [".+(/.+)*"] }
+				},
+				desc: {
+					type: { builtin: "normalizedString" },
+					default: ""
+				},
+				doName: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[A-Z][0-9A-Za-z]{0,11}(\\.[a-z][0-9A-Za-z]*(\\([0-9]+\\))?)?"] }
+				},
+				inputName: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: [".+(/.+)*"] }
+				},
+				inputUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				lnodeUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				value: {
+					type: { builtin: "normalizedString" },
+					facets: { minLength: 1 }
+				},
 				varName: {
-					required: !0,
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					required: !0
 				}
-			}
+			},
+			identityFields: ["varName"]
 		},
 		children: {
 			sequence: ["Text"],
@@ -14511,6 +20569,35 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					uri: "http://www.iec.ch/61850/2019/SCL/6-100"
 				}
 			} }
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						}, {
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						}]
+					}]
+				}]
+			}]
 		}
 	},
 	InputVarRef: {
@@ -14531,18 +20618,15 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				value: { facets: { whiteSpace: "replace" } },
-				variable: { facets: {
-					pattern: [".+(/.+)*"],
-					whiteSpace: "replace"
-				} },
-				variableUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
+				value: { type: { builtin: "normalizedString" } },
+				variable: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: [".+(/.+)*"] }
+				},
+				variableUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
 				"xsi:type": {
 					namespace: {
 						prefix: "xsi",
@@ -14564,8 +20648,42 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					}
 				},
 				FunctionalVariantRef: {}
-			},
-			choices: [{ options: ["FunctionalVariantRef"] }]
+			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						}, {
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						}]
+					}]
+				}, {
+					kind: "choice",
+					particles: [{
+						kind: "element",
+						name: "FunctionalVariantRef"
+					}]
+				}]
+			}]
 		}
 	},
 	Inputs: {
@@ -14577,9 +20695,11 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		parents: ["LN0", "LN"],
 		attributes: {
 			sequence: ["desc"],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: { desc: {
-				default: "",
-				facets: { whiteSpace: "replace" }
+				type: { builtin: "normalizedString" },
+				default: ""
 			} }
 		},
 		children: {
@@ -14597,6 +20717,46 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					minOccurs: 1
 				}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [
+						{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						},
+						{
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "Private"
+						}
+					]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "ExtRef",
+					minOccurs: 1
+				}]
+			}]
 		}
 	},
 	IssuerName: {
@@ -14610,19 +20770,17 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: ["commonName", "idHierarchy"],
 			details: {
 				commonName: {
+					type: { builtin: "normalizedString" },
 					required: !0,
 					facets: {
 						pattern: ["none", "CN=.+"],
-						minLength: 4,
-						whiteSpace: "replace"
+						minLength: 4
 					}
 				},
 				idHierarchy: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				}
 			}
 		},
@@ -14646,18 +20804,16 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				apName: {
+					type: { builtin: "normalizedString" },
 					required: !0,
 					facets: {
 						pattern: ["[A-Za-z0-9][0-9A-Za-z_]*"],
-						maxLength: 32,
-						whiteSpace: "replace"
+						maxLength: 32
 					}
 				},
-				apUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
+				apUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
 				iedName: {
+					type: { builtin: "Name" },
 					required: !0,
 					facets: {
 						pattern: [
@@ -14670,8 +20826,7 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"[A-Za-z][0-9A-Za-z_]*",
 							"[A-Za-z_:][-.:0-9A-Z_a-z]*"
 						],
-						maxLength: 64,
-						whiteSpace: "collapse"
+						maxLength: 64
 					}
 				}
 			}
@@ -14697,26 +20852,26 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"vlanPriority"
 			],
 			details: {
-				appId: { facets: {
-					pattern: ["[0-9A-F]{4}"],
-					whiteSpace: "replace"
-				} },
-				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+				appId: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[0-9A-F]{4}"] }
 				},
-				macAddr: { facets: {
-					pattern: ["[0-9A-F]{2}\\-[0-9A-F]{2}\\-[0-9A-F]{2}\\-[0-9A-F]{2}\\-[0-9A-F]{2}\\-[0-9A-F]{2}"],
-					whiteSpace: "replace"
-				} },
-				vlanId: { facets: {
-					pattern: ["[0-9A-F]{3}"],
-					whiteSpace: "replace"
-				} },
-				vlanPriority: { facets: {
-					pattern: ["[0-7]"],
-					whiteSpace: "replace"
-				} }
+				desc: {
+					type: { builtin: "normalizedString" },
+					default: ""
+				},
+				macAddr: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[0-9A-F]{2}\\-[0-9A-F]{2}\\-[0-9A-F]{2}\\-[0-9A-F]{2}\\-[0-9A-F]{2}\\-[0-9A-F]{2}"] }
+				},
+				vlanId: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[0-9A-F]{3}"] }
+				},
+				vlanPriority: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[0-7]"] }
+				}
 			}
 		},
 		children: {
@@ -14729,6 +20884,35 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					uri: "http://www.iec.ch/61850/2019/SCL/6-100"
 				}
 			} }
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						}, {
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						}]
+					}]
+				}]
+			}]
 		}
 	},
 	L3IPv4CommParameters: {
@@ -14748,30 +20932,30 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"vlanPriority"
 			],
 			details: {
-				IPv4: { facets: {
-					pattern: ["([0-9]{1,2}|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.([0-9]{1,2}|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.([0-9]{1,2}|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.([0-9]{1,2}|1[0-9]{2}|2[0-4][0-9]|25[0-5])"],
-					whiteSpace: "replace"
-				} },
-				"IPv4-IGMPv3Src": { facets: {
-					pattern: ["([0-9]{1,2}|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.([0-9]{1,2}|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.([0-9]{1,2}|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.([0-9]{1,2}|1[0-9]{2}|2[0-4][0-9]|25[0-5])"],
-					whiteSpace: "replace"
-				} },
-				appId: { facets: {
-					pattern: ["[0-9A-F]{4}"],
-					whiteSpace: "replace"
-				} },
-				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+				IPv4: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["([0-9]{1,2}|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.([0-9]{1,2}|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.([0-9]{1,2}|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.([0-9]{1,2}|1[0-9]{2}|2[0-4][0-9]|25[0-5])"] }
 				},
-				vlanId: { facets: {
-					pattern: ["[0-9A-F]{3}"],
-					whiteSpace: "replace"
-				} },
-				vlanPriority: { facets: {
-					pattern: ["[0-7]"],
-					whiteSpace: "replace"
-				} }
+				"IPv4-IGMPv3Src": {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["([0-9]{1,2}|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.([0-9]{1,2}|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.([0-9]{1,2}|1[0-9]{2}|2[0-4][0-9]|25[0-5])\\.([0-9]{1,2}|1[0-9]{2}|2[0-4][0-9]|25[0-5])"] }
+				},
+				appId: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[0-9A-F]{4}"] }
+				},
+				desc: {
+					type: { builtin: "normalizedString" },
+					default: ""
+				},
+				vlanId: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[0-9A-F]{3}"] }
+				},
+				vlanPriority: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[0-7]"] }
+				}
 			}
 		},
 		children: {
@@ -14784,6 +20968,35 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					uri: "http://www.iec.ch/61850/2019/SCL/6-100"
 				}
 			} }
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						}, {
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						}]
+					}]
+				}]
+			}]
 		}
 	},
 	L3IPv6CommParameters: {
@@ -14803,30 +21016,30 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"vlanPriority"
 			],
 			details: {
-				IPv6: { facets: {
-					pattern: ["([0-9a-f]{1,4}:){7}[0-9a-f]{1,4}"],
-					whiteSpace: "replace"
-				} },
-				"IPv6-IGMPv3Src": { facets: {
-					pattern: ["([0-9a-f]{1,4}:){7}[0-9a-f]{1,4}"],
-					whiteSpace: "replace"
-				} },
-				appId: { facets: {
-					pattern: ["[0-9A-F]{4}"],
-					whiteSpace: "replace"
-				} },
-				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+				IPv6: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["([0-9a-f]{1,4}:){7}[0-9a-f]{1,4}"] }
 				},
-				vlanId: { facets: {
-					pattern: ["[0-9A-F]{3}"],
-					whiteSpace: "replace"
-				} },
-				vlanPriority: { facets: {
-					pattern: ["[0-7]"],
-					whiteSpace: "replace"
-				} }
+				"IPv6-IGMPv3Src": {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["([0-9a-f]{1,4}:){7}[0-9a-f]{1,4}"] }
+				},
+				appId: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[0-9A-F]{4}"] }
+				},
+				desc: {
+					type: { builtin: "normalizedString" },
+					default: ""
+				},
+				vlanId: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[0-9A-F]{3}"] }
+				},
+				vlanPriority: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[0-7]"] }
+				}
 			}
 		},
 		children: {
@@ -14839,6 +21052,35 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					uri: "http://www.iec.ch/61850/2019/SCL/6-100"
 				}
 			} }
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						}, {
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						}]
+					}]
+				}]
+			}]
 		}
 	},
 	LDevice: {
@@ -14856,32 +21098,30 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"templateUuid",
 				"uuid"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				inst: {
+					type: { builtin: "normalizedString" },
 					required: !0,
 					facets: {
 						pattern: ["[A-Za-z0-9][0-9A-Za-z_]*"],
-						maxLength: 64,
-						whiteSpace: "replace"
+						maxLength: 64
 					}
 				},
-				ldName: { facets: {
-					pattern: ["[A-Za-z][0-9A-Za-z_]*"],
-					maxLength: 64,
-					whiteSpace: "replace"
-				} },
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				ldName: {
+					type: { builtin: "normalizedString" },
+					facets: {
+						pattern: ["[A-Za-z][0-9A-Za-z_]*"],
+						maxLength: 64
+					}
+				},
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			},
 			identityFields: ["inst"]
 		},
@@ -15170,6 +21410,63 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				}
 			}
 		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [
+						{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						},
+						{
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "Private"
+						}
+					]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [
+					{
+						kind: "element",
+						name: "LN0",
+						minOccurs: 1,
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "LN"
+					},
+					{
+						kind: "element",
+						name: "AccessControl",
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "Labels",
+						maxOccurs: 1
+					}
+				]
+			}]
+		},
 		constraints: [{
 			kind: "unique",
 			name: "uniqueLNInLDevice",
@@ -15213,19 +21510,295 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"templateUuid",
 				"uuid"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				inst: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						pattern: ["[0-9]{1,12}"],
-						whiteSpace: "replace"
-					}
+					facets: { pattern: ["[0-9]{1,12}"] }
 				},
 				lnClass: {
+					type: { union: [{ union: [{
+						builtin: "Name",
+						facets: {
+							enumeration: [
+								"LLN0",
+								"LPHD",
+								"LCCH",
+								"LGOS",
+								"LSVS",
+								"LTIM",
+								"LTMS",
+								"LTRK"
+							],
+							pattern: ["L[A-Z]*", "LLN0"],
+							length: 4
+						}
+					}, { union: [
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"ANCR",
+									"ARCO",
+									"ARIS",
+									"ATCC",
+									"AVCO"
+								],
+								pattern: ["A[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"CALH",
+									"CCGR",
+									"CILO",
+									"CPOW",
+									"CSWI",
+									"CSYN"
+								],
+								pattern: ["C[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"FCNT",
+									"FCSD",
+									"FFIL",
+									"FLIM",
+									"FPID",
+									"FRMP",
+									"FSPT",
+									"FXOT",
+									"FXUT"
+								],
+								pattern: ["F[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"GAPC",
+									"GGIO",
+									"GLOG",
+									"GSAL"
+								],
+								pattern: ["G[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"IARC",
+									"IHMI",
+									"ISAF",
+									"ITCI",
+									"ITMI",
+									"ITPC"
+								],
+								pattern: ["I[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"KFAN",
+									"KFIL",
+									"KPMP",
+									"KTNK",
+									"KVLV"
+								],
+								pattern: ["K[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"MDIF",
+									"MENV",
+									"MFLK",
+									"MHAI",
+									"MHAN",
+									"MHYD",
+									"MMDC",
+									"MMET",
+									"MMTN",
+									"MMTR",
+									"MMXN",
+									"MMXU",
+									"MSQI",
+									"MSTA"
+								],
+								pattern: ["M[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: /* @__PURE__ */ "PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU".split("."),
+								pattern: ["P[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"QFVR",
+									"QITR",
+									"QIUB",
+									"QVTR",
+									"QVUB",
+									"QVVR"
+								],
+								pattern: ["Q[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"RADR",
+									"RBDR",
+									"RBRF",
+									"RDIR",
+									"RDRE",
+									"RDRS",
+									"RFLO",
+									"RMXU",
+									"RPSB",
+									"RREC",
+									"RSYN"
+								],
+								pattern: ["R[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"SARC",
+									"SCBR",
+									"SIMG",
+									"SIML",
+									"SLTC",
+									"SOPM",
+									"SPDC",
+									"SPTR",
+									"SSWI",
+									"STMP",
+									"SVBR"
+								],
+								pattern: ["S[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"TANG",
+									"TAXD",
+									"TCTR",
+									"TDST",
+									"TFLW",
+									"TFRQ",
+									"TGSN",
+									"THUM",
+									"TLVL",
+									"TMGF",
+									"TMVM",
+									"TPOS",
+									"TPRS",
+									"TRTN",
+									"TSND",
+									"TTMP",
+									"TTNS",
+									"TVBR",
+									"TVTR",
+									"TWPH"
+								],
+								pattern: ["T[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: ["XCBR", "XSWI"],
+								pattern: ["X[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"YEFN",
+									"YLTC",
+									"YPSH",
+									"YPTR"
+								],
+								pattern: ["Y[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"ZAXN",
+									"ZBAT",
+									"ZBSH",
+									"ZCAB",
+									"ZCAP",
+									"ZCON",
+									"ZGEN",
+									"ZGIL",
+									"ZLIN",
+									"ZMOT",
+									"ZREA",
+									"ZRES",
+									"ZRRC",
+									"ZSAR",
+									"ZSCR",
+									"ZSMC",
+									"ZTCF",
+									"ZTCR"
+								],
+								pattern: ["Z[A-Z]*"],
+								length: 4
+							}
+						}
+					] }] }, {
+						builtin: "Name",
+						facets: {
+							pattern: ["[A-Z]+"],
+							length: 4
+						}
+					}] },
 					required: !0,
 					facets: {
 						enumeration: /* @__PURE__ */ "LLN0.LPHD.LCCH.LGOS.LSVS.LTIM.LTMS.LTRK.ANCR.ARCO.ARIS.ATCC.AVCO.CALH.CCGR.CILO.CPOW.CSWI.CSYN.FCNT.FCSD.FFIL.FLIM.FPID.FRMP.FSPT.FXOT.FXUT.GAPC.GGIO.GLOG.GSAL.IARC.IHMI.ISAF.ITCI.ITMI.ITPC.KFAN.KFIL.KPMP.KTNK.KVLV.MDIF.MENV.MFLK.MHAI.MHAN.MHYD.MMDC.MMET.MMTN.MMTR.MMXN.MMXU.MSQI.MSTA.PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU.QFVR.QITR.QIUB.QVTR.QVUB.QVVR.RADR.RBDR.RBRF.RDIR.RDRE.RDRS.RFLO.RMXU.RPSB.RREC.RSYN.SARC.SCBR.SIMG.SIML.SLTC.SOPM.SPDC.SPTR.SSWI.STMP.SVBR.TANG.TAXD.TCTR.TDST.TFLW.TFRQ.TGSN.THUM.TLVL.TMGF.TMVM.TPOS.TPRS.TRTN.TSND.TTMP.TTNS.TVBR.TVTR.TWPH.XCBR.XSWI.YEFN.YLTC.YPSH.YPTR.ZAXN.ZBAT.ZBSH.ZCAB.ZCAP.ZCON.ZGEN.ZGIL.ZLIN.ZMOT.ZREA.ZRES.ZRRC.ZSAR.ZSCR.ZSMC.ZTCF.ZTCR".split("."),
@@ -15250,33 +21823,24 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"Y[A-Z]*",
 							"Z[A-Z]*"
 						],
-						length: 4,
-						whiteSpace: "collapse"
+						length: 4
 					}
 				},
 				lnType: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				},
 				prefix: {
+					type: { builtin: "normalizedString" },
 					default: "",
 					facets: {
 						pattern: ["[A-Za-z][0-9A-Za-z_]*", ""],
-						maxLength: 11,
-						whiteSpace: "replace"
+						maxLength: 11
 					}
 				},
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			},
 			identityFields: [
 				"inst",
@@ -15348,6 +21912,83 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					}]
 				}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [
+							{
+								kind: "any",
+								namespace: ["##other"],
+								processContents: "lax"
+							},
+							{
+								kind: "element",
+								name: "Text",
+								maxOccurs: 1
+							},
+							{
+								kind: "element",
+								name: "Private"
+							}
+						]
+					}]
+				}, {
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [
+						{
+							kind: "element",
+							name: "DataSet"
+						},
+						{
+							kind: "element",
+							name: "ReportControl"
+						},
+						{
+							kind: "element",
+							name: "LogControl"
+						},
+						{
+							kind: "element",
+							name: "DOI"
+						},
+						{
+							kind: "element",
+							name: "Inputs",
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "Outputs",
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "Log"
+						},
+						{
+							kind: "element",
+							name: "Labels",
+							maxOccurs: 1
+						}
+					]
+				}]
+			}]
 		},
 		constraints: [
 			{
@@ -15461,17 +22102,295 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"templateUuid",
 				"uuid"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				inst: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					fixed: "",
-					facets: { whiteSpace: "replace" }
+					fixed: ""
 				},
 				lnClass: {
+					type: { union: [{ union: [{
+						builtin: "Name",
+						facets: {
+							enumeration: [
+								"LLN0",
+								"LPHD",
+								"LCCH",
+								"LGOS",
+								"LSVS",
+								"LTIM",
+								"LTMS",
+								"LTRK"
+							],
+							pattern: ["L[A-Z]*", "LLN0"],
+							length: 4
+						}
+					}, { union: [
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"ANCR",
+									"ARCO",
+									"ARIS",
+									"ATCC",
+									"AVCO"
+								],
+								pattern: ["A[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"CALH",
+									"CCGR",
+									"CILO",
+									"CPOW",
+									"CSWI",
+									"CSYN"
+								],
+								pattern: ["C[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"FCNT",
+									"FCSD",
+									"FFIL",
+									"FLIM",
+									"FPID",
+									"FRMP",
+									"FSPT",
+									"FXOT",
+									"FXUT"
+								],
+								pattern: ["F[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"GAPC",
+									"GGIO",
+									"GLOG",
+									"GSAL"
+								],
+								pattern: ["G[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"IARC",
+									"IHMI",
+									"ISAF",
+									"ITCI",
+									"ITMI",
+									"ITPC"
+								],
+								pattern: ["I[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"KFAN",
+									"KFIL",
+									"KPMP",
+									"KTNK",
+									"KVLV"
+								],
+								pattern: ["K[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"MDIF",
+									"MENV",
+									"MFLK",
+									"MHAI",
+									"MHAN",
+									"MHYD",
+									"MMDC",
+									"MMET",
+									"MMTN",
+									"MMTR",
+									"MMXN",
+									"MMXU",
+									"MSQI",
+									"MSTA"
+								],
+								pattern: ["M[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: /* @__PURE__ */ "PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU".split("."),
+								pattern: ["P[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"QFVR",
+									"QITR",
+									"QIUB",
+									"QVTR",
+									"QVUB",
+									"QVVR"
+								],
+								pattern: ["Q[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"RADR",
+									"RBDR",
+									"RBRF",
+									"RDIR",
+									"RDRE",
+									"RDRS",
+									"RFLO",
+									"RMXU",
+									"RPSB",
+									"RREC",
+									"RSYN"
+								],
+								pattern: ["R[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"SARC",
+									"SCBR",
+									"SIMG",
+									"SIML",
+									"SLTC",
+									"SOPM",
+									"SPDC",
+									"SPTR",
+									"SSWI",
+									"STMP",
+									"SVBR"
+								],
+								pattern: ["S[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"TANG",
+									"TAXD",
+									"TCTR",
+									"TDST",
+									"TFLW",
+									"TFRQ",
+									"TGSN",
+									"THUM",
+									"TLVL",
+									"TMGF",
+									"TMVM",
+									"TPOS",
+									"TPRS",
+									"TRTN",
+									"TSND",
+									"TTMP",
+									"TTNS",
+									"TVBR",
+									"TVTR",
+									"TWPH"
+								],
+								pattern: ["T[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: ["XCBR", "XSWI"],
+								pattern: ["X[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"YEFN",
+									"YLTC",
+									"YPSH",
+									"YPTR"
+								],
+								pattern: ["Y[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"ZAXN",
+									"ZBAT",
+									"ZBSH",
+									"ZCAB",
+									"ZCAP",
+									"ZCON",
+									"ZGEN",
+									"ZGIL",
+									"ZLIN",
+									"ZMOT",
+									"ZREA",
+									"ZRES",
+									"ZRRC",
+									"ZSAR",
+									"ZSCR",
+									"ZSMC",
+									"ZTCF",
+									"ZTCR"
+								],
+								pattern: ["Z[A-Z]*"],
+								length: 4
+							}
+						}
+					] }] }, {
+						builtin: "Name",
+						facets: {
+							pattern: ["[A-Z]+"],
+							length: 4
+						}
+					}] },
 					required: !0,
 					fixed: "LLN0",
 					facets: {
@@ -15497,25 +22416,16 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"Y[A-Z]*",
 							"Z[A-Z]*"
 						],
-						length: 4,
-						whiteSpace: "collapse"
+						length: 4
 					}
 				},
 				lnType: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				},
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			}
 		},
 		children: {
@@ -15588,6 +22498,107 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				SampledValueControl: {},
 				SettingControl: { maxOccurs: 1 }
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [
+								{
+									kind: "any",
+									namespace: ["##other"],
+									processContents: "lax"
+								},
+								{
+									kind: "element",
+									name: "Text",
+									maxOccurs: 1
+								},
+								{
+									kind: "element",
+									name: "Private"
+								}
+							]
+						}]
+					}, {
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [
+							{
+								kind: "element",
+								name: "DataSet"
+							},
+							{
+								kind: "element",
+								name: "ReportControl"
+							},
+							{
+								kind: "element",
+								name: "LogControl"
+							},
+							{
+								kind: "element",
+								name: "DOI"
+							},
+							{
+								kind: "element",
+								name: "Inputs",
+								maxOccurs: 1
+							},
+							{
+								kind: "element",
+								name: "Outputs",
+								maxOccurs: 1
+							},
+							{
+								kind: "element",
+								name: "Log"
+							},
+							{
+								kind: "element",
+								name: "Labels",
+								maxOccurs: 1
+							}
+						]
+					}]
+				}, {
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [
+						{
+							kind: "element",
+							name: "GSEControl"
+						},
+						{
+							kind: "element",
+							name: "SampledValueControl"
+						},
+						{
+							kind: "element",
+							name: "SettingControl",
+							maxOccurs: 1
+						}
+					]
+				}]
+			}]
 		},
 		constraints: [
 			{
@@ -15778,12 +22789,32 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"templateUuid",
 				"uuid"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				iedName: {
+					type: { union: [{
+						builtin: "Name",
+						facets: {
+							pattern: [
+								"[A-Za-z][0-9A-Za-z_]{0,2}",
+								"[A-Za-z][0-9A-Za-z_]{4,63}",
+								"[A-MO-Za-z][0-9A-Za-z_]{3}",
+								"N[0-9A-Za-np-z_][0-9A-Za-z_]{2}",
+								"No[0-9A-Za-mo-z_][0-9A-Za-z_]",
+								"Non[0-9A-Za-df-z_]",
+								"[A-Za-z][0-9A-Za-z_]*"
+							],
+							maxLength: 64
+						}
+					}, {
+						builtin: "Name",
+						facets: { pattern: ["None", "[A-Za-z][0-9A-Za-z_]*"] }
+					}] },
 					default: "None",
 					facets: {
 						pattern: [
@@ -15797,19 +22828,303 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"[A-Za-z][0-9A-Za-z_]*",
 							"[A-Za-z_:][-.:0-9A-Z_a-z]*"
 						],
-						maxLength: 64,
-						whiteSpace: "collapse"
+						maxLength: 64
 					}
 				},
 				ldInst: {
+					type: { union: [{
+						builtin: "normalizedString",
+						facets: {
+							pattern: ["[A-Za-z0-9][0-9A-Za-z_]*"],
+							maxLength: 64
+						}
+					}, {
+						builtin: "normalizedString",
+						facets: { maxLength: 0 }
+					}] },
 					default: "",
 					facets: {
 						pattern: ["[A-Za-z0-9][0-9A-Za-z_]*"],
-						maxLength: 64,
-						whiteSpace: "replace"
+						maxLength: 64
 					}
 				},
 				lnClass: {
+					type: { union: [{ union: [{
+						builtin: "Name",
+						facets: {
+							enumeration: [
+								"LLN0",
+								"LPHD",
+								"LCCH",
+								"LGOS",
+								"LSVS",
+								"LTIM",
+								"LTMS",
+								"LTRK"
+							],
+							pattern: ["L[A-Z]*", "LLN0"],
+							length: 4
+						}
+					}, { union: [
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"ANCR",
+									"ARCO",
+									"ARIS",
+									"ATCC",
+									"AVCO"
+								],
+								pattern: ["A[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"CALH",
+									"CCGR",
+									"CILO",
+									"CPOW",
+									"CSWI",
+									"CSYN"
+								],
+								pattern: ["C[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"FCNT",
+									"FCSD",
+									"FFIL",
+									"FLIM",
+									"FPID",
+									"FRMP",
+									"FSPT",
+									"FXOT",
+									"FXUT"
+								],
+								pattern: ["F[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"GAPC",
+									"GGIO",
+									"GLOG",
+									"GSAL"
+								],
+								pattern: ["G[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"IARC",
+									"IHMI",
+									"ISAF",
+									"ITCI",
+									"ITMI",
+									"ITPC"
+								],
+								pattern: ["I[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"KFAN",
+									"KFIL",
+									"KPMP",
+									"KTNK",
+									"KVLV"
+								],
+								pattern: ["K[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"MDIF",
+									"MENV",
+									"MFLK",
+									"MHAI",
+									"MHAN",
+									"MHYD",
+									"MMDC",
+									"MMET",
+									"MMTN",
+									"MMTR",
+									"MMXN",
+									"MMXU",
+									"MSQI",
+									"MSTA"
+								],
+								pattern: ["M[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: /* @__PURE__ */ "PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU".split("."),
+								pattern: ["P[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"QFVR",
+									"QITR",
+									"QIUB",
+									"QVTR",
+									"QVUB",
+									"QVVR"
+								],
+								pattern: ["Q[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"RADR",
+									"RBDR",
+									"RBRF",
+									"RDIR",
+									"RDRE",
+									"RDRS",
+									"RFLO",
+									"RMXU",
+									"RPSB",
+									"RREC",
+									"RSYN"
+								],
+								pattern: ["R[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"SARC",
+									"SCBR",
+									"SIMG",
+									"SIML",
+									"SLTC",
+									"SOPM",
+									"SPDC",
+									"SPTR",
+									"SSWI",
+									"STMP",
+									"SVBR"
+								],
+								pattern: ["S[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"TANG",
+									"TAXD",
+									"TCTR",
+									"TDST",
+									"TFLW",
+									"TFRQ",
+									"TGSN",
+									"THUM",
+									"TLVL",
+									"TMGF",
+									"TMVM",
+									"TPOS",
+									"TPRS",
+									"TRTN",
+									"TSND",
+									"TTMP",
+									"TTNS",
+									"TVBR",
+									"TVTR",
+									"TWPH"
+								],
+								pattern: ["T[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: ["XCBR", "XSWI"],
+								pattern: ["X[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"YEFN",
+									"YLTC",
+									"YPSH",
+									"YPTR"
+								],
+								pattern: ["Y[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"ZAXN",
+									"ZBAT",
+									"ZBSH",
+									"ZCAB",
+									"ZCAP",
+									"ZCON",
+									"ZGEN",
+									"ZGIL",
+									"ZLIN",
+									"ZMOT",
+									"ZREA",
+									"ZRES",
+									"ZRRC",
+									"ZSAR",
+									"ZSCR",
+									"ZSMC",
+									"ZTCF",
+									"ZTCR"
+								],
+								pattern: ["Z[A-Z]*"],
+								length: 4
+							}
+						}
+					] }] }, {
+						builtin: "Name",
+						facets: {
+							pattern: ["[A-Z]+"],
+							length: 4
+						}
+					}] },
 					required: !0,
 					facets: {
 						enumeration: /* @__PURE__ */ "LLN0.LPHD.LCCH.LGOS.LSVS.LTIM.LTMS.LTRK.ANCR.ARCO.ARIS.ATCC.AVCO.CALH.CCGR.CILO.CPOW.CSWI.CSYN.FCNT.FCSD.FFIL.FLIM.FPID.FRMP.FSPT.FXOT.FXUT.GAPC.GGIO.GLOG.GSAL.IARC.IHMI.ISAF.ITCI.ITMI.ITPC.KFAN.KFIL.KPMP.KTNK.KVLV.MDIF.MENV.MFLK.MHAI.MHAN.MHYD.MMDC.MMET.MMTN.MMTR.MMXN.MMXU.MSQI.MSTA.PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU.QFVR.QITR.QIUB.QVTR.QVUB.QVVR.RADR.RBDR.RBRF.RDIR.RDRE.RDRS.RFLO.RMXU.RPSB.RREC.RSYN.SARC.SCBR.SIMG.SIML.SLTC.SOPM.SPDC.SPTR.SSWI.STMP.SVBR.TANG.TAXD.TCTR.TDST.TFLW.TFRQ.TGSN.THUM.TLVL.TMGF.TMVM.TPOS.TPRS.TRTN.TSND.TTMP.TTNS.TVBR.TVTR.TWPH.XCBR.XSWI.YEFN.YLTC.YPSH.YPTR.ZAXN.ZBAT.ZBSH.ZCAB.ZCAP.ZCON.ZGEN.ZGIL.ZLIN.ZMOT.ZREA.ZRES.ZRRC.ZSAR.ZSCR.ZSMC.ZTCF.ZTCR".split("."),
@@ -15834,42 +23149,38 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"Y[A-Z]*",
 							"Z[A-Z]*"
 						],
-						length: 4,
-						whiteSpace: "collapse"
+						length: 4
 					}
 				},
 				lnInst: {
+					type: { union: [{
+						builtin: "normalizedString",
+						facets: { pattern: ["[0-9]{1,12}"] }
+					}, {
+						builtin: "normalizedString",
+						facets: { maxLength: 0 }
+					}] },
 					default: "",
 					facets: {
 						pattern: ["[0-9]{1,12}"],
-						maxLength: 0,
-						whiteSpace: "replace"
+						maxLength: 0
 					}
 				},
-				lnType: { facets: {
-					minLength: 1,
-					whiteSpace: "replace"
-				} },
-				lnUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
+				lnType: {
+					type: { builtin: "normalizedString" },
+					facets: { minLength: 1 }
+				},
+				lnUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
 				prefix: {
+					type: { builtin: "normalizedString" },
 					default: "",
 					facets: {
 						pattern: ["[A-Za-z][0-9A-Za-z_]*", ""],
-						maxLength: 11,
-						whiteSpace: "replace"
+						maxLength: 11
 					}
 				},
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			},
 			identityFields: [
 				"iedName",
@@ -15920,6 +23231,46 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				LNodeOutputs: {},
 				LNodeSpecNaming: {}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [
+						{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						},
+						{
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "Private"
+						}
+					]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "Labels",
+					maxOccurs: 1
+				}]
+			}]
 		}
 	},
 	LNodeDataRef: {
@@ -15939,26 +23290,23 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"lnodeUuid"
 			],
 			details: {
-				daName: { facets: {
-					pattern: ["[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?(\\.[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?)*"],
-					whiteSpace: "replace"
-				} },
-				data: { facets: {
-					pattern: [".+(/.+)*"],
-					whiteSpace: "replace"
-				} },
-				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+				daName: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?(\\.[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?)*"] }
 				},
-				doName: { facets: {
-					pattern: ["[A-Z][0-9A-Za-z]{0,11}(\\.[a-z][0-9A-Za-z]*(\\([0-9]+\\))?)?"],
-					whiteSpace: "replace"
-				} },
-				lnodeUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				data: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: [".+(/.+)*"] }
+				},
+				desc: {
+					type: { builtin: "normalizedString" },
+					default: ""
+				},
+				doName: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[A-Z][0-9A-Za-z]{0,11}(\\.[a-z][0-9A-Za-z]*(\\([0-9]+\\))?)?"] }
+				},
+				lnodeUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			}
 		},
 		children: {
@@ -15973,8 +23321,42 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					}
 				},
 				FunctionalVariantRef: {}
-			},
-			choices: [{ options: ["FunctionalVariantRef"] }]
+			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						}, {
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						}]
+					}]
+				}, {
+					kind: "choice",
+					particles: [{
+						kind: "element",
+						name: "FunctionalVariantRef"
+					}]
+				}]
+			}]
 		}
 	},
 	LNodeInputRef: {
@@ -15993,17 +23375,14 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				sourceRef: { facets: {
-					pattern: [".+(/.+)*"],
-					whiteSpace: "replace"
-				} },
-				sourceRefUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				sourceRef: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: [".+(/.+)*"] }
+				},
+				sourceRefUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			}
 		},
 		children: {
@@ -16018,8 +23397,42 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					}
 				},
 				FunctionalVariantRef: {}
-			},
-			choices: [{ options: ["FunctionalVariantRef"] }]
+			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						}, {
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						}]
+					}]
+				}, {
+					kind: "choice",
+					particles: [{
+						kind: "element",
+						name: "FunctionalVariantRef"
+					}]
+				}]
+			}]
 		}
 	},
 	LNodeInputs: {
@@ -16033,8 +23446,8 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		attributes: {
 			sequence: ["desc"],
 			details: { desc: {
-				default: "",
-				facets: { whiteSpace: "replace" }
+				type: { builtin: "normalizedString" },
+				default: ""
 			} }
 		},
 		children: {
@@ -16053,6 +23466,39 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					minOccurs: 1
 				}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "any",
+						namespace: ["##other"],
+						processContents: "lax"
+					}, {
+						kind: "element",
+						name: "Text",
+						maxOccurs: 1
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "SourceRef",
+					minOccurs: 1
+				}]
+			}]
 		},
 		constraints: [{
 			kind: "unique",
@@ -16095,17 +23541,14 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"desc"
 			],
 			details: {
-				controlRef: { facets: {
-					pattern: [".+(/.+)*"],
-					whiteSpace: "replace"
-				} },
-				controlRefUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
+				controlRef: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: [".+(/.+)*"] }
+				},
+				controlRefUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				}
 			}
 		},
@@ -16121,8 +23564,42 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					}
 				},
 				FunctionalVariantRef: {}
-			},
-			choices: [{ options: ["FunctionalVariantRef"] }]
+			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						}, {
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						}]
+					}]
+				}, {
+					kind: "choice",
+					particles: [{
+						kind: "element",
+						name: "FunctionalVariantRef"
+					}]
+				}]
+			}]
 		}
 	},
 	LNodeOutputs: {
@@ -16136,8 +23613,8 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		attributes: {
 			sequence: ["desc"],
 			details: { desc: {
-				default: "",
-				facets: { whiteSpace: "replace" }
+				type: { builtin: "normalizedString" },
+				default: ""
 			} }
 		},
 		children: {
@@ -16156,6 +23633,39 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					minOccurs: 1
 				}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "any",
+						namespace: ["##other"],
+						processContents: "lax"
+					}, {
+						kind: "element",
+						name: "Text",
+						maxOccurs: 1
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "ControlRef",
+					minOccurs: 1
+				}]
+			}]
 		},
 		constraints: [{
 			kind: "unique",
@@ -16192,61 +23702,361 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"sPrefix"
 			],
 			details: {
-				sIedName: { facets: {
-					pattern: [
-						"[A-Za-z][0-9A-Za-z_]{0,2}",
-						"[A-Za-z][0-9A-Za-z_]{4,63}",
-						"[A-MO-Za-z][0-9A-Za-z_]{3}",
-						"N[0-9A-Za-np-z_][0-9A-Za-z_]{2}",
-						"No[0-9A-Za-mo-z_][0-9A-Za-z_]",
-						"Non[0-9A-Za-df-z_]",
-						"None",
-						"[A-Za-z][0-9A-Za-z_]*",
-						"[A-Za-z_:][-.:0-9A-Z_a-z]*"
-					],
-					maxLength: 64,
-					whiteSpace: "collapse"
-				} },
-				sLdInst: { facets: {
-					pattern: ["[A-Za-z0-9][0-9A-Za-z_]*"],
-					maxLength: 64,
-					whiteSpace: "replace"
-				} },
-				sLnClass: { facets: {
-					enumeration: /* @__PURE__ */ "LLN0.LPHD.LCCH.LGOS.LSVS.LTIM.LTMS.LTRK.ANCR.ARCO.ARIS.ATCC.AVCO.CALH.CCGR.CILO.CPOW.CSWI.CSYN.FCNT.FCSD.FFIL.FLIM.FPID.FRMP.FSPT.FXOT.FXUT.GAPC.GGIO.GLOG.GSAL.IARC.IHMI.ISAF.ITCI.ITMI.ITPC.KFAN.KFIL.KPMP.KTNK.KVLV.MDIF.MENV.MFLK.MHAI.MHAN.MHYD.MMDC.MMET.MMTN.MMTR.MMXN.MMXU.MSQI.MSTA.PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU.QFVR.QITR.QIUB.QVTR.QVUB.QVVR.RADR.RBDR.RBRF.RDIR.RDRE.RDRS.RFLO.RMXU.RPSB.RREC.RSYN.SARC.SCBR.SIMG.SIML.SLTC.SOPM.SPDC.SPTR.SSWI.STMP.SVBR.TANG.TAXD.TCTR.TDST.TFLW.TFRQ.TGSN.THUM.TLVL.TMGF.TMVM.TPOS.TPRS.TRTN.TSND.TTMP.TTNS.TVBR.TVTR.TWPH.XCBR.XSWI.YEFN.YLTC.YPSH.YPTR.ZAXN.ZBAT.ZBSH.ZCAB.ZCAP.ZCON.ZGEN.ZGIL.ZLIN.ZMOT.ZREA.ZRES.ZRRC.ZSAR.ZSCR.ZSMC.ZTCF.ZTCR".split("."),
-					pattern: [
-						"[A-Z]+",
-						"L[A-Z]*",
-						"LLN0",
-						"[A-Za-z_:][-.:0-9A-Z_a-z]*",
-						"A[A-Z]*",
-						"C[A-Z]*",
-						"F[A-Z]*",
-						"G[A-Z]*",
-						"I[A-Z]*",
-						"K[A-Z]*",
-						"M[A-Z]*",
-						"P[A-Z]*",
-						"Q[A-Z]*",
-						"R[A-Z]*",
-						"S[A-Z]*",
-						"T[A-Z]*",
-						"X[A-Z]*",
-						"Y[A-Z]*",
-						"Z[A-Z]*"
-					],
-					length: 4,
-					whiteSpace: "collapse"
-				} },
-				sLnInst: { facets: {
-					pattern: ["[0-9]{1,12}"],
-					whiteSpace: "replace"
-				} },
-				sPrefix: { facets: {
-					pattern: ["[A-Za-z][0-9A-Za-z_]*", ""],
-					maxLength: 11,
-					whiteSpace: "replace"
-				} }
+				sIedName: {
+					type: { union: [{
+						builtin: "Name",
+						facets: {
+							pattern: [
+								"[A-Za-z][0-9A-Za-z_]{0,2}",
+								"[A-Za-z][0-9A-Za-z_]{4,63}",
+								"[A-MO-Za-z][0-9A-Za-z_]{3}",
+								"N[0-9A-Za-np-z_][0-9A-Za-z_]{2}",
+								"No[0-9A-Za-mo-z_][0-9A-Za-z_]",
+								"Non[0-9A-Za-df-z_]",
+								"[A-Za-z][0-9A-Za-z_]*"
+							],
+							maxLength: 64
+						}
+					}, {
+						builtin: "Name",
+						facets: { pattern: ["None", "[A-Za-z][0-9A-Za-z_]*"] }
+					}] },
+					facets: {
+						pattern: [
+							"[A-Za-z][0-9A-Za-z_]{0,2}",
+							"[A-Za-z][0-9A-Za-z_]{4,63}",
+							"[A-MO-Za-z][0-9A-Za-z_]{3}",
+							"N[0-9A-Za-np-z_][0-9A-Za-z_]{2}",
+							"No[0-9A-Za-mo-z_][0-9A-Za-z_]",
+							"Non[0-9A-Za-df-z_]",
+							"None",
+							"[A-Za-z][0-9A-Za-z_]*",
+							"[A-Za-z_:][-.:0-9A-Z_a-z]*"
+						],
+						maxLength: 64
+					}
+				},
+				sLdInst: {
+					type: { builtin: "normalizedString" },
+					facets: {
+						pattern: ["[A-Za-z0-9][0-9A-Za-z_]*"],
+						maxLength: 64
+					}
+				},
+				sLnClass: {
+					type: { union: [{ union: [{
+						builtin: "Name",
+						facets: {
+							enumeration: [
+								"LLN0",
+								"LPHD",
+								"LCCH",
+								"LGOS",
+								"LSVS",
+								"LTIM",
+								"LTMS",
+								"LTRK"
+							],
+							pattern: ["L[A-Z]*", "LLN0"],
+							length: 4
+						}
+					}, { union: [
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"ANCR",
+									"ARCO",
+									"ARIS",
+									"ATCC",
+									"AVCO"
+								],
+								pattern: ["A[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"CALH",
+									"CCGR",
+									"CILO",
+									"CPOW",
+									"CSWI",
+									"CSYN"
+								],
+								pattern: ["C[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"FCNT",
+									"FCSD",
+									"FFIL",
+									"FLIM",
+									"FPID",
+									"FRMP",
+									"FSPT",
+									"FXOT",
+									"FXUT"
+								],
+								pattern: ["F[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"GAPC",
+									"GGIO",
+									"GLOG",
+									"GSAL"
+								],
+								pattern: ["G[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"IARC",
+									"IHMI",
+									"ISAF",
+									"ITCI",
+									"ITMI",
+									"ITPC"
+								],
+								pattern: ["I[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"KFAN",
+									"KFIL",
+									"KPMP",
+									"KTNK",
+									"KVLV"
+								],
+								pattern: ["K[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"MDIF",
+									"MENV",
+									"MFLK",
+									"MHAI",
+									"MHAN",
+									"MHYD",
+									"MMDC",
+									"MMET",
+									"MMTN",
+									"MMTR",
+									"MMXN",
+									"MMXU",
+									"MSQI",
+									"MSTA"
+								],
+								pattern: ["M[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: /* @__PURE__ */ "PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU".split("."),
+								pattern: ["P[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"QFVR",
+									"QITR",
+									"QIUB",
+									"QVTR",
+									"QVUB",
+									"QVVR"
+								],
+								pattern: ["Q[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"RADR",
+									"RBDR",
+									"RBRF",
+									"RDIR",
+									"RDRE",
+									"RDRS",
+									"RFLO",
+									"RMXU",
+									"RPSB",
+									"RREC",
+									"RSYN"
+								],
+								pattern: ["R[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"SARC",
+									"SCBR",
+									"SIMG",
+									"SIML",
+									"SLTC",
+									"SOPM",
+									"SPDC",
+									"SPTR",
+									"SSWI",
+									"STMP",
+									"SVBR"
+								],
+								pattern: ["S[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"TANG",
+									"TAXD",
+									"TCTR",
+									"TDST",
+									"TFLW",
+									"TFRQ",
+									"TGSN",
+									"THUM",
+									"TLVL",
+									"TMGF",
+									"TMVM",
+									"TPOS",
+									"TPRS",
+									"TRTN",
+									"TSND",
+									"TTMP",
+									"TTNS",
+									"TVBR",
+									"TVTR",
+									"TWPH"
+								],
+								pattern: ["T[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: ["XCBR", "XSWI"],
+								pattern: ["X[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"YEFN",
+									"YLTC",
+									"YPSH",
+									"YPTR"
+								],
+								pattern: ["Y[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"ZAXN",
+									"ZBAT",
+									"ZBSH",
+									"ZCAB",
+									"ZCAP",
+									"ZCON",
+									"ZGEN",
+									"ZGIL",
+									"ZLIN",
+									"ZMOT",
+									"ZREA",
+									"ZRES",
+									"ZRRC",
+									"ZSAR",
+									"ZSCR",
+									"ZSMC",
+									"ZTCF",
+									"ZTCR"
+								],
+								pattern: ["Z[A-Z]*"],
+								length: 4
+							}
+						}
+					] }] }, {
+						builtin: "Name",
+						facets: {
+							pattern: ["[A-Z]+"],
+							length: 4
+						}
+					}] },
+					facets: {
+						enumeration: /* @__PURE__ */ "LLN0.LPHD.LCCH.LGOS.LSVS.LTIM.LTMS.LTRK.ANCR.ARCO.ARIS.ATCC.AVCO.CALH.CCGR.CILO.CPOW.CSWI.CSYN.FCNT.FCSD.FFIL.FLIM.FPID.FRMP.FSPT.FXOT.FXUT.GAPC.GGIO.GLOG.GSAL.IARC.IHMI.ISAF.ITCI.ITMI.ITPC.KFAN.KFIL.KPMP.KTNK.KVLV.MDIF.MENV.MFLK.MHAI.MHAN.MHYD.MMDC.MMET.MMTN.MMTR.MMXN.MMXU.MSQI.MSTA.PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU.QFVR.QITR.QIUB.QVTR.QVUB.QVVR.RADR.RBDR.RBRF.RDIR.RDRE.RDRS.RFLO.RMXU.RPSB.RREC.RSYN.SARC.SCBR.SIMG.SIML.SLTC.SOPM.SPDC.SPTR.SSWI.STMP.SVBR.TANG.TAXD.TCTR.TDST.TFLW.TFRQ.TGSN.THUM.TLVL.TMGF.TMVM.TPOS.TPRS.TRTN.TSND.TTMP.TTNS.TVBR.TVTR.TWPH.XCBR.XSWI.YEFN.YLTC.YPSH.YPTR.ZAXN.ZBAT.ZBSH.ZCAB.ZCAP.ZCON.ZGEN.ZGIL.ZLIN.ZMOT.ZREA.ZRES.ZRRC.ZSAR.ZSCR.ZSMC.ZTCF.ZTCR".split("."),
+						pattern: [
+							"[A-Z]+",
+							"L[A-Z]*",
+							"LLN0",
+							"[A-Za-z_:][-.:0-9A-Z_a-z]*",
+							"A[A-Z]*",
+							"C[A-Z]*",
+							"F[A-Z]*",
+							"G[A-Z]*",
+							"I[A-Z]*",
+							"K[A-Z]*",
+							"M[A-Z]*",
+							"P[A-Z]*",
+							"Q[A-Z]*",
+							"R[A-Z]*",
+							"S[A-Z]*",
+							"T[A-Z]*",
+							"X[A-Z]*",
+							"Y[A-Z]*",
+							"Z[A-Z]*"
+						],
+						length: 4
+					}
+				},
+				sLnInst: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[0-9]{1,12}"] }
+				},
+				sPrefix: {
+					type: { builtin: "normalizedString" },
+					facets: {
+						pattern: ["[A-Za-z][0-9A-Za-z_]*", ""],
+						maxLength: 11
+					}
+				}
 			}
 		},
 		children: {
@@ -16259,6 +24069,25 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					uri: "http://www.iec.ch/61850/2019/SCL/6-100"
 				}
 			} }
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "any",
+					namespace: ["##other"],
+					processContents: "lax"
+				}, {
+					kind: "element",
+					name: "Text",
+					maxOccurs: 1
+				}]
+			}]
 		}
 	},
 	LNodeType: {
@@ -16275,25 +24104,303 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"iedType",
 				"lnClass"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				id: {
+					type: { builtin: "token" },
 					required: !0,
 					facets: {
 						pattern: ["\\S+"],
 						minLength: 1,
-						maxLength: 255,
-						whiteSpace: "collapse"
+						maxLength: 255
 					}
 				},
 				iedType: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				lnClass: {
+					type: { union: [{ union: [{
+						builtin: "Name",
+						facets: {
+							enumeration: [
+								"LLN0",
+								"LPHD",
+								"LCCH",
+								"LGOS",
+								"LSVS",
+								"LTIM",
+								"LTMS",
+								"LTRK"
+							],
+							pattern: ["L[A-Z]*", "LLN0"],
+							length: 4
+						}
+					}, { union: [
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"ANCR",
+									"ARCO",
+									"ARIS",
+									"ATCC",
+									"AVCO"
+								],
+								pattern: ["A[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"CALH",
+									"CCGR",
+									"CILO",
+									"CPOW",
+									"CSWI",
+									"CSYN"
+								],
+								pattern: ["C[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"FCNT",
+									"FCSD",
+									"FFIL",
+									"FLIM",
+									"FPID",
+									"FRMP",
+									"FSPT",
+									"FXOT",
+									"FXUT"
+								],
+								pattern: ["F[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"GAPC",
+									"GGIO",
+									"GLOG",
+									"GSAL"
+								],
+								pattern: ["G[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"IARC",
+									"IHMI",
+									"ISAF",
+									"ITCI",
+									"ITMI",
+									"ITPC"
+								],
+								pattern: ["I[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"KFAN",
+									"KFIL",
+									"KPMP",
+									"KTNK",
+									"KVLV"
+								],
+								pattern: ["K[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"MDIF",
+									"MENV",
+									"MFLK",
+									"MHAI",
+									"MHAN",
+									"MHYD",
+									"MMDC",
+									"MMET",
+									"MMTN",
+									"MMTR",
+									"MMXN",
+									"MMXU",
+									"MSQI",
+									"MSTA"
+								],
+								pattern: ["M[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: /* @__PURE__ */ "PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU".split("."),
+								pattern: ["P[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"QFVR",
+									"QITR",
+									"QIUB",
+									"QVTR",
+									"QVUB",
+									"QVVR"
+								],
+								pattern: ["Q[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"RADR",
+									"RBDR",
+									"RBRF",
+									"RDIR",
+									"RDRE",
+									"RDRS",
+									"RFLO",
+									"RMXU",
+									"RPSB",
+									"RREC",
+									"RSYN"
+								],
+								pattern: ["R[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"SARC",
+									"SCBR",
+									"SIMG",
+									"SIML",
+									"SLTC",
+									"SOPM",
+									"SPDC",
+									"SPTR",
+									"SSWI",
+									"STMP",
+									"SVBR"
+								],
+								pattern: ["S[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"TANG",
+									"TAXD",
+									"TCTR",
+									"TDST",
+									"TFLW",
+									"TFRQ",
+									"TGSN",
+									"THUM",
+									"TLVL",
+									"TMGF",
+									"TMVM",
+									"TPOS",
+									"TPRS",
+									"TRTN",
+									"TSND",
+									"TTMP",
+									"TTNS",
+									"TVBR",
+									"TVTR",
+									"TWPH"
+								],
+								pattern: ["T[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: ["XCBR", "XSWI"],
+								pattern: ["X[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"YEFN",
+									"YLTC",
+									"YPSH",
+									"YPTR"
+								],
+								pattern: ["Y[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"ZAXN",
+									"ZBAT",
+									"ZBSH",
+									"ZCAB",
+									"ZCAP",
+									"ZCON",
+									"ZGEN",
+									"ZGIL",
+									"ZLIN",
+									"ZMOT",
+									"ZREA",
+									"ZRES",
+									"ZRRC",
+									"ZSAR",
+									"ZSCR",
+									"ZSMC",
+									"ZTCF",
+									"ZTCR"
+								],
+								pattern: ["Z[A-Z]*"],
+								length: 4
+							}
+						}
+					] }] }, {
+						builtin: "Name",
+						facets: {
+							pattern: ["[A-Z]+"],
+							length: 4
+						}
+					}] },
 					required: !0,
 					facets: {
 						enumeration: /* @__PURE__ */ "LLN0.LPHD.LCCH.LGOS.LSVS.LTIM.LTMS.LTRK.ANCR.ARCO.ARIS.ATCC.AVCO.CALH.CCGR.CILO.CPOW.CSWI.CSYN.FCNT.FCSD.FFIL.FLIM.FPID.FRMP.FSPT.FXOT.FXUT.GAPC.GGIO.GLOG.GSAL.IARC.IHMI.ISAF.ITCI.ITMI.ITPC.KFAN.KFIL.KPMP.KTNK.KVLV.MDIF.MENV.MFLK.MHAI.MHAN.MHYD.MMDC.MMET.MMTN.MMTR.MMXN.MMXU.MSQI.MSTA.PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU.QFVR.QITR.QIUB.QVTR.QVUB.QVVR.RADR.RBDR.RBRF.RDIR.RDRE.RDRS.RFLO.RMXU.RPSB.RREC.RSYN.SARC.SCBR.SIMG.SIML.SLTC.SOPM.SPDC.SPTR.SSWI.STMP.SVBR.TANG.TAXD.TCTR.TDST.TFLW.TFRQ.TGSN.THUM.TLVL.TMGF.TMVM.TPOS.TPRS.TRTN.TSND.TTMP.TTNS.TVBR.TVTR.TWPH.XCBR.XSWI.YEFN.YLTC.YPSH.YPTR.ZAXN.ZBAT.ZBSH.ZCAB.ZCAP.ZCON.ZGEN.ZGIL.ZLIN.ZMOT.ZREA.ZRES.ZRRC.ZSAR.ZSCR.ZSMC.ZTCF.ZTCR".split("."),
@@ -16318,8 +24425,7 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"Y[A-Z]*",
 							"Z[A-Z]*"
 						],
-						length: 4,
-						whiteSpace: "collapse"
+						length: 4
 					}
 				}
 			},
@@ -16362,6 +24468,50 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				}
 			}
 		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [
+						{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						},
+						{
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "Private"
+						}
+					]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "DO",
+					minOccurs: 1
+				}, {
+					kind: "element",
+					name: "Labels",
+					maxOccurs: 1
+				}]
+			}]
+		},
 		constraints: [{
 			kind: "unique",
 			name: "uniqueDOInLNodeType",
@@ -16386,18 +24536,18 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		attributes: {
 			sequence: ["id", "lang"],
 			details: {
-				id: { facets: {
-					pattern: ["\\S+"],
-					minLength: 1,
-					maxLength: 255,
-					whiteSpace: "collapse"
-				} },
-				lang: {
-					required: !0,
+				id: {
+					type: { builtin: "token" },
 					facets: {
-						pattern: ["[a-zA-Z]{1,8}(-[a-zA-Z0-9]{1,8})*"],
-						whiteSpace: "collapse"
+						pattern: ["\\S+"],
+						minLength: 1,
+						maxLength: 255
 					}
+				},
+				lang: {
+					type: { builtin: "language" },
+					required: !0,
+					facets: { pattern: ["[a-zA-Z]{1,8}(-[a-zA-Z0-9]{1,8})*"] }
 				}
 			},
 			identityFields: ["id", "lang"]
@@ -16406,7 +24556,7 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: [],
 			details: {}
 		},
-		textContent: { facets: { whiteSpace: "replace" } }
+		textContent: { type: { builtin: "normalizedString" } }
 	},
 	Labels: {
 		tag: "Labels",
@@ -16417,9 +24567,11 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		parents: /* @__PURE__ */ "Substation.LNode.PowerTransformer.TransformerWinding.SubEquipment.EqFunction.GeneralEquipment.EqSubFunction.TapChanger.VoltageLevel.Bay.ConductingEquipment.ConnectivityNode.Function.SubFunction.SubNetwork.DAI.SDI.DOI.LN0.LN.LDevice.GOOSESecurity.SMVSecurity.AccessPoint.IED.DO.LNodeType.SDO.DA.DOType.BDA.DAType.Line.Process.DAS.SDS.DOS".split("."),
 		attributes: {
 			sequence: ["desc"],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: { desc: {
-				default: "",
-				facets: { whiteSpace: "replace" }
+				type: { builtin: "normalizedString" },
+				default: ""
 			} }
 		},
 		children: {
@@ -16437,6 +24589,46 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					minOccurs: 1
 				}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [
+						{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						},
+						{
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "Private"
+						}
+					]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "Label",
+					minOccurs: 1
+				}]
+			}]
 		},
 		constraints: [{
 			kind: "unique",
@@ -16473,40 +24665,36 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"type",
 				"uuid"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				name: {
+					type: { builtin: "normalizedString" },
 					required: !0,
+					facets: { minLength: 1 }
+				},
+				nomFreq: {
+					type: { builtin: "decimal" },
+					facets: { minInclusive: 0 }
+				},
+				numPhases: {
+					type: { builtin: "unsignedByte" },
 					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
+						minInclusive: 0,
+						maxInclusive: 255,
+						minExclusive: 0
 					}
 				},
-				nomFreq: { facets: {
-					minInclusive: 0,
-					whiteSpace: "collapse"
-				} },
-				numPhases: { facets: {
-					minInclusive: 0,
-					maxInclusive: 255,
-					minExclusive: 0,
-					whiteSpace: "collapse"
-				} },
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				type: { facets: {
-					minLength: 1,
-					whiteSpace: "replace"
-				} },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				type: {
+					type: { builtin: "normalizedString" },
+					facets: { minLength: 1 }
+				},
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			},
 			identityFields: ["name"]
 		},
@@ -16655,6 +24843,100 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				Variable: {}
 			}
 		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [{
+								kind: "sequence",
+								minOccurs: 1,
+								maxOccurs: 1,
+								particles: [
+									{
+										kind: "any",
+										namespace: ["##other"],
+										processContents: "lax"
+									},
+									{
+										kind: "element",
+										name: "Text",
+										maxOccurs: 1
+									},
+									{
+										kind: "element",
+										name: "Private"
+									}
+								]
+							}, {
+								kind: "sequence",
+								minOccurs: 1,
+								maxOccurs: 1,
+								particles: [{
+									kind: "element",
+									name: "Labels",
+									maxOccurs: 1
+								}]
+							}]
+						}, {
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [{
+								kind: "element",
+								name: "LNode"
+							}]
+						}]
+					}]
+				}, {
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "element",
+						name: "GeneralEquipment"
+					}, {
+						kind: "element",
+						name: "Function"
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [
+					{
+						kind: "element",
+						name: "Voltage",
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "ConductingEquipment",
+						minOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "ConnectivityNode"
+					}
+				]
+			}]
+		},
 		constraints: [{
 			kind: "unique",
 			name: "uniqueChildNameInLine",
@@ -16709,16 +24991,20 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		parents: ["LN0", "LN"],
 		attributes: {
 			sequence: ["desc", "name"],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				name: { facets: {
-					pattern: ["[A-Za-z][0-9A-Za-z_]*", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-					maxLength: 32,
-					whiteSpace: "collapse"
-				} }
+				name: {
+					type: { builtin: "Name" },
+					facets: {
+						pattern: ["[A-Za-z][0-9A-Za-z_]*", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
+						maxLength: 32
+					}
+				}
 			},
 			identityFields: ["name"]
 		},
@@ -16729,6 +25015,37 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				Text: { maxOccurs: 1 },
 				Private: {}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [
+						{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						},
+						{
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "Private"
+						}
+					]
+				}]
+			}]
 		}
 	},
 	LogControl: {
@@ -16755,38 +25072,320 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"templateUuid",
 				"uuid"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				bufTime: {
+					type: { builtin: "unsignedInt" },
 					default: "0",
 					facets: {
 						minInclusive: 0,
-						maxInclusive: 4294967295,
-						whiteSpace: "collapse"
+						maxInclusive: 4294967295
 					}
 				},
-				datSet: { facets: {
-					pattern: ["[A-Za-z][0-9A-Za-z_]*", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-					maxLength: 32,
-					whiteSpace: "collapse"
-				} },
+				datSet: {
+					type: { builtin: "Name" },
+					facets: {
+						pattern: ["[A-Za-z][0-9A-Za-z_]*", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
+						maxLength: 32
+					}
+				},
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				intgPd: {
+					type: { builtin: "unsignedInt" },
 					default: "0",
 					facets: {
 						minInclusive: 0,
-						maxInclusive: 4294967295,
-						whiteSpace: "collapse"
+						maxInclusive: 4294967295
 					}
 				},
-				ldInst: { facets: {
-					pattern: ["[A-Za-z0-9][0-9A-Za-z_]*"],
-					maxLength: 64,
-					whiteSpace: "replace"
-				} },
+				ldInst: {
+					type: { builtin: "normalizedString" },
+					facets: {
+						pattern: ["[A-Za-z0-9][0-9A-Za-z_]*"],
+						maxLength: 64
+					}
+				},
 				lnClass: {
+					type: { union: [{ union: [{
+						builtin: "Name",
+						facets: {
+							enumeration: [
+								"LLN0",
+								"LPHD",
+								"LCCH",
+								"LGOS",
+								"LSVS",
+								"LTIM",
+								"LTMS",
+								"LTRK"
+							],
+							pattern: ["L[A-Z]*", "LLN0"],
+							length: 4
+						}
+					}, { union: [
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"ANCR",
+									"ARCO",
+									"ARIS",
+									"ATCC",
+									"AVCO"
+								],
+								pattern: ["A[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"CALH",
+									"CCGR",
+									"CILO",
+									"CPOW",
+									"CSWI",
+									"CSYN"
+								],
+								pattern: ["C[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"FCNT",
+									"FCSD",
+									"FFIL",
+									"FLIM",
+									"FPID",
+									"FRMP",
+									"FSPT",
+									"FXOT",
+									"FXUT"
+								],
+								pattern: ["F[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"GAPC",
+									"GGIO",
+									"GLOG",
+									"GSAL"
+								],
+								pattern: ["G[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"IARC",
+									"IHMI",
+									"ISAF",
+									"ITCI",
+									"ITMI",
+									"ITPC"
+								],
+								pattern: ["I[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"KFAN",
+									"KFIL",
+									"KPMP",
+									"KTNK",
+									"KVLV"
+								],
+								pattern: ["K[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"MDIF",
+									"MENV",
+									"MFLK",
+									"MHAI",
+									"MHAN",
+									"MHYD",
+									"MMDC",
+									"MMET",
+									"MMTN",
+									"MMTR",
+									"MMXN",
+									"MMXU",
+									"MSQI",
+									"MSTA"
+								],
+								pattern: ["M[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: /* @__PURE__ */ "PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU".split("."),
+								pattern: ["P[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"QFVR",
+									"QITR",
+									"QIUB",
+									"QVTR",
+									"QVUB",
+									"QVVR"
+								],
+								pattern: ["Q[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"RADR",
+									"RBDR",
+									"RBRF",
+									"RDIR",
+									"RDRE",
+									"RDRS",
+									"RFLO",
+									"RMXU",
+									"RPSB",
+									"RREC",
+									"RSYN"
+								],
+								pattern: ["R[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"SARC",
+									"SCBR",
+									"SIMG",
+									"SIML",
+									"SLTC",
+									"SOPM",
+									"SPDC",
+									"SPTR",
+									"SSWI",
+									"STMP",
+									"SVBR"
+								],
+								pattern: ["S[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"TANG",
+									"TAXD",
+									"TCTR",
+									"TDST",
+									"TFLW",
+									"TFRQ",
+									"TGSN",
+									"THUM",
+									"TLVL",
+									"TMGF",
+									"TMVM",
+									"TPOS",
+									"TPRS",
+									"TRTN",
+									"TSND",
+									"TTMP",
+									"TTNS",
+									"TVBR",
+									"TVTR",
+									"TWPH"
+								],
+								pattern: ["T[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: ["XCBR", "XSWI"],
+								pattern: ["X[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"YEFN",
+									"YLTC",
+									"YPSH",
+									"YPTR"
+								],
+								pattern: ["Y[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"ZAXN",
+									"ZBAT",
+									"ZBSH",
+									"ZCAB",
+									"ZCAP",
+									"ZCON",
+									"ZGEN",
+									"ZGIL",
+									"ZLIN",
+									"ZMOT",
+									"ZREA",
+									"ZRES",
+									"ZRRC",
+									"ZSAR",
+									"ZSCR",
+									"ZSMC",
+									"ZTCF",
+									"ZTCR"
+								],
+								pattern: ["Z[A-Z]*"],
+								length: 4
+							}
+						}
+					] }] }, {
+						builtin: "Name",
+						facets: {
+							pattern: ["[A-Z]+"],
+							length: 4
+						}
+					}] },
 					default: "LLN0",
 					facets: {
 						enumeration: /* @__PURE__ */ "LLN0.LPHD.LCCH.LGOS.LSVS.LTIM.LTMS.LTRK.ANCR.ARCO.ARIS.ATCC.AVCO.CALH.CCGR.CILO.CPOW.CSWI.CSYN.FCNT.FCSD.FFIL.FLIM.FPID.FRMP.FSPT.FXOT.FXUT.GAPC.GGIO.GLOG.GSAL.IARC.IHMI.ISAF.ITCI.ITMI.ITPC.KFAN.KFIL.KPMP.KTNK.KVLV.MDIF.MENV.MFLK.MHAI.MHAN.MHYD.MMDC.MMET.MMTN.MMTR.MMXN.MMXU.MSQI.MSTA.PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU.QFVR.QITR.QIUB.QVTR.QVUB.QVVR.RADR.RBDR.RBRF.RDIR.RDRE.RDRS.RFLO.RMXU.RPSB.RREC.RSYN.SARC.SCBR.SIMG.SIML.SLTC.SOPM.SPDC.SPTR.SSWI.STMP.SVBR.TANG.TAXD.TCTR.TDST.TFLW.TFRQ.TGSN.THUM.TLVL.TMGF.TMVM.TPOS.TPRS.TRTN.TSND.TTMP.TTNS.TVBR.TVTR.TWPH.XCBR.XSWI.YEFN.YLTC.YPSH.YPTR.ZAXN.ZBAT.ZBSH.ZCAB.ZCAP.ZCON.ZGEN.ZGIL.ZLIN.ZMOT.ZREA.ZRES.ZRRC.ZSAR.ZSCR.ZSMC.ZTCF.ZTCR".split("."),
@@ -16811,54 +25410,47 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"Y[A-Z]*",
 							"Z[A-Z]*"
 						],
-						length: 4,
-						whiteSpace: "collapse"
+						length: 4
 					}
 				},
-				lnInst: { facets: {
-					pattern: ["[0-9]{1,12}"],
-					whiteSpace: "replace"
-				} },
+				lnInst: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[0-9]{1,12}"] }
+				},
 				logEna: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "true"
 				},
 				logName: {
+					type: { builtin: "Name" },
 					required: !0,
 					facets: {
 						pattern: ["[A-Za-z][0-9A-Za-z_]*", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						maxLength: 32,
-						whiteSpace: "collapse"
+						maxLength: 32
 					}
 				},
 				name: {
+					type: { builtin: "Name" },
 					required: !0,
 					facets: {
 						pattern: ["[A-Za-z][0-9A-Za-z_]*", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						maxLength: 32,
-						whiteSpace: "collapse"
+						maxLength: 32
 					}
 				},
 				prefix: {
+					type: { builtin: "normalizedString" },
 					default: "",
 					facets: {
 						pattern: ["[A-Za-z][0-9A-Za-z_]*", ""],
-						maxLength: 11,
-						whiteSpace: "replace"
+						maxLength: 11
 					}
 				},
 				reasonCode: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "true"
 				},
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			},
 			identityFields: ["name"]
 		},
@@ -16874,6 +25466,56 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				Private: {},
 				TrgOps: { maxOccurs: 1 }
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [
+								{
+									kind: "any",
+									namespace: ["##other"],
+									processContents: "lax"
+								},
+								{
+									kind: "element",
+									name: "Text",
+									maxOccurs: 1
+								},
+								{
+									kind: "element",
+									name: "Private"
+								}
+							]
+						}]
+					}]
+				}, {
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "element",
+						name: "TrgOps",
+						maxOccurs: 1
+					}]
+				}]
+			}]
 		}
 	},
 	LogParameters: {
@@ -16899,74 +25541,360 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"reasonCode"
 			],
 			details: {
-				cbName: { facets: { whiteSpace: "replace" } },
+				cbName: { type: { builtin: "normalizedString" } },
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				dsName: { facets: { whiteSpace: "replace" } },
+				dsName: { type: { builtin: "normalizedString" } },
 				id: {
+					type: { builtin: "token" },
 					required: !0,
 					facets: {
 						pattern: ["\\S+"],
 						minLength: 1,
-						maxLength: 255,
-						whiteSpace: "collapse"
+						maxLength: 255
 					}
 				},
-				intgPd: { facets: {
-					minInclusive: 0,
-					maxInclusive: 4294967295,
-					whiteSpace: "collapse"
-				} },
-				logEna: { facets: { whiteSpace: "collapse" } },
-				logLdInst: { facets: {
-					pattern: ["[A-Za-z0-9][0-9A-Za-z_]*"],
-					maxLength: 64,
-					whiteSpace: "replace"
-				} },
-				logLnClass: { facets: {
-					enumeration: /* @__PURE__ */ "LLN0.LPHD.LCCH.LGOS.LSVS.LTIM.LTMS.LTRK.ANCR.ARCO.ARIS.ATCC.AVCO.CALH.CCGR.CILO.CPOW.CSWI.CSYN.FCNT.FCSD.FFIL.FLIM.FPID.FRMP.FSPT.FXOT.FXUT.GAPC.GGIO.GLOG.GSAL.IARC.IHMI.ISAF.ITCI.ITMI.ITPC.KFAN.KFIL.KPMP.KTNK.KVLV.MDIF.MENV.MFLK.MHAI.MHAN.MHYD.MMDC.MMET.MMTN.MMTR.MMXN.MMXU.MSQI.MSTA.PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU.QFVR.QITR.QIUB.QVTR.QVUB.QVVR.RADR.RBDR.RBRF.RDIR.RDRE.RDRS.RFLO.RMXU.RPSB.RREC.RSYN.SARC.SCBR.SIMG.SIML.SLTC.SOPM.SPDC.SPTR.SSWI.STMP.SVBR.TANG.TAXD.TCTR.TDST.TFLW.TFRQ.TGSN.THUM.TLVL.TMGF.TMVM.TPOS.TPRS.TRTN.TSND.TTMP.TTNS.TVBR.TVTR.TWPH.XCBR.XSWI.YEFN.YLTC.YPSH.YPTR.ZAXN.ZBAT.ZBSH.ZCAB.ZCAP.ZCON.ZGEN.ZGIL.ZLIN.ZMOT.ZREA.ZRES.ZRRC.ZSAR.ZSCR.ZSMC.ZTCF.ZTCR".split("."),
-					pattern: [
-						"[A-Z]+",
-						"L[A-Z]*",
-						"LLN0",
-						"[A-Za-z_:][-.:0-9A-Z_a-z]*",
-						"A[A-Z]*",
-						"C[A-Z]*",
-						"F[A-Z]*",
-						"G[A-Z]*",
-						"I[A-Z]*",
-						"K[A-Z]*",
-						"M[A-Z]*",
-						"P[A-Z]*",
-						"Q[A-Z]*",
-						"R[A-Z]*",
-						"S[A-Z]*",
-						"T[A-Z]*",
-						"X[A-Z]*",
-						"Y[A-Z]*",
-						"Z[A-Z]*"
-					],
-					length: 4,
-					whiteSpace: "collapse"
-				} },
-				logLnInst: { facets: {
-					pattern: ["[0-9]{1,12}"],
-					whiteSpace: "replace"
-				} },
-				logName: { facets: {
-					pattern: ["[A-Za-z][0-9A-Za-z_]*", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-					maxLength: 32,
-					whiteSpace: "collapse"
-				} },
-				logPrefix: { facets: {
-					pattern: ["[A-Za-z][0-9A-Za-z_]*", ""],
-					maxLength: 11,
-					whiteSpace: "replace"
-				} },
-				reasonCode: { facets: { whiteSpace: "collapse" } }
-			}
+				intgPd: {
+					type: { builtin: "unsignedInt" },
+					facets: {
+						minInclusive: 0,
+						maxInclusive: 4294967295
+					}
+				},
+				logEna: { type: { builtin: "boolean" } },
+				logLdInst: {
+					type: { builtin: "normalizedString" },
+					facets: {
+						pattern: ["[A-Za-z0-9][0-9A-Za-z_]*"],
+						maxLength: 64
+					}
+				},
+				logLnClass: {
+					type: { union: [{ union: [{
+						builtin: "Name",
+						facets: {
+							enumeration: [
+								"LLN0",
+								"LPHD",
+								"LCCH",
+								"LGOS",
+								"LSVS",
+								"LTIM",
+								"LTMS",
+								"LTRK"
+							],
+							pattern: ["L[A-Z]*", "LLN0"],
+							length: 4
+						}
+					}, { union: [
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"ANCR",
+									"ARCO",
+									"ARIS",
+									"ATCC",
+									"AVCO"
+								],
+								pattern: ["A[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"CALH",
+									"CCGR",
+									"CILO",
+									"CPOW",
+									"CSWI",
+									"CSYN"
+								],
+								pattern: ["C[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"FCNT",
+									"FCSD",
+									"FFIL",
+									"FLIM",
+									"FPID",
+									"FRMP",
+									"FSPT",
+									"FXOT",
+									"FXUT"
+								],
+								pattern: ["F[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"GAPC",
+									"GGIO",
+									"GLOG",
+									"GSAL"
+								],
+								pattern: ["G[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"IARC",
+									"IHMI",
+									"ISAF",
+									"ITCI",
+									"ITMI",
+									"ITPC"
+								],
+								pattern: ["I[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"KFAN",
+									"KFIL",
+									"KPMP",
+									"KTNK",
+									"KVLV"
+								],
+								pattern: ["K[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"MDIF",
+									"MENV",
+									"MFLK",
+									"MHAI",
+									"MHAN",
+									"MHYD",
+									"MMDC",
+									"MMET",
+									"MMTN",
+									"MMTR",
+									"MMXN",
+									"MMXU",
+									"MSQI",
+									"MSTA"
+								],
+								pattern: ["M[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: /* @__PURE__ */ "PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU".split("."),
+								pattern: ["P[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"QFVR",
+									"QITR",
+									"QIUB",
+									"QVTR",
+									"QVUB",
+									"QVVR"
+								],
+								pattern: ["Q[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"RADR",
+									"RBDR",
+									"RBRF",
+									"RDIR",
+									"RDRE",
+									"RDRS",
+									"RFLO",
+									"RMXU",
+									"RPSB",
+									"RREC",
+									"RSYN"
+								],
+								pattern: ["R[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"SARC",
+									"SCBR",
+									"SIMG",
+									"SIML",
+									"SLTC",
+									"SOPM",
+									"SPDC",
+									"SPTR",
+									"SSWI",
+									"STMP",
+									"SVBR"
+								],
+								pattern: ["S[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"TANG",
+									"TAXD",
+									"TCTR",
+									"TDST",
+									"TFLW",
+									"TFRQ",
+									"TGSN",
+									"THUM",
+									"TLVL",
+									"TMGF",
+									"TMVM",
+									"TPOS",
+									"TPRS",
+									"TRTN",
+									"TSND",
+									"TTMP",
+									"TTNS",
+									"TVBR",
+									"TVTR",
+									"TWPH"
+								],
+								pattern: ["T[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: ["XCBR", "XSWI"],
+								pattern: ["X[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"YEFN",
+									"YLTC",
+									"YPSH",
+									"YPTR"
+								],
+								pattern: ["Y[A-Z]*"],
+								length: 4
+							}
+						},
+						{
+							builtin: "Name",
+							facets: {
+								enumeration: [
+									"ZAXN",
+									"ZBAT",
+									"ZBSH",
+									"ZCAB",
+									"ZCAP",
+									"ZCON",
+									"ZGEN",
+									"ZGIL",
+									"ZLIN",
+									"ZMOT",
+									"ZREA",
+									"ZRES",
+									"ZRRC",
+									"ZSAR",
+									"ZSCR",
+									"ZSMC",
+									"ZTCF",
+									"ZTCR"
+								],
+								pattern: ["Z[A-Z]*"],
+								length: 4
+							}
+						}
+					] }] }, {
+						builtin: "Name",
+						facets: {
+							pattern: ["[A-Z]+"],
+							length: 4
+						}
+					}] },
+					facets: {
+						enumeration: /* @__PURE__ */ "LLN0.LPHD.LCCH.LGOS.LSVS.LTIM.LTMS.LTRK.ANCR.ARCO.ARIS.ATCC.AVCO.CALH.CCGR.CILO.CPOW.CSWI.CSYN.FCNT.FCSD.FFIL.FLIM.FPID.FRMP.FSPT.FXOT.FXUT.GAPC.GGIO.GLOG.GSAL.IARC.IHMI.ISAF.ITCI.ITMI.ITPC.KFAN.KFIL.KPMP.KTNK.KVLV.MDIF.MENV.MFLK.MHAI.MHAN.MHYD.MMDC.MMET.MMTN.MMTR.MMXN.MMXU.MSQI.MSTA.PDIF.PDIR.PDIS.PDOP.PDUP.PFRC.PHAR.PHIZ.PIOC.PMRI.PMSS.POPF.PPAM.PRTR.PSCH.PSDE.PTEF.PTHF.PTOC.PTOF.PTOV.PTRC.PTTR.PTUC.PTUF.PTUV.PUPF.PVOC.PVPH.PZSU.QFVR.QITR.QIUB.QVTR.QVUB.QVVR.RADR.RBDR.RBRF.RDIR.RDRE.RDRS.RFLO.RMXU.RPSB.RREC.RSYN.SARC.SCBR.SIMG.SIML.SLTC.SOPM.SPDC.SPTR.SSWI.STMP.SVBR.TANG.TAXD.TCTR.TDST.TFLW.TFRQ.TGSN.THUM.TLVL.TMGF.TMVM.TPOS.TPRS.TRTN.TSND.TTMP.TTNS.TVBR.TVTR.TWPH.XCBR.XSWI.YEFN.YLTC.YPSH.YPTR.ZAXN.ZBAT.ZBSH.ZCAB.ZCAP.ZCON.ZGEN.ZGIL.ZLIN.ZMOT.ZREA.ZRES.ZRRC.ZSAR.ZSCR.ZSMC.ZTCF.ZTCR".split("."),
+						pattern: [
+							"[A-Z]+",
+							"L[A-Z]*",
+							"LLN0",
+							"[A-Za-z_:][-.:0-9A-Z_a-z]*",
+							"A[A-Z]*",
+							"C[A-Z]*",
+							"F[A-Z]*",
+							"G[A-Z]*",
+							"I[A-Z]*",
+							"K[A-Z]*",
+							"M[A-Z]*",
+							"P[A-Z]*",
+							"Q[A-Z]*",
+							"R[A-Z]*",
+							"S[A-Z]*",
+							"T[A-Z]*",
+							"X[A-Z]*",
+							"Y[A-Z]*",
+							"Z[A-Z]*"
+						],
+						length: 4
+					}
+				},
+				logLnInst: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[0-9]{1,12}"] }
+				},
+				logName: {
+					type: { builtin: "Name" },
+					facets: {
+						pattern: ["[A-Za-z][0-9A-Za-z_]*", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
+						maxLength: 32
+					}
+				},
+				logPrefix: {
+					type: { builtin: "normalizedString" },
+					facets: {
+						pattern: ["[A-Za-z][0-9A-Za-z_]*", ""],
+						maxLength: 11
+					}
+				},
+				reasonCode: { type: { builtin: "boolean" } }
+			},
+			identityFields: ["id"]
 		},
 		children: {
 			sequence: ["Text"],
@@ -16978,6 +25906,40 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					uri: "http://www.iec.ch/61850/2019/SCL/6-100"
 				}
 			} }
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [{
+								kind: "any",
+								namespace: ["##other"],
+								processContents: "lax"
+							}, {
+								kind: "element",
+								name: "Text",
+								maxOccurs: 1
+							}]
+						}]
+					}]
+				}]
+			}]
 		}
 	},
 	LogParametersRef: {
@@ -16996,15 +25958,13 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: ["desc", "id"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				id: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				}
 			}
 		},
@@ -17018,6 +25978,30 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					uri: "http://www.iec.ch/61850/2019/SCL/6-100"
 				}
 			} }
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "any",
+						namespace: ["##other"],
+						processContents: "lax"
+					}, {
+						kind: "element",
+						name: "Text",
+						maxOccurs: 1
+					}]
+				}]
+			}]
 		}
 	},
 	LogSettings: {
@@ -17037,14 +26021,15 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				cbName: {
+					type: { builtin: "Name" },
 					default: "Fix",
 					facets: {
 						enumeration: ["Conf", "Fix"],
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
 				datSet: {
+					type: { builtin: "Name" },
 					default: "Fix",
 					facets: {
 						enumeration: [
@@ -17052,11 +26037,11 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"Conf",
 							"Fix"
 						],
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
 				intgPd: {
+					type: { builtin: "Name" },
 					default: "Fix",
 					facets: {
 						enumeration: [
@@ -17064,11 +26049,11 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"Conf",
 							"Fix"
 						],
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
 				logEna: {
+					type: { builtin: "Name" },
 					default: "Fix",
 					facets: {
 						enumeration: [
@@ -17076,11 +26061,11 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"Conf",
 							"Fix"
 						],
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
 				trgOps: {
+					type: { builtin: "Name" },
 					default: "Fix",
 					facets: {
 						enumeration: [
@@ -17088,8 +26073,7 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"Conf",
 							"Fix"
 						],
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				}
 			}
@@ -17110,37 +26094,35 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: ["multiplier", "unit"],
 			details: {
 				multiplier: {
+					type: { builtin: "normalizedString" },
 					fixed: "m",
-					facets: {
-						enumeration: [
-							"",
-							"m",
-							"k",
-							"M",
-							"mu",
-							"y",
-							"z",
-							"a",
-							"f",
-							"p",
-							"n",
-							"c",
-							"d",
-							"da",
-							"h",
-							"G",
-							"T",
-							"P",
-							"E",
-							"Z",
-							"Y"
-						],
-						whiteSpace: "replace"
-					}
+					facets: { enumeration: [
+						"",
+						"m",
+						"k",
+						"M",
+						"mu",
+						"y",
+						"z",
+						"a",
+						"f",
+						"p",
+						"n",
+						"c",
+						"d",
+						"da",
+						"h",
+						"G",
+						"T",
+						"P",
+						"E",
+						"Z",
+						"Y"
+					] }
 				},
 				unit: {
-					fixed: "s",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "token" },
+					fixed: "s"
 				}
 			}
 		},
@@ -17148,7 +26130,7 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: [],
 			details: {}
 		},
-		textContent: { facets: { whiteSpace: "collapse" } }
+		textContent: { type: { builtin: "decimal" } }
 	},
 	McSecurity: {
 		tag: "McSecurity",
@@ -17161,12 +26143,12 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: ["encryption", "signature"],
 			details: {
 				encryption: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				signature: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				}
 			}
 		},
@@ -17192,13 +26174,31 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"version",
 				"when"
 			],
+			any: !0,
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				fileName: { facets: { whiteSpace: "replace" } },
+				fileName: { type: { builtin: "normalizedString" } },
 				fileType: {
+					type: {
+						union: [{
+							builtin: "Name",
+							facets: { enumeration: [
+								"ICD",
+								"IID",
+								"CID",
+								"SSD",
+								"SCD",
+								"SED"
+							] }
+						}, {
+							builtin: "normalizedString",
+							facets: { pattern: ["[A-Z]{3}"] }
+						}],
+						facets: { enumeration: ["SCD"] }
+					},
 					required: !0,
 					facets: {
 						enumeration: [
@@ -17209,23 +26209,19 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"SSD",
 							"SED"
 						],
-						pattern: ["[A-Z]{3}", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "replace"
+						pattern: ["[A-Z]{3}", "[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
-				fileUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
+				fileUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
 				revision: {
-					required: !0,
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					required: !0
 				},
 				version: {
-					required: !0,
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					required: !0
 				},
-				when: { facets: { whiteSpace: "replace" } }
+				when: { type: { builtin: "normalizedString" } }
 			},
 			identityFields: ["fileUuid"]
 		},
@@ -17243,6 +26239,8 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		parents: ["IED"],
 		attributes: {
 			sequence: [],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {}
 		},
 		children: {
@@ -17257,6 +26255,40 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				Private: {},
 				MinRequestedSCDFile: {}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [
+					{
+						kind: "any",
+						namespace: ["##other"],
+						processContents: "lax"
+					},
+					{
+						kind: "element",
+						name: "Text",
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "Private"
+					}
+				]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "MinRequestedSCDFile"
+				}]
+			}]
 		},
 		constraints: [{
 			kind: "unique",
@@ -17283,37 +26315,35 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: ["multiplier", "unit"],
 			details: {
 				multiplier: {
+					type: { builtin: "normalizedString" },
 					fixed: "m",
-					facets: {
-						enumeration: [
-							"",
-							"m",
-							"k",
-							"M",
-							"mu",
-							"y",
-							"z",
-							"a",
-							"f",
-							"p",
-							"n",
-							"c",
-							"d",
-							"da",
-							"h",
-							"G",
-							"T",
-							"P",
-							"E",
-							"Z",
-							"Y"
-						],
-						whiteSpace: "replace"
-					}
+					facets: { enumeration: [
+						"",
+						"m",
+						"k",
+						"M",
+						"mu",
+						"y",
+						"z",
+						"a",
+						"f",
+						"p",
+						"n",
+						"c",
+						"d",
+						"da",
+						"h",
+						"G",
+						"T",
+						"P",
+						"E",
+						"Z",
+						"Y"
+					] }
 				},
 				unit: {
-					fixed: "s",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "token" },
+					fixed: "s"
 				}
 			}
 		},
@@ -17321,7 +26351,7 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: [],
 			details: {}
 		},
-		textContent: { facets: { whiteSpace: "collapse" } }
+		textContent: { type: { builtin: "decimal" } }
 	},
 	MultiAPPerSubNet: {
 		tag: "MultiAPPerSubNet",
@@ -17346,50 +26376,17 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"xsi:type"
 			],
 			details: {
-				c37_238: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ftp: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ftps: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_8_1: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_8_2: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_9_3: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ipv6: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				mms: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
-				other: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				serverAssociationInitiation: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				sntp: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
+				c37_238: { default: "false" },
+				ftp: { default: "false" },
+				ftps: { default: "false" },
+				iec61850_8_1: { default: "true" },
+				iec61850_8_2: { default: "false" },
+				iec61850_9_3: { default: "false" },
+				ipv6: { default: "false" },
+				mms: { default: "true" },
+				other: { default: "false" },
+				serverAssociationInitiation: { default: "false" },
+				sntp: { default: "true" },
 				"xsi:type": {
 					namespace: {
 						prefix: "xsi",
@@ -17429,53 +26426,48 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"substationName",
 				"voltageLevelName"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
-				bayName: { facets: {
-					minLength: 1,
-					whiteSpace: "replace"
-				} },
-				cNodeName: {
-					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+				bayName: {
+					type: { builtin: "normalizedString" },
+					facets: { minLength: 1 }
 				},
-				cNodeUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				connectivityNode: {
+				cNodeName: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						pattern: [".+/.+(/.+)*"],
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
+				},
+				cNodeUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				connectivityNode: {
+					type: { builtin: "normalizedString" },
+					required: !0,
+					facets: { pattern: [".+/.+(/.+)*"] }
 				},
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				lineName: { facets: {
-					minLength: 1,
-					whiteSpace: "replace"
-				} },
+				lineName: {
+					type: { builtin: "normalizedString" },
+					facets: { minLength: 1 }
+				},
 				name: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				processName: { facets: {
-					pattern: [".+(/.+)*"],
-					whiteSpace: "replace"
-				} },
-				substationName: { facets: {
-					minLength: 1,
-					whiteSpace: "replace"
-				} },
-				voltageLevelName: { facets: {
-					minLength: 1,
-					whiteSpace: "replace"
-				} }
+				processName: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: [".+(/.+)*"] }
+				},
+				substationName: {
+					type: { builtin: "normalizedString" },
+					facets: { minLength: 1 }
+				},
+				voltageLevelName: {
+					type: { builtin: "normalizedString" },
+					facets: { minLength: 1 }
+				}
 			}
 		},
 		children: {
@@ -17485,6 +26477,37 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				Text: { maxOccurs: 1 },
 				Private: {}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [
+						{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						},
+						{
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "Private"
+						}
+					]
+				}]
+			}]
 		}
 	},
 	OptFields: {
@@ -17507,36 +26530,36 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				bufOvfl: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "true"
 				},
 				configRef: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				dataRef: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				dataSet: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				entryID: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				reasonCode: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				seqNum: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				timeStamp: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				}
 			}
 		},
@@ -17566,43 +26589,38 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"varName"
 			],
 			details: {
-				daName: { facets: {
-					pattern: ["[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?(\\.[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?)*"],
-					whiteSpace: "replace"
-				} },
-				dataName: { facets: {
-					pattern: [".+(/.+)*"],
-					whiteSpace: "replace"
-				} },
-				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+				daName: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?(\\.[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?)*"] }
 				},
-				doName: { facets: {
-					pattern: ["[A-Z][0-9A-Za-z]{0,11}(\\.[a-z][0-9A-Za-z]*(\\([0-9]+\\))?)?"],
-					whiteSpace: "replace"
-				} },
-				lnodeUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				outputName: { facets: {
-					pattern: [".+(/.+)*"],
-					whiteSpace: "replace"
-				} },
-				outputUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				value: { facets: {
-					minLength: 1,
-					whiteSpace: "replace"
-				} },
+				dataName: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: [".+(/.+)*"] }
+				},
+				desc: {
+					type: { builtin: "normalizedString" },
+					default: ""
+				},
+				doName: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[A-Z][0-9A-Za-z]{0,11}(\\.[a-z][0-9A-Za-z]*(\\([0-9]+\\))?)?"] }
+				},
+				lnodeUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				outputName: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: [".+(/.+)*"] }
+				},
+				outputUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				value: {
+					type: { builtin: "normalizedString" },
+					facets: { minLength: 1 }
+				},
 				varName: {
-					required: !0,
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					required: !0
 				}
-			}
+			},
+			identityFields: ["varName"]
 		},
 		children: {
 			sequence: ["Text"],
@@ -17614,6 +26632,35 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					uri: "http://www.iec.ch/61850/2019/SCL/6-100"
 				}
 			} }
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						}, {
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						}]
+					}]
+				}]
+			}]
 		}
 	},
 	OutputVarRef: {
@@ -17634,18 +26681,15 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				value: { facets: { whiteSpace: "replace" } },
-				variable: { facets: {
-					pattern: [".+(/.+)*"],
-					whiteSpace: "replace"
-				} },
-				variableUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
+				value: { type: { builtin: "normalizedString" } },
+				variable: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: [".+(/.+)*"] }
+				},
+				variableUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
 				"xsi:type": {
 					namespace: {
 						prefix: "xsi",
@@ -17667,8 +26711,42 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					}
 				},
 				FunctionalVariantRef: {}
-			},
-			choices: [{ options: ["FunctionalVariantRef"] }]
+			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						}, {
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						}]
+					}]
+				}, {
+					kind: "choice",
+					particles: [{
+						kind: "element",
+						name: "FunctionalVariantRef"
+					}]
+				}]
+			}]
 		}
 	},
 	Outputs: {
@@ -17680,9 +26758,11 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		parents: ["LN0", "LN"],
 		attributes: {
 			sequence: ["desc"],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: { desc: {
-				default: "",
-				facets: { whiteSpace: "replace" }
+				type: { builtin: "normalizedString" },
+				default: ""
 			} }
 		},
 		children: {
@@ -17700,6 +26780,46 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					minOccurs: 1
 				}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [
+						{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						},
+						{
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "Private"
+						}
+					]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "ExtCtrl",
+					minOccurs: 1
+				}]
+			}]
 		}
 	},
 	P: {
@@ -17713,11 +26833,33 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: ["type", "xsi:type"],
 			details: {
 				type: {
+					type: { union: [
+						{
+							builtin: "Name",
+							facets: { enumeration: /* @__PURE__ */ "IP.IP-SUBNET.IP-GATEWAY.OSI-NSAP.OSI-TSEL.OSI-SSEL.OSI-PSEL.OSI-AP-Title.OSI-AP-Invoke.OSI-AE-Qualifier.OSI-AE-Invoke.MAC-Address.APPID.VLAN-PRIORITY.VLAN-ID.SNTP-Port.MMS-Port.DNSName.IPv6FlowLabel.IPv6ClassOfTraffic.C37-118-IP-Port.IP-UDP-PORT.IP-TCP-PORT.IPv6.IPv6-SUBNET.IPv6-GATEWAY.IPv6-IGMPv3Src.IP-IGMPv3Src.IP-ClassOfTraffic".split(".") }
+						},
+						{
+							builtin: "normalizedString",
+							facets: { pattern: ["[A-Z][0-9A-Za-z\\-]*"] }
+						},
+						{
+							builtin: "Name",
+							facets: { enumeration: [
+								"Type",
+								"Plug",
+								"Cable",
+								"Port"
+							] }
+						},
+						{
+							builtin: "normalizedString",
+							facets: { pattern: ["[A-Z][0-9A-Za-z\\-]*"] }
+						}
+					] },
 					required: !0,
 					facets: {
-						enumeration: /* @__PURE__ */ "IP.IP-SUBNET.IP-GATEWAY.OSI-NSAP.OSI-TSEL.OSI-SSEL.OSI-PSEL.OSI-AP-Title.OSI-AP-Invoke.OSI-AE-Qualifier.OSI-AE-Invoke.MAC-Address.APPID.VLAN-PRIORITY.VLAN-ID.SNTP-Port.MMS-Port.DNSName.IPv6FlowLabel.IPv6ClassOfTraffic.C37-118-IP-Port.IP-UDP-PORT.IP-TCP-PORT.IPv6.IPv6-SUBNET.IPv6-GATEWAY.IPv6-IGMPv3Src.IP-IGMPv3Src.IP-ClassOfTraffic".split("."),
-						pattern: ["[A-Z][0-9A-Za-z\\-]*", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "replace"
+						enumeration: /* @__PURE__ */ "IP.IP-SUBNET.IP-GATEWAY.OSI-NSAP.OSI-TSEL.OSI-SSEL.OSI-PSEL.OSI-AP-Title.OSI-AP-Invoke.OSI-AE-Qualifier.OSI-AE-Invoke.MAC-Address.APPID.VLAN-PRIORITY.VLAN-ID.SNTP-Port.MMS-Port.DNSName.IPv6FlowLabel.IPv6ClassOfTraffic.C37-118-IP-Port.IP-UDP-PORT.IP-TCP-PORT.IPv6.IPv6-SUBNET.IPv6-GATEWAY.IPv6-IGMPv3Src.IP-IGMPv3Src.IP-ClassOfTraffic.Type.Plug.Cable.Port".split("."),
+						pattern: ["[A-Z][0-9A-Za-z\\-]*", "[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
 				"xsi:type": {
@@ -17734,10 +26876,10 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: [],
 			details: {}
 		},
-		textContent: { facets: {
-			minLength: 1,
-			whiteSpace: "replace"
-		} }
+		textContent: {
+			type: { builtin: "normalizedString" },
+			facets: { minLength: 1 }
+		}
 	},
 	PhysConn: {
 		tag: "PhysConn",
@@ -17748,17 +26890,25 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		parents: ["ConnectedAP"],
 		attributes: {
 			sequence: ["desc", "type"],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				type: {
+					type: { union: [{
+						builtin: "normalizedString",
+						facets: { enumeration: ["Connection", "RedConn"] }
+					}, {
+						builtin: "normalizedString",
+						facets: { pattern: ["[A-Z][0-9A-Za-z\\-]*"] }
+					}] },
 					required: !0,
 					facets: {
 						enumeration: ["Connection", "RedConn"],
-						pattern: ["[A-Z][0-9A-Za-z\\-]*"],
-						whiteSpace: "replace"
+						pattern: ["[A-Z][0-9A-Za-z\\-]*"]
 					}
 				}
 			}
@@ -17773,8 +26923,84 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			details: {
 				Text: { maxOccurs: 1 },
 				Private: {},
-				P: {}
+				P: {
+					attributes: {
+						sequence: ["type"],
+						details: { type: {
+							type: { union: [{
+								builtin: "Name",
+								facets: { enumeration: [
+									"Type",
+									"Plug",
+									"Cable",
+									"Port"
+								] }
+							}, {
+								builtin: "normalizedString",
+								facets: { pattern: ["[A-Z][0-9A-Za-z\\-]*"] }
+							}] },
+							required: !0,
+							facets: {
+								enumeration: [
+									"Type",
+									"Plug",
+									"Cable",
+									"Port"
+								],
+								pattern: ["[A-Z][0-9A-Za-z\\-]*", "[A-Za-z_:][-.:0-9A-Z_a-z]*"]
+							}
+						} },
+						identityFields: ["type"]
+					},
+					children: {
+						sequence: [],
+						details: {}
+					},
+					textContent: {
+						type: { builtin: "normalizedString" },
+						facets: { minLength: 1 }
+					}
+				}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [
+						{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						},
+						{
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "Private"
+						}
+					]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "P"
+				}]
+			}]
 		},
 		constraints: [{
 			kind: "unique",
@@ -17810,34 +27036,20 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				name: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				},
-				originUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				relation: { facets: { whiteSpace: "replace" } },
-				relationUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				selector: { facets: { whiteSpace: "replace" } },
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				originUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				relation: { type: { builtin: "normalizedString" } },
+				relationUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				selector: { type: { builtin: "normalizedString" } },
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			},
 			identityFields: ["name"]
 		},
@@ -17851,6 +27063,30 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					uri: "http://www.iec.ch/61850/2019/SCL/6-100"
 				}
 			} }
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "any",
+						namespace: ["##other"],
+						processContents: "lax"
+					}, {
+						kind: "element",
+						name: "Text",
+						maxOccurs: 1
+					}]
+				}]
+			}]
 		}
 	},
 	PowerSystemRelationRef: {
@@ -17869,17 +27105,14 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				powerSystemRelation: { facets: {
-					pattern: [".+(/.+)*"],
-					whiteSpace: "replace"
-				} },
-				powerSystemRelationUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				powerSystemRelation: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: [".+(/.+)*"] }
+				},
+				powerSystemRelationUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			}
 		},
 		children: {
@@ -17894,8 +27127,42 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					}
 				},
 				FunctionalVariantRef: {}
-			},
-			choices: [{ options: ["FunctionalVariantRef"] }]
+			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						}, {
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						}]
+					}]
+				}, {
+					kind: "choice",
+					particles: [{
+						kind: "element",
+						name: "FunctionalVariantRef"
+					}]
+				}]
+			}]
 		}
 	},
 	PowerSystemRelations: {
@@ -17914,8 +27181,8 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		attributes: {
 			sequence: ["desc"],
 			details: { desc: {
-				default: "",
-				facets: { whiteSpace: "replace" }
+				type: { builtin: "normalizedString" },
+				default: ""
 			} }
 		},
 		children: {
@@ -17934,6 +27201,39 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					minOccurs: 1
 				}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "any",
+						namespace: ["##other"],
+						processContents: "lax"
+					}, {
+						kind: "element",
+						name: "Text",
+						maxOccurs: 1
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "PowerSystemRelation",
+					minOccurs: 1
+				}]
+			}]
 		},
 		constraints: [{
 			kind: "unique",
@@ -17969,40 +27269,35 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"uuid",
 				"virtual"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				name: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				},
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
 				type: {
+					type: { builtin: "Name" },
 					required: !0,
 					fixed: "PTR",
 					facets: {
 						enumeration: ["PTR"],
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
 				virtual: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				}
-			}
+			},
+			identityFields: ["name"]
 		},
 		children: {
 			sequence: [
@@ -18190,6 +27485,88 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				}] }
 			}
 		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [{
+								kind: "sequence",
+								minOccurs: 1,
+								maxOccurs: 1,
+								particles: [
+									{
+										kind: "any",
+										namespace: ["##other"],
+										processContents: "lax"
+									},
+									{
+										kind: "element",
+										name: "Text",
+										maxOccurs: 1
+									},
+									{
+										kind: "element",
+										name: "Private"
+									}
+								]
+							}, {
+								kind: "sequence",
+								minOccurs: 1,
+								maxOccurs: 1,
+								particles: [{
+									kind: "element",
+									name: "Labels",
+									maxOccurs: 1
+								}]
+							}]
+						}, {
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [{
+								kind: "element",
+								name: "LNode"
+							}]
+						}]
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [
+					{
+						kind: "element",
+						name: "TransformerWinding",
+						minOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "SubEquipment"
+					},
+					{
+						kind: "element",
+						name: "EqFunction"
+					}
+				]
+			}]
+		},
 		constraints: [{
 			kind: "unique",
 			name: "uniqueLNodeInPowerTransformer",
@@ -18244,14 +27621,14 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		parents: /* @__PURE__ */ "SCL.SourceFiles.SclFileReference.Substation.Labels.LNode.PowerTransformer.TransformerWinding.Terminal.SubEquipment.EqFunction.GeneralEquipment.EqSubFunction.TapChanger.NeutralPoint.VoltageLevel.Bay.ConductingEquipment.ConnectivityNode.Function.SubFunction.Communication.SubNetwork.ConnectedAP.GSE.SMV.PhysConn.IED.AccessPoint.Server.LDevice.LN0.DataSet.ReportControl.RptEnabled.LogControl.DOI.SDI.DAI.Inputs.ExtRef.Outputs.ExtCtrl.Log.GSEControl.SampledValueControl.SettingControl.LN.ServerAt.GOOSESecurity.SMVSecurity.IEDSourceFiles.MinRequestedSCDFiles.LNodeType.DO.DOType.SDO.DA.DAType.BDA.EnumType.Line.Process".split("."),
 		attributes: {
 			sequence: ["source", "type"],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
-				source: { facets: { whiteSpace: "collapse" } },
+				source: { type: { builtin: "anyURI" } },
 				type: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				}
 			}
 		},
@@ -18259,6 +27636,21 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: [],
 			any: !0,
 			details: {}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				particles: [{
+					kind: "any",
+					namespace: ["##other"],
+					processContents: "lax",
+					minOccurs: 1,
+					maxOccurs: 1
+				}]
+			}]
 		},
 		textContent: {}
 	},
@@ -18277,30 +27669,24 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"type",
 				"uuid"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				name: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				},
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				type: { facets: {
-					minLength: 1,
-					whiteSpace: "replace"
-				} },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				type: {
+					type: { builtin: "normalizedString" },
+					facets: { minLength: 1 }
+				},
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			},
 			identityFields: ["name"]
 		},
@@ -18534,6 +27920,102 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				Variable: {}
 			}
 		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [{
+								kind: "sequence",
+								minOccurs: 1,
+								maxOccurs: 1,
+								particles: [
+									{
+										kind: "any",
+										namespace: ["##other"],
+										processContents: "lax"
+									},
+									{
+										kind: "element",
+										name: "Text",
+										maxOccurs: 1
+									},
+									{
+										kind: "element",
+										name: "Private"
+									}
+								]
+							}, {
+								kind: "sequence",
+								minOccurs: 1,
+								maxOccurs: 1,
+								particles: [{
+									kind: "element",
+									name: "Labels",
+									maxOccurs: 1
+								}]
+							}]
+						}, {
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [{
+								kind: "element",
+								name: "LNode"
+							}]
+						}]
+					}]
+				}, {
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "element",
+						name: "GeneralEquipment"
+					}, {
+						kind: "element",
+						name: "Function"
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [
+					{
+						kind: "element",
+						name: "ConductingEquipment"
+					},
+					{
+						kind: "element",
+						name: "Substation"
+					},
+					{
+						kind: "element",
+						name: "Line"
+					},
+					{
+						kind: "element",
+						name: "Process"
+					}
+				]
+			}]
+		},
 		constraints: [{
 			kind: "unique",
 			name: "uniqueChildNameInProcess",
@@ -18601,25 +28083,22 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				source: { facets: {
-					pattern: [".+(/.+)*"],
-					whiteSpace: "replace"
-				} },
-				sourceDaName: { facets: {
-					pattern: ["[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?(\\.[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?)*"],
-					whiteSpace: "replace"
-				} },
-				sourceDoName: { facets: {
-					pattern: ["[A-Z][0-9A-Za-z]{0,11}(\\.[a-z][0-9A-Za-z]*(\\([0-9]+\\))?)?"],
-					whiteSpace: "replace"
-				} },
-				sourceLNodeUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				source: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: [".+(/.+)*"] }
+				},
+				sourceDaName: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?(\\.[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?)*"] }
+				},
+				sourceDoName: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[A-Z][0-9A-Za-z]{0,11}(\\.[a-z][0-9A-Za-z]*(\\([0-9]+\\))?)?"] }
+				},
+				sourceLNodeUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			}
 		},
 		children: {
@@ -18632,6 +28111,30 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					uri: "http://www.iec.ch/61850/2019/SCL/6-100"
 				}
 			} }
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "any",
+						namespace: ["##other"],
+						processContents: "lax"
+					}, {
+						kind: "element",
+						name: "Text",
+						maxOccurs: 1
+					}]
+				}]
+			}]
 		}
 	},
 	ProcessResource: {
@@ -18654,45 +28157,32 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				cardinality: {
+					type: { builtin: "normalizedString" },
 					default: "1..1",
-					facets: {
-						enumeration: [
-							"0..1",
-							"1..1",
-							"0..n",
-							"1..n"
-						],
-						whiteSpace: "replace"
-					}
+					facets: { enumeration: [
+						"0..1",
+						"1..1",
+						"0..n",
+						"1..n"
+					] }
 				},
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				max: { facets: {
-					minInclusive: 2,
-					whiteSpace: "collapse"
-				} },
+				max: {
+					type: { builtin: "integer" },
+					facets: { minInclusive: 2 }
+				},
 				name: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				},
-				originUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				selector: { facets: { whiteSpace: "replace" } },
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				originUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				selector: { type: { builtin: "normalizedString" } },
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			},
 			identityFields: ["name"]
 		},
@@ -18709,6 +28199,38 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				},
 				Resource: {}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "any",
+						namespace: ["##other"],
+						processContents: "lax"
+					}, {
+						kind: "element",
+						name: "Text",
+						maxOccurs: 1
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "Resource"
+				}]
+			}]
 		},
 		constraints: [{
 			kind: "unique",
@@ -18740,17 +28262,14 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				processResource: { facets: {
-					pattern: [".+(/.+)*"],
-					whiteSpace: "replace"
-				} },
-				processResourceUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				processResource: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: [".+(/.+)*"] }
+				},
+				processResourceUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			}
 		},
 		children: {
@@ -18765,8 +28284,42 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					}
 				},
 				FunctionalVariantRef: {}
-			},
-			choices: [{ options: ["FunctionalVariantRef"] }]
+			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						}, {
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						}]
+					}]
+				}, {
+					kind: "choice",
+					particles: [{
+						kind: "element",
+						name: "FunctionalVariantRef"
+					}]
+				}]
+			}]
 		}
 	},
 	ProcessResources: {
@@ -18793,8 +28346,8 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		attributes: {
 			sequence: ["desc"],
 			details: { desc: {
-				default: "",
-				facets: { whiteSpace: "replace" }
+				type: { builtin: "normalizedString" },
+				default: ""
 			} }
 		},
 		children: {
@@ -18827,6 +28380,39 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				}
 			}
 		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "any",
+						namespace: ["##other"],
+						processContents: "lax"
+					}, {
+						kind: "element",
+						name: "Text",
+						maxOccurs: 1
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "ProcessResource",
+					minOccurs: 1
+				}]
+			}]
+		},
 		constraints: [{
 			kind: "unique",
 			name: "uniquePR",
@@ -18857,20 +28443,15 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				name: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				},
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			}
 		},
 		children: {
@@ -18886,6 +28467,38 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				},
 				ProjectProcessReference: {}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "any",
+						namespace: ["##other"],
+						processContents: "lax"
+					}, {
+						kind: "element",
+						name: "Text",
+						maxOccurs: 1
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "ProjectProcessReference"
+				}]
+			}]
 		}
 	},
 	ProjectProcessReference: {
@@ -18904,17 +28517,14 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				processReference: { facets: {
-					pattern: [".+(/.+)*"],
-					whiteSpace: "replace"
-				} },
-				processUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				processReference: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: [".+(/.+)*"] }
+				},
+				processUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			}
 		},
 		children: {
@@ -18927,6 +28537,30 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					uri: "http://www.iec.ch/61850/2019/SCL/6-100"
 				}
 			} }
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "any",
+						namespace: ["##other"],
+						processContents: "lax"
+					}, {
+						kind: "element",
+						name: "Text",
+						maxOccurs: 1
+					}]
+				}]
+			}]
 		}
 	},
 	ProtNs: {
@@ -18939,11 +28573,9 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		attributes: {
 			sequence: ["type"],
 			details: { type: {
+				type: { builtin: "normalizedString" },
 				default: "8-MMS",
-				facets: {
-					minLength: 1,
-					whiteSpace: "replace"
-				}
+				facets: { minLength: 1 }
 			} },
 			identityFields: ["type"]
 		},
@@ -18951,10 +28583,10 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: [],
 			details: {}
 		},
-		textContent: { facets: {
-			pattern: ["[ -~]+:20\\d\\d[A-Z]?"],
-			whiteSpace: "replace"
-		} }
+		textContent: {
+			type: { builtin: "normalizedString" },
+			facets: { pattern: ["[ -~]+:20\\d\\d[A-Z]?"] }
+		}
 	},
 	Protocol: {
 		tag: "Protocol",
@@ -18966,16 +28598,19 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		attributes: {
 			sequence: ["mustUnderstand"],
 			details: { mustUnderstand: {
+				type: { builtin: "boolean" },
 				required: !0,
-				fixed: "true",
-				facets: { whiteSpace: "collapse" }
+				fixed: "true"
 			} }
 		},
 		children: {
 			sequence: [],
 			details: {}
 		},
-		textContent: { facets: { whiteSpace: "replace" } }
+		textContent: {
+			fixed: "R-GOOSE",
+			type: { builtin: "normalizedString" }
+		}
 	},
 	ReadWrite: {
 		tag: "ReadWrite",
@@ -19000,50 +28635,17 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"xsi:type"
 			],
 			details: {
-				c37_238: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ftp: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ftps: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_8_1: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_8_2: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_9_3: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ipv6: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				mms: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
-				other: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				serverAssociationInitiation: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				sntp: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
+				c37_238: { default: "false" },
+				ftp: { default: "false" },
+				ftps: { default: "false" },
+				iec61850_8_1: { default: "true" },
+				iec61850_8_2: { default: "false" },
+				iec61850_9_3: { default: "false" },
+				ipv6: { default: "false" },
+				mms: { default: "true" },
+				other: { default: "false" },
+				serverAssociationInitiation: { default: "false" },
+				sntp: { default: "true" },
 				"xsi:type": {
 					namespace: {
 						prefix: "xsi",
@@ -19078,16 +28680,16 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				hsr: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				prp: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				rstp: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				}
 			}
 		},
@@ -19117,70 +28719,70 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"templateUuid",
 				"uuid"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				bufTime: {
+					type: { builtin: "unsignedInt" },
 					default: "0",
 					facets: {
 						minInclusive: 0,
-						maxInclusive: 4294967295,
-						whiteSpace: "collapse"
+						maxInclusive: 4294967295
 					}
 				},
 				buffered: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				confRev: {
+					type: { builtin: "unsignedInt" },
 					required: !0,
 					facets: {
 						minInclusive: 0,
-						maxInclusive: 4294967295,
-						whiteSpace: "collapse"
+						maxInclusive: 4294967295
 					}
 				},
-				datSet: { facets: {
-					pattern: ["[A-Za-z][0-9A-Za-z_]*", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-					maxLength: 32,
-					whiteSpace: "collapse"
-				} },
+				datSet: {
+					type: { builtin: "Name" },
+					facets: {
+						pattern: ["[A-Za-z][0-9A-Za-z_]*", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
+						maxLength: 32
+					}
+				},
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				indexed: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "true"
 				},
 				intgPd: {
+					type: { builtin: "unsignedInt" },
 					default: "0",
 					facets: {
 						minInclusive: 0,
-						maxInclusive: 4294967295,
-						whiteSpace: "collapse"
+						maxInclusive: 4294967295
 					}
 				},
 				name: {
+					type: { builtin: "Name" },
 					required: !0,
 					facets: {
 						pattern: ["[A-Za-z][0-9A-Za-z_]*", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						maxLength: 32,
-						whiteSpace: "collapse"
+						maxLength: 32
 					}
 				},
-				rptID: { facets: {
-					pattern: ["[ -~]*"],
-					minLength: 1,
-					maxLength: 129,
-					whiteSpace: "replace"
-				} },
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				rptID: {
+					type: { builtin: "normalizedString" },
+					facets: {
+						pattern: ["[ -~]*"],
+						minLength: 1,
+						maxLength: 129
+					}
+				},
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			},
 			identityFields: ["name"]
 		},
@@ -19204,6 +28806,70 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				},
 				RptEnabled: { maxOccurs: 1 }
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [
+								{
+									kind: "any",
+									namespace: ["##other"],
+									processContents: "lax"
+								},
+								{
+									kind: "element",
+									name: "Text",
+									maxOccurs: 1
+								},
+								{
+									kind: "element",
+									name: "Private"
+								}
+							]
+						}]
+					}]
+				}, {
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "element",
+						name: "TrgOps",
+						maxOccurs: 1
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "OptFields",
+					minOccurs: 1,
+					maxOccurs: 1
+				}, {
+					kind: "element",
+					name: "RptEnabled",
+					maxOccurs: 1
+				}]
+			}]
 		}
 	},
 	ReportParameters: {
@@ -19224,33 +28890,38 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"intgPd"
 			],
 			details: {
-				bufTime: { facets: {
-					minInclusive: 0,
-					maxInclusive: 4294967295,
-					whiteSpace: "collapse"
-				} },
-				buffered: { facets: { whiteSpace: "collapse" } },
-				cbName: { facets: { whiteSpace: "replace" } },
-				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+				bufTime: {
+					type: { builtin: "unsignedInt" },
+					facets: {
+						minInclusive: 0,
+						maxInclusive: 4294967295
+					}
 				},
-				dsName: { facets: { whiteSpace: "replace" } },
+				buffered: { type: { builtin: "boolean" } },
+				cbName: { type: { builtin: "normalizedString" } },
+				desc: {
+					type: { builtin: "normalizedString" },
+					default: ""
+				},
+				dsName: { type: { builtin: "normalizedString" } },
 				id: {
+					type: { builtin: "token" },
 					required: !0,
 					facets: {
 						pattern: ["\\S+"],
 						minLength: 1,
-						maxLength: 255,
-						whiteSpace: "collapse"
+						maxLength: 255
 					}
 				},
-				intgPd: { facets: {
-					minInclusive: 0,
-					maxInclusive: 4294967295,
-					whiteSpace: "collapse"
-				} }
-			}
+				intgPd: {
+					type: { builtin: "unsignedInt" },
+					facets: {
+						minInclusive: 0,
+						maxInclusive: 4294967295
+					}
+				}
+			},
+			identityFields: ["id"]
 		},
 		children: {
 			sequence: ["Text"],
@@ -19262,6 +28933,40 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					uri: "http://www.iec.ch/61850/2019/SCL/6-100"
 				}
 			} }
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [{
+								kind: "any",
+								namespace: ["##other"],
+								processContents: "lax"
+							}, {
+								kind: "element",
+								name: "Text",
+								maxOccurs: 1
+							}]
+						}]
+					}]
+				}]
+			}]
 		}
 	},
 	ReportParametersRef: {
@@ -19276,15 +28981,13 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: ["desc", "id"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				id: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				}
 			}
 		},
@@ -19298,6 +29001,30 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					uri: "http://www.iec.ch/61850/2019/SCL/6-100"
 				}
 			} }
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "any",
+						namespace: ["##other"],
+						processContents: "lax"
+					}, {
+						kind: "element",
+						name: "Text",
+						maxOccurs: 1
+					}]
+				}]
+			}]
 		}
 	},
 	ReportSettings: {
@@ -19321,6 +29048,7 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				bufTime: {
+					type: { builtin: "Name" },
 					default: "Fix",
 					facets: {
 						enumeration: [
@@ -19328,19 +29056,19 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"Conf",
 							"Fix"
 						],
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
 				cbName: {
+					type: { builtin: "Name" },
 					default: "Fix",
 					facets: {
 						enumeration: ["Conf", "Fix"],
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
 				datSet: {
+					type: { builtin: "Name" },
 					default: "Fix",
 					facets: {
 						enumeration: [
@@ -19348,11 +29076,11 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"Conf",
 							"Fix"
 						],
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
 				intgPd: {
+					type: { builtin: "Name" },
 					default: "Fix",
 					facets: {
 						enumeration: [
@@ -19360,11 +29088,11 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"Conf",
 							"Fix"
 						],
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
 				optFields: {
+					type: { builtin: "Name" },
 					default: "Fix",
 					facets: {
 						enumeration: [
@@ -19372,19 +29100,19 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"Conf",
 							"Fix"
 						],
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
 				owner: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				resvTms: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				rptID: {
+					type: { builtin: "Name" },
 					default: "Fix",
 					facets: {
 						enumeration: [
@@ -19392,11 +29120,11 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"Conf",
 							"Fix"
 						],
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
 				trgOps: {
+					type: { builtin: "Name" },
 					default: "Fix",
 					facets: {
 						enumeration: [
@@ -19404,8 +29132,7 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"Conf",
 							"Fix"
 						],
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				}
 			}
@@ -19431,17 +29158,12 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				resInst: {
+					type: { builtin: "integer" },
 					default: "1",
-					facets: {
-						minInclusive: 1,
-						whiteSpace: "collapse"
-					}
+					facets: { minInclusive: 1 }
 				},
-				source: { facets: { whiteSpace: "replace" } },
-				sourceUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				source: { type: { builtin: "normalizedString" } },
+				sourceUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			},
 			identityFields: ["resInst"]
 		},
@@ -19449,7 +29171,7 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: [],
 			details: {}
 		},
-		textContent: { facets: { whiteSpace: "replace" } }
+		textContent: { type: { builtin: "normalizedString" } }
 	},
 	RptEnabled: {
 		tag: "RptEnabled",
@@ -19460,18 +29182,20 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		parents: ["ReportControl"],
 		attributes: {
 			sequence: ["desc", "max"],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				max: {
+					type: { builtin: "unsignedInt" },
 					default: "1",
 					facets: {
 						minInclusive: 0,
 						maxInclusive: 4294967295,
-						minExclusive: 0,
-						whiteSpace: "collapse"
+						minExclusive: 0
 					}
 				}
 			}
@@ -19488,6 +29212,45 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				Private: {},
 				ClientLN: {}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [
+						{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						},
+						{
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "Private"
+						}
+					]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "ClientLN"
+				}]
+			}]
 		}
 	},
 	SCL: {
@@ -19506,6 +29269,8 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"revision",
 				"version"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				"eIEC61850-6-100:release": {
 					fixed: "1",
@@ -19516,8 +29281,7 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					facets: {
 						minInclusive: 0,
 						maxInclusive: 255,
-						minExclusive: 0,
-						whiteSpace: "collapse"
+						minExclusive: 0
 					}
 				},
 				"eIEC61850-6-100:revision": {
@@ -19526,10 +29290,7 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 						prefix: "eIEC61850-6-100",
 						uri: "http://www.iec.ch/61850/2019/SCL/6-100"
 					},
-					facets: {
-						pattern: ["[A-Z]", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
-					}
+					facets: { pattern: ["[A-Z]", "[A-Za-z_:][-.:0-9A-Z_a-z]*"] }
 				},
 				"eIEC61850-6-100:version": {
 					fixed: "2019",
@@ -19539,35 +29300,32 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					},
 					facets: {
 						pattern: ["2[0-2][0-9]{2}"],
-						minLength: 1,
-						whiteSpace: "replace"
+						minLength: 1
 					}
 				},
 				release: {
+					type: { builtin: "unsignedByte" },
 					required: !0,
 					fixed: "5",
 					facets: {
 						minInclusive: 0,
 						maxInclusive: 255,
-						minExclusive: 0,
-						whiteSpace: "collapse"
+						minExclusive: 0
 					}
 				},
 				revision: {
+					type: { builtin: "Name" },
 					required: !0,
 					fixed: "C",
-					facets: {
-						pattern: ["[A-Z]", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
-					}
+					facets: { pattern: ["[A-Z]", "[A-Za-z_:][-.:0-9A-Z_a-z]*"] }
 				},
 				version: {
+					type: { builtin: "normalizedString" },
 					required: !0,
 					fixed: "2007",
 					facets: {
 						pattern: ["2[0-2][0-9]{2}"],
-						minLength: 1,
-						whiteSpace: "replace"
+						minLength: 1
 					}
 				}
 			}
@@ -19999,6 +29757,70 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				ServiceSpecifications: {}
 			}
 		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [
+					{
+						kind: "any",
+						namespace: ["##other"],
+						processContents: "lax"
+					},
+					{
+						kind: "element",
+						name: "Text",
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "Private"
+					}
+				]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [
+					{
+						kind: "element",
+						name: "Header",
+						minOccurs: 1,
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "Substation"
+					},
+					{
+						kind: "element",
+						name: "Communication",
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "IED"
+					},
+					{
+						kind: "element",
+						name: "DataTypeTemplates",
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "Line"
+					},
+					{
+						kind: "element",
+						name: "Process"
+					}
+				]
+			}]
+		},
 		constraints: [
 			{
 				kind: "key",
@@ -20246,16 +30068,16 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				iec61850_8_1: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "true"
 				},
 				iec61850_8_2: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				serverAssociationInitiation: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				}
 			}
 		},
@@ -20278,17 +30100,49 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"name",
 				"sAddr"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				ix: { facets: {
-					minInclusive: 0,
-					maxInclusive: 4294967295,
-					whiteSpace: "collapse"
-				} },
+				ix: {
+					type: { builtin: "unsignedInt" },
+					facets: {
+						minInclusive: 0,
+						maxInclusive: 4294967295
+					}
+				},
 				name: {
+					type: { union: [{
+						builtin: "Name",
+						facets: { enumeration: [
+							"T",
+							"Test",
+							"Check",
+							"SIUnit",
+							"Oper",
+							"SBO",
+							"SBOw",
+							"Cancel",
+							"Addr",
+							"PRIORITY",
+							"VID",
+							"APPID",
+							"TransportInUse",
+							"IPClassOfTraffic",
+							"IPv6FlowLabel",
+							"IPAddressLength",
+							"IPAddress"
+						] }
+					}, {
+						builtin: "Name",
+						facets: {
+							pattern: ["[a-z][0-9A-Za-z]*"],
+							maxLength: 60
+						}
+					}] },
 					required: !0,
 					facets: {
 						enumeration: [
@@ -20311,14 +30165,13 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"IPAddress"
 						],
 						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*", "[a-z][0-9A-Za-z]*"],
-						maxLength: 60,
-						whiteSpace: "collapse"
+						maxLength: 60
 					}
 				},
-				sAddr: { facets: {
-					maxLength: 255,
-					whiteSpace: "replace"
-				} }
+				sAddr: {
+					type: { builtin: "normalizedString" },
+					facets: { maxLength: 255 }
+				}
 			},
 			identityFields: ["ix", "name"]
 		},
@@ -20364,8 +30217,60 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 						} }]
 					}]
 				}
-			},
-			choices: [{ options: ["DAI", "SDI"] }]
+			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [
+						{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						},
+						{
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "Private"
+						}
+					]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "choice",
+					particles: [{
+						kind: "element",
+						name: "SDI",
+						minOccurs: 1,
+						maxOccurs: 1
+					}, {
+						kind: "element",
+						name: "DAI",
+						minOccurs: 1,
+						maxOccurs: 1
+					}]
+				}, {
+					kind: "element",
+					name: "Labels",
+					maxOccurs: 1
+				}]
+			}]
 		},
 		constraints: [{
 			kind: "unique",
@@ -20402,37 +30307,41 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"name",
 				"type"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				count: {
+					type: { union: [{ builtin: "unsignedInt" }, {
+						builtin: "Name",
+						facets: { pattern: ["[a-z][0-9A-Za-z]*"] }
+					}] },
 					default: "0",
 					facets: {
 						pattern: ["[a-z][0-9A-Za-z]*", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
 						minInclusive: 0,
-						maxInclusive: 4294967295,
-						whiteSpace: "collapse"
+						maxInclusive: 4294967295
 					}
 				},
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				name: {
+					type: { builtin: "Name" },
 					required: !0,
 					facets: {
 						pattern: ["[a-z][0-9A-Za-z]*", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
 						minLength: 1,
-						maxLength: 60,
-						whiteSpace: "collapse"
+						maxLength: 60
 					}
 				},
 				type: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				}
-			}
+			},
+			identityFields: ["name"]
 		},
 		children: {
 			sequence: [
@@ -20465,6 +30374,46 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					}]
 				}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [
+						{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						},
+						{
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "Private"
+						}
+					]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "Labels",
+					maxOccurs: 1
+				}]
+			}]
 		}
 	},
 	SDS: {
@@ -20485,23 +30434,50 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				ix: { facets: {
-					minInclusive: 0,
-					maxInclusive: 4294967295,
-					whiteSpace: "collapse"
-				} },
-				mappedDoName: { facets: {
-					pattern: ["(([A-Za-z][0-9A-Za-z_]{0,63})/([A-Za-z][0-9A-Za-z_]{0,63})/((LLN0|([A-Za-z][0-9A-Za-z_]{0,10})?[A-Z]{4}[0-9]{1,12}))\\.)?([A-Z][0-9A-Za-z]{0,11}(\\.[a-z][0-9A-Za-z]*(\\([0-9]+\\))?)?)"],
-					whiteSpace: "replace"
-				} },
-				mappedLnUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
+				ix: {
+					type: { builtin: "unsignedInt" },
+					facets: {
+						minInclusive: 0,
+						maxInclusive: 4294967295
+					}
+				},
+				mappedDoName: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["(([A-Za-z][0-9A-Za-z_]{0,63})/([A-Za-z][0-9A-Za-z_]{0,63})/((LLN0|([A-Za-z][0-9A-Za-z_]{0,10})?[A-Z]{4}[0-9]{1,12}))\\.)?([A-Z][0-9A-Za-z]{0,11}(\\.[a-z][0-9A-Za-z]*(\\([0-9]+\\))?)?)"] }
+				},
+				mappedLnUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
 				name: {
+					type: { union: [{
+						builtin: "Name",
+						facets: { enumeration: [
+							"T",
+							"Test",
+							"Check",
+							"SIUnit",
+							"Oper",
+							"SBO",
+							"SBOw",
+							"Cancel",
+							"Addr",
+							"PRIORITY",
+							"VID",
+							"APPID",
+							"TransportInUse",
+							"IPClassOfTraffic",
+							"IPv6FlowLabel",
+							"IPAddressLength",
+							"IPAddress"
+						] }
+					}, {
+						builtin: "Name",
+						facets: {
+							pattern: ["[a-z][0-9A-Za-z]*"],
+							maxLength: 60
+						}
+					}] },
 					required: !0,
 					facets: {
 						enumeration: [
@@ -20524,8 +30500,7 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"IPAddress"
 						],
 						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*", "[a-z][0-9A-Za-z]*"],
-						maxLength: 60,
-						whiteSpace: "collapse"
+						maxLength: 60
 					}
 				}
 			},
@@ -20605,15 +30580,80 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 						uri: "http://www.iec.ch/61850/2019/SCL/6-100"
 					}
 				}
-			},
-			choices: [{ options: [
-				"ControllingLNode",
-				"DAS",
-				"LogParametersRef",
-				"ProcessEcho",
-				"SDS",
-				"SubscriberLNode"
-			] }]
+			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "any",
+						namespace: ["##other"],
+						processContents: "lax"
+					}, {
+						kind: "element",
+						name: "Text",
+						maxOccurs: 1
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "choice",
+					particles: [
+						{
+							kind: "element",
+							name: "SDS",
+							minOccurs: 1,
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "DAS",
+							minOccurs: 1,
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "SubscriberLNode",
+							minOccurs: 1,
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "ControllingLNode",
+							minOccurs: 1,
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "ProcessEcho",
+							minOccurs: 1,
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "LogParametersRef",
+							minOccurs: 1,
+							maxOccurs: 1
+						}
+					]
+				}, {
+					kind: "element",
+					name: "Labels",
+					maxOccurs: 1
+				}]
+			}]
 		},
 		constraints: [{
 			kind: "unique",
@@ -20646,8 +30686,8 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		attributes: {
 			sequence: ["resvTms"],
 			details: { resvTms: {
-				default: "false",
-				facets: { whiteSpace: "collapse" }
+				type: { builtin: "boolean" },
+				default: "false"
 			} }
 		},
 		children: {
@@ -20669,29 +30709,28 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"desc",
 				"ldInst"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				cbName: {
+					type: { builtin: "Name" },
 					required: !0,
 					facets: {
 						pattern: ["[A-Za-z][0-9A-Za-z_]*", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						maxLength: 32,
-						whiteSpace: "collapse"
+						maxLength: 32
 					}
 				},
-				cbUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
+				cbUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				ldInst: {
+					type: { builtin: "normalizedString" },
 					required: !0,
 					facets: {
 						pattern: ["[A-Za-z0-9][0-9A-Za-z_]*"],
-						maxLength: 64,
-						whiteSpace: "replace"
+						maxLength: 64
 					}
 				}
 			},
@@ -20709,6 +30748,51 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				Private: {},
 				Address: { maxOccurs: 1 }
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [
+							{
+								kind: "any",
+								namespace: ["##other"],
+								processContents: "lax"
+							},
+							{
+								kind: "element",
+								name: "Text",
+								maxOccurs: 1
+							},
+							{
+								kind: "element",
+								name: "Private"
+							}
+						]
+					}]
+				}, {
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "element",
+						name: "Address",
+						maxOccurs: 1
+					}]
+				}]
+			}]
 		}
 	},
 	SMVParameters: {
@@ -20732,43 +30816,48 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"smvId"
 			],
 			details: {
-				cbName: { facets: { whiteSpace: "replace" } },
+				cbName: { type: { builtin: "normalizedString" } },
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				dsName: { facets: { whiteSpace: "replace" } },
+				dsName: { type: { builtin: "normalizedString" } },
 				id: {
+					type: { builtin: "token" },
 					required: !0,
 					facets: {
 						pattern: ["\\S+"],
 						minLength: 1,
-						maxLength: 255,
-						whiteSpace: "collapse"
+						maxLength: 255
 					}
 				},
-				multicast: { facets: { whiteSpace: "collapse" } },
-				nofASDU: { facets: {
-					minInclusive: 0,
-					maxInclusive: 4294967295,
-					whiteSpace: "collapse"
-				} },
-				securityEnabled: { facets: { whiteSpace: "collapse" } },
-				smpMod: { facets: {
-					enumeration: [
+				multicast: { type: { builtin: "boolean" } },
+				nofASDU: {
+					type: { builtin: "unsignedInt" },
+					facets: {
+						minInclusive: 0,
+						maxInclusive: 4294967295
+					}
+				},
+				securityEnabled: { type: { builtin: "boolean" } },
+				smpMod: {
+					type: { builtin: "normalizedString" },
+					facets: { enumeration: [
 						"SmpPerPeriod",
 						"SmpPerSec",
 						"SecPerSmp"
-					],
-					whiteSpace: "replace"
-				} },
-				smpRate: { facets: {
-					minInclusive: 0,
-					maxInclusive: 4294967295,
-					whiteSpace: "collapse"
-				} },
-				smvId: { facets: { whiteSpace: "replace" } }
-			}
+					] }
+				},
+				smpRate: {
+					type: { builtin: "unsignedInt" },
+					facets: {
+						minInclusive: 0,
+						maxInclusive: 4294967295
+					}
+				},
+				smvId: { type: { builtin: "normalizedString" } }
+			},
+			identityFields: ["id"]
 		},
 		children: {
 			sequence: [
@@ -20801,14 +30890,63 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					minOccurs: 1,
 					maxOccurs: 1
 				}
-			},
-			choices: [{
-				options: [
-					"L2CommParameters",
-					"L3IPv4CommParameters",
-					"L3IPv6CommParameters"
-				],
-				maxOccurs: 1
+			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [{
+								kind: "any",
+								namespace: ["##other"],
+								processContents: "lax"
+							}, {
+								kind: "element",
+								name: "Text",
+								maxOccurs: 1
+							}]
+						}]
+					}]
+				}]
+			}, {
+				kind: "choice",
+				maxOccurs: 1,
+				particles: [
+					{
+						kind: "element",
+						name: "L2CommParameters",
+						minOccurs: 1,
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "L3IPv4CommParameters",
+						minOccurs: 1,
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "L3IPv6CommParameters",
+						minOccurs: 1,
+						maxOccurs: 1
+					}
+				]
 			}]
 		}
 	},
@@ -20824,15 +30962,13 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: ["desc", "id"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				id: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				}
 			}
 		},
@@ -20846,6 +30982,30 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					uri: "http://www.iec.ch/61850/2019/SCL/6-100"
 				}
 			} }
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "any",
+						namespace: ["##other"],
+						processContents: "lax"
+					}, {
+						kind: "element",
+						name: "Text",
+						maxOccurs: 1
+					}]
+				}]
+			}]
 		}
 	},
 	SMVSecurity: {
@@ -20864,39 +31024,35 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"uuid",
 				"xferNumber"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				name: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				},
 				serialNumber: {
+					type: { builtin: "normalizedString" },
 					required: !0,
 					facets: {
 						pattern: ["[0-9]+"],
-						minLength: 1,
-						whiteSpace: "replace"
+						minLength: 1
 					}
 				},
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				xferNumber: { facets: {
-					minInclusive: 0,
-					maxInclusive: 4294967295,
-					whiteSpace: "collapse"
-				} }
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				xferNumber: {
+					type: { builtin: "unsignedInt" },
+					facets: {
+						minInclusive: 0,
+						maxInclusive: 4294967295
+					}
+				}
 			}
 		},
 		children: {
@@ -20942,6 +31098,61 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					maxOccurs: 1
 				}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [
+						{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						},
+						{
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "Private"
+						}
+					]
+				}, {
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "element",
+						name: "Labels",
+						maxOccurs: 1
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "Subject",
+					minOccurs: 1,
+					maxOccurs: 1
+				}, {
+					kind: "element",
+					name: "IssuerName",
+					minOccurs: 1,
+					maxOccurs: 1
+				}]
+			}]
 		}
 	},
 	SMVSettings: {
@@ -20966,14 +31177,15 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				cbName: {
+					type: { builtin: "Name" },
 					default: "Fix",
 					facets: {
 						enumeration: ["Conf", "Fix"],
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
 				datSet: {
+					type: { builtin: "Name" },
 					default: "Fix",
 					facets: {
 						enumeration: [
@@ -20981,23 +31193,23 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"Conf",
 							"Fix"
 						],
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
 				kdaParticipant: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				nofASDU: {
+					type: { builtin: "Name" },
 					default: "Fix",
 					facets: {
 						enumeration: ["Conf", "Fix"],
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
 				optFields: {
+					type: { builtin: "Name" },
 					default: "Fix",
 					facets: {
 						enumeration: [
@@ -21005,19 +31217,19 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"Conf",
 							"Fix"
 						],
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
 				pdcTimeStamp: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				samplesPerSec: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				smpRate: {
+					type: { builtin: "Name" },
 					default: "Fix",
 					facets: {
 						enumeration: [
@@ -21025,11 +31237,11 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"Conf",
 							"Fix"
 						],
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
 				svID: {
+					type: { builtin: "Name" },
 					default: "Fix",
 					facets: {
 						enumeration: [
@@ -21037,13 +31249,12 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"Conf",
 							"Fix"
 						],
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
 				synchSrcId: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				}
 			}
 		},
@@ -21071,14 +31282,39 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					maxOccurs: 1
 				},
 				McSecurity: { maxOccurs: 1 }
-			},
-			choices: [{
-				options: [
-					"SamplesPerSec",
-					"SecPerSamples",
-					"SmpRate"
-				],
-				minOccurs: 1
+			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "choice",
+				minOccurs: 1,
+				particles: [
+					{
+						kind: "element",
+						name: "SmpRate",
+						minOccurs: 1,
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "SamplesPerSec",
+						minOccurs: 1,
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "SecPerSamples",
+						minOccurs: 1,
+						maxOccurs: 1
+					}
+				]
+			}, {
+				kind: "element",
+				name: "McSecurity",
+				maxOccurs: 1
 			}]
 		}
 	},
@@ -21099,6 +31335,7 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				delivery: {
+					type: { builtin: "Name" },
 					default: "multicast",
 					facets: {
 						enumeration: [
@@ -21106,29 +31343,28 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"multicast",
 							"both"
 						],
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
 				deliveryConf: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				max: {
+					type: { builtin: "unsignedInt" },
 					required: !0,
 					facets: {
 						minInclusive: 0,
-						maxInclusive: 4294967295,
-						whiteSpace: "collapse"
+						maxInclusive: 4294967295
 					}
 				},
 				rSV: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				sv: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "true"
 				}
 			}
 		},
@@ -21148,12 +31384,12 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: ["encryption", "signature"],
 			details: {
 				encryption: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				signature: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				}
 			}
 		},
@@ -21184,88 +31420,84 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"templateUuid",
 				"uuid"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
-				confRev: { facets: {
-					minInclusive: 0,
-					maxInclusive: 4294967295,
-					whiteSpace: "collapse"
-				} },
-				datSet: { facets: {
-					pattern: ["[A-Za-z][0-9A-Za-z_]*", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-					maxLength: 32,
-					whiteSpace: "collapse"
-				} },
+				confRev: {
+					type: { builtin: "unsignedInt" },
+					facets: {
+						minInclusive: 0,
+						maxInclusive: 4294967295
+					}
+				},
+				datSet: {
+					type: { builtin: "Name" },
+					facets: {
+						pattern: ["[A-Za-z][0-9A-Za-z_]*", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
+						maxLength: 32
+					}
+				},
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				multicast: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "true"
 				},
 				name: {
+					type: { builtin: "Name" },
 					required: !0,
 					facets: {
 						pattern: ["[A-Za-z][0-9A-Za-z_]*", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						maxLength: 32,
-						whiteSpace: "collapse"
+						maxLength: 32
 					}
 				},
 				nofASDU: {
+					type: { builtin: "unsignedInt" },
 					required: !0,
 					facets: {
 						minInclusive: 0,
-						maxInclusive: 4294967295,
-						whiteSpace: "collapse"
+						maxInclusive: 4294967295
 					}
 				},
 				securityEnable: {
+					type: { builtin: "normalizedString" },
 					default: "None",
-					facets: {
-						enumeration: [
-							"None",
-							"Signature",
-							"SignatureAndEncryption"
-						],
-						whiteSpace: "replace"
-					}
+					facets: { enumeration: [
+						"None",
+						"Signature",
+						"SignatureAndEncryption"
+					] }
 				},
 				smpMod: {
+					type: { builtin: "normalizedString" },
 					default: "SmpPerPeriod",
-					facets: {
-						enumeration: [
-							"SmpPerPeriod",
-							"SmpPerSec",
-							"SecPerSmp"
-						],
-						whiteSpace: "replace"
-					}
+					facets: { enumeration: [
+						"SmpPerPeriod",
+						"SmpPerSec",
+						"SecPerSmp"
+					] }
 				},
 				smpRate: {
+					type: { builtin: "unsignedInt" },
 					required: !0,
 					facets: {
 						minInclusive: 0,
-						maxInclusive: 4294967295,
-						whiteSpace: "collapse"
+						maxInclusive: 4294967295
 					}
 				},
 				smvID: {
+					type: { builtin: "normalizedString" },
 					required: !0,
 					facets: {
 						pattern: ["[ -~]*"],
 						minLength: 1,
-						maxLength: 129,
-						whiteSpace: "replace"
+						maxLength: 129
 					}
 				},
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			},
 			identityFields: ["name"]
 		},
@@ -21289,6 +31521,69 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				},
 				Protocol: { maxOccurs: 1 }
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [
+								{
+									kind: "any",
+									namespace: ["##other"],
+									processContents: "lax"
+								},
+								{
+									kind: "element",
+									name: "Text",
+									maxOccurs: 1
+								},
+								{
+									kind: "element",
+									name: "Private"
+								}
+							]
+						}]
+					}]
+				}, {
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "element",
+						name: "IEDName"
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "SmvOpts",
+					minOccurs: 1,
+					maxOccurs: 1
+				}, {
+					kind: "element",
+					name: "Protocol",
+					maxOccurs: 1
+				}]
+			}]
 		}
 	},
 	SamplesPerSec: {
@@ -21306,12 +31601,14 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: [],
 			details: {}
 		},
-		textContent: { facets: {
-			minInclusive: 0,
-			maxInclusive: 4294967295,
-			minExclusive: 0,
-			whiteSpace: "collapse"
-		} }
+		textContent: {
+			type: { builtin: "unsignedInt" },
+			facets: {
+				minInclusive: 0,
+				maxInclusive: 4294967295,
+				minExclusive: 0
+			}
+		}
 	},
 	SclFileReference: {
 		tag: "SclFileReference",
@@ -21338,21 +31635,34 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"when",
 				"xsi:type"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				engRight: { facets: {
-					enumeration: [
-						"full",
-						"fix",
-						"dataflow"
-					],
-					whiteSpace: "replace"
-				} },
-				fileName: { facets: { whiteSpace: "replace" } },
+				engRight: { facets: { enumeration: [
+					"full",
+					"fix",
+					"dataflow"
+				] } },
+				fileName: { type: { builtin: "normalizedString" } },
 				fileType: {
+					type: { union: [{
+						builtin: "Name",
+						facets: { enumeration: [
+							"ICD",
+							"IID",
+							"CID",
+							"SSD",
+							"SCD",
+							"SED"
+						] }
+					}, {
+						builtin: "normalizedString",
+						facets: { pattern: ["[A-Z]{3}"] }
+					}] },
 					required: !0,
 					facets: {
 						enumeration: [
@@ -21363,24 +31673,20 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"SCD",
 							"SED"
 						],
-						pattern: ["[A-Z]{3}", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "replace"
+						pattern: ["[A-Z]{3}", "[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
-				fileUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				headerId: { facets: { whiteSpace: "replace" } },
+				fileUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				headerId: {},
 				revision: {
-					required: !0,
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					required: !0
 				},
 				version: {
-					required: !0,
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					required: !0
 				},
-				when: { facets: { whiteSpace: "replace" } },
+				when: { type: { builtin: "normalizedString" } },
 				"xsi:type": {
 					namespace: {
 						prefix: "xsi",
@@ -21406,6 +31712,37 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				Private: {},
 				SubCheckoutID: { maxOccurs: 1 }
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [
+						{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						},
+						{
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "Private"
+						}
+					]
+				}]
+			}]
 		}
 	},
 	SecPerSamples: {
@@ -21423,12 +31760,14 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: [],
 			details: {}
 		},
-		textContent: { facets: {
-			minInclusive: 0,
-			maxInclusive: 4294967295,
-			minExclusive: 0,
-			whiteSpace: "collapse"
-		} }
+		textContent: {
+			type: { builtin: "unsignedInt" },
+			facets: {
+				minInclusive: 0,
+				maxInclusive: 4294967295,
+				minExclusive: 0
+			}
+		}
 	},
 	Security: {
 		tag: "Security",
@@ -21441,12 +31780,12 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: ["ACSEAuthentication", "E2ESecurity"],
 			details: {
 				ACSEAuthentication: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				E2ESecurity: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				}
 			}
 		},
@@ -21464,21 +31803,22 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		parents: ["AccessPoint"],
 		attributes: {
 			sequence: ["desc", "timeout"],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				timeout: {
+					type: { builtin: "unsignedInt" },
 					default: "30",
 					facets: {
 						minInclusive: 0,
-						maxInclusive: 4294967295,
-						whiteSpace: "collapse"
+						maxInclusive: 4294967295
 					}
 				}
-			},
-			identityFields: ["inst"]
+			}
 		},
 		children: {
 			sequence: [
@@ -21529,6 +31869,58 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				Association: {}
 			}
 		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [
+						{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						},
+						{
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "Private"
+						}
+					]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [
+					{
+						kind: "element",
+						name: "Authentication",
+						minOccurs: 1,
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "LDevice",
+						minOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "Association"
+					}
+				]
+			}]
+		},
 		constraints: [{
 			kind: "unique",
 			name: "uniqueAssociationInServer",
@@ -21556,22 +31948,21 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"apUuid",
 				"desc"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				apName: {
+					type: { builtin: "normalizedString" },
 					required: !0,
 					facets: {
 						pattern: ["[A-Za-z0-9][0-9A-Za-z_]*"],
-						maxLength: 32,
-						whiteSpace: "replace"
+						maxLength: 32
 					}
 				},
-				apUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
+				apUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				}
 			}
 		},
@@ -21582,6 +31973,37 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				Text: { maxOccurs: 1 },
 				Private: {}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [
+						{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						},
+						{
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "Private"
+						}
+					]
+				}]
+			}]
 		}
 	},
 	ServiceSpecifications: {
@@ -21595,8 +32017,8 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		attributes: {
 			sequence: ["desc"],
 			details: { desc: {
-				default: "",
-				facets: { whiteSpace: "replace" }
+				type: { builtin: "normalizedString" },
+				default: ""
 			} }
 		},
 		children: {
@@ -21648,15 +32070,71 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					minOccurs: 1,
 					maxOccurs: 1
 				}
-			},
-			choices: [{ options: [
-				"AnalogueWiringParameters",
-				"BinaryWiringParameters",
-				"GooseParameters",
-				"LogParameters",
-				"ReportParameters",
-				"SMVParameters"
-			] }]
+			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "any",
+						namespace: ["##other"],
+						processContents: "lax"
+					}, {
+						kind: "element",
+						name: "Text",
+						maxOccurs: 1
+					}]
+				}]
+			}, {
+				kind: "choice",
+				particles: [
+					{
+						kind: "element",
+						name: "GooseParameters",
+						minOccurs: 1,
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "SMVParameters",
+						minOccurs: 1,
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "ReportParameters",
+						minOccurs: 1,
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "BinaryWiringParameters",
+						minOccurs: 1,
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "AnalogueWiringParameters",
+						minOccurs: 1,
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "LogParameters",
+						minOccurs: 1,
+						maxOccurs: 1
+					}
+				]
+			}]
 		},
 		constraints: [{
 			kind: "key",
@@ -21679,17 +32157,15 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		attributes: {
 			sequence: ["nameLength"],
 			details: { nameLength: {
+				type: { builtin: "token" },
 				default: "32",
-				facets: {
-					pattern: [
-						"32",
-						"64",
-						"6[5-9]",
-						"[7-9]\\d",
-						"[1-9]\\d\\d+"
-					],
-					whiteSpace: "collapse"
-				}
+				facets: { pattern: [
+					"32",
+					"64",
+					"6[5-9]",
+					"[7-9]\\d",
+					"[1-9]\\d\\d+"
+				] }
 			} }
 		},
 		children: {
@@ -21732,6 +32208,193 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				Security: { maxOccurs: 1 },
 				MultiAPPerSubNet: { maxOccurs: 1 }
 			}
+		},
+		contentModel: {
+			kind: "all",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [
+				{
+					kind: "element",
+					name: "DynAssociation",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "SettingGroups",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "GetDirectory",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "GetDataObjectDefinition",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "DataObjectDirectory",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "GetDataSetValue",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "SetDataSetValue",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "DataSetDirectory",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "ConfDataSet",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "DynDataSet",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "ReadWrite",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "TimerActivatedControl",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "ConfReportControl",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "GetCBValues",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "ConfLogControl",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "ReportSettings",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "LogSettings",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "GSESettings",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "SMVSettings",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "GSEDir",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "GOOSE",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "GSSE",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "SMVsc",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "FileHandling",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "ConfLNs",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "ClientServices",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "ConfLdName",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "SupSubscription",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "ConfSigRef",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "ValueHandling",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "RedProt",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "TimeSyncProt",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "CommProt",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "SCSM",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "Security",
+					maxOccurs: 1
+				},
+				{
+					kind: "element",
+					name: "MultiAPPerSubNet",
+					maxOccurs: 1
+				}
+			]
 		}
 	},
 	SetDataSetValue: {
@@ -21757,50 +32420,17 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"xsi:type"
 			],
 			details: {
-				c37_238: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ftp: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ftps: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_8_1: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_8_2: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_9_3: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ipv6: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				mms: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
-				other: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				serverAssociationInitiation: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				sntp: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
+				c37_238: { default: "false" },
+				ftp: { default: "false" },
+				ftps: { default: "false" },
+				iec61850_8_1: { default: "true" },
+				iec61850_8_2: { default: "false" },
+				iec61850_9_3: { default: "false" },
+				ipv6: { default: "false" },
+				mms: { default: "true" },
+				other: { default: "false" },
+				serverAssociationInitiation: { default: "false" },
+				sntp: { default: "true" },
 				"xsi:type": {
 					namespace: {
 						prefix: "xsi",
@@ -21834,32 +32464,36 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"numOfSGs",
 				"resvTms"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				actSG: {
+					type: { builtin: "unsignedInt" },
 					default: "1",
 					facets: {
 						minInclusive: 1,
-						maxInclusive: 4294967295,
-						whiteSpace: "collapse"
+						maxInclusive: 4294967295
 					}
 				},
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				numOfSGs: {
+					type: { builtin: "unsignedInt" },
 					required: !0,
 					facets: {
 						minInclusive: 1,
-						maxInclusive: 4294967295,
-						whiteSpace: "collapse"
+						maxInclusive: 4294967295
 					}
 				},
-				resvTms: { facets: {
-					minInclusive: 0,
-					maxInclusive: 65535,
-					whiteSpace: "collapse"
-				} }
+				resvTms: {
+					type: { builtin: "unsignedShort" },
+					facets: {
+						minInclusive: 0,
+						maxInclusive: 65535
+					}
+				}
 			}
 		},
 		children: {
@@ -21869,6 +32503,37 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				Text: { maxOccurs: 1 },
 				Private: {}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [
+						{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						},
+						{
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "Private"
+						}
+					]
+				}]
+			}]
 		}
 	},
 	SettingGroups: {
@@ -21888,6 +32553,20 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				SGEdit: { maxOccurs: 1 },
 				ConfSG: { maxOccurs: 1 }
 			}
+		},
+		contentModel: {
+			kind: "all",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "element",
+				name: "SGEdit",
+				maxOccurs: 1
+			}, {
+				kind: "element",
+				name: "ConfSG",
+				maxOccurs: 1
+			}]
 		}
 	},
 	SignalRole: {
@@ -21908,28 +32587,17 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				name: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				},
-				originUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				originUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			}
 		},
 		children: {
@@ -21953,8 +32621,60 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				LNodeInputRef: {},
 				LNodeOutputRef: {},
 				LNodeDataRef: {}
-			},
-			choices: [{ options: ["FunctionalVariantRef"] }]
+			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						}, {
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						}]
+					}]
+				}, {
+					kind: "choice",
+					particles: [{
+						kind: "element",
+						name: "FunctionalVariantRef"
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [
+					{
+						kind: "element",
+						name: "LNodeInputRef"
+					},
+					{
+						kind: "element",
+						name: "LNodeOutputRef"
+					},
+					{
+						kind: "element",
+						name: "LNodeDataRef"
+					}
+				]
+			}]
 		}
 	},
 	SmpRate: {
@@ -21972,12 +32692,14 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: [],
 			details: {}
 		},
-		textContent: { facets: {
-			minInclusive: 0,
-			maxInclusive: 4294967295,
-			minExclusive: 0,
-			whiteSpace: "collapse"
-		} }
+		textContent: {
+			type: { builtin: "unsignedInt" },
+			facets: {
+				minInclusive: 0,
+				maxInclusive: 4294967295,
+				minExclusive: 0
+			}
+		}
 	},
 	SmvOpts: {
 		tag: "SmvOpts",
@@ -21999,36 +32721,36 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				dataSet: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				refreshTime: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				sampleMode: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				sampleRate: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				sampleSynchronized: {
-					fixed: "true",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					fixed: "true"
 				},
 				security: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				synchSourceId: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				timestamp: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				}
 			}
 		},
@@ -22046,6 +32768,8 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		parents: ["Hitem", "Header"],
 		attributes: {
 			sequence: [],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {}
 		},
 		children: {
@@ -22060,6 +32784,40 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				Private: {},
 				SclFileReference: {}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [
+					{
+						kind: "any",
+						namespace: ["##other"],
+						processContents: "lax"
+					},
+					{
+						kind: "element",
+						name: "Text",
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "Private"
+					}
+				]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "SclFileReference"
+				}]
+			}]
 		}
 	},
 	SourceRef: {
@@ -22093,76 +32851,67 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				extRefAddr: { facets: { whiteSpace: "replace" } },
-				extRefUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
+				extRefAddr: { type: { builtin: "normalizedString" } },
+				extRefUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
 				input: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				},
 				inputInst: {
+					type: { builtin: "integer" },
 					default: "1",
+					facets: { minInclusive: 1 }
+				},
+				originUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				pDA: { type: { builtin: "normalizedString" } },
+				pDO: { type: { builtin: "normalizedString" } },
+				pLN: { type: { builtin: "normalizedString" } },
+				resourceName: { type: { builtin: "normalizedString" } },
+				resourceUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				service: {
+					type: { union: [{
+						builtin: "Name",
+						facets: { enumeration: [
+							"Poll",
+							"Report",
+							"GOOSE",
+							"SMV"
+						] }
+					}, {
+						builtin: "Name",
+						facets: { enumeration: ["Wired", "Internal"] }
+					}] },
 					facets: {
-						minInclusive: 1,
-						whiteSpace: "collapse"
+						enumeration: [
+							"Poll",
+							"Report",
+							"GOOSE",
+							"SMV",
+							"Wired",
+							"Internal"
+						],
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
-				originUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				pDA: { facets: { whiteSpace: "replace" } },
-				pDO: { facets: { whiteSpace: "replace" } },
-				pLN: { facets: { whiteSpace: "replace" } },
-				resourceName: { facets: { whiteSpace: "replace" } },
-				resourceUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				service: { facets: {
-					enumeration: [
-						"Poll",
-						"Report",
-						"GOOSE",
-						"SMV",
-						"Wired",
-						"Internal"
-					],
-					pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-					whiteSpace: "collapse"
-				} },
-				source: { facets: {
-					pattern: [".+(/.+)*"],
-					whiteSpace: "replace"
-				} },
-				sourceDaName: { facets: {
-					pattern: ["[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?(\\.[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?)*"],
-					whiteSpace: "replace"
-				} },
-				sourceDoName: { facets: {
-					pattern: ["[A-Z][0-9A-Za-z]{0,11}(\\.[a-z][0-9A-Za-z]*(\\([0-9]+\\))?)?"],
-					whiteSpace: "replace"
-				} },
-				sourceLNodeUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				source: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: [".+(/.+)*"] }
+				},
+				sourceDaName: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?(\\.[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?)*"] }
+				},
+				sourceDoName: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[A-Z][0-9A-Za-z]{0,11}(\\.[a-z][0-9A-Za-z]*(\\([0-9]+\\))?)?"] }
+				},
+				sourceLNodeUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			},
 			identityFields: [
 				"input",
@@ -22213,16 +32962,75 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					minOccurs: 1,
 					maxOccurs: 1
 				}
-			},
-			choices: [{
-				options: [
-					"AnalogueWiringParametersRef",
-					"BinaryWiringParametersRef",
-					"GooseParametersRef",
-					"ReportParametersRef",
-					"SMVParametersRef"
-				],
-				maxOccurs: 1
+			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [{
+								kind: "any",
+								namespace: ["##other"],
+								processContents: "lax"
+							}, {
+								kind: "element",
+								name: "Text",
+								maxOccurs: 1
+							}]
+						}]
+					}]
+				}]
+			}, {
+				kind: "choice",
+				maxOccurs: 1,
+				particles: [
+					{
+						kind: "element",
+						name: "GooseParametersRef",
+						minOccurs: 1,
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "SMVParametersRef",
+						minOccurs: 1,
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "ReportParametersRef",
+						minOccurs: 1,
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "BinaryWiringParametersRef",
+						minOccurs: 1,
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "AnalogueWiringParametersRef",
+						minOccurs: 1,
+						maxOccurs: 1
+					}
+				]
 			}]
 		}
 	},
@@ -22244,28 +33052,17 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				name: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				},
-				originUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				originUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			}
 		},
 		children: {
@@ -22289,6 +33086,42 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					minOccurs: 1
 				}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "any",
+						namespace: ["##other"],
+						processContents: "lax"
+					}, {
+						kind: "element",
+						name: "Text",
+						maxOccurs: 1
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "SubCategory"
+				}, {
+					kind: "element",
+					name: "FunctionCatRef",
+					minOccurs: 1
+				}]
+			}]
 		}
 	},
 	SubCheckoutID: {
@@ -22315,21 +33148,39 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"version",
 				"when"
 			],
+			any: !0,
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				engRight: { facets: {
-					enumeration: [
+				engRight: {
+					type: { builtin: "normalizedString" },
+					facets: { enumeration: [
 						"full",
 						"fix",
 						"dataflow"
-					],
-					whiteSpace: "replace"
-				} },
-				fileName: { facets: { whiteSpace: "replace" } },
+					] }
+				},
+				fileName: { type: { builtin: "normalizedString" } },
 				fileType: {
+					type: {
+						union: [{
+							builtin: "Name",
+							facets: { enumeration: [
+								"ICD",
+								"IID",
+								"CID",
+								"SSD",
+								"SCD",
+								"SED"
+							] }
+						}, {
+							builtin: "normalizedString",
+							facets: { pattern: ["[A-Z]{3}"] }
+						}],
+						facets: { enumeration: ["SED", "SCC"] }
+					},
 					required: !0,
 					facets: {
 						enumeration: [
@@ -22341,29 +33192,35 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"SSD",
 							"SCD"
 						],
-						pattern: ["[A-Z]{3}", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "replace"
+						pattern: ["[A-Z]{3}", "[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
-				fileUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				headerId: { facets: { whiteSpace: "replace" } },
+				fileUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				headerId: { type: { builtin: "normalizedString" } },
 				revision: {
-					required: !0,
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					required: !0
 				},
 				version: {
-					required: !0,
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					required: !0
 				},
-				when: { facets: { whiteSpace: "replace" } }
+				when: { type: { builtin: "normalizedString" } }
 			}
 		},
 		children: {
 			sequence: ["SubCheckoutID"],
 			details: { SubCheckoutID: { maxOccurs: 1 } }
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "element",
+				name: "SubCheckoutID",
+				maxOccurs: 1
+			}]
 		}
 	},
 	SubEquipment: {
@@ -22387,19 +33244,20 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"uuid",
 				"virtual"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				name: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				},
 				phase: {
+					type: { builtin: "Name" },
 					default: "none",
 					facets: {
 						enumeration: [
@@ -22413,21 +33271,14 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 							"BC",
 							"CA"
 						],
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
 				virtual: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				}
 			},
 			identityFields: ["name"]
@@ -22511,6 +33362,72 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				}] }
 			}
 		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [
+								{
+									kind: "any",
+									namespace: ["##other"],
+									processContents: "lax"
+								},
+								{
+									kind: "element",
+									name: "Text",
+									maxOccurs: 1
+								},
+								{
+									kind: "element",
+									name: "Private"
+								}
+							]
+						}, {
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [{
+								kind: "element",
+								name: "Labels",
+								maxOccurs: 1
+							}]
+						}]
+					}, {
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "element",
+							name: "LNode"
+						}]
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "EqFunction"
+				}]
+			}]
+		},
 		constraints: [{
 			kind: "unique",
 			name: "uniqueLNodeInSubEquipment",
@@ -22571,28 +33488,23 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"type",
 				"uuid"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				name: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				},
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				type: { facets: { whiteSpace: "replace" } },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
-			}
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				type: { type: { builtin: "normalizedString" } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
+			},
+			identityFields: ["name"]
 		},
 		children: {
 			sequence: [
@@ -22779,6 +33691,82 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				Variable: {}
 			}
 		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [
+								{
+									kind: "any",
+									namespace: ["##other"],
+									processContents: "lax"
+								},
+								{
+									kind: "element",
+									name: "Text",
+									maxOccurs: 1
+								},
+								{
+									kind: "element",
+									name: "Private"
+								}
+							]
+						}, {
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [{
+								kind: "element",
+								name: "Labels",
+								maxOccurs: 1
+							}]
+						}]
+					}, {
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "element",
+							name: "LNode"
+						}]
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [
+					{
+						kind: "element",
+						name: "GeneralEquipment"
+					},
+					{
+						kind: "element",
+						name: "ConductingEquipment"
+					},
+					{
+						kind: "element",
+						name: "SubFunction"
+					}
+				]
+			}]
+		},
 		constraints: [{
 			kind: "unique",
 			name: "uniqueLNodeInSubFunction",
@@ -22842,30 +33830,20 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				name: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				},
-				originUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				type: { facets: { whiteSpace: "replace" } },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
-			}
+				originUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				type: { type: { builtin: "normalizedString" } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
+			},
+			identityFields: ["name"]
 		},
 		children: {
 			sequence: [
@@ -23037,6 +34015,61 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				}] }
 			}
 		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						}, {
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						}]
+					}]
+				}, {
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "element",
+						name: "LNode"
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [
+					{
+						kind: "element",
+						name: "GeneralEquipment"
+					},
+					{
+						kind: "element",
+						name: "ConductingEquipment"
+					},
+					{
+						kind: "element",
+						name: "SubFunctionTemplate"
+					}
+				]
+			}]
+		},
 		constraints: [{
 			kind: "unique",
 			name: "uniqueLNodeInSubFunctionTemplate",
@@ -23097,31 +34130,33 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"type",
 				"uuid"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				name: {
+					type: { builtin: "normalizedString" },
 					required: !0,
+					facets: { minLength: 1 }
+				},
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				type: {
+					type: { union: [{
+						builtin: "normalizedString",
+						facets: { enumeration: ["8-MMS", "8-XMPP"] }
+					}, {
+						builtin: "normalizedString",
+						facets: { minLength: 1 }
+					}] },
 					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
+						enumeration: ["8-MMS", "8-XMPP"],
+						minLength: 1
 					}
 				},
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				type: { facets: {
-					enumeration: ["8-MMS", "8-XMPP"],
-					minLength: 1,
-					whiteSpace: "replace"
-				} },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			},
 			identityFields: ["name"]
 		},
@@ -23199,6 +34234,59 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				CommunicationServiceSpecifications: {}
 			}
 		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [
+						{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						},
+						{
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "Private"
+						}
+					]
+				}, {
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "element",
+						name: "Labels",
+						maxOccurs: 1
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "BitRate",
+					maxOccurs: 1
+				}, {
+					kind: "element",
+					name: "ConnectedAP",
+					minOccurs: 1
+				}]
+			}]
+		},
 		constraints: [{
 			kind: "unique",
 			name: "uniqueConnectedAP",
@@ -23228,19 +34316,17 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: ["commonName", "idHierarchy"],
 			details: {
 				commonName: {
+					type: { builtin: "normalizedString" },
 					required: !0,
 					facets: {
 						pattern: ["none", "CN=.+"],
-						minLength: 4,
-						whiteSpace: "replace"
+						minLength: 4
 					}
 				},
 				idHierarchy: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				}
 			}
 		},
@@ -23271,34 +34357,42 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				inputName: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				},
-				pLN: { facets: { whiteSpace: "replace" } },
-				resourceName: { facets: { whiteSpace: "replace" } },
-				resourceUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				service: { facets: {
-					enumeration: [
-						"Poll",
-						"Report",
-						"GOOSE",
-						"SMV",
-						"Wired",
-						"Internal"
-					],
-					pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-					whiteSpace: "collapse"
-				} }
+				pLN: { type: { builtin: "normalizedString" } },
+				resourceName: { type: { builtin: "normalizedString" } },
+				resourceUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				service: {
+					type: { union: [{
+						builtin: "Name",
+						facets: { enumeration: [
+							"Poll",
+							"Report",
+							"GOOSE",
+							"SMV"
+						] }
+					}, {
+						builtin: "Name",
+						facets: { enumeration: ["Wired", "Internal"] }
+					}] },
+					facets: {
+						enumeration: [
+							"Poll",
+							"Report",
+							"GOOSE",
+							"SMV",
+							"Wired",
+							"Internal"
+						],
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
+					}
+				}
 			}
 		},
 		children: {
@@ -23338,15 +34432,59 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					minOccurs: 1,
 					maxOccurs: 1
 				}
-			},
-			choices: [{
-				options: [
-					"BinaryWiringParametersRef",
-					"GooseParametersRef",
-					"ReportParametersRef",
-					"SMVParametersRef"
-				],
-				maxOccurs: 1
+			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "any",
+						namespace: ["##other"],
+						processContents: "lax"
+					}, {
+						kind: "element",
+						name: "Text",
+						maxOccurs: 1
+					}]
+				}]
+			}, {
+				kind: "choice",
+				maxOccurs: 1,
+				particles: [
+					{
+						kind: "element",
+						name: "GooseParametersRef",
+						minOccurs: 1,
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "SMVParametersRef",
+						minOccurs: 1,
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "ReportParametersRef",
+						minOccurs: 1,
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "BinaryWiringParametersRef",
+						minOccurs: 1,
+						maxOccurs: 1
+					}
+				]
 			}]
 		}
 	},
@@ -23364,26 +34502,20 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"templateUuid",
 				"uuid"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				name: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				},
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			},
 			identityFields: ["name"]
 		},
@@ -23617,6 +34749,92 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				Variable: {}
 			}
 		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [{
+								kind: "sequence",
+								minOccurs: 1,
+								maxOccurs: 1,
+								particles: [
+									{
+										kind: "any",
+										namespace: ["##other"],
+										processContents: "lax"
+									},
+									{
+										kind: "element",
+										name: "Text",
+										maxOccurs: 1
+									},
+									{
+										kind: "element",
+										name: "Private"
+									}
+								]
+							}, {
+								kind: "sequence",
+								minOccurs: 1,
+								maxOccurs: 1,
+								particles: [{
+									kind: "element",
+									name: "Labels",
+									maxOccurs: 1
+								}]
+							}]
+						}, {
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [{
+								kind: "element",
+								name: "LNode"
+							}]
+						}]
+					}]
+				}, {
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "element",
+						name: "PowerTransformer"
+					}, {
+						kind: "element",
+						name: "GeneralEquipment"
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "VoltageLevel",
+					minOccurs: 1
+				}, {
+					kind: "element",
+					name: "Function"
+				}]
+			}]
+		},
 		constraints: [{
 			kind: "unique",
 			name: "uniqueChildNameInSubstation",
@@ -23673,19 +34891,19 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: ["maxGo", "maxSv"],
 			details: {
 				maxGo: {
+					type: { builtin: "unsignedInt" },
 					required: !0,
 					facets: {
 						minInclusive: 0,
-						maxInclusive: 4294967295,
-						whiteSpace: "collapse"
+						maxInclusive: 4294967295
 					}
 				},
 				maxSv: {
+					type: { builtin: "unsignedInt" },
 					required: !0,
 					facets: {
 						minInclusive: 0,
-						maxInclusive: 4294967295,
-						whiteSpace: "collapse"
+						maxInclusive: 4294967295
 					}
 				}
 			}
@@ -23711,37 +34929,29 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"uuid",
 				"virtual"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				name: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				},
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
 				type: {
+					type: { builtin: "Name" },
 					required: !0,
 					fixed: "LTC",
-					facets: {
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
-					}
+					facets: { pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"] }
 				},
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
 				virtual: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				}
 			},
 			identityFields: ["name"]
@@ -23870,6 +35080,75 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				}] }
 			}
 		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [
+								{
+									kind: "any",
+									namespace: ["##other"],
+									processContents: "lax"
+								},
+								{
+									kind: "element",
+									name: "Text",
+									maxOccurs: 1
+								},
+								{
+									kind: "element",
+									name: "Private"
+								}
+							]
+						}, {
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [{
+								kind: "element",
+								name: "Labels",
+								maxOccurs: 1
+							}]
+						}]
+					}, {
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "element",
+							name: "LNode"
+						}]
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "SubEquipment"
+				}, {
+					kind: "element",
+					name: "EqFunction"
+				}]
+			}]
+		},
 		constraints: [{
 			kind: "unique",
 			name: "uniqueLNodeInTapChanger",
@@ -23935,53 +35214,48 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"substationName",
 				"voltageLevelName"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
-				bayName: { facets: {
-					minLength: 1,
-					whiteSpace: "replace"
-				} },
-				cNodeName: {
-					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+				bayName: {
+					type: { builtin: "normalizedString" },
+					facets: { minLength: 1 }
 				},
-				cNodeUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				connectivityNode: {
+				cNodeName: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						pattern: [".+/.+(/.+)*"],
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
+				},
+				cNodeUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				connectivityNode: {
+					type: { builtin: "normalizedString" },
+					required: !0,
+					facets: { pattern: [".+/.+(/.+)*"] }
 				},
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				lineName: { facets: {
-					minLength: 1,
-					whiteSpace: "replace"
-				} },
+				lineName: {
+					type: { builtin: "normalizedString" },
+					facets: { minLength: 1 }
+				},
 				name: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				processName: { facets: {
-					pattern: [".+(/.+)*"],
-					whiteSpace: "replace"
-				} },
-				substationName: { facets: {
-					minLength: 1,
-					whiteSpace: "replace"
-				} },
-				voltageLevelName: { facets: {
-					minLength: 1,
-					whiteSpace: "replace"
-				} }
+				processName: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: [".+(/.+)*"] }
+				},
+				substationName: {
+					type: { builtin: "normalizedString" },
+					facets: { minLength: 1 }
+				},
+				voltageLevelName: {
+					type: { builtin: "normalizedString" },
+					facets: { minLength: 1 }
+				}
 			}
 		},
 		children: {
@@ -23991,6 +35265,37 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				Text: { maxOccurs: 1 },
 				Private: {}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [
+						{
+							kind: "any",
+							namespace: ["##other"],
+							processContents: "lax"
+						},
+						{
+							kind: "element",
+							name: "Text",
+							maxOccurs: 1
+						},
+						{
+							kind: "element",
+							name: "Private"
+						}
+					]
+				}]
+			}]
 		}
 	},
 	Text: {
@@ -24002,12 +35307,29 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		parents: /* @__PURE__ */ "SCL.Header.SourceFiles.SclFileReference.Substation.Labels.LNode.PowerTransformer.TransformerWinding.Terminal.SubEquipment.EqFunction.GeneralEquipment.EqSubFunction.TapChanger.NeutralPoint.VoltageLevel.Bay.ConductingEquipment.ConnectivityNode.Function.SubFunction.Communication.SubNetwork.ConnectedAP.GSE.SMV.PhysConn.IED.AccessPoint.Server.LDevice.LN0.DataSet.ReportControl.RptEnabled.LogControl.DOI.SDI.DAI.Inputs.ExtRef.Outputs.ExtCtrl.Log.GSEControl.SampledValueControl.SettingControl.LN.ServerAt.GOOSESecurity.SMVSecurity.IEDSourceFiles.MinRequestedSCDFiles.LNodeType.DO.DOType.SDO.DA.DAType.BDA.EnumType.Line.Process.FunctionCategory.SubCategory.FunctionCatRef.ProcessResources.ProcessResource.PowerSystemRelations.PowerSystemRelation.LNodeInputs.SourceRef.GooseParametersRef.SMVParametersRef.ReportParametersRef.BinaryWiringParametersRef.AnalogueWiringParametersRef.LNodeOutputs.ControlRef.ProcessEcho.LNodeSpecNaming.DOS.SDS.DAS.SubscriberLNode.ControllingLNode.LogParametersRef.FunctionSclRef.Variable.VariableApplyTo.CommunicationServiceSpecifications.GooseParameters.L2CommParameters.L3IPv4CommParameters.L3IPv6CommParameters.SMVParameters.ReportParameters.ServiceSpecifications.BinaryWiringParameters.AnalogueWiringParameters.LogParameters.AllocationRole.FunctionRef.FunctionalVariantRef.SignalRole.LNodeInputRef.LNodeOutputRef.LNodeDataRef.Application.FunctionRole.FunctionRoleContent.BehaviorDescriptionRef.InputVarRef.OutputVarRef.ProcessResourceRef.VariableRef.FunctionCategoryRef.PowerSystemRelationRef.FunctionalVariant.FunctionalSubVariant.FunctionalVariantGroup.AllocationRoleRef.ApplicationSclRef.BehaviorDescription.InputVar.OutputVar.BehaviorReference.Project.ProjectProcessReference.FunctionTemplate.SubFunctionTemplate".split("."),
 		attributes: {
 			sequence: ["source"],
-			details: { source: { facets: { whiteSpace: "collapse" } } }
+			any: !0,
+			anyNamespace: ["##other"],
+			details: { source: { type: { builtin: "anyURI" } } }
 		},
 		children: {
 			sequence: [],
 			any: !0,
 			details: {}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				particles: [{
+					kind: "any",
+					namespace: ["##other"],
+					processContents: "lax",
+					minOccurs: 1,
+					maxOccurs: 1
+				}]
+			}]
 		},
 		textContent: {}
 	},
@@ -24027,20 +35349,20 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				c37_238: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				iec61850_9_3: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				other: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				sntp: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "true"
 				}
 			}
 		},
@@ -24072,50 +35394,17 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"xsi:type"
 			],
 			details: {
-				c37_238: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ftp: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ftps: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_8_1: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_8_2: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				iec61850_9_3: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				ipv6: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				mms: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
-				other: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				serverAssociationInitiation: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
-				},
-				sntp: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
-				},
+				c37_238: { default: "false" },
+				ftp: { default: "false" },
+				ftps: { default: "false" },
+				iec61850_8_1: { default: "true" },
+				iec61850_8_2: { default: "false" },
+				iec61850_9_3: { default: "false" },
+				ipv6: { default: "false" },
+				mms: { default: "true" },
+				other: { default: "false" },
+				serverAssociationInitiation: { default: "false" },
+				sntp: { default: "true" },
 				"xsi:type": {
 					namespace: {
 						prefix: "xsi",
@@ -24151,40 +35440,35 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"uuid",
 				"virtual"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				name: {
+					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
-					}
+					facets: { minLength: 1 }
 				},
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
 				type: {
+					type: { builtin: "Name" },
 					required: !0,
 					fixed: "PTW",
 					facets: {
 						enumeration: ["PTW"],
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						whiteSpace: "collapse"
+						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
 					}
 				},
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
 				virtual: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				}
-			}
+			},
+			identityFields: ["name"]
 		},
 		children: {
 			sequence: [
@@ -24362,6 +35646,106 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				}] }
 			}
 		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [{
+								kind: "sequence",
+								minOccurs: 1,
+								maxOccurs: 1,
+								particles: [{
+									kind: "sequence",
+									minOccurs: 1,
+									maxOccurs: 1,
+									particles: [
+										{
+											kind: "any",
+											namespace: ["##other"],
+											processContents: "lax"
+										},
+										{
+											kind: "element",
+											name: "Text",
+											maxOccurs: 1
+										},
+										{
+											kind: "element",
+											name: "Private"
+										}
+									]
+								}, {
+									kind: "sequence",
+									minOccurs: 1,
+									maxOccurs: 1,
+									particles: [{
+										kind: "element",
+										name: "Labels",
+										maxOccurs: 1
+									}]
+								}]
+							}, {
+								kind: "sequence",
+								minOccurs: 1,
+								maxOccurs: 1,
+								particles: [{
+									kind: "element",
+									name: "LNode"
+								}]
+							}]
+						}]
+					}]
+				}, {
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "element",
+						name: "Terminal",
+						maxOccurs: 2
+					}, {
+						kind: "element",
+						name: "SubEquipment"
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [
+					{
+						kind: "element",
+						name: "TapChanger",
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "NeutralPoint",
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "EqFunction"
+					}
+				]
+			}]
+		},
 		constraints: [{
 			kind: "unique",
 			name: "uniqueLNodeInTransformerWinding",
@@ -24437,24 +35821,24 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				dchg: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				dupd: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				gi: {
-					default: "true",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "true"
 				},
 				period: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				},
 				qchg: {
-					default: "false",
-					facets: { whiteSpace: "collapse" }
+					type: { builtin: "boolean" },
+					default: "false"
 				}
 			}
 		},
@@ -24477,17 +35861,19 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		],
 		attributes: {
 			sequence: ["sGroup"],
-			details: { sGroup: { facets: {
-				minInclusive: 0,
-				maxInclusive: 4294967295,
-				whiteSpace: "collapse"
-			} } }
+			details: { sGroup: {
+				type: { builtin: "unsignedInt" },
+				facets: {
+					minInclusive: 0,
+					maxInclusive: 4294967295
+				}
+			} }
 		},
 		children: {
 			sequence: [],
 			details: {}
 		},
-		textContent: { facets: { whiteSpace: "replace" } }
+		textContent: { type: { builtin: "normalizedString" } }
 	},
 	ValueHandling: {
 		tag: "ValueHandling",
@@ -24499,8 +35885,8 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		attributes: {
 			sequence: ["setToRO"],
 			details: { setToRO: {
-				default: "false",
-				facets: { whiteSpace: "collapse" }
+				type: { builtin: "boolean" },
+				default: "false"
 			} }
 		},
 		children: {
@@ -24539,27 +35925,19 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				name: {
-					required: !0,
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					required: !0
 				},
-				originUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				value: { facets: { whiteSpace: "replace" } }
-			}
+				originUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				value: { type: { builtin: "normalizedString" } }
+			},
+			identityFields: ["name"]
 		},
 		children: {
 			sequence: ["Text", "VariableApplyTo"],
@@ -24577,6 +35955,39 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					minOccurs: 1
 				}
 			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "any",
+						namespace: ["##other"],
+						processContents: "lax"
+					}, {
+						kind: "element",
+						name: "Text",
+						maxOccurs: 1
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "element",
+					name: "VariableApplyTo",
+					minOccurs: 1
+				}]
+			}]
 		}
 	},
 	VariableApplyTo: {
@@ -24599,34 +36010,33 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"sGroup"
 			],
 			details: {
-				attribute: { facets: { whiteSpace: "replace" } },
-				daName: { facets: {
-					pattern: ["[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?(\\.[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?)*"],
-					whiteSpace: "replace"
-				} },
-				defaultValue: { facets: { whiteSpace: "replace" } },
-				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+				attribute: { type: { builtin: "normalizedString" } },
+				daName: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?(\\.[a-zA-Z][a-zA-Z0-9]*(\\([0-9]+\\))?)*"] }
 				},
-				doName: { facets: {
-					pattern: ["[A-Z][0-9A-Za-z]{0,11}(\\.[a-z][0-9A-Za-z]*(\\([0-9]+\\))?)?"],
-					whiteSpace: "replace"
-				} },
-				element: { facets: {
-					pattern: [".+(/.+)*"],
-					whiteSpace: "replace"
-				} },
-				elementUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				format: { facets: { whiteSpace: "replace" } },
-				sGroup: { facets: {
-					minInclusive: 0,
-					maxInclusive: 4294967295,
-					whiteSpace: "collapse"
-				} }
+				defaultValue: { type: { builtin: "normalizedString" } },
+				desc: {
+					type: { builtin: "normalizedString" },
+					default: ""
+				},
+				doName: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: ["[A-Z][0-9A-Za-z]{0,11}(\\.[a-z][0-9A-Za-z]*(\\([0-9]+\\))?)?"] }
+				},
+				element: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: [".+(/.+)*"] }
+				},
+				elementUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				format: { type: { builtin: "normalizedString" } },
+				sGroup: {
+					type: { builtin: "unsignedInt" },
+					facets: {
+						minInclusive: 0,
+						maxInclusive: 4294967295
+					}
+				}
 			}
 		},
 		children: {
@@ -24639,6 +36049,30 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					uri: "http://www.iec.ch/61850/2019/SCL/6-100"
 				}
 			} }
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "any",
+						namespace: ["##other"],
+						processContents: "lax"
+					}, {
+						kind: "element",
+						name: "Text",
+						maxOccurs: 1
+					}]
+				}]
+			}]
 		}
 	},
 	VariableRef: {
@@ -24662,18 +36096,15 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
-				value: { facets: { whiteSpace: "replace" } },
-				variable: { facets: {
-					pattern: [".+(/.+)*"],
-					whiteSpace: "replace"
-				} },
-				variableUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
+				value: { type: { builtin: "normalizedString" } },
+				variable: {
+					type: { builtin: "normalizedString" },
+					facets: { pattern: [".+(/.+)*"] }
+				},
+				variableUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
 			}
 		},
 		children: {
@@ -24688,8 +36119,47 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 					}
 				},
 				FunctionalVariantRef: {}
-			},
-			choices: [{ options: ["FunctionalVariantRef"] }]
+			}
+		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [{
+								kind: "any",
+								namespace: ["##other"],
+								processContents: "lax"
+							}, {
+								kind: "element",
+								name: "Text",
+								maxOccurs: 1
+							}]
+						}]
+					}, {
+						kind: "choice",
+						particles: [{
+							kind: "element",
+							name: "FunctionalVariantRef"
+						}]
+					}]
+				}]
+			}]
 		}
 	},
 	Voltage: {
@@ -24703,38 +36173,36 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: ["multiplier", "unit"],
 			details: {
 				multiplier: {
+					type: { builtin: "normalizedString" },
 					default: "",
-					facets: {
-						enumeration: [
-							"",
-							"m",
-							"k",
-							"M",
-							"mu",
-							"y",
-							"z",
-							"a",
-							"f",
-							"p",
-							"n",
-							"c",
-							"d",
-							"da",
-							"h",
-							"G",
-							"T",
-							"P",
-							"E",
-							"Z",
-							"Y"
-						],
-						whiteSpace: "replace"
-					}
+					facets: { enumeration: [
+						"",
+						"m",
+						"k",
+						"M",
+						"mu",
+						"y",
+						"z",
+						"a",
+						"f",
+						"p",
+						"n",
+						"c",
+						"d",
+						"da",
+						"h",
+						"G",
+						"T",
+						"P",
+						"E",
+						"Z",
+						"Y"
+					] }
 				},
 				unit: {
+					type: { builtin: "token" },
 					required: !0,
-					fixed: "V",
-					facets: { whiteSpace: "collapse" }
+					fixed: "V"
 				}
 			}
 		},
@@ -24742,7 +36210,7 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			sequence: [],
 			details: {}
 		},
-		textContent: { facets: { whiteSpace: "collapse" } }
+		textContent: { type: { builtin: "decimal" } }
 	},
 	VoltageLevel: {
 		tag: "VoltageLevel",
@@ -24760,37 +36228,34 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				"templateUuid",
 				"uuid"
 			],
+			any: !0,
+			anyNamespace: ["##other"],
 			details: {
 				desc: {
-					default: "",
-					facets: { whiteSpace: "replace" }
+					type: { builtin: "normalizedString" },
+					default: ""
 				},
 				name: {
+					type: { builtin: "normalizedString" },
 					required: !0,
+					facets: { minLength: 1 }
+				},
+				nomFreq: {
+					type: { builtin: "decimal" },
+					facets: { minInclusive: 0 }
+				},
+				numPhases: {
+					type: { builtin: "unsignedByte" },
 					facets: {
-						minLength: 1,
-						whiteSpace: "replace"
+						minInclusive: 0,
+						maxInclusive: 255,
+						minExclusive: 0
 					}
 				},
-				nomFreq: { facets: {
-					minInclusive: 0,
-					whiteSpace: "collapse"
-				} },
-				numPhases: { facets: {
-					minInclusive: 0,
-					maxInclusive: 255,
-					minExclusive: 0,
-					whiteSpace: "collapse"
-				} },
-				templateUuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} },
-				uuid: { facets: {
-					pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"],
-					whiteSpace: "preserve"
-				} }
-			}
+				templateUuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } },
+				uuid: { facets: { pattern: ["[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}"] } }
+			},
+			identityFields: ["name"]
 		},
 		children: {
 			sequence: [
@@ -25024,6 +36489,100 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				Variable: {}
 			}
 		},
+		contentModel: {
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [{
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "sequence",
+						minOccurs: 1,
+						maxOccurs: 1,
+						particles: [{
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [{
+								kind: "sequence",
+								minOccurs: 1,
+								maxOccurs: 1,
+								particles: [
+									{
+										kind: "any",
+										namespace: ["##other"],
+										processContents: "lax"
+									},
+									{
+										kind: "element",
+										name: "Text",
+										maxOccurs: 1
+									},
+									{
+										kind: "element",
+										name: "Private"
+									}
+								]
+							}, {
+								kind: "sequence",
+								minOccurs: 1,
+								maxOccurs: 1,
+								particles: [{
+									kind: "element",
+									name: "Labels",
+									maxOccurs: 1
+								}]
+							}]
+						}, {
+							kind: "sequence",
+							minOccurs: 1,
+							maxOccurs: 1,
+							particles: [{
+								kind: "element",
+								name: "LNode"
+							}]
+						}]
+					}]
+				}, {
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "element",
+						name: "PowerTransformer"
+					}, {
+						kind: "element",
+						name: "GeneralEquipment"
+					}]
+				}]
+			}, {
+				kind: "sequence",
+				minOccurs: 1,
+				maxOccurs: 1,
+				particles: [
+					{
+						kind: "element",
+						name: "Voltage",
+						maxOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "Bay",
+						minOccurs: 1
+					},
+					{
+						kind: "element",
+						name: "Function"
+					}
+				]
+			}]
+		},
 		constraints: [{
 			kind: "unique",
 			name: "uniqueChildNameInVoltageLevel",
@@ -25069,7 +36628,7 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			]
 		}]
 	}
-}, bt = { supportedFileExtensions: [
+}, ct = { supportedFileExtensions: [
 	".fsd",
 	".asd",
 	".ssd",
@@ -25078,7 +36637,7 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 	".icd",
 	".iid",
 	".xml"
-] }, xt = {
+] }, lt = {
 	recordSchema: {
 		primaryKey: "id",
 		indexes: [
@@ -25096,7 +36655,7 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		},
 		additionalTables: { attachedFiles: { schema: "id, filename, file" } }
 	}
-}, G = {
+}, ut = {
 	default: {
 		uri: "http://www.iec.ch/61850/2003/SCL",
 		prefix: ""
@@ -25105,22 +36664,22 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		uri: "http://www.iec.ch/61850/2019/SCL/6-100",
 		prefix: "eIEC61850-6-100"
 	},
-	xsi: it
-}, St = {
+	xsi: ae
+}, dt = {
 	rootElementName: "SCL",
-	singletonElements: W,
+	singletonElements: it,
 	transparentElements: ["Private"],
-	elements: pt,
-	namespaces: G,
-	attributes: vt,
-	children: mt,
-	parents: ht,
-	descendants: gt,
-	ancestors: _t,
-	database: xt,
-	io: bt,
-	definition: yt
-}, Ct = {
+	elements: $e,
+	namespaces: ut,
+	attributes: at,
+	children: et,
+	parents: tt,
+	descendants: nt,
+	ancestors: rt,
+	database: lt,
+	io: ct,
+	definition: st
+}, ft = {
 	AccessPoint: { type: "transparent" },
 	Server: { type: "transparent" },
 	Private: { type: "transparent" },
@@ -25200,17 +36759,17 @@ var pt = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 	PowerSystemRelation: { type: "name" },
 	Variable: { type: "name" },
 	Process: { type: "name" }
-}, wt = [
+}, pt = [
 	"lnClass",
 	"prefix",
 	"inst",
 	"lnInst"
 ];
-new Set(Object.values(Ct).flatMap((e) => {
+new Set(Object.values(ft).flatMap((e) => {
 	switch (e.type) {
 		case "transparent": return [];
 		case "name": return ["name"];
-		case "lnClass": return [...wt];
+		case "lnClass": return [...pt];
 		case "attribute": return [e.attr];
 		case "sourceRef": return [
 			"input",
@@ -25220,13 +36779,13 @@ new Set(Object.values(Ct).flatMap((e) => {
 		case "controlRef": return ["output", "outputInst"];
 	}
 }));
-function Tt(e) {
+function mt(e) {
 	switch (e.type) {
 		case "transparent": return () => null;
 		case "name": {
 			let t = e.separator ?? "/";
 			return (e) => {
-				let n = Et(e, "name");
+				let n = H(e, "name");
 				return n ? {
 					segment: n,
 					separator: t
@@ -25234,34 +36793,34 @@ function Tt(e) {
 			};
 		}
 		case "lnClass": return (e) => {
-			let t = Et(e, "lnClass");
+			let t = H(e, "lnClass");
 			return t ? {
-				segment: `${Et(e, "prefix") ?? ""}${t}${Et(e, "inst") ?? Et(e, "lnInst") ?? ""}`,
+				segment: `${H(e, "prefix") ?? ""}${t}${H(e, "inst") ?? H(e, "lnInst") ?? ""}`,
 				separator: "/"
 			} : null;
 		};
 		case "attribute": return (t) => {
-			let n = Et(t, e.attr);
+			let n = H(t, e.attr);
 			return n ? {
 				segment: n,
 				separator: e.separator
 			} : null;
 		};
 		case "sourceRef": return (e) => {
-			let t = Et(e, "input");
+			let t = H(e, "input");
 			if (!t) return null;
-			let n = t, r = Et(e, "inputInst");
+			let n = t, r = H(e, "inputInst");
 			r && r !== "1" && (n += `(${r})`);
-			let i = Et(e, "pDA");
+			let i = H(e, "pDA");
 			return i && (n += `.${i}`), {
 				segment: n,
 				separator: "."
 			};
 		};
 		case "controlRef": return (e) => {
-			let t = Et(e, "output");
+			let t = H(e, "output");
 			if (!t) return null;
-			let n = t, r = Et(e, "outputInst");
+			let n = t, r = H(e, "outputInst");
 			return r && r !== "1" && (n += `(${r})`), {
 				segment: n,
 				separator: "."
@@ -25269,11 +36828,11 @@ function Tt(e) {
 		};
 	}
 }
-Object.fromEntries(Object.entries(Ct).map(([e, t]) => [e, Tt(t)]));
-function Et(e, t) {
+Object.fromEntries(Object.entries(ft).map(([e, t]) => [e, mt(t)]));
+function H(e, t) {
 	return e.attributes.find((e) => e.name === t)?.value;
 }
-var Dt = {
+var U = {
 	AllocationRoleRef: [{
 		attribute: {
 			path: "allocationRole",
@@ -25618,7 +37177,7 @@ var Dt = {
 			uuid: "elementUuid"
 		},
 		resolution: "unsupported",
-		target: pt,
+		target: $e,
 		companions: [{
 			name: "doName",
 			required: !1
@@ -25637,25 +37196,55 @@ var Dt = {
 		companions: []
 	}]
 };
-new Set(Object.keys(Dt)), new Set(Object.values(Dt).flatMap((e) => e.flatMap((e) => e.target)));
-var Ot = [
+new Set(Object.keys(U)), new Set(Object.values(U).flatMap((e) => e.flatMap((e) => e.target)));
+var ht = [
 	"Substation",
 	"VoltageLevel",
 	"Bay"
-], kt = [
+], gt = [
 	"Application",
 	"Function",
 	"FunctionCategory",
 	"AllocationRole",
 	"Variable",
 	"BehaviorDescription"
-], At = {
+], _t = new Set([
+	"Text",
+	"Private",
+	"Labels",
+	"Label"
+]);
+vt({ roots: [
+	"ReportControl",
+	"LogControl",
+	"GSEControl",
+	"SampledValueControl",
+	"SettingControl",
+	"DataSet",
+	"ExtRef",
+	"DAI"
+] }), vt({
+	roots: ["ConnectedAP"],
+	excluded: new Set([..._t, "PhysConn"])
+}), vt({
+	roots: ["SubNetwork"],
+	excluded: vt({ roots: ["ConnectedAP"] })
+}), yt();
+function vt(e) {
+	let { roots: t, excluded: n } = e, r = nt, i = t.flatMap((e) => [e, ...r[e] ?? []]);
+	return new Set(i.filter((e) => !_t.has(e) && !n?.has(e)));
+}
+function yt() {
+	let e = st.MinRequestedSCDFile.attributes.identityFields, t = ot.MinRequestedSCDFile;
+	return Object.keys(at.byTag.MinRequestedSCDFile).filter((n) => !e.includes(n) && !t.includes(n));
+}
+var W = {
 	direct: "direct",
 	lnode: "lnode",
 	iedAddress: "ied-address",
 	behaviorDescription: "behavior-description",
 	unsupported: "unsupported"
-}, jt = {
+}, bt = {
 	LN: [{
 		attribute: "lnType",
 		target: "LNodeType"
@@ -25707,7 +37296,7 @@ var Ot = [
 		}
 	}]
 };
-function Mt(e) {
+function xt(e) {
 	let t = {};
 	for (let [n, r] of Object.entries(e)) for (let e of r) {
 		let r = t[e.resolution] ??= /* @__PURE__ */ new Map();
@@ -25722,7 +37311,7 @@ function Mt(e) {
 	}
 	return t;
 }
-function Nt(e) {
+function St(e) {
 	let t = /* @__PURE__ */ new Map();
 	for (let [n, r] of Object.entries(e)) t.set(n, r.map((e) => ({
 		uuidAttr: e.attribute.uuid,
@@ -25732,7 +37321,7 @@ function Nt(e) {
 	})));
 	return t;
 }
-function K(e) {
+function Ct(e) {
 	let t = /* @__PURE__ */ new Map();
 	for (let [n, r] of Object.entries(e)) for (let e of r) {
 		let r = t.get(e.target) ?? [];
@@ -25744,5851 +37333,35 @@ function K(e) {
 	}
 	return t;
 }
-Mt(Dt), [...[
-	At.direct,
-	At.lnode,
-	At.iedAddress,
-	At.behaviorDescription
-], At.unsupported], Nt(Dt), new Map(Object.entries(Dt).flatMap(([e, t]) => t.filter((e) => e.attribute.path === "mappedDoName" || e.attribute.path === "mappedDaName").map((t) => [e, {
+xt(U), [...[
+	W.direct,
+	W.lnode,
+	W.iedAddress,
+	W.behaviorDescription
+], W.unsupported], St(U), new Map(Object.entries(U).flatMap(([e, t]) => t.filter((e) => e.attribute.path === "mappedDoName" || e.attribute.path === "mappedDaName").map((t) => [e, {
 	path: t.attribute.path,
 	uuid: t.attribute.uuid
-}]))), [...new Set(Object.values(Dt).flatMap((e) => e.map((e) => e.attribute.uuid)))];
-var Pt = new Map(Object.entries(jt).map(([e, t]) => [e, [...new Set(t.map((e) => e.attribute))]])), Ft = K(jt);
-new Set(Ft.keys()), new Set([...yt.LNode?.attributes?.identityFields ?? [], ...Pt.get("LNode") ?? []]), new Set(yt.LNode.attributes.details.lnClass.facets.enumeration), new Set(Object.values(Dt).flatMap((e) => e.flatMap((e) => [e.attribute.path, e.attribute.uuid]))), [...Ot, ...kt], new Set(Object.values(G).map((e) => e.uri)), new Set(Object.values(G).map((e) => e.prefix).filter(Boolean));
-//#endregion
-//#region node_modules/.pnpm/@dialecte+core@0.4.16/node_modules/@dialecte/core/dist/project-nvZv2ie8.js
-var It = Object.create, Lt = Object.defineProperty, Rt = Object.getOwnPropertyDescriptor, zt = Object.getOwnPropertyNames, Bt = Object.getPrototypeOf, Vt = Object.prototype.hasOwnProperty, Ht = (e, t) => () => (t || (e((t = { exports: {} }).exports, t), e = null), t.exports), q = (e, t, n, r) => {
-	if (t && typeof t == "object" || typeof t == "function") for (var i = zt(t), a = 0, o = i.length, s; a < o; a++) s = i[a], !Vt.call(e, s) && s !== n && Lt(e, s, {
-		get: ((e) => t[e]).bind(null, s),
-		enumerable: !(r = Rt(t, s)) || r.enumerable
-	});
-	return e;
-}, Ut = (e, t, n) => (n = e == null ? {} : It(Bt(e)), q(t || !e || !e.__esModule ? Lt(n, "default", {
-	value: e,
-	enumerable: !0
-}) : n, e));
-function Wt(e, t) {
-	let n = {};
-	for (let r of Object.keys(e)) {
-		let i = e[r];
-		n[r] = typeof i == "function" ? (...e) => i(t, ...e) : Wt(i, t);
-	}
-	return n;
-}
-Object.freeze({
-	plan() {},
-	nextStep() {},
-	endPlan() {},
-	forceClear() {}
-});
-function Gt(e) {
-	let { stagedOperations: t, tagName: n, id: r } = e, { log: i, byId: a } = t;
-	if (r !== void 0) {
-		let e = a.get(r);
-		return e ? Kt({
-			operation: e,
-			tagName: n,
-			id: r
-		}) : void 0;
-	}
-	for (let e = i.length - 1; e >= 0; e--) {
-		let t = i[e];
-		if ((t.status === "created" || t.status === "updated") && at(t.newRecord, n)) return {
-			...t.newRecord,
-			status: t.status
-		};
-		if (t.status === "deleted" && at(t.oldRecord, n)) return {
-			...t.oldRecord,
-			status: "deleted"
-		};
-	}
-}
-function Kt(e) {
-	let { operation: t, tagName: n, id: r } = e;
-	if ((t.status === "created" || t.status === "updated") && t.newRecord.id === r) return qt(t.newRecord.tagName, n, r), {
-		...t.newRecord,
-		status: t.status
-	};
-	if (t.status === "deleted" && t.oldRecord.id === r) return qt(t.oldRecord.tagName, n, r), {
-		...t.oldRecord,
-		status: "deleted"
-	};
-}
-function qt(e, t, n) {
-	e !== t && j("ELEMENT_TAGNAME_MISMATCH", {
-		detail: `Expected tagName '${t}', got '${e}' for id '${n}'`,
-		ref: {
-			tagName: t,
-			id: n
-		}
-	});
-}
-async function Jt(e) {
-	let { context: t, ref: n } = e;
-	if (t.stagedOperations.log.length > 0) {
-		let e = Gt({
-			stagedOperations: t.stagedOperations,
-			tagName: n.tagName,
-			id: n.id
-		});
-		if (e?.status === "deleted") return;
-		if (e) return e;
-	}
-	let r;
-	if (n.id === void 0) {
-		let e = `__singleton_${n.tagName}`, i = jn(t) ? t.recordCache.get(e) : void 0;
-		i ? (t.perf.count("core::query::getRecord.cacheHit"), r = i) : (t.perf.count("core::query::getRecord.miss"), t.perf.count("core::store::getByTagName"), r = (await t.store.getByTagNameInDocument(n.tagName, t.documentId))[0], r && jn(t) && (t.recordCache.set(r.id, r), t.recordCache.set(e, r)));
-	} else {
-		let e = jn(t) ? t.recordCache.get(n.id) : void 0;
-		e ? (t.perf.count("core::query::getRecord.cacheHit"), r = e) : (t.perf.count("core::query::getRecord.miss"), t.perf.count("core::store::get"), r = await t.store.get(n.id, t.documentId), r && jn(t) && t.recordCache.set(n.id, r));
-	}
-	if (r) return r.tagName !== n.tagName && j("ELEMENT_TAGNAME_MISMATCH", {
-		detail: `Expected tagName '${n.tagName}', got '${r.tagName}' for id '${n.id}'`,
-		ref: n
-	}), {
-		...r,
-		status: "unchanged"
-	};
-}
-function J(e) {
-	let { record: t, attributeFilter: n } = e;
-	if (!n || Object.keys(n).length === 0) return !0;
-	for (let [e, r] of Object.entries(n)) {
-		if (r === void 0) continue;
-		let n = t.attributes.find((t) => t.name === e)?.value ?? "";
-		if (n === "") return !1;
-		if (Array.isArray(r)) {
-			if (!r.some((e) => n === e)) return !1;
-		} else if (n !== r) return !1;
-	}
-	return !0;
-}
-function Yt(e) {
-	let { record: t, omitSpec: n } = e;
-	if (n.unconditional.has(t.tagName)) return !0;
-	for (let e of n.conditional) if (e.tagName === t.tagName && J({
-		record: t,
-		attributeFilter: e.where
-	})) return !0;
-	return !1;
-}
-function Xt(e, t) {
-	let n = [];
-	for (let [r, i] of Object.entries(e)) {
-		if (r === "where") continue;
-		t.add(r);
-		let e = Zt({
-			tagName: r,
-			value: i,
-			allTags: t
-		});
-		e && n.push(e);
-	}
-	return n;
-}
-function Zt(e) {
-	let { tagName: t, value: n, allTags: r } = e;
-	if (n === !0) return {
-		tagName: t,
-		where: void 0,
-		children: [],
-		isLeaf: !0
-	};
-	if (typeof n != "object" || !n) return;
-	let i = n, a = i.where, o = Object.keys(i).filter((e) => e !== "where");
-	if (o.length === 0) return {
-		tagName: t,
-		where: a,
-		children: [],
-		isLeaf: !0
-	};
-	let s = {};
-	for (let e of o) s[e] = i[e];
-	return {
-		tagName: t,
-		where: a,
-		children: Xt(s, r),
-		isLeaf: !1
-	};
-}
-function Qt(e) {
-	let { record: t, where: n } = e;
-	return n ? J({
-		record: t,
-		attributeFilter: n
-	}) : !0;
-}
-async function $t(e) {
-	let { context: t, record: n, pathNodes: r, omitSpec: i, collected: a } = e;
-	if (!n.children?.length) return;
-	let o = new Set(r.map((e) => e.tagName));
-	for (let e of r) {
-		let r = await en({
-			context: t,
-			record: n,
-			tagName: e.tagName,
-			where: e.where,
-			omitSpec: i,
-			stopAtTagNames: o
-		});
-		for (let n of r) a.get(e.tagName).set(n.id, n), !e.isLeaf && e.children.length > 0 && await $t({
-			context: t,
-			record: n,
-			pathNodes: e.children,
-			omitSpec: i,
-			collected: a
-		});
-	}
-}
-async function en(e) {
-	let { context: t, record: n, tagName: r, where: i, omitSpec: a, stopAtTagNames: o } = e, s = [];
-	if (!n.children?.length) return s;
-	let c = [], l = await tn({
-		context: t,
-		record: n,
-		omitSpec: a
-	});
-	for (c.push(...l); c.length > 0;) {
-		let e = c.shift();
-		if (e.tagName === r) {
-			Qt({
-				record: e,
-				where: i
-			}) && s.push(e);
-			continue;
-		}
-		if (!(o.has(e.tagName) && e.tagName !== r) && e.children?.length) {
-			let n = await tn({
-				context: t,
-				record: e,
-				omitSpec: a
-			});
-			c.push(...n);
-		}
-	}
-	return s;
-}
-async function tn(e) {
-	let { context: t, record: n, omitSpec: r } = e;
-	if (!n.children?.length) return [];
-	let i = n.children.filter((e) => !r.unconditional.has(e.tagName));
-	return i.length ? (await Promise.all(i.map((e) => Jt({
-		context: t,
-		ref: ut(e)
-	})))).filter((e) => e !== void 0 && !Yt({
-		record: e,
-		omitSpec: r
-	})) : [];
-}
-function nn(e) {
-	let { record: t, compiledOmit: n } = e;
-	return n.unconditional.has(t.tagName) ? !0 : n.conditional.some((e) => e.scope === "self" && e.tagName === t.tagName && J({
-		record: t,
-		attributeFilter: e.where
-	}));
-}
-function rn(e) {
-	let { record: t, compiledOmit: n } = e;
-	return n.conditional.some((e) => e.scope === "children" && e.tagName === t.tagName && J({
-		record: t,
-		attributeFilter: e.where
-	}));
-}
-function an(e) {
-	let { recordsById: t, record: n, select: r, compiledOmit: i, dialecteConfig: a, transparentElements: o } = e;
-	return e.remainingDepth <= 0 || rn({
-		record: n,
-		compiledOmit: i
-	}) ? st({ record: n }) : st({
-		record: n,
-		tree: on({
-			recordsById: t,
-			record: n,
-			select: r,
-			compiledOmit: i,
-			dialecteConfig: a,
-			transparentElements: o
-		}).map(({ record: n, select: r }) => an({
-			recordsById: t,
-			record: n,
-			select: r,
-			compiledOmit: i,
-			dialecteConfig: a,
-			transparentElements: o,
-			remainingDepth: e.remainingDepth - 1
-		})).filter((e) => e !== null)
-	});
-}
-function on(e) {
-	let { recordsById: t, record: n, select: r, compiledOmit: i, dialecteConfig: a, transparentElements: o } = e;
-	if (!n.children?.length) return [];
-	let s = r ? ln(r) : void 0;
-	if (s && r && a && r.recursive !== !1) {
-		let e = n.tagName, t = a.children[e], i = r[e] !== void 0;
-		t?.includes(e) && !i && s.add(e);
-	}
-	let c = n.children.filter((e) => sn({
-		tagName: e.tagName,
-		compiledOmit: i,
-		selectKeys: s,
-		transparentElements: o
-	}));
-	return c.length ? un({
-		children: c.map((e) => t.get(e.id)).filter((e) => e !== void 0).filter((e) => !nn({
-			record: e,
-			compiledOmit: i
-		})),
-		select: r,
-		record: n,
-		dialecteConfig: a,
-		transparentElements: o
-	}) : [];
-}
-function sn(e) {
-	let { tagName: t, compiledOmit: n, selectKeys: r, transparentElements: i } = e;
-	return n.unconditional.has(t) ? !1 : r && !r.has(t) ? !!i?.includes(t) : !0;
-}
-var cn = new Set(["where", "recursive"]);
-function ln(e) {
-	let t = /* @__PURE__ */ new Set();
-	for (let n of Object.keys(e)) cn.has(n) || t.add(n);
-	return t;
-}
-function un(e) {
-	let { children: t, select: n, record: r, dialecteConfig: i, transparentElements: a } = e;
-	if (!n) return t.map((e) => ({
-		record: e,
-		select: void 0
-	}));
-	let o = [];
-	for (let e of t) {
-		let t = n[e.tagName];
-		if (t === void 0 && a?.includes(e.tagName)) {
-			o.push({
-				record: e,
-				select: n
-			});
-			continue;
-		}
-		if (t === void 0 && e.tagName === r.tagName) {
-			let t = dn({
-				child: e,
-				select: n,
-				dialecteConfig: i
-			});
-			if (t) {
-				o.push(t);
-				continue;
-			}
-		}
-		if (t === void 0 || t === !1) continue;
-		if (t === !0) {
-			o.push({
-				record: e,
-				select: void 0
-			});
-			continue;
-		}
-		let s = fn({
-			child: e,
-			entry: t,
-			parentRecord: r
-		});
-		s && o.push(s);
-	}
-	return o;
-}
-function dn(e) {
-	let { child: t, select: n, dialecteConfig: r } = e;
-	if (!(!r || n.recursive === !1) && r.children[t.tagName]?.includes(t.tagName) && !(n.where && !J({
-		record: t,
-		attributeFilter: n.where
-	}))) return {
-		record: t,
-		select: n
-	};
-}
-function fn(e) {
-	let { child: t, entry: n, parentRecord: r } = e, i = n;
-	if (!(i.where && !J({
-		record: t,
-		attributeFilter: i.where
-	}))) {
-		if (i.recursive && t.tagName === r.tagName) {
-			let e = i.recursive === !0 ? !0 : i.recursive - 1;
-			return e === 0 ? void 0 : {
-				record: t,
-				select: {
-					...i,
-					recursive: e
-				}
-			};
-		}
-		return i.recursive ? {
-			record: t,
-			select: pn(i, t.tagName)
-		} : t.tagName === r.tagName ? {
-			record: t,
-			select: {
-				...i,
-				recursive: !1
-			}
-		} : {
-			record: t,
-			select: i
-		};
-	}
-}
-function pn(e, t) {
-	return e[t], e;
-}
-var mn = /* @__PURE__ */ Ht(((e, t) => {
-	Object.defineProperty(e, "__esModule", { value: !0 }), e.ParsingError = void 0;
-	var n = class extends Error {
-		constructor(e, t) {
-			super(e), this.cause = t;
-		}
-	};
-	e.ParsingError = n;
-	var r;
-	function i() {
-		return c(!1) || f() || d() || u() || s();
-	}
-	function a() {
-		return h(/\s*/), c(!0) || d() || l() || s();
-	}
-	function o() {
-		let e = s(), t = [], i, o = a();
-		for (; o;) {
-			if (o.node.type === "Element") {
-				if (i) throw Error("Found multiple root nodes");
-				i = o.node;
-			}
-			o.excluded || t.push(o.node), o = a();
-		}
-		if (!i) throw new n("Failed to parse XML", "Root Element not found");
-		if (r.xml.length !== 0) throw new n("Failed to parse XML", "Not Well-Formed XML");
-		return {
-			declaration: e ? e.node : null,
-			root: i,
-			children: t
-		};
-	}
-	function s() {
-		let e = h(/^<\?([\w-:.]+)\s*/);
-		if (!e) return;
-		let t = {
-			name: e[1],
-			type: "ProcessingInstruction",
-			content: ""
-		}, i = r.xml.indexOf("?>");
-		if (i > -1) t.content = r.xml.substring(0, i).trim(), r.xml = r.xml.slice(i);
-		else throw new n("Failed to parse XML", "ProcessingInstruction closing tag not found");
-		return h(/\?>/), {
-			excluded: r.options.filter(t) === !1,
-			node: t
-		};
-	}
-	function c(e) {
-		let t = h(/^<([^?!</>\s]+)\s*/);
-		if (!t) return;
-		let a = {
-			type: "Element",
-			name: t[1],
-			attributes: {},
-			children: []
-		}, o = e ? !1 : r.options.filter(a) === !1;
-		for (; !(g() || _(">") || _("?>") || _("/>"));) {
-			let e = p();
-			if (e) a.attributes[e.name] = e.value;
-			else return;
-		}
-		if (h(/^\s*\/>/)) return a.children = null, {
-			excluded: o,
-			node: a
-		};
-		h(/\??>/);
-		let s = i();
-		for (; s;) s.excluded || a.children.push(s.node), s = i();
-		if (r.options.strictMode) {
-			let e = `</${a.name}>`;
-			if (r.xml.startsWith(e)) r.xml = r.xml.slice(e.length);
-			else throw new n("Failed to parse XML", `Closing tag not matching "${e}"`);
-		} else h(/^<\/[\p{L}\p{M}\w\-:.]+\s*>/u);
-		return {
-			excluded: o,
-			node: a
-		};
-	}
-	function l() {
-		let e = h(/^<!DOCTYPE\s+\S+\s+SYSTEM[^>]*>/) || h(/^<!DOCTYPE\s+\S+\s+PUBLIC[^>]*>/) || h(/^<!DOCTYPE\s+\S+\s*\[[^\]]*]>/) || h(/^<!DOCTYPE\s+\S+\s*>/);
-		if (e) {
-			let t = {
-				type: "DocumentType",
-				content: e[0]
-			};
-			return {
-				excluded: r.options.filter(t) === !1,
-				node: t
-			};
-		}
-	}
-	function u() {
-		if (r.xml.startsWith("<![CDATA[")) {
-			let e = r.xml.indexOf("]]>");
-			if (e > -1) {
-				let t = e + 3, n = {
-					type: "CDATA",
-					content: r.xml.substring(0, t)
-				};
-				return r.xml = r.xml.slice(t), {
-					excluded: r.options.filter(n) === !1,
-					node: n
-				};
-			}
-		}
-	}
-	function d() {
-		let e = h(/^<!--[\s\S]*?-->/);
-		if (e) {
-			let t = {
-				type: "Comment",
-				content: e[0]
-			};
-			return {
-				excluded: r.options.filter(t) === !1,
-				node: t
-			};
-		}
-	}
-	function f() {
-		let e = h(/^([^<]+)/);
-		if (e) {
-			let t = {
-				type: "Text",
-				content: e[1]
-			};
-			return {
-				excluded: r.options.filter(t) === !1,
-				node: t
-			};
-		}
-	}
-	function p() {
-		let e = h(/([^=]+)\s*=\s*("[^"]*"|'[^']*'|[^>\s]+)\s*/);
-		if (e) return {
-			name: e[1].trim(),
-			value: m(e[2].trim())
-		};
-	}
-	function m(e) {
-		return e.replace(/^['"]|['"]$/g, "");
-	}
-	function h(e) {
-		let t = r.xml.match(e);
-		if (t) return r.xml = r.xml.slice(t[0].length), t;
-	}
-	function g() {
-		return r.xml.length === 0;
-	}
-	function _(e) {
-		return r.xml.indexOf(e) === 0;
-	}
-	function v(e, t = {}) {
-		e = e.trim();
-		let n = t.filter || (() => !0);
-		return r = {
-			xml: e,
-			options: Object.assign(Object.assign({}, t), {
-				filter: n,
-				strictMode: t.strictMode === !0
-			})
-		}, o();
-	}
-	t !== void 0 && typeof e == "object" && (t.exports = v), e.default = v;
-}));
-(/* @__PURE__ */ Ht(((e, t) => {
-	var n = e && e.__importDefault || function(e) {
-		return e && e.__esModule ? e : { default: e };
-	};
-	Object.defineProperty(e, "__esModule", { value: !0 });
-	var r = n(mn());
-	function i(e) {
-		if (!e.options.indentation && !e.options.lineSeparator) return;
-		e.content += e.options.lineSeparator;
-		let t;
-		for (t = 0; t < e.level; t++) e.content += e.options.indentation;
-	}
-	function a(e) {
-		e.content = e.content.replace(/ +$/, "");
-		let t;
-		for (t = 0; t < e.level; t++) e.content += e.options.indentation;
-	}
-	function o(e, t) {
-		e.content += t;
-	}
-	function s(e, t, n) {
-		if (e.type === "Element") u(e, t, n);
-		else if (e.type === "ProcessingInstruction") f(e, t);
-		else if (typeof e.content == "string") c(e.content, t, n);
-		else throw Error("Unknown node type: " + e.type);
-	}
-	function c(e, t, n) {
-		if (!n) {
-			let n = e.trim();
-			(t.options.lineSeparator || n.length === 0) && (e = n);
-		}
-		e.length > 0 && (!n && t.content.length > 0 && i(t), o(t, e));
-	}
-	function l(e, t) {
-		let n = "/" + e.join("/"), r = e[e.length - 1];
-		return t.includes(r) || t.includes(n);
-	}
-	function u(e, t, n) {
-		if (t.path.push(e.name), !n && t.content.length > 0 && i(t), o(t, "<" + e.name), d(t, e.attributes), e.children === null || t.options.forceSelfClosingEmptyTag && e.children.length === 0) o(t, t.options.whiteSpaceAtEndOfSelfclosingTag ? " />" : "/>");
-		else if (e.children.length === 0) o(t, "></" + e.name + ">");
-		else {
-			let r = e.children;
-			o(t, ">"), t.level++;
-			let c = e.attributes["xml:space"] === "preserve" || n, u = !1;
-			if (!c && t.options.ignoredPaths && (u = l(t.path, t.options.ignoredPaths), c = u), !c && t.options.collapseContent) {
-				let e = !1, t = !1, i = !1;
-				r.forEach(function(a, o) {
-					a.type === "Text" ? (a.content.includes("\n") ? (t = !0, a.content = a.content.trim()) : (o === 0 || o === r.length - 1) && !n && a.content.trim().length === 0 && (a.content = ""), (a.content.trim().length > 0 || r.length === 1) && (e = !0)) : a.type === "CDATA" ? e = !0 : i = !0;
-				}), e && (!i || !t) && (c = !0);
-			}
-			r.forEach(function(e) {
-				s(e, t, n || c);
-			}), t.level--, !n && !c && i(t), u && a(t), o(t, "</" + e.name + ">");
-		}
-		t.path.pop();
-	}
-	function d(e, t) {
-		Object.keys(t).forEach(function(n) {
-			if (e.options.attributeQuotes === "single") {
-				let r = t[n].replace(/'/g, "&apos;");
-				o(e, " " + n + "='" + r + "'");
-			} else {
-				let r = t[n].replace(/"/g, "&quot;");
-				o(e, " " + n + "=\"" + r + "\"");
-			}
-		});
-	}
-	function f(e, t) {
-		t.content.length > 0 && i(t), o(t, "<?" + e.name), o(t, " " + e.content.trim()), o(t, "?>");
-	}
-	function p(e, t = {}) {
-		t.indentation = "indentation" in t ? t.indentation : "    ", t.collapseContent = t.collapseContent === !0, t.lineSeparator = "lineSeparator" in t ? t.lineSeparator : "\r\n", t.whiteSpaceAtEndOfSelfclosingTag = t.whiteSpaceAtEndOfSelfclosingTag === !0, t.throwOnFailure = t.throwOnFailure !== !1, t.attributeQuotes = "attributeQuotes" in t ? t.attributeQuotes : "double";
-		try {
-			let n = (0, r.default)(e, {
-				filter: t.filter,
-				strictMode: t.strictMode
-			}), i = {
-				content: "",
-				level: 0,
-				options: t,
-				path: []
-			};
-			return n.declaration && f(n.declaration, i), n.children.forEach(function(e) {
-				s(e, i, !1);
-			}), t.lineSeparator ? i.content.replace(/\r\n/g, "\n").replace(/\n/g, t.lineSeparator) : i.content;
-		} catch (n) {
-			if (t.throwOnFailure) throw n;
-			return e;
-		}
-	}
-	p.minify = (e, t = {}) => p(e, Object.assign(Object.assign({}, t), {
-		indentation: "",
-		lineSeparator: ""
-	})), t !== void 0 && typeof e == "object" && (t.exports = p), e.default = p;
-})))();
-function hn(e) {
-	let { index: t, config: n, withDatabaseIds: r, xmlDocument: i, parentRecord: a, parentElement: o, isFragment: s, declareNamespaces: c } = e;
-	if (!a.children || a.children.length === 0) return;
-	let l = [];
-	for (let e of a.children) {
-		let n = t.get(e.id);
-		k(n, {
-			detail: `Parent '${a.tagName}' references non-existent child '${e.tagName}' (id: ${e.id})`,
-			key: "EXPORT_ORPHAN_CHILD_REF",
-			ref: {
-				tagName: a.tagName,
-				id: a.id
-			}
-		}), l.push(n);
-	}
-	let u = v({
-		parentTagName: a.tagName,
-		children: l,
-		childrenConfig: n.children
-	});
-	for (let e of u) {
-		let a = _n({
-			config: n,
-			document: i,
-			record: e,
-			defaultNamespace: n.namespaces.default,
-			withDatabaseIds: r,
-			isFragment: s,
-			declareNamespaces: c
-		});
-		o.appendChild(a), hn({
-			index: t,
-			config: n,
-			withDatabaseIds: r,
-			xmlDocument: i,
-			parentRecord: e,
-			parentElement: a,
-			isFragment: s,
-			declareNamespaces: c
-		});
-	}
-}
-function gn(e) {
-	let { document: t, record: n, defaultNamespace: r, declareNamespaces: i } = e, a = n.namespace.uri !== r.uri && n.namespace.prefix && n.namespace.prefix !== "xmlns" ? `${n.namespace.prefix}:${n.tagName}` : n.tagName;
-	return i ? t.createElementNS(n.namespace.uri, a) : t.createElement(a);
-}
-function _n(e) {
-	let { config: t, document: n, record: r, defaultNamespace: i, withDatabaseIds: a, isFragment: o, declareNamespaces: s } = e, c = r.namespace.uri === i.uri, l = gn({
-		document: n,
-		record: r,
-		defaultNamespace: i,
-		declareNamespaces: s
-	});
-	return s && !c && r.namespace.prefix && r.namespace.prefix !== "xmlns" && yn({
-		config: t,
-		document: n,
-		namespace: r.namespace,
-		isFragment: o
-	}), r.attributes && vn({
-		config: t,
-		document: n,
-		element: l,
-		attributes: r.attributes,
-		isRoot: !1,
-		isFragment: o,
-		declareNamespaces: s
-	}), xn({
-		config: t,
-		document: n,
-		element: l,
-		tagName: r.tagName,
-		isFragment: o,
-		declareNamespaces: s
-	}), r.value && (l.textContent = r.value.trim()), a && l.setAttribute("_temp-idb-id", r.id), l;
-}
-function vn(e) {
-	let { config: t, document: n, element: r, attributes: i, isRoot: a, isFragment: o, declareNamespaces: s } = e;
-	for (let e of i) {
-		if (Cn(e)) continue;
-		if (!Sn(e) || !e.namespace.prefix) {
-			r.setAttribute(e.name, String(e.value));
-			continue;
-		}
-		let i = P(e.name);
-		if (!s) {
-			r.setAttribute(`${e.namespace.prefix}:${i}`, String(e.value));
-			continue;
-		}
-		a || yn({
-			config: t,
-			document: n,
-			namespace: e.namespace,
-			isFragment: o
-		}), r.setAttributeNS(e.namespace.uri, `${e.namespace.prefix}:${i}`, String(e.value));
-	}
-}
-function yn(e) {
-	let { config: t, document: n, namespace: r, isFragment: i } = e, a = n.documentElement;
-	if (!a || !r.prefix || r.prefix === "xmlns") return;
-	let o = "http://www.w3.org/2000/xmlns/";
-	a.getAttributeNS(o, r.prefix) === null && (a.setAttributeNS(o, `xmlns:${r.prefix}`, r.uri), i || bn({
-		config: t,
-		rootElement: a,
-		namespace: r
-	}));
-}
-function bn(e) {
-	let { config: t, rootElement: n, namespace: r } = e, i = Object.entries(t.definition[t.rootElementName].attributes.details).filter(([e, n]) => b({
-		dialecteConfig: t,
-		tagName: t.rootElementName,
-		attributeName: e,
-		defaults: "required"
-	}) === void 0 ? !1 : r.uri === t.namespaces.default.uri ? !n.namespace : n.namespace?.prefix === r.prefix && n.namespace?.uri === r.uri);
-	if (i.length > 0) for (let [e, r] of i) {
-		let i = P(e), a = b({
-			dialecteConfig: t,
-			tagName: t.rootElementName,
-			attributeName: e,
-			defaults: "required"
-		}) ?? "";
-		if (!(r.namespace ? n.hasAttributeNS(r.namespace.uri, i) : n.hasAttribute(i))) if (r.namespace) {
-			let e = `${r.namespace.prefix}:${i}`;
-			n.setAttributeNS(r.namespace.uri, e, a);
-		} else n.setAttribute(i, a);
-	}
-}
-function xn(e) {
-	let { config: t, document: n, element: r, tagName: i, isFragment: a, declareNamespaces: o } = e;
-	if (!o) return;
-	let s = t.definition[i]?.attributes.details;
-	if (s) for (let [e, c] of Object.entries(s)) {
-		let s = b({
-			dialecteConfig: t,
-			tagName: i,
-			attributeName: e,
-			defaults: "required"
-		});
-		if (s === void 0) continue;
-		let l = P(e);
-		(c.namespace ? r.hasAttributeNS(c.namespace.uri, l) : r.hasAttribute(l)) || (c.namespace && c.namespace.prefix && c.namespace.prefix !== "xmlns" ? (o && yn({
-			config: t,
-			document: n,
-			namespace: c.namespace,
-			isFragment: a
-		}), r.setAttributeNS(c.namespace.uri, `${c.namespace.prefix}:${l}`, s)) : r.setAttribute(l, s));
-	}
-}
-function Sn(e) {
-	return typeof e == "object" && !!e && "namespace" in e && !!e.namespace;
-}
-function Cn(e) {
-	return !!(e.name === "xmlns" || e.name.startsWith("xmlns:") || Sn(e) && e.namespace?.prefix === "xmlns");
-}
-var wn = /* @__PURE__ */ Ht(((e, t) => {
-	t.exports = {};
-}));
-(/* @__PURE__ */ Ht(((e) => {
-	(function(e) {
-		e.parser = function(e, t) {
-			return new n(e, t);
-		}, e.SAXParser = n, e.SAXStream = u, e.createStream = c, e.MAX_BUFFER_LENGTH = 64 * 1024;
-		var t = [
-			"comment",
-			"sgmlDecl",
-			"textNode",
-			"tagName",
-			"doctype",
-			"procInstName",
-			"procInstBody",
-			"entity",
-			"attribName",
-			"attribValue",
-			"cdata",
-			"script"
-		];
-		e.EVENTS = [
-			"text",
-			"processinginstruction",
-			"sgmldeclaration",
-			"doctype",
-			"comment",
-			"opentagstart",
-			"attribute",
-			"opentag",
-			"closetag",
-			"opencdata",
-			"cdata",
-			"closecdata",
-			"error",
-			"end",
-			"ready",
-			"script",
-			"opennamespace",
-			"closenamespace"
-		];
-		function n(t, r) {
-			if (!(this instanceof n)) return new n(t, r);
-			var a = this;
-			i(a), a.q = a.c = "", a.bufferCheckPosition = e.MAX_BUFFER_LENGTH, a.encoding = null, a.opt = r || {}, a.opt.lowercase = a.opt.lowercase || a.opt.lowercasetags, a.looseCase = a.opt.lowercase ? "toLowerCase" : "toUpperCase", a.opt.maxEntityCount = a.opt.maxEntityCount || 512, a.opt.maxEntityDepth = a.opt.maxEntityDepth || 4, a.entityCount = a.entityDepth = 0, a.tags = [], a.closed = a.closedRoot = a.sawRoot = !1, a.tag = a.error = null, a.strict = !!t, a.noscript = !!(t || a.opt.noscript), a.state = w.BEGIN, a.strictEntities = a.opt.strictEntities, a.ENTITIES = a.strictEntities ? Object.create(e.XML_ENTITIES) : Object.create(e.ENTITIES), a.attribList = [], a.opt.xmlns && (a.ns = Object.create(h)), a.opt.unquotedAttributeValues === void 0 && (a.opt.unquotedAttributeValues = !t), a.trackPosition = a.opt.position !== !1, a.trackPosition && (a.position = a.line = a.column = 0), te(a, "onready");
-		}
-		Object.create || (Object.create = function(e) {
-			function t() {}
-			return t.prototype = e, new t();
-		}), Object.keys || (Object.keys = function(e) {
-			var t = [];
-			for (var n in e) e.hasOwnProperty(n) && t.push(n);
-			return t;
-		});
-		function r(n) {
-			for (var r = Math.max(e.MAX_BUFFER_LENGTH, 10), i = 0, a = 0, o = t.length; a < o; a++) {
-				var s = n[t[a]].length;
-				if (s > r) switch (t[a]) {
-					case "textNode":
-						ne(n);
-						break;
-					case "cdata":
-						A(n, "oncdata", n.cdata), n.cdata = "";
-						break;
-					case "script":
-						A(n, "onscript", n.script), n.script = "";
-						break;
-					default: M(n, "Max buffer length exceeded: " + t[a]);
-				}
-				i = Math.max(i, s);
-			}
-			n.bufferCheckPosition = e.MAX_BUFFER_LENGTH - i + n.position;
-		}
-		function i(e) {
-			for (var n = 0, r = t.length; n < r; n++) e[t[n]] = "";
-		}
-		function a(e) {
-			ne(e), e.cdata !== "" && (A(e, "oncdata", e.cdata), e.cdata = ""), e.script !== "" && (A(e, "onscript", e.script), e.script = "");
-		}
-		n.prototype = {
-			end: function() {
-				re(this);
-			},
-			write: I,
-			resume: function() {
-				return this.error = null, this;
-			},
-			close: function() {
-				return this.write(null);
-			},
-			flush: function() {
-				a(this);
-			}
-		};
-		var o;
-		try {
-			o = wn().Stream;
-		} catch {
-			o = function() {};
-		}
-		o ||= function() {};
-		var s = e.EVENTS.filter(function(e) {
-			return e !== "error" && e !== "end";
-		});
-		function c(e, t) {
-			return new u(e, t);
-		}
-		function l(e, t) {
-			if (e.length >= 2) {
-				if (e[0] === 255 && e[1] === 254) return "utf-16le";
-				if (e[0] === 254 && e[1] === 255) return "utf-16be";
-			}
-			return e.length >= 3 && e[0] === 239 && e[1] === 187 && e[2] === 191 ? "utf8" : e.length >= 4 ? e[0] === 60 && e[1] === 0 && e[2] === 63 && e[3] === 0 ? "utf-16le" : e[0] === 0 && e[1] === 60 && e[2] === 0 && e[3] === 63 ? "utf-16be" : "utf8" : t ? "utf8" : null;
-		}
-		function u(e, t) {
-			if (!(this instanceof u)) return new u(e, t);
-			o.apply(this), this._parser = new n(e, t), this.writable = !0, this.readable = !0;
-			var r = this;
-			this._parser.onend = function() {
-				r.emit("end");
-			}, this._parser.onerror = function(e) {
-				r.emit("error", e), r._parser.error = null;
-			}, this._decoder = null, this._decoderBuffer = null, s.forEach(function(e) {
-				Object.defineProperty(r, "on" + e, {
-					get: function() {
-						return r._parser["on" + e];
-					},
-					set: function(t) {
-						if (!t) return r.removeAllListeners(e), r._parser["on" + e] = t, t;
-						r.on(e, t);
-					},
-					enumerable: !0,
-					configurable: !1
-				});
-			});
-		}
-		u.prototype = Object.create(o.prototype, { constructor: { value: u } }), u.prototype._decodeBuffer = function(e, t) {
-			if (this._decoderBuffer &&= (e = Buffer.concat([this._decoderBuffer, e]), null), !this._decoder) {
-				var n = l(e, t);
-				if (!n) return this._decoderBuffer = e, "";
-				this._parser.encoding = n, this._decoder = new TextDecoder(n);
-			}
-			return this._decoder.decode(e, { stream: !t });
-		}, u.prototype.write = function(e) {
-			if (typeof Buffer == "function" && typeof Buffer.isBuffer == "function" && Buffer.isBuffer(e)) e = this._decodeBuffer(e, !1);
-			else if (this._decoderBuffer) {
-				var t = this._decodeBuffer(Buffer.alloc(0), !0);
-				t && (this._parser.write(t), this.emit("data", t));
-			}
-			return this._parser.write(e.toString()), this.emit("data", e), !0;
-		}, u.prototype.end = function(e) {
-			if (e && e.length && this.write(e), this._decoderBuffer) {
-				var t = this._decodeBuffer(Buffer.alloc(0), !0);
-				t && (this._parser.write(t), this.emit("data", t));
-			} else if (this._decoder) {
-				var n = this._decoder.decode();
-				n && (this._parser.write(n), this.emit("data", n));
-			}
-			return this._parser.end(), !0;
-		}, u.prototype.on = function(e, t) {
-			var n = this;
-			return !n._parser["on" + e] && s.indexOf(e) !== -1 && (n._parser["on" + e] = function() {
-				var t = arguments.length === 1 ? [arguments[0]] : Array.apply(null, arguments);
-				t.splice(0, 0, e), n.emit.apply(n, t);
-			}), o.prototype.on.call(n, e, t);
-		};
-		var d = "[CDATA[", f = "DOCTYPE", p = "http://www.w3.org/XML/1998/namespace", m = "http://www.w3.org/2000/xmlns/", h = {
-			xml: p,
-			xmlns: m
-		}, g = /[:_A-Za-z\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u02FF\u0370-\u037D\u037F-\u1FFF\u200C-\u200D\u2070-\u218F\u2C00-\u2FEF\u3001-\uD7FF\uF900-\uFDCF\uFDF0-\uFFFD]/, _ = /[:_A-Za-z\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u02FF\u0370-\u037D\u037F-\u1FFF\u200C-\u200D\u2070-\u218F\u2C00-\u2FEF\u3001-\uD7FF\uF900-\uFDCF\uFDF0-\uFFFD\u00B7\u0300-\u036F\u203F-\u2040.\d-]/, v = /[#:_A-Za-z\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u02FF\u0370-\u037D\u037F-\u1FFF\u200C-\u200D\u2070-\u218F\u2C00-\u2FEF\u3001-\uD7FF\uF900-\uFDCF\uFDF0-\uFFFD]/, y = /[#:_A-Za-z\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u02FF\u0370-\u037D\u037F-\u1FFF\u200C-\u200D\u2070-\u218F\u2C00-\u2FEF\u3001-\uD7FF\uF900-\uFDCF\uFDF0-\uFFFD\u00B7\u0300-\u036F\u203F-\u2040.\d-]/;
-		function b(e) {
-			return e === " " || e === "\n" || e === "\r" || e === "	";
-		}
-		function x(e) {
-			return e === "\"" || e === "'";
-		}
-		function S(e) {
-			return e === ">" || b(e);
-		}
-		function C(e, t) {
-			return e.test(t);
-		}
-		function ee(e, t) {
-			return !C(e, t);
-		}
-		var w = 0;
-		for (var T in e.STATE = {
-			BEGIN: w++,
-			BEGIN_WHITESPACE: w++,
-			TEXT: w++,
-			TEXT_ENTITY: w++,
-			OPEN_WAKA: w++,
-			SGML_DECL: w++,
-			SGML_DECL_QUOTED: w++,
-			DOCTYPE: w++,
-			DOCTYPE_QUOTED: w++,
-			DOCTYPE_DTD: w++,
-			DOCTYPE_DTD_QUOTED: w++,
-			COMMENT_STARTING: w++,
-			COMMENT: w++,
-			COMMENT_ENDING: w++,
-			COMMENT_ENDED: w++,
-			CDATA: w++,
-			CDATA_ENDING: w++,
-			CDATA_ENDING_2: w++,
-			PROC_INST: w++,
-			PROC_INST_BODY: w++,
-			PROC_INST_ENDING: w++,
-			OPEN_TAG: w++,
-			OPEN_TAG_SLASH: w++,
-			ATTRIB: w++,
-			ATTRIB_NAME: w++,
-			ATTRIB_NAME_SAW_WHITE: w++,
-			ATTRIB_VALUE: w++,
-			ATTRIB_VALUE_QUOTED: w++,
-			ATTRIB_VALUE_CLOSED: w++,
-			ATTRIB_VALUE_UNQUOTED: w++,
-			ATTRIB_VALUE_ENTITY_Q: w++,
-			ATTRIB_VALUE_ENTITY_U: w++,
-			CLOSE_TAG: w++,
-			CLOSE_TAG_SAW_WHITE: w++,
-			SCRIPT: w++,
-			SCRIPT_ENDING: w++
-		}, e.XML_ENTITIES = {
-			amp: "&",
-			gt: ">",
-			lt: "<",
-			quot: "\"",
-			apos: "'"
-		}, e.ENTITIES = {
-			amp: "&",
-			gt: ">",
-			lt: "<",
-			quot: "\"",
-			apos: "'",
-			AElig: 198,
-			Aacute: 193,
-			Acirc: 194,
-			Agrave: 192,
-			Aring: 197,
-			Atilde: 195,
-			Auml: 196,
-			Ccedil: 199,
-			ETH: 208,
-			Eacute: 201,
-			Ecirc: 202,
-			Egrave: 200,
-			Euml: 203,
-			Iacute: 205,
-			Icirc: 206,
-			Igrave: 204,
-			Iuml: 207,
-			Ntilde: 209,
-			Oacute: 211,
-			Ocirc: 212,
-			Ograve: 210,
-			Oslash: 216,
-			Otilde: 213,
-			Ouml: 214,
-			THORN: 222,
-			Uacute: 218,
-			Ucirc: 219,
-			Ugrave: 217,
-			Uuml: 220,
-			Yacute: 221,
-			aacute: 225,
-			acirc: 226,
-			aelig: 230,
-			agrave: 224,
-			aring: 229,
-			atilde: 227,
-			auml: 228,
-			ccedil: 231,
-			eacute: 233,
-			ecirc: 234,
-			egrave: 232,
-			eth: 240,
-			euml: 235,
-			iacute: 237,
-			icirc: 238,
-			igrave: 236,
-			iuml: 239,
-			ntilde: 241,
-			oacute: 243,
-			ocirc: 244,
-			ograve: 242,
-			oslash: 248,
-			otilde: 245,
-			ouml: 246,
-			szlig: 223,
-			thorn: 254,
-			uacute: 250,
-			ucirc: 251,
-			ugrave: 249,
-			uuml: 252,
-			yacute: 253,
-			yuml: 255,
-			copy: 169,
-			reg: 174,
-			nbsp: 160,
-			iexcl: 161,
-			cent: 162,
-			pound: 163,
-			curren: 164,
-			yen: 165,
-			brvbar: 166,
-			sect: 167,
-			uml: 168,
-			ordf: 170,
-			laquo: 171,
-			not: 172,
-			shy: 173,
-			macr: 175,
-			deg: 176,
-			plusmn: 177,
-			sup1: 185,
-			sup2: 178,
-			sup3: 179,
-			acute: 180,
-			micro: 181,
-			para: 182,
-			middot: 183,
-			cedil: 184,
-			ordm: 186,
-			raquo: 187,
-			frac14: 188,
-			frac12: 189,
-			frac34: 190,
-			iquest: 191,
-			times: 215,
-			divide: 247,
-			OElig: 338,
-			oelig: 339,
-			Scaron: 352,
-			scaron: 353,
-			Yuml: 376,
-			fnof: 402,
-			circ: 710,
-			tilde: 732,
-			Alpha: 913,
-			Beta: 914,
-			Gamma: 915,
-			Delta: 916,
-			Epsilon: 917,
-			Zeta: 918,
-			Eta: 919,
-			Theta: 920,
-			Iota: 921,
-			Kappa: 922,
-			Lambda: 923,
-			Mu: 924,
-			Nu: 925,
-			Xi: 926,
-			Omicron: 927,
-			Pi: 928,
-			Rho: 929,
-			Sigma: 931,
-			Tau: 932,
-			Upsilon: 933,
-			Phi: 934,
-			Chi: 935,
-			Psi: 936,
-			Omega: 937,
-			alpha: 945,
-			beta: 946,
-			gamma: 947,
-			delta: 948,
-			epsilon: 949,
-			zeta: 950,
-			eta: 951,
-			theta: 952,
-			iota: 953,
-			kappa: 954,
-			lambda: 955,
-			mu: 956,
-			nu: 957,
-			xi: 958,
-			omicron: 959,
-			pi: 960,
-			rho: 961,
-			sigmaf: 962,
-			sigma: 963,
-			tau: 964,
-			upsilon: 965,
-			phi: 966,
-			chi: 967,
-			psi: 968,
-			omega: 969,
-			thetasym: 977,
-			upsih: 978,
-			piv: 982,
-			ensp: 8194,
-			emsp: 8195,
-			thinsp: 8201,
-			zwnj: 8204,
-			zwj: 8205,
-			lrm: 8206,
-			rlm: 8207,
-			ndash: 8211,
-			mdash: 8212,
-			lsquo: 8216,
-			rsquo: 8217,
-			sbquo: 8218,
-			ldquo: 8220,
-			rdquo: 8221,
-			bdquo: 8222,
-			dagger: 8224,
-			Dagger: 8225,
-			bull: 8226,
-			hellip: 8230,
-			permil: 8240,
-			prime: 8242,
-			Prime: 8243,
-			lsaquo: 8249,
-			rsaquo: 8250,
-			oline: 8254,
-			frasl: 8260,
-			euro: 8364,
-			image: 8465,
-			weierp: 8472,
-			real: 8476,
-			trade: 8482,
-			alefsym: 8501,
-			larr: 8592,
-			uarr: 8593,
-			rarr: 8594,
-			darr: 8595,
-			harr: 8596,
-			crarr: 8629,
-			lArr: 8656,
-			uArr: 8657,
-			rArr: 8658,
-			dArr: 8659,
-			hArr: 8660,
-			forall: 8704,
-			part: 8706,
-			exist: 8707,
-			empty: 8709,
-			nabla: 8711,
-			isin: 8712,
-			notin: 8713,
-			ni: 8715,
-			prod: 8719,
-			sum: 8721,
-			minus: 8722,
-			lowast: 8727,
-			radic: 8730,
-			prop: 8733,
-			infin: 8734,
-			ang: 8736,
-			and: 8743,
-			or: 8744,
-			cap: 8745,
-			cup: 8746,
-			int: 8747,
-			there4: 8756,
-			sim: 8764,
-			cong: 8773,
-			asymp: 8776,
-			ne: 8800,
-			equiv: 8801,
-			le: 8804,
-			ge: 8805,
-			sub: 8834,
-			sup: 8835,
-			nsub: 8836,
-			sube: 8838,
-			supe: 8839,
-			oplus: 8853,
-			otimes: 8855,
-			perp: 8869,
-			sdot: 8901,
-			lceil: 8968,
-			rceil: 8969,
-			lfloor: 8970,
-			rfloor: 8971,
-			lang: 9001,
-			rang: 9002,
-			loz: 9674,
-			spades: 9824,
-			clubs: 9827,
-			hearts: 9829,
-			diams: 9830
-		}, Object.keys(e.ENTITIES).forEach(function(t) {
-			var n = e.ENTITIES[t], r = typeof n == "number" ? String.fromCharCode(n) : n;
-			e.ENTITIES[t] = r;
-		}), e.STATE) e.STATE[e.STATE[T]] = T;
-		w = e.STATE;
-		function te(e, t, n) {
-			e[t] && e[t](n);
-		}
-		function E(e) {
-			var t = e && e.match(/(?:^|\s)encoding\s*=\s*(['"])([^'"]+)\1/i);
-			return t ? t[2] : null;
-		}
-		function D(e) {
-			return e ? e.toLowerCase().replace(/[^a-z0-9]/g, "") : null;
-		}
-		function O(e, t) {
-			let n = D(e), r = D(t);
-			return !n || !r ? !0 : r === "utf16" ? n === "utf16le" || n === "utf16be" : n === r;
-		}
-		function k(e, t) {
-			if (!(!e.strict || !e.encoding || !t || t.name !== "xml")) {
-				var n = E(t.body);
-				n && !O(e.encoding, n) && N(e, "XML declaration encoding " + n + " does not match detected stream encoding " + e.encoding.toUpperCase());
-			}
-		}
-		function A(e, t, n) {
-			e.textNode && ne(e), te(e, t, n);
-		}
-		function ne(e) {
-			e.textNode = j(e.opt, e.textNode), e.textNode && te(e, "ontext", e.textNode), e.textNode = "";
-		}
-		function j(e, t) {
-			return e.trim && (t = t.trim()), e.normalize && (t = t.replace(/\s+/g, " ")), t;
-		}
-		function M(e, t) {
-			return ne(e), e.trackPosition && (t += "\nLine: " + e.line + "\nColumn: " + e.column + "\nChar: " + e.c), t = Error(t), e.error = t, te(e, "onerror", t), e;
-		}
-		function re(e) {
-			return e.sawRoot && !e.closedRoot && N(e, "Unclosed root tag"), e.state !== w.BEGIN && e.state !== w.BEGIN_WHITESPACE && e.state !== w.TEXT && M(e, "Unexpected end"), ne(e), e.c = "", e.closed = !0, te(e, "onend"), n.call(e, e.strict, e.opt), e;
-		}
-		function N(e, t) {
-			if (typeof e != "object" || !(e instanceof n)) throw Error("bad call to strictFail");
-			e.strict && M(e, t);
-		}
-		function P(e) {
-			e.strict || (e.tagName = e.tagName[e.looseCase]());
-			var t = e.tags[e.tags.length - 1] || e, n = e.tag = {
-				name: e.tagName,
-				attributes: {}
-			};
-			e.opt.xmlns && (n.ns = t.ns), e.attribList.length = 0, A(e, "onopentagstart", n);
-		}
-		function ie(e, t) {
-			var n = e.indexOf(":") < 0 ? ["", e] : e.split(":"), r = n[0], i = n[1];
-			return t && e === "xmlns" && (r = "xmlns", i = ""), {
-				prefix: r,
-				local: i
-			};
-		}
-		function ae(e) {
-			if (e.strict || (e.attribName = e.attribName[e.looseCase]()), e.attribList.indexOf(e.attribName) !== -1 || e.tag.attributes.hasOwnProperty(e.attribName)) {
-				e.attribName = e.attribValue = "";
-				return;
-			}
-			if (e.opt.xmlns) {
-				var t = ie(e.attribName, !0), n = t.prefix, r = t.local;
-				if (n === "xmlns") if (r === "xml" && e.attribValue !== p) N(e, "xml: prefix must be bound to " + p + "\nActual: " + e.attribValue);
-				else if (r === "xmlns" && e.attribValue !== m) N(e, "xmlns: prefix must be bound to " + m + "\nActual: " + e.attribValue);
-				else {
-					var i = e.tag, a = e.tags[e.tags.length - 1] || e;
-					i.ns === a.ns && (i.ns = Object.create(a.ns)), i.ns[r] = e.attribValue;
-				}
-				e.attribList.push([e.attribName, e.attribValue]);
-			} else e.tag.attributes[e.attribName] = e.attribValue, A(e, "onattribute", {
-				name: e.attribName,
-				value: e.attribValue
-			});
-			e.attribName = e.attribValue = "";
-		}
-		function oe(e, t) {
-			if (e.opt.xmlns) {
-				var n = e.tag, r = ie(e.tagName);
-				n.prefix = r.prefix, n.local = r.local, n.uri = n.ns[r.prefix] || "", n.prefix && !n.uri && (N(e, "Unbound namespace prefix: " + JSON.stringify(e.tagName)), n.uri = r.prefix);
-				var i = e.tags[e.tags.length - 1] || e;
-				n.ns && i.ns !== n.ns && Object.keys(n.ns).forEach(function(t) {
-					A(e, "onopennamespace", {
-						prefix: t,
-						uri: n.ns[t]
-					});
-				});
-				for (var a = 0, o = e.attribList.length; a < o; a++) {
-					var s = e.attribList[a], c = s[0], l = s[1], u = ie(c, !0), d = u.prefix, f = u.local, p = d === "" ? "" : n.ns[d] || "", m = {
-						name: c,
-						value: l,
-						prefix: d,
-						local: f,
-						uri: p
-					};
-					d && d !== "xmlns" && !p && (N(e, "Unbound namespace prefix: " + JSON.stringify(d)), m.uri = d), e.tag.attributes[c] = m, A(e, "onattribute", m);
-				}
-				e.attribList.length = 0;
-			}
-			e.tag.isSelfClosing = !!t, e.sawRoot = !0, e.tags.push(e.tag), A(e, "onopentag", e.tag), t || (!e.noscript && e.tagName.toLowerCase() === "script" ? e.state = w.SCRIPT : e.state = w.TEXT, e.tag = null, e.tagName = ""), e.attribName = e.attribValue = "", e.attribList.length = 0;
-		}
-		function F(e) {
-			if (!e.tagName) {
-				N(e, "Weird empty close tag."), e.textNode += "</>", e.state = w.TEXT;
-				return;
-			}
-			if (e.script) {
-				if (e.tagName !== "script") {
-					e.script += "</" + e.tagName + ">", e.tagName = "", e.state = w.SCRIPT;
-					return;
-				}
-				A(e, "onscript", e.script), e.script = "";
-			}
-			var t = e.tags.length, n = e.tagName;
-			e.strict || (n = n[e.looseCase]());
-			for (var r = n; t-- && e.tags[t].name !== r;) N(e, "Unexpected close tag");
-			if (t < 0) {
-				N(e, "Unmatched closing tag: " + e.tagName), e.textNode += "</" + e.tagName + ">", e.state = w.TEXT;
-				return;
-			}
-			e.tagName = n;
-			for (var i = e.tags.length; i-- > t;) {
-				var a = e.tag = e.tags.pop();
-				e.tagName = e.tag.name, A(e, "onclosetag", e.tagName);
-				var o = {};
-				for (var s in a.ns) o[s] = a.ns[s];
-				var c = e.tags[e.tags.length - 1] || e;
-				e.opt.xmlns && a.ns !== c.ns && Object.keys(a.ns).forEach(function(t) {
-					var n = a.ns[t];
-					A(e, "onclosenamespace", {
-						prefix: t,
-						uri: n
-					});
-				});
-			}
-			t === 0 && (e.closedRoot = !0), e.tagName = e.attribValue = e.attribName = "", e.attribList.length = 0, e.state = w.TEXT;
-		}
-		function se(e) {
-			var t = e.entity, n = t.toLowerCase(), r, i = "";
-			return e.ENTITIES[t] ? e.ENTITIES[t] : e.ENTITIES[n] ? e.ENTITIES[n] : (t = n, t.charAt(0) === "#" && (t.charAt(1) === "x" ? (t = t.slice(2), r = parseInt(t, 16), i = r.toString(16)) : (t = t.slice(1), r = parseInt(t, 10), i = r.toString(10))), t = t.replace(/^0+/, ""), isNaN(r) || i.toLowerCase() !== t || r < 0 || r > 1114111 ? (N(e, "Invalid character entity"), "&" + e.entity + ";") : String.fromCodePoint(r));
-		}
-		function ce(e, t) {
-			t === "<" ? (e.state = w.OPEN_WAKA, e.startTagPosition = e.position) : b(t) || (N(e, "Non-whitespace before first tag."), e.textNode = t, e.state = w.TEXT);
-		}
-		function le(e, t) {
-			var n = "";
-			return t < e.length && (n = e.charAt(t)), n;
-		}
-		function I(t) {
-			var n = this;
-			if (this.error) throw this.error;
-			if (n.closed) return M(n, "Cannot write after close. Assign an onready handler.");
-			if (t === null) return re(n);
-			typeof t == "object" && (t = t.toString());
-			for (var i = 0, a = ""; a = le(t, i++), n.c = a, a;) switch (n.trackPosition && (n.position++, a === "\n" ? (n.line++, n.column = 0) : n.column++), n.state) {
-				case w.BEGIN:
-					if (n.state = w.BEGIN_WHITESPACE, a === "﻿") continue;
-					ce(n, a);
-					continue;
-				case w.BEGIN_WHITESPACE:
-					ce(n, a);
-					continue;
-				case w.TEXT:
-					if (n.sawRoot && !n.closedRoot) {
-						for (var o = i - 1; a && a !== "<" && a !== "&";) a = le(t, i++), a && n.trackPosition && (n.position++, a === "\n" ? (n.line++, n.column = 0) : n.column++);
-						n.textNode += t.substring(o, i - 1);
-					}
-					a === "<" && !(n.sawRoot && n.closedRoot && !n.strict) ? (n.state = w.OPEN_WAKA, n.startTagPosition = n.position) : (!b(a) && (!n.sawRoot || n.closedRoot) && N(n, "Text data outside of root node."), a === "&" ? n.state = w.TEXT_ENTITY : n.textNode += a);
-					continue;
-				case w.SCRIPT:
-					a === "<" ? n.state = w.SCRIPT_ENDING : n.script += a;
-					continue;
-				case w.SCRIPT_ENDING:
-					a === "/" ? n.state = w.CLOSE_TAG : (n.script += "<" + a, n.state = w.SCRIPT);
-					continue;
-				case w.OPEN_WAKA:
-					if (a === "!") n.state = w.SGML_DECL, n.sgmlDecl = "";
-					else if (!b(a)) if (C(g, a)) n.state = w.OPEN_TAG, n.tagName = a;
-					else if (a === "/") n.state = w.CLOSE_TAG, n.tagName = "";
-					else if (a === "?") n.state = w.PROC_INST, n.procInstName = n.procInstBody = "";
-					else {
-						if (N(n, "Unencoded <"), n.startTagPosition + 1 < n.position) {
-							var s = n.position - n.startTagPosition;
-							a = Array(s).join(" ") + a;
-						}
-						n.textNode += "<" + a, n.state = w.TEXT;
-					}
-					continue;
-				case w.SGML_DECL:
-					if (n.sgmlDecl + a === "--") {
-						n.state = w.COMMENT, n.comment = "", n.sgmlDecl = "";
-						continue;
-					}
-					n.doctype && n.doctype !== !0 && n.sgmlDecl ? (n.state = w.DOCTYPE_DTD, n.doctype += "<!" + n.sgmlDecl + a, n.sgmlDecl = "") : (n.sgmlDecl + a).toUpperCase() === d ? (A(n, "onopencdata"), n.state = w.CDATA, n.sgmlDecl = "", n.cdata = "") : (n.sgmlDecl + a).toUpperCase() === f ? (n.state = w.DOCTYPE, (n.doctype || n.sawRoot) && N(n, "Inappropriately located doctype declaration"), n.doctype = "", n.sgmlDecl = "") : a === ">" ? (A(n, "onsgmldeclaration", n.sgmlDecl), n.sgmlDecl = "", n.state = w.TEXT) : (x(a) && (n.state = w.SGML_DECL_QUOTED), n.sgmlDecl += a);
-					continue;
-				case w.SGML_DECL_QUOTED:
-					a === n.q && (n.state = w.SGML_DECL, n.q = ""), n.sgmlDecl += a;
-					continue;
-				case w.DOCTYPE:
-					a === ">" ? (n.state = w.TEXT, A(n, "ondoctype", n.doctype), n.doctype = !0) : (n.doctype += a, a === "[" ? n.state = w.DOCTYPE_DTD : x(a) && (n.state = w.DOCTYPE_QUOTED, n.q = a));
-					continue;
-				case w.DOCTYPE_QUOTED:
-					n.doctype += a, a === n.q && (n.q = "", n.state = w.DOCTYPE);
-					continue;
-				case w.DOCTYPE_DTD:
-					a === "]" ? (n.doctype += a, n.state = w.DOCTYPE) : a === "<" ? (n.state = w.OPEN_WAKA, n.startTagPosition = n.position) : x(a) ? (n.doctype += a, n.state = w.DOCTYPE_DTD_QUOTED, n.q = a) : n.doctype += a;
-					continue;
-				case w.DOCTYPE_DTD_QUOTED:
-					n.doctype += a, a === n.q && (n.state = w.DOCTYPE_DTD, n.q = "");
-					continue;
-				case w.COMMENT:
-					a === "-" ? n.state = w.COMMENT_ENDING : n.comment += a;
-					continue;
-				case w.COMMENT_ENDING:
-					a === "-" ? (n.state = w.COMMENT_ENDED, n.comment = j(n.opt, n.comment), n.comment && A(n, "oncomment", n.comment), n.comment = "") : (n.comment += "-" + a, n.state = w.COMMENT);
-					continue;
-				case w.COMMENT_ENDED:
-					a === ">" ? n.doctype && n.doctype !== !0 ? n.state = w.DOCTYPE_DTD : n.state = w.TEXT : (N(n, "Malformed comment"), n.comment += "--" + a, n.state = w.COMMENT);
-					continue;
-				case w.CDATA:
-					for (var o = i - 1; a && a !== "]";) a = le(t, i++), a && n.trackPosition && (n.position++, a === "\n" ? (n.line++, n.column = 0) : n.column++);
-					n.cdata += t.substring(o, i - 1), a === "]" && (n.state = w.CDATA_ENDING);
-					continue;
-				case w.CDATA_ENDING:
-					a === "]" ? n.state = w.CDATA_ENDING_2 : (n.cdata += "]" + a, n.state = w.CDATA);
-					continue;
-				case w.CDATA_ENDING_2:
-					a === ">" ? (n.cdata && A(n, "oncdata", n.cdata), A(n, "onclosecdata"), n.cdata = "", n.state = w.TEXT) : a === "]" ? n.cdata += "]" : (n.cdata += "]]" + a, n.state = w.CDATA);
-					continue;
-				case w.PROC_INST:
-					a === "?" ? n.state = w.PROC_INST_ENDING : b(a) ? n.state = w.PROC_INST_BODY : n.procInstName += a;
-					continue;
-				case w.PROC_INST_BODY:
-					if (!n.procInstBody && b(a)) continue;
-					a === "?" ? n.state = w.PROC_INST_ENDING : n.procInstBody += a;
-					continue;
-				case w.PROC_INST_ENDING:
-					if (a === ">") {
-						let e = {
-							name: n.procInstName,
-							body: n.procInstBody
-						};
-						k(n, e), A(n, "onprocessinginstruction", e), n.procInstName = n.procInstBody = "", n.state = w.TEXT;
-					} else n.procInstBody += "?" + a, n.state = w.PROC_INST_BODY;
-					continue;
-				case w.OPEN_TAG:
-					C(_, a) ? n.tagName += a : (P(n), a === ">" ? oe(n) : a === "/" ? n.state = w.OPEN_TAG_SLASH : (b(a) || N(n, "Invalid character in tag name"), n.state = w.ATTRIB));
-					continue;
-				case w.OPEN_TAG_SLASH:
-					a === ">" ? (oe(n, !0), F(n)) : (N(n, "Forward-slash in opening tag not followed by >"), n.state = w.ATTRIB);
-					continue;
-				case w.ATTRIB:
-					if (b(a)) continue;
-					a === ">" ? oe(n) : a === "/" ? n.state = w.OPEN_TAG_SLASH : C(g, a) ? (n.attribName = a, n.attribValue = "", n.state = w.ATTRIB_NAME) : N(n, "Invalid attribute name");
-					continue;
-				case w.ATTRIB_NAME:
-					a === "=" ? n.state = w.ATTRIB_VALUE : a === ">" ? (N(n, "Attribute without value"), n.attribValue = n.attribName, ae(n), oe(n)) : b(a) ? n.state = w.ATTRIB_NAME_SAW_WHITE : C(_, a) ? n.attribName += a : N(n, "Invalid attribute name");
-					continue;
-				case w.ATTRIB_NAME_SAW_WHITE:
-					if (a === "=") n.state = w.ATTRIB_VALUE;
-					else if (b(a)) continue;
-					else N(n, "Attribute without value"), n.tag.attributes[n.attribName] = "", n.attribValue = "", A(n, "onattribute", {
-						name: n.attribName,
-						value: ""
-					}), n.attribName = "", a === ">" ? oe(n) : C(g, a) ? (n.attribName = a, n.state = w.ATTRIB_NAME) : (N(n, "Invalid attribute name"), n.state = w.ATTRIB);
-					continue;
-				case w.ATTRIB_VALUE:
-					if (b(a)) continue;
-					x(a) ? (n.q = a, n.state = w.ATTRIB_VALUE_QUOTED) : (n.opt.unquotedAttributeValues || M(n, "Unquoted attribute value"), n.state = w.ATTRIB_VALUE_UNQUOTED, n.attribValue = a);
-					continue;
-				case w.ATTRIB_VALUE_QUOTED:
-					if (a !== n.q) {
-						a === "&" ? n.state = w.ATTRIB_VALUE_ENTITY_Q : n.attribValue += a;
-						continue;
-					}
-					ae(n), n.q = "", n.state = w.ATTRIB_VALUE_CLOSED;
-					continue;
-				case w.ATTRIB_VALUE_CLOSED:
-					b(a) ? n.state = w.ATTRIB : a === ">" ? oe(n) : a === "/" ? n.state = w.OPEN_TAG_SLASH : C(g, a) ? (N(n, "No whitespace between attributes"), n.attribName = a, n.attribValue = "", n.state = w.ATTRIB_NAME) : N(n, "Invalid attribute name");
-					continue;
-				case w.ATTRIB_VALUE_UNQUOTED:
-					if (!S(a)) {
-						a === "&" ? n.state = w.ATTRIB_VALUE_ENTITY_U : n.attribValue += a;
-						continue;
-					}
-					ae(n), a === ">" ? oe(n) : n.state = w.ATTRIB;
-					continue;
-				case w.CLOSE_TAG:
-					if (n.tagName) a === ">" ? F(n) : C(_, a) ? n.tagName += a : n.script ? (n.script += "</" + n.tagName + a, n.tagName = "", n.state = w.SCRIPT) : (b(a) || N(n, "Invalid tagname in closing tag"), n.state = w.CLOSE_TAG_SAW_WHITE);
-					else {
-						if (b(a)) continue;
-						ee(g, a) ? n.script ? (n.script += "</" + a, n.state = w.SCRIPT) : N(n, "Invalid tagname in closing tag.") : n.tagName = a;
-					}
-					continue;
-				case w.CLOSE_TAG_SAW_WHITE:
-					if (b(a)) continue;
-					a === ">" ? F(n) : N(n, "Invalid characters in closing tag");
-					continue;
-				case w.TEXT_ENTITY:
-				case w.ATTRIB_VALUE_ENTITY_Q:
-				case w.ATTRIB_VALUE_ENTITY_U:
-					var c, l;
-					switch (n.state) {
-						case w.TEXT_ENTITY:
-							c = w.TEXT, l = "textNode";
-							break;
-						case w.ATTRIB_VALUE_ENTITY_Q:
-							c = w.ATTRIB_VALUE_QUOTED, l = "attribValue";
-							break;
-						case w.ATTRIB_VALUE_ENTITY_U:
-							c = w.ATTRIB_VALUE_UNQUOTED, l = "attribValue";
-							break;
-					}
-					if (a === ";") {
-						var u = se(n);
-						n.opt.unparsedEntities && !Object.values(e.XML_ENTITIES).includes(u) ? ((n.entityCount += 1) > n.opt.maxEntityCount && M(n, "Parsed entity count exceeds max entity count"), (n.entityDepth += 1) > n.opt.maxEntityDepth && M(n, "Parsed entity depth exceeds max entity depth"), n.entity = "", n.state = c, n.write(u), --n.entityDepth) : (n[l] += u, n.entity = "", n.state = c);
-					} else C(n.entity.length ? y : v, a) ? n.entity += a : (N(n, "Invalid character in entity name"), n[l] += "&" + n.entity + a, n.entity = "", n.state = c);
-					continue;
-				default: throw Error(n, "Unknown state: " + n.state);
-			}
-			return n.position >= n.bufferCheckPosition && r(n), n;
-		}
-		/* istanbul ignore next */
-		String.fromCodePoint || (function() {
-			var e = String.fromCharCode, t = Math.floor, n = function() {
-				var n = 16384, r = [], i, a, o = -1, s = arguments.length;
-				if (!s) return "";
-				for (var c = ""; ++o < s;) {
-					var l = Number(arguments[o]);
-					if (!isFinite(l) || l < 0 || l > 1114111 || t(l) !== l) throw RangeError("Invalid code point: " + l);
-					l <= 65535 ? r.push(l) : (l -= 65536, i = (l >> 10) + 55296, a = l % 1024 + 56320, r.push(i, a)), (o + 1 === s || r.length > n) && (c += e.apply(null, r), r.length = 0);
-				}
-				return c;
-			};
-			/* istanbul ignore next */
-			Object.defineProperty ? Object.defineProperty(String, "fromCodePoint", {
-				value: n,
-				configurable: !0,
-				writable: !0
-			}) : String.fromCodePoint = n;
-		})();
-	})(e === void 0 ? e.sax = {} : e);
-})))(), Object.freeze({
-	start() {},
-	stop() {},
-	count() {},
-	time(e, t) {
-		return t();
-	},
-	profile(e, t) {
-		return t();
-	},
-	report() {
-		return {};
-	},
-	log() {},
-	reset() {}
-});
-function Y(e) {
-	let { context: t, status: n, record: r, oldRecord: i, newRecord: a } = e, o, s, c;
-	if (r && (o = ot(r)), i && (s = ot(i)), a && (c = ot(a)), n === "created") {
-		k(o, {
-			detail: "Record is required for created",
-			key: "ELEMENT_NOT_FOUND"
-		});
-		let e = {
-			status: n,
-			oldRecord: void 0,
-			newRecord: o
-		};
-		t.stagedOperations.log.push(e), t.stagedOperations.byId.set(o.id, e);
-	} else if (n === "updated") {
-		k(s && c, {
-			detail: "Old record and new record are required for updated",
-			key: "ELEMENT_NOT_FOUND"
-		});
-		let e = {
-			status: n,
-			oldRecord: s,
-			newRecord: c
-		};
-		t.stagedOperations.log.push(e), t.stagedOperations.byId.set(c.id, e);
-	} else if (n === "deleted" && o) {
-		k(o, {
-			detail: "Record is required for deleted",
-			key: "ELEMENT_NOT_FOUND"
-		});
-		let e = {
-			status: n,
-			oldRecord: o,
-			newRecord: void 0
-		};
-		t.stagedOperations.log.push(e), t.stagedOperations.byId.set(o.id, e);
-	}
-}
-function Tn(e) {
-	let { context: t, operations: n } = e;
-	for (let e of n) switch (e.status) {
-		case "created":
-			Y({
-				context: t,
-				status: "created",
-				record: e.newRecord
-			});
-			break;
-		case "updated":
-			Y({
-				context: t,
-				status: "updated",
-				oldRecord: e.oldRecord,
-				newRecord: e.newRecord
-			});
-			break;
-		case "deleted":
-			Y({
-				context: t,
-				status: "deleted",
-				record: e.oldRecord
-			});
-			break;
-	}
-}
-async function En(e) {
-	let { dialecteConfig: t, hooks: n, context: r, query: i, parentRef: a, params: o } = e, { id: s, tagName: c, attributes: l, namespace: u, value: d } = o;
-	Dn({
-		attributes: l,
-		tagName: c
-	});
-	let f = await Jt({
-		context: r,
-		ref: a
-	});
-	k(f, {
-		detail: "Parent record not found",
-		key: "ELEMENT_NOT_FOUND",
-		ref: a
-	});
-	let p = dt({
-		dialecteConfig: t,
-		hooks: n,
-		record: {
-			id: s ?? crypto.randomUUID(),
-			tagName: c,
-			attributes: l,
-			namespace: u,
-			value: d,
-			parent: {
-				id: f.id,
-				tagName: f.tagName
-			},
-			children: []
-		}
-	});
-	ft({
-		dialecteConfig: t,
-		tagName: p.tagName,
-		attributes: p.attributes
-	}), Y({
-		context: r,
-		status: "created",
-		record: p
-	});
-	let m = {
-		...f,
-		children: [...f.children, {
-			id: p.id,
-			tagName: p.tagName
-		}]
-	};
-	return Y({
-		context: r,
-		status: "updated",
-		oldRecord: f,
-		newRecord: m
-	}), n?.afterCreated && Tn({
-		context: r,
-		operations: await n.afterCreated({
-			childRecord: p,
-			parentRecord: m,
-			query: i
-		})
-	}), p;
-}
-function Dn(e) {
-	let { attributes: t, tagName: n } = e;
-	if (!(!t || !Array.isArray(t))) for (let e of t) {
-		let { name: t, namespace: r } = e;
-		t === "xmlns" || t.startsWith("xmlns:") || !t.includes(":") || typeof r == "object" && r?.prefix === t.slice(0, t.indexOf(":")) || j("PREFIXED_ATTRIBUTE_NAME", {
-			detail: `Attribute '${t}' on '${n}' is prefixed — pass a local name plus its namespace instead: { name: '${P(t)}', namespace }.`,
-			ref: { tagName: n }
-		});
-	}
-}
-function On(e) {
-	let t = 1;
-	for (let n of e.tree) t += On(n);
-	return t;
-}
-async function kn(e) {
-	let { dialecteConfig: t, hooks: n, context: r, query: i, parentRef: a, record: o, mappings: s } = e, c = !0, l = o;
-	if (n?.beforeClone) {
-		let e = n.beforeClone({ record: o });
-		c = e.shouldBeCloned, l = e.transformedRecord;
-	}
-	if (!c) return l;
-	let u = await En({
-		dialecteConfig: t,
-		hooks: n,
-		context: r,
-		query: i,
-		parentRef: a,
-		params: {
-			tagName: l.tagName,
-			namespace: l.namespace,
-			attributes: l.attributes,
-			value: l.value
-		}
-	}), d = ut(o);
-	s.push({
-		source: Object.assign(d, { attributes: [...o.attributes] }),
-		target: ut(u)
-	}), r.progress.nextStep();
-	for (let e of l.tree) await kn({
-		dialecteConfig: t,
-		hooks: n,
-		context: r,
-		query: i,
-		parentRef: ut(u),
-		record: e,
-		mappings: s
-	});
-	return u;
-}
-async function An(e) {
-	let { context: t, record: n } = e;
-	for (let e of n.children) {
-		let n = await Jt({
-			context: t,
-			ref: ut(e)
-		});
-		n && (n.children.length > 0 && await An({
-			context: t,
-			record: n
-		}), Y({
-			context: t,
-			status: "deleted",
-			record: n
-		}));
-	}
-}
-function jn(e) {
-	return e.recordCache !== void 0;
-}
-var Mn = "xel_";
-function Nn(e) {
-	return `${Mn}${e}`;
-}
-var Pn = /* @__PURE__ */ Ut((/* @__PURE__ */ Ht(((e, t) => {
-	(function(n, r) {
-		typeof e == "object" && t !== void 0 ? t.exports = r() : typeof define == "function" && define.amd ? define(r) : (n = typeof globalThis < "u" ? globalThis : n || self).Dexie = r();
-	})(e, function() {
-		var e = function(t, n) {
-			return (e = Object.setPrototypeOf || { __proto__: [] } instanceof Array && function(e, t) {
-				e.__proto__ = t;
-			} || function(e, t) {
-				for (var n in t) Object.prototype.hasOwnProperty.call(t, n) && (e[n] = t[n]);
-			})(t, n);
-		}, t = function() {
-			return (t = Object.assign || function(e) {
-				for (var t, n = 1, r = arguments.length; n < r; n++) for (var i in t = arguments[n]) Object.prototype.hasOwnProperty.call(t, i) && (e[i] = t[i]);
-				return e;
-			}).apply(this, arguments);
-		};
-		function n(e, t, n) {
-			if (n || arguments.length === 2) for (var r, i = 0, a = t.length; i < a; i++) !r && i in t || ((r ||= Array.prototype.slice.call(t, 0, i))[i] = t[i]);
-			return e.concat(r || Array.prototype.slice.call(t));
-		}
-		var r = typeof globalThis < "u" ? globalThis : typeof self < "u" ? self : typeof window < "u" ? window : global, i = Object.keys, a = Array.isArray;
-		function o(e, t) {
-			return typeof t != "object" || i(t).forEach(function(n) {
-				e[n] = t[n];
-			}), e;
-		}
-		typeof Promise > "u" || r.Promise || (r.Promise = Promise);
-		var s = Object.getPrototypeOf, c = {}.hasOwnProperty;
-		function l(e, t) {
-			return c.call(e, t);
-		}
-		function u(e, t) {
-			typeof t == "function" && (t = t(s(e))), (typeof Reflect > "u" ? i : Reflect.ownKeys)(t).forEach(function(n) {
-				f(e, n, t[n]);
-			});
-		}
-		var d = Object.defineProperty;
-		function f(e, t, n, r) {
-			d(e, t, o(n && l(n, "get") && typeof n.get == "function" ? {
-				get: n.get,
-				set: n.set,
-				configurable: !0
-			} : {
-				value: n,
-				configurable: !0,
-				writable: !0
-			}, r));
-		}
-		function p(e) {
-			return { from: function(t) {
-				return e.prototype = Object.create(t.prototype), f(e.prototype, "constructor", e), { extend: u.bind(null, e.prototype) };
-			} };
-		}
-		var m = Object.getOwnPropertyDescriptor, h = [].slice;
-		function g(e, t, n) {
-			return h.call(e, t, n);
-		}
-		function _(e, t) {
-			return t(e);
-		}
-		function v(e) {
-			if (!e) throw Error("Assertion Failed");
-		}
-		function y(e) {
-			r.setImmediate ? setImmediate(e) : setTimeout(e, 0);
-		}
-		function b(e, t) {
-			if (typeof t == "string" && l(e, t)) return e[t];
-			if (!t) return e;
-			if (typeof t != "string") {
-				for (var n = [], r = 0, i = t.length; r < i; ++r) {
-					var a = b(e, t[r]);
-					n.push(a);
-				}
-				return n;
-			}
-			var o = t.indexOf(".");
-			if (o !== -1) {
-				var s = e[t.substr(0, o)];
-				return s == null ? void 0 : b(s, t.substr(o + 1));
-			}
-		}
-		function x(e, t, n) {
-			if (e && t !== void 0 && !("isFrozen" in Object && Object.isFrozen(e))) if (typeof t != "string" && "length" in t) {
-				v(typeof n != "string" && "length" in n);
-				for (var r = 0, i = t.length; r < i; ++r) x(e, t[r], n[r]);
-			} else {
-				var o, s, c = t.indexOf(".");
-				c === -1 ? n === void 0 ? a(e) && !isNaN(parseInt(t)) ? e.splice(t, 1) : delete e[t] : e[t] = n : (o = t.substr(0, c), (s = t.substr(c + 1)) === "" ? n === void 0 ? a(e) && !isNaN(parseInt(o)) ? e.splice(o, 1) : delete e[o] : e[o] = n : x(c = !(c = e[o]) || !l(e, o) ? e[o] = {} : c, s, n));
-			}
-		}
-		function S(e) {
-			var t, n = {};
-			for (t in e) l(e, t) && (n[t] = e[t]);
-			return n;
-		}
-		var C = [].concat;
-		function ee(e) {
-			return C.apply([], e);
-		}
-		var w = "BigUint64Array,BigInt64Array,Array,Boolean,String,Date,RegExp,Blob,File,FileList,FileSystemFileHandle,FileSystemDirectoryHandle,ArrayBuffer,DataView,Uint8ClampedArray,ImageBitmap,ImageData,Map,Set,CryptoKey".split(",").concat(ee([
-			8,
-			16,
-			32,
-			64
-		].map(function(e) {
-			return [
-				"Int",
-				"Uint",
-				"Float"
-			].map(function(t) {
-				return t + e + "Array";
-			});
-		}))).filter(function(e) {
-			return r[e];
-		}), T = new Set(w.map(function(e) {
-			return r[e];
-		})), te = null;
-		function E(e) {
-			return te = /* @__PURE__ */ new WeakMap(), e = function e(t) {
-				if (!t || typeof t != "object") return t;
-				var n = te.get(t);
-				if (n) return n;
-				if (a(t)) {
-					n = [], te.set(t, n);
-					for (var r = 0, i = t.length; r < i; ++r) n.push(e(t[r]));
-				} else if (T.has(t.constructor)) n = t;
-				else {
-					var o, c = s(t);
-					for (o in n = c === Object.prototype ? {} : Object.create(c), te.set(t, n), t) l(t, o) && (n[o] = e(t[o]));
-				}
-				return n;
-			}(e), te = null, e;
-		}
-		var D = {}.toString;
-		function O(e) {
-			return D.call(e).slice(8, -1);
-		}
-		var k = typeof Symbol < "u" ? Symbol.iterator : "@@iterator", A = typeof k == "symbol" ? function(e) {
-			var t;
-			return e != null && (t = e[k]) && t.apply(e);
-		} : function() {
-			return null;
-		};
-		function ne(e, t) {
-			return t = e.indexOf(t), 0 <= t && e.splice(t, 1), 0 <= t;
-		}
-		var j = {};
-		function M(e) {
-			var t, n, r, i;
-			if (arguments.length === 1) {
-				if (a(e)) return e.slice();
-				if (this === j && typeof e == "string") return [e];
-				if (i = A(e)) {
-					for (n = []; !(r = i.next()).done;) n.push(r.value);
-					return n;
-				}
-				if (e == null || typeof (t = e.length) != "number") return [e];
-				for (n = Array(t); t--;) n[t] = e[t];
-				return n;
-			}
-			for (t = arguments.length, n = Array(t); t--;) n[t] = arguments[t];
-			return n;
-		}
-		var re = typeof Symbol < "u" ? function(e) {
-			return e[Symbol.toStringTag] === "AsyncFunction";
-		} : function() {
-			return !1;
-		}, N = [
-			"Unknown",
-			"Constraint",
-			"Data",
-			"TransactionInactive",
-			"ReadOnly",
-			"Version",
-			"NotFound",
-			"InvalidState",
-			"InvalidAccess",
-			"Abort",
-			"Timeout",
-			"QuotaExceeded",
-			"Syntax",
-			"DataClone"
-		], P = [
-			"Modify",
-			"Bulk",
-			"OpenFailed",
-			"VersionChange",
-			"Schema",
-			"Upgrade",
-			"InvalidTable",
-			"MissingAPI",
-			"NoSuchDatabase",
-			"InvalidArgument",
-			"SubTransaction",
-			"Unsupported",
-			"Internal",
-			"DatabaseClosed",
-			"PrematureCommit",
-			"ForeignAwait"
-		].concat(N), ie = {
-			VersionChanged: "Database version changed by other database connection",
-			DatabaseClosed: "Database has been closed",
-			Abort: "Transaction aborted",
-			TransactionInactive: "Transaction has already completed or failed",
-			MissingAPI: "IndexedDB API missing. Please visit https://tinyurl.com/y2uuvskb"
-		};
-		function ae(e, t) {
-			this.name = e, this.message = t;
-		}
-		function oe(e, t) {
-			return e + ". Errors: " + Object.keys(t).map(function(e) {
-				return t[e].toString();
-			}).filter(function(e, t, n) {
-				return n.indexOf(e) === t;
-			}).join("\n");
-		}
-		function F(e, t, n, r) {
-			this.failures = t, this.failedKeys = r, this.successCount = n, this.message = oe(e, t);
-		}
-		function se(e, t) {
-			this.name = "BulkError", this.failures = Object.keys(t).map(function(e) {
-				return t[e];
-			}), this.failuresByPos = t, this.message = oe(e, this.failures);
-		}
-		p(ae).from(Error).extend({ toString: function() {
-			return this.name + ": " + this.message;
-		} }), p(F).from(ae), p(se).from(ae);
-		var ce = P.reduce(function(e, t) {
-			return e[t] = t + "Error", e;
-		}, {}), le = ae, I = P.reduce(function(e, t) {
-			var n = t + "Error";
-			function r(e, r) {
-				this.name = n, e ? typeof e == "string" ? (this.message = `${e}${r ? "\n " + r : ""}`, this.inner = r || null) : typeof e == "object" && (this.message = `${e.name} ${e.message}`, this.inner = e) : (this.message = ie[t] || n, this.inner = null);
-			}
-			return p(r).from(le), e[t] = r, e;
-		}, {});
-		I.Syntax = SyntaxError, I.Type = TypeError, I.Range = RangeError;
-		var ue = N.reduce(function(e, t) {
-			return e[t + "Error"] = I[t], e;
-		}, {}), de = P.reduce(function(e, t) {
-			return [
-				"Syntax",
-				"Type",
-				"Range"
-			].indexOf(t) === -1 && (e[t + "Error"] = I[t]), e;
-		}, {});
-		function L() {}
-		function fe(e) {
-			return e;
-		}
-		function pe(e, t) {
-			return e == null || e === fe ? t : function(n) {
-				return t(e(n));
-			};
-		}
-		function me(e, t) {
-			return function() {
-				e.apply(this, arguments), t.apply(this, arguments);
-			};
-		}
-		function he(e, t) {
-			return e === L ? t : function() {
-				var n = e.apply(this, arguments);
-				n !== void 0 && (arguments[0] = n);
-				var r = this.onsuccess, i = this.onerror;
-				this.onsuccess = null, this.onerror = null;
-				var a = t.apply(this, arguments);
-				return r && (this.onsuccess = this.onsuccess ? me(r, this.onsuccess) : r), i && (this.onerror = this.onerror ? me(i, this.onerror) : i), a === void 0 ? n : a;
-			};
-		}
-		function ge(e, t) {
-			return e === L ? t : function() {
-				e.apply(this, arguments);
-				var n = this.onsuccess, r = this.onerror;
-				this.onsuccess = this.onerror = null, t.apply(this, arguments), n && (this.onsuccess = this.onsuccess ? me(n, this.onsuccess) : n), r && (this.onerror = this.onerror ? me(r, this.onerror) : r);
-			};
-		}
-		function _e(e, t) {
-			return e === L ? t : function(n) {
-				var r = e.apply(this, arguments);
-				o(n, r);
-				var i = this.onsuccess, a = this.onerror;
-				return this.onsuccess = null, this.onerror = null, n = t.apply(this, arguments), i && (this.onsuccess = this.onsuccess ? me(i, this.onsuccess) : i), a && (this.onerror = this.onerror ? me(a, this.onerror) : a), r === void 0 ? n === void 0 ? void 0 : n : o(r, n);
-			};
-		}
-		function ve(e, t) {
-			return e === L ? t : function() {
-				return !1 !== t.apply(this, arguments) && e.apply(this, arguments);
-			};
-		}
-		function ye(e, t) {
-			return e === L ? t : function() {
-				var n = e.apply(this, arguments);
-				if (n && typeof n.then == "function") {
-					for (var r = this, i = arguments.length, a = Array(i); i--;) a[i] = arguments[i];
-					return n.then(function() {
-						return t.apply(r, a);
-					});
-				}
-				return t.apply(this, arguments);
-			};
-		}
-		de.ModifyError = F, de.DexieError = ae, de.BulkError = se;
-		var be = typeof location < "u" && /^(http|https):\/\/(localhost|127\.0\.0\.1)/.test(location.href);
-		function xe(e) {
-			be = e;
-		}
-		var Se = {}, Ce = 100, w = typeof Promise > "u" ? [] : function() {
-			var e = Promise.resolve();
-			if (typeof crypto > "u" || !crypto.subtle) return [
-				e,
-				s(e),
-				e
-			];
-			var t = crypto.subtle.digest("SHA-512", new Uint8Array([0]));
-			return [
-				t,
-				s(t),
-				e
-			];
-		}(), N = w[0], P = w[1], w = w[2], P = P && P.then, we = N && N.constructor, Te = !!w, Ee = function(e, t) {
-			Ne.push([e, t]), Oe &&= (queueMicrotask(He), !1);
-		}, De = !0, Oe = !0, ke = [], Ae = [], je = fe, Me = {
-			id: "global",
-			global: !0,
-			ref: 0,
-			unhandleds: [],
-			onunhandled: L,
-			pgp: !1,
-			env: {},
-			finalize: L
-		}, R = Me, Ne = [], Pe = 0, Fe = [];
-		function z(e) {
-			if (typeof this != "object") throw TypeError("Promises must be constructed via new");
-			this._listeners = [], this._lib = !1;
-			var t = this._PSD = R;
-			if (typeof e != "function") {
-				if (e !== Se) throw TypeError("Not a function");
-				this._state = arguments[1], this._value = arguments[2], !1 === this._state && Re(this, this._value);
-				return;
-			}
-			this._state = null, this._value = null, ++t.ref, function e(t, n) {
-				try {
-					n(function(n) {
-						if (t._state === null) {
-							if (n === t) throw TypeError("A promise cannot be resolved with itself.");
-							var r = t._lib && Ue();
-							n && typeof n.then == "function" ? e(t, function(e, t) {
-								n instanceof z ? n._then(e, t) : n.then(e, t);
-							}) : (t._state = !0, t._value = n, ze(t)), r && We();
-						}
-					}, Re.bind(null, t));
-				} catch (e) {
-					Re(t, e);
-				}
-			}(this, e);
-		}
-		var Ie = {
-			get: function() {
-				var e = R, t = Ye;
-				function n(n, r) {
-					var i = this, a = !e.global && (e !== R || t !== Ye), o = a && !$e(), s = new z(function(t, s) {
-						Be(i, new Le(at(n, e, a, o), at(r, e, a, o), t, s, e));
-					});
-					return this._consoleTask && (s._consoleTask = this._consoleTask), s;
-				}
-				return n.prototype = Se, n;
-			},
-			set: function(e) {
-				f(this, "then", e && e.prototype === Se ? Ie : {
-					get: function() {
-						return e;
-					},
-					set: Ie.set
-				});
-			}
-		};
-		function Le(e, t, n, r, i) {
-			this.onFulfilled = typeof e == "function" ? e : null, this.onRejected = typeof t == "function" ? t : null, this.resolve = n, this.reject = r, this.psd = i;
-		}
-		function Re(e, t) {
-			var n, r;
-			Ae.push(t), e._state === null && (n = e._lib && Ue(), t = je(t), e._state = !1, e._value = t, r = e, ke.some(function(e) {
-				return e._value === r._value;
-			}) || ke.push(r), ze(e), n && We());
-		}
-		function ze(e) {
-			var t = e._listeners;
-			e._listeners = [];
-			for (var n = 0, r = t.length; n < r; ++n) Be(e, t[n]);
-			var i = e._PSD;
-			--i.ref || i.finalize(), Pe === 0 && (++Pe, Ee(function() {
-				--Pe == 0 && Ge();
-			}, []));
-		}
-		function Be(e, t) {
-			if (e._state !== null) {
-				var n = e._state ? t.onFulfilled : t.onRejected;
-				if (n === null) return (e._state ? t.resolve : t.reject)(e._value);
-				++t.psd.ref, ++Pe, Ee(Ve, [
-					n,
-					e,
-					t
-				]);
-			} else e._listeners.push(t);
-		}
-		function Ve(e, t, n) {
-			try {
-				var r, i = t._value;
-				!t._state && Ae.length && (Ae = []), r = be && t._consoleTask ? t._consoleTask.run(function() {
-					return e(i);
-				}) : e(i), t._state || Ae.indexOf(i) !== -1 || function(e) {
-					for (var t = ke.length; t;) if (ke[--t]._value === e._value) return ke.splice(t, 1);
-				}(t), n.resolve(r);
-			} catch (e) {
-				n.reject(e);
-			} finally {
-				--Pe == 0 && Ge(), --n.psd.ref || n.psd.finalize();
-			}
-		}
-		function He() {
-			it(Me, function() {
-				Ue() && We();
-			});
-		}
-		function Ue() {
-			var e = De;
-			return Oe = De = !1, e;
-		}
-		function We() {
-			var e, t, n;
-			do
-				for (; 0 < Ne.length;) for (e = Ne, Ne = [], n = e.length, t = 0; t < n; ++t) {
-					var r = e[t];
-					r[0].apply(null, r[1]);
-				}
-			while (0 < Ne.length);
-			Oe = De = !0;
-		}
-		function Ge() {
-			var e = ke;
-			ke = [], e.forEach(function(e) {
-				e._PSD.onunhandled.call(null, e._value, e);
-			});
-			for (var t = Fe.slice(0), n = t.length; n;) t[--n]();
-		}
-		function Ke(e) {
-			return new z(Se, !1, e);
-		}
-		function B(e, t) {
-			var n = R;
-			return function() {
-				var r = Ue(), i = R;
-				try {
-					return nt(n, !0), e.apply(this, arguments);
-				} catch (e) {
-					t && t(e);
-				} finally {
-					nt(i, !1), r && We();
-				}
-			};
-		}
-		u(z.prototype, {
-			then: Ie,
-			_then: function(e, t) {
-				Be(this, new Le(null, null, e, t, R));
-			},
-			catch: function(e) {
-				if (arguments.length === 1) return this.then(null, e);
-				var t = e, n = arguments[1];
-				return typeof t == "function" ? this.then(null, function(e) {
-					return (e instanceof t ? n : Ke)(e);
-				}) : this.then(null, function(e) {
-					return (e && e.name === t ? n : Ke)(e);
-				});
-			},
-			finally: function(e) {
-				return this.then(function(t) {
-					return z.resolve(e()).then(function() {
-						return t;
-					});
-				}, function(t) {
-					return z.resolve(e()).then(function() {
-						return Ke(t);
-					});
-				});
-			},
-			timeout: function(e, t) {
-				var n = this;
-				return e < Infinity ? new z(function(r, i) {
-					var a = setTimeout(function() {
-						return i(new I.Timeout(t));
-					}, e);
-					n.then(r, i).finally(clearTimeout.bind(null, a));
-				}) : this;
-			}
-		}), typeof Symbol < "u" && Symbol.toStringTag && f(z.prototype, Symbol.toStringTag, "Dexie.Promise"), Me.env = rt(), u(z, {
-			all: function() {
-				var e = M.apply(null, arguments).map(et);
-				return new z(function(t, n) {
-					e.length === 0 && t([]);
-					var r = e.length;
-					e.forEach(function(i, a) {
-						return z.resolve(i).then(function(n) {
-							e[a] = n, --r || t(e);
-						}, n);
-					});
-				});
-			},
-			resolve: function(e) {
-				return e instanceof z ? e : e && typeof e.then == "function" ? new z(function(t, n) {
-					e.then(t, n);
-				}) : new z(Se, !0, e);
-			},
-			reject: Ke,
-			race: function() {
-				var e = M.apply(null, arguments).map(et);
-				return new z(function(t, n) {
-					e.map(function(e) {
-						return z.resolve(e).then(t, n);
-					});
-				});
-			},
-			PSD: {
-				get: function() {
-					return R;
-				},
-				set: function(e) {
-					return R = e;
-				}
-			},
-			totalEchoes: { get: function() {
-				return Ye;
-			} },
-			newPSD: Ze,
-			usePSD: it,
-			scheduler: {
-				get: function() {
-					return Ee;
-				},
-				set: function(e) {
-					Ee = e;
-				}
-			},
-			rejectionMapper: {
-				get: function() {
-					return je;
-				},
-				set: function(e) {
-					je = e;
-				}
-			},
-			follow: function(e, t) {
-				return new z(function(n, r) {
-					return Ze(function(t, n) {
-						var r = R;
-						r.unhandleds = [], r.onunhandled = n, r.finalize = me(function() {
-							var e, r = this;
-							e = function() {
-								r.unhandleds.length === 0 ? t() : n(r.unhandleds[0]);
-							}, Fe.push(function t() {
-								e(), Fe.splice(Fe.indexOf(t), 1);
-							}), ++Pe, Ee(function() {
-								--Pe == 0 && Ge();
-							}, []);
-						}, r.finalize), e();
-					}, t, n, r);
-				});
-			}
-		}), we && (we.allSettled && f(z, "allSettled", function() {
-			var e = M.apply(null, arguments).map(et);
-			return new z(function(t) {
-				e.length === 0 && t([]);
-				var n = e.length, r = Array(n);
-				e.forEach(function(e, i) {
-					return z.resolve(e).then(function(e) {
-						return r[i] = {
-							status: "fulfilled",
-							value: e
-						};
-					}, function(e) {
-						return r[i] = {
-							status: "rejected",
-							reason: e
-						};
-					}).then(function() {
-						return --n || t(r);
-					});
-				});
-			});
-		}), we.any && typeof AggregateError < "u" && f(z, "any", function() {
-			var e = M.apply(null, arguments).map(et);
-			return new z(function(t, n) {
-				e.length === 0 && n(/* @__PURE__ */ AggregateError([]));
-				var r = e.length, i = Array(r);
-				e.forEach(function(e, a) {
-					return z.resolve(e).then(function(e) {
-						return t(e);
-					}, function(e) {
-						i[a] = e, --r || n(AggregateError(i));
-					});
-				});
-			});
-		}), we.withResolvers && (z.withResolvers = we.withResolvers));
-		var V = {
-			awaits: 0,
-			echoes: 0,
-			id: 0
-		}, qe = 0, H = [], Je = 0, Ye = 0, Xe = 0;
-		function Ze(e, t, n, r) {
-			var i = R, a = Object.create(i);
-			return a.parent = i, a.ref = 0, a.global = !1, a.id = ++Xe, Me.env, a.env = Te ? {
-				Promise: z,
-				PromiseProp: {
-					value: z,
-					configurable: !0,
-					writable: !0
-				},
-				all: z.all,
-				race: z.race,
-				allSettled: z.allSettled,
-				any: z.any,
-				resolve: z.resolve,
-				reject: z.reject
-			} : {}, t && o(a, t), ++i.ref, a.finalize = function() {
-				--this.parent.ref || this.parent.finalize();
-			}, r = it(a, e, n, r), a.ref === 0 && a.finalize(), r;
-		}
-		function Qe() {
-			return V.id ||= ++qe, ++V.awaits, V.echoes += Ce, V.id;
-		}
-		function $e() {
-			return !!V.awaits && (--V.awaits == 0 && (V.id = 0), V.echoes = V.awaits * Ce, !0);
-		}
-		function et(e) {
-			return V.echoes && e && e.constructor === we ? (Qe(), e.then(function(e) {
-				return $e(), e;
-			}, function(e) {
-				return $e(), U(e);
-			})) : e;
-		}
-		function tt() {
-			var e = H[H.length - 1];
-			H.pop(), nt(e, !1);
-		}
-		function nt(e, t) {
-			var n, i = R;
-			(t ? !V.echoes || Je++ && e === R : !Je || --Je && e === R) || queueMicrotask(t ? function(e) {
-				++Ye, V.echoes && --V.echoes != 0 || (V.echoes = V.awaits = V.id = 0), H.push(R), nt(e, !0);
-			}.bind(null, e) : tt), e !== R && (R = e, i === Me && (Me.env = rt()), Te && (n = Me.env.Promise, t = e.env, (i.global || e.global) && (Object.defineProperty(r, "Promise", t.PromiseProp), n.all = t.all, n.race = t.race, n.resolve = t.resolve, n.reject = t.reject, t.allSettled && (n.allSettled = t.allSettled), t.any && (n.any = t.any))));
-		}
-		function rt() {
-			var e = r.Promise;
-			return Te ? {
-				Promise: e,
-				PromiseProp: Object.getOwnPropertyDescriptor(r, "Promise"),
-				all: e.all,
-				race: e.race,
-				allSettled: e.allSettled,
-				any: e.any,
-				resolve: e.resolve,
-				reject: e.reject
-			} : {};
-		}
-		function it(e, t, n, r, i) {
-			var a = R;
-			try {
-				return nt(e, !0), t(n, r, i);
-			} finally {
-				nt(a, !1);
-			}
-		}
-		function at(e, t, n, r) {
-			return typeof e == "function" ? function() {
-				var i = R;
-				n && Qe(), nt(t, !0);
-				try {
-					return e.apply(this, arguments);
-				} finally {
-					nt(i, !1), r && queueMicrotask($e);
-				}
-			} : e;
-		}
-		function ot(e) {
-			Promise === we && V.echoes === 0 ? Je === 0 ? e() : enqueueNativeMicroTask(e) : setTimeout(e, 0);
-		}
-		("" + P).indexOf("[native code]") === -1 && (Qe = $e = L);
-		var U = z.reject, st = "￿", ct = "Invalid key provided. Keys must be of type string, number, Date or Array<string | number | Date>.", lt = "String expected.", ut = [], dt = "__dbnames", ft = "readonly", pt = "readwrite";
-		function mt(e, t) {
-			return e ? t ? function() {
-				return e.apply(this, arguments) && t.apply(this, arguments);
-			} : e : t;
-		}
-		var ht = {
-			type: 3,
-			lower: -Infinity,
-			lowerOpen: !1,
-			upper: [[]],
-			upperOpen: !1
-		};
-		function gt(e) {
-			return typeof e != "string" || /\./.test(e) ? function(e) {
-				return e;
-			} : function(t) {
-				return t[e] === void 0 && e in t && delete (t = E(t))[e], t;
-			};
-		}
-		function _t() {
-			throw I.Type("Entity instances must never be new:ed. Instances are generated by the framework bypassing the constructor.");
-		}
-		function W(e, t) {
-			try {
-				var n = vt(e), r = vt(t);
-				if (n !== r) return n === "Array" ? 1 : r === "Array" ? -1 : n === "binary" ? 1 : r === "binary" ? -1 : n === "string" ? 1 : r === "string" ? -1 : n === "Date" ? 1 : r === "Date" ? -1 : NaN;
-				switch (n) {
-					case "number":
-					case "Date":
-					case "string": return t < e ? 1 : e < t ? -1 : 0;
-					case "binary": return function(e, t) {
-						for (var n = e.length, r = t.length, i = n < r ? n : r, a = 0; a < i; ++a) if (e[a] !== t[a]) return e[a] < t[a] ? -1 : 1;
-						return n === r ? 0 : n < r ? -1 : 1;
-					}(yt(e), yt(t));
-					case "Array": return function(e, t) {
-						for (var n = e.length, r = t.length, i = n < r ? n : r, a = 0; a < i; ++a) {
-							var o = W(e[a], t[a]);
-							if (o !== 0) return o;
-						}
-						return n === r ? 0 : n < r ? -1 : 1;
-					}(e, t);
-				}
-			} catch {}
-			return NaN;
-		}
-		function vt(e) {
-			var t = typeof e;
-			return t == "object" ? ArrayBuffer.isView(e) ? "binary" : (e = O(e), e === "ArrayBuffer" ? "binary" : e) : t;
-		}
-		function yt(e) {
-			return e instanceof Uint8Array ? e : ArrayBuffer.isView(e) ? new Uint8Array(e.buffer, e.byteOffset, e.byteLength) : new Uint8Array(e);
-		}
-		function bt(e, t, n) {
-			var r = e.schema.yProps;
-			return r ? (t && 0 < n.numFailures && (t = t.filter(function(e, t) {
-				return !n.failures[t];
-			})), Promise.all(r.map(function(n) {
-				return n = n.updatesTable, t ? e.db.table(n).where("k").anyOf(t).delete() : e.db.table(n).clear();
-			})).then(function() {
-				return n;
-			})) : n;
-		}
-		var xt = (G.prototype._trans = function(e, t, n) {
-			var r = this._tx || R.trans, i = this.name, a = be && typeof console < "u" && console.createTask && console.createTask(`Dexie: ${e === "readonly" ? "read" : "write"} ${this.name}`);
-			function o(e, n, r) {
-				if (!r.schema[i]) throw new I.NotFound("Table " + i + " not part of transaction");
-				return t(r.idbtrans, r);
-			}
-			var s = Ue();
-			try {
-				var c = r && r.db._novip === this.db._novip ? r === R.trans ? r._promise(e, o, n) : Ze(function() {
-					return r._promise(e, o, n);
-				}, {
-					trans: r,
-					transless: R.transless || R
-				}) : function e(t, n, r, i) {
-					if (t.idbdb && (t._state.openComplete || R.letThrough || t._vip)) {
-						var a = t._createTransaction(n, r, t._dbSchema);
-						try {
-							a.create(), t._state.PR1398_maxLoop = 3;
-						} catch (a) {
-							return a.name === ce.InvalidState && t.isOpen() && 0 < --t._state.PR1398_maxLoop ? (console.warn("Dexie: Need to reopen db"), t.close({ disableAutoOpen: !1 }), t.open().then(function() {
-								return e(t, n, r, i);
-							})) : U(a);
-						}
-						return a._promise(n, function(e, t) {
-							return Ze(function() {
-								return R.trans = a, i(e, t, a);
-							});
-						}).then(function(e) {
-							if (n === "readwrite") try {
-								a.idbtrans.commit();
-							} catch {}
-							return n === "readonly" ? e : a._completion.then(function() {
-								return e;
-							});
-						});
-					}
-					if (t._state.openComplete) return U(new I.DatabaseClosed(t._state.dbOpenError));
-					if (!t._state.isBeingOpened) {
-						if (!t._state.autoOpen) return U(new I.DatabaseClosed());
-						t.open().catch(L);
-					}
-					return t._state.dbReadyPromise.then(function() {
-						return e(t, n, r, i);
-					});
-				}(this.db, e, [this.name], o);
-				return a && (c._consoleTask = a, c = c.catch(function(e) {
-					return console.trace(e), U(e);
-				})), c;
-			} finally {
-				s && We();
-			}
-		}, G.prototype.get = function(e, t) {
-			var n = this;
-			return e && e.constructor === Object ? this.where(e).first(t) : e == null ? U(new I.Type("Invalid argument to Table.get()")) : this._trans("readonly", function(t) {
-				return n.core.get({
-					trans: t,
-					key: e
-				}).then(function(e) {
-					return n.hook.reading.fire(e);
-				});
-			}).then(t);
-		}, G.prototype.where = function(e) {
-			if (typeof e == "string") return new this.db.WhereClause(this, e);
-			if (a(e)) return new this.db.WhereClause(this, `[${e.join("+")}]`);
-			var t = i(e);
-			if (t.length === 1) return this.where(t[0]).equals(e[t[0]]);
-			var n = this.schema.indexes.concat(this.schema.primKey).filter(function(e) {
-				if (e.compound && t.every(function(t) {
-					return 0 <= e.keyPath.indexOf(t);
-				})) {
-					for (var n = 0; n < t.length; ++n) if (t.indexOf(e.keyPath[n]) === -1) return !1;
-					return !0;
-				}
-				return !1;
-			}).sort(function(e, t) {
-				return e.keyPath.length - t.keyPath.length;
-			})[0];
-			if (n && this.db._maxKey !== st) {
-				var r = n.keyPath.slice(0, t.length);
-				return this.where(r).equals(r.map(function(t) {
-					return e[t];
-				}));
-			}
-			!n && be && console.warn(`The query ${JSON.stringify(e)} on ${this.name} would benefit from a compound index [${t.join("+")}]`);
-			var o = this.schema.idxByName;
-			function s(e, t) {
-				return W(e, t) === 0;
-			}
-			var c = t.reduce(function(t, n) {
-				var r = t[0], i = t[1], t = o[n], c = e[n];
-				return [r || t, r || !t ? mt(i, t && t.multi ? function(e) {
-					return e = b(e, n), a(e) && e.some(function(e) {
-						return s(c, e);
-					});
-				} : function(e) {
-					return s(c, b(e, n));
-				}) : i];
-			}, [null, null]), r = c[0], c = c[1];
-			return r ? this.where(r.name).equals(e[r.keyPath]).filter(c) : n ? this.filter(c) : this.where(t).equals("");
-		}, G.prototype.filter = function(e) {
-			return this.toCollection().and(e);
-		}, G.prototype.count = function(e) {
-			return this.toCollection().count(e);
-		}, G.prototype.offset = function(e) {
-			return this.toCollection().offset(e);
-		}, G.prototype.limit = function(e) {
-			return this.toCollection().limit(e);
-		}, G.prototype.each = function(e) {
-			return this.toCollection().each(e);
-		}, G.prototype.toArray = function(e) {
-			return this.toCollection().toArray(e);
-		}, G.prototype.toCollection = function() {
-			return new this.db.Collection(new this.db.WhereClause(this));
-		}, G.prototype.orderBy = function(e) {
-			return new this.db.Collection(new this.db.WhereClause(this, a(e) ? `[${e.join("+")}]` : e));
-		}, G.prototype.reverse = function() {
-			return this.toCollection().reverse();
-		}, G.prototype.mapToClass = function(t) {
-			var n, r = this.db, i = this.name;
-			function a() {
-				return n !== null && n.apply(this, arguments) || this;
-			}
-			(this.schema.mappedClass = t).prototype instanceof _t && (function(t, n) {
-				if (typeof n != "function" && n !== null) throw TypeError("Class extends value " + String(n) + " is not a constructor or null");
-				function r() {
-					this.constructor = t;
-				}
-				e(t, n), t.prototype = n === null ? Object.create(n) : (r.prototype = n.prototype, new r());
-			}(a, n = t), Object.defineProperty(a.prototype, "db", {
-				get: function() {
-					return r;
-				},
-				enumerable: !1,
-				configurable: !0
-			}), a.prototype.table = function() {
-				return i;
-			}, t = a);
-			for (var o = /* @__PURE__ */ new Set(), c = t.prototype; c; c = s(c)) Object.getOwnPropertyNames(c).forEach(function(e) {
-				return o.add(e);
-			});
-			function l(e) {
-				if (!e) return e;
-				var n, r = Object.create(t.prototype);
-				for (n in e) if (!o.has(n)) try {
-					r[n] = e[n];
-				} catch {}
-				return r;
-			}
-			return this.schema.readHook && this.hook.reading.unsubscribe(this.schema.readHook), this.schema.readHook = l, this.hook("reading", l), t;
-		}, G.prototype.defineClass = function() {
-			return this.mapToClass(function(e) {
-				o(this, e);
-			});
-		}, G.prototype.add = function(e, t) {
-			var n = this, r = this.schema.primKey, i = r.auto, a = r.keyPath, o = e;
-			return a && i && (o = gt(a)(e)), this._trans("readwrite", function(e) {
-				return n.core.mutate({
-					trans: e,
-					type: "add",
-					keys: t == null ? null : [t],
-					values: [o]
-				});
-			}).then(function(e) {
-				return e.numFailures ? z.reject(e.failures[0]) : e.lastResult;
-			}).then(function(t) {
-				if (a) try {
-					x(e, a, t);
-				} catch {}
-				return t;
-			});
-		}, G.prototype.update = function(e, t) {
-			return typeof e != "object" || a(e) ? this.where(":id").equals(e).modify(t) : (e = b(e, this.schema.primKey.keyPath), e === void 0 ? U(new I.InvalidArgument("Given object does not contain its primary key")) : this.where(":id").equals(e).modify(t));
-		}, G.prototype.put = function(e, t) {
-			var n = this, r = this.schema.primKey, i = r.auto, a = r.keyPath, o = e;
-			return a && i && (o = gt(a)(e)), this._trans("readwrite", function(e) {
-				return n.core.mutate({
-					trans: e,
-					type: "put",
-					values: [o],
-					keys: t == null ? null : [t]
-				});
-			}).then(function(e) {
-				return e.numFailures ? z.reject(e.failures[0]) : e.lastResult;
-			}).then(function(t) {
-				if (a) try {
-					x(e, a, t);
-				} catch {}
-				return t;
-			});
-		}, G.prototype.delete = function(e) {
-			var t = this;
-			return this._trans("readwrite", function(n) {
-				return t.core.mutate({
-					trans: n,
-					type: "delete",
-					keys: [e]
-				}).then(function(n) {
-					return bt(t, [e], n);
-				}).then(function(e) {
-					return e.numFailures ? z.reject(e.failures[0]) : void 0;
-				});
-			});
-		}, G.prototype.clear = function() {
-			var e = this;
-			return this._trans("readwrite", function(t) {
-				return e.core.mutate({
-					trans: t,
-					type: "deleteRange",
-					range: ht
-				}).then(function(t) {
-					return bt(e, null, t);
-				});
-			}).then(function(e) {
-				return e.numFailures ? z.reject(e.failures[0]) : void 0;
-			});
-		}, G.prototype.bulkGet = function(e) {
-			var t = this;
-			return this._trans("readonly", function(n) {
-				return t.core.getMany({
-					keys: e,
-					trans: n
-				}).then(function(e) {
-					return e.map(function(e) {
-						return t.hook.reading.fire(e);
-					});
-				});
-			});
-		}, G.prototype.bulkAdd = function(e, t, n) {
-			var r = this, i = Array.isArray(t) ? t : void 0, a = (n ||= i ? void 0 : t) ? n.allKeys : void 0;
-			return this._trans("readwrite", function(t) {
-				var n = r.schema.primKey, o = n.auto, n = n.keyPath;
-				if (n && i) throw new I.InvalidArgument("bulkAdd(): keys argument invalid on tables with inbound keys");
-				if (i && i.length !== e.length) throw new I.InvalidArgument("Arguments objects and keys must have the same length");
-				var s = e.length, n = n && o ? e.map(gt(n)) : e;
-				return r.core.mutate({
-					trans: t,
-					type: "add",
-					keys: i,
-					values: n,
-					wantResults: a
-				}).then(function(e) {
-					var t = e.numFailures, n = e.results, i = e.lastResult, e = e.failures;
-					if (t === 0) return a ? n : i;
-					throw new se(`${r.name}.bulkAdd(): ${t} of ${s} operations failed`, e);
-				});
-			});
-		}, G.prototype.bulkPut = function(e, t, n) {
-			var r = this, i = Array.isArray(t) ? t : void 0, a = (n ||= i ? void 0 : t) ? n.allKeys : void 0;
-			return this._trans("readwrite", function(t) {
-				var n = r.schema.primKey, o = n.auto, n = n.keyPath;
-				if (n && i) throw new I.InvalidArgument("bulkPut(): keys argument invalid on tables with inbound keys");
-				if (i && i.length !== e.length) throw new I.InvalidArgument("Arguments objects and keys must have the same length");
-				var s = e.length, n = n && o ? e.map(gt(n)) : e;
-				return r.core.mutate({
-					trans: t,
-					type: "put",
-					keys: i,
-					values: n,
-					wantResults: a
-				}).then(function(e) {
-					var t = e.numFailures, n = e.results, i = e.lastResult, e = e.failures;
-					if (t === 0) return a ? n : i;
-					throw new se(`${r.name}.bulkPut(): ${t} of ${s} operations failed`, e);
-				});
-			});
-		}, G.prototype.bulkUpdate = function(e) {
-			var t = this, n = this.core, r = e.map(function(e) {
-				return e.key;
-			}), i = e.map(function(e) {
-				return e.changes;
-			}), a = [];
-			return this._trans("readwrite", function(o) {
-				return n.getMany({
-					trans: o,
-					keys: r,
-					cache: "clone"
-				}).then(function(s) {
-					var c = [], l = [];
-					e.forEach(function(e, n) {
-						var r = e.key, i = e.changes, o = s[n];
-						if (o) {
-							for (var u = 0, d = Object.keys(i); u < d.length; u++) {
-								var f = d[u], p = i[f];
-								if (f === t.schema.primKey.keyPath) {
-									if (W(p, r) !== 0) throw new I.Constraint("Cannot update primary key in bulkUpdate()");
-								} else x(o, f, p);
-							}
-							a.push(n), c.push(r), l.push(o);
-						}
-					});
-					var u = c.length;
-					return n.mutate({
-						trans: o,
-						type: "put",
-						keys: c,
-						values: l,
-						updates: {
-							keys: r,
-							changeSpecs: i
-						}
-					}).then(function(e) {
-						var n = e.numFailures, r = e.failures;
-						if (n === 0) return u;
-						for (var i = 0, o = Object.keys(r); i < o.length; i++) {
-							var s, c = o[i], l = a[Number(c)];
-							l != null && (s = r[c], delete r[c], r[l] = s);
-						}
-						throw new se(`${t.name}.bulkUpdate(): ${n} of ${u} operations failed`, r);
-					});
-				});
-			});
-		}, G.prototype.bulkDelete = function(e) {
-			var t = this, n = e.length;
-			return this._trans("readwrite", function(n) {
-				return t.core.mutate({
-					trans: n,
-					type: "delete",
-					keys: e
-				}).then(function(n) {
-					return bt(t, e, n);
-				});
-			}).then(function(e) {
-				var r = e.numFailures, i = e.lastResult, e = e.failures;
-				if (r === 0) return i;
-				throw new se(`${t.name}.bulkDelete(): ${r} of ${n} operations failed`, e);
-			});
-		}, G);
-		function G() {}
-		function St(e) {
-			function t(t, r) {
-				if (r) {
-					for (var i = arguments.length, a = Array(i - 1); --i;) a[i - 1] = arguments[i];
-					return n[t].subscribe.apply(null, a), e;
-				}
-				if (typeof t == "string") return n[t];
-			}
-			var n = {};
-			t.addEventType = s;
-			for (var r = 1, o = arguments.length; r < o; ++r) s(arguments[r]);
-			return t;
-			function s(e, r, o) {
-				if (typeof e != "object") {
-					var c;
-					r ||= ve;
-					var l = {
-						subscribers: [],
-						fire: o ||= L,
-						subscribe: function(e) {
-							l.subscribers.indexOf(e) === -1 && (l.subscribers.push(e), l.fire = r(l.fire, e));
-						},
-						unsubscribe: function(e) {
-							l.subscribers = l.subscribers.filter(function(t) {
-								return t !== e;
-							}), l.fire = l.subscribers.reduce(r, o);
-						}
-					};
-					return n[e] = t[e] = l;
-				}
-				i(c = e).forEach(function(e) {
-					var t = c[e];
-					if (a(t)) s(e, c[e][0], c[e][1]);
-					else {
-						if (t !== "asap") throw new I.InvalidArgument("Invalid event config");
-						var n = s(e, fe, function() {
-							for (var e = arguments.length, t = Array(e); e--;) t[e] = arguments[e];
-							n.subscribers.forEach(function(e) {
-								y(function() {
-									e.apply(null, t);
-								});
-							});
-						});
-					}
-				});
-			}
-		}
-		function Ct(e, t) {
-			return p(t).from({ prototype: e }), t;
-		}
-		function wt(e, t) {
-			return !(e.filter || e.algorithm || e.or) && (t ? e.justLimit : !e.replayFilter);
-		}
-		function Tt(e, t) {
-			e.filter = mt(e.filter, t);
-		}
-		function Et(e, t, n) {
-			var r = e.replayFilter;
-			e.replayFilter = r ? function() {
-				return mt(r(), t());
-			} : t, e.justLimit = n && !r;
-		}
-		function Dt(e, t) {
-			if (e.isPrimKey) return t.primaryKey;
-			var n = t.getIndexByKeyPath(e.index);
-			if (!n) throw new I.Schema("KeyPath " + e.index + " on object store " + t.name + " is not indexed");
-			return n;
-		}
-		function Ot(e, t, n) {
-			var r = Dt(e, t.schema);
-			return t.openCursor({
-				trans: n,
-				values: !e.keysOnly,
-				reverse: e.dir === "prev",
-				unique: !!e.unique,
-				query: {
-					index: r,
-					range: e.range
-				}
-			});
-		}
-		function kt(e, t, n, r) {
-			var i = e.replayFilter ? mt(e.filter, e.replayFilter()) : e.filter;
-			if (e.or) {
-				var a = {}, o = function(e, n, r) {
-					var o, s;
-					i && !i(n, r, function(e) {
-						return n.stop(e);
-					}, function(e) {
-						return n.fail(e);
-					}) || ((s = "" + (o = n.primaryKey)) == "[object ArrayBuffer]" && (s = "" + new Uint8Array(o)), l(a, s) || (a[s] = !0, t(e, n, r)));
-				};
-				return Promise.all([e.or._iterate(o, n), At(Ot(e, r, n), e.algorithm, o, !e.keysOnly && e.valueMapper)]);
-			}
-			return At(Ot(e, r, n), mt(e.algorithm, i), t, !e.keysOnly && e.valueMapper);
-		}
-		function At(e, t, n, r) {
-			var i = B(r ? function(e, t, i) {
-				return n(r(e), t, i);
-			} : n);
-			return e.then(function(e) {
-				if (e) return e.start(function() {
-					var n = function() {
-						return e.continue();
-					};
-					t && !t(e, function(e) {
-						return n = e;
-					}, function(t) {
-						e.stop(t), n = L;
-					}, function(t) {
-						e.fail(t), n = L;
-					}) || i(e.value, e, function(e) {
-						return n = e;
-					}), n();
-				});
-			});
-		}
-		var jt = (Mt.prototype.execute = function(e) {
-			var t = this["@@propmod"];
-			if (t.add !== void 0) {
-				var r = t.add;
-				if (a(r)) return n(n([], a(e) ? e : [], !0), r, !0).sort();
-				if (typeof r == "number") return (Number(e) || 0) + r;
-				if (typeof r == "bigint") try {
-					return BigInt(e) + r;
-				} catch {
-					return BigInt(0) + r;
-				}
-				throw TypeError(`Invalid term ${r}`);
-			}
-			if (t.remove !== void 0) {
-				var i = t.remove;
-				if (a(i)) return a(e) ? e.filter(function(e) {
-					return !i.includes(e);
-				}).sort() : [];
-				if (typeof i == "number") return Number(e) - i;
-				if (typeof i == "bigint") try {
-					return BigInt(e) - i;
-				} catch {
-					return BigInt(0) - i;
-				}
-				throw TypeError(`Invalid subtrahend ${i}`);
-			}
-			return r = (r = t.replacePrefix)?.[0], r && typeof e == "string" && e.startsWith(r) ? t.replacePrefix[1] + e.substring(r.length) : e;
-		}, Mt);
-		function Mt(e) {
-			this["@@propmod"] = e;
-		}
-		var Nt = (K.prototype._read = function(e, t) {
-			var n = this._ctx;
-			return n.error ? n.table._trans(null, U.bind(null, n.error)) : n.table._trans("readonly", e).then(t);
-		}, K.prototype._write = function(e) {
-			var t = this._ctx;
-			return t.error ? t.table._trans(null, U.bind(null, t.error)) : t.table._trans("readwrite", e, "locked");
-		}, K.prototype._addAlgorithm = function(e) {
-			var t = this._ctx;
-			t.algorithm = mt(t.algorithm, e);
-		}, K.prototype._iterate = function(e, t) {
-			return kt(this._ctx, e, t, this._ctx.table.core);
-		}, K.prototype.clone = function(e) {
-			var t = Object.create(this.constructor.prototype), n = Object.create(this._ctx);
-			return e && o(n, e), t._ctx = n, t;
-		}, K.prototype.raw = function() {
-			return this._ctx.valueMapper = null, this;
-		}, K.prototype.each = function(e) {
-			var t = this._ctx;
-			return this._read(function(n) {
-				return kt(t, e, n, t.table.core);
-			});
-		}, K.prototype.count = function(e) {
-			var t = this;
-			return this._read(function(e) {
-				var n = t._ctx, r = n.table.core;
-				if (wt(n, !0)) return r.count({
-					trans: e,
-					query: {
-						index: Dt(n, r.schema),
-						range: n.range
-					}
-				}).then(function(e) {
-					return Math.min(e, n.limit);
-				});
-				var i = 0;
-				return kt(n, function() {
-					return ++i, !1;
-				}, e, r).then(function() {
-					return i;
-				});
-			}).then(e);
-		}, K.prototype.sortBy = function(e, t) {
-			var n = e.split(".").reverse(), r = n[0], i = n.length - 1;
-			function a(e, t) {
-				return t ? a(e[n[t]], t - 1) : e[r];
-			}
-			var o = this._ctx.dir === "next" ? 1 : -1;
-			function s(e, t) {
-				return W(a(e, i), a(t, i)) * o;
-			}
-			return this.toArray(function(e) {
-				return e.sort(s);
-			}).then(t);
-		}, K.prototype.toArray = function(e) {
-			var t = this;
-			return this._read(function(e) {
-				var n = t._ctx;
-				if (n.dir === "next" && wt(n, !0) && 0 < n.limit) {
-					var r = n.valueMapper, i = Dt(n, n.table.core.schema);
-					return n.table.core.query({
-						trans: e,
-						limit: n.limit,
-						values: !0,
-						query: {
-							index: i,
-							range: n.range
-						}
-					}).then(function(e) {
-						return e = e.result, r ? e.map(r) : e;
-					});
-				}
-				var a = [];
-				return kt(n, function(e) {
-					return a.push(e);
-				}, e, n.table.core).then(function() {
-					return a;
-				});
-			}, e);
-		}, K.prototype.offset = function(e) {
-			var t = this._ctx;
-			return e <= 0 || (t.offset += e, wt(t) ? Et(t, function() {
-				var t = e;
-				return function(e, n) {
-					return t === 0 || (t === 1 ? --t : n(function() {
-						e.advance(t), t = 0;
-					}), !1);
-				};
-			}) : Et(t, function() {
-				var t = e;
-				return function() {
-					return --t < 0;
-				};
-			})), this;
-		}, K.prototype.limit = function(e) {
-			return this._ctx.limit = Math.min(this._ctx.limit, e), Et(this._ctx, function() {
-				var t = e;
-				return function(e, n, r) {
-					return --t <= 0 && n(r), 0 <= t;
-				};
-			}, !0), this;
-		}, K.prototype.until = function(e, t) {
-			return Tt(this._ctx, function(n, r, i) {
-				return !e(n.value) || (r(i), t);
-			}), this;
-		}, K.prototype.first = function(e) {
-			return this.limit(1).toArray(function(e) {
-				return e[0];
-			}).then(e);
-		}, K.prototype.last = function(e) {
-			return this.reverse().first(e);
-		}, K.prototype.filter = function(e) {
-			var t;
-			return Tt(this._ctx, function(t) {
-				return e(t.value);
-			}), (t = this._ctx).isMatch = mt(t.isMatch, e), this;
-		}, K.prototype.and = function(e) {
-			return this.filter(e);
-		}, K.prototype.or = function(e) {
-			return new this.db.WhereClause(this._ctx.table, e, this);
-		}, K.prototype.reverse = function() {
-			return this._ctx.dir = this._ctx.dir === "prev" ? "next" : "prev", this._ondirectionchange && this._ondirectionchange(this._ctx.dir), this;
-		}, K.prototype.desc = function() {
-			return this.reverse();
-		}, K.prototype.eachKey = function(e) {
-			var t = this._ctx;
-			return t.keysOnly = !t.isMatch, this.each(function(t, n) {
-				e(n.key, n);
-			});
-		}, K.prototype.eachUniqueKey = function(e) {
-			return this._ctx.unique = "unique", this.eachKey(e);
-		}, K.prototype.eachPrimaryKey = function(e) {
-			var t = this._ctx;
-			return t.keysOnly = !t.isMatch, this.each(function(t, n) {
-				e(n.primaryKey, n);
-			});
-		}, K.prototype.keys = function(e) {
-			var t = this._ctx;
-			t.keysOnly = !t.isMatch;
-			var n = [];
-			return this.each(function(e, t) {
-				n.push(t.key);
-			}).then(function() {
-				return n;
-			}).then(e);
-		}, K.prototype.primaryKeys = function(e) {
-			var t = this._ctx;
-			if (t.dir === "next" && wt(t, !0) && 0 < t.limit) return this._read(function(e) {
-				var n = Dt(t, t.table.core.schema);
-				return t.table.core.query({
-					trans: e,
-					values: !1,
-					limit: t.limit,
-					query: {
-						index: n,
-						range: t.range
-					}
-				});
-			}).then(function(e) {
-				return e.result;
-			}).then(e);
-			t.keysOnly = !t.isMatch;
-			var n = [];
-			return this.each(function(e, t) {
-				n.push(t.primaryKey);
-			}).then(function() {
-				return n;
-			}).then(e);
-		}, K.prototype.uniqueKeys = function(e) {
-			return this._ctx.unique = "unique", this.keys(e);
-		}, K.prototype.firstKey = function(e) {
-			return this.limit(1).keys(function(e) {
-				return e[0];
-			}).then(e);
-		}, K.prototype.lastKey = function(e) {
-			return this.reverse().firstKey(e);
-		}, K.prototype.distinct = function() {
-			var e = this._ctx, e = e.index && e.table.schema.idxByName[e.index];
-			if (!e || !e.multi) return this;
-			var t = {};
-			return Tt(this._ctx, function(e) {
-				var n = e.primaryKey.toString(), e = l(t, n);
-				return t[n] = !0, !e;
-			}), this;
-		}, K.prototype.modify = function(e) {
-			var t = this, n = this._ctx;
-			return this._write(function(r) {
-				var a, o, s = typeof e == "function" ? e : (a = i(e), o = a.length, function(t) {
-					for (var n = !1, r = 0; r < o; ++r) {
-						var i = a[r], s = e[i], c = b(t, i);
-						s instanceof jt ? (x(t, i, s.execute(c)), n = !0) : c !== s && (x(t, i, s), n = !0);
-					}
-					return n;
-				}), c = n.table.core, l = c.schema.primaryKey, u = l.outbound, d = l.extractKey, f = 200, l = t.db._options.modifyChunkSize;
-				l && (f = typeof l == "object" ? l[c.name] || l["*"] || 200 : l);
-				function p(e, t) {
-					var n = t.failures, t = t.numFailures;
-					h += e - t;
-					for (var r = 0, a = i(n); r < a.length; r++) {
-						var o = a[r];
-						m.push(n[o]);
-					}
-				}
-				var m = [], h = 0, g = [], _ = e === Pt;
-				return t.clone().primaryKeys().then(function(t) {
-					function i(o) {
-						var l = Math.min(f, t.length - o), m = t.slice(o, o + l);
-						return (_ ? Promise.resolve([]) : c.getMany({
-							trans: r,
-							keys: m,
-							cache: "immutable"
-						})).then(function(h) {
-							var g = [], v = [], y = u ? [] : null, b = _ ? m : [];
-							if (!_) for (var x = 0; x < l; ++x) {
-								var S = h[x], C = {
-									value: E(S),
-									primKey: t[o + x]
-								};
-								!1 !== s.call(C, C.value, C) && (C.value == null ? b.push(t[o + x]) : u || W(d(S), d(C.value)) === 0 ? (v.push(C.value), u && y.push(t[o + x])) : (b.push(t[o + x]), g.push(C.value)));
-							}
-							return Promise.resolve(0 < g.length && c.mutate({
-								trans: r,
-								type: "add",
-								values: g
-							}).then(function(e) {
-								for (var t in e.failures) b.splice(parseInt(t), 1);
-								p(g.length, e);
-							})).then(function() {
-								return (0 < v.length || a && typeof e == "object") && c.mutate({
-									trans: r,
-									type: "put",
-									keys: y,
-									values: v,
-									criteria: a,
-									changeSpec: typeof e != "function" && e,
-									isAdditionalChunk: 0 < o
-								}).then(function(e) {
-									return p(v.length, e);
-								});
-							}).then(function() {
-								return (0 < b.length || a && _) && c.mutate({
-									trans: r,
-									type: "delete",
-									keys: b,
-									criteria: a,
-									isAdditionalChunk: 0 < o
-								}).then(function(e) {
-									return bt(n.table, b, e);
-								}).then(function(e) {
-									return p(b.length, e);
-								});
-							}).then(function() {
-								return t.length > o + l && i(o + f);
-							});
-						});
-					}
-					var a = wt(n) && n.limit === Infinity && (typeof e != "function" || _) && {
-						index: n.index,
-						range: n.range
-					};
-					return i(0).then(function() {
-						if (0 < m.length) throw new F("Error modifying one or more objects", m, h, g);
-						return t.length;
-					});
-				});
-			});
-		}, K.prototype.delete = function() {
-			var e = this._ctx, t = e.range;
-			return !wt(e) || e.table.schema.yProps || !e.isPrimKey && t.type !== 3 ? this.modify(Pt) : this._write(function(n) {
-				var r = e.table.core.schema.primaryKey, i = t;
-				return e.table.core.count({
-					trans: n,
-					query: {
-						index: r,
-						range: i
-					}
-				}).then(function(t) {
-					return e.table.core.mutate({
-						trans: n,
-						type: "deleteRange",
-						range: i
-					}).then(function(e) {
-						var n = e.failures, e = e.numFailures;
-						if (e) throw new F("Could not delete some values", Object.keys(n).map(function(e) {
-							return n[e];
-						}), t - e);
-						return t - e;
-					});
-				});
-			});
-		}, K);
-		function K() {}
-		var Pt = function(e, t) {
-			return t.value = null;
-		};
-		function Ft(e, t) {
-			return e < t ? -1 : e === t ? 0 : 1;
-		}
-		function It(e, t) {
-			return t < e ? -1 : e === t ? 0 : 1;
-		}
-		function Lt(e, t, n) {
-			return e = e instanceof Ht ? new e.Collection(e) : e, e._ctx.error = new (n || TypeError)(t), e;
-		}
-		function Rt(e) {
-			return new e.Collection(e, function() {
-				return Vt("");
-			}).limit(0);
-		}
-		function zt(e, t, n, r) {
-			var i, a, o, s, c, l, u, d = n.length;
-			if (!n.every(function(e) {
-				return typeof e == "string";
-			})) return Lt(e, lt);
-			function f(e) {
-				i = e === "next" ? function(e) {
-					return e.toUpperCase();
-				} : function(e) {
-					return e.toLowerCase();
-				}, a = e === "next" ? function(e) {
-					return e.toLowerCase();
-				} : function(e) {
-					return e.toUpperCase();
-				}, o = e === "next" ? Ft : It;
-				var t = n.map(function(e) {
-					return {
-						lower: a(e),
-						upper: i(e)
-					};
-				}).sort(function(e, t) {
-					return o(e.lower, t.lower);
-				});
-				s = t.map(function(e) {
-					return e.upper;
-				}), c = t.map(function(e) {
-					return e.lower;
-				}), u = (l = e) === "next" ? "" : r;
-			}
-			f("next"), e = new e.Collection(e, function() {
-				return Bt(s[0], c[d - 1] + r);
-			}), e._ondirectionchange = function(e) {
-				f(e);
-			};
-			var p = 0;
-			return e._addAlgorithm(function(e, n, r) {
-				var i = e.key;
-				if (typeof i != "string") return !1;
-				var f = a(i);
-				if (t(f, c, p)) return !0;
-				for (var m = null, h = p; h < d; ++h) {
-					var g = function(e, t, n, r, i, a) {
-						for (var o = Math.min(e.length, r.length), s = -1, c = 0; c < o; ++c) {
-							var l = t[c];
-							if (l !== r[c]) return i(e[c], n[c]) < 0 ? e.substr(0, c) + n[c] + n.substr(c + 1) : i(e[c], r[c]) < 0 ? e.substr(0, c) + r[c] + n.substr(c + 1) : 0 <= s ? e.substr(0, s) + t[s] + n.substr(s + 1) : null;
-							i(e[c], l) < 0 && (s = c);
-						}
-						return o < r.length && a === "next" ? e + n.substr(e.length) : o < e.length && a === "prev" ? e.substr(0, n.length) : s < 0 ? null : e.substr(0, s) + r[s] + n.substr(s + 1);
-					}(i, f, s[h], c[h], o, l);
-					g === null && m === null ? p = h + 1 : (m === null || 0 < o(m, g)) && (m = g);
-				}
-				return n(m === null ? r : function() {
-					e.continue(m + u);
-				}), !1;
-			}), e;
-		}
-		function Bt(e, t, n, r) {
-			return {
-				type: 2,
-				lower: e,
-				upper: t,
-				lowerOpen: n,
-				upperOpen: r
-			};
-		}
-		function Vt(e) {
-			return {
-				type: 1,
-				lower: e,
-				upper: e
-			};
-		}
-		var Ht = (Object.defineProperty(q.prototype, "Collection", {
-			get: function() {
-				return this._ctx.table.db.Collection;
-			},
-			enumerable: !1,
-			configurable: !0
-		}), q.prototype.between = function(e, t, n, r) {
-			n = !1 !== n, r = !0 === r;
-			try {
-				return 0 < this._cmp(e, t) || this._cmp(e, t) === 0 && (n || r) && (!n || !r) ? Rt(this) : new this.Collection(this, function() {
-					return Bt(e, t, !n, !r);
-				});
-			} catch {
-				return Lt(this, ct);
-			}
-		}, q.prototype.equals = function(e) {
-			return e == null ? Lt(this, ct) : new this.Collection(this, function() {
-				return Vt(e);
-			});
-		}, q.prototype.above = function(e) {
-			return e == null ? Lt(this, ct) : new this.Collection(this, function() {
-				return Bt(e, void 0, !0);
-			});
-		}, q.prototype.aboveOrEqual = function(e) {
-			return e == null ? Lt(this, ct) : new this.Collection(this, function() {
-				return Bt(e, void 0, !1);
-			});
-		}, q.prototype.below = function(e) {
-			return e == null ? Lt(this, ct) : new this.Collection(this, function() {
-				return Bt(void 0, e, !1, !0);
-			});
-		}, q.prototype.belowOrEqual = function(e) {
-			return e == null ? Lt(this, ct) : new this.Collection(this, function() {
-				return Bt(void 0, e);
-			});
-		}, q.prototype.startsWith = function(e) {
-			return typeof e == "string" ? this.between(e, e + st, !0, !0) : Lt(this, lt);
-		}, q.prototype.startsWithIgnoreCase = function(e) {
-			return e === "" ? this.startsWith(e) : zt(this, function(e, t) {
-				return e.indexOf(t[0]) === 0;
-			}, [e], st);
-		}, q.prototype.equalsIgnoreCase = function(e) {
-			return zt(this, function(e, t) {
-				return e === t[0];
-			}, [e], "");
-		}, q.prototype.anyOfIgnoreCase = function() {
-			var e = M.apply(j, arguments);
-			return e.length === 0 ? Rt(this) : zt(this, function(e, t) {
-				return t.indexOf(e) !== -1;
-			}, e, "");
-		}, q.prototype.startsWithAnyOfIgnoreCase = function() {
-			var e = M.apply(j, arguments);
-			return e.length === 0 ? Rt(this) : zt(this, function(e, t) {
-				return t.some(function(t) {
-					return e.indexOf(t) === 0;
-				});
-			}, e, st);
-		}, q.prototype.anyOf = function() {
-			var e = this, t = M.apply(j, arguments), n = this._cmp;
-			try {
-				t.sort(n);
-			} catch {
-				return Lt(this, ct);
-			}
-			if (t.length === 0) return Rt(this);
-			var r = new this.Collection(this, function() {
-				return Bt(t[0], t[t.length - 1]);
-			});
-			r._ondirectionchange = function(r) {
-				n = r === "next" ? e._ascending : e._descending, t.sort(n);
-			};
-			var i = 0;
-			return r._addAlgorithm(function(e, r, a) {
-				for (var o = e.key; 0 < n(o, t[i]);) if (++i === t.length) return r(a), !1;
-				return n(o, t[i]) === 0 || (r(function() {
-					e.continue(t[i]);
-				}), !1);
-			}), r;
-		}, q.prototype.notEqual = function(e) {
-			return this.inAnyRange([[-Infinity, e], [e, this.db._maxKey]], {
-				includeLowers: !1,
-				includeUppers: !1
-			});
-		}, q.prototype.noneOf = function() {
-			var e = M.apply(j, arguments);
-			if (e.length === 0) return new this.Collection(this);
-			try {
-				e.sort(this._ascending);
-			} catch {
-				return Lt(this, ct);
-			}
-			var t = e.reduce(function(e, t) {
-				return e ? e.concat([[e[e.length - 1][1], t]]) : [[-Infinity, t]];
-			}, null);
-			return t.push([e[e.length - 1], this.db._maxKey]), this.inAnyRange(t, {
-				includeLowers: !1,
-				includeUppers: !1
-			});
-		}, q.prototype.inAnyRange = function(e, t) {
-			var n = this, r = this._cmp, i = this._ascending, a = this._descending, o = this._min, s = this._max;
-			if (e.length === 0) return Rt(this);
-			if (!e.every(function(e) {
-				return e[0] !== void 0 && e[1] !== void 0 && i(e[0], e[1]) <= 0;
-			})) return Lt(this, "First argument to inAnyRange() must be an Array of two-value Arrays [lower,upper] where upper must not be lower than lower", I.InvalidArgument);
-			var c = !t || !1 !== t.includeLowers, l = t && !0 === t.includeUppers, u, d = i;
-			function f(e, t) {
-				return d(e[0], t[0]);
-			}
-			try {
-				(u = e.reduce(function(e, t) {
-					for (var n = 0, i = e.length; n < i; ++n) {
-						var a = e[n];
-						if (r(t[0], a[1]) < 0 && 0 < r(t[1], a[0])) {
-							a[0] = o(a[0], t[0]), a[1] = s(a[1], t[1]);
-							break;
-						}
-					}
-					return n === i && e.push(t), e;
-				}, [])).sort(f);
-			} catch {
-				return Lt(this, ct);
-			}
-			var p = 0, m = l ? function(e) {
-				return 0 < i(e, u[p][1]);
-			} : function(e) {
-				return 0 <= i(e, u[p][1]);
-			}, h = c ? function(e) {
-				return 0 < a(e, u[p][0]);
-			} : function(e) {
-				return 0 <= a(e, u[p][0]);
-			}, g = m, e = new this.Collection(this, function() {
-				return Bt(u[0][0], u[u.length - 1][1], !c, !l);
-			});
-			return e._ondirectionchange = function(e) {
-				d = e === "next" ? (g = m, i) : (g = h, a), u.sort(f);
-			}, e._addAlgorithm(function(e, t, r) {
-				for (var a, o = e.key; g(o);) if (++p === u.length) return t(r), !1;
-				return !m(a = o) && !h(a) || (n._cmp(o, u[p][1]) === 0 || n._cmp(o, u[p][0]) === 0 || t(function() {
-					d === i ? e.continue(u[p][0]) : e.continue(u[p][1]);
-				}), !1);
-			}), e;
-		}, q.prototype.startsWithAnyOf = function() {
-			var e = M.apply(j, arguments);
-			return e.every(function(e) {
-				return typeof e == "string";
-			}) ? e.length === 0 ? Rt(this) : this.inAnyRange(e.map(function(e) {
-				return [e, e + st];
-			})) : Lt(this, "startsWithAnyOf() only works with strings");
-		}, q);
-		function q() {}
-		function Ut(e) {
-			return B(function(t) {
-				return Wt(t), e(t.target.error), !1;
-			});
-		}
-		function Wt(e) {
-			e.stopPropagation && e.stopPropagation(), e.preventDefault && e.preventDefault();
-		}
-		var Gt = "storagemutated", Kt = "x-storagemutated-1", qt = St(null, Gt), Jt = (J.prototype._lock = function() {
-			return v(!R.global), ++this._reculock, this._reculock !== 1 || R.global || (R.lockOwnerFor = this), this;
-		}, J.prototype._unlock = function() {
-			if (v(!R.global), --this._reculock == 0) for (R.global || (R.lockOwnerFor = null); 0 < this._blockedFuncs.length && !this._locked();) {
-				var e = this._blockedFuncs.shift();
-				try {
-					it(e[1], e[0]);
-				} catch {}
-			}
-			return this;
-		}, J.prototype._locked = function() {
-			return this._reculock && R.lockOwnerFor !== this;
-		}, J.prototype.create = function(e) {
-			var t = this;
-			if (!this.mode) return this;
-			var n = this.db.idbdb, r = this.db._state.dbOpenError;
-			if (v(!this.idbtrans), !e && !n) switch (r && r.name) {
-				case "DatabaseClosedError": throw new I.DatabaseClosed(r);
-				case "MissingAPIError": throw new I.MissingAPI(r.message, r);
-				default: throw new I.OpenFailed(r);
-			}
-			if (!this.active) throw new I.TransactionInactive();
-			return v(this._completion._state === null), (e = this.idbtrans = e || (this.db.core || n).transaction(this.storeNames, this.mode, { durability: this.chromeTransactionDurability })).onerror = B(function(n) {
-				Wt(n), t._reject(e.error);
-			}), e.onabort = B(function(n) {
-				Wt(n), t.active && t._reject(new I.Abort(e.error)), t.active = !1, t.on("abort").fire(n);
-			}), e.oncomplete = B(function() {
-				t.active = !1, t._resolve(), "mutatedParts" in e && qt.storagemutated.fire(e.mutatedParts);
-			}), this;
-		}, J.prototype._promise = function(e, t, n) {
-			var r = this;
-			if (e === "readwrite" && this.mode !== "readwrite") return U(new I.ReadOnly("Transaction is readonly"));
-			if (!this.active) return U(new I.TransactionInactive());
-			if (this._locked()) return new z(function(i, a) {
-				r._blockedFuncs.push([function() {
-					r._promise(e, t, n).then(i, a);
-				}, R]);
-			});
-			if (n) return Ze(function() {
-				var e = new z(function(e, n) {
-					r._lock();
-					var i = t(e, n, r);
-					i && i.then && i.then(e, n);
-				});
-				return e.finally(function() {
-					return r._unlock();
-				}), e._lib = !0, e;
-			});
-			var i = new z(function(e, n) {
-				var i = t(e, n, r);
-				i && i.then && i.then(e, n);
-			});
-			return i._lib = !0, i;
-		}, J.prototype._root = function() {
-			return this.parent ? this.parent._root() : this;
-		}, J.prototype.waitFor = function(e) {
-			var t, n = this._root(), r = z.resolve(e);
-			n._waitingFor ? n._waitingFor = n._waitingFor.then(function() {
-				return r;
-			}) : (n._waitingFor = r, n._waitingQueue = [], t = n.idbtrans.objectStore(n.storeNames[0]), function e() {
-				for (++n._spinCount; n._waitingQueue.length;) n._waitingQueue.shift()();
-				n._waitingFor && (t.get(-Infinity).onsuccess = e);
-			}());
-			var i = n._waitingFor;
-			return new z(function(e, t) {
-				r.then(function(t) {
-					return n._waitingQueue.push(B(e.bind(null, t)));
-				}, function(e) {
-					return n._waitingQueue.push(B(t.bind(null, e)));
-				}).finally(function() {
-					n._waitingFor === i && (n._waitingFor = null);
-				});
-			});
-		}, J.prototype.abort = function() {
-			this.active && (this.active = !1, this.idbtrans && this.idbtrans.abort(), this._reject(new I.Abort()));
-		}, J.prototype.table = function(e) {
-			var t = this._memoizedTables ||= {};
-			if (l(t, e)) return t[e];
-			var n = this.schema[e];
-			if (!n) throw new I.NotFound("Table " + e + " not part of transaction");
-			return n = new this.db.Table(e, n, this), n.core = this.db.core.table(e), t[e] = n;
-		}, J);
-		function J() {}
-		function Yt(e, t, n, r, i, a, o, s) {
-			return {
-				name: e,
-				keyPath: t,
-				unique: n,
-				multi: r,
-				auto: i,
-				compound: a,
-				src: (n && !o ? "&" : "") + (r ? "*" : "") + (i ? "++" : "") + Xt(t),
-				type: s
-			};
-		}
-		function Xt(e) {
-			return typeof e == "string" ? e : e ? "[" + [].join.call(e, "+") + "]" : "";
-		}
-		function Zt(e, t, n) {
-			return {
-				name: e,
-				primKey: t,
-				indexes: n,
-				mappedClass: null,
-				idxByName: (r = function(e) {
-					return [e.name, e];
-				}, n.reduce(function(e, t, n) {
-					return n = r(t, n), n && (e[n[0]] = n[1]), e;
-				}, {}))
-			};
-			var r;
-		}
-		var Qt = function(e) {
-			try {
-				return e.only([[]]), Qt = function() {
-					return [[]];
-				}, [[]];
-			} catch {
-				return Qt = function() {
-					return st;
-				}, st;
-			}
-		};
-		function $t(e) {
-			return e == null ? function() {} : typeof e == "string" ? (t = e).split(".").length === 1 ? function(e) {
-				return e[t];
-			} : function(e) {
-				return b(e, t);
-			} : function(t) {
-				return b(t, e);
-			};
-			var t;
-		}
-		function en(e) {
-			return [].slice.call(e);
-		}
-		var tn = 0;
-		function nn(e) {
-			return e == null ? ":id" : typeof e == "string" ? e : `[${e.join("+")}]`;
-		}
-		function rn(e, t, n) {
-			function r(e) {
-				if (e.type === 3) return null;
-				if (e.type === 4) throw Error("Cannot convert never type to IDBKeyRange");
-				var n = e.lower, r = e.upper, i = e.lowerOpen, e = e.upperOpen;
-				return n === void 0 ? r === void 0 ? null : t.upperBound(r, !!e) : r === void 0 ? t.lowerBound(n, !!i) : t.bound(n, r, !!i, !!e);
-			}
-			function i(e) {
-				var t, n = e.name;
-				return {
-					name: n,
-					schema: e,
-					mutate: function(e) {
-						var t = e.trans, i = e.type, a = e.keys, o = e.values, s = e.range;
-						return new Promise(function(e, c) {
-							e = B(e);
-							var l = t.objectStore(n), u = l.keyPath == null, d = i === "put" || i === "add";
-							if (!d && i !== "delete" && i !== "deleteRange") throw Error("Invalid operation type: " + i);
-							var f, p = (a || o || { length: 1 }).length;
-							if (a && o && a.length !== o.length) throw Error("Given keys array must have same length as given values array.");
-							if (p === 0) return e({
-								numFailures: 0,
-								failures: {},
-								results: [],
-								lastResult: void 0
-							});
-							function m(e) {
-								++_, Wt(e);
-							}
-							var h = [], g = [], _ = 0;
-							if (i === "deleteRange") {
-								if (s.type === 4) return e({
-									numFailures: _,
-									failures: g,
-									results: [],
-									lastResult: void 0
-								});
-								s.type === 3 ? h.push(f = l.clear()) : h.push(f = l.delete(r(s)));
-							} else {
-								var u = d ? u ? [o, a] : [o, null] : [a, null], v = u[0], y = u[1];
-								if (d) for (var b = 0; b < p; ++b) h.push(f = y && y[b] !== void 0 ? l[i](v[b], y[b]) : l[i](v[b])), f.onerror = m;
-								else for (b = 0; b < p; ++b) h.push(f = l[i](v[b])), f.onerror = m;
-							}
-							function x(t) {
-								t = t.target.result, h.forEach(function(e, t) {
-									return e.error != null && (g[t] = e.error);
-								}), e({
-									numFailures: _,
-									failures: g,
-									results: i === "delete" ? a : h.map(function(e) {
-										return e.result;
-									}),
-									lastResult: t
-								});
-							}
-							f.onerror = function(e) {
-								m(e), x(e);
-							}, f.onsuccess = x;
-						});
-					},
-					getMany: function(e) {
-						var t = e.trans, r = e.keys;
-						return new Promise(function(e, i) {
-							e = B(e);
-							for (var a, o = t.objectStore(n), s = r.length, c = Array(s), l = 0, u = 0, d = function(t) {
-								t = t.target, c[t._pos] = t.result, ++u === l && e(c);
-							}, f = Ut(i), p = 0; p < s; ++p) r[p] != null && ((a = o.get(r[p]))._pos = p, a.onsuccess = d, a.onerror = f, ++l);
-							l === 0 && e(c);
-						});
-					},
-					get: function(e) {
-						var t = e.trans, r = e.key;
-						return new Promise(function(e, i) {
-							e = B(e);
-							var a = t.objectStore(n).get(r);
-							a.onsuccess = function(t) {
-								return e(t.target.result);
-							}, a.onerror = Ut(i);
-						});
-					},
-					query: (t = u, function(e) {
-						return new Promise(function(i, a) {
-							i = B(i);
-							var o, s, c, l = e.trans, u = e.values, d = e.limit, f = e.query, p = d === Infinity ? void 0 : d, m = f.index, f = f.range, l = l.objectStore(n), m = m.isPrimaryKey ? l : l.index(m.name), f = r(f);
-							if (d === 0) return i({ result: [] });
-							t ? ((p = u ? m.getAll(f, p) : m.getAllKeys(f, p)).onsuccess = function(e) {
-								return i({ result: e.target.result });
-							}, p.onerror = Ut(a)) : (o = 0, s = !u && "openKeyCursor" in m ? m.openKeyCursor(f) : m.openCursor(f), c = [], s.onsuccess = function(e) {
-								var t = s.result;
-								return t ? (c.push(u ? t.value : t.primaryKey), ++o === d ? i({ result: c }) : void t.continue()) : i({ result: c });
-							}, s.onerror = Ut(a));
-						});
-					}),
-					openCursor: function(e) {
-						var t = e.trans, i = e.values, a = e.query, o = e.reverse, s = e.unique;
-						return new Promise(function(e, c) {
-							e = B(e);
-							var l = a.index, u = a.range, d = t.objectStore(n), d = l.isPrimaryKey ? d : d.index(l.name), l = o ? s ? "prevunique" : "prev" : s ? "nextunique" : "next", f = !i && "openKeyCursor" in d ? d.openKeyCursor(r(u), l) : d.openCursor(r(u), l);
-							f.onerror = Ut(c), f.onsuccess = B(function(n) {
-								var r, i, a, o, s = f.result;
-								s ? (s.___id = ++tn, s.done = !1, r = s.continue.bind(s), i = (i = s.continuePrimaryKey) && i.bind(s), a = s.advance.bind(s), o = function() {
-									throw Error("Cursor not stopped");
-								}, s.trans = t, s.stop = s.continue = s.continuePrimaryKey = s.advance = function() {
-									throw Error("Cursor not started");
-								}, s.fail = B(c), s.next = function() {
-									var e = this, t = 1;
-									return this.start(function() {
-										return t-- ? e.continue() : e.stop();
-									}).then(function() {
-										return e;
-									});
-								}, s.start = function(e) {
-									function t() {
-										if (f.result) try {
-											e();
-										} catch (e) {
-											s.fail(e);
-										}
-										else s.done = !0, s.start = function() {
-											throw Error("Cursor behind last entry");
-										}, s.stop();
-									}
-									var n = new Promise(function(e, t) {
-										e = B(e), f.onerror = Ut(t), s.fail = t, s.stop = function(t) {
-											s.stop = s.continue = s.continuePrimaryKey = s.advance = o, e(t);
-										};
-									});
-									return f.onsuccess = B(function(e) {
-										f.onsuccess = t, t();
-									}), s.continue = r, s.continuePrimaryKey = i, s.advance = a, t(), n;
-								}, e(s)) : e(null);
-							}, c);
-						});
-					},
-					count: function(e) {
-						var t = e.query, i = e.trans, a = t.index, o = t.range;
-						return new Promise(function(e, t) {
-							var s = i.objectStore(n), c = a.isPrimaryKey ? s : s.index(a.name), s = r(o), c = s ? c.count(s) : c.count();
-							c.onsuccess = B(function(t) {
-								return e(t.target.result);
-							}), c.onerror = Ut(t);
-						});
-					}
-				};
-			}
-			var o, s, c, l = (s = n, c = en((o = e).objectStoreNames), {
-				schema: {
-					name: o.name,
-					tables: c.map(function(e) {
-						return s.objectStore(e);
-					}).map(function(e) {
-						var t = e.keyPath, n = e.autoIncrement, r = a(t), i = {}, n = {
-							name: e.name,
-							primaryKey: {
-								name: null,
-								isPrimaryKey: !0,
-								outbound: t == null,
-								compound: r,
-								keyPath: t,
-								autoIncrement: n,
-								unique: !0,
-								extractKey: $t(t)
-							},
-							indexes: en(e.indexNames).map(function(t) {
-								return e.index(t);
-							}).map(function(e) {
-								var t = e.name, n = e.unique, r = e.multiEntry, e = e.keyPath, r = {
-									name: t,
-									compound: a(e),
-									keyPath: e,
-									unique: n,
-									multiEntry: r,
-									extractKey: $t(e)
-								};
-								return i[nn(e)] = r;
-							}),
-							getIndexByKeyPath: function(e) {
-								return i[nn(e)];
-							}
-						};
-						return i[":id"] = n.primaryKey, t != null && (i[nn(t)] = n.primaryKey), n;
-					})
-				},
-				hasGetAll: 0 < c.length && "getAll" in s.objectStore(c[0]) && !(typeof navigator < "u" && /Safari/.test(navigator.userAgent) && !/(Chrome\/|Edge\/)/.test(navigator.userAgent) && [].concat(navigator.userAgent.match(/Safari\/(\d*)/))[1] < 604)
-			}), n = l.schema, u = l.hasGetAll, l = n.tables.map(i), d = {};
-			return l.forEach(function(e) {
-				return d[e.name] = e;
-			}), {
-				stack: "dbcore",
-				transaction: e.transaction.bind(e),
-				table: function(e) {
-					if (!d[e]) throw Error(`Table '${e}' not found`);
-					return d[e];
-				},
-				MIN_KEY: -Infinity,
-				MAX_KEY: Qt(t),
-				schema: n
-			};
-		}
-		function an(e, n, r, i) {
-			var a = r.IDBKeyRange;
-			return r.indexedDB, { dbcore: (i = rn(n, a, i), e.dbcore.reduce(function(e, n) {
-				return n = n.create, t(t({}, e), n(e));
-			}, i)) };
-		}
-		function on(e, t) {
-			var n = t.db, t = an(e._middlewares, n, e._deps, t);
-			e.core = t.dbcore, e.tables.forEach(function(t) {
-				var n = t.name;
-				e.core.schema.tables.some(function(e) {
-					return e.name === n;
-				}) && (t.core = e.core.table(n), e[n] instanceof e.Table && (e[n].core = t.core));
-			});
-		}
-		function sn(e, t, n, r) {
-			n.forEach(function(n) {
-				var i = r[n];
-				t.forEach(function(t) {
-					var r = function e(t, n) {
-						return m(t, n) || (t = s(t)) && e(t, n);
-					}(t, n);
-					(!r || "value" in r && r.value === void 0) && (t === e.Transaction.prototype || t instanceof e.Transaction ? f(t, n, {
-						get: function() {
-							return this.table(n);
-						},
-						set: function(e) {
-							d(this, n, {
-								value: e,
-								writable: !0,
-								configurable: !0,
-								enumerable: !0
-							});
-						}
-					}) : t[n] = new e.Table(n, i));
-				});
-			});
-		}
-		function cn(e, t) {
-			t.forEach(function(t) {
-				for (var n in t) t[n] instanceof e.Table && delete t[n];
-			});
-		}
-		function ln(e, t) {
-			return e._cfg.version - t._cfg.version;
-		}
-		function un(e, t, n, r) {
-			var a = e._dbSchema;
-			n.objectStoreNames.contains("$meta") && !a.$meta && (a.$meta = Zt("$meta", vn("")[0], []), e._storeNames.push("$meta"));
-			var o = e._createTransaction("readwrite", e._storeNames, a);
-			o.create(n), o._completion.catch(r);
-			var s = o._reject.bind(o), c = R.transless || R;
-			Ze(function() {
-				return R.trans = o, R.transless = c, t === 0 ? (i(a).forEach(function(e) {
-					pn(n, e, a[e].primKey, a[e].indexes);
-				}), on(e, n), void z.follow(function() {
-					return e.on.populate.fire(o);
-				}).catch(s)) : (on(e, n), l = t, ((r = o).storeNames.includes("$meta") ? r.table("$meta").get("version").then(function(e) {
-					return e ?? l;
-				}) : z.resolve(l)).then(function(t) {
-					return a = t, s = o, c = n, l = [], t = (r = e)._versions, u = r._dbSchema = gn(0, r.idbdb, c), (t = t.filter(function(e) {
-						return e._cfg.version >= a;
-					})).length === 0 ? z.resolve() : (t.forEach(function(e) {
-						l.push(function() {
-							var t = u, n = e._cfg.dbschema;
-							_n(r, t, c), _n(r, n, c), u = r._dbSchema = n;
-							var o = fn(t, n);
-							o.add.forEach(function(e) {
-								pn(c, e[0], e[1].primKey, e[1].indexes);
-							}), o.change.forEach(function(e) {
-								if (e.recreate) throw new I.Upgrade("Not yet support for changing primary key");
-								var t = c.objectStore(e.name);
-								e.add.forEach(function(e) {
-									return hn(t, e);
-								}), e.change.forEach(function(e) {
-									t.deleteIndex(e.name), hn(t, e);
-								}), e.del.forEach(function(e) {
-									return t.deleteIndex(e);
-								});
-							});
-							var l = e._cfg.contentUpgrade;
-							if (l && e._cfg.version > a) {
-								on(r, c), s._memoizedTables = {};
-								var d = S(n);
-								o.del.forEach(function(e) {
-									d[e] = t[e];
-								}), cn(r, [r.Transaction.prototype]), sn(r, [r.Transaction.prototype], i(d), d), s.schema = d;
-								var f, p = re(l);
-								return p && Qe(), o = z.follow(function() {
-									var e;
-									(f = l(s)) && p && (e = $e.bind(null, null), f.then(e, e));
-								}), f && typeof f.then == "function" ? z.resolve(f) : o.then(function() {
-									return f;
-								});
-							}
-						}), l.push(function(t) {
-							var n = e._cfg.dbschema, i = t;
-							[].slice.call(i.db.objectStoreNames).forEach(function(e) {
-								return n[e] == null && i.db.deleteObjectStore(e);
-							}), cn(r, [r.Transaction.prototype]), sn(r, [r.Transaction.prototype], r._storeNames, r._dbSchema), s.schema = r._dbSchema;
-						}), l.push(function(t) {
-							r.idbdb.objectStoreNames.contains("$meta") && (Math.ceil(r.idbdb.version / 10) === e._cfg.version ? (r.idbdb.deleteObjectStore("$meta"), delete r._dbSchema.$meta, r._storeNames = r._storeNames.filter(function(e) {
-								return e !== "$meta";
-							})) : t.objectStore("$meta").put(e._cfg.version, "version"));
-						});
-					}), function e() {
-						return l.length ? z.resolve(l.shift()(s.idbtrans)).then(e) : z.resolve();
-					}().then(function() {
-						mn(u, c);
-					}));
-					var r, a, s, c, l, u;
-				}).catch(s));
-				var r, l;
-			});
-		}
-		function dn(e, t) {
-			mn(e._dbSchema, t), t.db.version % 10 != 0 || t.objectStoreNames.contains("$meta") || t.db.createObjectStore("$meta").add(Math.ceil(t.db.version / 10 - 1), "version");
-			var n = gn(0, e.idbdb, t);
-			_n(e, e._dbSchema, t);
-			for (var r = 0, i = fn(n, e._dbSchema).change; r < i.length; r++) {
-				var a = function(e) {
-					if (e.change.length || e.recreate) return console.warn(`Unable to patch indexes of table ${e.name} because it has changes on the type of index or primary key.`), { value: void 0 };
-					var n = t.objectStore(e.name);
-					e.add.forEach(function(t) {
-						be && console.debug(`Dexie upgrade patch: Creating missing index ${e.name}.${t.src}`), hn(n, t);
-					});
-				}(i[r]);
-				if (typeof a == "object") return a.value;
-			}
-		}
-		function fn(e, t) {
-			var n, r = {
-				del: [],
-				add: [],
-				change: []
-			};
-			for (n in e) t[n] || r.del.push(n);
-			for (n in t) {
-				var i = e[n], a = t[n];
-				if (i) {
-					var o = {
-						name: n,
-						def: a,
-						recreate: !1,
-						del: [],
-						add: [],
-						change: []
-					};
-					if ("" + (i.primKey.keyPath || "") != "" + (a.primKey.keyPath || "") || i.primKey.auto !== a.primKey.auto) o.recreate = !0, r.change.push(o);
-					else {
-						var s = i.idxByName, c = a.idxByName, l = void 0;
-						for (l in s) c[l] || o.del.push(l);
-						for (l in c) {
-							var u = s[l], d = c[l];
-							u ? u.src !== d.src && o.change.push(d) : o.add.push(d);
-						}
-						(0 < o.del.length || 0 < o.add.length || 0 < o.change.length) && r.change.push(o);
-					}
-				} else r.add.push([n, a]);
-			}
-			return r;
-		}
-		function pn(e, t, n, r) {
-			var i = e.db.createObjectStore(t, n.keyPath ? {
-				keyPath: n.keyPath,
-				autoIncrement: n.auto
-			} : { autoIncrement: n.auto });
-			return r.forEach(function(e) {
-				return hn(i, e);
-			}), i;
-		}
-		function mn(e, t) {
-			i(e).forEach(function(n) {
-				t.db.objectStoreNames.contains(n) || (be && console.debug("Dexie: Creating missing table", n), pn(t, n, e[n].primKey, e[n].indexes));
-			});
-		}
-		function hn(e, t) {
-			e.createIndex(t.name, t.keyPath, {
-				unique: t.unique,
-				multiEntry: t.multi
-			});
-		}
-		function gn(e, t, n) {
-			var r = {};
-			return g(t.objectStoreNames, 0).forEach(function(e) {
-				for (var t = n.objectStore(e), i = Yt(Xt(c = t.keyPath), c || "", !0, !1, !!t.autoIncrement, c && typeof c != "string", !0), a = [], o = 0; o < t.indexNames.length; ++o) {
-					var s = t.index(t.indexNames[o]), c = s.keyPath, s = Yt(s.name, c, !!s.unique, !!s.multiEntry, !1, c && typeof c != "string", !1);
-					a.push(s);
-				}
-				r[e] = Zt(e, i, a);
-			}), r;
-		}
-		function _n(e, t, n) {
-			for (var i = n.db.objectStoreNames, a = 0; a < i.length; ++a) {
-				var o = i[a], s = n.objectStore(o);
-				e._hasGetAll = "getAll" in s;
-				for (var c = 0; c < s.indexNames.length; ++c) {
-					var l = s.indexNames[c], u = s.index(l).keyPath, d = typeof u == "string" ? u : "[" + g(u).join("+") + "]";
-					!t[o] || (u = t[o].idxByName[d]) && (u.name = l, delete t[o].idxByName[d], t[o].idxByName[l] = u);
-				}
-			}
-			typeof navigator < "u" && /Safari/.test(navigator.userAgent) && !/(Chrome\/|Edge\/)/.test(navigator.userAgent) && r.WorkerGlobalScope && r instanceof r.WorkerGlobalScope && [].concat(navigator.userAgent.match(/Safari\/(\d*)/))[1] < 604 && (e._hasGetAll = !1);
-		}
-		function vn(e) {
-			return e.split(",").map(function(e, t) {
-				var n = e.split(":"), r = (i = n[1])?.trim(), i = (e = n[0].trim()).replace(/([&*]|\+\+)/g, ""), n = /^\[/.test(i) ? i.match(/^\[(.*)\]$/)[1].split("+") : i;
-				return Yt(i, n || null, /\&/.test(e), /\*/.test(e), /\+\+/.test(e), a(n), t === 0, r);
-			});
-		}
-		var yn = (bn.prototype._createTableSchema = Zt, bn.prototype._parseIndexSyntax = vn, bn.prototype._parseStoresSpec = function(e, t) {
-			var n = this;
-			i(e).forEach(function(r) {
-				if (e[r] !== null) {
-					var i = n._parseIndexSyntax(e[r]), a = i.shift();
-					if (!a) throw new I.Schema("Invalid schema for table " + r + ": " + e[r]);
-					if (a.unique = !0, a.multi) throw new I.Schema("Primary key cannot be multiEntry*");
-					i.forEach(function(e) {
-						if (e.auto) throw new I.Schema("Only primary key can be marked as autoIncrement (++)");
-						if (!e.keyPath) throw new I.Schema("Index must have a name and cannot be an empty string");
-					}), i = n._createTableSchema(r, a, i), t[r] = i;
-				}
-			});
-		}, bn.prototype.stores = function(e) {
-			var t = this.db;
-			this._cfg.storesSource = this._cfg.storesSource ? o(this._cfg.storesSource, e) : e;
-			var e = t._versions, n = {}, r = {};
-			return e.forEach(function(e) {
-				o(n, e._cfg.storesSource), r = e._cfg.dbschema = {}, e._parseStoresSpec(n, r);
-			}), t._dbSchema = r, cn(t, [
-				t._allTables,
-				t,
-				t.Transaction.prototype
-			]), sn(t, [
-				t._allTables,
-				t,
-				t.Transaction.prototype,
-				this._cfg.tables
-			], i(r), r), t._storeNames = i(r), this;
-		}, bn.prototype.upgrade = function(e) {
-			return this._cfg.contentUpgrade = ye(this._cfg.contentUpgrade || L, e), this;
-		}, bn);
-		function bn() {}
-		function xn(e, t) {
-			var n = e._dbNamesDB;
-			return n || (n = e._dbNamesDB = new ar(dt, {
-				addons: [],
-				indexedDB: e,
-				IDBKeyRange: t
-			})).version(1).stores({ dbnames: "name" }), n.table("dbnames");
-		}
-		function Sn(e) {
-			return e && typeof e.databases == "function";
-		}
-		function Cn(e) {
-			return Ze(function() {
-				return R.letThrough = !0, e();
-			});
-		}
-		function wn(e) {
-			return !("from" in e);
-		}
-		var Y = function(e, t) {
-			if (!this) {
-				var n = new Y();
-				return e && "d" in e && o(n, e), n;
-			}
-			o(this, arguments.length ? {
-				d: 1,
-				from: e,
-				to: 1 < arguments.length ? t : e
-			} : { d: 0 });
-		};
-		function Tn(e, t, n) {
-			var r = W(t, n);
-			if (!isNaN(r)) {
-				if (0 < r) throw RangeError();
-				if (wn(e)) return o(e, {
-					from: t,
-					to: n,
-					d: 1
-				});
-				var i = e.l, r = e.r;
-				if (W(n, e.from) < 0) return i ? Tn(i, t, n) : e.l = {
-					from: t,
-					to: n,
-					d: 1,
-					l: null,
-					r: null
-				}, kn(e);
-				if (0 < W(t, e.to)) return r ? Tn(r, t, n) : e.r = {
-					from: t,
-					to: n,
-					d: 1,
-					l: null,
-					r: null
-				}, kn(e);
-				W(t, e.from) < 0 && (e.from = t, e.l = null, e.d = r ? r.d + 1 : 1), 0 < W(n, e.to) && (e.to = n, e.r = null, e.d = e.l ? e.l.d + 1 : 1), n = !e.r, i && !e.l && En(e, i), r && n && En(e, r);
-			}
-		}
-		function En(e, t) {
-			wn(t) || function e(t, n) {
-				var r = n.from, i = n.to, a = n.l, n = n.r;
-				Tn(t, r, i), a && e(t, a), n && e(t, n);
-			}(e, t);
-		}
-		function Dn(e, t) {
-			var n = On(t), r = n.next();
-			if (r.done) return !1;
-			for (var i = r.value, a = On(e), o = a.next(i.from), s = o.value; !r.done && !o.done;) {
-				if (W(s.from, i.to) <= 0 && 0 <= W(s.to, i.from)) return !0;
-				W(i.from, s.from) < 0 ? i = (r = n.next(s.from)).value : s = (o = a.next(i.from)).value;
-			}
-			return !1;
-		}
-		function On(e) {
-			var t = wn(e) ? null : {
-				s: 0,
-				n: e
-			};
-			return { next: function(e) {
-				for (var n = 0 < arguments.length; t;) switch (t.s) {
-					case 0: if (t.s = 1, n) for (; t.n.l && W(e, t.n.from) < 0;) t = {
-						up: t,
-						n: t.n.l,
-						s: 1
-					};
-					else for (; t.n.l;) t = {
-						up: t,
-						n: t.n.l,
-						s: 1
-					};
-					case 1: if (t.s = 2, !n || W(e, t.n.to) <= 0) return {
-						value: t.n,
-						done: !1
-					};
-					case 2: if (t.n.r) {
-						t.s = 3, t = {
-							up: t,
-							n: t.n.r,
-							s: 0
-						};
-						continue;
-					}
-					case 3: t = t.up;
-				}
-				return { done: !0 };
-			} };
-		}
-		function kn(e) {
-			var n, r, i = ((n = e.r)?.d || 0) - ((r = e.l)?.d || 0), a = 1 < i ? "r" : i < -1 ? "l" : "";
-			a && (n = a == "r" ? "l" : "r", r = t({}, e), i = e[a], e.from = i.from, e.to = i.to, e[a] = i[a], r[a] = i[n], (e[n] = r).d = An(r)), e.d = An(e);
-		}
-		function An(e) {
-			var t = e.r, e = e.l;
-			return (t ? e ? Math.max(t.d, e.d) : t.d : e ? e.d : 0) + 1;
-		}
-		function jn(e, t) {
-			return i(t).forEach(function(n) {
-				e[n] ? En(e[n], t[n]) : e[n] = function e(t) {
-					var n, r, i = {};
-					for (n in t) l(t, n) && (r = t[n], i[n] = !r || typeof r != "object" || T.has(r.constructor) ? r : e(r));
-					return i;
-				}(t[n]);
-			}), e;
-		}
-		function Mn(e, t) {
-			return e.all || t.all || Object.keys(e).some(function(n) {
-				return t[n] && Dn(t[n], e[n]);
-			});
-		}
-		u(Y.prototype, ((P = {
-			add: function(e) {
-				return En(this, e), this;
-			},
-			addKey: function(e) {
-				return Tn(this, e, e), this;
-			},
-			addKeys: function(e) {
-				var t = this;
-				return e.forEach(function(e) {
-					return Tn(t, e, e);
-				}), this;
-			},
-			hasKey: function(e) {
-				var t = On(this).next(e).value;
-				return t && W(t.from, e) <= 0 && 0 <= W(t.to, e);
-			}
-		})[k] = function() {
-			return On(this);
-		}, P));
-		var Nn = {}, Pn = {}, Fn = !1;
-		function In(e) {
-			jn(Pn, e), Fn || (Fn = !0, setTimeout(function() {
-				Fn = !1, Ln(Pn, !(Pn = {}));
-			}, 0));
-		}
-		function Ln(e, t) {
-			t === void 0 && (t = !1);
-			var n = /* @__PURE__ */ new Set();
-			if (e.all) for (var r = 0, i = Object.values(Nn); r < i.length; r++) Rn(o = i[r], e, n, t);
-			else for (var a in e) {
-				var o, s = /^idb\:\/\/(.*)\/(.*)\//.exec(a);
-				s && (a = s[1], s = s[2], (o = Nn[`idb://${a}/${s}`]) && Rn(o, e, n, t));
-			}
-			n.forEach(function(e) {
-				return e();
-			});
-		}
-		function Rn(e, t, n, r) {
-			for (var i = [], a = 0, o = Object.entries(e.queries.query); a < o.length; a++) {
-				for (var s = o[a], c = s[0], l = [], u = 0, d = s[1]; u < d.length; u++) {
-					var f = d[u];
-					Mn(t, f.obsSet) ? f.subscribers.forEach(function(e) {
-						return n.add(e);
-					}) : r && l.push(f);
-				}
-				r && i.push([c, l]);
-			}
-			if (r) for (var p = 0, m = i; p < m.length; p++) {
-				var h = m[p], c = h[0], l = h[1];
-				e.queries.query[c] = l;
-			}
-		}
-		function zn(e) {
-			var t = e._state, n = e._deps.indexedDB;
-			if (t.isBeingOpened || e.idbdb) return t.dbReadyPromise.then(function() {
-				return t.dbOpenError ? U(t.dbOpenError) : e;
-			});
-			t.isBeingOpened = !0, t.dbOpenError = null, t.openComplete = !1;
-			var r = t.openCanceller, a = Math.round(10 * e.verno), o = !1;
-			function s() {
-				if (t.openCanceller !== r) throw new I.DatabaseClosed("db.open() was cancelled");
-			}
-			function c() {
-				return new z(function(r, l) {
-					if (s(), !n) throw new I.MissingAPI();
-					var u = e.name, p = t.autoSchema || !a ? n.open(u) : n.open(u, a);
-					if (!p) throw new I.MissingAPI();
-					p.onerror = Ut(l), p.onblocked = B(e._fireOnBlocked), p.onupgradeneeded = B(function(r) {
-						var i;
-						d = p.transaction, t.autoSchema && !e._options.allowEmptyDB ? (p.onerror = Wt, d.abort(), p.result.close(), (i = n.deleteDatabase(u)).onsuccess = i.onerror = B(function() {
-							l(new I.NoSuchDatabase(`Database ${u} doesnt exist`));
-						})) : (d.onerror = Ut(l), r = r.oldVersion > 2 ** 62 ? 0 : r.oldVersion, f = r < 1, e.idbdb = p.result, o && dn(e, d), un(e, r / 10, d, l));
-					}, l), p.onsuccess = B(function() {
-						d = null;
-						var n, s, l, m, h, _ = e.idbdb = p.result, v = g(_.objectStoreNames);
-						if (0 < v.length) try {
-							var y = _.transaction((m = v).length === 1 ? m[0] : m, "readonly");
-							if (t.autoSchema) s = _, l = y, (n = e).verno = s.version / 10, l = n._dbSchema = gn(0, s, l), n._storeNames = g(s.objectStoreNames, 0), sn(n, [n._allTables], i(l), l);
-							else if (_n(e, e._dbSchema, y), ((h = fn(gn(0, (h = e).idbdb, y), h._dbSchema)).add.length || h.change.some(function(e) {
-								return e.add.length || e.change.length;
-							})) && !o) return console.warn("Dexie SchemaDiff: Schema was extended without increasing the number passed to db.version(). Dexie will add missing parts and increment native version number to workaround this."), _.close(), a = _.version + 1, o = !0, r(c());
-							on(e, y);
-						} catch {}
-						ut.push(e), _.onversionchange = B(function(n) {
-							t.vcFired = !0, e.on("versionchange").fire(n);
-						}), _.onclose = B(function(t) {
-							e.on("close").fire(t);
-						}), f && (h = e._deps, y = u, _ = h.indexedDB, h = h.IDBKeyRange, Sn(_) || y === dt || xn(_, h).put({ name: y }).catch(L)), r();
-					}, l);
-				}).catch(function(e) {
-					switch (e?.name) {
-						case "UnknownError":
-							if (0 < t.PR1398_maxLoop) return t.PR1398_maxLoop--, console.warn("Dexie: Workaround for Chrome UnknownError on open()"), c();
-							break;
-						case "VersionError": if (0 < a) return a = 0, c();
-					}
-					return z.reject(e);
-				});
-			}
-			var l, u = t.dbReadyResolve, d = null, f = !1;
-			return z.race([r, (typeof navigator > "u" ? z.resolve() : !navigator.userAgentData && /Safari\//.test(navigator.userAgent) && !/Chrom(e|ium)\//.test(navigator.userAgent) && indexedDB.databases ? new Promise(function(e) {
-				function t() {
-					return indexedDB.databases().finally(e);
-				}
-				l = setInterval(t, 100), t();
-			}).finally(function() {
-				return clearInterval(l);
-			}) : Promise.resolve()).then(c)]).then(function() {
-				return s(), t.onReadyBeingFired = [], z.resolve(Cn(function() {
-					return e.on.ready.fire(e.vip);
-				})).then(function n() {
-					if (0 < t.onReadyBeingFired.length) {
-						var r = t.onReadyBeingFired.reduce(ye, L);
-						return t.onReadyBeingFired = [], z.resolve(Cn(function() {
-							return r(e.vip);
-						})).then(n);
-					}
-				});
-			}).finally(function() {
-				t.openCanceller === r && (t.onReadyBeingFired = null, t.isBeingOpened = !1);
-			}).catch(function(n) {
-				t.dbOpenError = n;
-				try {
-					d && d.abort();
-				} catch {}
-				return r === t.openCanceller && e._close(), U(n);
-			}).finally(function() {
-				t.openComplete = !0, u();
-			}).then(function() {
-				var t;
-				return f && (t = {}, e.tables.forEach(function(n) {
-					n.schema.indexes.forEach(function(r) {
-						r.name && (t[`idb://${e.name}/${n.name}/${r.name}`] = new Y(-Infinity, [[[]]]));
-					}), t[`idb://${e.name}/${n.name}/`] = t[`idb://${e.name}/${n.name}/:dels`] = new Y(-Infinity, [[[]]]);
-				}), qt(Gt).fire(t), Ln(t, !0)), e;
-			});
-		}
-		function Bn(e) {
-			function t(t) {
-				return e.next(t);
-			}
-			var n = i(t), r = i(function(t) {
-				return e.throw(t);
-			});
-			function i(e) {
-				return function(t) {
-					var i = e(t), t = i.value;
-					return i.done ? t : t && typeof t.then == "function" ? t.then(n, r) : a(t) ? Promise.all(t).then(n, r) : n(t);
-				};
-			}
-			return i(t)();
-		}
-		function Vn(e, t, n) {
-			for (var r = a(e) ? e.slice() : [e], i = 0; i < n; ++i) r.push(t);
-			return r;
-		}
-		var Hn = {
-			stack: "dbcore",
-			name: "VirtualIndexMiddleware",
-			level: 1,
-			create: function(e) {
-				return t(t({}, e), { table: function(n) {
-					var r = e.table(n), i = r.schema, a = {}, o = [];
-					function s(e, n, r) {
-						var i = nn(e), c = a[i] = a[i] || [], l = e == null ? 0 : typeof e == "string" ? 1 : e.length, u = 0 < n, u = t(t({}, r), {
-							name: u ? `${i}(virtual-from:${r.name})` : r.name,
-							lowLevelIndex: r,
-							isVirtual: u,
-							keyTail: n,
-							keyLength: l,
-							extractKey: $t(e),
-							unique: !u && r.unique
-						});
-						return c.push(u), u.isPrimaryKey || o.push(u), 1 < l && s(l === 2 ? e[0] : e.slice(0, l - 1), n + 1, r), c.sort(function(e, t) {
-							return e.keyTail - t.keyTail;
-						}), u;
-					}
-					n = s(i.primaryKey.keyPath, 0, i.primaryKey), a[":id"] = [n];
-					for (var c = 0, l = i.indexes; c < l.length; c++) {
-						var u = l[c];
-						s(u.keyPath, 0, u);
-					}
-					function d(n) {
-						var r, i = n.query.index;
-						return i.isVirtual ? t(t({}, n), { query: {
-							index: i.lowLevelIndex,
-							range: (r = n.query.range, i = i.keyTail, {
-								type: r.type === 1 ? 2 : r.type,
-								lower: Vn(r.lower, r.lowerOpen ? e.MAX_KEY : e.MIN_KEY, i),
-								lowerOpen: !0,
-								upper: Vn(r.upper, r.upperOpen ? e.MIN_KEY : e.MAX_KEY, i),
-								upperOpen: !0
-							})
-						} }) : n;
-					}
-					return t(t({}, r), {
-						schema: t(t({}, i), {
-							primaryKey: n,
-							indexes: o,
-							getIndexByKeyPath: function(e) {
-								return (e = a[nn(e)]) && e[0];
-							}
-						}),
-						count: function(e) {
-							return r.count(d(e));
-						},
-						query: function(e) {
-							return r.query(d(e));
-						},
-						openCursor: function(t) {
-							var n = t.query.index, i = n.keyTail, a = n.isVirtual, o = n.keyLength;
-							return a ? r.openCursor(d(t)).then(function(e) {
-								return e && s(e);
-							}) : r.openCursor(t);
-							function s(n) {
-								return Object.create(n, {
-									continue: { value: function(r) {
-										r == null ? t.unique ? n.continue(n.key.slice(0, o).concat(t.reverse ? e.MIN_KEY : e.MAX_KEY, i)) : n.continue() : n.continue(Vn(r, t.reverse ? e.MAX_KEY : e.MIN_KEY, i));
-									} },
-									continuePrimaryKey: { value: function(t, r) {
-										n.continuePrimaryKey(Vn(t, e.MAX_KEY, i), r);
-									} },
-									primaryKey: { get: function() {
-										return n.primaryKey;
-									} },
-									key: { get: function() {
-										var e = n.key;
-										return o === 1 ? e[0] : e.slice(0, o);
-									} },
-									value: { get: function() {
-										return n.value;
-									} }
-								});
-							}
-						}
-					});
-				} });
-			}
-		};
-		function Un(e, t, n, r) {
-			return n ||= {}, r ||= "", i(e).forEach(function(i) {
-				var a, o, s;
-				l(t, i) ? (a = e[i], o = t[i], typeof a == "object" && typeof o == "object" && a && o ? (s = O(a)) === O(o) ? s === "Object" ? Un(a, o, n, r + i + ".") : a !== o && (n[r + i] = t[i]) : n[r + i] = t[i] : a !== o && (n[r + i] = t[i])) : n[r + i] = void 0;
-			}), i(t).forEach(function(i) {
-				l(e, i) || (n[r + i] = t[i]);
-			}), n;
-		}
-		function Wn(e, t) {
-			return t.type === "delete" ? t.keys : t.keys || t.values.map(e.extractKey);
-		}
-		var Gn = {
-			stack: "dbcore",
-			name: "HooksMiddleware",
-			level: 2,
-			create: function(e) {
-				return t(t({}, e), { table: function(r) {
-					var i = e.table(r), a = i.schema.primaryKey;
-					return t(t({}, i), { mutate: function(e) {
-						var o = R.trans, s = o.table(r).hook, c = s.deleting, u = s.creating, d = s.updating;
-						switch (e.type) {
-							case "add":
-								if (u.fire === L) break;
-								return o._promise("readwrite", function() {
-									return f(e);
-								}, !0);
-							case "put":
-								if (u.fire === L && d.fire === L) break;
-								return o._promise("readwrite", function() {
-									return f(e);
-								}, !0);
-							case "delete":
-								if (c.fire === L) break;
-								return o._promise("readwrite", function() {
-									return f(e);
-								}, !0);
-							case "deleteRange":
-								if (c.fire === L) break;
-								return o._promise("readwrite", function() {
-									return function e(n, r, o) {
-										return i.query({
-											trans: n,
-											values: !1,
-											query: {
-												index: a,
-												range: r
-											},
-											limit: o
-										}).then(function(i) {
-											var a = i.result;
-											return f({
-												type: "delete",
-												keys: a,
-												trans: n
-											}).then(function(i) {
-												return 0 < i.numFailures ? Promise.reject(i.failures[0]) : a.length < o ? {
-													failures: [],
-													numFailures: 0,
-													lastResult: void 0
-												} : e(n, t(t({}, r), {
-													lower: a[a.length - 1],
-													lowerOpen: !0
-												}), o);
-											});
-										});
-									}(e.trans, e.range, 1e4);
-								}, !0);
-						}
-						return i.mutate(e);
-						function f(e) {
-							var r, o, s, f = R.trans, p = e.keys || Wn(a, e);
-							if (!p) throw Error("Keys missing");
-							return (e = e.type === "add" || e.type === "put" ? t(t({}, e), { keys: p }) : t({}, e)).type !== "delete" && (e.values = n([], e.values, !0)), e.keys &&= n([], e.keys, !0), r = i, s = p, ((o = e).type === "add" ? Promise.resolve([]) : r.getMany({
-								trans: o.trans,
-								keys: s,
-								cache: "immutable"
-							})).then(function(t) {
-								var n = p.map(function(n, r) {
-									var i, o, s, p = t[r], m = {
-										onerror: null,
-										onsuccess: null
-									};
-									return e.type === "delete" ? c.fire.call(m, n, p, f) : e.type === "add" || p === void 0 ? (i = u.fire.call(m, n, e.values[r], f), n == null && i != null && (e.keys[r] = n = i, a.outbound || x(e.values[r], a.keyPath, n))) : (i = Un(p, e.values[r]), (o = d.fire.call(m, i, n, p, f)) && (s = e.values[r], Object.keys(o).forEach(function(e) {
-										l(s, e) ? s[e] = o[e] : x(s, e, o[e]);
-									}))), m;
-								});
-								return i.mutate(e).then(function(r) {
-									for (var i = r.failures, a = r.results, o = r.numFailures, r = r.lastResult, s = 0; s < p.length; ++s) {
-										var c = (a || p)[s], l = n[s];
-										c == null ? l.onerror && l.onerror(i[s]) : l.onsuccess && l.onsuccess(e.type === "put" && t[s] ? e.values[s] : c);
-									}
-									return {
-										failures: i,
-										results: a,
-										numFailures: o,
-										lastResult: r
-									};
-								}).catch(function(e) {
-									return n.forEach(function(t) {
-										return t.onerror && t.onerror(e);
-									}), Promise.reject(e);
-								});
-							});
-						}
-					} });
-				} });
-			}
-		};
-		function Kn(e, t, n) {
-			try {
-				if (!t || t.keys.length < e.length) return null;
-				for (var r = [], i = 0, a = 0; i < t.keys.length && a < e.length; ++i) W(t.keys[i], e[a]) === 0 && (r.push(n ? E(t.values[i]) : t.values[i]), ++a);
-				return r.length === e.length ? r : null;
-			} catch {
-				return null;
-			}
-		}
-		var qn = {
-			stack: "dbcore",
-			level: -1,
-			create: function(e) {
-				return { table: function(n) {
-					var r = e.table(n);
-					return t(t({}, r), {
-						getMany: function(e) {
-							if (!e.cache) return r.getMany(e);
-							var t = Kn(e.keys, e.trans._cache, e.cache === "clone");
-							return t ? z.resolve(t) : r.getMany(e).then(function(t) {
-								return e.trans._cache = {
-									keys: e.keys,
-									values: e.cache === "clone" ? E(t) : t
-								}, t;
-							});
-						},
-						mutate: function(e) {
-							return e.type !== "add" && (e.trans._cache = null), r.mutate(e);
-						}
-					});
-				} };
-			}
-		};
-		function Jn(e, t) {
-			return e.trans.mode === "readonly" && !!e.subscr && !e.trans.explicit && e.trans.db._options.cache !== "disabled" && !t.schema.primaryKey.outbound;
-		}
-		function Yn(e, t) {
-			switch (e) {
-				case "query": return t.values && !t.unique;
-				case "get":
-				case "getMany":
-				case "count":
-				case "openCursor": return !1;
-			}
-		}
-		var Xn = {
-			stack: "dbcore",
-			level: 0,
-			name: "Observability",
-			create: function(e) {
-				var n = e.schema.name, r = new Y(e.MIN_KEY, e.MAX_KEY);
-				return t(t({}, e), {
-					transaction: function(t, n, r) {
-						if (R.subscr && n !== "readonly") throw new I.ReadOnly(`Readwrite transaction in liveQuery context. Querier source: ${R.querier}`);
-						return e.transaction(t, n, r);
-					},
-					table: function(o) {
-						var s = e.table(o), c = s.schema, l = c.primaryKey, u = c.indexes, d = l.extractKey, f = l.outbound, p = l.autoIncrement && u.filter(function(e) {
-							return e.compound && e.keyPath.includes(l.keyPath);
-						}), m = t(t({}, s), { mutate: function(t) {
-							function i(e) {
-								return e = `idb://${n}/${o}/${e}`, h[e] || (h[e] = new Y());
-							}
-							var u, d, f, m = t.trans, h = t.mutatedParts ||= {}, g = i(""), _ = i(":dels"), v = t.type, y = t.type === "deleteRange" ? [t.range] : t.type === "delete" ? [t.keys] : t.values.length < 50 ? [Wn(l, t).filter(function(e) {
-								return e;
-							}), t.values] : [], b = y[0], x = y[1], y = t.trans._cache;
-							return a(b) ? (g.addKeys(b), (y = v === "delete" || b.length === x.length ? Kn(b, y) : null) || _.addKeys(b), (y || x) && (u = i, d = y, f = x, c.indexes.forEach(function(e) {
-								var t = u(e.name || "");
-								function n(t) {
-									return t == null ? null : e.extractKey(t);
-								}
-								function r(n) {
-									return e.multiEntry && a(n) ? n.forEach(function(e) {
-										return t.addKey(e);
-									}) : t.addKey(n);
-								}
-								(d || f).forEach(function(e, t) {
-									var i = d && n(d[t]), t = f && n(f[t]);
-									W(i, t) !== 0 && (i != null && r(i), t != null && r(t));
-								});
-							}))) : b ? (x = {
-								from: (x = b.lower) ?? e.MIN_KEY,
-								to: (x = b.upper) ?? e.MAX_KEY
-							}, _.add(x), g.add(x)) : (g.add(r), _.add(r), c.indexes.forEach(function(e) {
-								return i(e.name).add(r);
-							})), s.mutate(t).then(function(e) {
-								return !b || t.type !== "add" && t.type !== "put" || (g.addKeys(e.results), p && p.forEach(function(n) {
-									for (var r = t.values.map(function(e) {
-										return n.extractKey(e);
-									}), a = n.keyPath.findIndex(function(e) {
-										return e === l.keyPath;
-									}), o = 0, s = e.results.length; o < s; ++o) r[o][a] = e.results[o];
-									i(n.name).addKeys(r);
-								})), m.mutatedParts = jn(m.mutatedParts || {}, h), e;
-							});
-						} }), u = function(t) {
-							var n = t.query, t = n.index, n = n.range;
-							return [t, new Y((t = n.lower) ?? e.MIN_KEY, (n = n.upper) ?? e.MAX_KEY)];
-						}, h = {
-							get: function(e) {
-								return [l, new Y(e.key)];
-							},
-							getMany: function(e) {
-								return [l, new Y().addKeys(e.keys)];
-							},
-							count: u,
-							query: u,
-							openCursor: u
-						};
-						return i(h).forEach(function(e) {
-							m[e] = function(i) {
-								var a = R.subscr, c = !!a, l = Jn(R, s) && Yn(e, i) ? i.obsSet = {} : a;
-								if (c) {
-									var u = function(e) {
-										return e = `idb://${n}/${o}/${e}`, l[e] || (l[e] = new Y());
-									}, p = u(""), m = u(":dels"), a = h[e](i), c = a[0], a = a[1];
-									if ((e === "query" && c.isPrimaryKey && !i.values ? m : u(c.name || "")).add(a), !c.isPrimaryKey) {
-										if (e !== "count") {
-											var g = e === "query" && f && i.values && s.query(t(t({}, i), { values: !1 }));
-											return s[e].apply(this, arguments).then(function(t) {
-												if (e === "query") {
-													if (f && i.values) return g.then(function(e) {
-														return e = e.result, p.addKeys(e), t;
-													});
-													var n = i.values ? t.result.map(d) : t.result;
-													(i.values ? p : m).addKeys(n);
-												} else if (e === "openCursor") {
-													var r = t, a = i.values;
-													return r && Object.create(r, {
-														key: { get: function() {
-															return m.addKey(r.primaryKey), r.key;
-														} },
-														primaryKey: { get: function() {
-															var e = r.primaryKey;
-															return m.addKey(e), e;
-														} },
-														value: { get: function() {
-															return a && p.addKey(r.primaryKey), r.value;
-														} }
-													});
-												}
-												return t;
-											});
-										}
-										m.add(r);
-									}
-								}
-								return s[e].apply(this, arguments);
-							};
-						}), m;
-					}
-				});
-			}
-		};
-		function Zn(e, n, r) {
-			if (r.numFailures === 0) return n;
-			if (n.type === "deleteRange") return null;
-			var i = n.keys ? n.keys.length : "values" in n && n.values ? n.values.length : 1;
-			return r.numFailures === i ? null : (n = t({}, n), a(n.keys) && (n.keys = n.keys.filter(function(e, t) {
-				return !(t in r.failures);
-			})), "values" in n && a(n.values) && (n.values = n.values.filter(function(e, t) {
-				return !(t in r.failures);
-			})), n);
-		}
-		function Qn(e, t) {
-			return n = e, ((r = t).lower === void 0 || (r.lowerOpen ? 0 < W(n, r.lower) : 0 <= W(n, r.lower))) && (e = e, (t = t).upper === void 0 || (t.upperOpen ? W(e, t.upper) < 0 : W(e, t.upper) <= 0));
-			var n, r;
-		}
-		function $n(e, t, n, r, i, o) {
-			if (!n || n.length === 0) return e;
-			var s = t.query.index, c = s.multiEntry, l = t.query.range, u = r.schema.primaryKey.extractKey, d = s.extractKey, f = (s.lowLevelIndex || s).extractKey, n = n.reduce(function(e, n) {
-				var r = e, i = [];
-				if (n.type === "add" || n.type === "put") for (var o = new Y(), s = n.values.length - 1; 0 <= s; --s) {
-					var f, p = n.values[s], m = u(p);
-					o.hasKey(m) || (f = d(p), (c && a(f) ? f.some(function(e) {
-						return Qn(e, l);
-					}) : Qn(f, l)) && (o.addKey(m), i.push(p)));
-				}
-				switch (n.type) {
-					case "add":
-						var h = new Y().addKeys(t.values ? e.map(function(e) {
-							return u(e);
-						}) : e), r = e.concat(t.values ? i.filter(function(e) {
-							return e = u(e), !h.hasKey(e) && (h.addKey(e), !0);
-						}) : i.map(function(e) {
-							return u(e);
-						}).filter(function(e) {
-							return !h.hasKey(e) && (h.addKey(e), !0);
-						}));
-						break;
-					case "put":
-						var g = new Y().addKeys(n.values.map(function(e) {
-							return u(e);
-						}));
-						r = e.filter(function(e) {
-							return !g.hasKey(t.values ? u(e) : e);
-						}).concat(t.values ? i : i.map(function(e) {
-							return u(e);
-						}));
-						break;
-					case "delete":
-						var _ = new Y().addKeys(n.keys);
-						r = e.filter(function(e) {
-							return !_.hasKey(t.values ? u(e) : e);
-						});
-						break;
-					case "deleteRange":
-						var v = n.range;
-						r = e.filter(function(e) {
-							return !Qn(u(e), v);
-						});
-				}
-				return r;
-			}, e);
-			return n === e ? e : (n.sort(function(e, t) {
-				return W(f(e), f(t)) || W(u(e), u(t));
-			}), t.limit && t.limit < Infinity && (n.length > t.limit ? n.length = t.limit : e.length === t.limit && n.length < t.limit && (i.dirty = !0)), o ? Object.freeze(n) : n);
-		}
-		function er(e, t) {
-			return W(e.lower, t.lower) === 0 && W(e.upper, t.upper) === 0 && !!e.lowerOpen == !!t.lowerOpen && !!e.upperOpen == !!t.upperOpen;
-		}
-		function tr(e, t) {
-			return function(e, t, n, r) {
-				if (e === void 0) return t === void 0 ? 0 : -1;
-				if (t === void 0) return 1;
-				if ((t = W(e, t)) === 0) {
-					if (n && r) return 0;
-					if (n) return 1;
-					if (r) return -1;
-				}
-				return t;
-			}(e.lower, t.lower, e.lowerOpen, t.lowerOpen) <= 0 && 0 <= function(e, t, n, r) {
-				if (e === void 0) return t === void 0 ? 0 : 1;
-				if (t === void 0) return -1;
-				if ((t = W(e, t)) === 0) {
-					if (n && r) return 0;
-					if (n) return -1;
-					if (r) return 1;
-				}
-				return t;
-			}(e.upper, t.upper, e.upperOpen, t.upperOpen);
-		}
-		function nr(e, t, n, r) {
-			e.subscribers.add(n), r.addEventListener("abort", function() {
-				var r, i;
-				e.subscribers.delete(n), e.subscribers.size === 0 && (r = e, i = t, setTimeout(function() {
-					r.subscribers.size === 0 && ne(i, r);
-				}, 3e3));
-			});
-		}
-		var rr = {
-			stack: "dbcore",
-			level: 0,
-			name: "Cache",
-			create: function(e) {
-				var n = e.schema.name;
-				return t(t({}, e), {
-					transaction: function(t, r, i) {
-						var a, o, s = e.transaction(t, r, i);
-						return r === "readwrite" && (o = (a = new AbortController()).signal, i = function(i) {
-							return function() {
-								if (a.abort(), r === "readwrite") {
-									for (var o = /* @__PURE__ */ new Set(), c = 0, l = t; c < l.length; c++) {
-										var u = l[c], d = Nn[`idb://${n}/${u}`];
-										if (d) {
-											var f = e.table(u), p = d.optimisticOps.filter(function(e) {
-												return e.trans === s;
-											});
-											if (s._explicit && i && s.mutatedParts) for (var m = 0, h = Object.values(d.queries.query); m < h.length; m++) for (var g = 0, _ = (b = h[m]).slice(); g < _.length; g++) Mn((x = _[g]).obsSet, s.mutatedParts) && (ne(b, x), x.subscribers.forEach(function(e) {
-												return o.add(e);
-											}));
-											else if (0 < p.length) {
-												d.optimisticOps = d.optimisticOps.filter(function(e) {
-													return e.trans !== s;
-												});
-												for (var v = 0, y = Object.values(d.queries.query); v < y.length; v++) for (var b, x, S, C = 0, ee = (b = y[v]).slice(); C < ee.length; C++) (x = ee[C]).res != null && s.mutatedParts && (i && !x.dirty ? (S = Object.isFrozen(x.res), S = $n(x.res, x.req, p, f, x, S), x.dirty ? (ne(b, x), x.subscribers.forEach(function(e) {
-													return o.add(e);
-												})) : S !== x.res && (x.res = S, x.promise = z.resolve({ result: S }))) : (x.dirty && ne(b, x), x.subscribers.forEach(function(e) {
-													return o.add(e);
-												})));
-											}
-										}
-									}
-									o.forEach(function(e) {
-										return e();
-									});
-								}
-							};
-						}, s.addEventListener("abort", i(!1), { signal: o }), s.addEventListener("error", i(!1), { signal: o }), s.addEventListener("complete", i(!0), { signal: o })), s;
-					},
-					table: function(r) {
-						var i = e.table(r), a = i.schema.primaryKey;
-						return t(t({}, i), {
-							mutate: function(e) {
-								var o = R.trans;
-								if (a.outbound || o.db._options.cache === "disabled" || o.explicit || o.idbtrans.mode !== "readwrite") return i.mutate(e);
-								var s = Nn[`idb://${n}/${r}`];
-								return s ? (o = i.mutate(e), e.type !== "add" && e.type !== "put" || !(50 <= e.values.length || Wn(a, e).some(function(e) {
-									return e == null;
-								})) ? (s.optimisticOps.push(e), e.mutatedParts && In(e.mutatedParts), o.then(function(t) {
-									0 < t.numFailures && (ne(s.optimisticOps, e), (t = Zn(0, e, t)) && s.optimisticOps.push(t), e.mutatedParts && In(e.mutatedParts));
-								}), o.catch(function() {
-									ne(s.optimisticOps, e), e.mutatedParts && In(e.mutatedParts);
-								})) : o.then(function(n) {
-									var r = Zn(0, t(t({}, e), { values: e.values.map(function(e, r) {
-										var i;
-										return n.failures[r] ? e : (e = (i = a.keyPath) != null && i.includes(".") ? E(e) : t({}, e), x(e, a.keyPath, n.results[r]), e);
-									}) }), n);
-									s.optimisticOps.push(r), queueMicrotask(function() {
-										return e.mutatedParts && In(e.mutatedParts);
-									});
-								}), o) : i.mutate(e);
-							},
-							query: function(e) {
-								if (!Jn(R, i) || !Yn("query", e)) return i.query(e);
-								var t = (c = R.trans)?.db._options.cache === "immutable", a = R, o = a.requery, s = a.signal, c = function(e, t, n, r) {
-									var i = Nn[`idb://${e}/${t}`];
-									if (!i) return [];
-									if (!(t = i.queries[n])) return [
-										null,
-										!1,
-										i,
-										null
-									];
-									var a = t[(r.query ? r.query.index.name : null) || ""];
-									if (!a) return [
-										null,
-										!1,
-										i,
-										null
-									];
-									switch (n) {
-										case "query":
-											var o = a.find(function(e) {
-												return e.req.limit === r.limit && e.req.values === r.values && er(e.req.query.range, r.query.range);
-											});
-											return o ? [
-												o,
-												!0,
-												i,
-												a
-											] : [
-												a.find(function(e) {
-													return ("limit" in e.req ? e.req.limit : Infinity) >= r.limit && (!r.values || e.req.values) && tr(e.req.query.range, r.query.range);
-												}),
-												!1,
-												i,
-												a
-											];
-										case "count": return o = a.find(function(e) {
-											return er(e.req.query.range, r.query.range);
-										}), [
-											o,
-											!!o,
-											i,
-											a
-										];
-									}
-								}(n, r, "query", e), l = c[0], a = c[1], u = c[2], d = c[3];
-								return l && a ? l.obsSet = e.obsSet : (a = i.query(e).then(function(e) {
-									var n = e.result;
-									if (l && (l.res = n), t) {
-										for (var r = 0, i = n.length; r < i; ++r) Object.freeze(n[r]);
-										Object.freeze(n);
-									} else e.result = E(n);
-									return e;
-								}).catch(function(e) {
-									return d && l && ne(d, l), Promise.reject(e);
-								}), l = {
-									obsSet: e.obsSet,
-									promise: a,
-									subscribers: /* @__PURE__ */ new Set(),
-									type: "query",
-									req: e,
-									dirty: !1
-								}, d ? d.push(l) : (d = [l], (u ||= Nn[`idb://${n}/${r}`] = {
-									queries: {
-										query: {},
-										count: {}
-									},
-									objs: /* @__PURE__ */ new Map(),
-									optimisticOps: [],
-									unsignaledParts: {}
-								}).queries.query[e.query.index.name || ""] = d)), nr(l, d, o, s), l.promise.then(function(n) {
-									return { result: $n(n.result, e, u?.optimisticOps, i, l, t) };
-								});
-							}
-						});
-					}
-				});
-			}
-		};
-		function ir(e, t) {
-			return new Proxy(e, { get: function(e, n, r) {
-				return n === "db" ? t : Reflect.get(e, n, r);
-			} });
-		}
-		var ar = (X.prototype.version = function(e) {
-			if (isNaN(e) || e < .1) throw new I.Type("Given version is not a positive number");
-			if (e = Math.round(10 * e) / 10, this.idbdb || this._state.isBeingOpened) throw new I.Schema("Cannot add version when database is open");
-			this.verno = Math.max(this.verno, e);
-			var t = this._versions, n = t.filter(function(t) {
-				return t._cfg.version === e;
-			})[0];
-			return n || (n = new this.Version(e), t.push(n), t.sort(ln), n.stores({}), this._state.autoSchema = !1, n);
-		}, X.prototype._whenReady = function(e) {
-			var t = this;
-			return this.idbdb && (this._state.openComplete || R.letThrough || this._vip) ? e() : new z(function(e, n) {
-				if (t._state.openComplete) return n(new I.DatabaseClosed(t._state.dbOpenError));
-				if (!t._state.isBeingOpened) {
-					if (!t._state.autoOpen) return void n(new I.DatabaseClosed());
-					t.open().catch(L);
-				}
-				t._state.dbReadyPromise.then(e, n);
-			}).then(e);
-		}, X.prototype.use = function(e) {
-			var t = e.stack, n = e.create, r = e.level, i = e.name;
-			return i && this.unuse({
-				stack: t,
-				name: i
-			}), e = this._middlewares[t] || (this._middlewares[t] = []), e.push({
-				stack: t,
-				create: n,
-				level: r ?? 10,
-				name: i
-			}), e.sort(function(e, t) {
-				return e.level - t.level;
-			}), this;
-		}, X.prototype.unuse = function(e) {
-			var t = e.stack, n = e.name, r = e.create;
-			return t && this._middlewares[t] && (this._middlewares[t] = this._middlewares[t].filter(function(e) {
-				return r ? e.create !== r : !!n && e.name !== n;
-			})), this;
-		}, X.prototype.open = function() {
-			var e = this;
-			return it(Me, function() {
-				return zn(e);
-			});
-		}, X.prototype._close = function() {
-			this.on.close.fire(new CustomEvent("close"));
-			var e = this._state, t = ut.indexOf(this);
-			if (0 <= t && ut.splice(t, 1), this.idbdb) {
-				try {
-					this.idbdb.close();
-				} catch {}
-				this.idbdb = null;
-			}
-			e.isBeingOpened || (e.dbReadyPromise = new z(function(t) {
-				e.dbReadyResolve = t;
-			}), e.openCanceller = new z(function(t, n) {
-				e.cancelOpen = n;
-			}));
-		}, X.prototype.close = function(e) {
-			var t = (e === void 0 ? { disableAutoOpen: !0 } : e).disableAutoOpen, e = this._state;
-			t ? (e.isBeingOpened && e.cancelOpen(new I.DatabaseClosed()), this._close(), e.autoOpen = !1, e.dbOpenError = new I.DatabaseClosed()) : (this._close(), e.autoOpen = this._options.autoOpen || e.isBeingOpened, e.openComplete = !1, e.dbOpenError = null);
-		}, X.prototype.delete = function(e) {
-			var t = this;
-			e === void 0 && (e = { disableAutoOpen: !0 });
-			var n = 0 < arguments.length && typeof arguments[0] != "object", r = this._state;
-			return new z(function(i, a) {
-				function o() {
-					t.close(e);
-					var n = t._deps.indexedDB.deleteDatabase(t.name);
-					n.onsuccess = B(function() {
-						var e = t._deps, n = t.name, r = e.indexedDB;
-						e = e.IDBKeyRange, Sn(r) || n === dt || xn(r, e).delete(n).catch(L), i();
-					}), n.onerror = Ut(a), n.onblocked = t._fireOnBlocked;
-				}
-				if (n) throw new I.InvalidArgument("Invalid closeOptions argument to db.delete()");
-				r.isBeingOpened ? r.dbReadyPromise.then(o) : o();
-			});
-		}, X.prototype.backendDB = function() {
-			return this.idbdb;
-		}, X.prototype.isOpen = function() {
-			return this.idbdb !== null;
-		}, X.prototype.hasBeenClosed = function() {
-			var e = this._state.dbOpenError;
-			return e && e.name === "DatabaseClosed";
-		}, X.prototype.hasFailed = function() {
-			return this._state.dbOpenError !== null;
-		}, X.prototype.dynamicallyOpened = function() {
-			return this._state.autoSchema;
-		}, Object.defineProperty(X.prototype, "tables", {
-			get: function() {
-				var e = this;
-				return i(this._allTables).map(function(t) {
-					return e._allTables[t];
-				});
-			},
-			enumerable: !1,
-			configurable: !0
-		}), X.prototype.transaction = function() {
-			var e = function(e, t, n) {
-				var r = arguments.length;
-				if (r < 2) throw new I.InvalidArgument("Too few arguments");
-				for (var i = Array(r - 1); --r;) i[r - 1] = arguments[r];
-				return n = i.pop(), [
-					e,
-					ee(i),
-					n
-				];
-			}.apply(this, arguments);
-			return this._transaction.apply(this, e);
-		}, X.prototype._transaction = function(e, t, n) {
-			var r = this, i = R.trans;
-			i && i.db === this && e.indexOf("!") === -1 || (i = null);
-			var a, o, s = e.indexOf("?") !== -1;
-			e = e.replace("!", "").replace("?", "");
-			try {
-				if (o = t.map(function(e) {
-					if (e = e instanceof r.Table ? e.name : e, typeof e != "string") throw TypeError("Invalid table argument to Dexie.transaction(). Only Table or String are allowed");
-					return e;
-				}), e == "r" || e === ft) a = ft;
-				else {
-					if (e != "rw" && e != pt) throw new I.InvalidArgument("Invalid transaction mode: " + e);
-					a = pt;
-				}
-				if (i) {
-					if (i.mode === ft && a === pt) {
-						if (!s) throw new I.SubTransaction("Cannot enter a sub-transaction with READWRITE mode when parent transaction is READONLY");
-						i = null;
-					}
-					i && o.forEach(function(e) {
-						if (i && i.storeNames.indexOf(e) === -1) {
-							if (!s) throw new I.SubTransaction("Table " + e + " not included in parent transaction.");
-							i = null;
-						}
-					}), s && i && !i.active && (i = null);
-				}
-			} catch (e) {
-				return i ? i._promise(null, function(t, n) {
-					n(e);
-				}) : U(e);
-			}
-			var c = function e(t, n, r, i, a) {
-				return z.resolve().then(function() {
-					var o = R.transless || R, s = t._createTransaction(n, r, t._dbSchema, i);
-					if (s.explicit = !0, o = {
-						trans: s,
-						transless: o
-					}, i) s.idbtrans = i.idbtrans;
-					else try {
-						s.create(), s.idbtrans._explicit = !0, t._state.PR1398_maxLoop = 3;
-					} catch (i) {
-						return i.name === ce.InvalidState && t.isOpen() && 0 < --t._state.PR1398_maxLoop ? (console.warn("Dexie: Need to reopen db"), t.close({ disableAutoOpen: !1 }), t.open().then(function() {
-							return e(t, n, r, null, a);
-						})) : U(i);
-					}
-					var c, l = re(a);
-					return l && Qe(), o = z.follow(function() {
-						var e;
-						(c = a.call(s, s)) && (l ? (e = $e.bind(null, null), c.then(e, e)) : typeof c.next == "function" && typeof c.throw == "function" && (c = Bn(c)));
-					}, o), (c && typeof c.then == "function" ? z.resolve(c).then(function(e) {
-						return s.active ? e : U(new I.PrematureCommit("Transaction committed too early. See http://bit.ly/2kdckMn"));
-					}) : o.then(function() {
-						return c;
-					})).then(function(e) {
-						return i && s._resolve(), s._completion.then(function() {
-							return e;
-						});
-					}).catch(function(e) {
-						return s._reject(e), U(e);
-					});
-				});
-			}.bind(null, this, a, o, i, n);
-			return i ? i._promise(a, c, "lock") : R.trans ? it(R.transless, function() {
-				return r._whenReady(c);
-			}) : this._whenReady(c);
-		}, X.prototype.table = function(e) {
-			if (!l(this._allTables, e)) throw new I.InvalidTable(`Table ${e} does not exist`);
-			return this._allTables[e];
-		}, X);
-		function X(e, n) {
-			var r = this;
-			this._middlewares = {}, this.verno = 0;
-			var i = X.dependencies;
-			this._options = n = t({
-				addons: X.addons,
-				autoOpen: !0,
-				indexedDB: i.indexedDB,
-				IDBKeyRange: i.IDBKeyRange,
-				cache: "cloned"
-			}, n), this._deps = {
-				indexedDB: n.indexedDB,
-				IDBKeyRange: n.IDBKeyRange
-			}, i = n.addons, this._dbSchema = {}, this._versions = [], this._storeNames = [], this._allTables = {}, this.idbdb = null, this._novip = this;
-			var a, o, s, c, l, u = {
-				dbOpenError: null,
-				isBeingOpened: !1,
-				onReadyBeingFired: null,
-				openComplete: !1,
-				dbReadyResolve: L,
-				dbReadyPromise: null,
-				cancelOpen: L,
-				openCanceller: null,
-				autoSchema: !0,
-				PR1398_maxLoop: 3,
-				autoOpen: n.autoOpen
-			};
-			u.dbReadyPromise = new z(function(e) {
-				u.dbReadyResolve = e;
-			}), u.openCanceller = new z(function(e, t) {
-				u.cancelOpen = t;
-			}), this._state = u, this.name = e, this.on = St(this, "populate", "blocked", "versionchange", "close", { ready: [ye, L] }), this.once = function(e, t) {
-				var n = function() {
-					var i = [...arguments];
-					r.on(e).unsubscribe(n), t.apply(r, i);
-				};
-				return r.on(e, n);
-			}, this.on.ready.subscribe = _(this.on.ready.subscribe, function(e) {
-				return function(t, n) {
-					X.vip(function() {
-						var i, a = r._state;
-						a.openComplete ? (a.dbOpenError || z.resolve().then(t), n && e(t)) : a.onReadyBeingFired ? (a.onReadyBeingFired.push(t), n && e(t)) : (e(t), i = r, n || e(function e() {
-							i.on.ready.unsubscribe(t), i.on.ready.unsubscribe(e);
-						}));
-					});
-				};
-			}), this.Collection = (a = this, Ct(Nt.prototype, function(e, t) {
-				this.db = a;
-				var n = ht, r = null;
-				if (t) try {
-					n = t();
-				} catch (e) {
-					r = e;
-				}
-				var i = e._ctx, t = i.table, e = t.hook.reading.fire;
-				this._ctx = {
-					table: t,
-					index: i.index,
-					isPrimKey: !i.index || t.schema.primKey.keyPath && i.index === t.schema.primKey.name,
-					range: n,
-					keysOnly: !1,
-					dir: "next",
-					unique: "",
-					algorithm: null,
-					filter: null,
-					replayFilter: null,
-					justLimit: !0,
-					isMatch: null,
-					offset: 0,
-					limit: Infinity,
-					error: r,
-					or: i.or,
-					valueMapper: e === fe ? null : e
-				};
-			})), this.Table = (o = this, Ct(xt.prototype, function(e, t, n) {
-				this.db = o, this._tx = n, this.name = e, this.schema = t, this.hook = o._allTables[e] ? o._allTables[e].hook : St(null, {
-					creating: [he, L],
-					reading: [pe, fe],
-					updating: [_e, L],
-					deleting: [ge, L]
-				});
-			})), this.Transaction = (s = this, Ct(Jt.prototype, function(e, t, n, r, i) {
-				var a = this;
-				e !== "readonly" && t.forEach(function(e) {
-					e = (e = n[e])?.yProps, e && (t = t.concat(e.map(function(e) {
-						return e.updatesTable;
-					})));
-				}), this.db = s, this.mode = e, this.storeNames = t, this.schema = n, this.chromeTransactionDurability = r, this.idbtrans = null, this.on = St(this, "complete", "error", "abort"), this.parent = i || null, this.active = !0, this._reculock = 0, this._blockedFuncs = [], this._resolve = null, this._reject = null, this._waitingFor = null, this._waitingQueue = null, this._spinCount = 0, this._completion = new z(function(e, t) {
-					a._resolve = e, a._reject = t;
-				}), this._completion.then(function() {
-					a.active = !1, a.on.complete.fire();
-				}, function(e) {
-					var t = a.active;
-					return a.active = !1, a.on.error.fire(e), a.parent ? a.parent._reject(e) : t && a.idbtrans && a.idbtrans.abort(), U(e);
-				});
-			})), this.Version = (c = this, Ct(yn.prototype, function(e) {
-				this.db = c, this._cfg = {
-					version: e,
-					storesSource: null,
-					dbschema: {},
-					tables: {},
-					contentUpgrade: null
-				};
-			})), this.WhereClause = (l = this, Ct(Ht.prototype, function(e, t, n) {
-				if (this.db = l, this._ctx = {
-					table: e,
-					index: t === ":id" ? null : t,
-					or: n
-				}, this._cmp = this._ascending = W, this._descending = function(e, t) {
-					return W(t, e);
-				}, this._max = function(e, t) {
-					return 0 < W(e, t) ? e : t;
-				}, this._min = function(e, t) {
-					return W(e, t) < 0 ? e : t;
-				}, this._IDBKeyRange = l._deps.IDBKeyRange, !this._IDBKeyRange) throw new I.MissingAPI();
-			})), this.on("versionchange", function(e) {
-				0 < e.newVersion ? console.warn(`Another connection wants to upgrade database '${r.name}'. Closing db now to resume the upgrade.`) : console.warn(`Another connection wants to delete database '${r.name}'. Closing db now to resume the delete request.`), r.close({ disableAutoOpen: !1 });
-			}), this.on("blocked", function(e) {
-				!e.newVersion || e.newVersion < e.oldVersion ? console.warn(`Dexie.delete('${r.name}') was blocked`) : console.warn(`Upgrade '${r.name}' blocked by other connection holding version ${e.oldVersion / 10}`);
-			}), this._maxKey = Qt(n.IDBKeyRange), this._createTransaction = function(e, t, n, i) {
-				return new r.Transaction(e, t, n, r._options.chromeTransactionDurability, i);
-			}, this._fireOnBlocked = function(e) {
-				r.on("blocked").fire(e), ut.filter(function(e) {
-					return e.name === r.name && e !== r && !e._state.vcFired;
-				}).map(function(t) {
-					return t.on("versionchange").fire(e);
-				});
-			}, this.use(qn), this.use(rr), this.use(Xn), this.use(Hn), this.use(Gn);
-			var d = new Proxy(this, { get: function(e, t, n) {
-				if (t === "_vip") return !0;
-				if (t === "table") return function(e) {
-					return ir(r.table(e), d);
-				};
-				var i = Reflect.get(e, t, n);
-				return i instanceof xt ? ir(i, d) : t === "tables" ? i.map(function(e) {
-					return ir(e, d);
-				}) : t === "_createTransaction" ? function() {
-					return ir(i.apply(this, arguments), d);
-				} : i;
-			} });
-			this.vip = d, i.forEach(function(e) {
-				return e(r);
-			});
-		}
-		var or, P = typeof Symbol < "u" && "observable" in Symbol ? Symbol.observable : "@@observable", sr = (cr.prototype.subscribe = function(e, t, n) {
-			return this._subscribe(e && typeof e != "function" ? e : {
-				next: e,
-				error: t,
-				complete: n
-			});
-		}, cr.prototype[P] = function() {
-			return this;
-		}, cr);
-		function cr(e) {
-			this._subscribe = e;
-		}
-		try {
-			or = {
-				indexedDB: r.indexedDB || r.mozIndexedDB || r.webkitIndexedDB || r.msIndexedDB,
-				IDBKeyRange: r.IDBKeyRange || r.webkitIDBKeyRange
-			};
-		} catch {
-			or = {
-				indexedDB: null,
-				IDBKeyRange: null
-			};
-		}
-		function lr(e) {
-			var t, n = !1, r = new sr(function(r) {
-				var i = re(e), a, o = !1, s = {}, c = {}, u = {
-					get closed() {
-						return o;
-					},
-					unsubscribe: function() {
-						o || (o = !0, a && a.abort(), d && qt.storagemutated.unsubscribe(p));
-					}
-				};
-				r.start && r.start(u);
-				var d = !1, f = function() {
-					return ot(m);
-				}, p = function(e) {
-					jn(s, e), Mn(c, s) && f();
-				}, m = function() {
-					var u, m, h;
-					!o && or.indexedDB && (s = {}, u = {}, a && a.abort(), a = new AbortController(), h = function(t) {
-						var n = Ue();
-						try {
-							i && Qe();
-							var r = Ze(e, t);
-							return r = i ? r.finally($e) : r;
-						} finally {
-							n && We();
-						}
-					}(m = {
-						subscr: u,
-						signal: a.signal,
-						requery: f,
-						querier: e,
-						trans: null
-					}), Promise.resolve(h).then(function(e) {
-						n = !0, t = e, o || m.signal.aborted || (s = {}, function(e) {
-							for (var t in e) if (l(e, t)) return;
-							return 1;
-						}(c = u) || d || (qt(Gt, p), d = !0), ot(function() {
-							return !o && r.next && r.next(e);
-						}));
-					}, function(e) {
-						n = !1, ["DatabaseClosedError", "AbortError"].includes(e?.name) || o || ot(function() {
-							o || r.error && r.error(e);
-						});
-					}));
-				};
-				return setTimeout(f, 0), u;
-			});
-			return r.hasValue = function() {
-				return n;
-			}, r.getValue = function() {
-				return t;
-			}, r;
-		}
-		var ur = ar;
-		function dr(e) {
-			var t = pr;
-			try {
-				pr = !0, qt.storagemutated.fire(e), Ln(e, !0);
-			} finally {
-				pr = t;
-			}
-		}
-		u(ur, t(t({}, de), {
-			delete: function(e) {
-				return new ur(e, { addons: [] }).delete();
-			},
-			exists: function(e) {
-				return new ur(e, { addons: [] }).open().then(function(e) {
-					return e.close(), !0;
-				}).catch("NoSuchDatabaseError", function() {
-					return !1;
-				});
-			},
-			getDatabaseNames: function(e) {
-				try {
-					return t = ur.dependencies, n = t.indexedDB, t = t.IDBKeyRange, (Sn(n) ? Promise.resolve(n.databases()).then(function(e) {
-						return e.map(function(e) {
-							return e.name;
-						}).filter(function(e) {
-							return e !== dt;
-						});
-					}) : xn(n, t).toCollection().primaryKeys()).then(e);
-				} catch {
-					return U(new I.MissingAPI());
-				}
-				var t, n;
-			},
-			defineClass: function() {
-				return function(e) {
-					o(this, e);
-				};
-			},
-			ignoreTransaction: function(e) {
-				return R.trans ? it(R.transless, e) : e();
-			},
-			vip: Cn,
-			async: function(e) {
-				return function() {
-					try {
-						var t = Bn(e.apply(this, arguments));
-						return t && typeof t.then == "function" ? t : z.resolve(t);
-					} catch (e) {
-						return U(e);
-					}
-				};
-			},
-			spawn: function(e, t, n) {
-				try {
-					var r = Bn(e.apply(n, t || []));
-					return r && typeof r.then == "function" ? r : z.resolve(r);
-				} catch (e) {
-					return U(e);
-				}
-			},
-			currentTransaction: { get: function() {
-				return R.trans || null;
-			} },
-			waitFor: function(e, t) {
-				return t = z.resolve(typeof e == "function" ? ur.ignoreTransaction(e) : e).timeout(t || 6e4), R.trans ? R.trans.waitFor(t) : t;
-			},
-			Promise: z,
-			debug: {
-				get: function() {
-					return be;
-				},
-				set: function(e) {
-					xe(e);
-				}
-			},
-			derive: p,
-			extend: o,
-			props: u,
-			override: _,
-			Events: St,
-			on: qt,
-			liveQuery: lr,
-			extendObservabilitySet: jn,
-			getByKeyPath: b,
-			setByKeyPath: x,
-			delByKeyPath: function(e, t) {
-				typeof t == "string" ? x(e, t, void 0) : "length" in t && [].map.call(t, function(t) {
-					x(e, t, void 0);
-				});
-			},
-			shallowClone: S,
-			deepClone: E,
-			getObjectDiff: Un,
-			cmp: W,
-			asap: y,
-			minKey: -Infinity,
-			addons: [],
-			connections: ut,
-			errnames: ce,
-			dependencies: or,
-			cache: Nn,
-			semVer: "4.2.0",
-			version: "4.2.0".split(".").map(function(e) {
-				return parseInt(e);
-			}).reduce(function(e, t, n) {
-				return e + t / 10 ** (2 * n);
-			})
-		})), ur.maxKey = Qt(ur.dependencies.IDBKeyRange), typeof dispatchEvent < "u" && typeof addEventListener < "u" && (qt(Gt, function(e) {
-			pr ||= (e = new CustomEvent(Kt, { detail: e }), pr = !0, dispatchEvent(e), !1);
-		}), addEventListener(Kt, function(e) {
-			e = e.detail, pr || dr(e);
-		}));
-		var fr, pr = !1, mr = function() {};
-		return typeof BroadcastChannel < "u" && ((mr = function() {
-			(fr = new BroadcastChannel(Kt)).onmessage = function(e) {
-				return e.data && dr(e.data);
-			};
-		})(), typeof fr.unref == "function" && fr.unref(), qt(Gt, function(e) {
-			pr || fr.postMessage(e);
-		})), typeof addEventListener < "u" && (addEventListener("pagehide", function(e) {
-			if (!ar.disableBfCache && e.persisted) {
-				be && console.debug("Dexie: handling persisted pagehide"), fr?.close();
-				for (var t = 0, n = ut; t < n.length; t++) n[t].close({ disableAutoOpen: !1 });
-			}
-		}), addEventListener("pageshow", function(e) {
-			!ar.disableBfCache && e.persisted && (be && console.debug("Dexie: handling persisted pageshow"), mr(), dr({ all: new Y(-Infinity, [[]]) }));
-		})), z.rejectionMapper = function(e, t) {
-			return !e || e instanceof ae || e instanceof TypeError || e instanceof SyntaxError || !e.name || !ue[e.name] ? e : (t = new ue[e.name](t || e.message, e), "stack" in e && f(t, "stack", { get: function() {
-				return this.inner.stack;
-			} }), t);
-		}, xe(be), t(ar, Object.freeze({
-			__proto__: null,
-			Dexie: ar,
-			liveQuery: lr,
-			Entity: _t,
-			cmp: W,
-			PropModification: jt,
-			replacePrefix: function(e, t) {
-				return new jt({ replacePrefix: [e, t] });
-			},
-			add: function(e) {
-				return new jt({ add: e });
-			},
-			remove: function(e) {
-				return new jt({ remove: e });
-			},
-			default: ar,
-			RangeSet: Y,
-			mergeRanges: En,
-			rangesOverlap: Dn
-		}), { default: ar }), ar;
-	});
-})))(), 1), Fn = Symbol.for("Dexie"), In = globalThis[Fn] || (globalThis[Fn] = Pn.default);
-if (Pn.default.semVer !== In.semVer) throw Error(`Two different versions of Dexie loaded in the same app: ${Pn.default.semVer} and ${In.semVer}`);
-var { liveQuery: Ln, mergeRanges: Rn, rangesOverlap: zn, RangeSet: Bn, cmp: Vn, Entity: Hn, PropModification: Un, replacePrefix: Wn, add: Gn, remove: Kn, DexieYProvider: qn } = In;
-(class e {
-	static {
-		this.reconcileWarned = !1;
-	}
-	constructor(e, t) {
-		this.documents = /* @__PURE__ */ new Map(), this.records = /* @__PURE__ */ new Map(), this.changelog = /* @__PURE__ */ new Map(), this.heads = /* @__PURE__ */ new Map(), this.blobs = /* @__PURE__ */ new Map(), this.blobData = /* @__PURE__ */ new Map(), this.name = e, this.writable = t?.writable ?? !0;
-	}
-	async open() {}
-	close() {}
-	async destroy() {
-		this.documents.clear(), this.records.clear(), this.changelog.clear(), this.heads.clear(), this.blobs.clear(), this.blobData.clear();
-	}
-	async reconcile() {
-		e.reconcileWarned || (e.reconcileWarned = !0, console.warn("[dialecte] InMemoryStore.reconcile() is a no-op: in-memory documents are not shared across realms/tabs. Use the local (IndexedDB) store for cross-realm sync."));
-	}
-	async isDocumentReadable(e) {
-		return this.documents.has(e);
-	}
-	async registerDocument(e) {
-		this.guardWritable(), this.documents.set(e.id, e), this.records.set(Nn(e.id), /* @__PURE__ */ new Map()), this.blobData.set(e.id, /* @__PURE__ */ new Map());
-	}
-	async getDocument(e) {
-		return this.documents.get(e);
-	}
-	async getDocuments() {
-		return [...this.documents.values()];
-	}
-	async updateDocument(e, t) {
-		this.guardWritable();
-		let n = this.documents.get(e);
-		n && this.documents.set(e, {
-			...n,
-			...t
-		});
-	}
-	async removeDocument(e) {
-		this.guardWritable(), this.documents.delete(e), this.records.delete(Nn(e)), this.changelog.delete(e), this.heads.delete(e), this.blobData.delete(e);
-		for (let [t, n] of this.blobs) n.documentId === e && this.blobs.delete(t);
-	}
-	async get(e, t) {
-		if (t) return this.getTable(t).get(e);
-		for (let t of this.records.values()) {
-			let n = t.get(e);
-			if (n) return n;
-		}
-	}
-	async getByDocumentId(e) {
-		return [...this.getTable(e).values()];
-	}
-	async getByTagNameInDocument(e, t) {
-		let n = [];
-		for (let r of this.getTable(t).values()) r.tagName === e && n.push(r);
-		return n;
-	}
-	async getMany(e, t) {
-		let n = this.getTable(t);
-		return e.map((e) => n.get(e));
-	}
-	async bulkWrite(e, t) {
-		this.guardWritable();
-		let n = this.getTable(e);
-		if (t.creates) for (let e of t.creates) n.set(e.id, e);
-		if (t.updates) for (let { recordId: e, ...r } of t.updates) {
-			let t = n.get(e);
-			if (!t) continue;
-			let i = { ...t };
-			if (r.attributes) {
-				let e = [...t.attributes];
-				for (let t of r.attributes) {
-					let n = e.findIndex((e) => e.name === t.name);
-					n >= 0 ? e[n] = t : e.push(t);
-				}
-				i.attributes = e;
-			}
-			if (r.children) {
-				let e = [...t.children];
-				for (let t of r.children) {
-					let n = e.findIndex((e) => e.id === t.id);
-					n >= 0 ? e[n] = t : e.push(t);
-				}
-				i.children = e;
-			}
-			n.set(e, i);
-		}
-		if (t.deletes) for (let e of t.deletes) n.delete(e);
-	}
-	async commit(e) {
-		this.guardWritable();
-		let { documentId: t, creates: n, updates: r, deletes: i, onProgress: a } = e, o = this.getTable(t), s = n.length + r.length + i.length, c = 0, l = r.map((e) => o.get(e.id)), u = i.map((e) => o.get(e)).filter(Boolean);
-		for (let e of n) o.set(e.id, e);
-		c += n.length, a(c, s);
-		for (let e of r) o.set(e.id, e);
-		c += r.length, a(c, s);
-		for (let e of i) o.delete(e);
-		c += i.length, a(c, s);
-		let d = this.heads.get(t) ?? 0, f = (this.changelog.get(t) ?? []).filter((e) => e.sequenceNumber <= d), p = d + 1, m = {
-			id: f.length + 1,
-			documentId: t,
-			sequenceNumber: p,
-			timestamp: Date.now(),
-			operations: {
-				creates: n,
-				updates: r.map((e, t) => ({
-					before: l[t],
-					after: e
-				})),
-				deletes: u
-			}
-		};
-		f.push(m), this.changelog.set(t, f), this.heads.set(t, p);
-	}
-	async undo(e) {
-		this.guardWritable();
-		let t = this.heads.get(e) ?? 0;
-		if (t === 0) return;
-		let n = (this.changelog.get(e) ?? []).find((e) => e.sequenceNumber === t);
-		if (!n) return;
-		let r = this.getTable(e), { creates: i, updates: a, deletes: o } = n.operations;
-		for (let e of i) r.delete(e.id);
-		for (let e of a) r.set(e.before.id, e.before);
-		for (let e of o) r.set(e.id, e);
-		this.heads.set(e, t - 1);
-	}
-	async redo(e) {
-		this.guardWritable();
-		let t = (this.heads.get(e) ?? 0) + 1, n = (this.changelog.get(e) ?? []).find((e) => e.sequenceNumber === t);
-		if (!n) return;
-		let r = this.getTable(e), { creates: i, updates: a, deletes: o } = n.operations;
-		for (let e of i) r.set(e.id, e);
-		for (let e of a) r.set(e.after.id, e.after);
-		for (let e of o) r.delete(e.id);
-		this.heads.set(e, t);
-	}
-	async getHistoryStatus(e) {
-		let t = this.heads.get(e) ?? 0, n = this.changelog.get(e) ?? [];
-		return {
-			canUndo: t > 0,
-			canRedo: n.some((e) => e.sequenceNumber === t + 1)
-		};
-	}
-	async getChangeLog(e) {
-		return this.changelog.get(e) ?? [];
-	}
-	getDatabaseInstance() {
-		return null;
-	}
-	async addBlob(e, t) {
-		this.guardWritable(), this.documents.has(e.documentId) || j("DOCUMENT_NOT_REGISTERED", { detail: `Cannot add blob: owner document "${e.documentId}" is not registered` }), this.blobs.set(e.id, e), this.getBlobTable(e.documentId).set(e.id, t);
-	}
-	async getBlob(e) {
-		let t = this.blobs.get(e);
-		if (!t) return;
-		let n = this.getBlobTable(t.documentId).get(e);
-		if (n) return {
-			entry: t,
-			data: n
-		};
-	}
-	async getBlobsByDocument(e) {
-		return [...this.blobs.values()].filter((t) => t.attachedTo.some((t) => t.documentId === e));
-	}
-	async getBlobsByRecord(e, t) {
-		return [...this.blobs.values()].filter((n) => n.attachedTo.some((n) => n.documentId === e && n.recordRef === t));
-	}
-	async getStandaloneBlobs() {
-		return [...this.blobs.values()].filter((e) => e.attachedTo.length === 0);
-	}
-	async attachBlob(e, t) {
-		this.guardWritable();
-		let n = this.blobs.get(e);
-		n || j("STORE_BLOB_NOT_FOUND", { detail: `Blob "${e}" not found` }), !n.attachedTo.some((e) => e.documentId === t.documentId && e.recordRef === t.recordRef && e.attribute === t.attribute) && this.blobs.set(e, {
-			...n,
-			attachedTo: [...n.attachedTo, t]
-		});
-	}
-	async detachBlob(e, t) {
-		this.guardWritable();
-		let n = this.blobs.get(e);
-		n || j("STORE_BLOB_NOT_FOUND", { detail: `Blob "${e}" not found` });
-		let r = n.attachedTo.filter((e) => !(e.documentId === t.documentId && e.recordRef === t.recordRef));
-		this.blobs.set(e, {
-			...n,
-			attachedTo: r
-		});
-	}
-	async removeBlob(e) {
-		this.guardWritable();
-		let t = this.blobs.get(e);
-		t && (this.blobs.delete(e), this.getBlobTable(t.documentId).delete(e));
-	}
-	getBlobTable(e) {
-		let t = this.blobData.get(e);
-		return t || (t = /* @__PURE__ */ new Map(), this.blobData.set(e, t)), t;
-	}
-	getTable(e) {
-		let t = Nn(e), n = this.records.get(t);
-		return n || (n = /* @__PURE__ */ new Map(), this.records.set(t, n)), n;
-	}
-	guardWritable() {
-		this.writable || j("STORE_NOT_WRITABLE", { detail: "In-memory store is read-only. Hydrate with a real document before writing." });
-	}
-});
+}]))), [...new Set(Object.values(U).flatMap((e) => e.map((e) => e.attribute.uuid)))];
+var wt = new Map(Object.entries(bt).map(([e, t]) => [e, [...new Set(t.map((e) => e.attribute))]])), Tt = Ct(bt);
+new Set(Tt.keys()), new Set([...st.LNode?.attributes?.identityFields ?? [], ...wt.get("LNode") ?? []]), new Set(st.LNode.attributes.details.lnClass.facets.enumeration), new Set(Object.values(U).flatMap((e) => e.flatMap((e) => [e.attribute.path, e.attribute.uuid]))), [...ht, ...gt], new Set(Object.values(ut).map((e) => e.uri)), new Set(Object.values(ut).map((e) => e.prefix).filter(Boolean));
 //#endregion
 //#region src/data-type-templates/dialecte/query/list-selector-locked-paths.ts
-var Jn = St.namespaces.v2019C1.prefix;
-async function Yn(e, t) {
+var Et = dt.namespaces.v2019C1.prefix;
+async function Dt(e, t) {
 	let n = /* @__PURE__ */ new Set(), r = await e.findByAttributes({
 		tagName: "LNode",
 		attributes: { lnType: t }
 	});
 	for (let t of r) {
-		let r = await Xn(e, t);
-		for (let t of r) await Zn(e, t, [H(t, "name")], n);
+		let r = await Ot(e, t);
+		for (let t of r) await kt(e, t, [B(t, "name")], n);
 	}
 	return n;
 }
-async function Xn(e, t) {
+async function Ot(e, t) {
 	let n = await e.getChildren(t, "DOS");
 	if (n.length) return n;
-	let r = (await e.getChildren(t, "Private")).find((e) => H(e, "type") === Jn);
+	let r = (await e.getChildren(t, "Private")).find((e) => B(e, "type") === Et);
 	if (!r) return [];
 	let i = await e.any.getChildren(r, "DOS");
 	return (await e.getRecords(i.map((e) => ({
@@ -31596,93 +37369,93 @@ async function Xn(e, t) {
 		id: e.id
 	})))).filter((e) => e !== void 0);
 }
-async function Zn(e, t, n, r) {
+async function kt(e, t, n, r) {
 	r.add(n.join("."));
 	let i = await e.any.getChildren(t, "SDS"), a = await e.getRecords(i.map((e) => ({
 		tagName: "SDS",
 		id: e.id
 	})));
-	for (let t of a) t && await Zn(e, t, [...n, H(t, "name")], r);
+	for (let t of a) t && await kt(e, t, [...n, B(t, "name")], r);
 	let o = await e.any.getChildren(t, "DAS"), s = await e.getRecords(o.map((e) => ({
 		tagName: "DAS",
 		id: e.id
 	})));
-	for (let e of s) e && r.add([...n, H(e, "name")].join("."));
+	for (let e of s) e && r.add([...n, B(e, "name")].join("."));
 }
 //#endregion
 //#region src/data-type-templates/dialecte/query/index.ts
-var Qn = /* @__PURE__ */ u({
-	findLnodeTypes: () => rt,
-	findReferencingLnodes: () => Ye,
-	isExclusiveIedType: () => Ze,
-	listSelectorLockedPaths: () => Yn,
-	parseTypeId: () => Be,
-	readExistingLnodeType: () => Ue
+var At = /* @__PURE__ */ i({
+	findLnodeTypes: () => Qe,
+	findReferencingLnodes: () => We,
+	isExclusiveIedType: () => Ke,
+	listSelectorLockedPaths: () => Dt,
+	parseTypeId: () => I,
+	readExistingLnodeType: () => Le
 });
 //#endregion
 //#region src/data-type-templates/dialecte/query/type-signature.ts
-function $n(e) {
+function jt(e) {
 	return e.cyclic ? "cyclic" : JSON.stringify({
 		cdc: e.cdc,
-		das: [...e.das].sort(rr).map(nr),
-		sdos: [...e.sdos].sort(rr).map((e) => ({
+		das: [...e.das].sort(Ft).map(Pt),
+		sdos: [...e.sdos].sort(Ft).map((e) => ({
 			name: e.name,
-			type: $n(e.type)
+			type: jt(e.type)
 		}))
 	});
 }
-function er(e) {
-	return e.cyclic ? "cyclic" : JSON.stringify({ bdas: [...e.bdas].sort(rr).map(nr) });
+function Mt(e) {
+	return e.cyclic ? "cyclic" : JSON.stringify({ bdas: [...e.bdas].sort(Ft).map(Pt) });
 }
-function tr(e) {
+function Nt(e) {
 	return JSON.stringify({ vals: [...e.vals].sort((e, t) => e.ord - t.ord).map((e) => ({
 		ord: e.ord,
 		value: e.value
 	})) });
 }
-function nr(e) {
+function Pt(e) {
 	return {
 		name: e.name,
 		bType: e.bType,
 		fc: e.fc ?? "",
 		vals: e.vals,
-		enumType: e.enumType ? tr(e.enumType) : "",
-		daType: e.daType ? er(e.daType) : ""
+		enumType: e.enumType ? Nt(e.enumType) : "",
+		daType: e.daType ? Mt(e.daType) : ""
 	};
 }
-function rr(e, t) {
+function Ft(e, t) {
 	return e.name.localeCompare(t.name);
 }
 //#endregion
 //#region src/data-type-templates/dialecte/query/type-references.ts
-async function ir(e, t, n) {
-	if (t === "DOType") return await X(e, "LNodeType", "DO", n) || await X(e, "DOType", "SDO", n);
+async function It(e, t, n) {
+	if (t === "DOType") return await Rt(e, "LNodeType", "DO", n) || await Rt(e, "DOType", "SDO", n);
 	let r = t === "DAType" ? "Struct" : "Enum";
-	return await or(e, "DOType", "DA", r, n) || await or(e, "DAType", "BDA", r, n);
+	return await zt(e, "DOType", "DA", r, n) || await zt(e, "DAType", "BDA", r, n);
 }
-async function ar(e, t, n) {
-	if (t === "LNodeType") return (await e.getChildren(n, "DO")).flatMap((e) => cr("DOType", H(e, "type")));
+async function Lt(e, t, n) {
+	if (t === "LNodeType") return (await e.getChildren(n, "DO")).flatMap((e) => Vt("DOType", B(e, "type")));
 	if (t === "DOType") {
 		let t = await e.getChildren(n, "DA"), r = await e.getChildren(n, "SDO");
-		return [...t.flatMap(sr), ...r.flatMap((e) => cr("DOType", H(e, "type")))];
+		return [...t.flatMap(Bt), ...r.flatMap((e) => Vt("DOType", B(e, "type")))];
 	}
-	return t === "DAType" ? (await e.getChildren(n, "BDA")).flatMap(sr) : [];
+	return t === "DAType" ? (await e.getChildren(n, "BDA")).flatMap(Bt) : [];
 }
-async function X(e, t, n, r) {
+async function Rt(e, t, n, r) {
 	let i = await e.getRecordsByTagName(t);
-	for (let t of i) if ((await e.getChildren(t, n)).some((e) => H(e, "type") === r)) return !0;
+	for (let t of i) if ((await e.getChildren(t, n)).some((e) => B(e, "type") === r)) return !0;
 	return !1;
 }
-async function or(e, t, n, r, i) {
+async function zt(e, t, n, r, i) {
 	let a = await e.getRecordsByTagName(t);
-	for (let t of a) if ((await e.getChildren(t, n)).some((e) => H(e, "bType") === r && H(e, "type") === i)) return !0;
+	for (let t of a) if ((await e.getChildren(t, n)).some((e) => B(e, "bType") === r && B(e, "type") === i)) return !0;
 	return !1;
 }
-function sr(e) {
-	let t = H(e, "bType");
-	return t === "Struct" ? cr("DAType", H(e, "type")) : t === "Enum" ? cr("EnumType", H(e, "type")) : [];
+function Bt(e) {
+	let t = B(e, "bType");
+	return t === "Struct" ? Vt("DAType", B(e, "type")) : t === "Enum" ? Vt("EnumType", B(e, "type")) : [];
 }
-function cr(e, t) {
+function Vt(e, t) {
 	return t ? [{
 		tagName: e,
 		id: t
@@ -31690,17 +37463,17 @@ function cr(e, t) {
 }
 //#endregion
 //#region src/data-type-templates/dialecte/transaction.ts
-var lr = /* @__PURE__ */ u({
-	deleteLnodeType: () => fr,
-	duplicateLnodeTypeForLockedRefs: () => dr,
-	isImmutable: () => hr,
-	saveDraftLnodeType: () => ur,
-	updateUnlockedLnodeRefs: () => mr
+var Ht = /* @__PURE__ */ i({
+	deleteLnodeType: () => Gt,
+	duplicateLnodeTypeForLockedRefs: () => Wt,
+	isImmutable: () => Jt,
+	saveDraftLnodeType: () => Ut,
+	updateUnlockedLnodeRefs: () => qt
 });
-async function ur(e, t) {
-	let n = await gr(e), r = [];
+async function Ut(e, t) {
+	let n = await Yt(e), r = [];
 	for (let i of t.payload.dos) {
-		let t = await vr(e, n, i.type);
+		let t = await Zt(e, n, i.type);
 		r.push({
 			name: i.name,
 			typeId: t
@@ -31708,14 +37481,14 @@ async function ur(e, t) {
 	}
 	let i = t.sourceLnodeTypeId;
 	if (!i) {
-		let i = Ve(t.baseName, await He(e, "LNodeType", t.baseName));
-		return await _r(e, n, i, t.payload, r), { id: i };
+		let i = L(t.baseName, await R(e, "LNodeType", t.baseName));
+		return await Xt(e, n, i, t.payload, r), { id: i };
 	}
-	let a = await B(e, "LNodeType", i);
+	let a = await z(e, "LNodeType", i);
 	if (!a) throw Error(`LNodeType not found: ${i}`);
-	if (t.forceNewVersion || await hr(e, i)) {
-		let a = Be(i).baseName, o = Ve(a, await He(e, "LNodeType", a));
-		return await _r(e, n, o, t.payload, r), await mr(e, {
+	if (t.forceNewVersion || await Jt(e, i)) {
+		let a = I(i).baseName, o = L(a, await R(e, "LNodeType", a));
+		return await Xt(e, n, o, t.payload, r), await qt(e, {
 			fromId: i,
 			toId: o
 		}), {
@@ -31723,7 +37496,7 @@ async function ur(e, t) {
 			replacedId: i
 		};
 	}
-	await dr(e, i);
+	await Wt(e, i);
 	let o = await e.getChildren(a, "DO");
 	for (let t of o) await e.delete(t);
 	await e.update(a, { attributes: {
@@ -31739,24 +37512,24 @@ async function ur(e, t) {
 	});
 	return { id: i };
 }
-async function dr(e, t) {
-	let n = (await Ye(e, t)).filter((e) => e.tagName === "LNode" && e.isLocked);
+async function Wt(e, t) {
+	let n = (await We(e, t)).filter((e) => e.tagName === "LNode" && e.isLocked);
 	if (!n.length) return;
-	let r = await B(e, "LNodeType", t);
+	let r = await z(e, "LNodeType", t);
 	if (!r) throw Error(`LNodeType not found: ${t}`);
-	let i = await gr(e), a = Be(t).baseName, o = Ve(a, await He(e, "LNodeType", a)), s = await e.addChild(i, {
+	let i = await Yt(e), a = I(t).baseName, o = L(a, await R(e, "LNodeType", a)), s = await e.addChild(i, {
 		tagName: "LNodeType",
 		attributes: {
 			id: o,
-			lnClass: H(r, "lnClass"),
-			desc: H(r, "desc")
+			lnClass: B(r, "lnClass"),
+			desc: B(r, "desc")
 		}
 	}), c = await e.getChildren(r, "DO");
 	for (let t of c) await e.addChild(s, {
 		tagName: "DO",
 		attributes: {
-			name: H(t, "name"),
-			type: H(t, "type")
+			name: B(t, "name"),
+			type: B(t, "type")
 		}
 	});
 	for (let t of n) await e.update({
@@ -31765,47 +37538,47 @@ async function dr(e, t) {
 	}, { attributes: { lnType: o } });
 	return o;
 }
-async function fr(e, t) {
-	let n = await Ye(e, t);
+async function Gt(e, t) {
+	let n = await We(e, t);
 	if (n.length) {
 		let e = n.map((e) => e.path).join(", ");
 		throw Error(`LNodeType "${t}" is referenced by: ${e}`);
 	}
-	let r = await B(e, "LNodeType", t);
+	let r = await z(e, "LNodeType", t);
 	if (!r) throw Error(`LNodeType not found: ${t}`);
-	let i = ar(e, "LNodeType", r);
-	await i, await e.delete(r), await pr(e, i);
+	let i = Lt(e, "LNodeType", r);
+	await i, await e.delete(r), await Kt(e, i);
 }
-async function pr(e, t) {
+async function Kt(e, t) {
 	let n = await t;
 	for (; n.length;) {
 		let t = [];
 		for (let r of n) {
-			if (await ir(e, r.tagName, r.id)) continue;
-			let n = await B(e, r.tagName, r.id);
-			n && (t.push(...await ar(e, r.tagName, n)), await e.delete(n));
+			if (await It(e, r.tagName, r.id)) continue;
+			let n = await z(e, r.tagName, r.id);
+			n && (t.push(...await Lt(e, r.tagName, n)), await e.delete(n));
 		}
 		n = t;
 	}
 }
-async function mr(e, t) {
+async function qt(e, t) {
 	let n = await e.findByAttributes({
 		tagName: "LNode",
 		attributes: { lnType: t.fromId }
 	});
-	for (let r of n) Qe(H(r, "iedName")) || await e.update(r, { attributes: { lnType: t.toId } });
+	for (let r of n) qe(B(r, "iedName")) || await e.update(r, { attributes: { lnType: t.toId } });
 }
-async function hr(e, t) {
-	return (await Ye(e, t)).some((e) => e.tagName !== "LNode");
+async function Jt(e, t) {
+	return (await We(e, t)).some((e) => e.tagName !== "LNode");
 }
-async function gr(e) {
+async function Yt(e) {
 	let t = await e.getRoot();
 	return e.ensureChild(t, {
 		tagName: "DataTypeTemplates",
 		attributes: {}
 	});
 }
-async function _r(e, t, n, r, i) {
+async function Xt(e, t, n, r, i) {
 	let a = await e.addChild(t, {
 		tagName: "LNodeType",
 		attributes: {
@@ -31822,25 +37595,25 @@ async function _r(e, t, n, r, i) {
 		}
 	});
 }
-async function vr(e, t, n) {
-	let r = $n(n), i = await Cr(e, "DOType", n.baseName, r, async (t) => {
-		let n = await We(e, t, /* @__PURE__ */ new Set(), []);
-		return n ? $n(n) : void 0;
+async function Zt(e, t, n) {
+	let r = jt(n), i = await nn(e, "DOType", n.baseName, r, async (t) => {
+		let n = await Re(e, t, /* @__PURE__ */ new Set(), []);
+		return n ? jt(n) : void 0;
 	});
 	if (i && r !== "cyclic") return i;
-	let a = await xr(e, t, n.das), o = [];
+	let a = await en(e, t, n.das), o = [];
 	for (let r of n.sdos) o.push({
 		name: r.name,
-		typeId: await vr(e, t, r.type)
+		typeId: await Zt(e, t, r.type)
 	});
-	let s = Ve(n.baseName, await He(e, "DOType", n.baseName)), c = await e.addChild(t, {
+	let s = L(n.baseName, await R(e, "DOType", n.baseName)), c = await e.addChild(t, {
 		tagName: "DOType",
 		attributes: {
 			id: s,
 			cdc: n.cdc
 		}
 	});
-	for (let t of a) await Sr(e, c, "DA", t.da, t.typeId);
+	for (let t of a) await tn(e, c, "DA", t.da, t.typeId);
 	for (let t of o) await e.addChild(c, {
 		tagName: "SDO",
 		attributes: {
@@ -31850,26 +37623,26 @@ async function vr(e, t, n) {
 	});
 	return s;
 }
-async function yr(e, t, n) {
-	let r = er(n), i = await Cr(e, "DAType", n.baseName, r, async (t) => {
-		let n = await Ge(e, t, /* @__PURE__ */ new Set(), []);
-		return n ? er(n) : void 0;
+async function Qt(e, t, n) {
+	let r = Mt(n), i = await nn(e, "DAType", n.baseName, r, async (t) => {
+		let n = await ze(e, t, /* @__PURE__ */ new Set(), []);
+		return n ? Mt(n) : void 0;
 	});
 	if (i && r !== "cyclic") return i;
-	let a = await xr(e, t, n.bdas), o = Ve(n.baseName, await He(e, "DAType", n.baseName)), s = await e.addChild(t, {
+	let a = await en(e, t, n.bdas), o = L(n.baseName, await R(e, "DAType", n.baseName)), s = await e.addChild(t, {
 		tagName: "DAType",
 		attributes: { id: o }
 	});
-	for (let t of a) await Sr(e, s, "BDA", t.da, t.typeId);
+	for (let t of a) await tn(e, s, "BDA", t.da, t.typeId);
 	return o;
 }
-async function br(e, t, n) {
-	let r = tr(n), i = await Cr(e, "EnumType", n.baseName, r, async (t) => {
-		let n = await Ke(e, t);
-		return n ? tr(n) : void 0;
+async function $t(e, t, n) {
+	let r = Nt(n), i = await nn(e, "EnumType", n.baseName, r, async (t) => {
+		let n = await Be(e, t);
+		return n ? Nt(n) : void 0;
 	});
 	if (i) return i;
-	let a = Ve(n.baseName, await He(e, "EnumType", n.baseName)), o = await e.addChild(t, {
+	let a = L(n.baseName, await R(e, "EnumType", n.baseName)), o = await e.addChild(t, {
 		tagName: "EnumType",
 		attributes: { id: a }
 	});
@@ -31880,20 +37653,20 @@ async function br(e, t, n) {
 	});
 	return a;
 }
-async function xr(e, t, n) {
+async function en(e, t, n) {
 	let r = [];
 	for (let i of n) {
 		if (i.bType === "Enum" && i.enumType) {
 			r.push({
 				da: i,
-				typeId: await br(e, t, i.enumType)
+				typeId: await $t(e, t, i.enumType)
 			});
 			continue;
 		}
 		if (i.bType === "Struct" && i.daType) {
 			r.push({
 				da: i,
-				typeId: await yr(e, t, i.daType)
+				typeId: await Qt(e, t, i.daType)
 			});
 			continue;
 		}
@@ -31901,7 +37674,7 @@ async function xr(e, t, n) {
 	}
 	return r;
 }
-async function Sr(e, t, n, r, i) {
+async function tn(e, t, n, r, i) {
 	let a = {
 		name: r.name,
 		bType: r.bType
@@ -31917,19 +37690,19 @@ async function Sr(e, t, n, r, i) {
 		value: t
 	});
 }
-async function Cr(e, t, n, r, i) {
+async function nn(e, t, n, r, i) {
 	let a = await e.getRecordsByTagName(t);
 	for (let e of a) {
-		let t = H(e, "id");
-		if (Be(t).baseName === n && await i(t) === r) return t;
+		let t = B(e, "id");
+		if (I(t).baseName === n && await i(t) === r) return t;
 	}
 }
 //#endregion
 //#region src/data-type-templates/document-store.ts
-var { document: wr, isHydrated: Tr, hydrate: Er, clear: Dr } = L({ extensions: { dataTypeTemplates: {
-	query: Qn,
-	transaction: lr
-} } }), Or = {
+var { document: G, isHydrated: rn, hydrate: an, clear: on } = oe({ extensions: { dataTypeTemplates: {
+	query: At,
+	transaction: Ht
+} } }), K = {
 	findLnodeTypes(e) {
 		return e.query.dataTypeTemplates.findLnodeTypes();
 	},
@@ -31957,11 +37730,11 @@ var { document: wr, isHydrated: Tr, hydrate: Er, clear: Dr } = L({ extensions: {
 };
 //#endregion
 //#region src/data-type-templates/draft/draft.ts
-function kr(e) {
-	let t = e.existing ? Ti(e.existing) : void 0, n = e.structure.members.map(function(e) {
-		return di(e, [], t);
+function sn(e) {
+	let t = e.existing ? er(e.existing) : void 0, n = e.structure.members.map(function(e) {
+		return Un(e, [], t);
 	});
-	return t && Oi(n, t), Ci(n, e.selectorLockedPaths ?? /* @__PURE__ */ new Set()), {
+	return t && rr(n, t), Qn(n, e.selectorLockedPaths ?? /* @__PURE__ */ new Set()), {
 		baseName: e.baseName,
 		lnClass: e.structure.lnClass,
 		namespace: e.structure.namespace,
@@ -31971,18 +37744,18 @@ function kr(e) {
 		warnings: e.existing?.warnings ?? []
 	};
 }
-function Ar(e) {
+function cn(e) {
 	let t = e.namespace.lnNs, n = /* @__PURE__ */ new Set();
 	for (let r of e.nodes) r.kind !== "DO" || r.isCustom || r.memberLnNs && r.memberLnNs !== t && n.add(r.memberLnNs);
 	return [...n];
 }
-function jr(e) {
+function ln(e) {
 	let t = [];
-	for (let n of e.nodes) if (Si(n)) for (let r of $r(n)) t.push({
+	for (let n of e.nodes) if (Zn(n)) for (let r of jn(n)) t.push({
 		name: r,
-		type: si(n, {
+		type: zn(n, {
 			lnNs: n.name === "NamPlt" ? e.namespace.lnNs : void 0,
-			dataNs: Mr(n, e.namespace.lnNs)
+			dataNs: un(n, e.namespace.lnNs)
 		})
 	});
 	return {
@@ -31991,163 +37764,163 @@ function jr(e) {
 		dos: t
 	};
 }
-function Mr(e, t) {
+function un(e, t) {
 	if (e.isCustom) return "Custom";
 	if (e.memberLnNs && e.memberLnNs !== t) return e.memberLnNs;
 }
-function Nr(e, t, n) {
-	let r = Q(e.nodes, t);
-	!r || r.toggleLocked || !n && Ir(e, r) || !n && Gr(e, r) || (r.enabled = n, xi(r, n), n ? (gi(r), vi(e, t), Rr(e, r)) : yi(r), Br(e, r), Hr(e, r), Kr(e, r));
+function dn(e, t, n) {
+	let r = J(e.nodes, t);
+	!r || r.toggleLocked || !n && mn(e, r) || !n && Cn(e, r) || (r.enabled = n, Z(r, n), n ? (Jn(r), Yn(e, t), gn(e, r)) : X(r), vn(e, r), bn(e, r), wn(e, r));
 }
-function Pr(e, t) {
-	let n = Q(e.nodes, t);
+function fn(e, t) {
+	let n = J(e.nodes, t);
 	if (!n || n.toggleLocked) return;
-	let r = Z(n);
+	let r = q(n);
 	if (r === "unchecked") {
-		n.enabled = !0, gi(n), vi(e, t), Rr(e, n), Br(e, n), Hr(e, n), Kr(e, n);
+		n.enabled = !0, Jn(n), Yn(e, t), gn(e, n), vn(e, n), bn(e, n), wn(e, n);
 		return;
 	}
 	if (r === "intermediate") {
-		_i(n), vi(e, t), Rr(e, n), Br(e, n), Hr(e, n), Kr(e, n);
+		Y(n), Yn(e, t), gn(e, n), vn(e, n), bn(e, n), wn(e, n);
 		return;
 	}
-	Ir(e, n) || Gr(e, n) || (n.enabled = !1, yi(n), Br(e, n), Hr(e, n), Kr(e, n));
+	mn(e, n) || Cn(e, n) || (n.enabled = !1, X(n), vn(e, n), bn(e, n), wn(e, n));
 }
-function Fr(e, t) {
+function pn(e, t) {
 	if (t.presCond !== "AtLeastOne" || !t.presCondArgs) return [];
 	let n = t.key.split(".").slice(0, -1).join(".");
-	return (n ? Q(e.nodes, n)?.children ?? [] : e.nodes).filter((e) => e.presCond === "AtLeastOne" && e.presCondArgs === t.presCondArgs);
+	return (n ? J(e.nodes, n)?.children ?? [] : e.nodes).filter((e) => e.presCond === "AtLeastOne" && e.presCondArgs === t.presCondArgs);
 }
-function Ir(e, t) {
-	let n = Fr(e, t);
-	return !n.length || Z(t) === "unchecked" ? !1 : n.filter((e) => Z(e) !== "unchecked").length <= 1;
+function mn(e, t) {
+	let n = pn(e, t);
+	return !n.length || q(t) === "unchecked" ? !1 : n.filter((e) => q(e) !== "unchecked").length <= 1;
 }
-function Lr(e, t) {
+function hn(e, t) {
 	if (t.presCond !== "AtMostOne") return [];
 	let n = t.key.split(".").slice(0, -1).join(".");
-	return (n ? Q(e.nodes, n)?.children ?? [] : e.nodes).filter((e) => e.presCond === "AtMostOne");
+	return (n ? J(e.nodes, n)?.children ?? [] : e.nodes).filter((e) => e.presCond === "AtMostOne");
 }
-function Rr(e, t) {
-	for (let n of Lr(e, t)) n.key === t.key || Z(n) === "unchecked" || (n.enabled = !1, xi(n, !1), yi(n));
+function gn(e, t) {
+	for (let n of hn(e, t)) n.key === t.key || q(n) === "unchecked" || (n.enabled = !1, Z(n, !1), X(n));
 }
-function zr(e, t) {
+function _n(e, t) {
 	if (t.presCond !== "AllOrNonePerGroup" || !t.presCondArgs) return [];
 	let n = t.key.split(".").slice(0, -1).join(".");
-	return (n ? Q(e.nodes, n)?.children ?? [] : e.nodes).filter((e) => e.presCond === "AllOrNonePerGroup" && e.presCondArgs === t.presCondArgs);
+	return (n ? J(e.nodes, n)?.children ?? [] : e.nodes).filter((e) => e.presCond === "AllOrNonePerGroup" && e.presCondArgs === t.presCondArgs);
 }
-function Br(e, t) {
+function vn(e, t) {
 	let n = t.enabled;
-	for (let r of zr(e, t)) r.key === t.key || r.toggleLocked || (n ? _i(r) : (r.enabled = !1, xi(r, !1), yi(r)));
+	for (let r of _n(e, t)) r.key === t.key || r.toggleLocked || (n ? Y(r) : (r.enabled = !1, Z(r, !1), X(r)));
 }
-function Vr(e, t) {
+function yn(e, t) {
 	if (t.presCond !== "AllOnlyOneGroup" || !t.presCondArgs) return [];
 	let n = t.key.split(".").slice(0, -1).join(".");
-	return (n ? Q(e.nodes, n)?.children ?? [] : e.nodes).filter((e) => e.presCond === "AllOnlyOneGroup");
+	return (n ? J(e.nodes, n)?.children ?? [] : e.nodes).filter((e) => e.presCond === "AllOnlyOneGroup");
 }
-function Hr(e, t) {
+function bn(e, t) {
 	let n = t.enabled;
-	for (let r of Vr(e, t)) {
+	for (let r of yn(e, t)) {
 		if (r.key === t.key || r.toggleLocked) continue;
 		let e = r.presCondArgs === t.presCondArgs;
 		if (e && n) {
-			_i(r);
+			Y(r);
 			continue;
 		}
 		if (e && !n) {
-			r.enabled = !1, xi(r, !1), yi(r);
+			r.enabled = !1, Z(r, !1), X(r);
 			continue;
 		}
-		!e && n && (r.enabled = !1, xi(r, !1), yi(r));
+		!e && n && (r.enabled = !1, Z(r, !1), X(r));
 	}
 }
-function Ur(e, t) {
+function xn(e, t) {
 	if (t.presCond !== "AllAtLeastOneGroup" || !t.presCondArgs) return [];
 	let n = t.key.split(".").slice(0, -1).join(".");
-	return (n ? Q(e.nodes, n)?.children ?? [] : e.nodes).filter((e) => e.presCond === "AllAtLeastOneGroup");
+	return (n ? J(e.nodes, n)?.children ?? [] : e.nodes).filter((e) => e.presCond === "AllAtLeastOneGroup");
 }
-function Wr(e, t) {
-	return e.some((e) => e.presCondArgs === t && Z(e) !== "unchecked");
+function Sn(e, t) {
+	return e.some((e) => e.presCondArgs === t && q(e) !== "unchecked");
 }
-function Gr(e, t) {
-	let n = Ur(e, t);
-	if (!n.length || !t.presCondArgs || !Wr(n, t.presCondArgs)) return !1;
+function Cn(e, t) {
+	let n = xn(e, t);
+	if (!n.length || !t.presCondArgs || !Sn(n, t.presCondArgs)) return !1;
 	let r = [];
 	for (let e of n) e.presCondArgs && !r.includes(e.presCondArgs) && r.push(e.presCondArgs);
-	return r.filter((e) => Wr(n, e)).length <= 1;
+	return r.filter((e) => Sn(n, e)).length <= 1;
 }
-function Kr(e, t) {
+function wn(e, t) {
 	let n = t.enabled;
-	for (let r of Ur(e, t)) r.key === t.key || r.toggleLocked || r.presCondArgs !== t.presCondArgs || (n ? _i(r) : (r.enabled = !1, xi(r, !1), yi(r)));
+	for (let r of xn(e, t)) r.key === t.key || r.toggleLocked || r.presCondArgs !== t.presCondArgs || (n ? Y(r) : (r.enabled = !1, Z(r, !1), X(r)));
 }
-function Z(e) {
-	if (e.enumVals.length) return bi(e);
+function q(e) {
+	if (e.enumVals.length) return Xn(e);
 	if (!e.children.length) return e.bType === "Struct" ? "unchecked" : e.enabled ? "checked" : "unchecked";
-	let t = e.children.map((e) => Z(e));
+	let t = e.children.map((e) => q(e));
 	return t.every((e) => e === "checked") ? "checked" : t.some((e) => e !== "unchecked") ? "intermediate" : "unchecked";
 }
-function qr(e, t, n, r) {
-	let i = Q(e.nodes, t);
+function Tn(e, t, n, r) {
+	let i = J(e.nodes, t);
 	if (!i || i.blockedReason) return;
 	let a = i.enumVals.find((e) => e.ord === n);
 	a && (a.selected = r), i.enabled = i.enumVals.some((e) => e.selected !== !1);
 }
-function Jr(e, t, n) {
-	let r = Q(e.nodes, t);
+function En(e, t, n) {
+	let r = J(e.nodes, t);
 	if (r) {
-		Yr(r, n);
-		for (let t of zr(e, r)) Yr(t, n);
+		Dn(r, n);
+		for (let t of _n(e, r)) Dn(t, n);
 	}
 }
-function Yr(e, t) {
-	wi([e], function(e) {
+function Dn(e, t) {
+	$n([e], function(e) {
 		e.fcOptions?.includes(t) && (e.fc = t, e.descId = e.fcVariantDescIds?.[t] ?? e.descId);
 	});
 }
-function Xr(e) {
+function On(e) {
 	for (let t of e.children) {
 		if (t.fcOptions?.length) return t;
-		let e = Xr(t);
+		let e = On(t);
 		if (e) return e;
 	}
 }
-function Zr(e) {
-	return e.fcOptions?.length ? e : Xr(e);
+function kn(e) {
+	return e.fcOptions?.length ? e : On(e);
 }
-function Qr(e) {
+function An(e) {
 	if (e === "Mmulti") return 1;
 	if (e === "Omulti") return 0;
 }
-function $r(e) {
+function jn(e) {
 	return e.instanceCount === void 0 ? [e.name] : Array.from({ length: e.instanceCount }, (t, n) => `${e.name}${n + 1}`);
 }
-function ei(e) {
+function Mn(e) {
 	return e.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
-function ti(e, t, n) {
-	if (!e || Qr(n) === void 0 || e.has(t)) return;
-	let r = RegExp(`^${ei(t)}(\\d+)$`), i = [...e.entries()].filter(([e]) => r.test(e)).sort((e, t) => Number(r.exec(e[0])[1]) - Number(r.exec(t[0])[1]));
+function Nn(e, t, n) {
+	if (!e || An(n) === void 0 || e.has(t)) return;
+	let r = RegExp(`^${Mn(t)}(\\d+)$`), i = [...e.entries()].filter(([e]) => r.test(e)).sort((e, t) => Number(r.exec(e[0])[1]) - Number(r.exec(t[0])[1]));
 	if (i.length) {
 		for (let [, e] of i) e.matched = !0;
-		return ni(e, i[0][0], t), i.length;
+		return Pn(e, i[0][0], t), i.length;
 	}
 }
-function ni(e, t, n) {
+function Pn(e, t, n) {
 	let r = e.get(t);
 	if (r) {
 		e.set(n, {
 			...r,
 			matched: !1
 		});
-		for (let i of r.childKeys) ni(e, i, `${n}.${i.slice(t.length + 1)}`);
+		for (let i of r.childKeys) Pn(e, i, `${n}.${i.slice(t.length + 1)}`);
 	}
 }
-function ri(e, t, n) {
-	let r = Q(e.nodes, t);
+function Fn(e, t, n) {
+	let r = J(e.nodes, t);
 	if (!r) return;
-	let i = Qr(r.presCond);
-	i !== void 0 && (r.instanceCount = Math.max(i, n), Nr(e, t, r.instanceCount > 0));
+	let i = An(r.presCond);
+	i !== void 0 && (r.instanceCount = Math.max(i, n), dn(e, t, r.instanceCount > 0));
 }
-function ii(e, t) {
+function In(e, t) {
 	let n = {
 		key: t.name,
 		kind: "DO",
@@ -32159,27 +37932,27 @@ function ii(e, t) {
 		enabled: !0,
 		toggleLocked: !1,
 		children: t.cdcMembers.map(function(e) {
-			return di(e, [t.name], void 0, !0);
+			return Un(e, [t.name], void 0, !0);
 		})
 	};
-	return (t.enumName || t.enumLiterals) && hi(n, t.enumName, t.enumLiterals), gi(n), e.nodes.push(n), n;
+	return (t.enumName || t.enumLiterals) && qn(n, t.enumName, t.enumLiterals), Jn(n), e.nodes.push(n), n;
 }
-function Q(e, t) {
+function J(e, t) {
 	for (let n of e) {
 		if (n.key === t) return n;
-		let e = Q(n.children, t);
+		let e = J(n.children, t);
 		if (e) return e;
 	}
 }
-function ai(e) {
+function Ln(e) {
 	let t = [e.desc ?? ""];
-	return wi(e.nodes, function(e) {
-		if (!Si(e)) return;
+	return $n(e.nodes, function(e) {
+		if (!Zn(e)) return;
 		let n = e.enumVals.filter((e) => e.selected !== !1).map((e) => `${e.ord}=${e.value}`).join(",");
 		t.push(`${e.key}|${e.fc ?? ""}|${e.instanceCount ?? ""}|${n}`);
 	}), t.sort().join("\n");
 }
-function oi(e, t) {
+function Rn(e, t) {
 	return /^[A-Z][0-9A-Za-z]*$/.test(e) ? e.length > 12 ? {
 		valid: !1,
 		reason: "Name must be at most 12 characters"
@@ -32191,29 +37964,29 @@ function oi(e, t) {
 		reason: "Name must start with an uppercase letter and contain only letters or digits (A-Z, a-z, 0-9)"
 	};
 }
-function si(e, t) {
+function zn(e, t) {
 	let n = [], r = [];
-	for (let t of e.children) if (Si(t)) {
+	for (let t of e.children) if (Zn(t)) {
 		if (t.kind === "DA") {
-			for (let e of $r(t)) n.push({
-				...ci(t),
+			for (let e of jn(t)) n.push({
+				...Bn(t),
 				name: e
 			});
 			continue;
 		}
-		if (t.kind === "SDO") for (let e of $r(t)) r.push({
+		if (t.kind === "SDO") for (let e of jn(t)) r.push({
 			name: e,
-			type: si(t, {})
+			type: zn(t, {})
 		});
 	}
-	return ui(n, "lnNs", t.lnNs), ui(n, "dataNs", t.dataNs), {
+	return Hn(n, "lnNs", t.lnNs), Hn(n, "dataNs", t.dataNs), {
 		baseName: `${e.cdc ?? "DO"}.${e.name}`,
 		cdc: e.cdc ?? "",
 		das: n,
 		sdos: r
 	};
 }
-function ci(e) {
+function Bn(e) {
 	let t = e.bType ?? "VisString255", n = {
 		name: e.name,
 		bType: t,
@@ -32226,21 +37999,21 @@ function ci(e) {
 			ord: e.ord,
 			value: e.value
 		}))
-	}), t === "Struct" && (n.daType = li(e)), n;
+	}), t === "Struct" && (n.daType = Vn(e)), n;
 }
-function li(e) {
+function Vn(e) {
 	return {
 		baseName: e.structName ?? e.key,
-		bdas: e.children.filter((e) => Si(e) && (e.kind === "BDA" || e.kind === "DA")).flatMap(function(e) {
-			return $r(e).map((t) => ({
-				...ci(e),
+		bdas: e.children.filter((e) => Zn(e) && (e.kind === "BDA" || e.kind === "DA")).flatMap(function(e) {
+			return jn(e).map((t) => ({
+				...Bn(e),
 				fc: void 0,
 				name: t
 			}));
 		})
 	};
 }
-function ui(e, t, n) {
+function Hn(e, t, n) {
 	if (!n) return;
 	let r = e.find((e) => e.name === t);
 	if (r) {
@@ -32254,8 +38027,8 @@ function ui(e, t, n) {
 		vals: [n]
 	});
 }
-function di(e, t, n, r = !1, i = !0) {
-	let a = [...t, e.name], o = a.join("."), s = ti(n, o, e.presCond), c = n?.get(o), l = e.presCond.startsWith("M"), u = e.presCond === "F" || e.presCond === "na", d = u ? !1 : n ? !!c : l && i, f = c?.fc ?? e.fc, p = e.fcVariantDescIds && f ? e.fcVariantDescIds[f] ?? e.descId : e.descId, m = {
+function Un(e, t, n, r = !1, i = !0) {
+	let a = [...t, e.name], o = a.join("."), s = Nn(n, o, e.presCond), c = n?.get(o), l = e.presCond.startsWith("M"), u = e.presCond === "F" || e.presCond === "na", d = u ? !1 : n ? !!c : l && i, f = c?.fc ?? e.fc, p = e.fcVariantDescIds && f ? e.fcVariantDescIds[f] ?? e.descId : e.descId, m = {
 		key: o,
 		kind: e.kind,
 		name: e.name,
@@ -32267,26 +38040,26 @@ function di(e, t, n, r = !1, i = !0) {
 		fc: f,
 		fcOptions: e.fcOptions,
 		fcVariantDescIds: e.fcVariantDescIds,
-		bType: fi(e),
+		bType: Wn(e),
 		structName: e.typeKind === "CONSTRUCTED" ? e.type : void 0,
 		enumName: e.enumName,
-		enumVals: pi(e, c),
+		enumVals: Gn(e, c),
 		memberLnNs: e.kind === "DO" ? e.namespace?.lnNs : void 0,
 		isCustom: !1,
 		enabled: d,
 		toggleLocked: l || u,
-		instanceCount: s ?? Qr(e.presCond),
+		instanceCount: s ?? An(e.presCond),
 		children: e.children.map(function(e) {
-			return di(e, a, n, r, d);
+			return Un(e, a, n, r, d);
 		})
 	};
-	return m.enabled || xi(m, !1), c && (c.matched = !0), m;
+	return m.enabled || Z(m, !1), c && (c.matched = !0), m;
 }
-function fi(e) {
+function Wn(e) {
 	if (!(e.kind === "DO" || e.kind === "SDO")) return e.typeKind === "ENUMERATED" ? "Enum" : e.typeKind === "CONSTRUCTED" ? "Struct" : e.type;
 }
-function pi(e, t) {
-	let n = mi(e), r = t?.enumVals;
+function Gn(e, t) {
+	let n = Kn(e), r = t?.enumVals;
 	if (!r) return n;
 	let i = new Set(r.map((e) => e.value)), a = n.map((e) => ({
 		...e,
@@ -32298,7 +38071,7 @@ function pi(e, t) {
 	});
 	return a;
 }
-function mi(e) {
+function Kn(e) {
 	return e.enumLiterals?.length ? e.enumLiterals.map(function(e) {
 		return {
 			ord: Number(e.literalVal),
@@ -32307,58 +38080,58 @@ function mi(e) {
 		};
 	}) : [];
 }
-function hi(e, t, n) {
-	wi(e.children, function(e) {
+function qn(e, t, n) {
+	$n(e.children, function(e) {
 		e.bType !== "Enum" || e.enumVals.length || (e.enumName = e.enumName ?? t, e.enumVals = n ? [...n] : e.enumVals);
 	});
 }
-function gi(e) {
-	for (let t of e.children) t.presCond.startsWith("M") && (t.enabled = !0, xi(t, !0), _i(t));
+function Jn(e) {
+	for (let t of e.children) t.presCond.startsWith("M") && (t.enabled = !0, Z(t, !0), Y(t));
 }
-function _i(e) {
+function Y(e) {
 	if (!(e.presCond === "F" || e.presCond === "na")) {
-		e.enabled = !0, xi(e, !0);
-		for (let t of e.children) _i(t);
+		e.enabled = !0, Z(e, !0);
+		for (let t of e.children) Y(t);
 	}
 }
-function vi(e, t) {
+function Yn(e, t) {
 	let n = t.split(".");
 	for (let t = n.length - 1; t > 0; t--) {
-		let r = Q(e.nodes, n.slice(0, t).join("."));
+		let r = J(e.nodes, n.slice(0, t).join("."));
 		if (!r) return;
-		gi(r);
+		Jn(r);
 	}
 }
-function yi(e) {
-	for (let t of e.children) t.enabled = !1, xi(t, !1), yi(t);
+function X(e) {
+	for (let t of e.children) t.enabled = !1, Z(t, !1), X(t);
 }
-function bi(e) {
+function Xn(e) {
 	let t = e.enumVals.filter((e) => e.selected !== !1).length;
 	return t === e.enumVals.length ? "checked" : t > 0 ? "intermediate" : "unchecked";
 }
-function xi(e, t) {
+function Z(e, t) {
 	for (let n of e.enumVals) n.selected = t;
 }
-function Si(e) {
-	return Z(e) !== "unchecked";
+function Zn(e) {
+	return q(e) !== "unchecked";
 }
-function Ci(e, t) {
-	wi(e, function(e) {
+function Qn(e, t) {
+	$n(e, function(e) {
 		t.has(e.key) && (e.toggleLocked = !0, e.blockedReason = `This ${e.kind} is selected as a ${e.kind === "DO" || e.kind === "SDO" ? "DOS" : "DAS"} and cannot be unselected or modified`);
 	});
 }
-function wi(e, t) {
-	for (let n of e) t(n), wi(n.children, t);
+function $n(e, t) {
+	for (let n of e) t(n), $n(n.children, t);
 }
-function Ti(e) {
+function er(e) {
 	let t = /* @__PURE__ */ new Map();
-	for (let n of e.dos) Ei(t, [n.name], "DO", n.type);
+	for (let n of e.dos) tr(t, [n.name], "DO", n.type);
 	return t;
 }
-function Ei(e, t, n, r) {
+function tr(e, t, n, r) {
 	let i = t.join("."), a = [];
-	for (let n of r.das) a.push([...t, n.name].join(".")), Di(e, [...t, n.name], "DA", n);
-	for (let n of r.sdos) a.push([...t, n.name].join(".")), Ei(e, [...t, n.name], "SDO", n.type);
+	for (let n of r.das) a.push([...t, n.name].join(".")), nr(e, [...t, n.name], "DA", n);
+	for (let n of r.sdos) a.push([...t, n.name].join(".")), tr(e, [...t, n.name], "SDO", n.type);
 	e.set(i, {
 		kind: n,
 		name: t[t.length - 1] ?? "",
@@ -32367,9 +38140,9 @@ function Ei(e, t, n, r) {
 		childKeys: a
 	});
 }
-function Di(e, t, n, r) {
+function nr(e, t, n, r) {
 	let i = t.join("."), a = [];
-	if (r.daType) for (let n of r.daType.bdas) a.push([...t, n.name].join(".")), Di(e, [...t, n.name], "BDA", n);
+	if (r.daType) for (let n of r.daType.bdas) a.push([...t, n.name].join(".")), nr(e, [...t, n.name], "BDA", n);
 	e.set(i, {
 		kind: n,
 		name: t[t.length - 1] ?? "",
@@ -32383,13 +38156,13 @@ function Di(e, t, n, r) {
 		childKeys: a
 	});
 }
-function Oi(e, t) {
+function rr(e, t) {
 	let n = [...t.entries()].filter(function([e, t]) {
 		return !t.matched && t.kind === "DO" && !e.includes(".");
 	});
-	for (let [r, i] of n) e.push(ki(r, i, t));
+	for (let [r, i] of n) e.push(ir(r, i, t));
 }
-function ki(e, t, n) {
+function ir(e, t, n) {
 	return t.matched = !0, {
 		key: e,
 		kind: t.kind,
@@ -32404,13 +38177,13 @@ function ki(e, t, n) {
 		toggleLocked: !1,
 		children: t.childKeys.map(function(e) {
 			let t = n.get(e);
-			return t ? ki(e, t, n) : void 0;
+			return t ? ir(e, t, n) : void 0;
 		}).filter((e) => !!e)
 	};
 }
 //#endregion
 //#region src/nsd/cdc-categories.ts
-var Ai = [
+var ar = [
 	"ASG",
 	"CSG",
 	"CUG",
@@ -32420,7 +38193,7 @@ var Ai = [
 	"SPG",
 	"TSG",
 	"VSG"
-], ji = {
+], or = {
 	DPL: {
 		category: "Descriptions",
 		subCategory: "Description information (§7.8)",
@@ -32684,14 +38457,14 @@ var Ai = [
 };
 //#endregion
 //#region src/nsd/nsd.service.ts
-async function Mi() {
-	let e = await Vi(), t = [];
+async function sr() {
+	let e = await Q(), t = [];
 	for (let n of e.nsdDocs) {
 		let r = await n.document.query.getRecordsByTagName("LNClass");
 		for (let i of r) {
 			let r = $(i, "name");
 			if (!r || $(i, "isExtension") === "true") continue;
-			let a = await Yi(e, r);
+			let a = await Cr(e, r);
 			t.push({
 				lnClass: r,
 				documentId: n.documentId,
@@ -32704,14 +38477,14 @@ async function Mi() {
 		return e.lnClass.localeCompare(t.lnClass) || e.namespace.label.localeCompare(t.namespace.label);
 	});
 }
-async function Ni(e) {
-	let t = await Vi(), n = t.nsdDocs.find(function(t) {
+async function cr(e) {
+	let t = await Q(), n = t.nsdDocs.find(function(t) {
 		return t.documentId === e.documentId;
 	});
 	if (!n) throw Error(`NSD document not found: ${e.documentId}`);
-	let r = await Ji(t, n, e.lnClass);
+	let r = await Sr(t, n, e.lnClass);
 	if (!r.length) throw Error(`LNClass not found: ${e.lnClass}`);
-	let i = await Yi(t, e.lnClass), a = [...r, ...i], o = [], s = /* @__PURE__ */ new Set();
+	let i = await Cr(t, e.lnClass), a = [...r, ...i], o = [], s = /* @__PURE__ */ new Set();
 	for (let n of a) {
 		let r = {
 			tagName: n.tagName,
@@ -32719,7 +38492,7 @@ async function Ni(e) {
 		}, i = await n.doc.document.query.getChildren(r, "DataObject");
 		for (let r of i) {
 			let i = $(r, "name");
-			!i || s.has(i) || (s.add(i), o.push(await Zi(t, {
+			!i || s.has(i) || (s.add(i), o.push(await Tr(t, {
 				record: r,
 				declaringClass: n.name,
 				requestedClass: e.lnClass,
@@ -32733,8 +38506,8 @@ async function Ni(e) {
 		members: o
 	};
 }
-async function Pi() {
-	let e = await Vi(), t = [];
+async function lr() {
+	let e = await Q(), t = [];
 	for (let [n, r] of e.cdcs) {
 		let i = $(r.record, "titleID") || void 0;
 		t.push({
@@ -32742,8 +38515,8 @@ async function Pi() {
 			enumParameterized: $(r.record, "enumParameterized") === "true",
 			descId: $(r.record, "descID") || void 0,
 			titleId: i,
-			title: await Li(e, i),
-			categoryLabel: ji[n]?.category,
+			title: await fr(e, i),
+			categoryLabel: or[n]?.category,
 			namespace: r.doc.namespace
 		});
 	}
@@ -32751,17 +38524,17 @@ async function Pi() {
 		return e.name.localeCompare(t.name);
 	});
 }
-async function Fi(e) {
-	return Qi(await Vi(), {
+async function ur(e) {
+	return Er(await Q(), {
 		cdcName: e.cdc,
 		parameterizedEnumName: e.parameterizedEnumName,
 		seen: /* @__PURE__ */ new Set()
 	});
 }
-async function Ii(e) {
-	if (e) return Li(await Vi(), e);
+async function dr(e) {
+	if (e) return fr(await Q(), e);
 }
-async function Li(e, t) {
+async function fr(e, t) {
 	if (t) for (let n of e.nsdocDocs) {
 		let e = (await n.query.findByAttributes({
 			tagName: "Doc",
@@ -32770,22 +38543,22 @@ async function Li(e, t) {
 		if (e) return e;
 	}
 }
-async function Ri(e) {
-	let t = (await Vi()).presenceConditions.get(e);
+async function pr(e) {
+	let t = (await Q()).presenceConditions.get(e);
 	if (!t) return;
 	let n = $(t.record, "descID") || void 0;
 	return {
 		name: e,
 		descId: n,
-		description: await Ii(n)
+		description: await dr(n)
 	};
 }
-var zi, Bi = -1;
-function Vi() {
-	return (!zi || Bi !== ue.value) && (Bi = ue.value, zi = Hi()), zi;
+var mr, hr = -1;
+function Q() {
+	return (!mr || hr !== ie.value) && (hr = ie.value, mr = gr()), mr;
 }
-async function Hi() {
-	let e = await I(), t = await e.getDocuments(), n = {
+async function gr() {
+	let e = await re(), t = await e.getDocuments(), n = {
 		nsdDocs: [],
 		nsdocDocs: [],
 		cdcs: /* @__PURE__ */ new Map(),
@@ -32795,7 +38568,7 @@ async function Hi() {
 		presenceConditions: /* @__PURE__ */ new Map()
 	};
 	for (let r of t) {
-		let t = e.openDocument(r.id), i = await se(t);
+		let t = e.openDocument(r.id), i = await ee(t);
 		if (i.isNsdoc) {
 			n.nsdocDocs.push(t);
 			continue;
@@ -32803,13 +38576,13 @@ async function Hi() {
 		let a = {
 			documentId: r.id,
 			document: t,
-			namespace: qi(i)
+			namespace: xr(i)
 		};
-		n.nsdDocs.push(a), await Ui(n, a);
+		n.nsdDocs.push(a), await _r(n, a);
 	}
 	return n;
 }
-async function Ui(e, t) {
+async function _r(e, t) {
 	let { query: n } = t.document, r = [
 		{
 			tagName: "CDC",
@@ -32833,7 +38606,7 @@ async function Ui(e, t) {
 		for (let n of r) {
 			let r = $(n, "name");
 			if (!r) continue;
-			i === "CDC" && Wi(e, r, n, t);
+			i === "CDC" && vr(e, r, n, t);
 			let o = a.get(r);
 			if (!o) {
 				a.set(r, {
@@ -32842,15 +38615,15 @@ async function Ui(e, t) {
 				});
 				continue;
 			}
-			i === "ConstructedAttribute" && await Gi(a, r, o, {
+			i === "ConstructedAttribute" && await yr(a, r, o, {
 				record: n,
 				doc: t
 			});
 		}
 	}
 }
-function Wi(e, t, n, r) {
-	if (!Ai.includes(t)) return;
+function vr(e, t, n, r) {
+	if (!ar.includes(t)) return;
 	let i = $(n, "variant");
 	if (!i) return;
 	let a = e.cdcVariants.get(t);
@@ -32859,30 +38632,30 @@ function Wi(e, t, n, r) {
 		doc: r
 	});
 }
-async function Gi(e, t, n, r) {
-	await Ki(n) || await Ki(r) && e.set(t, r);
+async function yr(e, t, n, r) {
+	await br(n) || await br(r) && e.set(t, r);
 }
-async function Ki(e) {
+async function br(e) {
 	return (await e.doc.document.query.getChildren({
 		tagName: "ConstructedAttribute",
 		id: e.record.id
 	}, "SubDataAttribute")).length > 0;
 }
-function qi(e) {
+function xr(e) {
 	return {
 		id: e.id,
 		version: e.version,
 		revision: e.revision,
 		release: e.release,
-		label: `${e.id} v${le(e)}`,
+		label: `${e.id} v${ne(e)}`,
 		lnNs: `${e.id}:${e.version}${e.revision}${e.release}`
 	};
 }
-async function Ji(e, t, n) {
+async function Sr(e, t, n) {
 	let r = [], i = n, a = !0, o = /* @__PURE__ */ new Set();
 	for (; i && !o.has(i);) {
 		o.add(i);
-		let n = await Xi(e, t, i, a);
+		let n = await wr(e, t, i, a);
 		if (!n) break;
 		r.unshift({
 			name: i,
@@ -32893,7 +38666,7 @@ async function Ji(e, t, n) {
 	}
 	return r;
 }
-async function Yi(e, t) {
+async function Cr(e, t) {
 	let n = [];
 	for (let r of e.nsdDocs) {
 		let e = await r.document.query.findByAttributes({
@@ -32909,7 +38682,7 @@ async function Yi(e, t) {
 	}
 	return n;
 }
-async function Xi(e, t, n, r) {
+async function wr(e, t, n, r) {
 	let i = [t, ...e.nsdDocs.filter((e) => e.documentId !== t.documentId)], a = r ? ["LNClass"] : ["LNClass", "AbstractLNClass"];
 	for (let e of i) for (let t of a) {
 		let r = await e.document.query.findByAttributes({
@@ -32923,7 +38696,7 @@ async function Xi(e, t, n, r) {
 		};
 	}
 }
-async function Zi(e, t) {
+async function Tr(e, t) {
 	let { record: n } = t, r = $(n, "type"), i = $(n, "underlyingType") || void 0;
 	return {
 		kind: "DO",
@@ -32935,14 +38708,14 @@ async function Zi(e, t) {
 		descId: $(n, "descID") || void 0,
 		inheritedFrom: t.declaringClass === t.requestedClass ? void 0 : t.declaringClass,
 		namespace: t.namespace,
-		children: await Qi(e, {
+		children: await Er(e, {
 			cdcName: r,
 			parameterizedEnumName: i,
 			seen: /* @__PURE__ */ new Set()
 		})
 	};
 }
-async function Qi(e, t) {
+async function Er(e, t) {
 	let n = e.cdcs.get(t.cdcName);
 	if (!n) return [];
 	let r = `CDC:${t.cdcName}`;
@@ -32950,9 +38723,9 @@ async function Qi(e, t) {
 	let i = new Set(t.seen).add(r), { query: a } = n.doc.document, o = {
 		tagName: "CDC",
 		id: n.record.id
-	}, s = [], c = await $i(e, t.cdcName), l = await a.getChildren(o, "DataAttribute");
+	}, s = [], c = await Dr(e, t.cdcName), l = await a.getChildren(o, "DataAttribute");
 	for (let r of l) {
-		let a = await ta(e, {
+		let a = await kr(e, {
 			record: r,
 			kind: "DA",
 			parameterizedEnumName: t.parameterizedEnumName,
@@ -32977,7 +38750,7 @@ async function Qi(e, t) {
 			cdc: r,
 			descId: $(t, "descID") || void 0,
 			namespace: n.doc.namespace,
-			children: await Qi(e, {
+			children: await Er(e, {
 				cdcName: r,
 				parameterizedEnumName: $(t, "underlyingType") || void 0,
 				seen: i
@@ -32986,7 +38759,7 @@ async function Qi(e, t) {
 	}
 	return s;
 }
-async function $i(e, t) {
+async function Dr(e, t) {
 	let n = e.cdcVariants.get(t), r = /* @__PURE__ */ new Map();
 	if (!n || n.size < 2) return r;
 	let i = /* @__PURE__ */ new Map();
@@ -33007,18 +38780,18 @@ async function $i(e, t) {
 		let n = {};
 		for (let [e, r] of t) r && (n[e] = r);
 		r.set(e, {
-			fcOptions: ea([...t.keys()]),
+			fcOptions: Or([...t.keys()]),
 			descIds: n
 		});
 	}
 	return r;
 }
-function ea(e) {
+function Or(e) {
 	return [...e].sort(function(e, t) {
 		return e === "SP" ? -1 : t === "SP" ? 1 : e.localeCompare(t);
 	});
 }
-async function ta(e, t) {
+async function kr(e, t) {
 	let { record: n } = t, r = $(n, "typeKind") || void 0, i = $(n, "type") || void 0, a = {
 		kind: t.kind,
 		name: $(n, "name"),
@@ -33031,13 +38804,13 @@ async function ta(e, t) {
 		namespace: t.namespace,
 		children: []
 	};
-	return r === "ENUMERATED" && (a.enumName = i || t.parameterizedEnumName, a.enumLiterals = await ra(e, a.enumName)), r === "CONSTRUCTED" && i && (a.children = await na(e, {
+	return r === "ENUMERATED" && (a.enumName = i || t.parameterizedEnumName, a.enumLiterals = await jr(e, a.enumName)), r === "CONSTRUCTED" && i && (a.children = await Ar(e, {
 		name: i,
 		parameterizedEnumName: t.parameterizedEnumName,
 		seen: t.seen
 	})), a;
 }
-async function na(e, t) {
+async function Ar(e, t) {
 	let n = e.constructedAttributes.get(t.name);
 	if (!n) return [];
 	let r = `CA:${t.name}`;
@@ -33046,7 +38819,7 @@ async function na(e, t) {
 		tagName: "ConstructedAttribute",
 		id: n.record.id
 	}, "SubDataAttribute"), o = [];
-	for (let r of a) o.push(await ta(e, {
+	for (let r of a) o.push(await kr(e, {
 		record: r,
 		kind: "BDA",
 		parameterizedEnumName: t.parameterizedEnumName,
@@ -33055,7 +38828,7 @@ async function na(e, t) {
 	}));
 	return o;
 }
-async function ra(e, t) {
+async function jr(e, t) {
 	if (!t) return [];
 	let n = e.enumerations.get(t);
 	return n ? (await n.doc.document.query.getChildren({
@@ -33074,10 +38847,10 @@ function $(e, t) {
 }
 //#endregion
 //#region src/data-type-templates/data-type-templates.store.ts
-var ia = "This type is exclusively used by IED LN instances and cannot be modified.", aa = _("data-type-templates", function() {
-	let e = F([]), n = F(), r = F(), i = F([]), a = F(!1), o = F(!1), s = F(), c = F(), l = F(""), u = F(!0), d = F(""), f = F("all"), p = F(""), m = F(!1), h = F(), g = F(!1), _ = t(function() {
-		return r.value ? ai(r.value) !== p.value : !1;
-	}), v = t(function() {
+var Mr = "This type is exclusively used by IED LN instances and cannot be modified.", Nr = N("data-type-templates", function() {
+	let e = M([]), t = M(), n = M(), r = M([]), i = M(!1), a = M(!1), o = M(), c = M(), l = M(""), u = M(!0), d = M(""), f = M("all"), p = M(""), m = M(!1), h = M(), g = M(!1), _ = s(function() {
+		return n.value ? Ln(n.value) !== p.value : !1;
+	}), v = s(function() {
 		let t = l.value.trim().toLowerCase(), n = e.value.filter(function(e) {
 			return t ? e.id.toLowerCase().includes(t) || e.lnClass.toLowerCase().includes(t) : !0;
 		}), r = u.value ? 1 : -1;
@@ -33086,61 +38859,61 @@ var ia = "This type is exclusively used by IED LN instances and cannot be modifi
 		});
 	});
 	async function y() {
-		e.value = await Or.findLnodeTypes(wr.value);
+		e.value = await K.findLnodeTypes(G.value);
 	}
 	async function b(e) {
-		n.value = e, o.value = !1, c.value = void 0, await ae(e), await ie(e), s.value = await Or.isExclusiveIedType(wr.value, e) ? ia : void 0;
+		t.value = e, a.value = !1, c.value = void 0, await ae(e), await ie(e), o.value = await K.isExclusiveIedType(G.value, e) ? Mr : void 0;
 	}
-	async function x(e, t) {
-		r.value = kr({
-			structure: await Ni({
+	async function x(e, i) {
+		n.value = sn({
+			structure: await cr({
 				lnClass: e.lnClass,
 				documentId: e.documentId
 			}),
-			baseName: t
-		}), p.value = "", n.value = void 0, i.value = [], o.value = !0, s.value = void 0;
+			baseName: i
+		}), p.value = "", t.value = void 0, r.value = [], a.value = !0, o.value = void 0;
 	}
 	async function S() {
-		let e = n.value;
-		if (!(!e || !r.value)) {
-			if (await Or.isExclusiveIedType(wr.value, e)) {
-				s.value = ia;
+		let e = t.value;
+		if (!(!e || !n.value)) {
+			if (await K.isExclusiveIedType(G.value, e)) {
+				o.value = Mr;
 				return;
 			}
-			o.value = !0;
+			a.value = !0;
 		}
 	}
 	function C(e, t) {
-		!r.value || !o.value || Nr(r.value, e, t);
+		!n.value || !a.value || dn(n.value, e, t);
 	}
-	function ee(e) {
-		!r.value || !o.value || Pr(r.value, e);
+	function w(e) {
+		!n.value || !a.value || fn(n.value, e);
 	}
-	function w(e, t, n) {
-		!r.value || !o.value || qr(r.value, e, t, n);
+	function T(e, t, r) {
+		!n.value || !a.value || Tn(n.value, e, t, r);
 	}
-	function T(e, t) {
-		!r.value || !o.value || Jr(r.value, e, t);
-	}
-	function te(e, t) {
-		!r.value || !o.value || ri(r.value, e, t);
-	}
-	function E(e) {
-		!r.value || !o.value || ii(r.value, e);
+	function E(e, t) {
+		!n.value || !a.value || En(n.value, e, t);
 	}
 	function D(e, t) {
-		if (!r.value || !o.value) return;
-		let n = Q(r.value.nodes, e);
-		!n || n.toggleLocked || (n.enumVals = t);
+		!n.value || !a.value || Fn(n.value, e, t);
 	}
-	async function O(e) {
-		let t = r.value;
+	function O(e) {
+		!n.value || !a.value || In(n.value, e);
+	}
+	function k(e, t) {
+		if (!n.value || !a.value) return;
+		let r = J(n.value.nodes, e);
+		!r || r.toggleLocked || (r.enumVals = t);
+	}
+	async function A(e) {
+		let t = n.value;
 		if (!t) return !1;
 		c.value = void 0;
 		try {
-			let n = await Or.saveDraft(wr.value, {
+			let n = await K.saveDraft(G.value, {
 				baseName: t.baseName,
-				payload: jr(t),
+				payload: ln(t),
 				sourceLnodeTypeId: t.sourceLnodeTypeId,
 				forceNewVersion: e?.forceNewVersion
 			});
@@ -33149,35 +38922,35 @@ var ia = "This type is exclusively used by IED LN instances and cannot be modifi
 			return c.value = e instanceof Error ? e.message : String(e), !1;
 		}
 	}
-	async function k() {
-		await O({ forceNewVersion: !0 });
+	async function j() {
+		await A({ forceNewVersion: !0 });
 	}
-	async function A(e) {
+	async function N(e) {
 		if (g.value) {
 			await e();
 			return;
 		}
-		if (o.value && _.value) {
+		if (a.value && _.value) {
 			h.value = e, m.value = !0;
 			return;
 		}
 		await e();
 	}
-	function ne() {
+	function P() {
 		m.value = !1, h.value = void 0;
 	}
-	async function j() {
+	async function ee() {
 		let e = h.value;
 		h.value = void 0, m.value = !1, g.value = !0;
 		try {
-			await re(), e && await e();
+			await F(), e && await e();
 		} finally {
 			g.value = !1;
 		}
 	}
-	async function M() {
+	async function te() {
 		let e = h.value;
-		if (h.value = void 0, m.value = !1, !(!await O() || !e)) {
+		if (h.value = void 0, m.value = !1, !(!await A() || !e)) {
 			g.value = !0;
 			try {
 				await e();
@@ -33186,49 +38959,49 @@ var ia = "This type is exclusively used by IED LN instances and cannot be modifi
 			}
 		}
 	}
-	async function re() {
-		let e = n.value;
-		if (o.value) {
+	async function F() {
+		let e = t.value;
+		if (a.value) {
 			if (c.value = void 0, !e) {
-				r.value = void 0, i.value = [], o.value = !1;
+				n.value = void 0, r.value = [], a.value = !1;
 				return;
 			}
-			await ae(e), o.value = !1;
+			await ae(e), a.value = !1;
 		}
 	}
-	async function N() {
-		await A(re);
+	async function ne() {
+		await N(F);
 	}
-	async function P(e) {
+	async function re(e) {
 		c.value = void 0;
 		try {
-			await Or.remove(wr.value, e), n.value === e && (n.value = void 0, r.value = void 0, i.value = []), await y();
+			await K.remove(G.value, e), t.value === e && (t.value = void 0, n.value = void 0, r.value = []), await y();
 		} catch (e) {
 			c.value = e instanceof Error ? e.message : String(e);
 		}
 	}
 	async function ie(e) {
-		i.value = await Or.findReferencingLnodes(wr.value, e);
+		r.value = await K.findReferencingLnodes(G.value, e);
 	}
 	async function ae(e) {
-		let t = await Or.readExistingLnodeType(wr.value, e);
+		let t = await K.readExistingLnodeType(G.value, e);
 		if (!t) {
-			r.value = void 0;
+			n.value = void 0;
 			return;
 		}
-		let n = await Or.listSelectorLockedPaths(wr.value, e);
-		r.value = kr({
+		let r = await K.listSelectorLockedPaths(G.value, e);
+		n.value = sn({
 			structure: await oe(t.lnClass),
-			baseName: Be(e).baseName,
+			baseName: I(e).baseName,
 			existing: t,
-			selectorLockedPaths: n
-		}), p.value = ai(r.value);
+			selectorLockedPaths: r
+		}), p.value = Ln(n.value);
 	}
 	async function oe(e) {
-		let t = (await Mi()).find(function(t) {
+		let t = (await sr()).find(function(t) {
 			return t.lnClass === e;
 		});
-		return t ? Ni({
+		return t ? cr({
 			lnClass: t.lnClass,
 			documentId: t.documentId
 		}) : {
@@ -33247,12 +39020,12 @@ var ia = "This type is exclusively used by IED LN instances and cannot be modifi
 	return {
 		lnodeTypes: e,
 		filteredLnodeTypes: v,
-		selectedLnodeTypeId: n,
-		draft: r,
-		references: i,
-		referencePanelOpen: a,
-		isEditing: o,
-		editBlockedReason: s,
+		selectedLnodeTypeId: t,
+		draft: n,
+		references: r,
+		referencePanelOpen: i,
+		isEditing: a,
+		editBlockedReason: o,
 		error: c,
 		hasChange: _,
 		listSearch: l,
@@ -33264,41 +39037,41 @@ var ia = "This type is exclusively used by IED LN instances and cannot be modifi
 		startCreate: x,
 		requestEdit: S,
 		toggle: C,
-		toggleBranch: ee,
-		toggleEnumVal: w,
-		setSettingFc: T,
-		setNodeInstanceCount: te,
-		addCustomDataObject: E,
-		updateEnumVals: D,
-		save: O,
-		createNewLnodeTypeVersion: k,
-		removeLnodeType: P,
-		cancelEdit: re,
-		requestCancelEdit: N,
-		runWithUnsavedGuard: A,
-		keepEditingAfterUnsavedPrompt: ne,
-		continueAfterDiscard: j,
-		continueAfterSave: M,
+		toggleBranch: w,
+		toggleEnumVal: T,
+		setSettingFc: E,
+		setNodeInstanceCount: D,
+		addCustomDataObject: O,
+		updateEnumVals: k,
+		save: A,
+		createNewLnodeTypeVersion: j,
+		removeLnodeType: re,
+		cancelEdit: F,
+		requestCancelEdit: ne,
+		runWithUnsavedGuard: N,
+		keepEditingAfterUnsavedPrompt: P,
+		continueAfterDiscard: ee,
+		continueAfterSave: te,
 		unsavedChangesDialogOpen: m
 	};
-}), oa = {
+}), Pr = {
 	key: 0,
 	class: "lnode-type-list__error"
-}, sa = /* @__PURE__ */ T(/* @__PURE__ */ s({
+}, Fr = /* @__PURE__ */ g(/* @__PURE__ */ P({
 	__name: "lnode-type-list",
 	setup(e) {
-		let t = aa(), { filteredLnodeTypes: n, selectedLnodeTypeId: a, listSearch: s, listSortAscending: c, error: u } = oe(t);
-		fe({
-			document: wr,
+		let t = Nr(), { filteredLnodeTypes: n, selectedLnodeTypeId: i, listSearch: o, listSortAscending: s, error: c } = j(t);
+		se({
+			document: G,
 			fetcher: async function() {
 				return await t.refreshLnodeTypes(), !0;
 			},
 			initial: !1
 		});
-		let d = F(), p = F(), m = F([]);
-		async function h() {
+		let l = M(), f = M(), h = M([]);
+		async function g() {
 			await t.runWithUnsavedGuard(async function() {
-				m.value = await Mi(), d.value?.open();
+				h.value = await sr(), l.value?.open();
 			});
 		}
 		async function _(e, n) {
@@ -33312,50 +39085,50 @@ var ia = "This type is exclusively used by IED LN instances and cannot be modifi
 			});
 		}
 		async function y(e) {
-			a.value !== e && await t.runWithUnsavedGuard(async function() {
+			i.value !== e && await t.runWithUnsavedGuard(async function() {
 				await t.selectLnodeType(e);
 			});
 		}
-		return (e, t) => (g(), f(r, null, [
-			o(be, null, {
-				header: x(() => [o(we, {
-					search: i(s),
-					ascending: i(c),
-					onSearch: t[0] ||= (e) => s.value = e,
-					onSort: t[1] ||= (e) => c.value = e,
-					onNew: h
-				}, null, 8, ["search", "ascending"]), i(u) ? (g(), f("p", oa, D(i(u)), 1)) : l("", !0)]),
-				list: x(() => [o(Oe, {
-					"l-node-types": i(n),
-					"selected-id": i(a),
+		return (e, t) => (p(), a(b, null, [
+			m(he, null, {
+				header: O(() => [m(ye, {
+					search: d(o),
+					ascending: d(s),
+					onSearch: t[0] ||= (e) => o.value = e,
+					onSort: t[1] ||= (e) => s.value = e,
+					onNew: g
+				}, null, 8, ["search", "ascending"]), d(c) ? (p(), a("p", Pr, u(d(c)), 1)) : r("", !0)]),
+				list: O(() => [m(Ce, {
+					"l-node-types": d(n),
+					"selected-id": d(i),
 					onSelect: y,
-					onDelete: t[2] ||= (e) => p.value?.open(e)
+					onDelete: t[2] ||= (e) => f.value?.open(e)
 				}, null, 8, ["l-node-types", "selected-id"])]),
 				_: 1
 			}),
-			o(Ie, {
+			m(Ne, {
 				ref_key: "lnClassDialog",
-				ref: d,
-				"ln-classes": m.value,
+				ref: l,
+				"ln-classes": h.value,
 				onCreate: _
 			}, null, 8, ["ln-classes"]),
-			o(ze, {
+			m(Ie, {
 				ref_key: "deleteConfirmDialog",
-				ref: p,
+				ref: f,
 				onConfirm: v
 			}, null, 512)
 		], 64));
 	}
-}), [["__scopeId", "data-v-d3cfc3c5"]]), ca = { class: "modal-box add-do-dialog" }, la = { class: "add-do-dialog__list" }, ua = ["onClick"], da = {
+}), [["__scopeId", "data-v-d3cfc3c5"]]), Ir = { class: "modal-box add-do-dialog" }, Lr = { class: "add-do-dialog__list" }, Rr = ["onClick"], zr = {
 	key: 0,
 	class: "add-do-dialog__description"
-}, fa = { class: "add-do-dialog__namespace" }, pa = {
+}, Br = { class: "add-do-dialog__namespace" }, Vr = {
 	key: 0,
 	class: "add-do-dialog__empty"
-}, ma = {
+}, Hr = {
 	key: 0,
 	class: "add-do-dialog__error"
-}, ha = { class: "add-do-dialog__actions" }, ga = ["disabled"], _a = /* @__PURE__ */ T(/* @__PURE__ */ s({
+}, Ur = { class: "add-do-dialog__actions" }, Wr = ["disabled"], Gr = /* @__PURE__ */ g(/* @__PURE__ */ P({
 	__name: "add-do-dialog",
 	props: {
 		cdcs: { default: () => [] },
@@ -33365,172 +39138,172 @@ var ia = "This type is exclusively used by IED LN instances and cannot be modifi
 		}
 	},
 	emits: ["create"],
-	setup(e, { expose: n, emit: i }) {
-		let a = e, s = i;
+	setup(t, { expose: n, emit: i }) {
+		let o = t, c = i;
 		n({
-			open: x,
-			close: S
+			open: C,
+			close: w
 		});
-		let c = F(), u = F(""), h = F(""), _ = F(), v = t(function() {
-			let e = u.value.trim().toLowerCase();
-			return e ? a.cdcs.filter(function(t) {
+		let d = M(), f = M(""), h = M(""), g = M(), _ = s(function() {
+			let e = f.value.trim().toLowerCase();
+			return e ? o.cdcs.filter(function(t) {
 				return t.name.toLowerCase().includes(e);
-			}) : a.cdcs;
-		}), y = t(function() {
-			return h.value.trim() ? a.validateName(h.value.trim()) : { valid: !1 };
-		}), b = t(function() {
-			return !!_.value && y.value.valid;
+			}) : o.cdcs;
+		}), x = s(function() {
+			return h.value.trim() ? o.validateName(h.value.trim()) : { valid: !1 };
+		}), S = s(function() {
+			return !!g.value && x.value.valid;
 		});
-		function x() {
-			u.value = "", h.value = "", _.value = void 0, c.value?.showModal();
-		}
-		function S() {
-			c.value?.close();
-		}
 		function C() {
-			!_.value || !b.value || (s("create", {
-				name: h.value.trim(),
-				cdc: _.value
-			}), S());
+			f.value = "", h.value = "", g.value = void 0, d.value?.showModal();
 		}
-		function ee(e) {
+		function w() {
+			d.value?.close();
+		}
+		function T() {
+			!g.value || !S.value || (c("create", {
+				name: h.value.trim(),
+				cdc: g.value
+			}), w());
+		}
+		function E(e) {
 			return [e.title, e.categoryLabel].filter(Boolean).join(" - ");
 		}
-		return (e, t) => (g(), f("dialog", {
+		return (t, n) => (p(), a("dialog", {
 			ref_key: "dialogElement",
-			ref: c,
+			ref: d,
 			class: "modal"
-		}, [E("div", ca, [
-			E("button", {
+		}, [l("div", Ir, [
+			l("button", {
 				class: "btn btn-sm btn-circle btn-ghost add-do-dialog__close",
-				onClick: S
-			}, [o(ce)]),
-			t[2] ||= E("h3", { class: "add-do-dialog__title" }, "Add Data Object", -1),
-			O(E("input", {
-				"onUpdate:modelValue": t[0] ||= (e) => u.value = e,
+				onClick: w
+			}, [m(F)]),
+			n[2] ||= l("h3", { class: "add-do-dialog__title" }, "Add Data Object", -1),
+			v(l("input", {
+				"onUpdate:modelValue": n[0] ||= (e) => f.value = e,
 				class: "input input-sm add-do-dialog__search",
 				type: "search",
 				placeholder: "Search CDC..."
-			}, null, 512), [[m, u.value]]),
-			E("ul", la, [(g(!0), f(r, null, p(v.value, (e) => (g(), f("li", {
-				key: e.name,
-				class: d(["add-do-dialog__row", { "add-do-dialog__row--selected": e === _.value }]),
-				onClick: (t) => _.value = e
+			}, null, 512), [[A, f.value]]),
+			l("ul", Lr, [(p(!0), a(b, null, y(_.value, (t) => (p(), a("li", {
+				key: t.name,
+				class: e(["add-do-dialog__row", { "add-do-dialog__row--selected": t === g.value }]),
+				onClick: (e) => g.value = t
 			}, [
-				E("span", null, D(e.name), 1),
-				ee(e) ? (g(), f("span", da, D(ee(e)), 1)) : l("", !0),
-				E("span", fa, "[" + D(e.namespace.label) + "]", 1)
-			], 10, ua))), 128)), v.value.length ? l("", !0) : (g(), f("li", pa, "No CDCs found."))]),
-			O(E("input", {
-				"onUpdate:modelValue": t[1] ||= (e) => h.value = e,
+				l("span", null, u(t.name), 1),
+				E(t) ? (p(), a("span", zr, u(E(t)), 1)) : r("", !0),
+				l("span", Br, "[" + u(t.namespace.label) + "]", 1)
+			], 10, Rr))), 128)), _.value.length ? r("", !0) : (p(), a("li", Vr, "No CDCs found."))]),
+			v(l("input", {
+				"onUpdate:modelValue": n[1] ||= (e) => h.value = e,
 				class: "input input-sm add-do-dialog__name",
 				type: "text",
 				placeholder: "DO name"
-			}, null, 512), [[m, h.value]]),
-			h.value.trim() && y.value.reason ? (g(), f("p", ma, D(y.value.reason), 1)) : l("", !0),
-			E("div", ha, [E("button", {
+			}, null, 512), [[A, h.value]]),
+			h.value.trim() && x.value.reason ? (p(), a("p", Hr, u(x.value.reason), 1)) : r("", !0),
+			l("div", Ur, [l("button", {
 				class: "btn btn-sm btn-primary",
-				disabled: !b.value,
-				onClick: C
-			}, "Add", 8, ga)])
+				disabled: !S.value,
+				onClick: T
+			}, "Add", 8, Wr)])
 		])], 512));
 	}
-}), [["__scopeId", "data-v-f9c51e84"]]), va = { class: "modal-box enum-editor" }, ya = { class: "enum-editor__title" }, ba = { class: "enum-editor__list" }, xa = ["onUpdate:modelValue"], Sa = ["onUpdate:modelValue"], Ca = ["onClick"], wa = ["onClick"], Ta = ["onClick"], Ea = /* @__PURE__ */ T(/* @__PURE__ */ s({
+}), [["__scopeId", "data-v-f9c51e84"]]), Kr = { class: "modal-box enum-editor" }, qr = { class: "enum-editor__title" }, Jr = { class: "enum-editor__list" }, Yr = ["onUpdate:modelValue"], Xr = ["onUpdate:modelValue"], Zr = ["onClick"], Qr = ["onClick"], $r = ["onClick"], ei = /* @__PURE__ */ g(/* @__PURE__ */ P({
 	__name: "enum-editor",
 	emits: ["save"],
 	setup(e, { expose: t, emit: n }) {
-		let i = n;
+		let r = n;
 		t({
-			open: u,
-			close: d
+			open: d,
+			close: f
 		});
-		let a = F(), s = F(""), c = F(""), l = F([]);
-		function u(e) {
-			s.value = e.key, c.value = e.title, l.value = e.vals.map((e) => ({ ...e })), a.value?.showModal();
+		let i = M(), o = M(""), s = M(""), c = M([]);
+		function d(e) {
+			o.value = e.key, s.value = e.title, c.value = e.vals.map((e) => ({ ...e })), i.value?.showModal();
 		}
-		function d() {
-			a.value?.close();
+		function f() {
+			i.value?.close();
 		}
 		function h() {
-			let e = l.value.reduce((e, t) => Math.max(e, t.ord), -1) + 1;
-			l.value.push({
+			let e = c.value.reduce((e, t) => Math.max(e, t.ord), -1) + 1;
+			c.value.push({
 				ord: e,
 				value: ""
 			});
 		}
-		function _(e) {
-			l.value.splice(e, 1);
+		function g(e) {
+			c.value.splice(e, 1);
 		}
-		function v(e, t) {
+		function _(e, t) {
 			let n = e + t;
-			if (n < 0 || n >= l.value.length) return;
-			let [r] = l.value.splice(e, 1);
-			l.value.splice(n, 0, r);
+			if (n < 0 || n >= c.value.length) return;
+			let [r] = c.value.splice(e, 1);
+			c.value.splice(n, 0, r);
 		}
-		function y() {
-			i("save", s.value, l.value.filter((e) => e.value.trim().length)), d();
+		function x() {
+			r("save", o.value, c.value.filter((e) => e.value.trim().length)), f();
 		}
-		return (e, t) => (g(), f("dialog", {
+		return (e, t) => (p(), a("dialog", {
 			ref_key: "dialogElement",
-			ref: a,
+			ref: i,
 			class: "modal"
-		}, [E("div", va, [
-			E("button", {
+		}, [l("div", Kr, [
+			l("button", {
 				class: "btn btn-sm btn-circle btn-ghost enum-editor__close",
-				onClick: d
-			}, [o(ce)]),
-			E("h3", ya, "EnumType — " + D(c.value), 1),
-			E("ul", ba, [(g(!0), f(r, null, p(l.value, (e, t) => (g(), f("li", {
+				onClick: f
+			}, [m(F)]),
+			l("h3", qr, "EnumType — " + u(s.value), 1),
+			l("ul", Jr, [(p(!0), a(b, null, y(c.value, (e, t) => (p(), a("li", {
 				key: t,
 				class: "enum-editor__row"
 			}, [
-				O(E("input", {
+				v(l("input", {
 					"onUpdate:modelValue": (t) => e.ord = t,
 					class: "input input-xs enum-editor__ord",
 					type: "number",
 					title: "Ordinal"
-				}, null, 8, xa), [[
-					m,
+				}, null, 8, Yr), [[
+					A,
 					e.ord,
 					void 0,
 					{ number: !0 }
 				]]),
-				O(E("input", {
+				v(l("input", {
 					"onUpdate:modelValue": (t) => e.value = t,
 					class: "input input-xs enum-editor__value",
 					type: "text",
 					placeholder: "Value"
-				}, null, 8, Sa), [[m, e.value]]),
-				E("button", {
+				}, null, 8, Xr), [[A, e.value]]),
+				l("button", {
 					class: "btn btn-xs btn-ghost",
 					title: "Move up",
-					onClick: (e) => v(t, -1)
-				}, "↑", 8, Ca),
-				E("button", {
+					onClick: (e) => _(t, -1)
+				}, "↑", 8, Zr),
+				l("button", {
 					class: "btn btn-xs btn-ghost",
 					title: "Move down",
-					onClick: (e) => v(t, 1)
-				}, "↓", 8, wa),
-				E("button", {
+					onClick: (e) => _(t, 1)
+				}, "↓", 8, Qr),
+				l("button", {
 					class: "btn btn-xs btn-ghost",
 					title: "Remove",
-					onClick: (e) => _(t)
-				}, [o(de)], 8, Ta)
+					onClick: (e) => g(t)
+				}, [m(te)], 8, $r)
 			]))), 128))]),
-			E("div", { class: "enum-editor__actions" }, [E("button", {
+			l("div", { class: "enum-editor__actions" }, [l("button", {
 				class: "btn btn-sm",
 				onClick: h
-			}, "Add value"), E("button", {
+			}, "Add value"), l("button", {
 				class: "btn btn-sm btn-primary",
-				onClick: y
+				onClick: x
 			}, "Apply")])
 		])], 512));
 	}
-}), [["__scopeId", "data-v-fb6c3661"]]), Da = { class: "lnode-type-details-header" }, Oa = { class: "lnode-type-details-header__row" }, ka = { class: "lnode-type-details-header__title-group" }, Aa = { class: "lnode-type-details-header__title" }, ja = {
+}), [["__scopeId", "data-v-fb6c3661"]]), ti = { class: "lnode-type-details-header" }, ni = { class: "lnode-type-details-header__row" }, ri = { class: "lnode-type-details-header__title-group" }, ii = { class: "lnode-type-details-header__title" }, ai = {
 	key: 0,
 	class: "lnode-type-details-header__namespace",
 	"data-testid": "dtt-namespace-info"
-}, Ma = { class: "lnode-type-details-header__row" }, Na = ["value"], Pa = { class: "join lnode-type-details-header__filters" }, Fa = ["data-testid", "onClick"], Ia = ["disabled", "title"], La = ["disabled"], Ra = ["disabled"], za = /* @__PURE__ */ T(/* @__PURE__ */ s({
+}, oi = { class: "lnode-type-details-header__row" }, si = ["value"], ci = { class: "join lnode-type-details-header__filters" }, li = ["data-testid", "onClick"], ui = ["disabled", "title"], di = ["disabled"], fi = ["disabled"], pi = /* @__PURE__ */ g(/* @__PURE__ */ P({
 	__name: "header",
 	props: {
 		title: { default: "" },
@@ -33566,92 +39339,92 @@ var ia = "This type is exclusively used by IED LN instances and cannot be modifi
 		"add-do",
 		"toggle-references"
 	],
-	setup(e, { emit: n }) {
-		let i = e, a = n, o = t(function() {
+	setup(t, { emit: n }) {
+		let i = t, o = n, c = s(function() {
 			return i.referenceCount > 0;
-		}), s = t(function() {
-			return i.isNew || !o.value;
-		}), c = [
+		}), d = s(function() {
+			return i.isNew || !c.value;
+		}), f = [
 			"all",
 			"optional",
 			"mandatory"
-		], u = {
+		], m = {
 			all: "All",
 			optional: "Optional",
 			mandatory: "Mandatory"
 		};
-		function m(e) {
-			a("search", e.target.value);
+		function h(e) {
+			o("search", e.target.value);
 		}
-		return (e, t) => (g(), f("div", Da, [E("div", Oa, [E("span", ka, [E("span", Aa, D(i.title), 1), i.namespaceInfo ? (g(), f("span", ja, D(i.namespaceInfo), 1)) : l("", !0)]), i.hasSelection ? (g(), f("button", {
+		return (t, n) => (p(), a("div", ti, [l("div", ni, [l("span", ri, [l("span", ii, u(i.title), 1), i.namespaceInfo ? (p(), a("span", ai, u(i.namespaceInfo), 1)) : r("", !0)]), i.hasSelection ? (p(), a("button", {
 			key: 0,
 			class: "btn btn-xs btn-ghost",
 			"data-testid": "dtt-references-btn",
-			onClick: t[0] ||= (e) => a("toggle-references")
-		}, " References (" + D(i.referenceCount) + ") ", 1)) : l("", !0)]), E("div", Ma, [
-			E("input", {
+			onClick: n[0] ||= (e) => o("toggle-references")
+		}, " References (" + u(i.referenceCount) + ") ", 1)) : r("", !0)]), l("div", oi, [
+			l("input", {
 				class: "input input-sm lnode-type-details-header__search",
 				type: "search",
 				placeholder: "Search...",
 				value: i.search,
 				"data-testid": "dtt-tree-search",
-				onInput: m
-			}, null, 40, Na),
-			E("div", Pa, [(g(), f(r, null, p(c, (e) => E("button", {
-				key: e,
-				class: d(["btn btn-sm join-item", { "btn-active": i.filter === e }]),
-				"data-testid": `dtt-filter-${e}`,
-				onClick: (t) => a("filter", e)
-			}, D(u[e]), 11, Fa)), 64))]),
-			i.isEditing ? (g(), f("button", {
+				onInput: h
+			}, null, 40, si),
+			l("div", ci, [(p(), a(b, null, y(f, (t) => l("button", {
+				key: t,
+				class: e(["btn btn-sm join-item", { "btn-active": i.filter === t }]),
+				"data-testid": `dtt-filter-${t}`,
+				onClick: (e) => o("filter", t)
+			}, u(m[t]), 11, li)), 64))]),
+			i.isEditing ? (p(), a("button", {
 				key: 0,
 				class: "btn btn-sm",
 				"data-testid": "dtt-add-do-btn",
-				onClick: t[1] ||= (e) => a("add-do")
-			}, " Add DO ")) : l("", !0),
-			!i.isEditing && i.hasSelection ? (g(), f("button", {
+				onClick: n[1] ||= (e) => o("add-do")
+			}, " Add DO ")) : r("", !0),
+			!i.isEditing && i.hasSelection ? (p(), a("button", {
 				key: 1,
 				class: "btn btn-sm",
 				disabled: !!i.editBlockedReason,
 				title: i.editBlockedReason,
 				"data-testid": "dtt-edit-btn",
-				onClick: t[2] ||= (e) => a("edit")
-			}, " Edit ", 8, Ia)) : l("", !0),
-			i.isEditing ? (g(), f("button", {
+				onClick: n[2] ||= (e) => o("edit")
+			}, " Edit ", 8, ui)) : r("", !0),
+			i.isEditing ? (p(), a("button", {
 				key: 2,
 				class: "btn btn-sm btn-ghost",
 				"data-testid": "dtt-cancel-edit-btn",
-				onClick: t[3] ||= (e) => a("cancel")
-			}, " Cancel ")) : l("", !0),
-			i.isEditing && s.value ? (g(), f("button", {
+				onClick: n[3] ||= (e) => o("cancel")
+			}, " Cancel ")) : r("", !0),
+			i.isEditing && d.value ? (p(), a("button", {
 				key: 3,
 				class: "btn btn-sm btn-primary",
 				disabled: !i.hasChange && !i.isNew,
 				"data-testid": "dtt-save-btn",
-				onClick: t[4] ||= (e) => a("save")
-			}, D(i.isNew ? "Save" : "Finish Editing"), 9, La)) : l("", !0),
-			i.isEditing && !i.isNew ? (g(), f("button", {
+				onClick: n[4] ||= (e) => o("save")
+			}, u(i.isNew ? "Save" : "Finish Editing"), 9, di)) : r("", !0),
+			i.isEditing && !i.isNew ? (p(), a("button", {
 				key: 4,
 				class: "btn btn-sm btn-outline",
 				disabled: !i.hasChange,
 				"data-testid": "dtt-new-version-btn",
-				onClick: t[5] ||= (e) => a("new-version")
-			}, " New Version ", 8, Ra)) : l("", !0)
+				onClick: n[5] ||= (e) => o("new-version")
+			}, " New Version ", 8, fi)) : r("", !0)
 		])]));
 	}
-}), [["__scopeId", "data-v-9b5aed3f"]]), Ba = {
+}), [["__scopeId", "data-v-9b5aed3f"]]), mi = {
 	key: 0,
 	class: "modal-box info-popup"
-}, Va = { class: "info-popup__title" }, Ha = { class: "info-popup__grid" }, Ua = {
+}, hi = { class: "info-popup__title" }, gi = { class: "info-popup__grid" }, _i = {
 	key: 0,
 	class: "info-popup__condition-description"
-}, Wa = {
+}, vi = {
 	key: 0,
 	class: "info-popup__meta"
-}, Ga = {
+}, yi = {
 	key: 1,
 	class: "info-popup__meta"
-}, Ka = /* @__PURE__ */ T(/* @__PURE__ */ s({
+}, bi = /* @__PURE__ */ g(/* @__PURE__ */ P({
 	__name: "info-popup",
 	props: { info: { default: void 0 } },
 	setup(e, { expose: t }) {
@@ -33660,69 +39433,69 @@ var ia = "This type is exclusively used by IED LN instances and cannot be modifi
 			open: s,
 			close: c
 		});
-		let i = F();
+		let i = M();
 		function s() {
 			i.value?.showModal();
 		}
 		function c() {
 			i.value?.close();
 		}
-		return (e, t) => (g(), f("dialog", {
+		return (e, t) => (p(), a("dialog", {
 			ref_key: "dialogElement",
 			ref: i,
 			class: "modal"
-		}, [n.info ? (g(), f("div", Ba, [
-			E("button", {
+		}, [n.info ? (p(), a("div", mi, [
+			l("button", {
 				class: "btn btn-sm btn-circle btn-ghost info-popup__close",
 				onClick: c
-			}, [o(ce)]),
-			E("h3", Va, D(n.info.name), 1),
-			E("dl", Ha, [
-				t[4] ||= E("dt", null, "Condition:", -1),
-				E("dd", null, [a(D(n.info.condition) + " ", 1), n.info.conditionDescription ? (g(), f("span", Ua, " — " + D(n.info.conditionDescription), 1)) : l("", !0)]),
-				n.info.type ? (g(), f(r, { key: 0 }, [t[0] ||= E("dt", null, "Type:", -1), E("dd", null, D(n.info.type), 1)], 64)) : l("", !0),
-				n.info.inheritedFrom ? (g(), f(r, { key: 1 }, [t[1] ||= E("dt", null, "Inherited:", -1), E("dd", null, D(n.info.inheritedFrom), 1)], 64)) : l("", !0),
-				n.info.cdc ? (g(), f(r, { key: 2 }, [t[2] ||= E("dt", null, "CDC:", -1), E("dd", null, [
-					a(D(n.info.cdc) + " ", 1),
-					n.info.cdcTitle ? (g(), f("span", Wa, " - " + D(n.info.cdcTitle), 1)) : l("", !0),
-					n.info.cdcCategory ? (g(), f("span", Ga, " (" + D(n.info.cdcCategory) + ") ", 1)) : l("", !0)
-				])], 64)) : l("", !0),
-				n.info.description ? (g(), f(r, { key: 3 }, [t[3] ||= E("dt", null, "Description:", -1), E("dd", null, D(n.info.description), 1)], 64)) : l("", !0)
+			}, [m(F)]),
+			l("h3", hi, u(n.info.name), 1),
+			l("dl", gi, [
+				t[4] ||= l("dt", null, "Condition:", -1),
+				l("dd", null, [o(u(n.info.condition) + " ", 1), n.info.conditionDescription ? (p(), a("span", _i, " — " + u(n.info.conditionDescription), 1)) : r("", !0)]),
+				n.info.type ? (p(), a(b, { key: 0 }, [t[0] ||= l("dt", null, "Type:", -1), l("dd", null, u(n.info.type), 1)], 64)) : r("", !0),
+				n.info.inheritedFrom ? (p(), a(b, { key: 1 }, [t[1] ||= l("dt", null, "Inherited:", -1), l("dd", null, u(n.info.inheritedFrom), 1)], 64)) : r("", !0),
+				n.info.cdc ? (p(), a(b, { key: 2 }, [t[2] ||= l("dt", null, "CDC:", -1), l("dd", null, [
+					o(u(n.info.cdc) + " ", 1),
+					n.info.cdcTitle ? (p(), a("span", vi, " - " + u(n.info.cdcTitle), 1)) : r("", !0),
+					n.info.cdcCategory ? (p(), a("span", yi, " (" + u(n.info.cdcCategory) + ") ", 1)) : r("", !0)
+				])], 64)) : r("", !0),
+				n.info.description ? (p(), a(b, { key: 3 }, [t[3] ||= l("dt", null, "Description:", -1), l("dd", null, u(n.info.description), 1)], 64)) : r("", !0)
 			])
-		])) : l("", !0)], 512));
+		])) : r("", !0)], 512));
 	}
-}), [["__scopeId", "data-v-5825e64d"]]), qa = {}, Ja = { class: "lnode-type-details-layout" }, Ya = { class: "lnode-type-details-layout__header" }, Xa = { class: "lnode-type-details-layout__body" }, Za = { class: "lnode-type-details-layout__tree" }, Qa = { class: "lnode-type-details-layout__references" };
-function $a(t, n) {
-	return g(), f("section", Ja, [E("header", Ya, [e(t.$slots, "header", {}, void 0, !0)]), E("div", Xa, [E("div", Za, [e(t.$slots, "tree", {}, void 0, !0)]), E("aside", Qa, [e(t.$slots, "references", {}, void 0, !0)])])]);
+}), [["__scopeId", "data-v-5825e64d"]]), xi = {}, Si = { class: "lnode-type-details-layout" }, Ci = { class: "lnode-type-details-layout__header" }, wi = { class: "lnode-type-details-layout__body" }, Ti = { class: "lnode-type-details-layout__tree" }, Ei = { class: "lnode-type-details-layout__references" };
+function Di(e, t) {
+	return p(), a("section", Si, [l("header", Ci, [D(e.$slots, "header", {}, void 0, !0)]), l("div", wi, [l("div", Ti, [D(e.$slots, "tree", {}, void 0, !0)]), l("aside", Ei, [D(e.$slots, "references", {}, void 0, !0)])])]);
 }
-var eo = /* @__PURE__ */ T(qa, [["render", $a], ["__scopeId", "data-v-ce2d87fb"]]), to = {
+var Oi = /* @__PURE__ */ g(xi, [["render", Di], ["__scopeId", "data-v-ce2d87fb"]]), ki = {
 	class: "reference-panel",
 	"data-testid": "dtt-reference-panel"
-}, no = { class: "reference-panel__header" }, ro = { class: "reference-panel__list" }, io = ["title"], ao = {
+}, Ai = { class: "reference-panel__header" }, ji = { class: "reference-panel__list" }, Mi = ["title"], Ni = {
 	key: 0,
 	class: "reference-panel__empty"
-}, oo = /* @__PURE__ */ T(/* @__PURE__ */ s({
+}, Pi = /* @__PURE__ */ g(/* @__PURE__ */ P({
 	__name: "reference-panel",
 	props: { references: { default: () => [] } },
 	emits: ["collapse"],
-	setup(e, { emit: t }) {
-		let n = e, i = t;
-		return (e, t) => (g(), f("div", to, [E("div", no, [E("span", null, "References (" + D(n.references.length) + ")", 1), E("button", {
+	setup(t, { emit: n }) {
+		let i = t, s = n;
+		return (t, n) => (p(), a("div", ki, [l("div", Ai, [l("span", null, "References (" + u(i.references.length) + ")", 1), l("button", {
 			class: "btn btn-xs btn-ghost",
-			onClick: t[0] ||= (e) => i("collapse")
-		}, "collapse")]), E("ul", ro, [(g(!0), f(r, null, p(n.references, (e) => (g(), f("li", {
-			key: e.recordId,
+			onClick: n[0] ||= (e) => s("collapse")
+		}, "collapse")]), l("ul", ji, [(p(!0), a(b, null, y(i.references, (t) => (p(), a("li", {
+			key: t.recordId,
 			"data-testid": "dtt-reference-item"
-		}, [E("span", { class: d(["badge badge-xs", e.isLocked ? "badge-error" : "badge-success"]) }, D(e.isLocked ? "locked" : "unlocked"), 3), E("span", {
+		}, [l("span", { class: e(["badge badge-xs", t.isLocked ? "badge-error" : "badge-success"]) }, u(t.isLocked ? "locked" : "unlocked"), 3), l("span", {
 			class: "reference-panel__path",
-			title: e.path
-		}, [a(D(e.path) + " ", 1), e.iedName ? (g(), f(r, { key: 0 }, [a(" (" + D(e.iedName) + ")", 1)], 64)) : l("", !0)], 8, io)]))), 128)), n.references.length ? l("", !0) : (g(), f("li", ao, "No references."))])]));
+			title: t.path
+		}, [o(u(t.path) + " ", 1), t.iedName ? (p(), a(b, { key: 0 }, [o(" (" + u(t.iedName) + ")", 1)], 64)) : r("", !0)], 8, Mi)]))), 128)), i.references.length ? r("", !0) : (p(), a("li", Ni, "No references."))])]));
 	}
-}), [["__scopeId", "data-v-4531446f"]]), so = {
+}), [["__scopeId", "data-v-4531446f"]]), Fi = {
 	key: 1,
 	class: "tree-node__name",
 	"data-testid": "dtt-allatleastonegroup-readonly"
-}, co = /* @__PURE__ */ T(/* @__PURE__ */ s({
+}, Ii = /* @__PURE__ */ g(/* @__PURE__ */ P({
 	__name: "all-at-least-one-group-row",
 	props: {
 		groups: {},
@@ -33733,57 +39506,57 @@ var eo = /* @__PURE__ */ T(qa, [["render", $a], ["__scopeId", "data-v-ce2d87fb"]
 		}
 	},
 	emits: ["toggle", "toggle-branch"],
-	setup(e, { emit: r }) {
-		let a = e, o = r;
-		function s(e) {
-			return e.members.some((e) => Z(e) !== "unchecked");
+	setup(e, { emit: t }) {
+		let n = e, r = t;
+		function i(e) {
+			return e.members.some((e) => q(e) !== "unchecked");
 		}
-		function l(e) {
+		function o(e) {
 			return e.members.map((e) => e.name).join(", ");
 		}
-		let u = t(() => a.groups.filter(s).map((e) => e.args)), d = t(() => a.groups.map((e) => ({
+		let m = s(() => n.groups.filter(i).map((e) => e.args)), h = s(() => n.groups.map((e) => ({
 			value: e.args,
-			label: l(e)
-		}))), p = t(() => a.groups.filter(s).map(l).join("; "));
-		function m(e, t) {
+			label: o(e)
+		}))), g = s(() => n.groups.filter(i).map(o).join("; "));
+		function _(e, t) {
 			if (e.children.length) {
-				o("toggle-branch", e.key);
+				r("toggle-branch", e.key);
 				return;
 			}
-			o("toggle", e.key, t);
+			r("toggle", e.key, t);
 		}
-		function h(e) {
+		function v(e) {
 			let t = new Set(e);
-			for (let e of a.groups) {
-				let n = s(e), r = t.has(e.args);
-				n !== r && m(e.members[0], r);
+			for (let e of n.groups) {
+				let n = i(e), r = t.has(e.args);
+				n !== r && _(e.members[0], r);
 			}
 		}
-		return (e, t) => (g(), f("div", {
+		return (e, t) => (p(), a("div", {
 			class: "tree-node__row",
-			style: n({ paddingLeft: `${.5 + a.depth * 1.25}rem` }),
+			style: c({ paddingLeft: `${.5 + n.depth * 1.25}rem` }),
 			"data-testid": "dtt-allatleastonegroup-group"
 		}, [
-			t[0] ||= E("span", { class: "tree-node__expander tree-node__expander--leaf" }, null, -1),
-			t[1] ||= E("span", {
+			t[0] ||= l("span", { class: "tree-node__expander tree-node__expander--leaf" }, null, -1),
+			t[1] ||= l("span", {
 				class: "badge badge-xs badge-warning",
 				"data-testid": "dtt-node-condition-badge"
 			}, " AllAtLeastOneGroup ", -1),
-			a.isEditing ? (g(), c(i(pe), {
+			n.isEditing ? (p(), f(d(ce), {
 				key: 0,
 				class: "tree-node__allatleastonegroup-select",
 				size: "xs",
-				"model-value": u.value,
-				options: d.value,
-				"onUpdate:modelValue": h
-			}, null, 8, ["model-value", "options"])) : (g(), f("span", so, D(p.value), 1))
+				"model-value": m.value,
+				options: h.value,
+				"onUpdate:modelValue": v
+			}, null, 8, ["model-value", "options"])) : (p(), a("span", Fi, u(g.value), 1))
 		], 4));
 	}
-}), [["__scopeId", "data-v-34904b62"]]), lo = {
+}), [["__scopeId", "data-v-34904b62"]]), Li = {
 	key: 1,
 	class: "tree-node__name",
 	"data-testid": "dtt-allonlyonegroup-readonly"
-}, uo = /* @__PURE__ */ T(/* @__PURE__ */ s({
+}, Ri = /* @__PURE__ */ g(/* @__PURE__ */ P({
 	__name: "all-only-one-group-row",
 	props: {
 		groups: {},
@@ -33794,67 +39567,67 @@ var eo = /* @__PURE__ */ T(qa, [["render", $a], ["__scopeId", "data-v-ce2d87fb"]
 		}
 	},
 	emits: ["toggle", "toggle-branch"],
-	setup(e, { emit: r }) {
-		let a = e, o = r;
-		function s(e) {
-			return e.members.some((e) => Z(e) !== "unchecked");
+	setup(e, { emit: t }) {
+		let n = e, r = t;
+		function i(e) {
+			return e.members.some((e) => q(e) !== "unchecked");
 		}
-		let l = t(() => a.groups.find(s)), u = t(() => l.value?.args ?? null), d = t(() => a.groups.map((e) => e.args));
-		function p(e) {
+		let o = s(() => n.groups.find(i)), m = s(() => o.value?.args ?? null), h = s(() => n.groups.map((e) => e.args));
+		function g(e) {
 			return e.members.map((e) => e.name).join(", ");
 		}
-		function m(e) {
+		function _(e) {
 			if (e == null) return "";
-			let t = a.groups.find((t) => t.args === e);
-			return t ? p(t) : String(e);
+			let t = n.groups.find((t) => t.args === e);
+			return t ? g(t) : String(e);
 		}
-		let h = t(() => l.value ? p(l.value) : "");
-		function _(e, t) {
+		let v = s(() => o.value ? g(o.value) : "");
+		function y(e, t) {
 			if (e.children.length) {
-				o("toggle-branch", e.key);
+				r("toggle-branch", e.key);
 				return;
 			}
-			o("toggle", e.key, t);
+			r("toggle", e.key, t);
 		}
-		function v(e) {
-			let t = l.value;
-			if (t && t.args !== e && _(t.members[0], !1), e != null && e !== t?.args) {
-				let t = a.groups.find((t) => t.args === e);
-				t && _(t.members[0], !0);
+		function b(e) {
+			let t = o.value;
+			if (t && t.args !== e && y(t.members[0], !1), e != null && e !== t?.args) {
+				let t = n.groups.find((t) => t.args === e);
+				t && y(t.members[0], !0);
 			}
 		}
-		return (e, t) => (g(), f("div", {
+		return (e, t) => (p(), a("div", {
 			class: "tree-node__row",
-			style: n({ paddingLeft: `${.5 + a.depth * 1.25}rem` }),
+			style: c({ paddingLeft: `${.5 + n.depth * 1.25}rem` }),
 			"data-testid": "dtt-allonlyonegroup-group"
 		}, [
-			t[0] ||= E("span", { class: "tree-node__expander tree-node__expander--leaf" }, null, -1),
-			t[1] ||= E("span", {
+			t[0] ||= l("span", { class: "tree-node__expander tree-node__expander--leaf" }, null, -1),
+			t[1] ||= l("span", {
 				class: "badge badge-xs badge-warning",
 				"data-testid": "dtt-node-condition-badge"
 			}, " AllOnlyOneGroup ", -1),
-			a.isEditing ? (g(), c(i(me), {
+			n.isEditing ? (p(), f(d(le), {
 				key: 0,
 				class: "tree-node__allonlyonegroup-select",
 				size: "xs",
-				"model-value": u.value,
-				options: d.value,
-				"display-value": m,
-				"onUpdate:modelValue": v
-			}, null, 8, ["model-value", "options"])) : (g(), f("span", lo, D(h.value), 1))
+				"model-value": m.value,
+				options: h.value,
+				"display-value": _,
+				"onUpdate:modelValue": b
+			}, null, 8, ["model-value", "options"])) : (p(), a("span", Li, u(v.value), 1))
 		], 4));
 	}
-}), [["__scopeId", "data-v-35bf2d11"]]), fo = ["checked", "disabled"], po = {
+}), [["__scopeId", "data-v-35bf2d11"]]), zi = ["checked", "disabled"], Bi = {
 	class: "badge badge-xs badge-warning",
 	"data-testid": "dtt-node-condition-badge"
-}, mo = {
+}, Vi = {
 	class: "tree-node__name",
 	"data-testid": "dtt-allornonepergroup-label"
-}, ho = ["value", "disabled"], go = ["value"], _o = {
+}, Hi = ["value", "disabled"], Ui = ["value"], Wi = {
 	key: 1,
 	class: "badge badge-xs badge-ghost tree-node__setting-fc",
 	"data-testid": "dtt-allornonepergroup-setting-fc-readonly"
-}, vo = /* @__PURE__ */ T(/* @__PURE__ */ s({
+}, Gi = /* @__PURE__ */ g(/* @__PURE__ */ P({
 	__name: "all-or-none-per-group-row",
 	props: {
 		members: {},
@@ -33870,73 +39643,73 @@ var eo = /* @__PURE__ */ T(qa, [["render", $a], ["__scopeId", "data-v-ce2d87fb"]
 		"toggle-branch",
 		"set-fc"
 	],
-	setup(e, { emit: i }) {
-		let a = e, o = i, s = F();
-		function c(e) {
-			return Z(e) !== "unchecked";
+	setup(e, { emit: t }) {
+		let n = e, i = t, o = M();
+		function d(e) {
+			return q(e) !== "unchecked";
 		}
-		let u = t(() => a.members.filter(c).length), d = t(() => a.members.length > 0 && u.value === a.members.length), m = t(() => u.value === 0);
-		y(function() {
-			s.value && (s.value.indeterminate = !d.value && !m.value);
+		let f = s(() => n.members.filter(d).length), m = s(() => n.members.length > 0 && f.value === n.members.length), h = s(() => f.value === 0);
+		E(function() {
+			o.value && (o.value.indeterminate = !m.value && !h.value);
 		});
-		let h = t(() => a.members.map((e) => e.name).join(", ")), _ = t(() => a.members.some((e) => e.toggleLocked));
+		let g = s(() => n.members.map((e) => e.name).join(", ")), _ = s(() => n.members.some((e) => e.toggleLocked));
 		function v(e) {
-			let t = a.members[0];
+			let t = n.members[0];
 			if (t) {
 				if (t.children.length) {
-					o("toggle-branch", t.key);
+					i("toggle-branch", t.key);
 					return;
 				}
-				o("toggle", t.key, e.target.checked);
+				i("toggle", t.key, e.target.checked);
 			}
 		}
-		let b = t(() => {
-			let e = a.members[0];
-			return e ? Zr(e) : void 0;
+		let x = s(() => {
+			let e = n.members[0];
+			return e ? kn(e) : void 0;
 		});
-		function x(e) {
-			let t = a.members[0];
-			t && o("set-fc", t.key, e.target.value);
+		function S(e) {
+			let t = n.members[0];
+			t && i("set-fc", t.key, e.target.value);
 		}
-		return (e, t) => (g(), f("div", {
+		return (e, t) => (p(), a("div", {
 			class: "tree-node__row",
-			style: n({ paddingLeft: `${.5 + a.depth * 1.25}rem` }),
+			style: c({ paddingLeft: `${.5 + n.depth * 1.25}rem` }),
 			"data-testid": "dtt-allornonepergroup-group"
 		}, [
-			E("input", {
+			l("input", {
 				ref_key: "checkboxEl",
-				ref: s,
+				ref: o,
 				type: "checkbox",
 				class: "checkbox checkbox-xs",
-				checked: d.value,
-				disabled: !a.isEditing || _.value,
+				checked: m.value,
+				disabled: !n.isEditing || _.value,
 				"data-testid": "dtt-allornonepergroup-toggle",
 				onChange: v
-			}, null, 40, fo),
-			t[0] ||= E("span", { class: "tree-node__expander tree-node__expander--leaf" }, null, -1),
-			E("span", po, " AllOrNonePerGroup(" + D(a.args) + ") ", 1),
-			E("span", mo, D(h.value), 1),
-			a.isEditing && b.value ? (g(), f("select", {
+			}, null, 40, zi),
+			t[0] ||= l("span", { class: "tree-node__expander tree-node__expander--leaf" }, null, -1),
+			l("span", Bi, " AllOrNonePerGroup(" + u(n.args) + ") ", 1),
+			l("span", Vi, u(g.value), 1),
+			n.isEditing && x.value ? (p(), a("select", {
 				key: 0,
 				class: "select select-xs tree-node__setting-fc",
 				"data-testid": "dtt-allornonepergroup-setting-fc",
-				value: b.value?.fc,
-				disabled: m.value,
-				onChange: x
-			}, [(g(!0), f(r, null, p(b.value?.fcOptions, (e) => (g(), f("option", {
+				value: x.value?.fc,
+				disabled: h.value,
+				onChange: S
+			}, [(p(!0), a(b, null, y(x.value?.fcOptions, (e) => (p(), a("option", {
 				key: e,
 				value: e
-			}, D(e), 9, go))), 128))], 40, ho)) : !a.isEditing && b.value ? (g(), f("span", _o, D(b.value?.fc), 1)) : l("", !0)
+			}, u(e), 9, Ui))), 128))], 40, Hi)) : !n.isEditing && x.value ? (p(), a("span", Wi, u(x.value?.fc), 1)) : r("", !0)
 		], 4));
 	}
-}), [["__scopeId", "data-v-80861559"]]), yo = {
+}), [["__scopeId", "data-v-80861559"]]), Ki = {
 	class: "badge badge-xs badge-warning",
 	"data-testid": "dtt-node-condition-badge"
-}, bo = {
+}, qi = {
 	key: 1,
 	class: "tree-node__name",
 	"data-testid": "dtt-atleastone-readonly"
-}, xo = /* @__PURE__ */ T(/* @__PURE__ */ s({
+}, Ji = /* @__PURE__ */ g(/* @__PURE__ */ P({
 	__name: "at-least-one-group-row",
 	props: {
 		members: {},
@@ -33948,50 +39721,50 @@ var eo = /* @__PURE__ */ T(qa, [["render", $a], ["__scopeId", "data-v-ce2d87fb"]
 		}
 	},
 	emits: ["toggle", "toggle-branch"],
-	setup(e, { emit: r }) {
-		let a = e, o = r;
-		function s(e) {
-			return Z(e) !== "unchecked";
+	setup(e, { emit: t }) {
+		let n = e, r = t;
+		function i(e) {
+			return q(e) !== "unchecked";
 		}
-		let l = t(() => a.members.filter(s).map((e) => e.key)), u = t(() => a.members.map((e) => ({
+		let o = s(() => n.members.filter(i).map((e) => e.key)), m = s(() => n.members.map((e) => ({
 			value: e.key,
 			label: e.name
-		}))), d = t(() => a.members.filter(s).map((e) => e.name).join(", "));
-		function p(e) {
+		}))), h = s(() => n.members.filter(i).map((e) => e.name).join(", "));
+		function g(e) {
 			let t = new Set(e);
-			for (let e of a.members) {
-				let n = s(e), r = t.has(e.key);
-				if (n !== r) {
+			for (let e of n.members) {
+				let n = i(e), a = t.has(e.key);
+				if (n !== a) {
 					if (e.children.length) {
-						o("toggle-branch", e.key);
+						r("toggle-branch", e.key);
 						continue;
 					}
-					o("toggle", e.key, r);
+					r("toggle", e.key, a);
 				}
 			}
 		}
-		return (e, t) => (g(), f("div", {
+		return (e, t) => (p(), a("div", {
 			class: "tree-node__row",
-			style: n({ paddingLeft: `${.5 + a.depth * 1.25}rem` }),
+			style: c({ paddingLeft: `${.5 + n.depth * 1.25}rem` }),
 			"data-testid": "dtt-atleastone-group"
 		}, [
-			t[0] ||= E("span", { class: "tree-node__expander tree-node__expander--leaf" }, null, -1),
-			E("span", yo, " AtLeastOne(" + D(a.args) + ") ", 1),
-			a.isEditing ? (g(), c(i(pe), {
+			t[0] ||= l("span", { class: "tree-node__expander tree-node__expander--leaf" }, null, -1),
+			l("span", Ki, " AtLeastOne(" + u(n.args) + ") ", 1),
+			n.isEditing ? (p(), f(d(ce), {
 				key: 0,
 				class: "tree-node__atleastone-select",
 				size: "xs",
-				"model-value": l.value,
-				options: u.value,
-				"onUpdate:modelValue": p
-			}, null, 8, ["model-value", "options"])) : (g(), f("span", bo, D(d.value), 1))
+				"model-value": o.value,
+				options: m.value,
+				"onUpdate:modelValue": g
+			}, null, 8, ["model-value", "options"])) : (p(), a("span", qi, u(h.value), 1))
 		], 4));
 	}
-}), [["__scopeId", "data-v-8611a072"]]), So = {
+}), [["__scopeId", "data-v-8611a072"]]), Yi = {
 	key: 1,
 	class: "tree-node__name",
 	"data-testid": "dtt-atmostone-readonly"
-}, Co = /* @__PURE__ */ T(/* @__PURE__ */ s({
+}, Xi = /* @__PURE__ */ g(/* @__PURE__ */ P({
 	__name: "at-most-one-group-row",
 	props: {
 		members: {},
@@ -34002,55 +39775,55 @@ var eo = /* @__PURE__ */ T(qa, [["render", $a], ["__scopeId", "data-v-ce2d87fb"]
 		}
 	},
 	emits: ["toggle", "toggle-branch"],
-	setup(e, { emit: r }) {
-		let a = e, o = r;
-		function s(e) {
-			return Z(e) !== "unchecked";
+	setup(e, { emit: t }) {
+		let n = e, r = t;
+		function i(e) {
+			return q(e) !== "unchecked";
 		}
-		let l = t(() => a.members.find(s)), u = t(() => l.value?.key ?? null), d = t(() => a.members.map((e) => e.key));
-		function p(e) {
-			return e == null ? "" : a.members.find((t) => t.key === e)?.name ?? String(e);
+		let o = s(() => n.members.find(i)), m = s(() => o.value?.key ?? null), h = s(() => n.members.map((e) => e.key));
+		function g(e) {
+			return e == null ? "" : n.members.find((t) => t.key === e)?.name ?? String(e);
 		}
-		let m = t(() => l.value?.name ?? "");
-		function h(e, t) {
+		let _ = s(() => o.value?.name ?? "");
+		function v(e, t) {
 			if (e.children.length) {
-				o("toggle-branch", e.key);
+				r("toggle-branch", e.key);
 				return;
 			}
-			o("toggle", e.key, t);
+			r("toggle", e.key, t);
 		}
-		function _(e) {
-			let t = l.value;
-			if (t && t.key !== e && h(t, !1), e != null && e !== t?.key) {
-				let t = a.members.find((t) => t.key === e);
-				t && h(t, !0);
+		function y(e) {
+			let t = o.value;
+			if (t && t.key !== e && v(t, !1), e != null && e !== t?.key) {
+				let t = n.members.find((t) => t.key === e);
+				t && v(t, !0);
 			}
 		}
-		return (e, t) => (g(), f("div", {
+		return (e, t) => (p(), a("div", {
 			class: "tree-node__row",
-			style: n({ paddingLeft: `${.5 + a.depth * 1.25}rem` }),
+			style: c({ paddingLeft: `${.5 + n.depth * 1.25}rem` }),
 			"data-testid": "dtt-atmostone-group"
 		}, [
-			t[0] ||= E("span", { class: "tree-node__expander tree-node__expander--leaf" }, null, -1),
-			t[1] ||= E("span", {
+			t[0] ||= l("span", { class: "tree-node__expander tree-node__expander--leaf" }, null, -1),
+			t[1] ||= l("span", {
 				class: "badge badge-xs badge-warning",
 				"data-testid": "dtt-node-condition-badge"
 			}, " AtMostOne ", -1),
-			a.isEditing ? (g(), c(i(me), {
+			n.isEditing ? (p(), f(d(le), {
 				key: 0,
 				class: "tree-node__atmostone-select",
 				size: "xs",
-				"model-value": u.value,
-				options: d.value,
-				"display-value": p,
-				"onUpdate:modelValue": _
-			}, null, 8, ["model-value", "options"])) : (g(), f("span", So, D(m.value), 1))
+				"model-value": m.value,
+				options: h.value,
+				"display-value": g,
+				"onUpdate:modelValue": y
+			}, null, 8, ["model-value", "options"])) : (p(), a("span", Yi, u(_.value), 1))
 		], 4));
 	}
 }), [["__scopeId", "data-v-535878a6"]]);
 //#endregion
 //#region src/data-type-templates/lnode-type-details/cdc-groups.ts
-function wo(e, t) {
+function Zi(e, t) {
 	let n = /* @__PURE__ */ new Map();
 	for (let r of e) {
 		let e = t[r.cdc ?? ""]?.categoryLabel ?? "Other", i = n.get(e) ?? [];
@@ -34069,7 +39842,7 @@ function wo(e, t) {
 }
 //#endregion
 //#region src/data-type-templates/lnode-type-details/all-at-least-one-groups.ts
-function To(e) {
+function Qi(e) {
 	let t = [], n = !1;
 	for (let r of e) {
 		if (r.presCond !== "AllAtLeastOneGroup" || !r.presCondArgs) {
@@ -34096,7 +39869,7 @@ function To(e) {
 }
 //#endregion
 //#region src/data-type-templates/lnode-type-details/all-only-one-groups.ts
-function Eo(e) {
+function $i(e) {
 	let t = [], n = !1;
 	for (let r of e) {
 		if (r.presCond !== "AllOnlyOneGroup" || !r.presCondArgs) {
@@ -34123,7 +39896,7 @@ function Eo(e) {
 }
 //#endregion
 //#region src/data-type-templates/lnode-type-details/all-or-none-per-group-groups.ts
-function Do(e) {
+function ea(e) {
 	let t = [], n = /* @__PURE__ */ new Set();
 	for (let r of e) {
 		if (r.presCond !== "AllOrNonePerGroup" || !r.presCondArgs) {
@@ -34146,7 +39919,7 @@ function Do(e) {
 }
 //#endregion
 //#region src/data-type-templates/lnode-type-details/at-least-one-groups.ts
-function Oo(e) {
+function ta(e) {
 	let t = [], n = /* @__PURE__ */ new Set();
 	for (let r of e) {
 		if (r.presCond !== "AtLeastOne" || !r.presCondArgs) {
@@ -34169,7 +39942,7 @@ function Oo(e) {
 }
 //#endregion
 //#region src/data-type-templates/lnode-type-details/at-most-one-groups.ts
-function ko(e) {
+function na(e) {
 	let t = [], n = !1;
 	for (let r of e) {
 		if (r.presCond !== "AtMostOne") {
@@ -34191,7 +39964,7 @@ function ko(e) {
 }
 //#endregion
 //#region src/data-type-templates/lnode-type-details/presence-groups.ts
-function Ao(e) {
+function ra(e) {
 	function t(e) {
 		let t = /* @__PURE__ */ new Map(), n = /* @__PURE__ */ new Set();
 		for (let r of e) if (r.type !== "node") {
@@ -34204,20 +39977,20 @@ function Ao(e) {
 		};
 	}
 	let n = [
-		t(ko(e)),
-		t(Do(e)),
-		t(Eo(e).map((e) => e.type === "node" ? e : {
+		t(na(e)),
+		t(ea(e)),
+		t($i(e).map((e) => e.type === "node" ? e : {
 			type: "allOnlyOneGroup",
 			groups: e.groups,
 			members: e.groups.flatMap((e) => e.members)
 		})),
-		t(To(e).map((e) => e.type === "node" ? e : {
+		t(Qi(e).map((e) => e.type === "node" ? e : {
 			type: "allAtLeastOneGroup",
 			groups: e.groups,
 			members: e.groups.flatMap((e) => e.members)
 		}))
 	], r = [];
-	for (let t of Oo(e)) {
+	for (let t of ta(e)) {
 		if (t.type !== "node") {
 			r.push(t);
 			continue;
@@ -34230,54 +40003,54 @@ function Ao(e) {
 }
 //#endregion
 //#region src/nsd/icons/info-icon.vue
-var jo = {}, Mo = {
+var ia = {}, aa = {
 	viewBox: "0 0 64 64",
 	width: "1em",
 	height: "1em",
 	"aria-hidden": "true",
 	focusable: "false"
 };
-function No(e, t) {
-	return g(), f("svg", Mo, [...t[0] ||= [E("path", {
+function oa(e, t) {
+	return p(), a("svg", aa, [...t[0] ||= [l("path", {
 		fill: "currentColor",
 		d: "M32 4C16.536 4 4 16.536 4 32s12.536 28 28 28 28-12.536 28-28S47.464 4 32 4zm0 4c13.255 0 24 10.745 24 24S45.255 56 32 56 8 45.255 8 32 18.745 8 32 8zm0 10a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm-2 12v16h4V30h-4z"
 	}, null, -1)]]);
 }
-var Po = /* @__PURE__ */ T(jo, [["render", No]]), Fo = { class: "tree-node" }, Io = ["title"], Lo = ["checked", "disabled"], Ro = {
+var sa = /* @__PURE__ */ g(ia, [["render", oa]]), ca = { class: "tree-node" }, la = ["title"], ua = ["checked", "disabled"], da = {
 	key: 1,
 	class: "tree-node__expander tree-node__expander--leaf"
-}, zo = { class: "tree-node__name" }, Bo = {
+}, fa = { class: "tree-node__name" }, pa = {
 	key: 2,
 	class: "tree-node__cdc",
 	"data-testid": "dtt-node-cdc"
-}, Vo = {
+}, ma = {
 	key: 3,
 	class: "badge badge-xs badge-accent"
-}, Ho = {
+}, ha = {
 	key: 4,
 	class: "badge badge-xs badge-warning",
 	"data-testid": "dtt-node-condition-badge"
-}, Uo = {
+}, ga = {
 	key: 5,
 	class: "badge badge-xs badge-ghost",
 	"data-testid": "dtt-node-base-ns"
-}, Wo = {
+}, _a = {
 	key: 6,
 	class: "badge badge-xs badge-ghost",
 	"data-testid": "dtt-node-member-ns"
-}, Go = ["value", "disabled"], Ko = ["value"], qo = {
+}, va = ["value", "disabled"], ya = ["value"], ba = {
 	key: 8,
 	class: "badge badge-xs badge-ghost tree-node__setting-fc",
 	"data-testid": "dtt-setting-fc-readonly"
-}, Jo = ["min", "value"], Yo = {
+}, xa = ["min", "value"], Sa = {
 	key: 10,
 	class: "badge badge-xs badge-ghost tree-node__instance-count",
 	"data-testid": "dtt-instance-count-readonly"
-}, Xo = ["disabled"], Zo = [
+}, Ca = ["disabled"], wa = [
 	"checked",
 	"disabled",
 	"onChange"
-], Qo = { class: "badge badge-xs badge-ghost tree-node__enum-ord" }, $o = { class: "tree-node__name" }, es = /* @__PURE__ */ T(/* @__PURE__ */ s({
+], Ta = { class: "badge badge-xs badge-ghost tree-node__enum-ord" }, Ea = { class: "tree-node__name" }, Da = /* @__PURE__ */ g(/* @__PURE__ */ P({
 	__name: "tree-node",
 	props: {
 		node: {},
@@ -34301,18 +40074,18 @@ var Po = /* @__PURE__ */ T(jo, [["render", No]]), Fo = { class: "tree-node" }, I
 		"set-instance-count"
 	],
 	setup(e, { emit: t }) {
-		let a = e, s = t, u = F();
-		y(function() {
-			u.value && (u.value.indeterminate = Z(a.node) === "intermediate");
+		let n = e, i = t, o = M();
+		E(function() {
+			o.value && (o.value.indeterminate = q(n.node) === "intermediate");
 		});
-		function d(e) {
-			if (a.node.children.length) {
-				s("toggle-branch", a.node.key);
+		function s(e) {
+			if (n.node.children.length) {
+				i("toggle-branch", n.node.key);
 				return;
 			}
-			s("toggle", a.node.key, e.target.checked);
+			i("toggle", n.node.key, e.target.checked);
 		}
-		let m = new Set([
+		let h = new Set([
 			"M",
 			"F",
 			"na",
@@ -34320,122 +40093,122 @@ var Po = /* @__PURE__ */ T(jo, [["render", No]]), Fo = { class: "tree-node" }, I
 			"Mmulti",
 			"Omulti"
 		]);
-		function h(e) {
-			return !m.has(e.presCond);
+		function g(e) {
+			return !h.has(e.presCond);
 		}
 		function _(e) {
-			return e.children.filter((e) => a.visibleKeys.has(e.key));
+			return e.children.filter((e) => n.visibleKeys.has(e.key));
 		}
 		function v(e) {
-			return Ao(_(e));
-		}
-		function b(e) {
-			return a.isEditing ? e.enumVals : e.enumVals.filter((e) => e.selected !== !1);
+			return ra(_(e));
 		}
 		function x(e) {
-			return e.bType === "Enum" && b(e).length > 0;
+			return n.isEditing ? e.enumVals : e.enumVals.filter((e) => e.selected !== !1);
 		}
-		function S(e) {
-			return _(e).length > 0 || x(e);
-		}
-		function ee(e, t, n) {
-			s("toggle-enum-val", e.key, t, n.target.checked);
+		function C(e) {
+			return e.bType === "Enum" && x(e).length > 0;
 		}
 		function w(e) {
-			return !!(e.memberLnNs && a.lnNs && e.memberLnNs !== a.lnNs);
+			return _(e).length > 0 || C(e);
 		}
-		function T(e) {
-			if (e.kind === "DO") return Zr(e);
+		function T(e, t, n) {
+			i("toggle-enum-val", e.key, t, n.target.checked);
 		}
-		function te(e, t) {
-			s("set-fc", e.key, t.target.value);
+		function D(e) {
+			return !!(e.memberLnNs && n.lnNs && e.memberLnNs !== n.lnNs);
 		}
-		let O = {
+		function O(e) {
+			if (e.kind === "DO") return kn(e);
+		}
+		function k(e, t) {
+			i("set-fc", e.key, t.target.value);
+		}
+		let A = {
 			Mmulti: 1,
 			Omulti: 0
 		};
-		function k(e) {
-			return O[e.presCond];
+		function j(e) {
+			return A[e.presCond];
 		}
-		function A(e, t) {
-			s("set-instance-count", e.key, Number(t.target.value));
+		function N(e, t) {
+			i("set-instance-count", e.key, Number(t.target.value));
 		}
 		return (e, t) => {
-			let m = C("TreeNode", !0);
-			return g(), f("div", Fo, [E("div", {
+			let h = S("TreeNode", !0);
+			return p(), a("div", ca, [l("div", {
 				class: "tree-node__row",
-				style: n({ paddingLeft: `${.5 + a.depth * 1.25}rem` }),
-				title: a.node.blockedReason,
+				style: c({ paddingLeft: `${.5 + n.depth * 1.25}rem` }),
+				title: n.node.blockedReason,
 				"data-testid": "dtt-tree-node"
 			}, [
-				E("input", {
+				l("input", {
 					ref_key: "checkboxEl",
-					ref: u,
+					ref: o,
 					type: "checkbox",
 					class: "checkbox checkbox-xs",
-					checked: i(Z)(a.node) === "checked",
-					disabled: !a.isEditing || a.node.toggleLocked,
+					checked: d(q)(n.node) === "checked",
+					disabled: !n.isEditing || n.node.toggleLocked,
 					"data-testid": "dtt-node-toggle",
-					onChange: d
-				}, null, 40, Lo),
-				S(a.node) ? (g(), f("button", {
+					onChange: s
+				}, null, 40, ua),
+				w(n.node) ? (p(), a("button", {
 					key: 0,
 					class: "tree-node__expander",
-					onClick: t[0] ||= (e) => s("expand", a.node.key)
-				}, D(a.expandedKeys.has(a.node.key) ? "▼" : "▶"), 1)) : (g(), f("span", Ro)),
-				E("span", zo, D(a.node.name), 1),
-				a.node.cdc ? (g(), f("span", Bo, D(a.node.cdc), 1)) : l("", !0),
-				a.node.isCustom ? (g(), f("span", Vo, "custom")) : l("", !0),
-				h(a.node) ? (g(), f("span", Ho, D(a.node.presCond), 1)) : l("", !0),
-				a.node.name === "NamPlt" && a.lnNs ? (g(), f("span", Uo, D(a.lnNs), 1)) : l("", !0),
-				w(a.node) ? (g(), f("span", Wo, D(a.node.memberLnNs), 1)) : l("", !0),
-				a.isEditing && T(a.node) ? (g(), f("select", {
+					onClick: t[0] ||= (e) => i("expand", n.node.key)
+				}, u(n.expandedKeys.has(n.node.key) ? "▼" : "▶"), 1)) : (p(), a("span", da)),
+				l("span", fa, u(n.node.name), 1),
+				n.node.cdc ? (p(), a("span", pa, u(n.node.cdc), 1)) : r("", !0),
+				n.node.isCustom ? (p(), a("span", ma, "custom")) : r("", !0),
+				g(n.node) ? (p(), a("span", ha, u(n.node.presCond), 1)) : r("", !0),
+				n.node.name === "NamPlt" && n.lnNs ? (p(), a("span", ga, u(n.lnNs), 1)) : r("", !0),
+				D(n.node) ? (p(), a("span", _a, u(n.node.memberLnNs), 1)) : r("", !0),
+				n.isEditing && O(n.node) ? (p(), a("select", {
 					key: 7,
 					class: "select select-xs tree-node__setting-fc",
 					"data-testid": "dtt-setting-fc",
-					value: T(a.node)?.fc,
-					disabled: i(Z)(a.node) === "unchecked",
-					onChange: t[1] ||= (e) => te(a.node, e)
-				}, [(g(!0), f(r, null, p(T(a.node)?.fcOptions, (e) => (g(), f("option", {
+					value: O(n.node)?.fc,
+					disabled: d(q)(n.node) === "unchecked",
+					onChange: t[1] ||= (e) => k(n.node, e)
+				}, [(p(!0), a(b, null, y(O(n.node)?.fcOptions, (e) => (p(), a("option", {
 					key: e,
 					value: e
-				}, D(e), 9, Ko))), 128))], 40, Go)) : !a.isEditing && T(a.node) ? (g(), f("span", qo, D(T(a.node)?.fc), 1)) : l("", !0),
-				a.isEditing && k(a.node) !== void 0 ? (g(), f("input", {
+				}, u(e), 9, ya))), 128))], 40, va)) : !n.isEditing && O(n.node) ? (p(), a("span", ba, u(O(n.node)?.fc), 1)) : r("", !0),
+				n.isEditing && j(n.node) !== void 0 ? (p(), a("input", {
 					key: 9,
 					type: "number",
 					class: "input input-xs tree-node__instance-count",
 					"data-testid": "dtt-instance-count",
-					min: k(a.node),
-					value: a.node.instanceCount,
-					onChange: t[2] ||= (e) => A(a.node, e)
-				}, null, 40, Jo)) : !a.isEditing && k(a.node) !== void 0 ? (g(), f("span", Yo, D(a.node.instanceCount), 1)) : l("", !0),
-				a.isEditing && a.node.bType === "Enum" && a.node.enabled ? (g(), f("button", {
+					min: j(n.node),
+					value: n.node.instanceCount,
+					onChange: t[2] ||= (e) => N(n.node, e)
+				}, null, 40, xa)) : !n.isEditing && j(n.node) !== void 0 ? (p(), a("span", Sa, u(n.node.instanceCount), 1)) : r("", !0),
+				n.isEditing && n.node.bType === "Enum" && n.node.enabled ? (p(), a("button", {
 					key: 11,
 					class: "btn btn-xs btn-ghost tree-node__enum",
-					disabled: a.node.toggleLocked,
-					onClick: t[3] ||= (e) => s("edit-enum", a.node.key)
-				}, " enum ", 8, Xo)) : l("", !0),
-				E("button", {
+					disabled: n.node.toggleLocked,
+					onClick: t[3] ||= (e) => i("edit-enum", n.node.key)
+				}, " enum ", 8, Ca)) : r("", !0),
+				l("button", {
 					class: "tree-node__info",
 					title: "Details",
-					onClick: t[4] ||= (e) => s("info", a.node.key)
-				}, [o(Po)])
-			], 12, Io), a.expandedKeys.has(a.node.key) ? (g(), f(r, { key: 0 }, [(g(!0), f(r, null, p(v(a.node), (e) => (g(), f(r, { key: e.type === "node" ? e.node.key : e.type === "atLeastOneGroup" ? `alo:${e.args}` : e.type === "atMostOneGroup" ? `amo:${e.members[0]?.key}` : e.type === "allOrNonePerGroupGroup" ? `aonp:${e.args}` : e.type === "allOnlyOneGroup" ? `aoo:${e.members[0]?.key}` : `aalo:${e.members[0]?.key}` }, [e.type === "node" ? (g(), c(m, {
+					onClick: t[4] ||= (e) => i("info", n.node.key)
+				}, [m(sa)])
+			], 12, la), n.expandedKeys.has(n.node.key) ? (p(), a(b, { key: 0 }, [(p(!0), a(b, null, y(v(n.node), (e) => (p(), a(b, { key: e.type === "node" ? e.node.key : e.type === "atLeastOneGroup" ? `alo:${e.args}` : e.type === "atMostOneGroup" ? `amo:${e.members[0]?.key}` : e.type === "allOrNonePerGroupGroup" ? `aonp:${e.args}` : e.type === "allOnlyOneGroup" ? `aoo:${e.members[0]?.key}` : `aalo:${e.members[0]?.key}` }, [e.type === "node" ? (p(), f(h, {
 				key: 0,
 				node: e.node,
-				depth: a.depth + 1,
-				"visible-keys": a.visibleKeys,
-				"expanded-keys": a.expandedKeys,
-				"is-editing": a.isEditing,
-				"ln-ns": a.lnNs,
-				onToggle: t[5] ||= (e, t) => s("toggle", e, t),
-				onToggleBranch: t[6] ||= (e) => s("toggle-branch", e),
-				onToggleEnumVal: t[7] ||= (e, t, n) => s("toggle-enum-val", e, t, n),
-				onExpand: t[8] ||= (e) => s("expand", e),
-				onInfo: t[9] ||= (e) => s("info", e),
-				onEditEnum: t[10] ||= (e) => s("edit-enum", e),
-				onSetFc: t[11] ||= (e, t) => s("set-fc", e, t),
-				onSetInstanceCount: t[12] ||= (e, t) => s("set-instance-count", e, t)
+				depth: n.depth + 1,
+				"visible-keys": n.visibleKeys,
+				"expanded-keys": n.expandedKeys,
+				"is-editing": n.isEditing,
+				"ln-ns": n.lnNs,
+				onToggle: t[5] ||= (e, t) => i("toggle", e, t),
+				onToggleBranch: t[6] ||= (e) => i("toggle-branch", e),
+				onToggleEnumVal: t[7] ||= (e, t, n) => i("toggle-enum-val", e, t, n),
+				onExpand: t[8] ||= (e) => i("expand", e),
+				onInfo: t[9] ||= (e) => i("info", e),
+				onEditEnum: t[10] ||= (e) => i("edit-enum", e),
+				onSetFc: t[11] ||= (e, t) => i("set-fc", e, t),
+				onSetInstanceCount: t[12] ||= (e, t) => i("set-instance-count", e, t)
 			}, null, 8, [
 				"node",
 				"depth",
@@ -34443,92 +40216,92 @@ var Po = /* @__PURE__ */ T(jo, [["render", No]]), Fo = { class: "tree-node" }, I
 				"expanded-keys",
 				"is-editing",
 				"ln-ns"
-			])) : e.type === "atLeastOneGroup" ? (g(), c(xo, {
+			])) : e.type === "atLeastOneGroup" ? (p(), f(Ji, {
 				key: 1,
 				members: e.members,
 				args: e.args,
-				depth: a.depth + 1,
-				"is-editing": a.isEditing,
-				onToggle: t[13] ||= (e, t) => s("toggle", e, t),
-				onToggleBranch: t[14] ||= (e) => s("toggle-branch", e)
+				depth: n.depth + 1,
+				"is-editing": n.isEditing,
+				onToggle: t[13] ||= (e, t) => i("toggle", e, t),
+				onToggleBranch: t[14] ||= (e) => i("toggle-branch", e)
 			}, null, 8, [
 				"members",
 				"args",
 				"depth",
 				"is-editing"
-			])) : e.type === "atMostOneGroup" ? (g(), c(Co, {
+			])) : e.type === "atMostOneGroup" ? (p(), f(Xi, {
 				key: 2,
 				members: e.members,
-				depth: a.depth + 1,
-				"is-editing": a.isEditing,
-				onToggle: t[15] ||= (e, t) => s("toggle", e, t),
-				onToggleBranch: t[16] ||= (e) => s("toggle-branch", e)
+				depth: n.depth + 1,
+				"is-editing": n.isEditing,
+				onToggle: t[15] ||= (e, t) => i("toggle", e, t),
+				onToggleBranch: t[16] ||= (e) => i("toggle-branch", e)
 			}, null, 8, [
 				"members",
 				"depth",
 				"is-editing"
-			])) : e.type === "allOrNonePerGroupGroup" ? (g(), c(vo, {
+			])) : e.type === "allOrNonePerGroupGroup" ? (p(), f(Gi, {
 				key: 3,
 				members: e.members,
 				args: e.args,
-				depth: a.depth + 1,
-				"is-editing": a.isEditing,
-				onToggle: t[17] ||= (e, t) => s("toggle", e, t),
-				onToggleBranch: t[18] ||= (e) => s("toggle-branch", e),
-				onSetFc: t[19] ||= (e, t) => s("set-fc", e, t)
+				depth: n.depth + 1,
+				"is-editing": n.isEditing,
+				onToggle: t[17] ||= (e, t) => i("toggle", e, t),
+				onToggleBranch: t[18] ||= (e) => i("toggle-branch", e),
+				onSetFc: t[19] ||= (e, t) => i("set-fc", e, t)
 			}, null, 8, [
 				"members",
 				"args",
 				"depth",
 				"is-editing"
-			])) : e.type === "allOnlyOneGroup" ? (g(), c(uo, {
+			])) : e.type === "allOnlyOneGroup" ? (p(), f(Ri, {
 				key: 4,
 				groups: e.groups,
-				depth: a.depth + 1,
-				"is-editing": a.isEditing,
-				onToggle: t[20] ||= (e, t) => s("toggle", e, t),
-				onToggleBranch: t[21] ||= (e) => s("toggle-branch", e)
+				depth: n.depth + 1,
+				"is-editing": n.isEditing,
+				onToggle: t[20] ||= (e, t) => i("toggle", e, t),
+				onToggleBranch: t[21] ||= (e) => i("toggle-branch", e)
 			}, null, 8, [
 				"groups",
 				"depth",
 				"is-editing"
-			])) : (g(), c(co, {
+			])) : (p(), f(Ii, {
 				key: 5,
 				groups: e.groups,
-				depth: a.depth + 1,
-				"is-editing": a.isEditing,
-				onToggle: t[22] ||= (e, t) => s("toggle", e, t),
-				onToggleBranch: t[23] ||= (e) => s("toggle-branch", e)
+				depth: n.depth + 1,
+				"is-editing": n.isEditing,
+				onToggle: t[22] ||= (e, t) => i("toggle", e, t),
+				onToggleBranch: t[23] ||= (e) => i("toggle-branch", e)
 			}, null, 8, [
 				"groups",
 				"depth",
 				"is-editing"
-			]))], 64))), 128)), x(a.node) ? (g(!0), f(r, { key: 0 }, p(b(a.node), (e) => (g(), f("div", {
-				key: `${a.node.key}:${e.ord}`,
+			]))], 64))), 128)), C(n.node) ? (p(!0), a(b, { key: 0 }, y(x(n.node), (e) => (p(), a("div", {
+				key: `${n.node.key}:${e.ord}`,
 				class: "tree-node__enum-val",
-				style: n({ paddingLeft: `${.5 + (a.depth + 1) * 1.25}rem` }),
+				style: c({ paddingLeft: `${.5 + (n.depth + 1) * 1.25}rem` }),
 				"data-testid": "dtt-enum-val"
 			}, [
-				E("input", {
+				l("input", {
 					type: "checkbox",
 					class: "checkbox checkbox-xs",
 					checked: e.selected !== !1,
-					disabled: !a.isEditing || !!a.node.blockedReason,
+					disabled: !n.isEditing || !!n.node.blockedReason,
 					"data-testid": "dtt-enum-val-toggle",
-					onChange: (t) => ee(a.node, e.ord, t)
-				}, null, 40, Zo),
-				E("span", Qo, D(e.ord), 1),
-				E("span", $o, D(e.value), 1)
-			], 4))), 128)) : l("", !0)], 64)) : l("", !0)]);
+					onChange: (t) => T(n.node, e.ord, t)
+				}, null, 40, wa),
+				l("span", Ta, u(e.ord), 1),
+				l("span", Ea, u(e.value), 1)
+			], 4))), 128)) : r("", !0)], 64)) : r("", !0)]);
 		};
 	}
-}), [["__scopeId", "data-v-0d88b4e7"]]), ts = { class: "lnode-type-tree" }, ns = {
+}), [["__scopeId", "data-v-0d88b4e7"]]), Oa = { class: "lnode-type-tree" }, ka = {
 	key: 0,
 	class: "lnode-type-tree__group-header"
-}, rs = {
+}, Aa = {
 	key: 0,
 	class: "lnode-type-tree__empty"
-}, is = /* @__PURE__ */ T(/* @__PURE__ */ s({
+}, ja = /* @__PURE__ */ g(/* @__PURE__ */ P({
 	__name: "tree",
 	props: {
 		nodes: { default: () => [] },
@@ -34555,224 +40328,224 @@ var Po = /* @__PURE__ */ T(jo, [["render", No]]), Fo = { class: "tree-node" }, I
 		"set-fc",
 		"set-instance-count"
 	],
-	setup(e, { emit: n }) {
-		let i = e, a = n, o = F(/* @__PURE__ */ new Set()), s = t(function() {
+	setup(e, { emit: t }) {
+		let n = e, i = t, o = M(/* @__PURE__ */ new Set()), c = s(function() {
 			let e = /* @__PURE__ */ new Set();
-			for (let t of i.nodes) v(t, e, !0);
+			for (let t of n.nodes) _(t, e, !0);
 			return e;
-		}), u = t(function() {
-			return i.search.trim() ? x() : o.value;
-		}), d = t(function() {
-			return i.nodes.filter((e) => s.value.has(e.key));
-		}), m = t(function() {
-			return wo(d.value, i.cdcMetadataByName);
+		}), l = s(function() {
+			return n.search.trim() ? S() : o.value;
+		}), d = s(function() {
+			return n.nodes.filter((e) => c.value.has(e.key));
+		}), m = s(function() {
+			return Zi(d.value, n.cdcMetadataByName);
 		});
 		function h(e) {
-			return Ao(e);
+			return ra(e);
 		}
-		function _(e) {
+		function g(e) {
 			let t = new Set(o.value);
 			t.has(e) ? t.delete(e) : t.add(e), o.value = t;
 		}
-		function v(e, t, n) {
-			if (n && !b(e)) return !1;
+		function _(e, t, n) {
+			if (n && !x(e)) return !1;
 			let r = !1;
-			for (let n of e.children) r = v(n, t, !1) || r;
-			let i = r || y(e);
+			for (let n of e.children) r = _(n, t, !1) || r;
+			let i = r || v(e);
 			return i && t.add(e.key), i;
 		}
-		function y(e) {
-			if (i.onlyEnabled && Z(e) === "unchecked") return !1;
-			let t = i.search.trim().toLowerCase();
+		function v(e) {
+			if (n.onlyEnabled && q(e) === "unchecked") return !1;
+			let t = n.search.trim().toLowerCase();
 			return !(t && !e.name.toLowerCase().includes(t));
 		}
-		function b(e) {
-			return !(i.filter === "optional" && e.presCond.startsWith("M") || i.filter === "mandatory" && !e.presCond.startsWith("M"));
+		function x(e) {
+			return !(n.filter === "optional" && e.presCond.startsWith("M") || n.filter === "mandatory" && !e.presCond.startsWith("M"));
 		}
-		function x() {
+		function S() {
 			let e = /* @__PURE__ */ new Set();
-			for (let t of s.value) {
+			for (let t of c.value) {
 				let n = t.split(".");
 				for (let t = 1; t < n.length; t++) e.add(n.slice(0, t).join("."));
 			}
-			for (let t of i.nodes) s.value.has(t.key) && e.add(t.key);
+			for (let t of n.nodes) c.value.has(t.key) && e.add(t.key);
 			return e;
 		}
-		return (e, t) => (g(), f("div", ts, [
-			(g(!0), f(r, null, p(i.warnings, (e) => (g(), f("p", {
+		return (e, t) => (p(), a("div", Oa, [
+			(p(!0), a(b, null, y(n.warnings, (e) => (p(), a("p", {
 				key: e,
 				class: "lnode-type-tree__warning"
-			}, " ⚠ " + D(e), 1))), 128)),
-			(g(!0), f(r, null, p(m.value, (e) => (g(), f("div", {
+			}, " ⚠ " + u(e), 1))), 128)),
+			(p(!0), a(b, null, y(m.value, (e) => (p(), a("div", {
 				key: e.key,
 				class: "lnode-type-tree__group"
-			}, [e.showHeader ? (g(), f("div", ns, D(e.label), 1)) : l("", !0), (g(!0), f(r, null, p(h(e.nodes), (e) => (g(), f(r, { key: e.type === "node" ? e.node.key : e.type === "atLeastOneGroup" ? `alo:${e.args}` : e.type === "atMostOneGroup" ? `amo:${e.members[0]?.key}` : e.type === "allOrNonePerGroupGroup" ? `aonp:${e.args}` : e.type === "allOnlyOneGroup" ? `aoo:${e.members[0]?.key}` : `aalo:${e.members[0]?.key}` }, [e.type === "node" ? (g(), c(es, {
+			}, [e.showHeader ? (p(), a("div", ka, u(e.label), 1)) : r("", !0), (p(!0), a(b, null, y(h(e.nodes), (e) => (p(), a(b, { key: e.type === "node" ? e.node.key : e.type === "atLeastOneGroup" ? `alo:${e.args}` : e.type === "atMostOneGroup" ? `amo:${e.members[0]?.key}` : e.type === "allOrNonePerGroupGroup" ? `aonp:${e.args}` : e.type === "allOnlyOneGroup" ? `aoo:${e.members[0]?.key}` : `aalo:${e.members[0]?.key}` }, [e.type === "node" ? (p(), f(Da, {
 				key: 0,
 				node: e.node,
-				"visible-keys": s.value,
-				"expanded-keys": u.value,
-				"is-editing": i.isEditing,
-				"ln-ns": i.lnNs,
-				onToggle: t[0] ||= (e, t) => a("toggle", e, t),
-				onToggleBranch: t[1] ||= (e) => a("toggle-branch", e),
-				onToggleEnumVal: t[2] ||= (e, t, n) => a("toggle-enum-val", e, t, n),
-				onExpand: _,
-				onInfo: t[3] ||= (e) => a("info", e),
-				onEditEnum: t[4] ||= (e) => a("edit-enum", e),
-				onSetFc: t[5] ||= (e, t) => a("set-fc", e, t),
-				onSetInstanceCount: t[6] ||= (e, t) => a("set-instance-count", e, t)
+				"visible-keys": c.value,
+				"expanded-keys": l.value,
+				"is-editing": n.isEditing,
+				"ln-ns": n.lnNs,
+				onToggle: t[0] ||= (e, t) => i("toggle", e, t),
+				onToggleBranch: t[1] ||= (e) => i("toggle-branch", e),
+				onToggleEnumVal: t[2] ||= (e, t, n) => i("toggle-enum-val", e, t, n),
+				onExpand: g,
+				onInfo: t[3] ||= (e) => i("info", e),
+				onEditEnum: t[4] ||= (e) => i("edit-enum", e),
+				onSetFc: t[5] ||= (e, t) => i("set-fc", e, t),
+				onSetInstanceCount: t[6] ||= (e, t) => i("set-instance-count", e, t)
 			}, null, 8, [
 				"node",
 				"visible-keys",
 				"expanded-keys",
 				"is-editing",
 				"ln-ns"
-			])) : e.type === "atLeastOneGroup" ? (g(), c(xo, {
+			])) : e.type === "atLeastOneGroup" ? (p(), f(Ji, {
 				key: 1,
 				members: e.members,
 				args: e.args,
-				"is-editing": i.isEditing,
-				onToggle: t[7] ||= (e, t) => a("toggle", e, t),
-				onToggleBranch: t[8] ||= (e) => a("toggle-branch", e)
+				"is-editing": n.isEditing,
+				onToggle: t[7] ||= (e, t) => i("toggle", e, t),
+				onToggleBranch: t[8] ||= (e) => i("toggle-branch", e)
 			}, null, 8, [
 				"members",
 				"args",
 				"is-editing"
-			])) : e.type === "atMostOneGroup" ? (g(), c(Co, {
+			])) : e.type === "atMostOneGroup" ? (p(), f(Xi, {
 				key: 2,
 				members: e.members,
-				"is-editing": i.isEditing,
-				onToggle: t[9] ||= (e, t) => a("toggle", e, t),
-				onToggleBranch: t[10] ||= (e) => a("toggle-branch", e)
-			}, null, 8, ["members", "is-editing"])) : e.type === "allOrNonePerGroupGroup" ? (g(), c(vo, {
+				"is-editing": n.isEditing,
+				onToggle: t[9] ||= (e, t) => i("toggle", e, t),
+				onToggleBranch: t[10] ||= (e) => i("toggle-branch", e)
+			}, null, 8, ["members", "is-editing"])) : e.type === "allOrNonePerGroupGroup" ? (p(), f(Gi, {
 				key: 3,
 				members: e.members,
 				args: e.args,
-				"is-editing": i.isEditing,
-				onToggle: t[11] ||= (e, t) => a("toggle", e, t),
-				onToggleBranch: t[12] ||= (e) => a("toggle-branch", e),
-				onSetFc: t[13] ||= (e, t) => a("set-fc", e, t)
+				"is-editing": n.isEditing,
+				onToggle: t[11] ||= (e, t) => i("toggle", e, t),
+				onToggleBranch: t[12] ||= (e) => i("toggle-branch", e),
+				onSetFc: t[13] ||= (e, t) => i("set-fc", e, t)
 			}, null, 8, [
 				"members",
 				"args",
 				"is-editing"
-			])) : e.type === "allOnlyOneGroup" ? (g(), c(uo, {
+			])) : e.type === "allOnlyOneGroup" ? (p(), f(Ri, {
 				key: 4,
 				groups: e.groups,
-				"is-editing": i.isEditing,
-				onToggle: t[14] ||= (e, t) => a("toggle", e, t),
-				onToggleBranch: t[15] ||= (e) => a("toggle-branch", e)
-			}, null, 8, ["groups", "is-editing"])) : (g(), c(co, {
+				"is-editing": n.isEditing,
+				onToggle: t[14] ||= (e, t) => i("toggle", e, t),
+				onToggleBranch: t[15] ||= (e) => i("toggle-branch", e)
+			}, null, 8, ["groups", "is-editing"])) : (p(), f(Ii, {
 				key: 5,
 				groups: e.groups,
-				"is-editing": i.isEditing,
-				onToggle: t[16] ||= (e, t) => a("toggle", e, t),
-				onToggleBranch: t[17] ||= (e) => a("toggle-branch", e)
+				"is-editing": n.isEditing,
+				onToggle: t[16] ||= (e, t) => i("toggle", e, t),
+				onToggleBranch: t[17] ||= (e) => i("toggle-branch", e)
 			}, null, 8, ["groups", "is-editing"]))], 64))), 128))]))), 128)),
-			d.value.length ? l("", !0) : (g(), f("p", rs, "No elements to show."))
+			d.value.length ? r("", !0) : (p(), a("p", Aa, "No elements to show."))
 		]));
 	}
-}), [["__scopeId", "data-v-2b6ba5e0"]]), as = {
+}), [["__scopeId", "data-v-2b6ba5e0"]]), Ma = {
 	key: 0,
 	class: "lnode-type-details__error"
-}, os = {
+}, Na = {
 	key: 1,
 	class: "lnode-type-details__placeholder"
-}, ss = /* @__PURE__ */ T(/* @__PURE__ */ s({
+}, Pa = /* @__PURE__ */ g(/* @__PURE__ */ P({
 	__name: "lnode-type-details",
 	setup(e) {
-		let n = aa(), { draft: a, references: s, referencePanelOpen: u, isEditing: d, editBlockedReason: p, error: m, hasChange: h, treeSearch: _, treeFilter: v, selectedLnodeTypeId: y } = oe(n), b = t(function() {
-			return !!a.value && !a.value?.sourceLnodeTypeId;
-		}), S = t(function() {
-			return a.value ? b.value ? `${a.value.baseName} (new ${a.value.lnClass} draft)` : y.value ?? "" : "Select an LNodeType";
-		}), C = t(function() {
-			if (!a.value) return;
-			let e = a.value.namespace.lnNs, t = Ar(a.value), n = b.value ? e : `${a.value.lnClass} · ${e}`;
-			return t.length ? `${n}, ${t.join(", ")}` : n;
-		}), ee = t(function() {
-			return !d.value && !!y.value;
-		}), w = F([]), T = t(function() {
-			return Object.fromEntries(w.value.map(function(e) {
+		let t = Nr(), { draft: n, references: i, referencePanelOpen: o, isEditing: c, editBlockedReason: l, error: g, hasChange: _, treeSearch: v, treeFilter: y, selectedLnodeTypeId: x } = j(t), S = s(function() {
+			return !!n.value && !n.value?.sourceLnodeTypeId;
+		}), w = s(function() {
+			return n.value ? S.value ? `${n.value.baseName} (new ${n.value.lnClass} draft)` : x.value ?? "" : "Select an LNodeType";
+		}), T = s(function() {
+			if (!n.value) return;
+			let e = n.value.namespace.lnNs, t = cn(n.value), r = S.value ? e : `${n.value.lnClass} · ${e}`;
+			return t.length ? `${r}, ${t.join(", ")}` : r;
+		}), E = s(function() {
+			return !c.value && !!x.value;
+		}), D = M([]), k = s(function() {
+			return Object.fromEntries(D.value.map(function(e) {
 				return [e.name, e];
 			}));
 		});
-		M(function() {
-			j();
-		}), te(ue, function() {
-			j();
+		h(function() {
+			F();
+		}), C(ie, function() {
+			F();
 		});
-		let E = F(), O = F();
-		async function k(e) {
-			let t = a.value ? Q(a.value.nodes, e) : void 0;
+		let A = M(), N = M();
+		async function P(e) {
+			let t = n.value ? J(n.value.nodes, e) : void 0;
 			if (!t) return;
-			let n = await Ri(t.presCond);
-			O.value = {
+			let r = await pr(t.presCond);
+			N.value = {
 				name: t.name,
 				condition: t.presCond,
-				conditionDescription: n?.description,
+				conditionDescription: r?.description,
 				type: t.bType ?? (t.kind === "DO" || t.kind === "SDO" ? "structure" : void 0),
 				inheritedFrom: t.inheritedFrom,
 				cdc: t.cdc,
-				cdcTitle: t.cdc ? T.value[t.cdc]?.title : void 0,
-				cdcCategory: t.cdc ? T.value[t.cdc]?.categoryLabel : void 0,
-				description: await Ii(t.descId)
-			}, E.value?.open();
+				cdcTitle: t.cdc ? k.value[t.cdc]?.title : void 0,
+				cdcCategory: t.cdc ? k.value[t.cdc]?.categoryLabel : void 0,
+				description: await dr(t.descId)
+			}, A.value?.open();
 		}
-		let A = F();
-		async function ne() {
-			await j(), A.value?.open();
+		let ee = M();
+		async function te() {
+			await F(), ee.value?.open();
 		}
-		async function j() {
-			w.value = await Pi();
+		async function F() {
+			D.value = await lr();
 		}
-		function re(e) {
-			return a.value ? oi(e, a.value) : { valid: !1 };
+		function ne(e) {
+			return n.value ? Rn(e, n.value) : { valid: !1 };
 		}
-		async function N(e) {
-			let t = await Fi({ cdc: e.cdc.name });
-			n.addCustomDataObject({
+		async function re(e) {
+			let n = await ur({ cdc: e.cdc.name });
+			t.addCustomDataObject({
 				name: e.name,
 				cdc: e.cdc.name,
-				cdcMembers: t
-			}), e.cdc.enumParameterized && se(e.name);
+				cdcMembers: n
+			}), e.cdc.enumParameterized && ce(e.name);
 		}
-		let P = F();
-		function ie(e) {
-			let t = a.value ? Q(a.value.nodes, e) : void 0;
-			t && P.value?.open({
+		let ae = M();
+		function oe(e) {
+			let t = n.value ? J(n.value.nodes, e) : void 0;
+			t && ae.value?.open({
 				key: e,
 				title: t.enumName ?? t.key,
 				vals: t.enumVals
 			});
 		}
-		function ae(e, t) {
-			n.updateEnumVals(e, t);
+		function se(e, n) {
+			t.updateEnumVals(e, n);
 		}
-		function se(e) {
-			let t = (a.value ? Q(a.value.nodes, e) : void 0)?.children.find((e) => e.bType === "Enum" && e.enabled);
-			t && ie(t.key);
+		function ce(e) {
+			let t = (n.value ? J(n.value.nodes, e) : void 0)?.children.find((e) => e.bType === "Enum" && e.enabled);
+			t && oe(t.key);
 		}
-		return (e, t) => (g(), f(r, null, [
-			o(eo, null, {
-				header: x(() => [o(za, {
-					title: S.value,
-					"namespace-info": C.value,
-					search: i(_),
-					filter: i(v),
-					"is-editing": i(d),
-					"is-new": b.value,
-					"has-change": i(h),
-					"has-selection": !!i(y),
-					"edit-blocked-reason": i(p),
-					"reference-count": i(s).length,
-					onSearch: t[0] ||= (e) => _.value = e,
-					onFilter: t[1] ||= (e) => v.value = e,
-					onEdit: i(n).requestEdit,
-					onSave: t[2] ||= () => i(n).save(),
-					onCancel: i(n).requestCancelEdit,
-					onNewVersion: i(n).createNewLnodeTypeVersion,
-					onAddDo: ne,
-					onToggleReferences: t[3] ||= (e) => u.value = !i(u)
+		return (e, s) => (p(), a(b, null, [
+			m(Oi, null, {
+				header: O(() => [m(pi, {
+					title: w.value,
+					"namespace-info": T.value,
+					search: d(v),
+					filter: d(y),
+					"is-editing": d(c),
+					"is-new": S.value,
+					"has-change": d(_),
+					"has-selection": !!d(x),
+					"edit-blocked-reason": d(l),
+					"reference-count": d(i).length,
+					onSearch: s[0] ||= (e) => v.value = e,
+					onFilter: s[1] ||= (e) => y.value = e,
+					onEdit: d(t).requestEdit,
+					onSave: s[2] ||= () => d(t).save(),
+					onCancel: d(t).requestCancelEdit,
+					onNewVersion: d(t).createNewLnodeTypeVersion,
+					onAddDo: te,
+					onToggleReferences: s[3] ||= (e) => o.value = !d(o)
 				}, null, 8, [
 					"title",
 					"namespace-info",
@@ -34787,24 +40560,24 @@ var Po = /* @__PURE__ */ T(jo, [["render", No]]), Fo = { class: "tree-node" }, I
 					"onEdit",
 					"onCancel",
 					"onNewVersion"
-				]), i(m) ? (g(), f("p", as, D(i(m)), 1)) : l("", !0)]),
-				tree: x(() => [i(a) ? (g(), c(is, {
+				]), d(g) ? (p(), a("p", Ma, u(d(g)), 1)) : r("", !0)]),
+				tree: O(() => [d(n) ? (p(), f(ja, {
 					key: 0,
-					nodes: i(a).nodes,
-					search: i(_),
-					filter: i(v),
-					"only-enabled": ee.value,
-					"is-editing": i(d),
-					"ln-ns": i(a).namespace.lnNs || void 0,
-					warnings: i(a).warnings,
-					"cdc-metadata-by-name": T.value,
-					onToggle: i(n).toggle,
-					onToggleBranch: i(n).toggleBranch,
-					onToggleEnumVal: i(n).toggleEnumVal,
-					onInfo: k,
-					onEditEnum: ie,
-					onSetFc: i(n).setSettingFc,
-					onSetInstanceCount: i(n).setNodeInstanceCount
+					nodes: d(n).nodes,
+					search: d(v),
+					filter: d(y),
+					"only-enabled": E.value,
+					"is-editing": d(c),
+					"ln-ns": d(n).namespace.lnNs || void 0,
+					warnings: d(n).warnings,
+					"cdc-metadata-by-name": k.value,
+					onToggle: d(t).toggle,
+					onToggleBranch: d(t).toggleBranch,
+					onToggleEnumVal: d(t).toggleEnumVal,
+					onInfo: P,
+					onEditEnum: oe,
+					onSetFc: d(t).setSettingFc,
+					onSetInstanceCount: d(t).setNodeInstanceCount
 				}, null, 8, [
 					"nodes",
 					"search",
@@ -34819,34 +40592,34 @@ var Po = /* @__PURE__ */ T(jo, [["render", No]]), Fo = { class: "tree-node" }, I
 					"onToggleEnumVal",
 					"onSetFc",
 					"onSetInstanceCount"
-				])) : (g(), f("p", os, " Select an LNodeType from the list or create a new one. "))]),
-				references: x(() => [i(u) && i(y) ? (g(), c(oo, {
+				])) : (p(), a("p", Na, " Select an LNodeType from the list or create a new one. "))]),
+				references: O(() => [d(o) && d(x) ? (p(), f(Pi, {
 					key: 0,
-					references: i(s),
-					onCollapse: t[4] ||= (e) => u.value = !1
-				}, null, 8, ["references"])) : l("", !0)]),
+					references: d(i),
+					onCollapse: s[4] ||= (e) => o.value = !1
+				}, null, 8, ["references"])) : r("", !0)]),
 				_: 1
 			}),
-			o(Ka, {
+			m(bi, {
 				ref_key: "infoPopup",
-				ref: E,
-				info: O.value
-			}, null, 8, ["info"]),
-			o(_a, {
-				ref_key: "addDoDialog",
 				ref: A,
-				cdcs: w.value,
-				"validate-name": re,
-				onCreate: N
+				info: N.value
+			}, null, 8, ["info"]),
+			m(Gr, {
+				ref_key: "addDoDialog",
+				ref: ee,
+				cdcs: D.value,
+				"validate-name": ne,
+				onCreate: re
 			}, null, 8, ["cdcs"]),
-			o(Ea, {
+			m(ei, {
 				ref_key: "enumEditor",
-				ref: P,
-				onSave: ae
+				ref: ae,
+				onSave: se
 			}, null, 512)
 		], 64));
 	}
-}), [["__scopeId", "data-v-10f13347"]]), cs = { class: "modal-box" }, ls = { class: "modal-action" }, us = /* @__PURE__ */ s({
+}), [["__scopeId", "data-v-10f13347"]]), Fa = { class: "modal-box" }, Ia = { class: "modal-action" }, La = /* @__PURE__ */ P({
 	__name: "unsaved-changes-dialog",
 	props: { open: {
 		type: Boolean,
@@ -34858,56 +40631,56 @@ var Po = /* @__PURE__ */ T(jo, [["render", No]]), Fo = { class: "tree-node" }, I
 		"keep-editing"
 	],
 	setup(e, { emit: t }) {
-		let n = e, r = t, i = F();
-		return te(() => n.open, function(e) {
+		let n = e, r = t, i = M();
+		return C(() => n.open, function(e) {
 			if (e && !i.value?.open) {
 				i.value?.showModal();
 				return;
 			}
 			!e && i.value?.open && i.value?.close();
-		}), (e, t) => (g(), f("dialog", {
+		}), (e, t) => (p(), a("dialog", {
 			ref_key: "dialogElement",
 			ref: i,
 			class: "modal",
 			"data-testid": "dtt-unsaved-dialog",
 			onClose: t[3] ||= (e) => r("keep-editing")
-		}, [E("div", cs, [
-			t[4] ||= E("h3", { class: "font-bold text-lg" }, "Unsaved changes", -1),
-			t[5] ||= E("p", { class: "py-4" }, "Save changes before continuing?", -1),
-			E("div", ls, [
-				E("button", {
+		}, [l("div", Fa, [
+			t[4] ||= l("h3", { class: "font-bold text-lg" }, "Unsaved changes", -1),
+			t[5] ||= l("p", { class: "py-4" }, "Save changes before continuing?", -1),
+			l("div", Ia, [
+				l("button", {
 					class: "btn",
 					"data-testid": "dtt-unsaved-keep",
 					onClick: t[0] ||= (e) => r("keep-editing")
 				}, " Keep editing "),
-				E("button", {
+				l("button", {
 					class: "btn btn-outline",
 					"data-testid": "dtt-unsaved-discard",
 					onClick: t[1] ||= (e) => r("discard-and-continue")
 				}, " Discard changes "),
-				E("button", {
+				l("button", {
 					class: "btn btn-primary",
 					"data-testid": "dtt-unsaved-save",
 					onClick: t[2] ||= (e) => r("save-and-continue")
 				}, " Save and continue ")
 			])
-		]), t[6] ||= E("form", {
+		]), t[6] ||= l("form", {
 			method: "dialog",
 			class: "modal-backdrop"
-		}, [E("button", null, "close")], -1)], 544));
+		}, [l("button", null, "close")], -1)], 544));
 	}
-}), ds = { "data-testid": "dtt-root" }, fs = {
+}), Ra = { "data-testid": "dtt-root" }, za = {
 	key: 1,
 	"data-testid": "dtt-no-file"
-}, ps = /* @__PURE__ */ T(/* @__PURE__ */ s({
+}, Ba = /* @__PURE__ */ g(/* @__PURE__ */ P({
 	__name: "data-type-templates",
 	setup(e) {
-		let t = aa(), { unsavedChangesDialogOpen: n } = oe(t);
-		return (e, a) => (g(), f("main", ds, [i(Tr) ? (g(), f(r, { key: 0 }, [o(sa, { class: "pane" }), o(ss, { class: "pane" })], 64)) : (g(), f("p", fs, "No SCL file is open.")), o(us, {
-			open: i(n),
-			onKeepEditing: i(t).keepEditingAfterUnsavedPrompt,
-			onDiscardAndContinue: i(t).continueAfterDiscard,
-			onSaveAndContinue: i(t).continueAfterSave
+		let t = Nr(), { unsavedChangesDialogOpen: n } = j(t);
+		return (e, r) => (p(), a("main", Ra, [d(rn) ? (p(), a(b, { key: 0 }, [m(Fr, { class: "pane" }), m(Pa, { class: "pane" })], 64)) : (p(), a("p", za, "No SCL file is open.")), m(La, {
+			open: d(n),
+			onKeepEditing: d(t).keepEditingAfterUnsavedPrompt,
+			onDiscardAndContinue: d(t).continueAfterDiscard,
+			onSaveAndContinue: d(t).continueAfterSave
 		}, null, 8, [
 			"open",
 			"onKeepEditing",
@@ -34918,20 +40691,20 @@ var Po = /* @__PURE__ */ T(jo, [["render", No]]), Fo = { class: "tree-node" }, I
 }), [["__scopeId", "data-v-c82fcc52"]]);
 //#endregion
 //#region set-editor.ts
-function ms(e, t) {
-	k(document.getElementById(e), { detail: `could not find root element: ${e}` }), A({
-		project: t.project,
-		activeDocumentId: t.activeDocumentId,
-		commands: t.commands
+function Va(e, n) {
+	T(document.getElementById(e), { detail: `could not find root element: ${e}` }), x({
+		project: n.project,
+		activeDocumentId: n.activeDocumentId,
+		commands: n.commands
 	});
-	let n = (e) => {
-		Tr.value && e === wr.value.documentId || (e ? Er(t.project.openDocument(e)) : Dr());
+	let r = (e) => {
+		rn.value && e === G.value.documentId || (e ? an(n.project.openDocument(e)) : on());
 	};
-	n(t.activeDocumentId.value);
-	let r = t.activeDocumentId.subscribe(n), i = w(), a = ae(ps);
-	return a.use(i), a.mount(`#${e}`), () => {
-		r(), a.unmount(), ie(i), re(), Dr();
+	r(n.activeDocumentId.value);
+	let i = n.activeDocumentId.subscribe(r), a = k(), o = t(Ba);
+	return o.use(a), o.mount(`#${e}`), () => {
+		i(), o.unmount(), _(a), w(), on();
 	};
 }
 //#endregion
-export { ms as default };
+export { Va as default };
