@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-ied-browser",
-	"version": "37",
+	"version": "38",
 	"displayName": "IED Browser",
 	"description": "SeptKit extension - browse and inspect IEDs in an SCL file",
 	"private": true,
@@ -44,7 +44,7 @@
 		"unlink:fileio": "rm -rf ./node_modules/@septkit/fileio && pnpm install",
 		"unlink:all": "rm -rf ./node_modules/@septkit && pnpm install",
 		"//====== CI ======//": "",
-		"ci-tests": "npm run format:check && npm run lint && npm run build && npm run test"
+		"ci-tests": "npm run format:check && npm run lint && npm run type-check && npm run build && npm run test"
 	},
 	"dependencies": {
 		"@dialecte/core": "catalog:",

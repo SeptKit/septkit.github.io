@@ -7,6 +7,14 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [Unreleased]
 
+## [38] - 2026-10-01
+
+### Fixed
+
+- Close the sidebar when switching IEDs so it no longer shows details or forms from the previous IED.
+
+## [37] - 2026-09-30
+
 ### Fixed
 
 - IED diagram nodes now show meaningful titles for `LN0` and `Association` instead of tag placeholders.
