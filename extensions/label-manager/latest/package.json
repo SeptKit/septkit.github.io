@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-label-manager",
-	"version": "30",
+	"version": "31",
 	"displayName": "Label Manager",
 	"description": "Extension for managing labels",
 	"private": true,
@@ -45,7 +45,7 @@
 		"@tailwindcss/vite": "4.2.2",
 		"@tanstack/vue-table": "^8.21.3",
 		"@vueuse/core": "^14.2.1",
-		"dexie": "4.2.0",
+		"dexie": "catalog:",
 		"pinia": "^3.0.4",
 		"shiki": "^3.0.0",
 		"tailwindcss": "4.2.2",
