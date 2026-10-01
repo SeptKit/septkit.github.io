@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-openscd-plugin-loader",
-	"version": "24",
+	"version": "25",
 	"displayName": "OpenSCD Plugins",
 	"type": "module",
 	"description": "This is an example extension written in Vue.JS for SeptKit Platform",
@@ -43,7 +43,7 @@
 		"link:fileio": "rm -rf ./node_modules/@septkit/fileio && ln -s ../../../../fileio ./node_modules/@septkit/fileio",
 		"unlink:fileio": "rm -rf ./node_modules/@septkit/fileio && pnpm install",
 		"//====== CI ======//": "",
-		"ci-tests": "npm run format:check && npm run lint && npm run build && npm run test"
+		"ci-tests": "npm run format:check && npm run lint && npm run type-check && npm run build && npm run test"
 	},
 	"dependencies": {
 		"@dialecte/core": "catalog:",
@@ -55,7 +55,7 @@
 		"@tailwindcss/vite": "4.2.2",
 		"@vitejs/plugin-vue": "^6.0.5",
 		"@webcomponents/scoped-custom-element-registry": "^0.0.10",
-		"dexie": "4.2.0",
+		"dexie": "catalog:",
 		"oxlint": "~1.6.0",
 		"prettier": "3.5.3",
 		"tailwindcss": "4.2.2",
