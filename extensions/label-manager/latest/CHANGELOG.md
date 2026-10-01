@@ -5,6 +5,12 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to a simple versioning system, increasing the number by one for each modification.
 
+## [30] - 2026-09-29
+
+### Changed
+
+- Column filtering now uses SET's shared table component; existing filter behaviour is unchanged.
+
 ## [29] - 2026-09-22
 
 ### Added

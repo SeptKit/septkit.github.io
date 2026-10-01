@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-label-manager",
-	"version": "29",
+	"version": "30",
 	"displayName": "Label Manager",
 	"description": "Extension for managing labels",
 	"private": true,
@@ -41,7 +41,7 @@
 		"@lucide/vue": "^1.16.0",
 		"@septkit/fileio": "catalog:",
 		"@septkit/shell-lib": "catalog:",
-		"@septkit/ui": "0.0.52",
+		"@septkit/ui": "catalog:",
 		"@tailwindcss/vite": "4.2.2",
 		"@tanstack/vue-table": "^8.21.3",
 		"@vueuse/core": "^14.2.1",
