@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-notes-sidebar",
-	"version": "6",
+	"version": "7",
 	"displayName": "Notes Sidebar",
 	"description": "A sidebar extension for managing notes",
 	"private": true,
@@ -38,7 +38,7 @@
 		"unlink:ui": "rm -rf ./node_modules/@septkit/ui && pnpm install",
 		"unlink:all": "rm -rf ./node_modules/@septkit && pnpm install",
 		"//====== CI ======//": "",
-		"ci-tests": "npm run format:check && npm run lint && npm run build && npm run test"
+		"ci-tests": "npm run format:check && npm run lint && npm run type-check && npm run build && npm run test"
 	},
 	"dependencies": {
 		"@dialecte/core": "catalog:",
