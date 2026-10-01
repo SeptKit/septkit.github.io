@@ -1,7 +1,7 @@
 {
 	"name": "@septkit/shell",
 	"displayName": "Shell",
-	"version": "61",
+	"version": "62",
 	"private": true,
 	"type": "module",
 	"scripts": {
@@ -32,7 +32,7 @@
 		"unlink:fileio": "rm -rf ./node_modules/@septkit/fileio && pnpm install",
 		"unlink:all": "rm -rf ./node_modules/@septkit && pnpm install",
 		"//====== CI ======//": "",
-		"ci-tests": "npm run format:check && npm run lint && npm run check:agent-tags && npm run build && npm run test"
+		"ci-tests": "npm run format:check && npm run lint && npm run check:agent-tags && npm run type-check && npm run build && npm run test"
 	},
 	"dependencies": {
 		"@dialecte/core": "catalog:",
@@ -43,7 +43,7 @@
 		"@tailwindcss/vite": "4.2.2",
 		"@vueuse/core": "^14.2.1",
 		"concurrently": "^9.2.1",
-		"dexie": "4.2.0",
+		"dexie": "catalog:",
 		"dompurify": "^3.3.3",
 		"marked": "^17.0.6",
 		"pinia": "^3.0.4",
