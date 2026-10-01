@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-dataflow",
-	"version": "71",
+	"version": "72",
 	"displayName": "Dataflow",
 	"description": "extension for SET Platform that provides dataflow capabilities between Logic-Nodes",
 	"private": true,
@@ -68,7 +68,7 @@
 		"@types/jsdom": "^21.1.7",
 		"@types/node": "^22.19.17",
 		"@vitejs/plugin-vue": "^6.0.5",
-		"@vitest/browser-playwright": "^4.1.4",
+		"@vitest/browser-playwright": "^4.1.11",
 		"@vue/test-utils": "^2.4.6",
 		"@vue/tsconfig": "^0.9.1",
 		"concurrently": "^9.2.1",
@@ -80,7 +80,7 @@
 		"typescript": "~5.8.3",
 		"vite": "^8.0.8",
 		"vite-plugin-vue-devtools": "^8.1.1",
-		"vitest": "^4.1.4",
+		"vitest": "^4.1.11",
 		"vue-tsc": "^3.2.6"
 	}
 }
