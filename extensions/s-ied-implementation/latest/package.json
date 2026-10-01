@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-specification-ied-implementation",
-	"version": "38",
+	"version": "39",
 	"displayName": "S-IED Implementation",
 	"description": "SeptKit extension - S-IED implementation",
 	"private": true,
@@ -45,7 +45,7 @@
 		"unlink:fileio": "rm -rf ./node_modules/@septkit/fileio && pnpm install",
 		"unlink:all": "rm -rf ./node_modules/@septkit && pnpm install",
 		"//====== CI ======//": "",
-		"ci-tests": "npm run format:check && npm run lint && npm run build && npm run test"
+		"ci-tests": "npm run format:check && npm run lint && npm run type-check && npm run build && npm run test"
 	},
 	"dependencies": {
 		"@dialecte/core": "catalog:",
@@ -54,7 +54,7 @@
 		"@septkit/shell-lib": "catalog:",
 		"@vueuse/core": "^14.2.1",
 		"@vueuse/rxjs": "^13.9.0",
-		"dexie": "4.2.0",
+		"dexie": "catalog:",
 		"@lucide/vue": "^1.27.0",
 		"pinia": "^3.0.4",
 		"reka-ui": "^2.9.5",
