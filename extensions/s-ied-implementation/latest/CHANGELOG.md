@@ -7,6 +7,17 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [40] - 2026-10-02
+
+### Changed
+
+- `DOS`/`SDS`/`DAS` bindings write the mapped name and `mappedLnUuid` together, only when the implementing data differs from the default
+- Automatic `SDS`/`DAS` matches follow a manually remapped `DOS`/`SDS` to its new data object
+
+### Fixed
+
+- Value import into data objects sharing a type now lands on the mapped data object only
+
 ## [38] - 2026-09-21
 
 ### Fixed
