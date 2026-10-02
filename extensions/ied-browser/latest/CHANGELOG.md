@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [Unreleased]
 
+## [39] - 2026-10-01
+
+### Fixed
+
+- Refresh the active IED diagram after document commits so newly synced entries appear without reloading.
+
 ## [38] - 2026-10-01
 
 ### Fixed
