@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [41] - 2026-10-02
+
+### Fixed
+
+- Value import into data objects sharing a type now lands on the mapped data object only
+
 ## [40] - 2026-10-02
 
 ### Changed
@@ -14,9 +20,17 @@ and this project adheres to a simple versioning system, increasing the number by
 - `DOS`/`SDS`/`DAS` bindings write the mapped name and `mappedLnUuid` together, only when the implementing data differs from the default
 - Automatic `SDS`/`DAS` matches follow a manually remapped `DOS`/`SDS` to its new data object
 
-### Fixed
+## [39] - 2026-10-01
 
-- Value import into data objects sharing a type now lands on the mapped data object only
+### Added
+
+- Selected LNode shows its allocated IED name in the specification header, or `None` when unallocated
+- Explorer shows an `IED` badge on LNodes implemented by a real IED
+
+### Changed
+
+- LNode names in the Explorer are no longer cut off by status badges
+- All LNode status badges use a consistent neutral grey style
 
 ## [38] - 2026-09-21
 
