@@ -7,6 +7,19 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [19] - 2026-10-05
+
+### Changed
+
+- Enumerated and double-point status variables are now typed and exported as `BYTE`, so they can be wired to and from any numeric type (for example `ADD`, `INT`, `REAL`), not only to other `BYTE` variables; their values are limited to 0 to 255; a logic saved with the former type names (`DP_STATUS_KIND`, `Enum_...`) opens with `BYTE` and is rewritten on the next save
+- Control command variables (for example `ctlVal` of a `BSC` data object) are now typed and exported as `BYTE` as well, instead of `CTL_VAL_KIND`; a logic saved with `CTL_VAL_KIND` opens with `BYTE` and is rewritten on the next save
+- While the simulation is paused, the input values are shown and can be set in the diagram and in the variables table without stopping it, so several inputs can be changed before the simulation continues; a click on a `BOOL` input block toggles it, the same as while running, instead of selecting or moving it
+- A simulation input value that does not fit the type of its variable, for example `300` for a `BYTE` or `2.5` for an `INT`, is no longer accepted; a message names the allowed range and the previous value is kept
+
+### Fixed
+
+- A value typed into an input variable in the diagram or in the variables table while the simulation runs is no longer reset before it is confirmed
+
 ## [17] - 2026-09-28
 
 ### Changed
