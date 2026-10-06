@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to a simple versioning system, increasing the number by one for each modification.
 
+## [32] - 2026-10-05
+
+### Added
+
+- Clean up label languages via a "Clean up languages" button: pick one label column or all label columns and the language to remove (NL or FR); those labels are removed in all rows, while English labels (and, for a single column, the other columns) stay untouched
+- When the language cleanup removes the last label of a label instance, its label metadata (e.g. the IEC 104 address) is removed as well, unless it contains locked entries; the dialog warns how many label instances are affected
+
+### Changed
+
+- Deleting a single label now follows the same rule: the label metadata of an instance is removed with its last label, while other metadata on the same data attribute is kept
+
 ## [30] - 2026-09-29
 
 ### Changed
