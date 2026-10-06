@@ -7,6 +7,13 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [88] - 2026-10-06
+
+### Added
+
+- Notes can be tagged with the categories Feedback, Instantiation and Interlock, shown as colored labels and editable when creating or editing a note
+- Tags from other tools are kept when a note is edited, resolved or removed
+
 ## [87] - 2026-10-06
 
 ### Changed
