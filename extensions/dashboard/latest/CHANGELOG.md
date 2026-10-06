@@ -7,6 +7,18 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [2] - 2026-10-05
+
 ### Added
 
+- Show live Concept checks, SCL item counts, and expandable findings that refresh with the selected document.
 - Add the editor-only Dashboard shell with an explicit unavailable-check state.
+
+### Changed
+
+- Group phase content on cards with progress dials, colored severity chips, check progress bars, and Object/Finding tables.
+- Always show completed and not-applicable checks.
+
+### Fixed
+
+- Allow scrolling through every check and expanded finding.

@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-dashboard",
-	"version": "1",
+	"version": "2",
 	"displayName": "Dashboard",
 	"description": "Read-only overview of project phases, checks, and SCL items",
 	"private": true,
@@ -51,6 +51,7 @@
 		"@septkit/shell-lib": "catalog:",
 		"@septkit/ui": "catalog:",
 		"@tailwindcss/vite": "4.2.2",
+		"@tanstack/vue-table": "^8.21.3",
 		"@vueuse/core": "^14.2.1",
 		"pinia": "^3.0.4",
 		"reka-ui": "^2.9.7",
