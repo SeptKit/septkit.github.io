@@ -7,6 +7,13 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [87] - 2026-10-06
+
+### Changed
+
+- Function and SubFunction cards now show the LNode name when exactly one LNode is associated, including LNodes nested under SubFunctions; multiple associated LNodes show a count.
+- Card screen-reader labels, including cards inside a group, count only direct child elements.
+
 ## [85] - 2026-09-29
 
 ### Fixed
