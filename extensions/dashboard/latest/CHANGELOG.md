@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [3] - 2026-10-06
+
+### Added
+
+- Show live IED allocation and process-connection checks with Specification item counts and findings.
+
 ## [2] - 2026-10-05
 
 ### Added

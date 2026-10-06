@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-dashboard",
-	"version": "2",
+	"version": "3",
 	"displayName": "Dashboard",
 	"description": "Read-only overview of project phases, checks, and SCL items",
 	"private": true,
