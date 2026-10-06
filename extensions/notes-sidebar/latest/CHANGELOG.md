@@ -7,6 +7,16 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [8] - 2026-10-06
+
+### Added
+
+- Notes show their categories (Feedback, Instantiation, Interlock) as colored labels below the status
+
+### Fixed
+
+- The "Open" status label is easier to read thanks to darker text
+
 ## [6] - 2026-09-22
 
 ### Changed
