@@ -5,6 +5,17 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to a simple versioning system, increasing the number by one for each modification.
 
+## [33] - 2026-10-06
+
+### Added
+
+- When editing the IEC 104 address of a Remote signal, the type (ti) is now proposed automatically from the data type: an empty type cell shows the derived value and it is filled in for you when you create the address by entering a casdu/ioa. You can still override it, and cells without a known mapping stay empty for manual entry
+- The IEC 104 address table now warns when a casdu/ioa is already used by another signal carrying a different Remote label, so clashing telecontrol addresses are easy to spot. The warning is non-blocking, and reusing the same casdu/ioa for the same signal is not flagged
+
+### Fixed
+
+- Clicking a label pill while a column (e.g. Remote) is expanded now opens the label sidebar, and switches it to the clicked label when it is already open; previously the pill was unresponsive in the expanded detail view
+
 ## [32] - 2026-10-05
 
 ### Added
