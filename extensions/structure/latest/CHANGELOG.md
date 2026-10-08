@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [89] - 2026-10-07
+
+### Changed
+
+- Instantiating a function, application or substation template picks the file from the template library; opening a file from disk is offered when the library has no matching file
+
 ## [88] - 2026-10-06
 
 ### Added
