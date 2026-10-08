@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [27] - 2026-10-08
+
+### Fixed
+
+- An unavailable template folder no longer prevents browsing other sources
+
 ## [25] - 2026-09-23
 
 ### Added
@@ -63,7 +69,6 @@ and this project adheres to a simple versioning system, increasing the number by
 
 - `LNodeType` header display base- and extension namespace
 
-
 ## [17] - 2026-08-18
 
 ### Added
@@ -109,11 +114,13 @@ and this project adheres to a simple versioning system, increasing the number by
 ### Fixed
 
 - Data Type Templates checkbox selections now keep mandatory descendants and enum values in sync.
+
 ## [10] - 2026-06-26
 
 ### Added
 
 - NSD shows the dependency state after the import
+
 ### Fixed
 
 - Switching between extensions no longer leaves a broken or stale view
