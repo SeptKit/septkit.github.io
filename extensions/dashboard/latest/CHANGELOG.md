@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [5] - 2026-10-09
+
+### Added
+
+- Show "Complete for n/m rules" next to the percentage of every 100% phase in the All Rules view.
+
 ## [4] - 2026-10-09
 
 ### Added
