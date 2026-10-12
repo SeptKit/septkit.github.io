@@ -138687,7 +138687,7 @@ function jse(e) {
 	};
 }
 function Mse(e) {
-	let t = e.flatMap((e) => e.summary.percentage === void 0 ? [] : [e.summary.percentage]), n = `${t.length}/${e.length} phases included`;
+	let t = e.flatMap((e) => e.summary.percentage === void 0 || e.summary.percentage === 0 ? [] : [e.summary.percentage]), n = `${t.length}/${e.length} phases included`;
 	return t.length ? {
 		label: n,
 		percentage: Math.floor(t.reduce((e, t) => e + t, 0) / t.length)

@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [5] - 2026-10-12
+
+### Changed
+
+- Exclude phases with 0% progress from the overall progress calculation
+
 ## [5] - 2026-10-09
 
 ### Added
