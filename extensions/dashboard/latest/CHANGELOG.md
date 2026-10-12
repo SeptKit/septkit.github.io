@@ -7,7 +7,13 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
-## [5] - 2026-10-12
+## [7] - 2026-10-12
+
+### Changed
+
+- Exclude LNodes under "Internal Comtrade Only" SubFunctions from the CON-02 check.
+
+## [6] - 2026-10-12
 
 ### Changed
 

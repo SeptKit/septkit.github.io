@@ -137343,14 +137343,18 @@ async function Zoe(e, t) {
 //#region src/dialecte-extension/dashboard/query/lnodes.ts
 async function Qoe(e) {
 	let t = (await e.getRecordsByTagName("LNode")).filter(gf);
-	return Promise.all(t.map(async (t) => ({
-		ref: {
-			tagName: "LNode",
-			id: t.id
-		},
-		label: (await e.reference.buildElementPath(t))?.path ?? `LNode ${t.id}`,
-		iedName: uf(t, "iedName")
-	})));
+	return Promise.all(t.map(async (t) => {
+		let n = (await e.findAncestors(t)).some((e) => e.tagName === "SubFunction" && uf(e, "name") === "Internal Comtrade Only");
+		return {
+			ref: {
+				tagName: "LNode",
+				id: t.id
+			},
+			label: (await e.reference.buildElementPath(t))?.path ?? `LNode ${t.id}`,
+			iedName: uf(t, "iedName"),
+			...n ? { connectionCoverageExcluded: n } : {}
+		};
+	}));
 }
 //#endregion
 //#region src/dialecte-extension/dashboard/query/labels.ts
@@ -137706,8 +137710,8 @@ var { document: cse, isHydrated: _p, hydrate: lse, clear: vp } = Kne({ extension
 		title: "Dataflow or placeholder exists",
 		severity: "warning",
 		owner: "Concept engineer",
-		description: "Require a flow, placeholder, or behavior connection for each LNode.",
-		applicability: "Each specified LNode.",
+		description: "Require a flow, placeholder, or behavior connection for each applicable LNode.",
+		applicability: "Each specified LNode except those under the SubFunction named Internal Comtrade Only.",
 		requiredAction: "Add the missing dataflow placeholders to the LNode, or remove the LNode if it is not needed."
 	},
 	"SPC-01": {
@@ -137955,31 +137959,31 @@ function use(e) {
 	return wp(e, e.roles, "CON-01", "No allocation role covers this LNode.");
 }
 function Cp(e) {
-	return wp(e, e.connections, "CON-02", "No dataflow, placeholder, or behavior connection found.");
+	return wp(e, e.connections, "CON-02", "No dataflow, placeholder, or behavior connection found.", (e) => !e.connectionCoverageExcluded);
 }
-function wp(e, t, n, r) {
-	let i = {
+function wp(e, t, n, r, i = () => !0) {
+	let a = {
 		documentId: e.documentId,
 		ruleId: n
 	};
 	if (e.lnodes.status === "error") return {
-		...i,
+		...a,
 		status: "error",
 		message: e.lnodes.message
 	};
 	if (t.status === "error") return {
-		...i,
+		...a,
 		status: "error",
 		message: t.message
 	};
-	let a = e.lnodes.value;
-	if (!a.length) return {
-		...i,
+	let o = e.lnodes.value, s = o.filter(i);
+	if (!s.length) return {
+		...a,
 		status: "not-applicable",
-		reason: "No specified LNodes in this document."
+		reason: o.length ? "No applicable LNodes in this document." : "No specified LNodes in this document."
 	};
-	let o = a.filter((e) => !t.value.has(e.ref.id)).map((e) => Sp({
-		...i,
+	let c = s.filter((e) => !t.value.has(e.ref.id)).map((e) => Sp({
+		...a,
 		records: [e.ref],
 		relationship: n === "CON-01" ? "allocation-role-coverage" : "connection-coverage",
 		status: "failed",
@@ -137987,14 +137991,14 @@ function wp(e, t, n, r) {
 		label: e.label
 	}));
 	return {
-		...i,
-		status: o.length ? "failed" : "passed",
+		...a,
+		status: c.length ? "failed" : "passed",
 		counts: {
-			passed: a.length - o.length,
-			failed: o.length,
+			passed: s.length - c.length,
+			failed: c.length,
 			blocked: 0
 		},
-		findings: o
+		findings: c
 	};
 }
 //#endregion
