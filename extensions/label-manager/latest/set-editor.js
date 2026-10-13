@@ -102071,19 +102071,51 @@ var Cle = ["rowspan"], _g = {
 			min: 0,
 			max: 1,
 			items: [
-				"TA Alarm",
-				"Internal signal",
-				"TS signalisation single",
-				"TS signalisation double",
-				"Process signal",
-				"EMS container",
-				"SP setpoint",
-				"TC double command",
-				"TC single command",
-				"TM Measure",
-				"TS REV signalisation double",
-				"TS signalisation integer"
+				"MM",
+				"SP",
+				"TA",
+				"TCD",
+				"TCS",
+				"TSD",
+				"TSS",
+				"Internal",
+				"Process"
 			]
+		},
+		{
+			name: "ObjEventComStart",
+			kind: "boolean",
+			hidden: !0
+		},
+		{
+			name: "ObjEventComCapture",
+			kind: "boolean",
+			hidden: !0
+		},
+		{
+			name: "ObjEventLED",
+			kind: "boolean",
+			hidden: !0
+		},
+		{
+			name: "ObjEventHmi",
+			kind: "boolean",
+			hidden: !0
+		},
+		{
+			name: "ObjEventACC",
+			kind: "boolean",
+			hidden: !0
+		},
+		{
+			name: "ObjEventDfrStart",
+			kind: "boolean",
+			hidden: !0
+		},
+		{
+			name: "ObjEventDfrCapture",
+			kind: "boolean",
+			hidden: !0
 		},
 		{
 			name: "ToObjEvent_Voltage",
@@ -102091,14 +102123,14 @@ var Cle = ["rowspan"], _g = {
 			min: 0,
 			default: "All",
 			items: [
-				"All",
 				"1-29.9",
 				"1-36",
+				"150-380",
 				"30-36",
 				"36-110",
 				"36-380",
-				"150-380",
 				"380",
+				"All",
 				"MV"
 			]
 		},
@@ -102120,42 +102152,59 @@ var Cle = ["rowspan"], _g = {
 			min: 0,
 			max: 1,
 			items: [
-				"TA Alarm",
-				"Internal signal",
-				"TS signalisation single",
-				"TS signalisation double",
-				"Process signal",
-				"EMS container",
-				"SP setpoint",
-				"TC double command",
-				"TC single command",
-				"TM Measure",
-				"TS REV signalisation double",
-				"TS signalisation integer"
-			]
+				"MM",
+				"SP",
+				"TA",
+				"TCD",
+				"TCS",
+				"TSD",
+				"TSS",
+				"Internal",
+				"Process"
+			],
+			hidden: !0
 		},
 		{
 			name: "AcqIEDSource",
 			kind: "list",
 			min: 0,
 			max: 1,
-			items: ["External", "Internal"],
+			default: "Internal",
+			items: ["External", "Internal"]
+		},
+		{
+			name: "AcqLED",
+			kind: "boolean",
 			hidden: !0
 		},
 		{
 			name: "AcqComtradeStart",
 			kind: "boolean",
-			default: "false",
-			hidden: !0
+			default: "false"
 		},
 		{
 			name: "AcqComtradeCapture",
+			kind: "boolean",
+			default: "false"
+		},
+		{
+			name: "AcqHmi",
+			kind: "boolean",
+			hidden: !0
+		},
+		{
+			name: "AcqAcc",
+			kind: "boolean",
+			default: "false"
+		},
+		{
+			name: "AcqDfrStart",
 			kind: "boolean",
 			default: "false",
 			hidden: !0
 		},
 		{
-			name: "AcqAcc",
+			name: "AcqDfrCapture",
 			kind: "boolean",
 			default: "false",
 			hidden: !0
@@ -102166,14 +102215,14 @@ var Cle = ["rowspan"], _g = {
 			min: 0,
 			default: "All",
 			items: [
-				"All",
 				"1-29.9",
 				"1-36",
+				"150-380",
 				"30-36",
 				"36-110",
 				"36-380",
-				"150-380",
 				"380",
+				"All",
 				"MV"
 			]
 		},
@@ -102196,90 +102245,93 @@ var Cle = ["rowspan"], _g = {
 			min: 0,
 			max: 1,
 			items: [
-				"TA Alarm",
-				"Internal signal",
-				"TS signalisation single",
-				"TS signalisation double",
-				"Process signal",
-				"EMS container",
-				"SP setpoint",
-				"TC double command",
-				"TC single command",
-				"TM Measure",
-				"TS REV signalisation double",
-				"TS signalisation integer"
-			]
+				"MM",
+				"SP",
+				"TA",
+				"TCD",
+				"TCS",
+				"TSD",
+				"TSS",
+				"Internal",
+				"Process"
+			],
+			hidden: !0
 		},
 		{
 			name: "LocalSource",
 			kind: "list",
 			min: 0,
 			max: 1,
+			default: "External",
 			items: ["External", "Internal"]
 		},
 		{
 			name: "LocalEventDesc",
-			kind: "text",
-			hidden: !0
+			kind: "text"
 		},
 		{
 			name: "LocalComtradeStart",
 			kind: "boolean",
-			hidden: !0
+			default: "false"
 		},
 		{
 			name: "LocalComtradeCapture",
+			kind: "boolean",
+			default: "false"
+		},
+		{
+			name: "LocalIEDHmi",
 			kind: "boolean",
 			hidden: !0
 		},
 		{
 			name: "LocalAcc",
 			kind: "boolean",
+			default: "false"
+		},
+		{
+			name: "LocalDfrCapture",
+			kind: "boolean",
+			hidden: !0
+		},
+		{
+			name: "LocalDfrStart",
+			kind: "boolean",
 			hidden: !0
 		},
 		{
 			name: "Local2way",
 			kind: "boolean",
-			hidden: !0
+			default: "false"
 		},
 		{
 			name: "AlarmTemporisation",
-			kind: "text",
-			items: [
-				"0",
-				"5",
-				"10",
-				"20",
-				"30",
-				"70",
-				"900"
-			],
-			numeric: !0
-		}
-	],
-	HMI: [
+			kind: "text"
+		},
 		{
 			name: "DcsBuzz",
 			kind: "boolean",
-			hidden: !0
+			default: "false"
 		},
 		{
 			name: "DcsLog",
 			kind: "boolean",
-			hidden: !0
+			default: "false"
 		},
 		{
 			name: "ToDcs_Voltage",
 			kind: "list",
+			min: 0,
+			default: "All",
 			items: [
-				"All",
 				"1-29.9",
 				"1-36",
+				"150-380",
 				"30-36",
 				"36-110",
 				"36-380",
-				"150-380",
 				"380",
+				"All",
 				"MV"
 			]
 		},
@@ -102292,56 +102344,63 @@ var Cle = ["rowspan"], _g = {
 			name: "ToDcs_Justification",
 			kind: "text",
 			hidden: !0
+		}
+	],
+	HMI: [
+		{
+			name: "DcsHMI",
+			kind: "boolean",
+			hidden: !0
 		},
 		{
 			name: "DcsHMI_SLDGlobal",
 			kind: "boolean",
-			hidden: !0
+			default: "false"
 		},
 		{
 			name: "DcsHMI_SLDBay",
 			kind: "boolean",
-			hidden: !0
+			default: "false"
 		},
 		{
 			name: "DcsHMI_AlarmsGlobal",
 			kind: "boolean",
-			hidden: !0
+			default: "false"
 		},
 		{
 			name: "DcsHMI_AlarmsBay",
 			kind: "boolean",
-			hidden: !0
+			default: "false"
 		},
 		{
 			name: "DcsHMI_AlarmsMatrix",
 			kind: "boolean",
-			hidden: !0
+			default: "false"
 		},
 		{
 			name: "DcsHMI_AlarmsGasOverview",
 			kind: "boolean",
-			hidden: !0
+			default: "false"
 		},
 		{
 			name: "DcsHMI_AlarmsSIPSOverview",
 			kind: "boolean",
-			hidden: !0
+			default: "false"
 		},
 		{
 			name: "DcsHMI_AlarmsIEC61850COM",
 			kind: "boolean",
-			hidden: !0
+			default: "false"
 		},
 		{
 			name: "DcsHMI_AlarmsDCSSystem",
 			kind: "boolean",
-			hidden: !0
+			default: "false"
 		},
 		{
 			name: "DcsHMI_AlarmsGSVHMI",
 			kind: "boolean",
-			hidden: !0
+			default: "false"
 		}
 	],
 	Remote: [
@@ -102351,44 +102410,53 @@ var Cle = ["rowspan"], _g = {
 			min: 0,
 			max: 1,
 			items: [
-				"TA Alarm",
-				"Internal signal",
-				"TS signalisation single",
-				"TS signalisation double",
-				"Process signal",
-				"EMS container",
-				"SP setpoint",
-				"TC double command",
-				"TC single command",
-				"TM Measure",
-				"TS REV signalisation double",
-				"TS signalisation integer"
-			]
+				"MM",
+				"SP",
+				"TA",
+				"TCD",
+				"TCS",
+				"TSD",
+				"TSS",
+				"Internal",
+				"Process"
+			],
+			hidden: !0
 		},
 		{
 			name: "RemoteType",
 			kind: "list",
 			min: 0,
+			default: "EMS",
 			items: ["EMS", "Customer"]
 		},
 		{
 			name: "CustomerName",
-			kind: "text",
+			kind: "text"
+		},
+		{
+			name: "RemoteHist",
+			kind: "boolean",
+			hidden: !0
+		},
+		{
+			name: "RemoteAcc",
+			kind: "boolean",
 			hidden: !0
 		},
 		{
 			name: "ToRemote_VoltageRange",
 			kind: "list",
 			min: 0,
+			default: "All",
 			items: [
-				"All",
 				"1-29.9",
 				"1-36",
+				"150-380",
 				"30-36",
 				"36-110",
 				"36-380",
-				"150-380",
 				"380",
+				"All",
 				"MV"
 			]
 		},
@@ -102396,33 +102464,28 @@ var Cle = ["rowspan"], _g = {
 			name: "ToRemote_GroupingLevel",
 			kind: "list",
 			min: 0,
+			default: "PUT",
 			items: [
-				"PUT",
-				"PU",
 				"P",
-				"PUT RA",
-				"PUT RB",
-				"PUT RC"
+				"PU",
+				"PUT",
+				"PU + PUT",
+				"PUB",
+				"PUT R"
 			]
 		},
 		{
 			name: "User Custom U",
-			kind: "list",
-			min: 0,
-			max: 1,
-			hidden: !0
+			kind: "text"
 		},
 		{
 			name: "User Custom T",
-			kind: "list",
-			min: 0,
-			max: 1,
-			hidden: !0
+			kind: "text"
 		},
 		{
 			name: "ToRemote_TechRemark",
 			kind: "text",
-			items: ["PUB"]
+			hidden: !0
 		},
 		{
 			name: "ToRemote_Justification",
@@ -103062,7 +103125,7 @@ var l_ = {
 function O_(e, t) {
 	return Ka(), Ya("svg", D_, [...t[0] ||= [eo("path", { d: "M 16 14 C 15.488 14 14.976938 14.194937 14.585938 14.585938 C 13.804937 15.366937 13.804937 16.633063 14.585938 17.414062 L 29.171875 32 L 14.585938 46.585938 C 13.804938 47.366938 13.804937 48.633063 14.585938 49.414062 C 14.976937 49.805062 15.488 50 16 50 C 16.512 50 17.023062 49.805062 17.414062 49.414062 L 32 34.828125 L 46.585938 49.414062 C 47.366938 50.195063 48.633063 50.195062 49.414062 49.414062 C 50.195063 48.633062 50.195062 47.366937 49.414062 46.585938 L 34.828125 32 L 49.414062 17.414062 C 50.195063 16.633063 50.195062 15.366938 49.414062 14.585938 C 48.633062 13.804938 47.366937 13.804938 46.585938 14.585938 L 32 29.171875 L 17.414062 14.585938 C 17.023062 14.194938 16.512 14 16 14 z" }, null, -1)]]);
 }
-var k_ = /* @__PURE__ */ pc(E_, [["render", O_]]), A_ = "{\n	\"Object\": [\n		{\n			\"name\": \"ObjEventSignalType\",\n			\"kind\": \"list\",\n			\"min\": 0,\n			\"max\": 1,\n			\"items\": [\n				\"TA Alarm\",\n				\"Internal signal\",\n				\"TS signalisation single\",\n				\"TS signalisation double\",\n				\"Process signal\",\n				\"EMS container\",\n				\"SP setpoint\",\n				\"TC double command\",\n				\"TC single command\",\n				\"TM Measure\",\n				\"TS REV signalisation double\",\n				\"TS signalisation integer\"\n			]\n		},\n		{\n			\"name\": \"ToObjEvent_Voltage\",\n			\"kind\": \"list\",\n			\"min\": 0,\n			\"default\": \"All\",\n			\"items\": [\"All\", \"1-29.9\", \"1-36\", \"30-36\", \"36-110\", \"36-380\", \"150-380\", \"380\", \"MV\"]\n		},\n		{ \"name\": \"ToObjEvent_TechRemark\", \"kind\": \"text\", \"hidden\": true },\n		{ \"name\": \"ToObjEvent_Justification\", \"kind\": \"text\", \"hidden\": true }\n	],\n	\"Acquisition\": [\n		{\n			\"name\": \"AcqSignalType\",\n			\"kind\": \"list\",\n			\"min\": 0,\n			\"max\": 1,\n			\"items\": [\n				\"TA Alarm\",\n				\"Internal signal\",\n				\"TS signalisation single\",\n				\"TS signalisation double\",\n				\"Process signal\",\n				\"EMS container\",\n				\"SP setpoint\",\n				\"TC double command\",\n				\"TC single command\",\n				\"TM Measure\",\n				\"TS REV signalisation double\",\n				\"TS signalisation integer\"\n			]\n		},\n		{\n			\"name\": \"AcqIEDSource\",\n			\"kind\": \"list\",\n			\"min\": 0,\n			\"max\": 1,\n			\"items\": [\"External\", \"Internal\"],\n			\"hidden\": true\n		},\n		{ \"name\": \"AcqComtradeStart\", \"kind\": \"boolean\", \"default\": \"false\", \"hidden\": true },\n		{ \"name\": \"AcqComtradeCapture\", \"kind\": \"boolean\", \"default\": \"false\", \"hidden\": true },\n		{ \"name\": \"AcqAcc\", \"kind\": \"boolean\", \"default\": \"false\", \"hidden\": true },\n		{\n			\"name\": \"ToAcq_Voltage\",\n			\"kind\": \"list\",\n			\"min\": 0,\n			\"default\": \"All\",\n			\"items\": [\"All\", \"1-29.9\", \"1-36\", \"30-36\", \"36-110\", \"36-380\", \"150-380\", \"380\", \"MV\"]\n		},\n		{ \"name\": \"ToAcq_TechRemark\", \"kind\": \"text\", \"hidden\": true },\n		{ \"name\": \"ToAcq_Justification\", \"kind\": \"text\", \"hidden\": true }\n	],\n	\"LED\": [],\n	\"Local\": [\n		{\n			\"name\": \"LocalSignalType\",\n			\"kind\": \"list\",\n			\"min\": 0,\n			\"max\": 1,\n			\"items\": [\n				\"TA Alarm\",\n				\"Internal signal\",\n				\"TS signalisation single\",\n				\"TS signalisation double\",\n				\"Process signal\",\n				\"EMS container\",\n				\"SP setpoint\",\n				\"TC double command\",\n				\"TC single command\",\n				\"TM Measure\",\n				\"TS REV signalisation double\",\n				\"TS signalisation integer\"\n			]\n		},\n		{\n			\"name\": \"LocalSource\",\n			\"kind\": \"list\",\n			\"min\": 0,\n			\"max\": 1,\n			\"items\": [\"External\", \"Internal\"]\n		},\n		{ \"name\": \"LocalEventDesc\", \"kind\": \"text\", \"hidden\": true },\n		{ \"name\": \"LocalComtradeStart\", \"kind\": \"boolean\", \"hidden\": true },\n		{ \"name\": \"LocalComtradeCapture\", \"kind\": \"boolean\", \"hidden\": true },\n		{ \"name\": \"LocalAcc\", \"kind\": \"boolean\", \"hidden\": true },\n		{ \"name\": \"Local2way\", \"kind\": \"boolean\", \"hidden\": true },\n		{\n			\"name\": \"AlarmTemporisation\",\n			\"kind\": \"text\",\n			\"items\": [\"0\", \"5\", \"10\", \"20\", \"30\", \"70\", \"900\"],\n			\"numeric\": true\n		}\n	],\n	\"HMI\": [\n		{ \"name\": \"DcsBuzz\", \"kind\": \"boolean\", \"hidden\": true },\n		{ \"name\": \"DcsLog\", \"kind\": \"boolean\", \"hidden\": true },\n		{\n			\"name\": \"ToDcs_Voltage\",\n			\"kind\": \"list\",\n			\"items\": [\"All\", \"1-29.9\", \"1-36\", \"30-36\", \"36-110\", \"36-380\", \"150-380\", \"380\", \"MV\"]\n		},\n		{ \"name\": \"ToDcs_TechRemark\", \"kind\": \"text\", \"hidden\": true },\n		{ \"name\": \"ToDcs_Justification\", \"kind\": \"text\", \"hidden\": true },\n		{ \"name\": \"DcsHMI_SLDGlobal\", \"kind\": \"boolean\", \"hidden\": true },\n		{ \"name\": \"DcsHMI_SLDBay\", \"kind\": \"boolean\", \"hidden\": true },\n		{ \"name\": \"DcsHMI_AlarmsGlobal\", \"kind\": \"boolean\", \"hidden\": true },\n		{ \"name\": \"DcsHMI_AlarmsBay\", \"kind\": \"boolean\", \"hidden\": true },\n		{ \"name\": \"DcsHMI_AlarmsMatrix\", \"kind\": \"boolean\", \"hidden\": true },\n		{ \"name\": \"DcsHMI_AlarmsGasOverview\", \"kind\": \"boolean\", \"hidden\": true },\n		{ \"name\": \"DcsHMI_AlarmsSIPSOverview\", \"kind\": \"boolean\", \"hidden\": true },\n		{ \"name\": \"DcsHMI_AlarmsIEC61850COM\", \"kind\": \"boolean\", \"hidden\": true },\n		{ \"name\": \"DcsHMI_AlarmsDCSSystem\", \"kind\": \"boolean\", \"hidden\": true },\n		{ \"name\": \"DcsHMI_AlarmsGSVHMI\", \"kind\": \"boolean\", \"hidden\": true }\n	],\n	\"Remote\": [\n		{\n			\"name\": \"RemoteSignalType\",\n			\"kind\": \"list\",\n			\"min\": 0,\n			\"max\": 1,\n			\"items\": [\n				\"TA Alarm\",\n				\"Internal signal\",\n				\"TS signalisation single\",\n				\"TS signalisation double\",\n				\"Process signal\",\n				\"EMS container\",\n				\"SP setpoint\",\n				\"TC double command\",\n				\"TC single command\",\n				\"TM Measure\",\n				\"TS REV signalisation double\",\n				\"TS signalisation integer\"\n			]\n		},\n		{\n			\"name\": \"RemoteType\",\n			\"kind\": \"list\",\n			\"min\": 0,\n			\"items\": [\"EMS\", \"Customer\"]\n		},\n		{ \"name\": \"CustomerName\", \"kind\": \"text\", \"hidden\": true },\n		{\n			\"name\": \"ToRemote_VoltageRange\",\n			\"kind\": \"list\",\n			\"min\": 0,\n			\"items\": [\"All\", \"1-29.9\", \"1-36\", \"30-36\", \"36-110\", \"36-380\", \"150-380\", \"380\", \"MV\"]\n		},\n		{\n			\"name\": \"ToRemote_GroupingLevel\",\n			\"kind\": \"list\",\n			\"min\": 0,\n			\"items\": [\"PUT\", \"PU\", \"P\", \"PUT RA\", \"PUT RB\", \"PUT RC\"]\n		},\n		{ \"name\": \"User Custom U\", \"kind\": \"list\", \"min\": 0, \"max\": 1, \"hidden\": true },\n		{ \"name\": \"User Custom T\", \"kind\": \"list\", \"min\": 0, \"max\": 1, \"hidden\": true },\n		{ \"name\": \"ToRemote_TechRemark\", \"kind\": \"text\", \"items\": [\"PUB\"] },\n		{ \"name\": \"ToRemote_Justification\", \"kind\": \"text\", \"hidden\": true },\n		{ \"name\": \"IEC104_Address\", \"kind\": \"address\" }\n	]\n}\n", j_ = class extends Error {
+var k_ = /* @__PURE__ */ pc(E_, [["render", O_]]), A_ = "{\n	\"Object\": [\n		{\n			\"name\": \"ObjEventSignalType\",\n			\"kind\": \"list\",\n			\"min\": 0,\n			\"max\": 1,\n			\"items\": [\"MM\", \"SP\", \"TA\", \"TCD\", \"TCS\", \"TSD\", \"TSS\", \"Internal\", \"Process\"]\n		},\n		{ \"name\": \"ObjEventComStart\", \"kind\": \"boolean\", \"hidden\": true },\n		{ \"name\": \"ObjEventComCapture\", \"kind\": \"boolean\", \"hidden\": true },\n		{ \"name\": \"ObjEventLED\", \"kind\": \"boolean\", \"hidden\": true },\n		{ \"name\": \"ObjEventHmi\", \"kind\": \"boolean\", \"hidden\": true },\n		{ \"name\": \"ObjEventACC\", \"kind\": \"boolean\", \"hidden\": true },\n		{ \"name\": \"ObjEventDfrStart\", \"kind\": \"boolean\", \"hidden\": true },\n		{ \"name\": \"ObjEventDfrCapture\", \"kind\": \"boolean\", \"hidden\": true },\n		{\n			\"name\": \"ToObjEvent_Voltage\",\n			\"kind\": \"list\",\n			\"min\": 0,\n			\"default\": \"All\",\n			\"items\": [\"1-29.9\", \"1-36\", \"150-380\", \"30-36\", \"36-110\", \"36-380\", \"380\", \"All\", \"MV\"]\n		},\n		{ \"name\": \"ToObjEvent_TechRemark\", \"kind\": \"text\", \"hidden\": true },\n		{ \"name\": \"ToObjEvent_Justification\", \"kind\": \"text\", \"hidden\": true }\n	],\n	\"Acquisition\": [\n		{\n			\"name\": \"AcqSignalType\",\n			\"kind\": \"list\",\n			\"min\": 0,\n			\"max\": 1,\n			\"items\": [\"MM\", \"SP\", \"TA\", \"TCD\", \"TCS\", \"TSD\", \"TSS\", \"Internal\", \"Process\"],\n			\"hidden\": true\n		},\n		{\n			\"name\": \"AcqIEDSource\",\n			\"kind\": \"list\",\n			\"min\": 0,\n			\"max\": 1,\n			\"default\": \"Internal\",\n			\"items\": [\"External\", \"Internal\"]\n		},\n		{ \"name\": \"AcqLED\", \"kind\": \"boolean\", \"hidden\": true },\n		{ \"name\": \"AcqComtradeStart\", \"kind\": \"boolean\", \"default\": \"false\" },\n		{ \"name\": \"AcqComtradeCapture\", \"kind\": \"boolean\", \"default\": \"false\" },\n		{ \"name\": \"AcqHmi\", \"kind\": \"boolean\", \"hidden\": true },\n		{ \"name\": \"AcqAcc\", \"kind\": \"boolean\", \"default\": \"false\" },\n		{ \"name\": \"AcqDfrStart\", \"kind\": \"boolean\", \"default\": \"false\", \"hidden\": true },\n		{ \"name\": \"AcqDfrCapture\", \"kind\": \"boolean\", \"default\": \"false\", \"hidden\": true },\n		{\n			\"name\": \"ToAcq_Voltage\",\n			\"kind\": \"list\",\n			\"min\": 0,\n			\"default\": \"All\",\n			\"items\": [\"1-29.9\", \"1-36\", \"150-380\", \"30-36\", \"36-110\", \"36-380\", \"380\", \"All\", \"MV\"]\n		},\n		{ \"name\": \"ToAcq_TechRemark\", \"kind\": \"text\", \"hidden\": true },\n		{ \"name\": \"ToAcq_Justification\", \"kind\": \"text\", \"hidden\": true }\n	],\n	\"LED\": [],\n	\"Local\": [\n		{\n			\"name\": \"LocalSignalType\",\n			\"kind\": \"list\",\n			\"min\": 0,\n			\"max\": 1,\n			\"items\": [\"MM\", \"SP\", \"TA\", \"TCD\", \"TCS\", \"TSD\", \"TSS\", \"Internal\", \"Process\"],\n			\"hidden\": true\n		},\n		{\n			\"name\": \"LocalSource\",\n			\"kind\": \"list\",\n			\"min\": 0,\n			\"max\": 1,\n			\"default\": \"External\",\n			\"items\": [\"External\", \"Internal\"]\n		},\n		{ \"name\": \"LocalEventDesc\", \"kind\": \"text\" },\n		{ \"name\": \"LocalComtradeStart\", \"kind\": \"boolean\", \"default\": \"false\" },\n		{ \"name\": \"LocalComtradeCapture\", \"kind\": \"boolean\", \"default\": \"false\" },\n		{ \"name\": \"LocalIEDHmi\", \"kind\": \"boolean\", \"hidden\": true },\n		{ \"name\": \"LocalAcc\", \"kind\": \"boolean\", \"default\": \"false\" },\n		{ \"name\": \"LocalDfrCapture\", \"kind\": \"boolean\", \"hidden\": true },\n		{ \"name\": \"LocalDfrStart\", \"kind\": \"boolean\", \"hidden\": true },\n		{ \"name\": \"Local2way\", \"kind\": \"boolean\", \"default\": \"false\" },\n		{ \"name\": \"AlarmTemporisation\", \"kind\": \"text\" },\n		{ \"name\": \"DcsBuzz\", \"kind\": \"boolean\", \"default\": \"false\" },\n		{ \"name\": \"DcsLog\", \"kind\": \"boolean\", \"default\": \"false\" },\n		{\n			\"name\": \"ToDcs_Voltage\",\n			\"kind\": \"list\",\n			\"min\": 0,\n			\"default\": \"All\",\n			\"items\": [\"1-29.9\", \"1-36\", \"150-380\", \"30-36\", \"36-110\", \"36-380\", \"380\", \"All\", \"MV\"]\n		},\n		{ \"name\": \"ToDcs_TechRemark\", \"kind\": \"text\", \"hidden\": true },\n		{ \"name\": \"ToDcs_Justification\", \"kind\": \"text\", \"hidden\": true }\n	],\n	\"HMI\": [\n		{ \"name\": \"DcsHMI\", \"kind\": \"boolean\", \"hidden\": true },\n		{ \"name\": \"DcsHMI_SLDGlobal\", \"kind\": \"boolean\", \"default\": \"false\" },\n		{ \"name\": \"DcsHMI_SLDBay\", \"kind\": \"boolean\", \"default\": \"false\" },\n		{ \"name\": \"DcsHMI_AlarmsGlobal\", \"kind\": \"boolean\", \"default\": \"false\" },\n		{ \"name\": \"DcsHMI_AlarmsBay\", \"kind\": \"boolean\", \"default\": \"false\" },\n		{ \"name\": \"DcsHMI_AlarmsMatrix\", \"kind\": \"boolean\", \"default\": \"false\" },\n		{ \"name\": \"DcsHMI_AlarmsGasOverview\", \"kind\": \"boolean\", \"default\": \"false\" },\n		{ \"name\": \"DcsHMI_AlarmsSIPSOverview\", \"kind\": \"boolean\", \"default\": \"false\" },\n		{ \"name\": \"DcsHMI_AlarmsIEC61850COM\", \"kind\": \"boolean\", \"default\": \"false\" },\n		{ \"name\": \"DcsHMI_AlarmsDCSSystem\", \"kind\": \"boolean\", \"default\": \"false\" },\n		{ \"name\": \"DcsHMI_AlarmsGSVHMI\", \"kind\": \"boolean\", \"default\": \"false\" }\n	],\n	\"Remote\": [\n		{\n			\"name\": \"RemoteSignalType\",\n			\"kind\": \"list\",\n			\"min\": 0,\n			\"max\": 1,\n			\"items\": [\"MM\", \"SP\", \"TA\", \"TCD\", \"TCS\", \"TSD\", \"TSS\", \"Internal\", \"Process\"],\n			\"hidden\": true\n		},\n		{\n			\"name\": \"RemoteType\",\n			\"kind\": \"list\",\n			\"min\": 0,\n			\"default\": \"EMS\",\n			\"items\": [\"EMS\", \"Customer\"]\n		},\n		{ \"name\": \"CustomerName\", \"kind\": \"text\" },\n		{ \"name\": \"RemoteHist\", \"kind\": \"boolean\", \"hidden\": true },\n		{ \"name\": \"RemoteAcc\", \"kind\": \"boolean\", \"hidden\": true },\n		{\n			\"name\": \"ToRemote_VoltageRange\",\n			\"kind\": \"list\",\n			\"min\": 0,\n			\"default\": \"All\",\n			\"items\": [\"1-29.9\", \"1-36\", \"150-380\", \"30-36\", \"36-110\", \"36-380\", \"380\", \"All\", \"MV\"]\n		},\n		{\n			\"name\": \"ToRemote_GroupingLevel\",\n			\"kind\": \"list\",\n			\"min\": 0,\n			\"default\": \"PUT\",\n			\"items\": [\"P\", \"PU\", \"PUT\", \"PU + PUT\", \"PUB\", \"PUT R\"]\n		},\n		{ \"name\": \"User Custom U\", \"kind\": \"text\" },\n		{ \"name\": \"User Custom T\", \"kind\": \"text\" },\n		{ \"name\": \"ToRemote_TechRemark\", \"kind\": \"text\", \"hidden\": true },\n		{ \"name\": \"ToRemote_Justification\", \"kind\": \"text\", \"hidden\": true },\n		{ \"name\": \"IEC104_Address\", \"kind\": \"address\" }\n	]\n}\n", j_ = class extends Error {
 	constructor(e) {
 		super(e), this.name = "ShikiError";
 	}

@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to a simple versioning system, increasing the number by one for each modification.
 
+## [34] - 2026-10-13
+
+### Fixed
+
+- The label metadata panel now shows the correct set of predefined properties for every label type (Object, Acquisition, Local, HMI, Remote), matching the agreed mapping (source: `mapping_table_v2.xlsx`, September 9); previously several properties that should be visible were missing (e.g. Remote's Customer Name and the User Custom U/T fields) and some that should stay hidden were shown
+- Remote labels no longer show the Technical Remark and Signal Type columns, which are not part of the agreed visible set
+
+### Changed
+
+- Dropdown options for signal types now use the agreed short codes (MM, SP, TA, TCD, TCS, TSD, TSS, Internal, Process) instead of the previous long descriptions
+- The Grouping Level dropdown now offers P, PU, PUT, PU + PUT, PUB and PUT R
+- List fields now start on a sensible default selection: voltage ranges default to "All", acquisition source to "Internal", local source to "External", remote type to "EMS" and grouping level to "PUT"
+- "Alarm Temporisation" is now a plain free-text field without preset numeric suggestions
+
 ## [33] - 2026-10-06
 
 ### Added
