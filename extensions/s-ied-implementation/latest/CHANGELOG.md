@@ -7,6 +7,18 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [42] - 2026-10-13
+
+### Added
+
+- The LN Browser lists the LNs of the implementing IED for implemented LNodes
+- Applied LNodes keep their implementation after reload: the specification view shows the implemented LN read-only, and Unlink is disabled for them
+
+### Fixed
+
+- Explorer `IED` badge appears only for LNodes that actually resolve to an implemented LN, not for a stale IED name
+- The LN, child-element, and data-model browsers automatically turn off identity-constraint chips when they hide every candidate
+
 ## [41] - 2026-10-02
 
 ### Fixed
