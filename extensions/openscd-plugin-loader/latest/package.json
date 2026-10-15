@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-openscd-plugin-loader",
-	"version": "25",
+	"version": "26",
 	"displayName": "OpenSCD Plugins",
 	"type": "module",
 	"description": "This is an example extension written in Vue.JS for SeptKit Platform",
