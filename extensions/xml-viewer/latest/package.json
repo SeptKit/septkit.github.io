@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-xml-viewer",
-	"version": "7",
+	"version": "8",
 	"displayName": "XML Viewer",
 	"description": "Read-only viewer that shows the active SCL file as syntax-highlighted, well-formatted XML.",
 	"private": true,
