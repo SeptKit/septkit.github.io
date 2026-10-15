@@ -7,6 +7,17 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [45] - 2026-10-15
+
+## [44] - 2026-10-15
+
+### Added
+
+- Implemented LNodes show their saved data-object mappings from the project file as applied
+- Remap a specification `DOS` of an implemented LNode to a `DO`/`DOI` of its project LN, and Apply saves the change to the project file
+- Import specification values into the `DAI`s of an implemented LNode's project LN, and Apply writes them to the project file
+- A `DOS` used by a dataflow stays locked and cannot be remapped
+
 ## [42] - 2026-10-13
 
 ### Added
