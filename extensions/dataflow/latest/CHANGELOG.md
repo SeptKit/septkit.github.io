@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## Unreleased
 
+## [73] - 2026-10-14
+
+### Changed
+
+- The process resource of a placeholder or a dataflow is shown by its own name, no longer by its path from the substation
+
 ## [71] - 2026-09-23
 
 ### Added
