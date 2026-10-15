@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-network",
-	"version": "6",
+	"version": "7",
 	"displayName": "Network",
 	"description": "Manage the SCL communication network",
 	"private": true,
