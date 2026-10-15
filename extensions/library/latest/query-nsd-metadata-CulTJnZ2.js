@@ -1,309 +1,32 @@
-import { I as e, N as t, S as n, U as r, tt as i } from "./main-BaE9hf1L.js";
+import { $ as e, A as t, C as n, D as r, E as i, M as a, S as o, T as s, X as c, _ as l, a as u, b as d, c as f, d as p, f as m, g as h, h as g, j as _, k as v, m as y, o as b, ot as x, p as S, u as C, v as ee, vt as w, w as T, x as te, y as ne, z as re } from "./main-DVU_uLA8.js";
 //#region src/nsd/icons/close-icon.vue
-var a = {}, o = {
+var ie = {}, ae = {
 	viewBox: "0 0 64 64",
 	"aria-hidden": "true",
 	focusable: "false"
 };
-function s(n, i) {
-	return r(), e("svg", o, [...i[0] ||= [t("path", {
+function E(t, n) {
+	return x(), e("svg", ae, [...n[0] ||= [c("path", {
 		fill: "currentColor",
 		d: "M 16 14 C 15.488 14 14.976938 14.194937 14.585938 14.585938 C 13.804937 15.366937 13.804937 16.633063 14.585938 17.414062 L 29.171875 32 L 14.585938 46.585938 C 13.804938 47.366938 13.804937 48.633063 14.585938 49.414062 C 14.976937 49.805062 15.488 50 16 50 C 16.512 50 17.023062 49.805062 17.414062 49.414062 L 32 34.828125 L 46.585938 49.414062 C 47.366938 50.195063 48.633063 50.195062 49.414062 49.414062 C 50.195063 48.633062 50.195062 47.366937 49.414062 46.585938 L 34.828125 32 L 49.414062 17.414062 C 50.195063 16.633063 50.195062 15.366938 49.414062 14.585938 C 48.633062 13.804938 47.366937 13.804938 46.585938 14.585938 L 32 29.171875 L 17.414062 14.585938 C 17.023062 14.194938 16.512 14 16 14 z"
 	}, null, -1)]]);
 }
-var c = /* @__PURE__ */ n(a, [["render", s]]), l = {}, u = {
+var D = /* @__PURE__ */ re(ie, [["render", E]]), oe = {}, O = {
 	viewBox: "0 -960 960 960",
 	"aria-hidden": "true",
 	focusable: "false"
 };
-function d(n, i) {
-	return r(), e("svg", u, [...i[0] ||= [t("path", {
+function se(t, n) {
+	return x(), e("svg", O, [...n[0] ||= [c("path", {
 		fill: "currentColor",
 		d: "M280-120q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM360-280h80v-360h-80v360Zm160 0h80v-360h-80v360ZM280-720v520-520Z"
 	}, null, -1)]]);
 }
-var f = /* @__PURE__ */ n(l, [["render", d]]), p = {
-	UNKNOWN: {
-		code: "D0001",
-		message: "An unknown error occurred"
-	},
-	ASSERTION_FAILED: {
-		code: "D0002",
-		message: "Assertion failed"
-	},
-	STORE_CONNECTION_FAILED: {
-		code: "D1001",
-		message: "Failed to open database"
-	},
-	STORE_COMMIT_FAILED: {
-		code: "D1002",
-		message: "Failed to commit changes"
-	},
-	STORE_RECORD_NOT_FOUND: {
-		code: "D1003",
-		message: "Record not found in database"
-	},
-	STORE_BULK_ADD_FAILED: {
-		code: "D1004",
-		message: "Failed to add records to database"
-	},
-	STORE_BULK_UPDATE_FAILED: {
-		code: "D1005",
-		message: "Failed to update records in database"
-	},
-	STORE_DELETE_FAILED: {
-		code: "D1006",
-		message: "Failed to delete records from database"
-	},
-	STORE_NOT_WRITABLE: {
-		code: "D1007",
-		message: "Store is not writable"
-	},
-	STORE_BLOB_NOT_FOUND: {
-		code: "D1008",
-		message: "Blob not found"
-	},
-	ELEMENT_NOT_FOUND: {
-		code: "D2001",
-		message: "Element not found"
-	},
-	ROOT_NOT_FOUND: {
-		code: "D2002",
-		message: "Root element not found"
-	},
-	DUPLICATE_ID: {
-		code: "D2003",
-		message: "Duplicate element ID"
-	},
-	ELEMENT_TAGNAME_MISMATCH: {
-		code: "D2004",
-		message: "Element tagName does not match the expected type"
-	},
-	INVALID_PARENT_CHILD: {
-		code: "D3001",
-		message: "Invalid parent-child relationship"
-	},
-	INVALID_ATTRIBUTE: {
-		code: "D3002",
-		message: "Invalid attribute for element"
-	},
-	PROTECTED_ROOT: {
-		code: "D3003",
-		message: "Root element cannot be deleted"
-	},
-	REQUIRED_ATTRIBUTE_MISSING: {
-		code: "D3004",
-		message: "Required attribute is missing"
-	},
-	UNIQUE_CONSTRAINT_VIOLATION: {
-		code: "D3005",
-		message: "Value is already used within its scope"
-	},
-	UNKNOWN_NAMESPACE_PREFIX: {
-		code: "D3006",
-		message: "Unknown namespace prefix on attribute — pass it explicitly as { name, namespace: { prefix, uri } }"
-	},
-	PREFIXED_ATTRIBUTE_NAME: {
-		code: "D3007",
-		message: "Authored attribute name must be a local name — pass the namespace separately as { name, namespace }, not a prefixed name"
-	},
-	FIXED_VALUE_VIOLATION: {
-		code: "D3008",
-		message: "Attribute value differs from the schema-fixed value"
-	},
-	ALREADY_COMMITTED: {
-		code: "D4001",
-		message: "Transaction already committed"
-	},
-	ALREADY_FAILED: {
-		code: "D4002",
-		message: "Transaction already failed"
-	},
-	DATABASE_COMMIT_ERROR: {
-		code: "D4003",
-		message: "An error occurred while committing changes to the database"
-	},
-	CONCURRENT_TRANSACTION: {
-		code: "D4004",
-		message: "A transaction is already in progress. Concurrent transactions are not supported yet — serialize them or implement a transaction queue."
-	},
-	EXPORT_ROOT_NOT_FOUND: {
-		code: "D5001",
-		message: "Root element not found in records during export"
-	},
-	EXPORT_ORPHAN_CHILD_REF: {
-		code: "D5002",
-		message: "Parent references non-existent child record"
-	},
-	PARSE_ERROR: {
-		code: "D5003",
-		message: "Failed to parse XML"
-	},
-	EXTENSION_METHOD_COLLISION: {
-		code: "D6001",
-		message: "Extension method name collision detected"
-	},
-	UNKNOWN_CONFIG_KEY: {
-		code: "D7001",
-		message: "Unknown config key"
-	},
-	DOCUMENT_NOT_REGISTERED: {
-		code: "D7002",
-		message: "Document not registered in project"
-	},
-	PROJECT_NOT_OPENED: {
-		code: "D7003",
-		message: "Project not opened"
-	},
-	BLOB_NOT_FOUND: {
-		code: "D7004",
-		message: "Blob not found in store"
-	}
-};
-function m(e, t) {
-	let n = p[e], r = {
-		code: n.code,
-		key: e,
-		message: t.message ?? n.message,
-		detail: t.detail,
-		method: h((/* @__PURE__ */ Error()).stack),
-		ref: t.ref,
-		cause: t.cause
-	}, i = Error(t.detail);
-	throw i.cause = r, i;
-}
-function h(e) {
-	if (!e) return "unknown";
-	let t = e.split("\n").slice(1).find((e) => !/\b(throwDialecteError|assert)\b/.test(e));
-	if (!t) return "unknown";
-	let n = t.match(/\bat\s+(\S+)\s+\(([^)]+)\)/), r = n?.[1], i = n?.[2];
-	if (!i || !r) return r ?? "unknown";
-	let a = i.match(/(\w[\w-]*\/src\/[^?:]+)/);
-	return a ? `${a[1].replace(/\.[^/.]+$/, "")}::${r}` : r;
-}
-function g(e) {
-	let { dialecteConfig: t, record: n } = e, r = t.definition[n.tagName];
-	if (r === void 0) return;
-	let i = n.parent?.tagName;
-	if (!i) return r;
-	let a = t.definition[i]?.children.details[n.tagName];
-	return a?.attributes === void 0 || a.children === void 0 ? r : {
-		tag: r.tag,
-		namespace: r.namespace,
-		documentation: r.documentation,
-		parents: r.parents,
-		constraints: r.constraints,
-		nillable: a.nillable,
-		attributes: a.attributes,
-		children: a.children,
-		contentModel: a.contentModel,
-		textContent: a.textContent
-	};
-}
-function _(e) {
-	let { dialecteConfig: t, record: n, attributeName: r } = e, i = t.elements.includes(n.tagName), a = i ? g({
-		dialecteConfig: t,
-		record: n
-	}) : void 0, o = a?.attributes.details[r];
-	return {
-		isKnownElement: i,
-		isDefined: !!o,
-		isRequired: !!o?.required,
-		isIdentityField: a?.attributes.identityFields?.includes(r) ?? !1,
-		fixed: o?.fixed,
-		default: o?.default,
-		namespace: o?.namespace || void 0
-	};
-}
-function v(e) {
-	let { dialecteConfig: t, record: n, attributeName: r, defaults: i } = e;
-	if (i === "none") return;
-	let a = _({
-		dialecteConfig: t,
-		record: n,
-		attributeName: r
-	});
-	if (i === "required") return a.isRequired || a.fixed !== void 0 ? a.fixed ?? a.default ?? "" : void 0;
-	if (a.fixed !== void 0) return a.fixed;
-	if (a.default) return a.default;
-}
-function y(e) {
-	let t = e.lastIndexOf(":");
-	return t === -1 ? e : e.slice(t + 1);
-}
-function b(e, t) {
-	if (t) return Object.values(e.namespaces).find((e) => e.prefix === t);
-}
-function x(e, t) {
-	return e.namespaces[t] ?? b(e, t);
-}
-function S(e, t) {
-	return e.namespaces[t]?.prefix ?? t;
-}
-function C(e, t) {
-	let n = e.namespace?.uri ?? "", r = t.namespace?.uri ?? "";
-	return n === r ? e.name === t.name ? 0 : e.name < t.name ? -1 : 1 : n < r ? -1 : 1;
-}
-function ee(e, t) {
-	let n = t.flatMap((t) => e.filter((e) => e.name === t)), r = e.filter((e) => !t.includes(e.name)).sort(C);
-	return [...n, ...r];
-}
-function w(e, t) {
-	if (e) return;
-	let { detail: n, key: r = "ASSERTION_FAILED", ref: i } = t;
-	m(r, {
-		detail: n,
-		ref: i
-	});
-}
-function te(e) {
-	let { parentTagName: t, children: n, childrenConfig: r } = e, i = r[t];
-	if (!i || i.length === 0) return n;
-	let a = new Set(i), o = /* @__PURE__ */ new Map();
-	for (let e of a) o.set(e, []);
-	let s = [];
-	for (let e of n) {
-		let t = o.get(e.tagName);
-		t ? t.push(e) : s.push(e);
-	}
-	let c = [];
-	for (let e of a) {
-		let t = o.get(e);
-		t && t.length && c.push(...t);
-	}
-	return c.push(...s), c;
-}
-async function T(e) {
-	let { data: t, filename: n, pickerType: r } = e;
-	if ("showSaveFilePicker" in window) try {
-		let e = await (await window.showSaveFilePicker({
-			suggestedName: n,
-			...r ? { types: [r] } : {}
-		})).createWritable();
-		await e.write(t), await e.close();
-		return;
-	} catch (e) {
-		if (e.name === "AbortError") return;
-		console.error("Save failed:", e);
-		return;
-	}
-	let i = URL.createObjectURL(t), a = document.createElement("a");
-	a.href = i, a.download = n, document.body.appendChild(a), a.click(), a.remove(), URL.revokeObjectURL(i);
-}
-//#endregion
-//#region node_modules/.pnpm/@dialecte+core@0.5.1/node_modules/@dialecte/core/dist/helpers.js
-var ne = `${{
-	uri: "http://dialecte.dev/XML/DEV",
-	prefix: "dev"
-}.prefix}:db-id`, re = {
-	uri: "http://www.w3.org/2001/XMLSchema-instance",
-	prefix: "xsi"
-};
-`${re.prefix}${re.uri}`;
-function ie(e, t) {
+var k = /* @__PURE__ */ re(oe, [["render", se]]);
+function ce(e, t) {
 	return e.tagName === t;
 }
-function ae(e) {
+function A(e) {
 	return {
 		id: e.id,
 		tagName: e.tagName,
@@ -314,70 +37,97 @@ function ae(e) {
 		children: e.children
 	};
 }
-function E(e) {
+function le(e) {
 	let { record: t, status: n } = e, r = n ?? ("status" in t ? t.status : "unchanged");
 	return {
-		...ae(t),
+		...A(t),
 		status: r
 	};
 }
-function D(e) {
+function j(e) {
 	let { record: t, status: n, tree: r } = e, i = r ?? ("tree" in t ? t.tree : []);
 	return {
-		...E({
+		...le({
 			record: t,
 			status: n
 		}),
 		tree: i
 	};
 }
-function oe(e) {
-	let { dialecteConfig: t, tagName: n, attributes: r } = e;
+function ue(e) {
+	let { dialecteConfig: t, tagName: n, attributes: r, stored: i = [] } = e;
 	return (Array.isArray(r) ? r : Object.entries(r).map(([e, r]) => ({
 		name: e,
 		value: r,
-		namespace: t.definition[n]?.attributes.details[e]?.namespace || void 0
-	}))).map((e) => O({
+		namespace: de({
+			dialecteConfig: t,
+			tagName: n,
+			name: e
+		}) ?? i.find((t) => t.name === e)?.namespace
+	}))).map((e) => fe({
 		attribute: e,
 		dialecteConfig: t,
 		tagName: n
 	}));
 }
-function O(e) {
+function de(e) {
+	let { dialecteConfig: t, tagName: n, name: r } = e, i = t.definition[n];
+	if (i === void 0) return;
+	let a = Object.values(i.declarations ?? {}), o = [i, ...a].flatMap((e) => e.variants ?? []), s = [
+		i,
+		...a,
+		...o.flatMap((e) => t.types[e] ?? [])
+	];
+	for (let e of s) {
+		let t = e.attributes.details[r]?.namespace;
+		if (t) return t;
+	}
+}
+function fe(e) {
 	let { attribute: t, dialecteConfig: n, tagName: r } = e, i;
-	typeof t.namespace == "string" ? (i = x(n, t.namespace), i || m("UNKNOWN_NAMESPACE_PREFIX", {
+	typeof t.namespace == "string" ? (i = C(n, t.namespace), i || v("UNKNOWN_NAMESPACE_PREFIX", {
 		detail: `Unknown namespace '${t.namespace}' on attribute '${t.name}' — use a registered namespace key or pass a full { name, namespace: { prefix, uri } }.`,
 		ref: { tagName: r }
 	})) : i = t.namespace;
 	let a = t.name.indexOf(":");
 	if (!i && a !== -1) {
 		let e = t.name.slice(0, a);
-		e !== "xmlns" && (i = b(n, e), i || m("UNKNOWN_NAMESPACE_PREFIX", {
+		e !== "xmlns" && (i = f(n, e), i || v("UNKNOWN_NAMESPACE_PREFIX", {
 			detail: `Unknown namespace prefix '${e}' on attribute '${t.name}' — pass it explicitly as { name, namespace: { prefix, uri } }.`,
 			ref: { tagName: r }
 		}));
 	}
-	return i && i.prefix && i.prefix !== "xmlns" ? {
+	return i && i.prefix && i.uri !== "http://www.w3.org/2000/xmlns/" && (i = M({
+		dialecteConfig: n,
+		uri: i.uri
+	}) ?? i), i && i.prefix && i.prefix !== "xmlns" ? {
 		...t,
-		name: `${i.prefix}:${y(t.name)}`,
+		name: `${i.prefix}:${m(t.name)}`,
 		namespace: i
 	} : (t.namespace, {
 		...t,
 		namespace: i
 	});
 }
-function k(e) {
-	return w(e, { detail: "The record or ref is undefined" }), {
+function M(e) {
+	let { dialecteConfig: t, uri: n } = e;
+	return Object.values(t.namespaces).find((e) => e.uri === n && e.prefix !== "");
+}
+function N(e) {
+	return h(e, { detail: "The record or ref is undefined" }), {
 		id: e.id,
 		tagName: e.tagName
 	};
 }
-function A(e) {
-	let { dialecteConfig: t, hooks: n, record: r } = e, { id: i, tagName: a, attributes: o, namespace: s, value: c } = r, l = r.parent?.tagName, u = i ?? crypto.randomUUID(), d = o ? oe({
-		tagName: a,
-		attributes: o,
-		dialecteConfig: t
-	}) : [], f = {
+function P(e) {
+	let { dialecteConfig: t, hooks: n, record: r } = e, { id: i, tagName: a, attributes: o, namespace: s, value: c } = r, u = i ?? crypto.randomUUID(), d = pe({
+		dialecteConfig: t,
+		attributes: o ? ue({
+			tagName: a,
+			attributes: o,
+			dialecteConfig: t
+		}) : []
+	}), f = {
 		id: u,
 		tagName: a,
 		attributes: d,
@@ -392,56 +142,127 @@ function A(e) {
 	if (!(t.elements.includes(a) && !m)) return f;
 	let h = g({
 		dialecteConfig: t,
-		record: f
-	})?.attributes.sequence ?? [], _ = d.filter((e) => {
-		let t = h.includes(e.name), n = "namespace" in e && e.namespace != null;
-		if (!t && !n) return !1;
+		record: {
+			...f,
+			namespace: s
+		}
+	}), _ = h?.attributes.sequence ?? [], v = l({
+		wildcard: h?.attributes.any,
+		namespaceUri: ""
+	}), y = d.filter((e) => {
+		let t = _.includes(e.name), n = "namespace" in e && e.namespace != null;
+		if (!t && !n && !v) return !1;
 		let r = e.value === void 0 || e.value === null || e.value === "";
 		return !(t && r);
-	}), v = t.namespaces.default.uri, y = _.map((e) => {
-		if ("namespace" in e && e.namespace?.uri === v) {
+	}), b = t.namespaces.default.uri, x = y.map((e) => {
+		if ("namespace" in e && e.namespace?.uri === b) {
 			let { namespace: t, ...n } = e;
 			return n;
 		}
 		return e;
-	}), b = l ? t.definition[l]?.children?.details?.[a]?.namespace : void 0, x = {
+	}), S = t.definition[a], C = [h?.namespace ?? S.namespace, ...Object.values(S.declarations ?? {}).map((e) => e.namespace)], w = C.find((e) => e.uri === s?.uri), T = {
 		...f,
-		namespace: b ?? t.definition[a].namespace,
-		attributes: ee(y, h)
+		namespace: w ?? s ?? C[0],
+		attributes: ee(x, _)
 	};
-	return n?.afterStandardizedRecord && (x = n.afterStandardizedRecord({ record: x }), x = {
-		...x,
-		attributes: ee(x.attributes, h)
-	}), x;
+	return n?.afterStandardizedRecord && (T = n.afterStandardizedRecord({ record: T }), T = {
+		...T,
+		attributes: ee(pe({
+			dialecteConfig: t,
+			attributes: T.attributes
+		}), _)
+	}), T;
 }
-function se(e) {
+function pe(e) {
+	let { dialecteConfig: t, attributes: n } = e;
+	return u({
+		dialecteConfig: t,
+		attributes: n,
+		namespaceOf: _({
+			dialecteConfig: t,
+			attributes: n
+		})
+	});
+}
+function me(e) {
 	let { dialecteConfig: t, record: n, attributes: r } = e;
 	for (let e of r) {
-		let r = _({
+		let r = T({
 			dialecteConfig: t,
 			record: n,
 			attributeName: e.name
 		});
-		r.fixed !== void 0 && e.value !== r.fixed && m("FIXED_VALUE_VIOLATION", {
+		r.fixed !== void 0 && e.value !== r.fixed && v("FIXED_VALUE_VIOLATION", {
 			detail: `Attribute '${e.name}' on '${n.tagName}' is fixed to '${r.fixed}' but was set to '${String(e.value)}'.`,
 			ref: { tagName: n.tagName }
 		});
 	}
 }
-function ce(e, t, n, r) {
+function he(e) {
+	let { dialecteConfig: n, record: r } = e, i = r.attributes.find(t);
+	if (i === void 0) {
+		g({
+			dialecteConfig: n,
+			record: r
+		})?.abstractType && v("XSI_TYPE_REQUIRED", {
+			detail: `'${r.tagName}' is declared with an abstract type: name one of its variants with xsi:type (${b({
+				dialecteConfig: n,
+				record: r
+			}).join(", ")}).`,
+			ref: { tagName: r.tagName }
+		});
+		return;
+	}
+	if (g({
+		dialecteConfig: n,
+		record: r
+	}) === void 0) return;
+	let a = te({
+		dialecteConfig: n,
+		record: r
+	});
+	if (a?.namespace === "http://www.w3.org/2001/XMLSchema") return;
+	let o = b({
+		dialecteConfig: n,
+		record: r
+	});
+	a !== void 0 && o.includes(a.clark) || v("XSI_TYPE_NOT_ADMITTED", {
+		detail: `'${r.tagName}' may not name the type '${String(i.value)}' with xsi:type; it admits ${o.join(", ") || "none"}.`,
+		ref: { tagName: r.tagName },
+		meta: {
+			value: i.value,
+			admitted: o
+		}
+	});
+}
+function ge(e) {
+	let { dialecteConfig: t, merged: n, record: r } = e, i = new Set(r.attributes.map((e) => e.name)), a = n.filter((e) => e.value !== "" && !i.has(e.name)).map((e) => e.name), o = g({
+		dialecteConfig: t,
+		record: r
+	}), s = new Set(o?.children.sequence ?? []), c = o?.children.any ? [] : [...new Set(r.children.map((e) => e.tagName))].filter((e) => !s.has(e));
+	a.length === 0 && c.length === 0 || v("XSI_TYPE_CHANGE_LEAVES_CONTENT", {
+		detail: `'${r.tagName}' now names a type that does not admit ` + [a.length > 0 ? `the attributes ${a.join(", ")} (clear them in the same update)` : "", c.length > 0 ? `the children ${c.join(", ")} (delete them first)` : ""].filter(Boolean).join(" nor ") + ".",
+		ref: { tagName: r.tagName },
+		meta: {
+			attributes: a,
+			children: c
+		}
+	});
+}
+function _e(e, t, n, r) {
 	if (!e || !t) return;
 	let i = Object.keys(t).filter((t) => t in e);
-	w(i.length === 0, {
+	h(i.length === 0, {
 		key: "EXTENSION_METHOD_COLLISION",
 		detail: `Module "${n}" has conflicting ${r} method(s): ${i.map((e) => `"${e}"`).join(", ")}`
 	});
 }
-function le(e) {
+function ve(e) {
 	let t = {}, n = {}, r = [...Object.entries(e.base ?? {}), ...Object.entries(e.custom ?? {})];
-	for (let [e, i] of r) i.query && (ce(t[e], i.query, e, "query"), t[e] = {
+	for (let [e, i] of r) i.query && (_e(t[e], i.query, e, "query"), t[e] = {
 		...t[e],
 		...i.query
-	}), i.transaction && (ce(n[e], i.transaction, e, "transaction"), n[e] = {
+	}), i.transaction && (_e(n[e], i.transaction, e, "transaction"), n[e] = {
 		...n[e],
 		...i.transaction
 	});
@@ -451,8 +272,8 @@ function le(e) {
 	};
 }
 //#endregion
-//#region node_modules/.pnpm/@dialecte+nsd@0.2.1/node_modules/@dialecte/nsd/dist/config-BLOG_zbu.js
-var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableServiceNS.ApplicableServices.AppliesTo.BasicType.BasicTypes.CDC.CDCs.Changes.ConstructedAttribute.ConstructedAttributes.Copyright.DataAttribute.DataObject.DataSetMemberOf.DependsOn.Doc.Enumeration.Enumerations.FunctionalConstraint.FunctionalConstraints.LNClass.LNClasses.License.Literal.NS.NSDoc.Notice.PresenceCondition.PresenceConditions.Service.ServiceCDC.ServiceCDCs.ServiceConstructedAttribute.ServiceConstructedAttributes.ServiceDataAttribute.ServiceNS.ServiceNsUsage.ServiceParameter.ServiceTypeRealization.ServiceTypeRealizations.SubDataAttribute.SubDataObject".split("."), ue = {
+//#region node_modules/.pnpm/@dialecte+nsd@0.4.0/node_modules/@dialecte/nsd/dist/config-vsShZc7X.js
+var ye = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableServiceNS.ApplicableServices.AppliesTo.BasicType.BasicTypes.CDC.CDCs.Changes.ConstructedAttribute.ConstructedAttributes.Copyright.DataAttribute.DataObject.DataSetMemberOf.DependsOn.Doc.Enumeration.Enumerations.FunctionalConstraint.FunctionalConstraints.LNClass.LNClasses.License.Literal.NS.NSDoc.Notice.PresenceCondition.PresenceConditions.Service.ServiceCDC.ServiceCDCs.ServiceConstructedAttribute.ServiceConstructedAttributes.ServiceDataAttribute.ServiceNS.ServiceNsUsage.ServiceParameter.ServiceTypeRealization.ServiceTypeRealizations.SubDataAttribute.SubDataObject".split("."), be = {
 	Abbreviation: [],
 	Abbreviations: ["Abbreviation"],
 	AbstractLNClass: ["DataObject"],
@@ -523,7 +344,7 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 	ServiceTypeRealizations: ["ServiceTypeRealization"],
 	SubDataAttribute: [],
 	SubDataObject: []
-}, de = {
+}, xe = {
 	Abbreviation: ["Abbreviations"],
 	Abbreviations: ["NS", "ServiceNS"],
 	AbstractLNClass: ["LNClasses"],
@@ -578,7 +399,7 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		"ServiceTypeRealization"
 	],
 	SubDataObject: ["CDC"]
-}, fe = {
+}, Se = {
 	Abbreviation: [],
 	Abbreviations: ["Abbreviation"],
 	AbstractLNClass: ["DataObject"],
@@ -679,7 +500,7 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 	ServiceTypeRealizations: ["ServiceTypeRealization", "SubDataAttribute"],
 	SubDataAttribute: [],
 	SubDataObject: []
-}, M = {
+}, Ce = {
 	Abbreviation: [
 		"Abbreviations",
 		"NS",
@@ -805,7 +626,7 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		"CDCs",
 		"NS"
 	]
-}, pe = [
+}, we = [
 	"BasicTypes",
 	"CDCs",
 	"ConstructedAttributes",
@@ -813,7 +634,7 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 	"Enumerations",
 	"LNClasses",
 	"NS"
-], N = {
+], F = {
 	Abbreviation: {
 		descID: "",
 		name: ""
@@ -870,8 +691,8 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		informative: "",
 		name: "",
 		titleID: "",
-		typeKindParameterized: "",
-		"xsi:type": ""
+		"xsi:type": "",
+		typeKindParameterized: ""
 	},
 	ConstructedAttributes: {},
 	Copyright: {},
@@ -1050,8 +871,8 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		informative: "",
 		name: "",
 		titleID: "",
-		typeKindParameterized: "",
-		"xsi:type": ""
+		"xsi:type": "",
+		typeKindParameterized: ""
 	},
 	ServiceTypeRealizations: {},
 	SubDataAttribute: {
@@ -1088,78 +909,78 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		underlyingType: "",
 		underlyingTypeKind: ""
 	}
-}, me = {
-	byTag: N,
+}, Te = {
+	byTag: F,
 	byParent: {
-		Abbreviations: { Abbreviation: N.Abbreviation },
-		AbstractLNClass: { DataObject: N.DataObject },
+		Abbreviations: { Abbreviation: F.Abbreviation },
+		AbstractLNClass: { DataObject: F.DataObject },
 		ApplicableServiceNS: {
-			Copyright: N.Copyright,
-			ServiceNsUsage: N.ServiceNsUsage
+			Copyright: F.Copyright,
+			ServiceNsUsage: F.ServiceNsUsage
 		},
 		ApplicableServices: {
-			Service: N.Service,
-			DataSetMemberOf: N.DataSetMemberOf
+			Service: F.Service,
+			DataSetMemberOf: F.DataSetMemberOf
 		},
-		BasicTypes: { BasicType: N.BasicType },
+		BasicTypes: { BasicType: F.BasicType },
 		CDC: {
-			SubDataObject: N.SubDataObject,
-			DataAttribute: N.DataAttribute,
-			ServiceParameter: N.ServiceParameter
+			SubDataObject: F.SubDataObject,
+			DataAttribute: F.DataAttribute,
+			ServiceParameter: F.ServiceParameter
 		},
-		CDCs: { CDC: N.CDC },
-		ConstructedAttribute: { SubDataAttribute: N.SubDataAttribute },
-		ConstructedAttributes: { ConstructedAttribute: N.ConstructedAttribute },
+		CDCs: { CDC: F.CDC },
+		ConstructedAttribute: { SubDataAttribute: F.SubDataAttribute },
+		ConstructedAttributes: { ConstructedAttribute: F.ConstructedAttribute },
 		Copyright: {
-			Notice: N.Notice,
-			License: N.License
+			Notice: F.Notice,
+			License: F.License
 		},
-		Enumeration: { Literal: N.Literal },
-		Enumerations: { Enumeration: N.Enumeration },
-		FunctionalConstraint: { ApplicableServices: N.ApplicableServices },
-		FunctionalConstraints: { FunctionalConstraint: N.FunctionalConstraint },
-		LNClass: { DataObject: N.DataObject },
+		Enumeration: { Literal: F.Literal },
+		Enumerations: { Enumeration: F.Enumeration },
+		FunctionalConstraint: { ApplicableServices: F.ApplicableServices },
+		FunctionalConstraints: { FunctionalConstraint: F.FunctionalConstraint },
+		LNClass: { DataObject: F.DataObject },
 		LNClasses: {
-			AbstractLNClass: N.AbstractLNClass,
-			LNClass: N.LNClass
+			AbstractLNClass: F.AbstractLNClass,
+			LNClass: F.LNClass
 		},
 		NS: {
-			Copyright: N.Copyright,
-			Changes: N.Changes,
-			DependsOn: N.DependsOn,
-			BasicTypes: N.BasicTypes,
-			FunctionalConstraints: N.FunctionalConstraints,
-			PresenceConditions: N.PresenceConditions,
-			Abbreviations: N.Abbreviations,
-			Enumerations: N.Enumerations,
-			ConstructedAttributes: N.ConstructedAttributes,
-			CDCs: N.CDCs,
-			LNClasses: N.LNClasses
+			Copyright: F.Copyright,
+			Changes: F.Changes,
+			DependsOn: F.DependsOn,
+			BasicTypes: F.BasicTypes,
+			FunctionalConstraints: F.FunctionalConstraints,
+			PresenceConditions: F.PresenceConditions,
+			Abbreviations: F.Abbreviations,
+			Enumerations: F.Enumerations,
+			ConstructedAttributes: F.ConstructedAttributes,
+			CDCs: F.CDCs,
+			LNClasses: F.LNClasses
 		},
 		NSDoc: {
-			Copyright: N.Copyright,
-			Doc: N.Doc
+			Copyright: F.Copyright,
+			Doc: F.Doc
 		},
-		PresenceConditions: { PresenceCondition: N.PresenceCondition },
-		ServiceCDC: { ServiceDataAttribute: N.ServiceDataAttribute },
-		ServiceCDCs: { ServiceCDC: N.ServiceCDC },
-		ServiceConstructedAttribute: { SubDataAttribute: N.SubDataAttribute },
-		ServiceConstructedAttributes: { ServiceConstructedAttribute: N.ServiceConstructedAttribute },
+		PresenceConditions: { PresenceCondition: F.PresenceCondition },
+		ServiceCDC: { ServiceDataAttribute: F.ServiceDataAttribute },
+		ServiceCDCs: { ServiceCDC: F.ServiceCDC },
+		ServiceConstructedAttribute: { SubDataAttribute: F.SubDataAttribute },
+		ServiceConstructedAttributes: { ServiceConstructedAttribute: F.ServiceConstructedAttribute },
 		ServiceNS: {
-			Copyright: N.Copyright,
-			Changes: N.Changes,
-			FunctionalConstraints: N.FunctionalConstraints,
-			PresenceConditions: N.PresenceConditions,
-			Abbreviations: N.Abbreviations,
-			ServiceTypeRealizations: N.ServiceTypeRealizations,
-			ServiceConstructedAttributes: N.ServiceConstructedAttributes,
-			ServiceCDCs: N.ServiceCDCs
+			Copyright: F.Copyright,
+			Changes: F.Changes,
+			FunctionalConstraints: F.FunctionalConstraints,
+			PresenceConditions: F.PresenceConditions,
+			Abbreviations: F.Abbreviations,
+			ServiceTypeRealizations: F.ServiceTypeRealizations,
+			ServiceConstructedAttributes: F.ServiceConstructedAttributes,
+			ServiceCDCs: F.ServiceCDCs
 		},
-		ServiceNsUsage: { AppliesTo: N.AppliesTo },
-		ServiceTypeRealization: { SubDataAttribute: N.SubDataAttribute },
-		ServiceTypeRealizations: { ServiceTypeRealization: N.ServiceTypeRealization }
+		ServiceNsUsage: { AppliesTo: F.AppliesTo },
+		ServiceTypeRealization: { SubDataAttribute: F.SubDataAttribute },
+		ServiceTypeRealizations: { ServiceTypeRealization: F.ServiceTypeRealization }
 	}
-}, he = {
+}, Ee = {
 	Abbreviation: {
 		tag: "Abbreviation",
 		namespace: {
@@ -1171,13 +992,13 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		attributes: {
 			sequence: ["descID", "name"],
 			details: {
-				descID: {
-					type: { builtin: "normalizedString" },
+				descID: { type: {
+					builtin: "normalizedString",
 					facets: { minLength: 1 }
-				},
+				} },
 				name: {
-					type: { builtin: "normalizedString" },
-					required: !0
+					required: !0,
+					type: { builtin: "normalizedString" }
 				}
 			},
 			identityFields: ["name"]
@@ -1185,7 +1006,8 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		children: {
 			sequence: [],
 			details: {}
-		}
+		},
+		type: "{http://www.iec.ch/61850/2016/NSD}tAbbreviation"
 	},
 	Abbreviations: {
 		tag: "Abbreviations",
@@ -1201,10 +1023,7 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		},
 		children: {
 			sequence: ["Abbreviation"],
-			details: { Abbreviation: {
-				required: !0,
-				minOccurs: 1
-			} }
+			details: {}
 		},
 		contentModel: {
 			kind: "sequence",
@@ -1216,19 +1035,93 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 				minOccurs: 1
 			}]
 		},
-		constraints: [{
-			kind: "unique",
-			name: "uniqueAbbreviation",
-			selector: [{ steps: [{
-				kind: "name",
-				value: "Abbreviation"
-			}] }],
-			fields: [{ target: {
-				kind: "attribute",
-				value: "name",
-				isAttribute: !0
-			} }]
-		}]
+		type: "{http://www.iec.ch/61850/2016/NSD}tAbbreviations",
+		declarations: {
+			1: {
+				namespace: {
+					prefix: "",
+					uri: "http://www.iec.ch/61850/2016/NSD"
+				},
+				documentation: "List of abbreviations added by this namespace. Is cumulative to those defined in namespaces this one needs (may not redefine \"included\" ones.).",
+				attributes: {
+					sequence: [],
+					details: {}
+				},
+				children: {
+					sequence: ["Abbreviation"],
+					details: {}
+				},
+				contentModel: {
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "element",
+						name: "Abbreviation",
+						minOccurs: 1
+					}]
+				},
+				constraints: [{
+					kind: "unique",
+					name: "uniqueAbbreviation",
+					namespace: "http://www.iec.ch/61850/2016/NSD",
+					selector: [{ steps: [{
+						name: "Abbreviation",
+						namespace: "http://www.iec.ch/61850/2016/NSD"
+					}] }],
+					fields: [[{
+						steps: [],
+						attribute: {
+							name: "name",
+							namespace: ""
+						}
+					}]]
+				}],
+				type: "{http://www.iec.ch/61850/2016/NSD}tAbbreviations"
+			},
+			2: {
+				namespace: {
+					prefix: "",
+					uri: "http://www.iec.ch/61850/2016/NSD"
+				},
+				documentation: "List of abbreviations added by this namespace. Is cumulative to those defined in namespaces this one needs (may not redefine \"included\" ones.).",
+				attributes: {
+					sequence: [],
+					details: {}
+				},
+				children: {
+					sequence: ["Abbreviation"],
+					details: {}
+				},
+				contentModel: {
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "element",
+						name: "Abbreviation",
+						minOccurs: 1
+					}]
+				},
+				constraints: [{
+					kind: "unique",
+					name: "uniqueAbbreviation_Service",
+					namespace: "http://www.iec.ch/61850/2016/NSD",
+					selector: [{ steps: [{
+						name: "Abbreviation",
+						namespace: "http://www.iec.ch/61850/2016/NSD"
+					}] }],
+					fields: [[{
+						steps: [],
+						attribute: {
+							name: "name",
+							namespace: ""
+						}
+					}]]
+				}],
+				type: "{http://www.iec.ch/61850/2016/NSD}tAbbreviations"
+			}
+		}
 	},
 	AbstractLNClass: {
 		tag: "AbstractLNClass",
@@ -1248,44 +1141,48 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 				"titleID"
 			],
 			details: {
-				base: {
-					type: { builtin: "Name" },
+				base: { type: {
+					builtin: "Name",
 					facets: {
-						pattern: ["[\\x00-\\x7f\\x80-\\xff]+", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
+						pattern: [["[\\u{0}-\\u{FF}]+"]],
 						minLength: 1
 					}
-				},
+				} },
 				deprecated: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
-				descID: {
-					type: { builtin: "normalizedString" },
+				descID: { type: {
+					builtin: "normalizedString",
 					facets: { minLength: 1 }
-				},
+				} },
 				informative: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
 				name: {
-					type: { builtin: "Name" },
 					required: !0,
-					facets: {
-						pattern: ["[\\x00-\\x7f\\x80-\\xff]+", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						minLength: 1
+					type: {
+						builtin: "Name",
+						facets: {
+							pattern: [["[\\u{0}-\\u{FF}]+"]],
+							minLength: 1
+						}
 					}
 				},
 				titleID: {
-					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: { minLength: 1 }
+					type: {
+						builtin: "normalizedString",
+						facets: { minLength: 1 }
+					}
 				}
 			},
 			identityFields: ["name"]
 		},
 		children: {
 			sequence: ["DataObject"],
-			details: { DataObject: {} }
+			details: {}
 		},
 		contentModel: {
 			kind: "sequence",
@@ -1304,16 +1201,20 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		constraints: [{
 			kind: "unique",
 			name: "uniqueDataObjectAbstractLNClass",
+			namespace: "http://www.iec.ch/61850/2016/NSD",
 			selector: [{ steps: [{
-				kind: "name",
-				value: "DataObject"
+				name: "DataObject",
+				namespace: "http://www.iec.ch/61850/2016/NSD"
 			}] }],
-			fields: [{ target: {
-				kind: "attribute",
-				value: "name",
-				isAttribute: !0
-			} }]
-		}]
+			fields: [[{
+				steps: [],
+				attribute: {
+					name: "name",
+					namespace: ""
+				}
+			}]]
+		}],
+		type: "{http://www.iec.ch/61850/2016/NSD}tAbstractLNClass"
 	},
 	ApplicableServiceNS: {
 		tag: "ApplicableServiceNS",
@@ -1322,33 +1223,24 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 			uri: "http://www.iec.ch/61850/2016/NSD"
 		},
 		documentation: "Root element of a file holding the allowed usages of ServiceNS-es.",
+		global: !0,
 		parents: [],
 		attributes: {
 			sequence: ["date", "version"],
 			details: {
 				date: {
-					type: { builtin: "dateTime" },
-					required: !0
+					required: !0,
+					type: { builtin: "dateTime" }
 				},
 				version: {
-					type: { builtin: "unsignedInt" },
 					required: !0,
-					facets: {
-						minInclusive: 0,
-						maxInclusive: 4294967295
-					}
+					type: { builtin: "unsignedInt" }
 				}
 			}
 		},
 		children: {
 			sequence: ["Copyright", "ServiceNsUsage"],
-			details: {
-				Copyright: { maxOccurs: 1 },
-				ServiceNsUsage: {
-					required: !0,
-					minOccurs: 1
-				}
-			}
+			details: {}
 		},
 		contentModel: {
 			kind: "sequence",
@@ -1373,7 +1265,8 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 					minOccurs: 1
 				}]
 			}]
-		}
+		},
+		type: "{http://www.iec.ch/61850/2016/NSD}tApplicableServiceNS"
 	},
 	ApplicableServices: {
 		tag: "ApplicableServices",
@@ -1388,10 +1281,7 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		},
 		children: {
 			sequence: ["Service", "DataSetMemberOf"],
-			details: {
-				Service: {},
-				DataSetMemberOf: {}
-			}
+			details: {}
 		},
 		contentModel: {
 			kind: "sequence",
@@ -1408,28 +1298,35 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		constraints: [{
 			kind: "unique",
 			name: "uniqueDataSetMemberOf",
+			namespace: "http://www.iec.ch/61850/2016/NSD",
 			selector: [{ steps: [{
-				kind: "name",
-				value: "DataSetMemberOf"
+				name: "DataSetMemberOf",
+				namespace: "http://www.iec.ch/61850/2016/NSD"
 			}] }],
-			fields: [{ target: {
-				kind: "attribute",
-				value: "cb",
-				isAttribute: !0
-			} }]
+			fields: [[{
+				steps: [],
+				attribute: {
+					name: "cb",
+					namespace: ""
+				}
+			}]]
 		}, {
 			kind: "unique",
 			name: "uniqueService",
+			namespace: "http://www.iec.ch/61850/2016/NSD",
 			selector: [{ steps: [{
-				kind: "name",
-				value: "Service"
+				name: "Service",
+				namespace: "http://www.iec.ch/61850/2016/NSD"
 			}] }],
-			fields: [{ target: {
-				kind: "attribute",
-				value: "name",
-				isAttribute: !0
-			} }]
-		}]
+			fields: [[{
+				steps: [],
+				attribute: {
+					name: "name",
+					namespace: ""
+				}
+			}]]
+		}],
+		type: "{http://www.iec.ch/61850/2016/NSD}tApplicableServices"
 	},
 	AppliesTo: {
 		tag: "AppliesTo",
@@ -1449,45 +1346,51 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 			],
 			details: {
 				id: {
-					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: { pattern: ["\\x00-\\x7f+"] }
+					type: {
+						builtin: "normalizedString",
+						facets: { pattern: [["[\\u{0}-\\u{7F}]+"]] }
+					}
 				},
 				publicationStage: {
-					type: { builtin: "token" },
 					default: "IS",
-					facets: { enumeration: [
-						"WD",
-						"CD",
-						"CDV",
-						"DTS",
-						"DTR",
-						"FDIS",
-						"TS",
-						"TR",
-						"IS"
-					] }
+					type: {
+						builtin: "token",
+						facets: { enumeration: [
+							"WD",
+							"CD",
+							"CDV",
+							"DTS",
+							"DTR",
+							"FDIS",
+							"TS",
+							"TR",
+							"IS"
+						] }
+					}
 				},
 				release: {
-					type: { builtin: "unsignedByte" },
 					default: "1",
-					facets: {
-						minInclusive: 0,
-						maxInclusive: 255,
-						minExclusive: 0
+					type: {
+						builtin: "unsignedByte",
+						facets: { minExclusive: "0" }
 					}
 				},
 				revision: {
-					type: { builtin: "token" },
 					default: "A",
-					facets: { pattern: ["[A-Z]"] }
+					type: {
+						builtin: "token",
+						facets: { pattern: [["[A-Z]"]] }
+					}
 				},
 				version: {
-					type: { builtin: "unsignedShort" },
 					required: !0,
-					facets: {
-						minInclusive: 2002,
-						maxInclusive: 2099
+					type: {
+						builtin: "unsignedShort",
+						facets: {
+							minInclusive: "2002",
+							maxInclusive: "2099"
+						}
 					}
 				}
 			}
@@ -1507,21 +1410,24 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		attributes: {
 			sequence: ["descID", "name"],
 			details: {
-				descID: {
-					type: { builtin: "normalizedString" },
+				descID: { type: {
+					builtin: "normalizedString",
 					facets: { minLength: 1 }
-				},
+				} },
 				name: {
-					type: { builtin: "token" },
 					required: !0,
-					facets: { minLength: 1 }
+					type: {
+						builtin: "token",
+						facets: { minLength: 1 }
+					}
 				}
 			}
 		},
 		children: {
 			sequence: [],
 			details: {}
-		}
+		},
+		type: "{http://www.iec.ch/61850/2016/NSD}tBasicType"
 	},
 	BasicTypes: {
 		tag: "BasicTypes",
@@ -1537,10 +1443,7 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		},
 		children: {
 			sequence: ["BasicType"],
-			details: { BasicType: {
-				required: !0,
-				minOccurs: 1
-			} }
+			details: {}
 		},
 		contentModel: {
 			kind: "sequence",
@@ -1551,7 +1454,8 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 				name: "BasicType",
 				minOccurs: 1
 			}]
-		}
+		},
+		type: "{http://www.iec.ch/61850/2016/NSD}tBasicTypes"
 	},
 	CDC: {
 		tag: "CDC",
@@ -1575,41 +1479,45 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 			],
 			details: {
 				deprecated: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
-				descID: {
-					type: { builtin: "normalizedString" },
+				descID: { type: {
+					builtin: "normalizedString",
 					facets: { minLength: 1 }
-				},
+				} },
 				enumParameterized: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
 				informative: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
 				name: {
-					type: { builtin: "Name" },
 					required: !0,
-					facets: {
-						pattern: ["[\\x00-\\x7f\\x80-\\xff]+", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						minLength: 1
+					type: {
+						builtin: "Name",
+						facets: {
+							pattern: [["[\\u{0}-\\u{FF}]+"]],
+							minLength: 1
+						}
 					}
 				},
 				statistics: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
 				titleID: {
-					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: { minLength: 1 }
+					type: {
+						builtin: "normalizedString",
+						facets: { minLength: 1 }
+					}
 				},
 				typeKindParameterized: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
 				variant: { type: { builtin: "token" } }
 			},
@@ -1621,14 +1529,7 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 				"DataAttribute",
 				"ServiceParameter"
 			],
-			details: {
-				SubDataObject: {},
-				DataAttribute: {
-					required: !0,
-					minOccurs: 1
-				},
-				ServiceParameter: { maxOccurs: 1 }
-			}
+			details: {}
 		},
 		contentModel: {
 			kind: "sequence",
@@ -1654,13 +1555,17 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		constraints: [{
 			kind: "unique",
 			name: "uniqueCDCChild",
-			selector: [{ steps: [{ kind: "wildcard" }] }],
-			fields: [{ target: {
-				kind: "attribute",
-				value: "name",
-				isAttribute: !0
-			} }]
-		}]
+			namespace: "http://www.iec.ch/61850/2016/NSD",
+			selector: [{ steps: [{}] }],
+			fields: [[{
+				steps: [],
+				attribute: {
+					name: "name",
+					namespace: ""
+				}
+			}]]
+		}],
+		type: "{http://www.iec.ch/61850/2016/NSD}tCDC"
 	},
 	CDCs: {
 		tag: "CDCs",
@@ -1676,16 +1581,7 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		},
 		children: {
 			sequence: ["CDC"],
-			details: { CDC: { constraints: [{
-				kind: "unique",
-				name: "uniqueCDCChild",
-				selector: [{ steps: [{ kind: "wildcard" }] }],
-				fields: [{ target: {
-					kind: "attribute",
-					value: "name",
-					isAttribute: !0
-				} }]
-			}] } }
+			details: {}
 		},
 		contentModel: {
 			kind: "sequence",
@@ -1699,20 +1595,26 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		constraints: [{
 			kind: "unique",
 			name: "uniqueCDC",
+			namespace: "http://www.iec.ch/61850/2016/NSD",
 			selector: [{ steps: [{
-				kind: "name",
-				value: "CDC"
+				name: "CDC",
+				namespace: "http://www.iec.ch/61850/2016/NSD"
 			}] }],
-			fields: [{ target: {
-				kind: "attribute",
-				value: "name",
-				isAttribute: !0
-			} }, { target: {
-				kind: "attribute",
-				value: "variant",
-				isAttribute: !0
-			} }]
-		}]
+			fields: [[{
+				steps: [],
+				attribute: {
+					name: "name",
+					namespace: ""
+				}
+			}], [{
+				steps: [],
+				attribute: {
+					name: "variant",
+					namespace: ""
+				}
+			}]]
+		}],
+		type: "{http://www.iec.ch/61850/2016/NSD}tCDCs"
 	},
 	Changes: {
 		tag: "Changes",
@@ -1732,35 +1634,37 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 				"version"
 			],
 			details: {
-				changesID: {
-					type: { builtin: "normalizedString" },
+				changesID: { type: {
+					builtin: "normalizedString",
 					facets: { minLength: 1 }
-				},
+				} },
 				date: { type: { builtin: "date" } },
 				release: {
-					type: { builtin: "unsignedByte" },
 					default: "1",
-					facets: {
-						minInclusive: 0,
-						maxInclusive: 255,
-						minExclusive: 0
+					type: {
+						builtin: "unsignedByte",
+						facets: { minExclusive: "0" }
 					}
 				},
 				revision: {
-					type: { builtin: "token" },
 					default: "A",
-					facets: { pattern: ["[A-Z]"] }
+					type: {
+						builtin: "token",
+						facets: { pattern: [["[A-Z]"]] }
+					}
 				},
-				tissues: {
-					type: { builtin: "normalizedString" },
+				tissues: { type: {
+					builtin: "normalizedString",
 					facets: { minLength: 1 }
-				},
+				} },
 				version: {
-					type: { builtin: "unsignedShort" },
 					required: !0,
-					facets: {
-						minInclusive: 2002,
-						maxInclusive: 2099
+					type: {
+						builtin: "unsignedShort",
+						facets: {
+							minInclusive: "2002",
+							maxInclusive: "2099"
+						}
 					}
 				}
 			}
@@ -1768,7 +1672,8 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		children: {
 			sequence: [],
 			details: {}
-		}
+		},
+		type: "{http://www.iec.ch/61850/2016/NSD}tChanges"
 	},
 	ConstructedAttribute: {
 		tag: "ConstructedAttribute",
@@ -1784,53 +1689,44 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 				"descID",
 				"informative",
 				"name",
-				"titleID",
-				"typeKindParameterized",
-				"xsi:type"
+				"titleID"
 			],
 			details: {
 				deprecated: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
-				descID: {
-					type: { builtin: "normalizedString" },
+				descID: { type: {
+					builtin: "normalizedString",
 					facets: { minLength: 1 }
-				},
+				} },
 				informative: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
 				name: {
-					type: { builtin: "Name" },
 					required: !0,
-					facets: {
-						pattern: ["[\\x00-\\x7f\\x80-\\xff]+", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						minLength: 1
+					type: {
+						builtin: "Name",
+						facets: {
+							pattern: [["[\\u{0}-\\u{FF}]+"]],
+							minLength: 1
+						}
 					}
 				},
 				titleID: {
-					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: { minLength: 1 }
-				},
-				typeKindParameterized: { default: "false" },
-				"xsi:type": {
-					namespace: {
-						prefix: "xsi",
-						uri: "http://www.w3.org/2001/XMLSchema-instance"
-					},
-					facets: { enumeration: ["tServiceConstructedAttribute"] }
+					type: {
+						builtin: "normalizedString",
+						facets: { minLength: 1 }
+					}
 				}
 			},
 			identityFields: ["name"]
 		},
 		children: {
 			sequence: ["SubDataAttribute"],
-			details: { SubDataAttribute: {
-				required: !0,
-				minOccurs: 1
-			} }
+			details: {}
 		},
 		contentModel: {
 			kind: "sequence",
@@ -1845,16 +1741,21 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		constraints: [{
 			kind: "unique",
 			name: "uniqueSubDataAttribute",
+			namespace: "http://www.iec.ch/61850/2016/NSD",
 			selector: [{ steps: [{
-				kind: "name",
-				value: "SubDataAttribute"
+				name: "SubDataAttribute",
+				namespace: "http://www.iec.ch/61850/2016/NSD"
 			}] }],
-			fields: [{ target: {
-				kind: "attribute",
-				value: "name",
-				isAttribute: !0
-			} }]
-		}]
+			fields: [[{
+				steps: [],
+				attribute: {
+					name: "name",
+					namespace: ""
+				}
+			}]]
+		}],
+		type: "{http://www.iec.ch/61850/2016/NSD}tConstructedAttribute",
+		variants: ["{http://www.iec.ch/61850/2016/NSD}tServiceConstructedAttribute"]
 	},
 	ConstructedAttributes: {
 		tag: "ConstructedAttributes",
@@ -1870,19 +1771,7 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		},
 		children: {
 			sequence: ["ConstructedAttribute"],
-			details: { ConstructedAttribute: { constraints: [{
-				kind: "unique",
-				name: "uniqueSubDataAttribute",
-				selector: [{ steps: [{
-					kind: "name",
-					value: "SubDataAttribute"
-				}] }],
-				fields: [{ target: {
-					kind: "attribute",
-					value: "name",
-					isAttribute: !0
-				} }]
-			}] } }
+			details: {}
 		},
 		contentModel: {
 			kind: "sequence",
@@ -1896,16 +1785,20 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		constraints: [{
 			kind: "unique",
 			name: "uniqueConstructedAttribute",
+			namespace: "http://www.iec.ch/61850/2016/NSD",
 			selector: [{ steps: [{
-				kind: "name",
-				value: "ConstructedAttribute"
+				name: "ConstructedAttribute",
+				namespace: "http://www.iec.ch/61850/2016/NSD"
 			}] }],
-			fields: [{ target: {
-				kind: "attribute",
-				value: "name",
-				isAttribute: !0
-			} }]
-		}]
+			fields: [[{
+				steps: [],
+				attribute: {
+					name: "name",
+					namespace: ""
+				}
+			}]]
+		}],
+		type: "{http://www.iec.ch/61850/2016/NSD}tConstructedAttributes"
 	},
 	Copyright: {
 		tag: "Copyright",
@@ -1914,11 +1807,12 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 			uri: "http://www.iec.ch/61850/2016/NSD"
 		},
 		documentation: "The copyright notice attached to the XML",
+		global: !0,
 		parents: [
+			"ApplicableServiceNS",
 			"NS",
-			"ServiceNS",
 			"NSDoc",
-			"ApplicableServiceNS"
+			"ServiceNS"
 		],
 		attributes: {
 			sequence: [],
@@ -1926,18 +1820,7 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		},
 		children: {
 			sequence: ["Notice", "License"],
-			details: {
-				Notice: {
-					required: !0,
-					minOccurs: 1,
-					maxOccurs: 1
-				},
-				License: {
-					required: !0,
-					minOccurs: 1,
-					maxOccurs: 1
-				}
-			}
+			details: {}
 		},
 		contentModel: {
 			kind: "sequence",
@@ -1954,7 +1837,8 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 				minOccurs: 1,
 				maxOccurs: 1
 			}]
-		}
+		},
+		type: "{http://www.iec.ch/61850/2016/NSD}tCopyrightNotice"
 	},
 	DataAttribute: {
 		tag: "DataAttribute",
@@ -1988,91 +1872,92 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 			],
 			details: {
 				dchg: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
 				defaultValue: { type: { builtin: "normalizedString" } },
 				deprecated: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
-				descID: {
-					type: { builtin: "normalizedString" },
+				descID: { type: {
+					builtin: "normalizedString",
 					facets: { minLength: 1 }
-				},
+				} },
 				dupd: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
 				fc: {
-					type: { builtin: "token" },
 					required: !0,
-					facets: {
-						pattern: ["[\\x00-\\x7f]+"],
-						minLength: 1
+					type: {
+						builtin: "token",
+						facets: {
+							pattern: [["[\\u{0}-\\u{7F}]+"]],
+							minLength: 1
+						}
 					}
 				},
 				informative: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
 				isArray: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
-				maxIndexAttribute: {
-					type: { builtin: "Name" },
+				maxIndexAttribute: { type: {
+					builtin: "Name",
 					facets: {
-						pattern: ["[\\x00-\\x7f\\x80-\\xff]+", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
+						pattern: [["[\\u{0}-\\u{FF}]+"]],
 						minLength: 1
 					}
-				},
+				} },
 				maxValue: { type: { builtin: "decimal" } },
 				minIndex: {
-					type: { builtin: "unsignedInt" },
 					default: "0",
-					facets: {
-						minInclusive: 0,
-						maxInclusive: 4294967295
-					}
+					type: { builtin: "unsignedInt" }
 				},
 				minValue: { type: { builtin: "decimal" } },
 				name: {
-					type: { builtin: "Name" },
 					required: !0,
-					facets: {
-						pattern: ["[\\x00-\\x7f\\x80-\\xff]+", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						minLength: 1
+					type: {
+						builtin: "Name",
+						facets: {
+							pattern: [["[\\u{0}-\\u{FF}]+"]],
+							minLength: 1
+						}
 					}
 				},
 				presCond: {
-					type: { builtin: "normalizedString" },
-					default: "M"
+					default: "M",
+					type: { builtin: "normalizedString" }
 				},
 				presCondArgs: { type: { builtin: "normalizedString" } },
-				presCondArgsID: {
-					type: { builtin: "normalizedString" },
+				presCondArgsID: { type: {
+					builtin: "normalizedString",
 					facets: { minLength: 1 }
-				},
+				} },
 				qchg: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
-				sizeAttribute: {
-					type: { builtin: "Name" },
+				sizeAttribute: { type: {
+					builtin: "Name",
 					facets: {
-						pattern: ["[\\x00-\\x7f\\x80-\\xff]+", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
+						pattern: [["[\\u{0}-\\u{FF}]+"]],
 						minLength: 1
 					}
-				},
-				type: {
-					type: { builtin: "Name" },
+				} },
+				type: { type: {
+					builtin: "Name",
 					facets: {
-						pattern: ["[\\x00-\\x7f\\x80-\\xff]+", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
+						pattern: [["[\\u{0}-\\u{FF}]+"]],
 						minLength: 1
 					}
-				},
+				} },
 				typeKind: {
+					default: "BASIC",
 					type: { union: [{
 						builtin: "token",
 						facets: { enumeration: [
@@ -2083,14 +1968,7 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 					}, {
 						builtin: "token",
 						facets: { enumeration: ["undefined"] }
-					}] },
-					default: "BASIC",
-					facets: { enumeration: [
-						"BASIC",
-						"ENUMERATED",
-						"CONSTRUCTED",
-						"undefined"
-					] }
+					}] }
 				}
 			},
 			identityFields: ["name"]
@@ -2098,7 +1976,8 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		children: {
 			sequence: [],
 			details: {}
-		}
+		},
+		type: "{http://www.iec.ch/61850/2016/NSD}tDataAttribute"
 	},
 	DataObject: {
 		tag: "DataObject",
@@ -2127,78 +2006,83 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 			],
 			details: {
 				deprecated: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
-				descID: {
-					type: { builtin: "normalizedString" },
+				descID: { type: {
+					builtin: "normalizedString",
 					facets: { minLength: 1 }
-				},
+				} },
 				dsPresCond: {
-					type: { builtin: "normalizedString" },
-					default: "M"
+					default: "M",
+					type: { builtin: "normalizedString" }
 				},
 				dsPresCondArgs: { type: { builtin: "normalizedString" } },
-				dsPresCondArgsID: {
-					type: { builtin: "normalizedString" },
+				dsPresCondArgsID: { type: {
+					builtin: "normalizedString",
 					facets: { minLength: 1 }
-				},
+				} },
 				informative: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
 				name: {
-					type: { builtin: "Name" },
 					required: !0,
-					facets: {
-						pattern: ["[\\x00-\\x7f\\x80-\\xff]+", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						minLength: 1,
-						maxLength: 12
+					type: {
+						builtin: "Name",
+						facets: {
+							pattern: [["[\\u{0}-\\u{FF}]+"]],
+							minLength: 1,
+							maxLength: 12
+						}
 					}
 				},
 				presCond: {
-					type: { builtin: "normalizedString" },
-					default: "M"
+					default: "M",
+					type: { builtin: "normalizedString" }
 				},
 				presCondArgs: { type: { builtin: "normalizedString" } },
-				presCondArgsID: {
-					type: { builtin: "normalizedString" },
+				presCondArgsID: { type: {
+					builtin: "normalizedString",
 					facets: { minLength: 1 }
-				},
+				} },
 				transient: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
 				type: {
-					type: { builtin: "Name" },
 					required: !0,
-					facets: {
-						pattern: ["[\\x00-\\x7f\\x80-\\xff]+", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						minLength: 1
+					type: {
+						builtin: "Name",
+						facets: {
+							pattern: [["[\\u{0}-\\u{FF}]+"]],
+							minLength: 1
+						}
 					}
 				},
-				underlyingType: {
-					type: { builtin: "Name" },
+				underlyingType: { type: {
+					builtin: "Name",
 					facets: {
-						pattern: ["[\\x00-\\x7f\\x80-\\xff]+", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
+						pattern: [["[\\u{0}-\\u{FF}]+"]],
 						minLength: 1
 					}
-				},
-				underlyingTypeKind: {
-					type: { builtin: "token" },
+				} },
+				underlyingTypeKind: { type: {
+					builtin: "token",
 					facets: { enumeration: [
 						"BASIC",
 						"ENUMERATED",
 						"CONSTRUCTED"
 					] }
-				}
+				} }
 			},
 			identityFields: ["name"]
 		},
 		children: {
 			sequence: [],
 			details: {}
-		}
+		},
+		type: "{http://www.iec.ch/61850/2016/NSD}tDataObject"
 	},
 	DataSetMemberOf: {
 		tag: "DataSetMemberOf",
@@ -2211,21 +2095,24 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		attributes: {
 			sequence: ["cb"],
 			details: { cb: {
-				type: { builtin: "normalizedString" },
 				required: !0,
-				facets: { enumeration: [
-					"RCB",
-					"LCB",
-					"GoCB",
-					"SVCB"
-				] }
+				type: {
+					builtin: "normalizedString",
+					facets: { enumeration: [
+						"RCB",
+						"LCB",
+						"GoCB",
+						"SVCB"
+					] }
+				}
 			} },
 			identityFields: ["cb"]
 		},
 		children: {
 			sequence: [],
 			details: {}
-		}
+		},
+		type: "{http://www.iec.ch/61850/2016/NSD}tDataSetMemberOf"
 	},
 	DependsOn: {
 		tag: "DependsOn",
@@ -2245,45 +2132,51 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 			],
 			details: {
 				id: {
-					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: { pattern: ["\\x00-\\x7f+"] }
+					type: {
+						builtin: "normalizedString",
+						facets: { pattern: [["[\\u{0}-\\u{7F}]+"]] }
+					}
 				},
 				publicationStage: {
-					type: { builtin: "token" },
 					default: "IS",
-					facets: { enumeration: [
-						"WD",
-						"CD",
-						"CDV",
-						"DTS",
-						"DTR",
-						"FDIS",
-						"TS",
-						"TR",
-						"IS"
-					] }
+					type: {
+						builtin: "token",
+						facets: { enumeration: [
+							"WD",
+							"CD",
+							"CDV",
+							"DTS",
+							"DTR",
+							"FDIS",
+							"TS",
+							"TR",
+							"IS"
+						] }
+					}
 				},
 				release: {
-					type: { builtin: "unsignedByte" },
 					default: "1",
-					facets: {
-						minInclusive: 0,
-						maxInclusive: 255,
-						minExclusive: 0
+					type: {
+						builtin: "unsignedByte",
+						facets: { minExclusive: "0" }
 					}
 				},
 				revision: {
-					type: { builtin: "token" },
 					default: "A",
-					facets: { pattern: ["[A-Z]"] }
+					type: {
+						builtin: "token",
+						facets: { pattern: [["[A-Z]"]] }
+					}
 				},
 				version: {
-					type: { builtin: "unsignedShort" },
 					required: !0,
-					facets: {
-						minInclusive: 2002,
-						maxInclusive: 2099
+					type: {
+						builtin: "unsignedShort",
+						facets: {
+							minInclusive: "2002",
+							maxInclusive: "2099"
+						}
 					}
 				}
 			}
@@ -2304,9 +2197,11 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		attributes: {
 			sequence: ["id"],
 			details: { id: {
-				type: { builtin: "normalizedString" },
 				required: !0,
-				facets: { minLength: 1 }
+				type: {
+					builtin: "normalizedString",
+					facets: { minLength: 1 }
+				}
 			} },
 			identityFields: ["id"]
 		},
@@ -2319,13 +2214,14 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 			kind: "sequence",
 			particles: [{
 				kind: "any",
-				namespace: ["##any"],
+				notNamespace: [],
 				processContents: "lax",
 				minOccurs: 1,
 				maxOccurs: 1
 			}]
 		},
-		textContent: {}
+		textContent: {},
+		type: "{http://www.iec.ch/61850/2016/NSD}tDoc"
 	},
 	Enumeration: {
 		tag: "Enumeration",
@@ -2346,46 +2242,47 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 			],
 			details: {
 				deprecated: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
-				descID: {
-					type: { builtin: "normalizedString" },
+				descID: { type: {
+					builtin: "normalizedString",
 					facets: { minLength: 1 }
-				},
+				} },
 				informative: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
-				inheritedFrom: {
-					type: { builtin: "Name" },
+				inheritedFrom: { type: {
+					builtin: "Name",
 					facets: {
-						pattern: ["[\\x00-\\x7f\\x80-\\xff]+", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
+						pattern: [["[\\u{0}-\\u{FF}]+"]],
 						minLength: 1
 					}
-				},
+				} },
 				name: {
-					type: { builtin: "Name" },
 					required: !0,
-					facets: {
-						pattern: ["[\\x00-\\x7f\\x80-\\xff]+", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						minLength: 1
+					type: {
+						builtin: "Name",
+						facets: {
+							pattern: [["[\\u{0}-\\u{FF}]+"]],
+							minLength: 1
+						}
 					}
 				},
 				titleID: {
-					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: { minLength: 1 }
+					type: {
+						builtin: "normalizedString",
+						facets: { minLength: 1 }
+					}
 				}
 			},
 			identityFields: ["name"]
 		},
 		children: {
 			sequence: ["Literal"],
-			details: { Literal: {
-				required: !0,
-				minOccurs: 1
-			} }
+			details: {}
 		},
 		contentModel: {
 			kind: "sequence",
@@ -2400,28 +2297,35 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		constraints: [{
 			kind: "unique",
 			name: "uniqueLiteralName",
+			namespace: "http://www.iec.ch/61850/2016/NSD",
 			selector: [{ steps: [{
-				kind: "name",
-				value: "Literal"
+				name: "Literal",
+				namespace: "http://www.iec.ch/61850/2016/NSD"
 			}] }],
-			fields: [{ target: {
-				kind: "attribute",
-				value: "name",
-				isAttribute: !0
-			} }]
+			fields: [[{
+				steps: [],
+				attribute: {
+					name: "name",
+					namespace: ""
+				}
+			}]]
 		}, {
 			kind: "unique",
 			name: "uniqueLiteralVal",
+			namespace: "http://www.iec.ch/61850/2016/NSD",
 			selector: [{ steps: [{
-				kind: "name",
-				value: "Literal"
+				name: "Literal",
+				namespace: "http://www.iec.ch/61850/2016/NSD"
 			}] }],
-			fields: [{ target: {
-				kind: "attribute",
-				value: "literalVal",
-				isAttribute: !0
-			} }]
-		}]
+			fields: [[{
+				steps: [],
+				attribute: {
+					name: "literalVal",
+					namespace: ""
+				}
+			}]]
+		}],
+		type: "{http://www.iec.ch/61850/2016/NSD}tEnumeration"
 	},
 	Enumerations: {
 		tag: "Enumerations",
@@ -2437,31 +2341,7 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		},
 		children: {
 			sequence: ["Enumeration"],
-			details: { Enumeration: { constraints: [{
-				kind: "unique",
-				name: "uniqueLiteralName",
-				selector: [{ steps: [{
-					kind: "name",
-					value: "Literal"
-				}] }],
-				fields: [{ target: {
-					kind: "attribute",
-					value: "name",
-					isAttribute: !0
-				} }]
-			}, {
-				kind: "unique",
-				name: "uniqueLiteralVal",
-				selector: [{ steps: [{
-					kind: "name",
-					value: "Literal"
-				}] }],
-				fields: [{ target: {
-					kind: "attribute",
-					value: "literalVal",
-					isAttribute: !0
-				} }]
-			}] } }
+			details: {}
 		},
 		contentModel: {
 			kind: "sequence",
@@ -2475,16 +2355,20 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		constraints: [{
 			kind: "unique",
 			name: "uniqueEnumeration",
+			namespace: "http://www.iec.ch/61850/2016/NSD",
 			selector: [{ steps: [{
-				kind: "name",
-				value: "Enumeration"
+				name: "Enumeration",
+				namespace: "http://www.iec.ch/61850/2016/NSD"
 			}] }],
-			fields: [{ target: {
-				kind: "attribute",
-				value: "name",
-				isAttribute: !0
-			} }]
-		}]
+			fields: [[{
+				steps: [],
+				attribute: {
+					name: "name",
+					namespace: ""
+				}
+			}]]
+		}],
+		type: "{http://www.iec.ch/61850/2016/NSD}tEnumerations"
 	},
 	FunctionalConstraint: {
 		tag: "FunctionalConstraint",
@@ -2502,54 +2386,29 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 			],
 			details: {
 				abbreviation: {
-					type: { builtin: "token" },
 					required: !0,
-					facets: {
-						pattern: ["[\\x00-\\x7f]+"],
-						minLength: 1
+					type: {
+						builtin: "token",
+						facets: {
+							pattern: [["[\\u{0}-\\u{7F}]+"]],
+							minLength: 1
+						}
 					}
 				},
-				descID: {
-					type: { builtin: "normalizedString" },
+				descID: { type: {
+					builtin: "normalizedString",
 					facets: { minLength: 1 }
-				},
-				titleID: {
-					type: { builtin: "normalizedString" },
+				} },
+				titleID: { type: {
+					builtin: "normalizedString",
 					facets: { minLength: 1 }
-				}
+				} }
 			},
 			identityFields: ["abbreviation"]
 		},
 		children: {
 			sequence: ["ApplicableServices"],
-			details: { ApplicableServices: {
-				maxOccurs: 1,
-				constraints: [{
-					kind: "unique",
-					name: "uniqueDataSetMemberOf",
-					selector: [{ steps: [{
-						kind: "name",
-						value: "DataSetMemberOf"
-					}] }],
-					fields: [{ target: {
-						kind: "attribute",
-						value: "cb",
-						isAttribute: !0
-					} }]
-				}, {
-					kind: "unique",
-					name: "uniqueService",
-					selector: [{ steps: [{
-						kind: "name",
-						value: "Service"
-					}] }],
-					fields: [{ target: {
-						kind: "attribute",
-						value: "name",
-						isAttribute: !0
-					} }]
-				}]
-			} }
+			details: {}
 		},
 		contentModel: {
 			kind: "sequence",
@@ -2560,7 +2419,8 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 				name: "ApplicableServices",
 				maxOccurs: 1
 			}]
-		}
+		},
+		type: "{http://www.iec.ch/61850/2016/NSD}tFunctionalConstraint"
 	},
 	FunctionalConstraints: {
 		tag: "FunctionalConstraints",
@@ -2576,10 +2436,7 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		},
 		children: {
 			sequence: ["FunctionalConstraint"],
-			details: { FunctionalConstraint: {
-				required: !0,
-				minOccurs: 1
-			} }
+			details: {}
 		},
 		contentModel: {
 			kind: "sequence",
@@ -2591,19 +2448,93 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 				minOccurs: 1
 			}]
 		},
-		constraints: [{
-			kind: "unique",
-			name: "uniqueFunctionalConstraint",
-			selector: [{ steps: [{
-				kind: "name",
-				value: "FunctionalConstraint"
-			}] }],
-			fields: [{ target: {
-				kind: "attribute",
-				value: "abbreviation",
-				isAttribute: !0
-			} }]
-		}]
+		type: "{http://www.iec.ch/61850/2016/NSD}tFunctionalConstraints",
+		declarations: {
+			1: {
+				namespace: {
+					prefix: "",
+					uri: "http://www.iec.ch/61850/2016/NSD"
+				},
+				documentation: "List of Functional Constraints added by this namespace. Is cumulative to those defined in namespaces this one DependsOn (may not redefine \"included\" ones).",
+				attributes: {
+					sequence: [],
+					details: {}
+				},
+				children: {
+					sequence: ["FunctionalConstraint"],
+					details: {}
+				},
+				contentModel: {
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "element",
+						name: "FunctionalConstraint",
+						minOccurs: 1
+					}]
+				},
+				constraints: [{
+					kind: "unique",
+					name: "uniqueFunctionalConstraint",
+					namespace: "http://www.iec.ch/61850/2016/NSD",
+					selector: [{ steps: [{
+						name: "FunctionalConstraint",
+						namespace: "http://www.iec.ch/61850/2016/NSD"
+					}] }],
+					fields: [[{
+						steps: [],
+						attribute: {
+							name: "abbreviation",
+							namespace: ""
+						}
+					}]]
+				}],
+				type: "{http://www.iec.ch/61850/2016/NSD}tFunctionalConstraints"
+			},
+			2: {
+				namespace: {
+					prefix: "",
+					uri: "http://www.iec.ch/61850/2016/NSD"
+				},
+				documentation: "List of Functional Constraints added by this namespace. Is cumulative to those defined in namespaces this one needs (may not redefine \"included\" ones.).",
+				attributes: {
+					sequence: [],
+					details: {}
+				},
+				children: {
+					sequence: ["FunctionalConstraint"],
+					details: {}
+				},
+				contentModel: {
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "element",
+						name: "FunctionalConstraint",
+						minOccurs: 1
+					}]
+				},
+				constraints: [{
+					kind: "unique",
+					name: "uniqueFunctionalConstraint_Service",
+					namespace: "http://www.iec.ch/61850/2016/NSD",
+					selector: [{ steps: [{
+						name: "FunctionalConstraint",
+						namespace: "http://www.iec.ch/61850/2016/NSD"
+					}] }],
+					fields: [[{
+						steps: [],
+						attribute: {
+							name: "abbreviation",
+							namespace: ""
+						}
+					}]]
+				}],
+				type: "{http://www.iec.ch/61850/2016/NSD}tFunctionalConstraints"
+			}
+		}
 	},
 	LNClass: {
 		tag: "LNClass",
@@ -2625,53 +2556,53 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 				"titleID"
 			],
 			details: {
-				base: {
-					type: { builtin: "Name" },
+				base: { type: {
+					builtin: "Name",
 					facets: {
-						pattern: ["[\\x00-\\x7f\\x80-\\xff]+", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
+						pattern: [["[\\u{0}-\\u{FF}]+"]],
 						minLength: 1
 					}
-				},
+				} },
 				canHaveLOG: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
 				deprecated: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
-				descID: {
-					type: { builtin: "normalizedString" },
+				descID: { type: {
+					builtin: "normalizedString",
 					facets: { minLength: 1 }
-				},
+				} },
 				informative: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
 				isExtension: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
 				name: {
-					type: { builtin: "Name" },
 					required: !0,
-					facets: { pattern: [
-						"LLN0",
-						"[A-Z]{4}",
-						"[A-Za-z_:][-.:0-9A-Z_a-z]*"
-					] }
+					type: {
+						builtin: "Name",
+						facets: { pattern: [["LLN0", "[A-Z]{4}"]] }
+					}
 				},
 				titleID: {
-					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: { minLength: 1 }
+					type: {
+						builtin: "normalizedString",
+						facets: { minLength: 1 }
+					}
 				}
 			},
 			identityFields: ["name"]
 		},
 		children: {
 			sequence: ["DataObject"],
-			details: { DataObject: {} }
+			details: {}
 		},
 		contentModel: {
 			kind: "sequence",
@@ -2690,16 +2621,20 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		constraints: [{
 			kind: "unique",
 			name: "uniqueDataObject",
+			namespace: "http://www.iec.ch/61850/2016/NSD",
 			selector: [{ steps: [{
-				kind: "name",
-				value: "DataObject"
+				name: "DataObject",
+				namespace: "http://www.iec.ch/61850/2016/NSD"
 			}] }],
-			fields: [{ target: {
-				kind: "attribute",
-				value: "name",
-				isAttribute: !0
-			} }]
-		}]
+			fields: [[{
+				steps: [],
+				attribute: {
+					name: "name",
+					namespace: ""
+				}
+			}]]
+		}],
+		type: "{http://www.iec.ch/61850/2016/NSD}tLNClass"
 	},
 	LNClasses: {
 		tag: "LNClasses",
@@ -2715,34 +2650,7 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		},
 		children: {
 			sequence: ["AbstractLNClass", "LNClass"],
-			details: {
-				AbstractLNClass: { constraints: [{
-					kind: "unique",
-					name: "uniqueDataObjectAbstractLNClass",
-					selector: [{ steps: [{
-						kind: "name",
-						value: "DataObject"
-					}] }],
-					fields: [{ target: {
-						kind: "attribute",
-						value: "name",
-						isAttribute: !0
-					} }]
-				}] },
-				LNClass: { constraints: [{
-					kind: "unique",
-					name: "uniqueDataObject",
-					selector: [{ steps: [{
-						kind: "name",
-						value: "DataObject"
-					}] }],
-					fields: [{ target: {
-						kind: "attribute",
-						value: "name",
-						isAttribute: !0
-					} }]
-				}] }
-			}
+			details: {}
 		},
 		contentModel: {
 			kind: "sequence",
@@ -2759,28 +2667,35 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		constraints: [{
 			kind: "unique",
 			name: "uniqueAbstractLNClass",
+			namespace: "http://www.iec.ch/61850/2016/NSD",
 			selector: [{ steps: [{
-				kind: "name",
-				value: "AbstractLNClass"
+				name: "AbstractLNClass",
+				namespace: "http://www.iec.ch/61850/2016/NSD"
 			}] }],
-			fields: [{ target: {
-				kind: "attribute",
-				value: "name",
-				isAttribute: !0
-			} }]
+			fields: [[{
+				steps: [],
+				attribute: {
+					name: "name",
+					namespace: ""
+				}
+			}]]
 		}, {
 			kind: "unique",
 			name: "uniqueLNClass",
+			namespace: "http://www.iec.ch/61850/2016/NSD",
 			selector: [{ steps: [{
-				kind: "name",
-				value: "LNClass"
+				name: "LNClass",
+				namespace: "http://www.iec.ch/61850/2016/NSD"
 			}] }],
-			fields: [{ target: {
-				kind: "attribute",
-				value: "name",
-				isAttribute: !0
-			} }]
-		}]
+			fields: [[{
+				steps: [],
+				attribute: {
+					name: "name",
+					namespace: ""
+				}
+			}]]
+		}],
+		type: "{http://www.iec.ch/61850/2016/NSD}tLNClasses"
 	},
 	License: {
 		tag: "License",
@@ -2793,17 +2708,14 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		attributes: {
 			sequence: ["kind", "uri"],
 			details: {
-				kind: {
-					type: { builtin: "Name" },
-					facets: {
-						enumeration: [
-							"Standard",
-							"Private",
-							"None"
-						],
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"]
-					}
-				},
+				kind: { type: {
+					builtin: "Name",
+					facets: { enumeration: [
+						"Standard",
+						"Private",
+						"None"
+					] }
+				} },
 				uri: { type: { builtin: "normalizedString" } }
 			}
 		},
@@ -2811,7 +2723,8 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 			sequence: [],
 			details: {}
 		},
-		textContent: {}
+		textContent: {},
+		type: "{http://www.iec.ch/61850/2016/NSD}tLicense"
 	},
 	Literal: {
 		tag: "Literal",
@@ -2830,31 +2743,29 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 			],
 			details: {
 				deprecated: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
-				descID: {
-					type: { builtin: "normalizedString" },
+				descID: { type: {
+					builtin: "normalizedString",
 					facets: { minLength: 1 }
-				},
+				} },
 				informative: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
 				literalVal: {
-					type: { builtin: "int" },
 					required: !0,
-					facets: {
-						minInclusive: -2147483648,
-						maxInclusive: 2147483647
-					}
+					type: { builtin: "int" }
 				},
 				name: {
-					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: {
-						pattern: ["[\\x00-\\x7f\\x80-\\xff]*"],
-						maxLength: 127
+					type: {
+						builtin: "normalizedString",
+						facets: {
+							pattern: [["[\\u{0}-\\u{FF}]*"]],
+							maxLength: 127
+						}
 					}
 				}
 			},
@@ -2863,7 +2774,8 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		children: {
 			sequence: [],
 			details: {}
-		}
+		},
+		type: "{http://www.iec.ch/61850/2016/NSD}tLiteral"
 	},
 	NS: {
 		tag: "NS",
@@ -2872,6 +2784,7 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 			uri: "http://www.iec.ch/61850/2016/NSD"
 		},
 		documentation: "Root element of a namespace definition (NSD) file.",
+		global: !0,
 		parents: [],
 		attributes: {
 			sequence: [
@@ -2885,58 +2798,61 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 				"version"
 			],
 			details: {
-				descID: {
-					type: { builtin: "normalizedString" },
+				descID: { type: {
+					builtin: "normalizedString",
 					facets: { minLength: 1 }
-				},
+				} },
 				id: {
-					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: { pattern: ["\\x00-\\x7f+"] }
+					type: {
+						builtin: "normalizedString",
+						facets: { pattern: [["[\\u{0}-\\u{7F}]+"]] }
+					}
 				},
 				publicationStage: {
-					type: { builtin: "token" },
 					default: "IS",
-					facets: { enumeration: [
-						"WD",
-						"CD",
-						"CDV",
-						"DTS",
-						"DTR",
-						"FDIS",
-						"TS",
-						"TR",
-						"IS"
-					] }
+					type: {
+						builtin: "token",
+						facets: { enumeration: [
+							"WD",
+							"CD",
+							"CDV",
+							"DTS",
+							"DTR",
+							"FDIS",
+							"TS",
+							"TR",
+							"IS"
+						] }
+					}
 				},
 				release: {
-					type: { builtin: "unsignedByte" },
 					default: "1",
-					facets: {
-						minInclusive: 0,
-						maxInclusive: 255,
-						minExclusive: 0
+					type: {
+						builtin: "unsignedByte",
+						facets: { minExclusive: "0" }
 					}
 				},
 				revision: {
-					type: { builtin: "token" },
 					default: "A",
-					facets: { pattern: ["[A-Z]"] }
-				},
-				umlDate: { type: { builtin: "dateTime" } },
-				umlVersion: {
-					type: { builtin: "Name" },
-					facets: {
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						minLength: 1
+					type: {
+						builtin: "token",
+						facets: { pattern: [["[A-Z]"]] }
 					}
 				},
+				umlDate: { type: { builtin: "dateTime" } },
+				umlVersion: { type: {
+					builtin: "Name",
+					facets: { minLength: 1 }
+				} },
 				version: {
-					type: { builtin: "unsignedShort" },
 					required: !0,
-					facets: {
-						minInclusive: 2002,
-						maxInclusive: 2099
+					type: {
+						builtin: "unsignedShort",
+						facets: {
+							minInclusive: "2002",
+							maxInclusive: "2099"
+						}
 					}
 				}
 			}
@@ -2956,138 +2872,9 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 				"LNClasses"
 			],
 			details: {
-				Copyright: { maxOccurs: 1 },
-				Changes: { maxOccurs: 1 },
-				DependsOn: { maxOccurs: 1 },
-				BasicTypes: { maxOccurs: 1 },
-				FunctionalConstraints: {
-					maxOccurs: 1,
-					constraints: [{
-						kind: "unique",
-						name: "uniqueFunctionalConstraint",
-						selector: [{ steps: [{
-							kind: "name",
-							value: "FunctionalConstraint"
-						}] }],
-						fields: [{ target: {
-							kind: "attribute",
-							value: "abbreviation",
-							isAttribute: !0
-						} }]
-					}]
-				},
-				PresenceConditions: {
-					maxOccurs: 1,
-					constraints: [{
-						kind: "unique",
-						name: "uniquePresenceCondition",
-						selector: [{ steps: [{
-							kind: "name",
-							value: "PresenceCondition"
-						}] }],
-						fields: [{ target: {
-							kind: "attribute",
-							value: "name",
-							isAttribute: !0
-						} }]
-					}]
-				},
-				Abbreviations: {
-					maxOccurs: 1,
-					constraints: [{
-						kind: "unique",
-						name: "uniqueAbbreviation",
-						selector: [{ steps: [{
-							kind: "name",
-							value: "Abbreviation"
-						}] }],
-						fields: [{ target: {
-							kind: "attribute",
-							value: "name",
-							isAttribute: !0
-						} }]
-					}]
-				},
-				Enumerations: {
-					maxOccurs: 1,
-					constraints: [{
-						kind: "unique",
-						name: "uniqueEnumeration",
-						selector: [{ steps: [{
-							kind: "name",
-							value: "Enumeration"
-						}] }],
-						fields: [{ target: {
-							kind: "attribute",
-							value: "name",
-							isAttribute: !0
-						} }]
-					}]
-				},
-				ConstructedAttributes: {
-					maxOccurs: 1,
-					constraints: [{
-						kind: "unique",
-						name: "uniqueConstructedAttribute",
-						selector: [{ steps: [{
-							kind: "name",
-							value: "ConstructedAttribute"
-						}] }],
-						fields: [{ target: {
-							kind: "attribute",
-							value: "name",
-							isAttribute: !0
-						} }]
-					}]
-				},
-				CDCs: {
-					maxOccurs: 1,
-					constraints: [{
-						kind: "unique",
-						name: "uniqueCDC",
-						selector: [{ steps: [{
-							kind: "name",
-							value: "CDC"
-						}] }],
-						fields: [{ target: {
-							kind: "attribute",
-							value: "name",
-							isAttribute: !0
-						} }, { target: {
-							kind: "attribute",
-							value: "variant",
-							isAttribute: !0
-						} }]
-					}]
-				},
-				LNClasses: {
-					maxOccurs: 1,
-					constraints: [{
-						kind: "unique",
-						name: "uniqueAbstractLNClass",
-						selector: [{ steps: [{
-							kind: "name",
-							value: "AbstractLNClass"
-						}] }],
-						fields: [{ target: {
-							kind: "attribute",
-							value: "name",
-							isAttribute: !0
-						} }]
-					}, {
-						kind: "unique",
-						name: "uniqueLNClass",
-						selector: [{ steps: [{
-							kind: "name",
-							value: "LNClass"
-						}] }],
-						fields: [{ target: {
-							kind: "attribute",
-							value: "name",
-							isAttribute: !0
-						} }]
-					}]
-				}
+				FunctionalConstraints: { declarations: { "http://www.iec.ch/61850/2016/NSD": ["1"] } },
+				PresenceConditions: { declarations: { "http://www.iec.ch/61850/2016/NSD": ["1"] } },
+				Abbreviations: { declarations: { "http://www.iec.ch/61850/2016/NSD": ["1"] } }
 			}
 		},
 		contentModel: {
@@ -3126,17 +2913,20 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 					{
 						kind: "element",
 						name: "FunctionalConstraints",
-						maxOccurs: 1
+						maxOccurs: 1,
+						declaration: "1"
 					},
 					{
 						kind: "element",
 						name: "PresenceConditions",
-						maxOccurs: 1
+						maxOccurs: 1,
+						declaration: "1"
 					},
 					{
 						kind: "element",
 						name: "Abbreviations",
-						maxOccurs: 1
+						maxOccurs: 1,
+						declaration: "1"
 					},
 					{
 						kind: "element",
@@ -3160,7 +2950,8 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 					}
 				]
 			}]
-		}
+		},
+		type: "{http://www.iec.ch/61850/2016/NSD}tNS"
 	},
 	NSDoc: {
 		tag: "NSDoc",
@@ -3169,6 +2960,7 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 			uri: "http://www.iec.ch/61850/2016/NSD"
 		},
 		documentation: "Root element of a file holding the documentation strings of an NSD file (NSDOC).",
+		global: !0,
 		parents: [],
 		attributes: {
 			sequence: [
@@ -3183,71 +2975,67 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 			],
 			details: {
 				id: {
-					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: { pattern: ["\\x00-\\x7f+"] }
+					type: {
+						builtin: "normalizedString",
+						facets: { pattern: [["[\\u{0}-\\u{7F}]+"]] }
+					}
 				},
 				lang: {
-					type: { builtin: "language" },
 					required: !0,
-					facets: { pattern: ["[a-zA-Z]{1,8}(-[a-zA-Z0-9]{1,8})*"] }
+					type: { builtin: "language" }
 				},
 				publicationStage: {
-					type: { builtin: "token" },
 					default: "IS",
-					facets: { enumeration: [
-						"WD",
-						"CD",
-						"CDV",
-						"DTS",
-						"DTR",
-						"FDIS",
-						"TS",
-						"TR",
-						"IS"
-					] }
+					type: {
+						builtin: "token",
+						facets: { enumeration: [
+							"WD",
+							"CD",
+							"CDV",
+							"DTS",
+							"DTR",
+							"FDIS",
+							"TS",
+							"TR",
+							"IS"
+						] }
+					}
 				},
 				release: {
-					type: { builtin: "unsignedByte" },
 					default: "1",
-					facets: {
-						minInclusive: 0,
-						maxInclusive: 255,
-						minExclusive: 0
+					type: {
+						builtin: "unsignedByte",
+						facets: { minExclusive: "0" }
 					}
 				},
 				revision: {
-					type: { builtin: "token" },
 					default: "A",
-					facets: { pattern: ["[A-Z]"] }
-				},
-				umlDate: { type: { builtin: "dateTime" } },
-				umlVersion: {
-					type: { builtin: "Name" },
-					facets: {
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						minLength: 1
+					type: {
+						builtin: "token",
+						facets: { pattern: [["[A-Z]"]] }
 					}
 				},
+				umlDate: { type: { builtin: "dateTime" } },
+				umlVersion: { type: {
+					builtin: "Name",
+					facets: { minLength: 1 }
+				} },
 				version: {
-					type: { builtin: "unsignedShort" },
 					required: !0,
-					facets: {
-						minInclusive: 2002,
-						maxInclusive: 2099
+					type: {
+						builtin: "unsignedShort",
+						facets: {
+							minInclusive: "2002",
+							maxInclusive: "2099"
+						}
 					}
 				}
 			}
 		},
 		children: {
 			sequence: ["Copyright", "Doc"],
-			details: {
-				Copyright: { maxOccurs: 1 },
-				Doc: {
-					required: !0,
-					minOccurs: 1
-				}
-			}
+			details: {}
 		},
 		contentModel: {
 			kind: "sequence",
@@ -3276,16 +3064,20 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		constraints: [{
 			kind: "unique",
 			name: "uniqueDocID",
+			namespace: "http://www.iec.ch/61850/2016/NSD",
 			selector: [{ steps: [{
-				kind: "name",
-				value: "Doc"
+				name: "Doc",
+				namespace: "http://www.iec.ch/61850/2016/NSD"
 			}] }],
-			fields: [{ target: {
-				kind: "attribute",
-				value: "id",
-				isAttribute: !0
-			} }]
-		}]
+			fields: [[{
+				steps: [],
+				attribute: {
+					name: "id",
+					namespace: ""
+				}
+			}]]
+		}],
+		type: "{http://www.iec.ch/61850/2016/NSD}tNSDoc"
 	},
 	Notice: {
 		tag: "Notice",
@@ -3303,7 +3095,8 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 			sequence: [],
 			details: {}
 		},
-		textContent: {}
+		textContent: {},
+		type: "{http://www.iec.ch/61850/2016/NSD}tNotice"
 	},
 	PresenceCondition: {
 		tag: "PresenceCondition",
@@ -3322,25 +3115,26 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 			],
 			details: {
 				argument: { type: { builtin: "normalizedString" } },
-				descID: {
-					type: { builtin: "normalizedString" },
+				descID: { type: {
+					builtin: "normalizedString",
 					facets: { minLength: 1 }
-				},
+				} },
 				name: {
-					type: { builtin: "normalizedString" },
-					required: !0
+					required: !0,
+					type: { builtin: "normalizedString" }
 				},
-				titleID: {
-					type: { builtin: "normalizedString" },
+				titleID: { type: {
+					builtin: "normalizedString",
 					facets: { minLength: 1 }
-				}
+				} }
 			},
 			identityFields: ["name"]
 		},
 		children: {
 			sequence: [],
 			details: {}
-		}
+		},
+		type: "{http://www.iec.ch/61850/2016/NSD}tPresenceCondition"
 	},
 	PresenceConditions: {
 		tag: "PresenceConditions",
@@ -3356,10 +3150,7 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		},
 		children: {
 			sequence: ["PresenceCondition"],
-			details: { PresenceCondition: {
-				required: !0,
-				minOccurs: 1
-			} }
+			details: {}
 		},
 		contentModel: {
 			kind: "sequence",
@@ -3371,19 +3162,93 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 				minOccurs: 1
 			}]
 		},
-		constraints: [{
-			kind: "unique",
-			name: "uniquePresenceCondition",
-			selector: [{ steps: [{
-				kind: "name",
-				value: "PresenceCondition"
-			}] }],
-			fields: [{ target: {
-				kind: "attribute",
-				value: "name",
-				isAttribute: !0
-			} }]
-		}]
+		type: "{http://www.iec.ch/61850/2016/NSD}tPresenceConditions",
+		declarations: {
+			1: {
+				namespace: {
+					prefix: "",
+					uri: "http://www.iec.ch/61850/2016/NSD"
+				},
+				documentation: "List of presence conditions added by this namespace. Is cumulative to those defined in namespaces this one DependsOn (may not redefine \"included\" ones.).",
+				attributes: {
+					sequence: [],
+					details: {}
+				},
+				children: {
+					sequence: ["PresenceCondition"],
+					details: {}
+				},
+				contentModel: {
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "element",
+						name: "PresenceCondition",
+						minOccurs: 1
+					}]
+				},
+				constraints: [{
+					kind: "unique",
+					name: "uniquePresenceCondition",
+					namespace: "http://www.iec.ch/61850/2016/NSD",
+					selector: [{ steps: [{
+						name: "PresenceCondition",
+						namespace: "http://www.iec.ch/61850/2016/NSD"
+					}] }],
+					fields: [[{
+						steps: [],
+						attribute: {
+							name: "name",
+							namespace: ""
+						}
+					}]]
+				}],
+				type: "{http://www.iec.ch/61850/2016/NSD}tPresenceConditions"
+			},
+			2: {
+				namespace: {
+					prefix: "",
+					uri: "http://www.iec.ch/61850/2016/NSD"
+				},
+				documentation: "List of presence conditions added by this namespace. Is cumulative to those defined in namespaces this one needs (may not redefine \"included\" ones.).",
+				attributes: {
+					sequence: [],
+					details: {}
+				},
+				children: {
+					sequence: ["PresenceCondition"],
+					details: {}
+				},
+				contentModel: {
+					kind: "sequence",
+					minOccurs: 1,
+					maxOccurs: 1,
+					particles: [{
+						kind: "element",
+						name: "PresenceCondition",
+						minOccurs: 1
+					}]
+				},
+				constraints: [{
+					kind: "unique",
+					name: "uniquePresenceCondition_Service",
+					namespace: "http://www.iec.ch/61850/2016/NSD",
+					selector: [{ steps: [{
+						name: "PresenceCondition",
+						namespace: "http://www.iec.ch/61850/2016/NSD"
+					}] }],
+					fields: [[{
+						steps: [],
+						attribute: {
+							name: "name",
+							namespace: ""
+						}
+					}]]
+				}],
+				type: "{http://www.iec.ch/61850/2016/NSD}tPresenceConditions"
+			}
+		}
 	},
 	Service: {
 		tag: "Service",
@@ -3396,9 +3261,11 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		attributes: {
 			sequence: ["name"],
 			details: { name: {
-				type: { builtin: "token" },
 				required: !0,
-				facets: { enumeration: /* @__PURE__ */ "Associate.Abort.Release.GetServerDirectory.GetLogicalDeviceDirectory.GetAllDataValues.GetDataValues.SetDataValues.GetDataDirectory.GetDataDefinition.GetDataSetValues.SetDataSetValues.CreateDataSet.DeleteDataSet.GetDataSetDirectory.SelectActiveSG.SelectEditSG.SetEditSGValue.ConfirmEditSGValues.GetEditSGValue.GetSGCBValues.Report.GetBRCBValues.SetBRCBValues.GetURCBValues.SetURCBValues.GetLCBValues.SetLCBValues.QueryLogByTime.QueryLogAfter.GetLogStatusValues.SendGOOSEMessage.GetGoCBValues.SetGoCBValues.GetGoReference.GetGOOSEElementNumber.SendMSVMessage.GetMSVCBValues.SetMSVCBValues.SendUSVMessage.GetUSVCBValues.SetUSVCBValues.Select.SelectWithValue.Cancel.Operate.CommandTermination.TimeActivatedOperate.GetFile.SetFile.DeleteFile.GetFileAttributeValues.TimeSynchronization.InternalChange.GetLogicalNodeDirectory.GetMsvReference.GetMSVElementNumber.GetUsvReference.GetUSVElementNumber".split(".") }
+				type: {
+					builtin: "token",
+					facets: { enumeration: /* @__PURE__ */ "Associate.Abort.Release.GetServerDirectory.GetLogicalDeviceDirectory.GetAllDataValues.GetDataValues.SetDataValues.GetDataDirectory.GetDataDefinition.GetDataSetValues.SetDataSetValues.CreateDataSet.DeleteDataSet.GetDataSetDirectory.SelectActiveSG.SelectEditSG.SetEditSGValue.ConfirmEditSGValues.GetEditSGValue.GetSGCBValues.Report.GetBRCBValues.SetBRCBValues.GetURCBValues.SetURCBValues.GetLCBValues.SetLCBValues.QueryLogByTime.QueryLogAfter.GetLogStatusValues.SendGOOSEMessage.GetGoCBValues.SetGoCBValues.GetGoReference.GetGOOSEElementNumber.SendMSVMessage.GetMSVCBValues.SetMSVCBValues.SendUSVMessage.GetUSVCBValues.SetUSVCBValues.Select.SelectWithValue.Cancel.Operate.CommandTermination.TimeActivatedOperate.GetFile.SetFile.DeleteFile.GetFileAttributeValues.TimeSynchronization.InternalChange.GetLogicalNodeDirectory.GetMsvReference.GetMSVElementNumber.GetUsvReference.GetUSVElementNumber".split(".") }
+				}
 			} },
 			identityFields: ["name"]
 		},
@@ -3419,11 +3286,13 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 			sequence: ["cdc", "variant"],
 			details: {
 				cdc: {
-					type: { builtin: "Name" },
 					required: !0,
-					facets: {
-						pattern: ["[\\x00-\\x7f\\x80-\\xff]+", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						minLength: 1
+					type: {
+						builtin: "Name",
+						facets: {
+							pattern: [["[\\u{0}-\\u{FF}]+"]],
+							minLength: 1
+						}
 					}
 				},
 				variant: { type: { builtin: "token" } }
@@ -3432,10 +3301,7 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		},
 		children: {
 			sequence: ["ServiceDataAttribute"],
-			details: { ServiceDataAttribute: {
-				required: !0,
-				minOccurs: 1
-			} }
+			details: {}
 		},
 		contentModel: {
 			kind: "sequence",
@@ -3450,16 +3316,20 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		constraints: [{
 			kind: "unique",
 			name: "uniqueServiceCDCChild",
+			namespace: "http://www.iec.ch/61850/2016/NSD",
 			selector: [{ steps: [{
-				kind: "name",
-				value: "ServiceDataAttribute"
+				name: "ServiceDataAttribute",
+				namespace: "http://www.iec.ch/61850/2016/NSD"
 			}] }],
-			fields: [{ target: {
-				kind: "attribute",
-				value: "name",
-				isAttribute: !0
-			} }]
-		}]
+			fields: [[{
+				steps: [],
+				attribute: {
+					name: "name",
+					namespace: ""
+				}
+			}]]
+		}],
+		type: "{http://www.iec.ch/61850/2016/NSD}tServiceCDC"
 	},
 	ServiceCDCs: {
 		tag: "ServiceCDCs",
@@ -3475,19 +3345,7 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		},
 		children: {
 			sequence: ["ServiceCDC"],
-			details: { ServiceCDC: { constraints: [{
-				kind: "unique",
-				name: "uniqueServiceCDCChild",
-				selector: [{ steps: [{
-					kind: "name",
-					value: "ServiceDataAttribute"
-				}] }],
-				fields: [{ target: {
-					kind: "attribute",
-					value: "name",
-					isAttribute: !0
-				} }]
-			}] } }
+			details: {}
 		},
 		contentModel: {
 			kind: "sequence",
@@ -3501,20 +3359,26 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		constraints: [{
 			kind: "unique",
 			name: "uniqueServiceCDC",
+			namespace: "http://www.iec.ch/61850/2016/NSD",
 			selector: [{ steps: [{
-				kind: "name",
-				value: "ServiceCDC"
+				name: "ServiceCDC",
+				namespace: "http://www.iec.ch/61850/2016/NSD"
 			}] }],
-			fields: [{ target: {
-				kind: "attribute",
-				value: "cdc",
-				isAttribute: !0
-			} }, { target: {
-				kind: "attribute",
-				value: "variant",
-				isAttribute: !0
-			} }]
-		}]
+			fields: [[{
+				steps: [],
+				attribute: {
+					name: "cdc",
+					namespace: ""
+				}
+			}], [{
+				steps: [],
+				attribute: {
+					name: "variant",
+					namespace: ""
+				}
+			}]]
+		}],
+		type: "{http://www.iec.ch/61850/2016/NSD}tServiceCDCs"
 	},
 	ServiceConstructedAttribute: {
 		tag: "ServiceConstructedAttribute",
@@ -3535,43 +3399,44 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 			],
 			details: {
 				deprecated: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
-				descID: {
-					type: { builtin: "normalizedString" },
+				descID: { type: {
+					builtin: "normalizedString",
 					facets: { minLength: 1 }
-				},
+				} },
 				informative: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
 				name: {
-					type: { builtin: "Name" },
 					required: !0,
-					facets: {
-						pattern: ["[\\x00-\\x7f\\x80-\\xff]+", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						minLength: 1
+					type: {
+						builtin: "Name",
+						facets: {
+							pattern: [["[\\u{0}-\\u{FF}]+"]],
+							minLength: 1
+						}
 					}
 				},
 				titleID: {
-					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: { minLength: 1 }
+					type: {
+						builtin: "normalizedString",
+						facets: { minLength: 1 }
+					}
 				},
 				typeKindParameterized: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				}
 			},
 			identityFields: ["name"]
 		},
 		children: {
 			sequence: ["SubDataAttribute"],
-			details: { SubDataAttribute: {
-				required: !0,
-				minOccurs: 1
-			} }
+			details: {}
 		},
 		contentModel: {
 			kind: "sequence",
@@ -3591,16 +3456,20 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		constraints: [{
 			kind: "unique",
 			name: "uniqueSubDataAttribute_Service",
+			namespace: "http://www.iec.ch/61850/2016/NSD",
 			selector: [{ steps: [{
-				kind: "name",
-				value: "SubDataAttribute"
+				name: "SubDataAttribute",
+				namespace: "http://www.iec.ch/61850/2016/NSD"
 			}] }],
-			fields: [{ target: {
-				kind: "attribute",
-				value: "name",
-				isAttribute: !0
-			} }]
-		}]
+			fields: [[{
+				steps: [],
+				attribute: {
+					name: "name",
+					namespace: ""
+				}
+			}]]
+		}],
+		type: "{http://www.iec.ch/61850/2016/NSD}tServiceConstructedAttribute"
 	},
 	ServiceConstructedAttributes: {
 		tag: "ServiceConstructedAttributes",
@@ -3616,19 +3485,7 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		},
 		children: {
 			sequence: ["ServiceConstructedAttribute"],
-			details: { ServiceConstructedAttribute: { constraints: [{
-				kind: "unique",
-				name: "uniqueSubDataAttribute_Service",
-				selector: [{ steps: [{
-					kind: "name",
-					value: "SubDataAttribute"
-				}] }],
-				fields: [{ target: {
-					kind: "attribute",
-					value: "name",
-					isAttribute: !0
-				} }]
-			}] } }
+			details: {}
 		},
 		contentModel: {
 			kind: "sequence",
@@ -3642,16 +3499,20 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		constraints: [{
 			kind: "unique",
 			name: "uniqueServiceConstructedAttribute",
+			namespace: "http://www.iec.ch/61850/2016/NSD",
 			selector: [{ steps: [{
-				kind: "name",
-				value: "ServiceConstructedAttribute"
+				name: "ServiceConstructedAttribute",
+				namespace: "http://www.iec.ch/61850/2016/NSD"
 			}] }],
-			fields: [{ target: {
-				kind: "attribute",
-				value: "name",
-				isAttribute: !0
-			} }]
-		}]
+			fields: [[{
+				steps: [],
+				attribute: {
+					name: "name",
+					namespace: ""
+				}
+			}]]
+		}],
+		type: "{http://www.iec.ch/61850/2016/NSD}tServiceConstructedAttributes"
 	},
 	ServiceDataAttribute: {
 		tag: "ServiceDataAttribute",
@@ -3678,50 +3539,55 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 			],
 			details: {
 				deprecated: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
-				descID: {
-					type: { builtin: "normalizedString" },
+				descID: { type: {
+					builtin: "normalizedString",
 					facets: { minLength: 1 }
-				},
+				} },
 				fc: {
-					type: { builtin: "token" },
 					required: !0,
-					facets: {
-						pattern: ["[\\x00-\\x7f]+"],
-						minLength: 1
+					type: {
+						builtin: "token",
+						facets: {
+							pattern: [["[\\u{0}-\\u{7F}]+"]],
+							minLength: 1
+						}
 					}
 				},
 				informative: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
 				name: {
-					type: { builtin: "Name" },
 					required: !0,
-					facets: {
-						pattern: ["[\\x00-\\x7f\\x80-\\xff]+", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						minLength: 1
+					type: {
+						builtin: "Name",
+						facets: {
+							pattern: [["[\\u{0}-\\u{FF}]+"]],
+							minLength: 1
+						}
 					}
 				},
 				presCond: {
-					type: { builtin: "normalizedString" },
-					default: "M"
+					default: "M",
+					type: { builtin: "normalizedString" }
 				},
 				presCondArgs: { type: { builtin: "normalizedString" } },
-				presCondArgsID: {
-					type: { builtin: "normalizedString" },
+				presCondArgsID: { type: {
+					builtin: "normalizedString",
 					facets: { minLength: 1 }
-				},
-				type: {
-					type: { builtin: "Name" },
+				} },
+				type: { type: {
+					builtin: "Name",
 					facets: {
-						pattern: ["[\\x00-\\x7f\\x80-\\xff]+", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
+						pattern: [["[\\u{0}-\\u{FF}]+"]],
 						minLength: 1
 					}
-				},
+				} },
 				typeKind: {
+					default: "BASIC",
 					type: { union: [{
 						builtin: "token",
 						facets: { enumeration: [
@@ -3732,37 +3598,31 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 					}, {
 						builtin: "token",
 						facets: { enumeration: ["undefined"] }
-					}] },
-					default: "BASIC",
-					facets: { enumeration: [
-						"BASIC",
-						"ENUMERATED",
-						"CONSTRUCTED",
-						"undefined"
-					] }
+					}] }
 				},
-				underlyingType: {
-					type: { builtin: "Name" },
+				underlyingType: { type: {
+					builtin: "Name",
 					facets: {
-						pattern: ["[\\x00-\\x7f\\x80-\\xff]+", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
+						pattern: [["[\\u{0}-\\u{FF}]+"]],
 						minLength: 1
 					}
-				},
-				underlyingTypeKind: {
-					type: { builtin: "token" },
+				} },
+				underlyingTypeKind: { type: {
+					builtin: "token",
 					facets: { enumeration: [
 						"BASIC",
 						"ENUMERATED",
 						"CONSTRUCTED"
 					] }
-				}
+				} }
 			},
 			identityFields: ["name"]
 		},
 		children: {
 			sequence: [],
 			details: {}
-		}
+		},
+		type: "{http://www.iec.ch/61850/2016/NSD}tServiceDataAttribute"
 	},
 	ServiceNS: {
 		tag: "ServiceNS",
@@ -3771,6 +3631,7 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 			uri: "http://www.iec.ch/61850/2016/NSD"
 		},
 		documentation: "Root element of a service namespace definition (SNSD) file.",
+		global: !0,
 		parents: [],
 		attributes: {
 			sequence: [
@@ -3784,58 +3645,61 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 				"version"
 			],
 			details: {
-				descID: {
-					type: { builtin: "normalizedString" },
+				descID: { type: {
+					builtin: "normalizedString",
 					facets: { minLength: 1 }
-				},
+				} },
 				id: {
-					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: { pattern: ["\\x00-\\x7f+"] }
+					type: {
+						builtin: "normalizedString",
+						facets: { pattern: [["[\\u{0}-\\u{7F}]+"]] }
+					}
 				},
 				publicationStage: {
-					type: { builtin: "token" },
 					default: "IS",
-					facets: { enumeration: [
-						"WD",
-						"CD",
-						"CDV",
-						"DTS",
-						"DTR",
-						"FDIS",
-						"TS",
-						"TR",
-						"IS"
-					] }
+					type: {
+						builtin: "token",
+						facets: { enumeration: [
+							"WD",
+							"CD",
+							"CDV",
+							"DTS",
+							"DTR",
+							"FDIS",
+							"TS",
+							"TR",
+							"IS"
+						] }
+					}
 				},
 				release: {
-					type: { builtin: "unsignedByte" },
 					default: "1",
-					facets: {
-						minInclusive: 0,
-						maxInclusive: 255,
-						minExclusive: 0
+					type: {
+						builtin: "unsignedByte",
+						facets: { minExclusive: "0" }
 					}
 				},
 				revision: {
-					type: { builtin: "token" },
 					default: "A",
-					facets: { pattern: ["[A-Z]"] }
-				},
-				umlDate: { type: { builtin: "dateTime" } },
-				umlVersion: {
-					type: { builtin: "Name" },
-					facets: {
-						pattern: ["[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						minLength: 1
+					type: {
+						builtin: "token",
+						facets: { pattern: [["[A-Z]"]] }
 					}
 				},
+				umlDate: { type: { builtin: "dateTime" } },
+				umlVersion: { type: {
+					builtin: "Name",
+					facets: { minLength: 1 }
+				} },
 				version: {
-					type: { builtin: "unsignedShort" },
 					required: !0,
-					facets: {
-						minInclusive: 2002,
-						maxInclusive: 2099
+					type: {
+						builtin: "unsignedShort",
+						facets: {
+							minInclusive: "2002",
+							maxInclusive: "2099"
+						}
 					}
 				}
 			}
@@ -3852,93 +3716,9 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 				"ServiceCDCs"
 			],
 			details: {
-				Copyright: { maxOccurs: 1 },
-				Changes: { maxOccurs: 1 },
-				FunctionalConstraints: {
-					maxOccurs: 1,
-					constraints: [{
-						kind: "unique",
-						name: "uniqueFunctionalConstraint_Service",
-						selector: [{ steps: [{
-							kind: "name",
-							value: "FunctionalConstraint"
-						}] }],
-						fields: [{ target: {
-							kind: "attribute",
-							value: "abbreviation",
-							isAttribute: !0
-						} }]
-					}]
-				},
-				PresenceConditions: {
-					maxOccurs: 1,
-					constraints: [{
-						kind: "unique",
-						name: "uniquePresenceCondition_Service",
-						selector: [{ steps: [{
-							kind: "name",
-							value: "PresenceCondition"
-						}] }],
-						fields: [{ target: {
-							kind: "attribute",
-							value: "name",
-							isAttribute: !0
-						} }]
-					}]
-				},
-				Abbreviations: {
-					maxOccurs: 1,
-					constraints: [{
-						kind: "unique",
-						name: "uniqueAbbreviation_Service",
-						selector: [{ steps: [{
-							kind: "name",
-							value: "Abbreviation"
-						}] }],
-						fields: [{ target: {
-							kind: "attribute",
-							value: "name",
-							isAttribute: !0
-						} }]
-					}]
-				},
-				ServiceTypeRealizations: { maxOccurs: 1 },
-				ServiceConstructedAttributes: {
-					maxOccurs: 1,
-					constraints: [{
-						kind: "unique",
-						name: "uniqueServiceConstructedAttribute",
-						selector: [{ steps: [{
-							kind: "name",
-							value: "ServiceConstructedAttribute"
-						}] }],
-						fields: [{ target: {
-							kind: "attribute",
-							value: "name",
-							isAttribute: !0
-						} }]
-					}]
-				},
-				ServiceCDCs: {
-					maxOccurs: 1,
-					constraints: [{
-						kind: "unique",
-						name: "uniqueServiceCDC",
-						selector: [{ steps: [{
-							kind: "name",
-							value: "ServiceCDC"
-						}] }],
-						fields: [{ target: {
-							kind: "attribute",
-							value: "cdc",
-							isAttribute: !0
-						} }, { target: {
-							kind: "attribute",
-							value: "variant",
-							isAttribute: !0
-						} }]
-					}]
-				}
+				FunctionalConstraints: { declarations: { "http://www.iec.ch/61850/2016/NSD": ["2"] } },
+				PresenceConditions: { declarations: { "http://www.iec.ch/61850/2016/NSD": ["2"] } },
+				Abbreviations: { declarations: { "http://www.iec.ch/61850/2016/NSD": ["2"] } }
 			}
 		},
 		contentModel: {
@@ -3967,17 +3747,20 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 					{
 						kind: "element",
 						name: "FunctionalConstraints",
-						maxOccurs: 1
+						maxOccurs: 1,
+						declaration: "2"
 					},
 					{
 						kind: "element",
 						name: "PresenceConditions",
-						maxOccurs: 1
+						maxOccurs: 1,
+						declaration: "2"
 					},
 					{
 						kind: "element",
 						name: "Abbreviations",
-						maxOccurs: 1
+						maxOccurs: 1,
+						declaration: "2"
 					},
 					{
 						kind: "element",
@@ -3996,7 +3779,8 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 					}
 				]
 			}]
-		}
+		},
+		type: "{http://www.iec.ch/61850/2016/NSD}tServiceNS"
 	},
 	ServiceNsUsage: {
 		tag: "ServiceNsUsage",
@@ -4016,55 +3800,58 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 			],
 			details: {
 				id: {
-					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: { pattern: ["\\x00-\\x7f+"] }
+					type: {
+						builtin: "normalizedString",
+						facets: { pattern: [["[\\u{0}-\\u{7F}]+"]] }
+					}
 				},
 				publicationStage: {
-					type: { builtin: "token" },
 					default: "IS",
-					facets: { enumeration: [
-						"WD",
-						"CD",
-						"CDV",
-						"DTS",
-						"DTR",
-						"FDIS",
-						"TS",
-						"TR",
-						"IS"
-					] }
+					type: {
+						builtin: "token",
+						facets: { enumeration: [
+							"WD",
+							"CD",
+							"CDV",
+							"DTS",
+							"DTR",
+							"FDIS",
+							"TS",
+							"TR",
+							"IS"
+						] }
+					}
 				},
 				release: {
-					type: { builtin: "unsignedByte" },
 					default: "1",
-					facets: {
-						minInclusive: 0,
-						maxInclusive: 255,
-						minExclusive: 0
+					type: {
+						builtin: "unsignedByte",
+						facets: { minExclusive: "0" }
 					}
 				},
 				revision: {
-					type: { builtin: "token" },
 					default: "A",
-					facets: { pattern: ["[A-Z]"] }
+					type: {
+						builtin: "token",
+						facets: { pattern: [["[A-Z]"]] }
+					}
 				},
 				version: {
-					type: { builtin: "unsignedShort" },
 					required: !0,
-					facets: {
-						minInclusive: 2002,
-						maxInclusive: 2099
+					type: {
+						builtin: "unsignedShort",
+						facets: {
+							minInclusive: "2002",
+							maxInclusive: "2099"
+						}
 					}
 				}
 			}
 		},
 		children: {
 			sequence: ["AppliesTo"],
-			details: { AppliesTo: {
-				required: !0,
-				minOccurs: 1
-			} }
+			details: {}
 		},
 		contentModel: {
 			kind: "sequence",
@@ -4075,7 +3862,8 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 				name: "AppliesTo",
 				minOccurs: 1
 			}]
-		}
+		},
+		type: "{http://www.iec.ch/61850/2016/NSD}tServiceNsUsage"
 	},
 	ServiceParameter: {
 		tag: "ServiceParameter",
@@ -4099,35 +3887,38 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 			details: {
 				defaultValue: { type: { builtin: "normalizedString" } },
 				deprecated: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
-				descID: {
-					type: { builtin: "normalizedString" },
+				descID: { type: {
+					builtin: "normalizedString",
 					facets: { minLength: 1 }
-				},
+				} },
 				informative: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
 				maxValue: { type: { builtin: "decimal" } },
 				minValue: { type: { builtin: "decimal" } },
 				name: {
-					type: { builtin: "Name" },
 					required: !0,
-					facets: {
-						pattern: ["[\\x00-\\x7f\\x80-\\xff]+", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						minLength: 1
+					type: {
+						builtin: "Name",
+						facets: {
+							pattern: [["[\\u{0}-\\u{FF}]+"]],
+							minLength: 1
+						}
 					}
 				},
-				type: {
-					type: { builtin: "Name" },
+				type: { type: {
+					builtin: "Name",
 					facets: {
-						pattern: ["[\\x00-\\x7f\\x80-\\xff]+", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
+						pattern: [["[\\u{0}-\\u{FF}]+"]],
 						minLength: 1
 					}
-				},
+				} },
 				typeKind: {
+					default: "BASIC",
 					type: { union: [{
 						builtin: "token",
 						facets: { enumeration: [
@@ -4138,14 +3929,7 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 					}, {
 						builtin: "token",
 						facets: { enumeration: ["undefined"] }
-					}] },
-					default: "BASIC",
-					facets: { enumeration: [
-						"BASIC",
-						"ENUMERATED",
-						"CONSTRUCTED",
-						"undefined"
-					] }
+					}] }
 				}
 			},
 			identityFields: ["name"]
@@ -4153,7 +3937,8 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		children: {
 			sequence: [],
 			details: {}
-		}
+		},
+		type: "{http://www.iec.ch/61850/2016/NSD}tServiceParameter"
 	},
 	ServiceTypeRealization: {
 		tag: "ServiceTypeRealization",
@@ -4169,52 +3954,43 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 				"descID",
 				"informative",
 				"name",
-				"titleID",
-				"typeKindParameterized",
-				"xsi:type"
+				"titleID"
 			],
 			details: {
 				deprecated: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
-				descID: {
-					type: { builtin: "normalizedString" },
+				descID: { type: {
+					builtin: "normalizedString",
 					facets: { minLength: 1 }
-				},
+				} },
 				informative: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
 				name: {
-					type: { builtin: "Name" },
 					required: !0,
-					facets: {
-						pattern: ["[\\x00-\\x7f\\x80-\\xff]+", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						minLength: 1
+					type: {
+						builtin: "Name",
+						facets: {
+							pattern: [["[\\u{0}-\\u{FF}]+"]],
+							minLength: 1
+						}
 					}
 				},
 				titleID: {
-					type: { builtin: "normalizedString" },
 					required: !0,
-					facets: { minLength: 1 }
-				},
-				typeKindParameterized: { default: "false" },
-				"xsi:type": {
-					namespace: {
-						prefix: "xsi",
-						uri: "http://www.w3.org/2001/XMLSchema-instance"
-					},
-					facets: { enumeration: ["tServiceConstructedAttribute"] }
+					type: {
+						builtin: "normalizedString",
+						facets: { minLength: 1 }
+					}
 				}
 			}
 		},
 		children: {
 			sequence: ["SubDataAttribute"],
-			details: { SubDataAttribute: {
-				required: !0,
-				minOccurs: 1
-			} }
+			details: {}
 		},
 		contentModel: {
 			kind: "sequence",
@@ -4225,7 +4001,9 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 				name: "SubDataAttribute",
 				minOccurs: 1
 			}]
-		}
+		},
+		type: "{http://www.iec.ch/61850/2016/NSD}tConstructedAttribute",
+		variants: ["{http://www.iec.ch/61850/2016/NSD}tServiceConstructedAttribute"]
 	},
 	ServiceTypeRealizations: {
 		tag: "ServiceTypeRealizations",
@@ -4241,7 +4019,7 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		},
 		children: {
 			sequence: ["ServiceTypeRealization"],
-			details: { ServiceTypeRealization: {} }
+			details: {}
 		},
 		contentModel: {
 			kind: "sequence",
@@ -4251,7 +4029,8 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 				kind: "element",
 				name: "ServiceTypeRealization"
 			}]
-		}
+		},
+		type: "{http://www.iec.ch/61850/2016/NSD}tServiceTypeRealizations"
 	},
 	SubDataAttribute: {
 		tag: "SubDataAttribute",
@@ -4261,8 +4040,8 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		},
 		parents: [
 			"ConstructedAttribute",
-			"ServiceTypeRealization",
-			"ServiceConstructedAttribute"
+			"ServiceConstructedAttribute",
+			"ServiceTypeRealization"
 		],
 		attributes: {
 			sequence: [
@@ -4286,70 +4065,69 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 			details: {
 				defaultValue: { type: { builtin: "normalizedString" } },
 				deprecated: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
-				descID: {
-					type: { builtin: "normalizedString" },
+				descID: { type: {
+					builtin: "normalizedString",
 					facets: { minLength: 1 }
-				},
+				} },
 				informative: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
 				isArray: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
-				maxIndexAttribute: {
-					type: { builtin: "Name" },
+				maxIndexAttribute: { type: {
+					builtin: "Name",
 					facets: {
-						pattern: ["[\\x00-\\x7f\\x80-\\xff]+", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
+						pattern: [["[\\u{0}-\\u{FF}]+"]],
 						minLength: 1
 					}
-				},
+				} },
 				maxValue: { type: { builtin: "decimal" } },
 				minIndex: {
-					type: { builtin: "unsignedInt" },
 					default: "0",
-					facets: {
-						minInclusive: 0,
-						maxInclusive: 4294967295
-					}
+					type: { builtin: "unsignedInt" }
 				},
 				minValue: { type: { builtin: "decimal" } },
 				name: {
-					type: { builtin: "Name" },
 					required: !0,
-					facets: {
-						pattern: ["[\\x00-\\x7f\\x80-\\xff]+", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						minLength: 1
+					type: {
+						builtin: "Name",
+						facets: {
+							pattern: [["[\\u{0}-\\u{FF}]+"]],
+							minLength: 1
+						}
 					}
 				},
 				presCond: {
-					type: { builtin: "normalizedString" },
-					default: "M"
+					default: "M",
+					type: { builtin: "normalizedString" }
 				},
 				presCondArgs: { type: { builtin: "normalizedString" } },
-				presCondArgsID: {
-					type: { builtin: "normalizedString" },
+				presCondArgsID: { type: {
+					builtin: "normalizedString",
 					facets: { minLength: 1 }
-				},
-				sizeAttribute: {
-					type: { builtin: "Name" },
+				} },
+				sizeAttribute: { type: {
+					builtin: "Name",
 					facets: {
-						pattern: ["[\\x00-\\x7f\\x80-\\xff]+", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
+						pattern: [["[\\u{0}-\\u{FF}]+"]],
 						minLength: 1
 					}
-				},
-				type: {
-					type: { builtin: "Name" },
+				} },
+				type: { type: {
+					builtin: "Name",
 					facets: {
-						pattern: ["[\\x00-\\x7f\\x80-\\xff]+", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
+						pattern: [["[\\u{0}-\\u{FF}]+"]],
 						minLength: 1
 					}
-				},
+				} },
 				typeKind: {
+					default: "BASIC",
 					type: { union: [{
 						builtin: "token",
 						facets: { enumeration: [
@@ -4360,14 +4138,7 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 					}, {
 						builtin: "token",
 						facets: { enumeration: ["undefined"] }
-					}] },
-					default: "BASIC",
-					facets: { enumeration: [
-						"BASIC",
-						"ENUMERATED",
-						"CONSTRUCTED",
-						"undefined"
-					] }
+					}] }
 				}
 			},
 			identityFields: ["name"]
@@ -4375,7 +4146,8 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		children: {
 			sequence: [],
 			details: {}
-		}
+		},
+		type: "{http://www.iec.ch/61850/2016/NSD}tSubDataAttribute"
 	},
 	SubDataObject: {
 		tag: "SubDataObject",
@@ -4403,106 +4175,172 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 			],
 			details: {
 				deprecated: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
-				descID: {
-					type: { builtin: "normalizedString" },
+				descID: { type: {
+					builtin: "normalizedString",
 					facets: { minLength: 1 }
-				},
+				} },
 				informative: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
 				isArray: {
-					type: { builtin: "boolean" },
-					default: "false"
+					default: "false",
+					type: { builtin: "boolean" }
 				},
-				maxIndexAttribute: {
-					type: { builtin: "Name" },
+				maxIndexAttribute: { type: {
+					builtin: "Name",
 					facets: {
-						pattern: ["[\\x00-\\x7f\\x80-\\xff]+", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
+						pattern: [["[\\u{0}-\\u{FF}]+"]],
 						minLength: 1
 					}
-				},
+				} },
 				minIndex: {
-					type: { builtin: "unsignedInt" },
 					default: "0",
-					facets: {
-						minInclusive: 0,
-						maxInclusive: 4294967295
-					}
+					type: { builtin: "unsignedInt" }
 				},
 				name: {
-					type: { builtin: "Name" },
 					required: !0,
-					facets: {
-						pattern: ["[\\x00-\\x7f\\x80-\\xff]+", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						minLength: 1
+					type: {
+						builtin: "Name",
+						facets: {
+							pattern: [["[\\u{0}-\\u{FF}]+"]],
+							minLength: 1
+						}
 					}
 				},
 				presCond: {
-					type: { builtin: "normalizedString" },
-					default: "M"
+					default: "M",
+					type: { builtin: "normalizedString" }
 				},
 				presCondArgs: { type: { builtin: "normalizedString" } },
-				presCondArgsID: {
-					type: { builtin: "normalizedString" },
+				presCondArgsID: { type: {
+					builtin: "normalizedString",
 					facets: { minLength: 1 }
-				},
-				sizeAttribute: {
-					type: { builtin: "Name" },
+				} },
+				sizeAttribute: { type: {
+					builtin: "Name",
 					facets: {
-						pattern: ["[\\x00-\\x7f\\x80-\\xff]+", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
+						pattern: [["[\\u{0}-\\u{FF}]+"]],
 						minLength: 1
 					}
-				},
+				} },
 				type: {
-					type: { builtin: "Name" },
 					required: !0,
-					facets: {
-						pattern: ["[\\x00-\\x7f\\x80-\\xff]+", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
-						minLength: 1
+					type: {
+						builtin: "Name",
+						facets: {
+							pattern: [["[\\u{0}-\\u{FF}]+"]],
+							minLength: 1
+						}
 					}
 				},
-				underlyingType: {
-					type: { builtin: "Name" },
+				underlyingType: { type: {
+					builtin: "Name",
 					facets: {
-						pattern: ["[\\x00-\\x7f\\x80-\\xff]+", "[A-Za-z_:][-.:0-9A-Z_a-z]*"],
+						pattern: [["[\\u{0}-\\u{FF}]+"]],
 						minLength: 1
 					}
-				},
-				underlyingTypeKind: {
-					type: { builtin: "token" },
+				} },
+				underlyingTypeKind: { type: {
+					builtin: "token",
 					facets: { enumeration: [
 						"BASIC",
 						"ENUMERATED",
 						"CONSTRUCTED"
 					] }
-				}
+				} }
 			},
 			identityFields: ["name"]
 		},
 		children: {
 			sequence: [],
 			details: {}
-		}
+		},
+		type: "{http://www.iec.ch/61850/2016/NSD}tSubDataObject"
 	}
-}, ge = { supportedFileExtensions: [".nsd", ".nsdoc"] }, _e = {
-	singletonElements: pe,
-	elements: j,
+}, De = { "{http://www.iec.ch/61850/2016/NSD}tServiceConstructedAttribute": {
+	attributes: {
+		sequence: [
+			"deprecated",
+			"descID",
+			"informative",
+			"name",
+			"titleID",
+			"typeKindParameterized"
+		],
+		details: {
+			deprecated: {
+				default: "false",
+				type: { builtin: "boolean" }
+			},
+			descID: { type: {
+				builtin: "normalizedString",
+				facets: { minLength: 1 }
+			} },
+			informative: {
+				default: "false",
+				type: { builtin: "boolean" }
+			},
+			name: {
+				required: !0,
+				type: {
+					builtin: "Name",
+					facets: {
+						pattern: [["[\\u{0}-\\u{FF}]+"]],
+						minLength: 1
+					}
+				}
+			},
+			titleID: {
+				required: !0,
+				type: {
+					builtin: "normalizedString",
+					facets: { minLength: 1 }
+				}
+			},
+			typeKindParameterized: {
+				default: "false",
+				type: { builtin: "boolean" }
+			}
+		}
+	},
+	children: {
+		sequence: ["SubDataAttribute"],
+		details: {}
+	},
+	contentModel: {
+		kind: "sequence",
+		minOccurs: 1,
+		maxOccurs: 1,
+		particles: [{
+			kind: "sequence",
+			minOccurs: 1,
+			maxOccurs: 1,
+			particles: [{
+				kind: "element",
+				name: "SubDataAttribute",
+				minOccurs: 1
+			}]
+		}]
+	}
+} }, Oe = { supportedFileExtensions: [".nsd", ".nsdoc"] }, ke = {
+	singletonElements: we,
+	elements: ye,
 	namespaces: {
 		default: {
 			uri: "http://www.iec.ch/61850/2016/NSD",
 			prefix: ""
 		},
-		xsi: re
+		xsi: i
 	},
-	attributes: me,
-	children: ue,
-	parents: de,
-	descendants: fe,
-	ancestors: M,
+	attributes: Te,
+	children: be,
+	parents: xe,
+	descendants: Se,
+	ancestors: Ce,
 	database: { recordSchema: {
 		primaryKey: "id",
 		indexes: [
@@ -4513,37 +4351,39 @@ var j = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableSe
 		compoundIndexes: [["id", "tagName"]],
 		arrayIndexes: ["children.id", "children.tagName"]
 	} },
-	io: ge,
-	definition: he
-}, ve = {
-	..._e,
+	io: Oe,
+	definition: Ee,
+	types: De
+}, Ae = {
+	...ke,
 	rootElementName: "NS"
-}, ye = {
-	..._e,
+}, je = {
+	...ke,
 	rootElementName: "NSDoc"
-}, be = {}, xe = Object.create, P = Object.defineProperty, Se = Object.getOwnPropertyDescriptor, Ce = Object.getOwnPropertyNames, we = Object.getPrototypeOf, Te = Object.prototype.hasOwnProperty, Ee = (e, t) => () => (t || (e((t = { exports: {} }).exports, t), e = null), t.exports), De = (e, t, n, r) => {
-	if (t && typeof t == "object" || typeof t == "function") for (var i = Ce(t), a = 0, o = i.length, s; a < o; a++) s = i[a], !Te.call(e, s) && s !== n && P(e, s, {
+}, Me = {}, Ne = Object.create, Pe = Object.defineProperty, I = Object.getOwnPropertyDescriptor, Fe = Object.getOwnPropertyNames, Ie = Object.getPrototypeOf, Le = Object.prototype.hasOwnProperty, L = (e, t) => () => (t || (e((t = { exports: {} }).exports, t), e = null), t.exports), Re = (e, t, n, r) => {
+	if (t && typeof t == "object" || typeof t == "function") for (var i = Fe(t), a = 0, o = i.length, s; a < o; a++) s = i[a], !Le.call(e, s) && s !== n && Pe(e, s, {
 		get: ((e) => t[e]).bind(null, s),
-		enumerable: !(r = Se(t, s)) || r.enumerable
+		enumerable: !(r = I(t, s)) || r.enumerable
 	});
 	return e;
-}, Oe = (e, t, n) => (n = e == null ? {} : xe(we(e)), De(t || !e || !e.__esModule ? P(n, "default", {
+}, ze = (e, t, n) => (n = e == null ? {} : Ne(Ie(e)), Re(t || !e || !e.__esModule ? Pe(n, "default", {
 	value: e,
 	enumerable: !0
 }) : n, e));
-function ke(e, t) {
-	return e ? Ae(e, t) : {};
+function Be(e, t) {
+	return e ? Ve(e, t) : {};
 }
-function Ae(e, t) {
+function Ve(e, t) {
 	let n = {};
 	for (let r of Object.keys(e)) {
 		let i = e[r];
-		n[r] = typeof i == "function" ? (...e) => i(t, ...e) : Ae(i, t);
+		n[r] = typeof i == "function" ? (...e) => i(t, ...e) : Ve(i, t);
 	}
 	return n;
 }
-function je(e, t = () => {}) {
-	let n = [], r = () => {
+function He(e, t = () => {}) {
+	let n = [];
+	function r() {
 		if (n.length === 0) {
 			e.progress = null;
 			return;
@@ -4558,7 +4398,7 @@ function je(e, t = () => {}) {
 				total: r.total
 			} : null
 		};
-	};
+	}
 	return {
 		plan({ steps: e, label: i }) {
 			n.push({
@@ -4583,23 +4423,23 @@ function je(e, t = () => {}) {
 		}
 	};
 }
-var Me = Object.freeze({
+var Ue = Object.freeze({
 	plan() {},
 	nextStep() {},
 	endPlan() {},
 	forceClear() {}
 });
-function Ne() {
+function We() {
 	return {
 		log: [],
 		byId: /* @__PURE__ */ new Map()
 	};
 }
-function Pe(e) {
+function Ge(e) {
 	let { stagedOperations: t, tagName: n, id: r } = e, { log: i, byId: a } = t;
 	if (r !== void 0) {
 		let e = a.get(r);
-		return e ? Fe({
+		return e ? Ke({
 			operation: e,
 			tagName: n,
 			id: r
@@ -4607,29 +4447,29 @@ function Pe(e) {
 	}
 	for (let e = i.length - 1; e >= 0; e--) {
 		let t = i[e];
-		if ((t.status === "created" || t.status === "updated") && ie(t.newRecord, n)) return {
+		if ((t.status === "created" || t.status === "updated") && ce(t.newRecord, n)) return {
 			...t.newRecord,
 			status: t.status
 		};
-		if (t.status === "deleted" && ie(t.oldRecord, n)) return {
+		if (t.status === "deleted" && ce(t.oldRecord, n)) return {
 			...t.oldRecord,
 			status: "deleted"
 		};
 	}
 }
-function Fe(e) {
+function Ke(e) {
 	let { operation: t, tagName: n, id: r } = e;
-	if ((t.status === "created" || t.status === "updated") && t.newRecord.id === r) return F(t.newRecord.tagName, n, r), {
+	if ((t.status === "created" || t.status === "updated") && t.newRecord.id === r) return qe(t.newRecord.tagName, n, r), {
 		...t.newRecord,
 		status: t.status
 	};
-	if (t.status === "deleted" && t.oldRecord.id === r) return F(t.oldRecord.tagName, n, r), {
+	if (t.status === "deleted" && t.oldRecord.id === r) return qe(t.oldRecord.tagName, n, r), {
 		...t.oldRecord,
 		status: "deleted"
 	};
 }
-function F(e, t, n) {
-	e !== t && m("ELEMENT_TAGNAME_MISMATCH", {
+function qe(e, t, n) {
+	e !== t && v("ELEMENT_TAGNAME_MISMATCH", {
 		detail: `Expected tagName '${t}', got '${e}' for id '${n}'`,
 		ref: {
 			tagName: t,
@@ -4637,14 +4477,14 @@ function F(e, t, n) {
 		}
 	});
 }
-function Ie(e) {
+function Je(e) {
 	let { rawRecords: t, stagedOperations: n, tagName: r } = e, i = new Map(t.map((e) => [e.id, {
 		...e,
 		status: "unchanged"
 	}]));
 	for (let e of n) {
 		if (e.status === "created" || e.status === "updated") {
-			if (!ie(e.newRecord, r)) continue;
+			if (!ce(e.newRecord, r)) continue;
 			i.set(e.newRecord.id, {
 				...e.newRecord,
 				status: e.status
@@ -4654,7 +4494,7 @@ function Ie(e) {
 	}
 	return Array.from(i.values());
 }
-function Le(e) {
+function R(e) {
 	let { rawRecords: t, stagedOperations: n, includeDeleted: r = !1 } = e, { log: i, byId: a } = n, o = new Map(t.map((e) => [e.id, {
 		...e,
 		status: "unchanged"
@@ -4685,7 +4525,7 @@ function Le(e) {
 		deleted: c
 	};
 }
-function Re(e) {
+function z(e) {
 	let t = /* @__PURE__ */ new Set();
 	for (let n of e) n.status === "created" && t.add(n.newRecord.id);
 	let n = /* @__PURE__ */ new Map();
@@ -4703,10 +4543,10 @@ function Re(e) {
 	}
 	return n;
 }
-async function I(e) {
+async function B(e) {
 	let { context: t, ref: n } = e;
 	if (t.stagedOperations.log.length > 0) {
-		let e = Pe({
+		let e = Ge({
 			stagedOperations: t.stagedOperations,
 			tagName: n.tagName,
 			id: n.id
@@ -4716,13 +4556,13 @@ async function I(e) {
 	}
 	let r;
 	if (n.id === void 0) {
-		let e = `__singleton_${n.tagName}`, i = Pn(t) ? t.recordCache.get(e) : void 0;
-		i ? (t.perf.count("core::query::getRecord.cacheHit"), r = i) : (t.perf.count("core::query::getRecord.miss"), t.perf.count("core::store::getByTagName"), r = (await t.store.getByTagNameInDocument(n.tagName, t.documentId))[0], r && Pn(t) && (t.recordCache.set(r.id, r), t.recordCache.set(e, r)));
+		let e = `__singleton_${n.tagName}`, i = Zn(t) ? t.recordCache.get(e) : void 0;
+		i ? (t.perf.count("core::query::getRecord.cacheHit"), r = i) : (t.perf.count("core::query::getRecord.miss"), t.perf.count("core::store::getByTagName"), r = (await t.store.getByTagNameInDocument(n.tagName, t.documentId))[0], r && Zn(t) && (t.recordCache.set(r.id, r), t.recordCache.set(e, r)));
 	} else {
-		let e = Pn(t) ? t.recordCache.get(n.id) : void 0;
-		e ? (t.perf.count("core::query::getRecord.cacheHit"), r = e) : (t.perf.count("core::query::getRecord.miss"), t.perf.count("core::store::get"), r = await t.store.get(n.id, t.documentId), r && Pn(t) && t.recordCache.set(n.id, r));
+		let e = Zn(t) ? t.recordCache.get(n.id) : void 0;
+		e ? (t.perf.count("core::query::getRecord.cacheHit"), r = e) : (t.perf.count("core::query::getRecord.miss"), t.perf.count("core::store::get"), r = await t.store.get(n.id, t.documentId), r && Zn(t) && t.recordCache.set(n.id, r));
 	}
-	if (r) return r.tagName !== n.tagName && m("ELEMENT_TAGNAME_MISMATCH", {
+	if (r) return r.tagName !== n.tagName && v("ELEMENT_TAGNAME_MISMATCH", {
 		detail: `Expected tagName '${n.tagName}', got '${r.tagName}' for id '${n.id}'`,
 		ref: n
 	}), {
@@ -4730,32 +4570,32 @@ async function I(e) {
 		status: "unchanged"
 	};
 }
-async function ze(e) {
+async function Ye(e) {
 	let { context: t, refs: n } = e;
-	return Promise.all(n.map((e) => I({
+	return Promise.all(n.map((e) => B({
 		context: t,
 		ref: e
 	})));
 }
-async function Be(e) {
+async function Xe(e) {
 	let { context: t, tagName: n } = e;
 	t.perf.count("core::store::getByTagName");
 	let r = await t.store.getByTagNameInDocument(n, t.documentId);
-	for (let e of r) Pn(t) && t.recordCache.set(e.id, e);
-	return Ie({
+	for (let e of r) Zn(t) && t.recordCache.set(e.id, e);
+	return Je({
 		rawRecords: r,
 		stagedOperations: t.stagedOperations.log,
 		tagName: n
 	});
 }
-async function Ve(e) {
-	let { context: t, ref: n, tagName: r } = e, i = await I({
+async function Ze(e) {
+	let { context: t, ref: n, tagName: r } = e, i = await B({
 		context: t,
 		ref: n
 	});
 	if (!i) return;
 	let a = i.children.find((e) => e.tagName === r);
-	if (a) return I({
+	if (a) return B({
 		context: t,
 		ref: a
 	});
@@ -4763,20 +4603,20 @@ async function Ve(e) {
 	if (!o?.length) return;
 	let s = i.children.filter((e) => o.includes(e.tagName));
 	for (let e of s) {
-		let n = await I({
+		let n = await B({
 			context: t,
 			ref: e
 		});
 		if (!n) continue;
 		let i = n.children.find((e) => e.tagName === r);
-		if (i) return I({
+		if (i) return B({
 			context: t,
 			ref: i
 		});
 	}
 }
-async function He(e) {
-	let { context: t, ref: n, tagName: r } = e, i = await I({
+async function Qe(e) {
+	let { context: t, ref: n, tagName: r } = e, i = await B({
 		context: t,
 		ref: n
 	});
@@ -4785,7 +4625,7 @@ async function He(e) {
 		tagName: r,
 		id: e.id
 	}));
-	if (a.length) return (await ze({
+	if (a.length) return (await Ye({
 		context: t,
 		refs: a
 	})).filter((e) => e !== void 0);
@@ -4793,25 +4633,25 @@ async function He(e) {
 	if (!o?.length) return [];
 	let s = i.children.filter((e) => o.includes(e.tagName));
 	if (!s.length) return [];
-	let c = (await ze({
+	let c = (await Ye({
 		context: t,
 		refs: s
 	})).filter((e) => e !== void 0).flatMap((e) => e.children.filter((e) => e.tagName === r)).map((e) => ({
 		tagName: r,
 		id: e.id
 	}));
-	return c.length ? (await ze({
+	return c.length ? (await Ye({
 		context: t,
 		refs: c
 	})).filter((e) => e !== void 0) : [];
 }
-async function Ue(e) {
-	let { context: t, ref: n, options: r } = e, i = r?.depth ?? Infinity, a = r?.stopAtTagName, o = r?.order ?? "bottom-up", s = [], c = await I({
+async function $e(e) {
+	let { context: t, ref: n, options: r } = e, i = r?.depth ?? Infinity, a = r?.stopAtTagName, o = r?.order ?? "bottom-up", s = [], c = await B({
 		context: t,
 		ref: n
 	});
 	for (; c?.parent && s.length < i;) {
-		let e = c.parent, n = await I({
+		let e = c.parent, n = await B({
 			context: t,
 			ref: e
 		});
@@ -4820,80 +4660,115 @@ async function Ue(e) {
 	}
 	return o === "top-down" ? s.reverse() : s;
 }
-async function We(e) {
-	let { context: t, tagName: n, attributes: r } = e, i = await Be({
+async function et(e) {
+	let { context: t, tagName: n, attributes: r } = e, i = await Xe({
 		context: t,
 		tagName: n
 	}), a = [];
-	for (let e of i) Ge({
+	for (let e of i) V({
+		dialecteConfig: t.dialecteConfig,
 		record: e,
 		attributeFilter: r
 	}) && a.push(e);
 	return a;
 }
-function Ge(e) {
-	let { record: t, attributeFilter: n } = e;
-	if (!n || Object.keys(n).length === 0) return !0;
-	for (let [e, r] of Object.entries(n)) {
-		if (r === void 0) continue;
-		let n = t.attributes.find((t) => t.name === e)?.value ?? "";
-		if (n === "") return !1;
-		if (Array.isArray(r)) {
-			if (!r.some((e) => n === e)) return !1;
-		} else if (n !== r) return !1;
+function V(e) {
+	let { dialecteConfig: t, record: n, attributeFilter: r } = e;
+	if (!r || Object.keys(r).length === 0) return !0;
+	for (let [e, i] of Object.entries(r)) {
+		if (i === void 0) continue;
+		if (e === "xsi:type") {
+			if (!tt({
+				dialecteConfig: t,
+				record: n,
+				expected: i
+			})) return !1;
+			continue;
+		}
+		let r = n.attributes.find((t) => t.name === e)?.value ?? "";
+		if (r === "") return !1;
+		if (Array.isArray(i)) {
+			if (!i.some((e) => r === e)) return !1;
+		} else if (r !== i) return !1;
 	}
 	return !0;
 }
-async function Ke(e) {
-	let { context: t, ref: n, options: r } = e, { collect: i, omit: a } = r, o = qe(a), s = Ye(i), c = /* @__PURE__ */ new Map();
+function tt(e) {
+	let { dialecteConfig: n, record: r, expected: i } = e, a = r.attributes.find(t);
+	if (a === void 0 || a.value === "") return !1;
+	let o = y({
+		dialecteConfig: n,
+		value: a.value,
+		namespaceOf: _({
+			dialecteConfig: n,
+			attributes: r.attributes
+		})
+	}), s = _({
+		dialecteConfig: n,
+		attributes: []
+	});
+	return (Array.isArray(i) ? i : [i]).filter((e) => typeof e == "string").some((e) => y({
+		dialecteConfig: n,
+		value: e,
+		namespaceOf: s
+	}) === o);
+}
+async function nt(e) {
+	let { context: t, ref: n, options: r } = e, { collect: i, omit: a } = r, o = rt({
+		omit: a,
+		dialecteConfig: t.dialecteConfig
+	}), s = at(i), c = /* @__PURE__ */ new Map();
 	for (let e of s.allTags) c.set(e, /* @__PURE__ */ new Map());
-	let l = await I({
+	let l = await B({
 		context: t,
 		ref: n
 	});
-	return l && (s.mode === "flat" ? await Xe({
+	return l && (s.mode === "flat" ? await H({
 		context: t,
 		rootId: l.id,
 		collectSpec: s,
 		omitSpec: o,
 		collected: c
-	}) : await $e({
+	}) : await ut({
 		context: t,
 		record: l,
 		pathNodes: s.paths,
 		omitSpec: o,
 		collected: c
-	})), nt(c);
+	})), pt(c);
 }
-function qe(e) {
-	let t = /* @__PURE__ */ new Set(), n = [];
-	if (!e) return {
-		unconditional: t,
-		conditional: n
+function rt(e) {
+	let { omit: t, dialecteConfig: n } = e, r = /* @__PURE__ */ new Set(), i = [];
+	if (!t) return {
+		dialecteConfig: n,
+		unconditional: r,
+		conditional: i
 	};
-	for (let r of e) if (typeof r == "string") t.add(r);
+	for (let e of t) if (typeof e == "string") r.add(e);
 	else {
-		let e = Object.keys(r)[0], i = r[e];
-		i?.where ? n.push({
-			tagName: e,
-			where: i.where
-		}) : t.add(e);
+		let t = Object.keys(e)[0], n = e[t];
+		n?.where ? i.push({
+			tagName: t,
+			where: n.where
+		}) : r.add(t);
 	}
 	return {
-		unconditional: t,
-		conditional: n
+		dialecteConfig: n,
+		unconditional: r,
+		conditional: i
 	};
 }
-function Je(e) {
+function it(e) {
 	let { record: t, omitSpec: n } = e;
 	if (n.unconditional.has(t.tagName)) return !0;
-	for (let e of n.conditional) if (e.tagName === t.tagName && Ge({
+	for (let e of n.conditional) if (e.tagName === t.tagName && V({
+		dialecteConfig: n.dialecteConfig,
 		record: t,
 		attributeFilter: e.where
 	})) return !0;
 	return !1;
 }
-function Ye(e) {
+function at(e) {
 	if (typeof e == "string") return {
 		mode: "flat",
 		targets: [{ tagName: e }],
@@ -4915,16 +4790,16 @@ function Ye(e) {
 	let t = /* @__PURE__ */ new Set();
 	return {
 		mode: "path",
-		paths: L(e, t),
+		paths: ot(e, t),
 		allTags: t
 	};
 }
-function L(e, t) {
+function ot(e, t) {
 	let n = [];
 	for (let [r, i] of Object.entries(e)) {
 		if (r === "where") continue;
 		t.add(r);
-		let e = R({
+		let e = st({
 			tagName: r,
 			value: i,
 			allTags: t
@@ -4933,7 +4808,7 @@ function L(e, t) {
 	}
 	return n;
 }
-function R(e) {
+function st(e) {
 	let { tagName: t, value: n, allTags: r } = e;
 	if (n === !0) return {
 		tagName: t,
@@ -4954,25 +4829,26 @@ function R(e) {
 	return {
 		tagName: t,
 		where: a,
-		children: L(s, r),
+		children: ot(s, r),
 		isLeaf: !1
 	};
 }
-async function Xe(e) {
+async function H(e) {
 	let { context: t, rootId: n, collectSpec: r, omitSpec: i, collected: a } = e;
 	for (let e of r.targets) {
 		if (i.unconditional.has(e.tagName)) continue;
-		let r = await Be({
+		let r = await Xe({
 			context: t,
 			tagName: e.tagName
 		});
-		for (let o of r) Ze({
+		for (let o of r) ct({
+			dialecteConfig: t.dialecteConfig,
 			record: o,
 			where: e.where
-		}) && (Je({
+		}) && (it({
 			record: o,
 			omitSpec: i
-		}) || await Qe({
+		}) || await lt({
 			context: t,
 			record: o,
 			rootId: n,
@@ -4980,25 +4856,26 @@ async function Xe(e) {
 		}) && a.get(e.tagName).set(o.id, o));
 	}
 }
-function Ze(e) {
-	let { record: t, where: n } = e;
-	return n ? Ge({
-		record: t,
-		attributeFilter: n
+function ct(e) {
+	let { dialecteConfig: t, record: n, where: r } = e;
+	return r ? V({
+		dialecteConfig: t,
+		record: n,
+		attributeFilter: r
 	}) : !0;
 }
-async function Qe(e) {
+async function lt(e) {
 	let { context: t, record: n, rootId: r, omitSpec: i } = e;
 	if (n.id === r) return !0;
 	let a = n;
 	for (; a;) {
 		if (!a.parent || i.unconditional.has(a.parent.tagName)) return !1;
 		if (a.parent.id === r) return !0;
-		let e = await I({
+		let e = await B({
 			context: t,
-			ref: k(a.parent)
+			ref: N(a.parent)
 		});
-		if (!e || Je({
+		if (!e || it({
 			record: e,
 			omitSpec: i
 		})) return !1;
@@ -5006,12 +4883,12 @@ async function Qe(e) {
 	}
 	return !1;
 }
-async function $e(e) {
+async function ut(e) {
 	let { context: t, record: n, pathNodes: r, omitSpec: i, collected: a } = e;
 	if (!n.children?.length) return;
 	let o = new Set(r.map((e) => e.tagName));
 	for (let e of r) {
-		let r = await et({
+		let r = await dt({
 			context: t,
 			record: n,
 			tagName: e.tagName,
@@ -5019,7 +4896,7 @@ async function $e(e) {
 			omitSpec: i,
 			stopAtTagNames: o
 		});
-		for (let n of r) a.get(e.tagName).set(n.id, n), !e.isLeaf && e.children.length > 0 && await $e({
+		for (let n of r) a.get(e.tagName).set(n.id, n), !e.isLeaf && e.children.length > 0 && await ut({
 			context: t,
 			record: n,
 			pathNodes: e.children,
@@ -5028,10 +4905,10 @@ async function $e(e) {
 		});
 	}
 }
-async function et(e) {
+async function dt(e) {
 	let { context: t, record: n, tagName: r, where: i, omitSpec: a, stopAtTagNames: o } = e, s = [];
 	if (!n.children?.length) return s;
-	let c = [], l = await tt({
+	let c = [], l = await ft({
 		context: t,
 		record: n,
 		omitSpec: a
@@ -5039,14 +4916,15 @@ async function et(e) {
 	for (c.push(...l); c.length > 0;) {
 		let e = c.shift();
 		if (e.tagName === r) {
-			Ze({
+			ct({
+				dialecteConfig: t.dialecteConfig,
 				record: e,
 				where: i
 			}) && s.push(e);
 			continue;
 		}
 		if (!(o.has(e.tagName) && e.tagName !== r) && e.children?.length) {
-			let n = await tt({
+			let n = await ft({
 				context: t,
 				record: e,
 				omitSpec: a
@@ -5056,50 +4934,50 @@ async function et(e) {
 	}
 	return s;
 }
-async function tt(e) {
+async function ft(e) {
 	let { context: t, record: n, omitSpec: r } = e;
 	if (!n.children?.length) return [];
 	let i = n.children.filter((e) => !r.unconditional.has(e.tagName));
-	return i.length ? (await Promise.all(i.map((e) => I({
+	return i.length ? (await Promise.all(i.map((e) => B({
 		context: t,
-		ref: k(e)
-	})))).filter((e) => e !== void 0 && !Je({
+		ref: N(e)
+	})))).filter((e) => e !== void 0 && !it({
 		record: e,
 		omitSpec: r
 	})) : [];
 }
-function nt(e) {
+function pt(e) {
 	let t = {};
 	for (let [n, r] of e.entries()) t[n] = Array.from(r.values());
 	return t;
 }
-async function rt(e) {
-	let { context: t, ref: n, name: r, namespace: i, defaults: a = "optional" } = e, o = await I({
+async function mt(e) {
+	let { context: t, ref: n, name: r, namespace: i, defaults: a = "optional" } = e, o = await B({
 		context: t,
 		ref: n
-	}), s = o?.attributes ?? [], c = at(t.dialecteConfig, r, i), l = s.find((e) => e.name === c);
-	return l ? l.value : (o ? v({
+	}), s = o?.attributes ?? [], c = gt(t.dialecteConfig, r, i), l = s.find((e) => e.name === c);
+	return l ? l.value : (o ? p({
 		dialecteConfig: t.dialecteConfig,
 		record: o,
 		attributeName: c,
 		defaults: a
 	}) : void 0) ?? "";
 }
-async function it(e) {
-	let { context: t, ref: n, name: r, namespace: i, defaults: a = "optional" } = e, { dialecteConfig: o } = t, s = await I({
+async function ht(e) {
+	let { context: t, ref: n, name: r, namespace: i, defaults: a = "optional" } = e, { dialecteConfig: o } = t, s = await B({
 		context: t,
 		ref: n
-	}), c = s?.attributes ?? [], l = at(o, r, i), u = c.find((e) => e.name === l);
+	}), c = s?.attributes ?? [], l = gt(o, r, i), u = c.find((e) => e.name === l);
 	if (u) return u;
 	if (!s || a === "none") return;
-	let d = v({
+	let d = p({
 		dialecteConfig: o,
 		record: s,
 		attributeName: l,
 		defaults: a
 	});
 	if (d === void 0) return;
-	let { namespace: f } = _({
+	let { namespace: f } = T({
 		dialecteConfig: o,
 		record: s,
 		attributeName: l
@@ -5110,40 +4988,51 @@ async function it(e) {
 		namespace: f
 	};
 }
-function at(e, t, n) {
+function gt(e, t, n) {
 	if (n === void 0) return t;
-	let r = S(e, n);
-	return r ? `${r}:${t}` : t;
+	let i = r(e, n);
+	return i ? `${i}:${t}` : t;
 }
-async function ot(e) {
-	let { context: t, ref: n, namespace: r, defaults: i = "optional" } = e, { dialecteConfig: a } = t, o = await I({
+async function _t(e) {
+	let { context: t, ref: n, namespace: i, defaults: a = "optional" } = e, { dialecteConfig: o } = t, s = await B({
 		context: t,
 		ref: n
-	}), s = o?.attributes ?? [], c = r === void 0 ? "" : S(a, r), l = s.reduce((e, t) => {
-		let { prefix: n, local: r, isXmlns: i } = ct(t.name);
-		return i || n !== c || (e[r] = t.value ?? ""), e;
+	}), c = s?.attributes ?? [], l = i === void 0 ? void 0 : r(o, i), u = c.reduce((e, t) => {
+		let n = U({
+			name: t.name,
+			namespace: t.namespace,
+			targetPrefix: l
+		});
+		return n !== void 0 && (e[n] = t.value ?? ""), e;
 	}, {});
-	if (o && i !== "none") {
+	if (s && a !== "none") {
 		let e = g({
-			dialecteConfig: a,
-			record: o
+			dialecteConfig: o,
+			record: s
 		})?.attributes.sequence ?? [];
 		for (let t of e) {
-			let { prefix: e, local: n, isXmlns: r } = ct(t);
-			if (r || e !== c || n in l) continue;
-			let s = v({
-				dialecteConfig: a,
-				record: o,
-				attributeName: t,
-				defaults: i
+			let e = U({
+				name: t,
+				targetPrefix: l
 			});
-			s !== void 0 && (l[n] = s);
+			if (e === void 0 || e in u) continue;
+			let n = p({
+				dialecteConfig: o,
+				record: s,
+				attributeName: t,
+				defaults: a
+			});
+			n !== void 0 && (u[e] = n);
 		}
 	}
-	return l;
+	return u;
 }
-async function st(e) {
-	let { context: t, ref: n, defaults: r = "optional" } = e, { dialecteConfig: i } = t, a = await I({
+function U(e) {
+	let { name: t, namespace: n, targetPrefix: r } = e, { prefix: i, local: a, isXmlns: o } = yt(t);
+	if (!(o || n?.uri === "http://www.w3.org/2000/xmlns/")) return r === void 0 ? t : i === r ? a : void 0;
+}
+async function vt(e) {
+	let { context: t, ref: n, defaults: r = "optional" } = e, { dialecteConfig: i } = t, a = await B({
 		context: t,
 		ref: n
 	}), o = [...a?.attributes ?? []];
@@ -5154,14 +5043,14 @@ async function st(e) {
 		})?.attributes.sequence ?? [];
 		for (let n of t) {
 			if (e.has(n)) continue;
-			let t = v({
+			let t = p({
 				dialecteConfig: i,
 				record: a,
 				attributeName: n,
 				defaults: r
 			});
 			if (t === void 0) continue;
-			let { namespace: s } = _({
+			let { namespace: s } = T({
 				dialecteConfig: i,
 				record: a,
 				attributeName: n
@@ -5175,7 +5064,7 @@ async function st(e) {
 	}
 	return o;
 }
-function ct(e) {
+function yt(e) {
 	if (e === "xmlns" || e.startsWith("xmlns:")) return {
 		prefix: "",
 		local: e,
@@ -5192,8 +5081,8 @@ function ct(e) {
 		isXmlns: !1
 	};
 }
-async function lt(e) {
-	let { context: t, ref: n } = e, r = await I({
+async function bt(e) {
+	let { context: t, ref: n } = e, r = await B({
 		context: t,
 		ref: n
 	});
@@ -5202,7 +5091,7 @@ async function lt(e) {
 		record: r
 	});
 }
-function ut(e) {
+function xt(e) {
 	let { tree: t, unwrapTagNames: n } = e;
 	function r(e) {
 		return e.flatMap((e) => n.includes(e.tagName) ? r(e.tree) : [{
@@ -5215,73 +5104,82 @@ function ut(e) {
 		tree: r(t.tree)
 	};
 }
-function z(e) {
-	let t = /* @__PURE__ */ new Set(), n = [];
-	if (!e) return {
-		unconditional: t,
-		conditional: n
+function St(e) {
+	let { omit: t, dialecteConfig: n } = e, r = /* @__PURE__ */ new Set(), i = [];
+	if (!t) return {
+		dialecteConfig: n,
+		unconditional: r,
+		conditional: i
 	};
-	for (let r of e) {
-		if (typeof r == "string") {
-			t.add(r);
+	for (let e of t) {
+		if (typeof e == "string") {
+			r.add(e);
 			continue;
 		}
-		let e = Object.keys(r)[0], i = r[e];
-		if (!i?.where) {
-			t.add(e);
+		let t = Object.keys(e)[0], n = e[t];
+		if (!n?.where) {
+			r.add(t);
 			continue;
 		}
-		n.push({
-			tagName: e,
-			where: i.where,
-			scope: i.scope ?? "self"
+		i.push({
+			tagName: t,
+			where: n.where,
+			scope: n.scope ?? "self"
 		});
 	}
 	return {
-		unconditional: t,
-		conditional: n
+		dialecteConfig: n,
+		unconditional: r,
+		conditional: i
 	};
 }
-function dt(e) {
+function Ct(e) {
 	let { record: t, compiledOmit: n } = e;
-	return n.unconditional.has(t.tagName) ? !0 : n.conditional.some((e) => e.scope === "self" && e.tagName === t.tagName && Ge({
+	return n.unconditional.has(t.tagName) ? !0 : n.conditional.some((e) => e.scope === "self" && e.tagName === t.tagName && V({
+		dialecteConfig: n.dialecteConfig,
 		record: t,
 		attributeFilter: e.where
 	}));
 }
-function ft(e) {
+function wt(e) {
 	let { record: t, compiledOmit: n } = e;
-	return n.conditional.some((e) => e.scope === "children" && e.tagName === t.tagName && Ge({
+	return n.conditional.some((e) => e.scope === "children" && e.tagName === t.tagName && V({
+		dialecteConfig: n.dialecteConfig,
 		record: t,
 		attributeFilter: e.where
 	}));
 }
-function pt(e) {
-	let { tree: t, omit: n } = e;
+function W(e) {
+	let { tree: t, omit: n, dialecteConfig: r } = e;
 	if (!n?.length) return t;
-	let r = z(n), i = (e) => {
-		if (ft({
+	let i = St({
+		omit: n,
+		dialecteConfig: r
+	});
+	function a(e) {
+		if (wt({
 			record: e,
-			compiledOmit: r
+			compiledOmit: i
 		})) return {
 			...e,
 			tree: []
 		};
-		let t = e.tree.filter((e) => !dt({
+		let t = e.tree.filter((e) => !Ct({
 			record: e,
-			compiledOmit: r
-		})).map((e) => i(e));
+			compiledOmit: i
+		})).map((e) => a(e));
 		return {
 			...e,
 			tree: t
 		};
-	};
-	return i(t);
+	}
+	return a(t);
 }
-function mt(e) {
-	let { tree: t, childrenConfig: n } = e, r = (e) => {
+function Tt(e) {
+	let { tree: t, childrenConfig: n } = e;
+	function r(e) {
 		if (e.tree.length === 0) return e;
-		let t = te({
+		let t = ne({
 			parentTagName: e.tagName,
 			children: e.tree.map(r),
 			childrenConfig: n
@@ -5290,16 +5188,19 @@ function mt(e) {
 			...e,
 			tree: t
 		};
-	};
+	}
 	return r(t);
 }
-async function ht(e) {
-	let { context: t, ref: n, options: r = {}, dialecteConfig: i } = e, { select: a, omit: o, unwrap: s, depth: c } = r, l = c !== void 0 && n.id !== void 0 && t.stagedOperations.log.length === 0 ? await _t(t, n, c) : await gt(t), u = vt(l, n);
-	w(u, {
+async function Et(e) {
+	let { context: t, ref: n, options: r = {}, dialecteConfig: i } = e, { select: a, omit: o, unwrap: s, depth: c } = r, l = c !== void 0 && n.id !== void 0 && t.stagedOperations.log.length === 0 ? await Ot(t, n, c) : await Dt(t), u = kt(l, n);
+	h(u, {
 		detail: "No record found for provided ref",
 		key: "ELEMENT_NOT_FOUND"
 	});
-	let d = z(o), f = t.dialecteConfig.transparentElements, p = yt({
+	let d = St({
+		omit: o,
+		dialecteConfig: t.dialecteConfig
+	}), f = t.dialecteConfig.transparentElements, p = At({
 		recordsById: l,
 		record: u,
 		select: a,
@@ -5308,25 +5209,25 @@ async function ht(e) {
 		transparentElements: f,
 		remainingDepth: c ?? Infinity
 	});
-	if (!p) return D({ record: u });
+	if (!p) return j({ record: u });
 	let m = s ?? (f?.length ? f : void 0);
-	return mt({
-		tree: m ? ut({
+	return Tt({
+		tree: m ? xt({
 			tree: p,
 			unwrapTagNames: m
 		}) : p,
 		childrenConfig: t.dialecteConfig.children
 	});
 }
-async function gt(e) {
+async function Dt(e) {
 	e.perf.count("core::store::getByDocumentId");
-	let { live: t } = Le({
+	let { live: t } = R({
 		rawRecords: await e.store.getByDocumentId(e.documentId),
 		stagedOperations: e.stagedOperations
 	});
 	return t;
 }
-async function _t(e, t, n) {
+async function Ot(e, t, n) {
 	let r = /* @__PURE__ */ new Map();
 	if (t.id === void 0) return r;
 	e.perf.count("core::store::get");
@@ -5350,28 +5251,28 @@ async function _t(e, t, n) {
 	}
 	return r;
 }
-function vt(e, t) {
+function kt(e, t) {
 	if (t.id !== void 0) {
 		let n = e.get(t.id);
 		return n?.tagName === t.tagName ? n : void 0;
 	}
 	for (let n of e.values()) if (n.tagName === t.tagName) return n;
 }
-function yt(e) {
+function At(e) {
 	let { recordsById: t, record: n, select: r, compiledOmit: i, dialecteConfig: a, transparentElements: o } = e;
-	return e.remainingDepth <= 0 || ft({
+	return e.remainingDepth <= 0 || wt({
 		record: n,
 		compiledOmit: i
-	}) ? D({ record: n }) : D({
+	}) ? j({ record: n }) : j({
 		record: n,
-		tree: bt({
+		tree: jt({
 			recordsById: t,
 			record: n,
 			select: r,
 			compiledOmit: i,
 			dialecteConfig: a,
 			transparentElements: o
-		}).map(({ record: n, select: r }) => yt({
+		}).map(({ record: n, select: r }) => At({
 			recordsById: t,
 			record: n,
 			select: r,
@@ -5382,88 +5283,94 @@ function yt(e) {
 		})).filter((e) => e !== null)
 	});
 }
-function bt(e) {
+function jt(e) {
 	let { recordsById: t, record: n, select: r, compiledOmit: i, dialecteConfig: a, transparentElements: o } = e;
 	if (!n.children?.length) return [];
-	let s = r ? St(r) : void 0;
+	let s = r ? Pt(r) : void 0;
 	if (s && r && a && r.recursive !== !1) {
 		let e = n.tagName, t = a.children[e], i = r[e] !== void 0;
 		t?.includes(e) && !i && s.add(e);
 	}
-	let c = n.children.filter((e) => B({
+	let c = n.children.filter((e) => Mt({
 		tagName: e.tagName,
 		compiledOmit: i,
 		selectKeys: s,
 		transparentElements: o
 	}));
-	return c.length ? Ct({
-		children: c.map((e) => t.get(e.id)).filter((e) => e !== void 0).filter((e) => !dt({
-			record: e,
-			compiledOmit: i
-		})),
+	if (!c.length) return [];
+	let l = c.map((e) => t.get(e.id)).filter((e) => e !== void 0).filter((e) => !Ct({
+		record: e,
+		compiledOmit: i
+	}));
+	return G({
+		filterConfig: i.dialecteConfig,
+		children: l,
 		select: r,
 		record: n,
 		dialecteConfig: a,
 		transparentElements: o
-	}) : [];
+	});
 }
-function B(e) {
+function Mt(e) {
 	let { tagName: t, compiledOmit: n, selectKeys: r, transparentElements: i } = e;
 	return n.unconditional.has(t) ? !1 : r && !r.has(t) ? !!i?.includes(t) : !0;
 }
-var xt = new Set(["where", "recursive"]);
-function St(e) {
+var Nt = new Set(["where", "recursive"]);
+function Pt(e) {
 	let t = /* @__PURE__ */ new Set();
-	for (let n of Object.keys(e)) xt.has(n) || t.add(n);
+	for (let n of Object.keys(e)) Nt.has(n) || t.add(n);
 	return t;
 }
-function Ct(e) {
-	let { children: t, select: n, record: r, dialecteConfig: i, transparentElements: a } = e;
+function G(e) {
+	let { children: t, select: n, record: r, dialecteConfig: i, filterConfig: a, transparentElements: o } = e;
 	if (!n) return t.map((e) => ({
 		record: e,
 		select: void 0
 	}));
-	let o = [];
+	let s = [];
 	for (let e of t) {
 		let t = n[e.tagName];
-		if (t === void 0 && a?.includes(e.tagName)) {
-			o.push({
+		if (t === void 0 && o?.includes(e.tagName)) {
+			s.push({
 				record: e,
 				select: n
 			});
 			continue;
 		}
 		if (t === void 0 && e.tagName === r.tagName) {
-			let t = wt({
+			let t = Ft({
 				child: e,
 				select: n,
-				dialecteConfig: i
+				dialecteConfig: i,
+				filterConfig: a
 			});
 			if (t) {
-				o.push(t);
+				s.push(t);
 				continue;
 			}
 		}
 		if (t === void 0 || t === !1) continue;
 		if (t === !0) {
-			o.push({
+			s.push({
 				record: e,
 				select: void 0
 			});
 			continue;
 		}
-		let s = Tt({
+		let c = It({
 			child: e,
 			entry: t,
-			parentRecord: r
+			parentRecord: r,
+			filterConfig: a
 		});
-		s && o.push(s);
+		c && s.push(c);
 	}
-	return o;
+	return s;
 }
-function wt(e) {
-	let { child: t, select: n, dialecteConfig: r } = e;
-	if (!(!r || n.recursive === !1) && r.children[t.tagName]?.includes(t.tagName) && !(n.where && !Ge({
+function Ft(e) {
+	let { child: t, select: n, dialecteConfig: r, filterConfig: i } = e;
+	if (!(!r || n.recursive === !1) && r.children[t.tagName]?.includes(t.tagName) && !(n.where && !V({
+		dialecteConfig: i,
 		record: t,
 		attributeFilter: n.where
 	}))) return {
@@ -5471,100 +5378,104 @@ function wt(e) {
 		select: n
 	};
 }
-function Tt(e) {
-	let { child: t, entry: n, parentRecord: r } = e, i = n;
-	if (!(i.where && !Ge({
+function It(e) {
+	let { child: t, entry: n, parentRecord: r, filterConfig: i } = e, a = n;
+	if (!(a.where && !V({
+		dialecteConfig: i,
 		record: t,
-		attributeFilter: i.where
+		attributeFilter: a.where
 	}))) {
-		if (i.recursive && t.tagName === r.tagName) {
-			let e = i.recursive === !0 ? !0 : i.recursive - 1;
+		if (a.recursive && t.tagName === r.tagName) {
+			let e = a.recursive === !0 ? !0 : a.recursive - 1;
 			return e === 0 ? void 0 : {
 				record: t,
 				select: {
-					...i,
+					...a,
 					recursive: e
 				}
 			};
 		}
-		return i.recursive ? {
+		return a.recursive ? {
 			record: t,
-			select: Et(i, t.tagName)
+			select: Lt(a, t.tagName)
 		} : t.tagName === r.tagName ? {
 			record: t,
 			select: {
-				...i,
+				...a,
 				recursive: !1
 			}
 		} : {
 			record: t,
-			select: i
+			select: a
 		};
 	}
 }
-function Et(e, t) {
+function Lt(e, t) {
 	return e[t], e;
 }
-async function Dt(e) {
+async function K(e) {
 	let { context: t, ref: n, ancestors: r = 0, depth: i, includeDeleted: a = !1 } = e;
-	if (!n && i === void 0) return V({
+	if (!n && i === void 0) return Rt({
 		context: t,
 		includeDeleted: a
 	});
-	let o = e.siblings ?? !1, s = o === !0 || typeof o == "object" && !!o, c = typeof o == "object" && !!o && o.expand === !0, l = n ?? { tagName: t.dialecteConfig.rootElementName }, u = /* @__PURE__ */ new Map(), d = /* @__PURE__ */ new Map(), f = a ? Re(t.stagedOperations.log) : void 0, p = (e) => {
+	let o = e.siblings ?? !1, s = o === !0 || typeof o == "object" && !!o, c = typeof o == "object" && !!o && o.expand === !0, l = n ?? { tagName: t.dialecteConfig.rootElementName }, u = /* @__PURE__ */ new Map(), d = /* @__PURE__ */ new Map(), f = a ? z(t.stagedOperations.log) : void 0;
+	function p(e) {
 		if (f) for (let t of f.get(e) ?? []) d.has(t.id) || (d.set(t.id, t), p(t.id));
-	}, m = async (e, n) => {
+	}
+	async function m(e, n) {
 		if (u.set(e.id, e), p(e.id), !(i !== void 0 && n >= i)) for (let r of e.children) {
-			let e = await I({
+			let e = await B({
 				context: t,
-				ref: k(r)
+				ref: N(r)
 			});
 			e && await m(e, n + 1);
 		}
-	}, h = await I({
+	}
+	let g = await B({
 		context: t,
 		ref: l
 	});
-	w(h, {
+	h(g, {
 		key: "ELEMENT_NOT_FOUND",
 		detail: "No record found for the provided ref"
 	});
-	let g = h.id;
-	await m(h, 0);
-	let _ = Math.max(r, +!!s);
-	if (_ > 0) {
-		let e = await Ue({
+	let _ = g.id;
+	await m(g, 0);
+	let v = Math.max(r, +!!s);
+	if (v > 0) {
+		let e = await $e({
 			context: t,
 			ref: l,
 			options: {
-				depth: _,
+				depth: v,
 				order: "bottom-up"
 			}
 		});
-		for (let t of e) u.set(t.id, t), g = t.id;
+		for (let t of e) u.set(t.id, t), _ = t.id;
 		if (s) {
-			let n = [h, ...e];
+			let n = [g, ...e];
 			for (let e = 0; e < n.length - 1; e++) {
 				let r = n[e], i = n[e + 1];
 				for (let e of i.children) {
 					if (e.id === r.id) continue;
-					let n = await I({
+					let n = await B({
 						context: t,
-						ref: k(e)
+						ref: N(e)
 					});
 					n && (c ? await m(n, 0) : u.set(n.id, n));
 				}
 			}
 		}
 	}
-	return Ot({
+	return zt({
 		live: u,
 		deletedById: d,
-		rootId: g
+		rootId: _
 	});
 }
-async function V(e) {
-	let { context: t, includeDeleted: n = !1 } = e, { live: r, deleted: i } = Le({
+async function Rt(e) {
+	let { context: t, includeDeleted: n = !1 } = e, { live: r, deleted: i } = R({
 		rawRecords: await t.store.getByDocumentId(t.documentId),
 		stagedOperations: t.stagedOperations,
 		includeDeleted: n
@@ -5573,16 +5484,16 @@ async function V(e) {
 		a = e.id;
 		break;
 	}
-	return w(a, {
+	return h(a, {
 		key: "ROOT_NOT_FOUND",
 		detail: `No ${t.dialecteConfig.rootElementName} root element found in document`
-	}), Ot({
+	}), zt({
 		live: r,
 		deletedById: new Map(i.map((e) => [e.id, e])),
 		rootId: a
 	});
 }
-function Ot(e) {
+function zt(e) {
 	let { live: t, deletedById: n, rootId: r } = e, i = new Set(t.keys()), a = Array.from(t.values()).map((e) => ({
 		...e,
 		children: e.children.filter((e) => i.has(e.id))
@@ -5596,7 +5507,7 @@ function Ot(e) {
 		rootId: r
 	};
 }
-function kt(e) {
+function Bt(e) {
 	let { liveRecords: t, deletedRecords: n, rootId: r } = e, i = new Map(t.map((e) => [e.id, e])), a = new Map(n.map((e) => [e.id, e])), o = /* @__PURE__ */ new Map();
 	for (let e of n) {
 		let t = e.parent?.id;
@@ -5605,20 +5516,20 @@ function kt(e) {
 		n.push(e), o.set(t, n);
 	}
 	let s = i.get(r);
-	w(s, {
+	h(s, {
 		key: "ROOT_NOT_FOUND",
 		detail: `No record found for rootId "${r}"`
 	});
-	let c = (e, t) => {
+	function c(e, t) {
 		let n = t === "live" ? i : a, r = e.children.filter((e) => n.has(e.id)).map((e) => c(n.get(e.id), t)), s = t === "live" ? (o.get(e.id) ?? []).map((e) => c(e, "deleted")) : [];
-		return D({
+		return j({
 			record: e,
 			tree: [...r, ...s]
 		});
-	};
+	}
 	return c(s, "live");
 }
-var At = /* @__PURE__ */ Ee(((e, t) => {
+var Vt = /* @__PURE__ */ L(((e, t) => {
 	Object.defineProperty(e, "__esModule", { value: !0 }), e.ParsingError = void 0;
 	var n = class extends Error {
 		constructor(e, t) {
@@ -5782,12 +5693,12 @@ var At = /* @__PURE__ */ Ee(((e, t) => {
 		}, o();
 	}
 	t !== void 0 && typeof e == "object" && (t.exports = v), e.default = v;
-})), jt = /* @__PURE__ */ Oe((/* @__PURE__ */ Ee(((e, t) => {
+})), Ht = /* @__PURE__ */ ze((/* @__PURE__ */ L(((e, t) => {
 	var n = e && e.__importDefault || function(e) {
 		return e && e.__esModule ? e : { default: e };
 	};
 	Object.defineProperty(e, "__esModule", { value: !0 });
-	var r = n(At());
+	var r = n(Vt());
 	function i(e) {
 		if (!e.options.indentation && !e.options.lineSeparator) return;
 		e.content += e.options.lineSeparator;
@@ -5877,16 +5788,16 @@ var At = /* @__PURE__ */ Ee(((e, t) => {
 		lineSeparator: ""
 	})), t !== void 0 && typeof e == "object" && (t.exports = p), e.default = p;
 })))(), 1);
-function Mt(e) {
-	return (0, jt.default)(e);
+function q(e) {
+	return (0, Ht.default)(e);
 }
-function Nt(e, t = {}) {
+function J(e, t = {}) {
 	let { includeXmlDeclaration: n = !0 } = t, r = new XMLSerializer().serializeToString(e);
-	return Mt(n ? "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" + r : r);
+	return q(n ? "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" + r : r);
 }
-async function Pt(e) {
-	let { extension: t, xmlDocument: n, filename: r } = e, i = Nt(n);
-	await T({
+async function Ut(e) {
+	let { extension: t, xmlDocument: n, filename: r } = e, i = J(n);
+	await S({
 		data: new Blob([i], { type: "application/xml" }),
 		filename: r,
 		pickerType: {
@@ -5895,50 +5806,56 @@ async function Pt(e) {
 		}
 	});
 }
-function Ft(e) {
+function Wt(e) {
 	let { records: t, config: n, withDatabaseIds: r = !1, rootId: i, declareNamespaces: a = !0 } = e, o = /* @__PURE__ */ new Map(), s;
 	for (let e of t) o.set(e.id, e), e.tagName === n.rootElementName && (s = e);
 	let c = i ? o.get(i) : s;
-	w(c, {
+	h(c, {
 		detail: i ? `No record found for rootId "${i}"` : `No ${n.rootElementName} root element found in records`,
 		key: "EXPORT_ROOT_NOT_FOUND"
 	});
-	let l = c.tagName !== n.rootElementName, u = n.namespaces.default, d = document.implementation.createDocument(u.uri, null, null), f = Lt({
+	let l = c.tagName === n.rootElementName ? c : void 0, u = n.namespaces.default, d = document.implementation.createDocument(u.uri, null, null), f = Kt({
 		document: d,
 		record: c,
 		defaultNamespace: u,
 		declareNamespaces: a
 	});
-	return a && f.setAttribute("xmlns", c.namespace.uri), c.attributes && Rt({
+	return a && f.setAttribute("xmlns", c.namespace.uri), c.attributes && Y({
 		config: n,
 		document: d,
 		element: f,
 		attributes: c.attributes,
 		isRoot: !0,
-		isFragment: l,
+		documentRoot: l,
 		declareNamespaces: a
-	}), l || Bt({
+	}), l && Zt({
 		config: n,
 		rootElement: f,
-		namespace: c.namespace
-	}), c.value && (f.textContent = c.value.trim()), r && f.setAttribute("_temp-idb-id", c.id), d.appendChild(f), It({
+		namespace: c.namespace,
+		rootRecord: l
+	}), c.value && (f.textContent = c.value.trim()), r && f.setAttribute("_temp-idb-id", c.id), d.appendChild(f), a && Jt({
+		config: n,
+		element: f,
+		record: c,
+		documentRoot: l
+	}), Gt({
 		index: o,
 		config: n,
 		withDatabaseIds: r,
 		xmlDocument: d,
 		parentRecord: c,
 		parentElement: f,
-		isFragment: l,
+		documentRoot: l,
 		declareNamespaces: a
 	}), d;
 }
-function It(e) {
-	let { index: t, config: n, withDatabaseIds: r, xmlDocument: i, parentRecord: a, parentElement: o, isFragment: s, declareNamespaces: c } = e;
+function Gt(e) {
+	let { index: t, config: n, withDatabaseIds: r, xmlDocument: i, parentRecord: a, parentElement: o, documentRoot: s, declareNamespaces: c } = e;
 	if (!a.children || a.children.length === 0) return;
 	let l = [];
 	for (let e of a.children) {
 		let n = t.get(e.id);
-		w(n, {
+		h(n, {
 			detail: `Parent '${a.tagName}' references non-existent child '${e.tagName}' (id: ${e.id})`,
 			key: "EXPORT_ORPHAN_CHILD_REF",
 			ref: {
@@ -5947,156 +5864,190 @@ function It(e) {
 			}
 		}), l.push(n);
 	}
-	let u = te({
+	let u = ne({
 		parentTagName: a.tagName,
 		children: l,
 		childrenConfig: n.children
 	});
 	for (let e of u) {
-		let a = H({
+		let a = qt({
 			config: n,
 			document: i,
 			record: e,
 			defaultNamespace: n.namespaces.default,
 			withDatabaseIds: r,
-			isFragment: s,
+			documentRoot: s,
 			declareNamespaces: c
 		});
-		o.appendChild(a), It({
+		o.appendChild(a), c && Jt({
+			config: n,
+			element: a,
+			record: e,
+			documentRoot: s
+		}), Gt({
 			index: t,
 			config: n,
 			withDatabaseIds: r,
 			xmlDocument: i,
 			parentRecord: e,
 			parentElement: a,
-			isFragment: s,
+			documentRoot: s,
 			declareNamespaces: c
 		});
 	}
 }
-function Lt(e) {
+function Kt(e) {
 	let { document: t, record: n, defaultNamespace: r, declareNamespaces: i } = e, a = n.namespace.uri !== r.uri && n.namespace.prefix && n.namespace.prefix !== "xmlns" ? `${n.namespace.prefix}:${n.tagName}` : n.tagName;
 	return i ? t.createElementNS(n.namespace.uri, a) : t.createElement(a);
 }
-function H(e) {
-	let { config: t, document: n, record: r, defaultNamespace: i, withDatabaseIds: a, isFragment: o, declareNamespaces: s } = e, c = r.namespace.uri === i.uri, l = Lt({
+function qt(e) {
+	let { config: t, document: n, record: r, defaultNamespace: i, withDatabaseIds: a, documentRoot: o, declareNamespaces: s } = e, c = r.namespace.uri === i.uri, l = Kt({
 		document: n,
 		record: r,
 		defaultNamespace: i,
 		declareNamespaces: s
 	});
-	return s && !c && r.namespace.prefix && r.namespace.prefix !== "xmlns" && zt({
+	return s && !c && r.namespace.prefix && r.namespace.prefix !== "xmlns" && Xt({
 		config: t,
 		document: n,
 		namespace: r.namespace,
-		isFragment: o
-	}), r.attributes && Rt({
+		documentRoot: o
+	}), r.attributes && Y({
 		config: t,
 		document: n,
 		element: l,
 		attributes: r.attributes,
 		isRoot: !1,
-		isFragment: o,
+		documentRoot: o,
 		declareNamespaces: s
-	}), U({
+	}), Qt({
 		config: t,
 		document: n,
 		element: l,
 		record: r,
-		isFragment: o,
+		documentRoot: o,
 		declareNamespaces: s
 	}), r.value && (l.textContent = r.value.trim()), a && l.setAttribute("_temp-idb-id", r.id), l;
 }
-function Rt(e) {
-	let { config: t, document: n, element: r, attributes: i, isRoot: a, isFragment: o, declareNamespaces: s } = e;
+function Y(e) {
+	let { config: t, document: n, element: r, attributes: i, isRoot: a, documentRoot: o, declareNamespaces: s } = e;
 	for (let e of i) {
-		if (Ht(e)) continue;
-		if (!Vt(e) || !e.namespace.prefix) {
+		if (en(e)) continue;
+		if (!$t(e) || !e.namespace.prefix) {
 			r.setAttribute(e.name, String(e.value));
 			continue;
 		}
-		let i = y(e.name);
+		let i = m(e.name);
 		if (!s) {
 			r.setAttribute(`${e.namespace.prefix}:${i}`, String(e.value));
 			continue;
 		}
-		a || zt({
+		a || Xt({
 			config: t,
 			document: n,
 			namespace: e.namespace,
-			isFragment: o
+			documentRoot: o
 		}), r.setAttributeNS(e.namespace.uri, `${e.namespace.prefix}:${i}`, String(e.value));
 	}
 }
-function zt(e) {
-	let { config: t, document: n, namespace: r, isFragment: i } = e, a = n.documentElement;
-	if (!a || !r.prefix || r.prefix === "xmlns") return;
-	let o = "http://www.w3.org/2000/xmlns/";
-	a.getAttributeNS(o, r.prefix) === null && (a.setAttributeNS(o, `xmlns:${r.prefix}`, r.uri), i || Bt({
+function Jt(e) {
+	let { config: t, element: n, record: r, documentRoot: o } = e, s = n.getAttributeNS(i.uri, "type");
+	if (s === null) return;
+	let c = a({
+		value: s,
+		namespaceOf: _({
+			dialecteConfig: t,
+			attributes: r.attributes
+		})
+	});
+	if (c === void 0 || c.namespace === "") return;
+	let l = s.indexOf(":"), u = l === -1 ? "" : s.slice(0, l), d = Object.values(t.namespaces).some((e) => e.prefix === u && e.uri === c.namespace);
+	if (u && d && Xt({
 		config: t,
-		rootElement: a,
-		namespace: r
+		document: n.ownerDocument,
+		namespace: {
+			prefix: u,
+			uri: c.namespace
+		},
+		documentRoot: o
+	}), n.lookupNamespaceURI(u || null) === c.namespace) return;
+	let f = n.lookupPrefix(c.namespace), p = f !== null && n.lookupNamespaceURI(f) === c.namespace ? f : null, m = p ?? Yt({ element: n });
+	p === null && n.setAttributeNS("http://www.w3.org/2000/xmlns/", `xmlns:${m}`, c.namespace), n.setAttributeNS(i.uri, `${n.lookupPrefix(i.uri) ?? "xsi"}:type`, `${m}:${c.local}`);
+}
+function Yt(e) {
+	let { element: t } = e;
+	for (let e = 1;; e++) {
+		let n = `ns${e}`;
+		if (t.lookupNamespaceURI(n) === null) return n;
+	}
+}
+function Xt(e) {
+	let { config: t, document: r, namespace: i, documentRoot: a } = e, o = r.documentElement;
+	if (!o || !i.prefix || i.prefix === "xmlns") return;
+	let s = n;
+	o.getAttributeNS(s, i.prefix) === null && (o.setAttributeNS(s, `xmlns:${i.prefix}`, i.uri), a && Zt({
+		config: t,
+		rootElement: o,
+		namespace: i,
+		rootRecord: a
 	}));
 }
-function Bt(e) {
-	let { config: t, rootElement: n, namespace: r } = e, i = Object.entries(t.definition[t.rootElementName].attributes.details).filter(([e, n]) => v({
+function Zt(e) {
+	let { config: t, rootElement: n, namespace: r, rootRecord: i } = e, a = g({
 		dialecteConfig: t,
-		record: {
-			tagName: t.rootElementName,
-			parent: null
-		},
+		record: i
+	})?.attributes.details ?? {}, o = Object.entries(a).filter(([e, n]) => p({
+		dialecteConfig: t,
+		record: i,
 		attributeName: e,
 		defaults: "required"
 	}) === void 0 ? !1 : r.uri === t.namespaces.default.uri ? !n.namespace : n.namespace?.prefix === r.prefix && n.namespace?.uri === r.uri);
-	if (i.length > 0) for (let [e, r] of i) {
-		let i = y(e), a = v({
+	if (o.length > 0) for (let [e, r] of o) {
+		let a = m(e), o = p({
 			dialecteConfig: t,
-			record: {
-				tagName: t.rootElementName,
-				parent: null
-			},
+			record: i,
 			attributeName: e,
 			defaults: "required"
 		}) ?? "";
-		if (!(r.namespace ? n.hasAttributeNS(r.namespace.uri, i) : n.hasAttribute(i))) if (r.namespace) {
-			let e = `${r.namespace.prefix}:${i}`;
-			n.setAttributeNS(r.namespace.uri, e, a);
-		} else n.setAttribute(i, a);
+		if (!(r.namespace ? n.hasAttributeNS(r.namespace.uri, a) : n.hasAttribute(a))) if (r.namespace) {
+			let e = `${r.namespace.prefix}:${a}`;
+			n.setAttributeNS(r.namespace.uri, e, o);
+		} else n.setAttribute(a, o);
 	}
 }
-function U(e) {
-	let { config: t, document: n, element: r, record: i, isFragment: a, declareNamespaces: o } = e;
+function Qt(e) {
+	let { config: t, document: n, element: r, record: i, documentRoot: a, declareNamespaces: o } = e;
 	if (!o) return;
 	let s = g({
 		dialecteConfig: t,
 		record: i
 	})?.attributes.details;
 	if (s) for (let [e, c] of Object.entries(s)) {
-		let s = v({
+		let s = p({
 			dialecteConfig: t,
 			record: i,
 			attributeName: e,
 			defaults: "required"
 		});
 		if (s === void 0) continue;
-		let l = y(e);
-		(c.namespace ? r.hasAttributeNS(c.namespace.uri, l) : r.hasAttribute(l)) || (c.namespace && c.namespace.prefix && c.namespace.prefix !== "xmlns" ? (o && zt({
+		let l = m(e);
+		(c.namespace ? r.hasAttributeNS(c.namespace.uri, l) : r.hasAttribute(l)) || (c.namespace && c.namespace.prefix && c.namespace.prefix !== "xmlns" ? (o && Xt({
 			config: t,
 			document: n,
 			namespace: c.namespace,
-			isFragment: a
+			documentRoot: a
 		}), r.setAttributeNS(c.namespace.uri, `${c.namespace.prefix}:${l}`, s)) : r.setAttribute(l, s));
 	}
 }
-function Vt(e) {
+function $t(e) {
 	return typeof e == "object" && !!e && "namespace" in e && !!e.namespace;
 }
-function Ht(e) {
-	return !!(e.name === "xmlns" || e.name.startsWith("xmlns:") || Vt(e) && e.namespace?.prefix === "xmlns");
+function en(e) {
+	return !!(e.name === "xmlns" || e.name.startsWith("xmlns:") || $t(e) && e.namespace?.prefix === "xmlns");
 }
-var Ut = /* @__PURE__ */ Ee(((e, t) => {
+var tn = /* @__PURE__ */ L(((e, t) => {
 	t.exports = {};
-})), Wt = /* @__PURE__ */ Oe((/* @__PURE__ */ Ee(((e) => {
+})), nn = /* @__PURE__ */ ze((/* @__PURE__ */ L(((e) => {
 	(function(e) {
 		e.parser = function(e, t) {
 			return new n(e, t);
@@ -6138,7 +6089,7 @@ var Ut = /* @__PURE__ */ Ee(((e, t) => {
 		function n(t, r) {
 			if (!(this instanceof n)) return new n(t, r);
 			var a = this;
-			i(a), a.q = a.c = "", a.bufferCheckPosition = e.MAX_BUFFER_LENGTH, a.encoding = null, a.opt = r || {}, a.opt.lowercase = a.opt.lowercase || a.opt.lowercasetags, a.looseCase = a.opt.lowercase ? "toLowerCase" : "toUpperCase", a.opt.maxEntityCount = a.opt.maxEntityCount || 512, a.opt.maxEntityDepth = a.opt.maxEntityDepth || 4, a.entityCount = a.entityDepth = 0, a.tags = [], a.closed = a.closedRoot = a.sawRoot = !1, a.tag = a.error = null, a.strict = !!t, a.noscript = !!(t || a.opt.noscript), a.state = w.BEGIN, a.strictEntities = a.opt.strictEntities, a.ENTITIES = a.strictEntities ? Object.create(e.XML_ENTITIES) : Object.create(e.ENTITIES), a.attribList = [], a.opt.xmlns && (a.ns = Object.create(h)), a.opt.unquotedAttributeValues === void 0 && (a.opt.unquotedAttributeValues = !t), a.trackPosition = a.opt.position !== !1, a.trackPosition && (a.position = a.line = a.column = 0), T(a, "onready");
+			i(a), a.q = a.c = "", a.bufferCheckPosition = e.MAX_BUFFER_LENGTH, a.encoding = null, a.opt = r || {}, a.opt.lowercase = a.opt.lowercase || a.opt.lowercasetags, a.looseCase = a.opt.lowercase ? "toLowerCase" : "toUpperCase", a.opt.maxEntityCount = a.opt.maxEntityCount || 512, a.opt.maxEntityDepth = a.opt.maxEntityDepth || 4, a.entityCount = a.entityDepth = 0, a.tags = [], a.closed = a.closedRoot = a.sawRoot = !1, a.tag = a.error = null, a.strict = !!t, a.noscript = !!(t || a.opt.noscript), a.state = w.BEGIN, a.strictEntities = a.opt.strictEntities, a.ENTITIES = a.strictEntities ? Object.create(e.XML_ENTITIES) : Object.create(e.ENTITIES), a.attribList = [], a.opt.xmlns && (a.ns = Object.create(h)), a.opt.unquotedAttributeValues === void 0 && (a.opt.unquotedAttributeValues = !t), a.trackPosition = a.opt.position !== !1, a.trackPosition && (a.position = a.line = a.column = 0), te(a, "onready");
 		}
 		Object.create || (Object.create = function(e) {
 			function t() {}
@@ -6175,9 +6126,9 @@ var Ut = /* @__PURE__ */ Ee(((e, t) => {
 		}
 		n.prototype = {
 			end: function() {
-				k(this);
+				se(this);
 			},
-			write: pe,
+			write: N,
 			resume: function() {
 				return this.error = null, this;
 			},
@@ -6190,7 +6141,7 @@ var Ut = /* @__PURE__ */ Ee(((e, t) => {
 		};
 		var o;
 		try {
-			o = Ut().Stream;
+			o = tn().Stream;
 		} catch {
 			o = function() {};
 		}
@@ -6280,7 +6231,7 @@ var Ut = /* @__PURE__ */ Ee(((e, t) => {
 			return !C(e, t);
 		}
 		var w = 0;
-		for (var te in e.STATE = {
+		for (var T in e.STATE = {
 			BEGIN: w++,
 			BEGIN_WHITESPACE: w++,
 			TEXT: w++,
@@ -6580,9 +6531,9 @@ var Ut = /* @__PURE__ */ Ee(((e, t) => {
 		}, Object.keys(e.ENTITIES).forEach(function(t) {
 			var n = e.ENTITIES[t], r = typeof n == "number" ? String.fromCharCode(n) : n;
 			e.ENTITIES[t] = r;
-		}), e.STATE) e.STATE[e.STATE[te]] = te;
+		}), e.STATE) e.STATE[e.STATE[T]] = T;
 		w = e.STATE;
-		function T(e, t, n) {
+		function te(e, t, n) {
 			e[t] && e[t](n);
 		}
 		function ne(e) {
@@ -6599,29 +6550,29 @@ var Ut = /* @__PURE__ */ Ee(((e, t) => {
 		function ae(e, t) {
 			if (!(!e.strict || !e.encoding || !t || t.name !== "xml")) {
 				var n = ne(t.body);
-				n && !ie(e.encoding, n) && A(e, "XML declaration encoding " + n + " does not match detected stream encoding " + e.encoding.toUpperCase());
+				n && !ie(e.encoding, n) && k(e, "XML declaration encoding " + n + " does not match detected stream encoding " + e.encoding.toUpperCase());
 			}
 		}
 		function E(e, t, n) {
-			e.textNode && D(e), T(e, t, n);
+			e.textNode && D(e), te(e, t, n);
 		}
 		function D(e) {
-			e.textNode = oe(e.opt, e.textNode), e.textNode && T(e, "ontext", e.textNode), e.textNode = "";
+			e.textNode = oe(e.opt, e.textNode), e.textNode && te(e, "ontext", e.textNode), e.textNode = "";
 		}
 		function oe(e, t) {
 			return e.trim && (t = t.trim()), e.normalize && (t = t.replace(/\s+/g, " ")), t;
 		}
 		function O(e, t) {
-			return D(e), e.trackPosition && (t += "\nLine: " + e.line + "\nColumn: " + e.column + "\nChar: " + e.c), t = Error(t), e.error = t, T(e, "onerror", t), e;
+			return D(e), e.trackPosition && (t += "\nLine: " + e.line + "\nColumn: " + e.column + "\nChar: " + e.c), t = Error(t), e.error = t, te(e, "onerror", t), e;
 		}
-		function k(e) {
-			return e.sawRoot && !e.closedRoot && A(e, "Unclosed root tag"), e.state !== w.BEGIN && e.state !== w.BEGIN_WHITESPACE && e.state !== w.TEXT && O(e, "Unexpected end"), D(e), e.c = "", e.closed = !0, T(e, "onend"), n.call(e, e.strict, e.opt), e;
+		function se(e) {
+			return e.sawRoot && !e.closedRoot && k(e, "Unclosed root tag"), e.state !== w.BEGIN && e.state !== w.BEGIN_WHITESPACE && e.state !== w.TEXT && O(e, "Unexpected end"), D(e), e.c = "", e.closed = !0, te(e, "onend"), n.call(e, e.strict, e.opt), e;
 		}
-		function A(e, t) {
+		function k(e, t) {
 			if (typeof e != "object" || !(e instanceof n)) throw Error("bad call to strictFail");
 			e.strict && O(e, t);
 		}
-		function se(e) {
+		function ce(e) {
 			e.strict || (e.tagName = e.tagName[e.looseCase]());
 			var t = e.tags[e.tags.length - 1] || e, n = e.tag = {
 				name: e.tagName,
@@ -6629,7 +6580,7 @@ var Ut = /* @__PURE__ */ Ee(((e, t) => {
 			};
 			e.opt.xmlns && (n.ns = t.ns), e.attribList.length = 0, E(e, "onopentagstart", n);
 		}
-		function ce(e, t) {
+		function A(e, t) {
 			var n = e.indexOf(":") < 0 ? ["", e] : e.split(":"), r = n[0], i = n[1];
 			return t && e === "xmlns" && (r = "xmlns", i = ""), {
 				prefix: r,
@@ -6642,9 +6593,9 @@ var Ut = /* @__PURE__ */ Ee(((e, t) => {
 				return;
 			}
 			if (e.opt.xmlns) {
-				var t = ce(e.attribName, !0), n = t.prefix, r = t.local;
-				if (n === "xmlns") if (r === "xml" && e.attribValue !== p) A(e, "xml: prefix must be bound to " + p + "\nActual: " + e.attribValue);
-				else if (r === "xmlns" && e.attribValue !== m) A(e, "xmlns: prefix must be bound to " + m + "\nActual: " + e.attribValue);
+				var t = A(e.attribName, !0), n = t.prefix, r = t.local;
+				if (n === "xmlns") if (r === "xml" && e.attribValue !== p) k(e, "xml: prefix must be bound to " + p + "\nActual: " + e.attribValue);
+				else if (r === "xmlns" && e.attribValue !== m) k(e, "xmlns: prefix must be bound to " + m + "\nActual: " + e.attribValue);
 				else {
 					var i = e.tag, a = e.tags[e.tags.length - 1] || e;
 					i.ns === a.ns && (i.ns = Object.create(a.ns)), i.ns[r] = e.attribValue;
@@ -6658,8 +6609,8 @@ var Ut = /* @__PURE__ */ Ee(((e, t) => {
 		}
 		function j(e, t) {
 			if (e.opt.xmlns) {
-				var n = e.tag, r = ce(e.tagName);
-				n.prefix = r.prefix, n.local = r.local, n.uri = n.ns[r.prefix] || "", n.prefix && !n.uri && (A(e, "Unbound namespace prefix: " + JSON.stringify(e.tagName)), n.uri = r.prefix);
+				var n = e.tag, r = A(e.tagName);
+				n.prefix = r.prefix, n.local = r.local, n.uri = n.ns[r.prefix] || "", n.prefix && !n.uri && (k(e, "Unbound namespace prefix: " + JSON.stringify(e.tagName)), n.uri = r.prefix);
 				var i = e.tags[e.tags.length - 1] || e;
 				n.ns && i.ns !== n.ns && Object.keys(n.ns).forEach(function(t) {
 					E(e, "onopennamespace", {
@@ -6668,14 +6619,14 @@ var Ut = /* @__PURE__ */ Ee(((e, t) => {
 					});
 				});
 				for (var a = 0, o = e.attribList.length; a < o; a++) {
-					var s = e.attribList[a], c = s[0], l = s[1], u = ce(c, !0), d = u.prefix, f = u.local, p = d === "" ? "" : n.ns[d] || "", m = {
+					var s = e.attribList[a], c = s[0], l = s[1], u = A(c, !0), d = u.prefix, f = u.local, p = d === "" ? "" : n.ns[d] || "", m = {
 						name: c,
 						value: l,
 						prefix: d,
 						local: f,
 						uri: p
 					};
-					d && d !== "xmlns" && !p && (A(e, "Unbound namespace prefix: " + JSON.stringify(d)), m.uri = d), e.tag.attributes[c] = m, E(e, "onattribute", m);
+					d && d !== "xmlns" && !p && (k(e, "Unbound namespace prefix: " + JSON.stringify(d)), m.uri = d), e.tag.attributes[c] = m, E(e, "onattribute", m);
 				}
 				e.attribList.length = 0;
 			}
@@ -6683,7 +6634,7 @@ var Ut = /* @__PURE__ */ Ee(((e, t) => {
 		}
 		function ue(e) {
 			if (!e.tagName) {
-				A(e, "Weird empty close tag."), e.textNode += "</>", e.state = w.TEXT;
+				k(e, "Weird empty close tag."), e.textNode += "</>", e.state = w.TEXT;
 				return;
 			}
 			if (e.script) {
@@ -6695,9 +6646,9 @@ var Ut = /* @__PURE__ */ Ee(((e, t) => {
 			}
 			var t = e.tags.length, n = e.tagName;
 			e.strict || (n = n[e.looseCase]());
-			for (var r = n; t-- && e.tags[t].name !== r;) A(e, "Unexpected close tag");
+			for (var r = n; t-- && e.tags[t].name !== r;) k(e, "Unexpected close tag");
 			if (t < 0) {
-				A(e, "Unmatched closing tag: " + e.tagName), e.textNode += "</" + e.tagName + ">", e.state = w.TEXT;
+				k(e, "Unmatched closing tag: " + e.tagName), e.textNode += "</" + e.tagName + ">", e.state = w.TEXT;
 				return;
 			}
 			e.tagName = n;
@@ -6719,20 +6670,20 @@ var Ut = /* @__PURE__ */ Ee(((e, t) => {
 		}
 		function de(e) {
 			var t = e.entity, n = t.toLowerCase(), r, i = "";
-			return e.ENTITIES[t] ? e.ENTITIES[t] : e.ENTITIES[n] ? e.ENTITIES[n] : (t = n, t.charAt(0) === "#" && (t.charAt(1) === "x" ? (t = t.slice(2), r = parseInt(t, 16), i = r.toString(16)) : (t = t.slice(1), r = parseInt(t, 10), i = r.toString(10))), t = t.replace(/^0+/, ""), isNaN(r) || i.toLowerCase() !== t || r < 0 || r > 1114111 ? (A(e, "Invalid character entity"), "&" + e.entity + ";") : String.fromCodePoint(r));
+			return e.ENTITIES[t] ? e.ENTITIES[t] : e.ENTITIES[n] ? e.ENTITIES[n] : (t = n, t.charAt(0) === "#" && (t.charAt(1) === "x" ? (t = t.slice(2), r = parseInt(t, 16), i = r.toString(16)) : (t = t.slice(1), r = parseInt(t, 10), i = r.toString(10))), t = t.replace(/^0+/, ""), isNaN(r) || i.toLowerCase() !== t || r < 0 || r > 1114111 ? (k(e, "Invalid character entity"), "&" + e.entity + ";") : String.fromCodePoint(r));
 		}
 		function fe(e, t) {
-			t === "<" ? (e.state = w.OPEN_WAKA, e.startTagPosition = e.position) : b(t) || (A(e, "Non-whitespace before first tag."), e.textNode = t, e.state = w.TEXT);
+			t === "<" ? (e.state = w.OPEN_WAKA, e.startTagPosition = e.position) : b(t) || (k(e, "Non-whitespace before first tag."), e.textNode = t, e.state = w.TEXT);
 		}
 		function M(e, t) {
 			var n = "";
 			return t < e.length && (n = e.charAt(t)), n;
 		}
-		function pe(t) {
+		function N(t) {
 			var n = this;
 			if (this.error) throw this.error;
 			if (n.closed) return O(n, "Cannot write after close. Assign an onready handler.");
-			if (t === null) return k(n);
+			if (t === null) return se(n);
 			typeof t == "object" && (t = t.toString());
 			for (var i = 0, a = ""; a = M(t, i++), n.c = a, a;) switch (n.trackPosition && (n.position++, a === "\n" ? (n.line++, n.column = 0) : n.column++), n.state) {
 				case w.BEGIN:
@@ -6747,7 +6698,7 @@ var Ut = /* @__PURE__ */ Ee(((e, t) => {
 						for (var o = i - 1; a && a !== "<" && a !== "&";) a = M(t, i++), a && n.trackPosition && (n.position++, a === "\n" ? (n.line++, n.column = 0) : n.column++);
 						n.textNode += t.substring(o, i - 1);
 					}
-					a === "<" && !(n.sawRoot && n.closedRoot && !n.strict) ? (n.state = w.OPEN_WAKA, n.startTagPosition = n.position) : (!b(a) && (!n.sawRoot || n.closedRoot) && A(n, "Text data outside of root node."), a === "&" ? n.state = w.TEXT_ENTITY : n.textNode += a);
+					a === "<" && !(n.sawRoot && n.closedRoot && !n.strict) ? (n.state = w.OPEN_WAKA, n.startTagPosition = n.position) : (!b(a) && (!n.sawRoot || n.closedRoot) && k(n, "Text data outside of root node."), a === "&" ? n.state = w.TEXT_ENTITY : n.textNode += a);
 					continue;
 				case w.SCRIPT:
 					a === "<" ? n.state = w.SCRIPT_ENDING : n.script += a;
@@ -6761,7 +6712,7 @@ var Ut = /* @__PURE__ */ Ee(((e, t) => {
 					else if (a === "/") n.state = w.CLOSE_TAG, n.tagName = "";
 					else if (a === "?") n.state = w.PROC_INST, n.procInstName = n.procInstBody = "";
 					else {
-						if (A(n, "Unencoded <"), n.startTagPosition + 1 < n.position) {
+						if (k(n, "Unencoded <"), n.startTagPosition + 1 < n.position) {
 							var s = n.position - n.startTagPosition;
 							a = Array(s).join(" ") + a;
 						}
@@ -6773,7 +6724,7 @@ var Ut = /* @__PURE__ */ Ee(((e, t) => {
 						n.state = w.COMMENT, n.comment = "", n.sgmlDecl = "";
 						continue;
 					}
-					n.doctype && n.doctype !== !0 && n.sgmlDecl ? (n.state = w.DOCTYPE_DTD, n.doctype += "<!" + n.sgmlDecl + a, n.sgmlDecl = "") : (n.sgmlDecl + a).toUpperCase() === d ? (E(n, "onopencdata"), n.state = w.CDATA, n.sgmlDecl = "", n.cdata = "") : (n.sgmlDecl + a).toUpperCase() === f ? (n.state = w.DOCTYPE, (n.doctype || n.sawRoot) && A(n, "Inappropriately located doctype declaration"), n.doctype = "", n.sgmlDecl = "") : a === ">" ? (E(n, "onsgmldeclaration", n.sgmlDecl), n.sgmlDecl = "", n.state = w.TEXT) : (x(a) && (n.state = w.SGML_DECL_QUOTED), n.sgmlDecl += a);
+					n.doctype && n.doctype !== !0 && n.sgmlDecl ? (n.state = w.DOCTYPE_DTD, n.doctype += "<!" + n.sgmlDecl + a, n.sgmlDecl = "") : (n.sgmlDecl + a).toUpperCase() === d ? (E(n, "onopencdata"), n.state = w.CDATA, n.sgmlDecl = "", n.cdata = "") : (n.sgmlDecl + a).toUpperCase() === f ? (n.state = w.DOCTYPE, (n.doctype || n.sawRoot) && k(n, "Inappropriately located doctype declaration"), n.doctype = "", n.sgmlDecl = "") : a === ">" ? (E(n, "onsgmldeclaration", n.sgmlDecl), n.sgmlDecl = "", n.state = w.TEXT) : (x(a) && (n.state = w.SGML_DECL_QUOTED), n.sgmlDecl += a);
 					continue;
 				case w.SGML_DECL_QUOTED:
 					a === n.q && (n.state = w.SGML_DECL, n.q = ""), n.sgmlDecl += a;
@@ -6797,7 +6748,7 @@ var Ut = /* @__PURE__ */ Ee(((e, t) => {
 					a === "-" ? (n.state = w.COMMENT_ENDED, n.comment = oe(n.opt, n.comment), n.comment && E(n, "oncomment", n.comment), n.comment = "") : (n.comment += "-" + a, n.state = w.COMMENT);
 					continue;
 				case w.COMMENT_ENDED:
-					a === ">" ? n.doctype && n.doctype !== !0 ? n.state = w.DOCTYPE_DTD : n.state = w.TEXT : (A(n, "Malformed comment"), n.comment += "--" + a, n.state = w.COMMENT);
+					a === ">" ? n.doctype && n.doctype !== !0 ? n.state = w.DOCTYPE_DTD : n.state = w.TEXT : (k(n, "Malformed comment"), n.comment += "--" + a, n.state = w.COMMENT);
 					continue;
 				case w.CDATA:
 					for (var o = i - 1; a && a !== "]";) a = M(t, i++), a && n.trackPosition && (n.position++, a === "\n" ? (n.line++, n.column = 0) : n.column++);
@@ -6826,25 +6777,25 @@ var Ut = /* @__PURE__ */ Ee(((e, t) => {
 					} else n.procInstBody += "?" + a, n.state = w.PROC_INST_BODY;
 					continue;
 				case w.OPEN_TAG:
-					C(_, a) ? n.tagName += a : (se(n), a === ">" ? j(n) : a === "/" ? n.state = w.OPEN_TAG_SLASH : (b(a) || A(n, "Invalid character in tag name"), n.state = w.ATTRIB));
+					C(_, a) ? n.tagName += a : (ce(n), a === ">" ? j(n) : a === "/" ? n.state = w.OPEN_TAG_SLASH : (b(a) || k(n, "Invalid character in tag name"), n.state = w.ATTRIB));
 					continue;
 				case w.OPEN_TAG_SLASH:
-					a === ">" ? (j(n, !0), ue(n)) : (A(n, "Forward-slash in opening tag not followed by >"), n.state = w.ATTRIB);
+					a === ">" ? (j(n, !0), ue(n)) : (k(n, "Forward-slash in opening tag not followed by >"), n.state = w.ATTRIB);
 					continue;
 				case w.ATTRIB:
 					if (b(a)) continue;
-					a === ">" ? j(n) : a === "/" ? n.state = w.OPEN_TAG_SLASH : C(g, a) ? (n.attribName = a, n.attribValue = "", n.state = w.ATTRIB_NAME) : A(n, "Invalid attribute name");
+					a === ">" ? j(n) : a === "/" ? n.state = w.OPEN_TAG_SLASH : C(g, a) ? (n.attribName = a, n.attribValue = "", n.state = w.ATTRIB_NAME) : k(n, "Invalid attribute name");
 					continue;
 				case w.ATTRIB_NAME:
-					a === "=" ? n.state = w.ATTRIB_VALUE : a === ">" ? (A(n, "Attribute without value"), n.attribValue = n.attribName, le(n), j(n)) : b(a) ? n.state = w.ATTRIB_NAME_SAW_WHITE : C(_, a) ? n.attribName += a : A(n, "Invalid attribute name");
+					a === "=" ? n.state = w.ATTRIB_VALUE : a === ">" ? (k(n, "Attribute without value"), n.attribValue = n.attribName, le(n), j(n)) : b(a) ? n.state = w.ATTRIB_NAME_SAW_WHITE : C(_, a) ? n.attribName += a : k(n, "Invalid attribute name");
 					continue;
 				case w.ATTRIB_NAME_SAW_WHITE:
 					if (a === "=") n.state = w.ATTRIB_VALUE;
 					else if (b(a)) continue;
-					else A(n, "Attribute without value"), n.tag.attributes[n.attribName] = "", n.attribValue = "", E(n, "onattribute", {
+					else k(n, "Attribute without value"), n.tag.attributes[n.attribName] = "", n.attribValue = "", E(n, "onattribute", {
 						name: n.attribName,
 						value: ""
-					}), n.attribName = "", a === ">" ? j(n) : C(g, a) ? (n.attribName = a, n.state = w.ATTRIB_NAME) : (A(n, "Invalid attribute name"), n.state = w.ATTRIB);
+					}), n.attribName = "", a === ">" ? j(n) : C(g, a) ? (n.attribName = a, n.state = w.ATTRIB_NAME) : (k(n, "Invalid attribute name"), n.state = w.ATTRIB);
 					continue;
 				case w.ATTRIB_VALUE:
 					if (b(a)) continue;
@@ -6858,7 +6809,7 @@ var Ut = /* @__PURE__ */ Ee(((e, t) => {
 					le(n), n.q = "", n.state = w.ATTRIB_VALUE_CLOSED;
 					continue;
 				case w.ATTRIB_VALUE_CLOSED:
-					b(a) ? n.state = w.ATTRIB : a === ">" ? j(n) : a === "/" ? n.state = w.OPEN_TAG_SLASH : C(g, a) ? (A(n, "No whitespace between attributes"), n.attribName = a, n.attribValue = "", n.state = w.ATTRIB_NAME) : A(n, "Invalid attribute name");
+					b(a) ? n.state = w.ATTRIB : a === ">" ? j(n) : a === "/" ? n.state = w.OPEN_TAG_SLASH : C(g, a) ? (k(n, "No whitespace between attributes"), n.attribName = a, n.attribValue = "", n.state = w.ATTRIB_NAME) : k(n, "Invalid attribute name");
 					continue;
 				case w.ATTRIB_VALUE_UNQUOTED:
 					if (!S(a)) {
@@ -6868,15 +6819,15 @@ var Ut = /* @__PURE__ */ Ee(((e, t) => {
 					le(n), a === ">" ? j(n) : n.state = w.ATTRIB;
 					continue;
 				case w.CLOSE_TAG:
-					if (n.tagName) a === ">" ? ue(n) : C(_, a) ? n.tagName += a : n.script ? (n.script += "</" + n.tagName + a, n.tagName = "", n.state = w.SCRIPT) : (b(a) || A(n, "Invalid tagname in closing tag"), n.state = w.CLOSE_TAG_SAW_WHITE);
+					if (n.tagName) a === ">" ? ue(n) : C(_, a) ? n.tagName += a : n.script ? (n.script += "</" + n.tagName + a, n.tagName = "", n.state = w.SCRIPT) : (b(a) || k(n, "Invalid tagname in closing tag"), n.state = w.CLOSE_TAG_SAW_WHITE);
 					else {
 						if (b(a)) continue;
-						ee(g, a) ? n.script ? (n.script += "</" + a, n.state = w.SCRIPT) : A(n, "Invalid tagname in closing tag.") : n.tagName = a;
+						ee(g, a) ? n.script ? (n.script += "</" + a, n.state = w.SCRIPT) : k(n, "Invalid tagname in closing tag.") : n.tagName = a;
 					}
 					continue;
 				case w.CLOSE_TAG_SAW_WHITE:
 					if (b(a)) continue;
-					a === ">" ? ue(n) : A(n, "Invalid characters in closing tag");
+					a === ">" ? ue(n) : k(n, "Invalid characters in closing tag");
 					continue;
 				case w.TEXT_ENTITY:
 				case w.ATTRIB_VALUE_ENTITY_Q:
@@ -6896,7 +6847,7 @@ var Ut = /* @__PURE__ */ Ee(((e, t) => {
 					if (a === ";") {
 						var u = de(n);
 						n.opt.unparsedEntities && !Object.values(e.XML_ENTITIES).includes(u) ? ((n.entityCount += 1) > n.opt.maxEntityCount && O(n, "Parsed entity count exceeds max entity count"), (n.entityDepth += 1) > n.opt.maxEntityDepth && O(n, "Parsed entity depth exceeds max entity depth"), n.entity = "", n.state = c, n.write(u), --n.entityDepth) : (n[l] += u, n.entity = "", n.state = c);
-					} else C(n.entity.length ? y : v, a) ? n.entity += a : (A(n, "Invalid character in entity name"), n[l] += "&" + n.entity + a, n.entity = "", n.state = c);
+					} else C(n.entity.length ? y : v, a) ? n.entity += a : (k(n, "Invalid character in entity name"), n[l] += "&" + n.entity + a, n.entity = "", n.state = c);
 					continue;
 				default: throw Error(n, "Unknown state: " + n.state);
 			}
@@ -6922,7 +6873,7 @@ var Ut = /* @__PURE__ */ Ee(((e, t) => {
 			}) : String.fromCodePoint = n;
 		})();
 	})(e === void 0 ? e.sax = {} : e);
-})))(), 1), Gt = class {
+})))(), 1), rn = class {
 	constructor() {
 		this.pendingChildren = /* @__PURE__ */ new Map();
 	}
@@ -6941,10 +6892,10 @@ var Ut = /* @__PURE__ */ Ee(((e, t) => {
 		return this.pendingChildren.size;
 	}
 };
-function W(e) {
+function an(e) {
 	return "prefix" in e && "uri" in e && !!e.prefix && !!e.uri;
 }
-var G = Object.freeze({
+var on = Object.freeze({
 	start() {},
 	stop() {},
 	count() {},
@@ -6959,24 +6910,24 @@ var G = Object.freeze({
 	},
 	log() {},
 	reset() {}
-}), K = "dialecte::";
-function Kt({ enabled: e }) {
-	if (!e) return G;
+}), sn = "dialecte::";
+function cn({ enabled: e }) {
+	if (!e) return on;
 	let t = /* @__PURE__ */ new Map(), n = /* @__PURE__ */ new Map(), r = /* @__PURE__ */ new Map(), i = 0, a = {
 		start(e) {
-			let n = K + e, r = `${n}:${++i}`;
+			let n = sn + e, r = `${n}:${++i}`;
 			performance.mark(r), (t.get(n) ?? t.set(n, []).get(n)).push(r);
 		},
 		stop(e) {
-			let n = K + e, r = t.get(n)?.pop();
+			let n = sn + e, r = t.get(n)?.pop();
 			r && (performance.measure(n, r), performance.clearMarks(r));
 		},
 		count(e) {
-			let t = K + e;
+			let t = sn + e;
 			n.set(t, (n.get(t) ?? 0) + 1);
 		},
 		time(e, t) {
-			let n = K + e, i = performance.now();
+			let n = sn + e, i = performance.now();
 			try {
 				return t();
 			} finally {
@@ -6988,12 +6939,12 @@ function Kt({ enabled: e }) {
 			}
 		},
 		profile(e, t) {
-			return typeof console.profile == "function" ? (console.profile(K + e), Promise.resolve(t()).finally(() => console.profileEnd(K + e))) : t();
+			return typeof console.profile == "function" ? (console.profile(sn + e), Promise.resolve(t()).finally(() => console.profileEnd(sn + e))) : t();
 		},
 		report() {
 			let e = {};
 			for (let t of performance.getEntriesByType("measure")) {
-				if (!t.name.startsWith(K)) continue;
+				if (!t.name.startsWith(sn)) continue;
 				let n = t.name.slice(10), r = e[n] ??= {
 					calls: 0,
 					totalMs: 0,
@@ -7028,12 +6979,12 @@ function Kt({ enabled: e }) {
 	};
 	return a;
 }
-function qt(e) {
-	let { dialecteConfig: t, useCustomRecordsIds: n, session: r, hooks: i, perf: a = G } = e, o = {
+function ln(e) {
+	let { dialecteConfig: t, useCustomRecordsIds: n, session: r, hooks: i, perf: a = on } = e, o = {
 		defaultNamespace: null,
 		stack: [],
 		recordsBatch: []
-	}, s = Wt.parser(!0, {
+	}, s = nn.parser(!0, {
 		lowercase: !1,
 		trim: !0,
 		normalize: !0,
@@ -7041,31 +6992,31 @@ function qt(e) {
 		xmlns: !0
 	});
 	s.onopentag = (e) => {
-		a.time("core::import::onOpenTag", () => Jt({
+		a.time("core::import::onOpenTag", () => un({
 			node: e,
 			state: o,
 			dialecteConfig: t,
 			useCustomRecordsIds: n
 		}));
 	}, s.ontext = (e) => {
-		a.time("core::import::onText", () => Yt({
+		a.time("core::import::onText", () => dn({
 			text: e,
 			state: o
 		}));
 	}, s.oncdata = (e) => {
-		a.time("core::import::onText", () => Yt({
+		a.time("core::import::onText", () => dn({
 			text: e,
 			state: o
 		}));
 	}, s.onclosetag = () => {
-		a.time("core::import::onCloseTag", () => Xt({
+		a.time("core::import::onCloseTag", () => fn({
 			state: o,
 			hooks: i,
 			session: r,
 			dialecteConfig: t,
 			perf: a
 		}));
-	}, s.onerror = Zt;
+	}, s.onerror = pn;
 	function c() {
 		let e = o.recordsBatch;
 		return o.recordsBatch = [], e;
@@ -7079,38 +7030,42 @@ function qt(e) {
 		getSize: l
 	};
 }
-function Jt(e) {
-	let { node: t, state: n, dialecteConfig: r, useCustomRecordsIds: i } = e, a = Qt(t);
-	n.defaultNamespace ||= $t({
+function un(e) {
+	let { node: t, state: n, dialecteConfig: r, useCustomRecordsIds: i } = e, a = mn(t);
+	n.defaultNamespace ||= hn({
 		element: t,
 		defaultNamespace: r.namespaces.default,
 		rootElementName: r.rootElementName
 	});
-	let o = en(t, n.defaultNamespace), s = {
-		id: rn({
+	let o = gn(t, n.defaultNamespace), s = {
+		id: yn({
 			attributes: t.attributes,
 			useCustomRecordsIds: i
 		}),
 		tagName: a,
 		namespace: o,
-		attributes: tn(an({
-			attributes: t.attributes,
-			useCustomRecordsIds: i
-		})),
+		attributes: u({
+			dialecteConfig: r,
+			attributes: _n(bn({
+				attributes: t.attributes,
+				useCustomRecordsIds: i
+			})),
+			namespaceOf: (e) => t.ns[e]
+		}),
 		value: "",
-		parent: nn(n.stack),
+		parent: vn(n.stack),
 		children: []
 	};
 	n.stack.push(s);
 }
-function Yt(e) {
+function dn(e) {
 	let { text: t, state: n } = e;
 	t && n.stack.length > 0 && (n.stack[n.stack.length - 1].value += t);
 }
-function Xt(e) {
-	let { state: t, hooks: n, session: r, dialecteConfig: i, perf: a = G } = e, o = t.stack.pop();
+function fn(e) {
+	let { state: t, hooks: n, session: r, dialecteConfig: i, perf: a = on } = e, o = t.stack.pop();
 	if (!o) return;
-	let s = a.time("core::import::onCloseTag::standardize", () => A({
+	let s = a.time("core::import::onCloseTag::standardize", () => P({
 		dialecteConfig: i,
 		hooks: n,
 		record: o
@@ -7129,26 +7084,26 @@ function Xt(e) {
 		});
 	}), t.recordsBatch.push(s);
 }
-function Zt(e) {
+function pn(e) {
 	return /* @__PURE__ */ Error(`XML parsing error: ${e}`);
 }
-function Qt(e) {
+function mn(e) {
 	return e.local;
 }
-function $t(e) {
+function hn(e) {
 	let { element: t, defaultNamespace: n, rootElementName: r } = e;
-	return w(t.name === r, { detail: `Expected root element <${r}>, got <${t.name}>` }), t.attributes?.xmlns?.value ? {
+	return h(t.name === r, { detail: `Expected root element <${r}>, got <${t.name}>` }), t.attributes?.xmlns?.value ? {
 		prefix: "",
 		uri: t.attributes.xmlns.value
 	} : n;
 }
-function en(e, t) {
-	return W(e) ? {
+function gn(e, t) {
+	return an(e) ? {
 		prefix: e.prefix,
 		uri: e.uri
 	} : t;
 }
-function tn(e) {
+function _n(e) {
 	return e.map((e) => {
 		let t = e.prefix && e.uri ? {
 			prefix: e.prefix,
@@ -7161,7 +7116,7 @@ function tn(e) {
 		};
 	});
 }
-function nn(e) {
+function vn(e) {
 	if (e.length === 0) return null;
 	let t = e[e.length - 1];
 	return t ? {
@@ -7169,18 +7124,18 @@ function nn(e) {
 		tagName: t.tagName
 	} : null;
 }
-function rn(e) {
-	let { attributes: t, useCustomRecordsIds: n } = e, r = t[ne];
+function yn(e) {
+	let { attributes: t, useCustomRecordsIds: n } = e, r = t[o];
 	return n && r && r.value ? r.value : crypto.randomUUID();
 }
-function an(e) {
+function bn(e) {
 	let { attributes: t, useCustomRecordsIds: n } = e;
-	return n ? Object.values(t).filter((e) => e.name !== ne) : Object.values(t);
+	return n ? Object.values(t).filter((e) => e.name !== o) : Object.values(t);
 }
-var on = 32 * 1024, sn = 2e3;
-async function cn(e) {
-	let { documentId: t, store: n, config: r, useCustomRecordsIds: i = !1, chunkOptions: a, hooks: o, perf: s = G } = e, { file: c } = e, { supportedFileExtensions: l } = r.io;
-	if (w(l.some((e) => c.name.toLowerCase().endsWith(e)), {
+var xn = 32 * 1024, Sn = 2e3;
+async function Cn(e) {
+	let { documentId: t, store: n, config: r, useCustomRecordsIds: i = !1, chunkOptions: a, hooks: o, perf: s = on } = e, { file: c } = e, { supportedFileExtensions: l } = r.io;
+	if (h(l.some((e) => c.name.toLowerCase().endsWith(e)), {
 		key: "ASSERTION_FAILED",
 		detail: `Unsupported file type: ${c.name}`
 	}), c.size === 0) return {
@@ -7192,7 +7147,7 @@ async function cn(e) {
 		let e = u(await c.text());
 		c = new File([e], c.name, { type: c.type });
 	}
-	let d = a?.chunkSize ?? on, f = a?.batchSize ?? sn, p = new Gt(), m = qt({
+	let d = a?.chunkSize ?? xn, f = a?.batchSize ?? Sn, p = new rn(), m = ln({
 		dialecteConfig: r,
 		useCustomRecordsIds: i,
 		session: p,
@@ -7200,7 +7155,7 @@ async function cn(e) {
 		perf: s
 	});
 	s.start("core::import");
-	let h = await ln({
+	let g = await wn({
 		file: c,
 		sax: m,
 		session: p,
@@ -7212,27 +7167,27 @@ async function cn(e) {
 	});
 	return s.stop("core::import"), {
 		documentId: t,
-		recordCount: h + await un({
+		recordCount: g + await X({
 			hooks: o,
 			store: n,
 			documentId: t
 		})
 	};
 }
-async function ln(e) {
+async function wn(e) {
 	let { file: t, sax: n, session: r, store: i, documentId: a, chunkSize: o, batchSize: s, perf: c } = e, l = 0, u = t.stream().getReader(), d = new TextDecoder(), f = new Uint8Array(), p = !1;
 	for (; !p;) {
 		c.start("core::import::read");
 		let e = await u.read();
 		if (c.stop("core::import::read"), p = e.done, e.value) {
 			c.start("core::import::bufferAppend");
-			let t = f.length === 0 ? e.value : dn(f, e.value);
+			let t = f.length === 0 ? e.value : Tn(f, e.value);
 			c.stop("core::import::bufferAppend");
 			let u = 0;
 			for (; u + o <= t.length;) {
 				c.start("core::import::decode");
 				let e = d.decode(t.subarray(u, u + o), { stream: !0 });
-				c.stop("core::import::decode"), u += o, c.start("core::import::sax"), n.parser.write(e), c.stop("core::import::sax"), l += await fn({
+				c.stop("core::import::decode"), u += o, c.start("core::import::sax"), n.parser.write(e), c.stop("core::import::sax"), l += await En({
 					sax: n,
 					session: r,
 					store: i,
@@ -7249,7 +7204,7 @@ async function ln(e) {
 				let e = d.decode(f);
 				c.stop("core::import::decode"), c.start("core::import::sax"), n.parser.write(e), c.stop("core::import::sax");
 			}
-			n.parser.close(), l += await fn({
+			n.parser.close(), l += await En({
 				sax: n,
 				session: r,
 				store: i,
@@ -7261,7 +7216,7 @@ async function ln(e) {
 	}
 	return l;
 }
-async function un(e) {
+async function X(e) {
 	let { hooks: t, store: n, documentId: r } = e;
 	if (!t?.afterImport) return 0;
 	let { creates: i, updates: a, deletes: o } = await t.afterImport();
@@ -7271,11 +7226,11 @@ async function un(e) {
 		deletes: o
 	}), (i?.length ?? 0) - (o?.length ?? 0)) : 0;
 }
-function dn(e, t) {
+function Tn(e, t) {
 	let n = new Uint8Array(e.length + t.length);
 	return n.set(e), n.set(t, e.length), n;
 }
-async function fn(e) {
+async function En(e) {
 	let { sax: t, session: n, store: r, documentId: i, threshold: a, perf: o } = e;
 	if (t.getSize() < a) return 0;
 	let s = t.drainBatch();
@@ -7283,161 +7238,162 @@ async function fn(e) {
 	let c = n.resolveChildrenForBatch(s);
 	return o.stop("core::import::resolveChildren"), o.count("core::store::bulkWrite"), o.start("core::store::bulkWrite"), await r.bulkWrite(i, { creates: c }), o.stop("core::store::bulkWrite"), c.length;
 }
-async function pn(e) {
-	let { context: t, options: n = {} } = e, { ref: r, ancestors: i, siblings: a, depth: o, includeDeleted: s, omit: c, unwrap: l, as: u = "tree" } = n, d = await Dt({
+async function Dn(e) {
+	let { context: t, options: n = {} } = e, { ref: r, ancestors: i, siblings: a, depth: o, includeDeleted: s, omit: c, unwrap: l, as: u = "tree" } = n, d = await K({
 		context: t,
-		ref: r ? k(r) : void 0,
+		ref: r ? N(r) : void 0,
 		ancestors: i,
 		siblings: a,
 		depth: o,
 		includeDeleted: s
 	});
-	if (u === "xml") return hn(t, d, n.declareNamespaces, n.includeXmlDeclaration);
-	let f = mn(t, d, {
+	if (u === "xml") return kn(t, d, n.declareNamespaces, n.includeXmlDeclaration);
+	let f = On(t, d, {
 		omit: c,
 		unwrap: l
 	});
 	return u === "tree" ? f : {
 		tree: f,
-		xmlString: hn(t, d, n.declareNamespaces, n.includeXmlDeclaration)
+		xmlString: kn(t, d, n.declareNamespaces, n.includeXmlDeclaration)
 	};
 }
-function mn(e, t, n) {
-	let r = kt(t);
-	r = pt({
+function On(e, t, n) {
+	let r = Bt(t);
+	r = W({
 		tree: r,
-		omit: n.omit
+		omit: n.omit,
+		dialecteConfig: e.dialecteConfig
 	});
 	let i = e.dialecteConfig.transparentElements, a = n.unwrap ?? (i?.length ? [...i] : void 0);
-	return a?.length && (r = ut({
+	return a?.length && (r = xt({
 		tree: r,
 		unwrapTagNames: a
-	})), r = mt({
+	})), r = Tt({
 		tree: r,
 		childrenConfig: e.dialecteConfig.children
 	}), r;
 }
-function hn(e, t, n, r) {
-	return Nt(Ft({
+function kn(e, t, n, r) {
+	return J(Wt({
 		records: t.liveRecords,
 		config: e.dialecteConfig,
 		rootId: t.rootId,
 		declareNamespaces: n
 	}), { includeXmlDeclaration: r });
 }
-var gn = class {
+var An = class {
 	constructor(e, t) {
 		this.getContext = e, this.dialecteConfig = t;
 	}
 	async getRecord(e) {
-		return I({
+		return B({
 			context: this.getContext(),
 			ref: e
 		});
 	}
 	async getDefinition(e) {
-		return lt({
+		return bt({
 			context: this.getContext(),
-			ref: k(e)
+			ref: N(e)
 		});
 	}
 	async getRecords(e) {
-		return ze({
+		return Ye({
 			context: this.getContext(),
 			refs: e
 		});
 	}
 	async getChild(e, t) {
-		return Ve({
+		return Ze({
 			context: this.getContext(),
-			ref: k(e),
+			ref: N(e),
 			tagName: t
 		});
 	}
 	async getChildren(e, t) {
-		return He({
+		return Qe({
 			context: this.getContext(),
-			ref: k(e),
+			ref: N(e),
 			tagName: t
 		});
 	}
 	async getRecordsByTagName(e) {
-		return Be({
+		return Xe({
 			context: this.getContext(),
 			tagName: e
 		});
 	}
 	async getAttribute(e, t) {
-		let n = k(e), { fullObject: r } = t;
-		return r ? it({
+		let n = N(e), { fullObject: r } = t;
+		return r ? ht({
 			context: this.getContext(),
 			ref: n,
 			...t
-		}) : rt({
+		}) : mt({
 			context: this.getContext(),
 			ref: n,
 			...t
 		});
 	}
 	async getAttributes(e, t) {
-		let n = k(e), { fullObject: r } = t || {};
-		return r ? st({
+		let n = N(e), { fullObject: r } = t || {};
+		return r ? vt({
 			context: this.getContext(),
 			ref: n,
 			...t
-		}) : ot({
+		}) : _t({
 			context: this.getContext(),
 			ref: n,
 			...t
 		});
 	}
 	async getTree(e, t) {
-		return ht({
+		return Et({
 			context: this.getContext(),
-			ref: k(e),
+			ref: N(e),
 			options: t,
 			dialecteConfig: this.dialecteConfig
 		});
 	}
 	async getSnapshot(e) {
-		return pn({
+		return Dn({
 			context: this.getContext(),
 			options: e
 		});
 	}
 	async findDescendants(e) {
-		let t = k(e), n = this.dialecteConfig.descendants[t.tagName] ?? [];
-		return Ke({
+		let t = N(e), n = this.dialecteConfig.descendants[t.tagName] ?? [];
+		return nt({
 			context: this.getContext(),
 			ref: t,
 			options: { collect: n }
 		});
 	}
 	async findAncestors(e) {
-		return e ? Ue({
+		return e ? $e({
 			context: this.getContext(),
-			ref: k(e)
+			ref: N(e)
 		}) : [];
 	}
 	async findByAttributes(e) {
-		return We({
+		return et({
 			context: this.getContext(),
 			tagName: e.tagName,
 			attributes: e.attributes
 		});
 	}
-}, _n = class {
-	constructor(e, t, n, r = G) {
+}, jn = class {
+	constructor(e, t, n, r = on) {
 		this.store = e, this.dialecteConfig = t, this.documentId = n, this._perf = r;
 	}
 	get perf() {
 		return this._perf;
 	}
 	get any() {
-		return this._any ??= new gn(() => this.context, this.dialecteConfig);
+		return this._any ??= new An(() => this.context, this.dialecteConfig);
 	}
 	getOperations() {
-		return Ne();
+		return We();
 	}
 	get context() {
 		return {
@@ -7446,138 +7402,138 @@ var gn = class {
 			documentId: this.documentId,
 			recordCache: void 0,
 			stagedOperations: this.getOperations(),
-			progress: Me,
+			progress: Ue,
 			perf: this.perf
 		};
 	}
 	async getDocumentInfo() {
 		let e = await this.store.getDocument(this.documentId);
-		return w(e, {
+		return h(e, {
 			key: "DOCUMENT_NOT_REGISTERED",
 			detail: `Expected document id: ${this.documentId}`
 		}), e;
 	}
 	async getRoot() {
-		let e = await I({
+		let e = await B({
 			context: this.context,
 			ref: { tagName: this.dialecteConfig.rootElementName }
 		});
-		return w(e, {
+		return h(e, {
 			key: "ROOT_NOT_FOUND",
 			detail: `Expected tag name: ${this.dialecteConfig.rootElementName}`
 		}), e;
 	}
 	async getRecord(e) {
-		return I({
+		return B({
 			context: this.context,
-			ref: k(e)
+			ref: N(e)
 		});
 	}
 	async getDefinition(e) {
-		return lt({
+		return bt({
 			context: this.context,
-			ref: k(e)
+			ref: N(e)
 		});
 	}
 	async getRecords(e) {
-		let t = e.map((e) => k(e));
-		return ze({
+		let t = e.map((e) => N(e));
+		return Ye({
 			context: this.context,
 			refs: t
 		});
 	}
 	async getChild(e, t) {
-		if (e) return Ve({
+		if (e) return Ze({
 			context: this.context,
-			ref: k(e),
+			ref: N(e),
 			tagName: t
 		});
 	}
 	async getChildren(e, t) {
-		return e ? He({
+		return e ? Qe({
 			context: this.context,
-			ref: k(e),
+			ref: N(e),
 			tagName: t
 		}) : [];
 	}
 	async getRecordsByTagName(e) {
-		return Be({
+		return Xe({
 			context: this.context,
 			tagName: e
 		});
 	}
 	async findDescendants(e, t) {
-		let n = k(e);
+		let n = N(e);
 		if (!t) {
 			let e = this.dialecteConfig.descendants[n.tagName] ?? [];
-			return Ke({
+			return nt({
 				context: this.context,
 				ref: n,
 				options: { collect: e }
 			});
 		}
-		return Ke({
+		return nt({
 			context: this.context,
 			ref: n,
 			options: t
 		});
 	}
 	async findAncestors(e, t) {
-		return e ? Ue({
+		return e ? $e({
 			context: this.context,
-			ref: k(e),
+			ref: N(e),
 			options: t
 		}) : [];
 	}
 	async getTree(e, t) {
-		return ht({
+		return Et({
 			context: this.context,
-			ref: k(e),
+			ref: N(e),
 			options: t,
 			dialecteConfig: this.dialecteConfig
 		});
 	}
 	async getSnapshot(e) {
-		return pn({
+		return Dn({
 			context: this.context,
 			options: e
 		});
 	}
 	async getAttribute(e, t) {
-		let n = k(e), { fullObject: r } = t;
-		return r ? it({
+		let n = N(e), { fullObject: r } = t;
+		return r ? ht({
 			context: this.context,
 			ref: n,
 			...t
-		}) : rt({
+		}) : mt({
 			context: this.context,
 			ref: n,
 			...t
 		});
 	}
 	async getAttributes(e, t) {
-		let n = k(e), { fullObject: r } = t || {};
-		return r ? st({
+		let n = N(e), { fullObject: r } = t || {};
+		return r ? vt({
 			context: this.context,
 			ref: n,
 			...t
-		}) : ot({
+		}) : _t({
 			context: this.context,
 			ref: n,
 			...t
 		});
 	}
 	async findByAttributes(e) {
-		return We({
+		return et({
 			context: this.context,
 			...e
 		});
 	}
 };
-function q(e) {
+function Mn(e) {
 	let { context: t, status: n, record: r, oldRecord: i, newRecord: a } = e, o, s, c;
-	if (r && (o = ae(r)), i && (s = ae(i)), a && (c = ae(a)), n === "created") {
-		w(o, {
+	if (r && (o = A(r)), i && (s = A(i)), a && (c = A(a)), n === "created") {
+		h(o, {
 			detail: "Record is required for created",
 			key: "ELEMENT_NOT_FOUND"
 		});
@@ -7588,7 +7544,7 @@ function q(e) {
 		};
 		t.stagedOperations.log.push(e), t.stagedOperations.byId.set(o.id, e);
 	} else if (n === "updated") {
-		w(s && c, {
+		h(s && c, {
 			detail: "Old record and new record are required for updated",
 			key: "ELEMENT_NOT_FOUND"
 		});
@@ -7599,7 +7555,7 @@ function q(e) {
 		};
 		t.stagedOperations.log.push(e), t.stagedOperations.byId.set(c.id, e);
 	} else if (n === "deleted" && o) {
-		w(o, {
+		h(o, {
 			detail: "Record is required for deleted",
 			key: "ELEMENT_NOT_FOUND"
 		});
@@ -7611,18 +7567,18 @@ function q(e) {
 		t.stagedOperations.log.push(e), t.stagedOperations.byId.set(o.id, e);
 	}
 }
-function vn(e) {
+function Nn(e) {
 	let { context: t, operations: n } = e;
 	for (let e of n) switch (e.status) {
 		case "created":
-			q({
+			Mn({
 				context: t,
 				status: "created",
 				record: e.newRecord
 			});
 			break;
 		case "updated":
-			q({
+			Mn({
 				context: t,
 				status: "updated",
 				oldRecord: e.oldRecord,
@@ -7630,7 +7586,7 @@ function vn(e) {
 			});
 			break;
 		case "deleted":
-			q({
+			Mn({
 				context: t,
 				status: "deleted",
 				record: e.oldRecord
@@ -7638,22 +7594,22 @@ function vn(e) {
 			break;
 	}
 }
-async function yn(e) {
+async function Pn(e) {
 	let { dialecteConfig: t, hooks: n, context: r, query: i, parentRef: a, params: o } = e, { id: s, tagName: c, attributes: l, namespace: u, value: d } = o;
-	bn({
+	Fn({
 		attributes: l,
 		tagName: c
 	});
-	let f = await I({
+	let f = await B({
 		context: r,
 		ref: a
 	});
-	w(f, {
+	h(f, {
 		detail: "Parent record not found",
 		key: "ELEMENT_NOT_FOUND",
 		ref: a
 	});
-	let p = A({
+	let p = P({
 		dialecteConfig: t,
 		hooks: n,
 		record: {
@@ -7669,11 +7625,14 @@ async function yn(e) {
 			children: []
 		}
 	});
-	se({
+	me({
 		dialecteConfig: t,
 		record: p,
 		attributes: p.attributes
-	}), q({
+	}), he({
+		dialecteConfig: t,
+		record: p
+	}), Mn({
 		context: r,
 		status: "created",
 		record: p
@@ -7685,12 +7644,12 @@ async function yn(e) {
 			tagName: p.tagName
 		}]
 	};
-	return q({
+	return Mn({
 		context: r,
 		status: "updated",
 		oldRecord: f,
 		newRecord: m
-	}), n?.afterCreated && vn({
+	}), n?.afterCreated && Nn({
 		context: r,
 		operations: await n.afterCreated({
 			childRecord: p,
@@ -7699,22 +7658,22 @@ async function yn(e) {
 		})
 	}), p;
 }
-function bn(e) {
+function Fn(e) {
 	let { attributes: t, tagName: n } = e;
 	if (!(!t || !Array.isArray(t))) for (let e of t) {
 		let { name: t, namespace: r } = e;
-		t === "xmlns" || t.startsWith("xmlns:") || !t.includes(":") || typeof r == "object" && r?.prefix === t.slice(0, t.indexOf(":")) || m("PREFIXED_ATTRIBUTE_NAME", {
-			detail: `Attribute '${t}' on '${n}' is prefixed — pass a local name plus its namespace instead: { name: '${y(t)}', namespace }.`,
+		t === "xmlns" || t.startsWith("xmlns:") || !t.includes(":") || typeof r == "object" && r?.prefix === t.slice(0, t.indexOf(":")) || v("PREFIXED_ATTRIBUTE_NAME", {
+			detail: `Attribute '${t}' on '${n}' is prefixed — pass a local name plus its namespace instead: { name: '${m(t)}', namespace }.`,
 			ref: { tagName: n }
 		});
 	}
 }
-async function xn(e) {
+async function In(e) {
 	let { dialecteConfig: t, hooks: n, context: r, query: i, parentRef: a, record: o } = e, s = [];
 	r.perf.start("core::deepClone"), r.perf.start("core::deepClone::countNodes");
-	let c = Sn(o);
+	let c = Ln(o);
 	r.perf.stop("core::deepClone::countNodes"), r.progress.plan({ steps: c });
-	let l = await Cn({
+	let l = await Rn({
 		dialecteConfig: t,
 		hooks: n,
 		context: r,
@@ -7728,19 +7687,19 @@ async function xn(e) {
 		mappings: s
 	};
 }
-function Sn(e) {
+function Ln(e) {
 	let t = 1;
-	for (let n of e.tree) t += Sn(n);
+	for (let n of e.tree) t += Ln(n);
 	return t;
 }
-async function Cn(e) {
+async function Rn(e) {
 	let { dialecteConfig: t, hooks: n, context: r, query: i, parentRef: a, record: o, mappings: s } = e, c = !0, l = o;
 	if (n?.beforeClone) {
 		let e = n.beforeClone({ record: o });
 		c = e.shouldBeCloned, l = e.transformedRecord;
 	}
 	if (!c) return l;
-	let u = await yn({
+	let u = await Pn({
 		dialecteConfig: t,
 		hooks: n,
 		context: r,
@@ -7752,53 +7711,53 @@ async function Cn(e) {
 			attributes: l.attributes,
 			value: l.value
 		}
-	}), d = k(o);
+	}), d = N(o);
 	s.push({
 		source: Object.assign(d, { attributes: [...o.attributes] }),
-		target: k(u)
+		target: N(u)
 	}), r.progress.nextStep();
-	for (let e of l.tree) await Cn({
+	for (let e of l.tree) await Rn({
 		dialecteConfig: t,
 		hooks: n,
 		context: r,
 		query: i,
-		parentRef: k(u),
+		parentRef: N(u),
 		record: e,
 		mappings: s
 	});
 	return u;
 }
-async function wn(e) {
-	let { hooks: t, context: n, query: r, ref: i } = e, a = await I({
+async function zn(e) {
+	let { hooks: t, context: n, query: r, ref: i } = e, a = await B({
 		context: n,
 		ref: i
 	});
-	w(a, {
+	h(a, {
 		detail: `Record not found (tagName=${i.tagName}, id=${i.id})`,
 		key: "ELEMENT_NOT_FOUND",
 		ref: i
-	}), w(a.parent, {
+	}), h(a.parent, {
 		detail: "Cannot delete root element",
 		key: "PROTECTED_ROOT"
-	}), t?.beforeDelete && vn({
+	}), t?.beforeDelete && Nn({
 		context: n,
 		operations: await t.beforeDelete({
 			record: a,
 			query: r
 		})
-	}), await Tn({
+	}), await Bn({
 		context: n,
 		record: a
-	}), q({
+	}), Mn({
 		context: n,
 		status: "deleted",
 		record: a
 	});
-	let o = await I({
+	let o = await B({
 		context: n,
-		ref: k(a.parent)
+		ref: N(a.parent)
 	});
-	w(o, {
+	h(o, {
 		detail: `Parent record not found (tagName=${a.parent.tagName}, id=${a.parent.id})`,
 		key: "ELEMENT_NOT_FOUND"
 	});
@@ -7806,12 +7765,12 @@ async function wn(e) {
 		...o,
 		children: o.children.filter((e) => e.id !== a.id)
 	};
-	return q({
+	return Mn({
 		context: n,
 		status: "updated",
 		oldRecord: o,
 		newRecord: s
-	}), t?.afterDelete && vn({
+	}), t?.afterDelete && Nn({
 		context: n,
 		operations: await t.afterDelete({
 			record: a,
@@ -7820,33 +7779,34 @@ async function wn(e) {
 		})
 	}), s;
 }
-async function Tn(e) {
+async function Bn(e) {
 	let { context: t, record: n } = e;
 	for (let e of n.children) {
-		let n = await I({
+		let n = await B({
 			context: t,
-			ref: k(e)
+			ref: N(e)
 		});
-		n && (n.children.length > 0 && await Tn({
+		n && (n.children.length > 0 && await Bn({
 			context: t,
 			record: n
-		}), q({
+		}), Mn({
 			context: t,
 			status: "deleted",
 			record: n
 		}));
 	}
 }
-async function En(e) {
-	let { dialecteConfig: t, hooks: n, context: r, query: i, parentRef: a, params: o } = e, s = J(o.attributes), c = await He({
+async function Vn(e) {
+	let { dialecteConfig: t, hooks: n, context: r, query: i, parentRef: a, params: o } = e, s = Hn(o.attributes), c = await Qe({
 		context: r,
 		ref: a,
 		tagName: o.tagName
 	});
-	return (s ? c.find((e) => Ge({
+	return (s ? c.find((e) => V({
+		dialecteConfig: t,
 		record: e,
 		attributeFilter: s
-	})) : o.id === void 0 ? c[0] : c.find((e) => e.id === o.id)) || yn({
+	})) : o.id === void 0 ? c[0] : c.find((e) => e.id === o.id)) || Pn({
 		dialecteConfig: t,
 		hooks: n,
 		context: r,
@@ -7855,71 +7815,79 @@ async function En(e) {
 		params: o
 	});
 }
-function J(e) {
+function Hn(e) {
 	if (!e) return;
 	let t = Array.isArray(e) ? Object.fromEntries(e.map((e) => [e.name, e.value])) : e;
 	return Object.values(t).some((e) => e !== void 0 && e !== "") ? t : void 0;
 }
-async function Dn(e) {
-	let { dialecteConfig: t, hooks: n, context: r, query: i, ref: a, params: o } = e, { attributes: s, value: c } = o, l = await I({
-		context: r,
-		ref: a
+async function Un(e) {
+	let { dialecteConfig: n, hooks: r, context: i, query: a, ref: o, params: s } = e, { attributes: c, value: l } = s, u = await B({
+		context: i,
+		ref: o
 	});
-	w(l, {
-		detail: `Record not found (tagName=${a.tagName}, id=${a.id})`,
+	h(u, {
+		detail: `Record not found (tagName=${o.tagName}, id=${o.id})`,
 		key: "ELEMENT_NOT_FOUND",
-		ref: a
+		ref: o
 	});
-	let u = l.attributes;
-	if (s) {
-		let e = oe({
-			dialecteConfig: t,
-			tagName: l.tagName,
-			attributes: s
-		});
-		se({
-			dialecteConfig: t,
-			record: l,
-			attributes: e
-		}), u = [...l.attributes.filter((t) => !e.some((e) => e.name === t.name)), ...e].filter((e) => e.value !== void 0 && e.value !== null);
-	}
-	let d = A({
-		dialecteConfig: t,
-		hooks: n,
+	let d = c ? ue({
+		dialecteConfig: n,
+		tagName: u.tagName,
+		attributes: c,
+		stored: u.attributes
+	}) : [], f = u.attributes;
+	c && (f = [...u.attributes.filter((e) => !d.some((t) => t.name === e.name)), ...d].filter((e) => e.value !== void 0 && e.value !== null), me({
+		dialecteConfig: n,
 		record: {
-			...l,
-			attributes: u,
-			value: c === void 0 ? l.value : c
+			...u,
+			attributes: f
+		},
+		attributes: d
+	}));
+	let p = d.some(t), m = P({
+		dialecteConfig: n,
+		hooks: r,
+		record: {
+			...u,
+			attributes: f,
+			value: l === void 0 ? u.value : l
 		}
 	});
-	return On(l, d) ? d : (q({
-		context: r,
+	return p && (he({
+		dialecteConfig: n,
+		record: m
+	}), ge({
+		dialecteConfig: n,
+		merged: f,
+		record: m
+	})), Wn(u, m) ? m : (Mn({
+		context: i,
 		status: "updated",
-		oldRecord: l,
-		newRecord: d
-	}), n?.afterUpdated && vn({
-		context: r,
-		operations: await n.afterUpdated({
-			oldRecord: l,
-			newRecord: d,
-			query: i
+		oldRecord: u,
+		newRecord: m
+	}), r?.afterUpdated && Nn({
+		context: i,
+		operations: await r.afterUpdated({
+			oldRecord: u,
+			newRecord: m,
+			query: a
 		})
-	}), d);
+	}), m);
 }
-function On(e, t) {
-	return e.value !== t.value || e.attributes.length !== t.attributes.length ? !1 : e.attributes.every((e, n) => kn(e, t.attributes[n]));
+function Wn(e, t) {
+	return e.value !== t.value || e.attributes.length !== t.attributes.length ? !1 : e.attributes.every((e, n) => Gn(e, t.attributes[n]));
 }
-function kn(e, t) {
+function Gn(e, t) {
 	return e.name === t.name && e.value === t.value && e.namespace?.uri === t.namespace?.uri && e.namespace?.prefix === t.namespace?.prefix;
 }
-var An = class extends gn {
+var Kn = class extends An {
 	constructor(e, t, n, r) {
 		super(e, t), this.hooks = n, this.query = r;
 	}
 	async addChild(e, t) {
-		return yn({
+		return Pn({
 			context: this.getContext(),
-			parentRef: k(e),
+			parentRef: N(e),
 			params: {
 				id: t.id,
 				tagName: t.tagName,
@@ -7933,9 +7901,9 @@ var An = class extends gn {
 		});
 	}
 	async ensureChild(e, t) {
-		return En({
+		return Vn({
 			context: this.getContext(),
-			parentRef: k(e),
+			parentRef: N(e),
 			params: {
 				id: t.id,
 				tagName: t.tagName,
@@ -7949,9 +7917,9 @@ var An = class extends gn {
 		});
 	}
 	async update(e, t) {
-		return Dn({
+		return Un({
 			context: this.getContext(),
-			ref: k(e),
+			ref: N(e),
 			params: {
 				attributes: t.attributes,
 				value: t.value
@@ -7962,25 +7930,35 @@ var An = class extends gn {
 		});
 	}
 	async delete(e) {
-		return wn({
+		return zn({
 			context: this.getContext(),
-			ref: k(e),
+			ref: N(e),
 			hooks: this.hooks,
 			query: this.query
 		});
 	}
 	async deepClone(e, t) {
-		return await xn({
+		return await In({
 			dialecteConfig: this.dialecteConfig,
 			hooks: this.hooks,
 			context: this.getContext(),
 			query: this.query,
-			parentRef: k(e),
+			parentRef: N(e),
 			record: t
 		});
 	}
 };
-function jn(e) {
+async function qn(e) {
+	let { hooks: t, context: n, query: r } = e;
+	t?.beforeCommit && Nn({
+		context: n,
+		operations: await t.beforeCommit({
+			operations: n.stagedOperations.log,
+			query: r
+		})
+	});
+}
+function Jn(e) {
 	let t = /* @__PURE__ */ new Map();
 	for (let n of e) {
 		let e = (n.status === "deleted" ? n.oldRecord : n.newRecord).id, r = t.get(e);
@@ -8009,16 +7987,17 @@ function jn(e) {
 		deletes: n.filter((e) => e.status === "deleted")
 	};
 }
-async function Mn(e) {
-	let { stagedOperations: t, store: n, documentId: r, documentState: i, progress: a, perf: o = G } = e;
+async function Yn(e) {
+	let { stagedOperations: t, store: n, documentId: r, documentState: i, progress: a, perf: o = on } = e;
 	o.start("core::commit"), o.start("core::commit::merge");
-	let { creates: s, updates: c, deletes: l } = jn(t);
+	let { creates: s, updates: c, deletes: l } = Jn(t);
 	o.stop("core::commit::merge");
 	let u = s.length + c.length + l.length;
 	i.loading = !0, a.plan({ steps: u });
-	let d = 0, f = (e) => {
+	let d = 0;
+	function f(e) {
 		for (; d < e;) a.nextStep(), d++;
-	};
+	}
 	try {
 		o.count("core::store::commit"), o.start("core::store::commit"), await n.commit({
 			documentId: r,
@@ -8034,15 +8013,15 @@ async function Mn(e) {
 	}
 	i.lastUpdate = Date.now(), a.endPlan(), o.stop("core::commit");
 }
-var Nn = class extends _n {
-	constructor(e, t, n, r, i, a = G, o = () => {}) {
-		super(e, t, n, a), this.stagedOperations = Ne(), this.recordCache = /* @__PURE__ */ new Map(), this.documentActivity = r, this.hooks = i, this.progressReporter = je(r, o);
+var Xn = class extends jn {
+	constructor(e, t, n, r, i, a = on, o = () => {}) {
+		super(e, t, n, a), this.stagedOperations = We(), this.recordCache = /* @__PURE__ */ new Map(), this.stagingFinished = !1, this.documentActivity = r, this.hooks = i, this.progressReporter = He(r, o);
 	}
 	get progress() {
 		return this.progressReporter;
 	}
 	get any() {
-		return this._anyTx ??= new An(() => this.context, this.dialecteConfig, this.hooks, this);
+		return this._anyTx ??= new Kn(() => this.context, this.dialecteConfig, this.hooks, this);
 	}
 	getOperations() {
 		return this.stagedOperations;
@@ -8059,9 +8038,9 @@ var Nn = class extends _n {
 		};
 	}
 	async addChild(e, t) {
-		return yn({
+		return Pn({
 			context: this.context,
-			parentRef: k(e),
+			parentRef: N(e),
 			params: t,
 			dialecteConfig: this.dialecteConfig,
 			hooks: this.hooks,
@@ -8069,9 +8048,9 @@ var Nn = class extends _n {
 		});
 	}
 	async ensureChild(e, t) {
-		return En({
+		return Vn({
 			context: this.context,
-			parentRef: k(e),
+			parentRef: N(e),
 			params: t,
 			dialecteConfig: this.dialecteConfig,
 			hooks: this.hooks,
@@ -8079,9 +8058,9 @@ var Nn = class extends _n {
 		});
 	}
 	async update(e, t) {
-		return Dn({
+		return Un({
 			context: this.context,
-			ref: k(e),
+			ref: N(e),
 			params: t,
 			dialecteConfig: this.dialecteConfig,
 			hooks: this.hooks,
@@ -8089,34 +8068,41 @@ var Nn = class extends _n {
 		});
 	}
 	async delete(e) {
-		return wn({
+		return zn({
 			context: this.context,
-			ref: k(e),
+			ref: N(e),
 			hooks: this.hooks,
 			query: this
 		});
 	}
 	async deepClone(e, t) {
-		return xn({
+		return In({
 			dialecteConfig: this.dialecteConfig,
 			hooks: this.hooks,
 			context: this.context,
-			parentRef: k(e),
+			parentRef: N(e),
 			record: t,
 			query: this
 		});
+	}
+	async finishStaging() {
+		this.stagingFinished || (this.stagingFinished = !0, await qn({
+			hooks: this.hooks,
+			context: this.context,
+			query: this
+		}));
 	}
 	getStagedOperations() {
 		return this.stagedOperations.log;
 	}
 	clearStagedOperations() {
-		this.stagedOperations = Ne();
+		this.stagedOperations = We();
 	}
 	clearRecordCache() {
 		this.recordCache.clear();
 	}
 	async commit() {
-		await Mn({
+		await Yn({
 			stagedOperations: this.stagedOperations.log,
 			store: this.store,
 			documentId: this.documentId,
@@ -8126,19 +8112,19 @@ var Nn = class extends _n {
 		});
 	}
 };
-function Pn(e) {
+function Zn(e) {
 	return e.recordCache !== void 0;
 }
-var Fn = class {
+var Qn = class {
 	constructor(e, t, n, r, i, a) {
 		this.activeTransactions = 0, this.store = e, this.config = t, this.documentId = n, this.hooks = i, this.extensionsRegistry = r, this.state = a.state, this.channelName = a.channelName, this.broadcast = a.broadcast, this.refreshHistoryStatus = a.refreshHistoryStatus, this.perf = a.perf, this.subscribe = a.subscribeState, this.signalStateChange = a.signalStateChange;
 	}
 	withQueryExtensions(e) {
-		let t = ke(this.extensionsRegistry?.query, e);
+		let t = Be(this.extensionsRegistry?.query, e);
 		return Object.assign(e, t);
 	}
 	withAllExtensions(e) {
-		let t = ke(this.extensionsRegistry?.query, e), n = ke(this.extensionsRegistry?.transaction, e), r = {};
+		let t = Be(this.extensionsRegistry?.query, e), n = Be(this.extensionsRegistry?.transaction, e), r = {};
 		for (let [e, n] of Object.entries(t)) r[e] = {
 			...r[e],
 			...n
@@ -8150,20 +8136,20 @@ var Fn = class {
 		return Object.assign(e, r);
 	}
 	createQuery() {
-		return new _n(this.store, this.config, this.documentId, this.perf);
+		return new jn(this.store, this.config, this.documentId, this.perf);
 	}
 	get query() {
 		return this.withQueryExtensions(this.createQuery());
 	}
 	createTransaction() {
-		return new Nn(this.store, this.config, this.documentId, this.state, this.hooks, this.perf, this.signalStateChange);
+		return new Xn(this.store, this.config, this.documentId, this.state, this.hooks, this.perf, this.signalStateChange);
 	}
 	async transaction(e, t) {
-		this.activeTransactions > 0 && m("CONCURRENT_TRANSACTION", { detail: `${this.activeTransactions} transaction(s) already active. Concurrent transactions risk lost updates — serialize them or implement a transaction queue.` }), this.activeTransactions++, this.state.loading = !0, this.state.error = null, this.signalStateChange(!1);
+		this.activeTransactions > 0 && v("CONCURRENT_TRANSACTION", { detail: `${this.activeTransactions} transaction(s) already active. Concurrent transactions risk lost updates — serialize them or implement a transaction queue.` }), this.activeTransactions++, this.state.loading = !0, this.state.error = null, this.signalStateChange(!1);
 		let n = this.withAllExtensions(this.createTransaction());
 		try {
 			let r = await e(n);
-			return await n.commit(), await this.refreshHistoryStatus(), this.broadcast({
+			return await n.finishStaging(), await n.commit(), await this.refreshHistoryStatus(), this.broadcast({
 				type: "commit",
 				documentId: this.documentId,
 				timestamp: this.state.lastUpdate ?? Date.now()
@@ -8173,10 +8159,7 @@ var Fn = class {
 				timestamp: Date.now()
 			}), r;
 		} catch (e) {
-			throw this.state.error ?? m("UNKNOWN", {
-				detail: e instanceof Error ? e.message : String(e),
-				cause: e instanceof Error ? e : void 0
-			});
+			throw this.reportFailure(e);
 		} finally {
 			n.progress.forceClear(), this.activeTransactions--, this.state.loading = !1, this.signalStateChange(!0);
 		}
@@ -8185,12 +8168,9 @@ var Fn = class {
 		this.activeTransactions++, this.state.loading = !0, this.state.error = null;
 		let n = this.createTransaction();
 		try {
-			await e(this.withAllExtensions(n));
+			await e(this.withAllExtensions(n)), await n.finishStaging();
 		} catch (e) {
-			throw this.activeTransactions--, this.state.loading = !1, this.state.error ?? m("UNKNOWN", {
-				detail: e instanceof Error ? e.message : String(e),
-				cause: e instanceof Error ? e : void 0
-			});
+			throw this.activeTransactions--, this.state.loading = !1, this.reportFailure(e);
 		}
 		this.activeTransactions--, this.state.loading = !1;
 		let r = n.getStagedOperations(), i = {
@@ -8216,10 +8196,7 @@ var Fn = class {
 							timestamp: Date.now()
 						});
 					} catch (e) {
-						throw this.state.error ?? m("UNKNOWN", {
-							detail: e instanceof Error ? e.message : String(e),
-							cause: e instanceof Error ? e : void 0
-						});
+						throw this.reportFailure(e);
 					} finally {
 						this.activeTransactions--, this.state.loading = !1;
 					}
@@ -8230,47 +8207,56 @@ var Fn = class {
 			}
 		};
 	}
+	reportFailure(e) {
+		let t = d(e);
+		if (e instanceof Error && t) return this.state.error = t, e;
+		let n = s("UNKNOWN", {
+			detail: e instanceof Error ? e.message : String(e),
+			cause: e instanceof Error ? e : void 0
+		});
+		return this.state.error = d(n) ?? null, n;
+	}
 	close() {
 		this.store.close();
 	}
 	async destroy() {
 		await this.store.destroy();
 	}
-}, In = "_documents", Y = "_changeLog", X = "_meta", Ln = "xel_";
-function Rn(e) {
-	return `${Ln}${e}`;
+}, $n = "_documents", er = "_changeLog", tr = "_meta", nr = "xel_";
+function rr(e) {
+	return `${nr}${e}`;
 }
-var Z = "_blobs", zn = "blob_";
-function Bn(e) {
-	return `${zn}${e}`;
+var Z = "_blobs", ir = "blob_";
+function Q(e) {
+	return `${ir}${e}`;
 }
-var Vn = {
+var ar = {
 	primaryKey: "id",
 	indexes: ["name", "configKey"],
 	compoundIndexes: [],
 	arrayIndexes: []
-}, Hn = {
+}, or = {
 	primaryKey: "id",
 	autoIncrement: !0,
 	indexes: ["documentId"],
 	compoundIndexes: [["documentId", "sequenceNumber"]],
 	arrayIndexes: []
-}, Un = {
+}, sr = {
 	primaryKey: "key",
 	indexes: [],
 	compoundIndexes: [],
 	arrayIndexes: []
-}, Wn = {
+}, cr = {
 	primaryKey: "id",
 	indexes: ["documentId"],
 	compoundIndexes: [],
 	arrayIndexes: []
-}, Gn = {
+}, lr = {
 	primaryKey: "id",
 	indexes: [],
 	compoundIndexes: [],
 	arrayIndexes: []
-}, Kn = /* @__PURE__ */ Oe((/* @__PURE__ */ Ee(((e, t) => {
+}, ur = /* @__PURE__ */ ze((/* @__PURE__ */ L(((e, t) => {
 	((n, r) => {
 		typeof e == "object" && t !== void 0 ? t.exports = r() : typeof define == "function" && define.amd ? define(r) : (n = typeof globalThis < "u" ? globalThis : n || self).Dexie = r();
 	})(e, function() {
@@ -8393,24 +8379,24 @@ var Vn = {
 			});
 		}))).filter(function(e) {
 			return r[e];
-		}), te = new Set(w.map(function(e) {
+		}), T = new Set(w.map(function(e) {
 			return r[e];
-		})), T = null;
+		})), te = null;
 		function ne(e) {
-			return T = /* @__PURE__ */ new WeakMap(), e = function e(t) {
+			return te = /* @__PURE__ */ new WeakMap(), e = function e(t) {
 				if (!t || typeof t != "object") return t;
-				var n = T.get(t);
+				var n = te.get(t);
 				if (n) return n;
 				if (a(t)) {
-					n = [], T.set(t, n);
+					n = [], te.set(t, n);
 					for (var r = 0, i = t.length; r < i; ++r) n.push(e(t[r]));
-				} else if (te.has(t.constructor)) n = t;
+				} else if (T.has(t.constructor)) n = t;
 				else {
 					var o, c = s(t);
-					for (o in n = c === Object.prototype ? {} : Object.create(c), T.set(t, n), t) l(t, o) && (n[o] = e(t[o]));
+					for (o in n = c === Object.prototype ? {} : Object.create(c), te.set(t, n), t) l(t, o) && (n[o] = e(t[o]));
 				}
 				return n;
-			}(e), T = null, e;
+			}(e), te = null, e;
 		}
 		var re = {}.toString;
 		function ie(e) {
@@ -8439,7 +8425,7 @@ var Vn = {
 			} else for (t = arguments.length, n = Array(t); t--;) n[t] = arguments[t];
 			return n;
 		}
-		var k = typeof Symbol < "u" ? function(e) {
+		var se = typeof Symbol < "u" ? function(e) {
 			return e[Symbol.toStringTag] === "AsyncFunction";
 		} : function() {
 			return !1;
@@ -8458,7 +8444,7 @@ var Vn = {
 			"QuotaExceeded",
 			"Syntax",
 			"DataClone"
-		], A = [
+		], k = [
 			"Modify",
 			"Bulk",
 			"OpenFailed",
@@ -8475,14 +8461,14 @@ var Vn = {
 			"DatabaseClosed",
 			"PrematureCommit",
 			"ForeignAwait"
-		].concat(w), se = {
+		].concat(w), ce = {
 			VersionChanged: "Database version changed by other database connection",
 			DatabaseClosed: "Database has been closed",
 			Abort: "Transaction aborted",
 			TransactionInactive: "Transaction has already completed or failed",
 			MissingAPI: "IndexedDB API missing. Please visit https://tinyurl.com/y2uuvskb"
 		};
-		function ce(e, t) {
+		function A(e, t) {
 			this.name = e, this.message = t;
 		}
 		function le(e, t) {
@@ -8500,67 +8486,67 @@ var Vn = {
 				return t[e];
 			}), this.failuresByPos = t, this.message = le(e, this.failures);
 		}
-		p(ce).from(Error).extend({ toString: function() {
+		p(A).from(Error).extend({ toString: function() {
 			return this.name + ": " + this.message;
-		} }), p(j).from(ce), p(ue).from(ce);
-		var de = A.reduce(function(e, t) {
+		} }), p(j).from(A), p(ue).from(A);
+		var de = k.reduce(function(e, t) {
 			return e[t] = t + "Error", e;
-		}, {}), fe = ce, M = A.reduce(function(e, t) {
+		}, {}), fe = A, M = k.reduce(function(e, t) {
 			var n = t + "Error";
 			function r(e, r) {
-				this.name = n, e ? typeof e == "string" ? (this.message = `${e}${r ? "\n " + r : ""}`, this.inner = r || null) : typeof e == "object" && (this.message = `${e.name} ${e.message}`, this.inner = e) : (this.message = se[t] || n, this.inner = null);
+				this.name = n, e ? typeof e == "string" ? (this.message = `${e}${r ? "\n " + r : ""}`, this.inner = r || null) : typeof e == "object" && (this.message = `${e.name} ${e.message}`, this.inner = e) : (this.message = ce[t] || n, this.inner = null);
 			}
 			return p(r).from(fe), e[t] = r, e;
-		}, {}), pe = (M.Syntax = SyntaxError, M.Type = TypeError, M.Range = RangeError, w.reduce(function(e, t) {
+		}, {}), N = (M.Syntax = SyntaxError, M.Type = TypeError, M.Range = RangeError, w.reduce(function(e, t) {
 			return e[t + "Error"] = M[t], e;
 		}, {}));
-		w = A.reduce(function(e, t) {
+		w = k.reduce(function(e, t) {
 			return [
 				"Syntax",
 				"Type",
 				"Range"
 			].indexOf(t) === -1 && (e[t + "Error"] = M[t]), e;
 		}, {});
-		function N() {}
-		function me(e) {
+		function P() {}
+		function pe(e) {
 			return e;
 		}
-		function he(e, t) {
-			return e == null || e === me ? t : function(n) {
+		function me(e, t) {
+			return e == null || e === pe ? t : function(n) {
 				return t(e(n));
 			};
 		}
-		function ge(e, t) {
+		function he(e, t) {
 			return function() {
 				e.apply(this, arguments), t.apply(this, arguments);
 			};
 		}
-		function _e(e, t) {
-			return e === N ? t : function() {
+		function ge(e, t) {
+			return e === P ? t : function() {
 				var n = e.apply(this, arguments), r = (n !== void 0 && (arguments[0] = n), this.onsuccess), i = this.onerror, a = (this.onsuccess = null, this.onerror = null, t.apply(this, arguments));
-				return r && (this.onsuccess = this.onsuccess ? ge(r, this.onsuccess) : r), i && (this.onerror = this.onerror ? ge(i, this.onerror) : i), a === void 0 ? n : a;
+				return r && (this.onsuccess = this.onsuccess ? he(r, this.onsuccess) : r), i && (this.onerror = this.onerror ? he(i, this.onerror) : i), a === void 0 ? n : a;
+			};
+		}
+		function _e(e, t) {
+			return e === P ? t : function() {
+				e.apply(this, arguments);
+				var n = this.onsuccess, r = this.onerror;
+				this.onsuccess = this.onerror = null, t.apply(this, arguments), n && (this.onsuccess = this.onsuccess ? he(n, this.onsuccess) : n), r && (this.onerror = this.onerror ? he(r, this.onerror) : r);
 			};
 		}
 		function ve(e, t) {
-			return e === N ? t : function() {
-				e.apply(this, arguments);
-				var n = this.onsuccess, r = this.onerror;
-				this.onsuccess = this.onerror = null, t.apply(this, arguments), n && (this.onsuccess = this.onsuccess ? ge(n, this.onsuccess) : n), r && (this.onerror = this.onerror ? ge(r, this.onerror) : r);
+			return e === P ? t : function() {
+				var n = e.apply(this, arguments), r = (o(arguments[0], n), this.onsuccess), i = this.onerror, a = (this.onsuccess = null, this.onerror = null, t.apply(this, arguments));
+				return r && (this.onsuccess = this.onsuccess ? he(r, this.onsuccess) : r), i && (this.onerror = this.onerror ? he(i, this.onerror) : i), n === void 0 ? a === void 0 ? void 0 : a : o(n, a);
 			};
 		}
 		function ye(e, t) {
-			return e === N ? t : function() {
-				var n = e.apply(this, arguments), r = (o(arguments[0], n), this.onsuccess), i = this.onerror, a = (this.onsuccess = null, this.onerror = null, t.apply(this, arguments));
-				return r && (this.onsuccess = this.onsuccess ? ge(r, this.onsuccess) : r), i && (this.onerror = this.onerror ? ge(i, this.onerror) : i), n === void 0 ? a === void 0 ? void 0 : a : o(n, a);
-			};
-		}
-		function be(e, t) {
-			return e === N ? t : function() {
+			return e === P ? t : function() {
 				return !1 !== t.apply(this, arguments) && e.apply(this, arguments);
 			};
 		}
-		function xe(e, t) {
-			return e === N ? t : function() {
+		function be(e, t) {
+			return e === P ? t : function() {
 				var n = e.apply(this, arguments);
 				if (n && typeof n.then == "function") {
 					for (var r = this, i = arguments.length, a = Array(i); i--;) a[i] = arguments[i];
@@ -8571,271 +8557,271 @@ var Vn = {
 				return t.apply(this, arguments);
 			};
 		}
-		w.ModifyError = j, w.DexieError = ce, w.BulkError = ue;
-		var P = typeof location < "u" && /^(http|https):\/\/(localhost|127\.0\.0\.1)/.test(location.href);
+		w.ModifyError = j, w.DexieError = A, w.BulkError = ue;
+		var xe = typeof location < "u" && /^(http|https):\/\/(localhost|127\.0\.0\.1)/.test(location.href);
 		function Se(e) {
-			P = e;
+			xe = e;
 		}
-		var Ce = {}, we = 100, Te = typeof Promise > "u" ? [] : (A = Promise.resolve(), typeof crypto < "u" && crypto.subtle ? [
-			Te = crypto.subtle.digest("SHA-512", new Uint8Array([0])),
-			s(Te),
-			A
+		var Ce = {}, we = 100, F = typeof Promise > "u" ? [] : (k = Promise.resolve(), typeof crypto < "u" && crypto.subtle ? [
+			F = crypto.subtle.digest("SHA-512", new Uint8Array([0])),
+			s(F),
+			k
 		] : [
-			A,
-			s(A),
-			A
-		]), A = Te[0], Ee = Te[1], Ee = Ee && Ee.then, De = A && A.constructor, Oe = !!Te[2], ke = function(e, t) {
-			Ie.push([e, t]), je &&= (queueMicrotask(Ge), !1);
-		}, Ae = !0, je = !0, Me = [], Ne = [], Pe = me, Fe = {
+			k,
+			s(k),
+			k
+		]), k = F[0], Te = F[1], Te = Te && Te.then, Ee = k && k.constructor, De = !!F[2], Oe = function(e, t) {
+			Fe.push([e, t]), Ae &&= (queueMicrotask(We), !1);
+		}, ke = !0, Ae = !0, je = [], Me = [], Ne = pe, Pe = {
 			id: "global",
 			global: !0,
 			ref: 0,
 			unhandleds: [],
-			onunhandled: N,
+			onunhandled: P,
 			pgp: !1,
 			env: {},
-			finalize: N
-		}, F = Fe, Ie = [], Le = 0, Re = [];
-		function I(e) {
+			finalize: P
+		}, I = Pe, Fe = [], Ie = 0, Le = [];
+		function L(e) {
 			if (typeof this != "object") throw TypeError("Promises must be constructed via new");
 			this._listeners = [], this._lib = !1;
-			var t = this._PSD = F;
+			var t = this._PSD = I;
 			if (typeof e != "function") {
 				if (e !== Ce) throw TypeError("Not a function");
-				this._state = arguments[1], this._value = arguments[2], !1 === this._state && Ve(this, this._value);
+				this._state = arguments[1], this._value = arguments[2], !1 === this._state && Be(this, this._value);
 			} else this._state = null, this._value = null, ++t.ref, function e(t, n) {
 				try {
 					n(function(n) {
 						if (t._state === null) {
 							if (n === t) throw TypeError("A promise cannot be resolved with itself.");
-							var r = t._lib && Ke();
+							var r = t._lib && Ge();
 							n && typeof n.then == "function" ? e(t, function(e, t) {
-								n instanceof I ? n._then(e, t) : n.then(e, t);
-							}) : (t._state = !0, t._value = n, He(t)), r && qe();
+								n instanceof L ? n._then(e, t) : n.then(e, t);
+							}) : (t._state = !0, t._value = n, Ve(t)), r && Ke();
 						}
-					}, Ve.bind(null, t));
+					}, Be.bind(null, t));
 				} catch (e) {
-					Ve(t, e);
+					Be(t, e);
 				}
 			}(this, e);
 		}
-		var ze = {
+		var Re = {
 			get: function() {
-				var e = F, t = $e;
+				var e = I, t = Ze;
 				function n(n, r) {
-					var i = this, a = !e.global && (e !== F || t !== $e), o = a && !rt(), s = new I(function(t, s) {
-						Ue(i, new Be(lt(n, e, a, o), lt(r, e, a, o), t, s, e));
+					var i = this, a = !e.global && (e !== I || t !== Ze), o = a && !V(), s = new L(function(t, s) {
+						He(i, new ze(ot(n, e, a, o), ot(r, e, a, o), t, s, e));
 					});
 					return this._consoleTask && (s._consoleTask = this._consoleTask), s;
 				}
 				return n.prototype = Ce, n;
 			},
 			set: function(e) {
-				f(this, "then", e && e.prototype === Ce ? ze : {
+				f(this, "then", e && e.prototype === Ce ? Re : {
 					get: function() {
 						return e;
 					},
-					set: ze.set
+					set: Re.set
 				});
 			}
 		};
-		function Be(e, t, n, r, i) {
+		function ze(e, t, n, r, i) {
 			this.onFulfilled = typeof e == "function" ? e : null, this.onRejected = typeof t == "function" ? t : null, this.resolve = n, this.reject = r, this.psd = i;
 		}
-		function Ve(e, t) {
+		function Be(e, t) {
 			var n, r;
-			Ne.push(t), e._state === null && (n = e._lib && Ke(), t = Pe(t), e._state = !1, e._value = t, r = e, Me.some(function(e) {
+			Me.push(t), e._state === null && (n = e._lib && Ge(), t = Ne(t), e._state = !1, e._value = t, r = e, je.some(function(e) {
 				return e._value === r._value;
-			}) || Me.push(r), He(e), n) && qe();
+			}) || je.push(r), Ve(e), n) && Ke();
 		}
-		function He(e) {
+		function Ve(e) {
 			var t = e._listeners;
 			e._listeners = [];
-			for (var n = 0, r = t.length; n < r; ++n) Ue(e, t[n]);
+			for (var n = 0, r = t.length; n < r; ++n) He(e, t[n]);
 			var i = e._PSD;
-			--i.ref || i.finalize(), Le === 0 && (++Le, ke(function() {
-				--Le == 0 && Je();
+			--i.ref || i.finalize(), Ie === 0 && (++Ie, Oe(function() {
+				--Ie == 0 && qe();
 			}, []));
 		}
-		function Ue(e, t) {
+		function He(e, t) {
 			if (e._state === null) e._listeners.push(t);
 			else {
 				var n = e._state ? t.onFulfilled : t.onRejected;
 				if (n === null) return (e._state ? t.resolve : t.reject)(e._value);
-				++t.psd.ref, ++Le, ke(We, [
+				++t.psd.ref, ++Ie, Oe(Ue, [
 					n,
 					e,
 					t
 				]);
 			}
 		}
-		function We(e, t, n) {
+		function Ue(e, t, n) {
 			try {
 				var r, i = t._value;
-				!t._state && Ne.length && (Ne = []), r = P && t._consoleTask ? t._consoleTask.run(function() {
+				!t._state && Me.length && (Me = []), r = xe && t._consoleTask ? t._consoleTask.run(function() {
 					return e(i);
-				}) : e(i), t._state || Ne.indexOf(i) !== -1 || ((e) => {
-					for (var t = Me.length; t;) if (Me[--t]._value === e._value) return Me.splice(t, 1);
+				}) : e(i), t._state || Me.indexOf(i) !== -1 || ((e) => {
+					for (var t = je.length; t;) if (je[--t]._value === e._value) return je.splice(t, 1);
 				})(t), n.resolve(r);
 			} catch (e) {
 				n.reject(e);
 			} finally {
-				--Le == 0 && Je(), --n.psd.ref || n.psd.finalize();
+				--Ie == 0 && qe(), --n.psd.ref || n.psd.finalize();
 			}
 		}
-		function Ge() {
-			ct(Fe, function() {
-				Ke() && qe();
+		function We() {
+			at(Pe, function() {
+				Ge() && Ke();
 			});
 		}
-		function Ke() {
-			var e = Ae;
-			return je = Ae = !1, e;
+		function Ge() {
+			var e = ke;
+			return Ae = ke = !1, e;
 		}
-		function qe() {
+		function Ke() {
 			var e, t, n;
 			do
-				for (; 0 < Ie.length;) for (e = Ie, Ie = [], n = e.length, t = 0; t < n; ++t) {
+				for (; 0 < Fe.length;) for (e = Fe, Fe = [], n = e.length, t = 0; t < n; ++t) {
 					var r = e[t];
 					r[0].apply(null, r[1]);
 				}
-			while (0 < Ie.length);
-			je = Ae = !0;
+			while (0 < Fe.length);
+			Ae = ke = !0;
 		}
-		function Je() {
-			for (var e = Me, t = (Me = [], e.forEach(function(e) {
+		function qe() {
+			for (var e = je, t = (je = [], e.forEach(function(e) {
 				e._PSD.onunhandled.call(null, e._value, e);
-			}), Re.slice(0)), n = t.length; n;) t[--n]();
+			}), Le.slice(0)), n = t.length; n;) t[--n]();
 		}
-		function Ye(e) {
-			return new I(Ce, !1, e);
+		function Je(e) {
+			return new L(Ce, !1, e);
 		}
-		function L(e, t) {
-			var n = F;
+		function R(e, t) {
+			var n = I;
 			return function() {
-				var r = Ke(), i = F;
+				var r = Ge(), i = I;
 				try {
-					return ot(n, !0), e.apply(this, arguments);
+					return rt(n, !0), e.apply(this, arguments);
 				} catch (e) {
 					t && t(e);
 				} finally {
-					ot(i, !1), r && qe();
+					rt(i, !1), r && Ke();
 				}
 			};
 		}
-		u(I.prototype, {
-			then: ze,
+		u(L.prototype, {
+			then: Re,
 			_then: function(e, t) {
-				Ue(this, new Be(null, null, e, t, F));
+				He(this, new ze(null, null, e, t, I));
 			},
 			catch: function(e) {
 				var t, n;
 				return arguments.length === 1 ? this.then(null, e) : (t = e, n = arguments[1], typeof t == "function" ? this.then(null, function(e) {
-					return (e instanceof t ? n : Ye)(e);
+					return (e instanceof t ? n : Je)(e);
 				}) : this.then(null, function(e) {
-					return (e && e.name === t ? n : Ye)(e);
+					return (e && e.name === t ? n : Je)(e);
 				}));
 			},
 			finally: function(e) {
 				return this.then(function(t) {
-					return I.resolve(e()).then(function() {
+					return L.resolve(e()).then(function() {
 						return t;
 					});
 				}, function(t) {
-					return I.resolve(e()).then(function() {
-						return Ye(t);
+					return L.resolve(e()).then(function() {
+						return Je(t);
 					});
 				});
 			},
 			timeout: function(e, t) {
 				var n = this;
-				return e < Infinity ? new I(function(r, i) {
+				return e < Infinity ? new L(function(r, i) {
 					var a = setTimeout(function() {
 						return i(new M.Timeout(t));
 					}, e);
 					n.then(r, i).finally(clearTimeout.bind(null, a));
 				}) : this;
 			}
-		}), typeof Symbol < "u" && Symbol.toStringTag && f(I.prototype, Symbol.toStringTag, "Dexie.Promise"), Fe.env = st(), u(I, {
+		}), typeof Symbol < "u" && Symbol.toStringTag && f(L.prototype, Symbol.toStringTag, "Dexie.Promise"), Pe.env = it(), u(L, {
 			all: function() {
-				var e = O.apply(null, arguments).map(it);
-				return new I(function(t, n) {
+				var e = O.apply(null, arguments).map(tt);
+				return new L(function(t, n) {
 					e.length === 0 && t([]);
 					var r = e.length;
 					e.forEach(function(i, a) {
-						return I.resolve(i).then(function(n) {
+						return L.resolve(i).then(function(n) {
 							e[a] = n, --r || t(e);
 						}, n);
 					});
 				});
 			},
 			resolve: function(e) {
-				return e instanceof I ? e : e && typeof e.then == "function" ? new I(function(t, n) {
+				return e instanceof L ? e : e && typeof e.then == "function" ? new L(function(t, n) {
 					e.then(t, n);
-				}) : new I(Ce, !0, e);
+				}) : new L(Ce, !0, e);
 			},
-			reject: Ye,
+			reject: Je,
 			race: function() {
-				var e = O.apply(null, arguments).map(it);
-				return new I(function(t, n) {
+				var e = O.apply(null, arguments).map(tt);
+				return new L(function(t, n) {
 					e.map(function(e) {
-						return I.resolve(e).then(t, n);
+						return L.resolve(e).then(t, n);
 					});
 				});
 			},
 			PSD: {
 				get: function() {
-					return F;
+					return I;
 				},
 				set: function(e) {
-					return F = e;
+					return I = e;
 				}
 			},
 			totalEchoes: { get: function() {
-				return $e;
+				return Ze;
 			} },
-			newPSD: tt,
-			usePSD: ct,
+			newPSD: $e,
+			usePSD: at,
 			scheduler: {
 				get: function() {
-					return ke;
+					return Oe;
 				},
 				set: function(e) {
-					ke = e;
+					Oe = e;
 				}
 			},
 			rejectionMapper: {
 				get: function() {
-					return Pe;
+					return Ne;
 				},
 				set: function(e) {
-					Pe = e;
+					Ne = e;
 				}
 			},
 			follow: function(e, t) {
-				return new I(function(n, r) {
-					return tt(function(t, n) {
-						var r = F;
-						r.unhandleds = [], r.onunhandled = n, r.finalize = ge(function() {
+				return new L(function(n, r) {
+					return $e(function(t, n) {
+						var r = I;
+						r.unhandleds = [], r.onunhandled = n, r.finalize = he(function() {
 							var e, r = this;
 							e = function() {
 								r.unhandleds.length === 0 ? t() : n(r.unhandleds[0]);
-							}, Re.push(function t() {
-								e(), Re.splice(Re.indexOf(t), 1);
-							}), ++Le, ke(function() {
-								--Le == 0 && Je();
+							}, Le.push(function t() {
+								e(), Le.splice(Le.indexOf(t), 1);
+							}), ++Ie, Oe(function() {
+								--Ie == 0 && qe();
 							}, []);
 						}, r.finalize), e();
 					}, t, n, r);
 				});
 			}
-		}), De && (De.allSettled && f(I, "allSettled", function() {
-			var e = O.apply(null, arguments).map(it);
-			return new I(function(t) {
+		}), Ee && (Ee.allSettled && f(L, "allSettled", function() {
+			var e = O.apply(null, arguments).map(tt);
+			return new L(function(t) {
 				e.length === 0 && t([]);
 				var n = e.length, r = Array(n);
 				e.forEach(function(e, i) {
-					return I.resolve(e).then(function(e) {
+					return L.resolve(e).then(function(e) {
 						return r[i] = {
 							status: "fulfilled",
 							value: e
@@ -8850,70 +8836,70 @@ var Vn = {
 					});
 				});
 			});
-		}), De.any && typeof AggregateError < "u" && f(I, "any", function() {
-			var e = O.apply(null, arguments).map(it);
-			return new I(function(t, n) {
+		}), Ee.any && typeof AggregateError < "u" && f(L, "any", function() {
+			var e = O.apply(null, arguments).map(tt);
+			return new L(function(t, n) {
 				e.length === 0 && n(/* @__PURE__ */ AggregateError([]));
 				var r = e.length, i = Array(r);
 				e.forEach(function(e, a) {
-					return I.resolve(e).then(function(e) {
+					return L.resolve(e).then(function(e) {
 						return t(e);
 					}, function(e) {
 						i[a] = e, --r || n(AggregateError(i));
 					});
 				});
 			});
-		}), De.withResolvers) && (I.withResolvers = De.withResolvers);
-		var R = {
+		}), Ee.withResolvers) && (L.withResolvers = Ee.withResolvers);
+		var z = {
 			awaits: 0,
 			echoes: 0,
 			id: 0
-		}, Xe = 0, Ze = [], Qe = 0, $e = 0, et = 0;
-		function tt(e, t, n, r) {
-			var i = F, a = Object.create(i), t = (a.parent = i, a.ref = 0, a.global = !1, a.id = ++et, Fe.env, a.env = Oe ? {
-				Promise: I,
+		}, B = 0, Ye = [], Xe = 0, Ze = 0, Qe = 0;
+		function $e(e, t, n, r) {
+			var i = I, a = Object.create(i), t = (a.parent = i, a.ref = 0, a.global = !1, a.id = ++Qe, Pe.env, a.env = De ? {
+				Promise: L,
 				PromiseProp: {
-					value: I,
+					value: L,
 					configurable: !0,
 					writable: !0
 				},
-				all: I.all,
-				race: I.race,
-				allSettled: I.allSettled,
-				any: I.any,
-				resolve: I.resolve,
-				reject: I.reject
+				all: L.all,
+				race: L.race,
+				allSettled: L.allSettled,
+				any: L.any,
+				resolve: L.resolve,
+				reject: L.reject
 			} : {}, t && o(a, t), ++i.ref, a.finalize = function() {
 				--this.parent.ref || this.parent.finalize();
-			}, ct(a, e, n, r));
+			}, at(a, e, n, r));
 			return a.ref === 0 && a.finalize(), t;
 		}
-		function nt() {
-			return R.id ||= ++Xe, ++R.awaits, R.echoes += we, R.id;
+		function et() {
+			return z.id ||= ++B, ++z.awaits, z.echoes += we, z.id;
 		}
-		function rt() {
-			return !!R.awaits && (--R.awaits == 0 && (R.id = 0), R.echoes = R.awaits * we, !0);
+		function V() {
+			return !!z.awaits && (--z.awaits == 0 && (z.id = 0), z.echoes = z.awaits * we, !0);
 		}
-		function it(e) {
-			return R.echoes && e && e.constructor === De ? (nt(), e.then(function(e) {
-				return rt(), e;
+		function tt(e) {
+			return z.echoes && e && e.constructor === Ee ? (et(), e.then(function(e) {
+				return V(), e;
 			}, function(e) {
-				return rt(), z(e);
+				return V(), H(e);
 			})) : e;
 		}
-		function at() {
-			var e = Ze[Ze.length - 1];
-			Ze.pop(), ot(e, !1);
+		function nt() {
+			var e = Ye[Ye.length - 1];
+			Ye.pop(), rt(e, !1);
 		}
-		function ot(e, t) {
-			var n, i, a = F;
-			(t ? !R.echoes || Qe++ && e === F : !Qe || --Qe && e === F) || queueMicrotask(t ? function(e) {
-				++$e, R.echoes && --R.echoes != 0 || (R.echoes = R.awaits = R.id = 0), Ze.push(F), ot(e, !0);
-			}.bind(null, e) : at), e !== F && (F = e, a === Fe && (Fe.env = st()), Oe) && (n = Fe.env.Promise, i = e.env, a.global || e.global) && (Object.defineProperty(r, "Promise", i.PromiseProp), n.all = i.all, n.race = i.race, n.resolve = i.resolve, n.reject = i.reject, i.allSettled && (n.allSettled = i.allSettled), i.any) && (n.any = i.any);
+		function rt(e, t) {
+			var n, i, a = I;
+			(t ? !z.echoes || Xe++ && e === I : !Xe || --Xe && e === I) || queueMicrotask(t ? function(e) {
+				++Ze, z.echoes && --z.echoes != 0 || (z.echoes = z.awaits = z.id = 0), Ye.push(I), rt(e, !0);
+			}.bind(null, e) : nt), e !== I && (I = e, a === Pe && (Pe.env = it()), De) && (n = Pe.env.Promise, i = e.env, a.global || e.global) && (Object.defineProperty(r, "Promise", i.PromiseProp), n.all = i.all, n.race = i.race, n.resolve = i.resolve, n.reject = i.reject, i.allSettled && (n.allSettled = i.allSettled), i.any) && (n.any = i.any);
 		}
-		function st() {
+		function it() {
 			var e = r.Promise;
-			return Oe ? {
+			return De ? {
 				Promise: e,
 				PromiseProp: Object.getOwnPropertyDescriptor(r, "Promise"),
 				all: e.all,
@@ -8924,66 +8910,66 @@ var Vn = {
 				reject: e.reject
 			} : {};
 		}
-		function ct(e, t, n, r, i) {
-			var a = F;
+		function at(e, t, n, r, i) {
+			var a = I;
 			try {
-				return ot(e, !0), t(n, r, i);
+				return rt(e, !0), t(n, r, i);
 			} finally {
-				ot(a, !1);
+				rt(a, !1);
 			}
 		}
-		function lt(e, t, n, r) {
+		function ot(e, t, n, r) {
 			return typeof e == "function" ? function() {
-				var i = F;
-				n && nt(), ot(t, !0);
+				var i = I;
+				n && et(), rt(t, !0);
 				try {
 					return e.apply(this, arguments);
 				} finally {
-					ot(i, !1), r && queueMicrotask(rt);
+					rt(i, !1), r && queueMicrotask(V);
 				}
 			} : e;
 		}
-		function ut(e) {
-			Promise === De && R.echoes === 0 ? Qe === 0 ? e() : enqueueNativeMicroTask(e) : setTimeout(e, 0);
+		function st(e) {
+			Promise === Ee && z.echoes === 0 ? Xe === 0 ? e() : enqueueNativeMicroTask(e) : setTimeout(e, 0);
 		}
-		("" + Ee).indexOf("[native code]") === -1 && (nt = rt = N);
-		var z = I.reject, dt = "￿", ft = "Invalid key provided. Keys must be of type string, number, Date or Array<string | number | Date>.", pt = "String expected.", mt = "__dbnames", ht = "readonly", gt = "readwrite";
-		function _t(e, t) {
+		("" + Te).indexOf("[native code]") === -1 && (et = V = P);
+		var H = L.reject, ct = "￿", lt = "Invalid key provided. Keys must be of type string, number, Date or Array<string | number | Date>.", ut = "String expected.", dt = "__dbnames", ft = "readonly", pt = "readwrite";
+		function mt(e, t) {
 			return e ? t ? function() {
 				return e.apply(this, arguments) && t.apply(this, arguments);
 			} : e : t;
 		}
-		var vt = {
+		var ht = {
 			type: 3,
 			lower: -Infinity,
 			lowerOpen: !1,
 			upper: [[]],
 			upperOpen: !1
 		};
-		function yt(e) {
+		function gt(e) {
 			return typeof e != "string" || /\./.test(e) ? function(e) {
 				return e;
 			} : function(t) {
 				return t[e] === void 0 && e in t && delete (t = ne(t))[e], t;
 			};
 		}
-		function bt() {
+		function _t() {
 			throw M.Type("Entity instances must never be new:ed. Instances are generated by the framework bypassing the constructor.");
 		}
-		function B(e, t) {
+		function U(e, t) {
 			try {
-				var n = xt(e), r = xt(t);
+				var n = vt(e), r = vt(t);
 				if (n !== r) return n === "Array" ? 1 : r === "Array" ? -1 : n === "binary" ? 1 : r === "binary" ? -1 : n === "string" ? 1 : r === "string" ? -1 : n === "Date" ? 1 : r === "Date" ? -1 : NaN;
 				switch (n) {
 					case "number":
 					case "Date":
 					case "string": return t < e ? 1 : e < t ? -1 : 0;
 					case "binary":
-						for (var i = St(e), a = St(t), o = i.length, s = a.length, c = o < s ? o : s, l = 0; l < c; ++l) if (i[l] !== a[l]) return i[l] < a[l] ? -1 : 1;
+						for (var i = yt(e), a = yt(t), o = i.length, s = a.length, c = o < s ? o : s, l = 0; l < c; ++l) if (i[l] !== a[l]) return i[l] < a[l] ? -1 : 1;
 						return o === s ? 0 : o < s ? -1 : 1;
 					case "Array":
 						for (var u = e, d = t, f = u.length, p = d.length, m = f < p ? f : p, h = 0; h < m; ++h) {
-							var g = B(u[h], d[h]);
+							var g = U(u[h], d[h]);
 							if (g !== 0) return g;
 						}
 						return f === p ? 0 : f < p ? -1 : 1;
@@ -8991,14 +8977,14 @@ var Vn = {
 			} catch {}
 			return NaN;
 		}
-		function xt(e) {
+		function vt(e) {
 			var t = typeof e;
 			return t == "object" && (ArrayBuffer.isView(e) || (t = ie(e)) === "ArrayBuffer") ? "binary" : t;
 		}
-		function St(e) {
+		function yt(e) {
 			return e instanceof Uint8Array ? e : ArrayBuffer.isView(e) ? new Uint8Array(e.buffer, e.byteOffset, e.byteLength) : new Uint8Array(e);
 		}
-		function Ct(e, t, n) {
+		function bt(e, t, n) {
 			var r = e.schema.yProps;
 			return r ? (t && 0 < n.numFailures && (t = t.filter(function(e, t) {
 				return !n.failures[t];
@@ -9008,7 +8994,7 @@ var Vn = {
 				return n;
 			})) : n;
 		}
-		Tt.prototype.execute = function(e) {
+		St.prototype.execute = function(e) {
 			var t = this["@@propmod"];
 			if (t.add !== void 0) {
 				var r = t.add;
@@ -9036,43 +9022,43 @@ var Vn = {
 			}
 			return r = (r = t.replacePrefix)?.[0], r && typeof e == "string" && e.startsWith(r) ? t.replacePrefix[1] + e.substring(r.length) : e;
 		};
-		var wt = Tt;
-		function Tt(e) {
+		var xt = St;
+		function St(e) {
 			this["@@propmod"] = e;
 		}
-		function Et(e, t) {
+		function Ct(e, t) {
 			for (var n = i(t), r = n.length, a = !1, o = 0; o < r; ++o) {
 				var s = n[o], c = t[s], l = b(e, s);
-				c instanceof wt ? (x(e, s, c.execute(l)), a = !0) : l !== c && (x(e, s, c), a = !0);
+				c instanceof xt ? (x(e, s, c.execute(l)), a = !0) : l !== c && (x(e, s, c), a = !0);
 			}
 			return a;
 		}
-		V.prototype._trans = function(e, t, n) {
-			var r = this._tx || F.trans, i = this.name, a = P && typeof console < "u" && console.createTask && console.createTask(`Dexie: ${e === "readonly" ? "read" : "write"} ${this.name}`);
+		W.prototype._trans = function(e, t, n) {
+			var r = this._tx || I.trans, i = this.name, a = xe && typeof console < "u" && console.createTask && console.createTask(`Dexie: ${e === "readonly" ? "read" : "write"} ${this.name}`);
 			function o(e, n, r) {
 				if (r.schema[i]) return t(r.idbtrans, r);
 				throw new M.NotFound("Table " + i + " not part of transaction");
 			}
-			var s = Ke();
+			var s = Ge();
 			try {
-				var c = r && r.db._novip === this.db._novip ? r === F.trans ? r._promise(e, o, n) : tt(function() {
+				var c = r && r.db._novip === this.db._novip ? r === I.trans ? r._promise(e, o, n) : $e(function() {
 					return r._promise(e, o, n);
 				}, {
 					trans: r,
-					transless: F.transless || F
+					transless: I.transless || I
 				}) : function e(t, n, r, i) {
-					if (t.idbdb && (t._state.openComplete || F.letThrough || t._vip)) {
+					if (t.idbdb && (t._state.openComplete || I.letThrough || t._vip)) {
 						var a = t._createTransaction(n, r, t._dbSchema);
 						try {
 							a.create(), t._state.PR1398_maxLoop = 3;
 						} catch (a) {
 							return a.name === de.InvalidState && t.isOpen() && 0 < --t._state.PR1398_maxLoop ? (console.warn("Dexie: Need to reopen db"), t.close({ disableAutoOpen: !1 }), t.open().then(function() {
 								return e(t, n, r, i);
-							})) : z(a);
+							})) : H(a);
 						}
 						return a._promise(n, function(e, t) {
-							return tt(function() {
-								return F.trans = a, i(e, t, a);
+							return $e(function() {
+								return I.trans = a, i(e, t, a);
 							});
 						}).then(function(e) {
 							if (n === "readwrite") try {
@@ -9083,24 +9069,24 @@ var Vn = {
 							});
 						});
 					}
-					if (t._state.openComplete) return z(new M.DatabaseClosed(t._state.dbOpenError));
+					if (t._state.openComplete) return H(new M.DatabaseClosed(t._state.dbOpenError));
 					if (!t._state.isBeingOpened) {
-						if (!t._state.autoOpen) return z(new M.DatabaseClosed());
-						t.open().catch(N);
+						if (!t._state.autoOpen) return H(new M.DatabaseClosed());
+						t.open().catch(P);
 					}
 					return t._state.dbReadyPromise.then(function() {
 						return e(t, n, r, i);
 					});
 				}(this.db, e, [this.name], o);
 				return a && (c._consoleTask = a, c = c.catch(function(e) {
-					return console.trace(e), z(e);
+					return console.trace(e), H(e);
 				})), c;
 			} finally {
-				s && qe();
+				s && Ke();
 			}
-		}, V.prototype.get = function(e, t) {
+		}, W.prototype.get = function(e, t) {
 			var n = this;
-			return e && e.constructor === Object ? this.where(e).first(t) : e == null ? z(new M.Type("Invalid argument to Table.get()")) : this._trans("readonly", function(t) {
+			return e && e.constructor === Object ? this.where(e).first(t) : e == null ? H(new M.Type("Invalid argument to Table.get()")) : this._trans("readonly", function(t) {
 				return n.core.get({
 					trans: t,
 					key: e
@@ -9108,7 +9094,7 @@ var Vn = {
 					return n.hook.reading.fire(e);
 				});
 			}).then(t);
-		}, V.prototype.where = function(e) {
+		}, W.prototype.where = function(e) {
 			if (typeof e == "string") return new this.db.WhereClause(this, e);
 			if (a(e)) return new this.db.WhereClause(this, `[${e.join("+")}]`);
 			var t = i(e);
@@ -9124,17 +9110,17 @@ var Vn = {
 			}).sort(function(e, t) {
 				return e.keyPath.length - t.keyPath.length;
 			})[0];
-			if (n && this.db._maxKey !== dt) return s = n.keyPath.slice(0, t.length), this.where(s).equals(s.map(function(t) {
+			if (n && this.db._maxKey !== ct) return s = n.keyPath.slice(0, t.length), this.where(s).equals(s.map(function(t) {
 				return e[t];
 			}));
-			!n && P && console.warn(`The query ${JSON.stringify(e)} on ${this.name} would benefit from a compound index [${t.join("+")}]`);
+			!n && xe && console.warn(`The query ${JSON.stringify(e)} on ${this.name} would benefit from a compound index [${t.join("+")}]`);
 			var r = this.schema.idxByName;
 			function o(e, t) {
-				return B(e, t) === 0;
+				return U(e, t) === 0;
 			}
 			var s = t.reduce(function(t, n) {
 				var i = t[0], t = t[1], s = r[n], c = e[n];
-				return [i || s, i || !s ? _t(t, s && s.multi ? function(e) {
+				return [i || s, i || !s ? mt(t, s && s.multi ? function(e) {
 					return e = b(e, n), a(e) && e.some(function(e) {
 						return o(c, e);
 					});
@@ -9143,26 +9129,26 @@ var Vn = {
 				}) : t];
 			}, [null, null]), c = s[0], s = s[1];
 			return c ? this.where(c.name).equals(e[c.keyPath]).filter(s) : n ? this.filter(s) : this.where(t).equals("");
-		}, V.prototype.filter = function(e) {
+		}, W.prototype.filter = function(e) {
 			return this.toCollection().and(e);
-		}, V.prototype.count = function(e) {
+		}, W.prototype.count = function(e) {
 			return this.toCollection().count(e);
-		}, V.prototype.offset = function(e) {
+		}, W.prototype.offset = function(e) {
 			return this.toCollection().offset(e);
-		}, V.prototype.limit = function(e) {
+		}, W.prototype.limit = function(e) {
 			return this.toCollection().limit(e);
-		}, V.prototype.each = function(e) {
+		}, W.prototype.each = function(e) {
 			return this.toCollection().each(e);
-		}, V.prototype.toArray = function(e) {
+		}, W.prototype.toArray = function(e) {
 			return this.toCollection().toArray(e);
-		}, V.prototype.toCollection = function() {
+		}, W.prototype.toCollection = function() {
 			return new this.db.Collection(new this.db.WhereClause(this));
-		}, V.prototype.orderBy = function(e) {
+		}, W.prototype.orderBy = function(e) {
 			return new this.db.Collection(new this.db.WhereClause(this, a(e) ? `[${e.join("+")}]` : e));
-		}, V.prototype.reverse = function() {
+		}, W.prototype.reverse = function() {
 			return this.toCollection().reverse();
-		}, V.prototype.mapToClass = function(t) {
-			for (var n = this.db, r = this.name, i = ((this.schema.mappedClass = t).prototype instanceof bt && (t = ((t) => {
+		}, W.prototype.mapToClass = function(t) {
+			for (var n = this.db, r = this.name, i = ((this.schema.mappedClass = t).prototype instanceof _t && (t = ((t) => {
 				var i = s, a = t;
 				if (typeof a != "function" && a !== null) throw TypeError("Class extends value " + String(a) + " is not a constructor or null");
 				function o() {
@@ -9192,13 +9178,13 @@ var Vn = {
 				return r;
 			}
 			return this.schema.readHook && this.hook.reading.unsubscribe(this.schema.readHook), this.schema.readHook = o, this.hook("reading", o), t;
-		}, V.prototype.defineClass = function() {
+		}, W.prototype.defineClass = function() {
 			return this.mapToClass(function(e) {
 				o(this, e);
 			});
-		}, V.prototype.add = function(e, t) {
+		}, W.prototype.add = function(e, t) {
 			var n = this, r = this.schema.primKey, i = r.auto, a = r.keyPath, o = e;
-			return a && i && (o = yt(a)(e)), this._trans("readwrite", function(e) {
+			return a && i && (o = gt(a)(e)), this._trans("readwrite", function(e) {
 				return n.core.mutate({
 					trans: e,
 					type: "add",
@@ -9206,14 +9192,14 @@ var Vn = {
 					values: [o]
 				});
 			}).then(function(e) {
-				return e.numFailures ? I.reject(e.failures[0]) : e.lastResult;
+				return e.numFailures ? L.reject(e.failures[0]) : e.lastResult;
 			}).then(function(t) {
 				if (a) try {
 					x(e, a, t);
 				} catch {}
 				return t;
 			});
-		}, V.prototype.upsert = function(e, t) {
+		}, W.prototype.upsert = function(e, t) {
 			var n = this, r = this.schema.primKey.keyPath;
 			return this._trans("readwrite", function(i) {
 				return n.core.get({
@@ -9221,7 +9207,7 @@ var Vn = {
 					key: e
 				}).then(function(a) {
 					var o = a ?? {};
-					return Et(o, t), r && x(o, r, e), n.core.mutate({
+					return Ct(o, t), r && x(o, r, e), n.core.mutate({
 						trans: i,
 						type: "put",
 						values: [o],
@@ -9232,15 +9218,15 @@ var Vn = {
 							changeSpecs: [t]
 						}
 					}).then(function(e) {
-						return e.numFailures ? I.reject(e.failures[0]) : !!a;
+						return e.numFailures ? L.reject(e.failures[0]) : !!a;
 					});
 				});
 			});
-		}, V.prototype.update = function(e, t) {
-			return typeof e != "object" || a(e) ? this.where(":id").equals(e).modify(t) : (e = b(e, this.schema.primKey.keyPath)) === void 0 ? z(new M.InvalidArgument("Given object does not contain its primary key")) : this.where(":id").equals(e).modify(t);
-		}, V.prototype.put = function(e, t) {
+		}, W.prototype.update = function(e, t) {
+			return typeof e != "object" || a(e) ? this.where(":id").equals(e).modify(t) : (e = b(e, this.schema.primKey.keyPath)) === void 0 ? H(new M.InvalidArgument("Given object does not contain its primary key")) : this.where(":id").equals(e).modify(t);
+		}, W.prototype.put = function(e, t) {
 			var n = this, r = this.schema.primKey, i = r.auto, a = r.keyPath, o = e;
-			return a && i && (o = yt(a)(e)), this._trans("readwrite", function(e) {
+			return a && i && (o = gt(a)(e)), this._trans("readwrite", function(e) {
 				return n.core.mutate({
 					trans: e,
 					type: "put",
@@ -9248,14 +9234,14 @@ var Vn = {
 					keys: t == null ? null : [t]
 				});
 			}).then(function(e) {
-				return e.numFailures ? I.reject(e.failures[0]) : e.lastResult;
+				return e.numFailures ? L.reject(e.failures[0]) : e.lastResult;
 			}).then(function(t) {
 				if (a) try {
 					x(e, a, t);
 				} catch {}
 				return t;
 			});
-		}, V.prototype.delete = function(e) {
+		}, W.prototype.delete = function(e) {
 			var t = this;
 			return this._trans("readwrite", function(n) {
 				return t.core.mutate({
@@ -9263,25 +9249,25 @@ var Vn = {
 					type: "delete",
 					keys: [e]
 				}).then(function(n) {
-					return Ct(t, [e], n);
+					return bt(t, [e], n);
 				}).then(function(e) {
-					return e.numFailures ? I.reject(e.failures[0]) : void 0;
+					return e.numFailures ? L.reject(e.failures[0]) : void 0;
 				});
 			});
-		}, V.prototype.clear = function() {
+		}, W.prototype.clear = function() {
 			var e = this;
 			return this._trans("readwrite", function(t) {
 				return e.core.mutate({
 					trans: t,
 					type: "deleteRange",
-					range: vt
+					range: ht
 				}).then(function(t) {
-					return Ct(e, null, t);
+					return bt(e, null, t);
 				});
 			}).then(function(e) {
-				return e.numFailures ? I.reject(e.failures[0]) : void 0;
+				return e.numFailures ? L.reject(e.failures[0]) : void 0;
 			});
-		}, V.prototype.bulkGet = function(e) {
+		}, W.prototype.bulkGet = function(e) {
 			var t = this;
 			return this._trans("readonly", function(n) {
 				return t.core.getMany({
@@ -9293,13 +9279,13 @@ var Vn = {
 					});
 				});
 			});
-		}, V.prototype.bulkAdd = function(e, t, n) {
+		}, W.prototype.bulkAdd = function(e, t, n) {
 			var r = this, i = Array.isArray(t) ? t : void 0, a = (n ||= i ? void 0 : t) ? n.allKeys : void 0;
 			return this._trans("readwrite", function(t) {
 				var n = r.schema.primKey, o = n.auto, n = n.keyPath;
 				if (n && i) throw new M.InvalidArgument("bulkAdd(): keys argument invalid on tables with inbound keys");
 				if (i && i.length !== e.length) throw new M.InvalidArgument("Arguments objects and keys must have the same length");
-				var s = e.length, o = n && o ? e.map(yt(n)) : e;
+				var s = e.length, o = n && o ? e.map(gt(n)) : e;
 				return r.core.mutate({
 					trans: t,
 					type: "add",
@@ -9312,13 +9298,13 @@ var Vn = {
 					throw new ue(`${r.name}.bulkAdd(): ${t} of ${s} operations failed`, n);
 				});
 			});
-		}, V.prototype.bulkPut = function(e, t, n) {
+		}, W.prototype.bulkPut = function(e, t, n) {
 			var r = this, i = Array.isArray(t) ? t : void 0, a = (n ||= i ? void 0 : t) ? n.allKeys : void 0;
 			return this._trans("readwrite", function(t) {
 				var n = r.schema.primKey, o = n.auto, n = n.keyPath;
 				if (n && i) throw new M.InvalidArgument("bulkPut(): keys argument invalid on tables with inbound keys");
 				if (i && i.length !== e.length) throw new M.InvalidArgument("Arguments objects and keys must have the same length");
-				var s = e.length, o = n && o ? e.map(yt(n)) : e;
+				var s = e.length, o = n && o ? e.map(gt(n)) : e;
 				return r.core.mutate({
 					trans: t,
 					type: "put",
@@ -9331,7 +9317,7 @@ var Vn = {
 					throw new ue(`${r.name}.bulkPut(): ${t} of ${s} operations failed`, n);
 				});
 			});
-		}, V.prototype.bulkUpdate = function(e) {
+		}, W.prototype.bulkUpdate = function(e) {
 			var t = this, n = this.core, r = e.map(function(e) {
 				return e.key;
 			}), i = e.map(function(e) {
@@ -9349,7 +9335,7 @@ var Vn = {
 							for (var u = 0, d = Object.keys(i); u < d.length; u++) {
 								var f = d[u], p = i[f];
 								if (f === t.schema.primKey.keyPath) {
-									if (B(p, r) !== 0) throw new M.Constraint("Cannot update primary key in bulkUpdate()");
+									if (U(p, r) !== 0) throw new M.Constraint("Cannot update primary key in bulkUpdate()");
 								} else x(o, f, p);
 							}
 							a.push(n), c.push(r), l.push(o);
@@ -9375,7 +9361,7 @@ var Vn = {
 					});
 				});
 			});
-		}, V.prototype.bulkDelete = function(e) {
+		}, W.prototype.bulkDelete = function(e) {
 			var t = this, n = e.length;
 			return this._trans("readwrite", function(n) {
 				return t.core.mutate({
@@ -9383,7 +9369,7 @@ var Vn = {
 					type: "delete",
 					keys: e
 				}).then(function(n) {
-					return Ct(t, e, n);
+					return bt(t, e, n);
 				});
 			}).then(function(e) {
 				var r = e.numFailures, i = e.failures;
@@ -9391,9 +9377,9 @@ var Vn = {
 				throw new ue(`${t.name}.bulkDelete(): ${r} of ${n} operations failed`, i);
 			});
 		};
-		var Dt = V;
-		function V() {}
-		function Ot(e) {
+		var wt = W;
+		function W() {}
+		function Tt(e) {
 			function t(t, r) {
 				if (r) {
 					for (var i = arguments.length, a = Array(i - 1); --i;) a[i - 1] = arguments[i];
@@ -9407,9 +9393,9 @@ var Vn = {
 			return t;
 			function s(e, r, o) {
 				var c, l;
-				if (typeof e != "object") return r ||= be, l = {
+				if (typeof e != "object") return r ||= ye, l = {
 					subscribers: [],
-					fire: o ||= N,
+					fire: o ||= P,
 					subscribe: function(e) {
 						l.subscribers.indexOf(e) === -1 && (l.subscribers.push(e), l.fire = r(l.fire, e));
 					},
@@ -9424,7 +9410,7 @@ var Vn = {
 					if (a(t)) s(e, c[e][0], c[e][1]);
 					else {
 						if (t !== "asap") throw new M.InvalidArgument("Invalid event config");
-						var n = s(e, me, function() {
+						var n = s(e, pe, function() {
 							for (var e = arguments.length, t = Array(e); e--;) t[e] = arguments[e];
 							n.subscribers.forEach(function(e) {
 								y(function() {
@@ -9436,29 +9422,29 @@ var Vn = {
 				});
 			}
 		}
-		function kt(e, t) {
+		function Et(e, t) {
 			return p(t).from({ prototype: e }), t;
 		}
-		function At(e, t) {
+		function Dt(e, t) {
 			return !(e.filter || e.algorithm || e.or) && (t ? e.justLimit : !e.replayFilter);
 		}
-		function jt(e, t) {
-			e.filter = _t(e.filter, t);
+		function Ot(e, t) {
+			e.filter = mt(e.filter, t);
 		}
-		function Mt(e, t, n) {
+		function kt(e, t, n) {
 			var r = e.replayFilter;
 			e.replayFilter = r ? function() {
-				return _t(r(), t());
+				return mt(r(), t());
 			} : t, e.justLimit = n && !r;
 		}
-		function Nt(e, t) {
+		function At(e, t) {
 			if (e.isPrimKey) return t.primaryKey;
 			var n = t.getIndexByKeyPath(e.index);
 			if (n) return n;
 			throw new M.Schema("KeyPath " + e.index + " on object store " + t.name + " is not indexed");
 		}
-		function Pt(e, t, n) {
-			var r = Nt(e, t.schema);
+		function jt(e, t, n) {
+			var r = At(e, t.schema);
 			return t.openCursor({
 				trans: n,
 				values: !e.keysOnly,
@@ -9470,8 +9456,8 @@ var Vn = {
 				}
 			});
 		}
-		function Ft(e, t, n, r) {
-			var i, a, o = e.replayFilter ? _t(e.filter, e.replayFilter()) : e.filter;
+		function Mt(e, t, n, r) {
+			var i, a, o = e.replayFilter ? mt(e.filter, e.replayFilter()) : e.filter;
 			return e.or ? (i = {}, a = function(e, n, r) {
 				var a, s;
 				o && !o(n, r, function(e) {
@@ -9479,10 +9465,10 @@ var Vn = {
 				}, function(e) {
 					return n.fail(e);
 				}) || ((s = "" + (a = n.primaryKey)) == "[object ArrayBuffer]" && (s = "" + new Uint8Array(a)), l(i, s)) || (i[s] = !0, t(e, n, r));
-			}, Promise.all([e.or._iterate(a, n), It(Pt(e, r, n), e.algorithm, a, !e.keysOnly && e.valueMapper)])) : It(Pt(e, r, n), _t(e.algorithm, o), t, !e.keysOnly && e.valueMapper);
+			}, Promise.all([e.or._iterate(a, n), Nt(jt(e, r, n), e.algorithm, a, !e.keysOnly && e.valueMapper)])) : Nt(jt(e, r, n), mt(e.algorithm, o), t, !e.keysOnly && e.valueMapper);
 		}
-		function It(e, t, n, r) {
-			var i = L(r ? function(e, t, i) {
+		function Nt(e, t, n, r) {
+			var i = R(r ? function(e, t, i) {
 				return n(r(e), t, i);
 			} : n);
 			return e.then(function(e) {
@@ -9493,71 +9479,71 @@ var Vn = {
 					t && !t(e, function(e) {
 						return n = e;
 					}, function(t) {
-						e.stop(t), n = N;
+						e.stop(t), n = P;
 					}, function(t) {
-						e.fail(t), n = N;
+						e.fail(t), n = P;
 					}) || i(e.value, e, function(e) {
 						return n = e;
 					}), n();
 				});
 			});
 		}
-		H.prototype._read = function(e, t) {
+		G.prototype._read = function(e, t) {
 			var n = this._ctx;
-			return n.error ? n.table._trans(null, z.bind(null, n.error)) : n.table._trans("readonly", e).then(t);
-		}, H.prototype._write = function(e) {
+			return n.error ? n.table._trans(null, H.bind(null, n.error)) : n.table._trans("readonly", e).then(t);
+		}, G.prototype._write = function(e) {
 			var t = this._ctx;
-			return t.error ? t.table._trans(null, z.bind(null, t.error)) : t.table._trans("readwrite", e, "locked");
-		}, H.prototype._addAlgorithm = function(e) {
+			return t.error ? t.table._trans(null, H.bind(null, t.error)) : t.table._trans("readwrite", e, "locked");
+		}, G.prototype._addAlgorithm = function(e) {
 			var t = this._ctx;
-			t.algorithm = _t(t.algorithm, e);
-		}, H.prototype._iterate = function(e, t) {
-			return Ft(this._ctx, e, t, this._ctx.table.core);
-		}, H.prototype.clone = function(e) {
+			t.algorithm = mt(t.algorithm, e);
+		}, G.prototype._iterate = function(e, t) {
+			return Mt(this._ctx, e, t, this._ctx.table.core);
+		}, G.prototype.clone = function(e) {
 			var t = Object.create(this.constructor.prototype), n = Object.create(this._ctx);
 			return e && o(n, e), t._ctx = n, t;
-		}, H.prototype.raw = function() {
+		}, G.prototype.raw = function() {
 			return this._ctx.valueMapper = null, this;
-		}, H.prototype.each = function(e) {
+		}, G.prototype.each = function(e) {
 			var t = this._ctx;
 			return this._read(function(n) {
-				return Ft(t, e, n, t.table.core);
+				return Mt(t, e, n, t.table.core);
 			});
-		}, H.prototype.count = function(e) {
+		}, G.prototype.count = function(e) {
 			var t = this;
 			return this._read(function(e) {
 				var n, r = t._ctx, i = r.table.core;
-				return At(r, !0) ? i.count({
+				return Dt(r, !0) ? i.count({
 					trans: e,
 					query: {
-						index: Nt(r, i.schema),
+						index: At(r, i.schema),
 						range: r.range
 					}
 				}).then(function(e) {
 					return Math.min(e, r.limit);
-				}) : (n = 0, Ft(r, function() {
+				}) : (n = 0, Mt(r, function() {
 					return ++n, !1;
 				}, e, i).then(function() {
 					return n;
 				}));
 			}).then(e);
-		}, H.prototype.sortBy = function(e, t) {
+		}, G.prototype.sortBy = function(e, t) {
 			var n = e.split(".").reverse(), r = n[0], i = n.length - 1;
 			function a(e, t) {
 				return t ? a(e[n[t]], t - 1) : e[r];
 			}
 			var o = this._ctx.dir === "next" ? 1 : -1;
 			function s(e, t) {
-				return B(a(e, i), a(t, i)) * o;
+				return U(a(e, i), a(t, i)) * o;
 			}
 			return this.toArray(function(e) {
 				return e.slice().sort(s);
 			}).then(t);
-		}, H.prototype.toArray = function(e) {
+		}, G.prototype.toArray = function(e) {
 			var t = this;
 			return this._read(function(e) {
 				var n, r, i, a = t._ctx;
-				return At(a, !0) && 0 < a.limit ? (n = a.valueMapper, r = Nt(a, a.table.core.schema), a.table.core.query({
+				return Dt(a, !0) && 0 < a.limit ? (n = a.valueMapper, r = At(a, a.table.core.schema), a.table.core.query({
 					trans: e,
 					limit: a.limit,
 					values: !0,
@@ -9568,80 +9554,80 @@ var Vn = {
 					}
 				}).then(function(e) {
 					return e = e.result, n ? e.map(n) : e;
-				})) : (i = [], Ft(a, function(e) {
+				})) : (i = [], Mt(a, function(e) {
 					return i.push(e);
 				}, e, a.table.core).then(function() {
 					return i;
 				}));
 			}, e);
-		}, H.prototype.offset = function(e) {
+		}, G.prototype.offset = function(e) {
 			var t = this._ctx;
-			return e <= 0 || (t.offset += e, At(t) ? Mt(t, function() {
+			return e <= 0 || (t.offset += e, Dt(t) ? kt(t, function() {
 				var t = e;
 				return function(e, n) {
 					return t === 0 || (t === 1 ? --t : n(function() {
 						e.advance(t), t = 0;
 					}), !1);
 				};
-			}) : Mt(t, function() {
+			}) : kt(t, function() {
 				var t = e;
 				return function() {
 					return --t < 0;
 				};
 			})), this;
-		}, H.prototype.limit = function(e) {
-			return this._ctx.limit = Math.min(this._ctx.limit, e), Mt(this._ctx, function() {
+		}, G.prototype.limit = function(e) {
+			return this._ctx.limit = Math.min(this._ctx.limit, e), kt(this._ctx, function() {
 				var t = e;
 				return function(e, n, r) {
 					return --t <= 0 && n(r), 0 <= t;
 				};
 			}, !0), this;
-		}, H.prototype.until = function(e, t) {
-			return jt(this._ctx, function(n, r, i) {
+		}, G.prototype.until = function(e, t) {
+			return Ot(this._ctx, function(n, r, i) {
 				return !e(n.value) || (r(i), t);
 			}), this;
-		}, H.prototype.first = function(e) {
+		}, G.prototype.first = function(e) {
 			return this.limit(1).toArray(function(e) {
 				return e[0];
 			}).then(e);
-		}, H.prototype.last = function(e) {
+		}, G.prototype.last = function(e) {
 			return this.reverse().first(e);
-		}, H.prototype.filter = function(e) {
+		}, G.prototype.filter = function(e) {
 			var t;
-			return jt(this._ctx, function(t) {
+			return Ot(this._ctx, function(t) {
 				return e(t.value);
-			}), (t = this._ctx).isMatch = _t(t.isMatch, e), this;
-		}, H.prototype.and = function(e) {
+			}), (t = this._ctx).isMatch = mt(t.isMatch, e), this;
+		}, G.prototype.and = function(e) {
 			return this.filter(e);
-		}, H.prototype.or = function(e) {
+		}, G.prototype.or = function(e) {
 			return new this.db.WhereClause(this._ctx.table, e, this);
-		}, H.prototype.reverse = function() {
+		}, G.prototype.reverse = function() {
 			return this._ctx.dir = this._ctx.dir === "prev" ? "next" : "prev", this._ondirectionchange && this._ondirectionchange(this._ctx.dir), this;
-		}, H.prototype.desc = function() {
+		}, G.prototype.desc = function() {
 			return this.reverse();
-		}, H.prototype.eachKey = function(e) {
+		}, G.prototype.eachKey = function(e) {
 			var t = this._ctx;
 			return t.keysOnly = !t.isMatch, this.each(function(t, n) {
 				e(n.key, n);
 			});
-		}, H.prototype.eachUniqueKey = function(e) {
+		}, G.prototype.eachUniqueKey = function(e) {
 			return this._ctx.unique = "unique", this.eachKey(e);
-		}, H.prototype.eachPrimaryKey = function(e) {
+		}, G.prototype.eachPrimaryKey = function(e) {
 			var t = this._ctx;
 			return t.keysOnly = !t.isMatch, this.each(function(t, n) {
 				e(n.primaryKey, n);
 			});
-		}, H.prototype.keys = function(e) {
+		}, G.prototype.keys = function(e) {
 			var t = this._ctx, n = (t.keysOnly = !t.isMatch, []);
 			return this.each(function(e, t) {
 				n.push(t.key);
 			}).then(function() {
 				return n;
 			}).then(e);
-		}, H.prototype.primaryKeys = function(e) {
+		}, G.prototype.primaryKeys = function(e) {
 			var t = this._ctx;
-			if (At(t, !0) && 0 < t.limit) return this._read(function(e) {
-				var n = Nt(t, t.table.core.schema);
+			if (Dt(t, !0) && 0 < t.limit) return this._read(function(e) {
+				var n = At(t, t.table.core.schema);
 				return t.table.core.query({
 					trans: e,
 					values: !1,
@@ -9662,21 +9648,21 @@ var Vn = {
 			}).then(function() {
 				return n;
 			}).then(e);
-		}, H.prototype.uniqueKeys = function(e) {
+		}, G.prototype.uniqueKeys = function(e) {
 			return this._ctx.unique = "unique", this.keys(e);
-		}, H.prototype.firstKey = function(e) {
+		}, G.prototype.firstKey = function(e) {
 			return this.limit(1).keys(function(e) {
 				return e[0];
 			}).then(e);
-		}, H.prototype.lastKey = function(e) {
+		}, G.prototype.lastKey = function(e) {
 			return this.reverse().firstKey(e);
-		}, H.prototype.distinct = function() {
+		}, G.prototype.distinct = function() {
 			var e, t = this._ctx, t = t.index && t.table.schema.idxByName[t.index];
-			return t && t.multi && (e = {}, jt(this._ctx, function(t) {
+			return t && t.multi && (e = {}, Ot(this._ctx, function(t) {
 				var t = t.primaryKey.toString(), n = l(e, t);
 				return e[t] = !0, !n;
 			})), this;
-		}, H.prototype.modify = function(e) {
+		}, G.prototype.modify = function(e) {
 			var t = this, n = this._ctx;
 			return this._write(function(r) {
 				function a(e, t) {
@@ -9688,8 +9674,8 @@ var Vn = {
 					}
 				}
 				var o = typeof e == "function" ? e : function(t) {
-					return Et(t, e);
-				}, s = n.table.core, c = s.schema.primaryKey, l = c.outbound, u = c.extractKey, d = 200, c = t.db._options.modifyChunkSize, f = (c && (d = typeof c == "object" ? c[s.name] || c["*"] || 200 : c), []), p = 0, m = [], h = e === Rt;
+					return Ct(t, e);
+				}, s = n.table.core, c = s.schema.primaryKey, l = c.outbound, u = c.extractKey, d = 200, c = t.db._options.modifyChunkSize, f = (c && (d = typeof c == "object" ? c[s.name] || c["*"] || 200 : c), []), p = 0, m = [], h = e === Ft;
 				return t.clone().primaryKeys().then(function(t) {
 					function i(f) {
 						var p = Math.min(d, t.length - f), m = t.slice(f, f + p);
@@ -9704,7 +9690,7 @@ var Vn = {
 									value: ne(S),
 									primKey: t[f + x]
 								};
-								!1 !== o.call(C, C.value, C) && (C.value == null ? b.push(t[f + x]) : l || B(u(S), u(C.value)) === 0 ? (v.push(C.value), l && y.push(t[f + x])) : (b.push(t[f + x]), _.push(C.value)));
+								!1 !== o.call(C, C.value, C) && (C.value == null ? b.push(t[f + x]) : l || U(u(S), u(C.value)) === 0 ? (v.push(C.value), l && y.push(t[f + x])) : (b.push(t[f + x]), _.push(C.value)));
 							}
 							return Promise.resolve(0 < _.length && s.mutate({
 								trans: r,
@@ -9733,7 +9719,7 @@ var Vn = {
 									criteria: c,
 									isAdditionalChunk: 0 < f
 								}).then(function(e) {
-									return Ct(n.table, b, e);
+									return bt(n.table, b, e);
 								}).then(function(e) {
 									return a(b.length, e);
 								});
@@ -9742,7 +9728,7 @@ var Vn = {
 							});
 						});
 					}
-					var c = At(n) && n.limit === Infinity && (typeof e != "function" || h) && {
+					var c = Dt(n) && n.limit === Infinity && (typeof e != "function" || h) && {
 						index: n.index,
 						range: n.range
 					};
@@ -9752,9 +9738,9 @@ var Vn = {
 					});
 				});
 			});
-		}, H.prototype.delete = function() {
+		}, G.prototype.delete = function() {
 			var e = this._ctx, t = e.range;
-			return !At(e) || e.table.schema.yProps || !e.isPrimKey && t.type !== 3 ? this.modify(Rt) : this._write(function(n) {
+			return !Dt(e) || e.table.schema.yProps || !e.isPrimKey && t.type !== 3 ? this.modify(Ft) : this._write(function(n) {
 				var r = e.table.core.schema.primaryKey, i = t;
 				return e.table.core.count({
 					trans: n,
@@ -9777,30 +9763,30 @@ var Vn = {
 				});
 			});
 		};
-		var Lt = H;
-		function H() {}
-		var Rt = function(e, t) {
+		var Pt = G;
+		function G() {}
+		var Ft = function(e, t) {
 			return t.value = null;
 		};
-		function zt(e, t) {
+		function It(e, t) {
 			return e < t ? -1 : e === t ? 0 : 1;
 		}
-		function Bt(e, t) {
+		function Lt(e, t) {
 			return t < e ? -1 : e === t ? 0 : 1;
 		}
-		function U(e, t, n) {
-			return e = e instanceof Gt ? new e.Collection(e) : e, e._ctx.error = new (n || TypeError)(t), e;
+		function K(e, t, n) {
+			return e = e instanceof Ht ? new e.Collection(e) : e, e._ctx.error = new (n || TypeError)(t), e;
 		}
-		function Vt(e) {
+		function Rt(e) {
 			return new e.Collection(e, function() {
-				return Wt("");
+				return Vt("");
 			}).limit(0);
 		}
-		function Ht(e, t, n, r) {
+		function zt(e, t, n, r) {
 			var i, a, o, s, c, l, u, d = n.length;
 			if (!n.every(function(e) {
 				return typeof e == "string";
-			})) return U(e, pt);
+			})) return K(e, ut);
 			function f(e) {
 				i = e === "next" ? function(e) {
 					return e.toUpperCase();
@@ -9810,7 +9796,7 @@ var Vn = {
 					return e.toLowerCase();
 				} : function(e) {
 					return e.toUpperCase();
-				}, o = e === "next" ? zt : Bt;
+				}, o = e === "next" ? It : Lt;
 				var t = n.map(function(e) {
 					return {
 						lower: a(e),
@@ -9827,7 +9813,7 @@ var Vn = {
 			}
 			f("next");
 			var e = new e.Collection(e, function() {
-				return Ut(s[0], c[d - 1] + r);
+				return Bt(s[0], c[d - 1] + r);
 			}), p = (e._ondirectionchange = function(e) {
 				f(e);
 			}, 0);
@@ -9854,7 +9840,7 @@ var Vn = {
 				return !1;
 			}), e;
 		}
-		function Ut(e, t, n, r) {
+		function Bt(e, t, n, r) {
 			return {
 				type: 2,
 				lower: e,
@@ -9863,79 +9849,79 @@ var Vn = {
 				upperOpen: r
 			};
 		}
-		function Wt(e) {
+		function Vt(e) {
 			return {
 				type: 1,
 				lower: e,
 				upper: e
 			};
 		}
-		Object.defineProperty(W.prototype, "Collection", {
+		Object.defineProperty(q.prototype, "Collection", {
 			get: function() {
 				return this._ctx.table.db.Collection;
 			},
 			enumerable: !1,
 			configurable: !0
-		}), W.prototype.between = function(e, t, n, r) {
+		}), q.prototype.between = function(e, t, n, r) {
 			n = !1 !== n, r = !0 === r;
 			try {
-				return 0 < this._cmp(e, t) || this._cmp(e, t) === 0 && (n || r) && (!n || !r) ? Vt(this) : new this.Collection(this, function() {
-					return Ut(e, t, !n, !r);
+				return 0 < this._cmp(e, t) || this._cmp(e, t) === 0 && (n || r) && (!n || !r) ? Rt(this) : new this.Collection(this, function() {
+					return Bt(e, t, !n, !r);
 				});
 			} catch {
-				return U(this, ft);
+				return K(this, lt);
 			}
-		}, W.prototype.equals = function(e) {
-			return e == null ? U(this, ft) : new this.Collection(this, function() {
-				return Wt(e);
+		}, q.prototype.equals = function(e) {
+			return e == null ? K(this, lt) : new this.Collection(this, function() {
+				return Vt(e);
 			});
-		}, W.prototype.above = function(e) {
-			return e == null ? U(this, ft) : new this.Collection(this, function() {
-				return Ut(e, void 0, !0);
+		}, q.prototype.above = function(e) {
+			return e == null ? K(this, lt) : new this.Collection(this, function() {
+				return Bt(e, void 0, !0);
 			});
-		}, W.prototype.aboveOrEqual = function(e) {
-			return e == null ? U(this, ft) : new this.Collection(this, function() {
-				return Ut(e, void 0, !1);
+		}, q.prototype.aboveOrEqual = function(e) {
+			return e == null ? K(this, lt) : new this.Collection(this, function() {
+				return Bt(e, void 0, !1);
 			});
-		}, W.prototype.below = function(e) {
-			return e == null ? U(this, ft) : new this.Collection(this, function() {
-				return Ut(void 0, e, !1, !0);
+		}, q.prototype.below = function(e) {
+			return e == null ? K(this, lt) : new this.Collection(this, function() {
+				return Bt(void 0, e, !1, !0);
 			});
-		}, W.prototype.belowOrEqual = function(e) {
-			return e == null ? U(this, ft) : new this.Collection(this, function() {
-				return Ut(void 0, e);
+		}, q.prototype.belowOrEqual = function(e) {
+			return e == null ? K(this, lt) : new this.Collection(this, function() {
+				return Bt(void 0, e);
 			});
-		}, W.prototype.startsWith = function(e) {
-			return typeof e == "string" ? this.between(e, e + dt, !0, !0) : U(this, pt);
-		}, W.prototype.startsWithIgnoreCase = function(e) {
-			return e === "" ? this.startsWith(e) : Ht(this, function(e, t) {
+		}, q.prototype.startsWith = function(e) {
+			return typeof e == "string" ? this.between(e, e + ct, !0, !0) : K(this, ut);
+		}, q.prototype.startsWithIgnoreCase = function(e) {
+			return e === "" ? this.startsWith(e) : zt(this, function(e, t) {
 				return e.indexOf(t[0]) === 0;
-			}, [e], dt);
-		}, W.prototype.equalsIgnoreCase = function(e) {
-			return Ht(this, function(e, t) {
+			}, [e], ct);
+		}, q.prototype.equalsIgnoreCase = function(e) {
+			return zt(this, function(e, t) {
 				return e === t[0];
 			}, [e], "");
-		}, W.prototype.anyOfIgnoreCase = function() {
+		}, q.prototype.anyOfIgnoreCase = function() {
 			var e = O.apply(oe, arguments);
-			return e.length === 0 ? Vt(this) : Ht(this, function(e, t) {
+			return e.length === 0 ? Rt(this) : zt(this, function(e, t) {
 				return t.indexOf(e) !== -1;
 			}, e, "");
-		}, W.prototype.startsWithAnyOfIgnoreCase = function() {
+		}, q.prototype.startsWithAnyOfIgnoreCase = function() {
 			var e = O.apply(oe, arguments);
-			return e.length === 0 ? Vt(this) : Ht(this, function(e, t) {
+			return e.length === 0 ? Rt(this) : zt(this, function(e, t) {
 				return t.some(function(t) {
 					return e.indexOf(t) === 0;
 				});
-			}, e, dt);
-		}, W.prototype.anyOf = function() {
+			}, e, ct);
+		}, q.prototype.anyOf = function() {
 			var e, t, n = this, r = O.apply(oe, arguments), i = this._cmp;
 			try {
 				r.sort(i);
 			} catch {
-				return U(this, ft);
+				return K(this, lt);
 			}
-			return r.length === 0 ? Vt(this) : ((e = new this.Collection(this, function() {
-				return Ut(r[0], r[r.length - 1]);
+			return r.length === 0 ? Rt(this) : ((e = new this.Collection(this, function() {
+				return Bt(r[0], r[r.length - 1]);
 			}))._ondirectionchange = function(e) {
 				i = e === "next" ? n._ascending : n._descending, r.sort(i);
 			}, t = 0, e._addAlgorithm(function(e, n, a) {
@@ -9944,18 +9930,18 @@ var Vn = {
 					e.continue(r[t]);
 				}), !1);
 			}), e);
-		}, W.prototype.notEqual = function(e) {
+		}, q.prototype.notEqual = function(e) {
 			return this.inAnyRange([[-Infinity, e], [e, this.db._maxKey]], {
 				includeLowers: !1,
 				includeUppers: !1
 			});
-		}, W.prototype.noneOf = function() {
+		}, q.prototype.noneOf = function() {
 			var e = O.apply(oe, arguments);
 			if (e.length === 0) return new this.Collection(this);
 			try {
 				e.sort(this._ascending);
 			} catch {
-				return U(this, ft);
+				return K(this, lt);
 			}
 			var t = e.reduce(function(e, t) {
 				return e ? e.concat([[e[e.length - 1][1], t]]) : [[-Infinity, t]];
@@ -9964,12 +9950,12 @@ var Vn = {
 				includeLowers: !1,
 				includeUppers: !1
 			});
-		}, W.prototype.inAnyRange = function(e, t) {
+		}, q.prototype.inAnyRange = function(e, t) {
 			var n = this, r = this._cmp, i = this._ascending, a = this._descending, o = this._min, s = this._max;
-			if (e.length === 0) return Vt(this);
+			if (e.length === 0) return Rt(this);
 			if (!e.every(function(e) {
 				return e[0] !== void 0 && e[1] !== void 0 && i(e[0], e[1]) <= 0;
-			})) return U(this, "First argument to inAnyRange() must be an Array of two-value Arrays [lower,upper] where upper must not be lower than lower", M.InvalidArgument);
+			})) return K(this, "First argument to inAnyRange() must be an Array of two-value Arrays [lower,upper] where upper must not be lower than lower", M.InvalidArgument);
 			var c = !t || !1 !== t.includeLowers, l = t && !0 === t.includeUppers, u, d = i;
 			function f(e, t) {
 				return d(e[0], t[0]);
@@ -9986,7 +9972,7 @@ var Vn = {
 					return n === i && e.push(t), e;
 				}, [])).sort(f);
 			} catch {
-				return U(this, ft);
+				return K(this, lt);
 			}
 			var p = 0, m = l ? function(e) {
 				return 0 < i(e, u[p][1]);
@@ -9997,7 +9983,7 @@ var Vn = {
 			} : function(e) {
 				return 0 <= a(e, u[p][0]);
 			}, g = m, t = new this.Collection(this, function() {
-				return Ut(u[0][0], u[u.length - 1][1], !c, !l);
+				return Bt(u[0][0], u[u.length - 1][1], !c, !l);
 			});
 			return t._ondirectionchange = function(e) {
 				d = e === "next" ? (g = m, i) : (g = h, a), u.sort(f);
@@ -10007,37 +9993,37 @@ var Vn = {
 					d === i ? e.continue(u[p][0]) : e.continue(u[p][1]);
 				}), !1);
 			}), t;
-		}, W.prototype.startsWithAnyOf = function() {
+		}, q.prototype.startsWithAnyOf = function() {
 			var e = O.apply(oe, arguments);
 			return e.every(function(e) {
 				return typeof e == "string";
-			}) ? e.length === 0 ? Vt(this) : this.inAnyRange(e.map(function(e) {
-				return [e, e + dt];
-			})) : U(this, "startsWithAnyOf() only works with strings");
+			}) ? e.length === 0 ? Rt(this) : this.inAnyRange(e.map(function(e) {
+				return [e, e + ct];
+			})) : K(this, "startsWithAnyOf() only works with strings");
 		};
-		var Gt = W;
-		function W() {}
-		function G(e) {
-			return L(function(t) {
-				return K(t), e(t.target.error), !1;
+		var Ht = q;
+		function q() {}
+		function J(e) {
+			return R(function(t) {
+				return Ut(t), e(t.target.error), !1;
 			});
 		}
-		function K(e) {
+		function Ut(e) {
 			e.stopPropagation && e.stopPropagation(), e.preventDefault && e.preventDefault();
 		}
-		var Kt = "storagemutated", qt = "x-storagemutated-1", Jt = Ot(null, Kt), Yt = (Xt.prototype._lock = function() {
-			return v(!F.global), ++this._reculock, this._reculock !== 1 || F.global || (F.lockOwnerFor = this), this;
-		}, Xt.prototype._unlock = function() {
-			if (v(!F.global), --this._reculock == 0) for (F.global || (F.lockOwnerFor = null); 0 < this._blockedFuncs.length && !this._locked();) {
+		var Wt = "storagemutated", Gt = "x-storagemutated-1", Kt = Tt(null, Wt), qt = (Y.prototype._lock = function() {
+			return v(!I.global), ++this._reculock, this._reculock !== 1 || I.global || (I.lockOwnerFor = this), this;
+		}, Y.prototype._unlock = function() {
+			if (v(!I.global), --this._reculock == 0) for (I.global || (I.lockOwnerFor = null); 0 < this._blockedFuncs.length && !this._locked();) {
 				var e = this._blockedFuncs.shift();
 				try {
-					ct(e[1], e[0]);
+					at(e[1], e[0]);
 				} catch {}
 			}
 			return this;
-		}, Xt.prototype._locked = function() {
-			return this._reculock && F.lockOwnerFor !== this;
-		}, Xt.prototype.create = function(e) {
+		}, Y.prototype._locked = function() {
+			return this._reculock && I.lockOwnerFor !== this;
+		}, Y.prototype.create = function(e) {
 			var t = this;
 			if (this.mode) {
 				var n = this.db.idbdb, r = this.db._state.dbOpenError;
@@ -10047,23 +10033,23 @@ var Vn = {
 					default: throw new M.OpenFailed(r);
 				}
 				if (!this.active) throw new M.TransactionInactive();
-				v(this._completion._state === null), (e = this.idbtrans = e || (this.db.core || n).transaction(this.storeNames, this.mode, { durability: this.chromeTransactionDurability })).onerror = L(function(n) {
-					K(n), t._reject(e.error);
-				}), e.onabort = L(function(n) {
-					K(n), t.active && t._reject(new M.Abort(e.error)), t.active = !1, t.on("abort").fire(n);
-				}), e.oncomplete = L(function() {
-					t.active = !1, t._resolve(), "mutatedParts" in e && Jt.storagemutated.fire(e.mutatedParts);
+				v(this._completion._state === null), (e = this.idbtrans = e || (this.db.core || n).transaction(this.storeNames, this.mode, { durability: this.chromeTransactionDurability })).onerror = R(function(n) {
+					Ut(n), t._reject(e.error);
+				}), e.onabort = R(function(n) {
+					Ut(n), t.active && t._reject(new M.Abort(e.error)), t.active = !1, t.on("abort").fire(n);
+				}), e.oncomplete = R(function() {
+					t.active = !1, t._resolve(), "mutatedParts" in e && Kt.storagemutated.fire(e.mutatedParts);
 				});
 			}
 			return this;
-		}, Xt.prototype._promise = function(e, t, n) {
+		}, Y.prototype._promise = function(e, t, n) {
 			var r, i = this;
-			return e === "readwrite" && this.mode !== "readwrite" ? z(new M.ReadOnly("Transaction is readonly")) : this.active ? this._locked() ? new I(function(r, a) {
+			return e === "readwrite" && this.mode !== "readwrite" ? H(new M.ReadOnly("Transaction is readonly")) : this.active ? this._locked() ? new L(function(r, a) {
 				i._blockedFuncs.push([function() {
 					i._promise(e, t, n).then(r, a);
-				}, F]);
-			}) : n ? tt(function() {
-				var e = new I(function(e, n) {
+				}, I]);
+			}) : n ? $e(function() {
+				var e = new L(function(e, n) {
 					i._lock();
 					var r = t(e, n, i);
 					r && r.then && r.then(e, n);
@@ -10071,39 +10057,39 @@ var Vn = {
 				return e.finally(function() {
 					return i._unlock();
 				}), e._lib = !0, e;
-			}) : ((r = new I(function(e, n) {
+			}) : ((r = new L(function(e, n) {
 				var r = t(e, n, i);
 				r && r.then && r.then(e, n);
-			}))._lib = !0, r) : z(new M.TransactionInactive());
-		}, Xt.prototype._root = function() {
+			}))._lib = !0, r) : H(new M.TransactionInactive());
+		}, Y.prototype._root = function() {
 			return this.parent ? this.parent._root() : this;
-		}, Xt.prototype.waitFor = function(e) {
-			var t, n = this._root(), r = I.resolve(e), i = (n._waitingFor ? n._waitingFor = n._waitingFor.then(function() {
+		}, Y.prototype.waitFor = function(e) {
+			var t, n = this._root(), r = L.resolve(e), i = (n._waitingFor ? n._waitingFor = n._waitingFor.then(function() {
 				return r;
 			}) : (n._waitingFor = r, n._waitingQueue = [], t = n.idbtrans.objectStore(n.storeNames[0]), function e() {
 				for (++n._spinCount; n._waitingQueue.length;) n._waitingQueue.shift()();
 				n._waitingFor && (t.get(-Infinity).onsuccess = e);
 			}()), n._waitingFor);
-			return new I(function(e, t) {
+			return new L(function(e, t) {
 				r.then(function(t) {
-					return n._waitingQueue.push(L(e.bind(null, t)));
+					return n._waitingQueue.push(R(e.bind(null, t)));
 				}, function(e) {
-					return n._waitingQueue.push(L(t.bind(null, e)));
+					return n._waitingQueue.push(R(t.bind(null, e)));
 				}).finally(function() {
 					n._waitingFor === i && (n._waitingFor = null);
 				});
 			});
-		}, Xt.prototype.abort = function() {
+		}, Y.prototype.abort = function() {
 			this.active && (this.active = !1, this.idbtrans && this.idbtrans.abort(), this._reject(new M.Abort()));
-		}, Xt.prototype.table = function(e) {
+		}, Y.prototype.table = function(e) {
 			var t = this._memoizedTables ||= {};
 			if (l(t, e)) return t[e];
 			var n = this.schema[e];
 			if (n) return (n = new this.db.Table(e, n, this)).core = this.db.core.table(e), t[e] = n;
 			throw new M.NotFound("Table " + e + " not part of transaction");
-		}, Xt);
-		function Xt() {}
-		function Zt(e, t, n, r, i, a, o, s) {
+		}, Y);
+		function Y() {}
+		function Jt(e, t, n, r, i, a, o, s) {
 			return {
 				name: e,
 				keyPath: t,
@@ -10111,14 +10097,14 @@ var Vn = {
 				multi: r,
 				auto: i,
 				compound: a,
-				src: (n && !o ? "&" : "") + (r ? "*" : "") + (i ? "++" : "") + Qt(t),
+				src: (n && !o ? "&" : "") + (r ? "*" : "") + (i ? "++" : "") + Yt(t),
 				type: s
 			};
 		}
-		function Qt(e) {
+		function Yt(e) {
 			return typeof e == "string" ? e : e ? "[" + [].join.call(e, "+") + "]" : "";
 		}
-		function $t(e, t, n) {
+		function Xt(e, t, n) {
 			return {
 				name: e,
 				primKey: t,
@@ -10132,18 +10118,18 @@ var Vn = {
 			};
 			var r;
 		}
-		var en = function(e) {
+		var Zt = function(e) {
 			try {
-				return e.only([[]]), en = function() {
+				return e.only([[]]), Zt = function() {
 					return [[]];
 				}, [[]];
 			} catch {
-				return en = function() {
-					return dt;
-				}, dt;
+				return Zt = function() {
+					return ct;
+				}, ct;
 			}
 		};
-		function tn(e) {
+		function Qt(e) {
 			return e == null ? function() {} : typeof e == "string" ? (t = e).split(".").length === 1 ? function(e) {
 				return e[t];
 			} : function(e) {
@@ -10153,14 +10139,14 @@ var Vn = {
 			};
 			var t;
 		}
-		function nn(e) {
+		function $t(e) {
 			return [].slice.call(e);
 		}
-		var rn = 0;
-		function an(e) {
+		var en = 0;
+		function tn(e) {
 			return e == null ? ":id" : typeof e == "string" ? e : `[${e.join("+")}]`;
 		}
-		function on(e, t, n) {
+		function nn(e, t, n) {
 			function r(e) {
 				if (e.type === 3) return null;
 				if (e.type === 4) throw Error("Cannot convert never type to IDBKeyRange");
@@ -10175,7 +10161,7 @@ var Vn = {
 					mutate: function(e) {
 						var t = e.trans, n = e.type, a = e.keys, o = e.values, s = e.range;
 						return new Promise(function(e, c) {
-							e = L(e);
+							e = R(e);
 							var l = t.objectStore(i), u = l.keyPath == null, d = n === "put" || n === "add";
 							if (!d && n !== "delete" && n !== "deleteRange") throw Error("Invalid operation type: " + n);
 							var f, p = (a || o || { length: 1 }).length;
@@ -10187,7 +10173,7 @@ var Vn = {
 								lastResult: void 0
 							});
 							function m(e) {
-								++_, K(e);
+								++_, Ut(e);
 							}
 							var h = [], g = [], _ = 0;
 							if (n === "deleteRange") {
@@ -10223,26 +10209,26 @@ var Vn = {
 					getMany: function(e) {
 						var t = e.trans, n = e.keys;
 						return new Promise(function(e, r) {
-							e = L(e);
+							e = R(e);
 							for (var a, o = t.objectStore(i), s = n.length, c = Array(s), l = 0, u = 0, d = function(t) {
 								t = t.target, c[t._pos] = t.result, ++u === l && e(c);
-							}, f = G(r), p = 0; p < s; ++p) n[p] != null && ((a = o.get(n[p]))._pos = p, a.onsuccess = d, a.onerror = f, ++l);
+							}, f = J(r), p = 0; p < s; ++p) n[p] != null && ((a = o.get(n[p]))._pos = p, a.onsuccess = d, a.onerror = f, ++l);
 							l === 0 && e(c);
 						});
 					},
 					get: function(e) {
 						var t = e.trans, n = e.key;
 						return new Promise(function(e, r) {
-							e = L(e);
+							e = R(e);
 							var a = t.objectStore(i).get(n);
 							a.onsuccess = function(t) {
 								return e(t.target.result);
-							}, a.onerror = G(r);
+							}, a.onerror = J(r);
 						});
 					},
 					query: (t = c, n = l, function(e) {
 						return new Promise(function(a, o) {
-							a = L(a);
+							a = R(a);
 							var s, c, l, u, d = e.trans, f = e.values, p = e.limit, m = e.query, h = (h = e.direction) ?? "next", g = p === Infinity ? void 0 : p, _ = m.index, m = m.range, d = d.objectStore(i), d = _.isPrimaryKey ? d : d.index(_.name), _ = r(m);
 							if (p === 0) return a({ result: [] });
 							n ? (m = {
@@ -10251,26 +10237,26 @@ var Vn = {
 								direction: h
 							}, (s = f ? d.getAll(m) : d.getAllKeys(m)).onsuccess = function(e) {
 								return a({ result: e.target.result });
-							}, s.onerror = G(o)) : t && h === "next" ? ((s = f ? d.getAll(_, g) : d.getAllKeys(_, g)).onsuccess = function(e) {
+							}, s.onerror = J(o)) : t && h === "next" ? ((s = f ? d.getAll(_, g) : d.getAllKeys(_, g)).onsuccess = function(e) {
 								return a({ result: e.target.result });
-							}, s.onerror = G(o)) : (c = 0, l = !f && "openKeyCursor" in d ? d.openKeyCursor(_, h) : d.openCursor(_, h), u = [], l.onsuccess = function() {
+							}, s.onerror = J(o)) : (c = 0, l = !f && "openKeyCursor" in d ? d.openKeyCursor(_, h) : d.openCursor(_, h), u = [], l.onsuccess = function() {
 								var e = l.result;
 								return !e || (u.push(f ? e.value : e.primaryKey), ++c === p) ? a({ result: u }) : void e.continue();
-							}, l.onerror = G(o));
+							}, l.onerror = J(o));
 						});
 					}),
 					openCursor: function(e) {
 						var t = e.trans, n = e.values, a = e.query, o = e.reverse, s = e.unique;
 						return new Promise(function(e, c) {
-							e = L(e);
+							e = R(e);
 							var l = a.index, u = a.range, d = t.objectStore(i), d = l.isPrimaryKey ? d : d.index(l.name), l = o ? s ? "prevunique" : "prev" : s ? "nextunique" : "next", f = !n && "openKeyCursor" in d ? d.openKeyCursor(r(u), l) : d.openCursor(r(u), l);
-							f.onerror = G(c), f.onsuccess = L(function(n) {
+							f.onerror = J(c), f.onsuccess = R(function(n) {
 								var r, i, a, o, s = f.result;
-								s ? (s.___id = ++rn, s.done = !1, r = s.continue.bind(s), i = (i = s.continuePrimaryKey) && i.bind(s), a = s.advance.bind(s), o = function() {
+								s ? (s.___id = ++en, s.done = !1, r = s.continue.bind(s), i = (i = s.continuePrimaryKey) && i.bind(s), a = s.advance.bind(s), o = function() {
 									throw Error("Cursor not stopped");
 								}, s.trans = t, s.stop = s.continue = s.continuePrimaryKey = s.advance = function() {
 									throw Error("Cursor not started");
-								}, s.fail = L(c), s.next = function() {
+								}, s.fail = R(c), s.next = function() {
 									var e = this, t = 1;
 									return this.start(function() {
 										return t-- ? e.continue() : e.stop();
@@ -10289,11 +10275,11 @@ var Vn = {
 										}, s.stop();
 									}
 									var n = new Promise(function(e, t) {
-										e = L(e), f.onerror = G(t), s.fail = t, s.stop = function(t) {
+										e = R(e), f.onerror = J(t), s.fail = t, s.stop = function(t) {
 											s.stop = s.continue = s.continuePrimaryKey = s.advance = o, e(t);
 										};
 									});
-									return f.onsuccess = L(function(e) {
+									return f.onsuccess = R(function(e) {
 										f.onsuccess = t, t();
 									}), s.continue = r, s.continuePrimaryKey = i, s.advance = a, t(), n;
 								}, e(s)) : e(null);
@@ -10304,14 +10290,14 @@ var Vn = {
 						var t = e.query, n = e.trans, a = t.index, o = t.range;
 						return new Promise(function(e, t) {
 							var s = n.objectStore(i), s = a.isPrimaryKey ? s : s.index(a.name), c = r(o), c = c ? s.count(c) : s.count();
-							c.onsuccess = L(function(t) {
+							c.onsuccess = R(function(t) {
 								return e(t.target.result);
-							}), c.onerror = G(t);
+							}), c.onerror = J(t);
 						});
 					}
 				};
 			}
-			o = n, s = nn((n = e).objectStoreNames), u = 0 < s.length ? o.objectStore(s[0]) : {};
+			o = n, s = $t((n = e).objectStoreNames), u = 0 < s.length ? o.objectStore(s[0]) : {};
 			var o, n = {
 				schema: {
 					name: n.name,
@@ -10328,9 +10314,9 @@ var Vn = {
 								keyPath: t,
 								autoIncrement: n,
 								unique: !0,
-								extractKey: tn(t)
+								extractKey: Qt(t)
 							},
-							indexes: nn(e.indexNames).map(function(t) {
+							indexes: $t(e.indexNames).map(function(t) {
 								return e.index(t);
 							}).map(function(e) {
 								var t = e.name, n = e.unique, r = e.multiEntry, e = e.keyPath, t = {
@@ -10339,15 +10325,15 @@ var Vn = {
 									keyPath: e,
 									unique: n,
 									multiEntry: r,
-									extractKey: tn(e)
+									extractKey: Qt(e)
 								};
-								return i[an(e)] = t;
+								return i[tn(e)] = t;
 							}),
 							getIndexByKeyPath: function(e) {
-								return i[an(e)];
+								return i[tn(e)];
 							}
 						};
-						return i[":id"] = r.primaryKey, t != null && (i[an(t)] = r.primaryKey), r;
+						return i[":id"] = r.primaryKey, t != null && (i[tn(t)] = r.primaryKey), r;
 					})
 				},
 				hasGetAll: 0 < s.length && "getAll" in u && !(typeof navigator < "u" && /Safari/.test(navigator.userAgent) && !/(Chrome\/|Edge\/)/.test(navigator.userAgent) && [].concat(navigator.userAgent.match(/Safari\/(\d*)/))[1] < 604),
@@ -10363,17 +10349,17 @@ var Vn = {
 					throw Error(`Table '${e}' not found`);
 				},
 				MIN_KEY: -Infinity,
-				MAX_KEY: en(t),
+				MAX_KEY: Zt(t),
 				schema: s
 			};
 		}
-		function sn(e, n, r, i) {
-			return r = r.IDBKeyRange, n = on(n, r, i), { dbcore: e.dbcore.reduce(function(e, n) {
+		function rn(e, n, r, i) {
+			return r = r.IDBKeyRange, n = nn(n, r, i), { dbcore: e.dbcore.reduce(function(e, n) {
 				return n = n.create, t(t({}, e), n(e));
 			}, n) };
 		}
-		function cn(e, t) {
-			var n = t.db, n = sn(e._middlewares, n, e._deps, t);
+		function an(e, t) {
+			var n = t.db, n = rn(e._middlewares, n, e._deps, t);
 			e.core = n.dbcore, e.tables.forEach(function(t) {
 				var n = t.name;
 				e.core.schema.tables.some(function(e) {
@@ -10381,7 +10367,7 @@ var Vn = {
 				}) && (t.core = e.core.table(n), e[n] instanceof e.Table) && (e[n].core = t.core);
 			});
 		}
-		function ln(e, t, n, r) {
+		function on(e, t, n, r) {
 			n.forEach(function(n) {
 				var i = r[n];
 				t.forEach(function(t) {
@@ -10404,86 +10390,86 @@ var Vn = {
 				});
 			});
 		}
-		function un(e, t) {
+		function sn(e, t) {
 			t.forEach(function(t) {
 				for (var n in t) t[n] instanceof e.Table && delete t[n];
 			});
 		}
-		function dn(e, t) {
+		function cn(e, t) {
 			return e._cfg.version - t._cfg.version;
 		}
-		function fn(e, t, n, r) {
-			var a = e._dbSchema, o = (n.objectStoreNames.contains("$meta") && !a.$meta && (a.$meta = $t("$meta", yn("")[0], []), e._storeNames.push("$meta")), e._createTransaction("readwrite", e._storeNames, a)), s = (o.create(n), o._completion.catch(r), o._reject.bind(o)), c = F.transless || F;
-			tt(function() {
-				if (F.trans = o, F.transless = c, t !== 0) return cn(e, n), l = t, ((r = o).storeNames.includes("$meta") ? r.table("$meta").get("version").then(function(e) {
+		function ln(e, t, n, r) {
+			var a = e._dbSchema, o = (n.objectStoreNames.contains("$meta") && !a.$meta && (a.$meta = Xt("$meta", _n("")[0], []), e._storeNames.push("$meta")), e._createTransaction("readwrite", e._storeNames, a)), s = (o.create(n), o._completion.catch(r), o._reject.bind(o)), c = I.transless || I;
+			$e(function() {
+				if (I.trans = o, I.transless = c, t !== 0) return an(e, n), l = t, ((r = o).storeNames.includes("$meta") ? r.table("$meta").get("version").then(function(e) {
 					return e ?? l;
-				}) : I.resolve(l)).then(function(t) {
-					var r = e, a = t, s = o, c = n, l = [], t = r._versions, u = r._dbSchema = q(0, r.idbdb, c);
+				}) : L.resolve(l)).then(function(t) {
+					var r = e, a = t, s = o, c = n, l = [], t = r._versions, u = r._dbSchema = hn(0, r.idbdb, c);
 					return (t = t.filter(function(e) {
 						return e._cfg.version >= a;
-					})).length === 0 ? I.resolve() : (t.forEach(function(e) {
+					})).length === 0 ? L.resolve() : (t.forEach(function(e) {
 						l.push(function() {
-							var t, n, o, l = u, d = e._cfg.dbschema, f = (vn(r, l, c), vn(r, d, c), u = r._dbSchema = d, mn(l, d)), p = (f.add.forEach(function(e) {
-								hn(c, e[0], e[1].primKey, e[1].indexes);
+							var t, n, o, l = u, d = e._cfg.dbschema, f = (gn(r, l, c), gn(r, d, c), u = r._dbSchema = d, dn(l, d)), p = (f.add.forEach(function(e) {
+								fn(c, e[0], e[1].primKey, e[1].indexes);
 							}), f.change.forEach(function(e) {
 								if (e.recreate) throw new M.Upgrade("Not yet support for changing primary key");
 								var t = c.objectStore(e.name);
 								e.add.forEach(function(e) {
-									return _n(t, e);
+									return mn(t, e);
 								}), e.change.forEach(function(e) {
-									t.deleteIndex(e.name), _n(t, e);
+									t.deleteIndex(e.name), mn(t, e);
 								}), e.del.forEach(function(e) {
 									return t.deleteIndex(e);
 								});
 							}), e._cfg.contentUpgrade);
-							if (p && e._cfg.version > a) return cn(r, c), s._memoizedTables = {}, t = S(d), f.del.forEach(function(e) {
+							if (p && e._cfg.version > a) return an(r, c), s._memoizedTables = {}, t = S(d), f.del.forEach(function(e) {
 								t[e] = l[e];
-							}), un(r, [r.Transaction.prototype]), ln(r, [r.Transaction.prototype], i(t), t), s.schema = t, (n = k(p)) && nt(), d = I.follow(function() {
+							}), sn(r, [r.Transaction.prototype]), on(r, [r.Transaction.prototype], i(t), t), s.schema = t, (n = se(p)) && et(), d = L.follow(function() {
 								var e;
-								(o = p(s)) && n && (e = rt.bind(null, null), o.then(e, e));
-							}), o && typeof o.then == "function" ? I.resolve(o) : d.then(function() {
+								(o = p(s)) && n && (e = V.bind(null, null), o.then(e, e));
+							}), o && typeof o.then == "function" ? L.resolve(o) : d.then(function() {
 								return o;
 							});
 						}), l.push(function(t) {
 							var n = e._cfg.dbschema, i = t;
 							[].slice.call(i.db.objectStoreNames).forEach(function(e) {
 								return n[e] == null && i.db.deleteObjectStore(e);
-							}), un(r, [r.Transaction.prototype]), ln(r, [r.Transaction.prototype], r._storeNames, r._dbSchema), s.schema = r._dbSchema;
+							}), sn(r, [r.Transaction.prototype]), on(r, [r.Transaction.prototype], r._storeNames, r._dbSchema), s.schema = r._dbSchema;
 						}), l.push(function(t) {
 							r.idbdb.objectStoreNames.contains("$meta") && (Math.ceil(r.idbdb.version / 10) === e._cfg.version ? (r.idbdb.deleteObjectStore("$meta"), delete r._dbSchema.$meta, r._storeNames = r._storeNames.filter(function(e) {
 								return e !== "$meta";
 							})) : t.objectStore("$meta").put(e._cfg.version, "version"));
 						});
 					}), function e() {
-						return l.length ? I.resolve(l.shift()(s.idbtrans)).then(e) : I.resolve();
+						return l.length ? L.resolve(l.shift()(s.idbtrans)).then(e) : L.resolve();
 					}().then(function() {
-						gn(u, c);
+						pn(u, c);
 					}));
 				}).catch(s);
 				var r, l;
 				i(a).forEach(function(e) {
-					hn(n, e, a[e].primKey, a[e].indexes);
-				}), cn(e, n), I.follow(function() {
+					fn(n, e, a[e].primKey, a[e].indexes);
+				}), an(e, n), L.follow(function() {
 					return e.on.populate.fire(o);
 				}).catch(s);
 			});
 		}
-		function pn(e, t) {
-			gn(e._dbSchema, t), t.db.version % 10 != 0 || t.objectStoreNames.contains("$meta") || t.db.createObjectStore("$meta").add(Math.ceil(t.db.version / 10 - 1), "version");
-			var n = q(0, e.idbdb, t);
-			vn(e, e._dbSchema, t);
-			for (var r = 0, i = mn(n, e._dbSchema).change; r < i.length; r++) {
+		function un(e, t) {
+			pn(e._dbSchema, t), t.db.version % 10 != 0 || t.objectStoreNames.contains("$meta") || t.db.createObjectStore("$meta").add(Math.ceil(t.db.version / 10 - 1), "version");
+			var n = hn(0, e.idbdb, t);
+			gn(e, e._dbSchema, t);
+			for (var r = 0, i = dn(n, e._dbSchema).change; r < i.length; r++) {
 				var a = ((e) => {
 					if (e.change.length || e.recreate) return console.warn(`Unable to patch indexes of table ${e.name} because it has changes on the type of index or primary key.`), { value: void 0 };
 					var n = t.objectStore(e.name);
 					e.add.forEach(function(t) {
-						P && console.debug(`Dexie upgrade patch: Creating missing index ${e.name}.${t.src}`), _n(n, t);
+						xe && console.debug(`Dexie upgrade patch: Creating missing index ${e.name}.${t.src}`), mn(n, t);
 					});
 				})(i[r]);
 				if (typeof a == "object") return a.value;
 			}
 		}
-		function mn(e, t) {
+		function dn(e, t) {
 			var n, r = {
 				del: [],
 				add: [],
@@ -10515,37 +10501,37 @@ var Vn = {
 			}
 			return r;
 		}
-		function hn(e, t, n, r) {
+		function fn(e, t, n, r) {
 			var i = e.db.createObjectStore(t, n.keyPath ? {
 				keyPath: n.keyPath,
 				autoIncrement: n.auto
 			} : { autoIncrement: n.auto });
 			r.forEach(function(e) {
-				return _n(i, e);
+				return mn(i, e);
 			});
 		}
-		function gn(e, t) {
+		function pn(e, t) {
 			i(e).forEach(function(n) {
-				t.db.objectStoreNames.contains(n) || (P && console.debug("Dexie: Creating missing table", n), hn(t, n, e[n].primKey, e[n].indexes));
+				t.db.objectStoreNames.contains(n) || (xe && console.debug("Dexie: Creating missing table", n), fn(t, n, e[n].primKey, e[n].indexes));
 			});
 		}
-		function _n(e, t) {
+		function mn(e, t) {
 			e.createIndex(t.name, t.keyPath, {
 				unique: t.unique,
 				multiEntry: t.multi
 			});
 		}
-		function q(e, t, n) {
+		function hn(e, t, n) {
 			var r = {};
 			return g(t.objectStoreNames, 0).forEach(function(e) {
-				for (var t = n.objectStore(e), i = Zt(Qt(c = t.keyPath), c || "", !0, !1, !!t.autoIncrement, c && typeof c != "string", !0), a = [], o = 0; o < t.indexNames.length; ++o) {
-					var s = t.index(t.indexNames[o]), c = s.keyPath, s = Zt(s.name, c, !!s.unique, !!s.multiEntry, !1, c && typeof c != "string", !1);
+				for (var t = n.objectStore(e), i = Jt(Yt(c = t.keyPath), c || "", !0, !1, !!t.autoIncrement, c && typeof c != "string", !0), a = [], o = 0; o < t.indexNames.length; ++o) {
+					var s = t.index(t.indexNames[o]), c = s.keyPath, s = Jt(s.name, c, !!s.unique, !!s.multiEntry, !1, c && typeof c != "string", !1);
 					a.push(s);
 				}
-				r[e] = $t(e, i, a);
+				r[e] = Xt(e, i, a);
 			}), r;
 		}
-		function vn(e, t, n) {
+		function gn(e, t, n) {
 			for (var i = n.db.objectStoreNames, a = 0; a < i.length; ++a) {
 				var o = i[a], s = n.objectStore(o);
 				e._hasGetAll = "getAll" in s;
@@ -10556,13 +10542,13 @@ var Vn = {
 			}
 			typeof navigator < "u" && /Safari/.test(navigator.userAgent) && !/(Chrome\/|Edge\/)/.test(navigator.userAgent) && r.WorkerGlobalScope && r instanceof r.WorkerGlobalScope && [].concat(navigator.userAgent.match(/Safari\/(\d*)/))[1] < 604 && (e._hasGetAll = !1);
 		}
-		function yn(e) {
+		function _n(e) {
 			return e.split(",").map(function(e, t) {
 				var n = e.split(":"), r = (r = n[1])?.trim(), n = (e = n[0].trim()).replace(/([&*]|\+\+)/g, ""), i = /^\[/.test(n) ? n.match(/^\[(.*)\]$/)[1].split("+") : n;
-				return Zt(n, i || null, /\&/.test(e), /\*/.test(e), /\+\+/.test(e), a(i), t === 0, r);
+				return Jt(n, i || null, /\&/.test(e), /\*/.test(e), /\+\+/.test(e), a(i), t === 0, r);
 			});
 		}
-		xn.prototype._createTableSchema = $t, xn.prototype._parseIndexSyntax = yn, xn.prototype._parseStoresSpec = function(e, t) {
+		yn.prototype._createTableSchema = Xt, yn.prototype._parseIndexSyntax = _n, yn.prototype._parseStoresSpec = function(e, t) {
 			var n = this;
 			i(e).forEach(function(r) {
 				if (e[r] !== null) {
@@ -10575,26 +10561,26 @@ var Vn = {
 					}), a = n._createTableSchema(r, a, i), t[r] = a;
 				}
 			});
-		}, xn.prototype.stores = function(e) {
+		}, yn.prototype.stores = function(e) {
 			var t = this.db, e = (this._cfg.storesSource = this._cfg.storesSource ? o(this._cfg.storesSource, e) : e, t._versions), n = {}, r = {};
 			return e.forEach(function(e) {
 				o(n, e._cfg.storesSource), r = e._cfg.dbschema = {}, e._parseStoresSpec(n, r);
-			}), t._dbSchema = r, un(t, [
+			}), t._dbSchema = r, sn(t, [
 				t._allTables,
 				t,
 				t.Transaction.prototype
-			]), ln(t, [
+			]), on(t, [
 				t._allTables,
 				t,
 				t.Transaction.prototype,
 				this._cfg.tables
 			], i(r), r), t._storeNames = i(r), this;
-		}, xn.prototype.upgrade = function(e) {
-			return this._cfg.contentUpgrade = xe(this._cfg.contentUpgrade || N, e), this;
+		}, yn.prototype.upgrade = function(e) {
+			return this._cfg.contentUpgrade = be(this._cfg.contentUpgrade || P, e), this;
 		};
-		var bn = xn;
-		function xn() {}
-		var Sn = (() => {
+		var vn = yn;
+		function yn() {}
+		var bn = (() => {
 			var e, t, n;
 			return typeof FinalizationRegistry < "u" && typeof WeakRef < "u" ? (e = /* @__PURE__ */ new Set(), t = new FinalizationRegistry(function(t) {
 				e.delete(t);
@@ -10629,83 +10615,83 @@ var Vn = {
 				}
 			});
 		})();
-		function Cn(e, t) {
+		function xn(e, t) {
 			var n = e._dbNamesDB;
-			return n || (n = e._dbNamesDB = new ir(mt, {
+			return n || (n = e._dbNamesDB = new ir(dt, {
 				addons: [],
 				indexedDB: e,
 				IDBKeyRange: t
 			})).version(1).stores({ dbnames: "name" }), n.table("dbnames");
 		}
-		function wn(e) {
+		function Sn(e) {
 			return e && typeof e.databases == "function";
 		}
-		function Tn(e) {
-			return tt(function() {
-				return F.letThrough = !0, e();
+		function Cn(e) {
+			return $e(function() {
+				return I.letThrough = !0, e();
 			});
 		}
-		function En(e) {
+		function wn(e) {
 			return !("from" in e);
 		}
-		var J = function(e, t) {
+		var X = function(e, t) {
 			var n;
-			if (!this) return n = new J(), e && "d" in e && o(n, e), n;
+			if (!this) return n = new X(), e && "d" in e && o(n, e), n;
 			o(this, arguments.length ? {
 				d: 1,
 				from: e,
 				to: 1 < arguments.length ? t : e
 			} : { d: 0 });
 		};
-		function Dn(e, t, n) {
-			var r = B(t, n);
+		function Tn(e, t, n) {
+			var r = U(t, n);
 			if (!isNaN(r)) {
 				if (0 < r) throw RangeError();
-				if (En(e)) return o(e, {
+				if (wn(e)) return o(e, {
 					from: t,
 					to: n,
 					d: 1
 				});
 				var r = e.l, i = e.r;
-				if (B(n, e.from) < 0) return r ? Dn(r, t, n) : e.l = {
+				if (U(n, e.from) < 0) return r ? Tn(r, t, n) : e.l = {
 					from: t,
 					to: n,
 					d: 1,
 					l: null,
 					r: null
-				}, jn(e);
-				if (0 < B(t, e.to)) return i ? Dn(i, t, n) : e.r = {
+				}, kn(e);
+				if (0 < U(t, e.to)) return i ? Tn(i, t, n) : e.r = {
 					from: t,
 					to: n,
 					d: 1,
 					l: null,
 					r: null
-				}, jn(e);
-				B(t, e.from) < 0 && (e.from = t, e.l = null, e.d = i ? i.d + 1 : 1), 0 < B(n, e.to) && (e.to = n, e.r = null, e.d = e.l ? e.l.d + 1 : 1), t = !e.r, r && !e.l && On(e, r), i && t && On(e, i);
+				}, kn(e);
+				U(t, e.from) < 0 && (e.from = t, e.l = null, e.d = i ? i.d + 1 : 1), 0 < U(n, e.to) && (e.to = n, e.r = null, e.d = e.l ? e.l.d + 1 : 1), t = !e.r, r && !e.l && En(e, r), i && t && En(e, i);
 			}
 		}
-		function On(e, t) {
-			En(t) || function e(t, n) {
+		function En(e, t) {
+			wn(t) || function e(t, n) {
 				var r = n.from, i = n.l, a = n.r;
-				Dn(t, r, n.to), i && e(t, i), a && e(t, a);
+				Tn(t, r, n.to), i && e(t, i), a && e(t, a);
 			}(e, t);
 		}
-		function kn(e, t) {
-			var n = An(t), r = n.next();
-			if (!r.done) for (var i = r.value, a = An(e), o = a.next(i.from), s = o.value; !r.done && !o.done;) {
-				if (B(s.from, i.to) <= 0 && 0 <= B(s.to, i.from)) return !0;
-				B(i.from, s.from) < 0 ? i = (r = n.next(s.from)).value : s = (o = a.next(i.from)).value;
+		function Dn(e, t) {
+			var n = On(t), r = n.next();
+			if (!r.done) for (var i = r.value, a = On(e), o = a.next(i.from), s = o.value; !r.done && !o.done;) {
+				if (U(s.from, i.to) <= 0 && 0 <= U(s.to, i.from)) return !0;
+				U(i.from, s.from) < 0 ? i = (r = n.next(s.from)).value : s = (o = a.next(i.from)).value;
 			}
 			return !1;
 		}
-		function An(e) {
-			var t = En(e) ? null : {
+		function On(e) {
+			var t = wn(e) ? null : {
 				s: 0,
 				n: e
 			};
 			return { next: function(e) {
 				for (var n = 0 < arguments.length; t;) switch (t.s) {
-					case 0: if (t.s = 1, n) for (; t.n.l && B(e, t.n.from) < 0;) t = {
+					case 0: if (t.s = 1, n) for (; t.n.l && U(e, t.n.from) < 0;) t = {
 						up: t,
 						n: t.n.l,
 						s: 1
@@ -10715,7 +10701,7 @@ var Vn = {
 						n: t.n.l,
 						s: 1
 					};
-					case 1: if (t.s = 2, !n || B(e, t.n.to) <= 0) return {
+					case 1: if (t.s = 2, !n || U(e, t.n.to) <= 0) return {
 						value: t.n,
 						done: !1
 					};
@@ -10732,61 +10718,61 @@ var Vn = {
 				return { done: !0 };
 			} };
 		}
-		function jn(e) {
+		function kn(e) {
 			var n, r, i, a = ((a = e.r)?.d || 0) - ((a = e.l)?.d || 0), a = 1 < a ? "r" : a < -1 ? "l" : "";
-			a && (n = a == "r" ? "l" : "r", r = t({}, e), i = e[a], e.from = i.from, e.to = i.to, e[a] = i[a], r[a] = i[n], (e[n] = r).d = Mn(r)), e.d = Mn(e);
+			a && (n = a == "r" ? "l" : "r", r = t({}, e), i = e[a], e.from = i.from, e.to = i.to, e[a] = i[a], r[a] = i[n], (e[n] = r).d = An(r)), e.d = An(e);
 		}
-		function Mn(e) {
+		function An(e) {
 			var t = e.r, e = e.l;
 			return (t ? e ? Math.max(t.d, e.d) : t.d : e ? e.d : 0) + 1;
 		}
-		function Nn(e, t) {
+		function jn(e, t) {
 			return i(t).forEach(function(n) {
-				e[n] ? On(e[n], t[n]) : e[n] = function e(t) {
+				e[n] ? En(e[n], t[n]) : e[n] = function e(t) {
 					var n, r, i = {};
-					for (n in t) l(t, n) && (r = t[n], i[n] = !r || typeof r != "object" || te.has(r.constructor) ? r : e(r));
+					for (n in t) l(t, n) && (r = t[n], i[n] = !r || typeof r != "object" || T.has(r.constructor) ? r : e(r));
 					return i;
 				}(t[n]);
 			}), e;
 		}
-		function Pn(e, t) {
+		function Mn(e, t) {
 			return e.all || t.all || Object.keys(e).some(function(n) {
-				return t[n] && kn(t[n], e[n]);
+				return t[n] && Dn(t[n], e[n]);
 			});
 		}
-		u(J.prototype, ((A = {
+		u(X.prototype, ((k = {
 			add: function(e) {
-				return On(this, e), this;
+				return En(this, e), this;
 			},
 			addKey: function(e) {
-				return Dn(this, e, e), this;
+				return Tn(this, e, e), this;
 			},
 			addKeys: function(e) {
 				var t = this;
 				return e.forEach(function(e) {
-					return Dn(t, e, e);
+					return Tn(t, e, e);
 				}), this;
 			},
 			hasKey: function(e) {
-				var t = An(this).next(e).value;
-				return t && B(t.from, e) <= 0 && 0 <= B(t.to, e);
+				var t = On(this).next(e).value;
+				return t && U(t.from, e) <= 0 && 0 <= U(t.to, e);
 			}
 		})[ae] = function() {
-			return An(this);
-		}, A));
-		var Fn = {}, In = {}, Y = !1;
-		function X(e) {
-			Nn(In, e), Y || (Y = !0, setTimeout(function() {
-				Y = !1, Ln(In, !(In = {}));
+			return On(this);
+		}, k));
+		var Nn = {}, Pn = {}, Fn = !1;
+		function In(e) {
+			jn(Pn, e), Fn || (Fn = !0, setTimeout(function() {
+				Fn = !1, Ln(Pn, !(Pn = {}));
 			}, 0));
 		}
 		function Ln(e, t) {
 			t === void 0 && (t = !1);
 			var n = /* @__PURE__ */ new Set();
-			if (e.all) for (var r = 0, i = Object.values(Fn); r < i.length; r++) Rn(s = i[r], e, n, t);
+			if (e.all) for (var r = 0, i = Object.values(Nn); r < i.length; r++) Rn(s = i[r], e, n, t);
 			else for (var a in e) {
 				var o, s, a = /^idb\:\/\/(.*)\/(.*)\//.exec(a);
-				a && (o = a[1], a = a[2], s = Fn[`idb://${o}/${a}`]) && Rn(s, e, n, t);
+				a && (o = a[1], a = a[2], s = Nn[`idb://${o}/${a}`]) && Rn(s, e, n, t);
 			}
 			n.forEach(function(e) {
 				return e();
@@ -10796,7 +10782,7 @@ var Vn = {
 			for (var i = [], a = 0, o = Object.entries(e.queries.query); a < o.length; a++) {
 				for (var s = o[a], c = s[0], l = [], u = 0, d = s[1]; u < d.length; u++) {
 					var f = d[u];
-					Pn(t, f.obsSet) ? f.subscribers.forEach(function(e) {
+					Mn(t, f.obsSet) ? f.subscribers.forEach(function(e) {
 						return n.add(e);
 					}) : r && l.push(f);
 				}
@@ -10807,10 +10793,10 @@ var Vn = {
 				e.queries.query[c] = l;
 			}
 		}
-		function Z(e) {
+		function zn(e) {
 			var t = e._state, n = e._deps.indexedDB;
 			if (t.isBeingOpened || e.idbdb) return t.dbReadyPromise.then(function() {
-				return t.dbOpenError ? z(t.dbOpenError) : e;
+				return t.dbOpenError ? H(t.dbOpenError) : e;
 			});
 			t.isBeingOpened = !0, t.dbOpenError = null, t.openComplete = !1;
 			var r = t.openCanceller, a = Math.round(10 * e.verno), o = !1;
@@ -10818,31 +10804,31 @@ var Vn = {
 				if (t.openCanceller !== r) throw new M.DatabaseClosed("db.open() was cancelled");
 			}
 			function c() {
-				return new I(function(r, l) {
+				return new L(function(r, l) {
 					if (s(), !n) throw new M.MissingAPI();
 					var u = e.name, p = t.autoSchema || !a ? n.open(u) : n.open(u, a);
 					if (!p) throw new M.MissingAPI();
-					p.onerror = G(l), p.onblocked = L(e._fireOnBlocked), p.onupgradeneeded = L(function(r) {
+					p.onerror = J(l), p.onblocked = R(e._fireOnBlocked), p.onupgradeneeded = R(function(r) {
 						var i;
-						d = p.transaction, t.autoSchema && !e._options.allowEmptyDB ? (p.onerror = K, d.abort(), p.result.close(), (i = n.deleteDatabase(u)).onsuccess = i.onerror = L(function() {
+						d = p.transaction, t.autoSchema && !e._options.allowEmptyDB ? (p.onerror = Ut, d.abort(), p.result.close(), (i = n.deleteDatabase(u)).onsuccess = i.onerror = R(function() {
 							l(new M.NoSuchDatabase(`Database ${u} doesnt exist`));
-						})) : (d.onerror = G(l), i = r.oldVersion > 2 ** 62 ? 0 : r.oldVersion, f = i < 1, e.idbdb = p.result, o && pn(e, d), fn(e, i / 10, d, l));
-					}, l), p.onsuccess = L(function() {
+						})) : (d.onerror = J(l), i = r.oldVersion > 2 ** 62 ? 0 : r.oldVersion, f = i < 1, e.idbdb = p.result, o && un(e, d), ln(e, i / 10, d, l));
+					}, l), p.onsuccess = R(function() {
 						d = null;
 						var n, s, l, m, h, _, v = e.idbdb = p.result, y = g(v.objectStoreNames);
 						if (0 < y.length) try {
 							var b = v.transaction((h = y).length === 1 ? h[0] : h, "readonly");
-							if (t.autoSchema) _ = v, m = b, (l = e).verno = _.version / 10, m = l._dbSchema = q(0, _, m), l._storeNames = g(_.objectStoreNames, 0), ln(l, [l._allTables], i(m), m);
-							else if (vn(e, e._dbSchema, b), s = b, ((s = mn(q(0, (n = e).idbdb, s), n._dbSchema)).add.length || s.change.some(function(e) {
+							if (t.autoSchema) _ = v, m = b, (l = e).verno = _.version / 10, m = l._dbSchema = hn(0, _, m), l._storeNames = g(_.objectStoreNames, 0), on(l, [l._allTables], i(m), m);
+							else if (gn(e, e._dbSchema, b), s = b, ((s = dn(hn(0, (n = e).idbdb, s), n._dbSchema)).add.length || s.change.some(function(e) {
 								return e.add.length || e.change.length;
 							})) && !o) return console.warn("Dexie SchemaDiff: Schema was extended without increasing the number passed to db.version(). Dexie will add missing parts and increment native version number to workaround this."), v.close(), a = v.version + 1, o = !0, r(c());
-							cn(e, b);
+							an(e, b);
 						} catch {}
-						Sn.add(e), v.onversionchange = L(function(n) {
+						bn.add(e), v.onversionchange = R(function(n) {
 							t.vcFired = !0, e.on("versionchange").fire(n);
-						}), v.onclose = L(function() {
+						}), v.onclose = R(function() {
 							e.close({ disableAutoOpen: !1 });
-						}), f && (y = e._deps, h = u, wn(_ = y.indexedDB) || h === mt || Cn(_, y.IDBKeyRange).put({ name: h }).catch(N)), r();
+						}), f && (y = e._deps, h = u, Sn(_ = y.indexedDB) || h === dt || xn(_, y.IDBKeyRange).put({ name: h }).catch(P)), r();
 					}, l);
 				}).catch(function(e) {
 					switch (e?.name) {
@@ -10851,11 +10837,11 @@ var Vn = {
 							break;
 						case "VersionError": if (0 < a) return a = 0, c();
 					}
-					return I.reject(e);
+					return L.reject(e);
 				});
 			}
 			var l, u = t.dbReadyResolve, d = null, f = !1;
-			return I.race([r, (typeof navigator > "u" ? I.resolve() : !navigator.userAgentData && /Safari\//.test(navigator.userAgent) && !/Chrom(e|ium)\//.test(navigator.userAgent) && indexedDB.databases ? new Promise(function(e) {
+			return L.race([r, (typeof navigator > "u" ? L.resolve() : !navigator.userAgentData && /Safari\//.test(navigator.userAgent) && !/Chrom(e|ium)\//.test(navigator.userAgent) && indexedDB.databases ? new Promise(function(e) {
 				function t() {
 					return indexedDB.databases().finally(e);
 				}
@@ -10863,11 +10849,11 @@ var Vn = {
 			}).finally(function() {
 				return clearInterval(l);
 			}) : Promise.resolve()).then(c)]).then(function() {
-				return s(), t.onReadyBeingFired = [], I.resolve(Tn(function() {
+				return s(), t.onReadyBeingFired = [], L.resolve(Cn(function() {
 					return e.on.ready.fire(e.vip);
 				})).then(function n() {
 					var r;
-					if (0 < t.onReadyBeingFired.length) return r = t.onReadyBeingFired.reduce(xe, N), t.onReadyBeingFired = [], I.resolve(Tn(function() {
+					if (0 < t.onReadyBeingFired.length) return r = t.onReadyBeingFired.reduce(be, P), t.onReadyBeingFired = [], L.resolve(Cn(function() {
 						return r(e.vip);
 					})).then(n);
 				});
@@ -10878,19 +10864,19 @@ var Vn = {
 				try {
 					d && d.abort();
 				} catch {}
-				return r === t.openCanceller && e._close(), z(n);
+				return r === t.openCanceller && e._close(), H(n);
 			}).finally(function() {
 				t.openComplete = !0, u();
 			}).then(function() {
 				var t;
 				return f && (t = {}, e.tables.forEach(function(n) {
 					n.schema.indexes.forEach(function(r) {
-						r.name && (t[`idb://${e.name}/${n.name}/${r.name}`] = new J(-Infinity, [[[]]]));
-					}), t[`idb://${e.name}/${n.name}/`] = t[`idb://${e.name}/${n.name}/:dels`] = new J(-Infinity, [[[]]]);
-				}), Jt(Kt).fire(t), Ln(t, !0)), e;
+						r.name && (t[`idb://${e.name}/${n.name}/${r.name}`] = new X(-Infinity, [[[]]]));
+					}), t[`idb://${e.name}/${n.name}/`] = t[`idb://${e.name}/${n.name}/:dels`] = new X(-Infinity, [[[]]]);
+				}), Kt(Wt).fire(t), Ln(t, !0)), e;
 			});
 		}
-		function zn(e) {
+		function Bn(e) {
 			function t(t) {
 				return e.next(t);
 			}
@@ -10905,11 +10891,11 @@ var Vn = {
 			}
 			return i(t)();
 		}
-		function Bn(e, t, n) {
+		function Vn(e, t, n) {
 			for (var r = a(e) ? e.slice() : [e], i = 0; i < n; ++i) r.push(t);
 			return r;
 		}
-		var Vn = {
+		var Hn = {
 			stack: "dbcore",
 			name: "VirtualIndexMiddleware",
 			level: 1,
@@ -10917,13 +10903,13 @@ var Vn = {
 				return t(t({}, e), { table: function(n) {
 					var r = e.table(n), n = r.schema, i = Object.create(null), a = [];
 					function o(e, n, r) {
-						var s = an(e), c = i[s] = i[s] || [], l = e == null ? 0 : typeof e == "string" ? 1 : e.length, u = 0 < n, s = t(t({}, r), {
+						var s = tn(e), c = i[s] = i[s] || [], l = e == null ? 0 : typeof e == "string" ? 1 : e.length, u = 0 < n, s = t(t({}, r), {
 							name: u ? `${s}(virtual-from:${r.name})` : r.name,
 							lowLevelIndex: r,
 							isVirtual: u,
 							keyTail: n,
 							keyLength: l,
-							extractKey: tn(e),
+							extractKey: Qt(e),
 							unique: !u && r.unique
 						});
 						return c.push(s), s.isPrimaryKey || a.push(s), 1 < l && o(l === 2 ? e[0] : e.slice(0, l - 1), n + 1, r), c.sort(function(e, t) {
@@ -10942,9 +10928,9 @@ var Vn = {
 							index: i.lowLevelIndex,
 							range: (r = n.query.range, i = i.keyTail, {
 								type: r.type === 1 ? 2 : r.type,
-								lower: Bn(r.lower, r.lowerOpen ? e.MAX_KEY : e.MIN_KEY, i),
+								lower: Vn(r.lower, r.lowerOpen ? e.MAX_KEY : e.MIN_KEY, i),
 								lowerOpen: !0,
-								upper: Bn(r.upper, r.upperOpen ? e.MIN_KEY : e.MAX_KEY, i),
+								upper: Vn(r.upper, r.upperOpen ? e.MIN_KEY : e.MAX_KEY, i),
 								upperOpen: !0
 							})
 						} }) : n;
@@ -10954,7 +10940,7 @@ var Vn = {
 							primaryKey: s,
 							indexes: a,
 							getIndexByKeyPath: function(e) {
-								return (e = i[an(e)]) && e[0];
+								return (e = i[tn(e)]) && e[0];
 							}
 						}),
 						count: function(e) {
@@ -10971,10 +10957,10 @@ var Vn = {
 							function o(n) {
 								return Object.create(n, {
 									continue: { value: function(r) {
-										r == null ? t.unique ? n.continue(n.key.slice(0, a).concat(t.reverse ? e.MIN_KEY : e.MAX_KEY, i)) : n.continue() : n.continue(Bn(r, t.reverse ? e.MAX_KEY : e.MIN_KEY, i));
+										r == null ? t.unique ? n.continue(n.key.slice(0, a).concat(t.reverse ? e.MIN_KEY : e.MAX_KEY, i)) : n.continue() : n.continue(Vn(r, t.reverse ? e.MAX_KEY : e.MIN_KEY, i));
 									} },
 									continuePrimaryKey: { value: function(t, r) {
-										n.continuePrimaryKey(Bn(t, e.MAX_KEY, i), r);
+										n.continuePrimaryKey(Vn(t, e.MAX_KEY, i), r);
 									} },
 									primaryKey: { get: function() {
 										return n.primaryKey;
@@ -10993,18 +10979,18 @@ var Vn = {
 				} });
 			}
 		};
-		function Hn(e, t, n, r) {
+		function Un(e, t, n, r) {
 			return n ||= {}, r ||= "", i(e).forEach(function(i) {
 				var a, o, s;
-				l(t, i) ? (a = e[i], o = t[i], typeof a == "object" && typeof o == "object" && a && o ? (s = ie(a)) === ie(o) ? s === "Object" ? Hn(a, o, n, r + i + ".") : a !== o && (n[r + i] = t[i]) : n[r + i] = t[i] : a !== o && (n[r + i] = t[i])) : n[r + i] = void 0;
+				l(t, i) ? (a = e[i], o = t[i], typeof a == "object" && typeof o == "object" && a && o ? (s = ie(a)) === ie(o) ? s === "Object" ? Un(a, o, n, r + i + ".") : a !== o && (n[r + i] = t[i]) : n[r + i] = t[i] : a !== o && (n[r + i] = t[i])) : n[r + i] = void 0;
 			}), i(t).forEach(function(i) {
 				l(e, i) || (n[r + i] = t[i]);
 			}), n;
 		}
-		function Un(e, t) {
+		function Wn(e, t) {
 			return t.type === "delete" ? t.keys : t.keys || t.values.map(e.extractKey);
 		}
-		var Wn = {
+		var Gn = {
 			stack: "dbcore",
 			name: "HooksMiddleware",
 			level: 2,
@@ -11012,25 +10998,25 @@ var Vn = {
 				return t(t({}, e), { table: function(r) {
 					var i = e.table(r), a = i.schema.primaryKey;
 					return t(t({}, i), { mutate: function(e) {
-						var o = F.trans, s = o.table(r).hook, c = s.deleting, u = s.creating, d = s.updating;
+						var o = I.trans, s = o.table(r).hook, c = s.deleting, u = s.creating, d = s.updating;
 						switch (e.type) {
 							case "add":
-								if (u.fire === N) break;
+								if (u.fire === P) break;
 								return o._promise("readwrite", function() {
 									return f(e);
 								}, !0);
 							case "put":
-								if (u.fire === N && d.fire === N) break;
+								if (u.fire === P && d.fire === P) break;
 								return o._promise("readwrite", function() {
 									return f(e);
 								}, !0);
 							case "delete":
-								if (c.fire === N) break;
+								if (c.fire === P) break;
 								return o._promise("readwrite", function() {
 									return f(e);
 								}, !0);
 							case "deleteRange":
-								if (c.fire === N) break;
+								if (c.fire === P) break;
 								return o._promise("readwrite", function() {
 									return function e(n, r, o) {
 										return i.query({
@@ -11063,7 +11049,7 @@ var Vn = {
 						}
 						return i.mutate(e);
 						function f(e) {
-							var r, o, s, f = F.trans, p = e.keys || Un(a, e);
+							var r, o, s, f = I.trans, p = e.keys || Wn(a, e);
 							if (p) return (e = e.type === "add" || e.type === "put" ? t(t({}, e), { keys: p }) : t({}, e)).type !== "delete" && (e.values = n([], e.values, !0)), e.keys &&= n([], e.keys, !0), r = i, s = p, ((o = e).type === "add" ? Promise.resolve([]) : r.getMany({
 								trans: o.trans,
 								keys: s,
@@ -11074,7 +11060,7 @@ var Vn = {
 										onerror: null,
 										onsuccess: null
 									};
-									return e.type === "delete" ? c.fire.call(m, n, p, f) : e.type === "add" || p === void 0 ? (i = u.fire.call(m, n, e.values[r], f), n == null && i != null && (e.keys[r] = n = i, a.outbound || x(e.values[r], a.keyPath, n))) : (i = Hn(p, e.values[r]), (o = d.fire.call(m, i, n, p, f)) && (s = e.values[r], Object.keys(o).forEach(function(e) {
+									return e.type === "delete" ? c.fire.call(m, n, p, f) : e.type === "add" || p === void 0 ? (i = u.fire.call(m, n, e.values[r], f), n == null && i != null && (e.keys[r] = n = i, a.outbound || x(e.values[r], a.keyPath, n))) : (i = Un(p, e.values[r]), (o = d.fire.call(m, i, n, p, f)) && (s = e.values[r], Object.keys(o).forEach(function(e) {
 										l(s, e) ? s[e] = o[e] : x(s, e, o[e]);
 									}))), m;
 								});
@@ -11101,16 +11087,16 @@ var Vn = {
 				} });
 			}
 		};
-		function Gn(e, t, n) {
+		function Kn(e, t, n) {
 			try {
 				if (!t || t.keys.length < e.length) return null;
-				for (var r = [], i = 0, a = 0; i < t.keys.length && a < e.length; ++i) B(t.keys[i], e[a]) === 0 && (r.push(n ? ne(t.values[i]) : t.values[i]), ++a);
+				for (var r = [], i = 0, a = 0; i < t.keys.length && a < e.length; ++i) U(t.keys[i], e[a]) === 0 && (r.push(n ? ne(t.values[i]) : t.values[i]), ++a);
 				return r.length === e.length ? r : null;
 			} catch {
 				return null;
 			}
 		}
-		var Kn = {
+		var qn = {
 			stack: "dbcore",
 			level: -1,
 			create: function(e) {
@@ -11119,7 +11105,7 @@ var Vn = {
 					return t(t({}, r), {
 						getMany: function(e) {
 							var t;
-							return e.cache ? (t = Gn(e.keys, e.trans._cache, e.cache === "clone")) ? I.resolve(t) : r.getMany(e).then(function(t) {
+							return e.cache ? (t = Kn(e.keys, e.trans._cache, e.cache === "clone")) ? L.resolve(t) : r.getMany(e).then(function(t) {
 								return e.trans._cache = {
 									keys: e.keys,
 									values: e.cache === "clone" ? ne(t) : t
@@ -11133,10 +11119,10 @@ var Vn = {
 				} };
 			}
 		};
-		function qn(e, t) {
+		function Jn(e, t) {
 			return e.trans.mode === "readonly" && !!e.subscr && !e.trans.explicit && e.trans.db._options.cache !== "disabled" && !t.schema.primaryKey.outbound;
 		}
-		function Jn(e, t) {
+		function Yn(e, t) {
 			switch (e) {
 				case "query": return t.values && !t.unique;
 				case "get":
@@ -11145,32 +11131,32 @@ var Vn = {
 				case "openCursor": return !1;
 			}
 		}
-		var Yn = {
+		var Xn = {
 			stack: "dbcore",
 			level: 0,
 			name: "Observability",
 			create: function(e) {
-				var n = e.schema.name, r = new J(e.MIN_KEY, e.MAX_KEY);
+				var n = e.schema.name, r = new X(e.MIN_KEY, e.MAX_KEY);
 				return t(t({}, e), {
 					transaction: function(t, n, r) {
-						if (F.subscr && n !== "readonly") throw new M.ReadOnly(`Readwrite transaction in liveQuery context. Querier source: ${F.querier}`);
+						if (I.subscr && n !== "readonly") throw new M.ReadOnly(`Readwrite transaction in liveQuery context. Querier source: ${I.querier}`);
 						return e.transaction(t, n, r);
 					},
 					table: function(o) {
 						function s(t) {
 							var t = t.query;
-							return [t.index, new J((t = t.range).lower ?? e.MIN_KEY, t.upper ?? e.MAX_KEY)];
+							return [t.index, new X((t = t.range).lower ?? e.MIN_KEY, t.upper ?? e.MAX_KEY)];
 						}
 						var c = e.table(o), l = c.schema, u = l.primaryKey, d = l.indexes, f = u.extractKey, p = u.outbound, m = u.autoIncrement && d.filter(function(e) {
 							return e.compound && e.keyPath.includes(u.keyPath);
 						}), h = t(t({}, c), { mutate: function(t) {
 							function i(e) {
-								return e = `idb://${n}/${o}/${e}`, h[e] || (h[e] = new J());
+								return e = `idb://${n}/${o}/${e}`, h[e] || (h[e] = new X());
 							}
-							var s, d, f, p = t.trans, h = t.mutatedParts ||= {}, g = i(""), _ = i(":dels"), v = t.type, y = t.type === "deleteRange" ? [t.range] : t.type === "delete" ? [t.keys] : t.values.length < 50 ? [Un(u, t).filter(function(e) {
+							var s, d, f, p = t.trans, h = t.mutatedParts ||= {}, g = i(""), _ = i(":dels"), v = t.type, y = t.type === "deleteRange" ? [t.range] : t.type === "delete" ? [t.keys] : t.values.length < 50 ? [Wn(u, t).filter(function(e) {
 								return e;
 							}), t.values] : [], b = y[0], y = y[1], x = t.trans._cache;
-							return a(b) ? (g.addKeys(b), (v = v === "delete" || b.length === y.length ? Gn(b, x) : null) || _.addKeys(b), (v || y) && (s = i, d = v, f = y, l.indexes.forEach(function(e) {
+							return a(b) ? (g.addKeys(b), (v = v === "delete" || b.length === y.length ? Kn(b, x) : null) || _.addKeys(b), (v || y) && (s = i, d = v, f = y, l.indexes.forEach(function(e) {
 								var t = s(e.name || "");
 								function n(t) {
 									return t == null ? null : e.extractKey(t);
@@ -11182,7 +11168,7 @@ var Vn = {
 								}
 								(d || f).forEach(function(e, t) {
 									var i = d && n(d[t]), t = f && n(f[t]);
-									B(i, t) !== 0 && (i != null && r(i), t != null) && r(t);
+									U(i, t) !== 0 && (i != null && r(i), t != null) && r(t);
 								});
 							}))) : b ? (y = {
 								from: (x = b.lower) ?? e.MIN_KEY,
@@ -11197,14 +11183,14 @@ var Vn = {
 										return e === u.keyPath;
 									}), o = 0, s = e.results.length; o < s; ++o) r[o][a] = e.results[o];
 									i(n.name).addKeys(r);
-								})), p.mutatedParts = Nn(p.mutatedParts || {}, h), e;
+								})), p.mutatedParts = jn(p.mutatedParts || {}, h), e;
 							});
 						} }), g = {
 							get: function(e) {
-								return [u, new J(e.key)];
+								return [u, new X(e.key)];
 							},
 							getMany: function(e) {
-								return [u, new J().addKeys(e.keys)];
+								return [u, new X().addKeys(e.keys)];
 							},
 							count: s,
 							query: s,
@@ -11212,10 +11198,10 @@ var Vn = {
 						};
 						return i(g).forEach(function(e) {
 							h[e] = function(i) {
-								var a = F.subscr, s = !!a, l = qn(F, c) && Jn(e, i) ? i.obsSet = {} : a;
+								var a = I.subscr, s = !!a, l = Jn(I, c) && Yn(e, i) ? i.obsSet = {} : a;
 								if (s) {
 									var u, a = function(e) {
-										return e = `idb://${n}/${o}/${e}`, l[e] || (l[e] = new J());
+										return e = `idb://${n}/${o}/${e}`, l[e] || (l[e] = new X());
 									}, d = a(""), m = a(":dels"), s = g[e](i), h = s[0], s = s[1];
 									if ((e === "query" && h.isPrimaryKey && !i.values ? m : a(h.name || "")).add(s), !h.isPrimaryKey) {
 										if (e !== "count") return u = e === "query" && p && i.values && c.query(t(t({}, i), { values: !1 })), c[e].apply(this, arguments).then(function(t) {
@@ -11252,7 +11238,7 @@ var Vn = {
 				});
 			}
 		};
-		function Xn(e, n, r) {
+		function Zn(e, n, r) {
 			var i;
 			return r.numFailures === 0 ? n : n.type === "deleteRange" || (i = n.keys ? n.keys.length : "values" in n && n.values ? n.values.length : 1, r.numFailures === i) ? null : (i = t({}, n), a(i.keys) && (i.keys = i.keys.filter(function(e, t) {
 				return !(t in r.failures);
@@ -11260,23 +11246,23 @@ var Vn = {
 				return !(t in r.failures);
 			})), i);
 		}
-		function Zn(e, t) {
-			return n = e, ((r = t).lower === void 0 || (r.lowerOpen ? 0 < B(n, r.lower) : 0 <= B(n, r.lower))) && (n = e, (r = t).upper === void 0 || (r.upperOpen ? B(n, r.upper) < 0 : B(n, r.upper) <= 0));
+		function Qn(e, t) {
+			return n = e, ((r = t).lower === void 0 || (r.lowerOpen ? 0 < U(n, r.lower) : 0 <= U(n, r.lower))) && (n = e, (r = t).upper === void 0 || (r.upperOpen ? U(n, r.upper) < 0 : U(n, r.upper) <= 0));
 			var n, r;
 		}
-		function Qn(e, t, n, r, i, o) {
+		function $n(e, t, n, r, i, o) {
 			var s, c, l, u, d, f, p;
 			return !n || n.length === 0 || (s = t.query.index, c = s.multiEntry, l = t.query.range, u = r.schema.primaryKey.extractKey, d = s.extractKey, f = (s.lowLevelIndex || s).extractKey, (r = n.reduce(function(e, n) {
 				var r = e, i = [];
-				if (n.type === "add" || n.type === "put") for (var o = new J(), s = n.values.length - 1; 0 <= s; --s) {
+				if (n.type === "add" || n.type === "put") for (var o = new X(), s = n.values.length - 1; 0 <= s; --s) {
 					var f, p = n.values[s], m = u(p);
 					!o.hasKey(m) && (f = d(p), c && a(f) ? f.some(function(e) {
-						return Zn(e, l);
-					}) : Zn(f, l)) && (o.addKey(m), i.push(p));
+						return Qn(e, l);
+					}) : Qn(f, l)) && (o.addKey(m), i.push(p));
 				}
 				switch (n.type) {
 					case "add":
-						var h = new J().addKeys(t.values ? e.map(function(e) {
+						var h = new X().addKeys(t.values ? e.map(function(e) {
 							return u(e);
 						}) : e), r = e.concat(t.values ? i.filter(function(e) {
 							return e = u(e), !h.hasKey(e) && (h.addKey(e), !0);
@@ -11287,7 +11273,7 @@ var Vn = {
 						}));
 						break;
 					case "put":
-						var g = new J().addKeys(n.values.map(function(e) {
+						var g = new X().addKeys(n.values.map(function(e) {
 							return u(e);
 						}));
 						r = e.filter(function(e) {
@@ -11297,7 +11283,7 @@ var Vn = {
 						}));
 						break;
 					case "delete":
-						var _ = new J().addKeys(n.keys);
+						var _ = new X().addKeys(n.keys);
 						r = e.filter(function(e) {
 							return !_.hasKey(t.values ? u(e) : e);
 						});
@@ -11305,24 +11291,24 @@ var Vn = {
 					case "deleteRange":
 						var v = n.range;
 						r = e.filter(function(e) {
-							return !Zn(u(e), v);
+							return !Qn(u(e), v);
 						});
 				}
 				return r;
 			}, e)) === e) ? e : (p = function(e, t) {
-				return B(f(e), f(t)) || B(u(e), u(t));
+				return U(f(e), f(t)) || U(u(e), u(t));
 			}, r.sort(t.direction === "prev" || t.direction === "prevunique" ? function(e, t) {
 				return p(t, e);
 			} : p), t.limit && t.limit < Infinity && (r.length > t.limit ? r.length = t.limit : e.length === t.limit && r.length < t.limit && (i.dirty = !0)), o ? Object.freeze(r) : r);
 		}
-		function $n(e, t) {
-			return B(e.lower, t.lower) === 0 && B(e.upper, t.upper) === 0 && !!e.lowerOpen == !!t.lowerOpen && !!e.upperOpen == !!t.upperOpen;
-		}
 		function er(e, t) {
+			return U(e.lower, t.lower) === 0 && U(e.upper, t.upper) === 0 && !!e.lowerOpen == !!t.lowerOpen && !!e.upperOpen == !!t.upperOpen;
+		}
+		function tr(e, t) {
 			return ((e, t, n, r) => {
 				if (e === void 0) return t === void 0 ? 0 : -1;
 				if (t === void 0) return 1;
-				if ((e = B(e, t)) === 0) {
+				if ((e = U(e, t)) === 0) {
 					if (n && r) return 0;
 					if (n) return 1;
 					if (r) return -1;
@@ -11331,7 +11317,7 @@ var Vn = {
 			})(e.lower, t.lower, e.lowerOpen, t.lowerOpen) <= 0 && 0 <= ((e, t, n, r) => {
 				if (e === void 0) return t === void 0 ? 0 : 1;
 				if (t === void 0) return -1;
-				if ((e = B(e, t)) === 0) {
+				if ((e = U(e, t)) === 0) {
 					if (n && r) return 0;
 					if (n) return -1;
 					if (r) return 1;
@@ -11339,7 +11325,7 @@ var Vn = {
 				return e;
 			})(e.upper, t.upper, e.upperOpen, t.upperOpen);
 		}
-		function tr(e, t, n, r) {
+		function nr(e, t, n, r) {
 			e.subscribers.add(n), r.addEventListener("abort", function() {
 				var r, i;
 				e.subscribers.delete(n), e.subscribers.size === 0 && (r = e, i = t, setTimeout(function() {
@@ -11347,7 +11333,7 @@ var Vn = {
 				}, 3e3));
 			});
 		}
-		var nr = {
+		var rr = {
 			stack: "dbcore",
 			level: 0,
 			name: "Cache",
@@ -11360,21 +11346,21 @@ var Vn = {
 							return function() {
 								if (a.abort(), r === "readwrite") {
 									for (var o = /* @__PURE__ */ new Set(), c = 0, l = t; c < l.length; c++) {
-										var u = l[c], d = Fn[`idb://${n}/${u}`];
+										var u = l[c], d = Nn[`idb://${n}/${u}`];
 										if (d) {
 											var f = e.table(u), p = d.optimisticOps.filter(function(e) {
 												return e.trans === s;
 											});
-											if (s._explicit && i && s.mutatedParts) for (var m = 0, h = Object.values(d.queries.query); m < h.length; m++) for (var g = 0, _ = (b = h[m]).slice(); g < _.length; g++) Pn((x = _[g]).obsSet, s.mutatedParts) && (D(b, x), x.subscribers.forEach(function(e) {
+											if (s._explicit && i && s.mutatedParts) for (var m = 0, h = Object.values(d.queries.query); m < h.length; m++) for (var g = 0, _ = (b = h[m]).slice(); g < _.length; g++) Mn((x = _[g]).obsSet, s.mutatedParts) && (D(b, x), x.subscribers.forEach(function(e) {
 												return o.add(e);
 											}));
 											else if (0 < p.length) {
 												d.optimisticOps = d.optimisticOps.filter(function(e) {
 													return e.trans !== s;
 												});
-												for (var v = 0, y = Object.values(d.queries.query); v < y.length; v++) for (var b, x, S, C = 0, ee = (b = y[v]).slice(); C < ee.length; C++) (x = ee[C]).res != null && s.mutatedParts && (i && !x.dirty ? (S = Object.isFrozen(x.res), S = Qn(x.res, x.req, p, f, x, S), x.dirty ? (D(b, x), x.subscribers.forEach(function(e) {
+												for (var v = 0, y = Object.values(d.queries.query); v < y.length; v++) for (var b, x, S, C = 0, ee = (b = y[v]).slice(); C < ee.length; C++) (x = ee[C]).res != null && s.mutatedParts && (i && !x.dirty ? (S = Object.isFrozen(x.res), S = $n(x.res, x.req, p, f, x, S), x.dirty ? (D(b, x), x.subscribers.forEach(function(e) {
 													return o.add(e);
-												})) : S !== x.res && (x.res = S, x.promise = I.resolve({ result: S }))) : (x.dirty && D(b, x), x.subscribers.forEach(function(e) {
+												})) : S !== x.res && (x.res = S, x.promise = L.resolve({ result: S }))) : (x.dirty && D(b, x), x.subscribers.forEach(function(e) {
 													return o.add(e);
 												})));
 											}
@@ -11391,27 +11377,27 @@ var Vn = {
 						var i = e.table(r), a = i.schema.primaryKey;
 						return t(t({}, i), {
 							mutate: function(e) {
-								var o, s = F.trans;
-								return !a.outbound && s.db._options.cache !== "disabled" && !s.explicit && s.idbtrans.mode === "readwrite" && (o = Fn[`idb://${n}/${r}`]) ? (s = i.mutate(e), e.type !== "add" && e.type !== "put" || !(50 <= e.values.length || Un(a, e).some(function(e) {
+								var o, s = I.trans;
+								return !a.outbound && s.db._options.cache !== "disabled" && !s.explicit && s.idbtrans.mode === "readwrite" && (o = Nn[`idb://${n}/${r}`]) ? (s = i.mutate(e), e.type !== "add" && e.type !== "put" || !(50 <= e.values.length || Wn(a, e).some(function(e) {
 									return e == null;
-								})) ? (o.optimisticOps.push(e), e.mutatedParts && X(e.mutatedParts), s.then(function(t) {
-									0 < t.numFailures && (D(o.optimisticOps, e), (t = Xn(0, e, t)) && o.optimisticOps.push(t), e.mutatedParts) && X(e.mutatedParts);
+								})) ? (o.optimisticOps.push(e), e.mutatedParts && In(e.mutatedParts), s.then(function(t) {
+									0 < t.numFailures && (D(o.optimisticOps, e), (t = Zn(0, e, t)) && o.optimisticOps.push(t), e.mutatedParts) && In(e.mutatedParts);
 								}), s.catch(function() {
-									D(o.optimisticOps, e), e.mutatedParts && X(e.mutatedParts);
+									D(o.optimisticOps, e), e.mutatedParts && In(e.mutatedParts);
 								})) : s.then(function(n) {
-									var r = Xn(0, t(t({}, e), { values: e.values.map(function(e, r) {
+									var r = Zn(0, t(t({}, e), { values: e.values.map(function(e, r) {
 										var i;
 										return n.failures[r] ? e : (x(i = (i = a.keyPath) != null && i.includes(".") ? ne(e) : t({}, e), a.keyPath, n.results[r]), i);
 									}) }), n);
 									o.optimisticOps.push(r), queueMicrotask(function() {
-										return e.mutatedParts && X(e.mutatedParts);
+										return e.mutatedParts && In(e.mutatedParts);
 									});
 								}), s) : i.mutate(e);
 							},
 							query: function(e) {
 								var t, a, o, s, c, l, u;
-								return qn(F, i) && Jn("query", e) ? (t = (o = F.trans)?.db._options.cache === "immutable", a = (o = F).requery, o = o.signal, l = ((e, t, n, r) => {
-									var i = Fn[`idb://${e}/${t}`];
+								return Jn(I, i) && Yn("query", e) ? (t = (o = I.trans)?.db._options.cache === "immutable", a = (o = I).requery, o = o.signal, l = ((e, t, n, r) => {
+									var i = Nn[`idb://${e}/${t}`];
 									if (!i) return [];
 									if (!(e = i.queries[n])) return [
 										null,
@@ -11429,7 +11415,7 @@ var Vn = {
 									switch (n) {
 										case "query":
 											var o = (s = r.direction) ?? "next", s = a.find(function(e) {
-												return e.req.limit === r.limit && e.req.values === r.values && (e.req.direction ?? "next") === o && $n(e.req.query.range, r.query.range);
+												return e.req.limit === r.limit && e.req.values === r.values && (e.req.direction ?? "next") === o && er(e.req.query.range, r.query.range);
 											});
 											return s ? [
 												s,
@@ -11438,14 +11424,14 @@ var Vn = {
 												a
 											] : [
 												a.find(function(e) {
-													return ("limit" in e.req ? e.req.limit : Infinity) >= r.limit && (e.req.direction ?? "next") === o && (!r.values || e.req.values) && er(e.req.query.range, r.query.range);
+													return ("limit" in e.req ? e.req.limit : Infinity) >= r.limit && (e.req.direction ?? "next") === o && (!r.values || e.req.values) && tr(e.req.query.range, r.query.range);
 												}),
 												!1,
 												i,
 												a
 											];
 										case "count": return s = a.find(function(e) {
-											return $n(e.req.query.range, r.query.range);
+											return er(e.req.query.range, r.query.range);
 										}), [
 											s,
 											!!s,
@@ -11469,7 +11455,7 @@ var Vn = {
 									type: "query",
 									req: e,
 									dirty: !1
-								}, c ? c.push(u) : (c = [u], (s ||= Fn[`idb://${n}/${r}`] = {
+								}, c ? c.push(u) : (c = [u], (s ||= Nn[`idb://${n}/${r}`] = {
 									queries: {
 										query: {},
 										count: {}
@@ -11477,8 +11463,8 @@ var Vn = {
 									objs: /* @__PURE__ */ new Map(),
 									optimisticOps: [],
 									unsignaledParts: {}
-								}).queries.query[e.query.index.name || ""] = c)), tr(u, c, a, o), u.promise.then(function(n) {
-									return n = Qn(n.result, e, s?.optimisticOps, i, u, t), { result: t ? n : ne(n) };
+								}).queries.query[e.query.index.name || ""] = c)), nr(u, c, a, o), u.promise.then(function(n) {
+									return n = $n(n.result, e, s?.optimisticOps, i, u, t), { result: t ? n : ne(n) };
 								})) : i.query(e);
 							}
 						});
@@ -11486,7 +11472,7 @@ var Vn = {
 				});
 			}
 		};
-		function rr(e, t) {
+		function Z(e, t) {
 			return new Proxy(e, { get: function(e, n, r) {
 				return n === "db" ? t : Reflect.get(e, n, r);
 			} });
@@ -11498,14 +11484,14 @@ var Vn = {
 			var t = this._versions, n = t.filter(function(t) {
 				return t._cfg.version === e;
 			})[0];
-			return n || (n = new this.Version(e), t.push(n), t.sort(dn), n.stores({}), this._state.autoSchema = !1), n;
+			return n || (n = new this.Version(e), t.push(n), t.sort(cn), n.stores({}), this._state.autoSchema = !1), n;
 		}, Q.prototype._whenReady = function(e) {
 			var t = this;
-			return this.idbdb && (this._state.openComplete || F.letThrough || this._vip) ? e() : new I(function(e, n) {
+			return this.idbdb && (this._state.openComplete || I.letThrough || this._vip) ? e() : new L(function(e, n) {
 				if (t._state.openComplete) return n(new M.DatabaseClosed(t._state.dbOpenError));
 				if (!t._state.isBeingOpened) {
 					if (!t._state.autoOpen) return void n(new M.DatabaseClosed());
-					t.open().catch(N);
+					t.open().catch(P);
 				}
 				t._state.dbReadyPromise.then(e, n);
 			}).then(e);
@@ -11529,21 +11515,21 @@ var Vn = {
 			})), this;
 		}, Q.prototype.open = function() {
 			var e = this;
-			return ct(Fe, function() {
-				return Z(e);
+			return at(Pe, function() {
+				return zn(e);
 			});
 		}, Q.prototype._close = function() {
 			this.on.close.fire(new CustomEvent("close"));
 			var e = this._state;
-			if (Sn.remove(this), this.idbdb) {
+			if (bn.remove(this), this.idbdb) {
 				try {
 					this.idbdb.close();
 				} catch {}
 				this.idbdb = null;
 			}
-			e.isBeingOpened || (e.dbReadyPromise = new I(function(t) {
+			e.isBeingOpened || (e.dbReadyPromise = new L(function(t) {
 				e.dbReadyResolve = t;
-			}), e.openCanceller = new I(function(t, n) {
+			}), e.openCanceller = new L(function(t, n) {
 				e.cancelOpen = n;
 			}));
 		}, Q.prototype.close = function(e) {
@@ -11551,14 +11537,14 @@ var Vn = {
 			e ? (t.isBeingOpened && t.cancelOpen(new M.DatabaseClosed()), this._close(), t.autoOpen = !1, t.dbOpenError = new M.DatabaseClosed()) : (this._close(), t.autoOpen = this._options.autoOpen || t.isBeingOpened, t.openComplete = !1, t.dbOpenError = null);
 		}, Q.prototype.delete = function(e) {
 			var t = this, n = (e === void 0 && (e = { disableAutoOpen: !0 }), 0 < arguments.length && typeof arguments[0] != "object"), r = this._state;
-			return new I(function(i, a) {
+			return new L(function(i, a) {
 				function o() {
 					t.close(e);
 					var n = t._deps.indexedDB.deleteDatabase(t.name);
-					n.onsuccess = L(function() {
+					n.onsuccess = R(function() {
 						var e = t._deps, n = t.name, r;
-						wn(r = e.indexedDB) || n === mt || Cn(r, e.IDBKeyRange).delete(n).catch(N), i();
-					}), n.onerror = G(a), n.onblocked = t._fireOnBlocked;
+						Sn(r = e.indexedDB) || n === dt || xn(r, e.IDBKeyRange).delete(n).catch(P), i();
+					}), n.onerror = J(a), n.onblocked = t._fireOnBlocked;
 				}
 				if (n) throw new M.InvalidArgument("Invalid closeOptions argument to db.delete()");
 				r.isBeingOpened ? r.dbReadyPromise.then(o) : o();
@@ -11596,19 +11582,19 @@ var Vn = {
 			}.apply(this, arguments);
 			return this._transaction.apply(this, e);
 		}, Q.prototype._transaction = function(e, t, n) {
-			var r, i, a = this, o = F.trans, s = (o && o.db === this && e.indexOf("!") === -1 || (o = null), e.indexOf("?") !== -1);
+			var r, i, a = this, o = I.trans, s = (o && o.db === this && e.indexOf("!") === -1 || (o = null), e.indexOf("?") !== -1);
 			e = e.replace("!", "").replace("?", "");
 			try {
 				if (i = t.map(function(e) {
 					if (e = e instanceof a.Table ? e.name : e, typeof e != "string") throw TypeError("Invalid table argument to Dexie.transaction(). Only Table or String are allowed");
 					return e;
-				}), e == "r" || e === ht) r = ht;
+				}), e == "r" || e === ft) r = ft;
 				else {
-					if (e != "rw" && e != gt) throw new M.InvalidArgument("Invalid transaction mode: " + e);
-					r = gt;
+					if (e != "rw" && e != pt) throw new M.InvalidArgument("Invalid transaction mode: " + e);
+					r = pt;
 				}
 				if (o) {
-					if (o.mode === ht && r === gt) {
+					if (o.mode === ft && r === pt) {
 						if (!s) throw new M.SubTransaction("Cannot enter a sub-transaction with READWRITE mode when parent transaction is READONLY");
 						o = null;
 					}
@@ -11622,11 +11608,11 @@ var Vn = {
 			} catch (e) {
 				return o ? o._promise(null, function(t, n) {
 					n(e);
-				}) : z(e);
+				}) : H(e);
 			}
 			var c = function e(t, n, r, i, a) {
-				return I.resolve().then(function() {
-					var o = F.transless || F, s = t._createTransaction(n, r, t._dbSchema, i), o = (s.explicit = !0, {
+				return L.resolve().then(function() {
+					var o = I.transless || I, s = t._createTransaction(n, r, t._dbSchema, i), o = (s.explicit = !0, {
 						trans: s,
 						transless: o
 					});
@@ -11636,14 +11622,14 @@ var Vn = {
 					} catch (i) {
 						return i.name === de.InvalidState && t.isOpen() && 0 < --t._state.PR1398_maxLoop ? (console.warn("Dexie: Need to reopen db"), t.close({ disableAutoOpen: !1 }), t.open().then(function() {
 							return e(t, n, r, null, a);
-						})) : z(i);
+						})) : H(i);
 					}
-					var c, l = k(a), o = (l && nt(), I.follow(function() {
+					var c, l = se(a), o = (l && et(), L.follow(function() {
 						var e;
-						(c = a.call(s, s)) && (l ? (e = rt.bind(null, null), c.then(e, e)) : typeof c.next == "function" && typeof c.throw == "function" && (c = zn(c)));
+						(c = a.call(s, s)) && (l ? (e = V.bind(null, null), c.then(e, e)) : typeof c.next == "function" && typeof c.throw == "function" && (c = Bn(c)));
 					}, o));
-					return (c && typeof c.then == "function" ? I.resolve(c).then(function(e) {
-						return s.active ? e : z(new M.PrematureCommit("Transaction committed too early. See http://bit.ly/2kdckMn"));
+					return (c && typeof c.then == "function" ? L.resolve(c).then(function(e) {
+						return s.active ? e : H(new M.PrematureCommit("Transaction committed too early. See http://bit.ly/2kdckMn"));
 					}) : o.then(function() {
 						return c;
 					})).then(function(e) {
@@ -11651,11 +11637,11 @@ var Vn = {
 							return e;
 						});
 					}).catch(function(e) {
-						return s._reject(e), z(e);
+						return s._reject(e), H(e);
 					});
 				});
 			}.bind(null, this, r, i, o, n);
-			return o ? o._promise(r, c, "lock") : F.trans ? ct(F.transless, function() {
+			return o ? o._promise(r, c, "lock") : I.trans ? at(I.transless, function() {
 				return a._whenReady(c);
 			}) : this._whenReady(c);
 		}, Q.prototype.table = function(e) {
@@ -11679,18 +11665,18 @@ var Vn = {
 				isBeingOpened: !1,
 				onReadyBeingFired: null,
 				openComplete: !1,
-				dbReadyResolve: N,
+				dbReadyResolve: P,
 				dbReadyPromise: null,
-				cancelOpen: N,
+				cancelOpen: P,
 				openCanceller: null,
 				autoSchema: !0,
 				PR1398_maxLoop: 3,
 				autoOpen: n.autoOpen
-			}), d = (u.dbReadyPromise = new I(function(e) {
+			}), d = (u.dbReadyPromise = new L(function(e) {
 				u.dbReadyResolve = e;
-			}), u.openCanceller = new I(function(e, t) {
+			}), u.openCanceller = new L(function(e, t) {
 				u.cancelOpen = t;
-			}), this._state = u, this.name = e, this.on = Ot(this, "populate", "blocked", "versionchange", "close", { ready: [xe, N] }), this.once = function(e, t) {
+			}), this._state = u, this.name = e, this.on = Tt(this, "populate", "blocked", "versionchange", "close", { ready: [be, P] }), this.once = function(e, t) {
 				var n = function() {
 					var r = [...arguments];
 					c.on(e).unsubscribe(n), t.apply(c, r);
@@ -11700,14 +11686,14 @@ var Vn = {
 				return function(t, n) {
 					Q.vip(function() {
 						var r, i = c._state;
-						i.openComplete ? (i.dbOpenError || I.resolve().then(t), n && e(t)) : i.onReadyBeingFired ? (i.onReadyBeingFired.push(t), n && e(t)) : (e(t), r = c, n || e(function e() {
+						i.openComplete ? (i.dbOpenError || L.resolve().then(t), n && e(t)) : i.onReadyBeingFired ? (i.onReadyBeingFired.push(t), n && e(t)) : (e(t), r = c, n || e(function e() {
 							r.on.ready.unsubscribe(t), r.on.ready.unsubscribe(e);
 						}));
 					});
 				};
-			}), this.Collection = (r = this, kt(Lt.prototype, function(e, t) {
+			}), this.Collection = (r = this, Et(Pt.prototype, function(e, t) {
 				this.db = r;
-				var n = vt, i = null;
+				var n = ht, i = null;
 				if (t) try {
 					n = t();
 				} catch (e) {
@@ -11731,30 +11717,30 @@ var Vn = {
 					limit: Infinity,
 					error: i,
 					or: t.or,
-					valueMapper: a === me ? null : a
+					valueMapper: a === pe ? null : a
 				};
-			})), this.Table = (i = this, kt(Dt.prototype, function(e, t, n) {
-				this.db = i, this._tx = n, this.name = e, this.schema = t, this.hook = i._allTables[e] ? i._allTables[e].hook : Ot(null, {
-					creating: [_e, N],
-					reading: [he, me],
-					updating: [ye, N],
-					deleting: [ve, N]
+			})), this.Table = (i = this, Et(wt.prototype, function(e, t, n) {
+				this.db = i, this._tx = n, this.name = e, this.schema = t, this.hook = i._allTables[e] ? i._allTables[e].hook : Tt(null, {
+					creating: [ge, P],
+					reading: [me, pe],
+					updating: [ve, P],
+					deleting: [_e, P]
 				});
-			})), this.Transaction = (a = this, kt(Yt.prototype, function(e, t, n, r, i) {
+			})), this.Transaction = (a = this, Et(qt.prototype, function(e, t, n, r, i) {
 				var o = this;
 				e !== "readonly" && t.forEach(function(e) {
 					e = (e = n[e])?.yProps, e && (t = t.concat(e.map(function(e) {
 						return e.updatesTable;
 					})));
-				}), this.db = a, this.mode = e, this.storeNames = t, this.schema = n, this.chromeTransactionDurability = r, this.idbtrans = null, this.on = Ot(this, "complete", "error", "abort"), this.parent = i || null, this.active = !0, this._reculock = 0, this._blockedFuncs = [], this._resolve = null, this._reject = null, this._waitingFor = null, this._waitingQueue = null, this._spinCount = 0, this._completion = new I(function(e, t) {
+				}), this.db = a, this.mode = e, this.storeNames = t, this.schema = n, this.chromeTransactionDurability = r, this.idbtrans = null, this.on = Tt(this, "complete", "error", "abort"), this.parent = i || null, this.active = !0, this._reculock = 0, this._blockedFuncs = [], this._resolve = null, this._reject = null, this._waitingFor = null, this._waitingQueue = null, this._spinCount = 0, this._completion = new L(function(e, t) {
 					o._resolve = e, o._reject = t;
 				}), this._completion.then(function() {
 					o.active = !1, o.on.complete.fire();
 				}, function(e) {
 					var t = o.active;
-					return o.active = !1, o.on.error.fire(e), o.parent ? o.parent._reject(e) : t && o.idbtrans && o.idbtrans.abort(), z(e);
+					return o.active = !1, o.on.error.fire(e), o.parent ? o.parent._reject(e) : t && o.idbtrans && o.idbtrans.abort(), H(e);
 				});
-			})), this.Version = (o = this, kt(bn.prototype, function(e) {
+			})), this.Version = (o = this, Et(vn.prototype, function(e) {
 				this.db = o, this._cfg = {
 					version: e,
 					storesSource: null,
@@ -11762,94 +11748,94 @@ var Vn = {
 					tables: {},
 					contentUpgrade: null
 				};
-			})), this.WhereClause = (s = this, kt(Gt.prototype, function(e, t, n) {
+			})), this.WhereClause = (s = this, Et(Ht.prototype, function(e, t, n) {
 				if (this.db = s, this._ctx = {
 					table: e,
 					index: t === ":id" ? null : t,
 					or: n
-				}, this._cmp = this._ascending = B, this._descending = function(e, t) {
-					return B(t, e);
+				}, this._cmp = this._ascending = U, this._descending = function(e, t) {
+					return U(t, e);
 				}, this._max = function(e, t) {
-					return 0 < B(e, t) ? e : t;
+					return 0 < U(e, t) ? e : t;
 				}, this._min = function(e, t) {
-					return B(e, t) < 0 ? e : t;
+					return U(e, t) < 0 ? e : t;
 				}, this._IDBKeyRange = s._deps.IDBKeyRange, !this._IDBKeyRange) throw new M.MissingAPI();
 			})), this.on("versionchange", function(e) {
 				0 < e.newVersion ? console.warn(`Another connection wants to upgrade database '${c.name}'. Closing db now to resume the upgrade.`) : console.warn(`Another connection wants to delete database '${c.name}'. Closing db now to resume the delete request.`), c.close({ disableAutoOpen: !1 });
 			}), this.on("blocked", function(e) {
 				!e.newVersion || e.newVersion < e.oldVersion ? console.warn(`Dexie.delete('${c.name}') was blocked`) : console.warn(`Upgrade '${c.name}' blocked by other connection holding version ${e.oldVersion / 10}`);
-			}), this._maxKey = en(n.IDBKeyRange), this._createTransaction = function(e, t, n, r) {
+			}), this._maxKey = Zt(n.IDBKeyRange), this._createTransaction = function(e, t, n, r) {
 				return new c.Transaction(e, t, n, c._options.chromeTransactionDurability, r);
 			}, this._fireOnBlocked = function(e) {
-				c.on("blocked").fire(e), Sn.toArray().filter(function(e) {
+				c.on("blocked").fire(e), bn.toArray().filter(function(e) {
 					return e.name === c.name && e !== c && !e._state.vcFired;
 				}).map(function(t) {
 					return t.on("versionchange").fire(e);
 				});
-			}, this.use(Kn), this.use(nr), this.use(Yn), this.use(Vn), this.use(Wn), new Proxy(this, { get: function(e, t, n) {
+			}, this.use(qn), this.use(rr), this.use(Xn), this.use(Hn), this.use(Gn), new Proxy(this, { get: function(e, t, n) {
 				var r;
 				return t === "_vip" || (t === "table" ? function(e) {
-					return rr(c.table(e), d);
-				} : (r = Reflect.get(e, t, n)) instanceof Dt ? rr(r, d) : t === "tables" ? r.map(function(e) {
-					return rr(e, d);
+					return Z(c.table(e), d);
+				} : (r = Reflect.get(e, t, n)) instanceof wt ? Z(r, d) : t === "tables" ? r.map(function(e) {
+					return Z(e, d);
 				}) : t === "_createTransaction" ? function() {
-					return rr(r.apply(this, arguments), d);
+					return Z(r.apply(this, arguments), d);
 				} : r);
 			} }));
 			this.vip = d, l.forEach(function(e) {
 				return e(c);
 			});
 		}
-		var $, Ee = typeof Symbol < "u" && "observable" in Symbol ? Symbol.observable : "@@observable", ar = (or.prototype.subscribe = function(e, t, n) {
+		var ar, Te = typeof Symbol < "u" && "observable" in Symbol ? Symbol.observable : "@@observable", or = (sr.prototype.subscribe = function(e, t, n) {
 			return this._subscribe(e && typeof e != "function" ? e : {
 				next: e,
 				error: t,
 				complete: n
 			});
-		}, or.prototype[Ee] = function() {
+		}, sr.prototype[Te] = function() {
 			return this;
-		}, or);
-		function or(e) {
+		}, sr);
+		function sr(e) {
 			this._subscribe = e;
 		}
 		try {
-			$ = {
+			ar = {
 				indexedDB: r.indexedDB || r.mozIndexedDB || r.webkitIndexedDB || r.msIndexedDB,
 				IDBKeyRange: r.IDBKeyRange || r.webkitIDBKeyRange
 			};
 		} catch {
-			$ = {
+			ar = {
 				indexedDB: null,
 				IDBKeyRange: null
 			};
 		}
-		function sr(e) {
-			var t, n = !1, r = new ar(function(r) {
-				var i = k(e), a, o = !1, s = {}, c = {}, l = {
+		function cr(e) {
+			var t, n = !1, r = new or(function(r) {
+				var i = se(e), a, o = !1, s = {}, c = {}, l = {
 					get closed() {
 						return o;
 					},
 					unsubscribe: function() {
-						o || (o = !0, a && a.abort(), u && Jt.storagemutated.unsubscribe(p));
+						o || (o = !0, a && a.abort(), u && Kt.storagemutated.unsubscribe(p));
 					}
 				}, u = (r.start && r.start(l), !1), d = function() {
-					return ut(m);
+					return st(m);
 				};
 				function f() {
-					return Pn(c, s);
+					return Mn(c, s);
 				}
 				var p = function(e) {
-					Nn(s, e), f() && d();
+					jn(s, e), f() && d();
 				}, m = function() {
 					var l, m, h;
-					!o && $.indexedDB && (s = {}, l = {}, a && a.abort(), a = new AbortController(), h = ((t) => {
-						var n = Ke();
+					!o && ar.indexedDB && (s = {}, l = {}, a && a.abort(), a = new AbortController(), h = ((t) => {
+						var n = Ge();
 						try {
-							i && nt();
-							var r = tt(e, t);
-							return r = i ? r.finally(rt) : r;
+							i && et();
+							var r = $e(e, t);
+							return r = i ? r.finally(V) : r;
 						} finally {
-							n && qe();
+							n && Ke();
 						}
 					})(m = {
 						subscr: l,
@@ -11857,12 +11843,12 @@ var Vn = {
 						requery: d,
 						querier: e,
 						trans: null
-					}), u ||= (Jt.storagemutated.subscribe(p), !0), Promise.resolve(h).then(function(e) {
-						n = !0, t = e, o || m.signal.aborted || (f() || (c = l, f()) ? d() : (s = {}, ut(function() {
+					}), u ||= (Kt.storagemutated.subscribe(p), !0), Promise.resolve(h).then(function(e) {
+						n = !0, t = e, o || m.signal.aborted || (f() || (c = l, f()) ? d() : (s = {}, st(function() {
 							return !o && r.next && r.next(e);
 						})));
 					}, function(e) {
-						n = !1, ["DatabaseClosedError", "AbortError"].includes(e?.name) || o || ut(function() {
+						n = !1, ["DatabaseClosedError", "AbortError"].includes(e?.name) || o || st(function() {
 							o || r.error && r.error(e);
 						});
 					}));
@@ -11875,21 +11861,21 @@ var Vn = {
 				return t;
 			}, r;
 		}
-		var cr = ir;
-		function lr(e) {
-			var t = dr;
+		var lr = ir;
+		function ur(e) {
+			var t = $;
 			try {
-				dr = !0, Jt.storagemutated.fire(e), Ln(e, !0);
+				$ = !0, Kt.storagemutated.fire(e), Ln(e, !0);
 			} finally {
-				dr = t;
+				$ = t;
 			}
 		}
-		u(cr, t(t({}, w), {
+		u(lr, t(t({}, w), {
 			delete: function(e) {
-				return new cr(e, { addons: [] }).delete();
+				return new lr(e, { addons: [] }).delete();
 			},
 			exists: function(e) {
-				return new cr(e, { addons: [] }).open().then(function(e) {
+				return new lr(e, { addons: [] }).open().then(function(e) {
 					return e.close(), !0;
 				}).catch("NoSuchDatabaseError", function() {
 					return !1;
@@ -11897,15 +11883,15 @@ var Vn = {
 			},
 			getDatabaseNames: function(e) {
 				try {
-					return t = cr.dependencies, n = t.indexedDB, t = t.IDBKeyRange, (wn(n) ? Promise.resolve(n.databases()).then(function(e) {
+					return t = lr.dependencies, n = t.indexedDB, t = t.IDBKeyRange, (Sn(n) ? Promise.resolve(n.databases()).then(function(e) {
 						return e.map(function(e) {
 							return e.name;
 						}).filter(function(e) {
-							return e !== mt;
+							return e !== dt;
 						});
-					}) : Cn(n, t).toCollection().primaryKeys()).then(e);
+					}) : xn(n, t).toCollection().primaryKeys()).then(e);
 				} catch {
-					return z(new M.MissingAPI());
+					return H(new M.MissingAPI());
 				}
 				var t, n;
 			},
@@ -11915,37 +11901,37 @@ var Vn = {
 				};
 			},
 			ignoreTransaction: function(e) {
-				return F.trans ? ct(F.transless || Fe, e) : e();
+				return I.trans ? at(I.transless || Pe, e) : e();
 			},
-			vip: Tn,
+			vip: Cn,
 			async: function(e) {
 				return function() {
 					try {
-						var t = zn(e.apply(this, arguments));
-						return t && typeof t.then == "function" ? t : I.resolve(t);
+						var t = Bn(e.apply(this, arguments));
+						return t && typeof t.then == "function" ? t : L.resolve(t);
 					} catch (e) {
-						return z(e);
+						return H(e);
 					}
 				};
 			},
 			spawn: function(e, t, n) {
 				try {
-					var r = zn(e.apply(n, t || []));
-					return r && typeof r.then == "function" ? r : I.resolve(r);
+					var r = Bn(e.apply(n, t || []));
+					return r && typeof r.then == "function" ? r : L.resolve(r);
 				} catch (e) {
-					return z(e);
+					return H(e);
 				}
 			},
 			currentTransaction: { get: function() {
-				return F.trans || null;
+				return I.trans || null;
 			} },
 			waitFor: function(e, t) {
-				return e = I.resolve(typeof e == "function" ? cr.ignoreTransaction(e) : e).timeout(t || 6e4), F.trans ? F.trans.waitFor(e) : e;
+				return e = L.resolve(typeof e == "function" ? lr.ignoreTransaction(e) : e).timeout(t || 6e4), I.trans ? I.trans.waitFor(e) : e;
 			},
-			Promise: I,
+			Promise: L,
 			debug: {
 				get: function() {
-					return P;
+					return xe;
 				},
 				set: function(e) {
 					Se(e);
@@ -11955,10 +11941,10 @@ var Vn = {
 			extend: o,
 			props: u,
 			override: _,
-			Events: Ot,
-			on: Jt,
-			liveQuery: sr,
-			extendObservabilitySet: Nn,
+			Events: Tt,
+			on: Kt,
+			liveQuery: cr,
+			extendObservabilitySet: jn,
 			getByKeyPath: b,
 			setByKeyPath: x,
 			delByKeyPath: function(e, t) {
@@ -11968,85 +11954,85 @@ var Vn = {
 			},
 			shallowClone: S,
 			deepClone: ne,
-			getObjectDiff: Hn,
-			cmp: B,
+			getObjectDiff: Un,
+			cmp: U,
 			asap: y,
 			minKey: -Infinity,
 			addons: [],
-			connections: { get: Sn.toArray },
+			connections: { get: bn.toArray },
 			errnames: de,
-			dependencies: $,
-			cache: Fn,
+			dependencies: ar,
+			cache: Nn,
 			semVer: "4.4.6",
 			version: "4.4.6".split(".").map(function(e) {
 				return parseInt(e);
 			}).reduce(function(e, t, n) {
 				return e + t / 10 ** (2 * n);
 			})
-		})), cr.maxKey = en(cr.dependencies.IDBKeyRange), typeof dispatchEvent < "u" && typeof addEventListener < "u" && (Jt(Kt, function(e) {
-			dr ||= (e = new CustomEvent(qt, { detail: e }), dr = !0, dispatchEvent(e), !1);
-		}), addEventListener(qt, function(e) {
-			e = e.detail, dr || lr(e);
+		})), lr.maxKey = Zt(lr.dependencies.IDBKeyRange), typeof dispatchEvent < "u" && typeof addEventListener < "u" && (Kt(Wt, function(e) {
+			$ ||= (e = new CustomEvent(Gt, { detail: e }), $ = !0, dispatchEvent(e), !1);
+		}), addEventListener(Gt, function(e) {
+			e = e.detail, $ || ur(e);
 		}));
-		var ur, dr = !1, fr = function() {};
+		var dr, $ = !1, fr = function() {};
 		return typeof BroadcastChannel < "u" && ((fr = function() {
-			(ur = new BroadcastChannel(qt)).onmessage = function(e) {
-				return e.data && lr(e.data);
+			(dr = new BroadcastChannel(Gt)).onmessage = function(e) {
+				return e.data && ur(e.data);
 			};
-		})(), typeof ur.unref == "function" && ur.unref(), Jt(Kt, function(e) {
-			dr || ur.postMessage(e);
+		})(), typeof dr.unref == "function" && dr.unref(), Kt(Wt, function(e) {
+			$ || dr.postMessage(e);
 		})), typeof addEventListener < "u" && (addEventListener("pagehide", function(e) {
 			if (!ir.disableBfCache && e.persisted) {
-				P && console.debug("Dexie: handling persisted pagehide"), ur?.close();
-				for (var t = 0, n = Sn.toArray(); t < n.length; t++) n[t].close({ disableAutoOpen: !1 });
+				xe && console.debug("Dexie: handling persisted pagehide"), dr?.close();
+				for (var t = 0, n = bn.toArray(); t < n.length; t++) n[t].close({ disableAutoOpen: !1 });
 			}
 		}), addEventListener("pageshow", function(e) {
-			!ir.disableBfCache && e.persisted && (P && console.debug("Dexie: handling persisted pageshow"), fr(), lr({ all: new J(-Infinity, [[]]) }));
-		})), I.rejectionMapper = function(e, t) {
-			return !e || e instanceof ce || e instanceof TypeError || e instanceof SyntaxError || !e.name || !pe[e.name] ? e : (t = new pe[e.name](t || e.message, e), "stack" in e && f(t, "stack", { get: function() {
+			!ir.disableBfCache && e.persisted && (xe && console.debug("Dexie: handling persisted pageshow"), fr(), ur({ all: new X(-Infinity, [[]]) }));
+		})), L.rejectionMapper = function(e, t) {
+			return !e || e instanceof A || e instanceof TypeError || e instanceof SyntaxError || !e.name || !N[e.name] ? e : (t = new N[e.name](t || e.message, e), "stack" in e && f(t, "stack", { get: function() {
 				return this.inner.stack;
 			} }), t);
-		}, Se(P), t(ir, Object.freeze({
+		}, Se(xe), t(ir, Object.freeze({
 			__proto__: null,
 			DEFAULT_MAX_CONNECTIONS: 1e3,
 			Dexie: ir,
-			Entity: bt,
-			PropModification: wt,
-			RangeSet: J,
+			Entity: _t,
+			PropModification: xt,
+			RangeSet: X,
 			add: function(e) {
-				return new wt({ add: e });
+				return new xt({ add: e });
 			},
-			cmp: B,
+			cmp: U,
 			default: ir,
-			liveQuery: sr,
-			mergeRanges: On,
-			rangesOverlap: kn,
+			liveQuery: cr,
+			mergeRanges: En,
+			rangesOverlap: Dn,
 			remove: function(e) {
-				return new wt({ remove: e });
+				return new xt({ remove: e });
 			},
 			replacePrefix: function(e, t) {
-				return new wt({ replacePrefix: [e, t] });
+				return new xt({ replacePrefix: [e, t] });
 			}
 		}), { default: ir }), ir;
 	});
-})))(), 1), qn = Symbol.for("Dexie"), Jn = globalThis[qn] || (globalThis[qn] = Kn.default);
-if (Kn.default.semVer !== Jn.semVer) throw Error(`Two different versions of Dexie loaded in the same app: ${Kn.default.semVer} and ${Jn.semVer}`);
-var { liveQuery: Yn, mergeRanges: Xn, rangesOverlap: Zn, RangeSet: Qn, cmp: $n, Entity: er, PropModification: tr, replacePrefix: nr, add: rr, remove: ir, DexieYProvider: Q } = Jn;
-function $(e) {
+})))(), 1), dr = Symbol.for("Dexie"), $ = globalThis[dr] || (globalThis[dr] = ur.default);
+if (ur.default.semVer !== $.semVer) throw Error(`Two different versions of Dexie loaded in the same app: ${ur.default.semVer} and ${$.semVer}`);
+var { liveQuery: fr, mergeRanges: pr, rangesOverlap: mr, RangeSet: hr, cmp: gr, Entity: _r, PropModification: vr, replacePrefix: yr, add: br, remove: xr, DexieYProvider: Sr } = $;
+function Cr(e) {
 	let t = [e.autoIncrement ? `++${e.primaryKey}` : e.primaryKey];
 	for (let n of e.indexes) t.push(n);
 	for (let n of e.compoundIndexes) t.push(`[${n.join("+")}]`);
 	for (let n of e.arrayIndexes) t.push(`*${n}`);
 	return t.join(", ");
 }
-var ar = {
+var wr = {
 	primaryKey: "id",
 	indexes: ["tagName"],
 	compoundIndexes: [],
 	arrayIndexes: []
-}, or = class {
+}, Tr = class {
 	constructor(e, t) {
-		this.schemaVersion = 1, this.knownDocuments = /* @__PURE__ */ new Map(), this.schemaLock = Promise.resolve(), this.stale = !1, this.name = e, this.dexieRecordSchema = $(t?.recordSchema ?? ar), this.perf = t?.perf ?? G, this.db = new Jn(e);
+		this.schemaVersion = 1, this.knownDocuments = /* @__PURE__ */ new Map(), this.schemaLock = Promise.resolve(), this.stale = !1, this.name = e, this.dexieRecordSchema = Cr(t?.recordSchema ?? wr), this.perf = t?.perf ?? on, this.db = new $(e);
 	}
 	async open() {
 		await this.reloadFromPersisted();
@@ -12055,7 +12041,7 @@ var ar = {
 		this.db.close();
 	}
 	async destroy() {
-		this.db.isOpen() && (this.db.close(), await sr()), await Jn.delete(this.name), this.knownDocuments.clear();
+		this.db.isOpen() && (this.db.close(), await Er()), await $.delete(this.name), this.knownDocuments.clear();
 	}
 	async reconcile() {
 		await this.ensureCurrentSchema();
@@ -12067,17 +12053,17 @@ var ar = {
 	}
 	async registerDocument(e) {
 		await this.withSchemaLock(async () => {
-			this.stale && await this.reloadFromPersisted(), this.knownDocuments.set(e.id, e), await this.reopenWithNewSchema(), await this.db.table(In).add(e);
+			this.stale && await this.reloadFromPersisted(), this.knownDocuments.set(e.id, e), await this.reopenWithNewSchema(), await this.db.table($n).add(e);
 		});
 	}
 	async getDocument(e) {
-		return await this.ensureCurrentSchema(), this.db.table(In).get(e);
+		return await this.ensureCurrentSchema(), this.db.table($n).get(e);
 	}
 	async getDocuments() {
-		return await this.ensureCurrentSchema(), this.db.table(In).toArray();
+		return await this.ensureCurrentSchema(), this.db.table($n).toArray();
 	}
 	async updateDocument(e, t) {
-		await this.ensureCurrentSchema(), await this.db.table(In).update(e, t);
+		await this.ensureCurrentSchema(), await this.db.table($n).update(e, t);
 		let n = this.knownDocuments.get(e);
 		n && this.knownDocuments.set(e, {
 			...n,
@@ -12089,8 +12075,8 @@ var ar = {
 			this.stale && await this.reloadFromPersisted();
 			let t = this.resolveTableName(e);
 			this.db.tables.some((e) => e.name === t) && await this.db.table(t).clear();
-			let n = Bn(e);
-			this.db.tables.some((e) => e.name === n) && await this.db.table(n).clear(), await this.db.table(Z).where({ documentId: e }).delete(), await this.db.table(Y).where({ documentId: e }).delete(), await this.db.table(X).delete(`head:${e}`), await this.db.table(In).delete(e), this.knownDocuments.delete(e), await this.reopenWithNewSchema({ drop: e });
+			let n = Q(e);
+			this.db.tables.some((e) => e.name === n) && await this.db.table(n).clear(), await this.db.table(Z).where({ documentId: e }).delete(), await this.db.table(er).where({ documentId: e }).delete(), await this.db.table(tr).delete(`head:${e}`), await this.db.table($n).delete(e), this.knownDocuments.delete(e), await this.reopenWithNewSchema({ drop: e });
 		});
 	}
 	async get(e, t) {
@@ -12115,27 +12101,27 @@ var ar = {
 		await this.db.transaction("rw", a, async () => {
 			if (n?.length && (this.perf.start("core::store::bulkWrite::add"), await a.bulkAdd(n), this.perf.stop("core::store::bulkWrite::add")), r?.length) {
 				this.perf.start("core::store::bulkWrite::update");
-				for (let { recordId: e, ...t } of r) {
-					let n = await a.get(e);
-					if (!n) continue;
-					let r = { ...t };
-					if (t.attributes) {
-						let e = [...n.attributes];
-						for (let n of t.attributes) {
-							let t = e.findIndex((e) => e.name === n.name);
-							t >= 0 ? e[t] = n : e.push(n);
+				for (let { recordId: e, removeAttributes: t, ...n } of r) {
+					let r = await a.get(e);
+					if (!r) continue;
+					let i = { ...n };
+					if (n.attributes) {
+						let e = [...r.attributes];
+						for (let t of n.attributes) {
+							let n = e.findIndex((e) => e.name === t.name);
+							n >= 0 ? e[n] = t : e.push(t);
 						}
-						r.attributes = e;
+						i.attributes = e;
 					}
-					if (t.children) {
-						let e = [...n.children];
-						for (let n of t.children) {
-							let t = e.findIndex((e) => e.id === n.id);
-							t >= 0 ? e[t] = n : e.push(n);
+					if (t?.length && (i.attributes = (i.attributes ?? r.attributes).filter((e) => !t.includes(e.name))), n.children) {
+						let e = [...r.children];
+						for (let t of n.children) {
+							let n = e.findIndex((e) => e.id === t.id);
+							n >= 0 ? e[n] = t : e.push(t);
 						}
-						r.children = e;
+						i.children = e;
 					}
-					await a.update(e, r);
+					await a.update(e, i);
 				}
 				this.perf.stop("core::store::bulkWrite::update");
 			}
@@ -12146,12 +12132,12 @@ var ar = {
 		await this.ensureCurrentSchema();
 		let { documentId: t, creates: n, updates: r, deletes: i, onProgress: a } = e, o = this.db.table(this.resolveTableName(t)), s = n.length + r.length + i.length, c = 0;
 		try {
-			await this.db.transaction("rw", o, this.db.table(Y), this.db.table(X), async () => {
+			await this.db.transaction("rw", o, this.db.table(er), this.db.table(tr), async () => {
 				let e = r.length > 0 ? await o.bulkGet(r.map((e) => e.id)) : [], l = i.length > 0 ? await o.bulkGet(i) : [];
 				if (n.length > 0) try {
 					await o.bulkAdd(n), c += n.length, a(c, s);
 				} catch (e) {
-					m("STORE_BULK_ADD_FAILED", {
+					v("STORE_BULK_ADD_FAILED", {
 						detail: e instanceof Error ? e.message : String(e),
 						cause: e instanceof Error ? e : void 0
 					});
@@ -12159,7 +12145,7 @@ var ar = {
 				if (r.length > 0) try {
 					await o.bulkPut(r), c += r.length, a(c, s);
 				} catch (e) {
-					m("STORE_BULK_UPDATE_FAILED", {
+					v("STORE_BULK_UPDATE_FAILED", {
 						detail: e instanceof Error ? e.message : String(e),
 						cause: e instanceof Error ? e : void 0
 					});
@@ -12167,12 +12153,12 @@ var ar = {
 				if (i.length > 0) try {
 					await o.bulkDelete(i), c += i.length, a(c, s);
 				} catch (e) {
-					m("STORE_DELETE_FAILED", {
+					v("STORE_DELETE_FAILED", {
 						detail: e instanceof Error ? e.message : String(e),
 						cause: e instanceof Error ? e : void 0
 					});
 				}
-				let u = await this.getHead(t), d = await this.db.table(Y).where({ documentId: t }).filter((e) => e.sequenceNumber > u).toArray();
+				let u = await this.getHead(t), d = await this.db.table(er).where({ documentId: t }).filter((e) => e.sequenceNumber > u).toArray();
 				d.length > 0 && await this.db.table("_changeLog").bulkDelete(d.map((e) => e.id));
 				let f = u + 1, p = {
 					documentId: t,
@@ -12187,11 +12173,11 @@ var ar = {
 						deletes: l.filter(Boolean)
 					}
 				};
-				await this.db.table(Y).add(p), await this.setHead(t, f);
+				await this.db.table(er).add(p), await this.setHead(t, f);
 			});
 		} catch (e) {
 			if (e instanceof Error && e.message.includes("dialecte")) throw e;
-			m("STORE_COMMIT_FAILED", {
+			v("STORE_COMMIT_FAILED", {
 				detail: e instanceof Error ? e.message : String(e),
 				cause: e instanceof Error ? e : void 0
 			});
@@ -12201,33 +12187,33 @@ var ar = {
 		await this.ensureCurrentSchema();
 		let t = await this.getHead(e);
 		if (t === 0) return;
-		let n = await this.db.table(Y).where({
+		let n = await this.db.table(er).where({
 			documentId: e,
 			sequenceNumber: t
 		}).first();
 		if (!n) return;
 		let r = this.db.table(this.resolveTableName(e));
-		await this.db.transaction("rw", r, this.db.table(X), async () => {
+		await this.db.transaction("rw", r, this.db.table(tr), async () => {
 			let { creates: i, updates: a, deletes: o } = n.operations;
 			i.length > 0 && await r.bulkDelete(i.map((e) => e.id)), a.length > 0 && await r.bulkPut(a.map((e) => e.before)), o.length > 0 && await r.bulkAdd(o), await this.setHead(e, t - 1);
 		});
 	}
 	async redo(e) {
 		await this.ensureCurrentSchema();
-		let t = await this.getHead(e) + 1, n = await this.db.table(Y).where({
+		let t = await this.getHead(e) + 1, n = await this.db.table(er).where({
 			documentId: e,
 			sequenceNumber: t
 		}).first();
 		if (!n) return;
 		let r = this.db.table(this.resolveTableName(e));
-		await this.db.transaction("rw", r, this.db.table(X), async () => {
+		await this.db.transaction("rw", r, this.db.table(tr), async () => {
 			let { creates: i, updates: a, deletes: o } = n.operations;
 			i.length > 0 && await r.bulkAdd(i), a.length > 0 && await r.bulkPut(a.map((e) => e.after)), o.length > 0 && await r.bulkDelete(o.map((e) => e.id)), await this.setHead(e, t);
 		});
 	}
 	async getHistoryStatus(e) {
 		await this.ensureCurrentSchema();
-		let t = await this.getHead(e), n = await this.db.table(Y).where({
+		let t = await this.getHead(e), n = await this.db.table(er).where({
 			documentId: e,
 			sequenceNumber: t + 1
 		}).first();
@@ -12237,11 +12223,11 @@ var ar = {
 		};
 	}
 	async getChangeLog(e) {
-		return await this.ensureCurrentSchema(), this.db.table(Y).where({ documentId: e }).sortBy("sequenceNumber");
+		return await this.ensureCurrentSchema(), this.db.table(er).where({ documentId: e }).sortBy("sequenceNumber");
 	}
 	async addBlob(e, t) {
-		await this.ensureCurrentSchema(), cr(this.knownDocuments, e.documentId);
-		let n = this.db.table(Bn(e.documentId));
+		await this.ensureCurrentSchema(), Dr(this.knownDocuments, e.documentId);
+		let n = this.db.table(Q(e.documentId));
 		await this.db.transaction("rw", this.db.table(Z), n, async () => {
 			await this.db.table(Z).put(e), await n.put({
 				id: e.id,
@@ -12253,7 +12239,7 @@ var ar = {
 		await this.ensureCurrentSchema();
 		let t = await this.db.table(Z).get(e);
 		if (!t) return;
-		let n = await this.db.table(Bn(t.documentId)).get(e);
+		let n = await this.db.table(Q(t.documentId)).get(e);
 		if (n) return {
 			entry: t,
 			data: n.data
@@ -12271,14 +12257,14 @@ var ar = {
 	async attachBlob(e, t) {
 		await this.ensureCurrentSchema();
 		let n = await this.db.table(Z).get(e);
-		if (n || m("STORE_BLOB_NOT_FOUND", { detail: `Blob "${e}" not found` }), n.attachedTo.some((e) => e.documentId === t.documentId && e.recordRef === t.recordRef && e.attribute === t.attribute)) return;
+		if (n || v("STORE_BLOB_NOT_FOUND", { detail: `Blob "${e}" not found` }), n.attachedTo.some((e) => e.documentId === t.documentId && e.recordRef === t.recordRef && e.attribute === t.attribute)) return;
 		let r = [...n.attachedTo, t];
 		await this.db.table(Z).update(e, { attachedTo: r });
 	}
 	async detachBlob(e, t) {
 		await this.ensureCurrentSchema();
 		let n = await this.db.table(Z).get(e);
-		n || m("STORE_BLOB_NOT_FOUND", { detail: `Blob "${e}" not found` });
+		n || v("STORE_BLOB_NOT_FOUND", { detail: `Blob "${e}" not found` });
 		let r = n.attachedTo.filter((e) => !(e.documentId === t.documentId && e.recordRef === t.recordRef));
 		await this.db.table(Z).update(e, { attachedTo: r });
 	}
@@ -12286,7 +12272,7 @@ var ar = {
 		await this.ensureCurrentSchema();
 		let t = await this.db.table(Z).get(e);
 		if (!t) return;
-		let n = this.db.table(Bn(t.documentId));
+		let n = this.db.table(Q(t.documentId));
 		await this.db.transaction("rw", this.db.table(Z), n, async () => {
 			await n.delete(e), await this.db.table(Z).delete(e);
 		});
@@ -12298,25 +12284,25 @@ var ar = {
 		return (await this.db.table("_meta").get(`head:${e}`))?.value ?? 0;
 	}
 	async setHead(e, t) {
-		await this.db.table(X).put({
+		await this.db.table(tr).put({
 			key: `head:${e}`,
 			value: t
 		});
 	}
 	buildStores(e) {
 		let t = {
-			[In]: $(Vn),
-			[Y]: $(Hn),
-			[X]: $(Un),
-			[Z]: $(Wn)
-		}, n = $(Gn);
-		for (let e of this.knownDocuments.keys()) t[this.resolveTableName(e)] = this.dexieRecordSchema, t[Bn(e)] = n;
-		return e?.drop && (t[this.resolveTableName(e.drop)] = null, t[Bn(e.drop)] = null), t;
+			[$n]: Cr(ar),
+			[er]: Cr(or),
+			[tr]: Cr(sr),
+			[Z]: Cr(cr)
+		}, n = Cr(lr);
+		for (let e of this.knownDocuments.keys()) t[this.resolveTableName(e)] = this.dexieRecordSchema, t[Q(e)] = n;
+		return e?.drop && (t[this.resolveTableName(e.drop)] = null, t[Q(e.drop)] = null), t;
 	}
 	async reopenWithNewSchema(e) {
 		this.perf.start("core::store::reopenSchema");
 		try {
-			this.db.close(), await sr(), this.schemaVersion++, this.db = new Jn(this.name), this.db.version(this.schemaVersion).stores(this.buildStores(e)), this.attachVersionChangeHandler(), await this.db.open(), await this.db.table(X).put({
+			this.db.close(), await Er(), this.schemaVersion++, this.db = new $(this.name), this.db.version(this.schemaVersion).stores(this.buildStores(e)), this.attachVersionChangeHandler(), await this.db.open(), await this.db.table(tr).put({
 				key: "schemaVersion",
 				value: this.schemaVersion
 			}), this.stale = !1;
@@ -12325,22 +12311,22 @@ var ar = {
 		}
 	}
 	async reloadFromPersisted() {
-		this.db.isOpen() && (this.db.close(), await sr());
-		let e = new Jn(this.name);
+		this.db.isOpen() && (this.db.close(), await Er());
+		let e = new $(this.name);
 		e.version(1).stores({
-			[In]: $(Vn),
-			[Y]: $(Hn),
-			[X]: $(Un),
-			[Z]: $(Wn)
+			[$n]: Cr(ar),
+			[er]: Cr(or),
+			[tr]: Cr(sr),
+			[Z]: Cr(cr)
 		});
 		try {
 			await e.open();
-			let t = await e.table(In).toArray(), n = await e.table(X).get("schemaVersion");
+			let t = await e.table($n).toArray(), n = await e.table(tr).get("schemaVersion");
 			e.close(), this.knownDocuments = new Map(t.map((e) => [e.id, e])), this.schemaVersion = n?.value ?? 1;
 		} catch {
 			e.close();
 		}
-		this.db = new Jn(this.name), this.db.version(this.schemaVersion).stores(this.buildStores()), this.attachVersionChangeHandler(), await this.db.open(), this.stale = !1;
+		this.db = new $(this.name), this.db.version(this.schemaVersion).stores(this.buildStores()), this.attachVersionChangeHandler(), await this.db.open(), this.stale = !1;
 	}
 	attachVersionChangeHandler() {
 		this.db.on("versionchange", () => {
@@ -12356,16 +12342,16 @@ var ar = {
 		return this.schemaLock = this.schemaLock.then(e, e), this.schemaLock;
 	}
 	resolveTableName(e) {
-		return Rn(e);
+		return rr(e);
 	}
 };
-function sr() {
+function Er() {
 	return new Promise((e) => setTimeout(e, 0));
 }
-function cr(e, t) {
-	e.has(t) || m("DOCUMENT_NOT_REGISTERED", { detail: `Cannot add blob: owner document "${t}" is not registered` });
+function Dr(e, t) {
+	e.has(t) || v("DOCUMENT_NOT_REGISTERED", { detail: `Cannot add blob: owner document "${t}" is not registered` });
 }
-var lr = class e {
+var Or = class e {
 	static {
 		this.reconcileWarned = !1;
 	}
@@ -12384,7 +12370,7 @@ var lr = class e {
 		return this.documents.has(e);
 	}
 	async registerDocument(e) {
-		this.guardWritable(), this.documents.set(e.id, e), this.records.set(Rn(e.id), /* @__PURE__ */ new Map()), this.blobData.set(e.id, /* @__PURE__ */ new Map());
+		this.guardWritable(), this.documents.set(e.id, e), this.records.set(rr(e.id), /* @__PURE__ */ new Map()), this.blobData.set(e.id, /* @__PURE__ */ new Map());
 	}
 	async getDocument(e) {
 		return this.documents.get(e);
@@ -12401,7 +12387,7 @@ var lr = class e {
 		});
 	}
 	async removeDocument(e) {
-		this.guardWritable(), this.documents.delete(e), this.records.delete(Rn(e)), this.changelog.delete(e), this.heads.delete(e), this.blobData.delete(e);
+		this.guardWritable(), this.documents.delete(e), this.records.delete(rr(e)), this.changelog.delete(e), this.heads.delete(e), this.blobData.delete(e);
 		for (let [t, n] of this.blobs) n.documentId === e && this.blobs.delete(t);
 	}
 	async get(e, t) {
@@ -12427,27 +12413,27 @@ var lr = class e {
 		this.guardWritable();
 		let n = this.getTable(e);
 		if (t.creates) for (let e of t.creates) n.set(e.id, e);
-		if (t.updates) for (let { recordId: e, ...r } of t.updates) {
+		if (t.updates) for (let { recordId: e, removeAttributes: r, ...i } of t.updates) {
 			let t = n.get(e);
 			if (!t) continue;
-			let i = { ...t };
-			if (r.attributes) {
+			let a = { ...t };
+			if (i.attributes) {
 				let e = [...t.attributes];
-				for (let t of r.attributes) {
+				for (let t of i.attributes) {
 					let n = e.findIndex((e) => e.name === t.name);
 					n >= 0 ? e[n] = t : e.push(t);
 				}
-				i.attributes = e;
+				a.attributes = e;
 			}
-			if (r.children) {
+			if (r?.length && (a.attributes = a.attributes.filter((e) => !r.includes(e.name))), i.children) {
 				let e = [...t.children];
-				for (let t of r.children) {
+				for (let t of i.children) {
 					let n = e.findIndex((e) => e.id === t.id);
 					n >= 0 ? e[n] = t : e.push(t);
 				}
-				i.children = e;
+				a.children = e;
 			}
-			n.set(e, i);
+			n.set(e, a);
 		}
 		if (t.deletes) for (let e of t.deletes) n.delete(e);
 	}
@@ -12512,7 +12498,7 @@ var lr = class e {
 		return null;
 	}
 	async addBlob(e, t) {
-		this.guardWritable(), this.documents.has(e.documentId) || m("DOCUMENT_NOT_REGISTERED", { detail: `Cannot add blob: owner document "${e.documentId}" is not registered` }), this.blobs.set(e.id, e), this.getBlobTable(e.documentId).set(e.id, t);
+		this.guardWritable(), this.documents.has(e.documentId) || v("DOCUMENT_NOT_REGISTERED", { detail: `Cannot add blob: owner document "${e.documentId}" is not registered` }), this.blobs.set(e.id, e), this.getBlobTable(e.documentId).set(e.id, t);
 	}
 	async getBlob(e) {
 		let t = this.blobs.get(e);
@@ -12535,7 +12521,7 @@ var lr = class e {
 	async attachBlob(e, t) {
 		this.guardWritable();
 		let n = this.blobs.get(e);
-		n || m("STORE_BLOB_NOT_FOUND", { detail: `Blob "${e}" not found` }), !n.attachedTo.some((e) => e.documentId === t.documentId && e.recordRef === t.recordRef && e.attribute === t.attribute) && this.blobs.set(e, {
+		n || v("STORE_BLOB_NOT_FOUND", { detail: `Blob "${e}" not found` }), !n.attachedTo.some((e) => e.documentId === t.documentId && e.recordRef === t.recordRef && e.attribute === t.attribute) && this.blobs.set(e, {
 			...n,
 			attachedTo: [...n.attachedTo, t]
 		});
@@ -12543,7 +12529,7 @@ var lr = class e {
 	async detachBlob(e, t) {
 		this.guardWritable();
 		let n = this.blobs.get(e);
-		n || m("STORE_BLOB_NOT_FOUND", { detail: `Blob "${e}" not found` });
+		n || v("STORE_BLOB_NOT_FOUND", { detail: `Blob "${e}" not found` });
 		let r = n.attachedTo.filter((e) => !(e.documentId === t.documentId && e.recordRef === t.recordRef));
 		this.blobs.set(e, {
 			...n,
@@ -12560,31 +12546,31 @@ var lr = class e {
 		return t || (t = /* @__PURE__ */ new Map(), this.blobData.set(e, t)), t;
 	}
 	getTable(e) {
-		let t = Rn(e), n = this.records.get(t);
+		let t = rr(e), n = this.records.get(t);
 		return n || (n = /* @__PURE__ */ new Map(), this.records.set(t, n)), n;
 	}
 	guardWritable() {
-		this.writable || m("STORE_NOT_WRITABLE", { detail: "In-memory store is read-only. Hydrate with a real document before writing." });
+		this.writable || v("STORE_NOT_WRITABLE", { detail: "In-memory store is read-only. Hydrate with a real document before writing." });
 	}
 };
-function ur(e, t, n, r) {
-	return t.type === "local" ? new or(e, {
+function kr(e, t, n, r) {
+	return t.type === "local" ? new Tr(e, {
 		recordSchema: n.database.recordSchema,
 		perf: r
-	}) : t.type === "inMemory" ? new lr(e, { writable: t.writable ?? !0 }) : t.store;
+	}) : t.type === "inMemory" ? new Or(e, { writable: t.writable ?? !0 }) : t.store;
 }
-async function dr(e) {
+async function Ar(e) {
 	let { documentId: t, state: n, configs: r, store: i, projectName: a, options: o } = e, s = n.documents.get(t);
-	w(s, {
+	h(s, {
 		key: "DOCUMENT_NOT_REGISTERED",
 		detail: `Document "${t}" not registered in project "${a}"`
 	});
-	let c = r[s.record.configKey], l = Ft({
+	let c = r[s.record.configKey], l = Wt({
 		records: await i.getByDocumentId(t),
 		config: c,
 		withDatabaseIds: o?.withDatabaseIds
 	}), u = `${s.record.name}${s.record.extension}`;
-	return o?.withDownload && await Pt({
+	return o?.withDownload && await Ut({
 		extension: s.record.extension,
 		xmlDocument: l,
 		filename: u
@@ -12593,14 +12579,14 @@ async function dr(e) {
 		filename: u
 	};
 }
-async function fr(e) {
+async function jr(e) {
 	let { blobId: t, store: n, options: r } = e, i = await n.getBlob(t);
-	w(i, {
+	h(i, {
 		key: "BLOB_NOT_FOUND",
 		detail: `Blob "${t}" not found in store`
 	});
 	let a = i.entry.name;
-	return r?.withDownload && await T({
+	return r?.withDownload && await S({
 		data: i.data,
 		filename: a
 	}), {
@@ -12609,7 +12595,7 @@ async function fr(e) {
 		filename: a
 	};
 }
-function pr(e) {
+function Mr(e) {
 	return {
 		record: e,
 		loading: !1,
@@ -12621,15 +12607,15 @@ function pr(e) {
 		canRedo: !1
 	};
 }
-function mr(e, t) {
+function Nr(e, t) {
 	let n = new Set(t.map((e) => e.id));
-	for (let n of t) e.has(n.id) || e.set(n.id, pr(n));
+	for (let n of t) e.has(n.id) || e.set(n.id, Mr(n));
 	for (let t of e.keys()) n.has(t) || e.delete(t);
 	return e;
 }
-async function hr(e) {
+async function Pr(e) {
 	let { file: t, store: n, configs: r, defaultConfigKey: i, options: a, hooks: o, perf: s } = e, c = a?.configKey ?? i, l = r[c];
-	w(l, {
+	h(l, {
 		key: "UNKNOWN_CONFIG_KEY",
 		detail: `Unknown configKey: "${c}". Available: ${Object.keys(r).join(", ")}`
 	});
@@ -12642,7 +12628,7 @@ async function hr(e) {
 		metadata: a?.metadata
 	};
 	await m(n, f);
-	let { recordCount: p } = await cn({
+	let { recordCount: p } = await Cn({
 		file: t,
 		documentId: u,
 		store: n,
@@ -12655,7 +12641,7 @@ async function hr(e) {
 	return {
 		documentId: u,
 		record: f,
-		documentState: pr(f),
+		documentState: Mr(f),
 		recordCount: p
 	};
 	async function m(e, t) {
@@ -12667,9 +12653,9 @@ async function hr(e) {
 		}
 	}
 }
-async function gr(e) {
+async function Fr(e) {
 	let { store: t, configs: n, defaultConfigKey: r, options: i, hooks: a } = e, o = i?.configKey ?? r, s = n[o];
-	w(s, {
+	h(s, {
 		key: "UNKNOWN_CONFIG_KEY",
 		detail: `Unknown configKey: "${o}". Available: ${Object.keys(n).join(", ")}`
 	});
@@ -12682,7 +12668,7 @@ async function gr(e) {
 		metadata: i?.metadata
 	};
 	await t.registerDocument(d);
-	let f = A({
+	let f = P({
 		dialecteConfig: s,
 		hooks: a,
 		record: {
@@ -12696,24 +12682,24 @@ async function gr(e) {
 	return await t.bulkWrite(u, { creates: [f] }), {
 		documentId: u,
 		record: d,
-		documentState: pr(d)
+		documentState: Mr(d)
 	};
 }
-var _r = class {
+var Ir = class {
 	get name() {
-		return w(this._name !== void 0, {
+		return h(this._name !== void 0, {
 			key: "PROJECT_NOT_OPENED",
 			detail: "Call project.open(name) before accessing project properties."
 		}), this._name;
 	}
 	get store() {
-		return w(this._store !== void 0, {
+		return h(this._store !== void 0, {
 			key: "PROJECT_NOT_OPENED",
 			detail: "Call project.open(name) before accessing project properties."
 		}), this._store;
 	}
 	get channel() {
-		return w(this._channel !== void 0, {
+		return h(this._channel !== void 0, {
 			key: "PROJECT_NOT_OPENED",
 			detail: "Call project.open(name) before accessing project properties."
 		}), this._channel;
@@ -12741,7 +12727,7 @@ var _r = class {
 			activeTransactions: 0
 		}, this.stateSubscribers = /* @__PURE__ */ new Map();
 		let t = Object.keys(e.configs);
-		this.storage = e.storage, this.configs = e.configs, this.defaultConfigKey = e.defaultConfigKey ?? t[0], this.hooks = e.hooks, this.perf = Kt({ enabled: e.dev?.perf ?? !1 }), this.mergedExtensions = e.extensions ? le({
+		this.storage = e.storage, this.configs = e.configs, this.defaultConfigKey = e.defaultConfigKey ?? t[0], this.hooks = e.hooks, this.perf = cn({ enabled: e.dev?.perf ?? !1 }), this.mergedExtensions = e.extensions ? ve({
 			base: e.extensions.base,
 			custom: e.extensions.custom
 		}) : void 0;
@@ -12750,10 +12736,10 @@ var _r = class {
 		this._name = e, this.closing = !1, this._channel = new BroadcastChannel(this.channelName), this._channel.addEventListener("message", (e) => {
 			this.onChannelMessage(e.data);
 		});
-		let t = ur(e, this.storage, this.configs[this.defaultConfigKey], this.perf);
+		let t = kr(e, this.storage, this.configs[this.defaultConfigKey], this.perf);
 		await t.open(), this._store = t;
 		let n = await t.getDocuments();
-		for (let e of n) this.state.documents.set(e.id, pr(e));
+		for (let e of n) this.state.documents.set(e.id, Mr(e));
 		return await Promise.all(n.map((e) => this.refreshHistoryStatus(e.id))), this;
 	}
 	onChannelMessage(e) {
@@ -12790,7 +12776,7 @@ var _r = class {
 		this.closing = !0, this._channel?.close(), await Promise.allSettled(this.pendingBroadcastWork), await this.store.destroy(), this.state.documents.clear();
 	}
 	async initEmptyDocument(e) {
-		let t = await gr({
+		let t = await Fr({
 			store: this.store,
 			configs: this.configs,
 			defaultConfigKey: this.defaultConfigKey,
@@ -12811,7 +12797,7 @@ var _r = class {
 		});
 	}
 	async import(e, t) {
-		let n = await Promise.all(e.map((e) => hr({
+		let n = await Promise.all(e.map((e) => Pr({
 			file: e,
 			store: this.store,
 			configs: this.configs,
@@ -12831,7 +12817,7 @@ var _r = class {
 		}));
 	}
 	async export(e, t) {
-		return dr({
+		return Ar({
 			documentId: e,
 			state: this.state,
 			configs: this.configs,
@@ -12848,12 +12834,12 @@ var _r = class {
 	}
 	openDocument(e) {
 		let t = this.state.documents.get(e);
-		w(t, {
+		h(t, {
 			key: "DOCUMENT_NOT_REGISTERED",
 			detail: `Document "${e}" not registered in project "${this.name}"`
 		});
 		let n = this.configs[t.record.configKey];
-		return new Fn(this.store, n, e, this.mergedExtensions, this.hooks, {
+		return new Qn(this.store, n, e, this.mergedExtensions, this.hooks, {
 			state: t,
 			channelName: this.channelName,
 			broadcast: (e) => this.broadcast(e),
@@ -12877,7 +12863,7 @@ var _r = class {
 	}
 	async undo(e) {
 		let t = this.state.documents.get(e);
-		w(t, {
+		h(t, {
 			key: "DOCUMENT_NOT_REGISTERED",
 			detail: `Document "${e}" not registered in project "${this.name}"`
 		}), await this.store.undo(e);
@@ -12890,7 +12876,7 @@ var _r = class {
 	}
 	async redo(e) {
 		let t = this.state.documents.get(e);
-		w(t, {
+		h(t, {
 			key: "DOCUMENT_NOT_REGISTERED",
 			detail: `Document "${e}" not registered in project "${this.name}"`
 		}), await this.store.redo(e);
@@ -12922,7 +12908,7 @@ var _r = class {
 		return this.store.getBlob(e);
 	}
 	async exportBlob(e, t) {
-		return fr({
+		return jr({
 			blobId: e,
 			store: this.store,
 			options: t
@@ -12979,42 +12965,42 @@ var _r = class {
 	}
 	async refreshState() {
 		let e = await this.store.getDocuments();
-		mr(this.state.documents, e);
+		Nr(this.state.documents, e);
 	}
 	async reconcileFromBroadcast(e) {
 		this.closing || (await this.store.reconcile(e), await this.refreshState());
 	}
 };
 //#endregion
-//#region node_modules/.pnpm/@dialecte+nsd@0.2.1/node_modules/@dialecte/nsd/dist/v2017A/index.js
-function vr(e) {
+//#region node_modules/.pnpm/@dialecte+nsd@0.4.0/node_modules/@dialecte/nsd/dist/v2017A/index.js
+function Lr(e) {
 	let { storage: t = { type: "local" }, extensions: n } = e ?? {};
-	return new _r({
+	return new Ir({
 		configs: {
-			nsd: ve,
-			nsdoc: ye
+			nsd: Ae,
+			nsdoc: je
 		},
 		defaultConfigKey: "nsd",
 		storage: t,
 		extensions: {
-			base: be,
+			base: Me,
 			custom: n
 		}
 	});
 }
 //#endregion
 //#region src/nsd/utils/nsd-project.ts
-var yr = "SET-LIBRARY-NSD", br = null;
-function xr() {
-	return br ||= vr().open(yr), br;
+var Rr = "SET-LIBRARY-NSD", zr = null;
+function Br() {
+	return zr ||= Lr().open(Rr), zr;
 }
-var Sr = i(0);
-function Cr() {
-	Sr.value++;
+var Vr = w(0);
+function Hr() {
+	Vr.value++;
 }
 //#endregion
 //#region src/nsd/utils/query-nsd-metadata.ts
-async function wr(e) {
+async function Ur(e) {
 	let { query: t } = e, n = await t.getRoot(), r = await t.getAttribute(n, { name: "id" }), i = await t.getAttribute(n, { name: "version" }), a = await t.getAttribute(n, { name: "revision" }), o = await t.getAttribute(n, { name: "release" });
 	if (!r || !i || !a) throw Error("Missing required NS attributes. Expected id, version, revision.");
 	if (n.tagName === "NSDoc") return {
@@ -13051,10 +13037,10 @@ async function wr(e) {
 		isNsdoc: !1
 	};
 }
-function Tr(e) {
+function Wr(e) {
 	return e.replace(/__+/g, "-").replace(/[\s_]/g, "").toLowerCase();
 }
-function Er(e) {
+function Gr(e) {
 	let t = [
 		e.version,
 		e.revision?.toUpperCase(),
@@ -13062,19 +13048,19 @@ function Er(e) {
 	].filter((e) => !!e);
 	return t.length ? t.join(".") : "-";
 }
-function Dr(e, t) {
+function Kr(e, t) {
 	return {
 		fileName: e,
 		isExtension: t.isExtension,
 		isNsdoc: t.isNsdoc,
-		versionRevisionRelease: Er(t)
+		versionRevisionRelease: Gr(t)
 	};
 }
-function Or(e) {
+function qr(e) {
 	let t = e.id.replace(/\s+/g, "_");
 	if (!e.version || !e.revision) return `${t}.nsd`;
 	let n = e.revision.toUpperCase();
 	return `${t}_${e.version}${n}${e.release}.nsd`;
 }
 //#endregion
-export { wr as a, Cr as c, c as d, Tr as i, ge as l, Er as n, xr as o, Or as r, Sr as s, Dr as t, f as u };
+export { Ur as a, Hr as c, D as d, Wr as i, Oe as l, Gr as n, Br as o, qr as r, Vr as s, Kr as t, k as u };
