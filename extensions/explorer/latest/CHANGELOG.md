@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [18] - 2026-10-14
+
+### Changed
+
+- A source or control reference in the document outline is titled by its name among the signals of its LNode (`Trip`, `Trip(1).general`)
+
 ## [16] - 2026-07-17
 
 ### Changed
