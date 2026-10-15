@@ -7,6 +7,19 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [91] - 2026-10-15
+
+### Added
+
+- An FSD whose function is a function template (a function with no parent level) can be instantiated: it is placed as a function at the level you start from, whichever it is, or as a subfunction when you start from a function.
+
+### Fixed
+
+- The merge dialog says what it is for to screen readers when it opens ("Places the application template in the project. Nothing is written until Apply.").
+- A template file that holds no template of the kind asked for is said in plain words ("“template.asd” holds no application template (ASD). Nothing was written: choose an ASD file.") instead of an internal message.
+- The merge dialog's title no longer ends with a dangling "·" when the element you started from has no name in the project.
+- Placing an application in a bay that already holds a function named like its root function no longer leaves two functions of that name: the placed one is numbered (`HMI_Fn_1`). An application whose name already carries `_App` followed by more text (`HMI_App_Main`) keeps its name instead of getting a second `_App`.
+
 ## [89] - 2026-10-07
 
 ### Changed
