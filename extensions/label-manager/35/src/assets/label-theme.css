@@ -1,0 +1,17 @@
+:root {
+	--label-en: var(--color-chart-1);
+	--label-fr: var(--color-chart-7);
+	--label-nl: var(--color-chart-4);
+
+	--label-en-bg: color-mix(in srgb, var(--label-en) 12%, var(--color-base-100));
+	--label-en-soft: color-mix(in srgb, var(--label-en) 20%, var(--color-base-100));
+	--label-en-border: color-mix(in srgb, var(--label-en) 42%, var(--color-base-100));
+
+	--label-fr-bg: color-mix(in srgb, var(--label-fr) 14%, var(--color-base-100));
+	--label-fr-soft: color-mix(in srgb, var(--label-fr) 24%, var(--color-base-100));
+	--label-fr-border: color-mix(in srgb, var(--label-fr) 48%, var(--color-base-100));
+
+	--label-nl-bg: color-mix(in srgb, var(--label-nl) 12%, var(--color-base-100));
+	--label-nl-soft: color-mix(in srgb, var(--label-nl) 22%, var(--color-base-100));
+	--label-nl-border: color-mix(in srgb, var(--label-nl) 42%, var(--color-base-100));
+}
