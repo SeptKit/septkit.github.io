@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-validation",
-	"version": "5",
+	"version": "6",
 	"displayName": "Validation",
 	"description": "Validates the active SCL file against an uploaded XSD schema",
 	"private": true,
