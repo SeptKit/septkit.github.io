@@ -7,6 +7,13 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [10] - 2026-10-15
+
+### Changed
+
+- Notes on a source or control reference show whether the signal is open or connected (e.g. `TripIn(2).general - open`)
+- The path above a note no longer shows the technical containers `eIEC61850-6-100`, `LNodeInputs` and `LNodeOutputs`
+
 ## [8] - 2026-10-06
 
 ### Added
