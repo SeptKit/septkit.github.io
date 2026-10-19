@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-library",
-	"version": "28",
+	"version": "29",
 	"displayName": "Library",
 	"description": "Library",
 	"private": true,
@@ -31,7 +31,18 @@
 				],
 				"entryPoint": "/set-editor.js"
 			}
-		]
+		],
+		"menus": {
+			"set.step.specification": [
+				{ "editor": "sprinteins.ext-library.data-type-templates", "group": "20_editors@140", "when": { "role": "expert" } }
+			],
+			"set.step.implementation": [
+				{ "editor": "sprinteins.ext-library.data-type-templates", "group": "20_editors@140", "when": { "role": "expert" } }
+			],
+			"set.step.update": [
+				{ "editor": "sprinteins.ext-library.data-type-templates", "group": "20_editors@140", "when": { "role": "expert" } }
+			]
+		}
 	},
 	"scripts": {
 		"dev": "vite --force",
