@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-network",
-	"version": "7",
+	"version": "8",
 	"displayName": "Network",
 	"description": "Manage the SCL communication network",
 	"private": true,
@@ -17,7 +17,12 @@
 				],
 				"entryPoint": "/set-editor.js"
 			}
-		]
+		],
+		"menus": {
+			"set.step.network-configuration": [
+				{ "editor": "sprinteins.ext-network.editor", "group": "20_editors@120" }
+			]
+		}
 	},
 	"scripts": {
 		"dev": "vite",
