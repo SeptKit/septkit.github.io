@@ -1,0 +1,1 @@
+import{t as e}from"../createLucideIcon-Dv9SfS1Y.js";var t=e(`app-window-mac`,[[`rect`,{width:`20`,height:`16`,x:`2`,y:`4`,rx:`2`,key:`18n3k1`}],[`path`,{d:`M6 8h.01`,key:`x9i8wu`}],[`path`,{d:`M10 8h.01`,key:`1r9ogq`}],[`path`,{d:`M14 8h.01`,key:`1primd`}]]);export{t as default};

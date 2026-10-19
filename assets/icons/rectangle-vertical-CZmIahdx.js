@@ -1,0 +1,1 @@
+import{t as e}from"../createLucideIcon-Dv9SfS1Y.js";var t=e(`rectangle-vertical`,[[`rect`,{width:`12`,height:`20`,x:`6`,y:`2`,rx:`2`,key:`1oxtiu`}]]);export{t as default};

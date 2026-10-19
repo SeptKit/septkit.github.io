@@ -1,0 +1,1 @@
+import{t as e}from"../createLucideIcon-Dv9SfS1Y.js";var t=e(`iteration-cw`,[[`path`,{d:`M4 10a8 8 0 1 1 8 8H4`,key:`svv66n`}],[`path`,{d:`m8 22-4-4 4-4`,key:`6g7gki`}]]);export{t as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../createLucideIcon-Dv9SfS1Y.js";var t=e(`square-radical`,[[`path`,{d:`M7 12h2l2 5 2-10h4`,key:`1fxv6h`}],[`rect`,{x:`3`,y:`3`,width:`18`,height:`18`,rx:`2`,key:`h1oib`}]]);export{t as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../createLucideIcon-Dv9SfS1Y.js";var t=e(`ellipse`,[[`ellipse`,{cx:`12`,cy:`12`,rx:`10`,ry:`6`,key:`swdkt4`}]]);export{t as default};

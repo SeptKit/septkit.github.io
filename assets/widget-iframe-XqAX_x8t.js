@@ -1,0 +1,1 @@
+import{Z as e,k as t,p as n,v as r}from"./vue.runtime.esm-bundler-BH8BFSY2.js";import{r as i,t as a}from"./widget-portal-BCqSzJUN.js";var o=r({__name:`widget-iframe`,setup(r){let o=e();return a(window,e=>{console.debug(`widget-iframe expect`,{newWidget:e}),o.value=e}),(e,r)=>(t(),n(i,{widget:o.value,rootId:`main-area-widget-root`},null,8,[`widget`]))}});export{o as default};

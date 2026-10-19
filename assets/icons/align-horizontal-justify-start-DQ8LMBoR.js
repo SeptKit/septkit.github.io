@@ -1,0 +1,1 @@
+import{t as e}from"../createLucideIcon-Dv9SfS1Y.js";var t=e(`align-horizontal-justify-start`,[[`rect`,{width:`6`,height:`14`,x:`6`,y:`5`,rx:`2`,key:`hsirpf`}],[`rect`,{width:`6`,height:`10`,x:`16`,y:`7`,rx:`2`,key:`13zkjt`}],[`path`,{d:`M2 2v20`,key:`1ivd8o`}]]);export{t as default};

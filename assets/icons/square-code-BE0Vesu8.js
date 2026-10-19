@@ -1,0 +1,1 @@
+import{t as e}from"../createLucideIcon-Dv9SfS1Y.js";var t=e(`square-code`,[[`path`,{d:`m10 9-3 3 3 3`,key:`1oro0q`}],[`path`,{d:`m14 15 3-3-3-3`,key:`bz13h7`}],[`rect`,{x:`3`,y:`3`,width:`18`,height:`18`,rx:`2`,key:`h1oib`}]]);export{t as default};

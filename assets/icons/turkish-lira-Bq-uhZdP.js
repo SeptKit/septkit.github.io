@@ -1,0 +1,1 @@
+import{t as e}from"../createLucideIcon-Dv9SfS1Y.js";var t=e(`turkish-lira`,[[`path`,{d:`M15 4 5 9`,key:`14bkc9`}],[`path`,{d:`m15 8.5-10 5`,key:`1grtsx`}],[`path`,{d:`M18 12a9 9 0 0 1-9 9V3`,key:`1sst7f`}]]);export{t as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../createLucideIcon-Dv9SfS1Y.js";var t=e(`zodiac-taurus`,[[`circle`,{cx:`12`,cy:`15`,r:`6`,key:`lhqcmb`}],[`path`,{d:`M18 3A6 6 0 0 1 6 3`,key:`1p399e`}]]);export{t as default};

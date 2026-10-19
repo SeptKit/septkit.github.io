@@ -1,0 +1,1 @@
+import{t as e}from"../createLucideIcon-Dv9SfS1Y.js";var t=e(`move-down-right`,[[`path`,{d:`M19 13V19H13`,key:`10vkzq`}],[`path`,{d:`M5 5L19 19`,key:`5zm2fv`}]]);export{t as default};

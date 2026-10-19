@@ -1,0 +1,1 @@
+import{t as e}from"../createLucideIcon-Dv9SfS1Y.js";var t=e(`waves-vertical`,[[`path`,{d:`M12 2q2 2.5 0 5t0 5 0 5 0 5`,key:`13jdbg`}],[`path`,{d:`M19 2q2 2.5 0 5t0 5 0 5 0 5`,key:`1ozhzu`}],[`path`,{d:`M5 2q2 2.5 0 5t0 5 0 5 0 5`,key:`1bi6v5`}]]);export{t as default};

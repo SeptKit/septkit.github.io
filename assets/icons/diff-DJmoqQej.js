@@ -1,0 +1,1 @@
+import{t as e}from"../createLucideIcon-Dv9SfS1Y.js";var t=e(`diff`,[[`path`,{d:`M12 3v14`,key:`7cf3v8`}],[`path`,{d:`M5 10h14`,key:`elsbfy`}],[`path`,{d:`M5 21h14`,key:`11awu3`}]]);export{t as default};

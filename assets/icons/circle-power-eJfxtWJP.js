@@ -1,0 +1,1 @@
+import{t as e}from"../createLucideIcon-Dv9SfS1Y.js";var t=e(`circle-power`,[[`circle`,{cx:`12`,cy:`12`,r:`10`,key:`1mglay`}],[`path`,{d:`M12 7v4`,key:`xawao1`}],[`path`,{d:`M7.998 9.003a5 5 0 1 0 8-.005`,key:`1pek45`}]]);export{t as default};

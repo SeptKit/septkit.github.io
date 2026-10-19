@@ -1,0 +1,1 @@
+import{t as e}from"../createLucideIcon-Dv9SfS1Y.js";var t=e(`circle-pound-sterling`,[[`circle`,{cx:`12`,cy:`12`,r:`10`,key:`1mglay`}],[`path`,{d:`M10 16V9.5a1 1 0 0 1 5 0`,key:`1i1are`}],[`path`,{d:`M8 12h4`,key:`qz6y1c`}],[`path`,{d:`M8 16h7`,key:`sbedsn`}]]);export{t as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../createLucideIcon-Dv9SfS1Y.js";var t=e(`ungroup`,[[`rect`,{width:`8`,height:`6`,x:`5`,y:`4`,rx:`1`,key:`nzclkv`}],[`rect`,{width:`8`,height:`6`,x:`11`,y:`14`,rx:`1`,key:`4tytwb`}]]);export{t as default};

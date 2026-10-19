@@ -1,0 +1,1 @@
+import{t as e}from"../createLucideIcon-Dv9SfS1Y.js";var t=e(`russian-ruble`,[[`path`,{d:`M6 11h8a4 4 0 0 0 0-8H9v18`,key:`18ai8t`}],[`path`,{d:`M6 15h8`,key:`1y8f6l`}]]);export{t as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../createLucideIcon-Dv9SfS1Y.js";var t=e(`swiss-franc`,[[`path`,{d:`M10 21V3h8`,key:`br2l0g`}],[`path`,{d:`M6 16h9`,key:`2py0wn`}],[`path`,{d:`M10 9.5h7`,key:`13dmhz`}]]);export{t as default};

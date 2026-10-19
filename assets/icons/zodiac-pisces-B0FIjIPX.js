@@ -1,0 +1,1 @@
+import{t as e}from"../createLucideIcon-Dv9SfS1Y.js";var t=e(`zodiac-pisces`,[[`path`,{d:`M19 21a15 15 0 0 1 0-18`,key:`br2vug`}],[`path`,{d:`M20 12H4`,key:`1mtusc`}],[`path`,{d:`M5 3a15 15 0 0 1 0 18`,key:`1w7hae`}]]);export{t as default};

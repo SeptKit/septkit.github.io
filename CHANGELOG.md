@@ -7,6 +7,14 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [65] - 2026-10-16
+
+### Changed
+
+- Editors are now grouped in a top menu by engineering step (Concept, Specification, Implementation, Network configuration, Update, Compare). Each editor declares the steps it appears in, and extensions can add their own steps.
+- The top menu shows the active step and the open editor, and marks expert editors with an "Expert" badge.
+- The Dashboard opens from a Home entry on the far left of the top menu.
+
 ## [60] - 2026-09-10
 
 ### Added

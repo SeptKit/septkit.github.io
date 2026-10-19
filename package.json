@@ -1,7 +1,7 @@
 {
 	"name": "@septkit/shell",
 	"displayName": "Shell",
-	"version": "64",
+	"version": "65",
 	"private": true,
 	"type": "module",
 	"scripts": {
@@ -64,7 +64,7 @@
 		"@vitest/browser-playwright": "^4.1.4",
 		"@vue/test-utils": "^2.4.6",
 		"@vue/tsconfig": "^0.9.1",
-		"daisyui": "^5.5.19",
+		"daisyui": "^5.7.47",
 		"jiti": "^2.6.1",
 		"npm-run-all2": "^8.0.4",
 		"oxlint": "~1.6.0",

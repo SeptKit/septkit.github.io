@@ -1,0 +1,1 @@
+import{t as e}from"../createLucideIcon-Dv9SfS1Y.js";var t=e(`dot`,[[`circle`,{cx:`12.1`,cy:`12.1`,r:`1`,key:`18d7e5`}]]);export{t as default};

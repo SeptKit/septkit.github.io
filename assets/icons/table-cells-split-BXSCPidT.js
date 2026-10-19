@@ -1,0 +1,1 @@
+import{t as e}from"../createLucideIcon-Dv9SfS1Y.js";var t=e(`table-cells-split`,[[`path`,{d:`M12 15V9`,key:`8c7uyn`}],[`path`,{d:`M3 15h18`,key:`5xshup`}],[`path`,{d:`M3 9h18`,key:`1pudct`}],[`rect`,{width:`18`,height:`18`,x:`3`,y:`3`,rx:`2`,key:`afitv7`}]]);export{t as default};
