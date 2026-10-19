@@ -1,7 +1,7 @@
 {
 	"name": "@septkit/ext-logic-editor",
 	"displayName": "Logic Editor",
-	"version": "20",
+	"version": "21",
 	"description": "Create function block diagrams to document logic",
 	"private": true,
 	"type": "module",
@@ -18,7 +18,15 @@
 				],
 				"entryPoint": "/set-editor.js"
 			}
-		]
+		],
+		"menus": {
+			"set.step.concept": [
+				{ "editor": "sprinteins.ext-logic-editor.editor", "group": "20_editors@60", "when": { "role": "expert" } }
+			],
+			"set.step.specification": [
+				{ "editor": "sprinteins.ext-logic-editor.editor", "group": "20_editors@60" }
+			]
+		}
 	},
 	"scripts": {
 		"dev": "vite",

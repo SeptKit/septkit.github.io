@@ -129770,7 +129770,7 @@ async function d_(e, t) {
 	for (let [t, n] of Object.entries({
 		companyName: "SET",
 		productName: "SET Logic Editor",
-		productVersion: "20"
+		productVersion: "21"
 	})) u_(r, t) || await e.update(r, { attributes: { [t]: n } });
 	let i = await s_(e, n, "ContentHeader");
 	u_(i, "name") || await e.update(i, { attributes: { name: t.name } }), u_(i, "creationDateTime") || await e.update(i, { attributes: { creationDateTime: (/* @__PURE__ */ new Date()).toISOString() } }), await s_(e, await s_(e, n, "Types"), "GlobalNamespace"), await s_(e, n, "Instances");
