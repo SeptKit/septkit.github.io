@@ -1,7 +1,7 @@
 {
 	"name": "@septkit/ext-structure",
 	"displayName": "Structure",
-	"version": "91",
+	"version": "92",
 	"description": "SeptKit extension to manage structures in SCL",
 	"private": true,
 	"type": "module",
@@ -17,7 +17,24 @@
 				],
 				"entryPoint": "/set-editor.js"
 			}
-		]
+		],
+		"menus": {
+			"set.step.concept": [
+				{ "editor": "sprinteins.ext-structure.structure", "group": "20_editors@30" }
+			],
+			"set.step.specification": [
+				{ "editor": "sprinteins.ext-structure.structure", "group": "20_editors@30" }
+			],
+			"set.step.implementation": [
+				{ "editor": "sprinteins.ext-structure.structure", "group": "20_editors@30" }
+			],
+			"set.step.update": [
+				{ "editor": "sprinteins.ext-structure.structure", "group": "20_editors@30" }
+			],
+			"set.step.compare": [
+				{ "editor": "sprinteins.ext-structure.structure", "group": "20_editors@30" }
+			]
+		}
 	},
 	"scripts": {
 		"dev": "vite",
