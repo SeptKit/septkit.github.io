@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-dataflow",
-	"version": "73",
+	"version": "74",
 	"displayName": "Dataflow",
 	"description": "extension for SET Platform that provides dataflow capabilities between Logic-Nodes",
 	"private": true,
@@ -17,7 +17,21 @@
 				],
 				"entryPoint": "set-editor.js"
 			}
-		]
+		],
+		"menus": {
+			"set.step.concept": [
+				{ "editor": "sprinteins.ext-dataflow.dataflow", "group": "20_editors@70" }
+			],
+			"set.step.specification": [
+				{ "editor": "sprinteins.ext-dataflow.dataflow", "group": "20_editors@70" }
+			],
+			"set.step.implementation": [
+				{ "editor": "sprinteins.ext-dataflow.dataflow", "group": "20_editors@70" }
+			],
+			"set.step.update": [
+				{ "editor": "sprinteins.ext-dataflow.dataflow", "group": "20_editors@70" }
+			]
+		}
 	},
 	"scripts": {
 		"dev": "vite",
