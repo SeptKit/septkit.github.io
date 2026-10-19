@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [10] - 2026-10-19
+
+### Fixed
+
+- SPC-05, exclude q and t items
+
 ## [9] - 2026-10-16
 
 ### Changed
