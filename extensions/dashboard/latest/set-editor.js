@@ -155480,7 +155480,7 @@ async function jse(e) {
 			tagName: "DAS",
 			id: o.id
 		}) : void 0;
-		t.push({
+		!o && !i.defaultValue || t.push({
 			...a,
 			result: s || i.defaultValue ? { status: "present" } : {
 				status: "failed",
@@ -156018,8 +156018,8 @@ var { document: Ise, isHydrated: hm, hydrate: gm, clear: _m } = hre({ extensions
 		severity: "major",
 		owner: "SET (data model)",
 		description: "Require a ctlModel value from the agreed instance or type-default sources.",
-		applicability: "DOS targets whose type includes ctlModel; unavailable types remain explicit.",
-		requiredAction: "Configure the ctlModel value in the DAS, or give the ctlModel DA a value in the DOType."
+		applicability: "DOS targets with a specified ctlModel DAS or a ctlModel type default; unavailable types remain explicit.",
+		requiredAction: "Set the value in the ctlModel DAS or provide a ctlModel default in the DOType."
 	},
 	"IMP-01": {
 		title: "Real IED and LN exist",

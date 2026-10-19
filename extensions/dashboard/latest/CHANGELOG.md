@@ -7,6 +7,10 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [11] - 2026-10-19
+
+- SPC-08 no longer reports a missing ctlModel when neither a ctlModel DAS nor a type default is specified.
+
 ## [10] - 2026-10-19
 
 ### Fixed
