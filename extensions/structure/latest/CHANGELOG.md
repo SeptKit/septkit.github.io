@@ -7,12 +7,6 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
-## [91] - 2026-10-19
-
-### Removed
-
-- Manual creation of ProcessResources in Structure is no longer available (context menu entries and creation form removed).
-
 ## [91] - 2026-10-15
 
 ### Added
