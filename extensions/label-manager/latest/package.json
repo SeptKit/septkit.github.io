@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-label-manager",
-	"version": "35",
+	"version": "36",
 	"displayName": "Label Manager",
 	"description": "Extension for managing labels",
 	"private": true,
@@ -17,7 +17,15 @@
 				],
 				"entryPoint": "/set-editor.js"
 			}
-		]
+		],
+		"menus": {
+			"set.step.concept": [
+				{ "editor": "sprinteins.ext-label-manager.label-manager", "group": "20_editors@40" }
+			],
+			"set.step.specification": [
+				{ "editor": "sprinteins.ext-label-manager.label-manager", "group": "20_editors@40" }
+			]
+		}
 	},
 	"scripts": {
 		"dev": "vite",
