@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-dataflow-matrix",
-	"version": "11",
+	"version": "12",
 	"displayName": "Dataflow Matrix",
 	"description": "Matrix view of dataflows between LNodes",
 	"private": true,
@@ -17,7 +17,15 @@
 				],
 				"entryPoint": "/set-editor.js"
 			}
-		]
+		],
+		"menus": {
+			"set.step.specification": [
+				{ "editor": "sprinteins.ext-dataflow-matrix.dataflow-matrix", "group": "20_editors@80" }
+			],
+			"set.step.network-configuration": [
+				{ "editor": "sprinteins.ext-dataflow-matrix.dataflow-matrix", "group": "20_editors@80" }
+			]
+		}
 	},
 	"scripts": {
 		"dev": "vite",
