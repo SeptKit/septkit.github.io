@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [9] - 2026-10-16
+
+### Changed
+
+- Open the Dashboard from the Home entry on the far left of the top menu; it is no longer listed under every engineering step.
+
 ## [7] - 2026-10-12
 
 ### Changed
