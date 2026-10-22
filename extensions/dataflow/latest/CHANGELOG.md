@@ -7,6 +7,18 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## Unreleased
 
+## [75] - 2026-10-15
+
+### Added
+
+- Set optional cardinality on dataflow placeholders and manage their linked ProcessResources automatically
+- Set an optional `max` on `1..n` placeholder ProcessResources
+- Show the bound ProcessResource and its other usages when editing a placeholder
+
+### Changed
+
+- Dataflow placeholders no longer allow manual ProcessResource selection; cardinality creates a ProcessResource named PR1, PR2, ... with selector and description
+
 ## [73] - 2026-10-14
 
 ### Changed
