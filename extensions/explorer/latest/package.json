@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-explorer",
-	"version": "18",
+	"version": "19",
 	"displayName": "Explorer",
 	"description": "SeptKit extension - explorer that draws an outline view of an SCL file",
 	"private": true,
@@ -46,6 +46,7 @@
 	"dependencies": {
 		"@dialecte/core": "catalog:",
 		"@dialecte/scl": "catalog:",
+		"@lucide/vue": "^1.16.0",
 		"@septkit/shell-lib": "catalog:",
 		"@septkit/ui": "catalog:",
 		"@vueuse/core": "^14.2.1",
@@ -82,6 +83,7 @@
 		"vite-plugin-static-copy": "^4.0.1",
 		"vite-plugin-vue-devtools": "^8.1.1",
 		"vitest": "^4.1.4",
+		"vitest-browser-vue": "^2.1.0",
 		"vue-tsc": "^3.2.6"
 	}
 }

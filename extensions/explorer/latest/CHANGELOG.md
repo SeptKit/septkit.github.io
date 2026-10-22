@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [19] - 2026-10-22
+
+### Added
+
+- Refresh button in the Explorer reloads the document outline, showing elements added in Structure View
+
 ## [18] - 2026-10-14
 
 ### Changed
