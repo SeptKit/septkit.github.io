@@ -7,6 +7,18 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [93] - 2026-10-19
+
+### Added
+
+- Create named Power System Relations from Functions and SubFunctions and link them to supported conducting equipment. Creation is rejected when an owning Application has no `ENGINEERING ELEMENTS` role.
+
+## [91] - 2026-10-19
+
+### Removed
+
+- Manual creation of ProcessResources in Structure is no longer available (context menu entries and creation form removed).
+
 ## [91] - 2026-10-15
 
 ### Added
