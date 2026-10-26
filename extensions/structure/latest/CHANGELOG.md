@@ -7,7 +7,13 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
-## [93] - 2026-10-19
+## [94] - 2026-10-22
+
+### Added
+
+- Applications can be deleted from Structure after confirmation, either alone or together with their root Function. Deleting with the Function also removes all references to it, emptied function categories and allocation roles, and dataflows involving it; placeholders are kept.
+
+## [93] - 2026-10-22
 
 ### Added
 
