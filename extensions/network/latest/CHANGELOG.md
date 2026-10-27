@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to a simple versioning system, increasing the number by one for each modification.
 
+## [9] - 2026-10-26
+
+### Added
+
+- Edit a ConnectedAP's IP address, subnet mask and gateway directly in the network table; changes are saved to the SCL communication settings.
+- Clear an IP, subnet mask or gateway value with the inline clear button to remove it entirely.
+- Invalid IPv4 entries are flagged with a warning without blocking editing.
+
+## [6] - 2026-10-01
+
+### Changed
+
+- Internal: redeployed on Dexie 4.4.6 (no functional change).
+
 ## [5] - 2026-09-28
 
 ### Changed
