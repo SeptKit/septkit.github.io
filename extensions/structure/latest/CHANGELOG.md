@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [95] - 2026-10-27
+
+### Added
+
+- Allocation Role creation now suggests predefined names while still allowing custom names.
+
 ## [94] - 2026-10-22
 
 ### Added
