@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to a simple versioning system, increasing the number by one for each modification.
 
+## [UNRELEASED]
+
+## [37] - 2026-10-27
+
+### Changed
+
+- Label suggestions now match multiple search words, highlight matching text, and keep the keyboard-selected suggestion in view.
+
 ## [34] - 2026-10-13
 
 ### Fixed
