@@ -7,6 +7,10 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [Unreleased]
 
+## [42] - 2026-10-28
+
+- Update default smpRate value for SampledValueControl
+
 ## [39] - 2026-10-01
 
 ### Fixed

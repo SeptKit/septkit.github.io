@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-ied-browser",
-	"version": "41",
+	"version": "42",
 	"displayName": "IED Browser",
 	"description": "SeptKit extension - browse and inspect IEDs in an SCL file",
 	"private": true,
@@ -20,16 +20,28 @@
 		],
 		"menus": {
 			"set.step.specification": [
-				{ "editor": "sprinteins.ext-ied-browser.editor", "group": "20_editors@90" }
+				{
+					"editor": "sprinteins.ext-ied-browser.editor",
+					"group": "20_editors@90"
+				}
 			],
 			"set.step.implementation": [
-				{ "editor": "sprinteins.ext-ied-browser.editor", "group": "20_editors@90" }
+				{
+					"editor": "sprinteins.ext-ied-browser.editor",
+					"group": "20_editors@90"
+				}
 			],
 			"set.step.network-configuration": [
-				{ "editor": "sprinteins.ext-ied-browser.editor", "group": "20_editors@90" }
+				{
+					"editor": "sprinteins.ext-ied-browser.editor",
+					"group": "20_editors@90"
+				}
 			],
 			"set.step.update": [
-				{ "editor": "sprinteins.ext-ied-browser.editor", "group": "20_editors@90" }
+				{
+					"editor": "sprinteins.ext-ied-browser.editor",
+					"group": "20_editors@90"
+				}
 			]
 		}
 	},
