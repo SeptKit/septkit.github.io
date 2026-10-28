@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [96] - 2026-10-28
+
+### Changed
+
+- Power System Relation creation now selects conducting equipment from a tree of the substation hierarchy with icons and labels instead of a flat list.
+
 ## [95] - 2026-10-27
 
 ### Added
