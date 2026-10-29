@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [97] - 2026-10-29
+
+### Added
+
+- Restrict the equipment of a new Power System Relation with a saved selector (same Bay, Voltage Level or Substation and/or equipment types).
+
 ## [96] - 2026-10-28
 
 ### Changed
