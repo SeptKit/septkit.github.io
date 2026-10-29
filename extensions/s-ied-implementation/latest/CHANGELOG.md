@@ -7,9 +7,19 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [47] - 2026-10-28
+
+### Added
+
+- Map each ICD subnetwork and AccessPoint to a project `SubNetwork` in the Apply dialog, create a new `SubNetwork`, or skip it, and Apply copies the ICD `ConnectedAP` with its `GSE` and `SMV` content to the project file
+
 ## [45] - 2026-10-15
 
 ## [44] - 2026-10-15
+
+### Changed
+
+- An IED counts as a real device only when an ICD or IID file is among its source files, or when the open file is itself an ICD; any other IED is an S-IED whatever its manufacturer or name. An IED without source files that was shown as implemented before is now shown as an S-IED.
 
 ### Added
 
