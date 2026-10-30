@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [30] - 2026-10-30
+
+### Added
+
+- Mmulti/Omulti instance counts in the DataTypeTemplates tree are labelled "instance" or "instances"
+
 ## [27] - 2026-10-08
 
 ### Fixed
