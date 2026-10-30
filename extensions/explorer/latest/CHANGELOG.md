@@ -7,6 +7,16 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [20] - 2026-10-27
+
+### Changed
+
+- The Explorer outline refreshes automatically when an element is created or removed in Structure View; the refresh button is removed
+
+### Added
+
+- Selecting an element in the Explorer highlights and zooms to it in Structure View; "Show details" in Structure View selects the element in the Explorer and expands its parents
+
 ## [19] - 2026-10-22
 
 ### Added

@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-explorer",
-	"version": "19",
+	"version": "20",
 	"displayName": "Explorer",
 	"description": "SeptKit extension - explorer that draws an outline view of an SCL file",
 	"private": true,
