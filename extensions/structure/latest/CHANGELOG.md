@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [99] - 2026-10-30
+
+### Added
+
+- Selecting a note in the Notes overview reveals its element in Structure View, zooms to it and opens its Notes tab
+
 ## [98] - 2026-10-27
 
 ### Added
