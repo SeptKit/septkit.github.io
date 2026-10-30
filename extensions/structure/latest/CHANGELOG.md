@@ -7,6 +7,14 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [98] - 2026-10-27
+
+### Added
+
+- Selecting a grouped element in the Explorer moves the view to its group
+- Selecting an element in the Explorer reveals it in Structure View, focuses it and zooms to it
+- Clicking an element selects it in the Explorer
+
 ## [97] - 2026-10-29
 
 ### Added
