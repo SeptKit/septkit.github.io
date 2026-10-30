@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [11] - 2026-10-30
+
+### Added
+
+- Clicking a note (or pressing Enter on it) reveals the element it belongs to in Structure View and opens its notes
+
 ## [10] - 2026-10-15
 
 ### Changed
