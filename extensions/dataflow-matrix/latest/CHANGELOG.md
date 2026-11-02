@@ -7,6 +7,13 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [13] - 2026-10-31
+
+### Added
+
+- Filter the implementation matrix by IED/LDevice hierarchy
+- Filter the implementation matrix by implementation state
+
 ## [9] - 2026-09-23
 
 ### Fixed
