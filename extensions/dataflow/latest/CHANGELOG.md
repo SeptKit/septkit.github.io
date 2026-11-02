@@ -7,7 +7,19 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## Unreleased
 
+## [77] - 2026-10-29
+
+### Added
+
+- Edit specified dataflow groups and controlled dataflows
+
+### Fixed
+
+- New dataflows and placeholders reuse free input/output instances instead of repeating an instance already in use
+
 ## [76] - 2026-10-28
+
+### Changed
 
 - Update default smpRate value for SampledValueControl
 
