@@ -7,6 +7,13 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [48] - 2026-10-30
+
+### Added
+
+- Unlink implemented LNodes, review affected dataflows, and optionally relink or revert before applying changes
+- Link unassigned LNodes to available LNs of existing project IEDs without importing an ICD
+
 ## [47] - 2026-10-28
 
 ### Added
