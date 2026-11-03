@@ -7,6 +7,13 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [66] - 2026-11-03
+
+### Changed
+
+- When several files are added at once, the other files are still added when one cannot be read, and a message names the files that could not be imported.
+- Saved files are indented with four spaces and use Windows line endings.
+
 ## [65] - 2026-10-16
 
 ### Changed
