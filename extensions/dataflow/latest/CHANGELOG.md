@@ -7,21 +7,17 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## Unreleased
 
+## [79] - 2026-11-03
+
+### Added
+
+- List the LNodes matching the process scope of a cardinality-backed dataflow placeholder as candidate Resources of its ProcessResource
+
 ## [78] - 2026-11-03
 
 ### Added
 
 - Choose the process scope (Bay, Voltage Level or Substation) of cardinality-backed dataflow placeholders
-
-## [77] - 2026-10-29
-
-### Added
-
-- Edit specified dataflow groups and controlled dataflows
-
-### Fixed
-
-- New dataflows and placeholders reuse free input/output instances instead of repeating an instance already in use
 
 ## [76] - 2026-10-28
 

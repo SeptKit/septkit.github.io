@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-dataflow",
-	"version": "78",
+	"version": "79",
 	"displayName": "Dataflow",
 	"description": "extension for SET Platform that provides dataflow capabilities between Logic-Nodes",
 	"private": true,
