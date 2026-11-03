@@ -7,6 +7,10 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [50] 2026-11-03
+
+- Apply readiness checks finish faster by reusing unchanged results; Apply waits for checks and shows readiness failures
+
 ## [49] - 2026-11-03
 
 ### Changed

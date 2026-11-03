@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-specification-ied-implementation",
-	"version": "49",
+	"version": "50",
 	"displayName": "S-IED Implementation",
 	"description": "SeptKit extension - S-IED implementation",
 	"private": true,
@@ -20,7 +20,10 @@
 		],
 		"menus": {
 			"set.step.implementation": [
-				{ "editor": "sprinteins.ext-specification-ied-implementation.specification-ied-implementation", "group": "20_editors@110" }
+				{
+					"editor": "sprinteins.ext-specification-ied-implementation.specification-ied-implementation",
+					"group": "20_editors@110"
+				}
 			]
 		}
 	},
