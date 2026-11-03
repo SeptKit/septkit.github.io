@@ -1,11 +1,11 @@
-(function(){try{if(typeof document<`u`){var e=document.createElement(`style`);e.appendChild(document.createTextNode(`.lnode-type-list-layout[data-v-61ca118a]{border:1px solid var(--color-base-300,#e5e7eb);border-radius:.5rem;flex-direction:column;height:100%;display:flex;overflow:hidden}.lnode-type-list-layout__header[data-v-61ca118a]{border-bottom:1px solid var(--color-base-300,#e5e7eb);padding:.75rem}.lnode-type-list-layout__list[data-v-61ca118a]{flex:1;min-height:0;overflow-y:auto}.lnode-type-list-header[data-v-73c437e5]{align-items:center;gap:.5rem;display:flex}.lnode-type-list-header__search[data-v-73c437e5]{flex:1;min-width:0}.lnode-type-list-header__sort[data-v-73c437e5]{white-space:nowrap}ul[data-v-9a863e39]{margin:0;padding:0;list-style:none}li[data-v-9a863e39]{cursor:pointer;border-bottom:1px solid var(--color-base-300,#e5e7eb);justify-content:space-between;align-items:center;padding:.5rem .75rem;display:flex}li[data-v-9a863e39]:nth-child(2n){background:var(--color-base-200,#f5f5f5)}li.selected[data-v-9a863e39]{background:var(--color-primary,#2563eb);color:var(--color-primary-content,#fff)}span[data-v-9a863e39]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}button[data-v-9a863e39]{visibility:hidden}button[data-v-9a863e39]:not(:disabled){color:var(--color-error)}li:hover button[data-v-9a863e39]{visibility:visible}li.empty[data-v-9a863e39]{text-align:center;opacity:.6;cursor:default;background:0 0;border:none;padding:1rem;display:block}.ln-class-dialog[data-v-b9c4a18b]{flex-direction:column;gap:.75rem;max-height:80vh;display:flex}.ln-class-dialog__close[data-v-b9c4a18b]{position:absolute;top:.5rem;right:.5rem}.ln-class-dialog__title[data-v-b9c4a18b]{font-weight:600}.ln-class-dialog__search[data-v-b9c4a18b],.ln-class-dialog__name-input[data-v-b9c4a18b]{width:100%}.ln-class-dialog__list[data-v-b9c4a18b]{border:1px solid var(--color-base-300,#e5e7eb);border-radius:.25rem;flex:1;min-height:8rem;max-height:40vh;margin:0;padding:0;list-style:none;overflow-y:auto}.ln-class-dialog__row[data-v-b9c4a18b]{cursor:pointer;border-bottom:1px solid var(--color-base-300,#e5e7eb);flex-direction:column;padding:.4rem .6rem;display:flex}.ln-class-dialog__row--selected[data-v-b9c4a18b]{background:var(--color-primary,#2563eb);color:var(--color-primary-content,#fff)}.ln-class-dialog__namespace[data-v-b9c4a18b]{opacity:.7;font-size:.75rem}.ln-class-dialog__extended-by[data-v-b9c4a18b]{opacity:.7;font-size:.7rem;font-style:italic}.ln-class-dialog__empty[data-v-b9c4a18b]{text-align:center;opacity:.6;padding:1rem}.ln-class-dialog__actions[data-v-b9c4a18b]{justify-content:flex-end;display:flex}.lnode-type-list__error[data-v-d3cfc3c5]{color:var(--color-error,#dc2626);margin-top:.5rem;font-size:.75rem}.add-do-dialog[data-v-f9c51e84]{flex-direction:column;gap:.75rem;max-height:80vh;display:flex}.add-do-dialog__close[data-v-f9c51e84]{position:absolute;top:.5rem;right:.5rem}.add-do-dialog__title[data-v-f9c51e84]{font-weight:600}.add-do-dialog__search[data-v-f9c51e84],.add-do-dialog__name[data-v-f9c51e84]{width:100%}.add-do-dialog__list[data-v-f9c51e84]{border:1px solid var(--color-base-300,#e5e7eb);border-radius:.25rem;min-height:8rem;max-height:40vh;margin:0;padding:0;list-style:none;overflow-y:auto}.add-do-dialog__row[data-v-f9c51e84]{cursor:pointer;border-bottom:1px solid var(--color-base-300,#e5e7eb);grid-template-columns:minmax(3rem,max-content) 1fr max-content;gap:.75rem;padding:.4rem .6rem;display:grid}.add-do-dialog__row--selected[data-v-f9c51e84]{background:var(--color-primary,#2563eb);color:var(--color-primary-content,#fff)}.add-do-dialog__description[data-v-f9c51e84]{text-overflow:ellipsis;white-space:nowrap;opacity:.75;font-size:.75rem;overflow:hidden}.add-do-dialog__namespace[data-v-f9c51e84]{opacity:.7;font-size:.75rem}.add-do-dialog__empty[data-v-f9c51e84]{text-align:center;opacity:.6;padding:1rem}.add-do-dialog__error[data-v-f9c51e84]{color:var(--color-error,#dc2626);font-size:.75rem}.add-do-dialog__actions[data-v-f9c51e84]{justify-content:flex-end;display:flex}.enum-editor[data-v-fb6c3661]{flex-direction:column;gap:.75rem;display:flex}.enum-editor__close[data-v-fb6c3661]{position:absolute;top:.5rem;right:.5rem}.enum-editor__title[data-v-fb6c3661]{font-weight:600}.enum-editor__list[data-v-fb6c3661]{flex-direction:column;gap:.3rem;max-height:50vh;margin:0;padding:0;list-style:none;display:flex;overflow-y:auto}.enum-editor__row[data-v-fb6c3661]{align-items:center;gap:.4rem;display:flex}.enum-editor__ord[data-v-fb6c3661]{width:4rem}.enum-editor__value[data-v-fb6c3661]{flex:1}.enum-editor__actions[data-v-fb6c3661]{justify-content:space-between;display:flex}.lnode-type-details-header[data-v-9b5aed3f]{flex-direction:column;gap:.5rem;display:flex}.lnode-type-details-header__row[data-v-9b5aed3f]{flex-wrap:wrap;align-items:center;gap:.5rem;display:flex}.lnode-type-details-header__title-group[data-v-9b5aed3f]{flex:1;align-items:baseline;gap:.5rem;min-width:0;display:flex}.lnode-type-details-header__title[data-v-9b5aed3f]{text-overflow:ellipsis;white-space:nowrap;font-weight:600;overflow:hidden}.lnode-type-details-header__namespace[data-v-9b5aed3f]{opacity:.7;white-space:nowrap;text-overflow:ellipsis;min-width:0;font-size:.75rem;overflow:hidden}.lnode-type-details-header__search[data-v-9b5aed3f]{flex:1;min-width:8rem}.info-popup__close[data-v-5825e64d]{position:absolute;top:.5rem;right:.5rem}.info-popup__title[data-v-5825e64d]{margin-bottom:.75rem;font-weight:600}.info-popup__grid[data-v-5825e64d]{grid-template-columns:max-content 1fr;gap:.3rem .75rem;font-size:.85rem;display:grid}.info-popup__grid dt[data-v-5825e64d]{text-align:right;font-weight:600}.info-popup__grid dd[data-v-5825e64d]{margin:0}.info-popup__condition-description[data-v-5825e64d],.info-popup__meta[data-v-5825e64d]{opacity:.75}.lnode-type-details-layout[data-v-ce2d87fb]{border:1px solid var(--color-base-300,#e5e7eb);border-radius:.5rem;flex-direction:column;height:100%;display:flex;overflow:hidden}.lnode-type-details-layout__header[data-v-ce2d87fb]{border-bottom:1px solid var(--color-base-300,#e5e7eb);padding:.75rem}.lnode-type-details-layout__body[data-v-ce2d87fb]{flex:1;min-height:0;display:flex}.lnode-type-details-layout__tree[data-v-ce2d87fb]{flex:1;min-width:0;overflow-y:auto}.lnode-type-details-layout__references[data-v-ce2d87fb]:empty{display:none}.reference-panel[data-v-4531446f]{border-left:1px solid var(--color-base-300,#e5e7eb);flex-direction:column;width:18rem;height:100%;display:flex}.reference-panel__header[data-v-4531446f]{border-bottom:1px solid var(--color-base-300,#e5e7eb);justify-content:space-between;align-items:center;padding:.5rem .75rem;font-size:.85rem;font-weight:600;display:flex}.reference-panel__list[data-v-4531446f]{flex:1;margin:0;padding:0;list-style:none;overflow-y:auto}.reference-panel__list li[data-v-4531446f]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .75rem;font-size:.8rem;display:flex}.reference-panel__path[data-v-4531446f]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.reference-panel__empty[data-v-4531446f]{opacity:.6}.tree-node__row[data-v-f826d537]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__expander--leaf[data-v-f826d537]{cursor:default;width:1rem}.tree-node__name[data-v-f826d537]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__allatleastonegroup-select[data-v-f826d537]{max-width:16rem}.tree-node__row[data-v-35bf2d11]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__expander--leaf[data-v-35bf2d11]{cursor:default;width:1rem}.tree-node__name[data-v-35bf2d11]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__allonlyonegroup-select[data-v-35bf2d11]{max-width:16rem}.tree-node__row[data-v-80861559]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__expander--leaf[data-v-80861559]{cursor:default;width:1rem}.tree-node__name[data-v-80861559]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__row[data-v-8611a072]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__expander--leaf[data-v-8611a072]{cursor:default;width:1rem}.tree-node__name[data-v-8611a072]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__atleastone-select[data-v-8611a072]{max-width:16rem}.tree-node__row[data-v-535878a6]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__expander--leaf[data-v-535878a6]{cursor:default;width:1rem}.tree-node__name[data-v-535878a6]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__atmostone-select[data-v-535878a6]{max-width:16rem}.tree-node__row[data-v-c667b70f]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__row[data-v-c667b70f]:hover{background:var(--color-base-200,#f5f5f5)}.tree-node__expander[data-v-c667b70f]{cursor:pointer;background:0 0;border:none;width:1rem;padding:0;font-size:.7rem}.tree-node__expander--leaf[data-v-c667b70f]{cursor:default}.tree-node__name[data-v-c667b70f]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__info[data-v-c667b70f]{visibility:hidden;cursor:pointer;opacity:.7;background:0 0;border:none;font-size:.75rem}.tree-node__row:hover .tree-node__info[data-v-c667b70f]{visibility:visible}.tree-node__cdc[data-v-c667b70f]{opacity:.6;font-size:.75rem}.tree-node__enum[data-v-c667b70f]{margin-left:auto}.tree-node__setting-fc[data-v-c667b70f]{width:auto}.tree-node__instance-count[data-v-c667b70f]{align-items:center;gap:.25rem;font-size:.75rem;display:inline-flex}.tree-node__instance-count-input[data-v-c667b70f]{width:3.5rem}.tree-node__enum-val[data-v-c667b70f]{border-bottom:1px solid var(--color-base-300,#e5e7eb);opacity:.9;align-items:center;gap:.4rem;padding:.25rem .5rem;display:flex}.tree-node__enum-ord[data-v-c667b70f]{font-variant-numeric:tabular-nums}.lnode-type-tree__warning[data-v-2b6ba5e0]{color:var(--color-warning,#b45309);padding:.4rem .75rem;font-size:.75rem}.lnode-type-tree__group-header[data-v-2b6ba5e0]{border-top:1px solid var(--color-base-300,#e5e7eb);border-bottom:1px solid var(--color-base-300,#e5e7eb);background:var(--color-base-200,#f3f4f6);padding:.35rem .75rem;font-size:.75rem;font-weight:600}.lnode-type-tree__empty[data-v-2b6ba5e0]{text-align:center;opacity:.6;padding:1rem}.lnode-type-details__error[data-v-10f13347]{color:var(--color-error,#dc2626);margin-top:.5rem;font-size:.75rem}.lnode-type-details__placeholder[data-v-10f13347]{text-align:center;opacity:.6;padding:2rem}main[data-v-c82fcc52]{grid-template-columns:minmax(16rem,1fr) 2fr;gap:1rem;height:100%;padding:1rem;display:grid;overflow:hidden}.pane[data-v-c82fcc52]{min-height:0;overflow:hidden}p[data-v-c82fcc52]{text-align:center;opacity:.6;grid-column:1/-1;align-self:center}`)),document.head.appendChild(e)}}catch(e){console.error(`vite-plugin-css-injected-by-js`,e)}})();import { $ as e, B as t, Ct as n, E as r, Et as i, F as a, G as o, H as s, I as c, J as l, L as u, O as d, Q as f, R as p, St as m, Tt as h, U as g, V as _, W as v, X as y, Y as b, Z as x, ct as S, dt as C, et as w, ft as T, g as E, it as ee, l as te, lt as ne, n as re, nt as D, ot as O, pt as k, q as ie, r as ae, rt as A, s as oe, st as j, tt as M, ut as se, vt as N, w as ce, wt as P, z as F } from "./main-KUX08-TY.js";
-import { a as le, d as ue, n as de, o as fe, s as pe, u as me } from "./query-nsd-metadata-DI29Y5pA.js";
+(function(){try{if(typeof document<`u`){var e=document.createElement(`style`);e.appendChild(document.createTextNode(`.lnode-type-list-layout[data-v-61ca118a]{border:1px solid var(--color-base-300,#e5e7eb);border-radius:.5rem;flex-direction:column;height:100%;display:flex;overflow:hidden}.lnode-type-list-layout__header[data-v-61ca118a]{border-bottom:1px solid var(--color-base-300,#e5e7eb);padding:.75rem}.lnode-type-list-layout__list[data-v-61ca118a]{flex:1;min-height:0;overflow-y:auto}.lnode-type-list-header[data-v-73c437e5]{align-items:center;gap:.5rem;display:flex}.lnode-type-list-header__search[data-v-73c437e5]{flex:1;min-width:0}.lnode-type-list-header__sort[data-v-73c437e5]{white-space:nowrap}ul[data-v-9a863e39]{margin:0;padding:0;list-style:none}li[data-v-9a863e39]{cursor:pointer;border-bottom:1px solid var(--color-base-300,#e5e7eb);justify-content:space-between;align-items:center;padding:.5rem .75rem;display:flex}li[data-v-9a863e39]:nth-child(2n){background:var(--color-base-200,#f5f5f5)}li.selected[data-v-9a863e39]{background:var(--color-primary,#2563eb);color:var(--color-primary-content,#fff)}span[data-v-9a863e39]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}button[data-v-9a863e39]{visibility:hidden}button[data-v-9a863e39]:not(:disabled){color:var(--color-error)}li:hover button[data-v-9a863e39]{visibility:visible}li.empty[data-v-9a863e39]{text-align:center;opacity:.6;cursor:default;background:0 0;border:none;padding:1rem;display:block}.ln-class-dialog[data-v-b9c4a18b]{flex-direction:column;gap:.75rem;max-height:80vh;display:flex}.ln-class-dialog__close[data-v-b9c4a18b]{position:absolute;top:.5rem;right:.5rem}.ln-class-dialog__title[data-v-b9c4a18b]{font-weight:600}.ln-class-dialog__search[data-v-b9c4a18b],.ln-class-dialog__name-input[data-v-b9c4a18b]{width:100%}.ln-class-dialog__list[data-v-b9c4a18b]{border:1px solid var(--color-base-300,#e5e7eb);border-radius:.25rem;flex:1;min-height:8rem;max-height:40vh;margin:0;padding:0;list-style:none;overflow-y:auto}.ln-class-dialog__row[data-v-b9c4a18b]{cursor:pointer;border-bottom:1px solid var(--color-base-300,#e5e7eb);flex-direction:column;padding:.4rem .6rem;display:flex}.ln-class-dialog__row--selected[data-v-b9c4a18b]{background:var(--color-primary,#2563eb);color:var(--color-primary-content,#fff)}.ln-class-dialog__namespace[data-v-b9c4a18b]{opacity:.7;font-size:.75rem}.ln-class-dialog__extended-by[data-v-b9c4a18b]{opacity:.7;font-size:.7rem;font-style:italic}.ln-class-dialog__empty[data-v-b9c4a18b]{text-align:center;opacity:.6;padding:1rem}.ln-class-dialog__actions[data-v-b9c4a18b]{justify-content:flex-end;display:flex}.lnode-type-list__error[data-v-d3cfc3c5]{color:var(--color-error,#dc2626);margin-top:.5rem;font-size:.75rem}.add-do-dialog[data-v-f9c51e84]{flex-direction:column;gap:.75rem;max-height:80vh;display:flex}.add-do-dialog__close[data-v-f9c51e84]{position:absolute;top:.5rem;right:.5rem}.add-do-dialog__title[data-v-f9c51e84]{font-weight:600}.add-do-dialog__search[data-v-f9c51e84],.add-do-dialog__name[data-v-f9c51e84]{width:100%}.add-do-dialog__list[data-v-f9c51e84]{border:1px solid var(--color-base-300,#e5e7eb);border-radius:.25rem;min-height:8rem;max-height:40vh;margin:0;padding:0;list-style:none;overflow-y:auto}.add-do-dialog__row[data-v-f9c51e84]{cursor:pointer;border-bottom:1px solid var(--color-base-300,#e5e7eb);grid-template-columns:minmax(3rem,max-content) 1fr max-content;gap:.75rem;padding:.4rem .6rem;display:grid}.add-do-dialog__row--selected[data-v-f9c51e84]{background:var(--color-primary,#2563eb);color:var(--color-primary-content,#fff)}.add-do-dialog__description[data-v-f9c51e84]{text-overflow:ellipsis;white-space:nowrap;opacity:.75;font-size:.75rem;overflow:hidden}.add-do-dialog__namespace[data-v-f9c51e84]{opacity:.7;font-size:.75rem}.add-do-dialog__empty[data-v-f9c51e84]{text-align:center;opacity:.6;padding:1rem}.add-do-dialog__error[data-v-f9c51e84]{color:var(--color-error,#dc2626);font-size:.75rem}.add-do-dialog__actions[data-v-f9c51e84]{justify-content:flex-end;display:flex}.enum-editor[data-v-fb6c3661]{flex-direction:column;gap:.75rem;display:flex}.enum-editor__close[data-v-fb6c3661]{position:absolute;top:.5rem;right:.5rem}.enum-editor__title[data-v-fb6c3661]{font-weight:600}.enum-editor__list[data-v-fb6c3661]{flex-direction:column;gap:.3rem;max-height:50vh;margin:0;padding:0;list-style:none;display:flex;overflow-y:auto}.enum-editor__row[data-v-fb6c3661]{align-items:center;gap:.4rem;display:flex}.enum-editor__ord[data-v-fb6c3661]{width:4rem}.enum-editor__value[data-v-fb6c3661]{flex:1}.enum-editor__actions[data-v-fb6c3661]{justify-content:space-between;display:flex}.lnode-type-details-header[data-v-9b5aed3f]{flex-direction:column;gap:.5rem;display:flex}.lnode-type-details-header__row[data-v-9b5aed3f]{flex-wrap:wrap;align-items:center;gap:.5rem;display:flex}.lnode-type-details-header__title-group[data-v-9b5aed3f]{flex:1;align-items:baseline;gap:.5rem;min-width:0;display:flex}.lnode-type-details-header__title[data-v-9b5aed3f]{text-overflow:ellipsis;white-space:nowrap;font-weight:600;overflow:hidden}.lnode-type-details-header__namespace[data-v-9b5aed3f]{opacity:.7;white-space:nowrap;text-overflow:ellipsis;min-width:0;font-size:.75rem;overflow:hidden}.lnode-type-details-header__search[data-v-9b5aed3f]{flex:1;min-width:8rem}.info-popup__close[data-v-5825e64d]{position:absolute;top:.5rem;right:.5rem}.info-popup__title[data-v-5825e64d]{margin-bottom:.75rem;font-weight:600}.info-popup__grid[data-v-5825e64d]{grid-template-columns:max-content 1fr;gap:.3rem .75rem;font-size:.85rem;display:grid}.info-popup__grid dt[data-v-5825e64d]{text-align:right;font-weight:600}.info-popup__grid dd[data-v-5825e64d]{margin:0}.info-popup__condition-description[data-v-5825e64d],.info-popup__meta[data-v-5825e64d]{opacity:.75}.lnode-type-details-layout[data-v-ce2d87fb]{border:1px solid var(--color-base-300,#e5e7eb);border-radius:.5rem;flex-direction:column;height:100%;display:flex;overflow:hidden}.lnode-type-details-layout__header[data-v-ce2d87fb]{border-bottom:1px solid var(--color-base-300,#e5e7eb);padding:.75rem}.lnode-type-details-layout__body[data-v-ce2d87fb]{flex:1;min-height:0;display:flex}.lnode-type-details-layout__tree[data-v-ce2d87fb]{flex:1;min-width:0;overflow-y:auto}.lnode-type-details-layout__references[data-v-ce2d87fb]:empty{display:none}.reference-panel[data-v-4531446f]{border-left:1px solid var(--color-base-300,#e5e7eb);flex-direction:column;width:18rem;height:100%;display:flex}.reference-panel__header[data-v-4531446f]{border-bottom:1px solid var(--color-base-300,#e5e7eb);justify-content:space-between;align-items:center;padding:.5rem .75rem;font-size:.85rem;font-weight:600;display:flex}.reference-panel__list[data-v-4531446f]{flex:1;margin:0;padding:0;list-style:none;overflow-y:auto}.reference-panel__list li[data-v-4531446f]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .75rem;font-size:.8rem;display:flex}.reference-panel__path[data-v-4531446f]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.reference-panel__empty[data-v-4531446f]{opacity:.6}.tree-node__row[data-v-f826d537]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__expander--leaf[data-v-f826d537]{cursor:default;width:1rem}.tree-node__name[data-v-f826d537]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__allatleastonegroup-select[data-v-f826d537]{max-width:16rem}.tree-node__row[data-v-35bf2d11]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__expander--leaf[data-v-35bf2d11]{cursor:default;width:1rem}.tree-node__name[data-v-35bf2d11]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__allonlyonegroup-select[data-v-35bf2d11]{max-width:16rem}.tree-node__row[data-v-80861559]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__expander--leaf[data-v-80861559]{cursor:default;width:1rem}.tree-node__name[data-v-80861559]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__row[data-v-8611a072]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__expander--leaf[data-v-8611a072]{cursor:default;width:1rem}.tree-node__name[data-v-8611a072]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__atleastone-select[data-v-8611a072]{max-width:16rem}.tree-node__row[data-v-535878a6]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__expander--leaf[data-v-535878a6]{cursor:default;width:1rem}.tree-node__name[data-v-535878a6]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__atmostone-select[data-v-535878a6]{max-width:16rem}.tree-node__row[data-v-c667b70f]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__row[data-v-c667b70f]:hover{background:var(--color-base-200,#f5f5f5)}.tree-node__expander[data-v-c667b70f]{cursor:pointer;background:0 0;border:none;width:1rem;padding:0;font-size:.7rem}.tree-node__expander--leaf[data-v-c667b70f]{cursor:default}.tree-node__name[data-v-c667b70f]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__info[data-v-c667b70f]{visibility:hidden;cursor:pointer;opacity:.7;background:0 0;border:none;font-size:.75rem}.tree-node__row:hover .tree-node__info[data-v-c667b70f]{visibility:visible}.tree-node__cdc[data-v-c667b70f]{opacity:.6;font-size:.75rem}.tree-node__enum[data-v-c667b70f]{margin-left:auto}.tree-node__setting-fc[data-v-c667b70f]{width:auto}.tree-node__instance-count[data-v-c667b70f]{align-items:center;gap:.25rem;font-size:.75rem;display:inline-flex}.tree-node__instance-count-input[data-v-c667b70f]{width:3.5rem}.tree-node__enum-val[data-v-c667b70f]{border-bottom:1px solid var(--color-base-300,#e5e7eb);opacity:.9;align-items:center;gap:.4rem;padding:.25rem .5rem;display:flex}.tree-node__enum-ord[data-v-c667b70f]{font-variant-numeric:tabular-nums}.lnode-type-tree__warning[data-v-2b6ba5e0]{color:var(--color-warning,#b45309);padding:.4rem .75rem;font-size:.75rem}.lnode-type-tree__group-header[data-v-2b6ba5e0]{border-top:1px solid var(--color-base-300,#e5e7eb);border-bottom:1px solid var(--color-base-300,#e5e7eb);background:var(--color-base-200,#f3f4f6);padding:.35rem .75rem;font-size:.75rem;font-weight:600}.lnode-type-tree__empty[data-v-2b6ba5e0]{text-align:center;opacity:.6;padding:1rem}.lnode-type-details__error[data-v-10f13347]{color:var(--color-error,#dc2626);margin-top:.5rem;font-size:.75rem}.lnode-type-details__placeholder[data-v-10f13347]{text-align:center;opacity:.6;padding:2rem}main[data-v-c82fcc52]{grid-template-columns:minmax(16rem,1fr) 2fr;gap:1rem;height:100%;padding:1rem;display:grid;overflow:hidden}.pane[data-v-c82fcc52]{min-height:0;overflow:hidden}p[data-v-c82fcc52]{text-align:center;opacity:.6;grid-column:1/-1;align-self:center}`)),document.head.appendChild(e)}}catch(e){console.error(`vite-plugin-css-injected-by-js`,e)}})();import { $ as e, A as t, B as n, Dt as r, Et as i, G as a, H as o, J as s, K as c, Ot as l, P as u, Q as d, R as f, Tt as p, U as m, V as h, W as g, X as _, Z as v, at as y, b, dt as x, et as S, ft as ee, gt as C, ht as w, it as T, kt as E, l as te, lt as D, mt as O, n as ne, nt as k, ot as re, p as ie, pt as ae, q as oe, r as se, rt as A, st as ce, tt as j, u as le, ut as M, xt as N, z as ue } from "./main-CUQebmJM.js";
+import { a as de, d as fe, f as pe, n as me, o as he, s as ge, u as _e } from "./query-nsd-metadata-B0yegscf.js";
 //#region src/data-type-templates/lnode-type-list/layout.vue
-var he = {}, ge = { class: "lnode-type-list-layout" }, _e = { class: "lnode-type-list-layout__header" }, ve = { class: "lnode-type-list-layout__list" };
-function ye(t, n) {
-	return O(), e("section", ge, [y("header", _e, [S(t.$slots, "header", {}, void 0, !0)]), y("div", ve, [S(t.$slots, "list", {}, void 0, !0)])]);
+var ve = {}, ye = { class: "lnode-type-list-layout" }, be = { class: "lnode-type-list-layout__header" }, xe = { class: "lnode-type-list-layout__list" };
+function Se(t, n) {
+	return D(), k("section", ye, [e("header", be, [x(t.$slots, "header", {}, void 0, !0)]), e("div", xe, [x(t.$slots, "list", {}, void 0, !0)])]);
 }
-var be = /* @__PURE__ */ F(he, [["render", ye], ["__scopeId", "data-v-61ca118a"]]), xe = { class: "lnode-type-list-header" }, Se = ["value"], Ce = ["title"], we = /* @__PURE__ */ F(/* @__PURE__ */ D({
+var Ce = /* @__PURE__ */ o(ve, [["render", Se], ["__scopeId", "data-v-61ca118a"]]), we = { class: "lnode-type-list-header" }, Te = ["value"], Ee = ["title"], De = /* @__PURE__ */ o(/* @__PURE__ */ y({
 	__name: "header",
 	props: {
 		search: { default: "" },
@@ -24,141 +24,141 @@ var be = /* @__PURE__ */ F(he, [["render", ye], ["__scopeId", "data-v-61ca118a"]
 		function a(e) {
 			i("search", e.target.value);
 		}
-		return (t, n) => (O(), e("div", xe, [
-			y("input", {
+		return (t, n) => (D(), k("div", we, [
+			e("input", {
 				class: "input input-sm lnode-type-list-header__search",
 				type: "search",
 				placeholder: "Search...",
 				value: r.search,
 				"data-testid": "dtt-list-search",
 				onInput: a
-			}, null, 40, Se),
-			y("button", {
+			}, null, 40, Te),
+			e("button", {
 				class: "btn btn-sm lnode-type-list-header__sort",
 				title: r.ascending ? "Ascending" : "Descending",
 				"data-testid": "dtt-list-sort",
 				onClick: n[0] ||= (e) => i("sort", !r.ascending)
-			}, h(r.ascending ? "Ascending ▲" : "Descending ▼"), 9, Ce),
-			y("button", {
+			}, l(r.ascending ? "Ascending ▲" : "Descending ▼"), 9, Ee),
+			e("button", {
 				class: "btn btn-sm btn-primary",
 				"data-testid": "dtt-list-new",
 				onClick: n[1] ||= (e) => i("new")
 			}, " New ")
 		]));
 	}
-}), [["__scopeId", "data-v-73c437e5"]]), Te = ["onClick"], Ee = [
+}), [["__scopeId", "data-v-73c437e5"]]), Oe = ["onClick"], ke = [
 	"title",
 	"disabled",
 	"onClick"
-], De = {
+], Ae = {
 	key: 0,
 	class: "empty",
 	"data-testid": "dtt-list-empty"
-}, Oe = /* @__PURE__ */ F(/* @__PURE__ */ D({
+}, je = /* @__PURE__ */ o(/* @__PURE__ */ y({
 	__name: "list",
 	props: {
 		lNodeTypes: { default: () => [] },
 		selectedId: { default: void 0 }
 	},
 	emits: ["select", "delete"],
-	setup(t, { emit: r }) {
-		let i = t, a = r;
-		return (t, r) => (O(), e("ul", null, [(O(!0), e(l, null, j(i.lNodeTypes, (t) => (O(), e("li", {
+	setup(t, { emit: n }) {
+		let r = t, a = n;
+		return (t, n) => (D(), k("ul", null, [(D(!0), k(v, null, M(r.lNodeTypes, (t) => (D(), k("li", {
 			key: t.id,
-			class: n({ selected: t.id === i.selectedId }),
+			class: i({ selected: t.id === r.selectedId }),
 			"data-testid": "dtt-lnode-type-row",
 			onClick: (e) => a("select", t.id)
-		}, [y("span", null, h(t.id) + ": " + h(t.lnClass), 1), y("button", {
+		}, [e("span", null, l(t.id) + ": " + l(t.lnClass), 1), e("button", {
 			class: "btn btn-xs btn-ghost",
 			title: t.isReferenced ? "Cannot delete: LNodeType is in use" : "Delete LNodeType",
 			disabled: t.isReferenced,
 			"data-testid": "dtt-lnode-type-delete",
-			onClick: ie((e) => a("delete", t.id), ["stop"])
-		}, [M(me, { class: "w-5 h-5" })], 8, Ee)], 10, Te))), 128)), i.lNodeTypes.length ? f("", !0) : (O(), e("li", De, " No LNodeTypes found. "))]));
+			onClick: _((e) => a("delete", t.id), ["stop"])
+		}, [T(fe, { class: "w-5 h-5" })], 8, ke)], 10, Oe))), 128)), r.lNodeTypes.length ? j("", !0) : (D(), k("li", Ae, " No LNodeTypes found. "))]));
 	}
-}), [["__scopeId", "data-v-9a863e39"]]), ke = { class: "modal-box ln-class-dialog" }, Ae = { class: "ln-class-dialog__list" }, je = ["onClick"], Me = { class: "ln-class-dialog__name" }, Ne = { class: "ln-class-dialog__namespace" }, Pe = {
+}), [["__scopeId", "data-v-9a863e39"]]), Me = { class: "modal-box ln-class-dialog" }, Ne = { class: "ln-class-dialog__list" }, Pe = ["onClick"], Fe = { class: "ln-class-dialog__name" }, Ie = { class: "ln-class-dialog__namespace" }, Le = {
 	key: 0,
 	class: "ln-class-dialog__extended-by",
 	"data-testid": "dtt-ln-class-extended-by"
-}, Fe = {
+}, Re = {
 	key: 0,
 	class: "ln-class-dialog__empty",
 	"data-testid": "dtt-ln-class-empty"
-}, Ie = { class: "ln-class-dialog__actions" }, Le = ["disabled"], Re = /* @__PURE__ */ F(/* @__PURE__ */ D({
+}, ze = { class: "ln-class-dialog__actions" }, Be = ["disabled"], Ve = /* @__PURE__ */ o(/* @__PURE__ */ y({
 	__name: "ln-class-dialog",
 	props: { lnClasses: { default: () => [] } },
 	emits: ["create"],
-	setup(t, { expose: r, emit: i }) {
-		let a = t, s = i;
-		r({
-			open: _,
-			close: v
+	setup(t, { expose: n, emit: r }) {
+		let a = t, o = r;
+		n({
+			open: g,
+			close: _
 		});
-		let c = N(), u = N(""), d = N(""), p = N(), m = b(function() {
+		let c = N(), u = N(""), f = N(""), p = N(), m = d(function() {
 			let e = u.value.trim().toLowerCase();
 			return e ? a.lnClasses.filter(function(t) {
 				return t.lnClass.toLowerCase().includes(e) || t.namespace.label.toLowerCase().includes(e);
 			}) : a.lnClasses;
-		}), g = b(function() {
-			return !!p.value && d.value.trim().length > 0;
+		}), h = d(function() {
+			return !!p.value && f.value.trim().length > 0;
 		});
-		function _() {
-			u.value = "", d.value = "", p.value = void 0, c.value?.showModal();
+		function g() {
+			u.value = "", f.value = "", p.value = void 0, c.value?.showModal();
 		}
-		function v() {
+		function _() {
 			c.value?.close();
 		}
-		function x(e) {
-			p.value = e, d.value.trim() || (d.value = e.lnClass);
+		function y(e) {
+			p.value = e, f.value.trim() || (f.value = e.lnClass);
 		}
-		function S() {
-			!p.value || !g.value || (s("create", p.value, d.value.trim()), v());
+		function b() {
+			!p.value || !h.value || (o("create", p.value, f.value.trim()), _());
 		}
-		return (t, r) => (O(), e("dialog", {
+		return (t, n) => (D(), k("dialog", {
 			ref_key: "dialogElement",
 			ref: c,
 			class: "modal",
 			"data-testid": "dtt-ln-class-dialog"
-		}, [y("div", ke, [
-			y("button", {
+		}, [e("div", Me, [
+			e("button", {
 				class: "btn btn-sm btn-circle btn-ghost ln-class-dialog__close",
 				"data-testid": "dtt-ln-class-close",
-				onClick: v
-			}, [M(ue)]),
-			r[2] ||= y("h3", { class: "ln-class-dialog__title" }, "LNClass", -1),
-			k(y("input", {
-				"onUpdate:modelValue": r[0] ||= (e) => u.value = e,
+				onClick: _
+			}, [T(pe)]),
+			n[2] ||= e("h3", { class: "ln-class-dialog__title" }, "LNClass", -1),
+			C(e("input", {
+				"onUpdate:modelValue": n[0] ||= (e) => u.value = e,
 				class: "input input-sm ln-class-dialog__search",
 				type: "search",
 				placeholder: "Search...",
 				"data-testid": "dtt-ln-class-search"
-			}, null, 512), [[o, u.value]]),
-			y("ul", Ae, [(O(!0), e(l, null, j(m.value, (t) => (O(), e("li", {
+			}, null, 512), [[s, u.value]]),
+			e("ul", Ne, [(D(!0), k(v, null, M(m.value, (t) => (D(), k("li", {
 				key: `${t.lnClass}:${t.documentId}`,
-				class: n(["ln-class-dialog__row", { "ln-class-dialog__row--selected": t === p.value }]),
+				class: i(["ln-class-dialog__row", { "ln-class-dialog__row--selected": t === p.value }]),
 				"data-testid": "dtt-ln-class-row",
-				onClick: (e) => x(t)
+				onClick: (e) => y(t)
 			}, [
-				y("span", Me, h(t.lnClass), 1),
-				y("span", Ne, "[" + h(t.namespace.label) + "]", 1),
-				t.extendedBy.length ? (O(), e("span", Pe, " Extended by: " + h(t.extendedBy.map((e) => e.label).join(", ")), 1)) : f("", !0)
-			], 10, je))), 128)), m.value.length ? f("", !0) : (O(), e("li", Fe, " No LNClasses found. Import NSD files first. "))]),
-			k(y("input", {
-				"onUpdate:modelValue": r[1] ||= (e) => d.value = e,
+				e("span", Fe, l(t.lnClass), 1),
+				e("span", Ie, "[" + l(t.namespace.label) + "]", 1),
+				t.extendedBy.length ? (D(), k("span", Le, " Extended by: " + l(t.extendedBy.map((e) => e.label).join(", ")), 1)) : j("", !0)
+			], 10, Pe))), 128)), m.value.length ? j("", !0) : (D(), k("li", Re, " No LNClasses found. Import NSD files first. "))]),
+			C(e("input", {
+				"onUpdate:modelValue": n[1] ||= (e) => f.value = e,
 				class: "input input-sm ln-class-dialog__name-input",
 				type: "text",
 				placeholder: "LNodeType base name",
 				"data-testid": "dtt-ln-class-name-input"
-			}, null, 512), [[o, d.value]]),
-			y("div", Ie, [y("button", {
+			}, null, 512), [[s, f.value]]),
+			e("div", ze, [e("button", {
 				class: "btn btn-sm btn-primary",
-				disabled: !g.value,
+				disabled: !h.value,
 				"data-testid": "dtt-ln-class-create",
-				onClick: S
-			}, " Create ", 8, Le)])
+				onClick: b
+			}, " Create ", 8, Be)])
 		])], 512));
 	}
-}), [["__scopeId", "data-v-b9c4a18b"]]), ze = { class: "modal-box" }, Be = { class: "py-4" }, Ve = /* @__PURE__ */ D({
+}), [["__scopeId", "data-v-b9c4a18b"]]), He = { class: "modal-box" }, Ue = { class: "py-4" }, We = /* @__PURE__ */ y({
 	__name: "delete-confirm-dialog",
 	emits: ["confirm"],
 	setup(t, { expose: n, emit: r }) {
@@ -169,39 +169,39 @@ var be = /* @__PURE__ */ F(he, [["render", ye], ["__scopeId", "data-v-61ca118a"]
 		function c() {
 			a.value?.close();
 		}
-		function l() {
+		function u() {
 			o.value && i("confirm", o.value), c();
 		}
-		return n({ open: s }), (t, n) => (O(), e("dialog", {
+		return n({ open: s }), (t, n) => (D(), k("dialog", {
 			ref_key: "dialogElement",
 			ref: a,
 			class: "modal",
 			"data-testid": "dtt-delete-confirm-dialog"
-		}, [y("div", ze, [
-			n[2] ||= y("h3", { class: "font-bold text-lg" }, "Delete LNodeType", -1),
-			y("p", Be, [
-				n[0] ||= w(" Delete ", -1),
-				y("strong", null, h(o.value), 1),
-				n[1] ||= w(" ? ", -1)
+		}, [e("div", He, [
+			n[2] ||= e("h3", { class: "font-bold text-lg" }, "Delete LNodeType", -1),
+			e("p", Ue, [
+				n[0] ||= A(" Delete ", -1),
+				e("strong", null, l(o.value), 1),
+				n[1] ||= A(" ? ", -1)
 			]),
-			y("div", { class: "modal-action" }, [y("button", {
+			e("div", { class: "modal-action" }, [e("button", {
 				class: "btn",
 				"data-testid": "dtt-delete-cancel",
 				onClick: c
-			}, "Cancel"), y("button", {
+			}, "Cancel"), e("button", {
 				class: "btn btn-error",
 				"data-testid": "dtt-delete-confirm",
-				onClick: l
+				onClick: u
 			}, " Delete ")])
-		]), n[3] ||= y("form", {
+		]), n[3] ||= e("form", {
 			method: "dialog",
 			class: "modal-backdrop"
-		}, [y("button", null, "close")], -1)], 512));
+		}, [e("button", null, "close")], -1)], 512));
 	}
 });
 //#endregion
 //#region src/data-type-templates/dialecte/query/type-id.ts
-function I(e) {
+function P(e) {
 	let t = e.lastIndexOf("_#v");
 	if (t === -1) return { baseName: e };
 	let n = e.slice(t + 3);
@@ -210,33 +210,33 @@ function I(e) {
 		version: Number(n)
 	} : { baseName: e };
 }
-function L(e, t) {
+function F(e, t) {
 	return `${e}_#v${t}`;
 }
-async function R(e, t, n) {
+async function I(e, t, n) {
 	let r = await e.getRecordsByTagName(t), i = 0;
 	for (let e of r) {
 		let t = e.attributes.find((e) => e.name === "id")?.value;
 		if (!t) continue;
-		let r = I(t);
+		let r = P(t);
 		r.baseName === n && (i = Math.max(i, r.version ?? 0));
 	}
 	return i + 1;
 }
 //#endregion
 //#region src/data-type-templates/dialecte/query/read-type-payloads.ts
-async function He(e, t) {
-	let n = await z(e, "LNodeType", t);
+async function Ge(e, t) {
+	let n = await L(e, "LNodeType", t);
 	if (!n) return;
 	let r = [], i = {
 		id: t,
-		lnClass: B(n, "lnClass"),
-		desc: B(n, "desc"),
+		lnClass: R(n, "lnClass"),
+		desc: R(n, "desc"),
 		dos: [],
 		warnings: r
 	}, a = await e.getChildren(n, "DO");
 	for (let t of a) {
-		let n = B(t, "name"), a = B(t, "type"), o = await Ue(e, a, /* @__PURE__ */ new Set(), r);
+		let n = R(t, "name"), a = R(t, "type"), o = await Ke(e, a, /* @__PURE__ */ new Set(), r);
 		if (!o) {
 			r.push(`DO "${n}": DOType "${a}" not found`);
 			continue;
@@ -248,26 +248,26 @@ async function He(e, t) {
 	}
 	return i;
 }
-async function Ue(e, t, n, r) {
-	let i = await z(e, "DOType", t);
+async function Ke(e, t, n, r) {
+	let i = await L(e, "DOType", t);
 	if (!i) return;
 	if (n.has(`DOType:${t}`)) return r.push(`Cycle detected at DOType "${t}"`), {
-		baseName: I(t).baseName,
-		cdc: B(i, "cdc"),
+		baseName: P(t).baseName,
+		cdc: R(i, "cdc"),
 		das: [],
 		sdos: [],
 		cyclic: !0
 	};
 	let a = new Set(n).add(`DOType:${t}`), o = {
-		baseName: I(t).baseName,
-		cdc: B(i, "cdc"),
+		baseName: P(t).baseName,
+		cdc: R(i, "cdc"),
 		das: [],
 		sdos: []
 	}, s = await e.getChildren(i, "DA");
-	for (let t of s) o.das.push(await Ke(e, t, a, r));
+	for (let t of s) o.das.push(await Ye(e, t, a, r));
 	let c = await e.getChildren(i, "SDO");
 	for (let t of c) {
-		let n = B(t, "name"), i = B(t, "type"), s = await Ue(e, i, a, r);
+		let n = R(t, "name"), i = R(t, "type"), s = await Ke(e, i, a, r);
 		if (!s) {
 			r.push(`SDO "${n}": DOType "${i}" not found`);
 			continue;
@@ -279,71 +279,71 @@ async function Ue(e, t, n, r) {
 	}
 	return o;
 }
-async function We(e, t, n, r) {
-	let i = await z(e, "DAType", t);
+async function qe(e, t, n, r) {
+	let i = await L(e, "DAType", t);
 	if (!i) return;
 	if (n.has(`DAType:${t}`)) return r.push(`Cycle detected at DAType "${t}"`), {
-		baseName: I(t).baseName,
+		baseName: P(t).baseName,
 		bdas: [],
 		cyclic: !0
 	};
 	let a = new Set(n).add(`DAType:${t}`), o = {
-		baseName: I(t).baseName,
+		baseName: P(t).baseName,
 		bdas: []
 	}, s = await e.getChildren(i, "BDA");
-	for (let t of s) o.bdas.push(await Ke(e, t, a, r));
+	for (let t of s) o.bdas.push(await Ye(e, t, a, r));
 	return o;
 }
-async function Ge(e, t) {
-	let n = await z(e, "EnumType", t);
+async function Je(e, t) {
+	let n = await L(e, "EnumType", t);
 	if (!n) return;
 	let r = await e.getChildren(n, "EnumVal");
 	return {
-		baseName: I(t).baseName,
+		baseName: P(t).baseName,
 		vals: r.map(function(e) {
 			return {
-				ord: Number(B(e, "ord")),
+				ord: Number(R(e, "ord")),
 				value: e.value
 			};
 		})
 	};
 }
-async function z(e, t, n) {
+async function L(e, t, n) {
 	return (await e.findByAttributes({
 		tagName: t,
 		attributes: { id: n }
 	}))[0];
 }
-async function Ke(e, t, n, r) {
-	let i = B(t, "name"), a = B(t, "bType"), o = B(t, "type"), s = {
+async function Ye(e, t, n, r) {
+	let i = R(t, "name"), a = R(t, "bType"), o = R(t, "type"), s = {
 		name: i,
 		bType: a,
-		fc: B(t, "fc") || void 0,
-		vals: await qe(e, t)
+		fc: R(t, "fc") || void 0,
+		vals: await Xe(e, t)
 	};
-	return a === "Enum" && o && (s.enumType = await Ge(e, o)), a === "Struct" && o && (s.daType = await We(e, o, n, r), s.daType || r.push(`DA "${i}": DAType "${o}" not found`)), s;
+	return a === "Enum" && o && (s.enumType = await Je(e, o)), a === "Struct" && o && (s.daType = await qe(e, o, n, r), s.daType || r.push(`DA "${i}": DAType "${o}" not found`)), s;
 }
-async function qe(e, t) {
+async function Xe(e, t) {
 	return (await e.getChildren(t, "Val")).map((e) => e.value);
 }
-function B(e, t) {
+function R(e, t) {
 	return e.attributes.find((e) => e.name === t)?.value ?? "";
 }
 //#endregion
 //#region src/data-type-templates/dialecte/query/find-referencing-lnodes.ts
-var Je = "None";
-async function Ye(e, t) {
+var Ze = "None";
+async function Qe(e, t) {
 	let n = [], r = await e.findByAttributes({
 		tagName: "LNode",
 		attributes: { lnType: t }
 	});
 	for (let t of r) {
-		let r = B(t, "iedName");
+		let r = R(t, "iedName");
 		n.push({
 			tagName: "LNode",
-			path: await tt(e, t, $e(t)),
+			path: await it(e, t, nt(t)),
 			iedName: r || void 0,
-			isLocked: Qe(r),
+			isLocked: tt(r),
 			recordId: t.id
 		});
 	}
@@ -353,11 +353,11 @@ async function Ye(e, t) {
 			attributes: { lnType: t }
 		});
 		for (let t of i) {
-			let i = await tt(e, t, et(t));
+			let i = await it(e, t, rt(t));
 			n.push({
 				tagName: r,
 				path: i,
-				iedName: await nt(e, t),
+				iedName: await at(e, t),
 				isLocked: !0,
 				recordId: t.id
 			});
@@ -365,7 +365,7 @@ async function Ye(e, t) {
 	}
 	return n;
 }
-async function Xe(e) {
+async function $e(e) {
 	let t = /* @__PURE__ */ new Set();
 	for (let n of [
 		"LNode",
@@ -374,48 +374,48 @@ async function Xe(e) {
 	]) {
 		let r = await e.getRecordsByTagName(n);
 		for (let e of r) {
-			let n = B(e, "lnType");
+			let n = R(e, "lnType");
 			n && t.add(n);
 		}
 	}
 	return t;
 }
-async function Ze(e, t) {
-	let n = await Ye(e, t), r = n.some((e) => e.tagName !== "LNode"), i = n.some((e) => e.tagName === "LNode");
+async function et(e, t) {
+	let n = await Qe(e, t), r = n.some((e) => e.tagName !== "LNode"), i = n.some((e) => e.tagName === "LNode");
 	return r && !i;
 }
-function Qe(e) {
-	return !!e && e !== Je;
+function tt(e) {
+	return !!e && e !== Ze;
 }
-function $e(e) {
-	return `LNode.${B(e, "prefix")}${B(e, "lnClass")}${B(e, "lnInst")}`;
+function nt(e) {
+	return `LNode.${R(e, "prefix")}${R(e, "lnClass")}${R(e, "lnInst")}`;
 }
-function et(e) {
-	let t = B(e, "prefix"), n = B(e, "lnClass"), r = B(e, "inst");
+function rt(e) {
+	let t = R(e, "prefix"), n = R(e, "lnClass"), r = R(e, "inst");
 	return `${e.tagName}.${t}${n}${r}`;
 }
-async function tt(e, t, n) {
+async function it(e, t, n) {
 	let r = await e.findAncestors(t, { order: "top-down" }), i = [];
 	for (let e of r) {
-		let t = B(e, "name") || B(e, "inst");
+		let t = R(e, "name") || R(e, "inst");
 		!t || e.tagName === "SCL" || i.push(t);
 	}
 	return [...i, n].join("/");
 }
-async function nt(e, t) {
+async function at(e, t) {
 	let n = (await e.findAncestors(t)).find((e) => e.tagName === "IED");
-	if (n) return B(n, "name") || void 0;
+	if (n) return R(n, "name") || void 0;
 }
 //#endregion
 //#region src/data-type-templates/dialecte/query/find-lnode-types.ts
-async function rt(e) {
-	let t = await e.getRecordsByTagName("LNodeType"), n = await Xe(e);
+async function ot(e) {
+	let t = await e.getRecordsByTagName("LNodeType"), n = await $e(e);
 	return t.map(function(e) {
-		let t = B(e, "id"), r = I(t);
+		let t = R(e, "id"), r = P(t);
 		return {
 			id: t,
-			lnClass: B(e, "lnClass"),
-			desc: B(e, "desc"),
+			lnClass: R(e, "lnClass"),
+			desc: R(e, "desc"),
 			baseName: r.baseName,
 			version: r.version,
 			isReferenced: n.has(t)
@@ -423,8 +423,8 @@ async function rt(e) {
 	});
 }
 //#endregion
-//#region node_modules/.pnpm/@dialecte+scl@0.8.1/node_modules/@dialecte/scl/dist/hooks-C05NpRNi.js
-var it = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.AllocationRoleRef.AnalogueWiringParameters.AnalogueWiringParametersRef.Application.ApplicationSclRef.Association.Authentication.BDA.Bay.BayType.BehaviorDescription.BehaviorDescriptionRef.BehaviorReference.BinaryWiringParameters.BinaryWiringParametersRef.BitRate.CheckoutID.ClientLN.ClientServices.CommProt.Communication.CommunicationServiceSpecifications.ConductingEquipment.ConfDataSet.ConfLNs.ConfLdName.ConfLogControl.ConfReportControl.ConfSG.ConfSigRef.ConnectedAP.ConnectivityNode.ControlRef.ControllingLNode.DA.DAI.DAS.DAType.DO.DOI.DOS.DOType.DataObjectDirectory.DataSet.DataSetDirectory.DataTypeTemplates.DynAssociation.DynDataSet.EnumType.EnumVal.EqFunction.EqSubFunction.ExtCtrl.ExtRef.FCDA.FileHandling.Function.FunctionCatRef.FunctionCategory.FunctionCategoryRef.FunctionRef.FunctionRole.FunctionRoleContent.FunctionSclRef.FunctionTemplate.FunctionalSubVariant.FunctionalVariant.FunctionalVariantGroup.FunctionalVariantRef.GOOSE.GOOSEMcSecurity.GOOSESecurity.GSE.GSEControl.GSEDir.GSESettings.GSSE.GeneralEquipment.GetCBValues.GetDataObjectDefinition.GetDataSetValue.GetDirectory.GooseParameters.GooseParametersRef.Header.History.Hitem.IED.IEDName.IEDSourceFiles.InputVar.InputVarRef.Inputs.IssuerName.KDC.L2CommParameters.L3IPv4CommParameters.L3IPv6CommParameters.LDevice.LN.LN0.LNode.LNodeDataRef.LNodeInputRef.LNodeInputs.LNodeOutputRef.LNodeOutputs.LNodeSpecNaming.LNodeType.Label.Labels.Line.Log.LogControl.LogParameters.LogParametersRef.LogSettings.MaxTime.McSecurity.MinRequestedSCDFile.MinRequestedSCDFiles.MinTime.MultiAPPerSubNet.NeutralPoint.OptFields.OutputVar.OutputVarRef.Outputs.P.PhysConn.PowerSystemRelation.PowerSystemRelationRef.PowerSystemRelations.PowerTransformer.Private.Process.ProcessEcho.ProcessResource.ProcessResourceRef.ProcessResources.Project.ProjectProcessReference.ProtNs.Protocol.ReadWrite.RedProt.ReportControl.ReportParameters.ReportParametersRef.ReportSettings.Resource.RptEnabled.SCL.SCSM.SDI.SDO.SDS.SGEdit.SMV.SMVParameters.SMVParametersRef.SMVSecurity.SMVSettings.SMVsc.SVMcSecurity.SampledValueControl.SamplesPerSec.SclFileReference.SecPerSamples.Security.Server.ServerAt.ServiceSpecifications.Services.SetDataSetValue.SettingControl.SettingGroups.SignalRole.SmpRate.SmvOpts.SourceFiles.SourceRef.SubCategory.SubCheckoutID.SubEquipment.SubFunction.SubFunctionTemplate.SubNetwork.Subject.SubscriberLNode.Substation.SupSubscription.TapChanger.Terminal.Text.TimeSyncProt.TimerActivatedControl.TransformerWinding.TrgOps.Val.ValueHandling.Variable.VariableApplyTo.VariableRef.Voltage.VoltageLevel".split("."), at = {
+//#region node_modules/.pnpm/@dialecte+scl@0.11.0_libxml2-wasm@0.7.2_vitest@4.1.4/node_modules/@dialecte/scl/dist/hooks-F61-rgXT.js
+var st = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.AllocationRoleRef.AnalogueWiringParameters.AnalogueWiringParametersRef.Application.ApplicationSclRef.Association.Authentication.BDA.Bay.BayType.BehaviorDescription.BehaviorDescriptionRef.BehaviorReference.BinaryWiringParameters.BinaryWiringParametersRef.BitRate.CheckoutID.ClientLN.ClientServices.CommProt.Communication.CommunicationServiceSpecifications.ConductingEquipment.ConfDataSet.ConfLNs.ConfLdName.ConfLogControl.ConfReportControl.ConfSG.ConfSigRef.ConnectedAP.ConnectivityNode.ControlRef.ControllingLNode.DA.DAI.DAS.DAType.DO.DOI.DOS.DOType.DataObjectDirectory.DataSet.DataSetDirectory.DataTypeTemplates.DynAssociation.DynDataSet.EnumType.EnumVal.EqFunction.EqSubFunction.ExtCtrl.ExtRef.FCDA.FileHandling.Function.FunctionCatRef.FunctionCategory.FunctionCategoryRef.FunctionRef.FunctionRole.FunctionRoleContent.FunctionSclRef.FunctionTemplate.FunctionalSubVariant.FunctionalVariant.FunctionalVariantGroup.FunctionalVariantRef.GOOSE.GOOSEMcSecurity.GOOSESecurity.GSE.GSEControl.GSEDir.GSESettings.GSSE.GeneralEquipment.GetCBValues.GetDataObjectDefinition.GetDataSetValue.GetDirectory.GooseParameters.GooseParametersRef.Header.History.Hitem.IED.IEDName.IEDSourceFiles.InputVar.InputVarRef.Inputs.IssuerName.KDC.L2CommParameters.L3IPv4CommParameters.L3IPv6CommParameters.LDevice.LN.LN0.LNode.LNodeDataRef.LNodeInputRef.LNodeInputs.LNodeOutputRef.LNodeOutputs.LNodeSpecNaming.LNodeType.Label.Labels.Line.Log.LogControl.LogParameters.LogParametersRef.LogSettings.MaxTime.McSecurity.MinRequestedSCDFile.MinRequestedSCDFiles.MinTime.MultiAPPerSubNet.NeutralPoint.OptFields.OutputVar.OutputVarRef.Outputs.P.PhysConn.PowerSystemRelation.PowerSystemRelationRef.PowerSystemRelations.PowerTransformer.Private.Process.ProcessEcho.ProcessResource.ProcessResourceRef.ProcessResources.Project.ProjectProcessReference.ProtNs.Protocol.ReadWrite.RedProt.ReportControl.ReportParameters.ReportParametersRef.ReportSettings.Resource.RptEnabled.SCL.SCSM.SDI.SDO.SDS.SGEdit.SMV.SMVParameters.SMVParametersRef.SMVSecurity.SMVSettings.SMVsc.SVMcSecurity.SampledValueControl.SamplesPerSec.SclFileReference.SecPerSamples.Security.Server.ServerAt.ServiceSpecifications.Services.SetDataSetValue.SettingControl.SettingGroups.SignalRole.SmpRate.SmvOpts.SourceFiles.SourceRef.SubCategory.SubCheckoutID.SubEquipment.SubFunction.SubFunctionTemplate.SubNetwork.Subject.SubscriberLNode.Substation.SupSubscription.TapChanger.Terminal.Text.TimeSyncProt.TimerActivatedControl.TransformerWinding.TrgOps.Val.ValueHandling.Variable.VariableApplyTo.VariableRef.Voltage.VoltageLevel".split("."), z = {
 	AccessControl: [],
 	AccessPoint: [
 		"Text",
@@ -1215,7 +1215,7 @@ var it = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		"ProcessResources",
 		"Variable"
 	]
-}, ot = {
+}, ct = {
 	AccessControl: ["LDevice"],
 	AccessPoint: ["IED"],
 	Address: [
@@ -1613,7 +1613,7 @@ var it = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 	],
 	Voltage: ["Line", "VoltageLevel"],
 	VoltageLevel: ["Substation"]
-}, st = {
+}, lt = {
 	AccessControl: [],
 	AccessPoint: /* @__PURE__ */ "AccessControl.Association.Authentication.ClientLN.ClientServices.CommProt.ConfDataSet.ConfLNs.ConfLdName.ConfLogControl.ConfReportControl.ConfSG.ConfSigRef.DAI.DOI.DataObjectDirectory.DataSet.DataSetDirectory.DynAssociation.DynDataSet.ExtCtrl.ExtRef.FCDA.FileHandling.GOOSE.GOOSEMcSecurity.GOOSESecurity.GSEControl.GSEDir.GSESettings.GSSE.GetCBValues.GetDataObjectDefinition.GetDataSetValue.GetDirectory.IEDName.Inputs.IssuerName.LDevice.LN.LN0.Label.Labels.Log.LogControl.LogSettings.McSecurity.MultiAPPerSubNet.OptFields.Outputs.Private.Protocol.ReadWrite.RedProt.ReportControl.ReportSettings.RptEnabled.SCSM.SDI.SGEdit.SMVSecurity.SMVSettings.SMVsc.SVMcSecurity.SampledValueControl.SamplesPerSec.SecPerSamples.Security.Server.ServerAt.Services.SetDataSetValue.SettingControl.SettingGroups.SmpRate.SmvOpts.Subject.SupSubscription.Text.TimeSyncProt.TimerActivatedControl.TrgOps.Val.ValueHandling".split("."),
 	Address: ["P"],
@@ -2345,7 +2345,7 @@ var it = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 	VariableRef: ["FunctionalVariantRef", "Text"],
 	Voltage: [],
 	VoltageLevel: /* @__PURE__ */ "AllocationRole.AllocationRoleRef.AnalogueWiringParametersRef.Application.ApplicationSclRef.Bay.BehaviorDescription.BehaviorDescriptionRef.BehaviorReference.BinaryWiringParametersRef.ConductingEquipment.ConnectivityNode.ControlRef.ControllingLNode.DAS.DOS.EqFunction.EqSubFunction.Function.FunctionCatRef.FunctionCategory.FunctionCategoryRef.FunctionRef.FunctionRole.FunctionRoleContent.FunctionSclRef.FunctionalSubVariant.FunctionalVariant.FunctionalVariantGroup.FunctionalVariantRef.GeneralEquipment.GooseParametersRef.InputVar.InputVarRef.LNode.LNodeDataRef.LNodeInputRef.LNodeInputs.LNodeOutputRef.LNodeOutputs.LNodeSpecNaming.Label.Labels.LogParametersRef.NeutralPoint.OutputVar.OutputVarRef.PowerSystemRelation.PowerSystemRelationRef.PowerSystemRelations.PowerTransformer.Private.ProcessEcho.ProcessResource.ProcessResourceRef.ProcessResources.ReportParametersRef.Resource.SDS.SMVParametersRef.SclFileReference.SignalRole.SourceRef.SubCategory.SubCheckoutID.SubEquipment.SubFunction.SubscriberLNode.TapChanger.Terminal.Text.TransformerWinding.Val.Variable.VariableApplyTo.VariableRef.Voltage".split(".")
-}, ct = {
+}, ut = {
 	AccessControl: [
 		"AccessPoint",
 		"IED",
@@ -4118,13 +4118,13 @@ var it = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		"SCL",
 		"Substation"
 	]
-}, lt = [
+}, dt = [
 	"Communication",
 	"DataTypeTemplates",
 	"Header",
 	"History",
 	"SCL"
-], V = {
+], B = {
 	AccessControl: {},
 	AccessPoint: {
 		clock: "",
@@ -5577,861 +5577,861 @@ var it = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		templateUuid: "",
 		uuid: ""
 	}
-}, ut = {
-	byTag: V,
+}, ft = {
+	byTag: B,
 	byParent: {
 		AccessPoint: {
-			Text: V.Text,
-			Private: V.Private,
-			Server: V.Server,
-			LN: V.LN,
-			ServerAt: V.ServerAt,
-			Services: V.Services,
-			GOOSESecurity: V.GOOSESecurity,
-			SMVSecurity: V.SMVSecurity,
-			Labels: V.Labels
+			Text: B.Text,
+			Private: B.Private,
+			Server: B.Server,
+			LN: B.LN,
+			ServerAt: B.ServerAt,
+			Services: B.Services,
+			GOOSESecurity: B.GOOSESecurity,
+			SMVSecurity: B.SMVSecurity,
+			Labels: B.Labels
 		},
 		Address: { P: {
 			type: "",
 			"xsi:type": ""
 		} },
 		AllocationRole: {
-			Text: V.Text,
-			FunctionRef: V.FunctionRef
+			Text: B.Text,
+			FunctionRef: B.FunctionRef
 		},
 		AllocationRoleRef: {
-			Text: V.Text,
-			FunctionalVariantRef: V.FunctionalVariantRef
+			Text: B.Text,
+			FunctionalVariantRef: B.FunctionalVariantRef
 		},
-		AnalogueWiringParameters: { Text: V.Text },
-		AnalogueWiringParametersRef: { Text: V.Text },
+		AnalogueWiringParameters: { Text: B.Text },
+		AnalogueWiringParametersRef: { Text: B.Text },
 		Application: {
-			Text: V.Text,
-			FunctionRole: V.FunctionRole,
-			FunctionalVariant: V.FunctionalVariant,
-			FunctionalVariantGroup: V.FunctionalVariantGroup,
-			AllocationRoleRef: V.AllocationRoleRef,
-			ApplicationSclRef: V.ApplicationSclRef
+			Text: B.Text,
+			FunctionRole: B.FunctionRole,
+			FunctionalVariant: B.FunctionalVariant,
+			FunctionalVariantGroup: B.FunctionalVariantGroup,
+			AllocationRoleRef: B.AllocationRoleRef,
+			ApplicationSclRef: B.ApplicationSclRef
 		},
 		ApplicationSclRef: {
-			Text: V.Text,
-			SclFileReference: V.SclFileReference
+			Text: B.Text,
+			SclFileReference: B.SclFileReference
 		},
 		BDA: {
-			Text: V.Text,
-			Private: V.Private,
-			Val: V.Val,
-			Labels: V.Labels
+			Text: B.Text,
+			Private: B.Private,
+			Val: B.Val,
+			Labels: B.Labels
 		},
 		Bay: {
-			Text: V.Text,
-			Private: V.Private,
-			Labels: V.Labels,
-			LNode: V.LNode,
-			PowerTransformer: V.PowerTransformer,
-			GeneralEquipment: V.GeneralEquipment,
-			ConductingEquipment: V.ConductingEquipment,
-			ConnectivityNode: V.ConnectivityNode,
-			Function: V.Function,
-			AllocationRole: V.AllocationRole,
-			Application: V.Application,
-			BehaviorDescription: V.BehaviorDescription,
-			FunctionCategory: V.FunctionCategory,
-			ProcessResources: V.ProcessResources,
-			Variable: V.Variable
+			Text: B.Text,
+			Private: B.Private,
+			Labels: B.Labels,
+			LNode: B.LNode,
+			PowerTransformer: B.PowerTransformer,
+			GeneralEquipment: B.GeneralEquipment,
+			ConductingEquipment: B.ConductingEquipment,
+			ConnectivityNode: B.ConnectivityNode,
+			Function: B.Function,
+			AllocationRole: B.AllocationRole,
+			Application: B.Application,
+			BehaviorDescription: B.BehaviorDescription,
+			FunctionCategory: B.FunctionCategory,
+			ProcessResources: B.ProcessResources,
+			Variable: B.Variable
 		},
 		BehaviorDescription: {
-			Text: V.Text,
-			InputVar: V.InputVar,
-			OutputVar: V.OutputVar,
-			BehaviorReference: V.BehaviorReference
+			Text: B.Text,
+			InputVar: B.InputVar,
+			OutputVar: B.OutputVar,
+			BehaviorReference: B.BehaviorReference
 		},
 		BehaviorDescriptionRef: {
-			Text: V.Text,
-			FunctionalVariantRef: V.FunctionalVariantRef,
-			InputVarRef: V.InputVarRef,
-			OutputVarRef: V.OutputVarRef
+			Text: B.Text,
+			FunctionalVariantRef: B.FunctionalVariantRef,
+			InputVarRef: B.InputVarRef,
+			OutputVarRef: B.OutputVarRef
 		},
-		BehaviorReference: { Text: V.Text },
-		BinaryWiringParameters: { Text: V.Text },
-		BinaryWiringParametersRef: { Text: V.Text },
-		CheckoutID: { SubCheckoutID: V.SubCheckoutID },
+		BehaviorReference: { Text: B.Text },
+		BinaryWiringParameters: { Text: B.Text },
+		BinaryWiringParametersRef: { Text: B.Text },
+		CheckoutID: { SubCheckoutID: B.SubCheckoutID },
 		ClientServices: {
-			TimeSyncProt: V.TimeSyncProt,
-			GOOSEMcSecurity: V.GOOSEMcSecurity,
-			SVMcSecurity: V.SVMcSecurity,
-			Security: V.Security
+			TimeSyncProt: B.TimeSyncProt,
+			GOOSEMcSecurity: B.GOOSEMcSecurity,
+			SVMcSecurity: B.SVMcSecurity,
+			Security: B.Security
 		},
 		Communication: {
-			Text: V.Text,
-			Private: V.Private,
-			SubNetwork: V.SubNetwork
+			Text: B.Text,
+			Private: B.Private,
+			SubNetwork: B.SubNetwork
 		},
 		CommunicationServiceSpecifications: {
-			Text: V.Text,
-			GooseParameters: V.GooseParameters,
-			SMVParameters: V.SMVParameters,
-			ReportParameters: V.ReportParameters
+			Text: B.Text,
+			GooseParameters: B.GooseParameters,
+			SMVParameters: B.SMVParameters,
+			ReportParameters: B.ReportParameters
 		},
 		ConductingEquipment: {
-			Text: V.Text,
-			Private: V.Private,
-			Labels: V.Labels,
-			LNode: V.LNode,
-			Terminal: V.Terminal,
-			SubEquipment: V.SubEquipment,
-			EqFunction: V.EqFunction,
-			ProcessResources: V.ProcessResources,
-			Variable: V.Variable
+			Text: B.Text,
+			Private: B.Private,
+			Labels: B.Labels,
+			LNode: B.LNode,
+			Terminal: B.Terminal,
+			SubEquipment: B.SubEquipment,
+			EqFunction: B.EqFunction,
+			ProcessResources: B.ProcessResources,
+			Variable: B.Variable
 		},
 		ConnectedAP: {
-			Text: V.Text,
-			Private: V.Private,
-			Address: V.Address,
-			GSE: V.GSE,
-			SMV: V.SMV,
-			PhysConn: V.PhysConn
+			Text: B.Text,
+			Private: B.Private,
+			Address: B.Address,
+			GSE: B.GSE,
+			SMV: B.SMV,
+			PhysConn: B.PhysConn
 		},
 		ConnectivityNode: {
-			Text: V.Text,
-			Private: V.Private,
-			Labels: V.Labels,
-			LNode: V.LNode,
-			ProcessResources: V.ProcessResources
+			Text: B.Text,
+			Private: B.Private,
+			Labels: B.Labels,
+			LNode: B.LNode,
+			ProcessResources: B.ProcessResources
 		},
 		ControlRef: {
-			Text: V.Text,
-			BinaryWiringParametersRef: V.BinaryWiringParametersRef,
-			AnalogueWiringParametersRef: V.AnalogueWiringParametersRef
+			Text: B.Text,
+			BinaryWiringParametersRef: B.BinaryWiringParametersRef,
+			AnalogueWiringParametersRef: B.AnalogueWiringParametersRef
 		},
 		ControllingLNode: {
-			Text: V.Text,
-			BinaryWiringParametersRef: V.BinaryWiringParametersRef,
-			AnalogueWiringParametersRef: V.AnalogueWiringParametersRef
+			Text: B.Text,
+			BinaryWiringParametersRef: B.BinaryWiringParametersRef,
+			AnalogueWiringParametersRef: B.AnalogueWiringParametersRef
 		},
 		DA: {
-			Text: V.Text,
-			Private: V.Private,
-			Val: V.Val,
-			Labels: V.Labels,
-			ProtNs: V.ProtNs
+			Text: B.Text,
+			Private: B.Private,
+			Val: B.Val,
+			Labels: B.Labels,
+			ProtNs: B.ProtNs
 		},
 		DAI: {
-			Text: V.Text,
-			Private: V.Private,
-			Val: V.Val,
-			Labels: V.Labels
+			Text: B.Text,
+			Private: B.Private,
+			Val: B.Val,
+			Labels: B.Labels
 		},
 		DAS: {
-			Text: V.Text,
-			SubscriberLNode: V.SubscriberLNode,
-			ControllingLNode: V.ControllingLNode,
-			ProcessEcho: V.ProcessEcho,
-			LogParametersRef: V.LogParametersRef,
-			Val: V.Val,
-			Labels: V.Labels
+			Text: B.Text,
+			SubscriberLNode: B.SubscriberLNode,
+			ControllingLNode: B.ControllingLNode,
+			ProcessEcho: B.ProcessEcho,
+			LogParametersRef: B.LogParametersRef,
+			Val: B.Val,
+			Labels: B.Labels
 		},
 		DAType: {
-			Text: V.Text,
-			Private: V.Private,
-			BDA: V.BDA,
-			ProtNs: V.ProtNs,
-			Labels: V.Labels
+			Text: B.Text,
+			Private: B.Private,
+			BDA: B.BDA,
+			ProtNs: B.ProtNs,
+			Labels: B.Labels
 		},
 		DO: {
-			Text: V.Text,
-			Private: V.Private,
-			Labels: V.Labels
+			Text: B.Text,
+			Private: B.Private,
+			Labels: B.Labels
 		},
 		DOI: {
-			Text: V.Text,
-			Private: V.Private,
-			SDI: V.SDI,
-			DAI: V.DAI,
-			Labels: V.Labels
+			Text: B.Text,
+			Private: B.Private,
+			SDI: B.SDI,
+			DAI: B.DAI,
+			Labels: B.Labels
 		},
 		DOS: {
-			Text: V.Text,
-			SDS: V.SDS,
-			DAS: V.DAS,
-			SubscriberLNode: V.SubscriberLNode,
-			ControllingLNode: V.ControllingLNode,
-			ProcessEcho: V.ProcessEcho,
-			LogParametersRef: V.LogParametersRef,
-			Labels: V.Labels
+			Text: B.Text,
+			SDS: B.SDS,
+			DAS: B.DAS,
+			SubscriberLNode: B.SubscriberLNode,
+			ControllingLNode: B.ControllingLNode,
+			ProcessEcho: B.ProcessEcho,
+			LogParametersRef: B.LogParametersRef,
+			Labels: B.Labels
 		},
 		DOType: {
-			Text: V.Text,
-			Private: V.Private,
-			SDO: V.SDO,
-			DA: V.DA,
-			Labels: V.Labels
+			Text: B.Text,
+			Private: B.Private,
+			SDO: B.SDO,
+			DA: B.DA,
+			Labels: B.Labels
 		},
 		DataSet: {
-			Text: V.Text,
-			Private: V.Private,
-			FCDA: V.FCDA
+			Text: B.Text,
+			Private: B.Private,
+			FCDA: B.FCDA
 		},
 		DataTypeTemplates: {
-			LNodeType: V.LNodeType,
-			DOType: V.DOType,
-			DAType: V.DAType,
-			EnumType: V.EnumType
+			LNodeType: B.LNodeType,
+			DOType: B.DOType,
+			DAType: B.DAType,
+			EnumType: B.EnumType
 		},
 		EnumType: {
-			Text: V.Text,
-			Private: V.Private,
-			EnumVal: V.EnumVal
+			Text: B.Text,
+			Private: B.Private,
+			EnumVal: B.EnumVal
 		},
 		EqFunction: {
-			Text: V.Text,
-			Private: V.Private,
-			Labels: V.Labels,
-			LNode: V.LNode,
-			GeneralEquipment: V.GeneralEquipment,
-			EqSubFunction: V.EqSubFunction,
-			BehaviorDescription: V.BehaviorDescription,
-			FunctionSclRef: V.FunctionSclRef,
-			PowerSystemRelations: V.PowerSystemRelations,
-			ProcessResources: V.ProcessResources,
-			Variable: V.Variable
+			Text: B.Text,
+			Private: B.Private,
+			Labels: B.Labels,
+			LNode: B.LNode,
+			GeneralEquipment: B.GeneralEquipment,
+			EqSubFunction: B.EqSubFunction,
+			BehaviorDescription: B.BehaviorDescription,
+			FunctionSclRef: B.FunctionSclRef,
+			PowerSystemRelations: B.PowerSystemRelations,
+			ProcessResources: B.ProcessResources,
+			Variable: B.Variable
 		},
 		EqSubFunction: {
-			Text: V.Text,
-			Private: V.Private,
-			Labels: V.Labels,
-			LNode: V.LNode,
-			GeneralEquipment: V.GeneralEquipment,
-			EqSubFunction: V.EqSubFunction,
-			BehaviorDescription: V.BehaviorDescription,
-			FunctionSclRef: V.FunctionSclRef,
-			PowerSystemRelations: V.PowerSystemRelations,
-			ProcessResources: V.ProcessResources,
-			Variable: V.Variable
+			Text: B.Text,
+			Private: B.Private,
+			Labels: B.Labels,
+			LNode: B.LNode,
+			GeneralEquipment: B.GeneralEquipment,
+			EqSubFunction: B.EqSubFunction,
+			BehaviorDescription: B.BehaviorDescription,
+			FunctionSclRef: B.FunctionSclRef,
+			PowerSystemRelations: B.PowerSystemRelations,
+			ProcessResources: B.ProcessResources,
+			Variable: B.Variable
 		},
 		ExtCtrl: {
-			Text: V.Text,
-			Private: V.Private
+			Text: B.Text,
+			Private: B.Private
 		},
 		ExtRef: {
-			Text: V.Text,
-			Private: V.Private
+			Text: B.Text,
+			Private: B.Private
 		},
 		Function: {
-			Text: V.Text,
-			Private: V.Private,
-			Labels: V.Labels,
-			LNode: V.LNode,
-			SubFunction: V.SubFunction,
-			GeneralEquipment: V.GeneralEquipment,
-			ConductingEquipment: V.ConductingEquipment,
-			BehaviorDescription: V.BehaviorDescription,
-			FunctionSclRef: V.FunctionSclRef,
-			PowerSystemRelations: V.PowerSystemRelations,
-			ProcessResources: V.ProcessResources,
-			Variable: V.Variable
+			Text: B.Text,
+			Private: B.Private,
+			Labels: B.Labels,
+			LNode: B.LNode,
+			SubFunction: B.SubFunction,
+			GeneralEquipment: B.GeneralEquipment,
+			ConductingEquipment: B.ConductingEquipment,
+			BehaviorDescription: B.BehaviorDescription,
+			FunctionSclRef: B.FunctionSclRef,
+			PowerSystemRelations: B.PowerSystemRelations,
+			ProcessResources: B.ProcessResources,
+			Variable: B.Variable
 		},
-		FunctionCatRef: { Text: V.Text },
+		FunctionCatRef: { Text: B.Text },
 		FunctionCategory: {
-			Text: V.Text,
-			SubCategory: V.SubCategory,
-			FunctionCatRef: V.FunctionCatRef
+			Text: B.Text,
+			SubCategory: B.SubCategory,
+			FunctionCatRef: B.FunctionCatRef
 		},
 		FunctionCategoryRef: {
-			Text: V.Text,
-			FunctionalVariantRef: V.FunctionalVariantRef
+			Text: B.Text,
+			FunctionalVariantRef: B.FunctionalVariantRef
 		},
 		FunctionRef: {
-			Text: V.Text,
-			FunctionalVariantRef: V.FunctionalVariantRef,
-			SignalRole: V.SignalRole
+			Text: B.Text,
+			FunctionalVariantRef: B.FunctionalVariantRef,
+			SignalRole: B.SignalRole
 		},
 		FunctionRole: {
-			Text: V.Text,
-			FunctionalVariantRef: V.FunctionalVariantRef,
-			FunctionRoleContent: V.FunctionRoleContent
+			Text: B.Text,
+			FunctionalVariantRef: B.FunctionalVariantRef,
+			FunctionRoleContent: B.FunctionRoleContent
 		},
 		FunctionRoleContent: {
-			Text: V.Text,
-			FunctionRef: V.FunctionRef,
-			BehaviorDescriptionRef: V.BehaviorDescriptionRef,
-			ProcessResourceRef: V.ProcessResourceRef,
-			VariableRef: V.VariableRef,
-			FunctionCategoryRef: V.FunctionCategoryRef,
-			PowerSystemRelationRef: V.PowerSystemRelationRef
+			Text: B.Text,
+			FunctionRef: B.FunctionRef,
+			BehaviorDescriptionRef: B.BehaviorDescriptionRef,
+			ProcessResourceRef: B.ProcessResourceRef,
+			VariableRef: B.VariableRef,
+			FunctionCategoryRef: B.FunctionCategoryRef,
+			PowerSystemRelationRef: B.PowerSystemRelationRef
 		},
 		FunctionSclRef: {
-			Text: V.Text,
-			SclFileReference: V.SclFileReference
+			Text: B.Text,
+			SclFileReference: B.SclFileReference
 		},
 		FunctionTemplate: {
-			Text: V.Text,
-			LNode: V.LNode,
-			SubFunctionTemplate: V.SubFunctionTemplate,
-			GeneralEquipment: V.GeneralEquipment,
-			ConductingEquipment: V.ConductingEquipment
+			Text: B.Text,
+			LNode: B.LNode,
+			SubFunctionTemplate: B.SubFunctionTemplate,
+			GeneralEquipment: B.GeneralEquipment,
+			ConductingEquipment: B.ConductingEquipment
 		},
 		FunctionalSubVariant: {
-			Text: V.Text,
-			FunctionalSubVariant: V.FunctionalSubVariant,
-			VariableRef: V.VariableRef
+			Text: B.Text,
+			FunctionalSubVariant: B.FunctionalSubVariant,
+			VariableRef: B.VariableRef
 		},
 		FunctionalVariant: {
-			Text: V.Text,
-			FunctionalSubVariant: V.FunctionalSubVariant,
-			VariableRef: V.VariableRef
+			Text: B.Text,
+			FunctionalSubVariant: B.FunctionalSubVariant,
+			VariableRef: B.VariableRef
 		},
 		FunctionalVariantGroup: {
-			Text: V.Text,
-			FunctionalVariant: V.FunctionalVariant
+			Text: B.Text,
+			FunctionalVariant: B.FunctionalVariant
 		},
-		FunctionalVariantRef: { Text: V.Text },
+		FunctionalVariantRef: { Text: B.Text },
 		GOOSESecurity: {
-			Text: V.Text,
-			Private: V.Private,
-			Labels: V.Labels,
-			Subject: V.Subject,
-			IssuerName: V.IssuerName
+			Text: B.Text,
+			Private: B.Private,
+			Labels: B.Labels,
+			Subject: B.Subject,
+			IssuerName: B.IssuerName
 		},
 		GSE: {
-			Text: V.Text,
-			Private: V.Private,
-			Address: V.Address,
-			MinTime: V.MinTime,
-			MaxTime: V.MaxTime
+			Text: B.Text,
+			Private: B.Private,
+			Address: B.Address,
+			MinTime: B.MinTime,
+			MaxTime: B.MaxTime
 		},
 		GSEControl: {
-			Text: V.Text,
-			Private: V.Private,
-			IEDName: V.IEDName,
-			Protocol: V.Protocol
+			Text: B.Text,
+			Private: B.Private,
+			IEDName: B.IEDName,
+			Protocol: B.Protocol
 		},
-		GSESettings: { McSecurity: V.McSecurity },
+		GSESettings: { McSecurity: B.McSecurity },
 		GeneralEquipment: {
-			Text: V.Text,
-			Private: V.Private,
-			Labels: V.Labels,
-			LNode: V.LNode,
-			EqFunction: V.EqFunction,
-			ProcessResources: V.ProcessResources,
-			Variable: V.Variable
+			Text: B.Text,
+			Private: B.Private,
+			Labels: B.Labels,
+			LNode: B.LNode,
+			EqFunction: B.EqFunction,
+			ProcessResources: B.ProcessResources,
+			Variable: B.Variable
 		},
 		GooseParameters: {
-			Text: V.Text,
-			L2CommParameters: V.L2CommParameters,
-			L3IPv4CommParameters: V.L3IPv4CommParameters,
-			L3IPv6CommParameters: V.L3IPv6CommParameters
+			Text: B.Text,
+			L2CommParameters: B.L2CommParameters,
+			L3IPv4CommParameters: B.L3IPv4CommParameters,
+			L3IPv6CommParameters: B.L3IPv6CommParameters
 		},
-		GooseParametersRef: { Text: V.Text },
+		GooseParametersRef: { Text: B.Text },
 		Header: {
-			Text: V.Text,
-			History: V.History,
-			SourceFiles: V.SourceFiles
+			Text: B.Text,
+			History: B.History,
+			SourceFiles: B.SourceFiles
 		},
-		History: { Hitem: V.Hitem },
-		Hitem: { SourceFiles: V.SourceFiles },
+		History: { Hitem: B.Hitem },
+		Hitem: { SourceFiles: B.SourceFiles },
 		IED: {
-			Text: V.Text,
-			Private: V.Private,
-			Services: V.Services,
-			AccessPoint: V.AccessPoint,
-			KDC: V.KDC,
-			IEDSourceFiles: V.IEDSourceFiles,
-			MinRequestedSCDFiles: V.MinRequestedSCDFiles,
-			Labels: V.Labels,
-			CheckoutID: V.CheckoutID
+			Text: B.Text,
+			Private: B.Private,
+			Services: B.Services,
+			AccessPoint: B.AccessPoint,
+			KDC: B.KDC,
+			IEDSourceFiles: B.IEDSourceFiles,
+			MinRequestedSCDFiles: B.MinRequestedSCDFiles,
+			Labels: B.Labels,
+			CheckoutID: B.CheckoutID
 		},
 		IEDSourceFiles: {
-			Text: V.Text,
-			Private: V.Private,
-			SclFileReference: V.SclFileReference
+			Text: B.Text,
+			Private: B.Private,
+			SclFileReference: B.SclFileReference
 		},
-		InputVar: { Text: V.Text },
+		InputVar: { Text: B.Text },
 		InputVarRef: {
-			Text: V.Text,
-			FunctionalVariantRef: V.FunctionalVariantRef
+			Text: B.Text,
+			FunctionalVariantRef: B.FunctionalVariantRef
 		},
 		Inputs: {
-			Text: V.Text,
-			Private: V.Private,
-			ExtRef: V.ExtRef
+			Text: B.Text,
+			Private: B.Private,
+			ExtRef: B.ExtRef
 		},
-		L2CommParameters: { Text: V.Text },
-		L3IPv4CommParameters: { Text: V.Text },
-		L3IPv6CommParameters: { Text: V.Text },
+		L2CommParameters: { Text: B.Text },
+		L3IPv4CommParameters: { Text: B.Text },
+		L3IPv6CommParameters: { Text: B.Text },
 		LDevice: {
-			Text: V.Text,
-			Private: V.Private,
-			LN0: V.LN0,
-			LN: V.LN,
-			AccessControl: V.AccessControl,
-			Labels: V.Labels
+			Text: B.Text,
+			Private: B.Private,
+			LN0: B.LN0,
+			LN: B.LN,
+			AccessControl: B.AccessControl,
+			Labels: B.Labels
 		},
 		LN: {
-			Text: V.Text,
-			Private: V.Private,
-			DataSet: V.DataSet,
-			ReportControl: V.ReportControl,
-			LogControl: V.LogControl,
-			DOI: V.DOI,
-			Inputs: V.Inputs,
-			Outputs: V.Outputs,
-			Log: V.Log,
-			Labels: V.Labels
+			Text: B.Text,
+			Private: B.Private,
+			DataSet: B.DataSet,
+			ReportControl: B.ReportControl,
+			LogControl: B.LogControl,
+			DOI: B.DOI,
+			Inputs: B.Inputs,
+			Outputs: B.Outputs,
+			Log: B.Log,
+			Labels: B.Labels
 		},
 		LN0: {
-			Text: V.Text,
-			Private: V.Private,
-			DataSet: V.DataSet,
-			ReportControl: V.ReportControl,
-			LogControl: V.LogControl,
-			DOI: V.DOI,
-			Inputs: V.Inputs,
-			Outputs: V.Outputs,
-			Log: V.Log,
-			Labels: V.Labels,
-			GSEControl: V.GSEControl,
-			SampledValueControl: V.SampledValueControl,
-			SettingControl: V.SettingControl
+			Text: B.Text,
+			Private: B.Private,
+			DataSet: B.DataSet,
+			ReportControl: B.ReportControl,
+			LogControl: B.LogControl,
+			DOI: B.DOI,
+			Inputs: B.Inputs,
+			Outputs: B.Outputs,
+			Log: B.Log,
+			Labels: B.Labels,
+			GSEControl: B.GSEControl,
+			SampledValueControl: B.SampledValueControl,
+			SettingControl: B.SettingControl
 		},
 		LNode: {
-			Text: V.Text,
-			Private: V.Private,
-			Labels: V.Labels,
-			BehaviorDescription: V.BehaviorDescription,
-			DOS: V.DOS,
-			LNodeInputs: V.LNodeInputs,
-			LNodeOutputs: V.LNodeOutputs,
-			LNodeSpecNaming: V.LNodeSpecNaming
+			Text: B.Text,
+			Private: B.Private,
+			Labels: B.Labels,
+			BehaviorDescription: B.BehaviorDescription,
+			DOS: B.DOS,
+			LNodeInputs: B.LNodeInputs,
+			LNodeOutputs: B.LNodeOutputs,
+			LNodeSpecNaming: B.LNodeSpecNaming
 		},
 		LNodeDataRef: {
-			Text: V.Text,
-			FunctionalVariantRef: V.FunctionalVariantRef
+			Text: B.Text,
+			FunctionalVariantRef: B.FunctionalVariantRef
 		},
 		LNodeInputRef: {
-			Text: V.Text,
-			FunctionalVariantRef: V.FunctionalVariantRef
+			Text: B.Text,
+			FunctionalVariantRef: B.FunctionalVariantRef
 		},
 		LNodeInputs: {
-			Text: V.Text,
-			SourceRef: V.SourceRef
+			Text: B.Text,
+			SourceRef: B.SourceRef
 		},
 		LNodeOutputRef: {
-			Text: V.Text,
-			FunctionalVariantRef: V.FunctionalVariantRef
+			Text: B.Text,
+			FunctionalVariantRef: B.FunctionalVariantRef
 		},
 		LNodeOutputs: {
-			Text: V.Text,
-			ControlRef: V.ControlRef
+			Text: B.Text,
+			ControlRef: B.ControlRef
 		},
-		LNodeSpecNaming: { Text: V.Text },
+		LNodeSpecNaming: { Text: B.Text },
 		LNodeType: {
-			Text: V.Text,
-			Private: V.Private,
-			DO: V.DO,
-			Labels: V.Labels
+			Text: B.Text,
+			Private: B.Private,
+			DO: B.DO,
+			Labels: B.Labels
 		},
 		Labels: {
-			Text: V.Text,
-			Private: V.Private,
-			Label: V.Label
+			Text: B.Text,
+			Private: B.Private,
+			Label: B.Label
 		},
 		Line: {
-			Text: V.Text,
-			Private: V.Private,
-			Labels: V.Labels,
-			LNode: V.LNode,
-			GeneralEquipment: V.GeneralEquipment,
-			Function: V.Function,
-			Voltage: V.Voltage,
-			ConductingEquipment: V.ConductingEquipment,
-			ConnectivityNode: V.ConnectivityNode,
-			AllocationRole: V.AllocationRole,
-			Application: V.Application,
-			BehaviorDescription: V.BehaviorDescription,
-			FunctionCategory: V.FunctionCategory,
-			ProcessResources: V.ProcessResources,
-			Variable: V.Variable
+			Text: B.Text,
+			Private: B.Private,
+			Labels: B.Labels,
+			LNode: B.LNode,
+			GeneralEquipment: B.GeneralEquipment,
+			Function: B.Function,
+			Voltage: B.Voltage,
+			ConductingEquipment: B.ConductingEquipment,
+			ConnectivityNode: B.ConnectivityNode,
+			AllocationRole: B.AllocationRole,
+			Application: B.Application,
+			BehaviorDescription: B.BehaviorDescription,
+			FunctionCategory: B.FunctionCategory,
+			ProcessResources: B.ProcessResources,
+			Variable: B.Variable
 		},
 		Log: {
-			Text: V.Text,
-			Private: V.Private
+			Text: B.Text,
+			Private: B.Private
 		},
 		LogControl: {
-			Text: V.Text,
-			Private: V.Private,
-			TrgOps: V.TrgOps
+			Text: B.Text,
+			Private: B.Private,
+			TrgOps: B.TrgOps
 		},
-		LogParameters: { Text: V.Text },
-		LogParametersRef: { Text: V.Text },
+		LogParameters: { Text: B.Text },
+		LogParametersRef: { Text: B.Text },
 		MinRequestedSCDFiles: {
-			Text: V.Text,
-			Private: V.Private,
-			MinRequestedSCDFile: V.MinRequestedSCDFile
+			Text: B.Text,
+			Private: B.Private,
+			MinRequestedSCDFile: B.MinRequestedSCDFile
 		},
 		NeutralPoint: {
-			Text: V.Text,
-			Private: V.Private
+			Text: B.Text,
+			Private: B.Private
 		},
-		OutputVar: { Text: V.Text },
+		OutputVar: { Text: B.Text },
 		OutputVarRef: {
-			Text: V.Text,
-			FunctionalVariantRef: V.FunctionalVariantRef
+			Text: B.Text,
+			FunctionalVariantRef: B.FunctionalVariantRef
 		},
 		Outputs: {
-			Text: V.Text,
-			Private: V.Private,
-			ExtCtrl: V.ExtCtrl
+			Text: B.Text,
+			Private: B.Private,
+			ExtCtrl: B.ExtCtrl
 		},
 		PhysConn: {
-			Text: V.Text,
-			Private: V.Private,
+			Text: B.Text,
+			Private: B.Private,
 			P: { type: "" }
 		},
-		PowerSystemRelation: { Text: V.Text },
+		PowerSystemRelation: { Text: B.Text },
 		PowerSystemRelationRef: {
-			Text: V.Text,
-			FunctionalVariantRef: V.FunctionalVariantRef
+			Text: B.Text,
+			FunctionalVariantRef: B.FunctionalVariantRef
 		},
 		PowerSystemRelations: {
-			Text: V.Text,
-			PowerSystemRelation: V.PowerSystemRelation
+			Text: B.Text,
+			PowerSystemRelation: B.PowerSystemRelation
 		},
 		PowerTransformer: {
-			Text: V.Text,
-			Private: V.Private,
-			Labels: V.Labels,
-			LNode: V.LNode,
-			TransformerWinding: V.TransformerWinding,
-			SubEquipment: V.SubEquipment,
-			EqFunction: V.EqFunction
+			Text: B.Text,
+			Private: B.Private,
+			Labels: B.Labels,
+			LNode: B.LNode,
+			TransformerWinding: B.TransformerWinding,
+			SubEquipment: B.SubEquipment,
+			EqFunction: B.EqFunction
 		},
 		Process: {
-			Text: V.Text,
-			Private: V.Private,
-			Labels: V.Labels,
-			LNode: V.LNode,
-			GeneralEquipment: V.GeneralEquipment,
-			Function: V.Function,
-			ConductingEquipment: V.ConductingEquipment,
-			Substation: V.Substation,
-			Line: V.Line,
-			Process: V.Process,
-			AllocationRole: V.AllocationRole,
-			Application: V.Application,
-			BehaviorDescription: V.BehaviorDescription,
-			FunctionCategory: V.FunctionCategory,
-			ProcessResources: V.ProcessResources,
-			Variable: V.Variable
+			Text: B.Text,
+			Private: B.Private,
+			Labels: B.Labels,
+			LNode: B.LNode,
+			GeneralEquipment: B.GeneralEquipment,
+			Function: B.Function,
+			ConductingEquipment: B.ConductingEquipment,
+			Substation: B.Substation,
+			Line: B.Line,
+			Process: B.Process,
+			AllocationRole: B.AllocationRole,
+			Application: B.Application,
+			BehaviorDescription: B.BehaviorDescription,
+			FunctionCategory: B.FunctionCategory,
+			ProcessResources: B.ProcessResources,
+			Variable: B.Variable
 		},
-		ProcessEcho: { Text: V.Text },
+		ProcessEcho: { Text: B.Text },
 		ProcessResource: {
-			Text: V.Text,
-			Resource: V.Resource
+			Text: B.Text,
+			Resource: B.Resource
 		},
 		ProcessResourceRef: {
-			Text: V.Text,
-			FunctionalVariantRef: V.FunctionalVariantRef
+			Text: B.Text,
+			FunctionalVariantRef: B.FunctionalVariantRef
 		},
 		ProcessResources: {
-			Text: V.Text,
-			ProcessResource: V.ProcessResource
+			Text: B.Text,
+			ProcessResource: B.ProcessResource
 		},
 		Project: {
-			Text: V.Text,
-			ProjectProcessReference: V.ProjectProcessReference
+			Text: B.Text,
+			ProjectProcessReference: B.ProjectProcessReference
 		},
-		ProjectProcessReference: { Text: V.Text },
+		ProjectProcessReference: { Text: B.Text },
 		ReportControl: {
-			Text: V.Text,
-			Private: V.Private,
-			TrgOps: V.TrgOps,
-			OptFields: V.OptFields,
-			RptEnabled: V.RptEnabled
+			Text: B.Text,
+			Private: B.Private,
+			TrgOps: B.TrgOps,
+			OptFields: B.OptFields,
+			RptEnabled: B.RptEnabled
 		},
-		ReportParameters: { Text: V.Text },
-		ReportParametersRef: { Text: V.Text },
+		ReportParameters: { Text: B.Text },
+		ReportParametersRef: { Text: B.Text },
 		RptEnabled: {
-			Text: V.Text,
-			Private: V.Private,
-			ClientLN: V.ClientLN
+			Text: B.Text,
+			Private: B.Private,
+			ClientLN: B.ClientLN
 		},
 		SCL: {
-			Text: V.Text,
-			Private: V.Private,
-			Header: V.Header,
-			Substation: V.Substation,
-			Communication: V.Communication,
-			IED: V.IED,
-			DataTypeTemplates: V.DataTypeTemplates,
-			Line: V.Line,
-			Process: V.Process,
-			BayType: V.BayType,
-			FunctionTemplate: V.FunctionTemplate,
-			Project: V.Project,
-			ServiceSpecifications: V.ServiceSpecifications
+			Text: B.Text,
+			Private: B.Private,
+			Header: B.Header,
+			Substation: B.Substation,
+			Communication: B.Communication,
+			IED: B.IED,
+			DataTypeTemplates: B.DataTypeTemplates,
+			Line: B.Line,
+			Process: B.Process,
+			BayType: B.BayType,
+			FunctionTemplate: B.FunctionTemplate,
+			Project: B.Project,
+			ServiceSpecifications: B.ServiceSpecifications
 		},
 		SDI: {
-			Text: V.Text,
-			Private: V.Private,
-			SDI: V.SDI,
-			DAI: V.DAI,
-			Labels: V.Labels
+			Text: B.Text,
+			Private: B.Private,
+			SDI: B.SDI,
+			DAI: B.DAI,
+			Labels: B.Labels
 		},
 		SDO: {
-			Text: V.Text,
-			Private: V.Private,
-			Labels: V.Labels
+			Text: B.Text,
+			Private: B.Private,
+			Labels: B.Labels
 		},
 		SDS: {
-			Text: V.Text,
-			SDS: V.SDS,
-			DAS: V.DAS,
-			SubscriberLNode: V.SubscriberLNode,
-			ControllingLNode: V.ControllingLNode,
-			ProcessEcho: V.ProcessEcho,
-			LogParametersRef: V.LogParametersRef,
-			Labels: V.Labels
+			Text: B.Text,
+			SDS: B.SDS,
+			DAS: B.DAS,
+			SubscriberLNode: B.SubscriberLNode,
+			ControllingLNode: B.ControllingLNode,
+			ProcessEcho: B.ProcessEcho,
+			LogParametersRef: B.LogParametersRef,
+			Labels: B.Labels
 		},
 		SMV: {
-			Text: V.Text,
-			Private: V.Private,
-			Address: V.Address
+			Text: B.Text,
+			Private: B.Private,
+			Address: B.Address
 		},
 		SMVParameters: {
-			Text: V.Text,
-			L2CommParameters: V.L2CommParameters,
-			L3IPv4CommParameters: V.L3IPv4CommParameters,
-			L3IPv6CommParameters: V.L3IPv6CommParameters
+			Text: B.Text,
+			L2CommParameters: B.L2CommParameters,
+			L3IPv4CommParameters: B.L3IPv4CommParameters,
+			L3IPv6CommParameters: B.L3IPv6CommParameters
 		},
-		SMVParametersRef: { Text: V.Text },
+		SMVParametersRef: { Text: B.Text },
 		SMVSecurity: {
-			Text: V.Text,
-			Private: V.Private,
-			Labels: V.Labels,
-			Subject: V.Subject,
-			IssuerName: V.IssuerName
+			Text: B.Text,
+			Private: B.Private,
+			Labels: B.Labels,
+			Subject: B.Subject,
+			IssuerName: B.IssuerName
 		},
 		SMVSettings: {
-			SmpRate: V.SmpRate,
-			SamplesPerSec: V.SamplesPerSec,
-			SecPerSamples: V.SecPerSamples,
-			McSecurity: V.McSecurity
+			SmpRate: B.SmpRate,
+			SamplesPerSec: B.SamplesPerSec,
+			SecPerSamples: B.SecPerSamples,
+			McSecurity: B.McSecurity
 		},
 		SampledValueControl: {
-			Text: V.Text,
-			Private: V.Private,
-			IEDName: V.IEDName,
-			SmvOpts: V.SmvOpts,
-			Protocol: V.Protocol
+			Text: B.Text,
+			Private: B.Private,
+			IEDName: B.IEDName,
+			SmvOpts: B.SmvOpts,
+			Protocol: B.Protocol
 		},
 		SclFileReference: {
-			Text: V.Text,
-			Private: V.Private,
-			SubCheckoutID: V.SubCheckoutID
+			Text: B.Text,
+			Private: B.Private,
+			SubCheckoutID: B.SubCheckoutID
 		},
 		Server: {
-			Text: V.Text,
-			Private: V.Private,
-			Authentication: V.Authentication,
-			LDevice: V.LDevice,
-			Association: V.Association
+			Text: B.Text,
+			Private: B.Private,
+			Authentication: B.Authentication,
+			LDevice: B.LDevice,
+			Association: B.Association
 		},
 		ServerAt: {
-			Text: V.Text,
-			Private: V.Private
+			Text: B.Text,
+			Private: B.Private
 		},
 		ServiceSpecifications: {
-			Text: V.Text,
-			GooseParameters: V.GooseParameters,
-			SMVParameters: V.SMVParameters,
-			ReportParameters: V.ReportParameters,
-			BinaryWiringParameters: V.BinaryWiringParameters,
-			AnalogueWiringParameters: V.AnalogueWiringParameters,
-			LogParameters: V.LogParameters
+			Text: B.Text,
+			GooseParameters: B.GooseParameters,
+			SMVParameters: B.SMVParameters,
+			ReportParameters: B.ReportParameters,
+			BinaryWiringParameters: B.BinaryWiringParameters,
+			AnalogueWiringParameters: B.AnalogueWiringParameters,
+			LogParameters: B.LogParameters
 		},
 		Services: {
-			DynAssociation: V.DynAssociation,
-			SettingGroups: V.SettingGroups,
-			GetDirectory: V.GetDirectory,
-			GetDataObjectDefinition: V.GetDataObjectDefinition,
-			DataObjectDirectory: V.DataObjectDirectory,
-			GetDataSetValue: V.GetDataSetValue,
-			SetDataSetValue: V.SetDataSetValue,
-			DataSetDirectory: V.DataSetDirectory,
-			ConfDataSet: V.ConfDataSet,
-			DynDataSet: V.DynDataSet,
-			ReadWrite: V.ReadWrite,
-			TimerActivatedControl: V.TimerActivatedControl,
-			ConfReportControl: V.ConfReportControl,
-			GetCBValues: V.GetCBValues,
-			ConfLogControl: V.ConfLogControl,
-			ReportSettings: V.ReportSettings,
-			LogSettings: V.LogSettings,
-			GSESettings: V.GSESettings,
-			SMVSettings: V.SMVSettings,
-			GSEDir: V.GSEDir,
-			GOOSE: V.GOOSE,
-			GSSE: V.GSSE,
-			SMVsc: V.SMVsc,
-			FileHandling: V.FileHandling,
-			ConfLNs: V.ConfLNs,
-			ClientServices: V.ClientServices,
-			ConfLdName: V.ConfLdName,
-			SupSubscription: V.SupSubscription,
-			ConfSigRef: V.ConfSigRef,
-			ValueHandling: V.ValueHandling,
-			RedProt: V.RedProt,
-			TimeSyncProt: V.TimeSyncProt,
-			CommProt: V.CommProt,
-			SCSM: V.SCSM,
-			Security: V.Security,
-			MultiAPPerSubNet: V.MultiAPPerSubNet
+			DynAssociation: B.DynAssociation,
+			SettingGroups: B.SettingGroups,
+			GetDirectory: B.GetDirectory,
+			GetDataObjectDefinition: B.GetDataObjectDefinition,
+			DataObjectDirectory: B.DataObjectDirectory,
+			GetDataSetValue: B.GetDataSetValue,
+			SetDataSetValue: B.SetDataSetValue,
+			DataSetDirectory: B.DataSetDirectory,
+			ConfDataSet: B.ConfDataSet,
+			DynDataSet: B.DynDataSet,
+			ReadWrite: B.ReadWrite,
+			TimerActivatedControl: B.TimerActivatedControl,
+			ConfReportControl: B.ConfReportControl,
+			GetCBValues: B.GetCBValues,
+			ConfLogControl: B.ConfLogControl,
+			ReportSettings: B.ReportSettings,
+			LogSettings: B.LogSettings,
+			GSESettings: B.GSESettings,
+			SMVSettings: B.SMVSettings,
+			GSEDir: B.GSEDir,
+			GOOSE: B.GOOSE,
+			GSSE: B.GSSE,
+			SMVsc: B.SMVsc,
+			FileHandling: B.FileHandling,
+			ConfLNs: B.ConfLNs,
+			ClientServices: B.ClientServices,
+			ConfLdName: B.ConfLdName,
+			SupSubscription: B.SupSubscription,
+			ConfSigRef: B.ConfSigRef,
+			ValueHandling: B.ValueHandling,
+			RedProt: B.RedProt,
+			TimeSyncProt: B.TimeSyncProt,
+			CommProt: B.CommProt,
+			SCSM: B.SCSM,
+			Security: B.Security,
+			MultiAPPerSubNet: B.MultiAPPerSubNet
 		},
 		SettingControl: {
-			Text: V.Text,
-			Private: V.Private
+			Text: B.Text,
+			Private: B.Private
 		},
 		SettingGroups: {
-			SGEdit: V.SGEdit,
-			ConfSG: V.ConfSG
+			SGEdit: B.SGEdit,
+			ConfSG: B.ConfSG
 		},
 		SignalRole: {
-			Text: V.Text,
-			FunctionalVariantRef: V.FunctionalVariantRef,
-			LNodeInputRef: V.LNodeInputRef,
-			LNodeOutputRef: V.LNodeOutputRef,
-			LNodeDataRef: V.LNodeDataRef
+			Text: B.Text,
+			FunctionalVariantRef: B.FunctionalVariantRef,
+			LNodeInputRef: B.LNodeInputRef,
+			LNodeOutputRef: B.LNodeOutputRef,
+			LNodeDataRef: B.LNodeDataRef
 		},
 		SourceFiles: {
-			Text: V.Text,
-			Private: V.Private,
-			SclFileReference: V.SclFileReference
+			Text: B.Text,
+			Private: B.Private,
+			SclFileReference: B.SclFileReference
 		},
 		SourceRef: {
-			Text: V.Text,
-			GooseParametersRef: V.GooseParametersRef,
-			SMVParametersRef: V.SMVParametersRef,
-			ReportParametersRef: V.ReportParametersRef,
-			BinaryWiringParametersRef: V.BinaryWiringParametersRef,
-			AnalogueWiringParametersRef: V.AnalogueWiringParametersRef
+			Text: B.Text,
+			GooseParametersRef: B.GooseParametersRef,
+			SMVParametersRef: B.SMVParametersRef,
+			ReportParametersRef: B.ReportParametersRef,
+			BinaryWiringParametersRef: B.BinaryWiringParametersRef,
+			AnalogueWiringParametersRef: B.AnalogueWiringParametersRef
 		},
 		SubCategory: {
-			Text: V.Text,
-			SubCategory: V.SubCategory,
-			FunctionCatRef: V.FunctionCatRef
+			Text: B.Text,
+			SubCategory: B.SubCategory,
+			FunctionCatRef: B.FunctionCatRef
 		},
-		SubCheckoutID: { SubCheckoutID: V.SubCheckoutID },
+		SubCheckoutID: { SubCheckoutID: B.SubCheckoutID },
 		SubEquipment: {
-			Text: V.Text,
-			Private: V.Private,
-			Labels: V.Labels,
-			LNode: V.LNode,
-			EqFunction: V.EqFunction
+			Text: B.Text,
+			Private: B.Private,
+			Labels: B.Labels,
+			LNode: B.LNode,
+			EqFunction: B.EqFunction
 		},
 		SubFunction: {
-			Text: V.Text,
-			Private: V.Private,
-			Labels: V.Labels,
-			LNode: V.LNode,
-			GeneralEquipment: V.GeneralEquipment,
-			ConductingEquipment: V.ConductingEquipment,
-			SubFunction: V.SubFunction,
-			BehaviorDescription: V.BehaviorDescription,
-			FunctionSclRef: V.FunctionSclRef,
-			PowerSystemRelations: V.PowerSystemRelations,
-			ProcessResources: V.ProcessResources,
-			Variable: V.Variable
+			Text: B.Text,
+			Private: B.Private,
+			Labels: B.Labels,
+			LNode: B.LNode,
+			GeneralEquipment: B.GeneralEquipment,
+			ConductingEquipment: B.ConductingEquipment,
+			SubFunction: B.SubFunction,
+			BehaviorDescription: B.BehaviorDescription,
+			FunctionSclRef: B.FunctionSclRef,
+			PowerSystemRelations: B.PowerSystemRelations,
+			ProcessResources: B.ProcessResources,
+			Variable: B.Variable
 		},
 		SubFunctionTemplate: {
-			Text: V.Text,
-			LNode: V.LNode,
-			GeneralEquipment: V.GeneralEquipment,
-			ConductingEquipment: V.ConductingEquipment,
-			SubFunctionTemplate: V.SubFunctionTemplate
+			Text: B.Text,
+			LNode: B.LNode,
+			GeneralEquipment: B.GeneralEquipment,
+			ConductingEquipment: B.ConductingEquipment,
+			SubFunctionTemplate: B.SubFunctionTemplate
 		},
 		SubNetwork: {
-			Text: V.Text,
-			Private: V.Private,
-			Labels: V.Labels,
-			BitRate: V.BitRate,
-			ConnectedAP: V.ConnectedAP,
-			CommunicationServiceSpecifications: V.CommunicationServiceSpecifications
+			Text: B.Text,
+			Private: B.Private,
+			Labels: B.Labels,
+			BitRate: B.BitRate,
+			ConnectedAP: B.ConnectedAP,
+			CommunicationServiceSpecifications: B.CommunicationServiceSpecifications
 		},
 		SubscriberLNode: {
-			Text: V.Text,
-			GooseParametersRef: V.GooseParametersRef,
-			SMVParametersRef: V.SMVParametersRef,
-			ReportParametersRef: V.ReportParametersRef,
-			BinaryWiringParametersRef: V.BinaryWiringParametersRef
+			Text: B.Text,
+			GooseParametersRef: B.GooseParametersRef,
+			SMVParametersRef: B.SMVParametersRef,
+			ReportParametersRef: B.ReportParametersRef,
+			BinaryWiringParametersRef: B.BinaryWiringParametersRef
 		},
 		Substation: {
-			Text: V.Text,
-			Private: V.Private,
-			Labels: V.Labels,
-			LNode: V.LNode,
-			PowerTransformer: V.PowerTransformer,
-			GeneralEquipment: V.GeneralEquipment,
-			VoltageLevel: V.VoltageLevel,
-			Function: V.Function,
-			AllocationRole: V.AllocationRole,
-			Application: V.Application,
-			BehaviorDescription: V.BehaviorDescription,
-			FunctionCategory: V.FunctionCategory,
-			ProcessResources: V.ProcessResources,
-			Variable: V.Variable
+			Text: B.Text,
+			Private: B.Private,
+			Labels: B.Labels,
+			LNode: B.LNode,
+			PowerTransformer: B.PowerTransformer,
+			GeneralEquipment: B.GeneralEquipment,
+			VoltageLevel: B.VoltageLevel,
+			Function: B.Function,
+			AllocationRole: B.AllocationRole,
+			Application: B.Application,
+			BehaviorDescription: B.BehaviorDescription,
+			FunctionCategory: B.FunctionCategory,
+			ProcessResources: B.ProcessResources,
+			Variable: B.Variable
 		},
 		TapChanger: {
-			Text: V.Text,
-			Private: V.Private,
-			Labels: V.Labels,
-			LNode: V.LNode,
-			SubEquipment: V.SubEquipment,
-			EqFunction: V.EqFunction
+			Text: B.Text,
+			Private: B.Private,
+			Labels: B.Labels,
+			LNode: B.LNode,
+			SubEquipment: B.SubEquipment,
+			EqFunction: B.EqFunction
 		},
 		Terminal: {
-			Text: V.Text,
-			Private: V.Private
+			Text: B.Text,
+			Private: B.Private
 		},
 		TransformerWinding: {
-			Text: V.Text,
-			Private: V.Private,
-			Labels: V.Labels,
-			LNode: V.LNode,
-			Terminal: V.Terminal,
-			SubEquipment: V.SubEquipment,
-			TapChanger: V.TapChanger,
-			NeutralPoint: V.NeutralPoint,
-			EqFunction: V.EqFunction
+			Text: B.Text,
+			Private: B.Private,
+			Labels: B.Labels,
+			LNode: B.LNode,
+			Terminal: B.Terminal,
+			SubEquipment: B.SubEquipment,
+			TapChanger: B.TapChanger,
+			NeutralPoint: B.NeutralPoint,
+			EqFunction: B.EqFunction
 		},
 		Variable: {
-			Text: V.Text,
-			VariableApplyTo: V.VariableApplyTo
+			Text: B.Text,
+			VariableApplyTo: B.VariableApplyTo
 		},
-		VariableApplyTo: { Text: V.Text },
+		VariableApplyTo: { Text: B.Text },
 		VariableRef: {
-			Text: V.Text,
-			FunctionalVariantRef: V.FunctionalVariantRef
+			Text: B.Text,
+			FunctionalVariantRef: B.FunctionalVariantRef
 		},
 		VoltageLevel: {
-			Text: V.Text,
-			Private: V.Private,
-			Labels: V.Labels,
-			LNode: V.LNode,
-			PowerTransformer: V.PowerTransformer,
-			GeneralEquipment: V.GeneralEquipment,
-			Voltage: V.Voltage,
-			Bay: V.Bay,
-			Function: V.Function,
-			AllocationRole: V.AllocationRole,
-			Application: V.Application,
-			BehaviorDescription: V.BehaviorDescription,
-			FunctionCategory: V.FunctionCategory,
-			ProcessResources: V.ProcessResources,
-			Variable: V.Variable
+			Text: B.Text,
+			Private: B.Private,
+			Labels: B.Labels,
+			LNode: B.LNode,
+			PowerTransformer: B.PowerTransformer,
+			GeneralEquipment: B.GeneralEquipment,
+			Voltage: B.Voltage,
+			Bay: B.Bay,
+			Function: B.Function,
+			AllocationRole: B.AllocationRole,
+			Application: B.Application,
+			BehaviorDescription: B.BehaviorDescription,
+			FunctionCategory: B.FunctionCategory,
+			ProcessResources: B.ProcessResources,
+			Variable: B.Variable
 		}
 	}
-}, dt = {
+}, pt = {
 	AccessControl: [],
 	AccessPoint: ["name"],
 	Address: [],
@@ -6696,7 +6696,7 @@ var it = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 	VariableRef: [],
 	Voltage: ["unit"],
 	VoltageLevel: ["name"]
-}, ft = {
+}, V = {
 	AccessControl: {
 		tag: "AccessControl",
 		namespace: {
@@ -42491,7 +42491,7 @@ var it = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		}],
 		type: "{http://www.iec.ch/61850/2003/SCL}tVoltageLevel"
 	}
-}, pt = {
+}, mt = {
 	"{http://www.iec.ch/61850/2003/SCL}tCommProt": {
 		attributes: {
 			sequence: ["ipv6"],
@@ -43850,7 +43850,7 @@ var it = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			}]
 		}
 	}
-}, mt = { supportedFileExtensions: [
+}, ht = { supportedFileExtensions: [
 	".fsd",
 	".asd",
 	".ssd",
@@ -43859,7 +43859,7 @@ var it = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 	".icd",
 	".iid",
 	".xml"
-] }, ht = {
+] }, gt = {
 	recordSchema: {
 		primaryKey: "id",
 		indexes: [
@@ -43877,7 +43877,7 @@ var it = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		},
 		additionalTables: { attachedFiles: { schema: "id, filename, file" } }
 	}
-}, gt = {
+}, _t = {
 	default: {
 		uri: "http://www.iec.ch/61850/2003/SCL",
 		prefix: ""
@@ -43886,23 +43886,23 @@ var it = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		uri: "http://www.iec.ch/61850/2019/SCL/6-100",
 		prefix: "eIEC61850-6-100"
 	},
-	xsi: r
-}, _t = {
-	rootElementName: "SCL",
-	singletonElements: lt,
-	transparentElements: ["Private"],
-	elements: it,
-	namespaces: gt,
-	attributes: ut,
-	children: at,
-	parents: ot,
-	descendants: st,
-	ancestors: ct,
-	database: ht,
-	io: mt,
-	definition: ft,
-	types: pt
+	xsi: u
 }, H = {
+	rootElementName: "SCL",
+	singletonElements: dt,
+	transparentElements: ["Private"],
+	elements: st,
+	namespaces: _t,
+	attributes: ft,
+	children: z,
+	parents: ct,
+	descendants: lt,
+	ancestors: ut,
+	database: gt,
+	io: ht,
+	definition: V,
+	types: mt
+}, U = {
 	AllocationRoleRef: [{
 		attribute: {
 			path: "allocationRole",
@@ -44026,7 +44026,8 @@ var it = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			path: "functionalVariant",
 			uuid: "functionalVariantUuid"
 		},
-		resolution: "direct",
+		resolution: "scoped-name",
+		nameScope: "Application",
 		target: ["FunctionalVariant", "FunctionalSubVariant"],
 		companions: []
 	}],
@@ -44089,6 +44090,15 @@ var it = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		target: ["ControlRef"],
 		companions: []
 	}],
+	NeutralPoint: [{
+		attribute: {
+			path: "connectivityNode",
+			uuid: "cNodeUuid"
+		},
+		resolution: "direct",
+		target: ["ConnectivityNode"],
+		companions: []
+	}],
 	OutputVar: [{
 		attribute: {
 			path: "dataName",
@@ -44148,7 +44158,7 @@ var it = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 			required: !0
 		}, {
 			name: "sourceDaName",
-			required: !0
+			required: !1
 		}]
 	}],
 	ProcessResourceRef: [{
@@ -44213,7 +44223,7 @@ var it = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 				required: !0
 			}, {
 				name: "sourceDaName",
-				required: !0
+				required: !1
 			}]
 		},
 		{
@@ -44244,13 +44254,22 @@ var it = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		target: ["ProcessResource"],
 		companions: []
 	}],
+	Terminal: [{
+		attribute: {
+			path: "connectivityNode",
+			uuid: "cNodeUuid"
+		},
+		resolution: "direct",
+		target: ["ConnectivityNode"],
+		companions: []
+	}],
 	VariableApplyTo: [{
 		attribute: {
 			path: "element",
 			uuid: "elementUuid"
 		},
 		resolution: "unsupported",
-		target: it,
+		target: st,
 		companions: [{
 			name: "doName",
 			required: !1
@@ -44268,26 +44287,191 @@ var it = /* @__PURE__ */ "AccessControl.AccessPoint.Address.AllocationRole.Alloc
 		target: ["Variable"],
 		companions: []
 	}]
-};
-new Set(Object.keys(H)), new Set(Object.values(H).flatMap((e) => e.flatMap((e) => e.target)));
-var vt = [
+}, W = {
+	Association: [{
+		attribute: { uuid: "lnUuid" },
+		target: ["LN", "LN0"],
+		tuple: {
+			ied: { attribute: "iedName" },
+			lDevice: "ldInst",
+			prefix: "prefix",
+			lnClass: "lnClass",
+			lnInst: "lnInst"
+		}
+	}],
+	ClientLN: [{
+		attribute: { uuid: "lnUuid" },
+		target: ["LN", "LN0"],
+		tuple: {
+			ied: { attribute: "iedName" },
+			lDevice: "ldInst",
+			prefix: "prefix",
+			lnClass: "lnClass",
+			lnInst: "lnInst"
+		}
+	}],
+	ConnectedAP: [{
+		attribute: { uuid: "apUuid" },
+		target: ["AccessPoint"],
+		tuple: {
+			ied: { attribute: "iedName" },
+			accessPoint: "apName"
+		}
+	}],
+	ExtCtrl: [{
+		attribute: { uuid: "lnUuid" },
+		target: ["LN", "LN0"],
+		tuple: {
+			ied: { attribute: "iedName" },
+			lDevice: "ldInst",
+			prefix: "prefix",
+			lnClass: "lnClass",
+			lnInst: "lnInst"
+		}
+	}],
+	ExtRef: [{
+		attribute: { uuid: "lnUuid" },
+		target: ["LN", "LN0"],
+		tuple: {
+			ied: { attribute: "iedName" },
+			lDevice: "ldInst",
+			prefix: "prefix",
+			lnClass: "lnClass",
+			lnInst: "lnInst"
+		}
+	}, {
+		attribute: { uuid: "srcCBUuid" },
+		target: [
+			"GSEControl",
+			"SampledValueControl",
+			"ReportControl"
+		],
+		otherwise: { lDevice: "ldInst" },
+		targetByAttribute: {
+			attribute: "serviceType",
+			tags: {
+				GOOSE: "GSEControl",
+				SMV: "SampledValueControl",
+				Report: "ReportControl"
+			}
+		},
+		tuple: {
+			ied: { attribute: "iedName" },
+			lDevice: "srcLDInst",
+			prefix: "srcPrefix",
+			lnClass: "srcLNClass",
+			lnInst: "srcLNInst",
+			controlBlock: "srcCBName"
+		}
+	}],
+	FCDA: [{
+		attribute: { uuid: "lnUuid" },
+		target: ["LN", "LN0"],
+		tuple: {
+			ied: { ancestor: !0 },
+			lDevice: "ldInst",
+			prefix: "prefix",
+			lnClass: "lnClass",
+			lnInst: "lnInst"
+		}
+	}],
+	GSE: [{
+		attribute: { uuid: "cbUuid" },
+		target: ["GSEControl"],
+		tuple: {
+			ied: { parentAttribute: "iedName" },
+			lDevice: "ldInst",
+			controlBlock: "cbName"
+		}
+	}],
+	IEDName: [
+		{
+			attribute: { uuid: "apUuid" },
+			target: ["AccessPoint"],
+			tuple: {
+				ied: { text: !0 },
+				accessPoint: "apRef"
+			},
+			onlyWithout: ["ldInst"]
+		},
+		{
+			attribute: { uuid: "ldUuid" },
+			target: ["LDevice"],
+			tuple: {
+				ied: { text: !0 },
+				lDevice: "ldInst"
+			},
+			onlyWithout: ["lnClass"]
+		},
+		{
+			attribute: { uuid: "lnUuid" },
+			target: ["LN", "LN0"],
+			tuple: {
+				ied: { text: !0 },
+				lDevice: "ldInst",
+				prefix: "prefix",
+				lnClass: "lnClass",
+				lnInst: "lnInst"
+			}
+		}
+	],
+	LNode: [{
+		attribute: { uuid: "lnUuid" },
+		target: ["LN", "LN0"],
+		tuple: {
+			ied: { attribute: "iedName" },
+			lDevice: "ldInst",
+			prefix: "prefix",
+			lnClass: "lnClass",
+			lnInst: "lnInst"
+		},
+		followsOnly: !0
+	}],
+	KDC: [{
+		attribute: { uuid: "apUuid" },
+		target: ["AccessPoint"],
+		tuple: {
+			ied: { attribute: "iedName" },
+			accessPoint: "apName"
+		}
+	}],
+	ServerAt: [{
+		attribute: { uuid: "apUuid" },
+		target: ["AccessPoint"],
+		tuple: {
+			ied: { ancestor: !0 },
+			accessPoint: "apName"
+		}
+	}],
+	SMV: [{
+		attribute: { uuid: "cbUuid" },
+		target: ["SampledValueControl"],
+		tuple: {
+			ied: { parentAttribute: "iedName" },
+			lDevice: "ldInst",
+			controlBlock: "cbName"
+		}
+	}]
+}, vt = new Set(Object.keys(U));
+new Set(Object.values(U).flatMap((e) => e.flatMap((e) => e.target)));
+var yt = [
 	"Substation",
 	"VoltageLevel",
 	"Bay"
-], yt = [
+], bt = [
 	"Application",
 	"Function",
 	"FunctionCategory",
 	"AllocationRole",
 	"Variable",
 	"BehaviorDescription"
-], bt = new Set([
+], xt = new Set([
 	"Text",
 	"Private",
 	"Labels",
 	"Label"
 ]);
-xt({ roots: [
+St({ roots: [
 	"ReportControl",
 	"LogControl",
 	"GSEControl",
@@ -44296,26 +44480,232 @@ xt({ roots: [
 	"DataSet",
 	"ExtRef",
 	"DAI"
-] }), xt({
+] }), St({
 	roots: ["ConnectedAP"],
-	excluded: new Set([...bt, "PhysConn"])
-}), xt({
+	excluded: new Set([...xt, "PhysConn"])
+}), St({
 	roots: ["SubNetwork"],
-	excluded: xt({ roots: ["ConnectedAP"] })
-}), St();
-function xt(e) {
-	let { roots: t, excluded: n } = e, r = st, i = t.flatMap((e) => [e, ...r[e] ?? []]);
-	return new Set(i.filter((e) => !bt.has(e) && !n?.has(e)));
+	excluded: St({ roots: ["ConnectedAP"] })
+}), Ct();
+function St(e) {
+	let { roots: t, excluded: n } = e, r = lt, i = t.flatMap((e) => [e, ...r[e] ?? []]);
+	return new Set(i.filter((e) => !xt.has(e) && !n?.has(e)));
 }
-function St() {
-	let e = ft.MinRequestedSCDFile.attributes.identityFields, t = dt.MinRequestedSCDFile;
-	return Object.keys(ut.byTag.MinRequestedSCDFile).filter((n) => !e.includes(n) && !t.includes(n));
+function Ct() {
+	let e = V.MinRequestedSCDFile.attributes.identityFields, t = pt.MinRequestedSCDFile;
+	return Object.keys(ft.byTag.MinRequestedSCDFile).filter((n) => !e.includes(n) && !t.includes(n));
 }
-var Ct = ft.LNode?.attributes?.identityFields ?? [], wt = new Map(Ct.map((e) => [e, Tt(e)]).filter(([, e]) => e in ut.byTag.LNodeSpecNaming));
-function Tt(e) {
+var wt = V.LNode?.attributes?.identityFields ?? [], Tt = new Map(wt.map((e) => [e, Et(e)]).filter(([, e]) => e in ft.byTag.LNodeSpecNaming));
+function Et(e) {
 	return `s${e.charAt(0).toUpperCase()}${e.slice(1)}`;
 }
-var Et = {
+var Dt = [
+	{
+		name: "processName",
+		from: "Process"
+	},
+	{
+		name: "lineName",
+		from: "Line"
+	},
+	{
+		name: "substationName",
+		from: "Substation"
+	},
+	{
+		name: "voltageLevelName",
+		from: "VoltageLevel"
+	},
+	{
+		name: "bayName",
+		from: "Bay"
+	},
+	{
+		name: "cNodeName",
+		from: "ConnectivityNode"
+	}
+], Ot = {
+	ConnectivityNode: {
+		follows: "self",
+		attributes: [{
+			name: "pathName",
+			from: "path"
+		}]
+	},
+	NeutralPoint: {
+		follows: "connectivityNode",
+		attributes: Dt
+	},
+	Terminal: {
+		follows: "connectivityNode",
+		attributes: Dt
+	}
+}, G = {
+	direct: "direct",
+	lnode: "lnode",
+	iedAddress: "ied-address",
+	behaviorDescription: "behavior-description",
+	ancestorName: "ancestor-name",
+	scopedName: "scoped-name",
+	unsupported: "unsupported"
+}, kt = {
+	LN: [{
+		attribute: "lnType",
+		target: "LNodeType"
+	}],
+	LN0: [{
+		attribute: "lnType",
+		target: "LNodeType"
+	}],
+	LNode: [{
+		attribute: "lnType",
+		target: "LNodeType"
+	}],
+	DO: [{
+		attribute: "type",
+		target: "DOType"
+	}],
+	SDO: [{
+		attribute: "type",
+		target: "DOType"
+	}],
+	DA: [{
+		attribute: "type",
+		target: "EnumType",
+		when: {
+			attribute: "bType",
+			equals: "Enum"
+		}
+	}, {
+		attribute: "type",
+		target: "DAType",
+		when: {
+			attribute: "bType",
+			equals: "Struct"
+		}
+	}],
+	BDA: [{
+		attribute: "type",
+		target: "EnumType",
+		when: {
+			attribute: "bType",
+			equals: "Enum"
+		}
+	}, {
+		attribute: "type",
+		target: "DAType",
+		when: {
+			attribute: "bType",
+			equals: "Struct"
+		}
+	}]
+};
+function At(e) {
+	let t = {};
+	for (let [n, r] of Object.entries(e)) for (let e of r) {
+		let r = t[e.resolution] ??= /* @__PURE__ */ new Map();
+		for (let t of e.target) {
+			let i = r.get(t) ?? [];
+			i.push({
+				refTagName: n,
+				uuidAttr: e.attribute.uuid,
+				pathAttr: e.attribute.path
+			}), r.set(t, i);
+		}
+	}
+	return t;
+}
+function jt(e) {
+	let t = /* @__PURE__ */ new Map();
+	for (let [n, r] of Object.entries(e)) t.set(n, r.map((e) => ({
+		uuidAttr: e.attribute.uuid,
+		pathAttr: e.attribute.path,
+		resolution: e.resolution,
+		targetTagNames: e.target
+	})));
+	return t;
+}
+function Mt(e) {
+	let t = /* @__PURE__ */ new Map();
+	for (let [n, r] of Object.entries(e)) for (let e of r) {
+		let r = t.get(e.target) ?? [];
+		r.push({
+			refTagName: n,
+			attribute: e.attribute,
+			when: e.when
+		}), t.set(e.target, r);
+	}
+	return t;
+}
+function Nt(e) {
+	let { tagName: t, derived: n, rootConstraints: r } = e;
+	return {
+		...n,
+		attributes: n.attributes.map((e) => Pt({
+			tagName: t,
+			attribute: e,
+			rootConstraints: r
+		}) ? {
+			...e,
+			rootOnly: !0
+		} : e)
+	};
+}
+function Pt(e) {
+	let { rootConstraints: t } = e;
+	return t.some((t) => Ft({
+		...e,
+		keyref: t
+	}));
+}
+function Ft(e) {
+	let { keyref: t, tagName: n, attribute: r, rootConstraints: i } = e;
+	if (t.kind !== "keyref" || t.fields.length !== 1) return !1;
+	let a = t.selector.some((e) => e.steps.at(-1)?.name === n), o = t.fields[0].some((e) => e.steps.length === 0 && e.attribute?.name === r.name), s = i.find((e) => e.kind !== "keyref" && e.name === t.refer?.name), c = s?.selector.every((e) => !e.deep && e.steps.length === 1), l = s?.selector.some((e) => e.steps[0]?.name === r.from);
+	return a && o && c === !0 && l === !0;
+}
+var It = At(U), Lt = [...[
+	G.direct,
+	G.lnode,
+	G.iedAddress,
+	G.behaviorDescription,
+	G.ancestorName,
+	G.scopedName
+], G.unsupported];
+Ut(), new Map(Object.values(U).flatMap((e) => e.flatMap((e) => "nameScope" in e ? e.target.map((t) => [t, e.nameScope]) : [])));
+var Rt = jt(U), zt = new Map(Object.entries(U).flatMap(([e, t]) => t.filter((e) => e.attribute.path === "mappedDoName" || e.attribute.path === "mappedDaName").map((t) => [e, {
+	path: t.attribute.path,
+	uuid: t.attribute.uuid
+}]))), Bt = [...wt, "lnUuid"];
+Wt(), new Map([...zt].map(([e, t]) => {
+	let n = V[e]?.attributes.details[t.path]?.type;
+	return [e, ie(n)];
+})), [...new Set(Object.values(U).flatMap((e) => e.map((e) => e.attribute.uuid)))], new Map(Object.entries(Ot).map(([e, t]) => [e, Nt({
+	tagName: e,
+	derived: t,
+	rootConstraints: V.SCL?.constraints ?? []
+})]));
+var Vt = new Map(Object.entries(kt).map(([e, t]) => [e, [...new Set(t.map((e) => e.attribute))]])), Ht = Mt(kt);
+new Set(Ht.keys());
+function Ut() {
+	let e = /* @__PURE__ */ new Map();
+	for (let t of Lt) for (let [n, r] of It[t] ?? []) e.set(n, [...e.get(n) ?? [], ...r]);
+	return e;
+}
+function Wt() {
+	let e = [["LNode", Bt]];
+	for (let t of ["DOS", "SDS"]) {
+		let n = zt.get(t);
+		n && e.push([t, [
+			"name",
+			"ix",
+			n.path,
+			n.uuid
+		]]);
+	}
+	return new Map(e);
+}
+var Gt = {
 	AccessPoint: { type: "transparent" },
 	Server: { type: "transparent" },
 	Private: { type: "transparent" },
@@ -44411,17 +44801,17 @@ var Et = {
 	Variable: { type: "name" },
 	Process: { type: "name" }
 };
-new Set(Object.entries(Et).filter(([, e]) => e.type === "signal").map(([e]) => e));
-var Dt = [
+new Set(Object.entries(Gt).filter(([, e]) => e.type === "signal").map(([e]) => e));
+var Kt = [
 	"lnClass",
 	"prefix",
 	"inst"
 ];
-new Set(Object.values(Et).flatMap((e) => {
+new Set(Object.values(Gt).flatMap((e) => {
 	switch (e.type) {
 		case "transparent": return [];
 		case "name": return ["name"];
-		case "lnClass": return [...Dt];
+		case "lnClass": return [...Kt];
 		case "lnode": return [
 			e.prefix,
 			e.lnClass,
@@ -44436,13 +44826,72 @@ new Set(Object.values(Et).flatMap((e) => {
 		];
 	}
 }));
-function Ot(e) {
+var qt = new Set(["LN", "LN0"]), Jt = new Map(Object.entries(U).flatMap(([e, t]) => {
+	let n = t.filter(Yt);
+	return n.length > 0 ? [[e, n]] : [];
+}));
+new Set([...qt, ...[...Jt.values()].flatMap((e) => e.flatMap((e) => e.target))]), new Map([["LNode", new Set(Bt)], ...[...Jt].map(([e, t]) => [e, new Set(t.map((e) => e.attribute.uuid))])]);
+function Yt(e) {
+	return e.resolution === G.iedAddress || e.target.every((e) => qt.has(e));
+}
+function K(e) {
+	let { fullObject: t, ...n } = e;
+	return _e({
+		...n,
+		dialecteConfig: H,
+		fullObject: t
+	});
+}
+function Xt(e) {
+	return Zt(e) > 0;
+}
+function Zt(e) {
+	if (!e) return 0;
+	let t = e.minOccurs ?? 0;
+	if (e.kind === "element" || e.kind === "any") return t;
+	let n = e.particles.map((e) => Zt(e));
+	return e.kind === "choice" ? n.length === 0 ? 0 : t * Math.min(...n) : t * n.reduce((e, t) => e + t, 0);
+}
+function Qt(e) {
+	let t = /* @__PURE__ */ new Set();
+	return $t({
+		particle: e,
+		tags: t
+	}), t;
+}
+function $t(e) {
+	let { particle: t, tags: n } = e;
+	if (!(!t || (t.minOccurs ?? 0) === 0)) if (t.kind === "element") n.add(t.name);
+	else if (t.kind === "any") n.add("");
+	else for (let e of t.particles) $t({
+		particle: e,
+		tags: n
+	});
+}
+function en(e) {
+	return yt.includes(e);
+}
+function tn(e) {
+	let { tagName: t, definition: n } = e;
+	if (en(t) || !Xt(n.contentModel)) return !1;
+	let { identityFields: r = [], sequence: i } = n.attributes;
+	return r.length === 0 && !i.includes("uuid") ? !0 : [...Qt(n.contentModel)].every((e) => vt.has(e));
+}
+var nn = H.definition, rn = new Set(Object.entries(nn).filter(([e, t]) => tn({
+	tagName: e,
+	definition: t
+})).map(([e]) => e));
+new Set(Object.values(H.namespaces).map((e) => e.prefix).filter((e) => e !== H.namespaces.default.prefix)), new Set([...H.transparentElements, ...rn]);
+function an(e) {
 	switch (e.type) {
 		case "transparent": return () => null;
 		case "name": {
 			let t = e.separator ?? "/";
 			return (e) => {
-				let n = U(e, "name");
+				let n = K({
+					record: e,
+					name: "name"
+				});
 				return n ? {
 					segment: n,
 					separator: t
@@ -44450,14 +44899,36 @@ function Ot(e) {
 			};
 		}
 		case "lnClass": return (e) => {
-			let t = U(e, "lnClass");
+			let t = K({
+				record: e,
+				name: "lnClass",
+				defaults: "none"
+			});
 			return t ? {
-				segment: `${U(e, "prefix") ?? ""}${t}${U(e, "inst") ?? U(e, "lnInst") ?? ""}`,
+				segment: dn({
+					prefix: K({
+						record: e,
+						name: "prefix",
+						defaults: "none"
+					}),
+					lnClass: t,
+					inst: K({
+						record: e,
+						name: "inst",
+						defaults: "none",
+						fullObject: !0
+					})?.value ?? K({
+						record: e,
+						name: "lnInst",
+						defaults: "none",
+						fullObject: !0
+					})?.value ?? ""
+				}),
 				separator: "/"
 			} : null;
 		};
 		case "lnode": return (t, n) => {
-			let r = At({
+			let r = cn({
 				strategy: e,
 				record: t,
 				specNaming: n?.specNaming
@@ -44468,14 +44939,18 @@ function Ot(e) {
 			} : null;
 		};
 		case "attribute": return (t) => {
-			let n = U(t, e.attr);
+			let n = K({
+				record: t,
+				name: e.attr,
+				defaults: "none"
+			});
 			return n ? {
 				segment: n,
 				separator: e.separator
 			} : null;
 		};
 		case "signal": return (t, n) => {
-			let r = kt({
+			let r = on({
 				strategy: e,
 				record: t,
 				siblings: n?.siblings ?? [t]
@@ -44487,173 +44962,125 @@ function Ot(e) {
 		};
 	}
 }
-function kt(e) {
-	let { strategy: t, record: n, siblings: r } = e, i = U(n, t.name);
-	if (!i) return null;
-	if (r.filter((e) => e.tagName === n.tagName && U(e, t.name) === i).length <= 1) return i;
-	let a = U(n, t.instance) ?? Mt(n, t.instance), o = t.data ? U(n, t.data) : void 0;
-	return `${i}${a ? `(${a})` : ""}${o ? `.${o}` : ""}`;
+function on(e) {
+	let { strategy: t, record: n, siblings: r } = e, i = K({
+		record: n,
+		name: t.name,
+		defaults: "none"
+	});
+	return i ? r.filter((e) => e.tagName === n.tagName && K({
+		record: e,
+		name: t.name,
+		defaults: "none"
+	}) === i).length <= 1 ? i : sn({
+		strategy: t,
+		record: n,
+		name: i
+	}) : null;
 }
-function At(e) {
-	let { strategy: t, record: n, specNaming: r } = e, i = U(n, t.ied), a = i && i !== "None" && r ? {
-		prefix: U(r, jt(t.prefix)),
-		lnClass: U(r, jt(t.lnClass)) ?? U(n, t.lnClass),
-		inst: U(r, jt(t.inst))
+function sn(e) {
+	let { strategy: t, record: n, name: r } = e, i = K({
+		record: n,
+		name: t.instance,
+		defaults: "none",
+		fullObject: !0
+	})?.value ?? un(n, t.instance), a = t.data ? K({
+		record: n,
+		name: t.data,
+		defaults: "none"
+	}) : void 0;
+	return `${r}${i ? `(${i})` : ""}${a ? `.${a}` : ""}`;
+}
+function cn(e) {
+	let { strategy: t, record: n, specNaming: r } = e, i = K({
+		record: n,
+		name: t.ied,
+		defaults: "none"
+	}), a = i && i !== "None" && r ? {
+		prefix: K({
+			record: r,
+			name: ln(t.prefix),
+			defaults: "none"
+		}),
+		lnClass: K({
+			record: r,
+			name: ln(t.lnClass),
+			defaults: "none",
+			fullObject: !0
+		})?.value ?? K({
+			record: n,
+			name: t.lnClass,
+			defaults: "none"
+		}),
+		inst: K({
+			record: r,
+			name: ln(t.inst),
+			defaults: "none"
+		})
 	} : {
-		prefix: U(n, t.prefix),
-		lnClass: U(n, t.lnClass),
-		inst: U(n, t.inst)
+		prefix: K({
+			record: n,
+			name: t.prefix,
+			defaults: "none"
+		}),
+		lnClass: K({
+			record: n,
+			name: t.lnClass,
+			defaults: "none"
+		}),
+		inst: K({
+			record: n,
+			name: t.inst,
+			defaults: "none"
+		})
 	};
-	return a.lnClass ? `${a.prefix ?? ""}${a.lnClass}${a.inst ?? ""}` : null;
+	return a.lnClass ? dn({
+		prefix: a.prefix,
+		lnClass: a.lnClass,
+		inst: a.inst
+	}) : null;
 }
-function jt(e) {
-	return wt.get(e) ?? e;
+function ln(e) {
+	return Tt.get(e) ?? e;
 }
-function Mt(e, t) {
-	return ce({
-		dialecteConfig: _t,
+function un(e, t) {
+	return le({
+		dialecteConfig: H,
 		record: e,
 		attributeName: t
 	}).default;
 }
-Object.fromEntries(Object.entries(Et).map(([e, t]) => [e, Ot(t)]));
-function U(e, t) {
-	return e.attributes.find((e) => e.name === t)?.value;
+Object.fromEntries(Object.entries(Gt).map(([e, t]) => [e, an(t)]));
+function dn(e) {
+	let { prefix: t, lnClass: n, inst: r } = e;
+	return `${t ?? ""}${n}${r ?? ""}`;
 }
-var W = {
-	direct: "direct",
-	lnode: "lnode",
-	iedAddress: "ied-address",
-	behaviorDescription: "behavior-description",
-	ancestorName: "ancestor-name",
-	unsupported: "unsupported"
-}, Nt = {
-	LN: [{
-		attribute: "lnType",
-		target: "LNodeType"
-	}],
-	LN0: [{
-		attribute: "lnType",
-		target: "LNodeType"
-	}],
-	LNode: [{
-		attribute: "lnType",
-		target: "LNodeType"
-	}],
-	DO: [{
-		attribute: "type",
-		target: "DOType"
-	}],
-	SDO: [{
-		attribute: "type",
-		target: "DOType"
-	}],
-	DA: [{
-		attribute: "type",
-		target: "EnumType",
-		when: {
-			attribute: "bType",
-			equals: "Enum"
-		}
-	}, {
-		attribute: "type",
-		target: "DAType",
-		when: {
-			attribute: "bType",
-			equals: "Struct"
-		}
-	}],
-	BDA: [{
-		attribute: "type",
-		target: "EnumType",
-		when: {
-			attribute: "bType",
-			equals: "Enum"
-		}
-	}, {
-		attribute: "type",
-		target: "DAType",
-		when: {
-			attribute: "bType",
-			equals: "Struct"
-		}
-	}]
-};
-function Pt(e) {
-	let t = {};
-	for (let [n, r] of Object.entries(e)) for (let e of r) {
-		let r = t[e.resolution] ??= /* @__PURE__ */ new Map();
-		for (let t of e.target) {
-			let i = r.get(t) ?? [];
-			i.push({
-				refTagName: n,
-				uuidAttr: e.attribute.uuid,
-				pathAttr: e.attribute.path
-			}), r.set(t, i);
-		}
-	}
-	return t;
+function fn(e) {
+	let [t, n] = e.companions;
+	return {
+		doAttribute: t?.name,
+		daAttribute: n?.name,
+		doRequired: t?.required === !0
+	};
 }
-function Ft(e) {
-	let t = /* @__PURE__ */ new Map();
-	for (let [n, r] of Object.entries(e)) t.set(n, r.map((e) => ({
-		uuidAttr: e.attribute.uuid,
-		pathAttr: e.attribute.path,
-		resolution: e.resolution,
-		targetTagNames: e.target
-	})));
-	return t;
+function pn(e) {
+	return e.controlBlock ? "cb" : e.accessPoint ? "ap" : e.lnClass ? "ln" : "ld";
 }
-function It(e) {
-	let t = /* @__PURE__ */ new Map();
-	for (let [n, r] of Object.entries(e)) for (let e of r) {
-		let r = t.get(e.target) ?? [];
-		r.push({
-			refTagName: n,
-			attribute: e.attribute,
-			when: e.when
-		}), t.set(e.target, r);
-	}
-	return t;
-}
-Pt(H), [...[
-	W.direct,
-	W.lnode,
-	W.iedAddress,
-	W.behaviorDescription,
-	W.ancestorName
-], W.unsupported], Ft(H);
-var Lt = new Map(Object.entries(H).flatMap(([e, t]) => t.filter((e) => e.attribute.path === "mappedDoName" || e.attribute.path === "mappedDaName").map((t) => [e, {
-	path: t.attribute.path,
-	uuid: t.attribute.uuid
-}])));
-Bt(), new Map([...Lt].map(([e, t]) => {
-	let n = ft[e]?.attributes.details[t.path]?.type;
-	return [e, te(n)];
-})), [...new Set(Object.values(H).flatMap((e) => e.map((e) => e.attribute.uuid)))];
-var Rt = new Map(Object.entries(Nt).map(([e, t]) => [e, [...new Set(t.map((e) => e.attribute))]])), zt = It(Nt);
-new Set(zt.keys()), new Set([...Ct, ...Rt.get("LNode") ?? []]);
-function Bt() {
-	let e = [["LNode", [...Ct, "lnUuid"]]];
-	for (let t of ["DOS", "SDS"]) {
-		let n = Lt.get(t);
-		n && e.push([t, [
-			"name",
-			"ix",
-			n.path,
-			n.uuid
-		]]);
-	}
-	return new Map(e);
-}
-new Set(oe(ft.LNode.attributes.details.lnClass.type)), d({
+var mn = new Map(Object.values(W).flatMap((e) => e.flatMap((e) => e.target.map((t) => [t, pn(e.tuple)])))), hn = new Map([...new Set(mn.values())].map((e) => [e, [...mn].flatMap(([t, n]) => n === e ? [t] : [])]));
+le({
+	dialecteConfig: H,
+	record: {
+		tagName: "LN0",
+		parent: null,
+		attributes: []
+	},
+	attributeName: "lnClass"
+}).fixed;
+var gn = [...new Set(Object.values(W).flatMap((e) => e.flatMap((e) => Object.keys(e.tuple).filter((e) => e !== "ied"))))];
+b({
 	MAPPING_CHOICE_UNKNOWN: {
 		code: "SCL1001",
 		message: "The choice concerns an element the template does not bring"
-	},
-	MAPPING_CHOICE_NOT_SELECTABLE: {
-		code: "SCL1002",
-		message: "Where an element of this kind lands cannot be chosen"
 	},
 	MAPPING_CHOICE_LOCKED: {
 		code: "SCL1003",
@@ -44671,6 +45098,38 @@ new Set(oe(ft.LNode.attributes.details.lnClass.type)), d({
 		code: "SCL1006",
 		message: "A change is accepted while a change it depends on is skipped"
 	},
+	REVISION_BASE_WITHOUT_FORK: {
+		code: "SCL1007",
+		message: "A previous revision is given to an operation that is not a fork"
+	},
+	REVISION_BASE_OTHER_FILE: {
+		code: "SCL1008",
+		message: "The previous revision given is another file"
+	},
+	OPTION_NOT_AVAILABLE: {
+		code: "SCL1009",
+		message: "This value of the option is not available yet"
+	},
+	IDENTITY_COLLISION: {
+		code: "SCL1010",
+		message: "An element shares with another one in the same place a key that cannot be changed"
+	},
+	DECISION_UNKNOWN: {
+		code: "SCL1011",
+		message: "A decision concerns a change the report does not list"
+	},
+	DECISION_DEPENDENCY_UNKNOWN: {
+		code: "SCL1012",
+		message: "A change depends on a change the report does not list"
+	},
+	REPORT_TARGET_MISMATCH: {
+		code: "SCL1013",
+		message: "The report was made for another target"
+	},
+	REPORT_STALE: {
+		code: "SCL1014",
+		message: "The report names an element the document no longer holds"
+	},
 	TEMPLATE_ROOT_NOT_FOUND: {
 		code: "SCL2001",
 		message: "The template holds nothing that can be instantiated"
@@ -44678,52 +45137,329 @@ new Set(oe(ft.LNode.attributes.details.lnClass.type)), d({
 	TARGET_HEADER_MISSING: {
 		code: "SCL2002",
 		message: "The project has no Header to record the source file in"
+	},
+	SSD_SCOPE_AMBIGUOUS: {
+		code: "SCL2003",
+		message: "The template holds several elements to instantiate: the one to act on is to be chosen"
+	},
+	FUNCTION_TEMPLATE_CANNOT_HOLD: {
+		code: "SCL2004",
+		message: "A function template cannot hold what the function holds"
+	},
+	DATAFLOW_LINK_TARGET_MISMATCH: {
+		code: "SCL3001",
+		message: "The signal cannot be implemented by an element of this kind"
 	}
-}), new Set(Object.values(H).flatMap((e) => e.flatMap((e) => [e.attribute.path, e.attribute.uuid])));
-var Vt = [{
-	tagName: "Variable",
-	key: "name",
-	selectable: !1
-}, {
-	tagName: "BehaviorDescription",
-	key: "name",
-	selectable: !1
-}], Ht = [{
-	tagName: "AllocationRole",
-	key: "name",
-	selectable: !0
-}], Ut = [{
-	tagName: "FunctionCategory",
-	key: "name",
-	selectable: !0
-}];
+}), new Set(te(V.LNode.attributes.details.lnClass.type)), new Map([...Rt].flatMap(([e, t]) => {
+	let n = t.filter((e) => e.resolution === G.iedAddress);
+	return n.length > 0 ? [[e, n]] : [];
+})), new Set([...z.LN0, ...z.LN].filter((e) => "datSet" in ft.byTag[e]));
+var _n = /* @__PURE__ */ new Map();
+function vn(e) {
+	let t = _n.get(e);
+	if (t) return t;
+	let n = V[e]?.attributes?.identityFields ?? [], r = new Set(n);
+	return _n.set(e, r), r;
+}
+new Set(H.transparentElements);
+function yn(e) {
+	return e.targetByAttribute !== void 0 && e.tuple.controlBlock !== void 0;
+}
+function bn(e) {
+	let { pairs: t, kind: n } = e;
+	return t.find((e) => pn(e.tuple) === n);
+}
+var xn = hn.get("cb") ?? [], Sn = Cn();
+function Cn() {
+	let e = bn({
+		pairs: W.ExtRef,
+		kind: "cb"
+	});
+	return t(e && yn(e), {
+		key: "ASSERTION_FAILED",
+		detail: "an ExtRef names the control block publishing its signal"
+	}), e;
+}
+hn.get("ln"), hn.get("ap"), hn.get("ld"), new Set(xn.flatMap((e) => lt[e]).filter((e) => e in W));
+var wn = [
+	"ln",
+	"ld",
+	"ap"
+];
+wn[wn.length - 1], Tn();
+function Tn() {
+	let e = bn({
+		pairs: W.IEDName,
+		kind: "ap"
+	});
+	return t(e?.tuple.accessPoint, {
+		key: "ASSERTION_FAILED",
+		detail: "an IEDName names the access point it registers"
+	}), e.tuple.accessPoint;
+}
+var En = {
+	SourceRef: Dn(U.SourceRef),
+	ControlRef: Dn(U.ControlRef)
+};
+function Dn(e) {
+	let n = e.find((e) => e.resolution === G.lnode), r = e.find((e) => e.resolution === G.iedAddress);
+	t(n && r, {
+		key: "ASSERTION_FAILED",
+		detail: "a signal names a logical node and the element implementing it"
+	});
+	let { doAttribute: i, daAttribute: a } = fn(n);
+	return {
+		specification: {
+			uuid: n.attribute.uuid,
+			path: n.attribute.path,
+			doName: i,
+			daName: a
+		},
+		implementation: {
+			uuid: r.attribute.uuid,
+			path: r.attribute.path,
+			resolution: r.resolution,
+			targets: r.target
+		},
+		further: e.filter((e) => e !== n && e !== r).map((e) => ({
+			uuid: e.attribute.uuid,
+			targets: e.target
+		}))
+	};
+}
+new Set(Object.values(En).flatMap((e) => e.further.flatMap((e) => e.targets)));
+function On() {
+	let e = new Map(Object.entries(kt)), t = z.DataTypeTemplates.filter((t) => kn({
+		typeTag: t,
+		pairsByReferrer: e
+	}).length > 0), n = kt.LNode[0].target, r = Fn({
+		values: kn({
+			typeTag: n,
+			pairsByReferrer: e
+		}).map((n) => An({
+			memberTag: n,
+			typeTags: t,
+			pairsByReferrer: e
+		}).target),
+		detail: "the members of the logical node type point at one type"
+	}), i = Nn({ tags: t }), a = Nn({ tags: t.flatMap((t) => kn({
+		typeTag: t,
+		pairsByReferrer: e
+	})) }), o = new Map(t.map((n) => [n, jn({
+		typeTag: n,
+		typeTags: t,
+		pairsByReferrer: e,
+		objectType: r,
+		idAttribute: i,
+		nameAttribute: a
+	})])), s = [...o.values()].flatMap((e) => [...e.members.values()]).filter((e) => !e.continuesObject), c = Fn({
+		values: s.map((e) => e.nextType),
+		detail: "the members of the data attribute point at one type"
+	}), { equals: l } = Pn({ conditions: s.map((e) => e.when) });
+	return {
+		rootType: n,
+		objectType: r,
+		attributeType: c,
+		attributeTypeCondition: { equals: l },
+		types: o
+	};
+}
+function kn(e) {
+	let { typeTag: t, pairsByReferrer: n } = e;
+	return z[t].filter((e) => n.has(e));
+}
+function An(e) {
+	let { memberTag: n, typeTags: r, pairsByReferrer: i } = e, a = i.get(n)?.find((e) => r.includes(e.target));
+	return t(a, {
+		key: "ASSERTION_FAILED",
+		detail: "a member of the data model references a type of the data model",
+		meta: { memberTag: n }
+	}), a;
+}
+function jn(e) {
+	let { typeTag: t, typeTags: n, pairsByReferrer: r, objectType: i, idAttribute: a, nameAttribute: o } = e;
+	return {
+		idAttribute: a,
+		members: new Map(kn({
+			typeTag: t,
+			pairsByReferrer: r
+		}).map((e) => [e, Mn({
+			memberTag: e,
+			typeTags: n,
+			pairsByReferrer: r,
+			objectType: i,
+			nameAttribute: o
+		})]))
+	};
+}
+function Mn(e) {
+	let { memberTag: t, typeTags: n, pairsByReferrer: r, objectType: i, nameAttribute: a } = e, o = An({
+		memberTag: t,
+		typeTags: n,
+		pairsByReferrer: r
+	});
+	return {
+		nameAttribute: a,
+		typeAttribute: o.attribute,
+		nextType: o.target,
+		...o.when ? { when: o.when } : {},
+		continuesObject: o.target === i
+	};
+}
+function Nn(e) {
+	let { tags: t } = e, [n, ...r] = t.map(vn);
+	return Fn({
+		values: [...n ?? []].filter((e) => r.every((t) => t.has(e))),
+		detail: "the tags of the data model share one identity field"
+	});
+}
+function Pn(e) {
+	let { conditions: n } = e, [r] = n;
+	return t(r && n.every((e) => e?.attribute === r.attribute && e.equals === r.equals), {
+		key: "ASSERTION_FAILED",
+		detail: "the members of the data attribute point at their type on one condition"
+	}), r;
+}
+function Fn(e) {
+	let { values: n, detail: r } = e, [i, ...a] = new Set(n);
+	return t(i !== void 0 && a.length === 0, {
+		key: "ASSERTION_FAILED",
+		detail: r
+	}), i;
+}
+kt.LNode[0].attribute, On();
+function In(e) {
+	let { ied: t, lDevice: n, lnClass: r } = e.tuple;
+	return "attribute" in t && n !== void 0 && r !== void 0;
+}
+var Ln = zn(W.ExtRef), Rn = zn(W.ExtCtrl);
+function zn(e) {
+	let n = bn({
+		pairs: e,
+		kind: "ln"
+	});
+	return t(n && In(n), {
+		key: "ASSERTION_FAILED",
+		detail: "an ExtRef and an ExtCtrl name the logical node of their signal"
+	}), n;
+}
+var Bn = "doName", Vn = Un({
+	pair: Ln,
+	dataAttributes: [Bn, "daName"]
+}), Hn = Un({
+	pair: Rn,
+	dataAttributes: [Bn]
+});
+function Un(e) {
+	let { pair: t, dataAttributes: n } = e, { tuple: r } = t;
+	return {
+		uuid: t.attribute.uuid,
+		names: [
+			r.ied.attribute,
+			r.lDevice,
+			r.lnClass
+		],
+		data: Bn,
+		written: [
+			t.attribute.uuid,
+			...Gn(t),
+			...n
+		]
+	};
+}
+var Wn = {
+	names: [Sn.attribute.uuid, Sn.tuple.controlBlock],
+	serviceAttribute: Sn.targetByAttribute.attribute,
+	servicesWithControlBlock: new Set(Object.keys(Sn.targetByAttribute.tags))
+};
 [
-	...Ht,
-	...Ut,
-	...Vt
-], [...vt, ...yt], new Set(Object.values(gt).map((e) => e.uri)), new Set(Object.values(gt).map((e) => e.prefix).filter(Boolean)), new Set([
-	W.behaviorDescription,
-	W.iedAddress,
-	W.ancestorName
+	...Vn.written,
+	Wn.serviceAttribute,
+	Sn.attribute.uuid,
+	...Gn(Sn)
+], Hn.written;
+function Gn(e) {
+	let { ied: t } = e.tuple;
+	return [..."attribute" in t ? [t.attribute] : [], ...gn.flatMap((t) => e.tuple[t] ?? [])];
+}
+Object.fromEntries(Object.entries({
+	FunctionTemplate: "Function",
+	SubFunctionTemplate: "SubFunction"
+}).map(([e, t]) => [t, e])), new Set(Bt);
+var Kn = new Map((Vt.get("LNode") ?? []).map((e) => [e, "bound-logical-node"]));
+new Set([...Bt, ...Kn.keys()]), new Map([...new Map([["BehaviorDescription", ["fileReference"]], ["Variable", ["value"]]])].map(([e, t]) => [e, {
+	attributes: new Set(t),
+	listedAsKept: new Map(t.map((e) => [e, "instance-configuration"]))
+}])), qn();
+function qn() {
+	let e = /* @__PURE__ */ new Map();
+	for (let t of Ht.get("LNodeType") ?? []) {
+		let n = e.get(t.refTagName) ?? [];
+		n.push({
+			attribute: t.attribute,
+			target: "LNodeType"
+		}), e.set(t.refTagName, n);
+	}
+	return e;
+}
+new Set(Object.values(U).flatMap((e) => e.flatMap((e) => [e.attribute.path, e.attribute.uuid])));
+var Jn = [{
+	tagName: "AllocationRole",
+	key: "name"
+}], Yn = [{
+	tagName: "FunctionCategory",
+	key: "name"
+}];
+[...Jn, ...Yn];
+var Xn = ["Variable", "BehaviorDescription"], Zn = new Set(Xn);
+new Set(bt.filter(function(e) {
+	return !Zn.has(e);
+})), new Map(Object.entries(U).flatMap(function([e, t]) {
+	return t.flatMap(function(t) {
+		return t.target.every(function(e) {
+			return Zn.has(e);
+		}) ? [[e, {
+			uuid: t.attribute.uuid,
+			targets: t.target
+		}]] : [];
+	});
+})), Xn.flatMap(function(e) {
+	return z[e].flatMap(function(t) {
+		let n = U[t];
+		return n ? [{
+			satelliteTag: e,
+			tagName: t,
+			pairs: n
+		}] : [];
+	});
+}), new Map([...Object.entries(U), ...Object.entries(W)].map(([e, t]) => [e, t.map((e) => e.attribute.uuid)])), [...yt, ...bt];
+var [Qn] = U.FunctionalVariantRef;
+Qn.attribute;
+var $n = new Set(Qn.target);
+new Set([...$n].flatMap((e) => H.parents[e])), U.FunctionRef[0].attribute.uuid, new Set(Object.values(_t).map((e) => e.uri)), new Set(Object.values(_t).map((e) => e.prefix).filter(Boolean)), new Set([
+	G.behaviorDescription,
+	G.iedAddress,
+	G.ancestorName,
+	G.scopedName
 ]);
 //#endregion
 //#region src/data-type-templates/dialecte/query/list-selector-locked-paths.ts
-var Wt = _t.namespaces.v2019C1.prefix;
-async function Gt(e, t) {
+var er = H.namespaces.v2019C1.prefix;
+async function tr(e, t) {
 	let n = /* @__PURE__ */ new Set(), r = await e.findByAttributes({
 		tagName: "LNode",
 		attributes: { lnType: t }
 	});
 	for (let t of r) {
-		let r = await Kt(e, t);
-		for (let t of r) await qt(e, t, [B(t, "name")], n);
+		let r = await nr(e, t);
+		for (let t of r) await rr(e, t, [R(t, "name")], n);
 	}
 	return n;
 }
-async function Kt(e, t) {
+async function nr(e, t) {
 	let n = await e.getChildren(t, "DOS");
 	if (n.length) return n;
-	let r = (await e.getChildren(t, "Private")).find((e) => B(e, "type") === Wt);
+	let r = (await e.getChildren(t, "Private")).find((e) => R(e, "type") === er);
 	if (!r) return [];
 	let i = await e.any.getChildren(r, "DOS");
 	return (await e.getRecords(i.map((e) => ({
@@ -44731,93 +45467,93 @@ async function Kt(e, t) {
 		id: e.id
 	})))).filter((e) => e !== void 0);
 }
-async function qt(e, t, n, r) {
+async function rr(e, t, n, r) {
 	r.add(n.join("."));
 	let i = await e.any.getChildren(t, "SDS"), a = await e.getRecords(i.map((e) => ({
 		tagName: "SDS",
 		id: e.id
 	})));
-	for (let t of a) t && await qt(e, t, [...n, B(t, "name")], r);
+	for (let t of a) t && await rr(e, t, [...n, R(t, "name")], r);
 	let o = await e.any.getChildren(t, "DAS"), s = await e.getRecords(o.map((e) => ({
 		tagName: "DAS",
 		id: e.id
 	})));
-	for (let e of s) e && r.add([...n, B(e, "name")].join("."));
+	for (let e of s) e && r.add([...n, R(e, "name")].join("."));
 }
 //#endregion
 //#region src/data-type-templates/dialecte/query/index.ts
-var Jt = /* @__PURE__ */ i({
-	findLnodeTypes: () => rt,
-	findReferencingLnodes: () => Ye,
-	isExclusiveIedType: () => Ze,
-	listSelectorLockedPaths: () => Gt,
-	parseTypeId: () => I,
-	readExistingLnodeType: () => He
+var ir = /* @__PURE__ */ E({
+	findLnodeTypes: () => ot,
+	findReferencingLnodes: () => Qe,
+	isExclusiveIedType: () => et,
+	listSelectorLockedPaths: () => tr,
+	parseTypeId: () => P,
+	readExistingLnodeType: () => Ge
 });
 //#endregion
 //#region src/data-type-templates/dialecte/query/type-signature.ts
-function Yt(e) {
+function ar(e) {
 	return e.cyclic ? "cyclic" : JSON.stringify({
 		cdc: e.cdc,
-		das: [...e.das].sort($t).map(Qt),
-		sdos: [...e.sdos].sort($t).map((e) => ({
+		das: [...e.das].sort(lr).map(cr),
+		sdos: [...e.sdos].sort(lr).map((e) => ({
 			name: e.name,
-			type: Yt(e.type)
+			type: ar(e.type)
 		}))
 	});
 }
-function Xt(e) {
-	return e.cyclic ? "cyclic" : JSON.stringify({ bdas: [...e.bdas].sort($t).map(Qt) });
+function or(e) {
+	return e.cyclic ? "cyclic" : JSON.stringify({ bdas: [...e.bdas].sort(lr).map(cr) });
 }
-function Zt(e) {
+function sr(e) {
 	return JSON.stringify({ vals: [...e.vals].sort((e, t) => e.ord - t.ord).map((e) => ({
 		ord: e.ord,
 		value: e.value
 	})) });
 }
-function Qt(e) {
+function cr(e) {
 	return {
 		name: e.name,
 		bType: e.bType,
 		fc: e.fc ?? "",
 		vals: e.vals,
-		enumType: e.enumType ? Zt(e.enumType) : "",
-		daType: e.daType ? Xt(e.daType) : ""
+		enumType: e.enumType ? sr(e.enumType) : "",
+		daType: e.daType ? or(e.daType) : ""
 	};
 }
-function $t(e, t) {
+function lr(e, t) {
 	return e.name.localeCompare(t.name);
 }
 //#endregion
 //#region src/data-type-templates/dialecte/query/type-references.ts
-async function en(e, t, n) {
-	if (t === "DOType") return await nn(e, "LNodeType", "DO", n) || await nn(e, "DOType", "SDO", n);
+async function ur(e, t, n) {
+	if (t === "DOType") return await fr(e, "LNodeType", "DO", n) || await fr(e, "DOType", "SDO", n);
 	let r = t === "DAType" ? "Struct" : "Enum";
-	return await rn(e, "DOType", "DA", r, n) || await rn(e, "DAType", "BDA", r, n);
+	return await pr(e, "DOType", "DA", r, n) || await pr(e, "DAType", "BDA", r, n);
 }
-async function tn(e, t, n) {
-	if (t === "LNodeType") return (await e.getChildren(n, "DO")).flatMap((e) => on("DOType", B(e, "type")));
+async function dr(e, t, n) {
+	if (t === "LNodeType") return (await e.getChildren(n, "DO")).flatMap((e) => hr("DOType", R(e, "type")));
 	if (t === "DOType") {
 		let t = await e.getChildren(n, "DA"), r = await e.getChildren(n, "SDO");
-		return [...t.flatMap(an), ...r.flatMap((e) => on("DOType", B(e, "type")))];
+		return [...t.flatMap(mr), ...r.flatMap((e) => hr("DOType", R(e, "type")))];
 	}
-	return t === "DAType" ? (await e.getChildren(n, "BDA")).flatMap(an) : [];
+	return t === "DAType" ? (await e.getChildren(n, "BDA")).flatMap(mr) : [];
 }
-async function nn(e, t, n, r) {
+async function fr(e, t, n, r) {
 	let i = await e.getRecordsByTagName(t);
-	for (let t of i) if ((await e.getChildren(t, n)).some((e) => B(e, "type") === r)) return !0;
+	for (let t of i) if ((await e.getChildren(t, n)).some((e) => R(e, "type") === r)) return !0;
 	return !1;
 }
-async function rn(e, t, n, r, i) {
+async function pr(e, t, n, r, i) {
 	let a = await e.getRecordsByTagName(t);
-	for (let t of a) if ((await e.getChildren(t, n)).some((e) => B(e, "bType") === r && B(e, "type") === i)) return !0;
+	for (let t of a) if ((await e.getChildren(t, n)).some((e) => R(e, "bType") === r && R(e, "type") === i)) return !0;
 	return !1;
 }
-function an(e) {
-	let t = B(e, "bType");
-	return t === "Struct" ? on("DAType", B(e, "type")) : t === "Enum" ? on("EnumType", B(e, "type")) : [];
+function mr(e) {
+	let t = R(e, "bType");
+	return t === "Struct" ? hr("DAType", R(e, "type")) : t === "Enum" ? hr("EnumType", R(e, "type")) : [];
 }
-function on(e, t) {
+function hr(e, t) {
 	return t ? [{
 		tagName: e,
 		id: t
@@ -44825,17 +45561,17 @@ function on(e, t) {
 }
 //#endregion
 //#region src/data-type-templates/dialecte/transaction.ts
-var sn = /* @__PURE__ */ i({
-	deleteLnodeType: () => un,
-	duplicateLnodeTypeForLockedRefs: () => ln,
-	isImmutable: () => pn,
-	saveDraftLnodeType: () => cn,
-	updateUnlockedLnodeRefs: () => fn
+var gr = /* @__PURE__ */ E({
+	deleteLnodeType: () => yr,
+	duplicateLnodeTypeForLockedRefs: () => vr,
+	isImmutable: () => Sr,
+	saveDraftLnodeType: () => _r,
+	updateUnlockedLnodeRefs: () => xr
 });
-async function cn(e, t) {
-	let n = await mn(e), r = [];
+async function _r(e, t) {
+	let n = await Cr(e), r = [];
 	for (let i of t.payload.dos) {
-		let t = await gn(e, n, i.type);
+		let t = await Tr(e, n, i.type);
 		r.push({
 			name: i.name,
 			typeId: t
@@ -44843,14 +45579,14 @@ async function cn(e, t) {
 	}
 	let i = t.sourceLnodeTypeId;
 	if (!i) {
-		let i = L(t.baseName, await R(e, "LNodeType", t.baseName));
-		return await hn(e, n, i, t.payload, r), { id: i };
+		let i = F(t.baseName, await I(e, "LNodeType", t.baseName));
+		return await wr(e, n, i, t.payload, r), { id: i };
 	}
-	let a = await z(e, "LNodeType", i);
+	let a = await L(e, "LNodeType", i);
 	if (!a) throw Error(`LNodeType not found: ${i}`);
-	if (t.forceNewVersion || await pn(e, i)) {
-		let a = I(i).baseName, o = L(a, await R(e, "LNodeType", a));
-		return await hn(e, n, o, t.payload, r), await fn(e, {
+	if (t.forceNewVersion || await Sr(e, i)) {
+		let a = P(i).baseName, o = F(a, await I(e, "LNodeType", a));
+		return await wr(e, n, o, t.payload, r), await xr(e, {
 			fromId: i,
 			toId: o
 		}), {
@@ -44858,7 +45594,7 @@ async function cn(e, t) {
 			replacedId: i
 		};
 	}
-	await ln(e, i);
+	await vr(e, i);
 	let o = await e.getChildren(a, "DO");
 	for (let t of o) await e.delete(t);
 	await e.update(a, { attributes: {
@@ -44874,24 +45610,24 @@ async function cn(e, t) {
 	});
 	return { id: i };
 }
-async function ln(e, t) {
-	let n = (await Ye(e, t)).filter((e) => e.tagName === "LNode" && e.isLocked);
+async function vr(e, t) {
+	let n = (await Qe(e, t)).filter((e) => e.tagName === "LNode" && e.isLocked);
 	if (!n.length) return;
-	let r = await z(e, "LNodeType", t);
+	let r = await L(e, "LNodeType", t);
 	if (!r) throw Error(`LNodeType not found: ${t}`);
-	let i = await mn(e), a = I(t).baseName, o = L(a, await R(e, "LNodeType", a)), s = await e.addChild(i, {
+	let i = await Cr(e), a = P(t).baseName, o = F(a, await I(e, "LNodeType", a)), s = await e.addChild(i, {
 		tagName: "LNodeType",
 		attributes: {
 			id: o,
-			lnClass: B(r, "lnClass"),
-			desc: B(r, "desc")
+			lnClass: R(r, "lnClass"),
+			desc: R(r, "desc")
 		}
 	}), c = await e.getChildren(r, "DO");
 	for (let t of c) await e.addChild(s, {
 		tagName: "DO",
 		attributes: {
-			name: B(t, "name"),
-			type: B(t, "type")
+			name: R(t, "name"),
+			type: R(t, "type")
 		}
 	});
 	for (let t of n) await e.update({
@@ -44900,47 +45636,47 @@ async function ln(e, t) {
 	}, { attributes: { lnType: o } });
 	return o;
 }
-async function un(e, t) {
-	let n = await Ye(e, t);
+async function yr(e, t) {
+	let n = await Qe(e, t);
 	if (n.length) {
 		let e = n.map((e) => e.path).join(", ");
 		throw Error(`LNodeType "${t}" is referenced by: ${e}`);
 	}
-	let r = await z(e, "LNodeType", t);
+	let r = await L(e, "LNodeType", t);
 	if (!r) throw Error(`LNodeType not found: ${t}`);
-	let i = tn(e, "LNodeType", r);
-	await i, await e.delete(r), await dn(e, i);
+	let i = dr(e, "LNodeType", r);
+	await i, await e.delete(r), await br(e, i);
 }
-async function dn(e, t) {
+async function br(e, t) {
 	let n = await t;
 	for (; n.length;) {
 		let t = [];
 		for (let r of n) {
-			if (await en(e, r.tagName, r.id)) continue;
-			let n = await z(e, r.tagName, r.id);
-			n && (t.push(...await tn(e, r.tagName, n)), await e.delete(n));
+			if (await ur(e, r.tagName, r.id)) continue;
+			let n = await L(e, r.tagName, r.id);
+			n && (t.push(...await dr(e, r.tagName, n)), await e.delete(n));
 		}
 		n = t;
 	}
 }
-async function fn(e, t) {
+async function xr(e, t) {
 	let n = await e.findByAttributes({
 		tagName: "LNode",
 		attributes: { lnType: t.fromId }
 	});
-	for (let r of n) Qe(B(r, "iedName")) || await e.update(r, { attributes: { lnType: t.toId } });
+	for (let r of n) tt(R(r, "iedName")) || await e.update(r, { attributes: { lnType: t.toId } });
 }
-async function pn(e, t) {
-	return (await Ye(e, t)).some((e) => e.tagName !== "LNode");
+async function Sr(e, t) {
+	return (await Qe(e, t)).some((e) => e.tagName !== "LNode");
 }
-async function mn(e) {
+async function Cr(e) {
 	let t = await e.getRoot();
 	return e.ensureChild(t, {
 		tagName: "DataTypeTemplates",
 		attributes: {}
 	});
 }
-async function hn(e, t, n, r, i) {
+async function wr(e, t, n, r, i) {
 	let a = await e.addChild(t, {
 		tagName: "LNodeType",
 		attributes: {
@@ -44957,25 +45693,25 @@ async function hn(e, t, n, r, i) {
 		}
 	});
 }
-async function gn(e, t, n) {
-	let r = Yt(n), i = await xn(e, "DOType", n.baseName, r, async (t) => {
-		let n = await Ue(e, t, /* @__PURE__ */ new Set(), []);
-		return n ? Yt(n) : void 0;
+async function Tr(e, t, n) {
+	let r = ar(n), i = await Ar(e, "DOType", n.baseName, r, async (t) => {
+		let n = await Ke(e, t, /* @__PURE__ */ new Set(), []);
+		return n ? ar(n) : void 0;
 	});
 	if (i && r !== "cyclic") return i;
-	let a = await yn(e, t, n.das), o = [];
+	let a = await Or(e, t, n.das), o = [];
 	for (let r of n.sdos) o.push({
 		name: r.name,
-		typeId: await gn(e, t, r.type)
+		typeId: await Tr(e, t, r.type)
 	});
-	let s = L(n.baseName, await R(e, "DOType", n.baseName)), c = await e.addChild(t, {
+	let s = F(n.baseName, await I(e, "DOType", n.baseName)), c = await e.addChild(t, {
 		tagName: "DOType",
 		attributes: {
 			id: s,
 			cdc: n.cdc
 		}
 	});
-	for (let t of a) await bn(e, c, "DA", t.da, t.typeId);
+	for (let t of a) await kr(e, c, "DA", t.da, t.typeId);
 	for (let t of o) await e.addChild(c, {
 		tagName: "SDO",
 		attributes: {
@@ -44985,26 +45721,26 @@ async function gn(e, t, n) {
 	});
 	return s;
 }
-async function _n(e, t, n) {
-	let r = Xt(n), i = await xn(e, "DAType", n.baseName, r, async (t) => {
-		let n = await We(e, t, /* @__PURE__ */ new Set(), []);
-		return n ? Xt(n) : void 0;
+async function Er(e, t, n) {
+	let r = or(n), i = await Ar(e, "DAType", n.baseName, r, async (t) => {
+		let n = await qe(e, t, /* @__PURE__ */ new Set(), []);
+		return n ? or(n) : void 0;
 	});
 	if (i && r !== "cyclic") return i;
-	let a = await yn(e, t, n.bdas), o = L(n.baseName, await R(e, "DAType", n.baseName)), s = await e.addChild(t, {
+	let a = await Or(e, t, n.bdas), o = F(n.baseName, await I(e, "DAType", n.baseName)), s = await e.addChild(t, {
 		tagName: "DAType",
 		attributes: { id: o }
 	});
-	for (let t of a) await bn(e, s, "BDA", t.da, t.typeId);
+	for (let t of a) await kr(e, s, "BDA", t.da, t.typeId);
 	return o;
 }
-async function vn(e, t, n) {
-	let r = Zt(n), i = await xn(e, "EnumType", n.baseName, r, async (t) => {
-		let n = await Ge(e, t);
-		return n ? Zt(n) : void 0;
+async function Dr(e, t, n) {
+	let r = sr(n), i = await Ar(e, "EnumType", n.baseName, r, async (t) => {
+		let n = await Je(e, t);
+		return n ? sr(n) : void 0;
 	});
 	if (i) return i;
-	let a = L(n.baseName, await R(e, "EnumType", n.baseName)), o = await e.addChild(t, {
+	let a = F(n.baseName, await I(e, "EnumType", n.baseName)), o = await e.addChild(t, {
 		tagName: "EnumType",
 		attributes: { id: a }
 	});
@@ -45015,20 +45751,20 @@ async function vn(e, t, n) {
 	});
 	return a;
 }
-async function yn(e, t, n) {
+async function Or(e, t, n) {
 	let r = [];
 	for (let i of n) {
 		if (i.bType === "Enum" && i.enumType) {
 			r.push({
 				da: i,
-				typeId: await vn(e, t, i.enumType)
+				typeId: await Dr(e, t, i.enumType)
 			});
 			continue;
 		}
 		if (i.bType === "Struct" && i.daType) {
 			r.push({
 				da: i,
-				typeId: await _n(e, t, i.daType)
+				typeId: await Er(e, t, i.daType)
 			});
 			continue;
 		}
@@ -45036,7 +45772,7 @@ async function yn(e, t, n) {
 	}
 	return r;
 }
-async function bn(e, t, n, r, i) {
+async function kr(e, t, n, r, i) {
 	let a = {
 		name: r.name,
 		bType: r.bType
@@ -45052,19 +45788,19 @@ async function bn(e, t, n, r, i) {
 		value: t
 	});
 }
-async function xn(e, t, n, r, i) {
+async function Ar(e, t, n, r, i) {
 	let a = await e.getRecordsByTagName(t);
 	for (let e of a) {
-		let t = B(e, "id");
-		if (I(t).baseName === n && await i(t) === r) return t;
+		let t = R(e, "id");
+		if (P(t).baseName === n && await i(t) === r) return t;
 	}
 }
 //#endregion
 //#region src/data-type-templates/document-store.ts
-var { document: G, isHydrated: Sn, hydrate: Cn, clear: wn } = p({ extensions: { dataTypeTemplates: {
-	query: Jt,
-	transaction: sn
-} } }), K = {
+var { document: q, isHydrated: jr, hydrate: Mr, clear: Nr } = h({ extensions: { dataTypeTemplates: {
+	query: ir,
+	transaction: gr
+} } }), J = {
 	findLnodeTypes(e) {
 		return e.query.dataTypeTemplates.findLnodeTypes();
 	},
@@ -45092,11 +45828,11 @@ var { document: G, isHydrated: Sn, hydrate: Cn, clear: wn } = p({ extensions: { 
 };
 //#endregion
 //#region src/data-type-templates/draft/draft.ts
-function Tn(e) {
-	let t = e.existing ? vr(e.existing) : void 0, n = e.structure.members.map(function(e) {
-		return sr(e, [], t);
+function Pr(e) {
+	let t = e.existing ? Oi(e.existing) : void 0, n = e.structure.members.map(function(e) {
+		return gi(e, [], t);
 	});
-	return t && xr(n, t), gr(n, e.selectorLockedPaths ?? /* @__PURE__ */ new Set()), {
+	return t && ji(n, t), Ei(n, e.selectorLockedPaths ?? /* @__PURE__ */ new Set()), {
 		baseName: e.baseName,
 		lnClass: e.structure.lnClass,
 		namespace: e.structure.namespace,
@@ -45106,18 +45842,18 @@ function Tn(e) {
 		warnings: e.existing?.warnings ?? []
 	};
 }
-function En(e) {
+function Fr(e) {
 	let t = e.namespace.lnNs, n = /* @__PURE__ */ new Set();
 	for (let r of e.nodes) r.kind !== "DO" || r.isCustom || r.memberLnNs && r.memberLnNs !== t && n.add(r.memberLnNs);
 	return [...n];
 }
-function Dn(e) {
+function Ir(e) {
 	let t = [];
-	for (let n of e.nodes) if (hr(n)) for (let r of Yn(n)) t.push({
+	for (let n of e.nodes) if (Ti(n)) for (let r of ii(n)) t.push({
 		name: r,
-		type: rr(n, {
+		type: fi(n, {
 			lnNs: n.name === "NamPlt" ? e.namespace.lnNs : void 0,
-			dataNs: On(n, e.namespace.lnNs)
+			dataNs: Lr(n, e.namespace.lnNs)
 		})
 	});
 	return {
@@ -45126,163 +45862,163 @@ function Dn(e) {
 		dos: t
 	};
 }
-function On(e, t) {
+function Lr(e, t) {
 	if (e.isCustom) return "Custom";
 	if (e.memberLnNs && e.memberLnNs !== t) return e.memberLnNs;
 }
-function kn(e, t, n) {
-	let r = J(e.nodes, t);
-	!r || r.toggleLocked || !n && Mn(e, r) || !n && Vn(e, r) || (r.enabled = n, Z(r, n), n ? (fr(r), pr(e, t), Pn(e, r)) : X(r), In(e, r), Rn(e, r), Hn(e, r));
+function Rr(e, t, n) {
+	let r = X(e.nodes, t);
+	!r || r.toggleLocked || !n && Vr(e, r) || !n && Xr(e, r) || (r.enabled = n, Q(r, n), n ? (xi(r), Ci(e, t), Ur(e, r)) : Z(r), Gr(e, r), qr(e, r), Zr(e, r));
 }
-function An(e, t) {
-	let n = J(e.nodes, t);
+function zr(e, t) {
+	let n = X(e.nodes, t);
 	if (!n || n.toggleLocked) return;
-	let r = q(n);
+	let r = Y(n);
 	if (r === "unchecked") {
-		n.enabled = !0, fr(n), pr(e, t), Pn(e, n), In(e, n), Rn(e, n), Hn(e, n);
+		n.enabled = !0, xi(n), Ci(e, t), Ur(e, n), Gr(e, n), qr(e, n), Zr(e, n);
 		return;
 	}
 	if (r === "intermediate") {
-		Y(n), pr(e, t), Pn(e, n), In(e, n), Rn(e, n), Hn(e, n);
+		Si(n), Ci(e, t), Ur(e, n), Gr(e, n), qr(e, n), Zr(e, n);
 		return;
 	}
-	Mn(e, n) || Vn(e, n) || (n.enabled = !1, X(n), In(e, n), Rn(e, n), Hn(e, n));
+	Vr(e, n) || Xr(e, n) || (n.enabled = !1, Z(n), Gr(e, n), qr(e, n), Zr(e, n));
 }
-function jn(e, t) {
+function Br(e, t) {
 	if (t.presCond !== "AtLeastOne" || !t.presCondArgs) return [];
 	let n = t.key.split(".").slice(0, -1).join(".");
-	return (n ? J(e.nodes, n)?.children ?? [] : e.nodes).filter((e) => e.presCond === "AtLeastOne" && e.presCondArgs === t.presCondArgs);
+	return (n ? X(e.nodes, n)?.children ?? [] : e.nodes).filter((e) => e.presCond === "AtLeastOne" && e.presCondArgs === t.presCondArgs);
 }
-function Mn(e, t) {
-	let n = jn(e, t);
-	return !n.length || q(t) === "unchecked" ? !1 : n.filter((e) => q(e) !== "unchecked").length <= 1;
+function Vr(e, t) {
+	let n = Br(e, t);
+	return !n.length || Y(t) === "unchecked" ? !1 : n.filter((e) => Y(e) !== "unchecked").length <= 1;
 }
-function Nn(e, t) {
+function Hr(e, t) {
 	if (t.presCond !== "AtMostOne") return [];
 	let n = t.key.split(".").slice(0, -1).join(".");
-	return (n ? J(e.nodes, n)?.children ?? [] : e.nodes).filter((e) => e.presCond === "AtMostOne");
+	return (n ? X(e.nodes, n)?.children ?? [] : e.nodes).filter((e) => e.presCond === "AtMostOne");
 }
-function Pn(e, t) {
-	for (let n of Nn(e, t)) n.key === t.key || q(n) === "unchecked" || (n.enabled = !1, Z(n, !1), X(n));
+function Ur(e, t) {
+	for (let n of Hr(e, t)) n.key === t.key || Y(n) === "unchecked" || (n.enabled = !1, Q(n, !1), Z(n));
 }
-function Fn(e, t) {
+function Wr(e, t) {
 	if (t.presCond !== "AllOrNonePerGroup" || !t.presCondArgs) return [];
 	let n = t.key.split(".").slice(0, -1).join(".");
-	return (n ? J(e.nodes, n)?.children ?? [] : e.nodes).filter((e) => e.presCond === "AllOrNonePerGroup" && e.presCondArgs === t.presCondArgs);
+	return (n ? X(e.nodes, n)?.children ?? [] : e.nodes).filter((e) => e.presCond === "AllOrNonePerGroup" && e.presCondArgs === t.presCondArgs);
 }
-function In(e, t) {
+function Gr(e, t) {
 	let n = t.enabled;
-	for (let r of Fn(e, t)) r.key === t.key || r.toggleLocked || (n ? Y(r) : (r.enabled = !1, Z(r, !1), X(r)));
+	for (let r of Wr(e, t)) r.key === t.key || r.toggleLocked || (n ? Si(r) : (r.enabled = !1, Q(r, !1), Z(r)));
 }
-function Ln(e, t) {
+function Kr(e, t) {
 	if (t.presCond !== "AllOnlyOneGroup" || !t.presCondArgs) return [];
 	let n = t.key.split(".").slice(0, -1).join(".");
-	return (n ? J(e.nodes, n)?.children ?? [] : e.nodes).filter((e) => e.presCond === "AllOnlyOneGroup");
+	return (n ? X(e.nodes, n)?.children ?? [] : e.nodes).filter((e) => e.presCond === "AllOnlyOneGroup");
 }
-function Rn(e, t) {
+function qr(e, t) {
 	let n = t.enabled;
-	for (let r of Ln(e, t)) {
+	for (let r of Kr(e, t)) {
 		if (r.key === t.key || r.toggleLocked) continue;
 		let e = r.presCondArgs === t.presCondArgs;
 		if (e && n) {
-			Y(r);
+			Si(r);
 			continue;
 		}
 		if (e && !n) {
-			r.enabled = !1, Z(r, !1), X(r);
+			r.enabled = !1, Q(r, !1), Z(r);
 			continue;
 		}
-		!e && n && (r.enabled = !1, Z(r, !1), X(r));
+		!e && n && (r.enabled = !1, Q(r, !1), Z(r));
 	}
 }
-function zn(e, t) {
+function Jr(e, t) {
 	if (t.presCond !== "AllAtLeastOneGroup" || !t.presCondArgs) return [];
 	let n = t.key.split(".").slice(0, -1).join(".");
-	return (n ? J(e.nodes, n)?.children ?? [] : e.nodes).filter((e) => e.presCond === "AllAtLeastOneGroup");
+	return (n ? X(e.nodes, n)?.children ?? [] : e.nodes).filter((e) => e.presCond === "AllAtLeastOneGroup");
 }
-function Bn(e, t) {
-	return e.some((e) => e.presCondArgs === t && q(e) !== "unchecked");
+function Yr(e, t) {
+	return e.some((e) => e.presCondArgs === t && Y(e) !== "unchecked");
 }
-function Vn(e, t) {
-	let n = zn(e, t);
-	if (!n.length || !t.presCondArgs || !Bn(n, t.presCondArgs)) return !1;
+function Xr(e, t) {
+	let n = Jr(e, t);
+	if (!n.length || !t.presCondArgs || !Yr(n, t.presCondArgs)) return !1;
 	let r = [];
 	for (let e of n) e.presCondArgs && !r.includes(e.presCondArgs) && r.push(e.presCondArgs);
-	return r.filter((e) => Bn(n, e)).length <= 1;
+	return r.filter((e) => Yr(n, e)).length <= 1;
 }
-function Hn(e, t) {
+function Zr(e, t) {
 	let n = t.enabled;
-	for (let r of zn(e, t)) r.key === t.key || r.toggleLocked || r.presCondArgs !== t.presCondArgs || (n ? Y(r) : (r.enabled = !1, Z(r, !1), X(r)));
+	for (let r of Jr(e, t)) r.key === t.key || r.toggleLocked || r.presCondArgs !== t.presCondArgs || (n ? Si(r) : (r.enabled = !1, Q(r, !1), Z(r)));
 }
-function q(e) {
-	if (e.enumVals.length) return mr(e);
+function Y(e) {
+	if (e.enumVals.length) return wi(e);
 	if (!e.children.length) return e.bType === "Struct" ? "unchecked" : e.enabled ? "checked" : "unchecked";
-	let t = e.children.map((e) => q(e));
+	let t = e.children.map((e) => Y(e));
 	return t.every((e) => e === "checked") ? "checked" : t.some((e) => e !== "unchecked") ? "intermediate" : "unchecked";
 }
-function Un(e, t, n, r) {
-	let i = J(e.nodes, t);
+function Qr(e, t, n, r) {
+	let i = X(e.nodes, t);
 	if (!i || i.blockedReason) return;
 	let a = i.enumVals.find((e) => e.ord === n);
 	a && (a.selected = r), i.enabled = i.enumVals.some((e) => e.selected !== !1);
 }
-function Wn(e, t, n) {
-	let r = J(e.nodes, t);
+function $r(e, t, n) {
+	let r = X(e.nodes, t);
 	if (r) {
-		Gn(r, n);
-		for (let t of Fn(e, r)) Gn(t, n);
+		ei(r, n);
+		for (let t of Wr(e, r)) ei(t, n);
 	}
 }
-function Gn(e, t) {
-	_r([e], function(e) {
+function ei(e, t) {
+	Di([e], function(e) {
 		e.fcOptions?.includes(t) && (e.fc = t, e.descId = e.fcVariantDescIds?.[t] ?? e.descId);
 	});
 }
-function Kn(e) {
+function ti(e) {
 	for (let t of e.children) {
 		if (t.fcOptions?.length) return t;
-		let e = Kn(t);
+		let e = ti(t);
 		if (e) return e;
 	}
 }
-function qn(e) {
-	return e.fcOptions?.length ? e : Kn(e);
+function ni(e) {
+	return e.fcOptions?.length ? e : ti(e);
 }
-function Jn(e) {
+function ri(e) {
 	if (e === "Mmulti") return 1;
 	if (e === "Omulti") return 0;
 }
-function Yn(e) {
+function ii(e) {
 	return e.instanceCount === void 0 ? [e.name] : Array.from({ length: e.instanceCount }, (t, n) => `${e.name}${n + 1}`);
 }
-function Xn(e) {
+function ai(e) {
 	return e.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 }
-function Zn(e, t, n) {
-	if (!e || Jn(n) === void 0 || e.has(t)) return;
-	let r = RegExp(`^${Xn(t)}(\\d+)$`), i = [...e.entries()].filter(([e]) => r.test(e)).sort((e, t) => Number(r.exec(e[0])[1]) - Number(r.exec(t[0])[1]));
+function oi(e, t, n) {
+	if (!e || ri(n) === void 0 || e.has(t)) return;
+	let r = RegExp(`^${ai(t)}(\\d+)$`), i = [...e.entries()].filter(([e]) => r.test(e)).sort((e, t) => Number(r.exec(e[0])[1]) - Number(r.exec(t[0])[1]));
 	if (i.length) {
 		for (let [, e] of i) e.matched = !0;
-		return Qn(e, i[0][0], t), i.length;
+		return si(e, i[0][0], t), i.length;
 	}
 }
-function Qn(e, t, n) {
+function si(e, t, n) {
 	let r = e.get(t);
 	if (r) {
 		e.set(n, {
 			...r,
 			matched: !1
 		});
-		for (let i of r.childKeys) Qn(e, i, `${n}.${i.slice(t.length + 1)}`);
+		for (let i of r.childKeys) si(e, i, `${n}.${i.slice(t.length + 1)}`);
 	}
 }
-function $n(e, t, n) {
-	let r = J(e.nodes, t);
+function ci(e, t, n) {
+	let r = X(e.nodes, t);
 	if (!r) return;
-	let i = Jn(r.presCond);
-	i !== void 0 && (r.instanceCount = Math.max(i, n), kn(e, t, r.instanceCount > 0));
+	let i = ri(r.presCond);
+	i !== void 0 && (r.instanceCount = Math.max(i, n), Rr(e, t, r.instanceCount > 0));
 }
-function er(e, t) {
+function li(e, t) {
 	let n = {
 		key: t.name,
 		kind: "DO",
@@ -45294,27 +46030,27 @@ function er(e, t) {
 		enabled: !0,
 		toggleLocked: !1,
 		children: t.cdcMembers.map(function(e) {
-			return sr(e, [t.name], void 0, !0);
+			return gi(e, [t.name], void 0, !0);
 		})
 	};
-	return (t.enumName || t.enumLiterals) && dr(n, t.enumName, t.enumLiterals), fr(n), e.nodes.push(n), n;
+	return (t.enumName || t.enumLiterals) && bi(n, t.enumName, t.enumLiterals), xi(n), e.nodes.push(n), n;
 }
-function J(e, t) {
+function X(e, t) {
 	for (let n of e) {
 		if (n.key === t) return n;
-		let e = J(n.children, t);
+		let e = X(n.children, t);
 		if (e) return e;
 	}
 }
-function tr(e) {
+function ui(e) {
 	let t = [e.desc ?? ""];
-	return _r(e.nodes, function(e) {
-		if (!hr(e)) return;
+	return Di(e.nodes, function(e) {
+		if (!Ti(e)) return;
 		let n = e.enumVals.filter((e) => e.selected !== !1).map((e) => `${e.ord}=${e.value}`).join(",");
 		t.push(`${e.key}|${e.fc ?? ""}|${e.instanceCount ?? ""}|${n}`);
 	}), t.sort().join("\n");
 }
-function nr(e, t) {
+function di(e, t) {
 	return /^[A-Z][0-9A-Za-z]*$/.test(e) ? e.length > 12 ? {
 		valid: !1,
 		reason: "Name must be at most 12 characters"
@@ -45326,29 +46062,29 @@ function nr(e, t) {
 		reason: "Name must start with an uppercase letter and contain only letters or digits (A-Z, a-z, 0-9)"
 	};
 }
-function rr(e, t) {
+function fi(e, t) {
 	let n = [], r = [];
-	for (let t of e.children) if (hr(t)) {
+	for (let t of e.children) if (Ti(t)) {
 		if (t.kind === "DA") {
-			for (let e of Yn(t)) n.push({
-				...ir(t),
+			for (let e of ii(t)) n.push({
+				...pi(t),
 				name: e
 			});
 			continue;
 		}
-		if (t.kind === "SDO") for (let e of Yn(t)) r.push({
+		if (t.kind === "SDO") for (let e of ii(t)) r.push({
 			name: e,
-			type: rr(t, {})
+			type: fi(t, {})
 		});
 	}
-	return or(n, "lnNs", t.lnNs), or(n, "dataNs", t.dataNs), {
+	return hi(n, "lnNs", t.lnNs), hi(n, "dataNs", t.dataNs), {
 		baseName: `${e.cdc ?? "DO"}.${e.name}`,
 		cdc: e.cdc ?? "",
 		das: n,
 		sdos: r
 	};
 }
-function ir(e) {
+function pi(e) {
 	let t = e.bType ?? "VisString255", n = {
 		name: e.name,
 		bType: t,
@@ -45361,21 +46097,21 @@ function ir(e) {
 			ord: e.ord,
 			value: e.value
 		}))
-	}), t === "Struct" && (n.daType = ar(e)), n;
+	}), t === "Struct" && (n.daType = mi(e)), n;
 }
-function ar(e) {
+function mi(e) {
 	return {
 		baseName: e.structName ?? e.key,
-		bdas: e.children.filter((e) => hr(e) && (e.kind === "BDA" || e.kind === "DA")).flatMap(function(e) {
-			return Yn(e).map((t) => ({
-				...ir(e),
+		bdas: e.children.filter((e) => Ti(e) && (e.kind === "BDA" || e.kind === "DA")).flatMap(function(e) {
+			return ii(e).map((t) => ({
+				...pi(e),
 				fc: void 0,
 				name: t
 			}));
 		})
 	};
 }
-function or(e, t, n) {
+function hi(e, t, n) {
 	if (!n) return;
 	let r = e.find((e) => e.name === t);
 	if (r) {
@@ -45389,8 +46125,8 @@ function or(e, t, n) {
 		vals: [n]
 	});
 }
-function sr(e, t, n, r = !1, i = !0) {
-	let a = [...t, e.name], o = a.join("."), s = Zn(n, o, e.presCond), c = n?.get(o), l = e.presCond.startsWith("M"), u = e.presCond === "F" || e.presCond === "na", d = u ? !1 : n ? !!c : l && i, f = c?.fc ?? e.fc, p = e.fcVariantDescIds && f ? e.fcVariantDescIds[f] ?? e.descId : e.descId, m = {
+function gi(e, t, n, r = !1, i = !0) {
+	let a = [...t, e.name], o = a.join("."), s = oi(n, o, e.presCond), c = n?.get(o), l = e.presCond.startsWith("M"), u = e.presCond === "F" || e.presCond === "na", d = u ? !1 : n ? !!c : l && i, f = c?.fc ?? e.fc, p = e.fcVariantDescIds && f ? e.fcVariantDescIds[f] ?? e.descId : e.descId, m = {
 		key: o,
 		kind: e.kind,
 		name: e.name,
@@ -45402,26 +46138,26 @@ function sr(e, t, n, r = !1, i = !0) {
 		fc: f,
 		fcOptions: e.fcOptions,
 		fcVariantDescIds: e.fcVariantDescIds,
-		bType: cr(e),
+		bType: _i(e),
 		structName: e.typeKind === "CONSTRUCTED" ? e.type : void 0,
 		enumName: e.enumName,
-		enumVals: lr(e, c),
+		enumVals: vi(e, c),
 		memberLnNs: e.kind === "DO" ? e.namespace?.lnNs : void 0,
 		isCustom: !1,
 		enabled: d,
 		toggleLocked: l || u,
-		instanceCount: s ?? Jn(e.presCond),
+		instanceCount: s ?? ri(e.presCond),
 		children: e.children.map(function(e) {
-			return sr(e, a, n, r, d);
+			return gi(e, a, n, r, d);
 		})
 	};
-	return m.enabled || Z(m, !1), c && (c.matched = !0), m;
+	return m.enabled || Q(m, !1), c && (c.matched = !0), m;
 }
-function cr(e) {
+function _i(e) {
 	if (!(e.kind === "DO" || e.kind === "SDO")) return e.typeKind === "ENUMERATED" ? "Enum" : e.typeKind === "CONSTRUCTED" ? "Struct" : e.type;
 }
-function lr(e, t) {
-	let n = ur(e), r = t?.enumVals;
+function vi(e, t) {
+	let n = yi(e), r = t?.enumVals;
 	if (!r) return n;
 	let i = new Set(r.map((e) => e.value)), a = n.map((e) => ({
 		...e,
@@ -45433,7 +46169,7 @@ function lr(e, t) {
 	});
 	return a;
 }
-function ur(e) {
+function yi(e) {
 	return e.enumLiterals?.length ? e.enumLiterals.map(function(e) {
 		return {
 			ord: Number(e.literalVal),
@@ -45442,58 +46178,58 @@ function ur(e) {
 		};
 	}) : [];
 }
-function dr(e, t, n) {
-	_r(e.children, function(e) {
+function bi(e, t, n) {
+	Di(e.children, function(e) {
 		e.bType !== "Enum" || e.enumVals.length || (e.enumName = e.enumName ?? t, e.enumVals = n ? [...n] : e.enumVals);
 	});
 }
-function fr(e) {
-	for (let t of e.children) t.presCond.startsWith("M") && (t.enabled = !0, Z(t, !0), Y(t));
+function xi(e) {
+	for (let t of e.children) t.presCond.startsWith("M") && (t.enabled = !0, Q(t, !0), Si(t));
 }
-function Y(e) {
+function Si(e) {
 	if (!(e.presCond === "F" || e.presCond === "na")) {
-		e.enabled = !0, Z(e, !0);
-		for (let t of e.children) Y(t);
+		e.enabled = !0, Q(e, !0);
+		for (let t of e.children) Si(t);
 	}
 }
-function pr(e, t) {
+function Ci(e, t) {
 	let n = t.split(".");
 	for (let t = n.length - 1; t > 0; t--) {
-		let r = J(e.nodes, n.slice(0, t).join("."));
+		let r = X(e.nodes, n.slice(0, t).join("."));
 		if (!r) return;
-		fr(r);
+		xi(r);
 	}
 }
-function X(e) {
-	for (let t of e.children) t.enabled = !1, Z(t, !1), X(t);
+function Z(e) {
+	for (let t of e.children) t.enabled = !1, Q(t, !1), Z(t);
 }
-function mr(e) {
+function wi(e) {
 	let t = e.enumVals.filter((e) => e.selected !== !1).length;
 	return t === e.enumVals.length ? "checked" : t > 0 ? "intermediate" : "unchecked";
 }
-function Z(e, t) {
+function Q(e, t) {
 	for (let n of e.enumVals) n.selected = t;
 }
-function hr(e) {
-	return q(e) !== "unchecked";
+function Ti(e) {
+	return Y(e) !== "unchecked";
 }
-function gr(e, t) {
-	_r(e, function(e) {
+function Ei(e, t) {
+	Di(e, function(e) {
 		t.has(e.key) && (e.toggleLocked = !0, e.blockedReason = `This ${e.kind} is selected as a ${e.kind === "DO" || e.kind === "SDO" ? "DOS" : "DAS"} and cannot be unselected or modified`);
 	});
 }
-function _r(e, t) {
-	for (let n of e) t(n), _r(n.children, t);
+function Di(e, t) {
+	for (let n of e) t(n), Di(n.children, t);
 }
-function vr(e) {
+function Oi(e) {
 	let t = /* @__PURE__ */ new Map();
-	for (let n of e.dos) yr(t, [n.name], "DO", n.type);
+	for (let n of e.dos) ki(t, [n.name], "DO", n.type);
 	return t;
 }
-function yr(e, t, n, r) {
+function ki(e, t, n, r) {
 	let i = t.join("."), a = [];
-	for (let n of r.das) a.push([...t, n.name].join(".")), br(e, [...t, n.name], "DA", n);
-	for (let n of r.sdos) a.push([...t, n.name].join(".")), yr(e, [...t, n.name], "SDO", n.type);
+	for (let n of r.das) a.push([...t, n.name].join(".")), Ai(e, [...t, n.name], "DA", n);
+	for (let n of r.sdos) a.push([...t, n.name].join(".")), ki(e, [...t, n.name], "SDO", n.type);
 	e.set(i, {
 		kind: n,
 		name: t[t.length - 1] ?? "",
@@ -45502,9 +46238,9 @@ function yr(e, t, n, r) {
 		childKeys: a
 	});
 }
-function br(e, t, n, r) {
+function Ai(e, t, n, r) {
 	let i = t.join("."), a = [];
-	if (r.daType) for (let n of r.daType.bdas) a.push([...t, n.name].join(".")), br(e, [...t, n.name], "BDA", n);
+	if (r.daType) for (let n of r.daType.bdas) a.push([...t, n.name].join(".")), Ai(e, [...t, n.name], "BDA", n);
 	e.set(i, {
 		kind: n,
 		name: t[t.length - 1] ?? "",
@@ -45518,13 +46254,13 @@ function br(e, t, n, r) {
 		childKeys: a
 	});
 }
-function xr(e, t) {
+function ji(e, t) {
 	let n = [...t.entries()].filter(function([e, t]) {
 		return !t.matched && t.kind === "DO" && !e.includes(".");
 	});
-	for (let [r, i] of n) e.push(Sr(r, i, t));
+	for (let [r, i] of n) e.push(Mi(r, i, t));
 }
-function Sr(e, t, n) {
+function Mi(e, t, n) {
 	return t.matched = !0, {
 		key: e,
 		kind: t.kind,
@@ -45539,13 +46275,13 @@ function Sr(e, t, n) {
 		toggleLocked: !1,
 		children: t.childKeys.map(function(e) {
 			let t = n.get(e);
-			return t ? Sr(e, t, n) : void 0;
+			return t ? Mi(e, t, n) : void 0;
 		}).filter((e) => !!e)
 	};
 }
 //#endregion
 //#region src/nsd/cdc-categories.ts
-var Cr = [
+var Ni = [
 	"ASG",
 	"CSG",
 	"CUG",
@@ -45555,7 +46291,7 @@ var Cr = [
 	"SPG",
 	"TSG",
 	"VSG"
-], wr = {
+], Pi = {
 	DPL: {
 		category: "Descriptions",
 		subCategory: "Description information (§7.8)",
@@ -45819,14 +46555,14 @@ var Cr = [
 };
 //#endregion
 //#region src/nsd/nsd.service.ts
-async function Tr() {
-	let e = await Q(), t = [];
+async function Fi() {
+	let e = await Wi(), t = [];
 	for (let n of e.nsdDocs) {
 		let r = await n.document.query.getRecordsByTagName("LNClass");
 		for (let i of r) {
 			let r = $(i, "name");
 			if (!r || $(i, "isExtension") === "true") continue;
-			let a = await Vr(e, r);
+			let a = await Qi(e, r);
 			t.push({
 				lnClass: r,
 				documentId: n.documentId,
@@ -45839,14 +46575,14 @@ async function Tr() {
 		return e.lnClass.localeCompare(t.lnClass) || e.namespace.label.localeCompare(t.namespace.label);
 	});
 }
-async function Er(e) {
-	let t = await Q(), n = t.nsdDocs.find(function(t) {
+async function Ii(e) {
+	let t = await Wi(), n = t.nsdDocs.find(function(t) {
 		return t.documentId === e.documentId;
 	});
 	if (!n) throw Error(`NSD document not found: ${e.documentId}`);
-	let r = await Br(t, n, e.lnClass);
+	let r = await Zi(t, n, e.lnClass);
 	if (!r.length) throw Error(`LNClass not found: ${e.lnClass}`);
-	let i = await Vr(t, e.lnClass), a = [...r, ...i], o = [], s = /* @__PURE__ */ new Set();
+	let i = await Qi(t, e.lnClass), a = [...r, ...i], o = [], s = /* @__PURE__ */ new Set();
 	for (let n of a) {
 		let r = {
 			tagName: n.tagName,
@@ -45854,7 +46590,7 @@ async function Er(e) {
 		}, i = await n.doc.document.query.getChildren(r, "DataObject");
 		for (let r of i) {
 			let i = $(r, "name");
-			!i || s.has(i) || (s.add(i), o.push(await Ur(t, {
+			!i || s.has(i) || (s.add(i), o.push(await ea(t, {
 				record: r,
 				declaringClass: n.name,
 				requestedClass: e.lnClass,
@@ -45868,8 +46604,8 @@ async function Er(e) {
 		members: o
 	};
 }
-async function Dr() {
-	let e = await Q(), t = [];
+async function Li() {
+	let e = await Wi(), t = [];
 	for (let [n, r] of e.cdcs) {
 		let i = $(r.record, "titleID") || void 0;
 		t.push({
@@ -45877,8 +46613,8 @@ async function Dr() {
 			enumParameterized: $(r.record, "enumParameterized") === "true",
 			descId: $(r.record, "descID") || void 0,
 			titleId: i,
-			title: await Ar(e, i),
-			categoryLabel: wr[n]?.category,
+			title: await Bi(e, i),
+			categoryLabel: Pi[n]?.category,
 			namespace: r.doc.namespace
 		});
 	}
@@ -45886,17 +46622,17 @@ async function Dr() {
 		return e.name.localeCompare(t.name);
 	});
 }
-async function Or(e) {
-	return Wr(await Q(), {
+async function Ri(e) {
+	return ta(await Wi(), {
 		cdcName: e.cdc,
 		parameterizedEnumName: e.parameterizedEnumName,
 		seen: /* @__PURE__ */ new Set()
 	});
 }
-async function kr(e) {
-	if (e) return Ar(await Q(), e);
+async function zi(e) {
+	if (e) return Bi(await Wi(), e);
 }
-async function Ar(e, t) {
+async function Bi(e, t) {
 	if (t) for (let n of e.nsdocDocs) {
 		let e = (await n.query.findByAttributes({
 			tagName: "Doc",
@@ -45905,22 +46641,22 @@ async function Ar(e, t) {
 		if (e) return e;
 	}
 }
-async function jr(e) {
-	let t = (await Q()).presenceConditions.get(e);
+async function Vi(e) {
+	let t = (await Wi()).presenceConditions.get(e);
 	if (!t) return;
 	let n = $(t.record, "descID") || void 0;
 	return {
 		name: e,
 		descId: n,
-		description: await kr(n)
+		description: await zi(n)
 	};
 }
-var Mr, Nr = -1;
-function Q() {
-	return (!Mr || Nr !== pe.value) && (Nr = pe.value, Mr = Pr()), Mr;
+var Hi, Ui = -1;
+function Wi() {
+	return (!Hi || Ui !== ge.value) && (Ui = ge.value, Hi = Gi()), Hi;
 }
-async function Pr() {
-	let e = await fe(), t = await e.getDocuments(), n = {
+async function Gi() {
+	let e = await he(), t = await e.getDocuments(), n = {
 		nsdDocs: [],
 		nsdocDocs: [],
 		cdcs: /* @__PURE__ */ new Map(),
@@ -45930,7 +46666,7 @@ async function Pr() {
 		presenceConditions: /* @__PURE__ */ new Map()
 	};
 	for (let r of t) {
-		let t = e.openDocument(r.id), i = await le(t);
+		let t = e.openDocument(r.id), i = await de(t);
 		if (i.isNsdoc) {
 			n.nsdocDocs.push(t);
 			continue;
@@ -45938,13 +46674,13 @@ async function Pr() {
 		let a = {
 			documentId: r.id,
 			document: t,
-			namespace: zr(i)
+			namespace: Xi(i)
 		};
-		n.nsdDocs.push(a), await Fr(n, a);
+		n.nsdDocs.push(a), await Ki(n, a);
 	}
 	return n;
 }
-async function Fr(e, t) {
+async function Ki(e, t) {
 	let { query: n } = t.document, r = [
 		{
 			tagName: "CDC",
@@ -45968,7 +46704,7 @@ async function Fr(e, t) {
 		for (let n of r) {
 			let r = $(n, "name");
 			if (!r) continue;
-			i === "CDC" && Ir(e, r, n, t);
+			i === "CDC" && qi(e, r, n, t);
 			let o = a.get(r);
 			if (!o) {
 				a.set(r, {
@@ -45977,15 +46713,15 @@ async function Fr(e, t) {
 				});
 				continue;
 			}
-			i === "ConstructedAttribute" && await Lr(a, r, o, {
+			i === "ConstructedAttribute" && await Ji(a, r, o, {
 				record: n,
 				doc: t
 			});
 		}
 	}
 }
-function Ir(e, t, n, r) {
-	if (!Cr.includes(t)) return;
+function qi(e, t, n, r) {
+	if (!Ni.includes(t)) return;
 	let i = $(n, "variant");
 	if (!i) return;
 	let a = e.cdcVariants.get(t);
@@ -45994,30 +46730,30 @@ function Ir(e, t, n, r) {
 		doc: r
 	});
 }
-async function Lr(e, t, n, r) {
-	await Rr(n) || await Rr(r) && e.set(t, r);
+async function Ji(e, t, n, r) {
+	await Yi(n) || await Yi(r) && e.set(t, r);
 }
-async function Rr(e) {
+async function Yi(e) {
 	return (await e.doc.document.query.getChildren({
 		tagName: "ConstructedAttribute",
 		id: e.record.id
 	}, "SubDataAttribute")).length > 0;
 }
-function zr(e) {
+function Xi(e) {
 	return {
 		id: e.id,
 		version: e.version,
 		revision: e.revision,
 		release: e.release,
-		label: `${e.id} v${de(e)}`,
+		label: `${e.id} v${me(e)}`,
 		lnNs: `${e.id}:${e.version}${e.revision}${e.release}`
 	};
 }
-async function Br(e, t, n) {
+async function Zi(e, t, n) {
 	let r = [], i = n, a = !0, o = /* @__PURE__ */ new Set();
 	for (; i && !o.has(i);) {
 		o.add(i);
-		let n = await Hr(e, t, i, a);
+		let n = await $i(e, t, i, a);
 		if (!n) break;
 		r.unshift({
 			name: i,
@@ -46028,7 +46764,7 @@ async function Br(e, t, n) {
 	}
 	return r;
 }
-async function Vr(e, t) {
+async function Qi(e, t) {
 	let n = [];
 	for (let r of e.nsdDocs) {
 		let e = await r.document.query.findByAttributes({
@@ -46044,7 +46780,7 @@ async function Vr(e, t) {
 	}
 	return n;
 }
-async function Hr(e, t, n, r) {
+async function $i(e, t, n, r) {
 	let i = [t, ...e.nsdDocs.filter((e) => e.documentId !== t.documentId)], a = r ? ["LNClass"] : ["LNClass", "AbstractLNClass"];
 	for (let e of i) for (let t of a) {
 		let r = await e.document.query.findByAttributes({
@@ -46058,7 +46794,7 @@ async function Hr(e, t, n, r) {
 		};
 	}
 }
-async function Ur(e, t) {
+async function ea(e, t) {
 	let { record: n } = t, r = $(n, "type"), i = $(n, "underlyingType") || void 0;
 	return {
 		kind: "DO",
@@ -46070,14 +46806,14 @@ async function Ur(e, t) {
 		descId: $(n, "descID") || void 0,
 		inheritedFrom: t.declaringClass === t.requestedClass ? void 0 : t.declaringClass,
 		namespace: t.namespace,
-		children: await Wr(e, {
+		children: await ta(e, {
 			cdcName: r,
 			parameterizedEnumName: i,
 			seen: /* @__PURE__ */ new Set()
 		})
 	};
 }
-async function Wr(e, t) {
+async function ta(e, t) {
 	let n = e.cdcs.get(t.cdcName);
 	if (!n) return [];
 	let r = `CDC:${t.cdcName}`;
@@ -46085,9 +46821,9 @@ async function Wr(e, t) {
 	let i = new Set(t.seen).add(r), { query: a } = n.doc.document, o = {
 		tagName: "CDC",
 		id: n.record.id
-	}, s = [], c = await Gr(e, t.cdcName), l = await a.getChildren(o, "DataAttribute");
+	}, s = [], c = await na(e, t.cdcName), l = await a.getChildren(o, "DataAttribute");
 	for (let r of l) {
-		let a = await qr(e, {
+		let a = await ia(e, {
 			record: r,
 			kind: "DA",
 			parameterizedEnumName: t.parameterizedEnumName,
@@ -46112,7 +46848,7 @@ async function Wr(e, t) {
 			cdc: r,
 			descId: $(t, "descID") || void 0,
 			namespace: n.doc.namespace,
-			children: await Wr(e, {
+			children: await ta(e, {
 				cdcName: r,
 				parameterizedEnumName: $(t, "underlyingType") || void 0,
 				seen: i
@@ -46121,7 +46857,7 @@ async function Wr(e, t) {
 	}
 	return s;
 }
-async function Gr(e, t) {
+async function na(e, t) {
 	let n = e.cdcVariants.get(t), r = /* @__PURE__ */ new Map();
 	if (!n || n.size < 2) return r;
 	let i = /* @__PURE__ */ new Map();
@@ -46142,18 +46878,18 @@ async function Gr(e, t) {
 		let n = {};
 		for (let [e, r] of t) r && (n[e] = r);
 		r.set(e, {
-			fcOptions: Kr([...t.keys()]),
+			fcOptions: ra([...t.keys()]),
 			descIds: n
 		});
 	}
 	return r;
 }
-function Kr(e) {
+function ra(e) {
 	return [...e].sort(function(e, t) {
 		return e === "SP" ? -1 : t === "SP" ? 1 : e.localeCompare(t);
 	});
 }
-async function qr(e, t) {
+async function ia(e, t) {
 	let { record: n } = t, r = $(n, "typeKind") || void 0, i = $(n, "type") || void 0, a = {
 		kind: t.kind,
 		name: $(n, "name"),
@@ -46166,13 +46902,13 @@ async function qr(e, t) {
 		namespace: t.namespace,
 		children: []
 	};
-	return r === "ENUMERATED" && (a.enumName = i || t.parameterizedEnumName, a.enumLiterals = await Yr(e, a.enumName)), r === "CONSTRUCTED" && i && (a.children = await Jr(e, {
+	return r === "ENUMERATED" && (a.enumName = i || t.parameterizedEnumName, a.enumLiterals = await oa(e, a.enumName)), r === "CONSTRUCTED" && i && (a.children = await aa(e, {
 		name: i,
 		parameterizedEnumName: t.parameterizedEnumName,
 		seen: t.seen
 	})), a;
 }
-async function Jr(e, t) {
+async function aa(e, t) {
 	let n = e.constructedAttributes.get(t.name);
 	if (!n) return [];
 	let r = `CA:${t.name}`;
@@ -46181,7 +46917,7 @@ async function Jr(e, t) {
 		tagName: "ConstructedAttribute",
 		id: n.record.id
 	}, "SubDataAttribute"), o = [];
-	for (let r of a) o.push(await qr(e, {
+	for (let r of a) o.push(await ia(e, {
 		record: r,
 		kind: "BDA",
 		parameterizedEnumName: t.parameterizedEnumName,
@@ -46190,7 +46926,7 @@ async function Jr(e, t) {
 	}));
 	return o;
 }
-async function Yr(e, t) {
+async function oa(e, t) {
 	if (!t) return [];
 	let n = e.enumerations.get(t);
 	return n ? (await n.doc.document.query.getChildren({
@@ -46209,10 +46945,10 @@ function $(e, t) {
 }
 //#endregion
 //#region src/data-type-templates/data-type-templates.store.ts
-var Xr = "This type is exclusively used by IED LN instances and cannot be modified.", Zr = _("data-type-templates", function() {
-	let e = N([]), t = N(), n = N(), r = N([]), i = N(!1), a = N(!1), o = N(), s = N(), c = N(""), l = N(!0), u = N(""), d = N("all"), f = N(""), p = N(!1), m = N(), h = N(!1), g = b(function() {
-		return n.value ? tr(n.value) !== f.value : !1;
-	}), _ = b(function() {
+var sa = "This type is exclusively used by IED LN instances and cannot be modified.", ca = g("data-type-templates", function() {
+	let e = N([]), t = N(), n = N(), r = N([]), i = N(!1), a = N(!1), o = N(), s = N(), c = N(""), l = N(!0), u = N(""), f = N("all"), p = N(""), m = N(!1), h = N(), g = N(!1), _ = d(function() {
+		return n.value ? ui(n.value) !== p.value : !1;
+	}), v = d(function() {
 		let t = c.value.trim().toLowerCase(), n = e.value.filter(function(e) {
 			return t ? e.id.toLowerCase().includes(t) || e.lnClass.toLowerCase().includes(t) : !0;
 		}), r = l.value ? 1 : -1;
@@ -46220,150 +46956,150 @@ var Xr = "This type is exclusively used by IED LN instances and cannot be modifi
 			return e.id.localeCompare(t.id) * r;
 		});
 	});
-	async function v() {
-		e.value = await K.findLnodeTypes(G.value);
+	async function y() {
+		e.value = await J.findLnodeTypes(q.value);
 	}
-	async function y(e) {
-		t.value = e, a.value = !1, s.value = void 0, await se(e), await M(e), o.value = await K.isExclusiveIedType(G.value, e) ? Xr : void 0;
+	async function b(e) {
+		t.value = e, a.value = !1, s.value = void 0, await j(e), await ce(e), o.value = await J.isExclusiveIedType(q.value, e) ? sa : void 0;
 	}
 	async function x(e, i) {
-		n.value = Tn({
-			structure: await Er({
+		n.value = Pr({
+			structure: await Ii({
 				lnClass: e.lnClass,
 				documentId: e.documentId
 			}),
 			baseName: i
-		}), f.value = "", t.value = void 0, r.value = [], a.value = !0, o.value = void 0;
+		}), p.value = "", t.value = void 0, r.value = [], a.value = !0, o.value = void 0;
 	}
 	async function S() {
 		let e = t.value;
 		if (!(!e || !n.value)) {
-			if (await K.isExclusiveIedType(G.value, e)) {
-				o.value = Xr;
+			if (await J.isExclusiveIedType(q.value, e)) {
+				o.value = sa;
 				return;
 			}
 			a.value = !0;
 		}
 	}
-	function C(e, t) {
-		!n.value || !a.value || kn(n.value, e, t);
+	function ee(e, t) {
+		!n.value || !a.value || Rr(n.value, e, t);
 	}
-	function w(e) {
-		!n.value || !a.value || An(n.value, e);
+	function C(e) {
+		!n.value || !a.value || zr(n.value, e);
 	}
-	function T(e, t, r) {
-		!n.value || !a.value || Un(n.value, e, t, r);
+	function w(e, t, r) {
+		!n.value || !a.value || Qr(n.value, e, t, r);
+	}
+	function T(e, t) {
+		!n.value || !a.value || $r(n.value, e, t);
 	}
 	function E(e, t) {
-		!n.value || !a.value || Wn(n.value, e, t);
-	}
-	function ee(e, t) {
-		!n.value || !a.value || $n(n.value, e, t);
+		!n.value || !a.value || ci(n.value, e, t);
 	}
 	function te(e) {
-		!n.value || !a.value || er(n.value, e);
+		!n.value || !a.value || li(n.value, e);
 	}
-	function ne(e, t) {
+	function D(e, t) {
 		if (!n.value || !a.value) return;
-		let r = J(n.value.nodes, e);
+		let r = X(n.value.nodes, e);
 		!r || r.toggleLocked || (r.enumVals = t);
 	}
-	async function re(e) {
+	async function O(e) {
 		let t = n.value;
 		if (!t) return !1;
 		s.value = void 0;
 		try {
-			let n = await K.saveDraft(G.value, {
+			let n = await J.saveDraft(q.value, {
 				baseName: t.baseName,
-				payload: Dn(t),
+				payload: Ir(t),
 				sourceLnodeTypeId: t.sourceLnodeTypeId,
 				forceNewVersion: e?.forceNewVersion
 			});
-			return await v(), await y(n.id), !0;
+			return await y(), await b(n.id), !0;
 		} catch (e) {
 			return s.value = e instanceof Error ? e.message : String(e), !1;
 		}
 	}
-	async function D() {
-		await re({ forceNewVersion: !0 });
+	async function ne() {
+		await O({ forceNewVersion: !0 });
 	}
-	async function O(e) {
-		if (h.value) {
+	async function k(e) {
+		if (g.value) {
 			await e();
 			return;
 		}
-		if (a.value && g.value) {
-			m.value = e, p.value = !0;
+		if (a.value && _.value) {
+			h.value = e, m.value = !0;
 			return;
 		}
 		await e();
 	}
-	function k() {
-		p.value = !1, m.value = void 0;
+	function re() {
+		m.value = !1, h.value = void 0;
 	}
 	async function ie() {
-		let e = m.value;
-		m.value = void 0, p.value = !1, h.value = !0;
+		let e = h.value;
+		h.value = void 0, m.value = !1, g.value = !0;
 		try {
-			await A(), e && await e();
+			await oe(), e && await e();
 		} finally {
-			h.value = !1;
+			g.value = !1;
 		}
 	}
 	async function ae() {
-		let e = m.value;
-		if (m.value = void 0, p.value = !1, !(!await re() || !e)) {
-			h.value = !0;
+		let e = h.value;
+		if (h.value = void 0, m.value = !1, !(!await O() || !e)) {
+			g.value = !0;
 			try {
 				await e();
 			} finally {
-				h.value = !1;
+				g.value = !1;
 			}
 		}
 	}
-	async function A() {
+	async function oe() {
 		let e = t.value;
 		if (a.value) {
 			if (s.value = void 0, !e) {
 				n.value = void 0, r.value = [], a.value = !1;
 				return;
 			}
-			await se(e), a.value = !1;
+			await j(e), a.value = !1;
 		}
 	}
-	async function oe() {
-		await O(A);
+	async function se() {
+		await k(oe);
 	}
-	async function j(e) {
+	async function A(e) {
 		s.value = void 0;
 		try {
-			await K.remove(G.value, e), t.value === e && (t.value = void 0, n.value = void 0, r.value = []), await v();
+			await J.remove(q.value, e), t.value === e && (t.value = void 0, n.value = void 0, r.value = []), await y();
 		} catch (e) {
 			s.value = e instanceof Error ? e.message : String(e);
 		}
 	}
-	async function M(e) {
-		r.value = await K.findReferencingLnodes(G.value, e);
+	async function ce(e) {
+		r.value = await J.findReferencingLnodes(q.value, e);
 	}
-	async function se(e) {
-		let t = await K.readExistingLnodeType(G.value, e);
+	async function j(e) {
+		let t = await J.readExistingLnodeType(q.value, e);
 		if (!t) {
 			n.value = void 0;
 			return;
 		}
-		let r = await K.listSelectorLockedPaths(G.value, e);
-		n.value = Tn({
-			structure: await ce(t.lnClass),
-			baseName: I(e).baseName,
+		let r = await J.listSelectorLockedPaths(q.value, e);
+		n.value = Pr({
+			structure: await le(t.lnClass),
+			baseName: P(e).baseName,
 			existing: t,
 			selectorLockedPaths: r
-		}), f.value = tr(n.value);
+		}), p.value = ui(n.value);
 	}
-	async function ce(e) {
-		let t = (await Tr()).find(function(t) {
+	async function le(e) {
+		let t = (await Fi()).find(function(t) {
 			return t.lnClass === e;
 		});
-		return t ? Er({
+		return t ? Ii({
 			lnClass: t.lnClass,
 			documentId: t.documentId
 		}) : {
@@ -46381,7 +47117,7 @@ var Xr = "This type is exclusively used by IED LN instances and cannot be modifi
 	}
 	return {
 		lnodeTypes: e,
-		filteredLnodeTypes: _,
+		filteredLnodeTypes: v,
 		selectedLnodeTypeId: t,
 		draft: n,
 		references: r,
@@ -46389,108 +47125,108 @@ var Xr = "This type is exclusively used by IED LN instances and cannot be modifi
 		isEditing: a,
 		editBlockedReason: o,
 		error: s,
-		hasChange: g,
+		hasChange: _,
 		listSearch: c,
 		listSortAscending: l,
 		treeSearch: u,
-		treeFilter: d,
-		refreshLnodeTypes: v,
-		selectLnodeType: y,
+		treeFilter: f,
+		refreshLnodeTypes: y,
+		selectLnodeType: b,
 		startCreate: x,
 		requestEdit: S,
-		toggle: C,
-		toggleBranch: w,
-		toggleEnumVal: T,
-		setSettingFc: E,
-		setNodeInstanceCount: ee,
+		toggle: ee,
+		toggleBranch: C,
+		toggleEnumVal: w,
+		setSettingFc: T,
+		setNodeInstanceCount: E,
 		addCustomDataObject: te,
-		updateEnumVals: ne,
-		save: re,
-		createNewLnodeTypeVersion: D,
-		removeLnodeType: j,
-		cancelEdit: A,
-		requestCancelEdit: oe,
-		runWithUnsavedGuard: O,
-		keepEditingAfterUnsavedPrompt: k,
+		updateEnumVals: D,
+		save: O,
+		createNewLnodeTypeVersion: ne,
+		removeLnodeType: A,
+		cancelEdit: oe,
+		requestCancelEdit: se,
+		runWithUnsavedGuard: k,
+		keepEditingAfterUnsavedPrompt: re,
 		continueAfterDiscard: ie,
 		continueAfterSave: ae,
-		unsavedChangesDialogOpen: p
+		unsavedChangesDialogOpen: m
 	};
-}), Qr = {
+}), la = {
 	key: 0,
 	class: "lnode-type-list__error"
-}, $r = /* @__PURE__ */ F(/* @__PURE__ */ D({
+}, ua = /* @__PURE__ */ o(/* @__PURE__ */ y({
 	__name: "lnode-type-list",
-	setup(t) {
-		let n = Zr(), { filteredLnodeTypes: r, selectedLnodeTypeId: i, listSearch: a, listSortAscending: o, error: s } = g(n);
-		u({
-			document: G,
+	setup(e) {
+		let t = ca(), { filteredLnodeTypes: r, selectedLnodeTypeId: i, listSearch: a, listSortAscending: o, error: s } = c(t);
+		n({
+			document: q,
 			fetcher: async function() {
-				return await n.refreshLnodeTypes(), !0;
+				return await t.refreshLnodeTypes(), !0;
 			},
 			initial: !1
 		});
-		let c = N(), d = N(), p = N([]);
-		async function _() {
-			await n.runWithUnsavedGuard(async function() {
-				p.value = await Tr(), c.value?.open();
+		let u = N(), d = N(), f = N([]);
+		async function m() {
+			await t.runWithUnsavedGuard(async function() {
+				f.value = await Fi(), u.value?.open();
 			});
 		}
-		async function v(e, t) {
-			await n.runWithUnsavedGuard(async function() {
-				await n.startCreate(e, t);
+		async function h(e, n) {
+			await t.runWithUnsavedGuard(async function() {
+				await t.startCreate(e, n);
 			});
 		}
-		async function y(e) {
-			await n.runWithUnsavedGuard(async function() {
-				await n.removeLnodeType(e);
+		async function g(e) {
+			await t.runWithUnsavedGuard(async function() {
+				await t.removeLnodeType(e);
 			});
 		}
-		async function b(e) {
-			i.value !== e && await n.runWithUnsavedGuard(async function() {
-				await n.selectLnodeType(e);
+		async function _(e) {
+			i.value !== e && await t.runWithUnsavedGuard(async function() {
+				await t.selectLnodeType(e);
 			});
 		}
-		return (t, n) => (O(), e(l, null, [
-			M(be, null, {
-				header: T(() => [M(we, {
-					search: m(a),
-					ascending: m(o),
-					onSearch: n[0] ||= (e) => a.value = e,
-					onSort: n[1] ||= (e) => o.value = e,
-					onNew: _
-				}, null, 8, ["search", "ascending"]), m(s) ? (O(), e("p", Qr, h(m(s)), 1)) : f("", !0)]),
-				list: T(() => [M(Oe, {
-					"l-node-types": m(r),
-					"selected-id": m(i),
-					onSelect: b,
-					onDelete: n[2] ||= (e) => d.value?.open(e)
+		return (e, t) => (D(), k(v, null, [
+			T(Ce, null, {
+				header: w(() => [T(De, {
+					search: p(a),
+					ascending: p(o),
+					onSearch: t[0] ||= (e) => a.value = e,
+					onSort: t[1] ||= (e) => o.value = e,
+					onNew: m
+				}, null, 8, ["search", "ascending"]), p(s) ? (D(), k("p", la, l(p(s)), 1)) : j("", !0)]),
+				list: w(() => [T(je, {
+					"l-node-types": p(r),
+					"selected-id": p(i),
+					onSelect: _,
+					onDelete: t[2] ||= (e) => d.value?.open(e)
 				}, null, 8, ["l-node-types", "selected-id"])]),
 				_: 1
 			}),
-			M(Re, {
+			T(Ve, {
 				ref_key: "lnClassDialog",
-				ref: c,
-				"ln-classes": p.value,
-				onCreate: v
+				ref: u,
+				"ln-classes": f.value,
+				onCreate: h
 			}, null, 8, ["ln-classes"]),
-			M(Ve, {
+			T(We, {
 				ref_key: "deleteConfirmDialog",
 				ref: d,
-				onConfirm: y
+				onConfirm: g
 			}, null, 512)
 		], 64));
 	}
-}), [["__scopeId", "data-v-d3cfc3c5"]]), ei = { class: "modal-box add-do-dialog" }, ti = { class: "add-do-dialog__list" }, ni = ["onClick"], ri = {
+}), [["__scopeId", "data-v-d3cfc3c5"]]), da = { class: "modal-box add-do-dialog" }, fa = { class: "add-do-dialog__list" }, pa = ["onClick"], ma = {
 	key: 0,
 	class: "add-do-dialog__description"
-}, ii = { class: "add-do-dialog__namespace" }, ai = {
+}, ha = { class: "add-do-dialog__namespace" }, ga = {
 	key: 0,
 	class: "add-do-dialog__empty"
-}, oi = {
+}, _a = {
 	key: 0,
 	class: "add-do-dialog__error"
-}, si = { class: "add-do-dialog__actions" }, ci = ["disabled"], li = /* @__PURE__ */ F(/* @__PURE__ */ D({
+}, va = { class: "add-do-dialog__actions" }, ya = ["disabled"], ba = /* @__PURE__ */ o(/* @__PURE__ */ y({
 	__name: "add-do-dialog",
 	props: {
 		cdcs: { default: () => [] },
@@ -46500,77 +47236,77 @@ var Xr = "This type is exclusively used by IED LN instances and cannot be modifi
 		}
 	},
 	emits: ["create"],
-	setup(t, { expose: r, emit: i }) {
-		let a = t, s = i;
-		r({
-			open: v,
-			close: x
+	setup(t, { expose: n, emit: r }) {
+		let a = t, o = r;
+		n({
+			open: _,
+			close: y
 		});
-		let c = N(), u = N(""), d = N(""), p = N(), m = b(function() {
+		let c = N(), u = N(""), f = N(""), p = N(), m = d(function() {
 			let e = u.value.trim().toLowerCase();
 			return e ? a.cdcs.filter(function(t) {
 				return t.name.toLowerCase().includes(e);
 			}) : a.cdcs;
-		}), g = b(function() {
-			return d.value.trim() ? a.validateName(d.value.trim()) : { valid: !1 };
-		}), _ = b(function() {
-			return !!p.value && g.value.valid;
+		}), h = d(function() {
+			return f.value.trim() ? a.validateName(f.value.trim()) : { valid: !1 };
+		}), g = d(function() {
+			return !!p.value && h.value.valid;
 		});
-		function v() {
-			u.value = "", d.value = "", p.value = void 0, c.value?.showModal();
+		function _() {
+			u.value = "", f.value = "", p.value = void 0, c.value?.showModal();
 		}
-		function x() {
+		function y() {
 			c.value?.close();
 		}
-		function S() {
-			!p.value || !_.value || (s("create", {
-				name: d.value.trim(),
+		function b() {
+			!p.value || !g.value || (o("create", {
+				name: f.value.trim(),
 				cdc: p.value
-			}), x());
+			}), y());
 		}
-		function C(e) {
+		function x(e) {
 			return [e.title, e.categoryLabel].filter(Boolean).join(" - ");
 		}
-		return (t, r) => (O(), e("dialog", {
+		return (t, n) => (D(), k("dialog", {
 			ref_key: "dialogElement",
 			ref: c,
 			class: "modal"
-		}, [y("div", ei, [
-			y("button", {
+		}, [e("div", da, [
+			e("button", {
 				class: "btn btn-sm btn-circle btn-ghost add-do-dialog__close",
-				onClick: x
-			}, [M(ue)]),
-			r[2] ||= y("h3", { class: "add-do-dialog__title" }, "Add Data Object", -1),
-			k(y("input", {
-				"onUpdate:modelValue": r[0] ||= (e) => u.value = e,
+				onClick: y
+			}, [T(pe)]),
+			n[2] ||= e("h3", { class: "add-do-dialog__title" }, "Add Data Object", -1),
+			C(e("input", {
+				"onUpdate:modelValue": n[0] ||= (e) => u.value = e,
 				class: "input input-sm add-do-dialog__search",
 				type: "search",
 				placeholder: "Search CDC..."
-			}, null, 512), [[o, u.value]]),
-			y("ul", ti, [(O(!0), e(l, null, j(m.value, (t) => (O(), e("li", {
+			}, null, 512), [[s, u.value]]),
+			e("ul", fa, [(D(!0), k(v, null, M(m.value, (t) => (D(), k("li", {
 				key: t.name,
-				class: n(["add-do-dialog__row", { "add-do-dialog__row--selected": t === p.value }]),
+				class: i(["add-do-dialog__row", { "add-do-dialog__row--selected": t === p.value }]),
 				onClick: (e) => p.value = t
 			}, [
-				y("span", null, h(t.name), 1),
-				C(t) ? (O(), e("span", ri, h(C(t)), 1)) : f("", !0),
-				y("span", ii, "[" + h(t.namespace.label) + "]", 1)
-			], 10, ni))), 128)), m.value.length ? f("", !0) : (O(), e("li", ai, "No CDCs found."))]),
-			k(y("input", {
-				"onUpdate:modelValue": r[1] ||= (e) => d.value = e,
+				e("span", null, l(t.name), 1),
+				x(t) ? (D(), k("span", ma, l(x(t)), 1)) : j("", !0),
+				e("span", ha, "[" + l(t.namespace.label) + "]", 1)
+			], 10, pa))), 128)), m.value.length ? j("", !0) : (D(), k("li", ga, "No CDCs found."))]),
+			C(e("input", {
+				"onUpdate:modelValue": n[1] ||= (e) => f.value = e,
 				class: "input input-sm add-do-dialog__name",
 				type: "text",
 				placeholder: "DO name"
-			}, null, 512), [[o, d.value]]),
-			d.value.trim() && g.value.reason ? (O(), e("p", oi, h(g.value.reason), 1)) : f("", !0),
-			y("div", si, [y("button", {
+			}, null, 512), [[s, f.value]]),
+			f.value.trim() && h.value.reason ? (D(), k("p", _a, l(h.value.reason), 1)) : j("", !0),
+			e("div", va, [e("button", {
 				class: "btn btn-sm btn-primary",
-				disabled: !_.value,
-				onClick: S
-			}, "Add", 8, ci)])
+				disabled: !g.value,
+				onClick: b
+			}, "Add", 8, ya)])
 		])], 512));
 	}
-}), [["__scopeId", "data-v-f9c51e84"]]), ui = { class: "modal-box enum-editor" }, di = { class: "enum-editor__title" }, fi = { class: "enum-editor__list" }, pi = ["onUpdate:modelValue"], mi = ["onUpdate:modelValue"], hi = ["onClick"], gi = ["onClick"], _i = ["onClick"], vi = /* @__PURE__ */ F(/* @__PURE__ */ D({
+}), [["__scopeId", "data-v-f9c51e84"]]), xa = { class: "modal-box enum-editor" }, Sa = { class: "enum-editor__title" }, Ca = { class: "enum-editor__list" }, wa = ["onUpdate:modelValue"], Ta = ["onUpdate:modelValue"], Ea = ["onClick"], Da = ["onClick"], Oa = ["onClick"], ka = /* @__PURE__ */ o(/* @__PURE__ */ y({
 	__name: "enum-editor",
 	emits: ["save"],
 	setup(t, { expose: n, emit: r }) {
@@ -46579,9 +47315,9 @@ var Xr = "This type is exclusively used by IED LN instances and cannot be modifi
 			open: d,
 			close: f
 		});
-		let a = N(), s = N(""), c = N(""), u = N([]);
+		let a = N(), o = N(""), c = N(""), u = N([]);
 		function d(e) {
-			s.value = e.key, c.value = e.title, u.value = e.vals.map((e) => ({ ...e })), a.value?.showModal();
+			o.value = e.key, c.value = e.title, u.value = e.vals.map((e) => ({ ...e })), a.value?.showModal();
 		}
 		function f() {
 			a.value?.close();
@@ -46596,76 +47332,76 @@ var Xr = "This type is exclusively used by IED LN instances and cannot be modifi
 		function m(e) {
 			u.value.splice(e, 1);
 		}
-		function g(e, t) {
+		function h(e, t) {
 			let n = e + t;
 			if (n < 0 || n >= u.value.length) return;
 			let [r] = u.value.splice(e, 1);
 			u.value.splice(n, 0, r);
 		}
-		function _() {
-			i("save", s.value, u.value.filter((e) => e.value.trim().length)), f();
+		function g() {
+			i("save", o.value, u.value.filter((e) => e.value.trim().length)), f();
 		}
-		return (t, n) => (O(), e("dialog", {
+		return (t, n) => (D(), k("dialog", {
 			ref_key: "dialogElement",
 			ref: a,
 			class: "modal"
-		}, [y("div", ui, [
-			y("button", {
+		}, [e("div", xa, [
+			e("button", {
 				class: "btn btn-sm btn-circle btn-ghost enum-editor__close",
 				onClick: f
-			}, [M(ue)]),
-			y("h3", di, "EnumType — " + h(c.value), 1),
-			y("ul", fi, [(O(!0), e(l, null, j(u.value, (t, n) => (O(), e("li", {
+			}, [T(pe)]),
+			e("h3", Sa, "EnumType — " + l(c.value), 1),
+			e("ul", Ca, [(D(!0), k(v, null, M(u.value, (t, n) => (D(), k("li", {
 				key: n,
 				class: "enum-editor__row"
 			}, [
-				k(y("input", {
+				C(e("input", {
 					"onUpdate:modelValue": (e) => t.ord = e,
 					class: "input input-xs enum-editor__ord",
 					type: "number",
 					title: "Ordinal"
-				}, null, 8, pi), [[
-					o,
+				}, null, 8, wa), [[
+					s,
 					t.ord,
 					void 0,
 					{ number: !0 }
 				]]),
-				k(y("input", {
+				C(e("input", {
 					"onUpdate:modelValue": (e) => t.value = e,
 					class: "input input-xs enum-editor__value",
 					type: "text",
 					placeholder: "Value"
-				}, null, 8, mi), [[o, t.value]]),
-				y("button", {
+				}, null, 8, Ta), [[s, t.value]]),
+				e("button", {
 					class: "btn btn-xs btn-ghost",
 					title: "Move up",
-					onClick: (e) => g(n, -1)
-				}, "↑", 8, hi),
-				y("button", {
+					onClick: (e) => h(n, -1)
+				}, "↑", 8, Ea),
+				e("button", {
 					class: "btn btn-xs btn-ghost",
 					title: "Move down",
-					onClick: (e) => g(n, 1)
-				}, "↓", 8, gi),
-				y("button", {
+					onClick: (e) => h(n, 1)
+				}, "↓", 8, Da),
+				e("button", {
 					class: "btn btn-xs btn-ghost",
 					title: "Remove",
 					onClick: (e) => m(n)
-				}, [M(me)], 8, _i)
+				}, [T(fe)], 8, Oa)
 			]))), 128))]),
-			y("div", { class: "enum-editor__actions" }, [y("button", {
+			e("div", { class: "enum-editor__actions" }, [e("button", {
 				class: "btn btn-sm",
 				onClick: p
-			}, "Add value"), y("button", {
+			}, "Add value"), e("button", {
 				class: "btn btn-sm btn-primary",
-				onClick: _
+				onClick: g
 			}, "Apply")])
 		])], 512));
 	}
-}), [["__scopeId", "data-v-fb6c3661"]]), yi = { class: "lnode-type-details-header" }, bi = { class: "lnode-type-details-header__row" }, xi = { class: "lnode-type-details-header__title-group" }, Si = { class: "lnode-type-details-header__title" }, Ci = {
+}), [["__scopeId", "data-v-fb6c3661"]]), Aa = { class: "lnode-type-details-header" }, ja = { class: "lnode-type-details-header__row" }, Ma = { class: "lnode-type-details-header__title-group" }, Na = { class: "lnode-type-details-header__title" }, Pa = {
 	key: 0,
 	class: "lnode-type-details-header__namespace",
 	"data-testid": "dtt-namespace-info"
-}, wi = { class: "lnode-type-details-header__row" }, Ti = ["value"], Ei = { class: "join lnode-type-details-header__filters" }, Di = ["data-testid", "onClick"], Oi = ["disabled", "title"], ki = ["disabled"], Ai = ["disabled"], ji = /* @__PURE__ */ F(/* @__PURE__ */ D({
+}, Fa = { class: "lnode-type-details-header__row" }, Ia = ["value"], La = { class: "join lnode-type-details-header__filters" }, Ra = ["data-testid", "onClick"], za = ["disabled", "title"], Ba = ["disabled"], Va = ["disabled"], Ha = /* @__PURE__ */ o(/* @__PURE__ */ y({
 	__name: "header",
 	props: {
 		title: { default: "" },
@@ -46701,11 +47437,11 @@ var Xr = "This type is exclusively used by IED LN instances and cannot be modifi
 		"add-do",
 		"toggle-references"
 	],
-	setup(t, { emit: r }) {
-		let i = t, a = r, o = b(function() {
-			return i.referenceCount > 0;
-		}), s = b(function() {
-			return i.isNew || !o.value;
+	setup(t, { emit: n }) {
+		let r = t, a = n, o = d(function() {
+			return r.referenceCount > 0;
+		}), s = d(function() {
+			return r.isNew || !o.value;
 		}), c = [
 			"all",
 			"optional",
@@ -46715,78 +47451,78 @@ var Xr = "This type is exclusively used by IED LN instances and cannot be modifi
 			optional: "Optional",
 			mandatory: "Mandatory"
 		};
-		function d(e) {
+		function f(e) {
 			a("search", e.target.value);
 		}
-		return (t, r) => (O(), e("div", yi, [y("div", bi, [y("span", xi, [y("span", Si, h(i.title), 1), i.namespaceInfo ? (O(), e("span", Ci, h(i.namespaceInfo), 1)) : f("", !0)]), i.hasSelection ? (O(), e("button", {
+		return (t, n) => (D(), k("div", Aa, [e("div", ja, [e("span", Ma, [e("span", Na, l(r.title), 1), r.namespaceInfo ? (D(), k("span", Pa, l(r.namespaceInfo), 1)) : j("", !0)]), r.hasSelection ? (D(), k("button", {
 			key: 0,
 			class: "btn btn-xs btn-ghost",
 			"data-testid": "dtt-references-btn",
-			onClick: r[0] ||= (e) => a("toggle-references")
-		}, " References (" + h(i.referenceCount) + ") ", 1)) : f("", !0)]), y("div", wi, [
-			y("input", {
+			onClick: n[0] ||= (e) => a("toggle-references")
+		}, " References (" + l(r.referenceCount) + ") ", 1)) : j("", !0)]), e("div", Fa, [
+			e("input", {
 				class: "input input-sm lnode-type-details-header__search",
 				type: "search",
 				placeholder: "Search...",
-				value: i.search,
+				value: r.search,
 				"data-testid": "dtt-tree-search",
-				onInput: d
-			}, null, 40, Ti),
-			y("div", Ei, [(O(), e(l, null, j(c, (e) => y("button", {
-				key: e,
-				class: n(["btn btn-sm join-item", { "btn-active": i.filter === e }]),
-				"data-testid": `dtt-filter-${e}`,
-				onClick: (t) => a("filter", e)
-			}, h(u[e]), 11, Di)), 64))]),
-			i.isEditing ? (O(), e("button", {
+				onInput: f
+			}, null, 40, Ia),
+			e("div", La, [(D(), k(v, null, M(c, (t) => e("button", {
+				key: t,
+				class: i(["btn btn-sm join-item", { "btn-active": r.filter === t }]),
+				"data-testid": `dtt-filter-${t}`,
+				onClick: (e) => a("filter", t)
+			}, l(u[t]), 11, Ra)), 64))]),
+			r.isEditing ? (D(), k("button", {
 				key: 0,
 				class: "btn btn-sm",
 				"data-testid": "dtt-add-do-btn",
-				onClick: r[1] ||= (e) => a("add-do")
-			}, " Add DO ")) : f("", !0),
-			!i.isEditing && i.hasSelection ? (O(), e("button", {
+				onClick: n[1] ||= (e) => a("add-do")
+			}, " Add DO ")) : j("", !0),
+			!r.isEditing && r.hasSelection ? (D(), k("button", {
 				key: 1,
 				class: "btn btn-sm",
-				disabled: !!i.editBlockedReason,
-				title: i.editBlockedReason,
+				disabled: !!r.editBlockedReason,
+				title: r.editBlockedReason,
 				"data-testid": "dtt-edit-btn",
-				onClick: r[2] ||= (e) => a("edit")
-			}, " Edit ", 8, Oi)) : f("", !0),
-			i.isEditing ? (O(), e("button", {
+				onClick: n[2] ||= (e) => a("edit")
+			}, " Edit ", 8, za)) : j("", !0),
+			r.isEditing ? (D(), k("button", {
 				key: 2,
 				class: "btn btn-sm btn-ghost",
 				"data-testid": "dtt-cancel-edit-btn",
-				onClick: r[3] ||= (e) => a("cancel")
-			}, " Cancel ")) : f("", !0),
-			i.isEditing && s.value ? (O(), e("button", {
+				onClick: n[3] ||= (e) => a("cancel")
+			}, " Cancel ")) : j("", !0),
+			r.isEditing && s.value ? (D(), k("button", {
 				key: 3,
 				class: "btn btn-sm btn-primary",
-				disabled: !i.hasChange && !i.isNew,
+				disabled: !r.hasChange && !r.isNew,
 				"data-testid": "dtt-save-btn",
-				onClick: r[4] ||= (e) => a("save")
-			}, h(i.isNew ? "Save" : "Finish Editing"), 9, ki)) : f("", !0),
-			i.isEditing && !i.isNew ? (O(), e("button", {
+				onClick: n[4] ||= (e) => a("save")
+			}, l(r.isNew ? "Save" : "Finish Editing"), 9, Ba)) : j("", !0),
+			r.isEditing && !r.isNew ? (D(), k("button", {
 				key: 4,
 				class: "btn btn-sm btn-outline",
-				disabled: !i.hasChange,
+				disabled: !r.hasChange,
 				"data-testid": "dtt-new-version-btn",
-				onClick: r[5] ||= (e) => a("new-version")
-			}, " New Version ", 8, Ai)) : f("", !0)
+				onClick: n[5] ||= (e) => a("new-version")
+			}, " New Version ", 8, Va)) : j("", !0)
 		])]));
 	}
-}), [["__scopeId", "data-v-9b5aed3f"]]), Mi = {
+}), [["__scopeId", "data-v-9b5aed3f"]]), Ua = {
 	key: 0,
 	class: "modal-box info-popup"
-}, Ni = { class: "info-popup__title" }, Pi = { class: "info-popup__grid" }, Fi = {
+}, Wa = { class: "info-popup__title" }, Ga = { class: "info-popup__grid" }, Ka = {
 	key: 0,
 	class: "info-popup__condition-description"
-}, Ii = {
+}, qa = {
 	key: 0,
 	class: "info-popup__meta"
-}, Li = {
+}, Ja = {
 	key: 1,
 	class: "info-popup__meta"
-}, Ri = /* @__PURE__ */ F(/* @__PURE__ */ D({
+}, Ya = /* @__PURE__ */ o(/* @__PURE__ */ y({
 	__name: "info-popup",
 	props: { info: { default: void 0 } },
 	setup(t, { expose: n }) {
@@ -46802,62 +47538,62 @@ var Xr = "This type is exclusively used by IED LN instances and cannot be modifi
 		function o() {
 			i.value?.close();
 		}
-		return (t, n) => (O(), e("dialog", {
+		return (t, n) => (D(), k("dialog", {
 			ref_key: "dialogElement",
 			ref: i,
 			class: "modal"
-		}, [r.info ? (O(), e("div", Mi, [
-			y("button", {
+		}, [r.info ? (D(), k("div", Ua, [
+			e("button", {
 				class: "btn btn-sm btn-circle btn-ghost info-popup__close",
 				onClick: o
-			}, [M(ue)]),
-			y("h3", Ni, h(r.info.name), 1),
-			y("dl", Pi, [
-				n[4] ||= y("dt", null, "Condition:", -1),
-				y("dd", null, [w(h(r.info.condition) + " ", 1), r.info.conditionDescription ? (O(), e("span", Fi, " — " + h(r.info.conditionDescription), 1)) : f("", !0)]),
-				r.info.type ? (O(), e(l, { key: 0 }, [n[0] ||= y("dt", null, "Type:", -1), y("dd", null, h(r.info.type), 1)], 64)) : f("", !0),
-				r.info.inheritedFrom ? (O(), e(l, { key: 1 }, [n[1] ||= y("dt", null, "Inherited:", -1), y("dd", null, h(r.info.inheritedFrom), 1)], 64)) : f("", !0),
-				r.info.cdc ? (O(), e(l, { key: 2 }, [n[2] ||= y("dt", null, "CDC:", -1), y("dd", null, [
-					w(h(r.info.cdc) + " ", 1),
-					r.info.cdcTitle ? (O(), e("span", Ii, " - " + h(r.info.cdcTitle), 1)) : f("", !0),
-					r.info.cdcCategory ? (O(), e("span", Li, " (" + h(r.info.cdcCategory) + ") ", 1)) : f("", !0)
-				])], 64)) : f("", !0),
-				r.info.description ? (O(), e(l, { key: 3 }, [n[3] ||= y("dt", null, "Description:", -1), y("dd", null, h(r.info.description), 1)], 64)) : f("", !0)
+			}, [T(pe)]),
+			e("h3", Wa, l(r.info.name), 1),
+			e("dl", Ga, [
+				n[4] ||= e("dt", null, "Condition:", -1),
+				e("dd", null, [A(l(r.info.condition) + " ", 1), r.info.conditionDescription ? (D(), k("span", Ka, " — " + l(r.info.conditionDescription), 1)) : j("", !0)]),
+				r.info.type ? (D(), k(v, { key: 0 }, [n[0] ||= e("dt", null, "Type:", -1), e("dd", null, l(r.info.type), 1)], 64)) : j("", !0),
+				r.info.inheritedFrom ? (D(), k(v, { key: 1 }, [n[1] ||= e("dt", null, "Inherited:", -1), e("dd", null, l(r.info.inheritedFrom), 1)], 64)) : j("", !0),
+				r.info.cdc ? (D(), k(v, { key: 2 }, [n[2] ||= e("dt", null, "CDC:", -1), e("dd", null, [
+					A(l(r.info.cdc) + " ", 1),
+					r.info.cdcTitle ? (D(), k("span", qa, " - " + l(r.info.cdcTitle), 1)) : j("", !0),
+					r.info.cdcCategory ? (D(), k("span", Ja, " (" + l(r.info.cdcCategory) + ") ", 1)) : j("", !0)
+				])], 64)) : j("", !0),
+				r.info.description ? (D(), k(v, { key: 3 }, [n[3] ||= e("dt", null, "Description:", -1), e("dd", null, l(r.info.description), 1)], 64)) : j("", !0)
 			])
-		])) : f("", !0)], 512));
+		])) : j("", !0)], 512));
 	}
-}), [["__scopeId", "data-v-5825e64d"]]), zi = {}, Bi = { class: "lnode-type-details-layout" }, Vi = { class: "lnode-type-details-layout__header" }, Hi = { class: "lnode-type-details-layout__body" }, Ui = { class: "lnode-type-details-layout__tree" }, Wi = { class: "lnode-type-details-layout__references" };
-function Gi(t, n) {
-	return O(), e("section", Bi, [y("header", Vi, [S(t.$slots, "header", {}, void 0, !0)]), y("div", Hi, [y("div", Ui, [S(t.$slots, "tree", {}, void 0, !0)]), y("aside", Wi, [S(t.$slots, "references", {}, void 0, !0)])])]);
+}), [["__scopeId", "data-v-5825e64d"]]), Xa = {}, Za = { class: "lnode-type-details-layout" }, Qa = { class: "lnode-type-details-layout__header" }, $a = { class: "lnode-type-details-layout__body" }, eo = { class: "lnode-type-details-layout__tree" }, to = { class: "lnode-type-details-layout__references" };
+function no(t, n) {
+	return D(), k("section", Za, [e("header", Qa, [x(t.$slots, "header", {}, void 0, !0)]), e("div", $a, [e("div", eo, [x(t.$slots, "tree", {}, void 0, !0)]), e("aside", to, [x(t.$slots, "references", {}, void 0, !0)])])]);
 }
-var Ki = /* @__PURE__ */ F(zi, [["render", Gi], ["__scopeId", "data-v-ce2d87fb"]]), qi = {
+var ro = /* @__PURE__ */ o(Xa, [["render", no], ["__scopeId", "data-v-ce2d87fb"]]), io = {
 	class: "reference-panel",
 	"data-testid": "dtt-reference-panel"
-}, Ji = { class: "reference-panel__header" }, Yi = { class: "reference-panel__list" }, Xi = ["title"], Zi = {
+}, ao = { class: "reference-panel__header" }, oo = { class: "reference-panel__list" }, so = ["title"], co = {
 	key: 0,
 	class: "reference-panel__empty"
-}, Qi = /* @__PURE__ */ F(/* @__PURE__ */ D({
+}, lo = /* @__PURE__ */ o(/* @__PURE__ */ y({
 	__name: "reference-panel",
 	props: { references: { default: () => [] } },
 	emits: ["collapse"],
-	setup(t, { emit: r }) {
-		let i = t, a = r;
-		return (t, r) => (O(), e("div", qi, [y("div", Ji, [y("span", null, "References (" + h(i.references.length) + ")", 1), y("button", {
+	setup(t, { emit: n }) {
+		let r = t, a = n;
+		return (t, n) => (D(), k("div", io, [e("div", ao, [e("span", null, "References (" + l(r.references.length) + ")", 1), e("button", {
 			class: "btn btn-xs btn-ghost",
-			onClick: r[0] ||= (e) => a("collapse")
-		}, "collapse")]), y("ul", Yi, [(O(!0), e(l, null, j(i.references, (t) => (O(), e("li", {
+			onClick: n[0] ||= (e) => a("collapse")
+		}, "collapse")]), e("ul", oo, [(D(!0), k(v, null, M(r.references, (t) => (D(), k("li", {
 			key: t.recordId,
 			"data-testid": "dtt-reference-item"
-		}, [y("span", { class: n(["badge badge-xs", t.isLocked ? "badge-error" : "badge-success"]) }, h(t.isLocked ? "locked" : "unlocked"), 3), y("span", {
+		}, [e("span", { class: i(["badge badge-xs", t.isLocked ? "badge-error" : "badge-success"]) }, l(t.isLocked ? "locked" : "unlocked"), 3), e("span", {
 			class: "reference-panel__path",
 			title: t.path
-		}, [w(h(t.path) + " ", 1), t.iedName ? (O(), e(l, { key: 0 }, [w(" (" + h(t.iedName) + ")", 1)], 64)) : f("", !0)], 8, Xi)]))), 128)), i.references.length ? f("", !0) : (O(), e("li", Zi, "No references."))])]));
+		}, [A(l(t.path) + " ", 1), t.iedName ? (D(), k(v, { key: 0 }, [A(" (" + l(t.iedName) + ")", 1)], 64)) : j("", !0)], 8, so)]))), 128)), r.references.length ? j("", !0) : (D(), k("li", co, "No references."))])]));
 	}
-}), [["__scopeId", "data-v-4531446f"]]), $i = {
+}), [["__scopeId", "data-v-4531446f"]]), uo = {
 	key: 1,
 	class: "tree-node__name",
 	"data-testid": "dtt-allatleastonegroup-readonly"
-}, ea = /* @__PURE__ */ F(/* @__PURE__ */ D({
+}, fo = /* @__PURE__ */ o(/* @__PURE__ */ y({
 	__name: "all-at-least-one-group-row",
 	props: {
 		groups: {},
@@ -46869,57 +47605,57 @@ var Ki = /* @__PURE__ */ F(zi, [["render", Gi], ["__scopeId", "data-v-ce2d87fb"]
 	},
 	emits: ["toggle", "toggle-branch"],
 	setup(t, { emit: n }) {
-		let r = t, i = n;
+		let i = t, a = n;
 		function o(e) {
-			return e.members.some((e) => q(e) !== "unchecked");
+			return e.members.some((e) => Y(e) !== "unchecked");
 		}
 		function s(e) {
 			return e.members.map((e) => e.name).join(", ");
 		}
-		let c = b(() => r.groups.filter(o).map((e) => e.args)), l = b(() => r.groups.map((e) => ({
+		let c = d(() => i.groups.filter(o).map((e) => e.args)), u = d(() => i.groups.map((e) => ({
 			value: e.args,
 			label: s(e)
-		}))), u = b(() => r.groups.filter(o).map(s).join("; "));
-		function d(e, t) {
+		}))), m = d(() => i.groups.filter(o).map(s).join("; "));
+		function h(e, t) {
 			if (e.children.length) {
-				i("toggle-branch", e.key);
+				a("toggle-branch", e.key);
 				return;
 			}
-			i("toggle", e.key, t);
+			a("toggle", e.key, t);
 		}
-		function f(e) {
+		function g(e) {
 			let t = new Set(e);
-			for (let e of r.groups) {
+			for (let e of i.groups) {
 				let n = o(e), r = t.has(e.args);
-				n !== r && d(e.members[0], r);
+				n !== r && h(e.members[0], r);
 			}
 		}
-		return (t, n) => (O(), e("div", {
+		return (t, n) => (D(), k("div", {
 			class: "tree-node__row",
-			style: P({ paddingLeft: `${.5 + r.depth * 1.25}rem` }),
+			style: r({ paddingLeft: `${.5 + i.depth * 1.25}rem` }),
 			"data-testid": "dtt-allatleastonegroup-group"
 		}, [
-			n[0] ||= y("span", { class: "tree-node__expander tree-node__expander--leaf" }, null, -1),
-			n[1] ||= y("span", {
+			n[0] ||= e("span", { class: "tree-node__expander tree-node__expander--leaf" }, null, -1),
+			n[1] ||= e("span", {
 				class: "badge badge-xs badge-warning",
 				"data-testid": "dtt-node-condition-badge"
 			}, " AllAtLeastOneGroup ", -1),
-			r.isEditing ? (O(), x(m(a), {
+			i.isEditing ? (D(), S(p(f), {
 				key: 0,
 				class: "tree-node__allatleastonegroup-select",
 				size: "xs",
 				"model-value": c.value,
-				options: l.value,
+				options: u.value,
 				separator: "; ",
-				"onUpdate:modelValue": f
-			}, null, 8, ["model-value", "options"])) : (O(), e("span", $i, h(u.value), 1))
+				"onUpdate:modelValue": g
+			}, null, 8, ["model-value", "options"])) : (D(), k("span", uo, l(m.value), 1))
 		], 4));
 	}
-}), [["__scopeId", "data-v-f826d537"]]), ta = {
+}), [["__scopeId", "data-v-f826d537"]]), po = {
 	key: 1,
 	class: "tree-node__name",
 	"data-testid": "dtt-allonlyonegroup-readonly"
-}, na = /* @__PURE__ */ F(/* @__PURE__ */ D({
+}, mo = /* @__PURE__ */ o(/* @__PURE__ */ y({
 	__name: "all-only-one-group-row",
 	props: {
 		groups: {},
@@ -46931,66 +47667,66 @@ var Ki = /* @__PURE__ */ F(zi, [["render", Gi], ["__scopeId", "data-v-ce2d87fb"]
 	},
 	emits: ["toggle", "toggle-branch"],
 	setup(t, { emit: n }) {
-		let r = t, i = n;
-		function a(e) {
-			return e.members.some((e) => q(e) !== "unchecked");
+		let i = t, a = n;
+		function o(e) {
+			return e.members.some((e) => Y(e) !== "unchecked");
 		}
-		let o = b(() => r.groups.find(a)), s = b(() => o.value?.args ?? null), l = b(() => r.groups.map((e) => e.args));
-		function u(e) {
+		let s = d(() => i.groups.find(o)), c = d(() => s.value?.args ?? null), u = d(() => i.groups.map((e) => e.args));
+		function f(e) {
 			return e.members.map((e) => e.name).join(", ");
 		}
-		function d(e) {
+		function m(e) {
 			if (e == null) return "";
-			let t = r.groups.find((t) => t.args === e);
-			return t ? u(t) : String(e);
+			let t = i.groups.find((t) => t.args === e);
+			return t ? f(t) : String(e);
 		}
-		let f = b(() => o.value ? u(o.value) : "");
-		function p(e, t) {
+		let h = d(() => s.value ? f(s.value) : "");
+		function g(e, t) {
 			if (e.children.length) {
-				i("toggle-branch", e.key);
+				a("toggle-branch", e.key);
 				return;
 			}
-			i("toggle", e.key, t);
+			a("toggle", e.key, t);
 		}
-		function g(e) {
-			let t = o.value;
-			if (t && t.args !== e && p(t.members[0], !1), e != null && e !== t?.args) {
-				let t = r.groups.find((t) => t.args === e);
-				t && p(t.members[0], !0);
+		function _(e) {
+			let t = s.value;
+			if (t && t.args !== e && g(t.members[0], !1), e != null && e !== t?.args) {
+				let t = i.groups.find((t) => t.args === e);
+				t && g(t.members[0], !0);
 			}
 		}
-		return (t, n) => (O(), e("div", {
+		return (t, n) => (D(), k("div", {
 			class: "tree-node__row",
-			style: P({ paddingLeft: `${.5 + r.depth * 1.25}rem` }),
+			style: r({ paddingLeft: `${.5 + i.depth * 1.25}rem` }),
 			"data-testid": "dtt-allonlyonegroup-group"
 		}, [
-			n[0] ||= y("span", { class: "tree-node__expander tree-node__expander--leaf" }, null, -1),
-			n[1] ||= y("span", {
+			n[0] ||= e("span", { class: "tree-node__expander tree-node__expander--leaf" }, null, -1),
+			n[1] ||= e("span", {
 				class: "badge badge-xs badge-warning",
 				"data-testid": "dtt-node-condition-badge"
 			}, " AllOnlyOneGroup ", -1),
-			r.isEditing ? (O(), x(m(c), {
+			i.isEditing ? (D(), S(p(ue), {
 				key: 0,
 				class: "tree-node__allonlyonegroup-select",
 				size: "xs",
-				"model-value": s.value,
-				options: l.value,
-				"display-value": d,
-				"onUpdate:modelValue": g
-			}, null, 8, ["model-value", "options"])) : (O(), e("span", ta, h(f.value), 1))
+				"model-value": c.value,
+				options: u.value,
+				"display-value": m,
+				"onUpdate:modelValue": _
+			}, null, 8, ["model-value", "options"])) : (D(), k("span", po, l(h.value), 1))
 		], 4));
 	}
-}), [["__scopeId", "data-v-35bf2d11"]]), ra = ["checked", "disabled"], ia = {
+}), [["__scopeId", "data-v-35bf2d11"]]), ho = ["checked", "disabled"], go = {
 	class: "badge badge-xs badge-warning",
 	"data-testid": "dtt-node-condition-badge"
-}, aa = {
+}, _o = {
 	class: "tree-node__name",
 	"data-testid": "dtt-allornonepergroup-label"
-}, oa = ["value", "disabled"], sa = ["value"], ca = {
+}, vo = ["value", "disabled"], yo = ["value"], bo = {
 	key: 1,
 	class: "badge badge-xs badge-ghost tree-node__setting-fc",
 	"data-testid": "dtt-allornonepergroup-setting-fc-readonly"
-}, la = /* @__PURE__ */ F(/* @__PURE__ */ D({
+}, xo = /* @__PURE__ */ o(/* @__PURE__ */ y({
 	__name: "all-or-none-per-group-row",
 	props: {
 		members: {},
@@ -47007,72 +47743,72 @@ var Ki = /* @__PURE__ */ F(zi, [["render", Gi], ["__scopeId", "data-v-ce2d87fb"]
 		"set-fc"
 	],
 	setup(t, { emit: n }) {
-		let r = t, i = n, a = N();
-		function o(e) {
-			return q(e) !== "unchecked";
+		let i = t, a = n, o = N();
+		function s(e) {
+			return Y(e) !== "unchecked";
 		}
-		let s = b(() => r.members.filter(o).length), c = b(() => r.members.length > 0 && s.value === r.members.length), u = b(() => s.value === 0);
-		C(function() {
-			a.value && (a.value.indeterminate = !c.value && !u.value);
+		let c = d(() => i.members.filter(s).length), u = d(() => i.members.length > 0 && c.value === i.members.length), f = d(() => c.value === 0);
+		O(function() {
+			o.value && (o.value.indeterminate = !u.value && !f.value);
 		});
-		let d = b(() => r.members.map((e) => e.name).join(", ")), p = b(() => r.members.some((e) => e.toggleLocked));
-		function m(e) {
-			let t = r.members[0];
+		let p = d(() => i.members.map((e) => e.name).join(", ")), m = d(() => i.members.some((e) => e.toggleLocked));
+		function h(e) {
+			let t = i.members[0];
 			if (t) {
 				if (t.children.length) {
-					i("toggle-branch", t.key);
+					a("toggle-branch", t.key);
 					return;
 				}
-				i("toggle", t.key, e.target.checked);
+				a("toggle", t.key, e.target.checked);
 			}
 		}
-		let g = b(() => {
-			let e = r.members[0];
-			return e ? qn(e) : void 0;
+		let g = d(() => {
+			let e = i.members[0];
+			return e ? ni(e) : void 0;
 		});
 		function _(e) {
-			let t = r.members[0];
-			t && i("set-fc", t.key, e.target.value);
+			let t = i.members[0];
+			t && a("set-fc", t.key, e.target.value);
 		}
-		return (t, n) => (O(), e("div", {
+		return (t, n) => (D(), k("div", {
 			class: "tree-node__row",
-			style: P({ paddingLeft: `${.5 + r.depth * 1.25}rem` }),
+			style: r({ paddingLeft: `${.5 + i.depth * 1.25}rem` }),
 			"data-testid": "dtt-allornonepergroup-group"
 		}, [
-			y("input", {
+			e("input", {
 				ref_key: "checkboxEl",
-				ref: a,
+				ref: o,
 				type: "checkbox",
 				class: "checkbox checkbox-xs",
-				checked: c.value,
-				disabled: !r.isEditing || p.value,
+				checked: u.value,
+				disabled: !i.isEditing || m.value,
 				"data-testid": "dtt-allornonepergroup-toggle",
-				onChange: m
-			}, null, 40, ra),
-			n[0] ||= y("span", { class: "tree-node__expander tree-node__expander--leaf" }, null, -1),
-			y("span", ia, " AllOrNonePerGroup(" + h(r.args) + ") ", 1),
-			y("span", aa, h(d.value), 1),
-			r.isEditing && g.value ? (O(), e("select", {
+				onChange: h
+			}, null, 40, ho),
+			n[0] ||= e("span", { class: "tree-node__expander tree-node__expander--leaf" }, null, -1),
+			e("span", go, " AllOrNonePerGroup(" + l(i.args) + ") ", 1),
+			e("span", _o, l(p.value), 1),
+			i.isEditing && g.value ? (D(), k("select", {
 				key: 0,
 				class: "select select-xs tree-node__setting-fc",
 				"data-testid": "dtt-allornonepergroup-setting-fc",
 				value: g.value?.fc,
-				disabled: u.value,
+				disabled: f.value,
 				onChange: _
-			}, [(O(!0), e(l, null, j(g.value?.fcOptions, (t) => (O(), e("option", {
-				key: t,
-				value: t
-			}, h(t), 9, sa))), 128))], 40, oa)) : !r.isEditing && g.value ? (O(), e("span", ca, h(g.value?.fc), 1)) : f("", !0)
+			}, [(D(!0), k(v, null, M(g.value?.fcOptions, (e) => (D(), k("option", {
+				key: e,
+				value: e
+			}, l(e), 9, yo))), 128))], 40, vo)) : !i.isEditing && g.value ? (D(), k("span", bo, l(g.value?.fc), 1)) : j("", !0)
 		], 4));
 	}
-}), [["__scopeId", "data-v-80861559"]]), ua = {
+}), [["__scopeId", "data-v-80861559"]]), So = {
 	class: "badge badge-xs badge-warning",
 	"data-testid": "dtt-node-condition-badge"
-}, da = {
+}, Co = {
 	key: 1,
 	class: "tree-node__name",
 	"data-testid": "dtt-atleastone-readonly"
-}, fa = /* @__PURE__ */ F(/* @__PURE__ */ D({
+}, wo = /* @__PURE__ */ o(/* @__PURE__ */ y({
 	__name: "at-least-one-group-row",
 	props: {
 		members: {},
@@ -47085,49 +47821,49 @@ var Ki = /* @__PURE__ */ F(zi, [["render", Gi], ["__scopeId", "data-v-ce2d87fb"]
 	},
 	emits: ["toggle", "toggle-branch"],
 	setup(t, { emit: n }) {
-		let r = t, i = n;
+		let i = t, a = n;
 		function o(e) {
-			return q(e) !== "unchecked";
+			return Y(e) !== "unchecked";
 		}
-		let s = b(() => r.members.filter(o).map((e) => e.key)), c = b(() => r.members.map((e) => ({
+		let s = d(() => i.members.filter(o).map((e) => e.key)), c = d(() => i.members.map((e) => ({
 			value: e.key,
 			label: e.name
-		}))), l = b(() => r.members.filter(o).map((e) => e.name).join(", "));
-		function u(e) {
+		}))), u = d(() => i.members.filter(o).map((e) => e.name).join(", "));
+		function m(e) {
 			let t = new Set(e);
-			for (let e of r.members) {
+			for (let e of i.members) {
 				let n = o(e), r = t.has(e.key);
 				if (n !== r) {
 					if (e.children.length) {
-						i("toggle-branch", e.key);
+						a("toggle-branch", e.key);
 						continue;
 					}
-					i("toggle", e.key, r);
+					a("toggle", e.key, r);
 				}
 			}
 		}
-		return (t, n) => (O(), e("div", {
+		return (t, n) => (D(), k("div", {
 			class: "tree-node__row",
-			style: P({ paddingLeft: `${.5 + r.depth * 1.25}rem` }),
+			style: r({ paddingLeft: `${.5 + i.depth * 1.25}rem` }),
 			"data-testid": "dtt-atleastone-group"
 		}, [
-			n[0] ||= y("span", { class: "tree-node__expander tree-node__expander--leaf" }, null, -1),
-			y("span", ua, " AtLeastOne(" + h(r.args) + ") ", 1),
-			r.isEditing ? (O(), x(m(a), {
+			n[0] ||= e("span", { class: "tree-node__expander tree-node__expander--leaf" }, null, -1),
+			e("span", So, " AtLeastOne(" + l(i.args) + ") ", 1),
+			i.isEditing ? (D(), S(p(f), {
 				key: 0,
 				class: "tree-node__atleastone-select",
 				size: "xs",
 				"model-value": s.value,
 				options: c.value,
-				"onUpdate:modelValue": u
-			}, null, 8, ["model-value", "options"])) : (O(), e("span", da, h(l.value), 1))
+				"onUpdate:modelValue": m
+			}, null, 8, ["model-value", "options"])) : (D(), k("span", Co, l(u.value), 1))
 		], 4));
 	}
-}), [["__scopeId", "data-v-8611a072"]]), pa = {
+}), [["__scopeId", "data-v-8611a072"]]), To = {
 	key: 1,
 	class: "tree-node__name",
 	"data-testid": "dtt-atmostone-readonly"
-}, ma = /* @__PURE__ */ F(/* @__PURE__ */ D({
+}, Eo = /* @__PURE__ */ o(/* @__PURE__ */ y({
 	__name: "at-most-one-group-row",
 	props: {
 		members: {},
@@ -47139,54 +47875,54 @@ var Ki = /* @__PURE__ */ F(zi, [["render", Gi], ["__scopeId", "data-v-ce2d87fb"]
 	},
 	emits: ["toggle", "toggle-branch"],
 	setup(t, { emit: n }) {
-		let r = t, i = n;
-		function a(e) {
-			return q(e) !== "unchecked";
+		let i = t, a = n;
+		function o(e) {
+			return Y(e) !== "unchecked";
 		}
-		let o = b(() => r.members.find(a)), s = b(() => o.value?.key ?? null), l = b(() => r.members.map((e) => e.key));
-		function u(e) {
-			return e == null ? "" : r.members.find((t) => t.key === e)?.name ?? String(e);
+		let s = d(() => i.members.find(o)), c = d(() => s.value?.key ?? null), u = d(() => i.members.map((e) => e.key));
+		function f(e) {
+			return e == null ? "" : i.members.find((t) => t.key === e)?.name ?? String(e);
 		}
-		let d = b(() => o.value?.name ?? "");
-		function f(e, t) {
+		let m = d(() => s.value?.name ?? "");
+		function h(e, t) {
 			if (e.children.length) {
-				i("toggle-branch", e.key);
+				a("toggle-branch", e.key);
 				return;
 			}
-			i("toggle", e.key, t);
+			a("toggle", e.key, t);
 		}
-		function p(e) {
-			let t = o.value;
-			if (t && t.key !== e && f(t, !1), e != null && e !== t?.key) {
-				let t = r.members.find((t) => t.key === e);
-				t && f(t, !0);
+		function g(e) {
+			let t = s.value;
+			if (t && t.key !== e && h(t, !1), e != null && e !== t?.key) {
+				let t = i.members.find((t) => t.key === e);
+				t && h(t, !0);
 			}
 		}
-		return (t, n) => (O(), e("div", {
+		return (t, n) => (D(), k("div", {
 			class: "tree-node__row",
-			style: P({ paddingLeft: `${.5 + r.depth * 1.25}rem` }),
+			style: r({ paddingLeft: `${.5 + i.depth * 1.25}rem` }),
 			"data-testid": "dtt-atmostone-group"
 		}, [
-			n[0] ||= y("span", { class: "tree-node__expander tree-node__expander--leaf" }, null, -1),
-			n[1] ||= y("span", {
+			n[0] ||= e("span", { class: "tree-node__expander tree-node__expander--leaf" }, null, -1),
+			n[1] ||= e("span", {
 				class: "badge badge-xs badge-warning",
 				"data-testid": "dtt-node-condition-badge"
 			}, " AtMostOne ", -1),
-			r.isEditing ? (O(), x(m(c), {
+			i.isEditing ? (D(), S(p(ue), {
 				key: 0,
 				class: "tree-node__atmostone-select",
 				size: "xs",
-				"model-value": s.value,
-				options: l.value,
-				"display-value": u,
-				"onUpdate:modelValue": p
-			}, null, 8, ["model-value", "options"])) : (O(), e("span", pa, h(d.value), 1))
+				"model-value": c.value,
+				options: u.value,
+				"display-value": f,
+				"onUpdate:modelValue": g
+			}, null, 8, ["model-value", "options"])) : (D(), k("span", To, l(m.value), 1))
 		], 4));
 	}
 }), [["__scopeId", "data-v-535878a6"]]);
 //#endregion
 //#region src/data-type-templates/lnode-type-details/cdc-groups.ts
-function ha(e, t) {
+function Do(e, t) {
 	let n = /* @__PURE__ */ new Map();
 	for (let r of e) {
 		let e = t[r.cdc ?? ""]?.categoryLabel ?? "Other", i = n.get(e) ?? [];
@@ -47205,7 +47941,7 @@ function ha(e, t) {
 }
 //#endregion
 //#region src/data-type-templates/lnode-type-details/all-at-least-one-groups.ts
-function ga(e) {
+function Oo(e) {
 	let t = [], n = !1;
 	for (let r of e) {
 		if (r.presCond !== "AllAtLeastOneGroup" || !r.presCondArgs) {
@@ -47232,7 +47968,7 @@ function ga(e) {
 }
 //#endregion
 //#region src/data-type-templates/lnode-type-details/all-only-one-groups.ts
-function _a(e) {
+function ko(e) {
 	let t = [], n = !1;
 	for (let r of e) {
 		if (r.presCond !== "AllOnlyOneGroup" || !r.presCondArgs) {
@@ -47259,7 +47995,7 @@ function _a(e) {
 }
 //#endregion
 //#region src/data-type-templates/lnode-type-details/all-or-none-per-group-groups.ts
-function va(e) {
+function Ao(e) {
 	let t = [], n = /* @__PURE__ */ new Set();
 	for (let r of e) {
 		if (r.presCond !== "AllOrNonePerGroup" || !r.presCondArgs) {
@@ -47282,7 +48018,7 @@ function va(e) {
 }
 //#endregion
 //#region src/data-type-templates/lnode-type-details/at-least-one-groups.ts
-function ya(e) {
+function jo(e) {
 	let t = [], n = /* @__PURE__ */ new Set();
 	for (let r of e) {
 		if (r.presCond !== "AtLeastOne" || !r.presCondArgs) {
@@ -47305,7 +48041,7 @@ function ya(e) {
 }
 //#endregion
 //#region src/data-type-templates/lnode-type-details/at-most-one-groups.ts
-function ba(e) {
+function Mo(e) {
 	let t = [], n = !1;
 	for (let r of e) {
 		if (r.presCond !== "AtMostOne") {
@@ -47327,7 +48063,7 @@ function ba(e) {
 }
 //#endregion
 //#region src/data-type-templates/lnode-type-details/presence-groups.ts
-function xa(e) {
+function No(e) {
 	function t(e) {
 		let t = /* @__PURE__ */ new Map(), n = /* @__PURE__ */ new Set();
 		for (let r of e) if (r.type !== "node") {
@@ -47340,20 +48076,20 @@ function xa(e) {
 		};
 	}
 	let n = [
-		t(ba(e)),
-		t(va(e)),
-		t(_a(e).map((e) => e.type === "node" ? e : {
+		t(Mo(e)),
+		t(Ao(e)),
+		t(ko(e).map((e) => e.type === "node" ? e : {
 			type: "allOnlyOneGroup",
 			groups: e.groups,
 			members: e.groups.flatMap((e) => e.members)
 		})),
-		t(ga(e).map((e) => e.type === "node" ? e : {
+		t(Oo(e).map((e) => e.type === "node" ? e : {
 			type: "allAtLeastOneGroup",
 			groups: e.groups,
 			members: e.groups.flatMap((e) => e.members)
 		}))
 	], r = [];
-	for (let t of ya(e)) {
+	for (let t of jo(e)) {
 		if (t.type !== "node") {
 			r.push(t);
 			continue;
@@ -47366,57 +48102,57 @@ function xa(e) {
 }
 //#endregion
 //#region src/nsd/icons/info-icon.vue
-var Sa = {}, Ca = {
+var Po = {}, Fo = {
 	viewBox: "0 0 64 64",
 	width: "1em",
 	height: "1em",
 	"aria-hidden": "true",
 	focusable: "false"
 };
-function wa(t, n) {
-	return O(), e("svg", Ca, [...n[0] ||= [y("path", {
+function Io(t, n) {
+	return D(), k("svg", Fo, [...n[0] ||= [e("path", {
 		fill: "currentColor",
 		d: "M32 4C16.536 4 4 16.536 4 32s12.536 28 28 28 28-12.536 28-28S47.464 4 32 4zm0 4c13.255 0 24 10.745 24 24S45.255 56 32 56 8 45.255 8 32 18.745 8 32 8zm0 10a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm-2 12v16h4V30h-4z"
 	}, null, -1)]]);
 }
-var Ta = /* @__PURE__ */ F(Sa, [["render", wa]]), Ea = { class: "tree-node" }, Da = ["title"], Oa = ["checked", "disabled"], ka = {
+var Lo = /* @__PURE__ */ o(Po, [["render", Io]]), Ro = { class: "tree-node" }, zo = ["title"], Bo = ["checked", "disabled"], Vo = {
 	key: 1,
 	class: "tree-node__expander tree-node__expander--leaf"
-}, Aa = { class: "tree-node__name" }, ja = {
+}, Ho = { class: "tree-node__name" }, Uo = {
 	key: 2,
 	class: "tree-node__cdc",
 	"data-testid": "dtt-node-cdc"
-}, Ma = {
+}, Wo = {
 	key: 3,
 	class: "badge badge-xs badge-accent"
-}, Na = {
+}, Go = {
 	key: 4,
 	class: "badge badge-xs badge-warning",
 	"data-testid": "dtt-node-condition-badge"
-}, Pa = {
+}, Ko = {
 	key: 5,
 	class: "badge badge-xs badge-ghost",
 	"data-testid": "dtt-node-base-ns"
-}, Fa = {
+}, qo = {
 	key: 6,
 	class: "badge badge-xs badge-ghost",
 	"data-testid": "dtt-node-member-ns"
-}, Ia = ["value", "disabled"], La = ["value"], Ra = {
+}, Jo = ["value", "disabled"], Yo = ["value"], Xo = {
 	key: 8,
 	class: "badge badge-xs badge-ghost tree-node__setting-fc",
 	"data-testid": "dtt-setting-fc-readonly"
-}, za = {
+}, Zo = {
 	key: 9,
 	class: "tree-node__instance-count"
-}, Ba = ["min", "value"], Va = { "data-testid": "dtt-instance-count-unit" }, Ha = {
+}, Qo = ["min", "value"], $o = { "data-testid": "dtt-instance-count-unit" }, es = {
 	key: 10,
 	class: "badge badge-xs badge-ghost",
 	"data-testid": "dtt-instance-count-readonly"
-}, Ua = ["disabled"], Wa = [
+}, ts = ["disabled"], ns = [
 	"checked",
 	"disabled",
 	"onChange"
-], Ga = { class: "badge badge-xs badge-ghost tree-node__enum-ord" }, Ka = { class: "tree-node__name" }, qa = /* @__PURE__ */ F(/* @__PURE__ */ D({
+], rs = { class: "badge badge-xs badge-ghost tree-node__enum-ord" }, is = { class: "tree-node__name" }, as = /* @__PURE__ */ o(/* @__PURE__ */ y({
 	__name: "tree-node",
 	props: {
 		node: {},
@@ -47440,18 +48176,18 @@ var Ta = /* @__PURE__ */ F(Sa, [["render", wa]]), Ea = { class: "tree-node" }, D
 		"set-instance-count"
 	],
 	setup(t, { emit: n }) {
-		let r = t, i = n, a = N();
-		C(function() {
-			a.value && (a.value.indeterminate = q(r.node) === "intermediate");
+		let i = t, a = n, o = N();
+		O(function() {
+			o.value && (o.value.indeterminate = Y(i.node) === "intermediate");
 		});
-		function o(e) {
-			if (r.node.children.length) {
-				i("toggle-branch", r.node.key);
+		function s(e) {
+			if (i.node.children.length) {
+				a("toggle-branch", i.node.key);
 				return;
 			}
-			i("toggle", r.node.key, e.target.checked);
+			a("toggle", i.node.key, e.target.checked);
 		}
-		let s = new Set([
+		let c = new Set([
 			"M",
 			"F",
 			"na",
@@ -47459,125 +48195,125 @@ var Ta = /* @__PURE__ */ F(Sa, [["render", wa]]), Ea = { class: "tree-node" }, D
 			"Mmulti",
 			"Omulti"
 		]);
-		function c(e) {
-			return !s.has(e.presCond);
-		}
 		function u(e) {
-			return e.children.filter((e) => r.visibleKeys.has(e.key));
+			return !c.has(e.presCond);
 		}
 		function d(e) {
-			return xa(u(e));
+			return e.children.filter((e) => i.visibleKeys.has(e.key));
 		}
-		function p(e) {
-			return r.isEditing ? e.enumVals : e.enumVals.filter((e) => e.selected !== !1);
+		function f(e) {
+			return No(d(e));
+		}
+		function m(e) {
+			return i.isEditing ? e.enumVals : e.enumVals.filter((e) => e.selected !== !1);
+		}
+		function h(e) {
+			return e.bType === "Enum" && m(e).length > 0;
 		}
 		function g(e) {
-			return e.bType === "Enum" && p(e).length > 0;
+			return d(e).length > 0 || h(e);
 		}
-		function _(e) {
-			return u(e).length > 0 || g(e);
+		function _(e, t, n) {
+			a("toggle-enum-val", e.key, t, n.target.checked);
 		}
-		function v(e, t, n) {
-			i("toggle-enum-val", e.key, t, n.target.checked);
+		function y(e) {
+			return !!(e.memberLnNs && i.lnNs && e.memberLnNs !== i.lnNs);
 		}
 		function b(e) {
-			return !!(e.memberLnNs && r.lnNs && e.memberLnNs !== r.lnNs);
+			if (e.kind === "DO") return ni(e);
 		}
-		function S(e) {
-			if (e.kind === "DO") return qn(e);
+		function x(e, t) {
+			a("set-fc", e.key, t.target.value);
 		}
-		function w(e, t) {
-			i("set-fc", e.key, t.target.value);
-		}
-		let T = {
+		let C = {
 			Mmulti: 1,
 			Omulti: 0
 		};
-		function E(e) {
-			return T[e.presCond];
+		function w(e) {
+			return C[e.presCond];
 		}
-		function ee(e) {
+		function E(e) {
 			return e === 1 ? "instance" : "instances";
 		}
 		async function te(e, t) {
 			let n = t.target;
-			i("set-instance-count", e.key, Number(n.value)), await A(), n.value = String(r.node.instanceCount);
+			a("set-instance-count", e.key, Number(n.value)), await re(), n.value = String(i.node.instanceCount);
 		}
 		return (t, n) => {
-			let s = ne("TreeNode", !0);
-			return O(), e("div", Ea, [y("div", {
+			let c = ee("TreeNode", !0);
+			return D(), k("div", Ro, [e("div", {
 				class: "tree-node__row",
-				style: P({ paddingLeft: `${.5 + r.depth * 1.25}rem` }),
-				title: r.node.blockedReason,
+				style: r({ paddingLeft: `${.5 + i.depth * 1.25}rem` }),
+				title: i.node.blockedReason,
 				"data-testid": "dtt-tree-node"
 			}, [
-				y("input", {
+				e("input", {
 					ref_key: "checkboxEl",
-					ref: a,
+					ref: o,
 					type: "checkbox",
 					class: "checkbox checkbox-xs",
-					checked: m(q)(r.node) === "checked",
-					disabled: !r.isEditing || r.node.toggleLocked,
+					checked: p(Y)(i.node) === "checked",
+					disabled: !i.isEditing || i.node.toggleLocked,
 					"data-testid": "dtt-node-toggle",
-					onChange: o
-				}, null, 40, Oa),
-				_(r.node) ? (O(), e("button", {
+					onChange: s
+				}, null, 40, Bo),
+				g(i.node) ? (D(), k("button", {
 					key: 0,
 					class: "tree-node__expander",
-					onClick: n[0] ||= (e) => i("expand", r.node.key)
-				}, h(r.expandedKeys.has(r.node.key) ? "▼" : "▶"), 1)) : (O(), e("span", ka)),
-				y("span", Aa, h(r.node.name), 1),
-				r.node.cdc ? (O(), e("span", ja, h(r.node.cdc), 1)) : f("", !0),
-				r.node.isCustom ? (O(), e("span", Ma, "custom")) : f("", !0),
-				c(r.node) ? (O(), e("span", Na, h(r.node.presCond), 1)) : f("", !0),
-				r.node.name === "NamPlt" && r.lnNs ? (O(), e("span", Pa, h(r.lnNs), 1)) : f("", !0),
-				b(r.node) ? (O(), e("span", Fa, h(r.node.memberLnNs), 1)) : f("", !0),
-				r.isEditing && S(r.node) ? (O(), e("select", {
+					onClick: n[0] ||= (e) => a("expand", i.node.key)
+				}, l(i.expandedKeys.has(i.node.key) ? "▼" : "▶"), 1)) : (D(), k("span", Vo)),
+				e("span", Ho, l(i.node.name), 1),
+				i.node.cdc ? (D(), k("span", Uo, l(i.node.cdc), 1)) : j("", !0),
+				i.node.isCustom ? (D(), k("span", Wo, "custom")) : j("", !0),
+				u(i.node) ? (D(), k("span", Go, l(i.node.presCond), 1)) : j("", !0),
+				i.node.name === "NamPlt" && i.lnNs ? (D(), k("span", Ko, l(i.lnNs), 1)) : j("", !0),
+				y(i.node) ? (D(), k("span", qo, l(i.node.memberLnNs), 1)) : j("", !0),
+				i.isEditing && b(i.node) ? (D(), k("select", {
 					key: 7,
 					class: "select select-xs tree-node__setting-fc",
 					"data-testid": "dtt-setting-fc",
-					value: S(r.node)?.fc,
-					disabled: m(q)(r.node) === "unchecked",
-					onChange: n[1] ||= (e) => w(r.node, e)
-				}, [(O(!0), e(l, null, j(S(r.node)?.fcOptions, (t) => (O(), e("option", {
-					key: t,
-					value: t
-				}, h(t), 9, La))), 128))], 40, Ia)) : !r.isEditing && S(r.node) ? (O(), e("span", Ra, h(S(r.node)?.fc), 1)) : f("", !0),
-				r.isEditing && E(r.node) !== void 0 ? (O(), e("label", za, [y("input", {
+					value: b(i.node)?.fc,
+					disabled: p(Y)(i.node) === "unchecked",
+					onChange: n[1] ||= (e) => x(i.node, e)
+				}, [(D(!0), k(v, null, M(b(i.node)?.fcOptions, (e) => (D(), k("option", {
+					key: e,
+					value: e
+				}, l(e), 9, Yo))), 128))], 40, Jo)) : !i.isEditing && b(i.node) ? (D(), k("span", Xo, l(b(i.node)?.fc), 1)) : j("", !0),
+				i.isEditing && w(i.node) !== void 0 ? (D(), k("label", Zo, [e("input", {
 					type: "number",
 					class: "input input-xs tree-node__instance-count-input",
 					"data-testid": "dtt-instance-count",
-					min: E(r.node),
-					value: r.node.instanceCount,
-					onChange: n[2] ||= (e) => te(r.node, e)
-				}, null, 40, Ba), y("span", Va, h(ee(r.node.instanceCount)), 1)])) : !r.isEditing && E(r.node) !== void 0 ? (O(), e("span", Ha, h(r.node.instanceCount) + " " + h(ee(r.node.instanceCount)), 1)) : f("", !0),
-				r.isEditing && r.node.bType === "Enum" && r.node.enabled ? (O(), e("button", {
+					min: w(i.node),
+					value: i.node.instanceCount,
+					onChange: n[2] ||= (e) => te(i.node, e)
+				}, null, 40, Qo), e("span", $o, l(E(i.node.instanceCount)), 1)])) : !i.isEditing && w(i.node) !== void 0 ? (D(), k("span", es, l(i.node.instanceCount) + " " + l(E(i.node.instanceCount)), 1)) : j("", !0),
+				i.isEditing && i.node.bType === "Enum" && i.node.enabled ? (D(), k("button", {
 					key: 11,
 					class: "btn btn-xs btn-ghost tree-node__enum",
-					disabled: r.node.toggleLocked,
-					onClick: n[3] ||= (e) => i("edit-enum", r.node.key)
-				}, " enum ", 8, Ua)) : f("", !0),
-				y("button", {
+					disabled: i.node.toggleLocked,
+					onClick: n[3] ||= (e) => a("edit-enum", i.node.key)
+				}, " enum ", 8, ts)) : j("", !0),
+				e("button", {
 					class: "tree-node__info",
 					title: "Details",
-					onClick: n[4] ||= (e) => i("info", r.node.key)
-				}, [M(Ta)])
-			], 12, Da), r.expandedKeys.has(r.node.key) ? (O(), e(l, { key: 0 }, [(O(!0), e(l, null, j(d(r.node), (t) => (O(), e(l, { key: t.type === "node" ? t.node.key : t.type === "atLeastOneGroup" ? `alo:${t.args}` : t.type === "atMostOneGroup" ? `amo:${t.members[0]?.key}` : t.type === "allOrNonePerGroupGroup" ? `aonp:${t.args}` : t.type === "allOnlyOneGroup" ? `aoo:${t.members[0]?.key}` : `aalo:${t.members[0]?.key}` }, [t.type === "node" ? (O(), x(s, {
+					onClick: n[4] ||= (e) => a("info", i.node.key)
+				}, [T(Lo)])
+			], 12, zo), i.expandedKeys.has(i.node.key) ? (D(), k(v, { key: 0 }, [(D(!0), k(v, null, M(f(i.node), (e) => (D(), k(v, { key: e.type === "node" ? e.node.key : e.type === "atLeastOneGroup" ? `alo:${e.args}` : e.type === "atMostOneGroup" ? `amo:${e.members[0]?.key}` : e.type === "allOrNonePerGroupGroup" ? `aonp:${e.args}` : e.type === "allOnlyOneGroup" ? `aoo:${e.members[0]?.key}` : `aalo:${e.members[0]?.key}` }, [e.type === "node" ? (D(), S(c, {
 				key: 0,
-				node: t.node,
-				depth: r.depth + 1,
-				"visible-keys": r.visibleKeys,
-				"expanded-keys": r.expandedKeys,
-				"is-editing": r.isEditing,
-				"ln-ns": r.lnNs,
-				onToggle: n[5] ||= (e, t) => i("toggle", e, t),
-				onToggleBranch: n[6] ||= (e) => i("toggle-branch", e),
-				onToggleEnumVal: n[7] ||= (e, t, n) => i("toggle-enum-val", e, t, n),
-				onExpand: n[8] ||= (e) => i("expand", e),
-				onInfo: n[9] ||= (e) => i("info", e),
-				onEditEnum: n[10] ||= (e) => i("edit-enum", e),
-				onSetFc: n[11] ||= (e, t) => i("set-fc", e, t),
-				onSetInstanceCount: n[12] ||= (e, t) => i("set-instance-count", e, t)
+				node: e.node,
+				depth: i.depth + 1,
+				"visible-keys": i.visibleKeys,
+				"expanded-keys": i.expandedKeys,
+				"is-editing": i.isEditing,
+				"ln-ns": i.lnNs,
+				onToggle: n[5] ||= (e, t) => a("toggle", e, t),
+				onToggleBranch: n[6] ||= (e) => a("toggle-branch", e),
+				onToggleEnumVal: n[7] ||= (e, t, n) => a("toggle-enum-val", e, t, n),
+				onExpand: n[8] ||= (e) => a("expand", e),
+				onInfo: n[9] ||= (e) => a("info", e),
+				onEditEnum: n[10] ||= (e) => a("edit-enum", e),
+				onSetFc: n[11] ||= (e, t) => a("set-fc", e, t),
+				onSetInstanceCount: n[12] ||= (e, t) => a("set-instance-count", e, t)
 			}, null, 8, [
 				"node",
 				"depth",
@@ -47585,92 +48321,92 @@ var Ta = /* @__PURE__ */ F(Sa, [["render", wa]]), Ea = { class: "tree-node" }, D
 				"expanded-keys",
 				"is-editing",
 				"ln-ns"
-			])) : t.type === "atLeastOneGroup" ? (O(), x(fa, {
+			])) : e.type === "atLeastOneGroup" ? (D(), S(wo, {
 				key: 1,
-				members: t.members,
-				args: t.args,
-				depth: r.depth + 1,
-				"is-editing": r.isEditing,
-				onToggle: n[13] ||= (e, t) => i("toggle", e, t),
-				onToggleBranch: n[14] ||= (e) => i("toggle-branch", e)
+				members: e.members,
+				args: e.args,
+				depth: i.depth + 1,
+				"is-editing": i.isEditing,
+				onToggle: n[13] ||= (e, t) => a("toggle", e, t),
+				onToggleBranch: n[14] ||= (e) => a("toggle-branch", e)
 			}, null, 8, [
 				"members",
 				"args",
 				"depth",
 				"is-editing"
-			])) : t.type === "atMostOneGroup" ? (O(), x(ma, {
+			])) : e.type === "atMostOneGroup" ? (D(), S(Eo, {
 				key: 2,
-				members: t.members,
-				depth: r.depth + 1,
-				"is-editing": r.isEditing,
-				onToggle: n[15] ||= (e, t) => i("toggle", e, t),
-				onToggleBranch: n[16] ||= (e) => i("toggle-branch", e)
+				members: e.members,
+				depth: i.depth + 1,
+				"is-editing": i.isEditing,
+				onToggle: n[15] ||= (e, t) => a("toggle", e, t),
+				onToggleBranch: n[16] ||= (e) => a("toggle-branch", e)
 			}, null, 8, [
 				"members",
 				"depth",
 				"is-editing"
-			])) : t.type === "allOrNonePerGroupGroup" ? (O(), x(la, {
+			])) : e.type === "allOrNonePerGroupGroup" ? (D(), S(xo, {
 				key: 3,
-				members: t.members,
-				args: t.args,
-				depth: r.depth + 1,
-				"is-editing": r.isEditing,
-				onToggle: n[17] ||= (e, t) => i("toggle", e, t),
-				onToggleBranch: n[18] ||= (e) => i("toggle-branch", e),
-				onSetFc: n[19] ||= (e, t) => i("set-fc", e, t)
+				members: e.members,
+				args: e.args,
+				depth: i.depth + 1,
+				"is-editing": i.isEditing,
+				onToggle: n[17] ||= (e, t) => a("toggle", e, t),
+				onToggleBranch: n[18] ||= (e) => a("toggle-branch", e),
+				onSetFc: n[19] ||= (e, t) => a("set-fc", e, t)
 			}, null, 8, [
 				"members",
 				"args",
 				"depth",
 				"is-editing"
-			])) : t.type === "allOnlyOneGroup" ? (O(), x(na, {
+			])) : e.type === "allOnlyOneGroup" ? (D(), S(mo, {
 				key: 4,
-				groups: t.groups,
-				depth: r.depth + 1,
-				"is-editing": r.isEditing,
-				onToggle: n[20] ||= (e, t) => i("toggle", e, t),
-				onToggleBranch: n[21] ||= (e) => i("toggle-branch", e)
+				groups: e.groups,
+				depth: i.depth + 1,
+				"is-editing": i.isEditing,
+				onToggle: n[20] ||= (e, t) => a("toggle", e, t),
+				onToggleBranch: n[21] ||= (e) => a("toggle-branch", e)
 			}, null, 8, [
 				"groups",
 				"depth",
 				"is-editing"
-			])) : (O(), x(ea, {
+			])) : (D(), S(fo, {
 				key: 5,
-				groups: t.groups,
-				depth: r.depth + 1,
-				"is-editing": r.isEditing,
-				onToggle: n[22] ||= (e, t) => i("toggle", e, t),
-				onToggleBranch: n[23] ||= (e) => i("toggle-branch", e)
+				groups: e.groups,
+				depth: i.depth + 1,
+				"is-editing": i.isEditing,
+				onToggle: n[22] ||= (e, t) => a("toggle", e, t),
+				onToggleBranch: n[23] ||= (e) => a("toggle-branch", e)
 			}, null, 8, [
 				"groups",
 				"depth",
 				"is-editing"
-			]))], 64))), 128)), g(r.node) ? (O(!0), e(l, { key: 0 }, j(p(r.node), (t) => (O(), e("div", {
-				key: `${r.node.key}:${t.ord}`,
+			]))], 64))), 128)), h(i.node) ? (D(!0), k(v, { key: 0 }, M(m(i.node), (t) => (D(), k("div", {
+				key: `${i.node.key}:${t.ord}`,
 				class: "tree-node__enum-val",
-				style: P({ paddingLeft: `${.5 + (r.depth + 1) * 1.25}rem` }),
+				style: r({ paddingLeft: `${.5 + (i.depth + 1) * 1.25}rem` }),
 				"data-testid": "dtt-enum-val"
 			}, [
-				y("input", {
+				e("input", {
 					type: "checkbox",
 					class: "checkbox checkbox-xs",
 					checked: t.selected !== !1,
-					disabled: !r.isEditing || !!r.node.blockedReason,
+					disabled: !i.isEditing || !!i.node.blockedReason,
 					"data-testid": "dtt-enum-val-toggle",
-					onChange: (e) => v(r.node, t.ord, e)
-				}, null, 40, Wa),
-				y("span", Ga, h(t.ord), 1),
-				y("span", Ka, h(t.value), 1)
-			], 4))), 128)) : f("", !0)], 64)) : f("", !0)]);
+					onChange: (e) => _(i.node, t.ord, e)
+				}, null, 40, ns),
+				e("span", rs, l(t.ord), 1),
+				e("span", is, l(t.value), 1)
+			], 4))), 128)) : j("", !0)], 64)) : j("", !0)]);
 		};
 	}
-}), [["__scopeId", "data-v-c667b70f"]]), Ja = { class: "lnode-type-tree" }, Ya = {
+}), [["__scopeId", "data-v-c667b70f"]]), os = { class: "lnode-type-tree" }, ss = {
 	key: 0,
 	class: "lnode-type-tree__group-header"
-}, Xa = {
+}, cs = {
 	key: 0,
 	class: "lnode-type-tree__empty"
-}, Za = /* @__PURE__ */ F(/* @__PURE__ */ D({
+}, ls = /* @__PURE__ */ o(/* @__PURE__ */ y({
 	__name: "tree",
 	props: {
 		nodes: { default: () => [] },
@@ -47697,224 +48433,224 @@ var Ta = /* @__PURE__ */ F(Sa, [["render", wa]]), Ea = { class: "tree-node" }, D
 		"set-fc",
 		"set-instance-count"
 	],
-	setup(t, { emit: n }) {
-		let r = t, i = n, a = N(/* @__PURE__ */ new Set()), o = b(function() {
+	setup(e, { emit: t }) {
+		let n = e, r = t, i = N(/* @__PURE__ */ new Set()), a = d(function() {
 			let e = /* @__PURE__ */ new Set();
-			for (let t of r.nodes) m(t, e, !0);
+			for (let t of n.nodes) p(t, e, !0);
 			return e;
-		}), s = b(function() {
-			return r.search.trim() ? v() : a.value;
-		}), c = b(function() {
-			return r.nodes.filter((e) => o.value.has(e.key));
-		}), u = b(function() {
-			return ha(c.value, r.cdcMetadataByName);
+		}), o = d(function() {
+			return n.search.trim() ? g() : i.value;
+		}), s = d(function() {
+			return n.nodes.filter((e) => a.value.has(e.key));
+		}), c = d(function() {
+			return Do(s.value, n.cdcMetadataByName);
 		});
-		function d(e) {
-			return xa(e);
+		function u(e) {
+			return No(e);
 		}
-		function p(e) {
-			let t = new Set(a.value);
-			t.has(e) ? t.delete(e) : t.add(e), a.value = t;
+		function f(e) {
+			let t = new Set(i.value);
+			t.has(e) ? t.delete(e) : t.add(e), i.value = t;
 		}
-		function m(e, t, n) {
-			if (n && !_(e)) return !1;
+		function p(e, t, n) {
+			if (n && !h(e)) return !1;
 			let r = !1;
-			for (let n of e.children) r = m(n, t, !1) || r;
-			let i = r || g(e);
+			for (let n of e.children) r = p(n, t, !1) || r;
+			let i = r || m(e);
 			return i && t.add(e.key), i;
 		}
-		function g(e) {
-			if (r.onlyEnabled && q(e) === "unchecked") return !1;
-			let t = r.search.trim().toLowerCase();
+		function m(e) {
+			if (n.onlyEnabled && Y(e) === "unchecked") return !1;
+			let t = n.search.trim().toLowerCase();
 			return !(t && !e.name.toLowerCase().includes(t));
 		}
-		function _(e) {
-			return !(r.filter === "optional" && e.presCond.startsWith("M") || r.filter === "mandatory" && !e.presCond.startsWith("M"));
+		function h(e) {
+			return !(n.filter === "optional" && e.presCond.startsWith("M") || n.filter === "mandatory" && !e.presCond.startsWith("M"));
 		}
-		function v() {
+		function g() {
 			let e = /* @__PURE__ */ new Set();
-			for (let t of o.value) {
+			for (let t of a.value) {
 				let n = t.split(".");
 				for (let t = 1; t < n.length; t++) e.add(n.slice(0, t).join("."));
 			}
-			for (let t of r.nodes) o.value.has(t.key) && e.add(t.key);
+			for (let t of n.nodes) a.value.has(t.key) && e.add(t.key);
 			return e;
 		}
-		return (t, n) => (O(), e("div", Ja, [
-			(O(!0), e(l, null, j(r.warnings, (t) => (O(), e("p", {
-				key: t,
+		return (e, t) => (D(), k("div", os, [
+			(D(!0), k(v, null, M(n.warnings, (e) => (D(), k("p", {
+				key: e,
 				class: "lnode-type-tree__warning"
-			}, " ⚠ " + h(t), 1))), 128)),
-			(O(!0), e(l, null, j(u.value, (t) => (O(), e("div", {
-				key: t.key,
+			}, " ⚠ " + l(e), 1))), 128)),
+			(D(!0), k(v, null, M(c.value, (e) => (D(), k("div", {
+				key: e.key,
 				class: "lnode-type-tree__group"
-			}, [t.showHeader ? (O(), e("div", Ya, h(t.label), 1)) : f("", !0), (O(!0), e(l, null, j(d(t.nodes), (t) => (O(), e(l, { key: t.type === "node" ? t.node.key : t.type === "atLeastOneGroup" ? `alo:${t.args}` : t.type === "atMostOneGroup" ? `amo:${t.members[0]?.key}` : t.type === "allOrNonePerGroupGroup" ? `aonp:${t.args}` : t.type === "allOnlyOneGroup" ? `aoo:${t.members[0]?.key}` : `aalo:${t.members[0]?.key}` }, [t.type === "node" ? (O(), x(qa, {
+			}, [e.showHeader ? (D(), k("div", ss, l(e.label), 1)) : j("", !0), (D(!0), k(v, null, M(u(e.nodes), (e) => (D(), k(v, { key: e.type === "node" ? e.node.key : e.type === "atLeastOneGroup" ? `alo:${e.args}` : e.type === "atMostOneGroup" ? `amo:${e.members[0]?.key}` : e.type === "allOrNonePerGroupGroup" ? `aonp:${e.args}` : e.type === "allOnlyOneGroup" ? `aoo:${e.members[0]?.key}` : `aalo:${e.members[0]?.key}` }, [e.type === "node" ? (D(), S(as, {
 				key: 0,
-				node: t.node,
-				"visible-keys": o.value,
-				"expanded-keys": s.value,
-				"is-editing": r.isEditing,
-				"ln-ns": r.lnNs,
-				onToggle: n[0] ||= (e, t) => i("toggle", e, t),
-				onToggleBranch: n[1] ||= (e) => i("toggle-branch", e),
-				onToggleEnumVal: n[2] ||= (e, t, n) => i("toggle-enum-val", e, t, n),
-				onExpand: p,
-				onInfo: n[3] ||= (e) => i("info", e),
-				onEditEnum: n[4] ||= (e) => i("edit-enum", e),
-				onSetFc: n[5] ||= (e, t) => i("set-fc", e, t),
-				onSetInstanceCount: n[6] ||= (e, t) => i("set-instance-count", e, t)
+				node: e.node,
+				"visible-keys": a.value,
+				"expanded-keys": o.value,
+				"is-editing": n.isEditing,
+				"ln-ns": n.lnNs,
+				onToggle: t[0] ||= (e, t) => r("toggle", e, t),
+				onToggleBranch: t[1] ||= (e) => r("toggle-branch", e),
+				onToggleEnumVal: t[2] ||= (e, t, n) => r("toggle-enum-val", e, t, n),
+				onExpand: f,
+				onInfo: t[3] ||= (e) => r("info", e),
+				onEditEnum: t[4] ||= (e) => r("edit-enum", e),
+				onSetFc: t[5] ||= (e, t) => r("set-fc", e, t),
+				onSetInstanceCount: t[6] ||= (e, t) => r("set-instance-count", e, t)
 			}, null, 8, [
 				"node",
 				"visible-keys",
 				"expanded-keys",
 				"is-editing",
 				"ln-ns"
-			])) : t.type === "atLeastOneGroup" ? (O(), x(fa, {
+			])) : e.type === "atLeastOneGroup" ? (D(), S(wo, {
 				key: 1,
-				members: t.members,
-				args: t.args,
-				"is-editing": r.isEditing,
-				onToggle: n[7] ||= (e, t) => i("toggle", e, t),
-				onToggleBranch: n[8] ||= (e) => i("toggle-branch", e)
+				members: e.members,
+				args: e.args,
+				"is-editing": n.isEditing,
+				onToggle: t[7] ||= (e, t) => r("toggle", e, t),
+				onToggleBranch: t[8] ||= (e) => r("toggle-branch", e)
 			}, null, 8, [
 				"members",
 				"args",
 				"is-editing"
-			])) : t.type === "atMostOneGroup" ? (O(), x(ma, {
+			])) : e.type === "atMostOneGroup" ? (D(), S(Eo, {
 				key: 2,
-				members: t.members,
-				"is-editing": r.isEditing,
-				onToggle: n[9] ||= (e, t) => i("toggle", e, t),
-				onToggleBranch: n[10] ||= (e) => i("toggle-branch", e)
-			}, null, 8, ["members", "is-editing"])) : t.type === "allOrNonePerGroupGroup" ? (O(), x(la, {
+				members: e.members,
+				"is-editing": n.isEditing,
+				onToggle: t[9] ||= (e, t) => r("toggle", e, t),
+				onToggleBranch: t[10] ||= (e) => r("toggle-branch", e)
+			}, null, 8, ["members", "is-editing"])) : e.type === "allOrNonePerGroupGroup" ? (D(), S(xo, {
 				key: 3,
-				members: t.members,
-				args: t.args,
-				"is-editing": r.isEditing,
-				onToggle: n[11] ||= (e, t) => i("toggle", e, t),
-				onToggleBranch: n[12] ||= (e) => i("toggle-branch", e),
-				onSetFc: n[13] ||= (e, t) => i("set-fc", e, t)
+				members: e.members,
+				args: e.args,
+				"is-editing": n.isEditing,
+				onToggle: t[11] ||= (e, t) => r("toggle", e, t),
+				onToggleBranch: t[12] ||= (e) => r("toggle-branch", e),
+				onSetFc: t[13] ||= (e, t) => r("set-fc", e, t)
 			}, null, 8, [
 				"members",
 				"args",
 				"is-editing"
-			])) : t.type === "allOnlyOneGroup" ? (O(), x(na, {
+			])) : e.type === "allOnlyOneGroup" ? (D(), S(mo, {
 				key: 4,
-				groups: t.groups,
-				"is-editing": r.isEditing,
-				onToggle: n[14] ||= (e, t) => i("toggle", e, t),
-				onToggleBranch: n[15] ||= (e) => i("toggle-branch", e)
-			}, null, 8, ["groups", "is-editing"])) : (O(), x(ea, {
+				groups: e.groups,
+				"is-editing": n.isEditing,
+				onToggle: t[14] ||= (e, t) => r("toggle", e, t),
+				onToggleBranch: t[15] ||= (e) => r("toggle-branch", e)
+			}, null, 8, ["groups", "is-editing"])) : (D(), S(fo, {
 				key: 5,
-				groups: t.groups,
-				"is-editing": r.isEditing,
-				onToggle: n[16] ||= (e, t) => i("toggle", e, t),
-				onToggleBranch: n[17] ||= (e) => i("toggle-branch", e)
+				groups: e.groups,
+				"is-editing": n.isEditing,
+				onToggle: t[16] ||= (e, t) => r("toggle", e, t),
+				onToggleBranch: t[17] ||= (e) => r("toggle-branch", e)
 			}, null, 8, ["groups", "is-editing"]))], 64))), 128))]))), 128)),
-			c.value.length ? f("", !0) : (O(), e("p", Xa, "No elements to show."))
+			s.value.length ? j("", !0) : (D(), k("p", cs, "No elements to show."))
 		]));
 	}
-}), [["__scopeId", "data-v-2b6ba5e0"]]), Qa = {
+}), [["__scopeId", "data-v-2b6ba5e0"]]), us = {
 	key: 0,
 	class: "lnode-type-details__error"
-}, $a = {
+}, ds = {
 	key: 1,
 	class: "lnode-type-details__placeholder"
-}, eo = /* @__PURE__ */ F(/* @__PURE__ */ D({
+}, fs = /* @__PURE__ */ o(/* @__PURE__ */ y({
 	__name: "lnode-type-details",
-	setup(t) {
-		let n = Zr(), { draft: r, references: i, referencePanelOpen: a, isEditing: o, editBlockedReason: s, error: c, hasChange: u, treeSearch: d, treeFilter: p, selectedLnodeTypeId: _ } = g(n), v = b(function() {
-			return !!r.value && !r.value?.sourceLnodeTypeId;
-		}), y = b(function() {
-			return r.value ? v.value ? `${r.value.baseName} (new ${r.value.lnClass} draft)` : _.value ?? "" : "Select an LNodeType";
-		}), S = b(function() {
-			if (!r.value) return;
-			let e = r.value.namespace.lnNs, t = En(r.value), n = v.value ? e : `${r.value.lnClass} · ${e}`;
-			return t.length ? `${n}, ${t.join(", ")}` : n;
-		}), C = b(function() {
-			return !o.value && !!_.value;
-		}), w = N([]), E = b(function() {
-			return Object.fromEntries(w.value.map(function(e) {
+	setup(e) {
+		let t = ca(), { draft: n, references: r, referencePanelOpen: i, isEditing: a, editBlockedReason: o, error: s, hasChange: u, treeSearch: f, treeFilter: m, selectedLnodeTypeId: h } = c(t), g = d(function() {
+			return !!n.value && !n.value?.sourceLnodeTypeId;
+		}), _ = d(function() {
+			return n.value ? g.value ? `${n.value.baseName} (new ${n.value.lnClass} draft)` : h.value ?? "" : "Select an LNodeType";
+		}), y = d(function() {
+			if (!n.value) return;
+			let e = n.value.namespace.lnNs, t = Fr(n.value), r = g.value ? e : `${n.value.lnClass} · ${e}`;
+			return t.length ? `${r}, ${t.join(", ")}` : r;
+		}), b = d(function() {
+			return !a.value && !!h.value;
+		}), x = N([]), ee = d(function() {
+			return Object.fromEntries(x.value.map(function(e) {
 				return [e.name, e];
 			}));
 		});
-		ee(function() {
-			ie();
-		}), se(pe, function() {
-			ie();
+		ce(function() {
+			re();
+		}), ae(ge, function() {
+			re();
 		});
-		let te = N(), ne = N();
-		async function re(e) {
-			let t = r.value ? J(r.value.nodes, e) : void 0;
+		let C = N(), E = N();
+		async function te(e) {
+			let t = n.value ? X(n.value.nodes, e) : void 0;
 			if (!t) return;
-			let n = await jr(t.presCond);
-			ne.value = {
+			let r = await Vi(t.presCond);
+			E.value = {
 				name: t.name,
 				condition: t.presCond,
-				conditionDescription: n?.description,
+				conditionDescription: r?.description,
 				type: t.bType ?? (t.kind === "DO" || t.kind === "SDO" ? "structure" : void 0),
 				inheritedFrom: t.inheritedFrom,
 				cdc: t.cdc,
-				cdcTitle: t.cdc ? E.value[t.cdc]?.title : void 0,
-				cdcCategory: t.cdc ? E.value[t.cdc]?.categoryLabel : void 0,
-				description: await kr(t.descId)
-			}, te.value?.open();
+				cdcTitle: t.cdc ? ee.value[t.cdc]?.title : void 0,
+				cdcCategory: t.cdc ? ee.value[t.cdc]?.categoryLabel : void 0,
+				description: await zi(t.descId)
+			}, C.value?.open();
 		}
-		let D = N();
-		async function k() {
-			await ie(), D.value?.open();
+		let O = N();
+		async function ne() {
+			await re(), O.value?.open();
 		}
-		async function ie() {
-			w.value = await Dr();
+		async function re() {
+			x.value = await Li();
 		}
-		function ae(e) {
-			return r.value ? nr(e, r.value) : { valid: !1 };
+		function ie(e) {
+			return n.value ? di(e, n.value) : { valid: !1 };
 		}
-		async function A(e) {
-			let t = await Or({ cdc: e.cdc.name });
-			n.addCustomDataObject({
+		async function oe(e) {
+			let n = await Ri({ cdc: e.cdc.name });
+			t.addCustomDataObject({
 				name: e.name,
 				cdc: e.cdc.name,
-				cdcMembers: t
-			}), e.cdc.enumParameterized && P(e.name);
+				cdcMembers: n
+			}), e.cdc.enumParameterized && M(e.name);
 		}
-		let oe = N();
-		function j(e) {
-			let t = r.value ? J(r.value.nodes, e) : void 0;
-			t && oe.value?.open({
+		let se = N();
+		function A(e) {
+			let t = n.value ? X(n.value.nodes, e) : void 0;
+			t && se.value?.open({
 				key: e,
 				title: t.enumName ?? t.key,
 				vals: t.enumVals
 			});
 		}
-		function ce(e, t) {
-			n.updateEnumVals(e, t);
+		function le(e, n) {
+			t.updateEnumVals(e, n);
 		}
-		function P(e) {
-			let t = (r.value ? J(r.value.nodes, e) : void 0)?.children.find((e) => e.bType === "Enum" && e.enabled);
-			t && j(t.key);
+		function M(e) {
+			let t = (n.value ? X(n.value.nodes, e) : void 0)?.children.find((e) => e.bType === "Enum" && e.enabled);
+			t && A(t.key);
 		}
-		return (t, g) => (O(), e(l, null, [
-			M(Ki, null, {
-				header: T(() => [M(ji, {
-					title: y.value,
-					"namespace-info": S.value,
-					search: m(d),
-					filter: m(p),
-					"is-editing": m(o),
-					"is-new": v.value,
-					"has-change": m(u),
-					"has-selection": !!m(_),
-					"edit-blocked-reason": m(s),
-					"reference-count": m(i).length,
-					onSearch: g[0] ||= (e) => d.value = e,
-					onFilter: g[1] ||= (e) => p.value = e,
-					onEdit: m(n).requestEdit,
-					onSave: g[2] ||= () => m(n).save(),
-					onCancel: m(n).requestCancelEdit,
-					onNewVersion: m(n).createNewLnodeTypeVersion,
-					onAddDo: k,
-					onToggleReferences: g[3] ||= (e) => a.value = !m(a)
+		return (e, c) => (D(), k(v, null, [
+			T(ro, null, {
+				header: w(() => [T(Ha, {
+					title: _.value,
+					"namespace-info": y.value,
+					search: p(f),
+					filter: p(m),
+					"is-editing": p(a),
+					"is-new": g.value,
+					"has-change": p(u),
+					"has-selection": !!p(h),
+					"edit-blocked-reason": p(o),
+					"reference-count": p(r).length,
+					onSearch: c[0] ||= (e) => f.value = e,
+					onFilter: c[1] ||= (e) => m.value = e,
+					onEdit: p(t).requestEdit,
+					onSave: c[2] ||= () => p(t).save(),
+					onCancel: p(t).requestCancelEdit,
+					onNewVersion: p(t).createNewLnodeTypeVersion,
+					onAddDo: ne,
+					onToggleReferences: c[3] ||= (e) => i.value = !p(i)
 				}, null, 8, [
 					"title",
 					"namespace-info",
@@ -47929,24 +48665,24 @@ var Ta = /* @__PURE__ */ F(Sa, [["render", wa]]), Ea = { class: "tree-node" }, D
 					"onEdit",
 					"onCancel",
 					"onNewVersion"
-				]), m(c) ? (O(), e("p", Qa, h(m(c)), 1)) : f("", !0)]),
-				tree: T(() => [m(r) ? (O(), x(Za, {
+				]), p(s) ? (D(), k("p", us, l(p(s)), 1)) : j("", !0)]),
+				tree: w(() => [p(n) ? (D(), S(ls, {
 					key: 0,
-					nodes: m(r).nodes,
-					search: m(d),
-					filter: m(p),
-					"only-enabled": C.value,
-					"is-editing": m(o),
-					"ln-ns": m(r).namespace.lnNs || void 0,
-					warnings: m(r).warnings,
-					"cdc-metadata-by-name": E.value,
-					onToggle: m(n).toggle,
-					onToggleBranch: m(n).toggleBranch,
-					onToggleEnumVal: m(n).toggleEnumVal,
-					onInfo: re,
-					onEditEnum: j,
-					onSetFc: m(n).setSettingFc,
-					onSetInstanceCount: m(n).setNodeInstanceCount
+					nodes: p(n).nodes,
+					search: p(f),
+					filter: p(m),
+					"only-enabled": b.value,
+					"is-editing": p(a),
+					"ln-ns": p(n).namespace.lnNs || void 0,
+					warnings: p(n).warnings,
+					"cdc-metadata-by-name": ee.value,
+					onToggle: p(t).toggle,
+					onToggleBranch: p(t).toggleBranch,
+					onToggleEnumVal: p(t).toggleEnumVal,
+					onInfo: te,
+					onEditEnum: A,
+					onSetFc: p(t).setSettingFc,
+					onSetInstanceCount: p(t).setNodeInstanceCount
 				}, null, 8, [
 					"nodes",
 					"search",
@@ -47961,34 +48697,34 @@ var Ta = /* @__PURE__ */ F(Sa, [["render", wa]]), Ea = { class: "tree-node" }, D
 					"onToggleEnumVal",
 					"onSetFc",
 					"onSetInstanceCount"
-				])) : (O(), e("p", $a, " Select an LNodeType from the list or create a new one. "))]),
-				references: T(() => [m(a) && m(_) ? (O(), x(Qi, {
+				])) : (D(), k("p", ds, " Select an LNodeType from the list or create a new one. "))]),
+				references: w(() => [p(i) && p(h) ? (D(), S(lo, {
 					key: 0,
-					references: m(i),
-					onCollapse: g[4] ||= (e) => a.value = !1
-				}, null, 8, ["references"])) : f("", !0)]),
+					references: p(r),
+					onCollapse: c[4] ||= (e) => i.value = !1
+				}, null, 8, ["references"])) : j("", !0)]),
 				_: 1
 			}),
-			M(Ri, {
+			T(Ya, {
 				ref_key: "infoPopup",
-				ref: te,
-				info: ne.value
+				ref: C,
+				info: E.value
 			}, null, 8, ["info"]),
-			M(li, {
+			T(ba, {
 				ref_key: "addDoDialog",
-				ref: D,
-				cdcs: w.value,
-				"validate-name": ae,
-				onCreate: A
+				ref: O,
+				cdcs: x.value,
+				"validate-name": ie,
+				onCreate: oe
 			}, null, 8, ["cdcs"]),
-			M(vi, {
+			T(ka, {
 				ref_key: "enumEditor",
-				ref: oe,
-				onSave: ce
+				ref: se,
+				onSave: le
 			}, null, 512)
 		], 64));
 	}
-}), [["__scopeId", "data-v-10f13347"]]), to = { class: "modal-box" }, no = { class: "modal-action" }, ro = /* @__PURE__ */ D({
+}), [["__scopeId", "data-v-10f13347"]]), ps = { class: "modal-box" }, ms = { class: "modal-action" }, hs = /* @__PURE__ */ y({
 	__name: "unsaved-changes-dialog",
 	props: { open: {
 		type: Boolean,
@@ -48001,55 +48737,55 @@ var Ta = /* @__PURE__ */ F(Sa, [["render", wa]]), Ea = { class: "tree-node" }, D
 	],
 	setup(t, { emit: n }) {
 		let r = t, i = n, a = N();
-		return se(() => r.open, function(e) {
+		return ae(() => r.open, function(e) {
 			if (e && !a.value?.open) {
 				a.value?.showModal();
 				return;
 			}
 			!e && a.value?.open && a.value?.close();
-		}), (t, n) => (O(), e("dialog", {
+		}), (t, n) => (D(), k("dialog", {
 			ref_key: "dialogElement",
 			ref: a,
 			class: "modal",
 			"data-testid": "dtt-unsaved-dialog",
 			onClose: n[3] ||= (e) => i("keep-editing")
-		}, [y("div", to, [
-			n[4] ||= y("h3", { class: "font-bold text-lg" }, "Unsaved changes", -1),
-			n[5] ||= y("p", { class: "py-4" }, "Save changes before continuing?", -1),
-			y("div", no, [
-				y("button", {
+		}, [e("div", ps, [
+			n[4] ||= e("h3", { class: "font-bold text-lg" }, "Unsaved changes", -1),
+			n[5] ||= e("p", { class: "py-4" }, "Save changes before continuing?", -1),
+			e("div", ms, [
+				e("button", {
 					class: "btn",
 					"data-testid": "dtt-unsaved-keep",
 					onClick: n[0] ||= (e) => i("keep-editing")
 				}, " Keep editing "),
-				y("button", {
+				e("button", {
 					class: "btn btn-outline",
 					"data-testid": "dtt-unsaved-discard",
 					onClick: n[1] ||= (e) => i("discard-and-continue")
 				}, " Discard changes "),
-				y("button", {
+				e("button", {
 					class: "btn btn-primary",
 					"data-testid": "dtt-unsaved-save",
 					onClick: n[2] ||= (e) => i("save-and-continue")
 				}, " Save and continue ")
 			])
-		]), n[6] ||= y("form", {
+		]), n[6] ||= e("form", {
 			method: "dialog",
 			class: "modal-backdrop"
-		}, [y("button", null, "close")], -1)], 544));
+		}, [e("button", null, "close")], -1)], 544));
 	}
-}), io = { "data-testid": "dtt-root" }, ao = {
+}), gs = { "data-testid": "dtt-root" }, _s = {
 	key: 1,
 	"data-testid": "dtt-no-file"
-}, oo = /* @__PURE__ */ F(/* @__PURE__ */ D({
+}, vs = /* @__PURE__ */ o(/* @__PURE__ */ y({
 	__name: "data-type-templates",
-	setup(t) {
-		let n = Zr(), { unsavedChangesDialogOpen: r } = g(n);
-		return (t, i) => (O(), e("main", io, [m(Sn) ? (O(), e(l, { key: 0 }, [M($r, { class: "pane" }), M(eo, { class: "pane" })], 64)) : (O(), e("p", ao, "No SCL file is open.")), M(ro, {
-			open: m(r),
-			onKeepEditing: m(n).keepEditingAfterUnsavedPrompt,
-			onDiscardAndContinue: m(n).continueAfterDiscard,
-			onSaveAndContinue: m(n).continueAfterSave
+	setup(e) {
+		let t = ca(), { unsavedChangesDialogOpen: n } = c(t);
+		return (e, r) => (D(), k("main", gs, [p(jr) ? (D(), k(v, { key: 0 }, [T(ua, { class: "pane" }), T(fs, { class: "pane" })], 64)) : (D(), k("p", _s, "No SCL file is open.")), T(hs, {
+			open: p(n),
+			onKeepEditing: p(t).keepEditingAfterUnsavedPrompt,
+			onDiscardAndContinue: p(t).continueAfterDiscard,
+			onSaveAndContinue: p(t).continueAfterSave
 		}, null, 8, [
 			"open",
 			"onKeepEditing",
@@ -48060,20 +48796,20 @@ var Ta = /* @__PURE__ */ F(Sa, [["render", wa]]), Ea = { class: "tree-node" }, D
 }), [["__scopeId", "data-v-c82fcc52"]]);
 //#endregion
 //#region set-editor.ts
-function so(e, n) {
-	E(document.getElementById(e), { detail: `could not find root element: ${e}` }), ae({
+function ys(e, n) {
+	t(document.getElementById(e), { detail: `could not find root element: ${e}` }), se({
 		project: n.project,
 		activeDocumentId: n.activeDocumentId,
 		commands: n.commands
 	});
 	let r = (e) => {
-		Sn.value && e === G.value.documentId || (e ? Cn(n.project.openDocument(e)) : wn());
+		jr.value && e === q.value.documentId || (e ? Mr(n.project.openDocument(e)) : Nr());
 	};
 	r(n.activeDocumentId.value);
-	let i = n.activeDocumentId.subscribe(r), a = t(), o = v(oo);
-	return o.use(a), o.mount(`#${e}`), () => {
-		i(), o.unmount(), s(a), re(), wn();
+	let i = n.activeDocumentId.subscribe(r), o = m(), s = oe(vs);
+	return s.use(o), s.mount(`#${e}`), () => {
+		i(), s.unmount(), a(o), ne(), Nr();
 	};
 }
 //#endregion
-export { so as default };
+export { ys as default };
