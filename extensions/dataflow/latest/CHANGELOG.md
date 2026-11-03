@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## Unreleased
 
+## [78] - 2026-11-03
+
+### Added
+
+- Choose the process scope (Bay, Voltage Level or Substation) of cardinality-backed dataflow placeholders
+
 ## [77] - 2026-10-29
 
 ### Added
