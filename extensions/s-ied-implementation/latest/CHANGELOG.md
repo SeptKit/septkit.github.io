@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [49] - 2026-11-03
+
+### Changed
+
+- Applied input and output bindings show the ExtRef and ExtCtrl address relative to the logical node (only the internal address when it sits in it).
+
 ## [48] - 2026-10-30
 
 ### Added
