@@ -7,6 +7,13 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## Unreleased
 
+## [80] - 2026-11-03
+
+### Changed
+
+- Implementing a dataflow writes the ExtRef address relative to the subscribing logical node (only the internal address when the ExtRef sits in it).
+- Placeholders show the process resource by its name only.
+
 ## [79] - 2026-11-03
 
 ### Added
