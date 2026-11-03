@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [14] - 2026-11-03
+
+### Changed
+
+- Saved files are indented with four spaces and use Windows line endings.
+
 ## [11] - 2026-06-26
 
 ### Fixed
