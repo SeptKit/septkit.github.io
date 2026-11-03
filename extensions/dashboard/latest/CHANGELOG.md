@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [12] - 2026-11-03
+
+### Changed
+
+- A reference whose uuid and path disagree is read through its uuid: its path is written again on import, so checks on it follow the element the uuid names.
+
 ## [11] - 2026-10-19
 
 - SPC-08 no longer reports a missing ctlModel when neither a ctlModel DAS nor a type default is specified.
