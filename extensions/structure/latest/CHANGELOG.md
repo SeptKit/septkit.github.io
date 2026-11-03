@@ -7,6 +7,27 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [101] - 2026-11-03
+
+### Changed
+
+- An extracted FSD places the function at the level it sits at, and keeps everything the function holds.
+- An extracted SSD names its substation TEMPLATE.
+- An extracted element keeps its link to the template it was made from.
+- The Map step of a template update no longer lists variables and behaviour descriptions: they belong to the instance.
+- Deleting an application also removes the variables left applying to nothing.
+- Extracted files are indented with four spaces and use Windows line endings.
+
+### Fixed
+
+- Cleaning up references to missing elements removes the reference attributes instead of leaving them empty.
+
+## [100] - 2026-11-02
+
+### Fixed
+
+- Keep the LNode Type editable when the LNode is not assigned to an IED
+
 ## [99] - 2026-10-30
 
 ### Added
