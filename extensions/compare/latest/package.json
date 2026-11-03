@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-compare",
-	"version": "10",
+	"version": "11",
 	"displayName": "Compare",
 	"description": "Compare two SCL files side by side",
 	"private": true,
