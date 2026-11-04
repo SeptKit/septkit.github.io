@@ -205288,7 +205288,7 @@ var FLe = ["title", "onClick"], ZB = /* @__PURE__ */ ni({
 			onClose: i[1] ||= (e) => n("cancel")
 		}, [ka("div", dRe, [
 			ka("h3", gV, "Unlink " + Ne(e.lnodeLabel), 1),
-			i[3] ||= ka("p", { class: "mt-2 text-sm text-base-content/70" }, " The LNode is unlocked on Apply. Specified and implementation-only dataflows below are unimplemented then. Addressing entries are shown for context and may remain. ", -1),
+			i[3] ||= ka("p", { class: "mt-2 text-sm text-base-content/70" }, " The LNode will be unlocked on Apply. No SCL changes are made until Apply is clicked; this change can be reverted. Specified and implementation-only dataflows below are unimplemented then. Addressing entries are shown for context and may remain. ", -1),
 			ka("div", _V, [Aa(AB, {
 				"lnode-label": e.lnodeLabel,
 				impact: e.impact

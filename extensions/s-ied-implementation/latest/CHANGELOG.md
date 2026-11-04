@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [51] - 2026-11-04
+
+### Changed
+
+- Clarify that unlinking an implemented LNode is staged until Apply and can be reverted beforehand.
+
 ## [50] 2026-11-03
 
 - Apply readiness checks finish faster by reusing unchanged results; Apply waits for checks and shows readiness failures
