@@ -111313,7 +111313,7 @@ var Ele = ["aria-label", "data-dataflow-type"], Dle = /* @__PURE__ */ di({
 		let t = e;
 		return (e, n) => (ao(), uo("span", { class: we(["flex w-max min-w-full flex-nowrap items-center gap-1 whitespace-nowrap", t.end ? "justify-end" : "justify-center"]) }, [(ao(!0), uo($a, null, Zi(Cn(Og), (e) => (ao(), uo($a, { key: e.state }, [t.counts[e.state] ? (ao(), uo("span", {
 			key: 0,
-			class: "inline-flex h-5 min-w-8 items-center justify-center gap-0.5 rounded-sm border border-base-300 px-1 text-[10px] font-semibold",
+			class: "inline-flex h-5 min-w-8 items-center justify-center gap-0.5 rounded-sm border border-base-400 px-1 text-[10px] font-semibold",
 			"aria-label": `${t.counts[e.state]} ${e.label}`,
 			"data-implementation-state": e.state
 		}, [(ao(), fo(qi(e.icon), {
@@ -111517,20 +111517,20 @@ var uv = {
 			}, null, 8, ["counts"]),
 			d(r.getValue()) ? (ao(), fo(nv, {
 				key: 0,
-				class: "border-t border-dashed border-base-300/70 px-2 py-1 flex-1",
+				class: "border-t border-dashed border-base-300 px-2 py-1 flex-1",
 				counts: d(r.getValue()),
 				"data-testid": "df-matrix-state-counts"
 			}, null, 8, ["counts"])) : So("", !0),
 			f(r.getValue()) ? (ao(), fo(sv, {
 				key: 1,
-				class: "border-t border-dashed border-base-300/70 px-2 py-1 flex-1",
+				class: "border-t border-dashed border-base-300 px-2 py-1 flex-1",
 				counts: f(r.getValue()),
 				"data-testid": "df-matrix-supervision-counts"
 			}, null, 8, ["counts"])) : So("", !0)
 		])], 10, gv)) : a.value ? (ao(), uo("div", vv, [...n[0] ||= [
 			_o("div", { class: "h-7" }, null, -1),
-			_o("div", { class: "h-7 border-t border-dashed border-base-300/70" }, null, -1),
-			_o("div", { class: "h-7 border-t border-dashed border-base-300/70" }, null, -1)
+			_o("div", { class: "h-7 border-t border-dashed border-base-300" }, null, -1),
+			_o("div", { class: "h-7 border-t border-dashed border-base-300" }, null, -1)
 		]])) : So("", !0)]))), 128))]))), 128))])]));
 	}
 }), Ale = {
