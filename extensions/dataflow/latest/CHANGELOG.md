@@ -7,6 +7,21 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## Unreleased
 
+## [82] - 2026-11-05
+
+### Added
+
+- Select multiple data attributes when creating or editing a dataflow group
+
+### Changed
+
+- The input instance of a new dataflow group skips instances where a selected data attribute, quality or timestamp is already used, so no data attribute is used twice on the same input instance
+- Saving a dataflow or control dataflow on an input or output instance already in use is rejected instead of moving to another instance
+
+### Fixed
+
+- Editing a dataflow group with several data attributes shows and keeps all of them
+
 ## [81] - 2026-11-05
 
 ### Changed
