@@ -168826,30 +168826,26 @@ var Dhe = ({ name: e, iconNode: t, "icon-node": n, absoluteStrokeWidth: r, "abso
 	...n,
 	iconNode: t,
 	name: e
-}, r.default ? { default: r.default } : void 0), Ohe = NT("binoculars", [
+}, r.default ? { default: r.default } : void 0), Ohe = NT("cctv", [
 	["path", {
-		d: "M10 10h4",
-		key: "tcdvrf"
+		d: "M16.75 12h3.632a1 1 0 0 1 .894 1.447l-2.034 4.069a1 1 0 0 1-1.708.134l-2.124-2.97",
+		key: "ir91b5"
 	}],
 	["path", {
-		d: "M19 7V4a1 1 0 0 0-1-1h-2a1 1 0 0 0-1 1v3",
-		key: "3apit1"
+		d: "M17.106 9.053a1 1 0 0 1 .447 1.341l-3.106 6.211a1 1 0 0 1-1.342.447L3.61 12.3a2.92 2.92 0 0 1-1.3-3.91L3.69 5.6a2.92 2.92 0 0 1 3.92-1.3z",
+		key: "jlp8i1"
 	}],
 	["path", {
-		d: "M20 21a2 2 0 0 0 2-2v-3.851c0-1.39-2-2.962-2-4.829V8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v11a2 2 0 0 0 2 2z",
-		key: "rhpgnw"
+		d: "M2 19h3.76a2 2 0 0 0 1.8-1.1L9 15",
+		key: "19bib8"
 	}],
 	["path", {
-		d: "M 22 16 L 2 16",
-		key: "14lkq7"
+		d: "M2 21v-4",
+		key: "l40lih"
 	}],
 	["path", {
-		d: "M4 21a2 2 0 0 1-2-2v-3.851c0-1.39 2-2.962 2-4.829V8a1 1 0 0 1 1-1h4a1 1 0 0 1 1 1v11a2 2 0 0 1-2 2z",
-		key: "104b3k"
-	}],
-	["path", {
-		d: "M9 7V4a1 1 0 0 0-1-1H6a1 1 0 0 0-1 1v3",
-		key: "14fczp"
+		d: "M7 9h.01",
+		key: "19b3jx"
 	}]
 ]), khe = NT("chevron-down", [["path", {
 	d: "m6 9 6 6 6-6",

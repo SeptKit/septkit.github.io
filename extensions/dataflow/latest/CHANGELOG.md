@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## Unreleased
 
+## [81] - 2026-11-05
+
+### Changed
+
+- Update icon used for indicating supervision
+
 ## [80] - 2026-11-03
 
 ### Changed
