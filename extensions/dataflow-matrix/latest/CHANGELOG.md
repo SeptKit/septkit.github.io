@@ -7,6 +7,13 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [15] - 2026-11-05
+
+### Added
+
+- Show supervision state for implemented GOOSE and SMV dataflows
+- Enable filtering by supervision states
+
 ## [13] - 2026-10-31
 
 ### Added
