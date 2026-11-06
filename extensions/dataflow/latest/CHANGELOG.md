@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## Unreleased
 
+## [84] - 2026-11-06
+
+### Added
+
+- Limit how often a placeholder can be resolved: once for cardinality `1..1`, up to Max for `1..n`. Saving a dataflow that resolves a placeholder at its limit is refused
+
 ## [83] - 2026-11-06
 
 ### Added
