@@ -7,6 +7,16 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## Unreleased
 
+## [83] - 2026-11-06
+
+### Added
+
+- Resolve a dataflow placeholder only to LNodes matching the selector of its ProcessResource
+
+### Changed
+
+- Saving a cardinality-backed dataflow placeholder no longer writes candidate Resources into its ProcessResource; existing ones are left untouched and ignored
+
 ## [82] - 2026-11-05
 
 ### Added
