@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [29] - 2026-11-05
+
+### Fixed
+
+- OpenSCD plugin edits now use Dialecte transactions, keeping project history and refreshed XML in sync.
+
 ## [24] - 2026-09-29
 
 ### Fixed
