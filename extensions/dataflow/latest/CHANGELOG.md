@@ -7,6 +7,18 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## Unreleased
 
+## [85] - 2026-11-09
+
+### Added
+
+- Search the process scope by the name of the function an LNode belongs to: equals, starts with, ends with or contains
+
+### Changed
+
+- Saving a placeholder is blocked while the process scope search is invalid
+- The XPath tab of the process scope shows the computed XPath read-only
+- A process scope matching no LNode allows no resolution; the disabled Resolve button shows "Selector cannot be resolved"
+
 ## [84] - 2026-11-06
 
 ### Added
