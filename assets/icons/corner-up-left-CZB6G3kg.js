@@ -1,0 +1,1 @@
+import{t as e}from"../corner-up-left-Clmzw-BX.js";export{e as default};

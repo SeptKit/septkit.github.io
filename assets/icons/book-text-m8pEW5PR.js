@@ -1,0 +1,1 @@
+import{t as e}from"../book-text-dD-3l48Y.js";export{e as default};

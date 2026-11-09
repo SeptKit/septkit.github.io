@@ -1,0 +1,1 @@
+import{t as e}from"../languages-sdsbnd70.js";export{e as default};

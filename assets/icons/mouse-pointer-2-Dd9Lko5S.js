@@ -1,0 +1,1 @@
+import{t as e}from"../mouse-pointer-2-C1TLkK4q.js";export{e as default};

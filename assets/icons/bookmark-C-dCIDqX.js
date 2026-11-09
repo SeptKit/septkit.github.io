@@ -1,0 +1,1 @@
+import{t as e}from"../bookmark-CyaceAYU.js";export{e as default};

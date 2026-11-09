@@ -1,0 +1,1 @@
+import{t as e}from"../square-arrow-left-Cv4z-Tiv.js";export{e as default};

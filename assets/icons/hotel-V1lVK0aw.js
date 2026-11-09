@@ -1,0 +1,1 @@
+import{t as e}from"../hotel-DNbwVzn7.js";export{e as default};

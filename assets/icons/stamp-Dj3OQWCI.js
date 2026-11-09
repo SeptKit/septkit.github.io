@@ -1,0 +1,1 @@
+import{t as e}from"../stamp-BzHSjCaJ.js";export{e as default};

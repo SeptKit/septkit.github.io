@@ -1,0 +1,1 @@
+import{t as e}from"../minimize-DJsJh9Gr.js";export{e as default};

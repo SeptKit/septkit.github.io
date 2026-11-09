@@ -1,0 +1,1 @@
+import{t as e}from"../chess-queen-CbAmKiMP.js";export{e as default};

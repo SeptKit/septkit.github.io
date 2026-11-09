@@ -1,0 +1,1 @@
+import{t as e}from"../palette-BG-FeHrR.js";export{e as default};

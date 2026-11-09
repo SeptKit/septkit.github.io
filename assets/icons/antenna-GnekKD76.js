@@ -1,0 +1,1 @@
+import{t as e}from"../antenna-BBkFrela.js";export{e as default};

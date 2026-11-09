@@ -1,0 +1,1 @@
+import{t as e}from"../mail-warning-NmbkCVSg.js";export{e as default};

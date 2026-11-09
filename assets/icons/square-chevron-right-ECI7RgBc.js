@@ -1,0 +1,1 @@
+import{t as e}from"../square-chevron-right-DNanTpMs.js";export{e as default};

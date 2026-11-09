@@ -1,0 +1,1 @@
+import{t as e}from"../heading-6-C20-Vdqw.js";export{e as default};

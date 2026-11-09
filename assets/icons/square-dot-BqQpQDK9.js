@@ -1,0 +1,1 @@
+import{t as e}from"../square-dot-DJWkjarS.js";export{e as default};

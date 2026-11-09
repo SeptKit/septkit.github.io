@@ -7,6 +7,13 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [67] - 2026-11-09
+
+### Changed
+
+- Data type templates (LNodeType, DOType, DAType, EnumType) that no element uses any more after a change are removed when the change is saved, with the types only they used.
+- A signal role's reference to a logical node's data is written from the function that holds it, with a dot before the signal (`XCBR1.Oper`, `SF1/XCBR1.Oper`); files with the older form (`XCBR1/Oper`) are still read and are rewritten when imported.
+
 ## [66] - 2026-11-03
 
 ### Changed

@@ -1,0 +1,1 @@
+import{t as e}from"../bold-Cym96aHw.js";export{e as default};

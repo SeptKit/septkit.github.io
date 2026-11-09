@@ -1,0 +1,1 @@
+import{t as e}from"../newspaper-Biux4KQ4.js";export{e as default};

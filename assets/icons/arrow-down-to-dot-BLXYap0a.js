@@ -1,0 +1,1 @@
+import{t as e}from"../arrow-down-to-dot-DINFoYI3.js";export{e as default};

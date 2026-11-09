@@ -1,0 +1,1 @@
+import{t as e}from"../thumbs-down-Cj0zyt90.js";export{e as default};

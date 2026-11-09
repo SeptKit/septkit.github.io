@@ -1,0 +1,1 @@
+import{t as e}from"../arrow-up-wide-narrow-C_qsd3Ou.js";export{e as default};

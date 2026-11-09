@@ -1,0 +1,1 @@
+import{t as e}from"../clipboard-check-w9tJME2P.js";export{e as default};

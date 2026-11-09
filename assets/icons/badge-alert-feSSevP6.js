@@ -1,0 +1,1 @@
+import{t as e}from"../badge-alert-8_ScT_CM.js";export{e as default};

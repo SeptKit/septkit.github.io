@@ -1,0 +1,1 @@
+import{t as e}from"../badge-minus-7TOxTIQs.js";export{e as default};

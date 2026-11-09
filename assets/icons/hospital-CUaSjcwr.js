@@ -1,0 +1,1 @@
+import{t as e}from"../hospital-pgrOx1F1.js";export{e as default};

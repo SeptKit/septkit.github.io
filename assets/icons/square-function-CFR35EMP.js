@@ -1,0 +1,1 @@
+import{t as e}from"../square-function-CkXAEGc2.js";export{e as default};

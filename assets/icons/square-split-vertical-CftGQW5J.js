@@ -1,0 +1,1 @@
+import{t as e}from"../square-split-vertical-9O7VxalI.js";export{e as default};

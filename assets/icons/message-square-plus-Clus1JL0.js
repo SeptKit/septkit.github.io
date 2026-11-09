@@ -1,0 +1,1 @@
+import{t as e}from"../message-square-plus-BgYsurSC.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../text-align-center-BZ8PlgDG.js";export{e as default};

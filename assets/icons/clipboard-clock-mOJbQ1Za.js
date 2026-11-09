@@ -1,0 +1,1 @@
+import{t as e}from"../clipboard-clock-CCd-7iR1.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../text-align-end-BqmtI4iD.js";export{e as default};

@@ -1,14 +1,14 @@
 {
 	"name": "@septkit/shell",
 	"displayName": "Shell",
-	"version": "66",
+	"version": "67",
 	"private": true,
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
 		"//====== BUILD ======//": "",
 		"build": "run-p type-check \"build-only {@}\" --",
-		"build-only": "vite build",
+		"build-only": "vite build && npm run check:precache",
 		"build:watch": "vite build --watch --mode development",
 		"build:serve": "concurrently \"npm run preview\" \"npm run build:watch\"",
 		"preview": "vite preview",
@@ -21,6 +21,7 @@
 		"type-check": "vue-tsc --build",
 		"lint": "oxlint . --fix -D correctness --ignore-path .gitignore",
 		"check:agent-tags": "node scripts/check-agent-tags.mjs",
+		"check:precache": "node scripts/check-precache.mjs",
 		"format": "prettier --write src/ e2e/",
 		"format:check": "prettier --check src/ e2e/",
 		"//====== INSTALL ======//": "",
@@ -36,6 +37,8 @@
 	},
 	"dependencies": {
 		"@dialecte/core": "catalog:",
+		"@dialecte/nsd": "catalog:",
+		"@dialecte/plc": "catalog:",
 		"@dialecte/scl": "catalog:",
 		"@lucide/vue": "^1.16.0",
 		"@septkit/fileio": "catalog:",

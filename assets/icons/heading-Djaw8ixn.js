@@ -1,0 +1,1 @@
+import{t as e}from"../heading-cFfvmVVN.js";export{e as default};

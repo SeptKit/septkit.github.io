@@ -1,0 +1,1 @@
+import{t as e}from"../cooking-pot-BMtYqO5o.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../chess-rook-Brk9_Yxc.js";export{e as default};

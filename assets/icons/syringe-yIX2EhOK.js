@@ -1,0 +1,1 @@
+import{t as e}from"../syringe-HFHougsk.js";export{e as default};

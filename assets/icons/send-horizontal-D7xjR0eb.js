@@ -1,0 +1,1 @@
+import{t as e}from"../send-horizontal-Ea37SA5t.js";export{e as default};

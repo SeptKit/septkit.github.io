@@ -1,0 +1,1 @@
+import{t as e}from"../boxes-QKX3PFQz.js";export{e as default};

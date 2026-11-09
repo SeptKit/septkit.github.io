@@ -1,0 +1,1 @@
+import{t as e}from"../tablet-smartphone-DXBpMBIo.js";export{e as default};

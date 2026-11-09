@@ -1,0 +1,1 @@
+import{t as e}from"../building-2-ymcdavZu.js";export{e as default};

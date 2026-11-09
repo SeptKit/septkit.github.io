@@ -1,0 +1,1 @@
+import{t as e}from"../shopping-basket-Ci-VNZTs.js";export{e as default};

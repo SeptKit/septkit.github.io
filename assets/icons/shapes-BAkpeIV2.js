@@ -1,0 +1,1 @@
+import{t as e}from"../shapes-CXKShugX.js";export{e as default};

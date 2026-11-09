@@ -1,0 +1,1 @@
+import{t as e}from"../satellite-DftP-glb.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../badge-check-BOmh8_Iw.js";export{e as default};

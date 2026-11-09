@@ -1,0 +1,1 @@
+import{t as e}from"../chess-knight-ClLBpj6a.js";export{e as default};

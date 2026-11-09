@@ -1,0 +1,1 @@
+import{t as e}from"../salad-CNGjo8az.js";export{e as default};

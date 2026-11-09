@@ -1,0 +1,1 @@
+import{t as e}from"../copyleft-B_xvlfbg.js";export{e as default};

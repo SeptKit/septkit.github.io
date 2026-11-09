@@ -1,0 +1,1 @@
+import{t as e}from"../bird-DoBxbD4u.js";export{e as default};

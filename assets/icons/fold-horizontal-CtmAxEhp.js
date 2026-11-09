@@ -1,0 +1,1 @@
+import{t as e}from"../fold-horizontal-CrE1_SIR.js";export{e as default};

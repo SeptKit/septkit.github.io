@@ -1,0 +1,1 @@
+import{t as e}from"../clipboard-paste-yR-8Cl_l.js";export{e as default};

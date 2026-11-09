@@ -1,0 +1,1 @@
+import{t as e}from"../squircle-B54ORl1v.js";export{e as default};

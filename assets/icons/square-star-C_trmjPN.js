@@ -1,0 +1,1 @@
+import{t as e}from"../square-star-DR6Le6tX.js";export{e as default};

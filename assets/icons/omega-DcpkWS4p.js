@@ -1,0 +1,1 @@
+import{t as e}from"../omega-BhN5_tnm.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../scissors-line-dashed-CI64KOnS.js";export{e as default};

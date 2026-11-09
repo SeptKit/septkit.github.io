@@ -1,0 +1,1 @@
+import{t as e}from"../transgender-D4LwSEzb.js";export{e as default};

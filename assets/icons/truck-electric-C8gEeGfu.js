@@ -1,0 +1,1 @@
+import{t as e}from"../truck-electric-DdGXN-eE.js";export{e as default};

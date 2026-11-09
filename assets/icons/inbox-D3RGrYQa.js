@@ -1,0 +1,1 @@
+import{t as e}from"../inbox-CfA5rREJ.js";export{e as default};

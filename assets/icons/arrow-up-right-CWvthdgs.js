@@ -1,0 +1,1 @@
+import{t as e}from"../arrow-up-right-plQCTZ6o.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../bot-message-square-wvih_HBQ.js";export{e as default};

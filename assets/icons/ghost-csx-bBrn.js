@@ -1,0 +1,1 @@
+import{t as e}from"../ghost-S64thCRX.js";export{e as default};

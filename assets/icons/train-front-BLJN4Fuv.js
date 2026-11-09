@@ -1,0 +1,1 @@
+import{t as e}from"../train-front-DYAFs7ls.js";export{e as default};

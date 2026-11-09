@@ -1,0 +1,1 @@
+import{t as e}from"../motorbike-D--YzYE-.js";export{e as default};

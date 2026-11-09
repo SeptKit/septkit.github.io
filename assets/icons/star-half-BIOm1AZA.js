@@ -1,0 +1,1 @@
+import{t as e}from"../star-half-BFzenoaA.js";export{e as default};

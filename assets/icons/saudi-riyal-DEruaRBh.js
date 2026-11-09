@@ -1,0 +1,1 @@
+import{t as e}from"../saudi-riyal-CKp34dh6.js";export{e as default};

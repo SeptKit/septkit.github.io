@@ -1,0 +1,1 @@
+import{t as e}from"../dices-DWPCn9PR.js";export{e as default};

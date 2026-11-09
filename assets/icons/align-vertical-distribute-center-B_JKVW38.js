@@ -1,0 +1,1 @@
+import{t as e}from"../align-vertical-distribute-center-CFb6AQlB.js";export{e as default};

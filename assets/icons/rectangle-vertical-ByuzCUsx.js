@@ -1,0 +1,1 @@
+import{t as e}from"../rectangle-vertical-DkXjxmAG.js";export{e as default};

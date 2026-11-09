@@ -1,0 +1,1 @@
+import{t as e}from"../axis-3d-GhSw6Ecj.js";export{e as default};

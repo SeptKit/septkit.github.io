@@ -1,0 +1,1 @@
+import{t as e}from"../mail-x-CZhenHN5.js";export{e as default};

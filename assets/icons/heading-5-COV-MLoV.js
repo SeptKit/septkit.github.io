@@ -1,0 +1,1 @@
+import{t as e}from"../heading-5-CNLV1_Su.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../amphora-C7kc9PHC.js";export{e as default};

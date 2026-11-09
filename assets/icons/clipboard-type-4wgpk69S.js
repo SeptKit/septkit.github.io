@@ -1,0 +1,1 @@
+import{t as e}from"../clipboard-type-BaL44Dbm.js";export{e as default};

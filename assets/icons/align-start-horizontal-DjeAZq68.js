@@ -1,0 +1,1 @@
+import{t as e}from"../align-start-horizontal-DsvExwtX.js";export{e as default};

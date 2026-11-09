@@ -1,0 +1,1 @@
+import{t as e}from"../receipt-pound-sterling-DSI20N7g.js";export{e as default};

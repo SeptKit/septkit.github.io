@@ -1,0 +1,1 @@
+import{t as e}from"../text-initial-FCaGEjeo.js";export{e as default};

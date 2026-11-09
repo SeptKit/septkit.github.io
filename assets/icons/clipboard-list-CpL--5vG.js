@@ -1,0 +1,1 @@
+import{t as e}from"../clipboard-list-DNC1CL1A.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../notepad-text-vECImI6e.js";export{e as default};

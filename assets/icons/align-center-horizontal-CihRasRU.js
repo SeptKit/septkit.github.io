@@ -1,0 +1,1 @@
+import{t as e}from"../align-center-horizontal-CoKrxAdi.js";export{e as default};

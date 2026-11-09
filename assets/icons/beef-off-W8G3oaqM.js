@@ -1,0 +1,1 @@
+import{t as e}from"../beef-off-C9LouL7f.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../copy-x-B2Qwb0wm.js";export{e as default};

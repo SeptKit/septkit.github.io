@@ -1,0 +1,1 @@
+import{t as e}from"../message-square-heart-BS8UKA5j.js";export{e as default};

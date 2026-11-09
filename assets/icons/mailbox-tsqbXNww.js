@@ -1,0 +1,1 @@
+import{t as e}from"../mailbox-TaqbyB8N.js";export{e as default};

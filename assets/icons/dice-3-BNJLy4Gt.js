@@ -1,0 +1,1 @@
+import{t as e}from"../dice-3-OVwhbcLx.js";export{e as default};

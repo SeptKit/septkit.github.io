@@ -1,0 +1,1 @@
+import{t as e}from"../car-taxi-front-CiMk2TmW.js";export{e as default};

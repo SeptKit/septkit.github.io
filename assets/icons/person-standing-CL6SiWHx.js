@@ -1,0 +1,1 @@
+import{t as e}from"../person-standing-BXonDEG4.js";export{e as default};

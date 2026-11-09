@@ -1,0 +1,1 @@
+import{t as e}from"../shield-minus-gGisxTPi.js";export{e as default};

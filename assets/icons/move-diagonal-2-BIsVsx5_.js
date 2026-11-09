@@ -1,0 +1,1 @@
+import{t as e}from"../move-diagonal-2-CSPGLHrz.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../align-end-horizontal-aOSLPKfQ.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../clipboard-minus-BALVgHLB.js";export{e as default};

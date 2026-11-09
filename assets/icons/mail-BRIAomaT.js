@@ -1,0 +1,1 @@
+import{t as e}from"../mail-CucmkiNp.js";export{e as default};

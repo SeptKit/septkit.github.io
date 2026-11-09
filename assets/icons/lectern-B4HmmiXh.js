@@ -1,0 +1,1 @@
+import{t as e}from"../lectern-BNJGHrk6.js";export{e as default};

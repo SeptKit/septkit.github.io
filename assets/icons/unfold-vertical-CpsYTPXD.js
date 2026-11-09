@@ -1,0 +1,1 @@
+import{t as e}from"../unfold-vertical-ClswboYx.js";export{e as default};

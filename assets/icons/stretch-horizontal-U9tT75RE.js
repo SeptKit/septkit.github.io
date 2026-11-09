@@ -1,0 +1,1 @@
+import{t as e}from"../stretch-horizontal-BpkRtI50.js";export{e as default};

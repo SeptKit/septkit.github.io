@@ -1,0 +1,1 @@
+import{t as e}from"../square-arrow-up-BAfTNQWc.js";export{e as default};

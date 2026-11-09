@@ -1,0 +1,1 @@
+import{t as e}from"../clock-2-B6KbXdok.js";export{e as default};

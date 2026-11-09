@@ -1,0 +1,1 @@
+import{t as e}from"../message-square-text-CNIol2qF.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../corner-down-left-BtndSP5v.js";export{e as default};

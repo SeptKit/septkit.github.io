@@ -1,0 +1,1 @@
+import{t as e}from"../fire-extinguisher-rMJHC2lA.js";export{e as default};

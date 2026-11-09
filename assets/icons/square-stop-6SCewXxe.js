@@ -1,0 +1,1 @@
+import{t as e}from"../square-stop-C7sVnIw4.js";export{e as default};

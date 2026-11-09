@@ -1,0 +1,1 @@
+import{t as e}from"../rectangle-horizontal-C0gBl_eu.js";export{e as default};

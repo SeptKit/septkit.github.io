@@ -1,0 +1,1 @@
+import{t as e}from"../decimals-arrow-left-BywTqA1g.js";export{e as default};

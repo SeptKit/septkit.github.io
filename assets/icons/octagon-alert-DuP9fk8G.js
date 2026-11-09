@@ -1,0 +1,1 @@
+import{t as e}from"../octagon-alert-CdR2h6c7.js";export{e as default};

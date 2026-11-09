@@ -1,0 +1,1 @@
+import{t as e}from"../laptop-minimal-check-D3BOOLem.js";export{e as default};

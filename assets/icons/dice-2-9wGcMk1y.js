@@ -1,0 +1,1 @@
+import{t as e}from"../dice-2-BP-Ojh_r.js";export{e as default};

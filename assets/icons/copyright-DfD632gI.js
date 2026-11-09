@@ -1,0 +1,1 @@
+import{t as e}from"../copyright-B0aq04iV.js";export{e as default};

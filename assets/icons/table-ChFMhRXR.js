@@ -1,0 +1,1 @@
+import{t as e}from"../table-mBR2GTGQ.js";export{e as default};

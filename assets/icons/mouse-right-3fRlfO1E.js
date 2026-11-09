@@ -1,0 +1,1 @@
+import{t as e}from"../mouse-right-v5rQBoYh.js";export{e as default};

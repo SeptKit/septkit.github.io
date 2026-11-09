@@ -1,0 +1,1 @@
+import{t as e}from"../paperclip-NpzXmsgE.js";export{e as default};

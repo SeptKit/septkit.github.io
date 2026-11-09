@@ -1,0 +1,1 @@
+import{t as e}from"../gallery-vertical-BaIkGcZp.js";export{e as default};
