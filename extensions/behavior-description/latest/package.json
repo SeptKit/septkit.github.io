@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-behavior-description",
-	"version": "19",
+	"version": "20",
 	"displayName": "Behavior Description",
 	"description": "extension for SET Platform that provides behavior description capabilities",
 	"private": true,
