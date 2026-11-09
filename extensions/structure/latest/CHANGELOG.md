@@ -7,6 +7,18 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [102] - 2026-11-09
+
+### Added
+
+- Search the equipment of a power system relation by name: equals, starts with, ends with or contains
+- IED and PHYSICAL are offered as Allocation Role names; a custom name can still be entered
+
+### Changed
+
+- Adding a power system relation is blocked while the selector search is invalid
+- The target selector shows the computed XPath read-only
+
 ## [101] - 2026-11-03
 
 ### Changed
