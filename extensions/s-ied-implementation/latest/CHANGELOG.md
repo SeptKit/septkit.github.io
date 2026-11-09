@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [52] - 2026-11-09
+
+### Fixed
+
+- Loading several ICD files at once: a file that cannot be read is named in the IED section and no longer stops the other files from loading.
+
 ## [51] - 2026-11-04
 
 ### Changed
