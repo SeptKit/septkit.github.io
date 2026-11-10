@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [104] - 2026-11-10
+
+### Changed
+
+- The name check in the creation forms compares only elements of the same type under the same parent.
+
 ## [103] - 2026-11-10
 
 ### Changed
