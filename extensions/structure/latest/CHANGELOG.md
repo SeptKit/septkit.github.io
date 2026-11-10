@@ -7,6 +7,15 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [105] - 2026-11-10
+
+### Changed
+
+- Creating, categorizing and assigning functions, allocation roles and behavior descriptions is saved as one change.
+- Assigning a SubFunction to an allocation role also links the role to every Application of the SubFunction's top-level Function.
+- Creating a Function or SubFunction with an allocation role links the role to the Applications of its top-level Function and is rejected when a parent Function is already assigned to that role.
+- Function categories are found in a Substation also when the file mixes direct and Private-wrapped ones.
+
 ## [104] - 2026-11-10
 
 ### Changed
