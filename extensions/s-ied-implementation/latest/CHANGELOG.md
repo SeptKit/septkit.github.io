@@ -7,6 +7,18 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [53] - 2026-11-10
+
+### Added
+
+- Filter the LNode sidebar by allocation role, IED, or search text, with keyboard navigation and contextual empty-state guidance
+
+### Changed
+
+- Disable automatic LNode-to-LN matching; link LNodes manually, then their child elements are matched automatically
+- Keep the sidebar focused on the implemented IED after Apply
+- Show uploaded ICD filenames in mapping error messages
+
 ## [52] - 2026-11-09
 
 ### Fixed
