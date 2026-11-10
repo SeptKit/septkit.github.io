@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## Unreleased
 
+## [87] - 2026-11-10
+
+### Changed
+
+- Placeholder badge shows the cardinality of its process resource: 1, n or the maximum, with room for 3-digit values; maximums above 999 show 999+
+
 ## [85] - 2026-11-09
 
 ### Added
