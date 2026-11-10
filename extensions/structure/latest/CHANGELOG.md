@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [103] - 2026-11-10
+
+### Changed
+
+- The structure opens much faster on files whose LNodes are mapped to IEDs
+
 ## [102] - 2026-11-09
 
 ### Added
