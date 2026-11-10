@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## Unreleased
 
+## [88] - 2026-11-10
+
+### Changed
+
+- The process scope's name search now matches the name of the LNode's immediate parent element instead of its owning Function or SubFunction; the label reads "Parent name"
+
 ## [87] - 2026-11-10
 
 ### Changed
