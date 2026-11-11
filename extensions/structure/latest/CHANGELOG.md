@@ -7,6 +7,14 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [107] - 2026-11-11
+
+### Changed
+
+- Adding an S-IED from a template is saved as one change; the IED is connected to the access points of the new IED.
+- Adding an S-IED connects each function LNode to its new logical node, also when it was connected to another IED before; it stops with an error when that LNode has implemented signals.
+- Adding an S-IED no longer imports data types from the template that none of its logical nodes use.
+
 ## [106] - 2026-11-11
 
 ### Changed
