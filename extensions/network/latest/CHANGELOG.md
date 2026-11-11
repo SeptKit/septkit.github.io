@@ -5,6 +5,18 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to a simple versioning system, increasing the number by one for each modification.
 
+## [UNRELEASED]
+
+## [12] - 2026-11-10
+
+### Added
+
+- New VLANs column in the network table showing the VLAN IDs used by each ConnectedAP's GSE and SMV; filter rows by VLAN ID.
+- Click a GSE or SMV name to see its addressing (MAC address, APPID, VLAN ID, priority, MinTime, MaxTime); missing values are highlighted.
+- "Calculate missing addressing" fills in the missing values of all GSE and SMV of a ConnectedAP; existing values are never changed.
+- Calculated values follow the same rules as implementing a dataflow: the next free MAC address and APPID in the document (GSE: 01-0C-CD-01-00-00 to 01-0C-CD-01-01-FF and APPID 0001 to 3FFF; SMV: 01-0C-CD-04-00-00 to 01-0C-CD-04-01-FF and APPID 4000 to 7FFF).
+- Other calculated defaults: VLAN ID 000, priority 4 for GSE and 7 for SMV, and for GSE a MinTime of 5 ms and a MaxTime of 10000 ms.
+
 ## [9] - 2026-10-26
 
 ### Added
