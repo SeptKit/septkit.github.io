@@ -7,6 +7,16 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [106] - 2026-11-11
+
+### Changed
+
+- Creating LNodes, DOS/DAS and labels, and switching an LNode type, is saved as one change.
+- The data reference of a signal role is relative to its function (e.g. `MMXU1.A.phsA`).
+- Adding a label with an id and language that already exist on the DAS is rejected.
+- Adding a DOS/DAS no longer creates a second Information signal role or data reference when the file already contains one.
+- The LNode sidebar warns below the type select when no other LNode uses the type, because switching the type then deletes it.
+
 ## [105] - 2026-11-10
 
 ### Changed
