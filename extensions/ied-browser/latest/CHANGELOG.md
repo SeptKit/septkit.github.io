@@ -7,6 +7,17 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [Unreleased]
 
+## [45] - 2026-11-12
+
+### Added
+
+- Export ISD on an S-IED: right-click the IED and choose **Export ISD** to save the specification of that one device as an `.isd` file for its supplier. The file holds the IED, its subnetworks with only its own access points, the data types it needs, and only the part of the functions it implements, with or without labels as you choose before saving; its inputs carry the internal address and the expected data, with no source. The project is not changed.
+- Once the ISD is saved, a list shows what the file left out, each line naming the element in the project: subscription supervision, references to other IEDs, inputs missing what the supplier needs to bind them, LNodes whose logical node is left out, behaviour descriptions that use LNodes of other IEDs, and links to content not in the file. Nothing is shown when nothing was left out; when the ISD cannot be written, a message says why.
+
+### Changed
+
+- An IED is shown as an S-IED unless it was added from a supplier's ICD or IID file, whatever its manufacturer; the same rule decides where Export ISD is offered.
+
 ## [42] - 2026-10-28
 
 - Update default smpRate value for SampledValueControl
