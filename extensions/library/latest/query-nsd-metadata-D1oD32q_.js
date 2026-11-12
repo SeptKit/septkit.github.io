@@ -1,4 +1,4 @@
-import { C as e, D as t, F as n, I as r, M as i, N as a, O as o, P as s, S as c, St as l, T as u, U as d, _ as f, b as p, c as m, d as h, et as g, f as _, g as v, h as y, j as b, k as x, l as S, o as C, p as ee, rt as w, s as te, t as ne, ut as re, v as ie, w as ae, x as oe, y as T } from "./main-d3AbboHc.js";
+import { C as e, D as t, F as n, I as r, M as i, N as a, O as o, P as s, S as c, St as l, T as u, U as d, _ as f, b as p, c as m, d as h, et as g, f as _, g as v, h as y, j as b, k as x, l as S, o as C, p as ee, rt as w, s as te, t as ne, ut as re, v as ie, w as ae, x as oe, y as T } from "./main-B-HTlDYA.js";
 //#region src/nsd/icons/close-icon.vue
 var E = {}, se = {
 	viewBox: "0 0 64 64",
@@ -397,7 +397,7 @@ function Ae(e) {
 	};
 }
 //#endregion
-//#region node_modules/.pnpm/@dialecte+core@0.9.0/node_modules/@dialecte/core/dist/rolldown-runtime-CYdcPHCu.js
+//#region node_modules/.pnpm/@dialecte+core@0.10.0/node_modules/@dialecte/core/dist/rolldown-runtime-CYdcPHCu.js
 var je = Object.create, Me = Object.defineProperty, Ne = Object.getOwnPropertyDescriptor, Pe = Object.getOwnPropertyNames, Fe = Object.getPrototypeOf, Ie = Object.prototype.hasOwnProperty, P = (e, t) => () => (t || (e((t = { exports: {} }).exports, t, t.exports), e = null), t.exports), Le = (e, t, n, r) => {
 	if (t && typeof t == "object" || typeof t == "function") for (var i = Pe(t), a = 0, o = i.length, s; a < o; a++) s = i[a], !Ie.call(e, s) && s !== n && Me(e, s, {
 		get: ((e) => t[e]).bind(null, s),
@@ -476,7 +476,7 @@ function We() {
 	};
 }
 //#endregion
-//#region node_modules/.pnpm/@dialecte+core@0.9.0/node_modules/@dialecte/core/dist/project-key-2ccZ-0gu.js
+//#region node_modules/.pnpm/@dialecte+core@0.10.0/node_modules/@dialecte/core/dist/project-key-2ccZ-0gu.js
 var Ge = {
 	bigint: "a BigInt",
 	function: "a function",
@@ -1875,7 +1875,7 @@ function Gn(e) {
 	return `${encodeURIComponent(t)}/${encodeURIComponent(n)}`;
 }
 //#endregion
-//#region node_modules/.pnpm/@dialecte+core@0.9.0/node_modules/@dialecte/core/dist/same-json-value-_AChwM_n.js
+//#region node_modules/.pnpm/@dialecte+core@0.10.0/node_modules/@dialecte/core/dist/same-json-value-_AChwM_n.js
 function Kn(e) {
 	let { documents: t, writeId: n, isRunning: r } = e, i = t.find((e) => e.writeId === n);
 	return i ? i.status === "importing" ? r?.({ writeId: n }) === !1 ? "not-applied" : "running" : "applied" : "not-applied";
@@ -3417,7 +3417,7 @@ function Jr(e) {
 	});
 }
 //#endregion
-//#region node_modules/.pnpm/@dialecte+core@0.9.0/node_modules/@dialecte/core/dist/dialecte-oAXwOG-Q.js
+//#region node_modules/.pnpm/@dialecte+core@0.10.0/node_modules/@dialecte/core/dist/dialecte-CVLWSkgW.js
 var Yr = {};
 function Xr() {
 	return {};
@@ -9013,26 +9013,33 @@ async function Q(e) {
 	}
 	let r;
 	if (n.id === void 0) {
-		let e = `__singleton_${n.tagName}`, i = $o(t) ? t.recordCache.get(e) : void 0;
-		i ? (t.perf.count("core::query::getRecord.cacheHit"), r = i) : (t.perf.count("core::query::getRecord.miss"), t.perf.count("core::store::getByTagName"), r = (await t.store.getByTagNameInDocument(n.tagName, t.documentId))[0], r && $o(t) && (t.recordCache.set(r.id, r), t.recordCache.set(e, r)));
+		let e = `__singleton_${n.tagName}`, i = rs(t) ? t.recordCache.get(e) : void 0;
+		i ? (t.perf.count("core::query::getRecord.cacheHit"), r = i) : (t.perf.count("core::query::getRecord.miss"), t.perf.count("core::store::getByTagName"), r = (await t.store.getByTagNameInDocument(n.tagName, t.documentId))[0], r && rs(t) && (t.recordCache.set(r.id, r), t.recordCache.set(e, r)));
 	} else {
-		let e = $o(t) ? t.recordCache.get(n.id) : void 0;
-		e ? (t.perf.count("core::query::getRecord.cacheHit"), r = e) : (t.perf.count("core::query::getRecord.miss"), t.perf.count("core::store::get"), r = await t.store.get(n.id, t.documentId), r && $o(t) && t.recordCache.set(n.id, r));
+		let e = rs(t) ? t.recordCache.get(n.id) : void 0;
+		e ? (t.perf.count("core::query::getRecord.cacheHit"), r = e) : (t.perf.count("core::query::getRecord.miss"), t.perf.count("core::store::get"), r = await t.store.get(n.id, t.documentId), r && rs(t) && t.recordCache.set(n.id, r));
 	}
-	if (r) return r.tagName !== n.tagName && c("ELEMENT_TAGNAME_MISMATCH", {
-		detail: `Expected tagName '${n.tagName}', got '${r.tagName}' for id '${n.id}'`,
+	if (r) return xa({
+		raw: r,
+		ref: n
+	});
+}
+function xa(e) {
+	let { raw: t, ref: n } = e;
+	return t.tagName !== n.tagName && c("ELEMENT_TAGNAME_MISMATCH", {
+		detail: `Expected tagName '${n.tagName}', got '${t.tagName}' for id '${n.id}'`,
 		ref: n,
 		meta: {
 			id: n.id,
 			expectedTagName: n.tagName,
-			actualTagName: r.tagName
+			actualTagName: t.tagName
 		}
 	}), {
-		...r,
+		...t,
 		status: "unchanged"
 	};
 }
-async function xa(e) {
+async function Sa(e) {
 	let { context: t, ref: n } = e;
 	if (b(n, { detail: "The record or ref is undefined" }), !("attributes" in n) || !Array.isArray(n.attributes)) return Q({
 		context: t,
@@ -9052,25 +9059,92 @@ async function xa(e) {
 		status: "unchanged"
 	};
 }
-async function Sa(e) {
-	let { context: t, refs: n } = e;
-	return Promise.all(n.map((e) => Q({
-		context: t,
-		ref: e
-	})));
-}
 async function Ca(e) {
+	let { context: t, refs: n } = e, r = n.map(() => void 0), i = [], a = [];
+	for (let [e, o] of n.entries()) {
+		if (o.id === void 0) {
+			i.push(e);
+			continue;
+		}
+		let n = Ta({
+			context: t,
+			ref: o,
+			id: o.id
+		});
+		n ? r[e] = n.record : a.push({
+			position: e,
+			id: o.id
+		});
+	}
+	let o = i.map(function(e) {
+		return wa({
+			context: t,
+			refs: n,
+			position: e,
+			results: r
+		});
+	});
+	return await Promise.all([...o, Ea({
+		context: t,
+		refs: n,
+		storePositions: a,
+		results: r
+	})]), r;
+}
+async function wa(e) {
+	let { context: t, refs: n, position: r, results: i } = e;
+	i[r] = await Q({
+		context: t,
+		ref: n[r]
+	});
+}
+function Ta(e) {
+	let { context: t, ref: n, id: r } = e;
+	if (t.stagedOperations.log.length > 0) {
+		let e = ha({
+			stagedOperations: t.stagedOperations,
+			tagName: n.tagName,
+			id: r
+		});
+		if (e) return { record: e.status === "deleted" ? void 0 : e };
+	}
+	let i = rs(t) ? t.recordCache.get(r) : void 0;
+	if (i) return t.perf.count("core::query::getRecord.cacheHit"), { record: xa({
+		raw: i,
+		ref: n
+	}) };
+}
+async function Ea(e) {
+	let { context: t, refs: n, storePositions: r, results: i } = e, a = [...new Set(r.map(({ id: e }) => e))];
+	if (a.length === 0) return;
+	t.perf.count("core::store::getMany"), a.forEach(function() {
+		t.perf.count("core::query::getRecord.miss");
+	});
+	let o = await t.store.getMany(a, t.documentId), s = /* @__PURE__ */ new Map();
+	for (let [e, n] of a.entries()) {
+		let r = o[e];
+		r && (s.set(n, r), rs(t) && t.recordCache.set(n, r));
+	}
+	for (let { position: e, id: t } of r) {
+		let r = s.get(t);
+		i[e] = r ? xa({
+			raw: r,
+			ref: n[e]
+		}) : void 0;
+	}
+}
+async function Da(e) {
 	let { context: t, tagName: n } = e;
 	t.perf.count("core::store::getByTagName");
 	let r = await t.store.getByTagNameInDocument(n, t.documentId);
-	for (let e of r) $o(t) && t.recordCache.set(e.id, e);
+	for (let e of r) rs(t) && t.recordCache.set(e.id, e);
 	return va({
 		rawRecords: r,
 		stagedOperations: t.stagedOperations.log,
 		tagName: n
 	});
 }
-async function wa(e) {
+async function Oa(e) {
 	let { context: t, ref: n, tagName: r } = e, i = await Q({
 		context: t,
 		ref: n
@@ -9097,7 +9171,7 @@ async function wa(e) {
 		});
 	}
 }
-async function Ta(e) {
+async function ka(e) {
 	let { context: t, ref: n, tagName: r } = e, i = await Q({
 		context: t,
 		ref: n
@@ -9107,7 +9181,7 @@ async function Ta(e) {
 		tagName: r,
 		id: e.id
 	}));
-	if (a.length) return (await Sa({
+	if (a.length) return (await Ca({
 		context: t,
 		refs: a
 	})).filter((e) => e !== void 0);
@@ -9115,19 +9189,19 @@ async function Ta(e) {
 	if (!o?.length) return [];
 	let s = i.children.filter((e) => o.includes(e.tagName));
 	if (!s.length) return [];
-	let c = (await Sa({
+	let c = (await Ca({
 		context: t,
 		refs: s
 	})).filter((e) => e !== void 0).flatMap((e) => e.children.filter((e) => e.tagName === r)).map((e) => ({
 		tagName: r,
 		id: e.id
 	}));
-	return c.length ? (await Sa({
+	return c.length ? (await Ca({
 		context: t,
 		refs: c
 	})).filter((e) => e !== void 0) : [];
 }
-async function Ea(e) {
+async function Aa(e) {
 	e.perf.count("core::store::getByDocumentId");
 	let { live: t } = ya({
 		rawRecords: await e.store.getByDocumentId(e.documentId),
@@ -9135,7 +9209,7 @@ async function Ea(e) {
 	});
 	return t;
 }
-async function Da(e) {
+async function ja(e) {
 	let { context: t, ref: n, options: r } = e, i = r?.depth ?? Infinity, a = r?.stopAtTagName, o = r?.order ?? "bottom-up", s = [], c = await Q({
 		context: t,
 		ref: n
@@ -9150,25 +9224,25 @@ async function Da(e) {
 	}
 	return o === "top-down" ? s.reverse() : s;
 }
-async function Oa(e) {
-	let { context: t, tagName: n, attributes: r } = e, i = await Ca({
+async function Ma(e) {
+	let { context: t, tagName: n, attributes: r } = e, i = await Da({
 		context: t,
 		tagName: n
 	}), a = [];
-	for (let e of i) ka({
+	for (let e of i) Na({
 		dialecteConfig: t.dialecteConfig,
 		record: e,
 		attributeFilter: r
 	}) && a.push(e);
 	return a;
 }
-function ka(e) {
+function Na(e) {
 	let { dialecteConfig: t, record: n, attributeFilter: r } = e;
 	if (!r || Object.keys(r).length === 0) return !0;
 	for (let [e, i] of Object.entries(r)) {
 		if (i === void 0) continue;
 		if (e === "xsi:type") {
-			if (!Aa({
+			if (!Pa({
 				dialecteConfig: t,
 				record: n,
 				expected: i
@@ -9183,7 +9257,7 @@ function ka(e) {
 	}
 	return !0;
 }
-function Aa(e) {
+function Pa(e) {
 	let { dialecteConfig: t, record: n, expected: r } = e, i = n.attributes.find(s);
 	if (i === void 0 || i.value === "") return !1;
 	let o = v({
@@ -9203,11 +9277,11 @@ function Aa(e) {
 		namespaceOf: c
 	}) === o);
 }
-var ja = 1 / 17;
-function Ma(e) {
+var Fa = 1 / 17;
+function Ia(e) {
 	let { context: t } = e, n = /* @__PURE__ */ new Map(), r, i, a = 0, o;
 	function s(e) {
-		return !t.stagedOperations.byId.has(e) && !($o(t) && t.recordCache.has(e));
+		return !t.stagedOperations.byId.has(e) && !(rs(t) && t.recordCache.has(e));
 	}
 	async function l(e) {
 		if (r) return r;
@@ -9215,9 +9289,9 @@ function Ma(e) {
 			if (o === void 0) {
 				t.perf.count("core::store::count");
 				let e = await t.store.count(t.documentId);
-				o = Math.max(128, Math.ceil(e * ja));
+				o = Math.max(128, Math.ceil(e * Fa));
 			}
-			if (!(a + e <= o)) return r = await Ea(t), r;
+			if (!(a + e <= o)) return r = await Aa(t), r;
 		}
 	}
 	function u(e, t) {
@@ -9271,7 +9345,7 @@ function Ma(e) {
 	}
 	async function m(e) {
 		let n = r ?? await l(1);
-		return n ? p(n, e) : (a++, Ca({
+		return n ? p(n, e) : (a++, Da({
 			context: t,
 			tagName: e
 		}));
@@ -9282,30 +9356,30 @@ function Ma(e) {
 		byTag: m
 	};
 }
-async function Na(e) {
-	let { context: t, ref: n, options: r } = e, { collect: i, omit: a } = r, o = Pa({
+async function La(e) {
+	let { context: t, ref: n, options: r } = e, { collect: i, omit: a } = r, o = Ra({
 		omit: a,
 		dialecteConfig: t.dialecteConfig
-	}), s = La(i), c = /* @__PURE__ */ new Map();
+	}), s = Va(i), c = /* @__PURE__ */ new Map();
 	for (let e of s.allTags) c.set(e, /* @__PURE__ */ new Map());
-	let l = Ma({ context: t }), u = await l.get(n);
-	return u && (s.mode === "flat" ? await Ba({
+	let l = Ia({ context: t }), u = await l.get(n);
+	return u && (s.mode === "flat" ? await Wa({
 		context: t,
 		source: l,
 		root: u,
 		collectSpec: s,
 		omitSpec: o,
 		collected: c
-	}) : await Ua({
+	}) : await qa({
 		context: t,
 		source: l,
 		record: u,
 		pathNodes: s.paths,
 		omitSpec: o,
 		collected: c
-	})), Ka(c);
+	})), Xa(c);
 }
-function Pa(e) {
+function Ra(e) {
 	let { omit: t, dialecteConfig: n } = e, r = /* @__PURE__ */ new Set(), i = [];
 	if (!t) return {
 		dialecteConfig: n,
@@ -9326,20 +9400,20 @@ function Pa(e) {
 		conditional: i
 	};
 }
-function Fa(e) {
+function za(e) {
 	return e.unconditional.size > 0 || e.conditional.length > 0;
 }
-function Ia(e) {
+function Ba(e) {
 	let { record: t, omitSpec: n } = e;
 	if (n.unconditional.has(t.tagName)) return !0;
-	for (let e of n.conditional) if (e.tagName === t.tagName && ka({
+	for (let e of n.conditional) if (e.tagName === t.tagName && Na({
 		dialecteConfig: n.dialecteConfig,
 		record: t,
 		attributeFilter: e.where
 	})) return !0;
 	return !1;
 }
-function La(e) {
+function Va(e) {
 	if (typeof e == "string") return {
 		mode: "flat",
 		targets: [{ tagName: e }],
@@ -9361,16 +9435,16 @@ function La(e) {
 	let t = /* @__PURE__ */ new Set();
 	return {
 		mode: "path",
-		paths: Ra(e, t),
+		paths: Ha(e, t),
 		allTags: t
 	};
 }
-function Ra(e, t) {
+function Ha(e, t) {
 	let n = [];
 	for (let [r, i] of Object.entries(e)) {
 		if (r === "where") continue;
 		t.add(r);
-		let e = za({
+		let e = Ua({
 			tagName: r,
 			value: i,
 			allTags: t
@@ -9379,7 +9453,7 @@ function Ra(e, t) {
 	}
 	return n;
 }
-function za(e) {
+function Ua(e) {
 	let { tagName: t, value: n, allTags: r } = e;
 	if (n === !0) return {
 		tagName: t,
@@ -9400,12 +9474,12 @@ function za(e) {
 	return {
 		tagName: t,
 		where: a,
-		children: Ra(s, r),
+		children: Ha(s, r),
 		isLeaf: !1
 	};
 }
-async function Ba(e) {
-	let { context: t, source: n, root: r, collectSpec: i, omitSpec: a, collected: o } = e, s = !r.parent && !Fa(a), c = Ha({
+async function Wa(e) {
+	let { context: t, source: n, root: r, collectSpec: i, omitSpec: a, collected: o } = e, s = !r.parent && !za(a), c = Ka({
 		source: n,
 		rootId: r.id,
 		omitSpec: a
@@ -9413,28 +9487,28 @@ async function Ba(e) {
 	for (let e of i.targets) {
 		if (a.unconditional.has(e.tagName)) continue;
 		let r = await n.byTag(e.tagName);
-		for (let n of r) Va({
+		for (let n of r) Ga({
 			dialecteConfig: t.dialecteConfig,
 			record: n,
 			where: e.where
-		}) && (s ? !Ia({
+		}) && (s ? !Ba({
 			record: n,
 			omitSpec: a
 		}) : await c.isUnderRoot(n)) && o.get(e.tagName).set(n.id, n);
 	}
 }
-function Va(e) {
+function Ga(e) {
 	let { dialecteConfig: t, record: n, where: r } = e;
-	return !r || ka({
+	return !r || Na({
 		dialecteConfig: t,
 		record: n,
 		attributeFilter: r
 	});
 }
-function Ha(e) {
+function Ka(e) {
 	let { source: t, rootId: n, omitSpec: r } = e, i = /* @__PURE__ */ new Map();
 	async function a(e) {
-		if (Ia({
+		if (Ba({
 			record: e,
 			omitSpec: r
 		})) return !1;
@@ -9456,7 +9530,7 @@ function Ha(e) {
 				break;
 			}
 			let l = await t.get(N(e));
-			if (!l || Ia({
+			if (!l || Ba({
 				record: l,
 				omitSpec: r
 			})) {
@@ -9470,12 +9544,12 @@ function Ha(e) {
 	}
 	return { isUnderRoot: a };
 }
-async function Ua(e) {
+async function qa(e) {
 	let { context: t, source: n, record: r, pathNodes: i, omitSpec: a, collected: o } = e;
 	if (!r.children?.length) return;
 	let s = new Set(i.map((e) => e.tagName));
 	for (let e of i) {
-		let i = await Wa({
+		let i = await Ja({
 			context: t,
 			source: n,
 			record: r,
@@ -9484,7 +9558,7 @@ async function Ua(e) {
 			omitSpec: a,
 			stopAtTagNames: s
 		});
-		for (let r of i) o.get(e.tagName).set(r.id, r), !e.isLeaf && e.children.length > 0 && await Ua({
+		for (let r of i) o.get(e.tagName).set(r.id, r), !e.isLeaf && e.children.length > 0 && await qa({
 			context: t,
 			source: n,
 			record: r,
@@ -9494,23 +9568,23 @@ async function Ua(e) {
 		});
 	}
 }
-async function Wa(e) {
+async function Ja(e) {
 	let { context: t, source: n, record: r, tagName: i, where: a, omitSpec: o, stopAtTagNames: s } = e, c = [];
 	if (!r.children?.length) return c;
-	let l = [], u = await Ga({
+	let l = [], u = await Ya({
 		source: n,
 		record: r,
 		omitSpec: o
 	});
 	for (l.push(...u); l.length > 0;) {
 		let e = l.shift();
-		if (e.tagName === i) Va({
+		if (e.tagName === i) Ga({
 			dialecteConfig: t.dialecteConfig,
 			record: e,
 			where: a
 		}) && c.push(e);
 		else if (!(s.has(e.tagName) && e.tagName !== i) && e.children?.length) {
-			let t = await Ga({
+			let t = await Ya({
 				source: n,
 				record: e,
 				omitSpec: o
@@ -9520,22 +9594,22 @@ async function Wa(e) {
 	}
 	return c;
 }
-async function Ga(e) {
+async function Ya(e) {
 	let { source: t, record: n, omitSpec: r } = e;
 	if (!n.children?.length) return [];
 	let i = n.children.filter((e) => !r.unconditional.has(e.tagName));
-	return i.length ? (await t.getMany(i.map((e) => N(e)))).filter((e) => e !== void 0 && !Ia({
+	return i.length ? (await t.getMany(i.map((e) => N(e)))).filter((e) => e !== void 0 && !Ba({
 		record: e,
 		omitSpec: r
 	})) : [];
 }
-function Ka(e) {
+function Xa(e) {
 	let t = {};
 	for (let [n, r] of e.entries()) t[n] = Array.from(r.values());
 	return t;
 }
-async function qa(e) {
-	let { context: t, ref: n, name: r, namespace: i, defaults: a } = e, o = await xa({
+async function Za(e) {
+	let { context: t, ref: n, name: r, namespace: i, defaults: a } = e, o = await Sa({
 		context: t,
 		ref: n
 	});
@@ -9549,8 +9623,8 @@ async function qa(e) {
 		defaults: a
 	});
 }
-async function Ja(e) {
-	let { context: t, ref: n, name: r, namespace: i, defaults: a } = e, o = await xa({
+async function Qa(e) {
+	let { context: t, ref: n, name: r, namespace: i, defaults: a } = e, o = await Sa({
 		context: t,
 		ref: n
 	});
@@ -9565,8 +9639,8 @@ async function Ja(e) {
 		fullObject: !0
 	});
 }
-async function Ya(e) {
-	let { context: t, ref: n, namespace: r, defaults: i } = e, a = await xa({
+async function $a(e) {
+	let { context: t, ref: n, namespace: r, defaults: i } = e, a = await Sa({
 		context: t,
 		ref: n
 	});
@@ -9579,8 +9653,8 @@ async function Ya(e) {
 		defaults: i
 	});
 }
-async function Xa(e) {
-	let { context: t, ref: n, defaults: r } = e, i = await xa({
+async function eo(e) {
+	let { context: t, ref: n, defaults: r } = e, i = await Sa({
 		context: t,
 		ref: n
 	});
@@ -9593,7 +9667,7 @@ async function Xa(e) {
 		fullObject: !0
 	});
 }
-async function Za(e) {
+async function to(e) {
 	let { context: t, ref: n } = e, r = await Q({
 		context: t,
 		ref: n
@@ -9603,7 +9677,7 @@ async function Za(e) {
 		record: r
 	});
 }
-function Qa(e) {
+function no(e) {
 	let { tree: t, unwrapTagNames: n } = e;
 	function r(e) {
 		return e.flatMap((e) => n.includes(e.tagName) ? r(e.tree) : [{
@@ -9616,7 +9690,7 @@ function Qa(e) {
 		tree: r(t.tree)
 	};
 }
-function $a(e) {
+function ro(e) {
 	let { omit: t, dialecteConfig: n } = e, r = /* @__PURE__ */ new Set(), i = [];
 	if (!t) return {
 		dialecteConfig: n,
@@ -9641,38 +9715,38 @@ function $a(e) {
 		conditional: i
 	};
 }
-function eo(e) {
+function io(e) {
 	let { record: t, compiledOmit: n } = e;
-	return n.unconditional.has(t.tagName) ? !0 : n.conditional.some((e) => e.scope === "self" && e.tagName === t.tagName && ka({
+	return n.unconditional.has(t.tagName) ? !0 : n.conditional.some((e) => e.scope === "self" && e.tagName === t.tagName && Na({
 		dialecteConfig: n.dialecteConfig,
 		record: t,
 		attributeFilter: e.where
 	}));
 }
-function to(e) {
+function ao(e) {
 	let { record: t, compiledOmit: n } = e;
-	return n.conditional.some((e) => e.scope === "children" && e.tagName === t.tagName && ka({
+	return n.conditional.some((e) => e.scope === "children" && e.tagName === t.tagName && Na({
 		dialecteConfig: n.dialecteConfig,
 		record: t,
 		attributeFilter: e.where
 	}));
 }
-function no(e) {
+function oo(e) {
 	let { tree: t, omit: n, dialecteConfig: r } = e;
 	if (!n?.length) return t;
-	let i = $a({
+	let i = ro({
 		omit: n,
 		dialecteConfig: r
 	});
 	function a(e) {
-		if (to({
+		if (ao({
 			record: e,
 			compiledOmit: i
 		})) return {
 			...e,
 			tree: []
 		};
-		let t = e.tree.filter((e) => !eo({
+		let t = e.tree.filter((e) => !io({
 			record: e,
 			compiledOmit: i
 		})).map((e) => a(e));
@@ -9683,7 +9757,7 @@ function no(e) {
 	}
 	return a(t);
 }
-function ro(e) {
+function so(e) {
 	let { tree: t, childrenConfig: n, definition: r } = e;
 	function i(e) {
 		if (e.tree.length === 0) return e;
@@ -9700,16 +9774,16 @@ function ro(e) {
 	}
 	return i(t);
 }
-async function io(e) {
-	let { context: t, ref: n, options: r = {}, dialecteConfig: i } = e, { select: a, omit: o, unwrap: s, depth: c } = r, l = c !== void 0 && n.id !== void 0 && t.stagedOperations.log.length === 0 ? await ao(t, n, c) : await Ea(t), u = oo(l, n);
+async function co(e) {
+	let { context: t, ref: n, options: r = {}, dialecteConfig: i } = e, { select: a, omit: o, unwrap: s, depth: c } = r, l = c !== void 0 && n.id !== void 0 && t.stagedOperations.log.length === 0 ? await lo(t, n, c) : await Aa(t), u = uo(l, n);
 	b(u, {
 		detail: "No record found for provided ref",
 		key: "ELEMENT_NOT_FOUND"
 	});
-	let d = $a({
+	let d = ro({
 		omit: o,
 		dialecteConfig: t.dialecteConfig
-	}), f = t.dialecteConfig.transparentElements, p = so({
+	}), f = t.dialecteConfig.transparentElements, p = fo({
 		recordsById: l,
 		record: u,
 		select: a,
@@ -9720,8 +9794,8 @@ async function io(e) {
 	});
 	if (!p) return pe({ record: u });
 	let m = s ?? (f?.length ? f : void 0);
-	return ro({
-		tree: m ? Qa({
+	return so({
+		tree: m ? no({
 			tree: p,
 			unwrapTagNames: m
 		}) : p,
@@ -9729,7 +9803,7 @@ async function io(e) {
 		definition: t.dialecteConfig.definition
 	});
 }
-async function ao(e, t, n) {
+async function lo(e, t, n) {
 	let r = /* @__PURE__ */ new Map();
 	if (t.id === void 0) return r;
 	e.perf.count("core::store::get");
@@ -9753,28 +9827,28 @@ async function ao(e, t, n) {
 	}
 	return r;
 }
-function oo(e, t) {
+function uo(e, t) {
 	if (t.id !== void 0) {
 		let n = e.get(t.id);
 		return n?.tagName === t.tagName ? n : void 0;
 	}
 	for (let n of e.values()) if (n.tagName === t.tagName) return n;
 }
-function so(e) {
+function fo(e) {
 	let { recordsById: t, record: n, select: r, compiledOmit: i, dialecteConfig: a, transparentElements: o } = e;
-	return e.remainingDepth <= 0 || to({
+	return e.remainingDepth <= 0 || ao({
 		record: n,
 		compiledOmit: i
 	}) ? pe({ record: n }) : pe({
 		record: n,
-		tree: co({
+		tree: po({
 			recordsById: t,
 			record: n,
 			select: r,
 			compiledOmit: i,
 			dialecteConfig: a,
 			transparentElements: o
-		}).map(({ record: n, select: r }) => so({
+		}).map(({ record: n, select: r }) => fo({
 			recordsById: t,
 			record: n,
 			select: r,
@@ -9785,26 +9859,26 @@ function so(e) {
 		})).filter((e) => e !== null)
 	});
 }
-function co(e) {
+function po(e) {
 	let { recordsById: t, record: n, select: r, compiledOmit: i, dialecteConfig: a, transparentElements: o } = e;
 	if (!n.children?.length) return [];
-	let s = r ? fo(r) : void 0;
+	let s = r ? go(r) : void 0;
 	if (s && r && a && r.recursive !== !1) {
 		let e = n.tagName, t = a.children[e], i = r[e] !== void 0;
 		t?.includes(e) && !i && s.add(e);
 	}
-	let c = n.children.filter((e) => lo({
+	let c = n.children.filter((e) => mo({
 		tagName: e.tagName,
 		compiledOmit: i,
 		selectKeys: s,
 		transparentElements: o
 	}));
 	if (!c.length) return [];
-	let l = c.map((e) => t.get(e.id)).filter((e) => e !== void 0).filter((e) => !eo({
+	let l = c.map((e) => t.get(e.id)).filter((e) => e !== void 0).filter((e) => !io({
 		record: e,
 		compiledOmit: i
 	}));
-	return po({
+	return _o({
 		filterConfig: i.dialecteConfig,
 		children: l,
 		select: r,
@@ -9813,17 +9887,17 @@ function co(e) {
 		transparentElements: o
 	});
 }
-function lo(e) {
+function mo(e) {
 	let { tagName: t, compiledOmit: n, selectKeys: r, transparentElements: i } = e;
 	return n.unconditional.has(t) ? !1 : r && !r.has(t) ? !!i?.includes(t) : !0;
 }
-var uo = /* @__PURE__ */ new Set(["where", "recursive"]);
-function fo(e) {
+var ho = /* @__PURE__ */ new Set(["where", "recursive"]);
+function go(e) {
 	let t = /* @__PURE__ */ new Set();
-	for (let n of Object.keys(e)) uo.has(n) || t.add(n);
+	for (let n of Object.keys(e)) ho.has(n) || t.add(n);
 	return t;
 }
-function po(e) {
+function _o(e) {
 	let { children: t, select: n, record: r, dialecteConfig: i, filterConfig: a, transparentElements: o } = e;
 	if (!n) return t.map((e) => ({
 		record: e,
@@ -9840,7 +9914,7 @@ function po(e) {
 			continue;
 		}
 		if (t === void 0 && e.tagName === r.tagName) {
-			let t = mo({
+			let t = vo({
 				child: e,
 				select: n,
 				dialecteConfig: i,
@@ -9859,7 +9933,7 @@ function po(e) {
 			});
 			continue;
 		}
-		let c = ho({
+		let c = yo({
 			child: e,
 			entry: t,
 			parentRecord: r,
@@ -9869,9 +9943,9 @@ function po(e) {
 	}
 	return s;
 }
-function mo(e) {
+function vo(e) {
 	let { child: t, select: n, dialecteConfig: r, filterConfig: i } = e;
-	if (r && n.recursive !== !1 && r.children[t.tagName]?.includes(t.tagName) && (!n.where || ka({
+	if (r && n.recursive !== !1 && r.children[t.tagName]?.includes(t.tagName) && (!n.where || Na({
 		dialecteConfig: i,
 		record: t,
 		attributeFilter: n.where
@@ -9880,9 +9954,9 @@ function mo(e) {
 		select: n
 	};
 }
-function ho(e) {
+function yo(e) {
 	let { child: t, entry: n, parentRecord: r, filterConfig: i } = e, a = n;
-	if (!a.where || ka({
+	if (!a.where || Na({
 		dialecteConfig: i,
 		record: t,
 		attributeFilter: a.where
@@ -9899,7 +9973,7 @@ function ho(e) {
 		}
 		return a.recursive ? {
 			record: t,
-			select: go(a, t.tagName)
+			select: bo(a, t.tagName)
 		} : t.tagName === r.tagName ? {
 			record: t,
 			select: {
@@ -9912,12 +9986,12 @@ function ho(e) {
 		};
 	}
 }
-function go(e, t) {
+function bo(e, t) {
 	return e[t], e;
 }
-async function _o(e) {
+async function xo(e) {
 	let { context: t, ref: n, ancestors: r = 0, depth: i, includeDeleted: a = !1 } = e;
-	if (!n && i === void 0) return vo({
+	if (!n && i === void 0) return So({
 		context: t,
 		includeDeleted: a
 	});
@@ -9946,7 +10020,7 @@ async function _o(e) {
 	await m(h, 0);
 	let _ = Math.max(r, +!!s);
 	if (_ > 0) {
-		let e = await Da({
+		let e = await ja({
 			context: t,
 			ref: l,
 			options: {
@@ -9970,13 +10044,13 @@ async function _o(e) {
 			}
 		}
 	}
-	return yo({
+	return Co({
 		live: u,
 		deletedById: d,
 		rootId: g
 	});
 }
-async function vo(e) {
+async function So(e) {
 	let { context: t, includeDeleted: n = !1 } = e, { live: r, deleted: i } = ya({
 		rawRecords: await t.store.getByDocumentId(t.documentId),
 		stagedOperations: t.stagedOperations,
@@ -9989,13 +10063,13 @@ async function vo(e) {
 	return b(a, {
 		key: "ROOT_NOT_FOUND",
 		detail: `No ${t.dialecteConfig.rootElementName} root element found in document`
-	}), yo({
+	}), Co({
 		live: r,
 		deletedById: new Map(i.map((e) => [e.id, e])),
 		rootId: a
 	});
 }
-function yo(e) {
+function Co(e) {
 	let { live: t, deletedById: n, rootId: r } = e, i = new Set(t.keys()), a = Array.from(t.values()).map((e) => ({
 		...e,
 		children: e.children.filter((e) => i.has(e.id))
@@ -10009,7 +10083,7 @@ function yo(e) {
 		rootId: r
 	};
 }
-function bo(e) {
+function wo(e) {
 	let { liveRecords: t, deletedRecords: n, rootId: r } = e, i = new Map(t.map((e) => [e.id, e])), a = new Map(n.map((e) => [e.id, e])), o = /* @__PURE__ */ new Map();
 	for (let e of n) {
 		let t = e.parent?.id;
@@ -10031,10 +10105,10 @@ function bo(e) {
 	}
 	return c(s, "live");
 }
-function xo(e) {
+function To(e) {
 	let { records: t, config: n, rootId: r, indent: i, declareNamespaces: a, includeXmlDeclaration: o, withDatabaseIds: s } = e, c = /* @__PURE__ */ new Map();
 	for (let e of t) c.set(e.id, e);
-	let l = r ? c.get(r) : So({
+	let l = r ? c.get(r) : Eo({
 		records: t,
 		config: n
 	});
@@ -10050,7 +10124,7 @@ function xo(e) {
 		includeXmlDeclaration: o,
 		withDatabaseIds: s
 	});
-	Co({
+	Do({
 		writer: u,
 		record: l,
 		index: c,
@@ -10059,14 +10133,14 @@ function xo(e) {
 	let d = u.take();
 	return u.head() + d;
 }
-function So(e) {
+function Eo(e) {
 	let { records: t, config: n } = e;
 	return t.find((e) => K({
 		record: e,
 		config: n
 	}));
 }
-function Co(e) {
+function Do(e) {
 	let { writer: t, record: n, index: r, config: i } = e;
 	t.openElement({ record: n });
 	let a = u({
@@ -10084,7 +10158,7 @@ function Co(e) {
 				tagName: n.tagName,
 				id: n.id
 			}
-		}), Co({
+		}), Do({
 			writer: t,
 			record: a,
 			index: r,
@@ -10093,8 +10167,8 @@ function Co(e) {
 	}
 	t.closeElement();
 }
-async function wo(e) {
-	let { context: t, options: n = {} } = e, { ref: r, ancestors: i, siblings: a, depth: o, includeDeleted: s, omit: c, unwrap: l, as: u = "tree" } = n, d = await _o({
+async function Oo(e) {
+	let { context: t, options: n = {} } = e, { ref: r, ancestors: i, siblings: a, depth: o, includeDeleted: s, omit: c, unwrap: l, as: u = "tree" } = n, d = await xo({
 		context: t,
 		ref: r ? N(r) : void 0,
 		ancestors: i,
@@ -10102,35 +10176,35 @@ async function wo(e) {
 		depth: o,
 		includeDeleted: s
 	});
-	if (u === "xml") return Eo(t, d, n.declareNamespaces, n.includeXmlDeclaration);
-	let f = To(t, d, {
+	if (u === "xml") return Ao(t, d, n.declareNamespaces, n.includeXmlDeclaration);
+	let f = ko(t, d, {
 		omit: c,
 		unwrap: l
 	});
 	return u === "tree" ? f : {
 		tree: f,
-		xmlString: Eo(t, d, n.declareNamespaces, n.includeXmlDeclaration)
+		xmlString: Ao(t, d, n.declareNamespaces, n.includeXmlDeclaration)
 	};
 }
-function To(e, t, n) {
-	let r = bo(t);
-	r = no({
+function ko(e, t, n) {
+	let r = wo(t);
+	r = oo({
 		tree: r,
 		omit: n.omit,
 		dialecteConfig: e.dialecteConfig
 	});
 	let i = e.dialecteConfig.transparentElements, a = n.unwrap ?? (i?.length ? [...i] : void 0);
-	return a?.length && (r = Qa({
+	return a?.length && (r = no({
 		tree: r,
 		unwrapTagNames: a
-	})), r = ro({
+	})), r = so({
 		tree: r,
 		childrenConfig: e.dialecteConfig.children,
 		definition: e.dialecteConfig.definition
 	}), r;
 }
-function Eo(e, t, n, r) {
-	return xo({
+function Ao(e, t, n, r) {
+	return To({
 		records: t.liveRecords,
 		config: e.dialecteConfig,
 		rootId: t.rootId,
@@ -10138,7 +10212,7 @@ function Eo(e, t, n, r) {
 		includeXmlDeclaration: r
 	});
 }
-var Do = class {
+var jo = class {
 	constructor(e, t) {
 		this.getContext = e, this.dialecteConfig = t;
 	}
@@ -10149,44 +10223,44 @@ var Do = class {
 		});
 	}
 	async getDefinition(e) {
-		return Za({
+		return to({
 			context: this.getContext(),
 			ref: N(e)
 		});
 	}
 	async getRecords(e) {
-		return Sa({
+		return Ca({
 			context: this.getContext(),
 			refs: e
 		});
 	}
 	async getChild(e, t) {
-		return wa({
+		return Oa({
 			context: this.getContext(),
 			ref: N(e),
 			tagName: t
 		});
 	}
 	async getChildren(e, t) {
-		return Ta({
+		return ka({
 			context: this.getContext(),
 			ref: N(e),
 			tagName: t
 		});
 	}
 	async getRecordsByTagName(e) {
-		return Ca({
+		return Da({
 			context: this.getContext(),
 			tagName: e
 		});
 	}
 	async getAttribute(e, t) {
 		let n = e, { fullObject: r } = t;
-		return r ? Ja({
+		return r ? Qa({
 			context: this.getContext(),
 			ref: n,
 			...t
-		}) : qa({
+		}) : Za({
 			context: this.getContext(),
 			ref: n,
 			...t
@@ -10194,18 +10268,18 @@ var Do = class {
 	}
 	async getAttributes(e, t) {
 		let n = e, { fullObject: r } = t || {};
-		return r ? Xa({
+		return r ? eo({
 			context: this.getContext(),
 			ref: n,
 			...t
-		}) : Ya({
+		}) : $a({
 			context: this.getContext(),
 			ref: n,
 			...t
 		});
 	}
 	async getTree(e, t) {
-		return io({
+		return co({
 			context: this.getContext(),
 			ref: N(e),
 			options: t,
@@ -10213,33 +10287,33 @@ var Do = class {
 		});
 	}
 	async getSnapshot(e) {
-		return wo({
+		return Oo({
 			context: this.getContext(),
 			options: e
 		});
 	}
 	async findDescendants(e) {
 		let t = N(e), n = this.dialecteConfig.descendants[t.tagName] ?? [];
-		return Na({
+		return La({
 			context: this.getContext(),
 			ref: t,
 			options: { collect: n }
 		});
 	}
 	async findAncestors(e) {
-		return e ? Da({
+		return e ? ja({
 			context: this.getContext(),
 			ref: N(e)
 		}) : [];
 	}
 	async findByAttributes(e) {
-		return Oa({
+		return Ma({
 			context: this.getContext(),
 			tagName: e.tagName,
 			attributes: e.attributes
 		});
 	}
-}, Oo = class {
+}, Mo = class {
 	constructor(e, t, n, r = kt) {
 		this.store = e, this.dialecteConfig = t, this.documentId = n, this._perf = r;
 	}
@@ -10247,7 +10321,7 @@ var Do = class {
 		return this._perf;
 	}
 	get any() {
-		return this._any ??= new Do(() => this.context, this.dialecteConfig);
+		return this._any ??= new jo(() => this.context, this.dialecteConfig);
 	}
 	getOperations() {
 		return ma();
@@ -10287,34 +10361,34 @@ var Do = class {
 		});
 	}
 	async getDefinition(e) {
-		return Za({
+		return to({
 			context: this.context,
 			ref: N(e)
 		});
 	}
 	async getRecords(e) {
 		let t = e.map((e) => N(e));
-		return Sa({
+		return Ca({
 			context: this.context,
 			refs: t
 		});
 	}
 	async getChild(e, t) {
-		if (e) return wa({
+		if (e) return Oa({
 			context: this.context,
 			ref: N(e),
 			tagName: t
 		});
 	}
 	async getChildren(e, t) {
-		return e ? Ta({
+		return e ? ka({
 			context: this.context,
 			ref: N(e),
 			tagName: t
 		}) : [];
 	}
 	async getRecordsByTagName(e) {
-		return Ca({
+		return Da({
 			context: this.context,
 			tagName: e
 		});
@@ -10323,27 +10397,27 @@ var Do = class {
 		let n = N(e);
 		if (!t) {
 			let e = this.dialecteConfig.descendants[n.tagName] ?? [];
-			return Na({
+			return La({
 				context: this.context,
 				ref: n,
 				options: { collect: e }
 			});
 		}
-		return Na({
+		return La({
 			context: this.context,
 			ref: n,
 			options: t
 		});
 	}
 	async findAncestors(e, t) {
-		return e ? Da({
+		return e ? ja({
 			context: this.context,
 			ref: N(e),
 			options: t
 		}) : [];
 	}
 	async getTree(e, t) {
-		return io({
+		return co({
 			context: this.context,
 			ref: N(e),
 			options: t,
@@ -10351,18 +10425,18 @@ var Do = class {
 		});
 	}
 	async getSnapshot(e) {
-		return wo({
+		return Oo({
 			context: this.context,
 			options: e
 		});
 	}
 	async getAttribute(e, t) {
 		let { fullObject: n } = t;
-		return n ? Ja({
+		return n ? Qa({
 			context: this.context,
 			ref: e,
 			...t
-		}) : qa({
+		}) : Za({
 			context: this.context,
 			ref: e,
 			...t
@@ -10370,24 +10444,24 @@ var Do = class {
 	}
 	async getAttributes(e, t) {
 		let { fullObject: n } = t || {};
-		return n ? Xa({
+		return n ? eo({
 			context: this.context,
 			ref: e,
 			...t
-		}) : Ya({
+		}) : $a({
 			context: this.context,
 			ref: e,
 			...t
 		});
 	}
 	async findByAttributes(e) {
-		return Oa({
+		return Ma({
 			context: this.context,
 			...e
 		});
 	}
 };
-function ko(e) {
+function No(e) {
 	let { context: t, status: n, record: r, oldRecord: i, newRecord: a } = e, o, s, c;
 	if (r && (o = A(r)), i && (s = A(i)), a && (c = A(a)), n === "created") {
 		b(o, {
@@ -10424,34 +10498,34 @@ function ko(e) {
 		t.stagedOperations.log.push(e), t.stagedOperations.byId.set(o.id, e);
 	}
 }
-function Ao(e) {
+function Po(e) {
 	let { context: t, operations: n } = e;
 	for (let e of n) switch (e.status) {
 		case "created":
-			ko({
+			No({
 				context: t,
 				status: "created",
 				record: e.newRecord
 			});
 			break;
 		case "updated":
-			ko({
+			No({
 				context: t,
 				status: "updated",
 				oldRecord: e.oldRecord,
 				newRecord: e.newRecord
 			});
 			break;
-		case "deleted": ko({
+		case "deleted": No({
 			context: t,
 			status: "deleted",
 			record: e.oldRecord
 		});
 	}
 }
-async function jo(e) {
+async function Fo(e) {
 	let { dialecteConfig: t, hooks: n, context: r, query: i, parentRef: a, params: o } = e, { id: s, tagName: c, attributes: l, namespace: u, value: d } = o;
-	Mo({
+	Io({
 		attributes: l,
 		tagName: c
 	});
@@ -10487,7 +10561,7 @@ async function jo(e) {
 	}), ye({
 		dialecteConfig: t,
 		record: p
-	}), ko({
+	}), No({
 		context: r,
 		status: "created",
 		record: p
@@ -10499,12 +10573,12 @@ async function jo(e) {
 			tagName: p.tagName
 		}]
 	};
-	return ko({
+	return No({
 		context: r,
 		status: "updated",
 		oldRecord: f,
 		newRecord: m
-	}), n?.afterCreated && Ao({
+	}), n?.afterCreated && Po({
 		context: r,
 		operations: await n.afterCreated({
 			childRecord: p,
@@ -10513,7 +10587,7 @@ async function jo(e) {
 		})
 	}), p;
 }
-function Mo(e) {
+function Io(e) {
 	let { attributes: t, tagName: n } = e;
 	if (t && Array.isArray(t)) for (let e of t) {
 		let { name: t, namespace: r } = e;
@@ -10523,12 +10597,12 @@ function Mo(e) {
 		});
 	}
 }
-async function No(e) {
+async function Lo(e) {
 	let { dialecteConfig: t, hooks: n, context: r, query: i, parentRef: a, record: o } = e, s = [];
 	r.perf.start("core::deepClone"), r.perf.start("core::deepClone::countNodes");
-	let c = Po(o);
+	let c = Ro(o);
 	r.perf.stop("core::deepClone::countNodes"), r.progress.plan({ steps: c });
-	let l = await Fo({
+	let l = await zo({
 		dialecteConfig: t,
 		hooks: n,
 		context: r,
@@ -10542,19 +10616,19 @@ async function No(e) {
 		mappings: s
 	};
 }
-function Po(e) {
+function Ro(e) {
 	let t = 1;
-	for (let n of e.tree) t += Po(n);
+	for (let n of e.tree) t += Ro(n);
 	return t;
 }
-async function Fo(e) {
+async function zo(e) {
 	let { dialecteConfig: t, hooks: n, context: r, query: i, parentRef: a, record: o, mappings: s } = e, c = !0, l = o;
 	if (n?.beforeClone) {
 		let e = n.beforeClone({ record: o });
 		c = e.shouldBeCloned, l = e.transformedRecord;
 	}
 	if (!c) return l;
-	let u = await jo({
+	let u = await Fo({
 		dialecteConfig: t,
 		hooks: n,
 		context: r,
@@ -10571,7 +10645,7 @@ async function Fo(e) {
 		source: Object.assign(d, { attributes: [...o.attributes] }),
 		target: N(u)
 	}), r.progress.nextStep();
-	for (let e of l.tree) await Fo({
+	for (let e of l.tree) await zo({
 		dialecteConfig: t,
 		hooks: n,
 		context: r,
@@ -10582,7 +10656,7 @@ async function Fo(e) {
 	});
 	return u;
 }
-async function Io(e) {
+async function Bo(e) {
 	let { hooks: t, context: n, query: r, ref: i } = e, a = await Q({
 		context: n,
 		ref: i
@@ -10594,16 +10668,16 @@ async function Io(e) {
 	}), b(a.parent, {
 		detail: "Cannot delete root element",
 		key: "PROTECTED_ROOT"
-	}), t?.beforeDelete && Ao({
+	}), t?.beforeDelete && Po({
 		context: n,
 		operations: await t.beforeDelete({
 			record: a,
 			query: r
 		})
-	}), await Lo({
+	}), await Vo({
 		context: n,
 		record: a
-	}), ko({
+	}), No({
 		context: n,
 		status: "deleted",
 		record: a
@@ -10620,12 +10694,12 @@ async function Io(e) {
 		...o,
 		children: o.children.filter((e) => e.id !== a.id)
 	};
-	return ko({
+	return No({
 		context: n,
 		status: "updated",
 		oldRecord: o,
 		newRecord: s
-	}), t?.afterDelete && Ao({
+	}), t?.afterDelete && Po({
 		context: n,
 		operations: await t.afterDelete({
 			record: a,
@@ -10634,34 +10708,34 @@ async function Io(e) {
 		})
 	}), s;
 }
-async function Lo(e) {
+async function Vo(e) {
 	let { context: t, record: n } = e;
 	for (let e of n.children) {
 		let n = await Q({
 			context: t,
 			ref: N(e)
 		});
-		n && (n.children.length > 0 && await Lo({
+		n && (n.children.length > 0 && await Vo({
 			context: t,
 			record: n
-		}), ko({
+		}), No({
 			context: t,
 			status: "deleted",
 			record: n
 		}));
 	}
 }
-async function Ro(e) {
-	let { dialecteConfig: t, hooks: n, context: r, query: i, parentRef: a, params: o } = e, s = zo(o.attributes), c = await Ta({
+async function Ho(e) {
+	let { dialecteConfig: t, hooks: n, context: r, query: i, parentRef: a, params: o } = e, s = Uo(o.attributes), c = await ka({
 		context: r,
 		ref: a,
 		tagName: o.tagName
 	});
-	return (s ? c.find((e) => ka({
+	return (s ? c.find((e) => Na({
 		dialecteConfig: t,
 		record: e,
 		attributeFilter: s
-	})) : o.id === void 0 ? c[0] : c.find((e) => e.id === o.id)) || jo({
+	})) : o.id === void 0 ? c[0] : c.find((e) => e.id === o.id)) || Fo({
 		dialecteConfig: t,
 		hooks: n,
 		context: r,
@@ -10670,12 +10744,12 @@ async function Ro(e) {
 		params: o
 	});
 }
-function zo(e) {
+function Uo(e) {
 	if (!e) return;
 	let t = Array.isArray(e) ? Object.fromEntries(e.map((e) => [e.name, e.value])) : e;
 	return Object.values(t).some((e) => e !== void 0 && e !== "") ? t : void 0;
 }
-async function Bo(e) {
+async function Wo(e) {
 	let { dialecteConfig: t, hooks: n, context: r, query: i, ref: a, params: o } = e, { attributes: c, value: l } = o, u = await Q({
 		context: r,
 		ref: a
@@ -10715,12 +10789,12 @@ async function Bo(e) {
 		dialecteConfig: t,
 		merged: f,
 		record: m
-	})), Vo(u, m) || (ko({
+	})), Go(u, m) || (No({
 		context: r,
 		status: "updated",
 		oldRecord: u,
 		newRecord: m
-	}), n?.afterUpdated && Ao({
+	}), n?.afterUpdated && Po({
 		context: r,
 		operations: await n.afterUpdated({
 			oldRecord: u,
@@ -10729,18 +10803,18 @@ async function Bo(e) {
 		})
 	})), m;
 }
-function Vo(e, t) {
-	return e.value !== t.value || e.attributes.length !== t.attributes.length ? !1 : e.attributes.every((e, n) => Ho(e, t.attributes[n]));
+function Go(e, t) {
+	return e.value !== t.value || e.attributes.length !== t.attributes.length ? !1 : e.attributes.every((e, n) => Ko(e, t.attributes[n]));
 }
-function Ho(e, t) {
+function Ko(e, t) {
 	return e.name === t.name && e.value === t.value && e.namespace?.uri === t.namespace?.uri && e.namespace?.prefix === t.namespace?.prefix;
 }
-var Uo = class extends Do {
+var qo = class extends jo {
 	constructor(e, t, n, r) {
 		super(e, t), this.hooks = n, this.query = r;
 	}
 	async addChild(e, t) {
-		return jo({
+		return Fo({
 			context: this.getContext(),
 			parentRef: N(e),
 			params: {
@@ -10756,7 +10830,7 @@ var Uo = class extends Do {
 		});
 	}
 	async ensureChild(e, t) {
-		return Ro({
+		return Ho({
 			context: this.getContext(),
 			parentRef: N(e),
 			params: {
@@ -10772,7 +10846,7 @@ var Uo = class extends Do {
 		});
 	}
 	async update(e, t) {
-		return Bo({
+		return Wo({
 			context: this.getContext(),
 			ref: N(e),
 			params: {
@@ -10785,7 +10859,7 @@ var Uo = class extends Do {
 		});
 	}
 	async delete(e) {
-		return Io({
+		return Bo({
 			context: this.getContext(),
 			ref: N(e),
 			hooks: this.hooks,
@@ -10793,7 +10867,7 @@ var Uo = class extends Do {
 		});
 	}
 	async deepClone(e, t) {
-		return await No({
+		return await Lo({
 			dialecteConfig: this.dialecteConfig,
 			hooks: this.hooks,
 			context: this.getContext(),
@@ -10803,9 +10877,9 @@ var Uo = class extends Do {
 		});
 	}
 };
-async function Wo(e) {
+async function Jo(e) {
 	let { hooks: t, context: n, query: r } = e;
-	t?.beforeCommit && Ao({
+	t?.beforeCommit && Po({
 		context: n,
 		operations: await t.beforeCommit({
 			operations: n.stagedOperations.log,
@@ -10813,7 +10887,7 @@ async function Wo(e) {
 		})
 	});
 }
-function Go(e) {
+function Yo(e) {
 	let t = /* @__PURE__ */ new Map();
 	for (let n of e) {
 		let e = (n.status === "deleted" ? n.oldRecord : n.newRecord).id, r = t.get(e);
@@ -10838,15 +10912,15 @@ function Go(e) {
 		deletes: n.filter((e) => e.status === "deleted")
 	};
 }
-function Ko(e) {
+function Xo(e) {
 	return o(e.thrown)?.key === "STORE_CONNECTION_LOST";
 }
-function qo(e) {
+function Zo(e) {
 	let t = o(e.thrown);
 	return t?.key === "STORE_CONNECTION_LOST" && t.meta?.outcome === "not-applied";
 }
-function Jo() {}
-async function Yo(e) {
+function Qo() {}
+async function $o(e) {
 	let { store: t, writeId: n } = e;
 	try {
 		return await t.getWriteOutcome({ writeId: n });
@@ -10854,7 +10928,7 @@ async function Yo(e) {
 		return "unknown";
 	}
 }
-function Xo(e) {
+function es(e) {
 	let { thrown: t, writeId: n, outcome: r, meta: i } = e, a = o(t);
 	return f("STORE_CONNECTION_LOST", {
 		detail: `${a?.detail ?? "The connection was lost"} - the write's outcome: ${r}`,
@@ -10867,10 +10941,10 @@ function Xo(e) {
 		cause: t instanceof Error ? t : void 0
 	});
 }
-async function Zo(e) {
+async function ts(e) {
 	let { stagedOperations: t, store: n, documentId: r, documentState: i, progress: a, perf: o = kt } = e;
 	o.start("core::commit"), o.start("core::commit::merge");
-	let { creates: s, updates: c, deletes: l } = Go(t);
+	let { creates: s, updates: c, deletes: l } = Yo(t);
 	o.stop("core::commit::merge");
 	let u = s.length + c.length + l.length;
 	i.loading = !0, a.plan({ steps: u });
@@ -10893,12 +10967,12 @@ async function Zo(e) {
 				}
 			});
 		} catch (e) {
-			if (!Ko({ thrown: e })) throw e;
-			let t = await Yo({
+			if (!Xo({ thrown: e })) throw e;
+			let t = await $o({
 				store: n,
 				writeId: p
 			});
-			if (t !== "applied") throw Xo({
+			if (t !== "applied") throw es({
 				thrown: e,
 				writeId: p,
 				outcome: t
@@ -10910,7 +10984,7 @@ async function Zo(e) {
 	}
 	i.lastUpdate = Date.now(), a.endPlan(), o.stop("core::commit");
 }
-var Qo = class extends Oo {
+var ns = class extends Mo {
 	constructor(e, t, n, r, i, a = kt, o = () => {}) {
 		super(e, t, n, a), this.stagedOperations = ma(), this.recordCache = /* @__PURE__ */ new Map(), this.stagingFinished = !1, this.documentActivity = r, this.hooks = i, this.progressReporter = fa(r, o);
 	}
@@ -10918,7 +10992,7 @@ var Qo = class extends Oo {
 		return this.progressReporter;
 	}
 	get any() {
-		return this._anyTx ??= new Uo(() => this.context, this.dialecteConfig, this.hooks, this);
+		return this._anyTx ??= new qo(() => this.context, this.dialecteConfig, this.hooks, this);
 	}
 	getOperations() {
 		return this.stagedOperations;
@@ -10935,7 +11009,7 @@ var Qo = class extends Oo {
 		};
 	}
 	async addChild(e, t) {
-		return jo({
+		return Fo({
 			context: this.context,
 			parentRef: N(e),
 			params: t,
@@ -10945,7 +11019,7 @@ var Qo = class extends Oo {
 		});
 	}
 	async ensureChild(e, t) {
-		return Ro({
+		return Ho({
 			context: this.context,
 			parentRef: N(e),
 			params: t,
@@ -10955,7 +11029,7 @@ var Qo = class extends Oo {
 		});
 	}
 	async update(e, t) {
-		return Bo({
+		return Wo({
 			context: this.context,
 			ref: N(e),
 			params: t,
@@ -10965,7 +11039,7 @@ var Qo = class extends Oo {
 		});
 	}
 	async delete(e) {
-		return Io({
+		return Bo({
 			context: this.context,
 			ref: N(e),
 			hooks: this.hooks,
@@ -10973,7 +11047,7 @@ var Qo = class extends Oo {
 		});
 	}
 	async deepClone(e, t) {
-		return No({
+		return Lo({
 			dialecteConfig: this.dialecteConfig,
 			hooks: this.hooks,
 			context: this.context,
@@ -10983,7 +11057,7 @@ var Qo = class extends Oo {
 		});
 	}
 	async finishStaging() {
-		this.stagingFinished || (this.stagingFinished = !0, await Wo({
+		this.stagingFinished || (this.stagingFinished = !0, await Jo({
 			hooks: this.hooks,
 			context: this.context,
 			query: this
@@ -10999,7 +11073,7 @@ var Qo = class extends Oo {
 		this.recordCache.clear();
 	}
 	async commit() {
-		await Zo({
+		await ts({
 			stagedOperations: this.stagedOperations.log,
 			store: this.store,
 			documentId: this.documentId,
@@ -11009,11 +11083,11 @@ var Qo = class extends Oo {
 		});
 	}
 };
-function $o(e) {
+function rs(e) {
 	return e.recordCache !== void 0;
 }
-function es(e) {
-	let { creates: t, updates: n, deletes: r } = Go(e), i = /* @__PURE__ */ new Map();
+function is(e) {
+	let { creates: t, updates: n, deletes: r } = Yo(e), i = /* @__PURE__ */ new Map();
 	for (let e of [
 		...t,
 		...n,
@@ -11033,7 +11107,7 @@ function es(e) {
 		byTag: Object.fromEntries([...i].sort(([e], [t]) => e.localeCompare(t)))
 	};
 }
-var ts = class {
+var as = class {
 	constructor(e, t, n, r, i, a) {
 		this.activeTransactions = 0, this.store = e, this.config = t, this.documentId = n, this.hooks = i, this.extensionsRegistry = r, this.state = a.state, this.channelName = a.channelName, this.broadcast = a.broadcast, this.refreshHistoryStatus = a.refreshHistoryStatus, this.perf = a.perf, this.subscribe = a.subscribeState, this.signalStateChange = a.signalStateChange, this.startWrite = a.startWrite;
 	}
@@ -11054,13 +11128,13 @@ var ts = class {
 		return Object.assign(e, r);
 	}
 	createQuery() {
-		return new Oo(this.store, this.config, this.documentId, this.perf);
+		return new Mo(this.store, this.config, this.documentId, this.perf);
 	}
 	get query() {
 		return this.withQueryExtensions(this.createQuery());
 	}
 	createTransaction() {
-		return new Qo(this.store, this.config, this.documentId, this.state, this.hooks, this.perf, this.signalStateChange);
+		return new ns(this.store, this.config, this.documentId, this.state, this.hooks, this.perf, this.signalStateChange);
 	}
 	async transaction(e, t) {
 		this.assertNoActiveTransaction();
@@ -11086,7 +11160,7 @@ var ts = class {
 		}
 	}
 	async readAgainAfterLoss(e) {
-		Ko(e) && !qo(e) && (await this.refreshHistoryStatus().catch(Jo), this.broadcast({
+		Xo(e) && !Zo(e) && (await this.refreshHistoryStatus().catch(Qo), this.broadcast({
 			type: "commit",
 			documentId: this.documentId,
 			timestamp: Date.now()
@@ -11101,7 +11175,7 @@ var ts = class {
 			throw this.activeTransactions--, this.state.loading = !1, this.reportFailure(e);
 		}
 		this.activeTransactions--, this.state.loading = !1;
-		let r = n.getStagedOperations(), i = es(r), a = !1;
+		let r = n.getStagedOperations(), i = is(r), a = !1;
 		return {
 			operations: r,
 			summary: i,
@@ -11122,7 +11196,7 @@ var ts = class {
 						timestamp: Date.now()
 					});
 				} catch (e) {
-					throw qo({ thrown: e }) && (a = !1), await this.readAgainAfterLoss({ thrown: e }), this.reportFailure(e);
+					throw Zo({ thrown: e }) && (a = !1), await this.readAgainAfterLoss({ thrown: e }), this.reportFailure(e);
 				} finally {
 					this.activeTransactions--, this.state.loading = !1, e();
 				}
@@ -11150,7 +11224,7 @@ var ts = class {
 	async destroy() {
 		await this.store.destroy();
 	}
-}, ns = class {
+}, os = class {
 	get name() {
 		return b(this._name !== void 0, {
 			key: "PROJECT_NOT_OPENED",
@@ -11221,7 +11295,7 @@ var ts = class {
 	}
 	postToldChanges(e) {
 		let { own: t } = e, n = this.ownChangesTold.splice(0), r = t ? n.findIndex(function(e) {
-			return ss({
+			return ds({
 				first: e,
 				second: t
 			});
@@ -11318,7 +11392,7 @@ var ts = class {
 		if (r.length > 0) throw r[0];
 	}
 	constructor(e) {
-		this.closing = !1, this.announcing = !1, this.stopStoreNotices = ls, this.ownChangesTold = [], this.openSettled = !1, this.toldWhileOpening = [], this.resyncWhenSettled = !1, this.pendingBroadcastWork = /* @__PURE__ */ new Set(), this.importChain = Promise.resolve(), this.importsInFlight = /* @__PURE__ */ new Set(), this.lifecycle = Promise.resolve(), this.opens = 0, this.lifecycleTurns = 0, this.writes = We(), this.state = {
+		this.closing = !1, this.announcing = !1, this.stopStoreNotices = ps, this.ownChangesTold = [], this.openSettled = !1, this.toldWhileOpening = [], this.resyncWhenSettled = !1, this.pendingBroadcastWork = /* @__PURE__ */ new Set(), this.importChain = Promise.resolve(), this.importsInFlight = /* @__PURE__ */ new Set(), this.lifecycle = Promise.resolve(), this.opens = 0, this.lifecycleTurns = 0, this.writes = We(), this.state = {
 			documents: /* @__PURE__ */ new Map(),
 			activeTransactions: 0
 		}, this.stateSubscribers = /* @__PURE__ */ new Map();
@@ -11343,7 +11417,7 @@ var ts = class {
 				this.onChannelHeard(e.data);
 			}), await n.open();
 		} catch (e) {
-			throw this.stopListeningToStore(), r?.close(), this.refusedStore = n, await is({ store: n }), e;
+			throw this.stopListeningToStore(), r?.close(), this.refusedStore = n, await cs({ store: n }), e;
 		}
 		this._channel = r, this._store = n, this.opens += 1, this.closing = this.lifecycleTurns > 1;
 		try {
@@ -11354,7 +11428,7 @@ var ts = class {
 				documentId: e.id
 			})));
 		} catch (e) {
-			throw this.closing = !0, this.stopListeningToStore(), r.close(), this._channel = void 0, this._store = void 0, this.state.documents.clear(), this.refusedStore = n, await is({ store: n }), e;
+			throw this.closing = !0, this.stopListeningToStore(), r.close(), this._channel = void 0, this._store = void 0, this.state.documents.clear(), this.refusedStore = n, await cs({ store: n }), e;
 		}
 		this.openSettled = !0;
 		let i = this.toldWhileOpening.splice(0), a = this.resyncWhenSettled;
@@ -11408,11 +11482,11 @@ var ts = class {
 		}
 	}
 	stopListeningToStore() {
-		this.stopStoreNotices(), this.stopStoreNotices = ls;
+		this.stopStoreNotices(), this.stopStoreNotices = ps;
 	}
 	trackBroadcastWork(e) {
 		let { work: t, told: n } = e, r = t.catch((e) => {
-			this.closing || Ko({ thrown: e }) || this.reportFoldFailure({
+			this.closing || Xo({ thrown: e }) || this.reportFoldFailure({
 				told: n,
 				thrown: e
 			});
@@ -11503,7 +11577,7 @@ var ts = class {
 		}), t;
 	}
 	async import(e, t) {
-		this.importStore(t), rs({ options: t });
+		this.importStore(t), ss({ options: t });
 		let n = this.opens, r = [];
 		for (let i of e) try {
 			this.refuseClosedOpen({ opened: n });
@@ -11547,7 +11621,7 @@ var ts = class {
 				signal: a
 			});
 		} catch (e) {
-			throw Ko({ thrown: e }) ? await this.lostImportError({
+			throw Xo({ thrown: e }) ? await this.lostImportError({
 				store: r,
 				thrown: e,
 				writeId: s
@@ -11572,9 +11646,9 @@ var ts = class {
 		try {
 			await t();
 		} catch (e) {
-			if (!Ko({ thrown: e })) throw e;
-			if (await this.refreshState().catch(Jo), this.announcing && this.postToldChanges({}), n !== void 0) {
-				await this.refreshHistoryStatus(n).catch(Jo);
+			if (!Xo({ thrown: e })) throw e;
+			if (await this.refreshState().catch(Qo), this.announcing && this.postToldChanges({}), n !== void 0) {
+				await this.refreshHistoryStatus(n).catch(Qo);
 				try {
 					this.signalStateChange(n, !0);
 				} catch (e) {
@@ -11588,16 +11662,16 @@ var ts = class {
 		}
 	}
 	async lostImportError(e) {
-		let { store: t, thrown: n, writeId: r } = e, i = await Yo({
+		let { store: t, thrown: n, writeId: r } = e, i = await $o({
 			store: t,
 			writeId: r
 		});
-		if (i !== "applied") return this.announcing && this.postToldChanges({}), Xo({
+		if (i !== "applied") return this.announcing && this.postToldChanges({}), es({
 			thrown: n,
 			writeId: r,
 			outcome: i
 		});
-		await this.refreshState().catch(Jo);
+		await this.refreshState().catch(Qo);
 		let a = Array.from(this.state.documents.values()).find(function(e) {
 			return e.record.writeId === r;
 		});
@@ -11605,7 +11679,7 @@ var ts = class {
 			type: "document-imported",
 			documentId: a.record.id,
 			timestamp: Date.now()
-		}) : this.announcing && this.postToldChanges({}), Xo({
+		}) : this.announcing && this.postToldChanges({}), es({
 			thrown: n,
 			writeId: r,
 			outcome: i,
@@ -11635,7 +11709,7 @@ var ts = class {
 			detail: `Document "${e}" not registered in project "${this.name}"`
 		});
 		let r = this.configs[n.record.configKey], i = this.opens;
-		return new ts(t, r, e, this.mergedExtensions, this.hooks, {
+		return new as(t, r, e, this.mergedExtensions, this.hooks, {
 			state: n,
 			channelName: this.channelName,
 			broadcast: (e) => {
@@ -11645,11 +11719,11 @@ var ts = class {
 				this.isCurrentOpen({ opened: i }) && await this.refreshHistoryStatus(e);
 			},
 			perf: this.perf,
-			subscribeState: (t) => this.isCurrentOpen({ opened: i }) ? this.subscribeState(e, t) : as,
+			subscribeState: (t) => this.isCurrentOpen({ opened: i }) ? this.subscribeState(e, t) : ls,
 			signalStateChange: (t) => {
 				this.isCurrentOpen({ opened: i }) && this.signalStateChange(e, t);
 			},
-			startWrite: () => this.isCurrentOpen({ opened: i }) ? (this.refuseClosedOpen({ opened: i }), this.startCountedWrite()) : os
+			startWrite: () => this.isCurrentOpen({ opened: i }) ? (this.refuseClosedOpen({ opened: i }), this.startCountedWrite()) : us
 		});
 	}
 	async getDocumentStatus(e) {
@@ -11806,44 +11880,44 @@ var ts = class {
 		this.closing || (await this.store.reconcile(e), await this.refreshState());
 	}
 };
-function rs(e) {
+function ss(e) {
 	let { options: t } = e;
 	t && "path" in t && t.path !== void 0 && c("DOCUMENT_PATH_INVALID", {
 		detail: "An import of several files takes no path: a path names one file, give it to importFile",
 		meta: { path: t.path }
 	});
 }
-async function is(e) {
+async function cs(e) {
 	try {
 		await e.store?.close();
 	} catch {}
 }
-function as() {}
-function os() {}
-function ss(e) {
+function ls() {}
+function us() {}
+function ds(e) {
 	let { first: t, second: n } = e;
-	return t.type === n.type && cs({
+	return t.type === n.type && fs({
 		message: t,
 		field: "documentId"
-	}) === cs({
+	}) === fs({
 		message: n,
 		field: "documentId"
-	}) && cs({
+	}) && fs({
 		message: t,
 		field: "blobId"
-	}) === cs({
+	}) === fs({
 		message: n,
 		field: "blobId"
 	});
 }
-function cs(e) {
+function fs(e) {
 	let { message: t, field: n } = e;
 	return n in t ? t[n] : void 0;
 }
-function ls() {}
-function us(e) {
+function ps() {}
+function ms(e) {
 	let { dialecte: t, storage: n = { type: "local" }, extensions: r, dev: i } = e;
-	return new ns({
+	return new os({
 		configs: t.configs,
 		defaultConfigKey: t.defaultConfigKey,
 		storage: n,
@@ -11857,10 +11931,10 @@ function us(e) {
 		dialecteVersion: t.version
 	});
 }
-function ds(e) {
+function hs(e) {
 	let { dialecte: t } = e;
 	function n(e) {
-		return us({
+		return ms({
 			...e,
 			dialecte: t
 		});
@@ -11884,8 +11958,8 @@ function ds(e) {
 	});
 }
 //#endregion
-//#region node_modules/.pnpm/@dialecte+nsd@0.6.0/node_modules/@dialecte/nsd/dist/config-Wuebn6KH.js
-var fs = "0.6.0", ps = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableServiceNS.ApplicableServices.AppliesTo.BasicType.BasicTypes.CDC.CDCs.Changes.ConstructedAttribute.ConstructedAttributes.Copyright.DataAttribute.DataObject.DataSetMemberOf.DependsOn.Doc.Enumeration.Enumerations.FunctionalConstraint.FunctionalConstraints.LNClass.LNClasses.License.Literal.NS.NSDoc.Notice.PresenceCondition.PresenceConditions.Service.ServiceCDC.ServiceCDCs.ServiceConstructedAttribute.ServiceConstructedAttributes.ServiceDataAttribute.ServiceNS.ServiceNsUsage.ServiceParameter.ServiceTypeRealization.ServiceTypeRealizations.SubDataAttribute.SubDataObject".split("."), ms = {
+//#region node_modules/.pnpm/@dialecte+nsd@0.6.1/node_modules/@dialecte/nsd/dist/config-CbFILfNE.js
+var gs = "0.6.1", _s = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableServiceNS.ApplicableServices.AppliesTo.BasicType.BasicTypes.CDC.CDCs.Changes.ConstructedAttribute.ConstructedAttributes.Copyright.DataAttribute.DataObject.DataSetMemberOf.DependsOn.Doc.Enumeration.Enumerations.FunctionalConstraint.FunctionalConstraints.LNClass.LNClasses.License.Literal.NS.NSDoc.Notice.PresenceCondition.PresenceConditions.Service.ServiceCDC.ServiceCDCs.ServiceConstructedAttribute.ServiceConstructedAttributes.ServiceDataAttribute.ServiceNS.ServiceNsUsage.ServiceParameter.ServiceTypeRealization.ServiceTypeRealizations.SubDataAttribute.SubDataObject".split("."), vs = {
 	Abbreviation: [],
 	Abbreviations: ["Abbreviation"],
 	AbstractLNClass: ["DataObject"],
@@ -11956,7 +12030,7 @@ var fs = "0.6.0", ps = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNCla
 	ServiceTypeRealizations: ["ServiceTypeRealization"],
 	SubDataAttribute: [],
 	SubDataObject: []
-}, hs = {
+}, ys = {
 	Abbreviation: ["Abbreviations"],
 	Abbreviations: ["NS", "ServiceNS"],
 	AbstractLNClass: ["LNClasses"],
@@ -12011,7 +12085,7 @@ var fs = "0.6.0", ps = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNCla
 		"ServiceTypeRealization"
 	],
 	SubDataObject: ["CDC"]
-}, gs = {
+}, bs = {
 	Abbreviation: [],
 	Abbreviations: ["Abbreviation"],
 	AbstractLNClass: ["DataObject"],
@@ -12112,7 +12186,7 @@ var fs = "0.6.0", ps = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNCla
 	ServiceTypeRealizations: ["ServiceTypeRealization", "SubDataAttribute"],
 	SubDataAttribute: [],
 	SubDataObject: []
-}, _s = {
+}, xs = {
 	Abbreviation: [
 		"Abbreviations",
 		"NS",
@@ -12238,7 +12312,7 @@ var fs = "0.6.0", ps = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNCla
 		"CDCs",
 		"NS"
 	]
-}, vs = [
+}, Ss = [
 	"BasicTypes",
 	"CDCs",
 	"ConstructedAttributes",
@@ -12521,7 +12595,7 @@ var fs = "0.6.0", ps = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNCla
 		underlyingType: "",
 		underlyingTypeKind: ""
 	}
-}, ys = {
+}, Cs = {
 	byTag: $,
 	byParent: {
 		Abbreviations: { Abbreviation: $.Abbreviation },
@@ -12592,7 +12666,7 @@ var fs = "0.6.0", ps = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNCla
 		ServiceTypeRealization: { SubDataAttribute: $.SubDataAttribute },
 		ServiceTypeRealizations: { ServiceTypeRealization: $.ServiceTypeRealization }
 	}
-}, bs = {
+}, ws = {
 	Abbreviation: {
 		tag: "Abbreviation",
 		namespace: {
@@ -15873,7 +15947,7 @@ var fs = "0.6.0", ps = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNCla
 		},
 		type: "{http://www.iec.ch/61850/2016/NSD}tSubDataObject"
 	}
-}, xs = { "{http://www.iec.ch/61850/2016/NSD}tServiceConstructedAttribute": {
+}, Ts = { "{http://www.iec.ch/61850/2016/NSD}tServiceConstructedAttribute": {
 	attributes: {
 		sequence: [
 			"deprecated",
@@ -15938,9 +16012,9 @@ var fs = "0.6.0", ps = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNCla
 			}]
 		}]
 	}
-} }, Ss = { supportedFileExtensions: [".nsd", ".nsdoc"] }, Cs = {
-	singletonElements: vs,
-	elements: ps,
+} }, Es = { supportedFileExtensions: [".nsd", ".nsdoc"] }, Ds = {
+	singletonElements: Ss,
+	elements: _s,
 	namespaces: {
 		default: {
 			uri: "http://www.iec.ch/61850/2016/NSD",
@@ -15948,11 +16022,11 @@ var fs = "0.6.0", ps = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNCla
 		},
 		xsi: n
 	},
-	attributes: ys,
-	children: ms,
-	parents: hs,
-	descendants: gs,
-	ancestors: _s,
+	attributes: Cs,
+	children: vs,
+	parents: ys,
+	descendants: bs,
+	ancestors: xs,
 	database: { recordSchema: {
 		primaryKey: "id",
 		indexes: [
@@ -15963,35 +16037,35 @@ var fs = "0.6.0", ps = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNCla
 		compoundIndexes: [["id", "tagName"]],
 		arrayIndexes: ["children.id", "children.tagName"]
 	} },
-	io: Ss,
-	definition: bs,
-	types: xs
-}, ws = /* @__PURE__ */ ds({ dialecte: Zr({
+	io: Es,
+	definition: ws,
+	types: Ts
+}, Os = /* @__PURE__ */ hs({ dialecte: Zr({
 	id: "nsd/v2017A",
-	version: fs,
+	version: gs,
 	configs: {
 		nsd: {
-			...Cs,
+			...Ds,
 			rootElementName: "NS"
 		},
 		nsdoc: {
-			...Cs,
+			...Ds,
 			rootElementName: "NSDoc"
 		}
 	},
 	defaultConfigKey: "nsd",
 	extensions: {}
-}) }), Ts = "SET-LIBRARY-NSD", Es = null;
-function Ds() {
-	return Es ||= ws({ storage: ne() }).open(Ts), Es;
+}) }), ks = "SET-LIBRARY-NSD", As = null;
+function js() {
+	return As ||= Os({ storage: ne() }).open(ks), As;
 }
-var Os = l(0);
-function ks() {
-	Os.value++;
+var Ms = l(0);
+function Ns() {
+	Ms.value++;
 }
 //#endregion
 //#region src/nsd/utils/query-nsd-metadata.ts
-async function As(e) {
+async function Ps(e) {
 	let { query: t } = e, n = await t.getRoot(), r = await t.getAttribute(n, { name: "id" }), i = await t.getAttribute(n, { name: "version" }), a = await t.getAttribute(n, { name: "revision" }), o = await t.getAttribute(n, { name: "release" });
 	if (!r || !i || !a) throw Error("Missing required NS attributes. Expected id, version, revision.");
 	if (n.tagName === "NSDoc") return {
@@ -16028,10 +16102,10 @@ async function As(e) {
 		isNsdoc: !1
 	};
 }
-function js(e) {
+function Fs(e) {
 	return e.replace(/__+/g, "-").replace(/[\s_]/g, "").toLowerCase();
 }
-function Ms(e) {
+function Is(e) {
 	let t = [
 		e.version,
 		e.revision?.toUpperCase(),
@@ -16039,19 +16113,19 @@ function Ms(e) {
 	].filter((e) => !!e);
 	return t.length ? t.join(".") : "-";
 }
-function Ns(e, t) {
+function Ls(e, t) {
 	return {
 		fileName: e,
 		isExtension: t.isExtension,
 		isNsdoc: t.isNsdoc,
-		versionRevisionRelease: Ms(t)
+		versionRevisionRelease: Is(t)
 	};
 }
-function Ps(e) {
+function Rs(e) {
 	let t = e.id.replace(/\s+/g, "_");
 	if (!e.version || !e.revision) return `${t}.nsd`;
 	let n = e.revision.toUpperCase();
 	return `${t}_${e.version}${n}${e.release}.nsd`;
 }
 //#endregion
-export { As as a, ks as c, de as d, ce as f, js as i, Ss as l, Ms as n, Ds as o, Ps as r, Os as s, Ns as t, Ce as u };
+export { Ps as a, Ns as c, de as d, ce as f, Fs as i, Es as l, Is as n, js as o, Rs as r, Ms as s, Ls as t, Ce as u };
