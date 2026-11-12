@@ -7,6 +7,16 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [54] - 2026-11-11
+
+### Added
+
+- Implement unassigned LNodes from ICD files, choosing an IED name when no S-IED is assigned
+
+### Changed
+
+- Discard unapplied ICD mappings when switching project documents
+
 ## [53] - 2026-11-10
 
 ### Added
