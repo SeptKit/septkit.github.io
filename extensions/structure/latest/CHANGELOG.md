@@ -7,6 +7,27 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [108] - 2026-11-12
+
+### Changed
+
+- When a template is instantiated or updated, the Match step opens on what needs you and what is worth a look: a filter with counts (Needs you, Worth a look, Automatic), one line saying why on each row asking for attention, and the rows placed automatically folded into a count that opens in place.
+- In the Match step, the dropdowns group the project elements by where they are (same name, in the place the level above lands in, elsewhere in the project) and say where a new element is created.
+- In the Match step, each project substation, voltage level or bay offered for a level of the template says what it holds and which parts of the template are already there.
+- When every landing is placed automatically, the merge skips Match: the stepper keeps it, marked with how many it placed automatically, and opens it on a click.
+- The Confirm step lists where the template lands by outcome (your choices, choices not kept, created under another name, reused from your project), the rest folded as how many were placed automatically; each element has **Change in Match**, which opens Match with every row shown and that element highlighted.
+
+### Fixed
+
+- The Match step shows the template as one tree: voltage levels side by side under their substation, each bay inside its voltage level, each allocation role on the level it belongs to.
+- The Match and Confirm steps list the template's elements in the template's order, the same on every run.
+- Closing the merge dialog right after a change no longer leaves the project document in an error state.
+- When a template is placed, each bay keeps its own allocation roles and function categories, even when two bays use the same names; Apply used to merge them into one.
+- A template's allocation role or function category is reused from the project only where its level lands; a role of the same name elsewhere in the project is no longer taken by itself, and can still be picked in Match.
+- A template holding two elements named TEMPLATE side by side is refused with a message naming them, instead of placing only the first.
+- A placed template no longer writes a link to an element it does not hold, such as a terminal on another bay's node or a variable applying to a function left out, so the project stays valid; earth terminals name the bay where it lands.
+- What a template update adds (a role, a category, a variable, a behaviour description) is written in its instance's own level, not where the update was started.
+
 ## [107] - 2026-11-11
 
 ### Changed
