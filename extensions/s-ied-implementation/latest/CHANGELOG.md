@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [56] - 2026-11-12
+
+### Added
+
+- Manually map inputs and outputs of implemented LNodes to references anywhere in the same IED, then save them with Apply
+
 ## [54] - 2026-11-11
 
 ### Added
