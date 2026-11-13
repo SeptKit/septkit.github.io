@@ -7,6 +7,16 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [57] - 2026-11-13
+
+### Changed
+
+- Faster loading of the Explorer, AllocationRole scope and LNode implementation status on large projects
+
+### Fixed
+
+- Selected marker in the LNode scope selector no longer overlaps option names, and long option lists show a scrollbar
+
 ## [56] - 2026-11-12
 
 ### Added
