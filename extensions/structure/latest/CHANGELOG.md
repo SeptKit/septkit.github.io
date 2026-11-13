@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [109] - 2026-11-13
+
+### Fixed
+
+- Prevent duplicate LLN0 entries under the same Function or SubFunction, and keep the instance number empty when switching to LLN0.
+
 ## [108] - 2026-11-12
 
 ### Changed
