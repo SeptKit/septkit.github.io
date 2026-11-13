@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [58] - 2026-11-13
+
+### Fixed
+
+- Show a visible scrollbar and reduce indentation in the LNode scope dropdown
+
 ## [57] - 2026-11-13
 
 ### Changed
