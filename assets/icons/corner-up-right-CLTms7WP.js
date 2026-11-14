@@ -1,0 +1,1 @@
+import{t as e}from"../corner-up-right-BTaDUdrU.js";export{e as default};

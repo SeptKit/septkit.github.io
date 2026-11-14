@@ -1,0 +1,1 @@
+import{t as e}from"../dice-5-DmpeyTU-.js";export{e as default};

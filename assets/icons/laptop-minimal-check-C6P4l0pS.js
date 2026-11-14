@@ -1,0 +1,1 @@
+import{t as e}from"../laptop-minimal-check-BZVG37NH.js";export{e as default};

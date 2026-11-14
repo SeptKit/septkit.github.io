@@ -1,0 +1,1 @@
+import{t as e}from"../banknote-arrow-up-CblR__4m.js";export{e as default};

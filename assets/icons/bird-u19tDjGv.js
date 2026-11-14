@@ -1,0 +1,1 @@
+import{t as e}from"../bird-knlriDjV.js";export{e as default};

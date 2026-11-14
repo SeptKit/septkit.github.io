@@ -1,1 +1,0 @@
-import{t as e}from"../siren-COu7TEkf.js";export{e as default};

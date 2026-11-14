@@ -1,0 +1,1 @@
+import{t as e}from"../mail-warning-BfWA978S.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../squares-subtract-BE-QHl2F.js";export{e as default};

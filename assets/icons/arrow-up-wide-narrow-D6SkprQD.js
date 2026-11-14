@@ -1,0 +1,1 @@
+import{t as e}from"../arrow-up-wide-narrow-D_JVAlsk.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../badge-euro-D99_W1nL.js";export{e as default};

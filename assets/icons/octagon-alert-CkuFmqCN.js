@@ -1,0 +1,1 @@
+import{t as e}from"../octagon-alert-CGsD0L02.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../mail-x-Ci2r_GIf.js";export{e as default};

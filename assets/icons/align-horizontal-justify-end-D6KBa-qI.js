@@ -1,0 +1,1 @@
+import{t as e}from"../align-horizontal-justify-end-D5s_X8Ms.js";export{e as default};

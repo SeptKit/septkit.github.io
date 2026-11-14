@@ -1,0 +1,1 @@
+import{t as e}from"../square-square-CQ1zYda8.js";export{e as default};

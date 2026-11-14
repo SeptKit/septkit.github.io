@@ -1,0 +1,1 @@
+import{t as e}from"../square-function-DSgD_06m.js";export{e as default};

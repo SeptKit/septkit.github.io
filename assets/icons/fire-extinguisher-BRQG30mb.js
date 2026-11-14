@@ -1,0 +1,1 @@
+import{t as e}from"../fire-extinguisher-CPl6bUA1.js";export{e as default};

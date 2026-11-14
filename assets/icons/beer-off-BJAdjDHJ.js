@@ -1,0 +1,1 @@
+import{t as e}from"../beer-off-C1CN1A0C.js";export{e as default};

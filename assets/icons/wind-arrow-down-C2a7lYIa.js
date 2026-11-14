@@ -1,0 +1,1 @@
+import{t as e}from"../wind-arrow-down-CFj4yhBj.js";export{e as default};

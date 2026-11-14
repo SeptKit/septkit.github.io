@@ -1,0 +1,1 @@
+import{t as e}from"../mouse-pointer-2-uktMhmtO.js";export{e as default};

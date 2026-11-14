@@ -1,0 +1,1 @@
+import{t as e}from"../square-Dptb-lHp.js";export{e as default};

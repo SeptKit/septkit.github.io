@@ -1,0 +1,1 @@
+import{t as e}from"../badge-plus-U3WP2Nu5.js";export{e as default};

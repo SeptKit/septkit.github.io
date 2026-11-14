@@ -1,1 +1,0 @@
-import{t as e}from"../receipt-turkish-lira-C7CLUONP.js";export{e as default};

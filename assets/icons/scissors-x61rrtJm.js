@@ -1,0 +1,1 @@
+import{t as e}from"../scissors-DYYgXvgb.js";export{e as default};

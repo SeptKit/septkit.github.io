@@ -1,0 +1,1 @@
+import{t as e}from"../scroll-text-BF_dLcFJ.js";export{e as default};

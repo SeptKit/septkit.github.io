@@ -1,0 +1,1 @@
+import{t as e}from"../amphora-Ddt_F8HV.js";export{e as default};

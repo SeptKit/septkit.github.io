@@ -1,1 +1,0 @@
-import{t as e}from"../corner-right-up-yYk4Rwv6.js";export{e as default};

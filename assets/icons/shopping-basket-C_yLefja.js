@@ -1,0 +1,1 @@
+import{t as e}from"../shopping-basket-DoMz-2zO.js";export{e as default};

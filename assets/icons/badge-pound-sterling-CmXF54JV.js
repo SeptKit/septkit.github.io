@@ -1,1 +1,0 @@
-import{t as e}from"../badge-pound-sterling-CwP50IAK.js";export{e as default};

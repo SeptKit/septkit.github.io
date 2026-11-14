@@ -1,1 +1,0 @@
-import{t as e}from"../chess-bishop-D_Sr2jIq.js";export{e as default};

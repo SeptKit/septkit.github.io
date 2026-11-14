@@ -1,0 +1,1 @@
+import{t as e}from"../git-pull-request-arrow-BBRf1-SF.js";export{e as default};

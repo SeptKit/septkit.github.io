@@ -1,0 +1,1 @@
+import{t as e}from"../badge-kxNCube3.js";export{e as default};

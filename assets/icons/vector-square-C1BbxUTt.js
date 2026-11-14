@@ -1,0 +1,1 @@
+import{t as e}from"../vector-square-D4p_iWXS.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../layout-template-BDQwRj4J.js";export{e as default};

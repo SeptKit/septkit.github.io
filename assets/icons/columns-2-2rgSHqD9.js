@@ -1,0 +1,1 @@
+import{t as e}from"../columns-2-HThTMYFQ.js";export{e as default};

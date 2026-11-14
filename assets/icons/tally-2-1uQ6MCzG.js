@@ -1,0 +1,1 @@
+import{t as e}from"../tally-2-BzN5LOk_.js";export{e as default};

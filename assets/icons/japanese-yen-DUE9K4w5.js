@@ -1,0 +1,1 @@
+import{t as e}from"../japanese-yen-ddsfeQuu.js";export{e as default};

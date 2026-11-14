@@ -1,0 +1,1 @@
+import{t as e}from"../book-open-B-U5BgSf.js";export{e as default};

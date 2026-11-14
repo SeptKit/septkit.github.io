@@ -1,0 +1,1 @@
+import{t as e}from"../chess-queen-BG7NiU6t.js";export{e as default};

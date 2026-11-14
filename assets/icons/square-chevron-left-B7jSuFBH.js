@@ -1,0 +1,1 @@
+import{t as e}from"../square-chevron-left-Dpywcmiq.js";export{e as default};

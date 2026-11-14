@@ -1,0 +1,1 @@
+import{t as e}from"../chess-bishop-BXGiNi1L.js";export{e as default};

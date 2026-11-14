@@ -1,0 +1,1 @@
+import{t as e}from"../align-horizontal-justify-start-cJnyTXbI.js";export{e as default};

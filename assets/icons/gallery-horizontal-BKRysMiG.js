@@ -1,0 +1,1 @@
+import{t as e}from"../gallery-horizontal-DRsAgP2_.js";export{e as default};

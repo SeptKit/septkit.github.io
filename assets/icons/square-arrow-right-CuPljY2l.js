@@ -1,0 +1,1 @@
+import{t as e}from"../square-arrow-right-By-NLXQ0.js";export{e as default};

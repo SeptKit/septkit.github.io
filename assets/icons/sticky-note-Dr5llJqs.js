@@ -1,0 +1,1 @@
+import{t as e}from"../sticky-note-NEU_umoW.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../syringe-8cHWSeku.js";export{e as default};

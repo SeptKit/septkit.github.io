@@ -1,0 +1,1 @@
+import{t as e}from"../align-horizontal-justify-center-DKPJ0KtL.js";export{e as default};

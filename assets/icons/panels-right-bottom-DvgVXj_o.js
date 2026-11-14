@@ -1,1 +1,0 @@
-import{t as e}from"../panels-right-bottom-BA5Dc8l5.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../gavel-YTwF74gX.js";export{e as default};

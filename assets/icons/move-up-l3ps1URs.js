@@ -1,0 +1,1 @@
+import{t as e}from"../move-up-WIw17gsN.js";export{e as default};

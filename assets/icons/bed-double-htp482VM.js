@@ -1,0 +1,1 @@
+import{t as e}from"../bed-double-BrcW41WW.js";export{e as default};

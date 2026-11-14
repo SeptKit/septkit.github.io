@@ -1,1 +1,0 @@
-import{t as e}from"../lamp-ceiling-DAsFtUeg.js";export{e as default};

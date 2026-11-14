@@ -1,1 +1,0 @@
-import{t as e}from"../school-NDkSdJ3P.js";export{e as default};

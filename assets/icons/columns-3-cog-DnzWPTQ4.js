@@ -1,0 +1,1 @@
+import{t as e}from"../columns-3-cog-BPugx_kO.js";export{e as default};

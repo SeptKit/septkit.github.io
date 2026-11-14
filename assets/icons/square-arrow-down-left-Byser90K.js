@@ -1,0 +1,1 @@
+import{t as e}from"../square-arrow-down-left-CAIJdtes.js";export{e as default};

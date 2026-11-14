@@ -1,0 +1,1 @@
+import{t as e}from"../banknote-arrow-down-CrF_qi0E.js";export{e as default};

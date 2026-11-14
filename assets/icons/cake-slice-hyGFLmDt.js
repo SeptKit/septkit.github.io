@@ -1,0 +1,1 @@
+import{t as e}from"../cake-slice-B0GjS-o6.js";export{e as default};

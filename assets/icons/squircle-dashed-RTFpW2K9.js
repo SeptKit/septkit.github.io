@@ -1,0 +1,1 @@
+import{t as e}from"../squircle-dashed-8HAhKV3e.js";export{e as default};

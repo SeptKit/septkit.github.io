@@ -1,0 +1,1 @@
+import{t as e}from"../refrigerator-D04lmq_Z.js";export{e as default};

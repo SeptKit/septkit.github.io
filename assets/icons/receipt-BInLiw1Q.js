@@ -1,1 +1,0 @@
-import{t as e}from"../receipt-BTEyVNph.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../proportions-BRNTzRzz.js";export{e as default};

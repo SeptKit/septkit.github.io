@@ -1,0 +1,1 @@
+import{t as e}from"../book-up-2-CE5sS_aN.js";export{e as default};

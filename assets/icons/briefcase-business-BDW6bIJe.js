@@ -1,0 +1,1 @@
+import{t as e}from"../briefcase-business-B_vyMfa-.js";export{e as default};

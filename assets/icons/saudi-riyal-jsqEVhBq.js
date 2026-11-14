@@ -1,0 +1,1 @@
+import{t as e}from"../saudi-riyal-BqdiTKiX.js";export{e as default};

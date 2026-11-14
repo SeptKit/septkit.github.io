@@ -1,0 +1,1 @@
+import{t as e}from"../nfc-DoLj1Y8C.js";export{e as default};

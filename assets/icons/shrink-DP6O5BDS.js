@@ -1,1 +1,0 @@
-import{t as e}from"../shrink-BZs9pxGt.js";export{e as default};

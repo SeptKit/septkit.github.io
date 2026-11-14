@@ -1,0 +1,1 @@
+import{t as e}from"../flag-triangle-right-C7AM0SDS.js";export{e as default};

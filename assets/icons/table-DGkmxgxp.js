@@ -1,0 +1,1 @@
+import{t as e}from"../table-C2baZzWs.js";export{e as default};

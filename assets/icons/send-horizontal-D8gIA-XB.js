@@ -1,0 +1,1 @@
+import{t as e}from"../send-horizontal-Dd5-psil.js";export{e as default};

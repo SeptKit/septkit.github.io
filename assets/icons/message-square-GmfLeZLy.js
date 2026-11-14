@@ -1,0 +1,1 @@
+import{t as e}from"../message-square-B_dPmEiY.js";export{e as default};

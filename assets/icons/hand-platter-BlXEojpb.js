@@ -1,0 +1,1 @@
+import{t as e}from"../hand-platter-BHq-sSfz.js";export{e as default};

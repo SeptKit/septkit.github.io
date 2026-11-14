@@ -1,0 +1,1 @@
+import{t as e}from"../receipt-pound-sterling-CGAMSclw.js";export{e as default};

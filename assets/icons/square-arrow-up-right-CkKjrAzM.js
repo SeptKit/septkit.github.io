@@ -1,0 +1,1 @@
+import{t as e}from"../square-arrow-up-right-UIAg_-8s.js";export{e as default};

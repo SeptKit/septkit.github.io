@@ -1,0 +1,1 @@
+import{t as e}from"../square-pilcrow-CskAGYNM.js";export{e as default};

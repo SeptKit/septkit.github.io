@@ -1,0 +1,1 @@
+import{t as e}from"../grid-2x2-plus-C_vaEglR.js";export{e as default};

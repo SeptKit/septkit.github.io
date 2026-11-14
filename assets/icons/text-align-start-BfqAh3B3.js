@@ -1,0 +1,1 @@
+import{t as e}from"../text-align-start-BHghsAeJ.js";export{e as default};

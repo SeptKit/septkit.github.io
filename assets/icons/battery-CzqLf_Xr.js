@@ -1,0 +1,1 @@
+import{t as e}from"../battery-U6tn-BNa.js";export{e as default};

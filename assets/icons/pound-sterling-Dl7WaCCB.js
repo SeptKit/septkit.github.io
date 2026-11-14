@@ -1,0 +1,1 @@
+import{t as e}from"../pound-sterling-DLssAmM3.js";export{e as default};

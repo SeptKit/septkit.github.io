@@ -1,0 +1,1 @@
+import{t as e}from"../table-properties-BnaLYhZ1.js";export{e as default};

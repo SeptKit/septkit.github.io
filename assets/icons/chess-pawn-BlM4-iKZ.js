@@ -1,0 +1,1 @@
+import{t as e}from"../chess-pawn-CZUEZzzt.js";export{e as default};

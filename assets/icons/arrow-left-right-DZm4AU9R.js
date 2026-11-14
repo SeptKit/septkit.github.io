@@ -1,0 +1,1 @@
+import{t as e}from"../arrow-left-right-BXDFtt3a.js";export{e as default};

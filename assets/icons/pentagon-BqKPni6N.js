@@ -1,0 +1,1 @@
+import{t as e}from"../pentagon-Dk1xNQdL.js";export{e as default};

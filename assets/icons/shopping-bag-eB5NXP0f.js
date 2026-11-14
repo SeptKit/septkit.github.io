@@ -1,1 +1,0 @@
-import{t as e}from"../shopping-bag-CYX38gh_.js";export{e as default};

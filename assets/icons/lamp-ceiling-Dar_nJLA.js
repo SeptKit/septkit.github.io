@@ -1,0 +1,1 @@
+import{t as e}from"../lamp-ceiling-hicPsCc4.js";export{e as default};

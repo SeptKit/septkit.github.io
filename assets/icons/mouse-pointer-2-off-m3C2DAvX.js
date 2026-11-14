@@ -1,0 +1,1 @@
+import{t as e}from"../mouse-pointer-2-off-Dt3xscsz.js";export{e as default};

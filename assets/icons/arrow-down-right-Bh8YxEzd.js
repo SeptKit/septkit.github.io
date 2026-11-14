@@ -1,1 +1,0 @@
-import{t as e}from"../arrow-down-right-X20YtX0d.js";export{e as default};

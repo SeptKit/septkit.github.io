@@ -1,1 +1,0 @@
-import{t as e}from"../georgian-lari-DIh8V7z1.js";export{e as default};

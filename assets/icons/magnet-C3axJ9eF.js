@@ -1,0 +1,1 @@
+import{t as e}from"../magnet-B2qLf7aX.js";export{e as default};

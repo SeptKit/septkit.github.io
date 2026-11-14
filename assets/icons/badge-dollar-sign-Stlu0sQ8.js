@@ -1,1 +1,0 @@
-import{t as e}from"../badge-dollar-sign-DS0EK89y.js";export{e as default};

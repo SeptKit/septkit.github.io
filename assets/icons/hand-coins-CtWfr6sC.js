@@ -1,1 +1,0 @@
-import{t as e}from"../hand-coins-Bof_FDU_.js";export{e as default};

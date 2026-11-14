@@ -1,0 +1,1 @@
+import{t as e}from"../copyright-DJoR0w-j.js";export{e as default};

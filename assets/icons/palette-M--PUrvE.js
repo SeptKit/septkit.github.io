@@ -1,0 +1,1 @@
+import{t as e}from"../palette-4E895ED5.js";export{e as default};

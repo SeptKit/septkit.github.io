@@ -1,0 +1,1 @@
+import{t as e}from"../smartphone-nfc-DyJ_tT-s.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../mails-RiG4t3_G.js";export{e as default};

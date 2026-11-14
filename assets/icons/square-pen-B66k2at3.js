@@ -1,0 +1,1 @@
+import{t as e}from"../square-pen-o-cZ4HKP.js";export{e as default};

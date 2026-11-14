@@ -1,0 +1,1 @@
+import{t as e}from"../dice-2-B0br1jZ-.js";export{e as default};

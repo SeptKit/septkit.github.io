@@ -1,1 +1,0 @@
-import{t as e}from"../proportions-BU45zneg.js";export{e as default};

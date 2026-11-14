@@ -1,1 +1,0 @@
-import{t as e}from"../grid-2x2-check-g-u3-qPX.js";export{e as default};

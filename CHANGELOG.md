@@ -7,6 +7,13 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [69] - 2026-11-13
+
+### Added
+
+- When a new version of SET comes out, a bar at the bottom of the window says "Updating SET..." while it installs, then "New version ready - Reload" when you can switch to it.
+- Importing files shows each file's progress and current step in the bar at the bottom, with Cancel. A file that fails is counted in the bar, and hovering or opening it says why in one sentence, instead of the "Import Failed" message.
+
 ## [67] - 2026-11-09
 
 ### Changed

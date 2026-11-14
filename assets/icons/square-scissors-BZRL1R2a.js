@@ -1,1 +1,0 @@
-import{t as e}from"../square-scissors-svjbvb6h.js";export{e as default};

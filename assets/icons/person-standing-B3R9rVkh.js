@@ -1,0 +1,1 @@
+import{t as e}from"../person-standing-C_nfZ_-E.js";export{e as default};

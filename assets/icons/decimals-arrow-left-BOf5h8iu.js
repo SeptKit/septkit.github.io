@@ -1,0 +1,1 @@
+import{t as e}from"../decimals-arrow-left-Brlcgj30.js";export{e as default};

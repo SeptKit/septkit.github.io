@@ -1,0 +1,1 @@
+import{t as e}from"../align-center-horizontal-_7d1LX0Y.js";export{e as default};

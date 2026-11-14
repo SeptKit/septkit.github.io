@@ -1,0 +1,1 @@
+import{t as e}from"../heading-1-CVYX4Pu-.js";export{e as default};

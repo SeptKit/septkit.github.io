@@ -1,0 +1,1 @@
+import{t as e}from"../clock-5-CrMSX_-5.js";export{e as default};

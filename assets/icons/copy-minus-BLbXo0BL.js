@@ -1,0 +1,1 @@
+import{t as e}from"../copy-minus-BGfQz6M8.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../arrow-down-to-dot-BPUQ1LoI.js";export{e as default};

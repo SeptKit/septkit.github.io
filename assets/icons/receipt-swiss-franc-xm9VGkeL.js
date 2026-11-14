@@ -1,1 +1,0 @@
-import{t as e}from"../receipt-swiss-franc-Daeyh29Y.js";export{e as default};

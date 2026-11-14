@@ -1,0 +1,1 @@
+import{t as e}from"../dice-4-BuGJZrnu.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../stretch-vertical-5S3SByi8.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../hospital-DeU_YQNK.js";export{e as default};

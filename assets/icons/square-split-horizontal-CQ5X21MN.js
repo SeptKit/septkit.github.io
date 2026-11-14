@@ -1,0 +1,1 @@
+import{t as e}from"../square-split-horizontal-0B7_DMdR.js";export{e as default};

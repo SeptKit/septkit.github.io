@@ -1,0 +1,1 @@
+import{t as e}from"../receipt-BM150bja.js";export{e as default};

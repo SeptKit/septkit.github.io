@@ -1,1 +1,0 @@
-import{t as e}from"../swiss-franc-BI7oxX9-.js";export{e as default};

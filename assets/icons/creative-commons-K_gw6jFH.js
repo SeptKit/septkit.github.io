@@ -1,0 +1,1 @@
+import{t as e}from"../creative-commons-Bgic4zDR.js";export{e as default};

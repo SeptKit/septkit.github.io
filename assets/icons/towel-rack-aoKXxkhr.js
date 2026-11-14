@@ -1,1 +1,0 @@
-import{t as e}from"../towel-rack-CaRj5In1.js";export{e as default};

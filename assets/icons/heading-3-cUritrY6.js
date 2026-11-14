@@ -1,0 +1,1 @@
+import{t as e}from"../heading-3-BF85oIc_.js";export{e as default};

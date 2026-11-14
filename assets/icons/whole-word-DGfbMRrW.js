@@ -1,1 +1,0 @@
-import{t as e}from"../whole-word-oBVNzPIX.js";export{e as default};

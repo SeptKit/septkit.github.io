@@ -1,0 +1,1 @@
+import{t as e}from"../newspaper-BdmcHSXt.js";export{e as default};

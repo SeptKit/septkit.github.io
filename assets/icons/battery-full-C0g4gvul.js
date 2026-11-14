@@ -1,0 +1,1 @@
+import{t as e}from"../battery-full-uZ57LluT.js";export{e as default};

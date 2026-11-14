@@ -1,0 +1,1 @@
+import{t as e}from"../russian-ruble-ColYTad0.js";export{e as default};

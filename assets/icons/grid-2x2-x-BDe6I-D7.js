@@ -1,0 +1,1 @@
+import{t as e}from"../grid-2x2-x-DMTebLe_.js";export{e as default};

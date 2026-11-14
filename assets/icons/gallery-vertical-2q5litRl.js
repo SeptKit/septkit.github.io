@@ -1,0 +1,1 @@
+import{t as e}from"../gallery-vertical-8QaKYNtz.js";export{e as default};

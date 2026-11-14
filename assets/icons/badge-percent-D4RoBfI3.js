@@ -1,0 +1,1 @@
+import{t as e}from"../badge-percent-BchsFyVZ.js";export{e as default};

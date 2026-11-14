@@ -1,0 +1,1 @@
+import{t as e}from"../sticky-note-check-C-q2_GFb.js";export{e as default};

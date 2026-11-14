@@ -1,0 +1,1 @@
+import{t as e}from"../badge-check-CbsEzSBA.js";export{e as default};

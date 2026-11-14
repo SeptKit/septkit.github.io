@@ -1,0 +1,1 @@
+import{t as e}from"../align-start-horizontal-DUCAbAks.js";export{e as default};

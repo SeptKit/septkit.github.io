@@ -1,0 +1,1 @@
+import{t as e}from"../swatch-book-Gw0K-2QA.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../ticket-percent-B_Nle6nm.js";export{e as default};

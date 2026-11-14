@@ -1,0 +1,1 @@
+import{t as e}from"../badge-indian-rupee-NQOuVyxp.js";export{e as default};

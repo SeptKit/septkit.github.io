@@ -1,1 +1,0 @@
-import{t as e}from"../rectangle-goggles-0S_4Fpwy.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../align-end-vertical-B9KkBtf5.js";export{e as default};

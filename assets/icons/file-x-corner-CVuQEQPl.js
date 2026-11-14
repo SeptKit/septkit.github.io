@@ -1,0 +1,1 @@
+import{t as e}from"../file-x-corner-pDICk8pK.js";export{e as default};

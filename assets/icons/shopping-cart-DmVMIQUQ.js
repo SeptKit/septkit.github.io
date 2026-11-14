@@ -1,0 +1,1 @@
+import{t as e}from"../shopping-cart-C-7prNj1.js";export{e as default};

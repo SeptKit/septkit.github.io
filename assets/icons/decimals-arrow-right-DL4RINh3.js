@@ -1,0 +1,1 @@
+import{t as e}from"../decimals-arrow-right-q-MRyqpi.js";export{e as default};

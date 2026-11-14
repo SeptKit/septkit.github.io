@@ -1,0 +1,1 @@
+import{t as e}from"../receipt-indian-rupee-CAxYimTP.js";export{e as default};

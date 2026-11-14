@@ -1,1 +1,0 @@
-import{t as e}from"../square-arrow-right-DjgmRlUI.js";export{e as default};

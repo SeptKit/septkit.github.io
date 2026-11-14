@@ -1,0 +1,1 @@
+import{t as e}from"../clipboard-minus-PcmwYNvp.js";export{e as default};

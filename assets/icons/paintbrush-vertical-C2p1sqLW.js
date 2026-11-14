@@ -1,1 +1,0 @@
-import{t as e}from"../paintbrush-vertical-Xtwmj-4t.js";export{e as default};

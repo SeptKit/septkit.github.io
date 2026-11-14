@@ -1,0 +1,1 @@
+import{t as e}from"../tablet-smartphone-tDlMjl1D.js";export{e as default};

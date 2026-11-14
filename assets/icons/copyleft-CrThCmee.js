@@ -1,0 +1,1 @@
+import{t as e}from"../copyleft-CMWKt_ge.js";export{e as default};

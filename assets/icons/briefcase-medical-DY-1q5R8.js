@@ -1,0 +1,1 @@
+import{t as e}from"../briefcase-medical-rccRgcG2.js";export{e as default};

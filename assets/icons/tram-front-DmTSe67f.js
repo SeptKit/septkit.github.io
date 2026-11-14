@@ -1,0 +1,1 @@
+import{t as e}from"../tram-front-BnXQVzmj.js";export{e as default};

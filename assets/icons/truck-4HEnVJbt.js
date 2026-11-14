@@ -1,0 +1,1 @@
+import{t as e}from"../truck-B8VnLoNs.js";export{e as default};

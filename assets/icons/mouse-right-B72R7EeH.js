@@ -1,0 +1,1 @@
+import{t as e}from"../mouse-right-BSKvBE06.js";export{e as default};

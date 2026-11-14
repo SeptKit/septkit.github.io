@@ -1,0 +1,1 @@
+import{t as e}from"../pilcrow-Dik_rSCS.js";export{e as default};

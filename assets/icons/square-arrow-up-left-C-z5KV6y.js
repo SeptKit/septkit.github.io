@@ -1,0 +1,1 @@
+import{t as e}from"../square-arrow-up-left-DndYJMH5.js";export{e as default};

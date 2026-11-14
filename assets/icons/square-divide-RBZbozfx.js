@@ -1,1 +1,0 @@
-import{t as e}from"../square-divide-BEdfZDT1.js";export{e as default};

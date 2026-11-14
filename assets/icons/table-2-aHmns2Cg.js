@@ -1,0 +1,1 @@
+import{t as e}from"../table-2-zKi9oRWQ.js";export{e as default};

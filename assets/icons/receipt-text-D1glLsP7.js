@@ -1,0 +1,1 @@
+import{t as e}from"../receipt-text-BTZHnfD4.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../move-diagonal-2-BqGh4K2_.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../text-initial-D_pzK1Gu.js";export{e as default};

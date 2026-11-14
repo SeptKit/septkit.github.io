@@ -1,0 +1,1 @@
+import{t as e}from"../bookmark-GL9q69q_.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../square-split-vertical-BEAfo_h2.js";export{e as default};

@@ -1,1 +1,0 @@
-import{t as e}from"../move-down-right-BFapPFj6.js";export{e as default};

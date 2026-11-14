@@ -1,0 +1,1 @@
+import{t as e}from"../receipt-euro-BfBIF_p_.js";export{e as default};

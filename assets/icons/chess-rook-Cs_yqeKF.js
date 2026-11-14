@@ -1,0 +1,1 @@
+import{t as e}from"../chess-rook-Fpm2rPHu.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../image-BJ4GqM_s.js";export{e as default};

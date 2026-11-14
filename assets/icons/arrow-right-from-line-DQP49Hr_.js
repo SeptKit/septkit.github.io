@@ -1,0 +1,1 @@
+import{t as e}from"../arrow-right-from-line-BCHPY-Ik.js";export{e as default};

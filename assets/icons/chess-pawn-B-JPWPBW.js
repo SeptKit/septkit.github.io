@@ -1,1 +1,0 @@
-import{t as e}from"../chess-pawn-CF5KArow.js";export{e as default};

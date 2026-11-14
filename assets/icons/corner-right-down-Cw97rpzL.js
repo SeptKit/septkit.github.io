@@ -1,0 +1,1 @@
+import{t as e}from"../corner-right-down-B2RZ_-e8.js";export{e as default};

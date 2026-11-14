@@ -1,0 +1,1 @@
+import{t as e}from"../trophy-aQWcOId-.js";export{e as default};

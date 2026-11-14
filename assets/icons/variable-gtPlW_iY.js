@@ -1,0 +1,1 @@
+import{t as e}from"../variable-BTYH8X-z.js";export{e as default};

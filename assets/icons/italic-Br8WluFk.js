@@ -1,0 +1,1 @@
+import{t as e}from"../italic-BUC4JcQV.js";export{e as default};

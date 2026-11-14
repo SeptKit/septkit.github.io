@@ -1,0 +1,1 @@
+import{t as e}from"../square-divide-BVstpyh-.js";export{e as default};

@@ -1,1 +1,0 @@
-import{t as e}from"../table-columns-split-BSMjcgQi.js";export{e as default};

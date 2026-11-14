@@ -1,0 +1,1 @@
+import{t as e}from"../arrow-big-right-DsJa4yT8.js";export{e as default};

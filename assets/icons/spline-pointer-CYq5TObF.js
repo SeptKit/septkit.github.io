@@ -1,1 +1,0 @@
-import{t as e}from"../spline-pointer-TzN9dri5.js";export{e as default};

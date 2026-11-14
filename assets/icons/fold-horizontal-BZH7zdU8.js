@@ -1,0 +1,1 @@
+import{t as e}from"../fold-horizontal-DkPJCajw.js";export{e as default};

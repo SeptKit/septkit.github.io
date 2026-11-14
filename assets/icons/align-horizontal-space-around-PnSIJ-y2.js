@@ -1,0 +1,1 @@
+import{t as e}from"../align-horizontal-space-around-C1IegU-r.js";export{e as default};

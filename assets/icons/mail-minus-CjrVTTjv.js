@@ -1,0 +1,1 @@
+import{t as e}from"../mail-minus-C3YLtLJM.js";export{e as default};

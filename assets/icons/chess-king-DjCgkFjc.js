@@ -1,0 +1,1 @@
+import{t as e}from"../chess-king-BXKs2qyf.js";export{e as default};

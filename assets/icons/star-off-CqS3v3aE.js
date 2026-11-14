@@ -1,0 +1,1 @@
+import{t as e}from"../star-off-Z_8Deg2h.js";export{e as default};

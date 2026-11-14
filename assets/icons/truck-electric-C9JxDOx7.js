@@ -1,0 +1,1 @@
+import{t as e}from"../truck-electric-CwTMfBAu.js";export{e as default};

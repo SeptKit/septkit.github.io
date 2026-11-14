@@ -1,0 +1,1 @@
+import{t as e}from"../pencil-off-DOfGSk-_.js";export{e as default};

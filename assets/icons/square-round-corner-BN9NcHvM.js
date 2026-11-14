@@ -1,1 +1,0 @@
-import{t as e}from"../square-round-corner-BEnUfvqP.js";export{e as default};

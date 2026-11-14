@@ -1,0 +1,1 @@
+import{t as e}from"../dice-3-ABdquTCg.js";export{e as default};

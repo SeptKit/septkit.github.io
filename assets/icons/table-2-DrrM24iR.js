@@ -1,1 +1,0 @@
-import{t as e}from"../table-2-BNWGVRNZ.js";export{e as default};

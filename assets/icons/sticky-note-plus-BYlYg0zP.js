@@ -1,1 +1,0 @@
-import{t as e}from"../sticky-note-plus-CgV5AJ4A.js";export{e as default};

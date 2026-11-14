@@ -1,1 +1,0 @@
-import{t as e}from"../pointer-D10r_09J.js";export{e as default};

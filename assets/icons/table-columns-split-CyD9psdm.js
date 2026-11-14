@@ -1,0 +1,1 @@
+import{t as e}from"../table-columns-split-aNqwdJZL.js";export{e as default};

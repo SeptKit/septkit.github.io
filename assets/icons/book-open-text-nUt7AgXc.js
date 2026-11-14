@@ -1,0 +1,1 @@
+import{t as e}from"../book-open-text-Cv6z4du_.js";export{e as default};

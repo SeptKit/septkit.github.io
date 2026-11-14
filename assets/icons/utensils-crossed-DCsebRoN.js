@@ -1,0 +1,1 @@
+import{t as e}from"../utensils-crossed-CMCwbS8X.js";export{e as default};

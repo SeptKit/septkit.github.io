@@ -1,0 +1,1 @@
+import{t as e}from"../square-activity-NscsCTDd.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../webcam-BS8LPIO2.js";export{e as default};

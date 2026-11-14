@@ -1,1 +1,0 @@
-import{t as e}from"../table-properties-eD_3sF5c.js";export{e as default};

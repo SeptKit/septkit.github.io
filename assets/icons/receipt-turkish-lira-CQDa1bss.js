@@ -1,0 +1,1 @@
+import{t as e}from"../receipt-turkish-lira-BchFS-Vj.js";export{e as default};

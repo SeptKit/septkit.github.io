@@ -1,0 +1,1 @@
+import{t as e}from"../vegan-Be3bxVtn.js";export{e as default};

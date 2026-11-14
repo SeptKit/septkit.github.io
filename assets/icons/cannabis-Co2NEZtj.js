@@ -1,0 +1,1 @@
+import{t as e}from"../cannabis-gr2pycSG.js";export{e as default};

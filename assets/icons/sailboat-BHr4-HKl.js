@@ -1,1 +1,0 @@
-import{t as e}from"../sailboat-DvmMhQt-.js";export{e as default};

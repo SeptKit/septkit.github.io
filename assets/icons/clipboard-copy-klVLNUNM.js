@@ -1,0 +1,1 @@
+import{t as e}from"../clipboard-copy-CWI-2Nue.js";export{e as default};

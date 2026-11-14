@@ -1,1 +1,0 @@
-import{t as e}from"../triangle-C9vCkJdp.js";export{e as default};

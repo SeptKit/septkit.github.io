@@ -1,1 +1,0 @@
-import{t as e}from"../flag-triangle-right-BG_gAoeZ.js";export{e as default};

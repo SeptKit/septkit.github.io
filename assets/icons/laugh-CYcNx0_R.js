@@ -1,0 +1,1 @@
+import{t as e}from"../laugh-BHCrtgbr.js";export{e as default};

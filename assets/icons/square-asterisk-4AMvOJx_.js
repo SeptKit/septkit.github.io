@@ -1,0 +1,1 @@
+import{t as e}from"../square-asterisk-CuJQ-a64.js";export{e as default};

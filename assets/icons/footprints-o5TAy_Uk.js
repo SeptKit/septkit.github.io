@@ -1,1 +1,0 @@
-import{t as e}from"../footprints-BVPJjs3i.js";export{e as default};

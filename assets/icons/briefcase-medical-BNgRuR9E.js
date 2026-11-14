@@ -1,1 +1,0 @@
-import{t as e}from"../briefcase-medical-Df8sjNLK.js";export{e as default};

@@ -1,1 +1,0 @@
-import{t as e}from"../tablet-B-repRP6.js";export{e as default};

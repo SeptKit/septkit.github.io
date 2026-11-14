@@ -1,0 +1,1 @@
+import{t as e}from"../ellipsis-vertical-CDEF71zw.js";export{e as default};

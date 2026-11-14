@@ -1,0 +1,1 @@
+import{t as e}from"../notepad-text-dashed-C6oFjptd.js";export{e as default};

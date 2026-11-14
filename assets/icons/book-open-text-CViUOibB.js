@@ -1,1 +1,0 @@
-import{t as e}from"../book-open-text-CLC3On62.js";export{e as default};

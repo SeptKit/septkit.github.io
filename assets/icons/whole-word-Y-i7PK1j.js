@@ -1,0 +1,1 @@
+import{t as e}from"../whole-word-Cm4gtWO3.js";export{e as default};

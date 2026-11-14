@@ -1,0 +1,1 @@
+import{t as e}from"../arrow-down-narrow-wide-CbfOLPkz.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../sticky-note-minus-C9pT7JWg.js";export{e as default};

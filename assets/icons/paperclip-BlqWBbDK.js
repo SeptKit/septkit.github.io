@@ -1,0 +1,1 @@
+import{t as e}from"../paperclip-BrdNOTMz.js";export{e as default};

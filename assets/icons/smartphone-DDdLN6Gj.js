@@ -1,0 +1,1 @@
+import{t as e}from"../smartphone-BGhFAReQ.js";export{e as default};

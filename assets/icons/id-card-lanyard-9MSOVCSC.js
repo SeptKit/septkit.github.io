@@ -1,0 +1,1 @@
+import{t as e}from"../id-card-lanyard-CN3bxBPY.js";export{e as default};

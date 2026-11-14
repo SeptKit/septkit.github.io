@@ -1,0 +1,1 @@
+import{t as e}from"../cooking-pot-D1WSCpuO.js";export{e as default};

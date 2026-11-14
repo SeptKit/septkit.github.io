@@ -1,0 +1,1 @@
+import{t as e}from"../zodiac-capricorn-BVeleGPy.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../badge-alert-CC7SEqLN.js";export{e as default};

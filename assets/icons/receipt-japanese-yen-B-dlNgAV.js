@@ -1,1 +1,0 @@
-import{t as e}from"../receipt-japanese-yen-KVYIrINK.js";export{e as default};

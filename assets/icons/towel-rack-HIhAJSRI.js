@@ -1,0 +1,1 @@
+import{t as e}from"../towel-rack-BEwOVCZ_.js";export{e as default};

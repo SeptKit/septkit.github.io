@@ -1,1 +1,0 @@
-import{t as e}from"../aperture-BGK-Df1N.js";export{e as default};

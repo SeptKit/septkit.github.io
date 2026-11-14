@@ -1,0 +1,1 @@
+import{t as e}from"../bow-arrow-BPrhYUtZ.js";export{e as default};

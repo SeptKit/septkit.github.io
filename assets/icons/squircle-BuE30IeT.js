@@ -1,0 +1,1 @@
+import{t as e}from"../squircle-BMDVIaI-.js";export{e as default};

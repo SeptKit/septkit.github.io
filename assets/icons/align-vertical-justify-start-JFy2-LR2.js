@@ -1,0 +1,1 @@
+import{t as e}from"../align-vertical-justify-start-_8vXd_-2.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../bed-single-DwiQ-zWR.js";export{e as default};

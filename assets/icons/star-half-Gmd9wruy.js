@@ -1,0 +1,1 @@
+import{t as e}from"../star-half-Dh5rknpj.js";export{e as default};

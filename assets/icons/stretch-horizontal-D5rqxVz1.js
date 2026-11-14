@@ -1,0 +1,1 @@
+import{t as e}from"../stretch-horizontal-DGLl_Nr5.js";export{e as default};

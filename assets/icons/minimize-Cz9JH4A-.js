@@ -1,0 +1,1 @@
+import{t as e}from"../minimize-DRHs6Es-.js";export{e as default};

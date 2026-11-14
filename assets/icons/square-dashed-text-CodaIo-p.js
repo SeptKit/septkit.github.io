@@ -1,0 +1,1 @@
+import{t as e}from"../square-dashed-text-ozPa0wKD.js";export{e as default};

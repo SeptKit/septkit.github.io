@@ -1,1 +1,0 @@
-import{t as e}from"../vote-C347lTcm.js";export{e as default};

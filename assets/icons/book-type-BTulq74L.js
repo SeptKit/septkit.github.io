@@ -1,0 +1,1 @@
+import{t as e}from"../book-type-CI2BiOTA.js";export{e as default};

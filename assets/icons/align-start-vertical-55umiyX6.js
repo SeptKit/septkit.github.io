@@ -1,0 +1,1 @@
+import{t as e}from"../align-start-vertical-CrsOg4dE.js";export{e as default};

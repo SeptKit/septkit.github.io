@@ -1,0 +1,1 @@
+import{t as e}from"../briefcase-vABaiNZQ.js";export{e as default};

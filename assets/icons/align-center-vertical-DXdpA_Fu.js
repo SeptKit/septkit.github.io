@@ -1,0 +1,1 @@
+import{t as e}from"../align-center-vertical-DdGeNjQ-.js";export{e as default};

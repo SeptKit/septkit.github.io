@@ -1,0 +1,1 @@
+import{t as e}from"../text-align-center-CzewgsUK.js";export{e as default};

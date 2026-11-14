@@ -1,0 +1,1 @@
+import{t as e}from"../spell-check-2-CDj80oLc.js";export{e as default};

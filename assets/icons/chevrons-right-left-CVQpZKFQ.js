@@ -1,0 +1,1 @@
+import{t as e}from"../chevrons-right-left-sdv-3rYd.js";export{e as default};

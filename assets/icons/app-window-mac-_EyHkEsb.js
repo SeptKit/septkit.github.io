@@ -1,0 +1,1 @@
+import{t as e}from"../app-window-mac-lIbHAIPM.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../sticky-notes-DuudTv_y.js";export{e as default};

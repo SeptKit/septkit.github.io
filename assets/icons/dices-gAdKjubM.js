@@ -1,0 +1,1 @@
+import{t as e}from"../dices-BsvxFhPa.js";export{e as default};

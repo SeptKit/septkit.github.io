@@ -1,1 +1,0 @@
-import{t as e}from"../heading-4-DchtaWut.js";export{e as default};

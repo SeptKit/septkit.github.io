@@ -1,1 +1,0 @@
-import{t as e}from"../ticket-percent-BudGw1Kd.js";export{e as default};

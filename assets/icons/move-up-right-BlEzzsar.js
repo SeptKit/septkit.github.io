@@ -1,0 +1,1 @@
+import{t as e}from"../move-up-right-DAVUfmHB.js";export{e as default};

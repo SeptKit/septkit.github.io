@@ -1,0 +1,1 @@
+import{t as e}from"../thumbs-up-D-7U3UI6.js";export{e as default};

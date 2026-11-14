@@ -1,0 +1,1 @@
+import{t as e}from"../chart-no-axes-column-BBr64H0G.js";export{e as default};

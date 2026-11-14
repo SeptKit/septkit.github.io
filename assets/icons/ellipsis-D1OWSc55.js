@@ -1,0 +1,1 @@
+import{t as e}from"../ellipsis-BIRt6VmI.js";export{e as default};

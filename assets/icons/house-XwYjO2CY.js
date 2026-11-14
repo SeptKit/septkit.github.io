@@ -1,1 +1,0 @@
-import{t as e}from"../house-B_8peHb1.js";export{e as default};

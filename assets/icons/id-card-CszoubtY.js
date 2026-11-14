@@ -1,0 +1,1 @@
+import{t as e}from"../id-card-vhWDNgjs.js";export{e as default};

@@ -1,1 +1,0 @@
-import{t as e}from"../battery-full-FSltuB5s.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../cuboid-DeOm2_5a.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../land-plot-Cf25LtUj.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../projector-CKwCGVt-.js";export{e as default};

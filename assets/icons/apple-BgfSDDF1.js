@@ -1,0 +1,1 @@
+import{t as e}from"../apple-C3WTZmNj.js";export{e as default};

@@ -1,1 +1,0 @@
-import{t as e}from"../receipt-cent-DPPCJh9R.js";export{e as default};

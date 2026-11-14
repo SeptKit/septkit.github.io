@@ -1,0 +1,1 @@
+import{t as e}from"../square-arrow-down-right-BjEZZFmg.js";export{e as default};

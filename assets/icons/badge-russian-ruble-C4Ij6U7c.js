@@ -1,1 +1,0 @@
-import{t as e}from"../badge-russian-ruble-nO8kPqbF.js";export{e as default};

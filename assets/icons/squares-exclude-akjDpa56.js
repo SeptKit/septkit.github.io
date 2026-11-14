@@ -1,0 +1,1 @@
+import{t as e}from"../squares-exclude-Cm6a2knY.js";export{e as default};

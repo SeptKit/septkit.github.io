@@ -1,0 +1,1 @@
+import{t as e}from"../triangle-right-C_FPImG8.js";export{e as default};

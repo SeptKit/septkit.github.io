@@ -1,0 +1,1 @@
+import{t as e}from"../text-align-justify-Btq_7dYI.js";export{e as default};

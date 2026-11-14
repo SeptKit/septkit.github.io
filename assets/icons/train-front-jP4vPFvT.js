@@ -1,0 +1,1 @@
+import{t as e}from"../train-front-CWki_AZE.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../gift-DD5Rvy95.js";export{e as default};

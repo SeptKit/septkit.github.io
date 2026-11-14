@@ -1,1 +1,0 @@
-import{t as e}from"../layout-template-B2b6WGEC.js";export{e as default};

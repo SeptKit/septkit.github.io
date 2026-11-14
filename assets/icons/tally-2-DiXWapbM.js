@@ -1,1 +1,0 @@
-import{t as e}from"../tally-2-Kenn6-7K.js";export{e as default};

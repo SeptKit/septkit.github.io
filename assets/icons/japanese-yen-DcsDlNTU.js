@@ -1,1 +1,0 @@
-import{t as e}from"../japanese-yen-BJLyqpln.js";export{e as default};

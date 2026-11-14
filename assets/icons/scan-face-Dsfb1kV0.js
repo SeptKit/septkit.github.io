@@ -1,0 +1,1 @@
+import{t as e}from"../scan-face-BKp85O4d.js";export{e as default};

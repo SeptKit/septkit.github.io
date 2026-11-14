@@ -1,0 +1,1 @@
+import{t as e}from"../tally-1-ySyzE1yi.js";export{e as default};

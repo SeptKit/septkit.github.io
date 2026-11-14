@@ -1,0 +1,1 @@
+import{t as e}from"../bold-C7lbl_LI.js";export{e as default};

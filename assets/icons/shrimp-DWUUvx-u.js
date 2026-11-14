@@ -1,0 +1,1 @@
+import{t as e}from"../shrimp-BJoBM1q-.js";export{e as default};

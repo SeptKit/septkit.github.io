@@ -1,0 +1,1 @@
+import{t as e}from"../tablets-DTnTJRaM.js";export{e as default};

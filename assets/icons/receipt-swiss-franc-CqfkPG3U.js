@@ -1,0 +1,1 @@
+import{t as e}from"../receipt-swiss-franc-BplynBX_.js";export{e as default};

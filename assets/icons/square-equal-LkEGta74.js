@@ -1,1 +1,0 @@
-import{t as e}from"../square-equal-neuXO0xc.js";export{e as default};

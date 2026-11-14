@@ -1,0 +1,1 @@
+import{t as e}from"../align-horizontal-distribute-center-Bm40hVMc.js";export{e as default};

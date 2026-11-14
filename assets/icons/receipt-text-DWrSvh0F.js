@@ -1,1 +1,0 @@
-import{t as e}from"../receipt-text-DOKXR5Ab.js";export{e as default};

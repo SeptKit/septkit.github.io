@@ -1,0 +1,1 @@
+import{t as e}from"../dice-6-CO90ysil.js";export{e as default};

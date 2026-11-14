@@ -1,0 +1,1 @@
+import{t as e}from"../fishing-hook-CB0q6wOS.js";export{e as default};

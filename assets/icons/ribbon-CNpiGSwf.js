@@ -1,1 +1,0 @@
-import{t as e}from"../ribbon-C9WSAGf3.js";export{e as default};

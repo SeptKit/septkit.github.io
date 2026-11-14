@@ -1,0 +1,1 @@
+import{t as e}from"../wallpaper-Bjkw8fTj.js";export{e as default};

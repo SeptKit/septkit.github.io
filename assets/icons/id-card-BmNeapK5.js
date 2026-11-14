@@ -1,1 +1,0 @@
-import{t as e}from"../id-card-BU1BxJ4K.js";export{e as default};

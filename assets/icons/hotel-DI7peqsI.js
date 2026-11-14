@@ -1,0 +1,1 @@
+import{t as e}from"../hotel-DSxs-jJt.js";export{e as default};

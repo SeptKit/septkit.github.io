@@ -1,0 +1,1 @@
+import{t as e}from"../quote-viZKDzu_.js";export{e as default};

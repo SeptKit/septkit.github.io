@@ -1,0 +1,1 @@
+import{t as e}from"../git-commit-vertical-BTfv6QED.js";export{e as default};

@@ -1,0 +1,1 @@
+import{t as e}from"../ribbon-BRtUmcmD.js";export{e as default};
