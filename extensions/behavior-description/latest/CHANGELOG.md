@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [22] - 2026-11-13
+
+### Changed
+
+- The logical node list opens faster on large projects.
+
 ## [14] - 2026-06-26
 
 ### Fixed
