@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [18] - 2026-11-13
+
+### Changed
+
+- The matrix opens in under a second on large projects instead of several minutes.
+
 ## [15] - 2026-11-05
 
 ### Added
