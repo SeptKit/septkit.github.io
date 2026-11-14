@@ -7,6 +7,16 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [41] - 2026-11-13
+
+### Changed
+
+- Labels and values open in a few seconds on large projects instead of several minutes.
+
+### Fixed
+
+- Labels/Values no longer stays empty when a logical node refers to a missing type.
+
 ## [37] - 2026-10-27
 
 ### Changed
