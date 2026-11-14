@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [24] - 2026-11-13
+
+### Changed
+
+- The outline of a large document opens in a few seconds instead of several minutes.
+
 ## [20] - 2026-10-27
 
 ### Changed
