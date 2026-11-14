@@ -7,6 +7,16 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [110] - 2026-11-13
+
+### Changed
+
+- Reviewing a template merge is faster on large templates.
+
+### Fixed
+
+- Placing or updating a template writes its voltage levels, applications, functions and categories in the template's order, the same on every run.
+
 ## [109] - 2026-11-13
 
 ### Fixed
