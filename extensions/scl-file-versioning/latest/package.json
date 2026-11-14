@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-scl-file-versioning",
-	"version": "16",
+	"version": "17",
 	"displayName": "Version",
 	"description": "SeptKit extension that displays the version information of an SCL file",
 	"private": true,
