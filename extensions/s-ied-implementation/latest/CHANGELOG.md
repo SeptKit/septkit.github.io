@@ -7,6 +7,16 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [59] - 2026-11-13
+
+### Changed
+
+- The ICD tree opens in seconds on large projects instead of several minutes.
+
+### Fixed
+
+- After an ICD is applied, the network entries copied from it and the IED's own access point links refer to the project IED's access points and control blocks, no longer to the ICD's.
+
 ## [58] - 2026-11-13
 
 ### Fixed
