@@ -17,5 +17,6 @@
 	"https://septkit.github.io/extensions/validation/latest/",
 	"https://septkit.github.io/extensions/xml-viewer/latest/",
 	"https://septkit.github.io/extensions/network/latest/",
-	"https://septkit.github.io/extensions/scl-downgrade-export/latest/"
+	"https://septkit.github.io/extensions/scl-downgrade-export/latest/",
+	"https://septkit.github.io/extensions/physical-viewer/latest/"
 ]
