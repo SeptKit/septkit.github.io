@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [23] - 2026-11-15
+
+### Added
+
+- Automatically create missing DOS/DAS and application references for data attribute Input/Output variables
+
 ## [22] - 2026-11-13
 
 ### Changed

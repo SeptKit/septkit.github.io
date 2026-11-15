@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-behavior-description",
-	"version": "22",
+	"version": "23",
 	"displayName": "Behavior Description",
 	"description": "extension for SET Platform that provides behavior description capabilities",
 	"private": true,
@@ -20,10 +20,19 @@
 		],
 		"menus": {
 			"set.step.concept": [
-				{ "editor": "sprinteins.ext-behavior-description.behavior-description", "group": "20_editors@50", "when": { "role": "expert" } }
+				{
+					"editor": "sprinteins.ext-behavior-description.behavior-description",
+					"group": "20_editors@50",
+					"when": {
+						"role": "expert"
+					}
+				}
 			],
 			"set.step.specification": [
-				{ "editor": "sprinteins.ext-behavior-description.behavior-description", "group": "20_editors@50" }
+				{
+					"editor": "sprinteins.ext-behavior-description.behavior-description",
+					"group": "20_editors@50"
+				}
 			]
 		}
 	},
