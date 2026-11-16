@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [25] - 2026-11-16
+
+### Added
+
+- Remove a BehaviorReference from the References section
+
 ## [24] - 2026-11-16
 
 ### Added
