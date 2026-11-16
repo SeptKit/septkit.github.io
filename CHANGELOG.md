@@ -7,6 +7,13 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [70] - 2026-11-15
+
+### Changed
+
+- SET keeps your projects in a new way that handles large files faster. Projects made with an earlier version of SET are not carried over: import their exported files again to keep working on them.
+- In a private browser window, where SET cannot keep projects, SET now says so and asks you to open it in a normal window.
+
 ## [69] - 2026-11-13
 
 ### Added
