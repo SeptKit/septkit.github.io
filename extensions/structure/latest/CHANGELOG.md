@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [111] - 2026-11-16
+
+### Changed
+
+- Select equipment for a Power System Relation optionally when creating it; link or change it later from the relation's Details sidebar.
+
 ## [110] - 2026-11-13
 
 ### Changed
