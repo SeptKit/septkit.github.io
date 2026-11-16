@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## Unreleased
 
+## [91] - 2026-11-16
+
+### Added
+
+- Search the LNode selectors by LNode/LN label or parent path: the Function hierarchy in the specification view, the IED/LDevice in the implementation view
+
 ## [88] - 2026-11-10
 
 ### Changed
