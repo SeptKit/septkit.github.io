@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [24] - 2026-11-16
+
+### Added
+
+- Add a reference from a BehaviorDescription to another BehaviorDescription in a new References section
+
 ## [23] - 2026-11-15
 
 ### Added
