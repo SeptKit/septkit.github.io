@@ -1,7 +1,7 @@
 {
 	"name": "@septkit/ext-network",
-	"version": "14",
-	"displayName": "Network",
+	"version": "15",
+	"displayName": "Communication",
 	"description": "Manage the SCL communication network",
 	"private": true,
 	"type": "module",
@@ -9,7 +9,7 @@
 		"customEditors": [
 			{
 				"id": "sprinteins.ext-network.editor",
-				"displayName": "Network",
+				"displayName": "Communication",
 				"fileSelectors": [
 					"SSD",
 					"ASD",

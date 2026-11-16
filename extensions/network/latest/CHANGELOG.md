@@ -7,6 +7,19 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [15] - 2026-11-16
+
+### Added
+
+- New GSE/SMV table; switch between "Network" and "GSE/SMV" with the toggle above the table (Network is shown first).
+- The GSE/SMV table shows one read-only row per GSE and SMV with Kind, IED, AccessPoint, SubNetwork, cbName, ldInst, appID / smvID, MAC-Address, APPID, VLAN-ID, Priority, MinTime, MaxTime, Subscribers and Status.
+- Status shows ok, warning or error; hover it to see the reasons (e.g. missing MAC-Address, no subscribers, subscriber in another SubNetwork).
+- Filter and sort every column of the GSE/SMV table; filters work like in the Network table.
+
+### Changed
+
+- The extension is now called "Communication" (formerly "Network").
+
 ## [12] - 2026-11-10
 
 ### Added
