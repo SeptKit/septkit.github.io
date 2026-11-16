@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [42] - 2026-11-15
+
+### Changed
+
+- Labels and values open faster on large projects, and saving an edit no longer reloads the whole table.
+
 ## [41] - 2026-11-13
 
 ### Changed
