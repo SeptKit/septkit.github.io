@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [Unreleased]
 
+## [47] - 2026-11-16
+
+### Changed
+
+- The IED selector and the IED kind now sit in a row above the diagram instead of a left sidebar and a header, leaving more room for the diagram and the details sidebar.
+
 ## [45] - 2026-11-12
 
 ### Added
