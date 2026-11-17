@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-ied-browser",
-	"version": "49",
+	"version": "50",
 	"displayName": "IED Browser",
 	"description": "SeptKit extension - browse and inspect IEDs in an SCL file",
 	"private": true,
