@@ -183253,11 +183253,7 @@ const Qga = /* @__PURE__ */ mn({
 });
 function Hba(n, a) {
   const r = document.getElementById(n);
-  Hn(r, { detail: `could not find root element: ${n}` }), cna({
-    project: a.project,
-    activeDocumentId: a.activeDocumentId,
-    commands: a.commands
-  });
+  Hn(r, { detail: `could not find root element: ${n}` }), cna(a);
   const s = (g) => {
     g ? NXn(a.project.openDocument(g)) : i6t();
   };

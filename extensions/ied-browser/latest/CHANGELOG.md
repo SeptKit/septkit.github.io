@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [Unreleased]
 
+## [51] - 2026-11-17
+
+### Fixed
+
+- **Instantiate ISD** works again: clicking it failed with "no storage sources provided by the shell" instead of letting you pick an `.isd` file from a library folder or from disk.
+
 ## [49] - 2026-11-17
 
 ### Added
