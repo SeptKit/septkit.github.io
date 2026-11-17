@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [114] - 2026-11-17
+
+### Fixed
+
+- A template you instantiate or update from (FSD, ASD, SSD) and the ISD an S-IED is created from are read on their own, never stored in the project while you review them. The project records the file a template came from under the file's own name; a record of an earlier instantiation under a `TEMP-` name is corrected the next time you update from that file.
+
 ## [113] - 2026-11-17
 
 ### Fixed
