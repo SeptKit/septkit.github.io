@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [113] - 2026-11-17
+
+### Fixed
+
+- Reviewing a template merge opens the tree only down to the bays, which stay closed: what a bay holds does not show until you open it, even when the first change sits inside. The closed bay shows how many changes it holds; the N and P keys open the way to each change.
+
 ## [112] - 2026-11-16
 
 ### Changed
