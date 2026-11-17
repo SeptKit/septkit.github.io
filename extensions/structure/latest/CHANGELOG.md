@@ -7,6 +7,14 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [112] - 2026-11-16
+
+### Changed
+
+- Reviewing a template merge shows less at once: the tree opens to the bays, and a closed element shows how many changes it holds. Open or close the whole tree from the Expand menu, or what is below one element from its right-click menu.
+- The rows of one change share a band, plain or tinted, so you see where the next change starts; the change selected is marked along its rows, wherever they are, and says what goes with it.
+- "Changes only" says what it hides, with Show all to see everything again.
+
 ## [111] - 2026-11-16
 
 ### Changed
