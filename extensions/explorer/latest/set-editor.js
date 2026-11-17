@@ -5689,7 +5689,7 @@ function Hc(e) {
 	});
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/@dialecte_core@0.11.0/node_modules/@dialecte/core/dist/rolldown-runtime-CYdcPHCu.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/@dialecte_core@0.11.0/node_modules/@dialecte/core/dist/rolldown-runtime-CYdcPHCu.js
 var Qne = Object.create, Uc = Object.defineProperty, $ne = Object.getOwnPropertyDescriptor, ere = Object.getOwnPropertyNames, tre = Object.getPrototypeOf, Wc = Object.prototype.hasOwnProperty, Gc = (e, t) => () => (t || (e((t = { exports: {} }).exports, t, t.exports), e = null), t.exports), nre = (e, t, n, r) => {
 	if (t && typeof t == "object" || typeof t == "function") for (var i = ere(t), a = 0, o = i.length, s; a < o; a++) s = i[a], !Wc.call(e, s) && s !== n && Uc(e, s, {
 		get: ((e) => t[e]).bind(null, s),
@@ -5701,7 +5701,7 @@ var Qne = Object.create, Uc = Object.defineProperty, $ne = Object.getOwnProperty
 	enumerable: !0
 }) : n, e));
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/@dialecte_core@0.11.0/node_modules/@dialecte/core/dist/open-connections-D59wm6nb.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/@dialecte_core@0.11.0/node_modules/@dialecte/core/dist/open-connections-D59wm6nb.js
 function qc() {}
 function rre() {
 	let e = 0, t = [];
@@ -5760,7 +5760,7 @@ function are() {
 	};
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/@dialecte_core@0.11.0/node_modules/@dialecte/core/dist/project-key-sr4wkl2Q.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/@dialecte_core@0.11.0/node_modules/@dialecte/core/dist/project-key-sr4wkl2Q.js
 var ore = {
 	bigint: "a BigInt",
 	function: "a function",
@@ -7129,7 +7129,7 @@ function ou(e) {
 	return `${encodeURIComponent(t)}/${encodeURIComponent(n)}`;
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/@dialecte_core@0.11.0/node_modules/@dialecte/core/dist/helpers-D8p0KiJu.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/@dialecte_core@0.11.0/node_modules/@dialecte/core/dist/helpers-D8p0KiJu.js
 function Qre(e) {
 	let { dialecteConfig: t, tagName: n, attributes: r, stored: i = [] } = e;
 	return (Array.isArray(r) ? r : Object.entries(r).map(([e, r]) => ({
@@ -7258,7 +7258,7 @@ function rie(e) {
 	});
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/@dialecte_core@0.11.0/node_modules/@dialecte/core/dist/same-json-value-boJ4pSRe.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/@dialecte_core@0.11.0/node_modules/@dialecte/core/dist/same-json-value-boJ4pSRe.js
 var su = 1e3, iie = "start";
 function aie(e) {
 	let { documents: t, writeId: n, isRunning: r } = e, i = t.find((e) => e.writeId === n);
@@ -8986,7 +8986,7 @@ function Gu(e) {
 	});
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/@dialecte_core@0.11.0/node_modules/@dialecte/core/dist/dialecte-Cs_XRP4I.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/@dialecte_core@0.11.0/node_modules/@dialecte/core/dist/dialecte-Cs_XRP4I.js
 async function Ku(e) {
 	let { store: t, isRunning: n } = e, r = await t.getDocuments();
 	for (let e of r) e.status === "importing" && (await n?.(e) || (await t.getDocument(e.id))?.status === "importing" && await t.removeDocument(e.id));
@@ -13404,7 +13404,7 @@ Object.freeze({
 	forceClear() {}
 });
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/dialecte/create-document-store.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/dialecte/create-document-store.js
 function Zie(e) {
 	let t = /* @__PURE__ */ yn(null), n = e?.extensions, r = {}, i = {};
 	if (n) for (let [e, t] of Object.entries(n)) t.query && (r[e] = t.query), t.transaction && (i[e] = t.transaction);
@@ -13449,7 +13449,7 @@ function dd(e, t) {
 	} });
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/@vueuse_shared@14.3.0_vue@3.5.39_typescript@5.8.3_/node_modules/@vueuse/shared/dist/index.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/@vueuse_shared@14.3.0_vue@3.5.39_typescript@5.8.3_/node_modules/@vueuse/shared/dist/index.js
 function fd(e, t) {
 	return Be() ? (Ve(e, t), !0) : !1;
 }
@@ -13634,7 +13634,7 @@ function oae(e, t, n) {
 	});
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/dialecte/composables/use-dialecte-channel.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/dialecte/composables/use-dialecte-channel.js
 function sae(e) {
 	let t = /* @__PURE__ */ vn(typeof BroadcastChannel < "u"), n = /* @__PURE__ */ vn(), r;
 	return Lr(() => wn(e), (e) => {
@@ -13647,7 +13647,7 @@ function sae(e) {
 	};
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/@vueuse_core@14.3.0_vue@3.5.39_typescript@5.8.3_/node_modules/@vueuse/core/dist/index.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/@vueuse_core@14.3.0_vue@3.5.39_typescript@5.8.3_/node_modules/@vueuse/core/dist/index.js
 var xd = md ? window : void 0;
 md && window.document, md && window.navigator, md && window.location;
 function Sd(e) {
@@ -13752,7 +13752,7 @@ function wd(e, t, n, r = {}) {
 	});
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/dialecte/composables/use-live-data.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/dialecte/composables/use-live-data.js
 function pae(e) {
 	let { document: t, fetcher: n, initial: r } = e, { state: i, isLoading: a, error: o, execute: s, refresh: c } = mae(n, r), l = Xo(() => wn(t)), { data: u } = sae(Xo(() => l.value?.channelName));
 	return Lr(u, (e) => {
@@ -13794,7 +13794,7 @@ function hae(e) {
 	}
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/createContext.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/createContext.js
 function Td(e, t) {
 	let n = typeof e == "string" && !t ? `${e}Context` : t, r = Symbol(n);
 	return [(t) => {
@@ -13804,16 +13804,16 @@ function Td(e, t) {
 	}, (e) => (kr(r, e), e)];
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/ConfigProvider/ConfigProvider.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/ConfigProvider/ConfigProvider.js
 var [Ed, gae] = /* @__PURE__ */ Td("ConfigProvider");
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/useDirection.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/useDirection.js
 function Dd(e) {
 	let t = Ed({ dir: /* @__PURE__ */ vn("ltr") });
 	return Xo(() => e?.value || t.dir?.value || "ltr");
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/Primitive/usePrimitiveElement.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/Primitive/usePrimitiveElement.js
 function Od() {
 	let e = /* @__PURE__ */ vn();
 	return {
@@ -13822,7 +13822,7 @@ function Od() {
 	};
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/ohash@2.0.11/node_modules/ohash/dist/shared/ohash.D__AXeF1.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/ohash@2.0.11/node_modules/ohash/dist/shared/ohash.D__AXeF1.js
 function kd(e) {
 	return typeof e == "string" ? `'${e}'` : new _ae().serialize(e);
 }
@@ -13927,7 +13927,7 @@ function Ad(e, t) {
 	return e === t || kd(e) === kd(t);
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/arrays.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/arrays.js
 function jd(e, t, n) {
 	let r = e.findIndex((e) => Ad(e, t)), i = e.findIndex((e) => Ad(e, n));
 	if (r === -1 || i === -1) return [];
@@ -13935,7 +13935,7 @@ function jd(e, t, n) {
 	return e.slice(a, o + 1);
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/getActiveElement.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/getActiveElement.js
 function Md() {
 	let e = document.activeElement;
 	if (e == null) return null;
@@ -13943,7 +13943,7 @@ function Md() {
 	return e;
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/useTypeahead.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/useTypeahead.js
 function vae(e) {
 	let t = vd("", 1e3);
 	return {
@@ -13973,12 +13973,12 @@ function bae(e, t, n) {
 	return o === n ? void 0 : o;
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/renderSlotFragments.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/renderSlotFragments.js
 function Nd(e) {
 	return e ? e.flatMap((e) => e.type === no ? Nd(e.children) : [e]) : [];
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/Primitive/Slot.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/Primitive/Slot.js
 var Pd = /* @__PURE__ */ fi({
 	name: "PrimitiveSlot",
 	inheritAttrs: !1,
@@ -14071,7 +14071,7 @@ function Ld(e = {}) {
 	};
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/VisuallyHidden/VisuallyHidden.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/VisuallyHidden/VisuallyHidden.js
 var Sae = /* @__PURE__ */ fi({
 	__name: "VisuallyHidden",
 	props: {
@@ -14151,7 +14151,7 @@ function Eae(e, t) {
 	return e.map((n, r) => e[(t + r) % e.length]);
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/Popper/PopperRoot.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/Popper/PopperRoot.js
 var [Vd, Dae] = /* @__PURE__ */ Td("PopperRoot"), Oae = /* @__PURE__ */ fi({
 	inheritAttrs: !1,
 	__name: "PopperRoot",
@@ -14164,7 +14164,7 @@ var [Vd, Dae] = /* @__PURE__ */ Td("PopperRoot"), Oae = /* @__PURE__ */ fi({
 	}
 });
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/useForwardExpose.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/useForwardExpose.js
 function Hd() {
 	let e = Po(), t = /* @__PURE__ */ vn(), n = Xo(() => r());
 	zi(() => {
@@ -14211,7 +14211,7 @@ function Hd() {
 	};
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/Popper/PopperAnchor.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/Popper/PopperAnchor.js
 var kae = /* @__PURE__ */ fi({
 	__name: "PopperAnchor",
 	props: {
@@ -14243,7 +14243,7 @@ var kae = /* @__PURE__ */ fi({
 	}
 });
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/useEmitAsProps.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/useEmitAsProps.js
 function Aae(e) {
 	let t = Po(), n = t?.type.emits, r = {};
 	return n?.length || console.warn(`No emitted event found. Please check component: ${t?.type.__name}`), n?.forEach((t) => {
@@ -14251,7 +14251,7 @@ function Aae(e) {
 	}), r;
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/useForwardProps.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/useForwardProps.js
 function Ud(e) {
 	let t = Po(), n = Object.keys(t?.type.props ?? {}).reduce((e, n) => {
 		let r = (t?.type.props[n]).default;
@@ -14268,7 +14268,7 @@ function Ud(e) {
 	});
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/useForwardPropsEmits.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/useForwardPropsEmits.js
 function jae(e, t) {
 	let n = Ud(e), r = t ? Aae(t) : {};
 	return Xo(() => ({
@@ -14277,7 +14277,7 @@ function jae(e, t) {
 	}));
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/useId.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/useId.js
 var Mae = 0;
 function Wd(e, t = "reka") {
 	if (e) return e;
@@ -14285,7 +14285,7 @@ function Wd(e, t = "reka") {
 	return n = r.useId ? r.useId() : "useId" in fc ? pi?.() : `${++Mae}`, t ? `${t}-${n}` : n;
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/useStateMachine.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/useStateMachine.js
 function Nae(e, t) {
 	let n = /* @__PURE__ */ vn(e);
 	function r(e) {
@@ -14299,7 +14299,7 @@ function Nae(e, t) {
 	};
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/Presence/usePresence.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/Presence/usePresence.js
 function Pae(e, t) {
 	let n = /* @__PURE__ */ vn({}), r = /* @__PURE__ */ vn("none"), i = /* @__PURE__ */ vn(e), a = e.value ? "mounted" : "unmounted", o, s = t.value?.ownerDocument.defaultView ?? xd, { state: c, dispatch: l } = Nae(a, {
 		mounted: {
@@ -14352,7 +14352,7 @@ function Gd(e) {
 	return e && getComputedStyle(e).animationName || "none";
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/Presence/Presence.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/Presence/Presence.js
 var Fae = /* @__PURE__ */ fi({
 	name: "Presence",
 	props: {
@@ -14386,7 +14386,7 @@ var Fae = /* @__PURE__ */ fi({
 	}
 });
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/defu@6.1.7/node_modules/defu/dist/defu.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/defu@6.1.7/node_modules/defu/dist/defu.js
 function Kd(e) {
 	if (typeof e != "object" || !e) return !1;
 	let t = Object.getPrototypeOf(e);
@@ -14415,12 +14415,12 @@ function Rae(e) {
 	}
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/nullish.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/nullish.js
 function zae(e) {
 	return e == null;
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/handleAndDispatchCustomEvent.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/handleAndDispatchCustomEvent.js
 function Jd(e, t, n) {
 	let r = n.originalEvent.target, i = new CustomEvent(e, {
 		bubbles: !1,
@@ -14430,7 +14430,7 @@ function Jd(e, t, n) {
 	t && r.addEventListener(e, t, { once: !0 }), r.dispatchEvent(i);
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/DismissableLayer/utils.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/DismissableLayer/utils.js
 var Bae = "dismissableLayer.pointerDownOutside", Yd = "dismissableLayer.focusOutside";
 function Xd(e, t) {
 	if (!(t instanceof Element)) return !1;
@@ -14488,7 +14488,7 @@ function Hae(e, t, n = !0) {
 	};
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/DismissableLayer/DismissableLayer.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/DismissableLayer/DismissableLayer.js
 var Zd = /* @__PURE__ */ rn({
 	layersRoot: /* @__PURE__ */ new Set(),
 	layersWithOutsidePointerEventsDisabled: /* @__PURE__ */ new Set(),
@@ -14576,7 +14576,7 @@ var Zd = /* @__PURE__ */ rn({
 });
 Qie(() => /* @__PURE__ */ vn([]));
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/useSize.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/useSize.js
 function Wae(e) {
 	let t = /* @__PURE__ */ vn(), n = Xo(() => t.value?.width ?? 0), r = Xo(() => t.value?.height ?? 0), i;
 	return Li(() => {
@@ -14604,7 +14604,7 @@ function Wae(e) {
 	};
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/Popper/utils.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/Popper/utils.js
 function Gae(e) {
 	return e !== null;
 }
@@ -14634,7 +14634,7 @@ function Qd(e) {
 	return [t, n];
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/@floating-ui_utils@0.2.11/node_modules/@floating-ui/utils/dist/floating-ui.utils.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/@floating-ui_utils@0.2.11/node_modules/@floating-ui/utils/dist/floating-ui.utils.js
 var qae = [
 	"top",
 	"right",
@@ -14739,7 +14739,7 @@ function bf(e) {
 	};
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/@floating-ui_core@1.7.5/node_modules/@floating-ui/core/dist/floating-ui.core.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/@floating-ui_core@1.7.5/node_modules/@floating-ui/core/dist/floating-ui.core.js
 function eoe(e, t, n) {
 	let { reference: r, floating: i } = e, a = df(t), o = ff(t), s = uf(o), c = sf(t), l = a === "y", u = r.x + r.width / 2 - i.width / 2, d = r.y + r.height / 2 - i.height / 2, f = r[s] / 2 - i[s] / 2, p;
 	switch (c) {
@@ -15096,7 +15096,7 @@ var Tf = function(e) {
 	};
 };
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/@floating-ui_utils@0.2.11/node_modules/@floating-ui/utils/dist/floating-ui.utils.dom.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/@floating-ui_utils@0.2.11/node_modules/@floating-ui/utils/dist/floating-ui.utils.dom.js
 function Ef() {
 	return typeof window < "u";
 }
@@ -15192,7 +15192,7 @@ function _oe(e) {
 	return e.parent && Object.getPrototypeOf(e.parent) ? e.frameElement : null;
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/@floating-ui_dom@1.7.6/node_modules/@floating-ui/dom/dist/floating-ui.dom.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/@floating-ui_dom@1.7.6/node_modules/@floating-ui/dom/dist/floating-ui.dom.js
 function voe(e) {
 	let t = Lf(e), n = parseFloat(t.width) || 0, r = parseFloat(t.height) || 0, i = jf(e), a = i ? e.offsetWidth : n, o = i ? e.offsetHeight : r, s = tf(n) !== a || tf(r) !== o;
 	return s && (n = a, r = o), {
@@ -15552,7 +15552,7 @@ function Voe(e, t) {
 	delete e[t];
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/@floating-ui_vue@1.1.11_vue@3.5.39_typescript@5.8.3_/node_modules/@floating-ui/vue/dist/floating-ui.vue.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/@floating-ui_vue@1.1.11_vue@3.5.39_typescript@5.8.3_/node_modules/@floating-ui/vue/dist/floating-ui.vue.js
 function Hoe(e) {
 	return typeof e == "object" && !!e && "$el" in e;
 }
@@ -15650,7 +15650,7 @@ function Uoe(e, t, n) {
 	};
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/Popper/PopperContent.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/Popper/PopperContent.js
 var Woe = ["dir"], Goe = {
 	side: "bottom",
 	sideOffset: 0,
@@ -15954,7 +15954,7 @@ function Qoe() {
 	return Ar(Cp, {});
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/@lucide_vue@1.23.0_vue@3.5.39_typescript@5.8.3_/node_modules/@lucide/vue/dist/esm/Icon.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/@lucide_vue@1.23.0_vue@3.5.39_typescript@5.8.3_/node_modules/@lucide/vue/dist/esm/Icon.js
 var $oe = ({ name: e, iconNode: t, absoluteStrokeWidth: n, "absolute-stroke-width": r, strokeWidth: i, "stroke-width": a, size: o, color: s, ...c }, { slots: l }) => {
 	let { size: u, color: d, strokeWidth: f = 2, absoluteStrokeWidth: p = !1, class: m = "" } = Qoe(), h = Xo(() => {
 		let e = yp(n) || yp(r) || n === !0 || r === !0 || p === !0, t = i || a || f || Sp["stroke-width"];
@@ -16245,7 +16245,7 @@ var $oe = ({ name: e, iconNode: t, absoluteStrokeWidth: n, "absolute-stroke-widt
 	}
 });
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/useGraceArea.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/useGraceArea.js
 function rse(e, t) {
 	let n = vd(!1, 300);
 	fd(() => {
@@ -16398,7 +16398,7 @@ function Np(e) {
 	return n.pop(), t.length === 1 && n.length === 1 && t[0].x === n[0].x && t[0].y === n[0].y ? t : t.concat(n);
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/Tooltip/TooltipContentHoverable.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/Tooltip/TooltipContentHoverable.js
 var Pp = /* @__PURE__ */ fi({
 	__name: "TooltipContentHoverable",
 	props: {
@@ -16732,7 +16732,7 @@ var Pp = /* @__PURE__ */ fi({
 ];
 [...Lp, ...Rp], [...Ip], [...Ip];
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/@lucide_vue@1.23.0_vue@3.5.39_typescript@5.8.3_/node_modules/@lucide/vue/dist/esm/icons/circle-check.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/@lucide_vue@1.23.0_vue@3.5.39_typescript@5.8.3_/node_modules/@lucide/vue/dist/esm/icons/circle-check.js
 var zp = wp("circle-check", [["circle", {
 	cx: "12",
 	cy: "12",
@@ -19226,14 +19226,14 @@ var zp = wp("circle-check", [["circle", {
 	}
 });
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/explorer/collect-expandable-node-ids.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/explorer/collect-expandable-node-ids.js
 function nh(e) {
 	let t = [];
 	for (let n of e) n.children?.length && t.push(n.id, ...nh(n.children));
 	return t;
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/useSelectionBehavior.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/shared/useSelectionBehavior.js
 function Mse(e, t) {
 	let n = /* @__PURE__ */ vn(), r = (r, i) => {
 		if (t.multiple && Array.isArray(e.value)) if (t.selectionBehavior === "replace") e.value = [r], n.value = r;
@@ -19270,7 +19270,7 @@ function Mse(e, t) {
 	};
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/RovingFocus/RovingFocusGroup.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/RovingFocus/RovingFocusGroup.js
 var [Nse, Pse] = /* @__PURE__ */ Td("RovingFocusGroup"), Fse = /* @__PURE__ */ fi({
 	__name: "RovingFocusGroup",
 	props: {
@@ -19381,12 +19381,12 @@ var [Nse, Pse] = /* @__PURE__ */ Td("RovingFocusGroup"), Fse = /* @__PURE__ */ f
 	}
 });
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/Tree/utils.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/Tree/utils.js
 function rh(e) {
 	return e.reduce((e, t) => (e.push(t), t.children && e.push(...rh(t.children)), e), []);
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/Tree/TreeRoot.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/Tree/TreeRoot.js
 var [Ise, ih] = /* @__PURE__ */ Td("TreeRoot"), A = /* @__PURE__ */ fi({
 	__name: "TreeRoot",
 	props: {
@@ -20933,7 +20933,7 @@ var Wh = class {
 	}
 }).NULL;
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/schema.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/schema.js
 var Kh = class {
 	constructor(e, t, n) {
 		this.normal = t, this.property = e, n && (this.space = n);
@@ -20941,19 +20941,19 @@ var Kh = class {
 };
 Kh.prototype.normal = {}, Kh.prototype.property = {}, Kh.prototype.space = void 0;
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/merge.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/merge.js
 function qh(e, t) {
 	let n = {}, r = {};
 	for (let t of e) Object.assign(n, t.property), Object.assign(r, t.normal);
 	return new Kh(n, r, t);
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/normalize.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/normalize.js
 function Jh(e) {
 	return e.toLowerCase();
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/types.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/types.js
 var Yh = /* @__PURE__ */ dp({
 	boolean: () => Xh,
 	booleanish: () => Zh,
@@ -20967,7 +20967,7 @@ function rg() {
 	return 2 ** ++gce;
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/info.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/info.js
 var ig = class {
 	constructor(e, t) {
 		this.attribute = t, this.property = e;
@@ -20975,7 +20975,7 @@ var ig = class {
 };
 ig.prototype.attribute = "", ig.prototype.booleanish = !1, ig.prototype.boolean = !1, ig.prototype.commaOrSpaceSeparated = !1, ig.prototype.commaSeparated = !1, ig.prototype.defined = !1, ig.prototype.mustUseProperty = !1, ig.prototype.number = !1, ig.prototype.overloadedBoolean = !1, ig.prototype.property = "", ig.prototype.spaceSeparated = !1, ig.prototype.space = void 0;
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/defined-info.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/defined-info.js
 var ag = Object.keys(Yh), og = class extends ig {
 	constructor(e, t, n, r) {
 		let i = -1;
@@ -20990,7 +20990,7 @@ function sg(e, t, n) {
 	n && (e[t] = n);
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/create.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/create.js
 function cg(e) {
 	let t = {}, n = {};
 	for (let [r, i] of Object.entries(e.properties)) {
@@ -21000,7 +21000,7 @@ function cg(e) {
 	return new Kh(t, n, e.space);
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/aria.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/aria.js
 var lg = cg({
 	properties: {
 		ariaActiveDescendant: null,
@@ -21058,17 +21058,17 @@ var lg = cg({
 	}
 });
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/case-sensitive-transform.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/case-sensitive-transform.js
 function ug(e, t) {
 	return t in e ? e[t] : t;
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/case-insensitive-transform.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/util/case-insensitive-transform.js
 function dg(e, t) {
 	return ug(e, t.toLowerCase());
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/html.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/lib/html.js
 var fg = cg({
 	attributes: {
 		acceptcharset: "accept-charset",
@@ -22010,7 +22010,7 @@ qh([
 	hg
 ], "html");
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/index.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/property-information@7.2.0/node_modules/property-information/index.js
 var Cce = qh([
 	lg,
 	_ce,
@@ -22031,7 +22031,7 @@ function wce(e, t) {
 	return r.handlers = n.handlers || {}, r.invalid = n.invalid, r.unknown = n.unknown, r;
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/stringify-entities@4.0.4/node_modules/stringify-entities/lib/core.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/stringify-entities@4.0.4/node_modules/stringify-entities/lib/core.js
 var Tce = /["&'<>`]/g, Ece = /[\uD800-\uDBFF][\uDC00-\uDFFF]/g, Dce = /[\x01-\t\v\f\x0E-\x1F\x7F\x81\x8D\x8F\x90\x9D\xA0-\uFFFF]/g, vg = /[|\\{}()[\]^$+*?.]/g, yg = /* @__PURE__ */ new WeakMap();
 function bg(e, t) {
 	if (e = e.replace(t.subset ? xg(t.subset) : Tce, r), t.subset || t.escapeOnly) return e;
@@ -22053,21 +22053,21 @@ function Oce(e) {
 	return RegExp("(?:" + t.join("|") + ")", "g");
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/stringify-entities@4.0.4/node_modules/stringify-entities/lib/util/to-hexadecimal.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/stringify-entities@4.0.4/node_modules/stringify-entities/lib/util/to-hexadecimal.js
 var kce = /[\dA-Fa-f]/;
 function Sg(e, t, n) {
 	let r = "&#x" + e.toString(16).toUpperCase();
 	return n && t && !kce.test(String.fromCharCode(t)) ? r : r + ";";
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/stringify-entities@4.0.4/node_modules/stringify-entities/lib/util/to-decimal.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/stringify-entities@4.0.4/node_modules/stringify-entities/lib/util/to-decimal.js
 var Cg = /\d/;
 function Ace(e, t, n) {
 	let r = "&#" + String(e);
 	return n && t && !Cg.test(String.fromCharCode(t)) ? r : r + ";";
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/character-entities-legacy@3.0.0/node_modules/character-entities-legacy/index.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/character-entities-legacy@3.0.0/node_modules/character-entities-legacy/index.js
 var jce = /* @__PURE__ */ "AElig.AMP.Aacute.Acirc.Agrave.Aring.Atilde.Auml.COPY.Ccedil.ETH.Eacute.Ecirc.Egrave.Euml.GT.Iacute.Icirc.Igrave.Iuml.LT.Ntilde.Oacute.Ocirc.Ograve.Oslash.Otilde.Ouml.QUOT.REG.THORN.Uacute.Ucirc.Ugrave.Uuml.Yacute.aacute.acirc.acute.aelig.agrave.amp.aring.atilde.auml.brvbar.ccedil.cedil.cent.copy.curren.deg.divide.eacute.ecirc.egrave.eth.euml.frac12.frac14.frac34.gt.iacute.icirc.iexcl.igrave.iquest.iuml.laquo.lt.macr.micro.middot.nbsp.not.ntilde.oacute.ocirc.ograve.ordf.ordm.oslash.otilde.ouml.para.plusmn.pound.quot.raquo.reg.sect.shy.sup1.sup2.sup3.szlig.thorn.times.uacute.ucirc.ugrave.uml.uuml.yacute.yen.yuml".split("."), wg = {
 	nbsp: "\xA0",
 	iexcl: "¡",
@@ -22342,7 +22342,7 @@ function kg(e, t, n, r) {
 	return "";
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/stringify-entities@4.0.4/node_modules/stringify-entities/lib/util/format-smart.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/stringify-entities@4.0.4/node_modules/stringify-entities/lib/util/format-smart.js
 function Nce(e, t, n) {
 	let r = Sg(e, t, n.omitOptionalSemicolons), i;
 	if ((n.useNamedReferences || n.useShortestReferences) && (i = kg(e, t, n.omitOptionalSemicolons, n.attribute)), (n.useShortestReferences || !i) && n.useShortestReferences) {
@@ -22352,12 +22352,12 @@ function Nce(e, t, n) {
 	return i && (!n.useShortestReferences || i.length < r.length) ? i : r;
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/stringify-entities@4.0.4/node_modules/stringify-entities/lib/index.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/stringify-entities@4.0.4/node_modules/stringify-entities/lib/index.js
 function Ag(e, t) {
 	return bg(e, Object.assign({ format: Nce }, t));
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/handle/comment.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/handle/comment.js
 var Pce = /^>|^->|<!--|-->|--!>|<!-$/g, Fce = [">"], Ice = ["<", ">"];
 function Lce(e, t, n, r) {
 	return r.settings.bogusComments ? "<?" + Ag(e.value, Object.assign({}, r.settings.characterReferences, { subset: Fce })) + ">" : "<!--" + e.value.replace(Pce, i) + "-->";
@@ -22366,12 +22366,12 @@ function Lce(e, t, n, r) {
 	}
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/handle/doctype.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/handle/doctype.js
 function jg(e, t, n, r) {
 	return "<!" + (r.settings.upperDoctype ? "DOCTYPE" : "doctype") + (r.settings.tightDoctype ? "" : " ") + "html>";
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/ccount@2.0.1/node_modules/ccount/index.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/ccount@2.0.1/node_modules/ccount/index.js
 function Mg(e, t) {
 	let n = String(e);
 	if (typeof t != "string") throw TypeError("Expected character");
@@ -22380,18 +22380,18 @@ function Mg(e, t) {
 	return r;
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/comma-separated-tokens@2.0.3/node_modules/comma-separated-tokens/index.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/comma-separated-tokens@2.0.3/node_modules/comma-separated-tokens/index.js
 function Ng(e, t) {
 	let n = t || {};
 	return (e[e.length - 1] === "" ? [...e, ""] : e).join((n.padRight ? " " : "") + "," + (n.padLeft === !1 ? "" : " ")).trim();
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/space-separated-tokens@2.0.2/node_modules/space-separated-tokens/index.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/space-separated-tokens@2.0.2/node_modules/space-separated-tokens/index.js
 function Pg(e) {
 	return e.join(" ").trim();
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-whitespace@3.0.0/node_modules/hast-util-whitespace/lib/index.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-whitespace@3.0.0/node_modules/hast-util-whitespace/lib/index.js
 var Rce = /[ \t\n\f\r]/g;
 function Fg(e) {
 	return typeof e == "object" ? e.type === "text" ? zce(e.value) : !1 : zce(e);
@@ -22400,7 +22400,7 @@ function zce(e) {
 	return e.replace(Rce, "") === "";
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/omission/util/siblings.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/omission/util/siblings.js
 var Ig = zg(1), Lg = zg(-1), Rg = [];
 function zg(e) {
 	return t;
@@ -22411,7 +22411,7 @@ function zg(e) {
 	}
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/omission/omission.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/omission/omission.js
 var Bg = {}.hasOwnProperty;
 function Vg(e) {
 	return t;
@@ -22420,7 +22420,7 @@ function Vg(e) {
 	}
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/omission/closing.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/omission/closing.js
 var Hg = Vg({
 	body: Wg,
 	caption: Ug,
@@ -22502,7 +22502,7 @@ function Zg(e, t, n) {
 	return !r || r.type === "element" && (r.tagName === "td" || r.tagName === "th");
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/omission/opening.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/omission/opening.js
 var Qg = Vg({
 	body: t_,
 	colgroup: n_,
@@ -22536,7 +22536,7 @@ function r_(e, t, n) {
 	return n && r && r.type === "element" && (r.tagName === "thead" || r.tagName === "tbody") && Hg(r, n.children.indexOf(r), n) ? !1 : !!(i && i.type === "element" && i.tagName === "tr");
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/handle/element.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/handle/element.js
 var i_ = {
 	name: [["	\n\f\r &/=>".split(""), "	\n\f\r \"&'/=>`".split("")], ["\0	\n\f\r \"&'/<=>".split(""), "\0	\n\f\r \"&'/<=>`".split("")]],
 	unquoted: [["	\n\f\r &>".split(""), "\0	\n\f\r \"&'<=>`".split("")], ["\0	\n\f\r \"&'<=>`".split(""), "\0	\n\f\r \"&'<=>`".split("")]],
@@ -22576,18 +22576,18 @@ function Kce(e, t, n) {
 	})) + o), c + (s && "=" + s));
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/handle/text.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/handle/text.js
 var qce = ["<", "&"];
 function s_(e, t, n, r) {
 	return n && n.type === "element" && (n.tagName === "script" || n.tagName === "style") ? e.value : Ag(e.value, Object.assign({}, r.settings.characterReferences, { subset: qce }));
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/handle/raw.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/handle/raw.js
 function c_(e, t, n, r) {
 	return r.settings.allowDangerousHtml ? e.value : s_(e, t, n, r);
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/handle/root.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/hast-util-to-html@9.0.5/node_modules/hast-util-to-html/lib/handle/root.js
 function Jce(e, t, n, r) {
 	return r.all(e);
 }
@@ -22610,7 +22610,7 @@ function Xce(e) {
 	throw Error("Cannot compile unknown node `" + e.type + "`");
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/oniguruma-parser@0.12.2/node_modules/oniguruma-parser/dist/utils.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/oniguruma-parser@0.12.2/node_modules/oniguruma-parser/dist/utils.js
 var l_ = String.raw, u_ = l_`\[\^?`, d_ = `c.? | C(?:-.?)?|${l_`[pP]\{(?:\^?[-\x20_]*[A-Za-z][-\x20\w]*\})?`}|${l_`x[89A-Fa-f]\p{AHex}(?:\\x[89A-Fa-f]\p{AHex})*`}|${l_`u(?:\p{AHex}{4})? | x\{[^\}]*\}? | x\p{AHex}{0,2}`}|${l_`o\{[^\}]*\}?`}|${l_`\d{1,3}`}`;
 new RegExp(l_`
   \\ (?:
@@ -22648,7 +22648,7 @@ function Zce(e) {
 	return e.replace(/[- _]+/g, "").toLowerCase();
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/regex@6.1.0/node_modules/regex/src/utils-internals.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/regex@6.1.0/node_modules/regex/src/utils-internals.js
 var f_ = String.raw`\(\?(?:[:=!>A-Za-z\-]|<[=!]|\(DEFINE\))`;
 Object.freeze({
 	DEFAULT: "DEFAULT",
@@ -22672,11 +22672,11 @@ new RegExp(String.raw`
 | \\?.
 `.replace(/\s+/g, ""), "gsu");
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/regex-recursion@6.0.2/node_modules/regex-recursion/src/index.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/regex-recursion@6.0.2/node_modules/regex-recursion/src/index.js
 var m_ = String.raw, h_ = m_`\(\?R=(?<rDepth>[^\)]+)\)|${m_`\\g<(?<gRNameOrNum>[^>&]+)&R=(?<gRDepth>[^>]+)>`}`, g_ = m_`\(\?<(?![=!])(?<captureName>[^>]+)>`;
 m_`${g_}|(?<unnamed>\()(?!\?)`, new RegExp(m_`${g_}|${h_}|\(\?|\\?.`, "gsu");
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/oniguruma-to-es@4.3.6/node_modules/oniguruma-to-es/dist/esm/index.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/oniguruma-to-es@4.3.6/node_modules/oniguruma-to-es/dist/esm/index.js
 var __ = String.fromCodePoint, v_ = String.raw, y_ = {}, b_ = globalThis.RegExp;
 y_.flagGroups = (() => {
 	try {
@@ -22727,19 +22727,19 @@ v_`\t`, v_`\n`, v_`\v`, v_`\f`, v_`\r`, v_`\u2028`, v_`\u2029`, v_`\uFEFF`;
 var Qce = [Object.freeze(JSON.parse("{\"displayName\":\"Java\",\"name\":\"java\",\"patterns\":[{\"begin\":\"\\\\b(package)\\\\b\\\\s*\",\"beginCaptures\":{\"1\":{\"name\":\"keyword.other.package.java\"}},\"contentName\":\"storage.modifier.package.java\",\"end\":\"\\\\s*(;)\",\"endCaptures\":{\"1\":{\"name\":\"punctuation.terminator.java\"}},\"name\":\"meta.package.java\",\"patterns\":[{\"include\":\"#comments\"},{\"match\":\"(?<=\\\\.)\\\\s*\\\\.|\\\\.(?=\\\\s*;)\",\"name\":\"invalid.illegal.character_not_allowed_here.java\"},{\"match\":\"(?<!_)_(?=\\\\s*([.;]))|\\\\b\\\\d+|-+\",\"name\":\"invalid.illegal.character_not_allowed_here.java\"},{\"match\":\"[A-Z]+\",\"name\":\"invalid.deprecated.package_name_not_lowercase.java\"},{\"match\":\"\\\\b(?<!\\\\$)(abstract|assert|boolean|break|byte|case|catch|char|class|const|continue|default|do|double|else|enum|extends|final|finally|float|for|goto|if|implements|import|instanceof|int|interface|long|native|new|non-sealed|package|permits|private|protected|public|return|sealed|short|static|strictfp|super|switch|syncronized|this|throws??|transient|try|void|volatile|while|yield|true|false|null)\\\\b\",\"name\":\"invalid.illegal.character_not_allowed_here.java\"},{\"match\":\"\\\\.\",\"name\":\"punctuation.separator.java\"}]},{\"begin\":\"\\\\b(import)\\\\b\\\\s*\\\\b(static)?\\\\b\\\\s\",\"beginCaptures\":{\"1\":{\"name\":\"keyword.other.import.java\"},\"2\":{\"name\":\"storage.modifier.java\"}},\"contentName\":\"storage.modifier.import.java\",\"end\":\"\\\\s*(;)\",\"endCaptures\":{\"1\":{\"name\":\"punctuation.terminator.java\"}},\"name\":\"meta.import.java\",\"patterns\":[{\"include\":\"#comments\"},{\"match\":\"(?<=\\\\.)\\\\s*\\\\.|\\\\.(?=\\\\s*;)\",\"name\":\"invalid.illegal.character_not_allowed_here.java\"},{\"match\":\"(?<!\\\\.)\\\\s*\\\\*\",\"name\":\"invalid.illegal.character_not_allowed_here.java\"},{\"match\":\"(?<!_)_(?=\\\\s*([.;]))|\\\\b\\\\d+|-+\",\"name\":\"invalid.illegal.character_not_allowed_here.java\"},{\"match\":\"\\\\b(?<!\\\\$)(abstract|assert|boolean|break|byte|case|catch|char|class|const|continue|default|do|double|else|enum|extends|final|finally|float|for|goto|if|implements|import|instanceof|int|interface|long|native|new|non-sealed|package|permits|private|protected|public|return|sealed|short|static|strictfp|super|switch|syncronized|this|throws??|transient|try|void|volatile|while|yield|true|false|null)\\\\b\",\"name\":\"invalid.illegal.character_not_allowed_here.java\"},{\"match\":\"\\\\.\",\"name\":\"punctuation.separator.java\"},{\"match\":\"\\\\*\",\"name\":\"variable.language.wildcard.java\"}]},{\"include\":\"#comments-javadoc\"},{\"include\":\"#code\"},{\"include\":\"#module\"}],\"repository\":{\"all-types\":{\"patterns\":[{\"include\":\"#primitive-arrays\"},{\"include\":\"#primitive-types\"},{\"include\":\"#object-types\"}]},\"annotations\":{\"patterns\":[{\"begin\":\"((@)\\\\s*([^(\\\\s]+))(\\\\()\",\"beginCaptures\":{\"2\":{\"name\":\"punctuation.definition.annotation.java\"},\"3\":{\"name\":\"storage.type.annotation.java\"},\"4\":{\"name\":\"punctuation.definition.annotation-arguments.begin.bracket.round.java\"}},\"end\":\"\\\\)\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.definition.annotation-arguments.end.bracket.round.java\"}},\"name\":\"meta.declaration.annotation.java\",\"patterns\":[{\"captures\":{\"1\":{\"name\":\"constant.other.key.java\"},\"2\":{\"name\":\"keyword.operator.assignment.java\"}},\"match\":\"(\\\\w*)\\\\s*(=)\"},{\"include\":\"#code\"}]},{\"captures\":{\"1\":{\"name\":\"punctuation.definition.annotation.java\"},\"2\":{\"name\":\"storage.modifier.java\"},\"3\":{\"name\":\"storage.type.annotation.java\"},\"5\":{\"name\":\"punctuation.definition.annotation.java\"},\"6\":{\"name\":\"storage.type.annotation.java\"}},\"match\":\"(@)(interface)\\\\s+(\\\\w*)|((@)\\\\s*(\\\\w+))\",\"name\":\"meta.declaration.annotation.java\"}]},\"anonymous-block-and-instance-initializer\":{\"begin\":\"\\\\{\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.section.block.begin.bracket.curly.java\"}},\"end\":\"}\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.section.block.end.bracket.curly.java\"}},\"patterns\":[{\"include\":\"#code\"}]},\"anonymous-classes-and-new\":{\"begin\":\"\\\\bnew\\\\b\",\"beginCaptures\":{\"0\":{\"name\":\"keyword.control.new.java\"}},\"end\":\"(?=[])-.:;?}]|/(?![*/])|[!%\\\\&=^|])\",\"patterns\":[{\"include\":\"#comments\"},{\"include\":\"#function-call\"},{\"include\":\"#all-types\"},{\"begin\":\"(?<=\\\\))\",\"end\":\"(?=[])-.:;?}]|/(?![*/])|[!%\\\\&=^|])\",\"patterns\":[{\"include\":\"#comments\"},{\"begin\":\"\\\\{\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.section.inner-class.begin.bracket.curly.java\"}},\"end\":\"}\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.section.inner-class.end.bracket.curly.java\"}},\"name\":\"meta.inner-class.java\",\"patterns\":[{\"include\":\"#class-body\"}]}]},{\"begin\":\"(?<=])\",\"end\":\"(?=[])-.:;?}]|/(?![*/])|[!%\\\\&=^|])\",\"patterns\":[{\"include\":\"#comments\"},{\"begin\":\"\\\\{\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.section.array-initializer.begin.bracket.curly.java\"}},\"end\":\"}\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.section.array-initializer.end.bracket.curly.java\"}},\"name\":\"meta.array-initializer.java\",\"patterns\":[{\"include\":\"#code\"}]}]},{\"include\":\"#parens\"}]},\"assertions\":{\"patterns\":[{\"begin\":\"\\\\b(assert)\\\\s\",\"beginCaptures\":{\"1\":{\"name\":\"keyword.control.assert.java\"}},\"end\":\"$\",\"name\":\"meta.declaration.assertion.java\",\"patterns\":[{\"match\":\":\",\"name\":\"keyword.operator.assert.expression-separator.java\"},{\"include\":\"#code\"}]}]},\"class\":{\"begin\":\"(?=\\\\w?[-\\\\w\\\\s]*\\\\b(?:class|(?<!@)interface|enum)\\\\s+[$\\\\w]+)\",\"end\":\"}\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.section.class.end.bracket.curly.java\"}},\"name\":\"meta.class.java\",\"patterns\":[{\"include\":\"#storage-modifiers\"},{\"include\":\"#generics\"},{\"include\":\"#comments\"},{\"captures\":{\"1\":{\"name\":\"storage.modifier.java\"},\"2\":{\"name\":\"entity.name.type.class.java\"}},\"match\":\"(class|(?<!@)interface|enum)\\\\s+([$\\\\w]+)\",\"name\":\"meta.class.identifier.java\"},{\"begin\":\"extends\",\"beginCaptures\":{\"0\":{\"name\":\"storage.modifier.extends.java\"}},\"end\":\"(?=\\\\{|implements|permits)\",\"name\":\"meta.definition.class.inherited.classes.java\",\"patterns\":[{\"include\":\"#object-types-inherited\"},{\"include\":\"#comments\"}]},{\"begin\":\"(implements)\\\\s\",\"beginCaptures\":{\"1\":{\"name\":\"storage.modifier.implements.java\"}},\"end\":\"(?=\\\\s*extends|permits|\\\\{)\",\"name\":\"meta.definition.class.implemented.interfaces.java\",\"patterns\":[{\"include\":\"#object-types-inherited\"},{\"include\":\"#comments\"}]},{\"begin\":\"(permits)\\\\s\",\"beginCaptures\":{\"1\":{\"name\":\"storage.modifier.permits.java\"}},\"end\":\"(?=\\\\s*extends|implements|\\\\{)\",\"name\":\"meta.definition.class.permits.classes.java\",\"patterns\":[{\"include\":\"#object-types-inherited\"},{\"include\":\"#comments\"}]},{\"begin\":\"\\\\{\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.section.class.begin.bracket.curly.java\"}},\"contentName\":\"meta.class.body.java\",\"end\":\"(?=})\",\"patterns\":[{\"include\":\"#class-body\"}]}]},\"class-body\":{\"patterns\":[{\"include\":\"#comments-javadoc\"},{\"include\":\"#comments\"},{\"include\":\"#enums\"},{\"include\":\"#class\"},{\"include\":\"#generics\"},{\"include\":\"#static-initializer\"},{\"include\":\"#class-fields-and-methods\"},{\"include\":\"#annotations\"},{\"include\":\"#storage-modifiers\"},{\"include\":\"#member-variables\"},{\"include\":\"#code\"}]},\"class-fields-and-methods\":{\"patterns\":[{\"begin\":\"(?==)\",\"end\":\"(?=;)\",\"patterns\":[{\"include\":\"#code\"}]},{\"include\":\"#methods\"}]},\"code\":{\"patterns\":[{\"include\":\"#annotations\"},{\"include\":\"#comments\"},{\"include\":\"#enums\"},{\"include\":\"#class\"},{\"include\":\"#record\"},{\"include\":\"#anonymous-block-and-instance-initializer\"},{\"include\":\"#try-catch-finally\"},{\"include\":\"#assertions\"},{\"include\":\"#parens\"},{\"include\":\"#constants-and-special-vars\"},{\"include\":\"#numbers\"},{\"include\":\"#anonymous-classes-and-new\"},{\"include\":\"#lambda-expression\"},{\"include\":\"#keywords\"},{\"include\":\"#storage-modifiers\"},{\"include\":\"#method-call\"},{\"include\":\"#function-call\"},{\"include\":\"#variables\"},{\"include\":\"#variables-local\"},{\"include\":\"#objects\"},{\"include\":\"#properties\"},{\"include\":\"#strings\"},{\"include\":\"#all-types\"},{\"match\":\",\",\"name\":\"punctuation.separator.delimiter.java\"},{\"match\":\"\\\\.\",\"name\":\"punctuation.separator.period.java\"},{\"match\":\";\",\"name\":\"punctuation.terminator.java\"}]},\"comments\":{\"patterns\":[{\"captures\":{\"0\":{\"name\":\"punctuation.definition.comment.java\"}},\"match\":\"/\\\\*\\\\*/\",\"name\":\"comment.block.empty.java\"},{\"include\":\"#comments-inline\"}]},\"comments-inline\":{\"patterns\":[{\"begin\":\"/\\\\*\",\"captures\":{\"0\":{\"name\":\"punctuation.definition.comment.java\"}},\"end\":\"\\\\*/\",\"name\":\"comment.block.java\"},{\"begin\":\"(^[\\\\t ]+)?(?=//)\",\"beginCaptures\":{\"1\":{\"name\":\"punctuation.whitespace.comment.leading.java\"}},\"end\":\"(?!\\\\G)\",\"patterns\":[{\"begin\":\"//\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.definition.comment.java\"}},\"end\":\"\\\\n\",\"name\":\"comment.line.double-slash.java\"}]}]},\"comments-javadoc\":{\"patterns\":[{\"begin\":\"^\\\\s*(/\\\\*\\\\*)(?!/)\",\"beginCaptures\":{\"1\":{\"name\":\"punctuation.definition.comment.java\"}},\"end\":\"\\\\*/\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.definition.comment.java\"}},\"name\":\"comment.block.javadoc.java\",\"patterns\":[{\"match\":\"@(author|deprecated|return|see|serial|since|version)\\\\b\",\"name\":\"keyword.other.documentation.javadoc.java\"},{\"captures\":{\"1\":{\"name\":\"keyword.other.documentation.javadoc.java\"},\"2\":{\"name\":\"variable.parameter.java\"}},\"match\":\"(@param)\\\\s+(\\\\S+)\"},{\"captures\":{\"1\":{\"name\":\"keyword.other.documentation.javadoc.java\"},\"2\":{\"name\":\"entity.name.type.class.java\"}},\"match\":\"(@(?:exception|throws))\\\\s+(\\\\S+)\"},{\"captures\":{\"1\":{\"name\":\"keyword.other.documentation.javadoc.java\"},\"2\":{\"name\":\"entity.name.type.class.java\"},\"3\":{\"name\":\"variable.parameter.java\"}},\"match\":\"\\\\{(@link)\\\\s+(\\\\S+)?#([$\\\\w]+\\\\s*\\\\([^()]*\\\\)).*?}\"}]}]},\"constants-and-special-vars\":{\"patterns\":[{\"match\":\"\\\\b(true|false|null)\\\\b\",\"name\":\"constant.language.java\"},{\"match\":\"\\\\bthis\\\\b\",\"name\":\"variable.language.this.java\"},{\"match\":\"\\\\bsuper\\\\b\",\"name\":\"variable.language.java\"}]},\"enums\":{\"begin\":\"^\\\\s*([\\\\w\\\\s]*)(enum)\\\\s+(\\\\w+)\",\"beginCaptures\":{\"1\":{\"patterns\":[{\"include\":\"#storage-modifiers\"}]},\"2\":{\"name\":\"storage.modifier.java\"},\"3\":{\"name\":\"entity.name.type.enum.java\"}},\"end\":\"}\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.section.enum.end.bracket.curly.java\"}},\"name\":\"meta.enum.java\",\"patterns\":[{\"begin\":\"\\\\b(extends)\\\\b\",\"beginCaptures\":{\"1\":{\"name\":\"storage.modifier.extends.java\"}},\"end\":\"(?=\\\\{|\\\\bimplements\\\\b)\",\"name\":\"meta.definition.class.inherited.classes.java\",\"patterns\":[{\"include\":\"#object-types-inherited\"},{\"include\":\"#comments\"}]},{\"begin\":\"\\\\b(implements)\\\\b\",\"beginCaptures\":{\"1\":{\"name\":\"storage.modifier.implements.java\"}},\"end\":\"(?=\\\\{|\\\\bextends\\\\b)\",\"name\":\"meta.definition.class.implemented.interfaces.java\",\"patterns\":[{\"include\":\"#object-types-inherited\"},{\"include\":\"#comments\"}]},{\"begin\":\"\\\\{\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.section.enum.begin.bracket.curly.java\"}},\"end\":\"(?=})\",\"patterns\":[{\"begin\":\"(?<=\\\\{)\",\"end\":\"(?=[;}])\",\"patterns\":[{\"include\":\"#comments-javadoc\"},{\"include\":\"#comments\"},{\"begin\":\"\\\\b(\\\\w+)\\\\b\",\"beginCaptures\":{\"1\":{\"name\":\"constant.other.enum.java\"}},\"end\":\"(,)|(?=[;}])\",\"endCaptures\":{\"1\":{\"name\":\"punctuation.separator.delimiter.java\"}},\"patterns\":[{\"include\":\"#comments-javadoc\"},{\"include\":\"#comments\"},{\"begin\":\"\\\\(\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.bracket.round.java\"}},\"end\":\"\\\\)\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.bracket.round.java\"}},\"patterns\":[{\"include\":\"#code\"}]},{\"begin\":\"\\\\{\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.bracket.curly.java\"}},\"end\":\"}\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.bracket.curly.java\"}},\"patterns\":[{\"include\":\"#class-body\"}]}]}]},{\"include\":\"#class-body\"}]}]},\"function-call\":{\"begin\":\"([$A-Z_a-z][$\\\\w]*)\\\\s*(\\\\()\",\"beginCaptures\":{\"1\":{\"name\":\"entity.name.function.java\"},\"2\":{\"name\":\"punctuation.definition.parameters.begin.bracket.round.java\"}},\"end\":\"\\\\)\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.definition.parameters.end.bracket.round.java\"}},\"name\":\"meta.function-call.java\",\"patterns\":[{\"include\":\"#code\"}]},\"generics\":{\"begin\":\"<\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.bracket.angle.java\"}},\"end\":\">\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.bracket.angle.java\"}},\"patterns\":[{\"match\":\"\\\\b(extends|super)\\\\b\",\"name\":\"storage.modifier.$1.java\"},{\"captures\":{\"1\":{\"name\":\"storage.type.java\"}},\"match\":\"(?<!\\\\.)([$A-Z_a-z][$0-9A-Z_a-z]*)(?=\\\\s*<)\"},{\"include\":\"#primitive-arrays\"},{\"match\":\"[$A-Z_a-z][$0-9A-Z_a-z]*\",\"name\":\"storage.type.generic.java\"},{\"match\":\"\\\\?\",\"name\":\"storage.type.generic.wildcard.java\"},{\"match\":\"&\",\"name\":\"punctuation.separator.types.java\"},{\"match\":\",\",\"name\":\"punctuation.separator.delimiter.java\"},{\"match\":\"\\\\.\",\"name\":\"punctuation.separator.period.java\"},{\"include\":\"#parens\"},{\"include\":\"#generics\"},{\"include\":\"#comments\"}]},\"keywords\":{\"patterns\":[{\"match\":\"\\\\bthrow\\\\b\",\"name\":\"keyword.control.throw.java\"},{\"match\":\"[:?]\",\"name\":\"keyword.control.ternary.java\"},{\"match\":\"\\\\b(return|yield|break|case|continue|default|do|while|for|switch|if|else)\\\\b\",\"name\":\"keyword.control.java\"},{\"match\":\"\\\\b(instanceof)\\\\b\",\"name\":\"keyword.operator.instanceof.java\"},{\"match\":\"(<<|>>>?|[\\\\^~])\",\"name\":\"keyword.operator.bitwise.java\"},{\"match\":\"(([\\\\&^|]|<<|>>>?)=)\",\"name\":\"keyword.operator.assignment.bitwise.java\"},{\"match\":\"(===?|!=|<=|>=|<>|[<>])\",\"name\":\"keyword.operator.comparison.java\"},{\"match\":\"([-%*+/]=)\",\"name\":\"keyword.operator.assignment.arithmetic.java\"},{\"match\":\"(=)\",\"name\":\"keyword.operator.assignment.java\"},{\"match\":\"(--|\\\\+\\\\+)\",\"name\":\"keyword.operator.increment-decrement.java\"},{\"match\":\"([-%*+/])\",\"name\":\"keyword.operator.arithmetic.java\"},{\"match\":\"(!|&&|\\\\|\\\\|)\",\"name\":\"keyword.operator.logical.java\"},{\"match\":\"([\\\\&|])\",\"name\":\"keyword.operator.bitwise.java\"},{\"match\":\"\\\\b(const|goto)\\\\b\",\"name\":\"keyword.reserved.java\"}]},\"lambda-expression\":{\"patterns\":[{\"match\":\"->\",\"name\":\"storage.type.function.arrow.java\"}]},\"member-variables\":{\"begin\":\"(?=private|protected|public|native|synchronized|abstract|threadsafe|transient|static|final)\",\"end\":\"(?=[;=])\",\"patterns\":[{\"include\":\"#storage-modifiers\"},{\"include\":\"#variables\"},{\"include\":\"#primitive-arrays\"},{\"include\":\"#object-types\"}]},\"method-call\":{\"begin\":\"(\\\\.)\\\\s*([$A-Z_a-z][$\\\\w]*)\\\\s*(\\\\()\",\"beginCaptures\":{\"1\":{\"name\":\"punctuation.separator.period.java\"},\"2\":{\"name\":\"entity.name.function.java\"},\"3\":{\"name\":\"punctuation.definition.parameters.begin.bracket.round.java\"}},\"end\":\"\\\\)\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.definition.parameters.end.bracket.round.java\"}},\"name\":\"meta.method-call.java\",\"patterns\":[{\"include\":\"#code\"}]},\"methods\":{\"begin\":\"(?!new)(?=[<\\\\w].*\\\\s+)(?=([^/=]|/(?!/))+\\\\()\",\"end\":\"(})|(?=;)\",\"endCaptures\":{\"1\":{\"name\":\"punctuation.section.method.end.bracket.curly.java\"}},\"name\":\"meta.method.java\",\"patterns\":[{\"include\":\"#storage-modifiers\"},{\"begin\":\"(\\\\w+)\\\\s*(\\\\()\",\"beginCaptures\":{\"1\":{\"name\":\"entity.name.function.java\"},\"2\":{\"name\":\"punctuation.definition.parameters.begin.bracket.round.java\"}},\"end\":\"\\\\)\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.definition.parameters.end.bracket.round.java\"}},\"name\":\"meta.method.identifier.java\",\"patterns\":[{\"include\":\"#parameters\"},{\"include\":\"#parens\"},{\"include\":\"#comments\"}]},{\"include\":\"#generics\"},{\"begin\":\"(?=\\\\w.*\\\\s+\\\\w+\\\\s*\\\\()\",\"end\":\"(?=\\\\s+\\\\w+\\\\s*\\\\()\",\"name\":\"meta.method.return-type.java\",\"patterns\":[{\"include\":\"#all-types\"},{\"include\":\"#parens\"},{\"include\":\"#comments\"}]},{\"include\":\"#throws\"},{\"begin\":\"\\\\{\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.section.method.begin.bracket.curly.java\"}},\"contentName\":\"meta.method.body.java\",\"end\":\"(?=})\",\"patterns\":[{\"include\":\"#code\"}]},{\"include\":\"#comments\"}]},\"module\":{\"begin\":\"((open)\\\\s)?(module)\\\\s+(\\\\w+)\",\"beginCaptures\":{\"1\":{\"name\":\"storage.modifier.java\"},\"3\":{\"name\":\"storage.modifier.java\"},\"4\":{\"name\":\"entity.name.type.module.java\"}},\"end\":\"}\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.section.module.end.bracket.curly.java\"}},\"name\":\"meta.module.java\",\"patterns\":[{\"begin\":\"\\\\{\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.section.module.begin.bracket.curly.java\"}},\"contentName\":\"meta.module.body.java\",\"end\":\"(?=})\",\"patterns\":[{\"include\":\"#comments\"},{\"include\":\"#comments-javadoc\"},{\"match\":\"\\\\b(requires|transitive|exports|opens|to|uses|provides|with)\\\\b\",\"name\":\"keyword.module.java\"}]}]},\"numbers\":{\"patterns\":[{\"match\":\"\\\\b(?<!\\\\$)0([Xx])((?<!\\\\.)\\\\h([_\\\\h]*\\\\h)?[Ll]?(?!\\\\.)|(\\\\h([_\\\\h]*\\\\h)?\\\\.?|(\\\\h([_\\\\h]*\\\\h)?)?\\\\.\\\\h([_\\\\h]*\\\\h)?)[Pp][-+]?[0-9]([0-9_]*[0-9])?[DFdf]?)\\\\b(?!\\\\$)\",\"name\":\"constant.numeric.hex.java\"},{\"match\":\"\\\\b(?<!\\\\$)0([Bb])[01]([01_]*[01])?[Ll]?\\\\b(?!\\\\$)\",\"name\":\"constant.numeric.binary.java\"},{\"match\":\"\\\\b(?<!\\\\$)0[0-7]([0-7_]*[0-7])?[Ll]?\\\\b(?!\\\\$)\",\"name\":\"constant.numeric.octal.java\"},{\"match\":\"(?<!\\\\$)(\\\\b[0-9]([0-9_]*[0-9])?\\\\.\\\\B(?!\\\\.)|\\\\b[0-9]([0-9_]*[0-9])?\\\\.([Ee][-+]?[0-9]([0-9_]*[0-9])?)[DFdf]?\\\\b|\\\\b[0-9]([0-9_]*[0-9])?\\\\.([Ee][-+]?[0-9]([0-9_]*[0-9])?)?[DFdf]\\\\b|\\\\b[0-9]([0-9_]*[0-9])?\\\\.([0-9]([0-9_]*[0-9])?)([Ee][-+]?[0-9]([0-9_]*[0-9])?)?[DFdf]?\\\\b|(?<!\\\\.)\\\\B\\\\.[0-9]([0-9_]*[0-9])?([Ee][-+]?[0-9]([0-9_]*[0-9])?)?[DFdf]?\\\\b|\\\\b[0-9]([0-9_]*[0-9])?([Ee][-+]?[0-9]([0-9_]*[0-9])?)[DFdf]?\\\\b|\\\\b[0-9]([0-9_]*[0-9])?([Ee][-+]?[0-9]([0-9_]*[0-9])?)?[DFdf]\\\\b|\\\\b(0|[1-9]([0-9_]*[0-9])?)(?!\\\\.)[Ll]?\\\\b)(?!\\\\$)\",\"name\":\"constant.numeric.decimal.java\"}]},\"object-types\":{\"patterns\":[{\"include\":\"#generics\"},{\"begin\":\"\\\\b((?:[A-Z_a-z]\\\\w*\\\\s*\\\\.\\\\s*)*)([A-Z_]\\\\w*)\\\\s*(?=\\\\[)\",\"beginCaptures\":{\"1\":{\"patterns\":[{\"match\":\"[A-Z_a-z]\\\\w*\",\"name\":\"storage.type.java\"},{\"match\":\"\\\\.\",\"name\":\"punctuation.separator.period.java\"}]},\"2\":{\"name\":\"storage.type.object.array.java\"}},\"end\":\"(?!\\\\s*\\\\[)\",\"patterns\":[{\"include\":\"#comments\"},{\"include\":\"#parens\"}]},{\"captures\":{\"1\":{\"patterns\":[{\"match\":\"[A-Z_a-z]\\\\w*\",\"name\":\"storage.type.java\"},{\"match\":\"\\\\.\",\"name\":\"punctuation.separator.period.java\"}]}},\"match\":\"\\\\b((?:[A-Z_a-z]\\\\w*\\\\s*\\\\.\\\\s*)*[A-Z_]\\\\w*)\\\\s*(?=<)\"},{\"captures\":{\"1\":{\"patterns\":[{\"match\":\"[A-Z_a-z]\\\\w*\",\"name\":\"storage.type.java\"},{\"match\":\"\\\\.\",\"name\":\"punctuation.separator.period.java\"}]}},\"match\":\"\\\\b((?:[A-Z_a-z]\\\\w*\\\\s*\\\\.\\\\s*)*[A-Z_]\\\\w*)\\\\b((?=\\\\s*[\\\\n$A-Z_a-z])|(?=\\\\s*\\\\.\\\\.\\\\.))\"}]},\"object-types-inherited\":{\"patterns\":[{\"include\":\"#generics\"},{\"captures\":{\"1\":{\"name\":\"punctuation.separator.period.java\"}},\"match\":\"\\\\b(?:[A-Z]\\\\w*\\\\s*(\\\\.)\\\\s*)*[A-Z]\\\\w*\\\\b\",\"name\":\"entity.other.inherited-class.java\"},{\"match\":\",\",\"name\":\"punctuation.separator.delimiter.java\"}]},\"objects\":{\"match\":\"(?<![$\\\\w])[$A-Z_a-z][$\\\\w]*(?=\\\\s*\\\\.\\\\s*[$\\\\w]+)\",\"name\":\"variable.other.object.java\"},\"parameters\":{\"patterns\":[{\"match\":\"\\\\bfinal\\\\b\",\"name\":\"storage.modifier.java\"},{\"include\":\"#annotations\"},{\"include\":\"#all-types\"},{\"include\":\"#strings\"},{\"match\":\"\\\\w+\",\"name\":\"variable.parameter.java\"},{\"match\":\",\",\"name\":\"punctuation.separator.delimiter.java\"},{\"match\":\"\\\\.\\\\.\\\\.\",\"name\":\"punctuation.definition.parameters.varargs.java\"}]},\"parens\":{\"patterns\":[{\"begin\":\"\\\\(\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.bracket.round.java\"}},\"end\":\"\\\\)\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.bracket.round.java\"}},\"patterns\":[{\"include\":\"#code\"}]},{\"begin\":\"\\\\[\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.bracket.square.java\"}},\"end\":\"]\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.bracket.square.java\"}},\"patterns\":[{\"include\":\"#code\"}]},{\"begin\":\"\\\\{\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.bracket.curly.java\"}},\"end\":\"}\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.bracket.curly.java\"}},\"patterns\":[{\"include\":\"#code\"}]}]},\"primitive-arrays\":{\"patterns\":[{\"begin\":\"\\\\b(void|boolean|byte|char|short|int|float|long|double)\\\\b\\\\s*(?=\\\\[)\",\"beginCaptures\":{\"1\":{\"name\":\"storage.type.primitive.array.java\"}},\"end\":\"(?!\\\\s*\\\\[)\",\"patterns\":[{\"include\":\"#comments\"},{\"include\":\"#parens\"}]}]},\"primitive-types\":{\"match\":\"\\\\b(void|boolean|byte|char|short|int|float|long|double)\\\\b\",\"name\":\"storage.type.primitive.java\"},\"properties\":{\"patterns\":[{\"captures\":{\"1\":{\"name\":\"punctuation.separator.period.java\"},\"2\":{\"name\":\"keyword.control.new.java\"}},\"match\":\"(\\\\.)\\\\s*(new)\"},{\"captures\":{\"1\":{\"name\":\"punctuation.separator.period.java\"},\"2\":{\"name\":\"variable.other.object.property.java\"}},\"match\":\"(\\\\.)\\\\s*([$A-Z_a-z][$\\\\w]*)(?=\\\\s*\\\\.\\\\s*[$A-Z_a-z][$\\\\w]*)\"},{\"captures\":{\"1\":{\"name\":\"punctuation.separator.period.java\"},\"2\":{\"name\":\"variable.other.object.property.java\"}},\"match\":\"(\\\\.)\\\\s*([$A-Z_a-z][$\\\\w]*)\"},{\"captures\":{\"1\":{\"name\":\"punctuation.separator.period.java\"},\"2\":{\"name\":\"invalid.illegal.identifier.java\"}},\"match\":\"(\\\\.)\\\\s*([0-9][$\\\\w]*)\"}]},\"record\":{\"begin\":\"(?=\\\\w?[\\\\w\\\\s]*\\\\brecord\\\\s+[$\\\\w]+)\",\"end\":\"}\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.section.class.end.bracket.curly.java\"}},\"name\":\"meta.record.java\",\"patterns\":[{\"include\":\"#storage-modifiers\"},{\"include\":\"#generics\"},{\"include\":\"#comments\"},{\"begin\":\"(record)\\\\s+([$\\\\w]+)(<[$\\\\w]+>)?(\\\\()\",\"beginCaptures\":{\"1\":{\"name\":\"storage.modifier.java\"},\"2\":{\"name\":\"entity.name.type.record.java\"},\"3\":{\"patterns\":[{\"include\":\"#generics\"}]},\"4\":{\"name\":\"punctuation.definition.parameters.begin.bracket.round.java\"}},\"end\":\"\\\\)\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.definition.parameters.end.bracket.round.java\"}},\"name\":\"meta.record.identifier.java\",\"patterns\":[{\"include\":\"#code\"}]},{\"begin\":\"(implements)\\\\s\",\"beginCaptures\":{\"1\":{\"name\":\"storage.modifier.implements.java\"}},\"end\":\"(?=\\\\s*\\\\{)\",\"name\":\"meta.definition.class.implemented.interfaces.java\",\"patterns\":[{\"include\":\"#object-types-inherited\"},{\"include\":\"#comments\"}]},{\"include\":\"#record-body\"}]},\"record-body\":{\"begin\":\"\\\\{\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.section.class.begin.bracket.curly.java\"}},\"end\":\"(?=})\",\"name\":\"meta.record.body.java\",\"patterns\":[{\"include\":\"#record-constructor\"},{\"include\":\"#class-body\"}]},\"record-constructor\":{\"begin\":\"(?!new)(?=[<\\\\w].*\\\\s+)(?=([^(/=]|/(?!/))+(?=\\\\{))\",\"end\":\"(})|(?=;)\",\"endCaptures\":{\"1\":{\"name\":\"punctuation.section.method.end.bracket.curly.java\"}},\"name\":\"meta.method.java\",\"patterns\":[{\"include\":\"#storage-modifiers\"},{\"begin\":\"(\\\\w+)\",\"beginCaptures\":{\"1\":{\"name\":\"entity.name.function.java\"}},\"end\":\"(?=\\\\s*\\\\{)\",\"name\":\"meta.method.identifier.java\",\"patterns\":[{\"include\":\"#comments\"}]},{\"include\":\"#comments\"},{\"begin\":\"\\\\{\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.section.method.begin.bracket.curly.java\"}},\"contentName\":\"meta.method.body.java\",\"end\":\"(?=})\",\"patterns\":[{\"include\":\"#code\"}]}]},\"static-initializer\":{\"patterns\":[{\"include\":\"#anonymous-block-and-instance-initializer\"},{\"match\":\"static\",\"name\":\"storage.modifier.java\"}]},\"storage-modifiers\":{\"match\":\"\\\\b(public|private|protected|static|final|native|synchronized|abstract|threadsafe|transient|volatile|default|strictfp|sealed|non-sealed)\\\\b\",\"name\":\"storage.modifier.java\"},\"strings\":{\"patterns\":[{\"begin\":\"\\\"\\\"\\\"\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.definition.string.begin.java\"}},\"end\":\"\\\"\\\"\\\"\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.definition.string.end.java\"}},\"name\":\"string.quoted.triple.java\",\"patterns\":[{\"match\":\"(\\\\\\\\\\\"\\\"\\\")(?!\\\")|(\\\\\\\\.)\",\"name\":\"constant.character.escape.java\"}]},{\"begin\":\"\\\"\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.definition.string.begin.java\"}},\"end\":\"\\\"\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.definition.string.end.java\"}},\"name\":\"string.quoted.double.java\",\"patterns\":[{\"match\":\"\\\\\\\\.\",\"name\":\"constant.character.escape.java\"}]},{\"begin\":\"'\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.definition.string.begin.java\"}},\"end\":\"'\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.definition.string.end.java\"}},\"name\":\"string.quoted.single.java\",\"patterns\":[{\"match\":\"\\\\\\\\.\",\"name\":\"constant.character.escape.java\"}]}]},\"throws\":{\"begin\":\"throws\",\"beginCaptures\":{\"0\":{\"name\":\"storage.modifier.java\"}},\"end\":\"(?=[;{])\",\"name\":\"meta.throwables.java\",\"patterns\":[{\"match\":\",\",\"name\":\"punctuation.separator.delimiter.java\"},{\"match\":\"[$A-Z_a-z][$.0-9A-Z_a-z]*\",\"name\":\"storage.type.java\"},{\"include\":\"#comments\"}]},\"try-catch-finally\":{\"patterns\":[{\"begin\":\"\\\\btry\\\\b\",\"beginCaptures\":{\"0\":{\"name\":\"keyword.control.try.java\"}},\"end\":\"}\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.section.try.end.bracket.curly.java\"}},\"name\":\"meta.try.java\",\"patterns\":[{\"begin\":\"\\\\(\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.section.try.resources.begin.bracket.round.java\"}},\"end\":\"\\\\)\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.section.try.resources.end.bracket.round.java\"}},\"name\":\"meta.try.resources.java\",\"patterns\":[{\"include\":\"#code\"}]},{\"begin\":\"\\\\{\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.section.try.begin.bracket.curly.java\"}},\"contentName\":\"meta.try.body.java\",\"end\":\"(?=})\",\"patterns\":[{\"include\":\"#code\"}]}]},{\"begin\":\"\\\\b(catch)\\\\b\",\"beginCaptures\":{\"1\":{\"name\":\"keyword.control.catch.java\"}},\"end\":\"}\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.section.catch.end.bracket.curly.java\"}},\"name\":\"meta.catch.java\",\"patterns\":[{\"include\":\"#comments\"},{\"begin\":\"\\\\(\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.definition.parameters.begin.bracket.round.java\"}},\"contentName\":\"meta.catch.parameters.java\",\"end\":\"\\\\)\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.definition.parameters.end.bracket.round.java\"}},\"patterns\":[{\"include\":\"#comments\"},{\"include\":\"#storage-modifiers\"},{\"begin\":\"[$A-Z_a-z][$.0-9A-Z_a-z]*\",\"beginCaptures\":{\"0\":{\"name\":\"storage.type.java\"}},\"end\":\"(\\\\|)|(?=\\\\))\",\"endCaptures\":{\"1\":{\"name\":\"punctuation.catch.separator.java\"}},\"patterns\":[{\"include\":\"#comments\"},{\"captures\":{\"0\":{\"name\":\"variable.parameter.java\"}},\"match\":\"\\\\w+\"}]}]},{\"begin\":\"\\\\{\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.section.catch.begin.bracket.curly.java\"}},\"contentName\":\"meta.catch.body.java\",\"end\":\"(?=})\",\"patterns\":[{\"include\":\"#code\"}]}]},{\"begin\":\"\\\\bfinally\\\\b\",\"beginCaptures\":{\"0\":{\"name\":\"keyword.control.finally.java\"}},\"end\":\"}\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.section.finally.end.bracket.curly.java\"}},\"name\":\"meta.finally.java\",\"patterns\":[{\"begin\":\"\\\\{\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.section.finally.begin.bracket.curly.java\"}},\"contentName\":\"meta.finally.body.java\",\"end\":\"(?=})\",\"patterns\":[{\"include\":\"#code\"}]}]}]},\"variables\":{\"begin\":\"(?=\\\\b((void|boolean|byte|char|short|int|float|long|double)|(?>(\\\\w+\\\\.)*[A-Z_]+\\\\w*))\\\\b\\\\s*(<[],.<>?\\\\[\\\\w\\\\s]*>)?\\\\s*((\\\\[])*)?\\\\s+[$A-Z_a-z][$\\\\w]*([]$,\\\\[\\\\w][],\\\\[\\\\w\\\\s]*)?\\\\s*([:;=]))\",\"end\":\"(?=[:;=])\",\"name\":\"meta.definition.variable.java\",\"patterns\":[{\"captures\":{\"1\":{\"name\":\"variable.other.definition.java\"}},\"match\":\"([$A-Z_a-z][$\\\\w]*)(?=\\\\s*(\\\\[])*\\\\s*([,:;=]))\"},{\"include\":\"#all-types\"},{\"include\":\"#code\"}]},\"variables-local\":{\"begin\":\"(?=\\\\b(var)\\\\b\\\\s+[$A-Z_a-z][$\\\\w]*\\\\s*([:;=]))\",\"end\":\"(?=[:;=])\",\"name\":\"meta.definition.variable.local.java\",\"patterns\":[{\"match\":\"\\\\bvar\\\\b\",\"name\":\"storage.type.local.java\"},{\"captures\":{\"1\":{\"name\":\"variable.other.definition.java\"}},\"match\":\"([$A-Z_a-z][$\\\\w]*)(?=\\\\s*(\\\\[])*\\\\s*([:;=]))\"},{\"include\":\"#code\"}]}},\"scopeName\":\"source.java\"}"))];
 Object.freeze(JSON.parse("{\"displayName\":\"XML\",\"name\":\"xml\",\"patterns\":[{\"begin\":\"(<\\\\?)\\\\s*([-0-9A-Z_a-z]+)\",\"captures\":{\"1\":{\"name\":\"punctuation.definition.tag.xml\"},\"2\":{\"name\":\"entity.name.tag.xml\"}},\"end\":\"(\\\\?>)\",\"name\":\"meta.tag.preprocessor.xml\",\"patterns\":[{\"match\":\" ([-A-Za-z]+)\",\"name\":\"entity.other.attribute-name.xml\"},{\"include\":\"#doublequotedString\"},{\"include\":\"#singlequotedString\"}]},{\"begin\":\"(<!)(DOCTYPE)\\\\s+([:A-Z_a-z][-.0-:A-Z_a-z]*)\",\"captures\":{\"1\":{\"name\":\"punctuation.definition.tag.xml\"},\"2\":{\"name\":\"keyword.other.doctype.xml\"},\"3\":{\"name\":\"variable.language.documentroot.xml\"}},\"end\":\"\\\\s*(>)\",\"name\":\"meta.tag.sgml.doctype.xml\",\"patterns\":[{\"include\":\"#internalSubset\"}]},{\"include\":\"#comments\"},{\"begin\":\"(<)((?:([-0-9A-Z_a-z]+)(:))?([-0-:A-Z_a-z]+))(?=(\\\\s[^>]*)?></\\\\2>)\",\"beginCaptures\":{\"1\":{\"name\":\"punctuation.definition.tag.xml\"},\"2\":{\"name\":\"entity.name.tag.xml\"},\"3\":{\"name\":\"entity.name.tag.namespace.xml\"},\"4\":{\"name\":\"punctuation.separator.namespace.xml\"},\"5\":{\"name\":\"entity.name.tag.localname.xml\"}},\"end\":\"(>)(</)((?:([-0-9A-Z_a-z]+)(:))?([-0-:A-Z_a-z]+))(>)\",\"endCaptures\":{\"1\":{\"name\":\"punctuation.definition.tag.xml\"},\"2\":{\"name\":\"punctuation.definition.tag.xml\"},\"3\":{\"name\":\"entity.name.tag.xml\"},\"4\":{\"name\":\"entity.name.tag.namespace.xml\"},\"5\":{\"name\":\"punctuation.separator.namespace.xml\"},\"6\":{\"name\":\"entity.name.tag.localname.xml\"},\"7\":{\"name\":\"punctuation.definition.tag.xml\"}},\"name\":\"meta.tag.no-content.xml\",\"patterns\":[{\"include\":\"#tagStuff\"}]},{\"begin\":\"(</?)(?:([-.\\\\w]+)((:)))?([-.:\\\\w]+)\",\"captures\":{\"1\":{\"name\":\"punctuation.definition.tag.xml\"},\"2\":{\"name\":\"entity.name.tag.namespace.xml\"},\"3\":{\"name\":\"entity.name.tag.xml\"},\"4\":{\"name\":\"punctuation.separator.namespace.xml\"},\"5\":{\"name\":\"entity.name.tag.localname.xml\"}},\"end\":\"(/?>)\",\"name\":\"meta.tag.xml\",\"patterns\":[{\"include\":\"#tagStuff\"}]},{\"include\":\"#entity\"},{\"include\":\"#bare-ampersand\"},{\"begin\":\"<%@\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.section.embedded.begin.xml\"}},\"end\":\"%>\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.section.embedded.end.xml\"}},\"name\":\"source.java-props.embedded.xml\",\"patterns\":[{\"match\":\"page|include|taglib\",\"name\":\"keyword.other.page-props.xml\"}]},{\"begin\":\"<%[!=]?(?!--)\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.section.embedded.begin.xml\"}},\"end\":\"(?!--)%>\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.section.embedded.end.xml\"}},\"name\":\"source.java.embedded.xml\",\"patterns\":[{\"include\":\"source.java\"}]},{\"begin\":\"<!\\\\[CDATA\\\\[\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.definition.string.begin.xml\"}},\"end\":\"]]>\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.definition.string.end.xml\"}},\"name\":\"string.unquoted.cdata.xml\"}],\"repository\":{\"EntityDecl\":{\"begin\":\"(<!)(ENTITY)\\\\s+(%\\\\s+)?([:A-Z_a-z][-.0-:A-Z_a-z]*)(\\\\s+(?:SYSTEM|PUBLIC)\\\\s+)?\",\"captures\":{\"1\":{\"name\":\"punctuation.definition.tag.xml\"},\"2\":{\"name\":\"keyword.other.entity.xml\"},\"3\":{\"name\":\"punctuation.definition.entity.xml\"},\"4\":{\"name\":\"variable.language.entity.xml\"},\"5\":{\"name\":\"keyword.other.entitytype.xml\"}},\"end\":\"(>)\",\"patterns\":[{\"include\":\"#doublequotedString\"},{\"include\":\"#singlequotedString\"}]},\"bare-ampersand\":{\"match\":\"&\",\"name\":\"invalid.illegal.bad-ampersand.xml\"},\"comments\":{\"patterns\":[{\"begin\":\"<%--\",\"captures\":{\"0\":{\"name\":\"punctuation.definition.comment.xml\"},\"end\":\"--%>\",\"name\":\"comment.block.xml\"}},{\"begin\":\"<!--\",\"captures\":{\"0\":{\"name\":\"punctuation.definition.comment.xml\"}},\"end\":\"-->\",\"name\":\"comment.block.xml\",\"patterns\":[{\"begin\":\"--(?!>)\",\"captures\":{\"0\":{\"name\":\"invalid.illegal.bad-comments-or-CDATA.xml\"}}}]}]},\"doublequotedString\":{\"begin\":\"\\\"\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.definition.string.begin.xml\"}},\"end\":\"\\\"\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.definition.string.end.xml\"}},\"name\":\"string.quoted.double.xml\",\"patterns\":[{\"include\":\"#entity\"},{\"include\":\"#bare-ampersand\"}]},\"entity\":{\"captures\":{\"1\":{\"name\":\"punctuation.definition.constant.xml\"},\"3\":{\"name\":\"punctuation.definition.constant.xml\"}},\"match\":\"(&)([:A-Z_a-z][-.0-:A-Z_a-z]*|#[0-9]+|#x\\\\h+)(;)\",\"name\":\"constant.character.entity.xml\"},\"internalSubset\":{\"begin\":\"(\\\\[)\",\"captures\":{\"1\":{\"name\":\"punctuation.definition.constant.xml\"}},\"end\":\"(])\",\"name\":\"meta.internalsubset.xml\",\"patterns\":[{\"include\":\"#EntityDecl\"},{\"include\":\"#parameterEntity\"},{\"include\":\"#comments\"}]},\"parameterEntity\":{\"captures\":{\"1\":{\"name\":\"punctuation.definition.constant.xml\"},\"3\":{\"name\":\"punctuation.definition.constant.xml\"}},\"match\":\"(%)([:A-Z_a-z][-.0-:A-Z_a-z]*)(;)\",\"name\":\"constant.character.parameter-entity.xml\"},\"singlequotedString\":{\"begin\":\"'\",\"beginCaptures\":{\"0\":{\"name\":\"punctuation.definition.string.begin.xml\"}},\"end\":\"'\",\"endCaptures\":{\"0\":{\"name\":\"punctuation.definition.string.end.xml\"}},\"name\":\"string.quoted.single.xml\",\"patterns\":[{\"include\":\"#entity\"},{\"include\":\"#bare-ampersand\"}]},\"tagStuff\":{\"patterns\":[{\"captures\":{\"1\":{\"name\":\"entity.other.attribute-name.namespace.xml\"},\"2\":{\"name\":\"entity.other.attribute-name.xml\"},\"3\":{\"name\":\"punctuation.separator.namespace.xml\"},\"4\":{\"name\":\"entity.other.attribute-name.localname.xml\"}},\"match\":\"(?:^|\\\\s+)(?:([-.\\\\w]+)((:)))?([-.:\\\\w]+)\\\\s*=\"},{\"include\":\"#doublequotedString\"},{\"include\":\"#singlequotedString\"}]}},\"scopeName\":\"text.xml\",\"embeddedLangs\":[\"java\"]}")), [...Qce], Object.freeze(JSON.parse("{\"colors\":{\"activityBar.activeBorder\":\"#f9826c\",\"activityBar.background\":\"#24292e\",\"activityBar.border\":\"#1b1f23\",\"activityBar.foreground\":\"#e1e4e8\",\"activityBar.inactiveForeground\":\"#6a737d\",\"activityBarBadge.background\":\"#0366d6\",\"activityBarBadge.foreground\":\"#fff\",\"badge.background\":\"#044289\",\"badge.foreground\":\"#c8e1ff\",\"breadcrumb.activeSelectionForeground\":\"#d1d5da\",\"breadcrumb.focusForeground\":\"#e1e4e8\",\"breadcrumb.foreground\":\"#959da5\",\"breadcrumbPicker.background\":\"#2b3036\",\"button.background\":\"#176f2c\",\"button.foreground\":\"#dcffe4\",\"button.hoverBackground\":\"#22863a\",\"button.secondaryBackground\":\"#444d56\",\"button.secondaryForeground\":\"#fff\",\"button.secondaryHoverBackground\":\"#586069\",\"checkbox.background\":\"#444d56\",\"checkbox.border\":\"#1b1f23\",\"debugToolBar.background\":\"#2b3036\",\"descriptionForeground\":\"#959da5\",\"diffEditor.insertedTextBackground\":\"#28a74530\",\"diffEditor.removedTextBackground\":\"#d73a4930\",\"dropdown.background\":\"#2f363d\",\"dropdown.border\":\"#1b1f23\",\"dropdown.foreground\":\"#e1e4e8\",\"dropdown.listBackground\":\"#24292e\",\"editor.background\":\"#24292e\",\"editor.findMatchBackground\":\"#ffd33d44\",\"editor.findMatchHighlightBackground\":\"#ffd33d22\",\"editor.focusedStackFrameHighlightBackground\":\"#2b6a3033\",\"editor.foldBackground\":\"#58606915\",\"editor.foreground\":\"#e1e4e8\",\"editor.inactiveSelectionBackground\":\"#3392FF22\",\"editor.lineHighlightBackground\":\"#2b3036\",\"editor.linkedEditingBackground\":\"#3392FF22\",\"editor.selectionBackground\":\"#3392FF44\",\"editor.selectionHighlightBackground\":\"#17E5E633\",\"editor.selectionHighlightBorder\":\"#17E5E600\",\"editor.stackFrameHighlightBackground\":\"#C6902625\",\"editor.wordHighlightBackground\":\"#17E5E600\",\"editor.wordHighlightBorder\":\"#17E5E699\",\"editor.wordHighlightStrongBackground\":\"#17E5E600\",\"editor.wordHighlightStrongBorder\":\"#17E5E666\",\"editorBracketHighlight.foreground1\":\"#79b8ff\",\"editorBracketHighlight.foreground2\":\"#ffab70\",\"editorBracketHighlight.foreground3\":\"#b392f0\",\"editorBracketHighlight.foreground4\":\"#79b8ff\",\"editorBracketHighlight.foreground5\":\"#ffab70\",\"editorBracketHighlight.foreground6\":\"#b392f0\",\"editorBracketMatch.background\":\"#17E5E650\",\"editorBracketMatch.border\":\"#17E5E600\",\"editorCursor.foreground\":\"#c8e1ff\",\"editorError.foreground\":\"#f97583\",\"editorGroup.border\":\"#1b1f23\",\"editorGroupHeader.tabsBackground\":\"#1f2428\",\"editorGroupHeader.tabsBorder\":\"#1b1f23\",\"editorGutter.addedBackground\":\"#28a745\",\"editorGutter.deletedBackground\":\"#ea4a5a\",\"editorGutter.modifiedBackground\":\"#2188ff\",\"editorIndentGuide.activeBackground\":\"#444d56\",\"editorIndentGuide.background\":\"#2f363d\",\"editorLineNumber.activeForeground\":\"#e1e4e8\",\"editorLineNumber.foreground\":\"#444d56\",\"editorOverviewRuler.border\":\"#1b1f23\",\"editorWarning.foreground\":\"#ffea7f\",\"editorWhitespace.foreground\":\"#444d56\",\"editorWidget.background\":\"#1f2428\",\"errorForeground\":\"#f97583\",\"focusBorder\":\"#005cc5\",\"foreground\":\"#d1d5da\",\"gitDecoration.addedResourceForeground\":\"#34d058\",\"gitDecoration.conflictingResourceForeground\":\"#ffab70\",\"gitDecoration.deletedResourceForeground\":\"#ea4a5a\",\"gitDecoration.ignoredResourceForeground\":\"#6a737d\",\"gitDecoration.modifiedResourceForeground\":\"#79b8ff\",\"gitDecoration.submoduleResourceForeground\":\"#6a737d\",\"gitDecoration.untrackedResourceForeground\":\"#34d058\",\"input.background\":\"#2f363d\",\"input.border\":\"#1b1f23\",\"input.foreground\":\"#e1e4e8\",\"input.placeholderForeground\":\"#959da5\",\"list.activeSelectionBackground\":\"#39414a\",\"list.activeSelectionForeground\":\"#e1e4e8\",\"list.focusBackground\":\"#044289\",\"list.hoverBackground\":\"#282e34\",\"list.hoverForeground\":\"#e1e4e8\",\"list.inactiveFocusBackground\":\"#1d2d3e\",\"list.inactiveSelectionBackground\":\"#282e34\",\"list.inactiveSelectionForeground\":\"#e1e4e8\",\"notificationCenterHeader.background\":\"#24292e\",\"notificationCenterHeader.foreground\":\"#959da5\",\"notifications.background\":\"#2f363d\",\"notifications.border\":\"#1b1f23\",\"notifications.foreground\":\"#e1e4e8\",\"notificationsErrorIcon.foreground\":\"#ea4a5a\",\"notificationsInfoIcon.foreground\":\"#79b8ff\",\"notificationsWarningIcon.foreground\":\"#ffab70\",\"panel.background\":\"#1f2428\",\"panel.border\":\"#1b1f23\",\"panelInput.border\":\"#2f363d\",\"panelTitle.activeBorder\":\"#f9826c\",\"panelTitle.activeForeground\":\"#e1e4e8\",\"panelTitle.inactiveForeground\":\"#959da5\",\"peekViewEditor.background\":\"#1f242888\",\"peekViewEditor.matchHighlightBackground\":\"#ffd33d33\",\"peekViewResult.background\":\"#1f2428\",\"peekViewResult.matchHighlightBackground\":\"#ffd33d33\",\"pickerGroup.border\":\"#444d56\",\"pickerGroup.foreground\":\"#e1e4e8\",\"progressBar.background\":\"#0366d6\",\"quickInput.background\":\"#24292e\",\"quickInput.foreground\":\"#e1e4e8\",\"scrollbar.shadow\":\"#0008\",\"scrollbarSlider.activeBackground\":\"#6a737d88\",\"scrollbarSlider.background\":\"#6a737d33\",\"scrollbarSlider.hoverBackground\":\"#6a737d44\",\"settings.headerForeground\":\"#e1e4e8\",\"settings.modifiedItemIndicator\":\"#0366d6\",\"sideBar.background\":\"#1f2428\",\"sideBar.border\":\"#1b1f23\",\"sideBar.foreground\":\"#d1d5da\",\"sideBarSectionHeader.background\":\"#1f2428\",\"sideBarSectionHeader.border\":\"#1b1f23\",\"sideBarSectionHeader.foreground\":\"#e1e4e8\",\"sideBarTitle.foreground\":\"#e1e4e8\",\"statusBar.background\":\"#24292e\",\"statusBar.border\":\"#1b1f23\",\"statusBar.debuggingBackground\":\"#931c06\",\"statusBar.debuggingForeground\":\"#fff\",\"statusBar.foreground\":\"#d1d5da\",\"statusBar.noFolderBackground\":\"#24292e\",\"statusBarItem.prominentBackground\":\"#282e34\",\"statusBarItem.remoteBackground\":\"#24292e\",\"statusBarItem.remoteForeground\":\"#d1d5da\",\"tab.activeBackground\":\"#24292e\",\"tab.activeBorder\":\"#24292e\",\"tab.activeBorderTop\":\"#f9826c\",\"tab.activeForeground\":\"#e1e4e8\",\"tab.border\":\"#1b1f23\",\"tab.hoverBackground\":\"#24292e\",\"tab.inactiveBackground\":\"#1f2428\",\"tab.inactiveForeground\":\"#959da5\",\"tab.unfocusedActiveBorder\":\"#24292e\",\"tab.unfocusedActiveBorderTop\":\"#1b1f23\",\"tab.unfocusedHoverBackground\":\"#24292e\",\"terminal.ansiBlack\":\"#586069\",\"terminal.ansiBlue\":\"#2188ff\",\"terminal.ansiBrightBlack\":\"#959da5\",\"terminal.ansiBrightBlue\":\"#79b8ff\",\"terminal.ansiBrightCyan\":\"#56d4dd\",\"terminal.ansiBrightGreen\":\"#85e89d\",\"terminal.ansiBrightMagenta\":\"#b392f0\",\"terminal.ansiBrightRed\":\"#f97583\",\"terminal.ansiBrightWhite\":\"#fafbfc\",\"terminal.ansiBrightYellow\":\"#ffea7f\",\"terminal.ansiCyan\":\"#39c5cf\",\"terminal.ansiGreen\":\"#34d058\",\"terminal.ansiMagenta\":\"#b392f0\",\"terminal.ansiRed\":\"#ea4a5a\",\"terminal.ansiWhite\":\"#d1d5da\",\"terminal.ansiYellow\":\"#ffea7f\",\"terminal.foreground\":\"#d1d5da\",\"terminal.tab.activeBorder\":\"#f9826c\",\"terminalCursor.background\":\"#586069\",\"terminalCursor.foreground\":\"#79b8ff\",\"textBlockQuote.background\":\"#24292e\",\"textBlockQuote.border\":\"#444d56\",\"textCodeBlock.background\":\"#2f363d\",\"textLink.activeForeground\":\"#c8e1ff\",\"textLink.foreground\":\"#79b8ff\",\"textPreformat.foreground\":\"#d1d5da\",\"textSeparator.foreground\":\"#586069\",\"titleBar.activeBackground\":\"#24292e\",\"titleBar.activeForeground\":\"#e1e4e8\",\"titleBar.border\":\"#1b1f23\",\"titleBar.inactiveBackground\":\"#1f2428\",\"titleBar.inactiveForeground\":\"#959da5\",\"tree.indentGuidesStroke\":\"#2f363d\",\"welcomePage.buttonBackground\":\"#2f363d\",\"welcomePage.buttonHoverBackground\":\"#444d56\"},\"displayName\":\"GitHub Dark\",\"name\":\"github-dark\",\"semanticHighlighting\":true,\"tokenColors\":[{\"scope\":[\"comment\",\"punctuation.definition.comment\",\"string.comment\"],\"settings\":{\"foreground\":\"#6a737d\"}},{\"scope\":[\"constant\",\"entity.name.constant\",\"variable.other.constant\",\"variable.other.enummember\",\"variable.language\"],\"settings\":{\"foreground\":\"#79b8ff\"}},{\"scope\":[\"entity\",\"entity.name\"],\"settings\":{\"foreground\":\"#b392f0\"}},{\"scope\":\"variable.parameter.function\",\"settings\":{\"foreground\":\"#e1e4e8\"}},{\"scope\":\"entity.name.tag\",\"settings\":{\"foreground\":\"#85e89d\"}},{\"scope\":\"keyword\",\"settings\":{\"foreground\":\"#f97583\"}},{\"scope\":[\"storage\",\"storage.type\"],\"settings\":{\"foreground\":\"#f97583\"}},{\"scope\":[\"storage.modifier.package\",\"storage.modifier.import\",\"storage.type.java\"],\"settings\":{\"foreground\":\"#e1e4e8\"}},{\"scope\":[\"string\",\"punctuation.definition.string\",\"string punctuation.section.embedded source\"],\"settings\":{\"foreground\":\"#9ecbff\"}},{\"scope\":\"support\",\"settings\":{\"foreground\":\"#79b8ff\"}},{\"scope\":\"meta.property-name\",\"settings\":{\"foreground\":\"#79b8ff\"}},{\"scope\":\"variable\",\"settings\":{\"foreground\":\"#ffab70\"}},{\"scope\":\"variable.other\",\"settings\":{\"foreground\":\"#e1e4e8\"}},{\"scope\":\"invalid.broken\",\"settings\":{\"fontStyle\":\"italic\",\"foreground\":\"#fdaeb7\"}},{\"scope\":\"invalid.deprecated\",\"settings\":{\"fontStyle\":\"italic\",\"foreground\":\"#fdaeb7\"}},{\"scope\":\"invalid.illegal\",\"settings\":{\"fontStyle\":\"italic\",\"foreground\":\"#fdaeb7\"}},{\"scope\":\"invalid.unimplemented\",\"settings\":{\"fontStyle\":\"italic\",\"foreground\":\"#fdaeb7\"}},{\"scope\":\"carriage-return\",\"settings\":{\"background\":\"#f97583\",\"content\":\"^M\",\"fontStyle\":\"italic underline\",\"foreground\":\"#24292e\"}},{\"scope\":\"message.error\",\"settings\":{\"foreground\":\"#fdaeb7\"}},{\"scope\":\"string variable\",\"settings\":{\"foreground\":\"#79b8ff\"}},{\"scope\":[\"source.regexp\",\"string.regexp\"],\"settings\":{\"foreground\":\"#dbedff\"}},{\"scope\":[\"string.regexp.character-class\",\"string.regexp constant.character.escape\",\"string.regexp source.ruby.embedded\",\"string.regexp string.regexp.arbitrary-repitition\"],\"settings\":{\"foreground\":\"#dbedff\"}},{\"scope\":\"string.regexp constant.character.escape\",\"settings\":{\"fontStyle\":\"bold\",\"foreground\":\"#85e89d\"}},{\"scope\":\"support.constant\",\"settings\":{\"foreground\":\"#79b8ff\"}},{\"scope\":\"support.variable\",\"settings\":{\"foreground\":\"#79b8ff\"}},{\"scope\":\"meta.module-reference\",\"settings\":{\"foreground\":\"#79b8ff\"}},{\"scope\":\"punctuation.definition.list.begin.markdown\",\"settings\":{\"foreground\":\"#ffab70\"}},{\"scope\":[\"markup.heading\",\"markup.heading entity.name\"],\"settings\":{\"fontStyle\":\"bold\",\"foreground\":\"#79b8ff\"}},{\"scope\":\"markup.quote\",\"settings\":{\"foreground\":\"#85e89d\"}},{\"scope\":\"markup.italic\",\"settings\":{\"fontStyle\":\"italic\",\"foreground\":\"#e1e4e8\"}},{\"scope\":\"markup.bold\",\"settings\":{\"fontStyle\":\"bold\",\"foreground\":\"#e1e4e8\"}},{\"scope\":[\"markup.underline\"],\"settings\":{\"fontStyle\":\"underline\"}},{\"scope\":[\"markup.strikethrough\"],\"settings\":{\"fontStyle\":\"strikethrough\"}},{\"scope\":\"markup.inline.raw\",\"settings\":{\"foreground\":\"#79b8ff\"}},{\"scope\":[\"markup.deleted\",\"meta.diff.header.from-file\",\"punctuation.definition.deleted\"],\"settings\":{\"background\":\"#86181d\",\"foreground\":\"#fdaeb7\"}},{\"scope\":[\"markup.inserted\",\"meta.diff.header.to-file\",\"punctuation.definition.inserted\"],\"settings\":{\"background\":\"#144620\",\"foreground\":\"#85e89d\"}},{\"scope\":[\"markup.changed\",\"punctuation.definition.changed\"],\"settings\":{\"background\":\"#c24e00\",\"foreground\":\"#ffab70\"}},{\"scope\":[\"markup.ignored\",\"markup.untracked\"],\"settings\":{\"background\":\"#79b8ff\",\"foreground\":\"#2f363d\"}},{\"scope\":\"meta.diff.range\",\"settings\":{\"fontStyle\":\"bold\",\"foreground\":\"#b392f0\"}},{\"scope\":\"meta.diff.header\",\"settings\":{\"foreground\":\"#79b8ff\"}},{\"scope\":\"meta.separator\",\"settings\":{\"fontStyle\":\"bold\",\"foreground\":\"#79b8ff\"}},{\"scope\":\"meta.output\",\"settings\":{\"foreground\":\"#79b8ff\"}},{\"scope\":[\"brackethighlighter.tag\",\"brackethighlighter.curly\",\"brackethighlighter.round\",\"brackethighlighter.square\",\"brackethighlighter.angle\",\"brackethighlighter.quote\"],\"settings\":{\"foreground\":\"#d1d5da\"}},{\"scope\":\"brackethighlighter.unmatched\",\"settings\":{\"foreground\":\"#fdaeb7\"}},{\"scope\":[\"constant.other.reference.link\",\"string.other.link\"],\"settings\":{\"fontStyle\":\"underline\",\"foreground\":\"#dbedff\"}}],\"type\":\"dark\"}"));
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/selector-input/selector-xpath.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/selector-input/selector-xpath.js
 var w_ = "[\\w.-]+";
 RegExp(`^${w_}$`);
 var T_ = "(?:'[^']*'|\"[^\"]*\")", E_ = `local-name\\(\\)='${w_}'`, D_ = `${E_}(?: or ${E_})*`, O_ = `(?:@name=(${T_})|(starts-with|contains)\\(@name,(${T_})\\)|substring\\(@name,string-length\\(@name\\)-string-length\\((${T_})\\)\\+1\\)=(${T_}))`;
 RegExp(`^${O_}$`), RegExp(`^(?:ancestor::\\*\\[local-name\\(\\)='(?<anchor>${w_})'\\]\\[1\\])?//\\*(?:\\[(?<targets>${D_})\\])?(?:\\[(?<ownName>${O_})\\]|\\[ancestor::\\*\\[${D_}\\]\\[1\\]\\[(?<ownerName>${O_})\\]\\]|\\[parent::\\*\\[(?<parentName>${O_})\\]\\])?$`);
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/utils/registry.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/reka-ui@2.10.1_vue@3.5.39_typescript@5.8.3_/node_modules/reka-ui/dist/utils/registry.js
 function k_() {
 	if (typeof matchMedia == "function") return matchMedia("(pointer:coarse)").matches ? "coarse" : "fine";
 }
 k_();
 //#endregion
-//#region node_modules/.pnpm/@septkit+ui@0.0.85_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_4833189af5429bc76c05875dbb50e41b/node_modules/@septkit/ui/dist/external/.pnpm/elkjs@0.10.2/node_modules/elkjs/lib/elk.bundled.js
+//#region node_modules/.pnpm/@septkit+ui@0.0.86_daisyui@5.5.19_libxml2-wasm@0.7.2_tailwindcss@4.2.2_typescript@5.9.3_af4d468f39ee2ffc2d2e2fb9dd62b75b/node_modules/@septkit/ui/dist/external/.pnpm/elkjs@0.10.2/node_modules/elkjs/lib/elk.bundled.js
 var A_ = /* @__PURE__ */ Ioe(((e, t) => {
 	(function(n) {
 		if (typeof e == "object" && t !== void 0) t.exports = n();
@@ -69579,7 +69579,7 @@ function iv(e, t) {
 	});
 }
 //#endregion
-//#region node_modules/.pnpm/@septkit+shell-lib@0.0.37_libxml2-wasm@0.7.2_vitest@4.1.4/node_modules/@septkit/shell-lib/dist/index.js
+//#region node_modules/.pnpm/@septkit+shell-lib@0.0.38_libxml2-wasm@0.7.2_vitest@4.1.4/node_modules/@septkit/shell-lib/dist/index.js
 var av = "https://dialecte.github.io/core", ov = {
 	UNKNOWN: {
 		code: "D0001",
