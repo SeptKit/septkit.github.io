@@ -7,6 +7,17 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [61] - 2026-11-17
+
+### Added
+
+- View explanations of data model statuses in the status guide.
+
+### Changed
+
+- Preview remapped data objects and their contents before Apply, while retaining displaced implementation objects as New.
+- Restrict DOS mappings to eligible top-level data objects; same-name matches with matching CDC remain fixed.
+
 ## [59] - 2026-11-13
 
 ### Changed
