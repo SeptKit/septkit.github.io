@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## Unreleased
 
+## [93] - 2026-11-17
+
+### Added
+
+- Swap the selected source and subscriber LNodes to inspect dataflows in the opposite direction
+
 ## [91] - 2026-11-16
 
 ### Added
