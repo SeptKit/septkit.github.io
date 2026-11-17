@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [Unreleased]
 
+## [49] - 2026-11-17
+
+### Added
+
+- Instantiate ISD: the **Instantiate ISD** button above the diagram adds the S-IED an `.isd` file describes to the project, picked from a library folder attached to SET or from disk. Before anything changes, the review shows the S-IED, the functions and LNodes of its specification and where they land in your substation (choose the voltage level or bay when several fit), its communication and the data types it adds; cancelling leaves the project unchanged. An S-IED from a template ISD is named after the file (`BCU_Feeder.isd` gives `BCU_Feeder`, numbered when the project already uses it; a space or another character a name cannot hold becomes `_`), a name you can change in the review; an ISD exported from an S-IED keeps that S-IED's name; its connection joins the subnetwork of the same name, and the project records the ISD it came from. A template ISD can be added several times, each time as a new S-IED with its own LNodes; an ISD exported from an S-IED keeps that S-IED's identity and is added once.
+
 ## [47] - 2026-11-16
 
 ### Changed

@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-ied-browser",
-	"version": "48",
+	"version": "49",
 	"displayName": "IED Browser",
 	"description": "SeptKit extension - browse and inspect IEDs in an SCL file",
 	"private": true,
@@ -75,6 +75,7 @@
 	"dependencies": {
 		"@dialecte/core": "catalog:",
 		"@dialecte/scl": "catalog:",
+		"@septkit/merge": "workspace:^",
 		"@septkit/shell-lib": "catalog:",
 		"@septkit/ui": "catalog:",
 		"@vue-flow/background": "^1.3.2",
