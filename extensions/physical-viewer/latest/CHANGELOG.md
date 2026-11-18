@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [3] - 2026-11-18
+
+### Added
+
+- See the physical resources of the selected Allocation Role grouped into Power Supply, Analog Inputs, Binary Inputs and Binary Outputs, each with its LD, LN and label.
+
 ## [1] - 2026-11-15
 
 ### Added
