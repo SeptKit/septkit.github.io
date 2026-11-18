@@ -7,11 +7,17 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [22] - 2026-11-18
+
+### Added
+
+- Synchronize the sender and receiver filters
+
 ## [20] - 2026-11-17
 
 ### Added
 
-- Filter senders and receivers independently in the Dataflow Matrix, in both specification and implementation mode
+- Filter senders and receivers independently, in both specification and implementation mode
 - Swap the sender and receiver filters with one click
 
 ## [18] - 2026-11-13
