@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-library",
-	"version": "35",
+	"version": "36",
 	"displayName": "Library",
 	"description": "Library",
 	"private": true,
@@ -33,7 +33,7 @@
 			}
 		],
 		"menus": {
-			"set.step.specification": [
+			"set.step.concept": [
 				{ "editor": "sprinteins.ext-library.data-type-templates", "group": "20_editors@140", "when": { "role": "expert" } }
 			],
 			"set.step.implementation": [
