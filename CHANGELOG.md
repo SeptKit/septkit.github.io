@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [72] - 2026-11-19
+
+### Changed
+
+- Projects opened before this version: export them with the previous version, then import the file again.
+
 ## [70] - 2026-11-15
 
 ### Changed
