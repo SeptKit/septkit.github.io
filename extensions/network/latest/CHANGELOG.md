@@ -7,6 +7,25 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [17] - 2026-11-19
+
+### Changed
+
+- Moving or unassigning the last connected AP of a bus now also removes that bus, since it would be left empty. A dialog names the bus first; **Cancel** keeps the connected AP where it was.
+
+## [16] - 2026-11-17
+
+### Added
+
+- Edit MAC-Address, APPID, VLAN-ID, Priority and (for GSE) MinTime and MaxTime directly in the GSE/SMV table; changes are saved to the SCL communication settings.
+- Add a missing value with "..." or remove an empty one with the inline clear button.
+- Malformed values are flagged with a warning without blocking editing.
+- An info icon in the editable column headers explains that these values are calculated automatically and not expected to be changed by hand.
+
+### Changed
+
+- Missing values in the GSE/SMV table are shown as a highlighted "..." to add instead of a highlighted dash.
+
 ## [15] - 2026-11-16
 
 ### Added
