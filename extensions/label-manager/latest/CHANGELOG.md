@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [45] - 2026-11-19
+
+### Changed
+
+- Labels and values open and scroll quickly on large projects. Each group of rows now shows its bay, function and logical node in a row above it that stays in view while you scroll, which leaves more room for data and labels. The Hierarchy, Function and LNode filters moved to that header row. Tab moves from one value to the next.
+
 ## [44] - 2026-11-19
 
 ### Changed
