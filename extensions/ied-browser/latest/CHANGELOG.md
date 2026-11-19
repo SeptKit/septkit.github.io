@@ -7,6 +7,17 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [Unreleased]
 
+## [53] - 2026-11-19
+
+### Added
+
+- **Update from newer ISD**: right-click an S-IED placed from an ISD and choose **Update from newer ISD** to pick a newer version of that ISD from a library folder attached to SET or from disk. Before anything changes, the review shows what the newer ISD adds, removes or changes in the S-IED, in the functions and LNodes of its specification, in its communication and in its data types. The S-IED keeps its name, and its LNodes stay bound to the logical nodes that remain. An LNode whose logical node the newer ISD removes is reset to its specification and listed before you confirm. A change that would also affect another IED (an input subscribing to data the update removes, for example) waits for your decision: the review names that IED on the change, marks what it would lose, and Confirm lists what changes there before anything is written; leaving the change out keeps the other IED as it is. A change that needs your decision (data the update deletes that your project still uses, an LNode bound to another IED) waits for your choice before you can confirm. An ISD that is not a version of the one the S-IED came from is refused with a message; cancelling leaves the project unchanged.
+- In the same review, a value your project may set (a setting, for example) keeps your value when the newer ISD changes it: it is marked **yours kept** with both values shown. **Take template's** takes the template's value for that one value, the menu of an S-IED takes it for every value of that S-IED, and **Take over all** for the whole update; a value taken over is then reviewed as any change, and **Keep current** gives yours back. Confirm says how many of your values are kept.
+
+### Changed
+
+- Removing an IED that is the last on a bus now also removes that bus. The confirmation names the bus before anything is removed; **Cancel** keeps both.
+
 ## [51] - 2026-11-17
 
 ### Fixed
