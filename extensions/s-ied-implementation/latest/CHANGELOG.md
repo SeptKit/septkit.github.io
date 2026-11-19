@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [62] - 2026-11-19
+
+### Changed
+
+- When applying leaves a bus without any connected AP (an S-IED's endpoints replaced by the ICD's, for example), that bus is removed. The apply dialog names it first: **Remove bus and apply** goes ahead, **Back** returns to the dialog without applying.
+
 ## [61] - 2026-11-17
 
 ### Added
