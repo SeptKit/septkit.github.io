@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [Unreleased]
 
+## [54] - 2026-11-19
+
+### Added
+
+- Export ISD: choose the kind of ISD. **Project instance** (as before) keeps the names and identifiers of the project. **Template** writes an ISD for a frame agreement, tied to no project: the S-IED is named `SPECIFICATION`, the substation, voltage level and bay above its functions are named `TEMPLATE`, and every element gets a new identifier. The file is saved as `<S-IED>_template.isd`.
+
 ## [53] - 2026-11-19
 
 ### Added
