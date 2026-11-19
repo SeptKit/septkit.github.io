@@ -7,6 +7,16 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [24] - 2026-11-19
+
+### Changed
+
+- The matrix of a large project opens and scrolls smoothly: only the visible part of the grid is drawn.
+- LNodes without dataflows are hidden when the matrix opens; "Only exchanging" shows them all again.
+- Long LNode names are shortened in the matrix headers; hover a name to see it in full.
+- Selecting a cell out of view brings it into view.
+- Move through the matrix with the arrow keys and press Enter or Space to open a cell; screen readers announce its row and column.
+
 ## [22] - 2026-11-18
 
 ### Added
