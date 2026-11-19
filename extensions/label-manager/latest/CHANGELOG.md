@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [44] - 2026-11-19
+
+### Changed
+
+- Removing the last label of an object, by deleting it or by cleaning up a language, now also removes the label metadata kept with it: its label IDs, their locked addresses and properties, and any data another tool stored there. Before anything is removed, a dialog lists what goes for each object; **Cancel** keeps the labels and their metadata.
+
 ## [42] - 2026-11-15
 
 ### Changed
