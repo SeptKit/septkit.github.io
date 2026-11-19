@@ -164682,13 +164682,18 @@ async function sUe(e, t) {
 async function cUe(e, t) {
 	let n = /* @__PURE__ */ new Set();
 	if (!t) return n;
-	for (let r of await e.getRecordsByTagName("SourceRef")) {
-		let { sourceLNodeUuid: i, sourceDoName: a } = await e.getAttributes(r);
-		i === t && a && n.add(a);
+	let r = /* @__PURE__ */ new Set();
+	for (let t of await e.getRecordsByTagName("ExtRef")) {
+		let { uuid: n, srcCBName: i } = await e.getAttributes(t);
+		n && i && r.add(n);
+	}
+	for (let i of await e.getRecordsByTagName("SourceRef")) {
+		let { sourceLNodeUuid: a, sourceDoName: o, extRefUuid: s } = await e.getAttributes(i);
+		a === t && o && s && r.has(s) && n.add(o);
 	}
 	for (let r of await e.getRecordsByTagName("ControlRef")) {
-		let { controlledLNodeUuid: i, controlledDoName: a } = await e.getAttributes(r);
-		i === t && a && n.add(a);
+		let { controlledLNodeUuid: i, controlledDoName: a, extCtrlUuid: o, extCtrlAddr: s } = await e.getAttributes(r);
+		i === t && a && (o || s) && n.add(a);
 	}
 	return n;
 }
@@ -179629,7 +179634,7 @@ function f1e() {
 			return;
 		}
 		let i = await d1e(qz.value, r);
-		t() && (ee.value = new Map([...i].map((e) => [e, "Used by a dataflow - mapping can't be edited yet."])));
+		t() && (ee.value = new Map([...i].map((e) => [e, "Used by an implemented dataflow - mapping can't be edited yet."])));
 	}
 	Mr([_, o], () => re(), { immediate: !0 });
 	let ie = Fa(() => WW(c.value, t.value)), ae = Fa(() => new Map(ie.value.map((e) => [e.specId, e.targetPath]))), oe = Fa(() => GW(y.value, ie.value)), se = Fa(() => GW(v.value, ie.value)), ce = Fa(() => G$e({
@@ -182277,7 +182282,7 @@ var GG = ["title", "onClick"], j4e = /* @__PURE__ */ Qr({
 			e.loading ? (O(), sa("div", o3e, [...n[6] ||= [fa("span", { class: "loading loading-spinner loading-sm text-primary" }, null, -1)]])) : (O(), sa($i, { key: 3 }, [e.hasSelection ? a.value ? (O(), sa("div", c3e, [(O(!0), sa($i, null, Ei(e.trees, (e) => (O(), sa("section", {
 				key: e.documentId,
 				class: "rounded-box border border-base-300 bg-base-100"
-			}, [fa("div", $G, Me(e.filename), 1), fa("div", eK, [pa(D(bm), {
+			}, [fa("div", $G, Me(e.filename), 1), fa("div", eK, [pa(D(Om), {
 				items: e.root.children ?? [],
 				expanded: i.value[e.documentId] ?? {
 					scoped: [],

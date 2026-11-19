@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [63] - 2026-11-19
+
+### Fixed
+
+- Allow mapping data objects used only by specified, unimplemented dataflows.
+
 ## [62] - 2026-11-19
 
 ### Changed
