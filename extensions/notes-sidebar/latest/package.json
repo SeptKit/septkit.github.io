@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-notes-sidebar",
-	"version": "16",
+	"version": "17",
 	"displayName": "Notes Sidebar",
 	"description": "A sidebar extension for managing notes",
 	"private": true,
