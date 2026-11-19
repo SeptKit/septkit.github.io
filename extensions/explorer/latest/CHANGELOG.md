@@ -7,6 +7,11 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+### Added
+
+- Search the outline by element name; matches show with their parent path and the matched text is highlighted.
+- Expand or collapse the whole outline with one button.
+
 ## [24] - 2026-11-13
 
 ### Changed
