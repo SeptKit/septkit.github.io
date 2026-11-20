@@ -12,6 +12,10 @@ and this project adheres to a simple versioning system, increasing the number by
 - Search the outline by element name; matches show with their parent path and the matched text is highlighted.
 - Expand or collapse the whole outline with one button.
 
+### Changed
+
+- The outline no longer reloads when you edit inside an IED or the data types, so those edits settle sooner on large projects.
+
 ## [24] - 2026-11-13
 
 ### Changed
