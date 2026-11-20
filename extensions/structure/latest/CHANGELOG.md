@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [120] - 2026-11-20
+
+### Changed
+
+- While a template is merged into the project, the progress bar no longer starts over: it only moves forward, says what is being done, and shows how long the current step has taken.
+
 ## [119] - 2026-11-20
 
 ### Added
