@@ -7,6 +7,8 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [29] - 2026-11-20
+
 ### Added
 
 - Search the outline by element name; matches show with their parent path and the matched text is highlighted.
@@ -15,6 +17,10 @@ and this project adheres to a simple versioning system, increasing the number by
 ### Changed
 
 - The outline no longer reloads when you edit inside an IED or the data types, so those edits settle sooner on large projects.
+
+### Fixed
+
+- Explorer search and expand/collapse remain responsive when an SCL document contains many elements.
 
 ## [24] - 2026-11-13
 
