@@ -7,6 +7,13 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [Unreleased]
 
+## [55] - 2026-11-20
+
+### Fixed
+
+- In the review of a template merge, the arrow in front of an open element points down; it points right only while the element is closed.
+- The window to pick a template from the library shows its list, the chosen file and Instantiate laid out as intended, the chosen file name cut to one line.
+
 ## [54] - 2026-11-19
 
 ### Added
