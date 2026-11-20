@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [74] - 2026-11-20
+
+### Changed
+
+- Editing a file no longer reloads the file list of the project tree.
+
 ## [73] - 2026-11-19
 
 ### Fixed
