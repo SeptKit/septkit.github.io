@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [73] - 2026-11-19
+
+### Fixed
+
+- Switching sidebars no longer leaves the previous one running in the background, so edits on large projects settle sooner.
+
 ## [72] - 2026-11-19
 
 ### Changed
