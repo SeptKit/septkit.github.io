@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## Unreleased
 
+## [95] - 2026-11-20
+
+### Added
+
+- Search the Preferred LNode in the placeholder forms by typing
+
 ## [93] - 2026-11-17
 
 ### Added
