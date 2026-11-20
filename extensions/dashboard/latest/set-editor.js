@@ -130420,17 +130420,17 @@ var zE = {
 //#endregion
 //#region src/dashboard/dashboard.composable.ts
 function o_e({ project: e, activeDocumentId: t, evaluate: n = t_e }) {
-	let r = /* @__PURE__ */ vn(), i = /* @__PURE__ */ vn(), a = /* @__PURE__ */ vn(), o = To(() => a.value ?? i.value), s = /* @__PURE__ */ yn(), c = To(() => r_e(s.value)), l = /* @__PURE__ */ vn(!1), u = /* @__PURE__ */ vn(0), d = 0, f = 0, p = !1, m, h = To(() => yE.value ? Oge.value : void 0), { data: g } = mce(e.channelName), _, v = hce({
+	let r = /* @__PURE__ */ vn(), i = /* @__PURE__ */ vn(), a = /* @__PURE__ */ vn(), o = To(() => a.value ?? i.value), s = /* @__PURE__ */ yn(), c = To(() => r_e(s.value)), l = /* @__PURE__ */ vn(!1), u = /* @__PURE__ */ vn(0), d = 0, f = 0, p = 0, m = !1, h, g = To(() => yE.value ? Oge.value : void 0), { data: _ } = mce(e.channelName), v = /* @__PURE__ */ new Set(), y, b = hce({
 		project: e,
 		activeDocumentId: {
 			get value() {
 				return t.value;
 			},
 			subscribe(e) {
-				_ = e;
+				y = e;
 				let n = t.subscribe(e);
 				return () => {
-					_ = void 0, n();
+					y = void 0, n();
 				};
 			}
 		},
@@ -130439,35 +130439,32 @@ function o_e({ project: e, activeDocumentId: t, evaluate: n = t_e }) {
 			f += 1, r.value = void 0, i.value = void 0, bE(), u.value += 1;
 		}
 	});
-	return Lr(g, (e) => {
+	Lr(_, (e) => {
 		if (e?.type === "resync") {
-			yE.value ? u.value += 1 : _?.(t.value);
+			v.clear(), g.value ? S(g.value) : y?.(t.value);
 			return;
 		}
 		if (!(!e || !("documentId" in e) || e.documentId !== t.value)) switch (e.type) {
 			case "commit":
-				yE.value ? u.value += 1 : _?.(t.value);
+				if (!C(e.changeId)) return;
+				yE.value ? u.value += 1 : y?.(t.value);
 				break;
 			case "document-imported":
 			case "init-empty-document":
 			case "document-removed":
-				_?.(t.value);
+				y?.(t.value);
+				break;
+			case "document-updated":
+				g.value && x(g.value);
 				break;
 		}
-	}, { flush: "sync" }), Lr(h, async (t) => {
-		if (!t) return;
-		let n = ++f;
-		try {
-			let i = await e.getDocument(t.documentId);
-			!p && n === f && (r.value = i ? `${i.name}${i.extension}` : void 0);
-		} catch (e) {
-			!p && n === f && (console.error("[Dashboard] Could not read file metadata", e), i.value = "Could not read file metadata.");
-		}
-	}, { flush: "sync" }), Lr([h, u], ([e]) => {
+	}, { flush: "sync" }), Lr(g, (e) => {
+		e && x(e);
+	}, { flush: "sync" }), Lr([g, u], ([e]) => {
 		let r = ++d;
-		if (clearTimeout(m), s.value = void 0, a.value = void 0, l.value = !!e, !e || p) return;
-		let i = () => !p && r === d && t.value === e.documentId && h.value === e;
-		m = setTimeout(async () => {
+		if (clearTimeout(h), s.value = void 0, a.value = void 0, l.value = !!e, !e || m) return;
+		let i = () => !m && r === d && t.value === e.documentId && g.value === e;
+		h = setTimeout(async () => {
 			try {
 				let t = await n(e);
 				i() && (s.value = t);
@@ -130481,16 +130478,43 @@ function o_e({ project: e, activeDocumentId: t, evaluate: n = t_e }) {
 		flush: "sync",
 		immediate: !0
 	}), Ve(() => {
-		p = !0, d += 1, f += 1, clearTimeout(m), s.value = void 0, l.value = !1;
-	}), {
-		document: h,
+		m = !0, d += 1, f += 1, clearTimeout(h), s.value = void 0, l.value = !1;
+	});
+	async function x(t) {
+		let n = ++f;
+		try {
+			let a = await e.getDocument(t.documentId);
+			!m && n === f && (r.value = a ? `${a.name}${a.extension}` : void 0, i.value = void 0);
+		} catch (e) {
+			!m && n === f && (console.error("[Dashboard] Could not read file metadata", e), i.value = "Could not read file metadata.");
+		}
+	}
+	async function S(n) {
+		let r = ++p, i = () => !m && r === p && g.value === n;
+		try {
+			let { ready: r } = await e.getDocumentStatus(n.documentId);
+			if (!i()) return;
+			if (!r) {
+				y?.(t.value);
+				return;
+			}
+			x(n), u.value += 1;
+		} catch (e) {
+			i() && (console.error("[Dashboard] Could not read the file again", e), d += 1, clearTimeout(h), l.value = !1, s.value = void 0, a.value = "Could not read the file again after missed changes.");
+		}
+	}
+	function C(e) {
+		return e === void 0 ? !0 : v.has(e) ? !1 : (v.add(e), v.size > 256 && v.delete(v.values().next().value), !0);
+	}
+	return {
+		document: g,
 		filename: r,
 		error: o,
 		result: s,
 		phases: c,
 		evaluating: l,
 		revision: u,
-		activeDocumentId: v.activeDocumentId
+		activeDocumentId: b.activeDocumentId
 	};
 }
 //#endregion

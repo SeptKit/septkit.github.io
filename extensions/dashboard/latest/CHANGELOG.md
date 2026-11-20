@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [18] - 2026-11-19
+
+### Changed
+
+- After missed changes, the dashboard shows the file as it is now, renamed or removed included, and checks it once per edit.
+
 ## [12] - 2026-11-03
 
 ### Changed
