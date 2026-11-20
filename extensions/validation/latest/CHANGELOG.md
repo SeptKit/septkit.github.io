@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [13] - 2026-11-19
+
+### Changed
+
+- Validation of large files is much faster; line numbers match the XML viewer.
+
 ## [4] - 2026-07-20
 
 ### Fixed

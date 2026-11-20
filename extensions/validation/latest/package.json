@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-validation",
-	"version": "12",
+	"version": "13",
 	"displayName": "Validation",
 	"description": "Validates the active SCL file against an uploaded XSD schema",
 	"private": true,
@@ -37,8 +37,6 @@
 		"//====== LINK ======//": "",
 		"link:ui": "rm -rf ./node_modules/@septkit/ui && ln -s ../../../../ui ./node_modules/@septkit/ui",
 		"unlink:ui": "rm -rf ./node_modules/@septkit/ui && pnpm install",
-		"link:fileio": "rm -rf ./node_modules/@septkit/fileio && ln -s ../../../../fileio ./node_modules/@septkit/fileio",
-		"unlink:fileio": "rm -rf ./node_modules/@septkit/fileio && pnpm install",
 		"unlink:all": "rm -rf ./node_modules/@septkit && pnpm install",
 		"//====== SCRIPTS ======//": "",
 		"merge-xsd": "node --experimental-strip-types scripts/merge-xsd.ts",
@@ -47,7 +45,6 @@
 	},
 	"dependencies": {
 		"@dialecte/core": "catalog:",
-		"@septkit/fileio": "catalog:",
 		"@septkit/shell-lib": "catalog:",
 		"@septkit/ui": "catalog:",
 		"@vueuse/core": "^14.2.1",
@@ -60,6 +57,7 @@
 		"vue": "^3.5.32"
 	},
 	"devDependencies": {
+		"@dialecte/scl": "catalog:",
 		"@prettier/plugin-oxc": "^0.0.4",
 		"@tailwindcss/vite": "4.2.2",
 		"@testing-library/vue": "^8.1.0",
