@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [47] - 2026-11-19
+
+### Changed
+
+- Labels and values, with the details of each label, load faster on large projects, and cleaning up a label language is faster.
+
 ## [46] - 2026-11-19
 
 ### Changed
