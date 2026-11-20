@@ -1,7 +1,7 @@
 {
 	"name": "@septkit/ext-structure",
 	"displayName": "Structure",
-	"version": "118",
+	"version": "119",
 	"description": "SeptKit extension to manage structures in SCL",
 	"private": true,
 	"type": "module",

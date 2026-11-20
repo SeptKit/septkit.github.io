@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [119] - 2026-11-20
+
+### Added
+
+- In a template update, an element the template puts under another parent shows where it goes, marked **moved**. Its detail says where it comes from, **Keep in place** leaves it where it is, and Confirm and Done count the moves.
+
 ## [118] - 2026-11-20
 
 ### Added
