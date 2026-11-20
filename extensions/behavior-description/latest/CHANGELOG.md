@@ -7,6 +7,18 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [29] - 2026-11-20
+
+### Added
+
+- Search BehaviorDescriptions by name in the BehaviorDescription selector
+- Open a referenced BehaviorDescription by clicking its name in the References section
+
+### Changed
+
+- Add Reference dialog picks targets in the SCL Explorer with a name search; XPath and scope controls removed
+- BehaviorDescriptions that are already referenced are shown with a hint but cannot be selected
+
 ## [26] - 2026-11-16
 
 ### Changed
