@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [121] - 2026-11-20
+
+### Changed
+
+- Extract as SSD, ASD and FSD is faster on large projects.
+
 ## [120] - 2026-11-20
 
 ### Changed
