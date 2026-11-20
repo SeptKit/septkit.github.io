@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [Unreleased]
 
+## [57] - 2026-11-20
+
+### Changed
+
+- While an IED is placed or updated from an ISD, the progress bar no longer starts over: it only moves forward, says what is being done, and shows how long the current step has taken.
+
 ## [56] - 2026-11-20
 
 ### Added
