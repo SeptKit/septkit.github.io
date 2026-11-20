@@ -1,4 +1,4 @@
-import { A as e, C as t, D as n, E as r, F as i, G as a, H as o, I as s, J as c, K as l, L as u, Lt as d, M as f, O as p, P as m, S as h, T as g, Tt as _, U as v, V as y, W as b, X as x, Y as ee, Z as S, _ as C, b as w, c as T, d as te, f as ne, g as re, h as E, ht as ie, it as D, j as ae, k as oe, l as O, m as se, o as k, p as ce, q as le, s as ue, t as de, u as fe, v as A, vt as pe, w as j, x as me, y as M, z as he } from "./main-BI7TSSAJ.js";
+import { A as e, B as t, C as n, D as r, E as i, F as a, G as o, H as s, I as c, It as l, J as u, K as d, N as f, O as p, P as m, R as h, S as g, T as _, U as v, V as y, W as b, X as x, Y as S, _ as C, _t as w, a as T, b as ee, c as te, d as ne, f as re, g as ie, h as ae, j as E, k as D, l as oe, m as O, mt as se, n as k, o as ce, p as le, q as ue, rt as de, s as A, u as fe, v as pe, w as j, wt as me, x as M, y as he } from "./main-CijI5DJu.js";
 //#region src/nsd/icons/close-icon.vue
 var ge = {}, _e = {
 	viewBox: "0 0 64 64",
@@ -6,27 +6,27 @@ var ge = {}, _e = {
 	focusable: "false"
 };
 function ve(e, t) {
-	return _(), pe("svg", _e, [...t[0] ||= [ie("path", {
+	return me(), w("svg", _e, [...t[0] ||= [se("path", {
 		fill: "currentColor",
 		d: "M 16 14 C 15.488 14 14.976938 14.194937 14.585938 14.585938 C 13.804937 15.366937 13.804937 16.633063 14.585938 17.414062 L 29.171875 32 L 14.585938 46.585938 C 13.804938 47.366938 13.804937 48.633063 14.585938 49.414062 C 14.976937 49.805062 15.488 50 16 50 C 16.512 50 17.023062 49.805062 17.414062 49.414062 L 32 34.828125 L 46.585938 49.414062 C 47.366938 50.195063 48.633063 50.195062 49.414062 49.414062 C 50.195063 48.633062 50.195062 47.366937 49.414062 46.585938 L 34.828125 32 L 49.414062 17.414062 C 50.195063 16.633063 50.195062 15.366938 49.414062 14.585938 C 48.633062 13.804938 47.366937 13.804938 46.585938 14.585938 L 32 29.171875 L 17.414062 14.585938 C 17.023062 14.194938 16.512 14 16 14 z"
 	}, null, -1)]]);
 }
-var ye = /* @__PURE__ */ D(ge, [["render", ve]]), be = {}, xe = {
+var ye = /* @__PURE__ */ de(ge, [["render", ve]]), be = {}, xe = {
 	viewBox: "0 -960 960 960",
 	"aria-hidden": "true",
 	focusable: "false"
 };
 function Se(e, t) {
-	return _(), pe("svg", xe, [...t[0] ||= [ie("path", {
+	return me(), w("svg", xe, [...t[0] ||= [se("path", {
 		fill: "currentColor",
 		d: "M280-120q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM360-280h80v-360h-80v360Zm160 0h80v-360h-80v360ZM280-720v520-520Z"
 	}, null, -1)]]);
 }
-var Ce = /* @__PURE__ */ D(be, [["render", Se]]);
+var Ce = /* @__PURE__ */ de(be, [["render", Se]]);
 //#endregion
 //#region node_modules/.pnpm/@dialecte+core@0.12.1/node_modules/@dialecte/core/dist/qname-definition-C6GUFWL8.js
 function we(e) {
-	let { dialecteConfig: t, record: n } = e, r = E({
+	let { dialecteConfig: t, record: n } = e, r = O({
 		dialecteConfig: t,
 		record: n
 	});
@@ -36,78 +36,78 @@ function Te(e) {
 	let { definition: t, attribute: n } = e, r = t.attributes.details[n.name];
 	if (r !== void 0 && r.namespace?.uri === n.namespace?.uri) return r.type;
 }
-function Ee(t) {
-	let { dialecteConfig: n, record: r, lexicalOnly: i } = t;
-	if (!e({
-		dialecteConfig: n,
-		tagName: r.tagName
-	})) return r;
-	let a = we({
-		dialecteConfig: n,
-		record: r
+function Ee(e) {
+	let { dialecteConfig: t, record: n, lexicalOnly: r } = e;
+	if (!D({
+		dialecteConfig: t,
+		tagName: n.tagName
+	})) return n;
+	let i = we({
+		dialecteConfig: t,
+		record: n
 	});
-	if (a === void 0) return r;
-	let o = t.namespaceOf(), s = a.textContent?.type, c = s !== void 0 && r.value !== "" ? te({
-		dialecteConfig: n,
-		type: s,
-		value: r.value,
-		namespaceOf: o,
-		lexicalOnly: i
-	}) : r.value, l = r.attributes.map((e) => {
-		let t = Te({
-			definition: a,
+	if (i === void 0) return n;
+	let a = e.namespaceOf(), o = i.textContent?.type, s = o !== void 0 && n.value !== "" ? fe({
+		dialecteConfig: t,
+		type: o,
+		value: n.value,
+		namespaceOf: a,
+		lexicalOnly: r
+	}) : n.value, c = n.attributes.map((e) => {
+		let n = Te({
+			definition: i,
 			attribute: e
 		});
-		if (t === void 0 || typeof e.value != "string") return e;
-		let r = te({
-			dialecteConfig: n,
-			type: t,
+		if (n === void 0 || typeof e.value != "string") return e;
+		let o = fe({
+			dialecteConfig: t,
+			type: n,
 			value: e.value,
-			namespaceOf: o,
-			lexicalOnly: i
+			namespaceOf: a,
+			lexicalOnly: r
 		});
-		return r === e.value ? e : {
+		return o === e.value ? e : {
 			...e,
-			value: r
+			value: o
 		};
 	});
 	return {
-		...r,
-		attributes: l,
-		value: c
+		...n,
+		attributes: c,
+		value: s
 	};
 }
-function De(t) {
-	let { dialecteConfig: n, record: r, authored: i } = t;
-	if (!e({
-		dialecteConfig: n,
-		tagName: r.tagName
+function De(e) {
+	let { dialecteConfig: t, record: n, authored: r } = e;
+	if (!D({
+		dialecteConfig: t,
+		tagName: n.tagName
 	})) return;
-	let a = we({
-		dialecteConfig: n,
-		record: r
+	let i = we({
+		dialecteConfig: t,
+		record: n
 	});
-	if (a === void 0) return;
-	let o = a.textContent?.type;
-	o !== void 0 && (i?.text ?? !0) && se({
-		dialecteConfig: n,
-		type: o,
-		value: r.value,
+	if (i === void 0) return;
+	let a = i.textContent?.type;
+	a !== void 0 && (r?.text ?? !0) && le({
+		dialecteConfig: t,
+		type: a,
+		value: n.value,
 		what: "text",
-		tagName: r.tagName
+		tagName: n.tagName
 	});
-	for (let e of r.attributes) {
-		if (i !== void 0 && !i.attributes.has(e.name)) continue;
-		let t = Te({
-			definition: a,
+	for (let e of n.attributes) {
+		if (r !== void 0 && !r.attributes.has(e.name)) continue;
+		let a = Te({
+			definition: i,
 			attribute: e
 		});
-		t !== void 0 && typeof e.value == "string" && se({
-			dialecteConfig: n,
-			type: t,
+		a !== void 0 && typeof e.value == "string" && le({
+			dialecteConfig: t,
+			type: a,
 			value: e.value,
 			what: `value of '${e.name}'`,
-			tagName: r.tagName
+			tagName: n.tagName
 		});
 	}
 }
@@ -116,58 +116,58 @@ function Oe(e, t) {
 }
 function ke(e) {
 	let { attribute: t, tagName: n } = e, { name: r, namespace: i } = t;
-	(r === "xmlns" || r.startsWith("xmlns:") || typeof i == "object" && (i?.uri === "http://www.w3.org/2000/xmlns/" || i?.prefix === "xmlns")) && m("NAMESPACE_DECLARATION_NOT_ALLOWED", {
+	(r === "xmlns" || r.startsWith("xmlns:") || typeof i == "object" && (i?.uri === "http://www.w3.org/2000/xmlns/" || i?.prefix === "xmlns")) && f("NAMESPACE_DECLARATION_NOT_ALLOWED", {
 		detail: `Attribute '${r}' on '${n}' is a namespace declaration - remove it; give a name its namespace in full: { name, namespace: { prefix, uri } }.`,
 		ref: { tagName: n }
 	});
 }
 function Ae(e) {
-	let { dialecteConfig: t, attribute: r, tagName: i, authored: a } = e;
+	let { dialecteConfig: t, attribute: n, tagName: r, authored: a } = e;
 	ke({
-		attribute: r,
-		tagName: i
+		attribute: n,
+		tagName: r
 	}), a && je({
-		attribute: r,
-		tagName: i
+		attribute: n,
+		tagName: r
 	});
 	let o = Me({
 		dialecteConfig: t,
-		attribute: r,
-		tagName: i
+		attribute: n,
+		tagName: r
 	});
 	return o && o.prefix ? {
-		name: `${o.prefix}:${n(r.name)}`,
+		name: `${o.prefix}:${i(n.name)}`,
 		namespace: o
 	} : {
-		name: r.name,
+		name: n.name,
 		namespace: o
 	};
 }
 function je(e) {
-	let { attribute: t, tagName: r } = e, { name: i, namespace: a } = t;
-	i.includes(":") && (typeof a != "object" || a?.prefix !== i.slice(0, i.indexOf(":"))) && m("PREFIXED_ATTRIBUTE_NAME", {
-		detail: `Attribute '${i}' on '${r}' is prefixed — pass a local name plus its namespace instead: { name: '${n(i)}', namespace }.`,
-		ref: { tagName: r }
+	let { attribute: t, tagName: n } = e, { name: r, namespace: a } = t;
+	r.includes(":") && (typeof a != "object" || a?.prefix !== r.slice(0, r.indexOf(":"))) && f("PREFIXED_ATTRIBUTE_NAME", {
+		detail: `Attribute '${r}' on '${n}' is prefixed — pass a local name plus its namespace instead: { name: '${i(r)}', namespace }.`,
+		ref: { tagName: n }
 	});
 }
-function Me(e) {
-	let { dialecteConfig: t, attribute: n, tagName: r } = e, i;
-	typeof n.namespace == "string" ? (i = c(t, n.namespace), i || m("UNKNOWN_NAMESPACE_PREFIX", {
-		detail: `Unknown namespace '${n.namespace}' on attribute '${n.name}' — use a registered namespace key or pass a full { name, namespace: { prefix, uri } }.`,
-		ref: { tagName: r }
-	})) : i = n.namespace;
-	let a = n.name.indexOf(":");
-	if (!i && a !== -1) {
-		let e = n.name.slice(0, a);
-		i = ae(e) ?? C(t, e), i || m("UNKNOWN_NAMESPACE_PREFIX", {
-			detail: `Unknown namespace prefix '${e}' on attribute '${n.name}' — pass it explicitly as { name, namespace: { prefix, uri } }.`,
-			ref: { tagName: r }
+function Me(t) {
+	let { dialecteConfig: n, attribute: r, tagName: i } = t, a;
+	typeof r.namespace == "string" ? (a = ue(n, r.namespace), a || f("UNKNOWN_NAMESPACE_PREFIX", {
+		detail: `Unknown namespace '${r.namespace}' on attribute '${r.name}' — use a registered namespace key or pass a full { name, namespace: { prefix, uri } }.`,
+		ref: { tagName: i }
+	})) : a = r.namespace;
+	let o = r.name.indexOf(":");
+	if (!a && o !== -1) {
+		let t = r.name.slice(0, o);
+		a = e(t) ?? ie(n, t), a || f("UNKNOWN_NAMESPACE_PREFIX", {
+			detail: `Unknown namespace prefix '${t}' on attribute '${r.name}' — pass it explicitly as { name, namespace: { prefix, uri } }.`,
+			ref: { tagName: i }
 		});
 	}
-	return i && i.prefix ? Ne({
-		dialecteConfig: t,
-		uri: i.uri
-	}) ?? i : i;
+	return a && a.prefix ? Ne({
+		dialecteConfig: n,
+		uri: a.uri
+	}) ?? a : a;
 }
 function Ne(e) {
 	let { dialecteConfig: t, uri: n } = e;
@@ -244,23 +244,23 @@ function Re(e) {
 	};
 }
 function P(e) {
-	return g(e, { detail: "The record or ref is undefined" }), {
+	return j(e, { detail: "The record or ref is undefined" }), {
 		id: e.id,
 		tagName: e.tagName
 	};
 }
 function ze(e) {
-	let { dialecteConfig: t, hooks: n, record: r } = e, { id: i, tagName: a, attributes: o, namespace: s, value: c } = r, l = i ?? crypto.randomUUID(), u = F({
+	let { dialecteConfig: t, hooks: n, record: r } = e, { id: i, tagName: a, attributes: o, namespace: s, value: c } = r, l = i ?? crypto.randomUUID(), d = F({
 		dialecteConfig: t,
 		attributes: o ? Le({
 			tagName: a,
 			attributes: o,
 			dialecteConfig: t
 		}) : []
-	}), d = {
+	}), f = {
 		id: l,
 		tagName: a,
-		attributes: u,
+		attributes: d,
 		namespace: s ?? {
 			prefix: "prefixNeededForNotSupportedNamespace",
 			uri: "uriNeededForNotSupportedNamespace"
@@ -268,96 +268,96 @@ function ze(e) {
 		value: c ?? "",
 		parent: r.parent ?? null,
 		children: r.children ?? []
-	}, f = Object.values(t.namespaces).map(({ uri: e }) => e), p = s?.uri != null && !f.includes(s.uri);
-	if (!t.elements.includes(a) || p) return d;
-	let m = E({
+	}, p = Object.values(t.namespaces).map(({ uri: e }) => e), m = s?.uri != null && !p.includes(s.uri);
+	if (!t.elements.includes(a) || m) return f;
+	let h = O({
 		dialecteConfig: t,
 		record: {
-			...d,
+			...f,
 			namespace: s
 		}
-	}), h = m?.attributes.sequence ?? [], g = w({
-		wildcard: m?.attributes.any,
+	}), g = h?.attributes.sequence ?? [], _ = he({
+		wildcard: h?.attributes.any,
 		namespaceUri: ""
-	}), _ = u.filter((e) => {
-		let t = h.includes(e.name), n = "namespace" in e && e.namespace != null;
-		if (!t && !n && !g) return !1;
+	}), v = d.filter((e) => {
+		let t = g.includes(e.name), n = "namespace" in e && e.namespace != null;
+		if (!t && !n && !_) return !1;
 		if (!t) return !0;
 		if (e.value === void 0 || e.value === null) return !1;
 		if (e.value !== "") return !0;
-		let r = m?.attributes.details[e.name];
+		let r = h?.attributes.details[e.name];
 		return r?.default !== void 0 || r?.fixed !== void 0;
-	}), v = t.namespaces.default.uri, y = _.map((e) => {
-		if ("namespace" in e && e.namespace?.uri === v && !e.namespace.prefix) {
+	}), y = t.namespaces.default.uri, b = v.map((e) => {
+		if ("namespace" in e && e.namespace?.uri === y && !e.namespace.prefix) {
 			let { namespace: t, ...n } = e;
 			return n;
 		}
 		return e;
-	}), b = t.definition[a], x = [m?.namespace ?? b.namespace, ...Object.values(b.declarations ?? {}).map((e) => e.namespace)], S = x.find((e) => e.uri === s?.uri), C = {
-		...d,
-		namespace: S ?? s ?? x[0],
-		attributes: ee(y, h)
+	}), x = t.definition[a], S = [h?.namespace ?? x.namespace, ...Object.values(x.declarations ?? {}).map((e) => e.namespace)], C = S.find((e) => e.uri === s?.uri), w = {
+		...f,
+		namespace: C ?? s ?? S[0],
+		attributes: u(b, g)
 	};
-	if (C = Ee({
+	if (w = Ee({
 		dialecteConfig: t,
-		record: C,
+		record: w,
 		namespaceOf: function() {
-			return e.namespaceOf ?? T({ dialecteConfig: t });
+			return e.namespaceOf ?? A({ dialecteConfig: t });
 		},
 		lexicalOnly: e.namespaceOf !== void 0
 	}), n?.afterStandardizedRecord) {
-		C = n.afterStandardizedRecord({ record: C });
-		for (let e of C.attributes) ke({
+		w = n.afterStandardizedRecord({ record: w });
+		for (let e of w.attributes) ke({
 			attribute: e,
 			tagName: a
 		});
-		C = Ee({
+		w = Ee({
 			dialecteConfig: t,
 			record: {
-				...C,
-				attributes: ee(F({
+				...w,
+				attributes: u(F({
 					dialecteConfig: t,
-					attributes: C.attributes
-				}), h)
+					attributes: w.attributes
+				}), g)
 			},
 			namespaceOf: function() {
-				return T({ dialecteConfig: t });
+				return A({ dialecteConfig: t });
 			},
 			lexicalOnly: !1
 		});
 	}
-	return C;
+	return w;
 }
 function F(e) {
-	let { dialecteConfig: n, attributes: r } = e;
-	return t({
-		dialecteConfig: n,
-		attributes: r,
-		namespaceOf: T({ dialecteConfig: n })
+	let { dialecteConfig: t, attributes: n } = e;
+	return g({
+		dialecteConfig: t,
+		attributes: n,
+		namespaceOf: A({ dialecteConfig: t })
 	});
 }
 function Be(e) {
-	let { dialecteConfig: t, record: n, attributes: r } = e;
-	for (let e of r) {
-		let r = j({
+	let { dialecteConfig: t, record: r, attributes: i } = e;
+	for (let e of i) {
+		let i = n({
 			dialecteConfig: t,
-			record: n,
+			record: r,
 			attributeName: e.name
 		});
-		r.fixed !== void 0 && e.value !== r.fixed && m("FIXED_VALUE_VIOLATION", {
-			detail: `Attribute '${e.name}' on '${n.tagName}' is fixed to '${r.fixed}' but was set to '${String(e.value)}'.`,
-			ref: { tagName: n.tagName }
+		i.fixed !== void 0 && e.value !== i.fixed && f("FIXED_VALUE_VIOLATION", {
+			detail: `Attribute '${e.name}' on '${r.tagName}' is fixed to '${i.fixed}' but was set to '${String(e.value)}'.`,
+			ref: { tagName: r.tagName }
 		});
 	}
 }
 function Ve(e) {
 	let { dialecteConfig: t, record: n } = e, r = n.attributes.find(ne);
 	if (r === void 0) {
-		E({
+		O({
 			dialecteConfig: t,
 			record: n
-		})?.abstractType && m("XSI_TYPE_REQUIRED", {
-			detail: `'${n.tagName}' is declared with an abstract type: name one of its variants with xsi:type (${b({
+		})?.abstractType && f("XSI_TYPE_REQUIRED", {
+			detail: `'${n.tagName}' is declared with an abstract type: name one of its variants with xsi:type (${v({
 				dialecteConfig: t,
 				record: n
 			}).join(", ")}).`,
@@ -365,24 +365,24 @@ function Ve(e) {
 		});
 		return;
 	}
-	if (E({
+	if (O({
 		dialecteConfig: t,
 		record: n
 	}) === void 0) return;
-	let i = fe({
+	let i = oe({
 		dialecteConfig: t,
 		record: n
 	});
-	if (i !== void 0 && ce({
+	if (i !== void 0 && re({
 		dialecteConfig: t,
 		record: n,
 		typeName: i.clark
 	})) return;
-	let a = b({
+	let a = v({
 		dialecteConfig: t,
 		record: n
 	});
-	m("XSI_TYPE_NOT_ADMITTED", {
+	f("XSI_TYPE_NOT_ADMITTED", {
 		detail: `'${n.tagName}' may not name the type '${String(r.value)}' with xsi:type; it admits ${a.join(", ") || "none"}.`,
 		ref: { tagName: n.tagName },
 		meta: {
@@ -392,11 +392,11 @@ function Ve(e) {
 	});
 }
 function He(e) {
-	let { dialecteConfig: t, merged: n, record: r } = e, i = new Set(r.attributes.map((e) => e.name)), a = n.filter((e) => e.value !== "" && !i.has(e.name)).map((e) => e.name), o = E({
+	let { dialecteConfig: t, merged: n, record: r } = e, i = new Set(r.attributes.map((e) => e.name)), a = n.filter((e) => e.value !== "" && !i.has(e.name)).map((e) => e.name), o = O({
 		dialecteConfig: t,
 		record: r
 	}), s = new Set(o?.children.sequence ?? []), c = o?.children.any ? [] : [...new Set(r.children.map((e) => e.tagName))].filter((e) => !s.has(e));
-	(a.length !== 0 || c.length !== 0) && m("XSI_TYPE_CHANGE_LEAVES_CONTENT", {
+	(a.length !== 0 || c.length !== 0) && f("XSI_TYPE_CHANGE_LEAVES_CONTENT", {
 		detail: `'${r.tagName}' now names a type that does not admit ` + [a.length > 0 ? `the attributes ${a.join(", ")} (clear them in the same update)` : "", c.length > 0 ? `the children ${c.join(", ")} (delete them first)` : ""].filter(Boolean).join(" nor ") + ".",
 		ref: { tagName: r.tagName },
 		meta: {
@@ -408,7 +408,7 @@ function He(e) {
 function Ue(e, t, n, r) {
 	if (!e || !t) return;
 	let i = Object.keys(t).filter((t) => t in e);
-	g(i.length === 0, {
+	j(i.length === 0, {
 		key: "EXTENSION_METHOD_COLLISION",
 		detail: `Module "${n}" has conflicting ${r} method(s): ${i.map((e) => `"${e}"`).join(", ")}`
 	});
@@ -428,42 +428,42 @@ function We(e) {
 	};
 }
 function Ge(e) {
-	let { record: t, dialecteConfig: n, name: r, namespace: i, fullObject: a, defaults: o = "optional" } = e, s = Ke({
-		dialecteConfig: n,
-		name: r,
-		namespace: i
-	}), c = t.attributes.find((e) => e.name === s);
-	if (c) return a ? c : c.value;
-	let l = he({
-		dialecteConfig: n,
+	let { record: t, dialecteConfig: r, name: i, namespace: a, fullObject: o, defaults: s = "optional" } = e, c = Ke({
+		dialecteConfig: r,
+		name: i,
+		namespace: a
+	}), l = t.attributes.find((e) => e.name === c);
+	if (l) return o ? l : l.value;
+	let u = h({
+		dialecteConfig: r,
 		record: t,
-		attributeName: s,
-		defaults: o
+		attributeName: c,
+		defaults: s
 	});
-	if (!a) return l ?? "";
-	if (l === void 0) return;
-	let { namespace: u } = j({
-		dialecteConfig: n,
+	if (!o) return u ?? "";
+	if (u === void 0) return;
+	let { namespace: d } = n({
+		dialecteConfig: r,
 		record: t,
-		attributeName: s
+		attributeName: c
 	});
 	return {
-		name: s,
-		value: l,
-		namespace: u
+		name: c,
+		value: u,
+		namespace: d
 	};
 }
 function Ke(e) {
 	let { dialecteConfig: t, name: n, namespace: r } = e;
 	if (r === void 0) return n;
-	let i = S(t, r);
+	let i = x(t, r);
 	return i ? `${i}:${n}` : n;
 }
 function qe(e) {
 	return e.fullObject ? Ye(e) : Je(e);
 }
 function Je(e) {
-	let { record: t, dialecteConfig: n, namespace: r, defaults: i = "optional" } = e, a = r === void 0 ? void 0 : S(n, r), o = {};
+	let { record: t, dialecteConfig: n, namespace: r, defaults: i = "optional" } = e, a = r === void 0 ? void 0 : x(n, r), o = {};
 	for (let e of t.attributes) {
 		let t = I({
 			name: e.name,
@@ -482,7 +482,7 @@ function Je(e) {
 			targetPrefix: a
 		});
 		if (r === void 0 || r in o) continue;
-		let s = he({
+		let s = h({
 			dialecteConfig: n,
 			record: t,
 			attributeName: e,
@@ -493,37 +493,37 @@ function Je(e) {
 	return o;
 }
 function Ye(e) {
-	let { record: t, dialecteConfig: n, defaults: r = "optional" } = e, i = [...t.attributes];
-	if (r === "none") return i;
-	let a = new Set(i.map((e) => e.name));
+	let { record: t, dialecteConfig: r, defaults: i = "optional" } = e, a = [...t.attributes];
+	if (i === "none") return a;
+	let o = new Set(a.map((e) => e.name));
 	for (let e of Xe({
-		dialecteConfig: n,
+		dialecteConfig: r,
 		record: t
 	})) {
-		if (a.has(e)) continue;
-		let o = he({
-			dialecteConfig: n,
+		if (o.has(e)) continue;
+		let s = h({
+			dialecteConfig: r,
 			record: t,
 			attributeName: e,
-			defaults: r
+			defaults: i
 		});
-		if (o === void 0) continue;
-		let { namespace: s } = j({
-			dialecteConfig: n,
+		if (s === void 0) continue;
+		let { namespace: c } = n({
+			dialecteConfig: r,
 			record: t,
 			attributeName: e
 		});
-		i.push({
+		a.push({
 			name: e,
-			value: o,
-			namespace: s
+			value: s,
+			namespace: c
 		});
 	}
-	return i;
+	return a;
 }
 function Xe(e) {
 	let { dialecteConfig: t, record: n } = e;
-	return E({
+	return O({
 		dialecteConfig: t,
 		record: n
 	})?.attributes.sequence ?? [];
@@ -563,7 +563,7 @@ var Ze = Object.create, Qe = Object.defineProperty, $e = Object.getOwnPropertyDe
 }) : n, e)), ot = Symbol.for("@dialecte/core/storage-kinds/v12");
 function st(e) {
 	let { project: t, type: n } = e, r = globalThis[ot]?.get(n);
-	return r || m("PROJECT_STORAGE_NOT_REGISTERED", {
+	return r || f("PROJECT_STORAGE_NOT_REGISTERED", {
 		detail: `Project "${t}" asks for storage of type "${n}", but no kind is registered for it in this realm: import the entry that registers it once in the app's entry (a test runner's setup file for a test on it). Imported already? Then a copy of @dialecte/core of another storage version registered it (a package bringing its own core): align the core versions`,
 		meta: {
 			project: t,
@@ -637,21 +637,21 @@ var ft = {
 }, pt = "not well-formed UTF-16 (a lone surrogate)", mt = `text that is ${pt}`, ht = `a key that is ${pt}`;
 function gt(e) {
 	let { documentId: t } = e;
-	m("STORE_DUPLICATE_ID", {
+	f("STORE_DUPLICATE_ID", {
 		detail: `Document "${t}" is already registered`,
 		meta: { documentId: t }
 	});
 }
 function _t(e) {
 	let { path: t, reason: n } = e;
-	m("DOCUMENT_PATH_INVALID", {
+	f("DOCUMENT_PATH_INVALID", {
 		detail: `The document path ${JSON.stringify(t)} is refused: ${n}`,
 		meta: { path: t }
 	});
 }
 function vt(e) {
 	let { documentId: t, path: n, takenBy: r } = e;
-	m("DOCUMENT_PATH_TAKEN", {
+	f("DOCUMENT_PATH_TAKEN", {
 		detail: `Document "${t}" cannot take the path "${n}": document "${r}" holds that place`,
 		meta: {
 			documentId: t,
@@ -662,14 +662,14 @@ function vt(e) {
 }
 function yt(e) {
 	let { documentId: t, what: n } = e;
-	m("DOCUMENT_NOT_REGISTERED", {
+	f("DOCUMENT_NOT_REGISTERED", {
 		detail: `Cannot write ${n} to document "${t}": it is not registered`,
 		meta: { documentId: t }
 	});
 }
 function bt(e) {
 	let { documentId: t, recordId: n } = e;
-	m("STORE_RECORD_NOT_FOUND", {
+	f("STORE_RECORD_NOT_FOUND", {
 		detail: `Record "${n}" is not in document "${t}": nothing to update`,
 		meta: {
 			documentId: t,
@@ -679,7 +679,7 @@ function bt(e) {
 }
 function xt(e) {
 	let { documentId: t, held: n, repeated: r, cause: i } = e;
-	m("STORE_DUPLICATE_ID", {
+	f("STORE_DUPLICATE_ID", {
 		detail: `Document "${t}" refuses ids to create - ${[n.length > 0 ? `already holds: ${z(n).join(", ")}` : void 0, r.length > 0 ? `given twice: ${z(r).join(", ")}` : void 0].filter((e) => e !== void 0).join("; ")}`,
 		meta: {
 			documentId: t,
@@ -693,7 +693,7 @@ function z(e) {
 }
 function St(e) {
 	let { storeName: t, connections: n } = e;
-	m("PROJECT_OPEN_ELSEWHERE", {
+	f("PROJECT_OPEN_ELSEWHERE", {
 		detail: `Project "${t}" cannot be destroyed while another connection has it open: close that one first`,
 		meta: {
 			project: t,
@@ -703,7 +703,7 @@ function St(e) {
 }
 function Ct(e) {
 	let { storeName: t } = e;
-	m("STORE_CLOSED", {
+	f("STORE_CLOSED", {
 		detail: `Store "${t}" is closed: open it again before using it`,
 		meta: { storeName: t }
 	});
@@ -724,7 +724,7 @@ function Et() {
 }
 function Dt(e) {
 	let { field: t, value: n } = e;
-	n ?? m("STORE_VALUE_NOT_JSON", { detail: `The ${t} is missing` }), typeof n != "string" && m("STORE_VALUE_NOT_JSON", { detail: `The ${t} is not text` }), wt({ value: { [t]: n } });
+	n ?? f("STORE_VALUE_NOT_JSON", { detail: `The ${t} is missing` }), typeof n != "string" && f("STORE_VALUE_NOT_JSON", { detail: `The ${t} is not text` }), wt({ value: { [t]: n } });
 }
 function Ot(e) {
 	return B({ walk: function() {
@@ -741,7 +741,7 @@ function B(e) {
 		return e.walk();
 	} catch (e) {
 		let t = e instanceof Error ? e : void 0;
-		m("STORE_VALUE_NOT_JSON", {
+		f("STORE_VALUE_NOT_JSON", {
 			detail: t?.message ?? String(e),
 			cause: t
 		});
@@ -980,7 +980,7 @@ var Kt = {
 };
 function Zt(e) {
 	let { project: t, dialecteId: n } = e;
-	(Ut.includes(t) || n !== void 0 && Ut.includes(n)) && m("PROJECT_NAME_INVALID", {
+	(Ut.includes(t) || n !== void 0 && Ut.includes(n)) && f("PROJECT_NAME_INVALID", {
 		detail: `A project cannot be named ${JSON.stringify(t)}${n === void 0 ? "" : ` in dialecte ${JSON.stringify(n)}`}: neither its name nor its dialecte's id may be empty, \`.\` or \`..\``,
 		meta: {
 			project: t,
@@ -1127,7 +1127,7 @@ function $t({ enabled: e, timeline: t = !0 }) {
 }
 function en(e) {
 	let { configs: t, defaultConfigKey: n, configKey: r = n } = e, i = t[r];
-	return g(i, {
+	return j(i, {
 		key: "UNKNOWN_CONFIG_KEY",
 		detail: `Unknown configKey: "${r}". Available: ${Object.keys(t).join(", ")}`
 	}), {
@@ -1148,7 +1148,7 @@ function nn(e) {
 	return t.tagName === n.rootElementName && t.parent === null;
 }
 var rn = {
-	namespaceURI: M,
+	namespaceURI: pe,
 	prefix: null,
 	localName: "xmlns",
 	value: ""
@@ -1369,7 +1369,7 @@ function In(e) {
 function Ln(e) {
 	let { config: t, rootUri: n } = e, r = Object.values(t.namespaces).map((e) => e.prefix).filter((e) => e !== ""), i = !r.includes("xs"), a = /* @__PURE__ */ new Set([
 		...r,
-		A.prefix,
+		C.prefix,
 		"xml",
 		"xmlns"
 	]);
@@ -1446,10 +1446,10 @@ function Bn(e) {
 		prefix: t.alias
 	}));
 	let o = [];
-	r.has(A.uri) && o.push(A.uri);
+	r.has(C.uri) && o.push(C.uri);
 	let s = /* @__PURE__ */ new Set();
-	for (let e of Object.values(n.namespaces)) s.add(e.uri), e.uri !== n.namespaces.default.uri && e.uri !== A.uri && r.has(e.uri) && !o.includes(e.uri) && o.push(e.uri);
-	let c = [...r.keys()].filter((e) => e !== i && e !== A.uri && !s.has(e)).sort(qn);
+	for (let e of Object.values(n.namespaces)) s.add(e.uri), e.uri !== n.namespaces.default.uri && e.uri !== C.uri && r.has(e.uri) && !o.includes(e.uri) && o.push(e.uri);
+	let c = [...r.keys()].filter((e) => e !== i && e !== C.uri && !s.has(e)).sort(qn);
 	for (let e of [...o, ...c]) a.push(Kn({
 		uri: e,
 		prefix: r.get(e) ?? ""
@@ -1484,8 +1484,8 @@ function Hn(e) {
 	return o ? {
 		prefix: o.prefix,
 		nextGenerated: a
-	} : r === A.uri ? {
-		prefix: A.prefix,
+	} : r === C.uri ? {
+		prefix: C.prefix,
 		nextGenerated: a
 	} : r === "http://www.w3.org/2001/XMLSchema" && t.xsdTakesXs ? {
 		prefix: "xs",
@@ -1532,12 +1532,12 @@ function Gn(e) {
 function Kn(e) {
 	let { uri: t, prefix: n } = e;
 	return n ? {
-		namespaceURI: M,
+		namespaceURI: pe,
 		prefix: "xmlns",
 		localName: n,
 		value: t
 	} : {
-		namespaceURI: M,
+		namespaceURI: pe,
 		prefix: null,
 		localName: "xmlns",
 		value: t
@@ -1547,89 +1547,89 @@ function qn(e, t) {
 	return e === t ? 0 : e < t ? -1 : 1;
 }
 function Jn(e) {
-	let { config: t, element: r, namespace: i, rootRecord: a } = e, o = E({
+	let { config: t, element: n, namespace: r, rootRecord: a } = e, o = O({
 		dialecteConfig: t,
 		record: a
-	})?.attributes.details ?? {}, s = i.uri === t.namespaces.default.uri;
+	})?.attributes.details ?? {}, s = r.uri === t.namespaces.default.uri;
 	for (let [e, c] of Object.entries(o)) {
-		let o = he({
+		let o = h({
 			dialecteConfig: t,
 			record: a,
 			attributeName: e,
 			defaults: "required"
 		});
-		if (o === void 0 || !(s ? !c.namespace : c.namespace?.prefix === i.prefix && c.namespace?.uri === i.uri)) continue;
-		let l = n(e);
+		if (o === void 0 || !(s ? !c.namespace : c.namespace?.prefix === r.prefix && c.namespace?.uri === r.uri)) continue;
+		let l = i(e);
 		(c.namespace ? xn({
-			element: r,
+			element: n,
 			namespaceURI: c.namespace.uri,
 			localName: l
 		}) : yn({
-			element: r,
+			element: n,
 			qualifiedName: l
 		})) || (c.namespace ? vn({
-			element: r,
+			element: n,
 			namespaceURI: c.namespace.uri,
 			qualifiedName: `${c.namespace.prefix}:${l}`,
 			value: o
 		}) : _n({
-			element: r,
+			element: n,
 			qualifiedName: l,
 			value: o
 		}));
 	}
 }
-function Yn(t) {
-	let { settings: n, table: r, record: i, parent: a } = t, { config: o, declareNamespaces: s, withDatabaseIds: c } = n, l = s && e({
-		dialecteConfig: o,
-		tagName: i.tagName
-	}), u = s && a !== void 0, d = u || l ? we({
-		dialecteConfig: o,
-		record: i
-	}) : void 0, f = Xn({
-		settings: n,
-		table: r,
-		record: i,
-		parent: a,
-		holdsNoNamespaceName: s && Z({
-			config: o,
-			record: i,
-			definition: d
+function Yn(e) {
+	let { settings: t, table: n, record: r, parent: i } = e, { config: a, declareNamespaces: o, withDatabaseIds: s } = t, c = o && D({
+		dialecteConfig: a,
+		tagName: r.tagName
+	}), l = o && i !== void 0, u = l || c ? we({
+		dialecteConfig: a,
+		record: r
+	}) : void 0, d = Xn({
+		settings: t,
+		table: n,
+		record: r,
+		parent: i,
+		holdsNoNamespaceName: o && Z({
+			config: a,
+			record: r,
+			definition: u
 		})
-	}), { element: p } = f, m = Qn({
-		settings: n,
-		table: f.table,
-		element: p,
-		attributes: i.attributes
-	}), h = i.value;
-	if (d !== void 0 && l) {
+	}), { element: f } = d, p = Qn({
+		settings: t,
+		table: d.table,
+		element: f,
+		attributes: r.attributes
+	}), m = r.value;
+	if (u !== void 0 && c) {
 		let e = nr({
-			settings: n,
-			table: m,
-			element: p,
-			record: i,
-			definition: d
+			settings: t,
+			table: p,
+			element: f,
+			record: r,
+			definition: u
 		});
-		m = e.table, h = e.text;
+		p = e.table, m = e.text;
 	}
-	return d !== void 0 && u && (m = er({
-		settings: n,
-		table: m,
-		element: p,
-		record: i,
-		definition: d
-	})), c && _n({
-		element: p,
+	return u !== void 0 && l && (p = er({
+		settings: t,
+		table: p,
+		element: f,
+		record: r,
+		definition: u
+	})), s && _n({
+		element: f,
 		qualifiedName: "_temp-idb-id",
-		value: i.id
-	}), s && (m = tr({
-		settings: n,
-		table: m,
-		element: p
+		value: r.id
+	}), o && (p = tr({
+		settings: t,
+		table: p,
+		element: f
 	})), {
-		element: p,
-		table: m,
-		text: h
+		element: f,
+		table: p,
+		text: m
 	};
 }
 function Xn(e) {
@@ -1686,30 +1686,30 @@ function Zn(e) {
 	};
 }
 function Qn(e) {
-	let { settings: t, element: r, attributes: i } = e, { table: a } = e;
-	for (let e of i) {
+	let { settings: t, element: n, attributes: r } = e, { table: a } = e;
+	for (let e of r) {
 		if (cr(e)) continue;
-		let i = String(e.value);
+		let r = String(e.value);
 		if (!sr(e) || !e.namespace.prefix) {
 			_n({
-				element: r,
+				element: n,
 				qualifiedName: e.name,
-				value: i
+				value: r
 			});
 			continue;
 		}
-		let o = n(e.name);
+		let o = i(e.name);
 		t.declareNamespaces ? a = $n({
 			settings: t,
 			table: a,
-			element: r,
+			element: n,
 			namespace: e.namespace,
 			localName: o,
-			value: i
+			value: r
 		}) : _n({
-			element: r,
+			element: n,
 			qualifiedName: `${e.namespace.prefix}:${o}`,
-			value: i
+			value: r
 		});
 	}
 	return a;
@@ -1739,32 +1739,32 @@ function $n(e) {
 	}), l.table;
 }
 function er(e) {
-	let { settings: t, element: r, record: i, definition: a } = e, { config: o } = t, { table: s } = e;
+	let { settings: t, element: n, record: r, definition: a } = e, { config: o } = t, { table: s } = e;
 	for (let [e, c] of Object.entries(a.attributes.details)) {
-		let a = he({
+		let a = h({
 			dialecteConfig: o,
-			record: i,
+			record: r,
 			attributeName: e,
 			defaults: "required"
 		});
 		if (a === void 0) continue;
-		let l = n(e);
+		let l = i(e);
 		(c.namespace ? xn({
-			element: r,
+			element: n,
 			namespaceURI: c.namespace.uri,
 			localName: l
 		}) : yn({
-			element: r,
+			element: n,
 			qualifiedName: l
 		})) || (c.namespace && c.namespace.prefix ? s = $n({
 			settings: t,
 			table: s,
-			element: r,
+			element: n,
 			namespace: c.namespace,
 			localName: l,
 			value: a
 		}) : _n({
-			element: r,
+			element: n,
 			qualifiedName: l,
 			value: a
 		}));
@@ -1774,7 +1774,7 @@ function er(e) {
 function tr(e) {
 	let { settings: t, table: n, element: r } = e, { config: i } = t, a = bn({
 		element: r,
-		namespaceURI: A.uri,
+		namespaceURI: C.uri,
 		localName: "type"
 	});
 	if (a === null) return n;
@@ -1789,64 +1789,64 @@ function tr(e) {
 	let s = Rn({
 		table: o.table,
 		config: i,
-		uri: A.uri,
-		storedPrefix: A.prefix
+		uri: C.uri,
+		storedPrefix: C.prefix
 	});
 	return vn({
 		element: r,
-		namespaceURI: A.uri,
+		namespaceURI: C.uri,
 		qualifiedName: `${s.prefix}:type`,
 		value: o.value
 	}), s.table;
 }
 function nr(e) {
-	let { settings: t, element: r, record: i, definition: a } = e, { table: s } = e;
-	for (let e of i.attributes) {
-		let i = Te({
+	let { settings: t, element: n, record: r, definition: a } = e, { table: o } = e;
+	for (let e of r.attributes) {
+		let r = Te({
 			definition: a,
 			attribute: e
 		});
-		if (i === void 0 || !o(i)) continue;
-		let c = rr({
+		if (r === void 0 || !y(r)) continue;
+		let s = rr({
 			settings: t,
-			table: s,
-			element: r,
-			type: i,
+			table: o,
+			element: n,
+			type: r,
 			value: String(e.value)
 		});
-		s = c.table, sr(e) && e.namespace.prefix ? vn({
-			element: r,
+		o = s.table, sr(e) && e.namespace.prefix ? vn({
+			element: n,
 			namespaceURI: e.namespace.uri,
-			qualifiedName: n(e.name),
-			value: c.value
+			qualifiedName: i(e.name),
+			value: s.value
 		}) : _n({
-			element: r,
+			element: n,
 			qualifiedName: e.name,
-			value: c.value
+			value: s.value
 		});
 	}
-	let c = a.textContent?.type;
-	if (c === void 0 || !o(c) || i.value === "") return {
-		table: s,
-		text: i.value
+	let s = a.textContent?.type;
+	if (s === void 0 || !y(s) || r.value === "") return {
+		table: o,
+		text: r.value
 	};
-	let l = rr({
+	let c = rr({
 		settings: t,
-		table: s,
-		element: r,
-		type: c,
-		value: i.value
+		table: o,
+		element: n,
+		type: s,
+		value: r.value
 	});
 	return {
-		table: l.table,
-		text: l.value
+		table: c.table,
+		text: c.value
 	};
 }
 function rr(e) {
-	let { settings: t, element: n, value: r } = e, { table: i } = e, a = re({
+	let { settings: t, element: n, value: r } = e, { table: i } = e, a = ae({
 		type: e.type,
 		value: r,
-		namespaceOf: T({ dialecteConfig: t.config })
+		namespaceOf: A({ dialecteConfig: t.config })
 	});
 	if (a === void 0) return {
 		table: i,
@@ -1866,7 +1866,7 @@ function rr(e) {
 		};
 	}
 	let o = [];
-	for (let e of v(r)) {
+	for (let e of s(r)) {
 		let r = rr({
 			settings: t,
 			table: i,
@@ -1882,9 +1882,9 @@ function rr(e) {
 	};
 }
 function ir(e) {
-	let { settings: t, table: n, element: r, value: i, notation: a } = e, o = x({
+	let { settings: t, table: n, element: r, value: i, notation: a } = e, o = S({
 		value: i,
-		namespaceOf: T({ dialecteConfig: t.config })
+		namespaceOf: A({ dialecteConfig: t.config })
 	});
 	if (o === void 0) return;
 	if (o.namespace === "") return Sn({
@@ -1909,27 +1909,27 @@ function ir(e) {
 		value: c.prefix ? `${c.prefix}:${o.local}` : o.local
 	};
 }
-function ar(t) {
-	let { settings: n, record: r } = t, { config: i, declareNamespaces: a } = n;
-	return a ? r.namespace.uri === i.namespaces.default.uri ? Z({
-		config: i,
-		record: r,
-		definition: e({
-			dialecteConfig: i,
-			tagName: r.tagName
+function ar(e) {
+	let { settings: t, record: n } = e, { config: r, declareNamespaces: i } = t;
+	return i ? n.namespace.uri === r.namespaces.default.uri ? Z({
+		config: r,
+		record: n,
+		definition: D({
+			dialecteConfig: r,
+			tagName: n.tagName
 		}) ? we({
-			dialecteConfig: i,
-			record: r
+			dialecteConfig: r,
+			record: n
 		}) : void 0
-	}) ? "" : r.namespace.uri : "" : r.namespace.uri;
+	}) ? "" : n.namespace.uri : "" : n.namespace.uri;
 }
 function Z(e) {
 	let { record: t, definition: n, config: r } = e;
 	function i(e, t) {
-		return e === void 0 ? !1 : re({
+		return e === void 0 ? !1 : ae({
 			type: e,
 			value: t,
-			namespaceOf: T({ dialecteConfig: r })
+			namespaceOf: A({ dialecteConfig: r })
 		}) !== void 0;
 	}
 	for (let e of t.attributes) if (typeof e.value == "string" && lr(e.value) && (ne(e) || i(n && Te({
@@ -1961,10 +1961,10 @@ function cr(e) {
 	return e.name === "xmlns" || e.name.startsWith("xmlns:") ? !0 : e.namespace?.prefix === "xmlns";
 }
 function lr(e) {
-	return v(e).some((e) => e.startsWith("{}"));
+	return s(e).some((e) => e.startsWith("{}"));
 }
 function ur(e) {
-	let t = le.exec(e.text);
+	let t = d.exec(e.text);
 	if (t) return `U+${t[0].charCodeAt(0).toString(16).toUpperCase().padStart(4, "0")}`;
 }
 function dr(e) {
@@ -1974,7 +1974,7 @@ function dr(e) {
 	});
 	if (!r) return;
 	let { character: i, attribute: a, part: o } = r;
-	m("XML_CHARACTER_NOT_ALLOWED", {
+	f("XML_CHARACTER_NOT_ALLOWED", {
 		detail: `${mr({
 			place: r,
 			element: t.tagName ? `<${t.tagName}> '${t.id}'` : `the record '${t.id}'`
@@ -2135,7 +2135,7 @@ function _r(e) {
 	});
 }
 function vr(e) {
-	let { element: t, record: n, value: r, parent: i, rootScope: a, prefixes: o, indent: s } = e, c = r ? f({ text: r }) : "", l = i ? Cn({
+	let { element: t, record: n, value: r, parent: i, rootScope: a, prefixes: o, indent: s } = e, c = r ? E({ text: r }) : "", l = i ? Cn({
 		element: t,
 		scope: i.scope,
 		prefixes: o
@@ -2243,7 +2243,7 @@ async function Tr(e, t = {}) {
 	} finally {
 		a.stop("export");
 	}
-	return l.status === "moved" && m("EXPORT_CONFLICT", {
+	return l.status === "moved" && f("EXPORT_CONFLICT", {
 		detail: `Document "${o.name}" changed twice while it was exported: export it again`,
 		meta: { documentId: i }
 	}), {
@@ -2254,7 +2254,7 @@ async function Tr(e, t = {}) {
 }
 function Er(e) {
 	let t = e.options?.batchSize ?? 2e3;
-	return (!Number.isInteger(t) || t < 1) && m("ASSERTION_FAILED", { detail: `An export batch size is a whole number from 1, not ${t}` }), t;
+	return (!Number.isInteger(t) || t < 1) && f("ASSERTION_FAILED", { detail: `An export batch size is a whole number from 1, not ${t}` }), t;
 }
 async function Dr(e) {
 	let { source: t, documentId: n } = e, r = await t.getDocument(n);
@@ -2274,7 +2274,7 @@ async function Or(e) {
 			documentId: n,
 			version: c
 		})) return { status: "moved" };
-		m("EXPORT_ROOT_NOT_FOUND", { detail: `No ${i.rootElementName} root element found in document "${n}"` });
+		f("EXPORT_ROOT_NOT_FOUND", { detail: `No ${i.rootElementName} root element found in document "${n}"` });
 	}
 	let d = {
 		source: t,
@@ -2291,16 +2291,16 @@ async function Or(e) {
 		}),
 		parts: [],
 		recordsWritten: 0
-	}, f = [kr({
+	}, p = [kr({
 		pass: d,
 		record: u,
 		config: i
 	})];
 	if (d.recordsWritten % s === 0 && await jr(d)) return { status: "moved" };
-	for (; f.length > 0;) {
-		let e = f.at(-1);
+	for (; p.length > 0;) {
+		let e = p.at(-1);
 		if (e.next >= e.childRefs.length) {
-			o.time("export::write", () => d.writer.closeElement()), f.pop();
+			o.time("export::write", () => d.writer.closeElement()), p.pop();
 			continue;
 		}
 		if (e.next >= e.chunkStart + e.chunk.length) {
@@ -2316,7 +2316,7 @@ async function Or(e) {
 		let r = e.childRefs[e.next], a = e.chunk[e.next - e.chunkStart];
 		if (e.next++, !a) {
 			if (await Nr(d)) return { status: "moved" };
-			m("EXPORT_ORPHAN_CHILD_REF", {
+			f("EXPORT_ORPHAN_CHILD_REF", {
 				detail: `Parent '${e.record.tagName}' references non-existent child '${r.tagName}' (id: ${r.id})`,
 				ref: {
 					tagName: e.record.tagName,
@@ -2324,7 +2324,7 @@ async function Or(e) {
 				}
 			});
 		}
-		if (f.push(kr({
+		if (p.push(kr({
 			pass: d,
 			record: a,
 			config: i
@@ -2345,7 +2345,7 @@ function kr(e) {
 	let { pass: t, record: n, config: r } = e;
 	return t.perf.time("export::write", () => t.writer.openElement({ record: n })), t.recordsWritten++, {
 		record: n,
-		childRefs: ue({
+		childRefs: ce({
 			parentTagName: n.tagName,
 			children: n.children,
 			childrenConfig: r.children,
@@ -2391,14 +2391,14 @@ function Pr(e) {
 }
 function Fr(e) {
 	let { documentId: t } = e;
-	m("DOCUMENT_NOT_REGISTERED", {
+	f("DOCUMENT_NOT_REGISTERED", {
 		detail: `Document "${t}" is not registered, or not ready, in this store`,
 		meta: { documentId: t }
 	});
 }
 function Ir(e) {
 	let { signal: t, documentId: n } = e;
-	t?.aborted && m("EXPORT_ABORTED", {
+	t?.aborted && f("EXPORT_ABORTED", {
 		detail: `The export of document "${n}" was aborted`,
 		meta: { documentId: n }
 	});
@@ -2418,7 +2418,7 @@ var Rr = [
 ];
 async function zr(e) {
 	let { reads: t, read: n, versionOf: r } = e;
-	g(Rr.includes(n.member), {
+	j(Rr.includes(n.member), {
 		detail: `"${n.member}" is not a read a version is answered with`,
 		meta: { member: n.member }
 	});
@@ -2732,7 +2732,7 @@ function xi(e) {
 }
 async function Si(e) {
 	let { file: t } = e, n = await t.text(), r = new DOMParser().parseFromString(n, "application/xml"), i = r.getElementsByTagName("parsererror")[0];
-	return i && m("PARSE_ERROR", { detail: i.textContent?.trim() || "The file is not well-formed XML" }), r;
+	return i && f("PARSE_ERROR", { detail: i.textContent?.trim() || "The file is not well-formed XML" }), r;
 }
 var Ci = /* @__PURE__ */ rt(((e, t) => {
 	t.exports = {};
@@ -2778,7 +2778,7 @@ var Ci = /* @__PURE__ */ rt(((e, t) => {
 		function n(t, r) {
 			if (!(this instanceof n)) return new n(t, r);
 			var a = this;
-			i(a), a.q = a.c = "", a.bufferCheckPosition = e.MAX_BUFFER_LENGTH, a.encoding = null, a.opt = r || {}, a.opt.lowercase = a.opt.lowercase || a.opt.lowercasetags, a.looseCase = a.opt.lowercase ? "toLowerCase" : "toUpperCase", a.opt.maxEntityCount = a.opt.maxEntityCount || 512, a.opt.maxEntityDepth = a.opt.maxEntityDepth || 4, a.entityCount = a.entityDepth = 0, a.tags = [], a.closed = a.closedRoot = a.sawRoot = !1, a.tag = a.error = null, a.strict = !!t, a.noscript = !!(t || a.opt.noscript), a.state = w.BEGIN, a.strictEntities = a.opt.strictEntities, a.ENTITIES = a.strictEntities ? Object.create(e.XML_ENTITIES) : Object.create(e.ENTITIES), a.attribList = [], a.opt.xmlns && (a.ns = Object.create(h)), a.opt.unquotedAttributeValues === void 0 && (a.opt.unquotedAttributeValues = !t), a.trackPosition = a.opt.position !== !1, a.trackPosition && (a.position = a.line = a.column = 0), te(a, "onready");
+			i(a), a.q = a.c = "", a.bufferCheckPosition = e.MAX_BUFFER_LENGTH, a.encoding = null, a.opt = r || {}, a.opt.lowercase = a.opt.lowercase || a.opt.lowercasetags, a.looseCase = a.opt.lowercase ? "toLowerCase" : "toUpperCase", a.opt.maxEntityCount = a.opt.maxEntityCount || 512, a.opt.maxEntityDepth = a.opt.maxEntityDepth || 4, a.entityCount = a.entityDepth = 0, a.tags = [], a.closed = a.closedRoot = a.sawRoot = !1, a.tag = a.error = null, a.strict = !!t, a.noscript = !!(t || a.opt.noscript), a.state = T.BEGIN, a.strictEntities = a.opt.strictEntities, a.ENTITIES = a.strictEntities ? Object.create(e.XML_ENTITIES) : Object.create(e.ENTITIES), a.attribList = [], a.opt.xmlns && (a.ns = Object.create(h)), a.opt.unquotedAttributeValues === void 0 && (a.opt.unquotedAttributeValues = !t), a.trackPosition = a.opt.position !== !1, a.trackPosition && (a.position = a.line = a.column = 0), te(a, "onready");
 		}
 		Object.create || (Object.create = function(e) {
 			function t() {}
@@ -2793,13 +2793,13 @@ var Ci = /* @__PURE__ */ rt(((e, t) => {
 				var s = n[t[a]].length;
 				if (s > r) switch (t[a]) {
 					case "textNode":
-						ae(n);
+						D(n);
 						break;
 					case "cdata":
-						D(n, "oncdata", n.cdata), n.cdata = "";
+						E(n, "oncdata", n.cdata), n.cdata = "";
 						break;
 					case "script":
-						D(n, "onscript", n.script), n.script = "";
+						E(n, "onscript", n.script), n.script = "";
 						break;
 					default: O(n, "Max buffer length exceeded: " + t[a]);
 				}
@@ -2811,7 +2811,7 @@ var Ci = /* @__PURE__ */ rt(((e, t) => {
 			for (var n = 0, r = t.length; n < r; n++) e[t[n]] = "";
 		}
 		function a(e) {
-			ae(e), e.cdata !== "" && (D(e, "oncdata", e.cdata), e.cdata = ""), e.script !== "" && (D(e, "onscript", e.script), e.script = "");
+			D(e), e.cdata !== "" && (E(e, "oncdata", e.cdata), e.cdata = ""), e.script !== "" && (E(e, "onscript", e.script), e.script = "");
 		}
 		n.prototype = {
 			end: function() {
@@ -2910,53 +2910,53 @@ var Ci = /* @__PURE__ */ rt(((e, t) => {
 		function x(e) {
 			return e === "\"" || e === "'";
 		}
-		function ee(e) {
+		function S(e) {
 			return e === ">" || b(e);
 		}
-		function S(e, t) {
+		function C(e, t) {
 			return e.test(t);
 		}
-		function C(e, t) {
-			return !S(e, t);
+		function w(e, t) {
+			return !C(e, t);
 		}
-		var w = 0;
-		for (var T in e.STATE = {
-			BEGIN: w++,
-			BEGIN_WHITESPACE: w++,
-			TEXT: w++,
-			TEXT_ENTITY: w++,
-			OPEN_WAKA: w++,
-			SGML_DECL: w++,
-			SGML_DECL_QUOTED: w++,
-			DOCTYPE: w++,
-			DOCTYPE_QUOTED: w++,
-			DOCTYPE_DTD: w++,
-			DOCTYPE_DTD_QUOTED: w++,
-			COMMENT_STARTING: w++,
-			COMMENT: w++,
-			COMMENT_ENDING: w++,
-			COMMENT_ENDED: w++,
-			CDATA: w++,
-			CDATA_ENDING: w++,
-			CDATA_ENDING_2: w++,
-			PROC_INST: w++,
-			PROC_INST_BODY: w++,
-			PROC_INST_ENDING: w++,
-			OPEN_TAG: w++,
-			OPEN_TAG_SLASH: w++,
-			ATTRIB: w++,
-			ATTRIB_NAME: w++,
-			ATTRIB_NAME_SAW_WHITE: w++,
-			ATTRIB_VALUE: w++,
-			ATTRIB_VALUE_QUOTED: w++,
-			ATTRIB_VALUE_CLOSED: w++,
-			ATTRIB_VALUE_UNQUOTED: w++,
-			ATTRIB_VALUE_ENTITY_Q: w++,
-			ATTRIB_VALUE_ENTITY_U: w++,
-			CLOSE_TAG: w++,
-			CLOSE_TAG_SAW_WHITE: w++,
-			SCRIPT: w++,
-			SCRIPT_ENDING: w++
+		var T = 0;
+		for (var ee in e.STATE = {
+			BEGIN: T++,
+			BEGIN_WHITESPACE: T++,
+			TEXT: T++,
+			TEXT_ENTITY: T++,
+			OPEN_WAKA: T++,
+			SGML_DECL: T++,
+			SGML_DECL_QUOTED: T++,
+			DOCTYPE: T++,
+			DOCTYPE_QUOTED: T++,
+			DOCTYPE_DTD: T++,
+			DOCTYPE_DTD_QUOTED: T++,
+			COMMENT_STARTING: T++,
+			COMMENT: T++,
+			COMMENT_ENDING: T++,
+			COMMENT_ENDED: T++,
+			CDATA: T++,
+			CDATA_ENDING: T++,
+			CDATA_ENDING_2: T++,
+			PROC_INST: T++,
+			PROC_INST_BODY: T++,
+			PROC_INST_ENDING: T++,
+			OPEN_TAG: T++,
+			OPEN_TAG_SLASH: T++,
+			ATTRIB: T++,
+			ATTRIB_NAME: T++,
+			ATTRIB_NAME_SAW_WHITE: T++,
+			ATTRIB_VALUE: T++,
+			ATTRIB_VALUE_QUOTED: T++,
+			ATTRIB_VALUE_CLOSED: T++,
+			ATTRIB_VALUE_UNQUOTED: T++,
+			ATTRIB_VALUE_ENTITY_Q: T++,
+			ATTRIB_VALUE_ENTITY_U: T++,
+			CLOSE_TAG: T++,
+			CLOSE_TAG_SAW_WHITE: T++,
+			SCRIPT: T++,
+			SCRIPT_ENDING: T++
 		}, e.XML_ENTITIES = {
 			amp: "&",
 			gt: ">",
@@ -3220,8 +3220,8 @@ var Ci = /* @__PURE__ */ rt(((e, t) => {
 		}, Object.keys(e.ENTITIES).forEach(function(t) {
 			var n = e.ENTITIES[t], r = typeof n == "number" ? String.fromCharCode(n) : n;
 			e.ENTITIES[t] = r;
-		}), e.STATE) e.STATE[e.STATE[T]] = T;
-		w = e.STATE;
+		}), e.STATE) e.STATE[e.STATE[ee]] = ee;
+		T = e.STATE;
 		function te(e, t, n) {
 			e[t] && e[t](n);
 		}
@@ -3232,30 +3232,30 @@ var Ci = /* @__PURE__ */ rt(((e, t) => {
 		function re(e) {
 			return e ? e.toLowerCase().replace(/[^a-z0-9]/g, "") : null;
 		}
-		function E(e, t) {
+		function ie(e, t) {
 			let n = re(e), r = re(t);
 			return !n || !r ? !0 : r === "utf16" ? n === "utf16le" || n === "utf16be" : n === r;
 		}
-		function ie(e, t) {
+		function ae(e, t) {
 			if (e.strict && e.encoding && t && t.name === "xml") {
 				var n = ne(t.body);
-				n && !E(e.encoding, n) && k(e, "XML declaration encoding " + n + " does not match detected stream encoding " + e.encoding.toUpperCase());
+				n && !ie(e.encoding, n) && k(e, "XML declaration encoding " + n + " does not match detected stream encoding " + e.encoding.toUpperCase());
 			}
 		}
-		function D(e, t, n) {
-			e.textNode && ae(e), te(e, t, n);
+		function E(e, t, n) {
+			e.textNode && D(e), te(e, t, n);
 		}
-		function ae(e) {
+		function D(e) {
 			e.textNode = oe(e.opt, e.textNode), e.textNode && te(e, "ontext", e.textNode), e.textNode = "";
 		}
 		function oe(e, t) {
 			return e.trim && (t = t.trim()), e.normalize && (t = t.replace(/\s+/g, " ")), t;
 		}
 		function O(e, t) {
-			return ae(e), e.trackPosition && (t += "\nLine: " + e.line + "\nColumn: " + e.column + "\nChar: " + e.c), t = Error(t), e.error = t, te(e, "onerror", t), e;
+			return D(e), e.trackPosition && (t += "\nLine: " + e.line + "\nColumn: " + e.column + "\nChar: " + e.c), t = Error(t), e.error = t, te(e, "onerror", t), e;
 		}
 		function se(e) {
-			return e.sawRoot && !e.closedRoot && k(e, "Unclosed root tag"), e.state !== w.BEGIN && e.state !== w.BEGIN_WHITESPACE && e.state !== w.TEXT && O(e, "Unexpected end"), ae(e), e.c = "", e.closed = !0, te(e, "onend"), n.call(e, e.strict, e.opt), e;
+			return e.sawRoot && !e.closedRoot && k(e, "Unclosed root tag"), e.state !== T.BEGIN && e.state !== T.BEGIN_WHITESPACE && e.state !== T.TEXT && O(e, "Unexpected end"), D(e), e.c = "", e.closed = !0, te(e, "onend"), n.call(e, e.strict, e.opt), e;
 		}
 		function k(e, t) {
 			if (typeof e != "object" || !(e instanceof n)) throw Error("bad call to strictFail");
@@ -3267,7 +3267,7 @@ var Ci = /* @__PURE__ */ rt(((e, t) => {
 				name: e.tagName,
 				attributes: {}
 			};
-			e.opt.xmlns && (n.ns = t.ns), e.attribList.length = 0, D(e, "onopentagstart", n);
+			e.opt.xmlns && (n.ns = t.ns), e.attribList.length = 0, E(e, "onopentagstart", n);
 		}
 		function le(e, t) {
 			var n = e.indexOf(":") < 0 ? ["", e] : e.split(":"), r = n[0], i = n[1];
@@ -3288,7 +3288,7 @@ var Ci = /* @__PURE__ */ rt(((e, t) => {
 						i.ns === a.ns && (i.ns = Object.create(a.ns)), i.ns[r] = e.attribValue;
 					}
 					e.attribList.push([e.attribName, e.attribValue]);
-				} else e.tag.attributes[e.attribName] = e.attribValue, D(e, "onattribute", {
+				} else e.tag.attributes[e.attribName] = e.attribValue, E(e, "onattribute", {
 					name: e.attribName,
 					value: e.attribValue
 				});
@@ -3301,7 +3301,7 @@ var Ci = /* @__PURE__ */ rt(((e, t) => {
 				n.prefix = r.prefix, n.local = r.local, n.uri = n.ns[r.prefix] || "", n.prefix && !n.uri && (k(e, "Unbound namespace prefix: " + JSON.stringify(e.tagName)), n.uri = r.prefix);
 				var i = e.tags[e.tags.length - 1] || e;
 				n.ns && i.ns !== n.ns && Object.keys(n.ns).forEach(function(t) {
-					D(e, "onopennamespace", {
+					E(e, "onopennamespace", {
 						prefix: t,
 						uri: n.ns[t]
 					});
@@ -3314,52 +3314,52 @@ var Ci = /* @__PURE__ */ rt(((e, t) => {
 						local: f,
 						uri: p
 					};
-					d && d !== "xmlns" && !p && (k(e, "Unbound namespace prefix: " + JSON.stringify(d)), m.uri = d), e.tag.attributes[c] = m, D(e, "onattribute", m);
+					d && d !== "xmlns" && !p && (k(e, "Unbound namespace prefix: " + JSON.stringify(d)), m.uri = d), e.tag.attributes[c] = m, E(e, "onattribute", m);
 				}
 				e.attribList.length = 0;
 			}
-			e.tag.isSelfClosing = !!t, e.sawRoot = !0, e.tags.push(e.tag), D(e, "onopentag", e.tag), t || (e.state = !e.noscript && e.tagName.toLowerCase() === "script" ? w.SCRIPT : w.TEXT, e.tag = null, e.tagName = ""), e.attribName = e.attribValue = "", e.attribList.length = 0;
+			e.tag.isSelfClosing = !!t, e.sawRoot = !0, e.tags.push(e.tag), E(e, "onopentag", e.tag), t || (e.state = !e.noscript && e.tagName.toLowerCase() === "script" ? T.SCRIPT : T.TEXT, e.tag = null, e.tagName = ""), e.attribName = e.attribValue = "", e.attribList.length = 0;
 		}
-		function fe(e) {
-			if (!e.tagName) k(e, "Weird empty close tag."), e.textNode += "</>", e.state = w.TEXT;
+		function A(e) {
+			if (!e.tagName) k(e, "Weird empty close tag."), e.textNode += "</>", e.state = T.TEXT;
 			else {
 				if (e.script) {
 					if (e.tagName !== "script") {
-						e.script += "</" + e.tagName + ">", e.tagName = "", e.state = w.SCRIPT;
+						e.script += "</" + e.tagName + ">", e.tagName = "", e.state = T.SCRIPT;
 						return;
 					}
-					D(e, "onscript", e.script), e.script = "";
+					E(e, "onscript", e.script), e.script = "";
 				}
 				var t = e.tags.length, n = e.tagName;
 				e.strict || (n = n[e.looseCase]());
 				for (var r = n; t-- && e.tags[t].name !== r;) k(e, "Unexpected close tag");
-				if (t < 0) k(e, "Unmatched closing tag: " + e.tagName), e.textNode += "</" + e.tagName + ">", e.state = w.TEXT;
+				if (t < 0) k(e, "Unmatched closing tag: " + e.tagName), e.textNode += "</" + e.tagName + ">", e.state = T.TEXT;
 				else {
 					e.tagName = n;
 					for (var i = e.tags.length; i-- > t;) {
 						var a = e.tag = e.tags.pop();
-						e.tagName = e.tag.name, D(e, "onclosetag", e.tagName);
+						e.tagName = e.tag.name, E(e, "onclosetag", e.tagName);
 						var o = {};
 						for (var s in a.ns) o[s] = a.ns[s];
 						var c = e.tags[e.tags.length - 1] || e;
 						e.opt.xmlns && a.ns !== c.ns && Object.keys(a.ns).forEach(function(t) {
 							var n = a.ns[t];
-							D(e, "onclosenamespace", {
+							E(e, "onclosenamespace", {
 								prefix: t,
 								uri: n
 							});
 						});
 					}
-					t === 0 && (e.closedRoot = !0), e.tagName = e.attribValue = e.attribName = "", e.attribList.length = 0, e.state = w.TEXT;
+					t === 0 && (e.closedRoot = !0), e.tagName = e.attribValue = e.attribName = "", e.attribList.length = 0, e.state = T.TEXT;
 				}
 			}
 		}
-		function A(e) {
+		function fe(e) {
 			var t = e.entity, n = t.toLowerCase(), r, i = "";
 			return e.ENTITIES[t] ? e.ENTITIES[t] : e.ENTITIES[n] ? e.ENTITIES[n] : (t = n, t.charAt(0) === "#" && (t.charAt(1) === "x" ? (t = t.slice(2), r = parseInt(t, 16), i = r.toString(16)) : (t = t.slice(1), r = parseInt(t, 10), i = r.toString(10))), t = t.replace(/^0+/, ""), isNaN(r) || i.toLowerCase() !== t || r < 0 || r > 1114111 ? (k(e, "Invalid character entity"), "&" + e.entity + ";") : String.fromCodePoint(r));
 		}
 		function pe(e, t) {
-			t === "<" ? (e.state = w.OPEN_WAKA, e.startTagPosition = e.position) : b(t) || (k(e, "Non-whitespace before first tag."), e.textNode = t, e.state = w.TEXT);
+			t === "<" ? (e.state = T.OPEN_WAKA, e.startTagPosition = e.position) : b(t) || (k(e, "Non-whitespace before first tag."), e.textNode = t, e.state = T.TEXT);
 		}
 		function j(e, t) {
 			var n = "";
@@ -3372,166 +3372,166 @@ var Ci = /* @__PURE__ */ rt(((e, t) => {
 			if (t === null) return se(n);
 			typeof t == "object" && (t = t.toString());
 			for (var i = 0, a = ""; a = j(t, i++), n.c = a, a;) switch (n.trackPosition && (n.position++, a === "\n" ? (n.line++, n.column = 0) : n.column++), n.state) {
-				case w.BEGIN:
-					if (n.state = w.BEGIN_WHITESPACE, a === "﻿") continue;
+				case T.BEGIN:
+					if (n.state = T.BEGIN_WHITESPACE, a === "﻿") continue;
 					pe(n, a);
 					continue;
-				case w.BEGIN_WHITESPACE:
+				case T.BEGIN_WHITESPACE:
 					pe(n, a);
 					continue;
-				case w.TEXT:
+				case T.TEXT:
 					if (n.sawRoot && !n.closedRoot) {
 						for (var o = i - 1; a && a !== "<" && a !== "&";) a = j(t, i++), a && n.trackPosition && (n.position++, a === "\n" ? (n.line++, n.column = 0) : n.column++);
 						n.textNode += t.substring(o, i - 1);
 					}
-					a === "<" && !(n.sawRoot && n.closedRoot && !n.strict) ? (n.state = w.OPEN_WAKA, n.startTagPosition = n.position) : (b(a) || n.sawRoot && !n.closedRoot || k(n, "Text data outside of root node."), a === "&" ? n.state = w.TEXT_ENTITY : n.textNode += a);
+					a === "<" && !(n.sawRoot && n.closedRoot && !n.strict) ? (n.state = T.OPEN_WAKA, n.startTagPosition = n.position) : (b(a) || n.sawRoot && !n.closedRoot || k(n, "Text data outside of root node."), a === "&" ? n.state = T.TEXT_ENTITY : n.textNode += a);
 					continue;
-				case w.SCRIPT:
-					a === "<" ? n.state = w.SCRIPT_ENDING : n.script += a;
+				case T.SCRIPT:
+					a === "<" ? n.state = T.SCRIPT_ENDING : n.script += a;
 					continue;
-				case w.SCRIPT_ENDING:
-					a === "/" ? n.state = w.CLOSE_TAG : (n.script += "<" + a, n.state = w.SCRIPT);
+				case T.SCRIPT_ENDING:
+					a === "/" ? n.state = T.CLOSE_TAG : (n.script += "<" + a, n.state = T.SCRIPT);
 					continue;
-				case w.OPEN_WAKA:
-					if (a === "!") n.state = w.SGML_DECL, n.sgmlDecl = "";
-					else if (!b(a)) if (S(g, a)) n.state = w.OPEN_TAG, n.tagName = a;
-					else if (a === "/") n.state = w.CLOSE_TAG, n.tagName = "";
-					else if (a === "?") n.state = w.PROC_INST, n.procInstName = n.procInstBody = "";
+				case T.OPEN_WAKA:
+					if (a === "!") n.state = T.SGML_DECL, n.sgmlDecl = "";
+					else if (!b(a)) if (C(g, a)) n.state = T.OPEN_TAG, n.tagName = a;
+					else if (a === "/") n.state = T.CLOSE_TAG, n.tagName = "";
+					else if (a === "?") n.state = T.PROC_INST, n.procInstName = n.procInstBody = "";
 					else {
 						if (k(n, "Unencoded <"), n.startTagPosition + 1 < n.position) {
 							var s = n.position - n.startTagPosition;
 							a = Array(s).join(" ") + a;
 						}
-						n.textNode += "<" + a, n.state = w.TEXT;
+						n.textNode += "<" + a, n.state = T.TEXT;
 					}
 					continue;
-				case w.SGML_DECL:
+				case T.SGML_DECL:
 					if (n.sgmlDecl + a === "--") {
-						n.state = w.COMMENT, n.comment = "", n.sgmlDecl = "";
+						n.state = T.COMMENT, n.comment = "", n.sgmlDecl = "";
 						continue;
 					}
-					n.doctype && n.doctype !== !0 && n.sgmlDecl ? (n.state = w.DOCTYPE_DTD, n.doctype += "<!" + n.sgmlDecl + a, n.sgmlDecl = "") : (n.sgmlDecl + a).toUpperCase() === d ? (D(n, "onopencdata"), n.state = w.CDATA, n.sgmlDecl = "", n.cdata = "") : (n.sgmlDecl + a).toUpperCase() === f ? (n.state = w.DOCTYPE, (n.doctype || n.sawRoot) && k(n, "Inappropriately located doctype declaration"), n.doctype = "", n.sgmlDecl = "") : a === ">" ? (D(n, "onsgmldeclaration", n.sgmlDecl), n.sgmlDecl = "", n.state = w.TEXT) : (x(a) && (n.state = w.SGML_DECL_QUOTED), n.sgmlDecl += a);
+					n.doctype && n.doctype !== !0 && n.sgmlDecl ? (n.state = T.DOCTYPE_DTD, n.doctype += "<!" + n.sgmlDecl + a, n.sgmlDecl = "") : (n.sgmlDecl + a).toUpperCase() === d ? (E(n, "onopencdata"), n.state = T.CDATA, n.sgmlDecl = "", n.cdata = "") : (n.sgmlDecl + a).toUpperCase() === f ? (n.state = T.DOCTYPE, (n.doctype || n.sawRoot) && k(n, "Inappropriately located doctype declaration"), n.doctype = "", n.sgmlDecl = "") : a === ">" ? (E(n, "onsgmldeclaration", n.sgmlDecl), n.sgmlDecl = "", n.state = T.TEXT) : (x(a) && (n.state = T.SGML_DECL_QUOTED), n.sgmlDecl += a);
 					continue;
-				case w.SGML_DECL_QUOTED:
-					a === n.q && (n.state = w.SGML_DECL, n.q = ""), n.sgmlDecl += a;
+				case T.SGML_DECL_QUOTED:
+					a === n.q && (n.state = T.SGML_DECL, n.q = ""), n.sgmlDecl += a;
 					continue;
-				case w.DOCTYPE:
-					a === ">" ? (n.state = w.TEXT, D(n, "ondoctype", n.doctype), n.doctype = !0) : (n.doctype += a, a === "[" ? n.state = w.DOCTYPE_DTD : x(a) && (n.state = w.DOCTYPE_QUOTED, n.q = a));
+				case T.DOCTYPE:
+					a === ">" ? (n.state = T.TEXT, E(n, "ondoctype", n.doctype), n.doctype = !0) : (n.doctype += a, a === "[" ? n.state = T.DOCTYPE_DTD : x(a) && (n.state = T.DOCTYPE_QUOTED, n.q = a));
 					continue;
-				case w.DOCTYPE_QUOTED:
-					n.doctype += a, a === n.q && (n.q = "", n.state = w.DOCTYPE);
+				case T.DOCTYPE_QUOTED:
+					n.doctype += a, a === n.q && (n.q = "", n.state = T.DOCTYPE);
 					continue;
-				case w.DOCTYPE_DTD:
-					a === "]" ? (n.doctype += a, n.state = w.DOCTYPE) : a === "<" ? (n.state = w.OPEN_WAKA, n.startTagPosition = n.position) : x(a) ? (n.doctype += a, n.state = w.DOCTYPE_DTD_QUOTED, n.q = a) : n.doctype += a;
+				case T.DOCTYPE_DTD:
+					a === "]" ? (n.doctype += a, n.state = T.DOCTYPE) : a === "<" ? (n.state = T.OPEN_WAKA, n.startTagPosition = n.position) : x(a) ? (n.doctype += a, n.state = T.DOCTYPE_DTD_QUOTED, n.q = a) : n.doctype += a;
 					continue;
-				case w.DOCTYPE_DTD_QUOTED:
-					n.doctype += a, a === n.q && (n.state = w.DOCTYPE_DTD, n.q = "");
+				case T.DOCTYPE_DTD_QUOTED:
+					n.doctype += a, a === n.q && (n.state = T.DOCTYPE_DTD, n.q = "");
 					continue;
-				case w.COMMENT:
-					a === "-" ? n.state = w.COMMENT_ENDING : n.comment += a;
+				case T.COMMENT:
+					a === "-" ? n.state = T.COMMENT_ENDING : n.comment += a;
 					continue;
-				case w.COMMENT_ENDING:
-					a === "-" ? (n.state = w.COMMENT_ENDED, n.comment = oe(n.opt, n.comment), n.comment && D(n, "oncomment", n.comment), n.comment = "") : (n.comment += "-" + a, n.state = w.COMMENT);
+				case T.COMMENT_ENDING:
+					a === "-" ? (n.state = T.COMMENT_ENDED, n.comment = oe(n.opt, n.comment), n.comment && E(n, "oncomment", n.comment), n.comment = "") : (n.comment += "-" + a, n.state = T.COMMENT);
 					continue;
-				case w.COMMENT_ENDED:
-					a === ">" ? n.state = n.doctype && n.doctype !== !0 ? w.DOCTYPE_DTD : w.TEXT : (k(n, "Malformed comment"), n.comment += "--" + a, n.state = w.COMMENT);
+				case T.COMMENT_ENDED:
+					a === ">" ? n.state = n.doctype && n.doctype !== !0 ? T.DOCTYPE_DTD : T.TEXT : (k(n, "Malformed comment"), n.comment += "--" + a, n.state = T.COMMENT);
 					continue;
-				case w.CDATA:
+				case T.CDATA:
 					for (var o = i - 1; a && a !== "]";) a = j(t, i++), a && n.trackPosition && (n.position++, a === "\n" ? (n.line++, n.column = 0) : n.column++);
-					n.cdata += t.substring(o, i - 1), a === "]" && (n.state = w.CDATA_ENDING);
+					n.cdata += t.substring(o, i - 1), a === "]" && (n.state = T.CDATA_ENDING);
 					continue;
-				case w.CDATA_ENDING:
-					a === "]" ? n.state = w.CDATA_ENDING_2 : (n.cdata += "]" + a, n.state = w.CDATA);
+				case T.CDATA_ENDING:
+					a === "]" ? n.state = T.CDATA_ENDING_2 : (n.cdata += "]" + a, n.state = T.CDATA);
 					continue;
-				case w.CDATA_ENDING_2:
-					a === ">" ? (n.cdata && D(n, "oncdata", n.cdata), D(n, "onclosecdata"), n.cdata = "", n.state = w.TEXT) : a === "]" ? n.cdata += "]" : (n.cdata += "]]" + a, n.state = w.CDATA);
+				case T.CDATA_ENDING_2:
+					a === ">" ? (n.cdata && E(n, "oncdata", n.cdata), E(n, "onclosecdata"), n.cdata = "", n.state = T.TEXT) : a === "]" ? n.cdata += "]" : (n.cdata += "]]" + a, n.state = T.CDATA);
 					continue;
-				case w.PROC_INST:
-					a === "?" ? n.state = w.PROC_INST_ENDING : b(a) ? n.state = w.PROC_INST_BODY : n.procInstName += a;
+				case T.PROC_INST:
+					a === "?" ? n.state = T.PROC_INST_ENDING : b(a) ? n.state = T.PROC_INST_BODY : n.procInstName += a;
 					continue;
-				case w.PROC_INST_BODY:
+				case T.PROC_INST_BODY:
 					if (!n.procInstBody && b(a)) continue;
-					a === "?" ? n.state = w.PROC_INST_ENDING : n.procInstBody += a;
+					a === "?" ? n.state = T.PROC_INST_ENDING : n.procInstBody += a;
 					continue;
-				case w.PROC_INST_ENDING:
+				case T.PROC_INST_ENDING:
 					if (a === ">") {
 						let e = {
 							name: n.procInstName,
 							body: n.procInstBody
 						};
-						ie(n, e), D(n, "onprocessinginstruction", e), n.procInstName = n.procInstBody = "", n.state = w.TEXT;
-					} else n.procInstBody += "?" + a, n.state = w.PROC_INST_BODY;
+						ae(n, e), E(n, "onprocessinginstruction", e), n.procInstName = n.procInstBody = "", n.state = T.TEXT;
+					} else n.procInstBody += "?" + a, n.state = T.PROC_INST_BODY;
 					continue;
-				case w.OPEN_TAG:
-					S(_, a) ? n.tagName += a : (ce(n), a === ">" ? de(n) : a === "/" ? n.state = w.OPEN_TAG_SLASH : (b(a) || k(n, "Invalid character in tag name"), n.state = w.ATTRIB));
+				case T.OPEN_TAG:
+					C(_, a) ? n.tagName += a : (ce(n), a === ">" ? de(n) : a === "/" ? n.state = T.OPEN_TAG_SLASH : (b(a) || k(n, "Invalid character in tag name"), n.state = T.ATTRIB));
 					continue;
-				case w.OPEN_TAG_SLASH:
-					a === ">" ? (de(n, !0), fe(n)) : (k(n, "Forward-slash in opening tag not followed by >"), n.state = w.ATTRIB);
+				case T.OPEN_TAG_SLASH:
+					a === ">" ? (de(n, !0), A(n)) : (k(n, "Forward-slash in opening tag not followed by >"), n.state = T.ATTRIB);
 					continue;
-				case w.ATTRIB:
+				case T.ATTRIB:
 					if (b(a)) continue;
-					a === ">" ? de(n) : a === "/" ? n.state = w.OPEN_TAG_SLASH : S(g, a) ? (n.attribName = a, n.attribValue = "", n.state = w.ATTRIB_NAME) : k(n, "Invalid attribute name");
+					a === ">" ? de(n) : a === "/" ? n.state = T.OPEN_TAG_SLASH : C(g, a) ? (n.attribName = a, n.attribValue = "", n.state = T.ATTRIB_NAME) : k(n, "Invalid attribute name");
 					continue;
-				case w.ATTRIB_NAME:
-					a === "=" ? n.state = w.ATTRIB_VALUE : a === ">" ? (k(n, "Attribute without value"), n.attribValue = n.attribName, ue(n), de(n)) : b(a) ? n.state = w.ATTRIB_NAME_SAW_WHITE : S(_, a) ? n.attribName += a : k(n, "Invalid attribute name");
+				case T.ATTRIB_NAME:
+					a === "=" ? n.state = T.ATTRIB_VALUE : a === ">" ? (k(n, "Attribute without value"), n.attribValue = n.attribName, ue(n), de(n)) : b(a) ? n.state = T.ATTRIB_NAME_SAW_WHITE : C(_, a) ? n.attribName += a : k(n, "Invalid attribute name");
 					continue;
-				case w.ATTRIB_NAME_SAW_WHITE:
-					if (a === "=") n.state = w.ATTRIB_VALUE;
+				case T.ATTRIB_NAME_SAW_WHITE:
+					if (a === "=") n.state = T.ATTRIB_VALUE;
 					else if (b(a)) continue;
-					else k(n, "Attribute without value"), n.tag.attributes[n.attribName] = "", n.attribValue = "", D(n, "onattribute", {
+					else k(n, "Attribute without value"), n.tag.attributes[n.attribName] = "", n.attribValue = "", E(n, "onattribute", {
 						name: n.attribName,
 						value: ""
-					}), n.attribName = "", a === ">" ? de(n) : S(g, a) ? (n.attribName = a, n.state = w.ATTRIB_NAME) : (k(n, "Invalid attribute name"), n.state = w.ATTRIB);
+					}), n.attribName = "", a === ">" ? de(n) : C(g, a) ? (n.attribName = a, n.state = T.ATTRIB_NAME) : (k(n, "Invalid attribute name"), n.state = T.ATTRIB);
 					continue;
-				case w.ATTRIB_VALUE:
+				case T.ATTRIB_VALUE:
 					if (b(a)) continue;
-					x(a) ? (n.q = a, n.state = w.ATTRIB_VALUE_QUOTED) : (n.opt.unquotedAttributeValues || O(n, "Unquoted attribute value"), n.state = w.ATTRIB_VALUE_UNQUOTED, n.attribValue = a);
+					x(a) ? (n.q = a, n.state = T.ATTRIB_VALUE_QUOTED) : (n.opt.unquotedAttributeValues || O(n, "Unquoted attribute value"), n.state = T.ATTRIB_VALUE_UNQUOTED, n.attribValue = a);
 					continue;
-				case w.ATTRIB_VALUE_QUOTED:
+				case T.ATTRIB_VALUE_QUOTED:
 					if (a !== n.q) {
-						a === "&" ? n.state = w.ATTRIB_VALUE_ENTITY_Q : n.attribValue += a;
+						a === "&" ? n.state = T.ATTRIB_VALUE_ENTITY_Q : n.attribValue += a;
 						continue;
 					}
-					ue(n), n.q = "", n.state = w.ATTRIB_VALUE_CLOSED;
+					ue(n), n.q = "", n.state = T.ATTRIB_VALUE_CLOSED;
 					continue;
-				case w.ATTRIB_VALUE_CLOSED:
-					b(a) ? n.state = w.ATTRIB : a === ">" ? de(n) : a === "/" ? n.state = w.OPEN_TAG_SLASH : S(g, a) ? (k(n, "No whitespace between attributes"), n.attribName = a, n.attribValue = "", n.state = w.ATTRIB_NAME) : k(n, "Invalid attribute name");
+				case T.ATTRIB_VALUE_CLOSED:
+					b(a) ? n.state = T.ATTRIB : a === ">" ? de(n) : a === "/" ? n.state = T.OPEN_TAG_SLASH : C(g, a) ? (k(n, "No whitespace between attributes"), n.attribName = a, n.attribValue = "", n.state = T.ATTRIB_NAME) : k(n, "Invalid attribute name");
 					continue;
-				case w.ATTRIB_VALUE_UNQUOTED:
-					if (!ee(a)) {
-						a === "&" ? n.state = w.ATTRIB_VALUE_ENTITY_U : n.attribValue += a;
+				case T.ATTRIB_VALUE_UNQUOTED:
+					if (!S(a)) {
+						a === "&" ? n.state = T.ATTRIB_VALUE_ENTITY_U : n.attribValue += a;
 						continue;
 					}
-					ue(n), a === ">" ? de(n) : n.state = w.ATTRIB;
+					ue(n), a === ">" ? de(n) : n.state = T.ATTRIB;
 					continue;
-				case w.CLOSE_TAG:
-					if (n.tagName) a === ">" ? fe(n) : S(_, a) ? n.tagName += a : n.script ? (n.script += "</" + n.tagName + a, n.tagName = "", n.state = w.SCRIPT) : (b(a) || k(n, "Invalid tagname in closing tag"), n.state = w.CLOSE_TAG_SAW_WHITE);
+				case T.CLOSE_TAG:
+					if (n.tagName) a === ">" ? A(n) : C(_, a) ? n.tagName += a : n.script ? (n.script += "</" + n.tagName + a, n.tagName = "", n.state = T.SCRIPT) : (b(a) || k(n, "Invalid tagname in closing tag"), n.state = T.CLOSE_TAG_SAW_WHITE);
 					else {
 						if (b(a)) continue;
-						C(g, a) ? n.script ? (n.script += "</" + a, n.state = w.SCRIPT) : k(n, "Invalid tagname in closing tag.") : n.tagName = a;
+						w(g, a) ? n.script ? (n.script += "</" + a, n.state = T.SCRIPT) : k(n, "Invalid tagname in closing tag.") : n.tagName = a;
 					}
 					continue;
-				case w.CLOSE_TAG_SAW_WHITE:
+				case T.CLOSE_TAG_SAW_WHITE:
 					if (b(a)) continue;
-					a === ">" ? fe(n) : k(n, "Invalid characters in closing tag");
+					a === ">" ? A(n) : k(n, "Invalid characters in closing tag");
 					continue;
-				case w.TEXT_ENTITY:
-				case w.ATTRIB_VALUE_ENTITY_Q:
-				case w.ATTRIB_VALUE_ENTITY_U:
+				case T.TEXT_ENTITY:
+				case T.ATTRIB_VALUE_ENTITY_Q:
+				case T.ATTRIB_VALUE_ENTITY_U:
 					var c, l;
 					switch (n.state) {
-						case w.TEXT_ENTITY:
-							c = w.TEXT, l = "textNode";
+						case T.TEXT_ENTITY:
+							c = T.TEXT, l = "textNode";
 							break;
-						case w.ATTRIB_VALUE_ENTITY_Q:
-							c = w.ATTRIB_VALUE_QUOTED, l = "attribValue";
+						case T.ATTRIB_VALUE_ENTITY_Q:
+							c = T.ATTRIB_VALUE_QUOTED, l = "attribValue";
 							break;
-						case w.ATTRIB_VALUE_ENTITY_U: c = w.ATTRIB_VALUE_UNQUOTED, l = "attribValue";
+						case T.ATTRIB_VALUE_ENTITY_U: c = T.ATTRIB_VALUE_UNQUOTED, l = "attribValue";
 					}
 					if (a === ";") {
-						var u = A(n);
+						var u = fe(n);
 						n.opt.unparsedEntities && !Object.values(e.XML_ENTITIES).includes(u) ? ((n.entityCount += 1) > n.opt.maxEntityCount && O(n, "Parsed entity count exceeds max entity count"), (n.entityDepth += 1) > n.opt.maxEntityDepth && O(n, "Parsed entity depth exceeds max entity depth"), n.entity = "", n.state = c, n.write(u), --n.entityDepth) : (n[l] += u, n.entity = "", n.state = c);
-					} else S(n.entity.length ? y : v, a) ? n.entity += a : (k(n, "Invalid character in entity name"), n[l] += "&" + n.entity + a, n.entity = "", n.state = c);
+					} else C(n.entity.length ? y : v, a) ? n.entity += a : (k(n, "Invalid character in entity name"), n[l] += "&" + n.entity + a, n.entity = "", n.state = c);
 					continue;
 				default: throw Error(n, "Unknown state: " + n.state);
 			}
@@ -3654,60 +3654,60 @@ function ki(e) {
 	};
 }
 function Ai(e) {
-	let { node: n, state: r, dialecteConfig: i, useCustomRecordsIds: a } = e, o = Li(n);
-	r.stack.length === 0 && (r.sawRoot && m("PARSE_ERROR", {
-		detail: `XML parsing error: a second root element <${n.name}> after the root was closed`,
+	let { node: t, state: n, dialecteConfig: r, useCustomRecordsIds: i } = e, a = Li(t);
+	n.stack.length === 0 && (n.sawRoot && f("PARSE_ERROR", {
+		detail: `XML parsing error: a second root element <${t.name}> after the root was closed`,
 		meta: {
 			reason: "second-root",
-			tagName: n.name
+			tagName: t.name
 		}
-	}), r.sawRoot = !0), r.defaultNamespace ||= Ri({
-		element: n,
-		defaultNamespace: i.namespaces.default,
-		rootElementName: i.rootElementName
+	}), n.sawRoot = !0), n.defaultNamespace ||= Ri({
+		element: t,
+		defaultNamespace: r.namespaces.default,
+		rootElementName: r.rootElementName
 	});
-	let s = r.defaultNamespace, c = zi({
-		element: n,
-		defaultNamespace: s
-	}), l = Wi({
-		attributes: n.attributes,
-		useCustomRecordsIds: a,
-		tagName: o
-	}), u = Gi({
-		attributes: n.attributes,
-		useCustomRecordsIds: a
+	let o = n.defaultNamespace, s = zi({
+		element: t,
+		defaultNamespace: o
+	}), c = Wi({
+		attributes: t.attributes,
+		useCustomRecordsIds: i,
+		tagName: a
+	}), l = Gi({
+		attributes: t.attributes,
+		useCustomRecordsIds: i
 	});
 	Vi({
-		attributes: n.attributes,
-		tagName: o
+		attributes: t.attributes,
+		tagName: a
 	});
-	function d(e) {
+	function u(e) {
 		return Hi({
-			node: n,
+			node: t,
 			prefix: e,
-			documentDefault: s
+			documentDefault: o
 		});
 	}
-	let f = {
-		id: l,
-		tagName: o,
-		namespace: c,
-		attributes: t({
-			dialecteConfig: i,
-			attributes: Bi(u),
-			namespaceOf: d
+	let d = {
+		id: c,
+		tagName: a,
+		namespace: s,
+		attributes: g({
+			dialecteConfig: r,
+			attributes: Bi(l),
+			namespaceOf: u
 		}),
 		value: "",
-		parent: Ui(r.stack),
+		parent: Ui(n.stack),
 		children: []
 	};
-	return r.stack.push(f), d;
+	return n.stack.push(d), u;
 }
 function ji(e) {
-	let { state: t } = e;
+	let { state: n } = e;
 	Mi({
-		text: y({ text: e.text }),
-		state: t
+		text: t({ text: e.text }),
+		state: n
 	});
 }
 function Mi(e) {
@@ -3728,7 +3728,7 @@ function Ni(e) {
 }
 function Pi(e) {
 	let { character: t, where: n } = e;
-	m("PARSE_ERROR", {
+	f("PARSE_ERROR", {
 		detail: `XML parsing error: ${n} holds ${t}, a character XML does not allow (as written or as a character reference)`,
 		meta: {
 			reason: "not-xml-character",
@@ -3762,7 +3762,7 @@ function Fi(e) {
 	}), t.recordsBatch.push(u);
 }
 function Ii(e) {
-	m("PARSE_ERROR", {
+	f("PARSE_ERROR", {
 		detail: `XML parsing error: ${e.message}`,
 		meta: {
 			reason: "malformed-xml",
@@ -3775,7 +3775,7 @@ function Li(e) {
 }
 function Ri(e) {
 	let { element: t, defaultNamespace: n, rootElementName: r } = e;
-	return g(t.name === r, { detail: `Expected root element <${r}>, got <${t.name}>` }), t.attributes?.xmlns?.value ? {
+	return j(t.name === r, { detail: `Expected root element <${r}>, got <${t.name}>` }), t.attributes?.xmlns?.value ? {
 		prefix: "",
 		uri: t.attributes.xmlns.value
 	} : n;
@@ -3829,17 +3829,17 @@ function Ui(e) {
 	} : null;
 }
 function Wi(e) {
-	let { attributes: t, useCustomRecordsIds: n, tagName: r } = e, i = t[p];
-	if (!n || !i || !i.value) return crypto.randomUUID();
-	let a = ur({ text: i.value });
-	return a && Pi({
-		character: a,
-		where: `The attribute ${p} of <${r}>`
-	}), i.value;
+	let { attributes: t, useCustomRecordsIds: n, tagName: i } = e, a = t[r];
+	if (!n || !a || !a.value) return crypto.randomUUID();
+	let o = ur({ text: a.value });
+	return o && Pi({
+		character: o,
+		where: `The attribute ${r} of <${i}>`
+	}), a.value;
 }
 function Gi(e) {
 	let { attributes: t, useCustomRecordsIds: n } = e;
-	return n ? Object.values(t).filter((e) => e.name !== p) : Object.values(t);
+	return n ? Object.values(t).filter((e) => e.name !== r) : Object.values(t);
 }
 async function Ki(e, t = {}) {
 	let { file: n, perf: r = Y } = e, i = e.reporter ? void 0 : mi({
@@ -3858,7 +3858,7 @@ async function Ki(e, t = {}) {
 }
 async function qi(e, t) {
 	let { documentId: n, configKey: r, store: i, config: a, useCustomRecordsIds: o = !1, chunkOptions: s, hooks: c, perf: l = Y, reporter: u } = e, { file: d } = e;
-	if (g(ti({ extensions: a.io.supportedFileExtensions }).some((e) => d.name.toLowerCase().endsWith(e)), {
+	if (j(ti({ extensions: a.io.supportedFileExtensions }).some((e) => d.name.toLowerCase().endsWith(e)), {
 		key: "ASSERTION_FAILED",
 		detail: `Unsupported file type: ${d.name}`
 	}), d.size === 0) return {
@@ -3874,15 +3874,15 @@ async function qi(e, t) {
 	let p = s?.chunkSize ?? 32768, m = s?.batchSize ?? 2e3, h = c?.createImportSession?.({
 		documentId: n,
 		configKey: r
-	}), _ = ki({
+	}), g = ki({
 		dialecteConfig: a,
 		useCustomRecordsIds: o,
 		hooks: c,
 		importSession: h,
 		perf: l
-	}), v = await Ji({
+	}), _ = await Ji({
 		file: d,
-		sax: _,
+		sax: g,
 		store: i,
 		documentId: n,
 		chunkSize: p,
@@ -3890,7 +3890,7 @@ async function qi(e, t) {
 		perf: l,
 		control: t,
 		reporter: u
-	}), { recordDelta: y, diagnostics: b } = await Yi({
+	}), { recordDelta: v, diagnostics: y } = await Yi({
 		importSession: h,
 		store: i,
 		documentId: n,
@@ -3901,8 +3901,8 @@ async function qi(e, t) {
 	});
 	return {
 		documentId: n,
-		recordCount: v + y,
-		diagnostics: b
+		recordCount: _ + v,
+		diagnostics: y
 	};
 }
 async function Ji(e) {
@@ -4077,8 +4077,8 @@ function $i(e) {
 		wt({ value: t });
 	} catch (e) {
 		let r = `among the diagnostics ${n}-${n + t.length - 1}`;
-		m("STORE_VALUE_NOT_JSON", {
-			detail: `A diagnostic of the import session: ${a(e)?.detail ?? String(e)} (${r})`,
+		f("STORE_VALUE_NOT_JSON", {
+			detail: `A diagnostic of the import session: ${b(e)?.detail ?? String(e)} (${r})`,
 			cause: e instanceof Error ? e : void 0
 		});
 	}
@@ -4093,7 +4093,7 @@ function ea(e) {
 }
 function ta(e) {
 	let { signal: t, file: n } = e;
-	t?.aborted && m("IMPORT_ABORTED", {
+	t?.aborted && f("IMPORT_ABORTED", {
 		detail: `The import of "${n.name}" was aborted`,
 		meta: { fileName: n.name }
 	});
@@ -4122,58 +4122,58 @@ async function ra(e) {
 	}), u;
 }
 async function ia(e, t = {}) {
-	let { runtime: n, file: i, options: o, writeId: s } = e, c = e.perf ?? $t({
+	let { runtime: n, file: r, options: i, writeId: a } = e, o = e.perf ?? $t({
 		enabled: n.perf ?? !1,
 		timeline: !1
 	});
 	ta({
 		signal: t.signal,
-		file: i
+		file: r
 	});
-	let { configKey: l, config: u } = en({
+	let { configKey: s, config: c } = en({
 		configs: n.configs,
 		defaultConfigKey: n.defaultConfigKey,
-		configKey: o?.configKey
-	}), d = {
+		configKey: i?.configKey
+	}), l = {
 		id: crypto.randomUUID(),
 		...aa({
-			file: i,
-			path: o?.path,
-			config: u
+			file: r,
+			path: i?.path,
+			config: c
 		}),
-		configKey: l,
+		configKey: s,
 		createdAt: Date.now(),
-		metadata: o?.metadata,
+		metadata: i?.metadata,
 		status: "importing",
-		writeId: s,
-		...o?.path !== void 0 && { path: o.path }
-	}, f = mi({
-		totalBytes: i.size,
+		writeId: a,
+		...i?.path !== void 0 && { path: i.path }
+	}, u = mi({
+		totalBytes: r.size,
 		listener: t.onProgress,
-		perf: c
+		perf: o
 	});
-	c.start("import");
-	let p;
+	o.start("import");
+	let d;
 	try {
-		p = await oa({
+		d = await oa({
 			...e,
 			control: t,
-			registered: d,
-			config: u,
-			perf: c,
-			reporter: f
+			registered: l,
+			config: c,
+			perf: o,
+			reporter: u
 		});
 	} catch (e) {
-		throw a(e) ? e : r("IMPORT_FAILED", {
+		throw b(e) ? e : _("IMPORT_FAILED", {
 			detail: e instanceof Error ? e.message : String(e),
 			cause: e instanceof Error ? e : void 0
 		});
 	} finally {
-		f.close(), c.stop("import");
+		u.close(), o.stop("import");
 	}
 	return {
-		...p,
-		...n.perf && { perf: c.snapshot() }
+		...d,
+		...n.perf && { perf: o.snapshot() }
 	};
 }
 function aa(e) {
@@ -4212,7 +4212,7 @@ async function oa(e) {
 			file: r
 		}), l.tell({ phase: "finishing" }), c.start("import::finalize");
 		try {
-			await t.getDocument(o.id) || m("DOCUMENT_NOT_REGISTERED", {
+			await t.getDocument(o.id) || f("DOCUMENT_NOT_REGISTERED", {
 				detail: `Document "${o.id}" of "${r.name}" was removed while it imported`,
 				meta: { documentId: o.id }
 			}), await t.markReady(o.id);
@@ -4246,7 +4246,7 @@ var ca = {
 };
 function la(e) {
 	let { runtime: t, storeName: n, operation: r } = e;
-	return t || m(ca[r], { detail: `Store "${n}" has no dialecte to ${r} with: build it with a runtime` }), t;
+	return t || f(ca[r], { detail: `Store "${n}" has no dialecte to ${r} with: build it with a runtime` }), t;
 }
 function ua(e, t) {
 	return e.id < t.id ? -1 : +(e.id > t.id);
@@ -4268,22 +4268,22 @@ function ma() {
 	return {};
 }
 function ha(e) {
-	let { id: t, version: n, configs: i, defaultConfigKey: a, extensions: o, createHooks: s } = e;
-	if (!Object.hasOwn(i, a)) throw r("UNKNOWN_CONFIG_KEY", {
-		detail: `Dialecte "${t}" names "${a}" as its default config, which is none of its configs: ${Object.keys(i).join(", ") || "(none)"}.`,
+	let { id: t, version: n, configs: r, defaultConfigKey: i, extensions: a, createHooks: o } = e;
+	if (!Object.hasOwn(r, i)) throw _("UNKNOWN_CONFIG_KEY", {
+		detail: `Dialecte "${t}" names "${i}" as its default config, which is none of its configs: ${Object.keys(r).join(", ") || "(none)"}.`,
 		meta: {
 			id: t,
-			defaultConfigKey: a,
-			configKeys: Object.keys(i)
+			defaultConfigKey: i,
+			configKeys: Object.keys(r)
 		}
 	});
 	return Object.freeze({
 		id: t,
 		version: n,
-		configs: i,
-		defaultConfigKey: a,
-		extensions: o ?? pa,
-		createHooks: s ?? ma
+		configs: r,
+		defaultConfigKey: i,
+		extensions: a ?? pa,
+		createHooks: o ?? ma
 	});
 }
 async function ga(e) {
@@ -4398,16 +4398,16 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 				} else n === void 0 ? a(e) && !isNaN(parseInt(t)) ? e.splice(t, 1) : delete e[t] : e[t] = n;
 			}
 		}
-		function ee(e) {
+		function S(e) {
 			var t, n = {};
 			for (t in e) l(e, t) && (n[t] = e[t]);
 			return n;
 		}
-		var S = [].concat;
-		function C(e) {
-			return S.apply([], e);
+		var C = [].concat;
+		function w(e) {
+			return C.apply([], e);
 		}
-		var w = "BigUint64Array,BigInt64Array,Array,Boolean,String,Date,RegExp,Blob,File,FileList,FileSystemFileHandle,FileSystemDirectoryHandle,ArrayBuffer,DataView,Uint8ClampedArray,ImageBitmap,ImageData,Map,Set,CryptoKey".split(",").concat(C([
+		var T = "BigUint64Array,BigInt64Array,Array,Boolean,String,Date,RegExp,Blob,File,FileList,FileSystemFileHandle,FileSystemDirectoryHandle,ArrayBuffer,DataView,Uint8ClampedArray,ImageBitmap,ImageData,Map,Set,CryptoKey".split(",").concat(w([
 			8,
 			16,
 			32,
@@ -4422,7 +4422,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			});
 		}))).filter(function(e) {
 			return r[e];
-		}), T = new Set(w.map(function(e) {
+		}), ee = new Set(T.map(function(e) {
 			return r[e];
 		})), te = null;
 		function ne(e) {
@@ -4433,7 +4433,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 				if (a(t)) {
 					n = [], te.set(t, n);
 					for (var r = 0, i = t.length; r < i; ++r) n.push(e(t[r]));
-				} else if (T.has(t.constructor)) n = t;
+				} else if (ee.has(t.constructor)) n = t;
 				else {
 					var o, c = s(t);
 					for (o in n = c === Object.prototype ? {} : Object.create(c), te.set(t, n), t) l(t, o) && (n[o] = e(t[o]));
@@ -4442,16 +4442,16 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			}(e), te = null, e;
 		}
 		var re = {}.toString;
-		function E(e) {
+		function ie(e) {
 			return re.call(e).slice(8, -1);
 		}
-		var ie = typeof Symbol < "u" ? Symbol.iterator : "@@iterator", D = typeof ie == "symbol" ? function(e) {
+		var ae = typeof Symbol < "u" ? Symbol.iterator : "@@iterator", E = typeof ae == "symbol" ? function(e) {
 			var t;
-			return e != null && (t = e[ie]) && t.apply(e);
+			return e != null && (t = e[ae]) && t.apply(e);
 		} : function() {
 			return null;
 		};
-		function ae(e, t) {
+		function D(e, t) {
 			t = e.indexOf(t), 0 <= t && e.splice(t, 1);
 		}
 		var oe = {};
@@ -4460,7 +4460,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			if (arguments.length === 1) {
 				if (a(e)) return e.slice();
 				if (this === oe && typeof e == "string") return [e];
-				if (i = D(e)) for (n = []; !(r = i.next()).done;) n.push(r.value);
+				if (i = E(e)) for (n = []; !(r = i.next()).done;) n.push(r.value);
 				else {
 					if (e == null || typeof (t = e.length) != "number") return [e];
 					for (n = Array(t); t--;) n[t] = e[t];
@@ -4472,7 +4472,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			return e[Symbol.toStringTag] === "AsyncFunction";
 		} : function() {
 			return !1;
-		}, w = [
+		}, T = [
 			"Unknown",
 			"Constraint",
 			"Data",
@@ -4504,7 +4504,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			"DatabaseClosed",
 			"PrematureCommit",
 			"ForeignAwait"
-		].concat(w), ce = {
+		].concat(T), ce = {
 			VersionChanged: "Database version changed by other database connection",
 			DatabaseClosed: "Database has been closed",
 			Abort: "Transaction aborted",
@@ -4524,15 +4524,15 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 		function de(e, t, n, r) {
 			this.failures = t, this.failedKeys = r, this.successCount = n, this.message = ue(e, t);
 		}
-		function fe(e, t) {
+		function A(e, t) {
 			this.name = "BulkError", this.failures = Object.keys(t).map(function(e) {
 				return t[e];
 			}), this.failuresByPos = t, this.message = ue(e, this.failures);
 		}
 		p(le).from(Error).extend({ toString: function() {
 			return this.name + ": " + this.message;
-		} }), p(de).from(le), p(fe).from(le);
-		var A = k.reduce(function(e, t) {
+		} }), p(de).from(le), p(A).from(le);
+		var fe = k.reduce(function(e, t) {
 			return e[t] = t + "Error", e;
 		}, {}), pe = le, j = k.reduce(function(e, t) {
 			var n = t + "Error";
@@ -4540,10 +4540,10 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 				this.name = n, e ? typeof e == "string" ? (this.message = `${e}${r ? "\n " + r : ""}`, this.inner = r || null) : typeof e == "object" && (this.message = `${e.name} ${e.message}`, this.inner = e) : (this.message = ce[t] || n, this.inner = null);
 			}
 			return p(r).from(pe), e[t] = r, e;
-		}, {}), me = (j.Syntax = SyntaxError, j.Type = TypeError, j.Range = RangeError, w.reduce(function(e, t) {
+		}, {}), me = (j.Syntax = SyntaxError, j.Type = TypeError, j.Range = RangeError, T.reduce(function(e, t) {
 			return e[t + "Error"] = j[t], e;
 		}, {}));
-		w = k.reduce(function(e, t) {
+		T = k.reduce(function(e, t) {
 			return [
 				"Syntax",
 				"Type",
@@ -4600,7 +4600,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 				return t.apply(this, arguments);
 			};
 		}
-		w.ModifyError = de, w.DexieError = le, w.BulkError = fe;
+		T.ModifyError = de, T.DexieError = le, T.BulkError = A;
 		var Ce = typeof location < "u" && /^(http|https):\/\/(localhost|127\.0\.0\.1)/.test(location.href);
 		function we(e) {
 			Ce = e;
@@ -5022,7 +5022,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 		}
 		function St(e) {
 			var t = typeof e;
-			return t == "object" && (ArrayBuffer.isView(e) || (t = E(e)) === "ArrayBuffer") ? "binary" : t;
+			return t == "object" && (ArrayBuffer.isView(e) || (t = ie(e)) === "ArrayBuffer") ? "binary" : t;
 		}
 		function Ct(e) {
 			return e instanceof Uint8Array ? e : ArrayBuffer.isView(e) ? new Uint8Array(e.buffer, e.byteOffset, e.byteLength) : new Uint8Array(e);
@@ -5095,7 +5095,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 						try {
 							a.create(), t._state.PR1398_maxLoop = 3;
 						} catch (a) {
-							return a.name === A.InvalidState && t.isOpen() && 0 < --t._state.PR1398_maxLoop ? (console.warn("Dexie: Need to reopen db"), t.close({ disableAutoOpen: !1 }), t.open().then(function() {
+							return a.name === fe.InvalidState && t.isOpen() && 0 < --t._state.PR1398_maxLoop ? (console.warn("Dexie: Need to reopen db"), t.close({ disableAutoOpen: !1 }), t.open().then(function() {
 								return e(t, n, r, i);
 							})) : R(a);
 						}
@@ -5338,7 +5338,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 				}).then(function(e) {
 					var t = e.numFailures, n = e.failures;
 					if (t === 0) return a ? e.results : e.lastResult;
-					throw new fe(`${r.name}.bulkAdd(): ${t} of ${s} operations failed`, n);
+					throw new A(`${r.name}.bulkAdd(): ${t} of ${s} operations failed`, n);
 				});
 			});
 		}, B.prototype.bulkPut = function(e, t, n) {
@@ -5357,7 +5357,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 				}).then(function(e) {
 					var t = e.numFailures, n = e.failures;
 					if (t === 0) return a ? e.results : e.lastResult;
-					throw new fe(`${r.name}.bulkPut(): ${t} of ${s} operations failed`, n);
+					throw new A(`${r.name}.bulkPut(): ${t} of ${s} operations failed`, n);
 				});
 			});
 		}, B.prototype.bulkUpdate = function(e) {
@@ -5400,7 +5400,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 							var s, c = o[i], l = a[Number(c)];
 							l != null && (s = r[c], delete r[c], r[l] = s);
 						}
-						throw new fe(`${t.name}.bulkUpdate(): ${n} of ${u} operations failed`, r);
+						throw new A(`${t.name}.bulkUpdate(): ${n} of ${u} operations failed`, r);
 					});
 				});
 			});
@@ -5417,7 +5417,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			}).then(function(e) {
 				var r = e.numFailures, i = e.failures;
 				if (r === 0) return e.lastResult;
-				throw new fe(`${t.name}.bulkDelete(): ${r} of ${n} operations failed`, i);
+				throw new A(`${t.name}.bulkDelete(): ${r} of ${n} operations failed`, i);
 			});
 		};
 		var Ot = B;
@@ -5729,11 +5729,11 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 						})).then(function(g) {
 							var _ = [], v = [], y = l ? [] : null, b = h ? m : [];
 							if (!h) for (var x = 0; x < p; ++x) {
-								var ee = g[x], S = {
-									value: ne(ee),
+								var S = g[x], C = {
+									value: ne(S),
 									primKey: t[f + x]
 								};
-								!1 !== o.call(S, S.value, S) && (S.value == null ? b.push(t[f + x]) : l || z(u(ee), u(S.value)) === 0 ? (v.push(S.value), l && y.push(t[f + x])) : (b.push(t[f + x]), _.push(S.value)));
+								!1 !== o.call(C, C.value, C) && (C.value == null ? b.push(t[f + x]) : l || z(u(S), u(C.value)) === 0 ? (v.push(C.value), l && y.push(t[f + x])) : (b.push(t[f + x]), _.push(C.value)));
 							}
 							return Promise.resolve(0 < _.length && s.mutate({
 								trans: r,
@@ -6465,7 +6465,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 									return t.deleteIndex(e);
 								});
 							}), e._cfg.contentUpgrade);
-							if (p && e._cfg.version > a) return an(r, c), s._memoizedTables = {}, t = ee(d), f.del.forEach(function(e) {
+							if (p && e._cfg.version > a) return an(r, c), s._memoizedTables = {}, t = S(d), f.del.forEach(function(e) {
 								t[e] = l[e];
 							}), sn(r, [r.Transaction.prototype]), on(r, [r.Transaction.prototype], i(t), t), s.schema = t, (n = se(p)) && rt(), d = F.follow(function() {
 								var e;
@@ -6773,7 +6773,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			return i(t).forEach(function(n) {
 				e[n] ? En(e[n], t[n]) : e[n] = function e(t) {
 					var n, r, i = {};
-					for (n in t) l(t, n) && (r = t[n], i[n] = !r || typeof r != "object" || T.has(r.constructor) ? r : e(r));
+					for (n in t) l(t, n) && (r = t[n], i[n] = !r || typeof r != "object" || ee.has(r.constructor) ? r : e(r));
 					return i;
 				}(t[n]);
 			}), e;
@@ -6800,7 +6800,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 				var t = On(this).next(e).value;
 				return t && z(t.from, e) <= 0 && 0 <= z(t.to, e);
 			}
-		})[ie] = function() {
+		})[ae] = function() {
 			return On(this);
 		}, k));
 		var Nn = {}, Pn = {}, Fn = !1;
@@ -7025,7 +7025,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 		function Un(e, t, n, r) {
 			return n ||= {}, r ||= "", i(e).forEach(function(i) {
 				var a, o, s;
-				l(t, i) ? (a = e[i], o = t[i], typeof a == "object" && typeof o == "object" && a && o ? (s = E(a)) === E(o) ? s === "Object" ? Un(a, o, n, r + i + ".") : a !== o && (n[r + i] = t[i]) : n[r + i] = t[i] : a !== o && (n[r + i] = t[i])) : n[r + i] = void 0;
+				l(t, i) ? (a = e[i], o = t[i], typeof a == "object" && typeof o == "object" && a && o ? (s = ie(a)) === ie(o) ? s === "Object" ? Un(a, o, n, r + i + ".") : a !== o && (n[r + i] = t[i]) : n[r + i] = t[i] : a !== o && (n[r + i] = t[i])) : n[r + i] = void 0;
 			}), i(t).forEach(function(i) {
 				l(e, i) || (n[r + i] = t[i]);
 			}), n;
@@ -7372,7 +7372,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			e.subscribers.add(n), r.addEventListener("abort", function() {
 				var r, i;
 				e.subscribers.delete(n), e.subscribers.size === 0 && (r = e, i = t, setTimeout(function() {
-					r.subscribers.size === 0 && ae(i, r);
+					r.subscribers.size === 0 && D(i, r);
 				}, 3e3));
 			});
 		}
@@ -7394,16 +7394,16 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 											var f = e.table(u), p = d.optimisticOps.filter(function(e) {
 												return e.trans === s;
 											});
-											if (s._explicit && i && s.mutatedParts) for (var m = 0, h = Object.values(d.queries.query); m < h.length; m++) for (var g = 0, _ = (b = h[m]).slice(); g < _.length; g++) Mn((x = _[g]).obsSet, s.mutatedParts) && (ae(b, x), x.subscribers.forEach(function(e) {
+											if (s._explicit && i && s.mutatedParts) for (var m = 0, h = Object.values(d.queries.query); m < h.length; m++) for (var g = 0, _ = (b = h[m]).slice(); g < _.length; g++) Mn((x = _[g]).obsSet, s.mutatedParts) && (D(b, x), x.subscribers.forEach(function(e) {
 												return o.add(e);
 											}));
 											else if (0 < p.length) {
 												d.optimisticOps = d.optimisticOps.filter(function(e) {
 													return e.trans !== s;
 												});
-												for (var v = 0, y = Object.values(d.queries.query); v < y.length; v++) for (var b, x, ee, S = 0, C = (b = y[v]).slice(); S < C.length; S++) (x = C[S]).res != null && s.mutatedParts && (i && !x.dirty ? (ee = Object.isFrozen(x.res), ee = $n(x.res, x.req, p, f, x, ee), x.dirty ? (ae(b, x), x.subscribers.forEach(function(e) {
+												for (var v = 0, y = Object.values(d.queries.query); v < y.length; v++) for (var b, x, S, C = 0, w = (b = y[v]).slice(); C < w.length; C++) (x = w[C]).res != null && s.mutatedParts && (i && !x.dirty ? (S = Object.isFrozen(x.res), S = $n(x.res, x.req, p, f, x, S), x.dirty ? (D(b, x), x.subscribers.forEach(function(e) {
 													return o.add(e);
-												})) : ee !== x.res && (x.res = ee, x.promise = F.resolve({ result: ee }))) : (x.dirty && ae(b, x), x.subscribers.forEach(function(e) {
+												})) : S !== x.res && (x.res = S, x.promise = F.resolve({ result: S }))) : (x.dirty && D(b, x), x.subscribers.forEach(function(e) {
 													return o.add(e);
 												})));
 											}
@@ -7424,9 +7424,9 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 								return !a.outbound && s.db._options.cache !== "disabled" && !s.explicit && s.idbtrans.mode === "readwrite" && (o = Nn[`idb://${n}/${r}`]) ? (s = i.mutate(e), e.type !== "add" && e.type !== "put" || !(50 <= e.values.length || Wn(a, e).some(function(e) {
 									return e == null;
 								})) ? (o.optimisticOps.push(e), e.mutatedParts && In(e.mutatedParts), s.then(function(t) {
-									0 < t.numFailures && (ae(o.optimisticOps, e), (t = Zn(0, e, t)) && o.optimisticOps.push(t), e.mutatedParts) && In(e.mutatedParts);
+									0 < t.numFailures && (D(o.optimisticOps, e), (t = Zn(0, e, t)) && o.optimisticOps.push(t), e.mutatedParts) && In(e.mutatedParts);
 								}), s.catch(function() {
-									ae(o.optimisticOps, e), e.mutatedParts && In(e.mutatedParts);
+									D(o.optimisticOps, e), e.mutatedParts && In(e.mutatedParts);
 								})) : s.then(function(n) {
 									var r = Zn(0, t(t({}, e), { values: e.values.map(function(e, r) {
 										var i;
@@ -7479,7 +7479,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 									}
 									return e;
 								}).catch(function(e) {
-									return c && u && ae(c, u), Promise.reject(e);
+									return c && u && D(c, u), Promise.reject(e);
 								}), u = {
 									obsSet: e.obsSet,
 									promise: l,
@@ -7608,7 +7608,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 				for (var i = Array(r - 1); --r;) i[r - 1] = arguments[r];
 				return n = i.pop(), [
 					e,
-					C(i),
+					w(i),
 					n
 				];
 			}.apply(this, arguments);
@@ -7652,7 +7652,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 					else try {
 						s.create(), s.idbtrans._explicit = !0, t._state.PR1398_maxLoop = 3;
 					} catch (i) {
-						return i.name === A.InvalidState && t.isOpen() && 0 < --t._state.PR1398_maxLoop ? (console.warn("Dexie: Need to reopen db"), t.close({ disableAutoOpen: !1 }), t.open().then(function() {
+						return i.name === fe.InvalidState && t.isOpen() && 0 < --t._state.PR1398_maxLoop ? (console.warn("Dexie: Need to reopen db"), t.close({ disableAutoOpen: !1 }), t.open().then(function() {
 							return e(t, n, r, null, a);
 						})) : R(i);
 					}
@@ -7902,7 +7902,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 				pr = t;
 			}
 		}
-		u(ur, t(t({}, w), {
+		u(ur, t(t({}, T), {
 			delete: function(e) {
 				return new ur(e, { addons: [] }).delete();
 			},
@@ -7984,7 +7984,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 					x(e, t, void 0);
 				});
 			},
-			shallowClone: ee,
+			shallowClone: S,
 			deepClone: ne,
 			getObjectDiff: Un,
 			cmp: z,
@@ -7992,7 +7992,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			minKey: -Infinity,
 			addons: [],
 			connections: { get: bn.toArray },
-			errnames: A,
+			errnames: fe,
 			dependencies: or,
 			cache: Nn,
 			semVer: "4.4.6",
@@ -8292,8 +8292,8 @@ var Ga = class {
 	async commit(e) {
 		return this.operation(async () => {
 			try {
-				let { documentId: t, writeId: n, creates: r, updates: i, deletes: o, onProgress: s } = e, c = o.map((e) => e.id), l = await this.writeTable(t), u = await this.db.table(U).get(t);
-				u && Za(u).status === "importing" && yt({
+				let { documentId: t, writeId: n, creates: r, updates: i, deletes: a, onProgress: o } = e, s = a.map((e) => e.id), c = await this.writeTable(t), l = await this.db.table(U).get(t);
+				l && Za(l).status === "importing" && yt({
 					documentId: t,
 					what: "a commit"
 				}), Dt({
@@ -8301,31 +8301,31 @@ var Ga = class {
 					value: n
 				});
 				try {
-					await this.db.transaction("rw", l, this.db.table(W), this.db.table(G), async () => {
+					await this.db.transaction("rw", c, this.db.table(W), this.db.table(G), async () => {
 						let e = await Ya({
-							table: l,
+							table: c,
 							updates: i,
 							documentId: t
 						}), a = ui({ records: r });
 						a.length > 0 && await qa({
-							table: l,
+							table: c,
 							creates: a,
 							documentId: t
 						});
 						let o = ui({ records: i });
 						if (o.length > 0) try {
-							await l.bulkPut(o);
+							await c.bulkPut(o);
 						} catch (e) {
-							m("STORE_BULK_UPDATE_FAILED", {
+							f("STORE_BULK_UPDATE_FAILED", {
 								detail: e instanceof Error ? e.message : String(e),
 								cause: e instanceof Error ? e : void 0
 							});
 						}
-						let s = c.length > 0 ? await l.bulkGet(c) : [];
-						if (c.length > 0) try {
-							await l.bulkDelete(c);
+						let l = s.length > 0 ? await c.bulkGet(s) : [];
+						if (s.length > 0) try {
+							await c.bulkDelete(s);
 						} catch (e) {
-							m("STORE_DELETE_FAILED", {
+							f("STORE_DELETE_FAILED", {
 								detail: e instanceof Error ? e.message : String(e),
 								cause: e instanceof Error ? e : void 0
 							});
@@ -8338,7 +8338,7 @@ var Ga = class {
 								deletes: []
 							};
 						});
-						let d = u + 1, f = {
+						let d = u + 1, p = {
 							documentId: t,
 							sequenceNumber: d,
 							timestamp: Date.now(),
@@ -8349,21 +8349,21 @@ var Ga = class {
 									before: e[n],
 									after: t
 								})),
-								deletes: s.filter(Boolean)
+								deletes: l.filter(Boolean)
 							}
 						};
-						await this.db.table(W).add(f), await this.setHead(t, d), await this.bumpVersion(t);
+						await this.db.table(W).add(p), await this.setHead(t, d), await this.bumpVersion(t);
 					}), pi({
-						onProgress: s,
+						onProgress: o,
 						parts: [
 							r.length,
 							i.length,
-							c.length
+							s.length
 						]
 					});
 				} catch (e) {
-					if (a(e)) throw e;
-					m("STORE_COMMIT_FAILED", {
+					if (b(e)) throw e;
+					f("STORE_COMMIT_FAILED", {
 						detail: e instanceof Error ? e.message : String(e),
 						cause: e instanceof Error ? e : void 0
 					});
@@ -8488,7 +8488,7 @@ var Ga = class {
 		return this.operation(async () => {
 			await this.ensureCurrentSchema();
 			let n = await this.db.table(J).get(e);
-			n || m("STORE_BLOB_NOT_FOUND", { detail: `Blob "${e}" not found` });
+			n || f("STORE_BLOB_NOT_FOUND", { detail: `Blob "${e}" not found` });
 			let r = Ot({ value: t });
 			if (n.attachedTo.some((e) => e.documentId === t.documentId && e.recordRef === t.recordRef && e.attribute === t.attribute)) return;
 			let i = [...n.attachedTo, r];
@@ -8499,7 +8499,7 @@ var Ga = class {
 		return this.operation(async () => {
 			await this.ensureCurrentSchema();
 			let n = await this.db.table(J).get(e);
-			n || m("STORE_BLOB_NOT_FOUND", { detail: `Blob "${e}" not found` });
+			n || f("STORE_BLOB_NOT_FOUND", { detail: `Blob "${e}" not found` });
 			let r = n.attachedTo.filter((e) => e.documentId !== t.documentId || e.recordRef !== t.recordRef);
 			await this.db.table(J).update(e, { attachedTo: r });
 		});
@@ -8596,7 +8596,7 @@ var Ga = class {
 					await this.db.table("_documents").get(t.id) && gt({ documentId: t.id }), await this.assertPlaceFree({ document: t }), await this.db.table(U).add(t);
 				});
 			} catch (e) {
-				throw a(e)?.key === "DOCUMENT_PATH_TAKEN" ? (this.knownDocuments.delete(t.id), await this.reopenWithNewSchema({ drop: t.id }).catch(() => void 0)) : this.stale = !0, e;
+				throw b(e)?.key === "DOCUMENT_PATH_TAKEN" ? (this.knownDocuments.delete(t.id), await this.reopenWithNewSchema({ drop: t.id }).catch(() => void 0)) : this.stale = !0, e;
 			}
 		});
 	}
@@ -8695,11 +8695,11 @@ var Ga = class {
 	}
 	async bulkWriteUnguarded(e, t) {
 		try {
-			let { updates: n, deletes: r } = t, i = await this.writeTable(e), o = ui({ records: t.creates ?? [] });
+			let { updates: n, deletes: r } = t, i = await this.writeTable(e), a = ui({ records: t.creates ?? [] });
 			await this.db.transaction("rw", i, this.db.table(G), async () => {
-				if (o.length > 0 && (this.perf.start("core::store::bulkWrite::add"), await qa({
+				if (a.length > 0 && (this.perf.start("core::store::bulkWrite::add"), await qa({
 					table: i,
-					creates: o,
+					creates: a,
 					documentId: e
 				}), this.perf.stop("core::store::bulkWrite::add")), n?.length) {
 					this.perf.start("core::store::bulkWrite::update");
@@ -8715,8 +8715,8 @@ var Ga = class {
 						}
 						await i.bulkPut([...r.values()]);
 					} catch (e) {
-						if (a(e)) throw e;
-						m("STORE_BULK_UPDATE_FAILED", {
+						if (b(e)) throw e;
+						f("STORE_BULK_UPDATE_FAILED", {
 							detail: e instanceof Error ? e.message : String(e),
 							cause: e instanceof Error ? e : void 0
 						});
@@ -8867,7 +8867,7 @@ async function qa(e) {
 				cause: t
 			});
 		}
-		m("STORE_BULK_ADD_FAILED", {
+		f("STORE_BULK_ADD_FAILED", {
 			detail: e instanceof Error ? e.message : String(e),
 			cause: t
 		});
@@ -9480,7 +9480,7 @@ var bo = class e {
 	async attachBlob(e, t) {
 		await this.guardOpen(), this.guardWritable();
 		let n = this.writeState(), r = n?.blobs.get(e);
-		n && r || m("STORE_BLOB_NOT_FOUND", { detail: `Blob "${e}" not found` });
+		n && r || f("STORE_BLOB_NOT_FOUND", { detail: `Blob "${e}" not found` });
 		let i = Ot({ value: t });
 		r.attachedTo.some((e) => e.documentId === t.documentId && e.recordRef === t.recordRef && e.attribute === t.attribute) || (n.blobs.set(e, {
 			...r,
@@ -9494,7 +9494,7 @@ var bo = class e {
 	async detachBlob(e, t) {
 		await this.guardOpen(), this.guardWritable();
 		let n = this.writeState(), r = n?.blobs.get(e);
-		n && r || m("STORE_BLOB_NOT_FOUND", { detail: `Blob "${e}" not found` });
+		n && r || f("STORE_BLOB_NOT_FOUND", { detail: `Blob "${e}" not found` });
 		let i = r.attachedTo.filter((e) => e.documentId !== t.documentId || e.recordRef !== t.recordRef);
 		i.length !== r.attachedTo.length && (n.blobs.set(e, {
 			...r,
@@ -9722,7 +9722,7 @@ var bo = class e {
 		});
 	}
 	guardWritable() {
-		this.writable || m("STORE_NOT_WRITABLE", { detail: "In-memory store is read-only. Hydrate with a real document before writing." });
+		this.writable || f("STORE_NOT_WRITABLE", { detail: "In-memory store is read-only. Hydrate with a real document before writing." });
 	}
 };
 function xo() {}
@@ -9752,42 +9752,42 @@ function So(e) {
 	});
 }
 async function Co(e) {
-	let { store: t, state: n, projectName: r, perf: a, request: o } = e, { documentId: s, indent: c = !0, withDatabaseIds: l, xmlDocument: u, download: d } = o, f = n.documents.get(s);
-	g(f, {
+	let { store: t, state: n, projectName: r, perf: i, request: a } = e, { documentId: o, indent: s = !0, withDatabaseIds: c, xmlDocument: l, download: u } = a, d = n.documents.get(o);
+	j(d, {
 		key: "DOCUMENT_NOT_REGISTERED",
-		detail: `Document "${s}" not registered in project "${r}"`
+		detail: `Document "${o}" not registered in project "${r}"`
 	});
-	let { record: p } = f, m = d ? await i({
-		filename: d === !0 ? `${p.name}${p.extension}` : d.filename,
-		pickerType: To({ extension: p.extension })
+	let { record: f } = d, p = u ? await m({
+		filename: u === !0 ? `${f.name}${f.extension}` : u.filename,
+		pickerType: To({ extension: f.extension })
 	}) : void 0, h = await wo({
 		store: t,
-		documentId: s,
-		indent: c,
-		withDatabaseIds: l,
-		perf: a
+		documentId: o,
+		indent: s,
+		withDatabaseIds: c,
+		perf: i
 	});
-	if (m) {
-		let e = c ? h.file : (await wo({
+	if (p) {
+		let e = s ? h.file : (await wo({
 			store: t,
-			documentId: s,
+			documentId: o,
 			indent: !0,
-			withDatabaseIds: l,
-			perf: a
+			withDatabaseIds: c,
+			perf: i
 		})).file;
-		await m.write(e);
+		await p.write(e);
 	}
-	if (!u) return h;
-	let _ = await Si({ file: c ? (await wo({
+	if (!l) return h;
+	let g = await Si({ file: s ? (await wo({
 		store: t,
-		documentId: s,
+		documentId: o,
 		indent: !1,
-		withDatabaseIds: l,
-		perf: a
+		withDatabaseIds: c,
+		perf: i
 	})).file : h.file });
 	return {
 		...h,
-		xmlDocument: _
+		xmlDocument: g
 	};
 }
 async function wo(e) {
@@ -9814,16 +9814,16 @@ function To(e) {
 	};
 }
 async function Eo(e) {
-	let { store: t, request: n } = e, { blobId: r, download: a } = n, o = typeof a == "object" ? await i({ filename: a.filename }) : void 0, s = await t.getBlob(r);
-	g(s, {
+	let { store: t, request: n } = e, { blobId: r, download: i } = n, a = typeof i == "object" ? await m({ filename: i.filename }) : void 0, o = await t.getBlob(r);
+	j(o, {
 		key: "BLOB_NOT_FOUND",
 		detail: `Blob "${r}" not found in store`
 	});
-	let c = s.entry.name;
-	return await (a === !0 ? await i({ filename: c }) : o)?.write(s.data), {
-		entry: s.entry,
-		data: s.data,
-		filename: c
+	let s = o.entry.name;
+	return await (i === !0 ? await m({ filename: s }) : a)?.write(o.data), {
+		entry: o.entry,
+		data: o.data,
+		filename: s
 	};
 }
 function Do(e) {
@@ -10334,7 +10334,7 @@ function gs(e) {
 	};
 }
 function _s(e, t, n) {
-	e !== t && m("ELEMENT_TAGNAME_MISMATCH", {
+	e !== t && f("ELEMENT_TAGNAME_MISMATCH", {
 		detail: `Expected tagName '${t}', got '${e}' for id '${n}'`,
 		ref: {
 			tagName: t,
@@ -10445,7 +10445,7 @@ async function Q(e) {
 }
 function xs(e) {
 	let { raw: t, ref: n } = e;
-	return t.tagName !== n.tagName && m("ELEMENT_TAGNAME_MISMATCH", {
+	return t.tagName !== n.tagName && f("ELEMENT_TAGNAME_MISMATCH", {
 		detail: `Expected tagName '${n.tagName}', got '${t.tagName}' for id '${n.id}'`,
 		ref: n,
 		meta: {
@@ -10460,7 +10460,7 @@ function xs(e) {
 }
 async function Ss(e) {
 	let { context: t, ref: n } = e;
-	if (g(n, { detail: "The record or ref is undefined" }), !("attributes" in n) || !Array.isArray(n.attributes)) return Q({
+	if (j(n, { detail: "The record or ref is undefined" }), !("attributes" in n) || !Array.isArray(n.attributes)) return Q({
 		context: t,
 		ref: n
 	});
@@ -10666,7 +10666,7 @@ function Ns(e) {
 }
 function Ps(e) {
 	let { known: t, link: n } = e, r = t.get(n.id);
-	return r && r.tagName !== n.tagName && m("ELEMENT_TAGNAME_MISMATCH", {
+	return r && r.tagName !== n.tagName && f("ELEMENT_TAGNAME_MISMATCH", {
 		detail: `Expected tagName '${n.tagName}', got '${r.tagName}' for id '${n.id}'`,
 		ref: n,
 		meta: {
@@ -10768,7 +10768,7 @@ async function Bs(e) {
 	return i;
 }
 function Vs(e) {
-	let { dialecteConfig: t, tagName: n, attributes: r = {} } = e, i = l({
+	let { dialecteConfig: t, tagName: n, attributes: r = {} } = e, i = o({
 		dialecteConfig: t,
 		tagName: n
 	}), a = [];
@@ -10921,7 +10921,7 @@ function Js(e) {
 function Ys(e) {
 	let { dialecteConfig: t, tagName: n, attributes: r } = e;
 	if (!r) return r;
-	let i = l({
+	let i = o({
 		dialecteConfig: t,
 		tagName: n
 	}), a = Object.entries(r).map(function([e, t]) {
@@ -10932,19 +10932,19 @@ function Ys(e) {
 function Xs(e) {
 	let { dialecteConfig: t, record: n, expected: r } = e, i = n.attributes.find(ne);
 	if (i === void 0 || i.value === "") return !1;
-	let a = me({
+	let a = ee({
 		dialecteConfig: t,
 		value: i.value,
-		namespaceOf: T({ dialecteConfig: t })
-	}), o = T({ dialecteConfig: t });
-	return (Array.isArray(r) ? r : [r]).filter((e) => typeof e == "string").some((e) => me({
+		namespaceOf: A({ dialecteConfig: t })
+	}), o = A({ dialecteConfig: t });
+	return (Array.isArray(r) ? r : [r]).filter((e) => typeof e == "string").some((e) => ee({
 		dialecteConfig: t,
 		value: e,
 		namespaceOf: o
 	}) === a);
 }
 function Zs(e) {
-	let { dialecteConfig: t, record: n } = e, r = l({
+	let { dialecteConfig: t, record: n } = e, r = o({
 		dialecteConfig: t,
 		tagName: n.tagName
 	});
@@ -10956,26 +10956,26 @@ function Zs(e) {
 			record: n
 		})), a = !0, i;
 	}
-	let c = T({ dialecteConfig: t });
+	let c = A({ dialecteConfig: t });
 	return function(e, i) {
 		if (!r.has(e)) return i;
 		let a = s();
 		if (a === void 0) return i;
-		let l = n.attributes.find((t) => t.name === e), u = l === void 0 ? void 0 : Te({
+		let o = n.attributes.find((t) => t.name === e), l = o === void 0 ? void 0 : Te({
 			definition: a,
-			attribute: l
+			attribute: o
 		});
-		if (u === void 0 || !o(u)) return i;
-		let d = u;
-		function f(e) {
-			return typeof e == "string" ? te({
+		if (l === void 0 || !y(l)) return i;
+		let u = l;
+		function d(e) {
+			return typeof e == "string" ? fe({
 				dialecteConfig: t,
-				type: d,
+				type: u,
 				value: e,
 				namespaceOf: c
 			}) : e;
 		}
-		return Array.isArray(i) ? i.map(f) : f(i);
+		return Array.isArray(i) ? i.map(d) : d(i);
 	};
 }
 function Qs(e, t) {
@@ -11114,7 +11114,7 @@ function uc(e) {
 		}
 	}
 	function l(e, t) {
-		return t && t.tagName !== e.tagName && m("ELEMENT_TAGNAME_MISMATCH", {
+		return t && t.tagName !== e.tagName && f("ELEMENT_TAGNAME_MISMATCH", {
 			detail: `Expected tagName '${e.tagName}', got '${t.tagName}' for id '${e.id}'`,
 			ref: e
 		}), t;
@@ -11152,7 +11152,7 @@ function uc(e) {
 		}
 		return Promise.all(e.map((e) => u(e)));
 	}
-	function f(e, t) {
+	function p(e, t) {
 		if (!i) {
 			i = /* @__PURE__ */ new Map();
 			for (let t of e.values()) {
@@ -11162,9 +11162,9 @@ function uc(e) {
 		}
 		return i.get(t) ?? [];
 	}
-	async function p(e) {
+	async function m(e) {
 		let n = r ?? await c(1);
-		return n ? f(n, e) : (a++, Ds({
+		return n ? p(n, e) : (a++, Ds({
 			context: t,
 			tagName: e
 		}));
@@ -11172,7 +11172,7 @@ function uc(e) {
 	return {
 		get: u,
 		getMany: d,
-		byTag: p
+		byTag: m
 	};
 }
 async function dc(e) {
@@ -11565,7 +11565,7 @@ async function jc(e) {
 		context: t,
 		ref: n
 	});
-	if (r) return E({
+	if (r) return O({
 		dialecteConfig: t.dialecteConfig,
 		record: r
 	});
@@ -11654,7 +11654,7 @@ function Lc(e) {
 	let { tree: t, childrenConfig: n, definition: r } = e;
 	function i(e) {
 		if (e.tree.length === 0) return e;
-		let t = ue({
+		let t = ce({
 			parentTagName: e.tagName,
 			children: e.tree.map(i),
 			childrenConfig: n,
@@ -11835,7 +11835,7 @@ async function Yc(e) {
 	try {
 		return await Q(e);
 	} catch (e) {
-		if (a(e)?.key === "ELEMENT_TAGNAME_MISMATCH") return;
+		if (b(e)?.key === "ELEMENT_TAGNAME_MISMATCH") return;
 		throw e;
 	}
 }
@@ -11894,7 +11894,7 @@ async function Qc(e) {
 		depth: s,
 		shaping: u
 	});
-	g(d, {
+	j(d, {
 		detail: "No record found for provided ref",
 		key: "ELEMENT_NOT_FOUND"
 	});
@@ -11966,23 +11966,23 @@ async function el(e) {
 		context: t,
 		ref: l
 	});
-	g(h, {
+	j(h, {
 		key: "ELEMENT_NOT_FOUND",
 		detail: "No record found for the provided ref"
 	});
-	let _ = h.id;
+	let g = h.id;
 	await m(h, 0);
-	let v = Math.max(r, +!!s);
-	if (v > 0) {
+	let _ = Math.max(r, +!!s);
+	if (_ > 0) {
 		let e = await Bs({
 			context: t,
 			ref: l,
 			options: {
-				depth: v,
+				depth: _,
 				order: "bottom-up"
 			}
 		});
-		for (let t of e) u.set(t.id, t), _ = t.id;
+		for (let t of e) u.set(t.id, t), g = t.id;
 		if (s) {
 			let n = [h, ...e];
 			for (let e = 0; e < n.length - 1; e++) {
@@ -12001,7 +12001,7 @@ async function el(e) {
 	return nl({
 		live: u,
 		deletedById: d,
-		rootId: _
+		rootId: g
 	});
 }
 async function tl(e) {
@@ -12020,7 +12020,7 @@ async function tl(e) {
 		a = e.id;
 		break;
 	}
-	return g(a, {
+	return j(a, {
 		key: "ROOT_NOT_FOUND",
 		detail: `No ${t.dialecteConfig.rootElementName} root element found in document`
 	}), nl({
@@ -12052,7 +12052,7 @@ function rl(e) {
 		n.push(e), o.set(t, n);
 	}
 	let s = i.get(r);
-	g(s, {
+	j(s, {
 		key: "ROOT_NOT_FOUND",
 		detail: `No record found for rootId "${r}"`
 	});
@@ -12072,7 +12072,7 @@ function il(e) {
 		records: t,
 		config: n
 	});
-	g(l, {
+	j(l, {
 		detail: r ? `No record found for rootId "${r}"` : `No ${n.rootElementName} root element found in records`,
 		key: "EXPORT_ROOT_NOT_FOUND"
 	});
@@ -12103,7 +12103,7 @@ function al(e) {
 function ol(e) {
 	let { writer: t, record: n, index: r, config: i } = e;
 	t.openElement({ record: n });
-	let a = ue({
+	let a = ce({
 		parentTagName: n.tagName,
 		children: n.children,
 		childrenConfig: i.children,
@@ -12111,7 +12111,7 @@ function ol(e) {
 	});
 	for (let e of a) {
 		let a = r.get(e.id);
-		g(a, {
+		j(a, {
 			detail: `Parent '${n.tagName}' references non-existent child '${e.tagName}' (id: ${e.id})`,
 			key: "EXPORT_ORPHAN_CHILD_REF",
 			ref: {
@@ -12294,7 +12294,7 @@ var ul = class {
 	}
 };
 function dl(e) {
-	let { dialecteConfig: t, parent: n, tagName: r, xsiType: i, attribute: a } = e, { child: o, parentDefinition: s, definition: c } = pl(e), l = a === void 0 ? void 0 : bl({
+	let { dialecteConfig: t, parent: n, tagName: r, xsiType: i, attribute: a } = e, { child: o, parentDefinition: s, definition: l } = pl(e), u = a === void 0 ? void 0 : bl({
 		dialecteConfig: t,
 		tagName: r,
 		attribute: a
@@ -12306,25 +12306,25 @@ function dl(e) {
 		kind: "refused",
 		issue: yl(i)
 	};
-	if (c === void 0) return u;
-	if (l === void 0) return hl(ml({
+	if (l === void 0) return c;
+	if (u === void 0) return hl(ml({
 		dialecteConfig: t,
 		child: o,
 		parentDefinition: s,
 		xsiType: i
-	}) ?? c.textContent?.type);
-	let { name: d, namespaceUri: f } = l;
-	if (d === oe) return {
+	}) ?? l.textContent?.type);
+	let { name: d, namespaceUri: m } = u;
+	if (d === p) return {
 		kind: "xsiType",
 		child: o,
 		parentDefinition: s
 	};
-	if (f === A.uri) return u;
-	let p = c.attributes.details[d];
-	return p === void 0 ? w({
-		wildcard: c.attributes.any,
-		namespaceUri: f
-	}) ? u : m("INVALID_ATTRIBUTE", {
+	if (m === C.uri) return c;
+	let h = l.attributes.details[d];
+	return h === void 0 ? he({
+		wildcard: l.attributes.any,
+		namespaceUri: m
+	}) ? c : f("INVALID_ATTRIBUTE", {
 		detail: `'${r}' under '${n.tagName}' declares no attribute '${d}'.`,
 		ref: { tagName: r },
 		meta: {
@@ -12332,7 +12332,7 @@ function dl(e) {
 			tagName: r,
 			attribute: d
 		}
-	}) : hl(p.type);
+	}) : hl(h.type);
 }
 function fl(e) {
 	let { dialecteConfig: t, target: n, value: r } = e;
@@ -12344,8 +12344,8 @@ function fl(e) {
 		value: r
 	});
 	if (n.kind !== "datatype") return;
-	let i = T({ dialecteConfig: t });
-	return h({
+	let i = A({ dialecteConfig: t });
+	return M({
 		value: r,
 		type: n.type,
 		namespaces: i,
@@ -12353,7 +12353,7 @@ function fl(e) {
 	}).issue;
 }
 function pl(e) {
-	let { dialecteConfig: t, parent: n, tagName: r, xsiType: i } = e, a = E({
+	let { dialecteConfig: t, parent: n, tagName: r, xsiType: i } = e, a = O({
 		dialecteConfig: t,
 		record: n
 	}), o = {
@@ -12363,9 +12363,9 @@ function pl(e) {
 			tagName: n.tagName
 		},
 		attributes: i === void 0 ? [] : [{
-			name: oe,
+			name: p,
 			value: i,
-			namespace: A
+			namespace: C
 		}]
 	};
 	return gl({
@@ -12375,7 +12375,7 @@ function pl(e) {
 	}), {
 		child: o,
 		parentDefinition: a,
-		definition: E({
+		definition: O({
 			dialecteConfig: t,
 			record: o,
 			parentDefinition: a
@@ -12389,7 +12389,7 @@ function ml(e) {
 		dialecteConfig: t,
 		value: i
 	});
-	if (!(a === void 0 || a.namespace !== "http://www.w3.org/2001/XMLSchema") && ce({
+	if (!(a === void 0 || a.namespace !== "http://www.w3.org/2001/XMLSchema") && re({
 		dialecteConfig: t,
 		record: {
 			...n,
@@ -12400,14 +12400,14 @@ function ml(e) {
 	})) return { builtin: a.local };
 }
 function hl(e) {
-	return e === void 0 ? u : {
+	return e === void 0 ? c : {
 		kind: "datatype",
 		type: e
 	};
 }
 function gl(e) {
 	let { parent: t, parentDefinition: n, tagName: r } = e;
-	n === void 0 || n.children.any || n.children.sequence.includes(r) || m("INVALID_PARENT_CHILD", {
+	n === void 0 || n.children.any || n.children.sequence.includes(r) || f("INVALID_PARENT_CHILD", {
 		detail: `'${t.tagName}' cannot hold '${r}'.`,
 		ref: {
 			tagName: t.tagName,
@@ -12429,18 +12429,18 @@ function _l(e) {
 		...n,
 		attributes: []
 	};
-	if (!ce({
+	if (!re({
 		dialecteConfig: t,
 		record: o,
 		parentDefinition: r,
 		typeName: a
 	})) return {
 		reason: "datatype",
-		actual: k({
+		actual: T({
 			value: i,
 			whiteSpace: "collapse"
 		}),
-		expected: b({
+		expected: v({
 			dialecteConfig: t,
 			record: o,
 			parentDefinition: r
@@ -12449,15 +12449,15 @@ function _l(e) {
 }
 function vl(e) {
 	let { dialecteConfig: t, value: n } = e;
-	return x({
+	return S({
 		value: n,
-		namespaceOf: T({ dialecteConfig: t })
+		namespaceOf: A({ dialecteConfig: t })
 	});
 }
 function yl(e) {
 	return {
 		reason: "datatype",
-		actual: k({
+		actual: T({
 			value: e,
 			whiteSpace: "collapse"
 		}),
@@ -12485,7 +12485,7 @@ var xl = class {
 			context: a,
 			ref: s
 		});
-		return g(c, {
+		return j(c, {
 			key: "ELEMENT_NOT_FOUND",
 			detail: `validate.value: parent '${s.tagName}' not found`,
 			ref: s
@@ -12532,7 +12532,7 @@ var xl = class {
 	}
 	async getDocumentInfo() {
 		let e = await this.store.getDocument(this.documentId);
-		return g(e, {
+		return j(e, {
 			key: "DOCUMENT_NOT_REGISTERED",
 			detail: `Expected document id: ${this.documentId}`
 		}), e;
@@ -12542,7 +12542,7 @@ var xl = class {
 			context: this.context,
 			ref: { tagName: this.dialecteConfig.rootElementName }
 		});
-		return g(e, {
+		return j(e, {
 			key: "ROOT_NOT_FOUND",
 			detail: `Expected tag name: ${this.dialecteConfig.rootElementName}`
 		}), e;
@@ -12682,7 +12682,7 @@ Ho({
 function Cl(e) {
 	let { context: t, status: n, record: r, oldRecord: i, newRecord: a } = e, o, s, c;
 	if (r && (o = Pe(r)), i && (s = Pe(i)), a && (c = Pe(a)), n === "created") {
-		g(o, {
+		j(o, {
 			detail: "Record is required for created",
 			key: "ELEMENT_NOT_FOUND"
 		}), dr({ record: o });
@@ -12696,7 +12696,7 @@ function Cl(e) {
 			operation: e
 		});
 	} else if (n === "updated") {
-		g(s && c, {
+		j(s && c, {
 			detail: "Old record and new record are required for updated",
 			key: "ELEMENT_NOT_FOUND"
 		}), dr({ record: c });
@@ -12710,7 +12710,7 @@ function Cl(e) {
 			operation: e
 		});
 	} else if (n === "deleted" && o) {
-		g(o, {
+		j(o, {
 			detail: "Record is required for deleted",
 			key: "ELEMENT_NOT_FOUND"
 		});
@@ -12761,7 +12761,7 @@ async function Tl(e) {
 		context: r,
 		ref: a
 	});
-	g(p, {
+	j(p, {
 		detail: "Parent record not found",
 		key: "ELEMENT_NOT_FOUND",
 		ref: a
@@ -12818,7 +12818,7 @@ function El(e) {
 		dialecteConfig: t,
 		record: n,
 		attributes: n.attributes
-	}), r || (O({
+	}), r || (te({
 		dialecteConfig: t,
 		record: n
 	}), De({
@@ -12903,11 +12903,11 @@ async function jl(e) {
 		context: n,
 		ref: i
 	});
-	g(a, {
+	j(a, {
 		detail: `Record not found (tagName=${i.tagName}, id=${i.id})`,
 		key: "ELEMENT_NOT_FOUND",
 		ref: i
-	}), g(a.parent, {
+	}), j(a.parent, {
 		detail: "Cannot delete root element",
 		key: "PROTECTED_ROOT"
 	}), t?.beforeDelete && wl({
@@ -12928,7 +12928,7 @@ async function jl(e) {
 		context: n,
 		ref: P(a.parent)
 	});
-	g(o, {
+	j(o, {
 		detail: `Parent record not found (tagName=${a.parent.tagName}, id=${a.parent.id})`,
 		key: "ELEMENT_NOT_FOUND"
 	});
@@ -12996,14 +12996,14 @@ async function Fl(e) {
 		context: t,
 		refs: [n, r]
 	});
-	g(a, {
+	j(a, {
 		detail: `Record to move not found (tagName=${n.tagName}, id=${n.id})`,
 		key: "ELEMENT_NOT_FOUND",
 		ref: n
-	}), g(a.parent, {
+	}), j(a.parent, {
 		detail: "Cannot move the root element",
 		key: "PROTECTED_ROOT"
-	}), g(o, {
+	}), j(o, {
 		detail: `New parent not found (tagName=${r.tagName}, id=${r.id})`,
 		key: "ELEMENT_NOT_FOUND",
 		ref: r
@@ -13042,7 +13042,7 @@ async function Fl(e) {
 		context: t,
 		ref: P(a.parent)
 	});
-	g(u, {
+	j(u, {
 		detail: `Parent of the moved record not found (tagName=${a.parent.tagName}, id=${a.parent.id})`,
 		key: "ELEMENT_NOT_FOUND"
 	});
@@ -13075,19 +13075,19 @@ function Il(e) {
 	let { context: t, record: n, newParent: r } = e, i = {
 		tagName: r.tagName,
 		id: r.id
-	}, a = E({
+	}, o = O({
 		dialecteConfig: t.dialecteConfig,
 		record: r
 	});
-	g(a !== void 0 && (a.children.any === !0 || a.children.sequence.includes(n.tagName)), {
+	j(o !== void 0 && (o.children.any === !0 || o.children.sequence.includes(n.tagName)), {
 		detail: `${r.tagName} may not hold ${n.tagName}`,
 		key: "INVALID_PARENT_CHILD",
 		ref: i
 	});
-	let o = s({ definition: a })[n.tagName]?.max;
-	if (o === void 0) return;
+	let s = a({ definition: o })[n.tagName]?.max;
+	if (s === void 0) return;
 	let c = r.children.filter((e) => e.tagName === n.tagName && e.id !== n.id).length;
-	g(c < o, {
+	j(c < s, {
 		detail: `${r.tagName} already holds ${c} ${n.tagName}, the most it may`,
 		key: "MAX_OCCURRENCES_REACHED",
 		ref: i
@@ -13095,7 +13095,7 @@ function Il(e) {
 }
 async function Ll(e) {
 	let { context: t, record: n, newParent: r } = e;
-	r.id !== n.parent?.id && g(!(r.id === n.id || (await Bs({
+	r.id !== n.parent?.id && j(!(r.id === n.id || (await Bs({
 		context: t,
 		ref: P(r)
 	})).some((e) => e.id === n.id)), {
@@ -13109,7 +13109,7 @@ async function Ll(e) {
 }
 function Rl(e) {
 	let { record: t, newParent: n, beforeRef: r } = e;
-	r !== void 0 && g(r.tagName === t.tagName && n.children.some((e) => e.id === r.id && e.tagName === t.tagName), {
+	r !== void 0 && j(r.tagName === t.tagName && n.children.some((e) => e.id === r.id && e.tagName === t.tagName), {
 		detail: `${r.tagName} ${r.id} is no ${t.tagName} child of ${n.tagName} ${n.id}`,
 		key: "MOVE_BEFORE_NOT_SIBLING",
 		ref: {
@@ -13159,7 +13159,7 @@ async function Ul(e) {
 		context: r,
 		ref: a
 	});
-	g(l, {
+	j(l, {
 		detail: `Record not found (tagName=${a.tagName}, id=${a.id})`,
 		key: "ELEMENT_NOT_FOUND",
 		ref: a
@@ -13194,7 +13194,7 @@ async function Ul(e) {
 			attributes: new Set(u.map((e) => e.name)),
 			text: c !== void 0
 		}
-	}), f && (O({
+	}), f && (te({
 		dialecteConfig: t,
 		record: p
 	}), Ve({
@@ -13336,10 +13336,10 @@ function Jl(e) {
 	};
 }
 function Yl(e) {
-	return a(e.thrown)?.key === "STORE_CONNECTION_LOST";
+	return b(e.thrown)?.key === "STORE_CONNECTION_LOST";
 }
 function Xl(e) {
-	let t = a(e.thrown);
+	let t = b(e.thrown);
 	return t?.key === "STORE_CONNECTION_LOST" && t.meta?.outcome === "not-applied";
 }
 function Zl() {}
@@ -13352,14 +13352,14 @@ async function Ql(e) {
 	}
 }
 function $l(e) {
-	let { thrown: t, writeId: n, outcome: i, meta: o } = e, s = a(t);
-	return r("STORE_CONNECTION_LOST", {
-		detail: `${s?.detail ?? "The connection was lost"} - the write's outcome: ${i}`,
+	let { thrown: t, writeId: n, outcome: r, meta: i } = e, a = b(t);
+	return _("STORE_CONNECTION_LOST", {
+		detail: `${a?.detail ?? "The connection was lost"} - the write's outcome: ${r}`,
 		meta: {
-			...s?.meta,
-			...o,
+			...a?.meta,
+			...i,
 			writeId: n,
-			outcome: i
+			outcome: r
 		},
 		cause: t instanceof Error ? t : void 0
 	});
@@ -13667,16 +13667,16 @@ var iu = class {
 		};
 	}
 	reportFailure(e) {
-		let t = a(e);
+		let t = b(e);
 		if (e instanceof Error && t) return this.state.error = t, e;
-		let n = r("UNKNOWN", {
+		let n = _("UNKNOWN", {
 			detail: e instanceof Error ? e.message : String(e),
 			cause: e instanceof Error ? e : void 0
 		});
-		return this.state.error = a(n) ?? null, n;
+		return this.state.error = b(n) ?? null, n;
 	}
 	assertNoActiveTransaction() {
-		this.activeTransactions > 0 && m("CONCURRENT_TRANSACTION", { detail: `${this.activeTransactions} transaction(s) already active. Concurrent transactions risk lost updates — serialize them or implement a transaction queue.` });
+		this.activeTransactions > 0 && f("CONCURRENT_TRANSACTION", { detail: `${this.activeTransactions} transaction(s) already active. Concurrent transactions risk lost updates — serialize them or implement a transaction queue.` });
 	}
 	close() {
 		return this.store.close();
@@ -13686,13 +13686,13 @@ var iu = class {
 	}
 }, au = class {
 	get name() {
-		return g(this._name !== void 0, {
+		return j(this._name !== void 0, {
 			key: "PROJECT_NOT_OPENED",
 			detail: "Call project.open(name) before accessing project properties."
 		}), this._name;
 	}
 	get store() {
-		return g(this._store !== void 0 && !this.closing && this.openSettled, {
+		return j(this._store !== void 0 && !this.closing && this.openSettled, {
 			key: "PROJECT_NOT_OPENED",
 			detail: this.closing ? "The project is closed: open it again before using it." : "Call project.open(name), and await it, before accessing project properties."
 		}), this._store;
@@ -13738,13 +13738,13 @@ var iu = class {
 		return this.importChain.then(e, e);
 	}
 	get channel() {
-		return g(this._channel !== void 0, {
+		return j(this._channel !== void 0, {
 			key: "PROJECT_NOT_OPENED",
 			detail: "Call project.open(name) before accessing project properties."
 		}), this._channel;
 	}
 	get channelName() {
-		return g(this._channelName !== void 0, {
+		return j(this._channelName !== void 0, {
 			key: "PROJECT_NOT_OPENED",
 			detail: "Call project.open(name) before accessing project properties."
 		}), this._channelName;
@@ -14048,50 +14048,50 @@ var iu = class {
 	}
 	async import(e, t) {
 		this.importStore(t), ou({ options: t });
-		let n = this.opens, { onProgress: i, onFile: o, ...s } = t ?? {}, c = {}, l = [];
-		for (let [t, u] of e.entries()) {
-			let d = {
+		let n = this.opens, { onProgress: r, onFile: i, ...a } = t ?? {}, o = {}, s = [];
+		for (let [t, c] of e.entries()) {
+			let l = {
 				fileIndex: t,
 				fileCount: e.length,
-				fileName: u.name
+				fileName: c.name
 			};
 			try {
 				this.refuseClosedOpen({ opened: n });
-				let e = await this.importFile(u, {
-					...s,
-					...i && { onProgress: function(e) {
-						i({
+				let e = await this.importFile(c, {
+					...a,
+					...r && { onProgress: function(e) {
+						r({
 							...e,
-							...d
+							...l
 						});
 					} }
 				});
-				l.push({
+				s.push({
 					status: "imported",
 					...e
 				});
 			} catch (e) {
-				let t = a(e) ?? a(r("IMPORT_FAILED", {
+				let t = b(e) ?? b(_("IMPORT_FAILED", {
 					detail: e instanceof Error ? e.message : String(e),
 					cause: e instanceof Error ? e : void 0
 				}));
-				l.push({
+				s.push({
 					status: "failed",
-					fileName: u.name,
+					fileName: c.name,
 					error: t
 				});
 			}
 			zt({
-				listener: o,
+				listener: i,
 				value: {
-					...l.at(-1),
+					...s.at(-1),
 					fileIndex: t
 				},
 				of: Ht.importedFile,
-				call: c
+				call: o
 			});
 		}
-		return l;
+		return s;
 	}
 	async importFile(e, t) {
 		let n = this.importStore(t);
@@ -14209,7 +14209,7 @@ var iu = class {
 	}
 	openDocument(e) {
 		let t = this.store, n = this.state.documents.get(e);
-		g(n, {
+		j(n, {
 			key: "DOCUMENT_NOT_REGISTERED",
 			detail: `Document "${e}" not registered in project "${this.name}"`
 		});
@@ -14248,7 +14248,7 @@ var iu = class {
 	async undo(e) {
 		return this.counted(async () => {
 			let t = this.state.documents.get(e);
-			g(t, {
+			j(t, {
 				key: "DOCUMENT_NOT_REGISTERED",
 				detail: `Document "${e}" not registered in project "${this.name}"`
 			});
@@ -14274,7 +14274,7 @@ var iu = class {
 	async redo(e) {
 		return this.counted(async () => {
 			let t = this.state.documents.get(e);
-			g(t, {
+			j(t, {
 				key: "DOCUMENT_NOT_REGISTERED",
 				detail: `Document "${e}" not registered in project "${this.name}"`
 			});
@@ -14387,7 +14387,7 @@ var iu = class {
 		return this.opens === e.opened && this._channel !== void 0;
 	}
 	refuseClosedOpen(e) {
-		g(this.opens === e.opened && !this.closing, {
+		j(this.opens === e.opened && !this.closing, {
 			key: "PROJECT_NOT_OPENED",
 			detail: "The project was closed, or another one opened, while this call ran: open it again."
 		});
@@ -14405,7 +14405,7 @@ var iu = class {
 };
 function ou(e) {
 	let { options: t } = e;
-	t && "path" in t && t.path !== void 0 && m("DOCUMENT_PATH_INVALID", {
+	t && "path" in t && t.path !== void 0 && f("DOCUMENT_PATH_INVALID", {
 		detail: "An import of several files takes no path: a path names one file, give it to importFile",
 		meta: { path: t.path }
 	});
@@ -18543,7 +18543,7 @@ var hu = "0.7.0", gu = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNCla
 			uri: "http://www.iec.ch/61850/2016/NSD",
 			prefix: ""
 		},
-		xsi: A
+		xsi: C
 	},
 	attributes: Su,
 	children: _u,
@@ -18580,9 +18580,9 @@ var hu = "0.7.0", gu = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNCla
 	extensions: {}
 }) }), Ou = "SET-LIBRARY-NSD", ku = null;
 function Au() {
-	return ku ||= Du({ storage: de() }).open(Ou), ku;
+	return ku ||= Du({ storage: k() }).open(Ou), ku;
 }
-var ju = d(0);
+var ju = l(0);
 function Mu() {
 	ju.value++;
 }

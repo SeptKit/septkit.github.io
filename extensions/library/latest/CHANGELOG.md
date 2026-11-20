@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [38] - 2026-11-19
+
+### Fixed
+
+- Switching between the Library's sidebars and its editor keeps the others working, including the template sources and app install features.
+
 ## [30] - 2026-10-30
 
 ### Added
