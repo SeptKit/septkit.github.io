@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [Unreleased]
 
+## [56] - 2026-11-20
+
+### Added
+
+- In **Update from newer ISD**, an element the newer ISD puts under another parent (a logical node in another logical device, a function in another bay) shows where it goes, marked **moved**. Its detail says where it comes from, **Keep in place** leaves it where it is, and Confirm and Done count the moves.
+
 ## [55] - 2026-11-20
 
 ### Fixed
