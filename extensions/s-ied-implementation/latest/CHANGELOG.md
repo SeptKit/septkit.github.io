@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [65] - 2026-11-19
+
+### Changed
+
+- Show the mapping coverage badges in the explorer sooner on large projects, and run auto-match faster.
+
 ## [64] - 2026-11-19
 
 ### Changed
