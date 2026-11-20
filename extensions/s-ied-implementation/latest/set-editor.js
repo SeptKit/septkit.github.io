@@ -177376,7 +177376,9 @@ function gQe(e, t, n) {
 //#endregion
 //#region src/mapping/matching.service.ts
 async function _Qe(e, t = {}) {
-	let { correlateSpecNaming: n = !0, iedNames: r } = t, [i, a] = await Promise.all([e.query.mapping.getIedTree(), n ? e.query.mapping.getSubstationTree() : null]);
+	let { correlateSpecNaming: n = !0, iedNames: r } = t;
+	if (r?.size === 0) return [];
+	let [i, a] = await Promise.all([e.query.mapping.getIedTree(), n ? e.query.mapping.getSubstationTree() : null]);
 	if (!i) return [];
 	let o = vQe(a), s = i, c = r ? {
 		...s,

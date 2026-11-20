@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [64] - 2026-11-19
+
+### Changed
+
+- Respond faster after each edit on projects that have no implemented IED yet.
+
 ## [63] - 2026-11-19
 
 ### Fixed
