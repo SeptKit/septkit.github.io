@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [66] - 2026-11-19
+
+### Changed
+
+- Open an LNode with many inputs or outputs faster, and load the ICD reference candidates and allocation roles faster.
+
 ## [65] - 2026-11-19
 
 ### Changed
