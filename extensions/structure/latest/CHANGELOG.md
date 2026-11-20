@@ -7,6 +7,19 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [118] - 2026-11-20
+
+### Added
+
+- SubFunction sidebars list inherited AllocationRoles as read-only and name the ancestor they come from.
+- Hover hints identify the ancestor or assigned descendants blocking AllocationRole assignment.
+- AllocationRole sidebars keep conflicting Functions visible but greyed out, with hover hints explaining why they cannot be assigned.
+
+### Changed
+
+- AllocationRole assignment is disabled when an ancestor or descendant already has roles; new SubFunctions also block assignment and explain when roles are inherited.
+- The AllocationRole picker shows "Pick an Allocation Role" by default and after each selection, allowing all available roles to be assigned.
+
 ## [117] - 2026-11-20
 
 ### Fixed
@@ -192,8 +205,6 @@ and this project adheres to a simple versioning system, increasing the number by
 ### Added
 
 - Create named Power System Relations from Functions and SubFunctions and link them to supported conducting equipment. Creation is rejected when an owning Application has no `ENGINEERING ELEMENTS` role.
-
-## [91] - 2026-10-19
 
 ### Removed
 
