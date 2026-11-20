@@ -7,6 +7,16 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [Unreleased]
 
+## [58] - 2026-11-20
+
+### Added
+
+- An open ISD can be updated from another version of itself: on its IED, **Update from another ISD version** picks the other version. The review names both versions and shows what changes, moves included, and Apply updates the open ISD in place. An ISD that is no version of the open one is refused in words, before anything is compared.
+
+### Changed
+
+- **Update from newer ISD** is now **Update from another ISD version**, on an S-IED placed from an ISD as on the IED of an open ISD.
+
 ## [57] - 2026-11-20
 
 ### Changed
