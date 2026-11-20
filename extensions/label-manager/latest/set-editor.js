@@ -149964,44 +149964,49 @@ function ML(e) {
 	return e ? jL.has(e) : !1;
 }
 async function NL(e) {
-	let t = await bke(e, OL), n = await FL(e, t), r = n.map(({ lnode: e }) => e), i = await tMe(e, r), a = await WL(e, r), o = [];
-	for (let { lnode: r, configured: s } of n) {
-		let { uuid: n = "", iedName: c = "", ldInst: l = "", lnType: u = "", prefix: d = "", lnClass: f = "", lnInst: p = "" } = await e.getAttributes(r), m = `${d}${f}${p}`, h = await fMe(e, r, i?.get(r.id) ?? m);
-		for (let i of s) {
-			let s = i.fullPath.join("."), m = h.fromElementPath ? i.storedNames.join(".") : s, g = await rMe(e, u, i.fullPath, a), _ = t.recordOf("DAS", i.dasId);
-			ID(_, { detail: `queryLabelRows: DAS ${i.dasId} not read` });
-			let v = await IL(t.childrenOf, _), y = await SL(t.childrenOf, _), b = [i.fullPath[0] ?? ""], x = i.fullPath.slice(1);
-			o.push({
-				key: `${r.id}|${i.dasId}`,
-				hierarchyPath: h.hierarchyPath,
-				hierarchyLabel: h.hierarchyLabel,
-				functionPath: h.functionPath,
-				functionLabel: h.functionLabel,
+	let t = await bke(e, OL), n = await FL(e, t), r = n.map(({ lnode: e }) => e), i = await tMe(e, r), a = await WL(e, r), o = await e.reference.buildElementPaths({ refs: r }), s = [];
+	for (let [r, { lnode: c, configured: l }] of n.entries()) {
+		let { uuid: n = "", iedName: u = "", ldInst: d = "", lnType: f = "", prefix: p = "", lnClass: m = "", lnInst: h = "" } = await e.getAttributes(c), g = `${p}${m}${h}`, _ = i?.get(c.id) ?? g, v = await fMe({
+			query: e,
+			lnode: c,
+			elementPath: o[r] ?? null,
+			fallbackLnodeLabel: _
+		});
+		for (let r of l) {
+			let i = r.fullPath.join("."), o = v.fromElementPath ? r.storedNames.join(".") : i, l = await rMe(e, f, r.fullPath, a), g = t.recordOf("DAS", r.dasId);
+			ID(g, { detail: `queryLabelRows: DAS ${r.dasId} not read` });
+			let _ = await IL(t.childrenOf, g), y = await SL(t.childrenOf, g), b = [r.fullPath[0] ?? ""], x = r.fullPath.slice(1);
+			s.push({
+				key: `${c.id}|${r.dasId}`,
+				hierarchyPath: v.hierarchyPath,
+				hierarchyLabel: v.hierarchyLabel,
+				functionPath: v.functionPath,
+				functionLabel: v.functionLabel,
 				lNode: {
-					id: r.id,
+					id: c.id,
 					uuid: n,
-					iedName: c,
-					ldInst: l,
-					lnType: u,
-					prefix: d,
-					lnClass: f,
-					lnInst: p,
-					displayLabel: h.lnodeLabel
+					iedName: u,
+					ldInst: d,
+					lnType: f,
+					prefix: p,
+					lnClass: m,
+					lnInst: h,
+					displayLabel: v.lnodeLabel
 				},
 				data: {
-					dosId: i.dosId,
-					dasId: i.dasId,
-					fullPath: i.fullPath,
-					displayLabel: m,
+					dosId: r.dosId,
+					dasId: r.dasId,
+					fullPath: r.fullPath,
+					displayLabel: o,
 					doPath: b,
 					daPath: x,
 					doName: b[0] ?? "",
 					daName: x[x.length - 1] ?? "",
-					fc: g.fc,
-					value: v,
-					bType: g.bType,
-					enumValues: g.enumValues,
-					cdc: g.cdc
+					fc: l.fc,
+					value: _,
+					bType: l.bType,
+					enumValues: l.enumValues,
+					cdc: l.cdc
 				},
 				object: y.object,
 				acquisition: y.acquisition,
@@ -150012,7 +150017,7 @@ async function NL(e) {
 			});
 		}
 	}
-	return o;
+	return s;
 }
 async function PL(e, t) {
 	let n = /* @__PURE__ */ new Map();
@@ -150221,21 +150226,21 @@ function GL(e) {
 	}
 	return t;
 }
-async function fMe(e, t, n) {
-	let r = e.reference ? await e.reference.buildElementPath(t) : void 0;
-	if (r) return nMe(r, n);
-	let i = await e.findAncestors(t, { order: "top-down" }), a = [], o = [];
-	for (let t of i) {
-		if (t.tagName === "SCL") continue;
-		let n = await e.any.getAttribute(t, { name: "name" }) || t.tagName;
-		t.tagName.includes("Function") ? o.push(n) : a.push(n);
+async function fMe(e) {
+	let { query: t, lnode: n, elementPath: r, fallbackLnodeLabel: i } = e;
+	if (r) return nMe(r, i);
+	let a = await t.findAncestors(n, { order: "top-down" }), o = [], s = [];
+	for (let e of a) {
+		if (e.tagName === "SCL") continue;
+		let n = await t.any.getAttribute(e, { name: "name" }) || e.tagName;
+		e.tagName.includes("Function") ? s.push(n) : o.push(n);
 	}
 	return {
-		hierarchyPath: a,
-		hierarchyLabel: a.join("/"),
-		functionPath: o,
-		functionLabel: o.join("/"),
-		lnodeLabel: n,
+		hierarchyPath: o,
+		hierarchyLabel: o.join("/"),
+		functionPath: s,
+		functionLabel: s.join("/"),
+		lnodeLabel: i,
 		fromElementPath: !1
 	};
 }
