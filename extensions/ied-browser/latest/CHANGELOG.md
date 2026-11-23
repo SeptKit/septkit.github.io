@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [Unreleased]
 
+## [61] - 2026-11-23
+
+### Added
+
+- **Export ISD** asks where to save first, then shows its progress in the status bar; a cancelled save writes nothing and shows no export report.
+
 ## [60] - 2026-11-23
 
 ### Added
