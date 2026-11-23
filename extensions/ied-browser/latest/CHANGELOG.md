@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [Unreleased]
 
+## [63] - 2026-11-23
+
+### Fixed
+
+- **Export ISD**: when the list of what the file leaves out cannot be read, the saved ISD still counts as exported and its report says the list could not be read, instead of showing an error.
+
 ## [62] - 2026-11-23
 
 ### Changed
