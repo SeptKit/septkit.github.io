@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [31] - 2026-11-23
+
+### Added
+
+- Select BehaviorDescriptions by searching their SCL hierarchy
+
 ## [30] - 2026-11-23
 
 ### Added
