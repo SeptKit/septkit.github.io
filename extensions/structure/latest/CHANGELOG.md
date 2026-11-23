@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [123] - 2026-11-23
+
+### Added
+
+- AllocationRole assignments show function hierarchy paths, making same-named Functions and SubFunctions easier to distinguish
+
 ## [122] - 2026-11-20
 
 ### Added
