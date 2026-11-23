@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-physical-viewer",
-	"version": "6",
+	"version": "7",
 	"displayName": "Physical Viewer",
 	"description": "Read-only IED physical view of the physical resource data model of an (S-)IED",
 	"private": true,
