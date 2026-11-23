@@ -7,6 +7,15 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [76] - 2026-11-22
+
+### Changed
+
+- The status bar names the file of a one-file task ("Importing · plant.scd") without a "1/1" count.
+- Screen readers hear which file a task starts on and how it ended, and why it failed, in place of "running" and "done".
+- With several tasks running, the status bar says how many; the panel names each task's file.
+- Cancel in the panel turns into "Cancelling…" until the work stops, and is no longer offered while a file is being written.
+
 ## [74] - 2026-11-20
 
 ### Changed
