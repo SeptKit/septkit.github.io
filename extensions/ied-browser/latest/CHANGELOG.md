@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [Unreleased]
 
+## [60] - 2026-11-23
+
+### Added
+
+- **Export for IED supplier**: on a real IED, saves the whole project as one file for the supplier's tool.
+
 ## [59] - 2026-11-20
 
 ### Added
