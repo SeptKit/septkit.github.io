@@ -7,6 +7,13 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [Unreleased]
 
+## [62] - 2026-11-23
+
+### Changed
+
+- **Update from another ISD version**: an ISD that is no version of the one the S-IED was placed from is refused in words as soon as it is picked, before the review opens. On an open ISD, an ISD holding no IED or several IEDs is said so, instead of "not a version of the open ISD".
+- **Instantiate ISD**: an ISD exported from an S-IED is refused as already in the project when the project holds any part of it (its S-IED or its specification), not only its S-IED. On an open ISD, another version of it is refused as already there (Update from another ISD version takes it), and an ISD exported from an S-IED of another file is refused as no version of the open ISD.
+
 ## [61] - 2026-11-23
 
 ### Added
