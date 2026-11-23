@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [122] - 2026-11-20
+
+### Added
+
+- When a template is placed or updated, **Confirm** lists what the commit also removes beyond the changes you decided: a container the merge leaves empty and a type no longer used, each with why it goes and what goes with it, counted with the removals.
+
 ## [121] - 2026-11-20
 
 ### Changed
