@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [124] - 2026-11-23
+
+### Added
+
+- **Extract as SSD / FSD / ASD** asks where to save first, then shows its progress in the status bar, where you can cancel it until the file is written.
+
 ## [123] - 2026-11-23
 
 ### Added
