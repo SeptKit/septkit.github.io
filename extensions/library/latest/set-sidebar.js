@@ -1,7 +1,7 @@
-(function(){try{if(typeof document<`u`){var e=document.createElement(`style`);e.appendChild(document.createTextNode(`.nsd-table__cell[data-v-174ff250]{vertical-align:middle;text-align:left;overflow-wrap:anywhere;word-break:break-word;white-space:normal;font-weight:400}.nsd-table__thead th[data-v-174ff250]{white-space:nowrap;text-overflow:ellipsis;word-break:normal;overflow-wrap:normal;background:0 0;overflow:hidden}.nsd-table[data-v-174ff250] svg{width:1.25rem;height:1.25rem;display:block}.nsd-table__warning[data-v-174ff250]{cursor:help;display:inline-flex}.fileupload__dropzone--over[data-v-573fcb81]{border-color:oklch(var(--p));background-color:oklch(var(--p) / .05)}.fileupload__dropzone--disabled[data-v-573fcb81]{opacity:.6;cursor:not-allowed;pointer-events:none}.import-nsd-dialog[data-v-51813284]{flex-direction:column;width:min(860px,92vw);max-width:none;max-height:min(74vh,720px);display:flex}.import-nsd-dialog__close[data-v-51813284]{position:absolute;top:.5rem;right:.5rem}.import-nsd-dialog__body[data-v-51813284]{flex-direction:column;flex:1;gap:1rem;display:flex;overflow:hidden}.import-nsd-dialog__tableArea[data-v-51813284]{flex:1;overflow:auto}.import-nsd-dialog__messages[data-v-51813284]{min-height:1.25rem}.import-nsd-dialog__footer[data-v-51813284]{justify-content:flex-end;display:flex}.sidebar-nsd[data-v-953f068d]{flex-direction:column;gap:.5rem;display:flex}.sidebar-nsd__header[data-v-953f068d]{justify-content:space-between;align-items:center;display:flex}.sidebar-nsd__title[data-v-953f068d]{font-size:.875rem;font-weight:600}`)),document.head.appendChild(e)}}catch(e){console.error(`vite-plugin-css-injected-by-js`,e)}})();import { $ as e, At as t, Bt as n, Ft as r, It as i, Lt as a, Mt as o, Nt as s, Ot as c, Pt as l, Rt as u, Tt as d, Ut as f, Vt as p, _t as m, bt as h, ct as g, ft as _, gt as v, ht as y, it as b, kt as x, mt as S, pt as C, rt as w, t as T, w as E, wt as D, xt as O, yt as k, zt as A } from "./main-xLUatqLx.js";
-import { a as j, c as M, d as ee, f as te, i as N, l as ne, o as P, r as re, s as ie, t as ae } from "./query-nsd-metadata-DmUMlyl7.js";
+(function(){try{if(typeof document<`u`){var e=document.createElement(`style`);e.appendChild(document.createTextNode(`.nsd-table__cell[data-v-174ff250]{vertical-align:middle;text-align:left;overflow-wrap:anywhere;word-break:break-word;white-space:normal;font-weight:400}.nsd-table__thead th[data-v-174ff250]{white-space:nowrap;text-overflow:ellipsis;word-break:normal;overflow-wrap:normal;background:0 0;overflow:hidden}.nsd-table[data-v-174ff250] svg{width:1.25rem;height:1.25rem;display:block}.nsd-table__warning[data-v-174ff250]{cursor:help;display:inline-flex}.fileupload__dropzone--over[data-v-573fcb81]{border-color:oklch(var(--p));background-color:oklch(var(--p) / .05)}.fileupload__dropzone--disabled[data-v-573fcb81]{opacity:.6;cursor:not-allowed;pointer-events:none}.import-nsd-dialog[data-v-51813284]{flex-direction:column;width:min(860px,92vw);max-width:none;max-height:min(74vh,720px);display:flex}.import-nsd-dialog__close[data-v-51813284]{position:absolute;top:.5rem;right:.5rem}.import-nsd-dialog__body[data-v-51813284]{flex-direction:column;flex:1;gap:1rem;display:flex;overflow:hidden}.import-nsd-dialog__tableArea[data-v-51813284]{flex:1;overflow:auto}.import-nsd-dialog__messages[data-v-51813284]{min-height:1.25rem}.import-nsd-dialog__footer[data-v-51813284]{justify-content:flex-end;display:flex}.sidebar-nsd[data-v-953f068d]{flex-direction:column;gap:.5rem;display:flex}.sidebar-nsd__header[data-v-953f068d]{justify-content:space-between;align-items:center;display:flex}.sidebar-nsd__title[data-v-953f068d]{font-size:.875rem;font-weight:600}`)),document.head.appendChild(e)}}catch(e){console.error(`vite-plugin-css-injected-by-js`,e)}})();import { At as e, Bt as t, Et as n, Ft as r, Ht as i, It as a, Lt as o, Nt as s, Pt as c, Rt as l, St as u, T as d, Tt as f, Vt as p, Wt as m, _t as h, at as g, bt as _, et as v, gt as y, ht as b, it as x, jt as S, kt as C, lt as w, mt as T, pt as E, t as D, vt as O, xt as k, zt as ee } from "./main-B5ExcopM.js";
+import { a as A, c as j, d as te, f as ne, i as M, l as re, o as N, r as ie, s as ae, t as oe } from "./query-nsd-metadata-CXMsbaLA.js";
 //#region src/nsd/icons/upload-icon.vue
-var oe = {}, se = {
+var se = {}, ce = {
 	xmlns: "http://www.w3.org/2000/svg",
 	width: "16",
 	height: "16",
@@ -13,39 +13,39 @@ var oe = {}, se = {
 	"stroke-linejoin": "round",
 	class: "lucide lucide-file-input-icon lucide-file-input"
 };
-function ce(e, t) {
-	return D(), m("svg", se, [...t[0] ||= [
-		S("path", { d: "M4 11V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-1" }, null, -1),
-		S("path", { d: "M14 2v5a1 1 0 0 0 1 1h5" }, null, -1),
-		S("path", { d: "M2 15h10" }, null, -1),
-		S("path", { d: "m9 18 3-3-3-3" }, null, -1)
+function le(e, t) {
+	return f(), O("svg", ce, [...t[0] ||= [
+		b("path", { d: "M4 11V4a2 2 0 0 1 2-2h8a2.4 2.4 0 0 1 1.706.706l3.588 3.588A2.4 2.4 0 0 1 20 8v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-1" }, null, -1),
+		b("path", { d: "M14 2v5a1 1 0 0 0 1 1h5" }, null, -1),
+		b("path", { d: "M2 15h10" }, null, -1),
+		b("path", { d: "m9 18 3-3-3-3" }, null, -1)
 	]]);
 }
-var le = /* @__PURE__ */ w(oe, [["render", ce]]), ue = {}, de = {
+var ue = /* @__PURE__ */ x(se, [["render", le]]), de = {}, fe = {
 	xmlns: "http://www.w3.org/2000/svg",
 	viewBox: "0 0 24 24",
 	fill: "currentColor",
 	class: "size-6"
 };
-function fe(e, t) {
-	return D(), m("svg", de, [...t[0] ||= [S("path", {
+function pe(e, t) {
+	return f(), O("svg", fe, [...t[0] ||= [b("path", {
 		"fill-rule": "evenodd",
 		d: "M9.401 3.003c1.155-2 4.043-2 5.197 0l7.355 12.748c1.154 2-.29 4.5-2.599 4.5H4.645c-2.309 0-3.752-2.5-2.598-4.5L9.4 3.003ZM12 8.25a.75.75 0 0 1 .75.75v3.75a.75.75 0 0 1-1.5 0V9a.75.75 0 0 1 .75-.75Zm0 8.25a.75.75 0 1 0 0-1.5.75.75 0 0 0 0 1.5Z",
 		"clip-rule": "evenodd"
 	}, null, -1)]]);
 }
-var pe = /* @__PURE__ */ w(ue, [["render", fe]]), F = {}, I = {
+var P = /* @__PURE__ */ x(de, [["render", pe]]), F = {}, I = {
 	width: "20",
 	height: "20",
 	viewBox: "0 0 24 24"
 };
 function L(e, t) {
-	return D(), m("svg", I, [...t[0] ||= [S("path", {
+	return f(), O("svg", I, [...t[0] ||= [b("path", {
 		fill: "currentColor",
 		d: "M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 14.5L6.5 12 7.91 10.59 11 13.67l5.59-5.59L18 9.5 11 16.5z"
 	}, null, -1)]]);
 }
-var R = /* @__PURE__ */ w(F, [["render", L]]), z = { class: "nsd-table text-sm w-full min-w-0" }, B = { class: "border-base-300 rounded-box bg-base-100 overflow-hidden" }, me = { class: "table w-full table-fixed" }, he = {
+var R = /* @__PURE__ */ x(F, [["render", L]]), z = { class: "nsd-table text-sm w-full min-w-0" }, B = { class: "border-base-300 rounded-box bg-base-100 overflow-hidden" }, me = { class: "table w-full table-fixed" }, he = {
 	key: 0,
 	class: "w-2/12"
 }, ge = { class: "nsd-table__thead" }, _e = {
@@ -70,7 +70,7 @@ var R = /* @__PURE__ */ w(F, [["render", L]]), z = { class: "nsd-table text-sm w
 }, ke = {
 	key: 2,
 	class: "text-base-content/60"
-}, Ae = { key: 0 }, je = ["colspan"], V = /* @__PURE__ */ w(/* @__PURE__ */ h({
+}, Ae = { key: 0 }, je = ["colspan"], V = /* @__PURE__ */ x(/* @__PURE__ */ k({
 	__name: "nsd-table",
 	props: {
 		rows: { default: () => [] },
@@ -84,59 +84,59 @@ var R = /* @__PURE__ */ w(F, [["render", L]]), z = { class: "nsd-table text-sm w
 		},
 		emptyText: { default: "No files selected." }
 	},
-	setup(r) {
-		let i = r, a = C(() => i.showDependencyColumn ? 3 : 2), o = C(() => !!i.emptyText && i.rows.length === 0);
-		function s(e) {
+	setup(e) {
+		let t = e, r = T(() => t.showDependencyColumn ? 3 : 2), a = T(() => !!t.emptyText && t.rows.length === 0);
+		function o(e) {
 			return e.missingDependencyFileName ? `Missing dependency: ${e.missingDependencyFileName} — import this NSD file to resolve` : "Missing dependency — import the required NSD file to resolve";
 		}
-		return (r, c) => (D(), m("div", z, [S("div", B, [S("table", me, [
-			S("colgroup", null, [
-				S("col", { class: p(i.showDependencyColumn ? "w-6/12" : "w-8/12") }, null, 2),
-				S("col", { class: p((i.showDependencyColumn, "w-4/12")) }, null, 2),
-				i.showDependencyColumn ? (D(), m("col", he)) : v("", !0)
+		return (e, s) => (f(), O("div", z, [b("div", B, [b("table", me, [
+			b("colgroup", null, [
+				b("col", { class: i(t.showDependencyColumn ? "w-6/12" : "w-8/12") }, null, 2),
+				b("col", { class: i((t.showDependencyColumn, "w-4/12")) }, null, 2),
+				t.showDependencyColumn ? (f(), O("col", he)) : h("", !0)
 			]),
-			S("thead", ge, [S("tr", null, [
-				c[0] ||= S("th", {
+			b("thead", ge, [b("tr", null, [
+				s[0] ||= b("th", {
 					class: "nsd-table__cell p-3.5 font-semibold truncate",
 					title: "File"
 				}, "File", -1),
-				c[1] ||= S("th", {
+				s[1] ||= b("th", {
 					class: "nsd-table__cell p-3.5 font-semibold truncate",
 					title: "Version/Revision/Release"
 				}, " Version/Revision/Release ", -1),
-				i.showDependencyColumn ? (D(), m("th", _e, " Dependency ")) : v("", !0)
+				t.showDependencyColumn ? (f(), O("th", _e, " Dependency ")) : h("", !0)
 			])]),
-			S("tbody", null, [(D(!0), m(_, null, d(i.rows, (r) => (D(), m("tr", { key: r.fileName }, [
-				S("td", ve, [S("div", ye, [
-					S("span", {
+			b("tbody", null, [(f(!0), O(E, null, n(t.rows, (e) => (f(), O("tr", { key: e.fileName }, [
+				b("td", ve, [b("div", ye, [
+					b("span", {
 						class: "block min-w-0 truncate",
-						title: r.fileName
-					}, f(r.fileName), 9, be),
-					r.isNsdoc ? (D(), m("span", xe, " NSDoc ")) : v("", !0),
-					i.showExtensionLabel && r.isExtension ? (D(), m("span", Se, " Extension ")) : v("", !0)
+						title: e.fileName
+					}, m(e.fileName), 9, be),
+					e.isNsdoc ? (f(), O("span", xe, " NSDoc ")) : h("", !0),
+					t.showExtensionLabel && e.isExtension ? (f(), O("span", Se, " Extension ")) : h("", !0)
 				])]),
-				S("td", Ce, [S("span", {
+				b("td", Ce, [b("span", {
 					class: "block min-w-0 truncate",
-					title: r.versionRevisionRelease
-				}, f(r.versionRevisionRelease), 9, we)]),
-				i.showDependencyColumn ? (D(), m("td", Te, [S("div", Ee, [r.dependencyStatus === "ok" ? (D(), m("span", De, [k(R, { "aria-label": "Dependencies satisfied" })])) : r.dependencyStatus === "missing" ? (D(), y(n(e), {
+					title: e.versionRevisionRelease
+				}, m(e.versionRevisionRelease), 9, we)]),
+				t.showDependencyColumn ? (f(), O("td", Te, [b("div", Ee, [e.dependencyStatus === "ok" ? (f(), O("span", De, [_(R, { "aria-label": "Dependencies satisfied" })])) : e.dependencyStatus === "missing" ? (f(), y(p(v), {
 					key: 1,
-					content: s(r)
+					content: o(e)
 				}, {
-					default: t(() => [S("span", Oe, [k(pe, { "aria-label": "Missing Dependency" })])]),
+					default: S(() => [b("span", Oe, [_(P, { "aria-label": "Missing Dependency" })])]),
 					_: 1
-				}, 8, ["content"])) : (D(), m("span", ke, "—"))])])) : v("", !0)
-			]))), 128)), o.value ? (D(), m("tr", Ae, [S("td", {
-				colspan: a.value,
+				}, 8, ["content"])) : (f(), O("span", ke, "—"))])])) : h("", !0)
+			]))), 128)), a.value ? (f(), O("tr", Ae, [b("td", {
+				colspan: r.value,
 				class: "p-3.5 text-base-content/60"
-			}, f(i.emptyText), 9, je)])) : v("", !0)])
+			}, m(t.emptyText), 9, je)])) : h("", !0)])
 		])])]));
 	}
 }), [["__scopeId", "data-v-174ff250"]]);
 //#endregion
 //#region node_modules/.pnpm/@vueuse+shared@14.2.1_vue@3.5.32_typescript@5.8.3_/node_modules/@vueuse/shared/dist/index.js
 function Me(e, t) {
-	return o() ? (l(e, t), !0) : !1;
+	return s() ? (r(e, t), !0) : !1;
 }
 function H() {
 	let e = /* @__PURE__ */ new Set(), t = (t) => {
@@ -170,18 +170,18 @@ function Ie(e, t) {
 	}
 	return n;
 }
-function Le(e, t = {}) {
-	let n, r, i = W, a = (e) => {
-		clearTimeout(e), i(), i = W;
-	}, o;
-	return (s) => {
-		let c = A(e), l = A(t.maxWait);
-		return n && a(n), c <= 0 || l !== void 0 && l <= 0 ? (r &&= (a(r), void 0), Promise.resolve(s())) : new Promise((e, u) => {
-			i = t.rejectOnCancel ? u : e, o = s, l && !r && (r = setTimeout(() => {
-				n && a(n), r = void 0, e(o());
-			}, l)), n = setTimeout(() => {
-				r && a(r), r = void 0, e(s());
-			}, c);
+function Le(e, n = {}) {
+	let r, i, a = W, o = (e) => {
+		clearTimeout(e), a(), a = W;
+	}, s;
+	return (c) => {
+		let l = t(e), u = t(n.maxWait);
+		return r && o(r), l <= 0 || u !== void 0 && u <= 0 ? (i &&= (o(i), void 0), Promise.resolve(c())) : new Promise((e, t) => {
+			a = n.rejectOnCancel ? t : e, s = c, u && !i && (i = setTimeout(() => {
+				r && o(r), i = void 0, e(s());
+			}, u)), r = setTimeout(() => {
+				i && o(i), i = void 0, e(c());
+			}, l);
 		});
 	};
 }
@@ -196,76 +196,76 @@ function K(e) {
 function Re(e, t = 200, n = {}) {
 	return Ie(Le(t, n), e);
 }
-function q(e, t = !1) {
-	function n(n, { flush: r = "sync", deep: i = !1, timeout: a, throwOnTimeout: o } = {}) {
-		let s = null, l = [new Promise((a) => {
-			s = c(e, (e) => {
-				n(e) !== t && (s ? s() : O(() => s?.()), a(e));
+function q(e, n = !1) {
+	function r(r, { flush: i = "sync", deep: a = !1, timeout: o, throwOnTimeout: s } = {}) {
+		let c = null, l = [new Promise((t) => {
+			c = C(e, (e) => {
+				r(e) !== n && (c ? c() : u(() => c?.()), t(e));
 			}, {
-				flush: r,
-				deep: i,
+				flush: i,
+				deep: a,
 				immediate: !0
 			});
 		})];
-		return a != null && l.push(G(a, o).then(() => A(e)).finally(() => s?.())), Promise.race(l);
+		return o != null && l.push(G(o, s).then(() => t(e)).finally(() => c?.())), Promise.race(l);
 	}
-	function r(r, i) {
-		if (!s(r)) return n((e) => e === r, i);
-		let { flush: a = "sync", deep: o = !1, timeout: l, throwOnTimeout: u } = i ?? {}, d = null, f = [new Promise((n) => {
-			d = c([e, r], ([e, r]) => {
-				t !== (e === r) && (d ? d() : O(() => d?.()), n(e));
+	function i(i, a) {
+		if (!c(i)) return r((e) => e === i, a);
+		let { flush: o = "sync", deep: s = !1, timeout: l, throwOnTimeout: d } = a ?? {}, f = null, p = [new Promise((t) => {
+			f = C([e, i], ([e, r]) => {
+				n !== (e === r) && (f ? f() : u(() => f?.()), t(e));
 			}, {
-				flush: a,
-				deep: o,
+				flush: o,
+				deep: s,
 				immediate: !0
 			});
 		})];
-		return l != null && f.push(G(l, u).then(() => A(e)).finally(() => (d?.(), A(e)))), Promise.race(f);
-	}
-	function i(e) {
-		return n((e) => !!e, e);
+		return l != null && p.push(G(l, d).then(() => t(e)).finally(() => (f?.(), t(e)))), Promise.race(p);
 	}
 	function a(e) {
-		return r(null, e);
+		return r((e) => !!e, e);
 	}
 	function o(e) {
-		return r(void 0, e);
+		return i(null, e);
+	}
+	function s(e) {
+		return i(void 0, e);
 	}
 	function l(e) {
-		return n(Number.isNaN, e);
+		return r(Number.isNaN, e);
 	}
-	function u(e, t) {
-		return n((t) => {
-			let n = Array.from(t);
-			return n.includes(e) || n.includes(A(e));
-		}, t);
+	function d(e, n) {
+		return r((n) => {
+			let r = Array.from(n);
+			return r.includes(e) || r.includes(t(e));
+		}, n);
 	}
-	function d(e) {
-		return f(1, e);
+	function f(e) {
+		return p(1, e);
 	}
-	function f(e = 1, t) {
-		let r = -1;
-		return n(() => (r += 1, r >= e), t);
+	function p(e = 1, t) {
+		let n = -1;
+		return r(() => (n += 1, n >= e), t);
 	}
-	return Array.isArray(A(e)) ? {
-		toMatch: n,
-		toContains: u,
-		changed: d,
-		changedTimes: f,
+	return Array.isArray(t(e)) ? {
+		toMatch: r,
+		toContains: d,
+		changed: f,
+		changedTimes: p,
 		get not() {
-			return q(e, !t);
+			return q(e, !n);
 		}
 	} : {
-		toMatch: n,
-		toBe: r,
-		toBeTruthy: i,
-		toBeNull: a,
+		toMatch: r,
+		toBe: i,
+		toBeTruthy: a,
+		toBeNull: o,
 		toBeNaN: l,
-		toBeUndefined: o,
-		changed: d,
-		changedTimes: f,
+		toBeUndefined: s,
+		changed: f,
+		changedTimes: p,
 		get not() {
-			return q(e, !t);
+			return q(e, !n);
 		}
 	};
 }
@@ -273,136 +273,136 @@ function ze(e) {
 	return q(e);
 }
 function Be(e, t, n) {
-	return c(e, t, {
+	return C(e, t, {
 		...n,
 		immediate: !0
 	});
 }
 //#endregion
 //#region node_modules/.pnpm/@vueuse+core@14.2.1_vue@3.5.32_typescript@5.8.3_/node_modules/@vueuse/core/dist/index.js
-function Ve(e, t, n) {
-	let r;
-	r = s(n) ? { evaluating: n } : n || {};
-	let { lazy: o = !1, flush: c = "sync", evaluating: l = void 0, shallow: u = !0, onError: d = globalThis.reportError ?? W } = r, f = a(!o), p = u ? a(t) : i(t), m = 0;
-	return x(async (t) => {
-		if (!f.value) return;
-		m++;
-		let n = m, r = !1;
-		l && Promise.resolve().then(() => {
-			l.value = !0;
+function Ve(t, n, r) {
+	let i;
+	i = c(r) ? { evaluating: r } : r || {};
+	let { lazy: a = !1, flush: s = "sync", evaluating: u = void 0, shallow: d = !0, onError: f = globalThis.reportError ?? W } = i, p = l(!a), m = d ? l(n) : o(n), h = 0;
+	return e(async (e) => {
+		if (!p.value) return;
+		h++;
+		let n = h, r = !1;
+		u && Promise.resolve().then(() => {
+			u.value = !0;
 		});
 		try {
-			let i = await e((e) => {
-				t(() => {
-					l && (l.value = !1), r || e();
+			let i = await t((t) => {
+				e(() => {
+					u && (u.value = !1), r || t();
 				});
 			});
-			n === m && (p.value = i);
+			n === h && (m.value = i);
 		} catch (e) {
-			d(e);
+			f(e);
 		} finally {
-			l && n === m && (l.value = !1), r = !0;
+			u && n === h && (u.value = !1), r = !0;
 		}
-	}, { flush: c }), o ? C(() => (f.value = !0, p.value)) : p;
+	}, { flush: s }), a ? T(() => (p.value = !0, m.value)) : m;
 }
 var He = U ? window : void 0, Ue = U ? window.document : void 0;
 U && window.navigator, U && window.location;
 function J(e) {
-	let t = A(e);
-	return t?.$el ?? t;
+	let n = t(e);
+	return n?.$el ?? n;
 }
 function Y(...e) {
-	let t = (e, t, n, r) => (e.addEventListener(t, n, r), () => e.removeEventListener(t, n, r)), r = C(() => {
-		let t = K(A(e[0])).filter((e) => e != null);
-		return t.every((e) => typeof e != "string") ? t : void 0;
+	let n = (e, t, n, r) => (e.addEventListener(t, n, r), () => e.removeEventListener(t, n, r)), r = T(() => {
+		let n = K(t(e[0])).filter((e) => e != null);
+		return n.every((e) => typeof e != "string") ? n : void 0;
 	});
 	return Be(() => [
 		r.value?.map((e) => J(e)) ?? [He].filter((e) => e != null),
-		K(A(r.value ? e[1] : e[0])),
-		K(n(r.value ? e[2] : e[1])),
-		A(r.value ? e[3] : e[2])
-	], ([e, n, r, i], a, o) => {
-		if (!e?.length || !n?.length || !r?.length) return;
-		let s = Pe(i) ? { ...i } : i, c = e.flatMap((e) => n.flatMap((n) => r.map((r) => t(e, n, r, s))));
+		K(t(r.value ? e[1] : e[0])),
+		K(p(r.value ? e[2] : e[1])),
+		t(r.value ? e[3] : e[2])
+	], ([e, t, r, i], a, o) => {
+		if (!e?.length || !t?.length || !r?.length) return;
+		let s = Pe(i) ? { ...i } : i, c = e.flatMap((e) => t.flatMap((t) => r.map((r) => n(e, t, r, s))));
 		o(() => {
 			c.forEach((e) => e());
 		});
 	}, { flush: "post" });
 }
-function We(e, t, n) {
-	let { immediate: r = !0, delay: o = 0, onError: s = globalThis.reportError ?? W, onSuccess: c = W, resetOnExecute: l = !0, shallow: u = !0, throwError: d } = n ?? {}, f = u ? a(t) : i(t), p = a(!1), m = a(!1), h = a(void 0), g = 0;
-	async function _(n = 0, ...r) {
-		let i = g += 1;
-		l && (f.value = A(t)), h.value = void 0, p.value = !1, m.value = !0, n > 0 && await G(n);
-		let a = typeof e == "function" ? e(...r) : e;
+function We(e, n, r) {
+	let { immediate: i = !0, delay: a = 0, onError: s = globalThis.reportError ?? W, onSuccess: c = W, resetOnExecute: u = !0, shallow: d = !0, throwError: f } = r ?? {}, p = d ? l(n) : o(n), m = l(!1), h = l(!1), g = l(void 0), _ = 0;
+	async function v(r = 0, ...i) {
+		let a = _ += 1;
+		u && (p.value = t(n)), g.value = void 0, m.value = !1, h.value = !0, r > 0 && await G(r);
+		let o = typeof e == "function" ? e(...i) : e;
 		try {
-			let e = await a;
-			return i === g && (f.value = e, p.value = !0), c(e), e;
+			let e = await o;
+			return a === _ && (p.value = e, m.value = !0), c(e), e;
 		} catch (e) {
-			if (i === g && (h.value = e), s(e), d) throw e;
+			if (a === _ && (g.value = e), s(e), f) throw e;
 		} finally {
-			i === g && (m.value = !1);
+			a === _ && (h.value = !1);
 		}
 	}
-	r && _(o);
-	let v = {
-		state: f,
-		isReady: p,
-		isLoading: m,
-		error: h,
-		execute: _,
-		executeImmediate: (...e) => _(0, ...e)
+	i && v(a);
+	let y = {
+		state: p,
+		isReady: m,
+		isLoading: h,
+		error: g,
+		execute: v,
+		executeImmediate: (...e) => v(0, ...e)
 	};
-	function y() {
+	function b() {
 		return new Promise((e, t) => {
-			ze(m).toBe(!1).then(() => e(v)).catch(t);
+			ze(h).toBe(!1).then(() => e(y)).catch(t);
 		});
 	}
 	return {
-		...v,
+		...y,
 		then(e, t) {
-			return y().then(e, t);
+			return b().then(e, t);
 		}
 	};
 }
 function Ge(e, t = {}) {
-	let r = a(!1), i = a(null), o = 0, s = !0;
+	let n = l(!1), r = l(null), i = 0, a = !0;
 	if (U) {
-		let a = typeof t == "function" ? { onDrop: t } : t, c = a.multiple ?? !0, l = a.preventDefaultForUnhandled ?? !1, u = (e) => {
+		let o = typeof t == "function" ? { onDrop: t } : t, s = o.multiple ?? !0, c = o.preventDefaultForUnhandled ?? !1, l = (e) => {
 			let t = Array.from(e.dataTransfer?.files ?? []);
-			return t.length === 0 ? null : c ? t : [t[0]];
-		}, d = (e) => {
-			let t = n(a.dataTypes);
+			return t.length === 0 ? null : s ? t : [t[0]];
+		}, u = (e) => {
+			let t = p(o.dataTypes);
 			return typeof t == "function" ? t(e) : t?.length ? e.length === 0 ? !1 : e.every((e) => t.some((t) => e.includes(t))) : !0;
-		}, f = (e) => {
-			if (a.checkValidity) return a.checkValidity(e);
-			let t = d(Array.from(e ?? []).map((e) => e.type)), n = c || e.length <= 1;
+		}, d = (e) => {
+			if (o.checkValidity) return o.checkValidity(e);
+			let t = u(Array.from(e ?? []).map((e) => e.type)), n = s || e.length <= 1;
 			return t && n;
-		}, p = () => /^(?:(?!chrome|android).)*safari/i.test(navigator.userAgent) && !("chrome" in window), m = (e, t) => {
-			let n = e.dataTransfer?.items;
-			if (s = (n && f(n)) ?? !1, l && e.preventDefault(), !p() && !s) {
+		}, f = () => /^(?:(?!chrome|android).)*safari/i.test(navigator.userAgent) && !("chrome" in window), m = (e, t) => {
+			let s = e.dataTransfer?.items;
+			if (a = (s && d(s)) ?? !1, c && e.preventDefault(), !f() && !a) {
 				e.dataTransfer && (e.dataTransfer.dropEffect = "none");
 				return;
 			}
 			e.preventDefault(), e.dataTransfer && (e.dataTransfer.dropEffect = "copy");
-			let c = u(e);
+			let u = l(e);
 			switch (t) {
 				case "enter":
-					var d;
-					o += 1, r.value = !0, (d = a.onEnter) == null || d.call(a, null, e);
+					var p;
+					i += 1, n.value = !0, (p = o.onEnter) == null || p.call(o, null, e);
 					break;
 				case "over":
 					var m;
-					(m = a.onOver) == null || m.call(a, null, e);
+					(m = o.onOver) == null || m.call(o, null, e);
 					break;
 				case "leave":
 					var h;
-					--o, o === 0 && (r.value = !1), (h = a.onLeave) == null || h.call(a, null, e);
+					--i, i === 0 && (n.value = !1), (h = o.onLeave) == null || h.call(o, null, e);
 					break;
 				case "drop":
-					if (o = 0, r.value = !1, s) {
+					if (i = 0, n.value = !1, a) {
 						var g;
-						i.value = c, (g = a.onDrop) == null || g.call(a, c, e);
+						r.value = u, (g = o.onDrop) == null || g.call(o, u, e);
 					}
 					break;
 			}
@@ -410,8 +410,8 @@ function Ge(e, t = {}) {
 		Y(e, "dragenter", (e) => m(e, "enter")), Y(e, "dragover", (e) => m(e, "over")), Y(e, "dragleave", (e) => m(e, "leave")), Y(e, "drop", (e) => m(e, "drop"));
 	}
 	return {
-		files: i,
-		isOverDropZone: r
+		files: r,
+		isOverDropZone: n
 	};
 }
 var Ke = {
@@ -427,37 +427,37 @@ function qe(e) {
 	for (let n of e) t.items.add(n);
 	return t.files;
 }
-function Je(e = {}) {
-	let { document: t = Ue } = e, n = i(qe(e.initialFiles)), { on: a, trigger: o } = H(), { on: s, trigger: c } = H(), l = C(() => {
-		let r = J(e.input) ?? (t ? t.createElement("input") : void 0);
-		return r && (r.type = "file", r.onchange = (e) => {
-			n.value = e.target.files, o(n.value);
-		}, r.oncancel = () => {
-			c();
-		}), r;
-	}), u = () => {
-		n.value = null, l.value && l.value.value && (l.value.value = "", o(null));
-	}, d = (e) => {
-		let t = l.value;
-		t && (t.multiple = A(e.multiple), t.accept = A(e.accept), t.webkitdirectory = A(e.directory), Fe(e, "capture") && (t.capture = A(e.capture)));
+function Je(n = {}) {
+	let { document: r = Ue } = n, i = o(qe(n.initialFiles)), { on: s, trigger: c } = H(), { on: l, trigger: u } = H(), d = T(() => {
+		let e = J(n.input) ?? (r ? r.createElement("input") : void 0);
+		return e && (e.type = "file", e.onchange = (e) => {
+			i.value = e.target.files, c(i.value);
+		}, e.oncancel = () => {
+			u();
+		}), e;
+	}), f = () => {
+		i.value = null, d.value && d.value.value && (d.value.value = "", c(null));
+	}, p = (e) => {
+		let n = d.value;
+		n && (n.multiple = t(e.multiple), n.accept = t(e.accept), n.webkitdirectory = t(e.directory), Fe(e, "capture") && (n.capture = t(e.capture)));
 	};
-	return x(() => {
-		d(e);
+	return e(() => {
+		p(n);
 	}), {
-		files: r(n),
-		open: (t) => {
-			let n = l.value;
-			if (!n) return;
-			let r = {
+		files: a(i),
+		open: (e) => {
+			let r = d.value;
+			if (!r) return;
+			let i = {
 				...Ke,
-				...e,
-				...t
+				...n,
+				...e
 			};
-			d(r), A(r.reset) && u(), n.click();
+			p(i), t(i.reset) && f(), r.click();
 		},
-		reset: u,
-		onCancel: s,
-		onChange: a
+		reset: f,
+		onCancel: l,
+		onChange: s
 	};
 }
 //#endregion
@@ -472,7 +472,7 @@ var Ye = { class: "fileupload w-full flex flex-col gap-4" }, Xe = {
 }, et = {
 	key: 2,
 	class: "flex flex-col gap-2"
-}, tt = ["title"], nt = ["disabled", "onClick"], rt = /* @__PURE__ */ w(/* @__PURE__ */ h({
+}, tt = ["title"], nt = ["disabled", "onClick"], rt = /* @__PURE__ */ x(/* @__PURE__ */ k({
 	__name: "file-input",
 	props: {
 		accept: { default: "" },
@@ -497,85 +497,85 @@ var Ye = { class: "fileupload w-full flex flex-col gap-4" }, Xe = {
 	},
 	emits: ["files-selected", "files-removed"],
 	setup(e, { expose: t, emit: r }) {
-		let a = e, o = r, s = i(null), { open: c, onChange: l } = Je({
+		let a = e, s = r, c = o(null), { open: l, onChange: u } = Je({
 			accept: a.accept,
 			multiple: a.multiple
-		}), { isOverDropZone: u } = Ge(s, { onDrop: (e) => {
-			e?.length && x(Array.from(e));
-		} }), h = i([]), g = i(""), y = C(() => a.alwaysShowDropZone || h.value.length === 0);
-		l((e) => {
-			e?.length && x(Array.from(e));
+		}), { isOverDropZone: d } = Ge(c, { onDrop: (e) => {
+			e?.length && S(Array.from(e));
+		} }), g = o([]), v = o(""), y = T(() => a.alwaysShowDropZone || g.value.length === 0);
+		u((e) => {
+			e?.length && S(Array.from(e));
 		});
-		function b(e) {
+		function x(e) {
 			let t = /* @__PURE__ */ new Map();
 			for (let n of e) t.set(`${n.name}|${n.size}|${n.lastModified}`, n);
 			return Array.from(t.values());
 		}
-		function x(e) {
-			a.disabled || (g.value = "", h.value = a.multiple ? b([...h.value, ...e]) : e.slice(0, 1), o("files-selected", e));
+		function S(e) {
+			a.disabled || (v.value = "", g.value = a.multiple ? x([...g.value, ...e]) : e.slice(0, 1), s("files-selected", e));
 		}
-		function w(e) {
+		function C(e) {
 			if (a.disabled) return;
-			let t = h.value[e];
-			t && (h.value = h.value.filter((t, n) => n !== e), o("files-removed", [t]));
+			let t = g.value[e];
+			t && (g.value = g.value.filter((t, n) => n !== e), s("files-removed", [t]));
 		}
-		function T() {
-			g.value = "";
+		function w() {
+			v.value = "";
 		}
-		function E() {
-			h.value = [], g.value = "";
+		function D() {
+			g.value = [], v.value = "";
 		}
 		return t({
-			open: c,
-			reset: E
-		}), (t, r) => (D(), m("div", Ye, [
-			g.value ? (D(), m("div", Xe, [S("span", Ze, f(g.value), 1), S("button", {
+			open: l,
+			reset: D
+		}), (t, r) => (f(), O("div", Ye, [
+			v.value ? (f(), O("div", Xe, [b("span", Ze, m(v.value), 1), b("button", {
 				class: "btn btn-ghost btn-xs btn-circle",
 				"aria-label": "Hide error",
 				type: "button",
-				onClick: T
-			}, [k(te, { class: "w-4 h-4" })])])) : v("", !0),
-			y.value ? (D(), m("div", {
+				onClick: w
+			}, [_(ne, { class: "w-4 h-4" })])])) : h("", !0),
+			y.value ? (f(), O("div", {
 				key: 1,
 				ref_key: "dropZoneRef",
-				ref: s,
-				class: p(["fileupload__dropzone w-full min-h-28 flex flex-col items-center justify-center gap-1 p-4 rounded-box border-2 border-dashed border-base-300 cursor-pointer select-none transition-colors hover:border-primary hover:bg-primary/5", {
-					"fileupload__dropzone--over": n(u),
+				ref: c,
+				class: i(["fileupload__dropzone w-full min-h-28 flex flex-col items-center justify-center gap-1 p-4 rounded-box border-2 border-dashed border-base-300 cursor-pointer select-none transition-colors hover:border-primary hover:bg-primary/5", {
+					"fileupload__dropzone--over": p(d),
 					"fileupload__dropzone--disabled": e.disabled
 				}]),
-				onClick: r[0] ||= (e) => n(c)()
-			}, [S("span", Qe, f(e.dropZoneText), 1), e.helpText ? (D(), m("span", $e, f(e.helpText), 1)) : v("", !0)], 2)) : v("", !0),
-			e.showSelectedFilesList && h.value.length > 0 ? (D(), m("div", et, [(D(!0), m(_, null, d(h.value, (t, n) => (D(), m("div", {
+				onClick: r[0] ||= (e) => p(l)()
+			}, [b("span", Qe, m(e.dropZoneText), 1), e.helpText ? (f(), O("span", $e, m(e.helpText), 1)) : h("", !0)], 2)) : h("", !0),
+			e.showSelectedFilesList && g.value.length > 0 ? (f(), O("div", et, [(f(!0), O(E, null, n(g.value, (t, n) => (f(), O("div", {
 				key: `${t.name}-${t.size}-${t.lastModified}`,
 				class: "flex items-center justify-between gap-2"
-			}, [S("span", {
+			}, [b("span", {
 				class: "flex-1 min-w-0 truncate text-sm",
 				title: t.name
-			}, f(t.name), 9, tt), S("button", {
+			}, m(t.name), 9, tt), b("button", {
 				type: "button",
 				class: "btn btn-ghost btn-sm btn-square",
 				title: "Remove file",
 				disabled: e.disabled,
-				onClick: (e) => w(n)
-			}, [k(ee, { class: "w-5 h-5" })], 8, nt)]))), 128))])) : v("", !0)
+				onClick: (e) => C(n)
+			}, [_(te, { class: "w-5 h-5" })], 8, nt)]))), 128))])) : h("", !0)
 		]));
 	}
 }), [["__scopeId", "data-v-573fcb81"]]);
 //#endregion
 //#region src/nsd/import/nsd-import.service.ts
 function X(e, t, n, r, i) {
-	return `${N(e)}|${t}|${n.toUpperCase()}|${r}|${i}`;
+	return `${M(e)}|${t}|${n.toUpperCase()}|${r}|${i}`;
 }
 async function it(e, t) {
 	let n = /* @__PURE__ */ new Map(), r = await e.getDocuments();
 	for (let i of r) if (!t.has(i.id)) try {
-		let t = await j(e.openDocument(i.id));
+		let t = await A(e.openDocument(i.id));
 		n.set(X(t.id, t.version, t.revision, t.release, t.isNsdoc), i.id);
 	} catch {}
 	return n;
 }
 async function at(e, t, n, r, i) {
-	let a = await e.importFile(t, { configKey: n }), o = await j(e.openDocument(a.documentId)), s = X(o.id, o.version, o.revision, o.release, o.isNsdoc), c, l, u = r.get(s);
+	let a = await e.importFile(t, { configKey: n }), o = await A(e.openDocument(a.documentId)), s = X(o.id, o.version, o.revision, o.release, o.isNsdoc), c, l, u = r.get(s);
 	u && (await e.removeDocument(u), r.delete(s), c = u);
 	let d = i.find((e) => X(e.meta.id, e.meta.version, e.meta.revision, e.meta.release, e.meta.isNsdoc) === s);
 	return d && (await e.removeDocument(d.documentId), l = d.documentId), {
@@ -602,11 +602,11 @@ function Z(e) {
 	};
 }
 function Q(e, t, n, r) {
-	let i = ae(e, t), a = ct(t.dependencies, n, r);
+	let i = oe(e, t), a = ct(t.dependencies, n, r);
 	return a ? {
 		...i,
 		dependencyStatus: "missing",
-		missingDependencyFileName: re(a)
+		missingDependencyFileName: ie(a)
 	} : {
 		...i,
 		dependencyStatus: "ok"
@@ -619,16 +619,16 @@ function st(e) {
 function ct(e, t, n) {
 	for (let r of e) {
 		if (!r.id) continue;
-		let e = N(r.id), i = r.revision?.toUpperCase(), a = (t) => N(t.id) === e && t.version === r.version && t.revision === i && t.release === r.release;
+		let e = M(r.id), i = r.revision?.toUpperCase(), a = (t) => M(t.id) === e && t.version === r.version && t.revision === i && t.release === r.release;
 		if (!t.some(a) && !n.some(a)) return r;
 	}
 	return null;
 }
 async function lt(e) {
 	if (e.length === 0) return [];
-	let t = await P(), n = await t.getDocuments(), r = new Set(e.map((e) => e.documentId)), i = [];
+	let t = await N(), n = await t.getDocuments(), r = new Set(e.map((e) => e.documentId)), i = [];
 	for (let e of n) if (!r.has(e.id)) try {
-		let n = await j(t.openDocument(e.id));
+		let n = await A(t.openDocument(e.id));
 		i.push(Z(n));
 	} catch {}
 	let a = e.map((e) => Z(e.meta));
@@ -637,11 +637,11 @@ async function lt(e) {
 //#endregion
 //#region src/nsd/import/nsd-import.store.ts
 function ut() {
-	let e = i([]), t = i([]), n = Ve(() => lt(e.value), [], { onError: (e) => {
+	let e = o([]), t = o([]), n = Ve(() => lt(e.value), [], { onError: (e) => {
 		t.value = [e instanceof Error ? e.message : String(e)];
 	} });
 	async function r(n) {
-		let r = await P(), i = await it(r, new Set(e.value.map((e) => e.documentId))), a = n.filter((e) => e.name.toLowerCase().endsWith(".nsd")), o = n.filter((e) => e.name.toLowerCase().endsWith(".nsdoc")), s = [], c = /* @__PURE__ */ new Set(), l = async (n, a) => {
+		let r = await N(), i = await it(r, new Set(e.value.map((e) => e.documentId))), a = n.filter((e) => e.name.toLowerCase().endsWith(".nsd")), o = n.filter((e) => e.name.toLowerCase().endsWith(".nsdoc")), s = [], c = /* @__PURE__ */ new Set(), l = async (n, a) => {
 			try {
 				let t = await at(r, n, a, i, e.value);
 				t.replacedStagedId && c.add(t.replacedStagedId), s.push(t.staged);
@@ -653,13 +653,13 @@ function ut() {
 		for (let e of o) await l(e, "nsdoc");
 		e.value = [...e.value.filter((e) => !c.has(e.documentId)), ...s];
 	}
-	async function a(t) {
-		let n = await P(), r = new Set(t.map((e) => e.name)), i = e.value.filter((e) => r.has(e.fileName));
-		for (let e of i) await n.removeDocument(e.documentId), M();
+	async function i(t) {
+		let n = await N(), r = new Set(t.map((e) => e.name)), i = e.value.filter((e) => r.has(e.fileName));
+		for (let e of i) await n.removeDocument(e.documentId), j();
 		e.value = e.value.filter((e) => !r.has(e.fileName));
 	}
-	async function o() {
-		await ot(await P(), u(e.value)), e.value = [];
+	async function a() {
+		await ot(await N(), ee(e.value)), e.value = [];
 	}
 	function s() {
 		t.value = [];
@@ -669,10 +669,10 @@ function ut() {
 		errors: t,
 		fileRows: n,
 		stageFiles: r,
-		removeFiles: a,
-		clearAll: o,
+		removeFiles: i,
+		clearAll: a,
 		clearErrors: s,
-		supportedExtensions: ne.supportedFileExtensions
+		supportedExtensions: re.supportedFileExtensions
 	};
 }
 //#endregion
@@ -683,89 +683,89 @@ var dt = { class: "modal-box import-nsd-dialog bg-base-100" }, ft = ["disabled"]
 }, _t = {
 	key: 1,
 	class: "text-sm alert alert-error alert-soft flex flex-col items-start gap-2"
-}, vt = { class: "import-nsd-dialog__footer gap-2 mt-4" }, yt = ["disabled"], $ = ["disabled"], bt = /* @__PURE__ */ w(/* @__PURE__ */ h({
+}, vt = { class: "import-nsd-dialog__footer gap-2 mt-4" }, yt = ["disabled"], $ = ["disabled"], bt = /* @__PURE__ */ x(/* @__PURE__ */ k({
 	__name: "import-nsd-dialog",
 	setup(e, { expose: t }) {
 		t({
 			open: C,
 			close: w
 		});
-		let { stagedDocuments: r, errors: a, fileRows: o, stageFiles: s, removeFiles: c, clearAll: l, clearErrors: u, supportedExtensions: p } = ut(), h = i(null), g = i(null), y = i(!1);
-		async function b(e) {
+		let { stagedDocuments: r, errors: i, fileRows: a, stageFiles: s, removeFiles: c, clearAll: l, clearErrors: u, supportedExtensions: d } = ut(), g = o(null), v = o(null), y = o(!1);
+		async function x(e) {
 			u();
-			let t = e.filter((e) => p.some((t) => e.name.toLowerCase().endsWith(t)));
+			let t = e.filter((e) => d.some((t) => e.name.toLowerCase().endsWith(t)));
 			if (!t.length) {
-				a.value = [`Unsupported file type. Supported: ${p.join(", ")}`];
+				i.value = [`Unsupported file type. Supported: ${d.join(", ")}`];
 				return;
 			}
 			await s(t);
 		}
-		async function x(e) {
+		async function S(e) {
 			await c(e);
 		}
 		async function C() {
-			u(), h.value?.showModal();
+			u(), g.value?.showModal();
 		}
 		function w() {
-			h.value?.close();
+			g.value?.close();
 		}
 		async function T() {
-			g.value?.reset(), !y.value && await l();
+			v.value?.reset(), !y.value && await l();
 		}
-		async function E() {
+		async function D() {
 			if (u(), r.value.length === 0) {
-				a.value.push("Select at least one file.");
+				i.value.push("Select at least one file.");
 				return;
 			}
 			y.value = !0;
 			try {
-				r.value = [], M(), h.value?.close();
+				r.value = [], j(), g.value?.close();
 			} finally {
 				y.value = !1;
 			}
 		}
-		return (e, t) => (D(), m("dialog", {
+		return (e, t) => (f(), O("dialog", {
 			ref_key: "dialogElement",
-			ref: h,
+			ref: g,
 			class: "modal",
 			onClose: T
-		}, [S("div", dt, [
-			S("button", {
+		}, [b("div", dt, [
+			b("button", {
 				class: "btn btn-sm btn-circle btn-ghost import-nsd-dialog__close",
 				type: "button",
 				disabled: y.value,
 				"aria-label": "Close",
 				onClick: w
 			}, " ✕ ", 8, ft),
-			t[0] ||= S("h3", { class: "text-lg font-bold mb-4" }, "Import File", -1),
-			S("div", pt, [
-				k(rt, {
+			t[0] ||= b("h3", { class: "text-lg font-bold mb-4" }, "Import File", -1),
+			b("div", pt, [
+				_(rt, {
 					ref_key: "fileInput",
-					ref: g,
-					accept: n(p).join(","),
+					ref: v,
+					accept: p(d).join(","),
 					multiple: !0,
 					disabled: y.value,
-					onFilesSelected: b,
-					onFilesRemoved: x
+					onFilesSelected: x,
+					onFilesRemoved: S
 				}, null, 8, ["accept", "disabled"]),
-				S("div", mt, [k(V, {
-					rows: n(o),
+				b("div", mt, [_(V, {
+					rows: p(a),
 					showDependencyColumn: !0,
 					showFileKindLabel: !0,
 					emptyText: "No files selected."
 				}, null, 8, ["rows"])]),
-				S("div", ht, [y.value ? (D(), m("p", gt, "Importing...")) : v("", !0), n(a).length ? (D(), m("div", _t, [(D(!0), m(_, null, d(n(a), (e, t) => (D(), m("span", { key: t }, f(e), 1))), 128))])) : v("", !0)])
+				b("div", ht, [y.value ? (f(), O("p", gt, "Importing...")) : h("", !0), p(i).length ? (f(), O("div", _t, [(f(!0), O(E, null, n(p(i), (e, t) => (f(), O("span", { key: t }, m(e), 1))), 128))])) : h("", !0)])
 			]),
-			S("div", vt, [S("button", {
+			b("div", vt, [b("button", {
 				class: "btn",
 				type: "button",
 				disabled: y.value,
 				onClick: w
-			}, "Cancel", 8, yt), S("button", {
+			}, "Cancel", 8, yt), b("button", {
 				class: "btn btn-primary",
 				type: "button",
 				disabled: y.value,
-				onClick: E
+				onClick: D
 			}, " Import ", 8, $)])
 		])], 544));
 	}
@@ -773,21 +773,21 @@ var dt = { class: "modal-box import-nsd-dialog bg-base-100" }, ft = ["disabled"]
 //#endregion
 //#region src/nsd/utils/use-nsd-live-data.ts
 function xt(e, t) {
-	let n = i(""), { state: r, isLoading: a, execute: o } = We(e, t, { onError: (e) => {
+	let n = o(""), { state: r, isLoading: i, execute: a } = We(e, t, { onError: (e) => {
 		n.value = e instanceof Error ? e.message : String(e);
-	} }), s = Re(o, 50);
-	return c(ie, () => void s()), {
+	} }), s = Re(a, 50);
+	return C(ae, () => void s()), {
 		state: r,
-		isLoading: a,
+		isLoading: i,
 		error: n
 	};
 }
 //#endregion
 //#region src/nsd/library/nsd-library.store.ts
 async function St() {
-	let e = await P(), t = await e.getDocuments(), n = [], r = [];
+	let e = await N(), t = await e.getDocuments(), n = [], r = [];
 	for (let i of t) try {
-		let t = await j(e.openDocument(i.id));
+		let t = await A(e.openDocument(i.id));
 		n.push({
 			fileName: i.name,
 			meta: t
@@ -814,48 +814,48 @@ function Ct() {
 var wt = { class: "sidebar-nsd" }, Tt = {
 	key: 0,
 	class: "text-(--color-error)"
-}, Et = /* @__PURE__ */ w(/* @__PURE__ */ h({
+}, Et = /* @__PURE__ */ x(/* @__PURE__ */ k({
 	__name: "sidebar-nsd-table",
 	setup(e) {
-		let { rows: t, error: r } = Ct();
-		return (e, i) => (D(), m("section", wt, [
-			i[0] ||= S("header", { class: "sidebar-nsd__header" }, [S("div", { class: "sidebar-nsd__title" }, "Loaded NSD files")], -1),
-			n(r) ? (D(), m("p", Tt, f(n(r)), 1)) : v("", !0),
-			k(V, {
-				rows: n(t),
+		let { rows: t, error: n } = Ct();
+		return (e, r) => (f(), O("section", wt, [
+			r[0] ||= b("header", { class: "sidebar-nsd__header" }, [b("div", { class: "sidebar-nsd__title" }, "Loaded NSD files")], -1),
+			p(n) ? (f(), O("p", Tt, m(p(n)), 1)) : h("", !0),
+			_(V, {
+				rows: p(t),
 				showDependencyColumn: !0,
 				showExtensionLabel: !1,
 				emptyText: "No NSD files uploaded yet."
 			}, null, 8, ["rows"])
 		]));
 	}
-}), [["__scopeId", "data-v-953f068d"]]), Dt = { class: "overflow-auto h-full nsd-sidebar p-4" }, Ot = /* @__PURE__ */ h({
+}), [["__scopeId", "data-v-953f068d"]]), Dt = { class: "overflow-auto h-full nsd-sidebar p-4" }, Ot = /* @__PURE__ */ k({
 	__name: "primary-sidebar",
 	setup(e) {
-		let t = i(null);
+		let t = o(null);
 		function n() {
 			t.value?.open();
 		}
-		return (e, r) => (D(), m("div", Dt, [
-			S("button", {
+		return (e, r) => (f(), O("div", Dt, [
+			b("button", {
 				class: "btn mb-4 w-full overflow-hidden text-ellipsis whitespace-nowrap",
 				onClick: n,
 				title: "Import NSD files"
-			}, [k(le, { class: "shrink-0" }), r[0] ||= S("span", { class: "overflow-hidden text-ellipsis whitespace-nowrap" }, "Import NSD files", -1)]),
-			k(bt, {
+			}, [_(ue, { class: "shrink-0" }), r[0] ||= b("span", { class: "overflow-hidden text-ellipsis whitespace-nowrap" }, "Import NSD files", -1)]),
+			_(bt, {
 				ref_key: "importDialog",
 				ref: t
 			}, null, 512),
-			k(Et)
+			_(Et)
 		]));
 	}
 });
 //#endregion
 //#region set-sidebar.ts
 function kt(e, t) {
-	E(document.getElementById(e), { detail: `could not find root element: ${e}` });
-	let n = T(t), r = g(Ot);
-	return r.use(b()), r.mount(`#${e}`), () => {
+	d(document.getElementById(e), { detail: `could not find root element: ${e}` });
+	let n = D(t), r = w(Ot);
+	return r.use(g()), r.mount(`#${e}`), () => {
 		n(), r.unmount();
 	};
 }

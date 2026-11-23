@@ -1,10 +1,10 @@
-(function(){try{if(typeof document<`u`){var e=document.createElement(`style`);e.appendChild(document.createTextNode(`.manage-sources-dialog[data-v-553abee1]{flex-direction:column;width:min(560px,92vw);max-width:none;max-height:min(74vh,720px);display:flex}.manage-sources-dialog__close[data-v-553abee1]{position:absolute;top:.5rem;right:.5rem}.manage-dialog-title[data-v-553abee1]{margin-bottom:1rem;font-size:1.125rem;font-weight:700}.reconnect-all-btn[data-v-553abee1]{margin-left:auto}.empty-state[data-v-553abee1]{text-align:center;color:var(--color-base-content);opacity:.6;flex:1;justify-content:center;align-items:center;display:flex}.manage-header[data-v-553abee1]{flex-shrink:0;gap:.5rem;margin-bottom:1rem;display:flex}.source-list[data-v-553abee1]{flex:1;margin:0;padding:0;list-style:none;overflow:hidden auto}.source-item[data-v-553abee1]{align-items:center;gap:.5rem;padding:.5rem 0;display:flex}.source-name[data-v-553abee1]{flex:1;align-items:center;gap:.5rem;display:flex;overflow:hidden}.source-label[data-v-553abee1]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.status-dot[data-v-553abee1]{border-radius:50%;flex-shrink:0;width:.5rem;height:.5rem}.status-dot.online[data-v-553abee1]{background:var(--color-success)}.status-dot.offline[data-v-553abee1]{background:var(--color-warning)}.mode-badge[data-v-553abee1]{background:var(--color-base-300);color:var(--color-base-content);text-transform:lowercase;border-radius:.25rem;flex-shrink:0;padding:.125rem .25rem;font-size:.625rem;line-height:1}.pwa-nudge[data-v-553abee1]{background:var(--color-base-200);opacity:.7;border-radius:.5rem;flex-direction:column;flex-shrink:0;gap:.25rem;margin-top:.5rem;padding:.5rem .75rem;display:flex}.pwa-nudge-text[data-v-553abee1]{color:var(--color-base-content);opacity:.6;margin:0;font-size:.75rem;line-height:1.25rem}.pwa-nudge-actions[data-v-553abee1]{justify-content:flex-end;gap:.25rem;display:flex}.templates-sidebar[data-v-4d9d76ed]{flex-direction:column;height:100%;padding:1rem;display:flex;overflow:hidden}.manage-button[data-v-4d9d76ed]{flex-shrink:0;width:100%;margin-bottom:1rem}.templates-sidebar[data-v-4d9d76ed] .library-browser{flex:1;height:auto;min-height:0}`)),document.head.appendChild(e)}}catch(e){console.error(`vite-plugin-css-injected-by-js`,e)}})();import { Bt as e, Ct as t, It as n, Ot as r, St as i, Tt as a, Ut as o, Vt as s, Z as c, _t as l, at as u, bt as d, ct as f, ft as p, gt as m, i as h, it as g, jt as _, mt as v, pt as y, r as b, rt as x, t as S, ut as C, w, wt as T, yt as E } from "./main-xLUatqLx.js";
+(function(){try{if(typeof document<`u`){var e=document.createElement(`style`);e.appendChild(document.createTextNode(`.manage-sources-dialog[data-v-553abee1]{flex-direction:column;width:min(560px,92vw);max-width:none;max-height:min(74vh,720px);display:flex}.manage-sources-dialog__close[data-v-553abee1]{position:absolute;top:.5rem;right:.5rem}.manage-dialog-title[data-v-553abee1]{margin-bottom:1rem;font-size:1.125rem;font-weight:700}.reconnect-all-btn[data-v-553abee1]{margin-left:auto}.empty-state[data-v-553abee1]{text-align:center;color:var(--color-base-content);opacity:.6;flex:1;justify-content:center;align-items:center;display:flex}.manage-header[data-v-553abee1]{flex-shrink:0;gap:.5rem;margin-bottom:1rem;display:flex}.source-list[data-v-553abee1]{flex:1;margin:0;padding:0;list-style:none;overflow:hidden auto}.source-item[data-v-553abee1]{align-items:center;gap:.5rem;padding:.5rem 0;display:flex}.source-name[data-v-553abee1]{flex:1;align-items:center;gap:.5rem;display:flex;overflow:hidden}.source-label[data-v-553abee1]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.status-dot[data-v-553abee1]{border-radius:50%;flex-shrink:0;width:.5rem;height:.5rem}.status-dot.online[data-v-553abee1]{background:var(--color-success)}.status-dot.offline[data-v-553abee1]{background:var(--color-warning)}.mode-badge[data-v-553abee1]{background:var(--color-base-300);color:var(--color-base-content);text-transform:lowercase;border-radius:.25rem;flex-shrink:0;padding:.125rem .25rem;font-size:.625rem;line-height:1}.pwa-nudge[data-v-553abee1]{background:var(--color-base-200);opacity:.7;border-radius:.5rem;flex-direction:column;flex-shrink:0;gap:.25rem;margin-top:.5rem;padding:.5rem .75rem;display:flex}.pwa-nudge-text[data-v-553abee1]{color:var(--color-base-content);opacity:.6;margin:0;font-size:.75rem;line-height:1.25rem}.pwa-nudge-actions[data-v-553abee1]{justify-content:flex-end;gap:.25rem;display:flex}.templates-sidebar[data-v-4d9d76ed]{flex-direction:column;height:100%;padding:1rem;display:flex;overflow:hidden}.manage-button[data-v-4d9d76ed]{flex-shrink:0;width:100%;margin-bottom:1rem}.templates-sidebar[data-v-4d9d76ed] .library-browser{flex:1;height:auto;min-height:0}`)),document.head.appendChild(e)}}catch(e){console.error(`vite-plugin-css-injected-by-js`,e)}})();import { Ct as e, Et as t, Ht as n, Lt as r, Mt as i, Q as a, T as o, Tt as s, Vt as c, Wt as l, _t as u, at as d, bt as f, dt as p, ht as m, i as h, it as g, kt as _, lt as v, mt as y, ot as b, pt as x, r as S, t as C, vt as w, wt as T, xt as E } from "./main-B5ExcopM.js";
 //#region src/templates/sources/sources.store.ts
 function D(e) {
 	return e === "granted" ? "online" : "offline";
 }
-var O = u("library-sources", function() {
-	let e = n([]), t = n(!1), r = y(() => e.value.map((e) => ({
+var O = b("library-sources", function() {
+	let e = r([]), t = r(!1), n = y(() => e.value.map((e) => ({
 		source: e,
 		status: D(e.access)
 	})));
@@ -30,7 +30,7 @@ var O = u("library-sources", function() {
 	}
 	return {
 		sources: e,
-		entries: r,
+		entries: n,
 		isSupported: t,
 		init: i,
 		addSource: a,
@@ -38,9 +38,9 @@ var O = u("library-sources", function() {
 		reconnectAll: s,
 		detachSource: c
 	};
-}), k = u("library-browser", function() {
-	let e = O(), t = n([]);
-	async function i() {
+}), k = b("library-browser", function() {
+	let e = O(), t = r([]);
+	async function n() {
 		let n = h();
 		t.value = await Promise.all(e.entries.map(async (e) => {
 			if (e.status !== "online") return {
@@ -66,12 +66,12 @@ var O = u("library-sources", function() {
 			}
 		}));
 	}
-	async function a() {
-		return await i(), r(() => e.entries, i);
+	async function i() {
+		return await n(), _(() => e.entries, n);
 	}
 	return {
 		sources: t,
-		init: a
+		init: i
 	};
 }), A = ["open"], j = { class: "modal-box manage-sources-dialog" }, M = {
 	key: 0,
@@ -95,133 +95,133 @@ var O = u("library-sources", function() {
 	key: 0,
 	"data-testid": "pwa-nudge",
 	class: "pwa-nudge"
-}, W = { class: "pwa-nudge-actions" }, G = /* @__PURE__ */ x(/* @__PURE__ */ d({
+}, W = { class: "pwa-nudge-actions" }, G = /* @__PURE__ */ g(/* @__PURE__ */ E({
 	__name: "manage-sources-dialog",
-	setup(r, { expose: c }) {
-		c({
+	setup(a, { expose: o }) {
+		o({
 			open: G,
 			close: K
 		});
-		let u = O(), d = b(), f, h = n(!1), g = n(!1), x = n(!1), S = n(localStorage.getItem("set:pwa-nudge-dismissed") === "1"), w = y(() => !g.value && !S.value && u.entries.length > 0);
+		let d = O(), f = S(), h, g = r(!1), _ = r(!1), v = r(!1), b = r(localStorage.getItem("set:pwa-nudge-dismissed") === "1"), C = y(() => !_.value && !b.value && d.entries.length > 0);
 		function E() {
-			S.value = !0, localStorage.setItem("set:pwa-nudge-dismissed", "1");
+			b.value = !0, localStorage.setItem("set:pwa-nudge-dismissed", "1");
 		}
 		async function D() {
-			await d.promptInstall() && (g.value = !0);
+			await f.promptInstall() && (_.value = !0);
 		}
 		async function k(e) {
 			try {
-				await u.addSource(e);
+				await d.addSource(e);
 			} catch {}
 		}
 		function G() {
-			h.value = !0;
+			g.value = !0;
 		}
 		function K() {
-			h.value = !1;
+			g.value = !1;
 		}
-		return i(async () => {
-			g.value = d.isInstalled(), x.value = d.canInstall(), f = d.onChange(() => {
-				g.value = d.isInstalled(), x.value = d.canInstall();
+		return e(async () => {
+			_.value = f.isInstalled(), v.value = f.canInstall(), h = f.onChange(() => {
+				_.value = f.isInstalled(), v.value = f.canInstall();
 			});
-		}), t(() => {
-			f?.();
-		}), (t, n) => (T(), l("dialog", {
+		}), T(() => {
+			h?.();
+		}), (e, r) => (s(), w("dialog", {
 			class: "modal",
-			open: h.value
-		}, [_(v("div", j, [
-			v("button", {
+			open: g.value
+		}, [i(m("div", j, [
+			m("button", {
 				class: "btn btn-sm btn-circle btn-ghost manage-sources-dialog__close",
 				type: "button",
 				"aria-label": "Close",
 				onClick: K
 			}, " ✕ "),
-			n[5] ||= v("h3", { class: "manage-dialog-title" }, "Manage Sources", -1),
-			e(u).isSupported ? (T(), l(p, { key: 1 }, [
-				v("div", N, [
-					v("button", {
+			r[5] ||= m("h3", { class: "manage-dialog-title" }, "Manage Sources", -1),
+			c(d).isSupported ? (s(), w(x, { key: 1 }, [
+				m("div", N, [
+					m("button", {
 						"data-testid": "add-source-btn",
 						class: "btn btn-sm",
-						onClick: n[0] ||= (e) => k("readwrite")
+						onClick: r[0] ||= (e) => k("readwrite")
 					}, " Add "),
-					v("button", {
+					m("button", {
 						"data-testid": "add-readonly-btn",
 						class: "btn btn-sm",
-						onClick: n[1] ||= (e) => k("read")
+						onClick: r[1] ||= (e) => k("read")
 					}, " Add Read-Only "),
-					v("button", {
+					m("button", {
 						"data-testid": "reconnect-all-btn",
 						class: "btn btn-sm reconnect-all-btn",
-						onClick: n[2] ||= (t) => e(u).reconnectAll()
+						onClick: r[2] ||= (e) => c(d).reconnectAll()
 					}, " Reconnect all ")
 				]),
-				v("ul", P, [(T(!0), l(p, null, a(e(u).entries, (t) => (T(), l("li", {
-					key: t.source.id,
-					"data-source-id": t.source.id,
+				m("ul", P, [(s(!0), w(x, null, t(c(d).entries, (e) => (s(), w("li", {
+					key: e.source.id,
+					"data-source-id": e.source.id,
 					"data-testid": "source-item",
 					class: "source-item"
 				}, [
-					v("span", I, [
-						v("span", L, o(t.source.label), 1),
-						t.source.mode === "read" ? (T(), l("span", R, "r")) : (T(), l("span", z, "rw")),
-						v("span", {
+					m("span", I, [
+						m("span", L, l(e.source.label), 1),
+						e.source.mode === "read" ? (s(), w("span", R, "r")) : (s(), w("span", z, "rw")),
+						m("span", {
 							"data-testid": "status-badge",
-							class: s(["status-dot", t.status]),
-							title: t.status
+							class: n(["status-dot", e.status]),
+							title: e.status
 						}, null, 10, B)
 					]),
-					v("button", {
-						"data-source-id": t.source.id,
+					m("button", {
+						"data-source-id": e.source.id,
 						"data-testid": "reconnect-btn",
 						class: "btn btn-sm",
-						disabled: t.status === "online",
-						onClick: (n) => e(u).reconnect(t.source.id)
+						disabled: e.status === "online",
+						onClick: (t) => c(d).reconnect(e.source.id)
 					}, " Reconnect ", 8, V),
-					v("button", {
-						"data-source-id": t.source.id,
+					m("button", {
+						"data-source-id": e.source.id,
 						"data-testid": "detach-btn",
 						class: "btn btn-sm btn-ghost",
-						onClick: (n) => e(u).detachSource(t.source.id)
+						onClick: (t) => c(d).detachSource(e.source.id)
 					}, " Remove ", 8, H)
 				], 8, F))), 128))]),
-				w.value ? (T(), l("div", U, [n[4] ||= v("p", { class: "pwa-nudge-text" }, "Install SET to keep folder access between sessions.", -1), v("div", W, [x.value ? (T(), l("button", {
+				C.value ? (s(), w("div", U, [r[4] ||= m("p", { class: "pwa-nudge-text" }, "Install SET to keep folder access between sessions.", -1), m("div", W, [v.value ? (s(), w("button", {
 					key: 0,
 					"data-testid": "pwa-nudge-install",
 					class: "btn btn-sm btn-ghost",
 					onClick: D
-				}, " Install ")) : m("", !0), v("button", {
+				}, " Install ")) : u("", !0), m("button", {
 					"data-testid": "pwa-nudge-dismiss",
 					class: "btn btn-sm btn-ghost",
 					onClick: E
-				}, " Dismiss ")])])) : m("", !0)
-			], 64)) : (T(), l("div", M, [...n[3] ||= [v("p", null, " This browser does not support local folder sources. Use Chrome/Edge or install SET as a PWA. ", -1)]]))
-		], 512), [[C, h.value]])], 8, A));
+				}, " Dismiss ")])])) : u("", !0)
+			], 64)) : (s(), w("div", M, [...r[3] ||= [m("p", null, " This browser does not support local folder sources. Use Chrome/Edge or install SET as a PWA. ", -1)]]))
+		], 512), [[p, g.value]])], 8, A));
 	}
-}), [["__scopeId", "data-v-553abee1"]]), K = { class: "templates-sidebar" }, q = /* @__PURE__ */ x(/* @__PURE__ */ d({
+}), [["__scopeId", "data-v-553abee1"]]), K = { class: "templates-sidebar" }, q = /* @__PURE__ */ g(/* @__PURE__ */ E({
 	__name: "sources-sidebar",
-	setup(r) {
-		let a = n(null), o = O(), s = k(), u, d;
-		i(async () => {
-			u = await o.init(), d = await s.init();
-		}), t(() => {
-			u?.(), d?.();
+	setup(t) {
+		let n = r(null), i = O(), o = k(), l, u;
+		e(async () => {
+			l = await i.init(), u = await o.init();
+		}), T(() => {
+			l?.(), u?.();
 		});
-		function f() {
-			a.value?.open();
+		function d() {
+			n.value?.open();
 		}
-		return (t, n) => (T(), l("div", K, [
-			v("button", {
+		return (e, t) => (s(), w("div", K, [
+			m("button", {
 				"data-testid": "manage-sources-btn",
 				class: "btn manage-button",
-				onClick: f,
+				onClick: d,
 				title: "Manage library sources"
 			}, " Manage Sources "),
-			E(G, {
+			f(G, {
 				ref_key: "manageDialog",
-				ref: a
+				ref: n
 			}, null, 512),
-			E(e(c), {
-				sources: e(s).sources,
+			f(c(a), {
+				sources: c(o).sources,
 				extensions: [
 					".fsd",
 					".asd",
@@ -235,9 +235,9 @@ var O = u("library-sources", function() {
 //#endregion
 //#region set-sources-sidebar.ts
 function J(e, t) {
-	w(document.getElementById(e), { detail: `could not find root element: ${e}` });
-	let n = S(t), r = f(q);
-	return r.use(g()), r.mount(`#${e}`), () => {
+	o(document.getElementById(e), { detail: `could not find root element: ${e}` });
+	let n = C(t), r = v(q);
+	return r.use(d()), r.mount(`#${e}`), () => {
 		n(), r.unmount();
 	};
 }

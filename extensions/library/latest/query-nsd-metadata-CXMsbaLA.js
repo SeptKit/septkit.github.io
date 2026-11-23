@@ -1,179 +1,179 @@
-import { A as e, B as t, C as n, D as r, E as i, F as a, G as o, H as s, I as c, It as l, J as u, K as d, N as f, O as p, P as m, R as h, S as g, T as _, U as v, V as y, W as b, X as x, Y as S, _ as C, _t as w, a as T, b as ee, c as te, d as ne, f as re, g as ie, h as ae, j as E, k as D, l as oe, m as O, mt as se, n as k, o as ce, p as le, q as ue, rt as de, s as A, u as fe, v as pe, w as j, wt as me, x as M, y as he } from "./main-xLUatqLx.js";
+import { A as e, C as t, D as n, E as r, F as i, G as a, H as o, I as s, J as c, K as l, L as u, Lt as d, M as f, O as p, P as m, S as h, T as g, Tt as _, U as v, V as y, W as b, X as x, Y as ee, Z as S, _ as C, a as w, b as te, c as ne, d as re, f as ie, g as ae, h as oe, ht as T, it as E, j as se, k as D, l as ce, m as O, n as le, o as ue, p as de, q as fe, s as k, u as pe, v as A, vt as j, w as me, x as M, y as he, z as ge } from "./main-B5ExcopM.js";
 //#region src/nsd/icons/close-icon.vue
-var ge = {}, _e = {
+var _e = {}, ve = {
 	viewBox: "0 0 64 64",
 	"aria-hidden": "true",
 	focusable: "false"
 };
-function ve(e, t) {
-	return me(), w("svg", _e, [...t[0] ||= [se("path", {
+function ye(e, t) {
+	return _(), j("svg", ve, [...t[0] ||= [T("path", {
 		fill: "currentColor",
 		d: "M 16 14 C 15.488 14 14.976938 14.194937 14.585938 14.585938 C 13.804937 15.366937 13.804937 16.633063 14.585938 17.414062 L 29.171875 32 L 14.585938 46.585938 C 13.804938 47.366938 13.804937 48.633063 14.585938 49.414062 C 14.976937 49.805062 15.488 50 16 50 C 16.512 50 17.023062 49.805062 17.414062 49.414062 L 32 34.828125 L 46.585938 49.414062 C 47.366938 50.195063 48.633063 50.195062 49.414062 49.414062 C 50.195063 48.633062 50.195062 47.366937 49.414062 46.585938 L 34.828125 32 L 49.414062 17.414062 C 50.195063 16.633063 50.195062 15.366938 49.414062 14.585938 C 48.633062 13.804938 47.366937 13.804938 46.585938 14.585938 L 32 29.171875 L 17.414062 14.585938 C 17.023062 14.194938 16.512 14 16 14 z"
 	}, null, -1)]]);
 }
-var ye = /* @__PURE__ */ de(ge, [["render", ve]]), be = {}, xe = {
+var be = /* @__PURE__ */ E(_e, [["render", ye]]), xe = {}, Se = {
 	viewBox: "0 -960 960 960",
 	"aria-hidden": "true",
 	focusable: "false"
 };
-function Se(e, t) {
-	return me(), w("svg", xe, [...t[0] ||= [se("path", {
+function Ce(e, t) {
+	return _(), j("svg", Se, [...t[0] ||= [T("path", {
 		fill: "currentColor",
 		d: "M280-120q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM360-280h80v-360h-80v360Zm160 0h80v-360h-80v360ZM280-720v520-520Z"
 	}, null, -1)]]);
 }
-var Ce = /* @__PURE__ */ de(be, [["render", Se]]);
+var we = /* @__PURE__ */ E(xe, [["render", Ce]]);
 //#endregion
-//#region node_modules/.pnpm/@dialecte+core@0.12.1/node_modules/@dialecte/core/dist/qname-definition-C6GUFWL8.js
-function we(e) {
+//#region node_modules/.pnpm/@dialecte+core@0.14.0/node_modules/@dialecte/core/dist/qname-definition-Cnw9CbiG.js
+function Te(e) {
 	let { dialecteConfig: t, record: n } = e, r = O({
 		dialecteConfig: t,
 		record: n
 	});
 	if (r !== void 0 && r.namespace.uri === n.namespace?.uri) return r;
 }
-function Te(e) {
+function Ee(e) {
 	let { definition: t, attribute: n } = e, r = t.attributes.details[n.name];
 	if (r !== void 0 && r.namespace?.uri === n.namespace?.uri) return r.type;
 }
-function Ee(e) {
-	let { dialecteConfig: t, record: n, lexicalOnly: r } = e;
-	if (!D({
-		dialecteConfig: t,
-		tagName: n.tagName
-	})) return n;
-	let i = we({
-		dialecteConfig: t,
-		record: n
+function De(t) {
+	let { dialecteConfig: n, record: r, lexicalOnly: i } = t;
+	if (!e({
+		dialecteConfig: n,
+		tagName: r.tagName
+	})) return r;
+	let a = Te({
+		dialecteConfig: n,
+		record: r
 	});
-	if (i === void 0) return n;
-	let a = e.namespaceOf(), o = i.textContent?.type, s = o !== void 0 && n.value !== "" ? fe({
-		dialecteConfig: t,
-		type: o,
-		value: n.value,
-		namespaceOf: a,
-		lexicalOnly: r
-	}) : n.value, c = n.attributes.map((e) => {
-		let n = Te({
-			definition: i,
+	if (a === void 0) return r;
+	let o = t.namespaceOf(), s = a.textContent?.type, c = s !== void 0 && r.value !== "" ? pe({
+		dialecteConfig: n,
+		type: s,
+		value: r.value,
+		namespaceOf: o,
+		lexicalOnly: i
+	}) : r.value, l = r.attributes.map((e) => {
+		let t = Ee({
+			definition: a,
 			attribute: e
 		});
-		if (n === void 0 || typeof e.value != "string") return e;
-		let o = fe({
-			dialecteConfig: t,
-			type: n,
+		if (t === void 0 || typeof e.value != "string") return e;
+		let r = pe({
+			dialecteConfig: n,
+			type: t,
 			value: e.value,
-			namespaceOf: a,
-			lexicalOnly: r
+			namespaceOf: o,
+			lexicalOnly: i
 		});
-		return o === e.value ? e : {
+		return r === e.value ? e : {
 			...e,
-			value: o
+			value: r
 		};
 	});
 	return {
-		...n,
-		attributes: c,
-		value: s
+		...r,
+		attributes: l,
+		value: c
 	};
 }
-function De(e) {
-	let { dialecteConfig: t, record: n, authored: r } = e;
-	if (!D({
-		dialecteConfig: t,
-		tagName: n.tagName
+function Oe(t) {
+	let { dialecteConfig: n, record: r, authored: i } = t;
+	if (!e({
+		dialecteConfig: n,
+		tagName: r.tagName
 	})) return;
-	let i = we({
-		dialecteConfig: t,
-		record: n
+	let a = Te({
+		dialecteConfig: n,
+		record: r
 	});
-	if (i === void 0) return;
-	let a = i.textContent?.type;
-	a !== void 0 && (r?.text ?? !0) && le({
-		dialecteConfig: t,
-		type: a,
-		value: n.value,
+	if (a === void 0) return;
+	let o = a.textContent?.type;
+	o !== void 0 && (i?.text ?? !0) && de({
+		dialecteConfig: n,
+		type: o,
+		value: r.value,
 		what: "text",
-		tagName: n.tagName
+		tagName: r.tagName
 	});
-	for (let e of n.attributes) {
-		if (r !== void 0 && !r.attributes.has(e.name)) continue;
-		let a = Te({
-			definition: i,
+	for (let e of r.attributes) {
+		if (i !== void 0 && !i.attributes.has(e.name)) continue;
+		let t = Ee({
+			definition: a,
 			attribute: e
 		});
-		a !== void 0 && typeof e.value == "string" && le({
-			dialecteConfig: t,
-			type: a,
+		t !== void 0 && typeof e.value == "string" && de({
+			dialecteConfig: n,
+			type: t,
 			value: e.value,
 			what: `value of '${e.name}'`,
-			tagName: n.tagName
+			tagName: r.tagName
 		});
 	}
 }
-function Oe(e, t) {
+function ke(e, t) {
 	return e.tagName === t;
 }
-function ke(e) {
+function Ae(e) {
 	let { attribute: t, tagName: n } = e, { name: r, namespace: i } = t;
-	(r === "xmlns" || r.startsWith("xmlns:") || typeof i == "object" && (i?.uri === "http://www.w3.org/2000/xmlns/" || i?.prefix === "xmlns")) && f("NAMESPACE_DECLARATION_NOT_ALLOWED", {
+	(r === "xmlns" || r.startsWith("xmlns:") || typeof i == "object" && (i?.uri === "http://www.w3.org/2000/xmlns/" || i?.prefix === "xmlns")) && m("NAMESPACE_DECLARATION_NOT_ALLOWED", {
 		detail: `Attribute '${r}' on '${n}' is a namespace declaration - remove it; give a name its namespace in full: { name, namespace: { prefix, uri } }.`,
 		ref: { tagName: n }
 	});
 }
-function Ae(e) {
-	let { dialecteConfig: t, attribute: n, tagName: r, authored: a } = e;
-	ke({
-		attribute: n,
-		tagName: r
-	}), a && je({
-		attribute: n,
-		tagName: r
+function je(e) {
+	let { dialecteConfig: t, attribute: r, tagName: i, authored: a } = e;
+	Ae({
+		attribute: r,
+		tagName: i
+	}), a && Me({
+		attribute: r,
+		tagName: i
 	});
-	let o = Me({
+	let o = Ne({
 		dialecteConfig: t,
-		attribute: n,
-		tagName: r
+		attribute: r,
+		tagName: i
 	});
 	return o && o.prefix ? {
-		name: `${o.prefix}:${i(n.name)}`,
+		name: `${o.prefix}:${n(r.name)}`,
 		namespace: o
 	} : {
-		name: n.name,
+		name: r.name,
 		namespace: o
 	};
 }
-function je(e) {
-	let { attribute: t, tagName: n } = e, { name: r, namespace: a } = t;
-	r.includes(":") && (typeof a != "object" || a?.prefix !== r.slice(0, r.indexOf(":"))) && f("PREFIXED_ATTRIBUTE_NAME", {
-		detail: `Attribute '${r}' on '${n}' is prefixed — pass a local name plus its namespace instead: { name: '${i(r)}', namespace }.`,
-		ref: { tagName: n }
+function Me(e) {
+	let { attribute: t, tagName: r } = e, { name: i, namespace: a } = t;
+	i.includes(":") && (typeof a != "object" || a?.prefix !== i.slice(0, i.indexOf(":"))) && m("PREFIXED_ATTRIBUTE_NAME", {
+		detail: `Attribute '${i}' on '${r}' is prefixed — pass a local name plus its namespace instead: { name: '${n(i)}', namespace }.`,
+		ref: { tagName: r }
 	});
 }
-function Me(t) {
-	let { dialecteConfig: n, attribute: r, tagName: i } = t, a;
-	typeof r.namespace == "string" ? (a = ue(n, r.namespace), a || f("UNKNOWN_NAMESPACE_PREFIX", {
-		detail: `Unknown namespace '${r.namespace}' on attribute '${r.name}' — use a registered namespace key or pass a full { name, namespace: { prefix, uri } }.`,
-		ref: { tagName: i }
-	})) : a = r.namespace;
-	let o = r.name.indexOf(":");
-	if (!a && o !== -1) {
-		let t = r.name.slice(0, o);
-		a = e(t) ?? ie(n, t), a || f("UNKNOWN_NAMESPACE_PREFIX", {
-			detail: `Unknown namespace prefix '${t}' on attribute '${r.name}' — pass it explicitly as { name, namespace: { prefix, uri } }.`,
-			ref: { tagName: i }
+function Ne(e) {
+	let { dialecteConfig: t, attribute: n, tagName: r } = e, i;
+	typeof n.namespace == "string" ? (i = c(t, n.namespace), i || m("UNKNOWN_NAMESPACE_PREFIX", {
+		detail: `Unknown namespace '${n.namespace}' on attribute '${n.name}' — use a registered namespace key or pass a full { name, namespace: { prefix, uri } }.`,
+		ref: { tagName: r }
+	})) : i = n.namespace;
+	let a = n.name.indexOf(":");
+	if (!i && a !== -1) {
+		let e = n.name.slice(0, a);
+		i = se(e) ?? C(t, e), i || m("UNKNOWN_NAMESPACE_PREFIX", {
+			detail: `Unknown namespace prefix '${e}' on attribute '${n.name}' — pass it explicitly as { name, namespace: { prefix, uri } }.`,
+			ref: { tagName: r }
 		});
 	}
-	return a && a.prefix ? Ne({
-		dialecteConfig: n,
-		uri: a.uri
-	}) ?? a : a;
+	return i && i.prefix ? Pe({
+		dialecteConfig: t,
+		uri: i.uri
+	}) ?? i : i;
 }
-function Ne(e) {
+function Pe(e) {
 	let { dialecteConfig: t, uri: n } = e;
 	return Object.values(t.namespaces).find((e) => e.uri === n && e.prefix !== "");
 }
-function Pe(e) {
+function Fe(e) {
 	return {
 		id: e.id,
 		tagName: e.tagName,
@@ -184,40 +184,40 @@ function Pe(e) {
 		children: e.children
 	};
 }
-function Fe(e) {
+function Ie(e) {
 	let { record: t, status: n } = e, r = n ?? ("status" in t ? t.status : "unchanged");
 	return {
-		...Pe(t),
+		...Fe(t),
 		status: r
 	};
 }
-function Ie(e) {
+function Le(e) {
 	let { record: t, status: n, tree: r } = e, i = r ?? ("tree" in t ? t.tree : []);
 	return {
-		...Fe({
+		...Ie({
 			record: t,
 			status: n
 		}),
 		tree: i
 	};
 }
-function Le(e) {
+function N(e) {
 	let { dialecteConfig: t, tagName: n, attributes: r, stored: i = [] } = e;
 	return (Array.isArray(r) ? r : Object.entries(r).map(([e, r]) => ({
 		name: e,
 		value: r,
-		namespace: N({
+		namespace: Re({
 			dialecteConfig: t,
 			tagName: n,
 			name: e
 		}) ?? i.find((t) => t.name === e)?.namespace
-	}))).map((e) => Re({
+	}))).map((e) => ze({
 		attribute: e,
 		dialecteConfig: t,
 		tagName: n
 	}));
 }
-function N(e) {
+function Re(e) {
 	let { dialecteConfig: t, tagName: n, name: r } = e, i = t.definition[n];
 	if (i === void 0) return;
 	let a = Object.values(i.declarations ?? {}), o = [i, ...a].flatMap((e) => e.variants ?? []), s = [
@@ -230,8 +230,8 @@ function N(e) {
 		if (t) return t;
 	}
 }
-function Re(e) {
-	let { attribute: t, dialecteConfig: n, tagName: r } = e, { name: i, namespace: a } = Ae({
+function ze(e) {
+	let { attribute: t, dialecteConfig: n, tagName: r } = e, { name: i, namespace: a } = je({
 		dialecteConfig: n,
 		attribute: t,
 		tagName: r,
@@ -244,23 +244,23 @@ function Re(e) {
 	};
 }
 function P(e) {
-	return j(e, { detail: "The record or ref is undefined" }), {
+	return g(e, { detail: "The record or ref is undefined" }), {
 		id: e.id,
 		tagName: e.tagName
 	};
 }
-function ze(e) {
-	let { dialecteConfig: t, hooks: n, record: r } = e, { id: i, tagName: a, attributes: o, namespace: s, value: c } = r, l = i ?? crypto.randomUUID(), d = F({
+function F(e) {
+	let { dialecteConfig: t, hooks: n, record: r } = e, { id: i, tagName: a, attributes: o, namespace: s, value: c } = r, l = i ?? crypto.randomUUID(), u = Be({
 		dialecteConfig: t,
-		attributes: o ? Le({
+		attributes: o ? N({
 			tagName: a,
 			attributes: o,
 			dialecteConfig: t
 		}) : []
-	}), f = {
+	}), d = {
 		id: l,
 		tagName: a,
-		attributes: d,
+		attributes: u,
 		namespace: s ?? {
 			prefix: "prefixNeededForNotSupportedNamespace",
 			uri: "uriNeededForNotSupportedNamespace"
@@ -268,96 +268,96 @@ function ze(e) {
 		value: c ?? "",
 		parent: r.parent ?? null,
 		children: r.children ?? []
-	}, p = Object.values(t.namespaces).map(({ uri: e }) => e), m = s?.uri != null && !p.includes(s.uri);
-	if (!t.elements.includes(a) || m) return f;
-	let h = O({
+	}, f = Object.values(t.namespaces).map(({ uri: e }) => e), p = s?.uri != null && !f.includes(s.uri);
+	if (!t.elements.includes(a) || p) return d;
+	let m = O({
 		dialecteConfig: t,
 		record: {
-			...f,
+			...d,
 			namespace: s
 		}
-	}), g = h?.attributes.sequence ?? [], _ = he({
-		wildcard: h?.attributes.any,
+	}), h = m?.attributes.sequence ?? [], g = te({
+		wildcard: m?.attributes.any,
 		namespaceUri: ""
-	}), v = d.filter((e) => {
-		let t = g.includes(e.name), n = "namespace" in e && e.namespace != null;
-		if (!t && !n && !_) return !1;
+	}), _ = u.filter((e) => {
+		let t = h.includes(e.name), n = "namespace" in e && e.namespace != null;
+		if (!t && !n && !g) return !1;
 		if (!t) return !0;
 		if (e.value === void 0 || e.value === null) return !1;
 		if (e.value !== "") return !0;
-		let r = h?.attributes.details[e.name];
+		let r = m?.attributes.details[e.name];
 		return r?.default !== void 0 || r?.fixed !== void 0;
-	}), y = t.namespaces.default.uri, b = v.map((e) => {
-		if ("namespace" in e && e.namespace?.uri === y && !e.namespace.prefix) {
+	}), v = t.namespaces.default.uri, y = _.map((e) => {
+		if ("namespace" in e && e.namespace?.uri === v && !e.namespace.prefix) {
 			let { namespace: t, ...n } = e;
 			return n;
 		}
 		return e;
-	}), x = t.definition[a], S = [h?.namespace ?? x.namespace, ...Object.values(x.declarations ?? {}).map((e) => e.namespace)], C = S.find((e) => e.uri === s?.uri), w = {
-		...f,
-		namespace: C ?? s ?? S[0],
-		attributes: u(b, g)
+	}), b = t.definition[a], x = [m?.namespace ?? b.namespace, ...Object.values(b.declarations ?? {}).map((e) => e.namespace)], S = x.find((e) => e.uri === s?.uri), C = {
+		...d,
+		namespace: S ?? s ?? x[0],
+		attributes: ee(y, h)
 	};
-	if (w = Ee({
+	if (C = De({
 		dialecteConfig: t,
-		record: w,
+		record: C,
 		namespaceOf: function() {
-			return e.namespaceOf ?? A({ dialecteConfig: t });
+			return e.namespaceOf ?? k({ dialecteConfig: t });
 		},
 		lexicalOnly: e.namespaceOf !== void 0
 	}), n?.afterStandardizedRecord) {
-		w = n.afterStandardizedRecord({ record: w });
-		for (let e of w.attributes) ke({
+		C = n.afterStandardizedRecord({ record: C });
+		for (let e of C.attributes) Ae({
 			attribute: e,
 			tagName: a
 		});
-		w = Ee({
+		C = De({
 			dialecteConfig: t,
 			record: {
-				...w,
-				attributes: u(F({
+				...C,
+				attributes: ee(Be({
 					dialecteConfig: t,
-					attributes: w.attributes
-				}), g)
+					attributes: C.attributes
+				}), h)
 			},
 			namespaceOf: function() {
-				return A({ dialecteConfig: t });
+				return k({ dialecteConfig: t });
 			},
 			lexicalOnly: !1
 		});
 	}
-	return w;
-}
-function F(e) {
-	let { dialecteConfig: t, attributes: n } = e;
-	return g({
-		dialecteConfig: t,
-		attributes: n,
-		namespaceOf: A({ dialecteConfig: t })
-	});
+	return C;
 }
 function Be(e) {
-	let { dialecteConfig: t, record: r, attributes: i } = e;
-	for (let e of i) {
-		let i = n({
+	let { dialecteConfig: n, attributes: r } = e;
+	return t({
+		dialecteConfig: n,
+		attributes: r,
+		namespaceOf: k({ dialecteConfig: n })
+	});
+}
+function Ve(e) {
+	let { dialecteConfig: t, record: n, attributes: r } = e;
+	for (let e of r) {
+		let r = me({
 			dialecteConfig: t,
-			record: r,
+			record: n,
 			attributeName: e.name
 		});
-		i.fixed !== void 0 && e.value !== i.fixed && f("FIXED_VALUE_VIOLATION", {
-			detail: `Attribute '${e.name}' on '${r.tagName}' is fixed to '${i.fixed}' but was set to '${String(e.value)}'.`,
-			ref: { tagName: r.tagName }
+		r.fixed !== void 0 && e.value !== r.fixed && m("FIXED_VALUE_VIOLATION", {
+			detail: `Attribute '${e.name}' on '${n.tagName}' is fixed to '${r.fixed}' but was set to '${String(e.value)}'.`,
+			ref: { tagName: n.tagName }
 		});
 	}
 }
-function Ve(e) {
-	let { dialecteConfig: t, record: n } = e, r = n.attributes.find(ne);
+function He(e) {
+	let { dialecteConfig: t, record: n } = e, r = n.attributes.find(re);
 	if (r === void 0) {
 		O({
 			dialecteConfig: t,
 			record: n
-		})?.abstractType && f("XSI_TYPE_REQUIRED", {
-			detail: `'${n.tagName}' is declared with an abstract type: name one of its variants with xsi:type (${v({
+		})?.abstractType && m("XSI_TYPE_REQUIRED", {
+			detail: `'${n.tagName}' is declared with an abstract type: name one of its variants with xsi:type (${b({
 				dialecteConfig: t,
 				record: n
 			}).join(", ")}).`,
@@ -369,20 +369,20 @@ function Ve(e) {
 		dialecteConfig: t,
 		record: n
 	}) === void 0) return;
-	let i = oe({
+	let i = ce({
 		dialecteConfig: t,
 		record: n
 	});
-	if (i !== void 0 && re({
+	if (i !== void 0 && ie({
 		dialecteConfig: t,
 		record: n,
 		typeName: i.clark
 	})) return;
-	let a = v({
+	let a = b({
 		dialecteConfig: t,
 		record: n
 	});
-	f("XSI_TYPE_NOT_ADMITTED", {
+	m("XSI_TYPE_NOT_ADMITTED", {
 		detail: `'${n.tagName}' may not name the type '${String(r.value)}' with xsi:type; it admits ${a.join(", ") || "none"}.`,
 		ref: { tagName: n.tagName },
 		meta: {
@@ -391,12 +391,12 @@ function Ve(e) {
 		}
 	});
 }
-function He(e) {
+function Ue(e) {
 	let { dialecteConfig: t, merged: n, record: r } = e, i = new Set(r.attributes.map((e) => e.name)), a = n.filter((e) => e.value !== "" && !i.has(e.name)).map((e) => e.name), o = O({
 		dialecteConfig: t,
 		record: r
 	}), s = new Set(o?.children.sequence ?? []), c = o?.children.any ? [] : [...new Set(r.children.map((e) => e.tagName))].filter((e) => !s.has(e));
-	(a.length !== 0 || c.length !== 0) && f("XSI_TYPE_CHANGE_LEAVES_CONTENT", {
+	(a.length !== 0 || c.length !== 0) && m("XSI_TYPE_CHANGE_LEAVES_CONTENT", {
 		detail: `'${r.tagName}' now names a type that does not admit ` + [a.length > 0 ? `the attributes ${a.join(", ")} (clear them in the same update)` : "", c.length > 0 ? `the children ${c.join(", ")} (delete them first)` : ""].filter(Boolean).join(" nor ") + ".",
 		ref: { tagName: r.tagName },
 		meta: {
@@ -405,20 +405,20 @@ function He(e) {
 		}
 	});
 }
-function Ue(e, t, n, r) {
+function We(e, t, n, r) {
 	if (!e || !t) return;
 	let i = Object.keys(t).filter((t) => t in e);
-	j(i.length === 0, {
+	g(i.length === 0, {
 		key: "EXTENSION_METHOD_COLLISION",
 		detail: `Module "${n}" has conflicting ${r} method(s): ${i.map((e) => `"${e}"`).join(", ")}`
 	});
 }
-function We(e) {
+function Ge(e) {
 	let t = {}, n = {}, r = [...Object.entries(e.base ?? {}), ...Object.entries(e.custom ?? {})];
-	for (let [e, i] of r) i.query && (Ue(t[e], i.query, e, "query"), t[e] = {
+	for (let [e, i] of r) i.query && (We(t[e], i.query, e, "query"), t[e] = {
 		...t[e],
 		...i.query
-	}), i.transaction && (Ue(n[e], i.transaction, e, "transaction"), n[e] = {
+	}), i.transaction && (We(n[e], i.transaction, e, "transaction"), n[e] = {
 		...n[e],
 		...i.transaction
 	});
@@ -427,45 +427,45 @@ function We(e) {
 		transaction: n
 	};
 }
-function Ge(e) {
-	let { record: t, dialecteConfig: r, name: i, namespace: a, fullObject: o, defaults: s = "optional" } = e, c = Ke({
-		dialecteConfig: r,
-		name: i,
-		namespace: a
-	}), l = t.attributes.find((e) => e.name === c);
-	if (l) return o ? l : l.value;
-	let u = h({
-		dialecteConfig: r,
+function Ke(e) {
+	let { record: t, dialecteConfig: n, name: r, namespace: i, fullObject: a, defaults: o = "optional" } = e, s = qe({
+		dialecteConfig: n,
+		name: r,
+		namespace: i
+	}), c = t.attributes.find((e) => e.name === s);
+	if (c) return a ? c : c.value;
+	let l = ge({
+		dialecteConfig: n,
 		record: t,
-		attributeName: c,
-		defaults: s
+		attributeName: s,
+		defaults: o
 	});
-	if (!o) return u ?? "";
-	if (u === void 0) return;
-	let { namespace: d } = n({
-		dialecteConfig: r,
+	if (!a) return l ?? "";
+	if (l === void 0) return;
+	let { namespace: u } = me({
+		dialecteConfig: n,
 		record: t,
-		attributeName: c
+		attributeName: s
 	});
 	return {
-		name: c,
-		value: u,
-		namespace: d
+		name: s,
+		value: l,
+		namespace: u
 	};
 }
-function Ke(e) {
+function qe(e) {
 	let { dialecteConfig: t, name: n, namespace: r } = e;
 	if (r === void 0) return n;
-	let i = x(t, r);
+	let i = S(t, r);
 	return i ? `${i}:${n}` : n;
 }
-function qe(e) {
-	return e.fullObject ? Ye(e) : Je(e);
-}
 function Je(e) {
-	let { record: t, dialecteConfig: n, namespace: r, defaults: i = "optional" } = e, a = r === void 0 ? void 0 : x(n, r), o = {};
+	return e.fullObject ? Xe(e) : Ye(e);
+}
+function Ye(e) {
+	let { record: t, dialecteConfig: n, namespace: r, defaults: i = "optional" } = e, a = r === void 0 ? void 0 : S(n, r), o = {};
 	for (let e of t.attributes) {
-		let t = I({
+		let t = L({
 			name: e.name,
 			namespace: e.namespace,
 			targetPrefix: a
@@ -473,16 +473,16 @@ function Je(e) {
 		t !== void 0 && (o[t] = e.value ?? "");
 	}
 	if (i === "none") return o;
-	for (let e of Xe({
+	for (let e of I({
 		dialecteConfig: n,
 		record: t
 	})) {
-		let r = I({
+		let r = L({
 			name: e,
 			targetPrefix: a
 		});
 		if (r === void 0 || r in o) continue;
-		let s = h({
+		let s = ge({
 			dialecteConfig: n,
 			record: t,
 			attributeName: e,
@@ -492,47 +492,47 @@ function Je(e) {
 	}
 	return o;
 }
-function Ye(e) {
-	let { record: t, dialecteConfig: r, defaults: i = "optional" } = e, a = [...t.attributes];
-	if (i === "none") return a;
-	let o = new Set(a.map((e) => e.name));
-	for (let e of Xe({
-		dialecteConfig: r,
+function Xe(e) {
+	let { record: t, dialecteConfig: n, defaults: r = "optional" } = e, i = [...t.attributes];
+	if (r === "none") return i;
+	let a = new Set(i.map((e) => e.name));
+	for (let e of I({
+		dialecteConfig: n,
 		record: t
 	})) {
-		if (o.has(e)) continue;
-		let s = h({
-			dialecteConfig: r,
+		if (a.has(e)) continue;
+		let o = ge({
+			dialecteConfig: n,
 			record: t,
 			attributeName: e,
-			defaults: i
+			defaults: r
 		});
-		if (s === void 0) continue;
-		let { namespace: c } = n({
-			dialecteConfig: r,
+		if (o === void 0) continue;
+		let { namespace: s } = me({
+			dialecteConfig: n,
 			record: t,
 			attributeName: e
 		});
-		a.push({
+		i.push({
 			name: e,
-			value: s,
-			namespace: c
+			value: o,
+			namespace: s
 		});
 	}
-	return a;
+	return i;
 }
-function Xe(e) {
+function I(e) {
 	let { dialecteConfig: t, record: n } = e;
 	return O({
 		dialecteConfig: t,
 		record: n
 	})?.attributes.sequence ?? [];
 }
-function I(e) {
-	let { name: t, namespace: n, targetPrefix: r } = e, { prefix: i, local: a, isXmlns: o } = L(t);
+function L(e) {
+	let { name: t, namespace: n, targetPrefix: r } = e, { prefix: i, local: a, isXmlns: o } = Ze(t);
 	if (!(o || n?.uri === "http://www.w3.org/2000/xmlns/")) return r === void 0 ? t : i === r ? a : void 0;
 }
-function L(e) {
+function Ze(e) {
 	if (e === "xmlns" || e.startsWith("xmlns:")) return {
 		prefix: "",
 		local: e,
@@ -550,20 +550,20 @@ function L(e) {
 	};
 }
 //#endregion
-//#region node_modules/.pnpm/@dialecte+core@0.12.1/node_modules/@dialecte/core/dist/rolldown-runtime-CYdcPHCu.js
-var Ze = Object.create, Qe = Object.defineProperty, $e = Object.getOwnPropertyDescriptor, et = Object.getOwnPropertyNames, tt = Object.getPrototypeOf, nt = Object.prototype.hasOwnProperty, rt = (e, t) => () => (t || (e((t = { exports: {} }).exports, t, t.exports), e = null), t.exports), it = (e, t, n, r) => {
-	if (t && typeof t == "object" || typeof t == "function") for (var i = et(t), a = 0, o = i.length, s; a < o; a++) s = i[a], !nt.call(e, s) && s !== n && Qe(e, s, {
+//#region node_modules/.pnpm/@dialecte+core@0.14.0/node_modules/@dialecte/core/dist/rolldown-runtime-CYdcPHCu.js
+var Qe = Object.create, $e = Object.defineProperty, et = Object.getOwnPropertyDescriptor, tt = Object.getOwnPropertyNames, nt = Object.getPrototypeOf, rt = Object.prototype.hasOwnProperty, it = (e, t) => () => (t || (e((t = { exports: {} }).exports, t, t.exports), e = null), t.exports), at = (e, t, n, r) => {
+	if (t && typeof t == "object" || typeof t == "function") for (var i = tt(t), a = 0, o = i.length, s; a < o; a++) s = i[a], !rt.call(e, s) && s !== n && $e(e, s, {
 		get: ((e) => t[e]).bind(null, s),
-		enumerable: !(r = $e(t, s)) || r.enumerable
+		enumerable: !(r = et(t, s)) || r.enumerable
 	});
 	return e;
-}, at = (e, t, n) => (n = e == null ? {} : Ze(tt(e)), it(t || !e || !e.__esModule || !nt.call(e, "default") ? Qe(n, "default", {
+}, ot = (e, t, n) => (n = e == null ? {} : Qe(nt(e)), at(t || !e || !e.__esModule || !rt.call(e, "default") ? $e(n, "default", {
 	value: e,
 	enumerable: !0
-}) : n, e)), ot = Symbol.for("@dialecte/core/storage-kinds/v12");
-function st(e) {
-	let { project: t, type: n } = e, r = globalThis[ot]?.get(n);
-	return r || f("PROJECT_STORAGE_NOT_REGISTERED", {
+}) : n, e)), st = Symbol.for("@dialecte/core/storage-kinds/v15");
+function ct(e) {
+	let { project: t, type: n } = e, r = globalThis[st]?.get(n);
+	return r || m("PROJECT_STORAGE_NOT_REGISTERED", {
 		detail: `Project "${t}" asks for storage of type "${n}", but no kind is registered for it in this realm: import the entry that registers it once in the app's entry (a test runner's setup file for a test on it). Imported already? Then a copy of @dialecte/core of another storage version registered it (a package bringing its own core): align the core versions`,
 		meta: {
 			project: t,
@@ -571,8 +571,8 @@ function st(e) {
 		}
 	}), r;
 }
-function ct() {}
-function lt() {
+function lt() {}
+function ut() {
 	let e = 0, t = [];
 	return {
 		get count() {
@@ -594,13 +594,13 @@ function lt() {
 		}
 	};
 }
-function ut() {
+function dt() {
 	let e = /* @__PURE__ */ new Map();
 	return {
 		markClosing: function({ name: t, until: n }) {
 			let r = e.get(t) ?? /* @__PURE__ */ new Set();
 			e.set(t, r);
-			let i = n.then(dt, dt);
+			let i = n.then(R, R);
 			r.add(i), i.then(function() {
 				r.delete(i), r.size === 0 && e.get(t) === r && e.delete(t);
 			});
@@ -610,8 +610,8 @@ function ut() {
 		}
 	};
 }
-function dt() {}
-function R() {
+function R() {}
+function ft() {
 	let e = /* @__PURE__ */ new Map();
 	return {
 		markOpen: function({ name: t, connection: n }) {
@@ -629,29 +629,29 @@ function R() {
 	};
 }
 //#endregion
-//#region node_modules/.pnpm/@dialecte+core@0.12.1/node_modules/@dialecte/core/dist/project-key-DD8DyQ8-.js
-var ft = {
+//#region node_modules/.pnpm/@dialecte+core@0.14.0/node_modules/@dialecte/core/dist/project-key-WGrHzudb.js
+var pt = {
 	bigint: "a BigInt",
 	function: "a function",
 	symbol: "a symbol"
-}, pt = "not well-formed UTF-16 (a lone surrogate)", mt = `text that is ${pt}`, ht = `a key that is ${pt}`;
-function gt(e) {
+}, mt = "not well-formed UTF-16 (a lone surrogate)", ht = `text that is ${mt}`, gt = `a key that is ${mt}`;
+function _t(e) {
 	let { documentId: t } = e;
-	f("STORE_DUPLICATE_ID", {
+	m("STORE_DUPLICATE_ID", {
 		detail: `Document "${t}" is already registered`,
 		meta: { documentId: t }
 	});
 }
-function _t(e) {
+function vt(e) {
 	let { path: t, reason: n } = e;
-	f("DOCUMENT_PATH_INVALID", {
+	m("DOCUMENT_PATH_INVALID", {
 		detail: `The document path ${JSON.stringify(t)} is refused: ${n}`,
 		meta: { path: t }
 	});
 }
-function vt(e) {
+function yt(e) {
 	let { documentId: t, path: n, takenBy: r } = e;
-	f("DOCUMENT_PATH_TAKEN", {
+	m("DOCUMENT_PATH_TAKEN", {
 		detail: `Document "${t}" cannot take the path "${n}": document "${r}" holds that place`,
 		meta: {
 			documentId: t,
@@ -660,16 +660,16 @@ function vt(e) {
 		}
 	});
 }
-function yt(e) {
+function z(e) {
 	let { documentId: t, what: n } = e;
-	f("DOCUMENT_NOT_REGISTERED", {
+	m("DOCUMENT_NOT_REGISTERED", {
 		detail: `Cannot write ${n} to document "${t}": it is not registered`,
 		meta: { documentId: t }
 	});
 }
 function bt(e) {
 	let { documentId: t, recordId: n } = e;
-	f("STORE_RECORD_NOT_FOUND", {
+	m("STORE_RECORD_NOT_FOUND", {
 		detail: `Record "${n}" is not in document "${t}": nothing to update`,
 		meta: {
 			documentId: t,
@@ -677,23 +677,23 @@ function bt(e) {
 		}
 	});
 }
-function xt(e) {
+function B(e) {
 	let { documentId: t, held: n, repeated: r, cause: i } = e;
-	f("STORE_DUPLICATE_ID", {
-		detail: `Document "${t}" refuses ids to create - ${[n.length > 0 ? `already holds: ${z(n).join(", ")}` : void 0, r.length > 0 ? `given twice: ${z(r).join(", ")}` : void 0].filter((e) => e !== void 0).join("; ")}`,
+	m("STORE_DUPLICATE_ID", {
+		detail: `Document "${t}" refuses ids to create - ${[n.length > 0 ? `already holds: ${xt(n).join(", ")}` : void 0, r.length > 0 ? `given twice: ${xt(r).join(", ")}` : void 0].filter((e) => e !== void 0).join("; ")}`,
 		meta: {
 			documentId: t,
-			recordIds: z([...n, ...r])
+			recordIds: xt([...n, ...r])
 		},
 		cause: i
 	});
 }
-function z(e) {
+function xt(e) {
 	return [...new Set(e)];
 }
 function St(e) {
 	let { storeName: t, connections: n } = e;
-	f("PROJECT_OPEN_ELSEWHERE", {
+	m("PROJECT_OPEN_ELSEWHERE", {
 		detail: `Project "${t}" cannot be destroyed while another connection has it open: close that one first`,
 		meta: {
 			project: t,
@@ -703,13 +703,13 @@ function St(e) {
 }
 function Ct(e) {
 	let { storeName: t } = e;
-	f("STORE_CLOSED", {
+	m("STORE_CLOSED", {
 		detail: `Store "${t}" is closed: open it again before using it`,
 		meta: { storeName: t }
 	});
 }
 function wt(e) {
-	B({ walk: function() {
+	Ot({ walk: function() {
 		kt({
 			value: e.value,
 			field: "",
@@ -724,10 +724,10 @@ function Et() {
 }
 function Dt(e) {
 	let { field: t, value: n } = e;
-	n ?? f("STORE_VALUE_NOT_JSON", { detail: `The ${t} is missing` }), typeof n != "string" && f("STORE_VALUE_NOT_JSON", { detail: `The ${t} is not text` }), wt({ value: { [t]: n } });
+	n ?? m("STORE_VALUE_NOT_JSON", { detail: `The ${t} is missing` }), typeof n != "string" && m("STORE_VALUE_NOT_JSON", { detail: `The ${t} is not text` }), wt({ value: { [t]: n } });
 }
-function Ot(e) {
-	return B({ walk: function() {
+function V(e) {
+	return Ot({ walk: function() {
 		return At({
 			value: e.value,
 			field: "",
@@ -736,12 +736,12 @@ function Ot(e) {
 		});
 	} });
 }
-function B(e) {
+function Ot(e) {
 	try {
 		return e.walk();
 	} catch (e) {
 		let t = e instanceof Error ? e : void 0;
-		f("STORE_VALUE_NOT_JSON", {
+		m("STORE_VALUE_NOT_JSON", {
 			detail: t?.message ?? String(e),
 			cause: t
 		});
@@ -765,9 +765,9 @@ function kt(e) {
 	} else {
 		let t = e.value;
 		for (let r of Object.keys(t)) {
-			r.isWellFormed() || Rt({
+			r.isWellFormed() || H({
 				step: e,
-				kind: ht
+				kind: gt
 			});
 			let i = t[r];
 			Pt({ value: i }) || kt({
@@ -804,9 +804,9 @@ function jt(e) {
 function Mt(e) {
 	let { ancestors: t } = e, n = e.value, r = {};
 	for (let i of Object.keys(n)) {
-		i.isWellFormed() || Rt({
+		i.isWellFormed() || H({
 			step: e,
-			kind: ht
+			kind: gt
 		});
 		let a = n[i], o = Pt({ value: a }) ? Nt({ value: a }) : At({
 			value: a,
@@ -839,16 +839,16 @@ function Pt(e) {
 function Ft(e) {
 	let { value: t } = e, n = typeof t;
 	switch (n) {
-		case "string": return t.isWellFormed() ? "leaf" : Rt({
+		case "string": return t.isWellFormed() ? "leaf" : H({
 			step: e,
-			kind: mt
+			kind: ht
 		});
 		case "boolean": return "leaf";
-		case "number": return Number.isFinite(t) ? "leaf" : Rt({
+		case "number": return Number.isFinite(t) ? "leaf" : H({
 			step: e,
 			kind: String(t)
 		});
-		case "undefined": return t === void 0 ? e.inArray ? Rt({
+		case "undefined": return t === void 0 ? e.inArray ? H({
 			step: e,
 			kind: "undefined in an array"
 		}) : "leaf" : It({
@@ -859,9 +859,9 @@ function Ft(e) {
 			step: e,
 			held: t
 		});
-		default: return Rt({
+		default: return H({
 			step: e,
-			kind: ft[n]
+			kind: pt[n]
 		});
 	}
 }
@@ -870,19 +870,19 @@ function It(e) {
 	return Lt({
 		prototype: i,
 		name: r ? "Array" : "Object"
-	}) || Rt({
+	}) || H({
 		step: t,
 		kind: `an instance of ${n.constructor?.name || "a class"}`
-	}), i === null && JSON.isRawJSON?.(n) && Rt({
+	}), i === null && JSON.isRawJSON?.(n) && H({
 		step: t,
 		kind: "a raw JSON value"
-	}), typeof n.toJSON == "function" && Rt({
+	}), typeof n.toJSON == "function" && H({
 		step: t,
 		kind: "a value with toJSON"
-	}), t.ancestors.includes(n) && Rt({
+	}), t.ancestors.includes(n) && H({
 		step: t,
 		kind: "a cycle"
-	}), t.ancestors.length >= 512 && Rt({
+	}), t.ancestors.length >= 512 && H({
 		step: t,
 		kind: "a value nested more than 512 levels deep"
 	}), r ? "array" : "object";
@@ -894,24 +894,24 @@ function Lt(e) {
 	let r = Object.getOwnPropertyDescriptor(t, "constructor")?.value;
 	return typeof r == "function" && r.name === n;
 }
-function Rt(e) {
+function H(e) {
 	let t = String(e.step.field);
 	throw TypeError(`${e.kind} is not a JSON value${t ? ` (field "${t}")` : ""}`);
 }
-var V = /* @__PURE__ */ new WeakSet();
+var Rt = /* @__PURE__ */ new WeakSet();
 function zt(e) {
 	let { listener: t, value: n, of: r, call: i } = e;
 	if (t) try {
 		let e = t(n);
-		H(e) && Promise.resolve(e).catch(function(e) {
-			Vt({
+		Vt(e) && Promise.resolve(e).catch(function(e) {
+			U({
 				call: i,
 				of: r,
 				thrown: e
 			});
 		});
 	} catch (e) {
-		Vt({
+		U({
 			call: i,
 			of: r,
 			thrown: e
@@ -921,15 +921,15 @@ function zt(e) {
 function Bt(e) {
 	return `the changes of project "${e.name}"`;
 }
-function Vt(e) {
+function U(e) {
 	let { call: t } = e;
 	if (t !== void 0) {
-		if (V.has(t)) return;
-		V.add(t);
+		if (Rt.has(t)) return;
+		Rt.add(t);
 	}
 	console.error(`[dialecte] a listener of ${e.of} threw; what told it goes on:`, e.thrown);
 }
-function H(e) {
+function Vt(e) {
 	return typeof e == "object" && !!e && typeof e.then == "function";
 }
 var Ht = {
@@ -943,44 +943,44 @@ var Ht = {
 	"",
 	".",
 	".."
-], U = "_documents", W = "_changeLog", G = "_meta", K = "xel_";
-function q(e) {
-	return `${K}${e}`;
-}
-var J = "_blobs", Wt = "blob_";
+], W = "_documents", G = "_changeLog", K = "_meta", Wt = "xel_";
 function Gt(e) {
 	return `${Wt}${e}`;
 }
-var Kt = {
+var q = "_blobs", Kt = "blob_";
+function J(e) {
+	return `${Kt}${e}`;
+}
+var qt = {
 	primaryKey: "id",
 	indexes: ["name", "configKey"],
 	compoundIndexes: [],
 	arrayIndexes: []
-}, qt = {
+}, Jt = {
 	primaryKey: "id",
 	autoIncrement: !0,
 	indexes: ["documentId"],
 	compoundIndexes: [["documentId", "sequenceNumber"]],
 	arrayIndexes: []
-}, Jt = {
+}, Yt = {
 	primaryKey: "key",
 	indexes: [],
 	compoundIndexes: [],
 	arrayIndexes: []
-}, Yt = {
+}, Xt = {
 	primaryKey: "id",
 	indexes: ["documentId"],
 	compoundIndexes: [],
 	arrayIndexes: []
-}, Xt = {
+}, Zt = {
 	primaryKey: "id",
 	indexes: [],
 	compoundIndexes: [],
 	arrayIndexes: []
 };
-function Zt(e) {
+function Qt(e) {
 	let { project: t, dialecteId: n } = e;
-	(Ut.includes(t) || n !== void 0 && Ut.includes(n)) && f("PROJECT_NAME_INVALID", {
+	(Ut.includes(t) || n !== void 0 && Ut.includes(n)) && m("PROJECT_NAME_INVALID", {
 		detail: `A project cannot be named ${JSON.stringify(t)}${n === void 0 ? "" : ` in dialecte ${JSON.stringify(n)}`}: neither its name nor its dialecte's id may be empty, \`.\` or \`..\``,
 		meta: {
 			project: t,
@@ -1011,18 +1011,18 @@ var Y = Object.freeze({
 		};
 	},
 	merge() {}
-}), Qt = "dialecte::";
-function $t({ enabled: e, timeline: t = !0 }) {
+}), $t = "dialecte::";
+function en({ enabled: e, timeline: t = !0 }) {
 	if (!e) return Y;
 	let n = /* @__PURE__ */ new Map(), r = /* @__PURE__ */ new Map(), i = /* @__PURE__ */ new Map(), a = [], o = 0;
 	function s(e) {
-		t ? performance.measure(Qt + e.name, {
+		t ? performance.measure($t + e.name, {
 			start: e.startTime,
 			duration: e.duration
 		}) : a.push(e);
 	}
 	function c() {
-		return t ? performance.getEntriesByType("measure").filter((e) => e.name.startsWith(Qt)).map((e) => ({
+		return t ? performance.getEntriesByType("measure").filter((e) => e.name.startsWith($t)).map((e) => ({
 			name: e.name.slice(10),
 			startTime: e.startTime,
 			duration: e.duration
@@ -1037,14 +1037,14 @@ function $t({ enabled: e, timeline: t = !0 }) {
 	}
 	let u = {
 		start(e) {
-			let r = Qt + e, i = `${r}:${++o}`;
+			let r = $t + e, i = `${r}:${++o}`;
 			t && performance.mark(i), (n.get(r) ?? n.set(r, []).get(r)).push({
 				mark: i,
 				startTime: performance.now()
 			});
 		},
 		stop(e) {
-			let r = Qt + e, i = n.get(r)?.pop();
+			let r = $t + e, i = n.get(r)?.pop();
 			i && (t ? (performance.measure(r, i.mark), performance.clearMarks(i.mark)) : a.push({
 				name: e,
 				startTime: i.startTime,
@@ -1052,11 +1052,11 @@ function $t({ enabled: e, timeline: t = !0 }) {
 			}));
 		},
 		count(e) {
-			let t = Qt + e;
+			let t = $t + e;
 			r.set(t, (r.get(t) ?? 0) + 1);
 		},
 		time(e, t) {
-			let n = Qt + e, r = performance.now();
+			let n = $t + e, r = performance.now();
 			try {
 				return t();
 			} finally {
@@ -1064,7 +1064,7 @@ function $t({ enabled: e, timeline: t = !0 }) {
 			}
 		},
 		profile(e, t) {
-			return typeof console.profile == "function" ? (console.profile(Qt + e), Promise.resolve(t()).finally(() => console.profileEnd(Qt + e))) : t();
+			return typeof console.profile == "function" ? (console.profile($t + e), Promise.resolve(t()).finally(() => console.profileEnd($t + e))) : t();
 		},
 		report() {
 			let e = {};
@@ -1099,7 +1099,7 @@ function $t({ enabled: e, timeline: t = !0 }) {
 				duration: r.duration
 			});
 			for (let [n, i] of Object.entries(e.totals)) {
-				let e = `${Qt}${t}::${n}`;
+				let e = `${$t}${t}::${n}`;
 				i.calls > 0 && l(e, i.calls, i.totalMs), i.count !== void 0 && r.set(e, (r.get(e) ?? 0) + i.count);
 			}
 		}
@@ -1125,9 +1125,9 @@ function $t({ enabled: e, timeline: t = !0 }) {
 	}
 	return u;
 }
-function en(e) {
+function tn(e) {
 	let { configs: t, defaultConfigKey: n, configKey: r = n } = e, i = t[r];
-	return j(i, {
+	return g(i, {
 		key: "UNKNOWN_CONFIG_KEY",
 		detail: `Unknown configKey: "${r}". Available: ${Object.keys(t).join(", ")}`
 	}), {
@@ -1135,7 +1135,7 @@ function en(e) {
 		config: i
 	};
 }
-function tn() {
+function nn() {
 	return new Promise(function(e) {
 		let t = new MessageChannel();
 		t.port1.onmessage = function() {
@@ -1143,16 +1143,16 @@ function tn() {
 		}, t.port2.postMessage(null);
 	});
 }
-function nn(e) {
+function rn(e) {
 	let { record: t, config: n } = e;
 	return t.tagName === n.rootElementName && t.parent === null;
 }
-var rn = {
-	namespaceURI: pe,
+var an = {
+	namespaceURI: he,
 	prefix: null,
 	localName: "xmlns",
 	value: ""
-}, an = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>", on = "    ", sn = /[&<>"\t\n\r]/, cn = /[&<>"\t\n\r]/g, ln = /[&<>]/, un = /[&<>]/g, dn = /[&<>\r]/, fn = /[&<>\r]/g, pn = {
+}, on = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>", sn = "    ", cn = /[&<>"\t\n\r]/, ln = /[&<>"\t\n\r]/g, un = /[&<>]/, dn = /[&<>]/g, fn = /[&<>\r]/, pn = /[&<>\r]/g, mn = {
 	"&": "&amp;",
 	"<": "&lt;",
 	">": "&gt;",
@@ -1160,11 +1160,11 @@ var rn = {
 	"	": "&#9;",
 	"\n": "&#10;",
 	"\r": "&#13;"
-}, mn = {
+}, hn = {
 	bindings: /* @__PURE__ */ new Map(),
 	parent: void 0
-}, hn = /* @__PURE__ */ new Set();
-function gn(e) {
+}, gn = /* @__PURE__ */ new Set();
+function _n(e) {
 	let { namespaceURI: t, qualifiedName: n, parent: r } = e;
 	if (t === null) return {
 		namespaceURI: t,
@@ -1173,7 +1173,7 @@ function gn(e) {
 		attributes: [],
 		parent: r
 	};
-	let { prefix: i, localName: a } = An(n);
+	let { prefix: i, localName: a } = jn(n);
 	return {
 		namespaceURI: t,
 		prefix: i,
@@ -1182,8 +1182,8 @@ function gn(e) {
 		parent: r
 	};
 }
-function _n(e) {
-	let { element: t, qualifiedName: n, value: r } = e, i = t.attributes.find((e) => jn(e) === n);
+function vn(e) {
+	let { element: t, qualifiedName: n, value: r } = e, i = t.attributes.find((e) => Mn(e) === n);
 	i ? i.value = r : t.attributes.push({
 		namespaceURI: null,
 		prefix: null,
@@ -1191,8 +1191,8 @@ function _n(e) {
 		value: r
 	});
 }
-function vn(e) {
-	let { element: t, namespaceURI: n, qualifiedName: r, value: i } = e, { prefix: a, localName: o } = An(r), s = Mn({
+function yn(e) {
+	let { element: t, namespaceURI: n, qualifiedName: r, value: i } = e, { prefix: a, localName: o } = jn(r), s = Nn({
 		element: t,
 		namespaceURI: n,
 		localName: o
@@ -1204,21 +1204,21 @@ function vn(e) {
 		value: i
 	});
 }
-function yn(e) {
-	let { element: t, qualifiedName: n } = e;
-	return t.attributes.some((e) => jn(e) === n);
-}
 function bn(e) {
-	return Mn(e)?.value ?? null;
+	let { element: t, qualifiedName: n } = e;
+	return t.attributes.some((e) => Mn(e) === n);
 }
 function xn(e) {
-	return Mn(e) !== void 0;
+	return Nn(e)?.value ?? null;
 }
 function Sn(e) {
+	return Nn(e) !== void 0;
+}
+function Cn(e) {
 	let { prefix: t } = e;
 	for (let n = e.element; n; n = n.parent) {
 		if (n.namespaceURI !== null && n.prefix === t) return n.namespaceURI;
-		let e = n.attributes.find((e) => Nn({
+		let e = n.attributes.find((e) => Pn({
 			attribute: e,
 			prefix: t
 		}));
@@ -1226,39 +1226,39 @@ function Sn(e) {
 	}
 	return null;
 }
-function Cn(e) {
+function wn(e) {
 	let { element: t, prefixes: n } = e, r, i = e.scope, a;
 	for (let e of t.attributes) {
-		let t = Pn(e);
-		t !== void 0 && In({
+		let t = Fn(e);
+		t !== void 0 && Ln({
 			parent: i,
 			own: a,
 			prefix: t
 		}) !== e.value && (a ??= /* @__PURE__ */ new Map(), a.set(t, e.value));
 	}
-	let o = `<${jn(t)}`, s = t.prefix ?? "", c = t.namespaceURI ?? "", l = In({
+	let o = `<${Mn(t)}`, s = t.prefix ?? "", c = t.namespaceURI ?? "", l = Ln({
 		parent: i,
 		own: a,
 		prefix: ""
 	});
-	(t.namespaceURI !== null || l) && (In({
+	(t.namespaceURI !== null || l) && (Ln({
 		parent: i,
 		own: a,
 		prefix: s
-	}) ?? "") !== c && (o += s ? ` xmlns:${s}="${En(c)}"` : ` xmlns="${En(c)}"`, a ??= /* @__PURE__ */ new Map(), a.set(s, c));
+	}) ?? "") !== c && (o += s ? ` xmlns:${s}="${Dn(c)}"` : ` xmlns="${Dn(c)}"`, a ??= /* @__PURE__ */ new Map(), a.set(s, c));
 	for (let e of t.attributes) {
 		let { namespaceURI: t } = e;
 		if (t === null || t === "http://www.w3.org/2000/xmlns/" || t === "http://www.w3.org/XML/1998/namespace" || e.prefix === null) {
-			o += ` ${jn(e)}="${En(e.value)}"`;
+			o += ` ${Mn(e)}="${Dn(e.value)}"`;
 			continue;
 		}
-		let { prefix: s, declare: c } = wn({
+		let { prefix: s, declare: c } = X({
 			attribute: e,
 			parent: i,
 			own: a,
 			prefixes: n
 		});
-		c && (o += ` xmlns:${s}="${En(t)}"`, a ??= /* @__PURE__ */ new Map(), a.set(s, t), r ??= /* @__PURE__ */ new Set(), r.add(s)), o += ` ${s}:${e.localName}="${En(e.value)}"`;
+		c && (o += ` xmlns:${s}="${Dn(t)}"`, a ??= /* @__PURE__ */ new Map(), a.set(s, t), r ??= /* @__PURE__ */ new Set(), r.add(s)), o += ` ${s}:${e.localName}="${Dn(e.value)}"`;
 	}
 	return {
 		text: o,
@@ -1266,11 +1266,11 @@ function Cn(e) {
 			bindings: a,
 			parent: i
 		} : i,
-		generated: r ?? hn
+		generated: r ?? gn
 	};
 }
-function wn(e) {
-	let { attribute: t, parent: n, own: r, prefixes: i } = e, a = t.namespaceURI, o = t.prefix, s = In({
+function X(e) {
+	let { attribute: t, parent: n, own: r, prefixes: i } = e, a = t.namespaceURI, o = t.prefix, s = Ln({
 		parent: n,
 		own: r,
 		prefix: o
@@ -1279,7 +1279,7 @@ function wn(e) {
 		prefix: o,
 		declare: !1
 	};
-	let c = X({
+	let c = Tn({
 		parent: n,
 		own: r,
 		namespaceURI: a
@@ -1294,7 +1294,7 @@ function wn(e) {
 	};
 	for (;;) {
 		let e = `ns${i.next}`;
-		if (i.next++, In({
+		if (i.next++, Ln({
 			parent: n,
 			own: r,
 			prefix: e
@@ -1304,30 +1304,30 @@ function wn(e) {
 		};
 	}
 }
-function X(e) {
-	let { parent: t, own: n, namespaceURI: r } = e, i = /* @__PURE__ */ new Set(), a = [n, ...Tn(t)];
+function Tn(e) {
+	let { parent: t, own: n, namespaceURI: r } = e, i = /* @__PURE__ */ new Set(), a = [n, ...En(t)];
 	for (let e of a) if (e) {
 		for (let [t, n] of [...e].reverse()) if (!i.has(t) && (i.add(t), t && n === r)) return t;
 	}
 }
-function Tn(e) {
+function En(e) {
 	let t = [];
 	for (let n = e; n; n = n.parent) t.push(n.bindings);
 	return t;
 }
-function En(e) {
-	return sn.test(e) ? e.replace(cn, kn) : e;
-}
 function Dn(e) {
-	return dn.test(e) ? e.replace(fn, kn) : e;
+	return cn.test(e) ? e.replace(ln, An) : e;
 }
 function On(e) {
-	return ln.test(e) ? e.replace(un, kn) : e;
+	return fn.test(e) ? e.replace(pn, An) : e;
 }
 function kn(e) {
-	return pn[e];
+	return un.test(e) ? e.replace(dn, An) : e;
 }
 function An(e) {
+	return mn[e];
+}
+function jn(e) {
 	let t = e.indexOf(":");
 	return t === -1 ? {
 		prefix: null,
@@ -1337,39 +1337,39 @@ function An(e) {
 		localName: e.slice(t + 1)
 	};
 }
-function jn(e) {
+function Mn(e) {
 	return e.prefix ? `${e.prefix}:${e.localName}` : e.localName;
 }
-function Mn(e) {
+function Nn(e) {
 	let { element: t, namespaceURI: n, localName: r } = e;
 	return t.attributes.find((e) => e.namespaceURI === n && e.localName === r);
 }
-function Nn(e) {
+function Pn(e) {
 	let { attribute: t, prefix: n } = e;
 	return t.namespaceURI === "http://www.w3.org/2000/xmlns/" ? n === null ? t.prefix === null && t.localName === "xmlns" : t.prefix === "xmlns" && t.localName === n : !1;
 }
-function Pn(e) {
+function Fn(e) {
 	if (e.namespaceURI === "http://www.w3.org/2000/xmlns/") return e.prefix === "xmlns" ? e.localName : "";
 	if (e.namespaceURI === null && e.localName === "xmlns") return "";
 }
-function Fn(e) {
+function In(e) {
 	let { prefix: t } = e;
 	for (let n = e.scope; n; n = n.parent) {
 		let e = n.bindings.get(t);
 		if (e !== void 0) return e;
 	}
 }
-function In(e) {
+function Ln(e) {
 	let { parent: t, own: n, prefix: r } = e;
-	return n?.get(r) ?? Fn({
+	return n?.get(r) ?? In({
 		scope: t,
 		prefix: r
 	});
 }
-function Ln(e) {
+function Rn(e) {
 	let { config: t, rootUri: n } = e, r = Object.values(t.namespaces).map((e) => e.prefix).filter((e) => e !== ""), i = !r.includes("xs"), a = /* @__PURE__ */ new Set([
 		...r,
-		C.prefix,
+		A.prefix,
 		"xml",
 		"xmlns"
 	]);
@@ -1383,7 +1383,7 @@ function Ln(e) {
 		alias: void 0
 	};
 }
-function Rn(e) {
+function zn(e) {
 	let { table: t, config: n, uri: r, storedPrefix: i } = e, a = t.prefixByUri.get(r);
 	if (a !== void 0) return {
 		table: t,
@@ -1397,7 +1397,7 @@ function Rn(e) {
 		table: t,
 		prefix: "xml"
 	};
-	let { prefix: o, nextGenerated: s } = Hn({
+	let { prefix: o, nextGenerated: s } = Un({
 		table: t,
 		config: n,
 		uri: r,
@@ -1413,19 +1413,19 @@ function Rn(e) {
 		prefix: o
 	};
 }
-function zn(e) {
+function Bn(e) {
 	let { table: t, config: n, storedPrefix: r } = e;
 	if (t.alias !== void 0) return {
 		table: t,
 		prefix: t.alias
 	};
-	let { prefix: i, nextGenerated: a } = r && Gn({
+	let { prefix: i, nextGenerated: a } = r && Kn({
 		table: t,
 		prefix: r
 	}) ? {
 		prefix: r,
 		nextGenerated: t.nextGenerated
-	} : Wn({ table: t }), o = new Map(t.bindings).set(i, n.namespaces.default.uri);
+	} : Gn({ table: t }), o = new Map(t.bindings).set(i, n.namespaces.default.uri);
 	return {
 		table: {
 			...t,
@@ -1436,34 +1436,34 @@ function zn(e) {
 		prefix: i
 	};
 }
-function Bn(e) {
+function Vn(e) {
 	let { table: t, config: n } = e, { prefixByUri: r } = t, i = t.bindings.get(""), a = [];
-	i && a.push(Kn({
+	i && a.push(qn({
 		uri: i,
 		prefix: ""
-	})), t.alias !== void 0 && a.push(Kn({
+	})), t.alias !== void 0 && a.push(qn({
 		uri: n.namespaces.default.uri,
 		prefix: t.alias
 	}));
 	let o = [];
-	r.has(C.uri) && o.push(C.uri);
+	r.has(A.uri) && o.push(A.uri);
 	let s = /* @__PURE__ */ new Set();
-	for (let e of Object.values(n.namespaces)) s.add(e.uri), e.uri !== n.namespaces.default.uri && e.uri !== C.uri && r.has(e.uri) && !o.includes(e.uri) && o.push(e.uri);
-	let c = [...r.keys()].filter((e) => e !== i && e !== C.uri && !s.has(e)).sort(qn);
-	for (let e of [...o, ...c]) a.push(Kn({
+	for (let e of Object.values(n.namespaces)) s.add(e.uri), e.uri !== n.namespaces.default.uri && e.uri !== A.uri && r.has(e.uri) && !o.includes(e.uri) && o.push(e.uri);
+	let c = [...r.keys()].filter((e) => e !== i && e !== A.uri && !s.has(e)).sort(Jn);
+	for (let e of [...o, ...c]) a.push(qn({
 		uri: e,
 		prefix: r.get(e) ?? ""
 	}));
 	return a;
 }
-function Vn(e) {
+function Hn(e) {
 	let { table: t, config: n, documentRoot: r, element: i } = e;
 	if (!r || t.prefixByUri.size === 0) return [];
 	let a = {
 		...i,
 		attributes: [...i.attributes]
 	};
-	for (let [e, i] of t.prefixByUri) Jn({
+	for (let [e, i] of t.prefixByUri) Yn({
 		config: n,
 		element: a,
 		namespace: {
@@ -1474,7 +1474,7 @@ function Vn(e) {
 	});
 	return a.attributes.slice(i.attributes.length);
 }
-function Hn(e) {
+function Un(e) {
 	let { table: t, config: n, uri: r, storedPrefix: i } = e, a = t.nextGenerated;
 	if (r === n.namespaces.default.uri) return {
 		prefix: "",
@@ -1484,39 +1484,39 @@ function Hn(e) {
 	return o ? {
 		prefix: o.prefix,
 		nextGenerated: a
-	} : r === C.uri ? {
-		prefix: C.prefix,
+	} : r === A.uri ? {
+		prefix: A.prefix,
 		nextGenerated: a
 	} : r === "http://www.w3.org/2001/XMLSchema" && t.xsdTakesXs ? {
 		prefix: "xs",
 		nextGenerated: a
 	} : i ? {
-		prefix: Un({
+		prefix: Wn({
 			table: t,
 			storedPrefix: i
 		}),
 		nextGenerated: a
-	} : Wn({ table: t });
+	} : Gn({ table: t });
 }
-function Un(e) {
+function Wn(e) {
 	let { table: t, storedPrefix: n } = e;
-	if (Gn({
+	if (Kn({
 		table: t,
 		prefix: n
 	})) return n;
 	for (let e = 2;; e++) {
 		let r = `${n}${e}`;
-		if (Gn({
+		if (Kn({
 			table: t,
 			prefix: r
 		})) return r;
 	}
 }
-function Wn(e) {
+function Gn(e) {
 	let { table: t } = e;
 	for (let e = t.nextGenerated;; e++) {
 		let n = `ns${e}`;
-		if (Gn({
+		if (Kn({
 			table: t,
 			prefix: n
 		})) return {
@@ -1525,130 +1525,130 @@ function Wn(e) {
 		};
 	}
 }
-function Gn(e) {
+function Kn(e) {
 	let { table: t, prefix: n } = e;
 	return !t.reserved.has(n) && !t.bindings.has(n);
 }
-function Kn(e) {
+function qn(e) {
 	let { uri: t, prefix: n } = e;
 	return n ? {
-		namespaceURI: pe,
+		namespaceURI: he,
 		prefix: "xmlns",
 		localName: n,
 		value: t
 	} : {
-		namespaceURI: pe,
+		namespaceURI: he,
 		prefix: null,
 		localName: "xmlns",
 		value: t
 	};
 }
-function qn(e, t) {
+function Jn(e, t) {
 	return e === t ? 0 : e < t ? -1 : 1;
 }
-function Jn(e) {
-	let { config: t, element: n, namespace: r, rootRecord: a } = e, o = O({
+function Yn(e) {
+	let { config: t, element: r, namespace: i, rootRecord: a } = e, o = O({
 		dialecteConfig: t,
 		record: a
-	})?.attributes.details ?? {}, s = r.uri === t.namespaces.default.uri;
+	})?.attributes.details ?? {}, s = i.uri === t.namespaces.default.uri;
 	for (let [e, c] of Object.entries(o)) {
-		let o = h({
+		let o = ge({
 			dialecteConfig: t,
 			record: a,
 			attributeName: e,
 			defaults: "required"
 		});
-		if (o === void 0 || !(s ? !c.namespace : c.namespace?.prefix === r.prefix && c.namespace?.uri === r.uri)) continue;
-		let l = i(e);
-		(c.namespace ? xn({
-			element: n,
+		if (o === void 0 || !(s ? !c.namespace : c.namespace?.prefix === i.prefix && c.namespace?.uri === i.uri)) continue;
+		let l = n(e);
+		(c.namespace ? Sn({
+			element: r,
 			namespaceURI: c.namespace.uri,
 			localName: l
-		}) : yn({
-			element: n,
+		}) : bn({
+			element: r,
 			qualifiedName: l
-		})) || (c.namespace ? vn({
-			element: n,
+		})) || (c.namespace ? yn({
+			element: r,
 			namespaceURI: c.namespace.uri,
 			qualifiedName: `${c.namespace.prefix}:${l}`,
 			value: o
-		}) : _n({
-			element: n,
+		}) : vn({
+			element: r,
 			qualifiedName: l,
 			value: o
 		}));
 	}
 }
-function Yn(e) {
-	let { settings: t, table: n, record: r, parent: i } = e, { config: a, declareNamespaces: o, withDatabaseIds: s } = t, c = o && D({
-		dialecteConfig: a,
-		tagName: r.tagName
-	}), l = o && i !== void 0, u = l || c ? we({
-		dialecteConfig: a,
-		record: r
-	}) : void 0, d = Xn({
-		settings: t,
-		table: n,
-		record: r,
-		parent: i,
-		holdsNoNamespaceName: o && Z({
-			config: a,
-			record: r,
-			definition: u
+function Xn(t) {
+	let { settings: n, table: r, record: i, parent: a } = t, { config: o, declareNamespaces: s, withDatabaseIds: c } = n, l = s && e({
+		dialecteConfig: o,
+		tagName: i.tagName
+	}), u = s && a !== void 0, d = u || l ? Te({
+		dialecteConfig: o,
+		record: i
+	}) : void 0, f = Zn({
+		settings: n,
+		table: r,
+		record: i,
+		parent: a,
+		holdsNoNamespaceName: s && or({
+			config: o,
+			record: i,
+			definition: d
 		})
-	}), { element: f } = d, p = Qn({
-		settings: t,
-		table: d.table,
-		element: f,
-		attributes: r.attributes
-	}), m = r.value;
-	if (u !== void 0 && c) {
-		let e = nr({
-			settings: t,
-			table: p,
-			element: f,
-			record: r,
-			definition: u
+	}), { element: p } = f, m = $n({
+		settings: n,
+		table: f.table,
+		element: p,
+		attributes: i.attributes
+	}), h = i.value;
+	if (d !== void 0 && l) {
+		let e = rr({
+			settings: n,
+			table: m,
+			element: p,
+			record: i,
+			definition: d
 		});
-		p = e.table, m = e.text;
+		m = e.table, h = e.text;
 	}
-	return u !== void 0 && l && (p = er({
-		settings: t,
-		table: p,
-		element: f,
-		record: r,
-		definition: u
-	})), s && _n({
-		element: f,
+	return d !== void 0 && u && (m = tr({
+		settings: n,
+		table: m,
+		element: p,
+		record: i,
+		definition: d
+	})), c && vn({
+		element: p,
 		qualifiedName: "_temp-idb-id",
-		value: r.id
-	}), o && (p = tr({
-		settings: t,
-		table: p,
-		element: f
+		value: i.id
+	}), s && (m = nr({
+		settings: n,
+		table: m,
+		element: p
 	})), {
-		element: f,
-		table: p,
-		text: m
+		element: p,
+		table: m,
+		text: h
 	};
 }
-function Xn(e) {
+function Zn(e) {
 	let { settings: t, table: n, record: r, parent: i, holdsNoNamespaceName: a } = e, { namespace: o, tagName: s } = r;
 	if (!t.declareNamespaces) return {
-		element: gn({
+		element: _n({
 			namespaceURI: null,
 			qualifiedName: o.uri !== t.config.namespaces.default.uri && o.prefix ? `${o.prefix}:${s}` : s,
 			parent: i
 		}),
 		table: n
 	};
-	let c = Rn({
+	let c = zn({
 		table: n,
 		config: t.config,
 		uri: o.uri,
 		storedPrefix: o.prefix
 	});
-	if (a) return Zn({
+	if (a) return Qn({
 		settings: t,
 		registration: c,
 		record: r,
@@ -1656,7 +1656,7 @@ function Xn(e) {
 	});
 	let { prefix: l } = c;
 	return {
-		element: gn({
+		element: _n({
 			namespaceURI: o.uri,
 			qualifiedName: l ? `${l}:${s}` : s,
 			parent: i
@@ -1664,15 +1664,15 @@ function Xn(e) {
 		table: c.table
 	};
 }
-function Zn(e) {
-	let { settings: t, registration: n, record: r, parent: i } = e, { namespace: a, tagName: o } = r, s = !n.prefix && a.uri !== "", c = i && Sn({
+function Qn(e) {
+	let { settings: t, registration: n, record: r, parent: i } = e, { namespace: a, tagName: o } = r, s = !n.prefix && a.uri !== "", c = i && Cn({
 		element: i,
 		prefix: null
-	}), l = s ? zn({
+	}), l = s ? Bn({
 		table: n.table,
 		config: t.config,
 		storedPrefix: void 0
-	}) : n, u = gn({
+	}) : n, u = _n({
 		namespaceURI: a.uri,
 		qualifiedName: l.prefix ? `${l.prefix}:${o}` : o,
 		parent: i
@@ -1680,105 +1680,105 @@ function Zn(e) {
 	return {
 		element: c && a.uri !== "" ? {
 			...u,
-			attributes: [{ ...rn }]
+			attributes: [{ ...an }]
 		} : u,
 		table: l.table
 	};
 }
-function Qn(e) {
-	let { settings: t, element: n, attributes: r } = e, { table: a } = e;
-	for (let e of r) {
-		if (cr(e)) continue;
-		let r = String(e.value);
-		if (!sr(e) || !e.namespace.prefix) {
-			_n({
-				element: n,
+function $n(e) {
+	let { settings: t, element: r, attributes: i } = e, { table: a } = e;
+	for (let e of i) {
+		if (lr(e)) continue;
+		let i = String(e.value);
+		if (!cr(e) || !e.namespace.prefix) {
+			vn({
+				element: r,
 				qualifiedName: e.name,
-				value: r
+				value: i
 			});
 			continue;
 		}
-		let o = i(e.name);
-		t.declareNamespaces ? a = $n({
+		let o = n(e.name);
+		t.declareNamespaces ? a = er({
 			settings: t,
 			table: a,
-			element: n,
+			element: r,
 			namespace: e.namespace,
 			localName: o,
-			value: r
-		}) : _n({
-			element: n,
+			value: i
+		}) : vn({
+			element: r,
 			qualifiedName: `${e.namespace.prefix}:${o}`,
-			value: r
+			value: i
 		});
 	}
 	return a;
 }
-function $n(e) {
+function er(e) {
 	let { settings: t, table: n, element: r, namespace: i, localName: a, value: o } = e;
-	if (i.uri === "") return _n({
+	if (i.uri === "") return vn({
 		element: r,
 		qualifiedName: a,
 		value: o
 	}), n;
-	let { config: s } = t, c = Rn({
+	let { config: s } = t, c = zn({
 		table: n,
 		config: s,
 		uri: i.uri,
 		storedPrefix: i.prefix
-	}), l = c.prefix ? c : zn({
+	}), l = c.prefix ? c : Bn({
 		table: c.table,
 		config: s,
 		storedPrefix: i.prefix
 	});
-	return vn({
+	return yn({
 		element: r,
 		namespaceURI: i.uri,
 		qualifiedName: `${l.prefix}:${a}`,
 		value: o
 	}), l.table;
 }
-function er(e) {
-	let { settings: t, element: n, record: r, definition: a } = e, { config: o } = t, { table: s } = e;
+function tr(e) {
+	let { settings: t, element: r, record: i, definition: a } = e, { config: o } = t, { table: s } = e;
 	for (let [e, c] of Object.entries(a.attributes.details)) {
-		let a = h({
+		let a = ge({
 			dialecteConfig: o,
-			record: r,
+			record: i,
 			attributeName: e,
 			defaults: "required"
 		});
 		if (a === void 0) continue;
-		let l = i(e);
-		(c.namespace ? xn({
-			element: n,
+		let l = n(e);
+		(c.namespace ? Sn({
+			element: r,
 			namespaceURI: c.namespace.uri,
 			localName: l
-		}) : yn({
-			element: n,
+		}) : bn({
+			element: r,
 			qualifiedName: l
-		})) || (c.namespace && c.namespace.prefix ? s = $n({
+		})) || (c.namespace && c.namespace.prefix ? s = er({
 			settings: t,
 			table: s,
-			element: n,
+			element: r,
 			namespace: c.namespace,
 			localName: l,
 			value: a
-		}) : _n({
-			element: n,
+		}) : vn({
+			element: r,
 			qualifiedName: l,
 			value: a
 		}));
 	}
 	return s;
 }
-function tr(e) {
-	let { settings: t, table: n, element: r } = e, { config: i } = t, a = bn({
+function nr(e) {
+	let { settings: t, table: n, element: r } = e, { config: i } = t, a = xn({
 		element: r,
-		namespaceURI: C.uri,
+		namespaceURI: A.uri,
 		localName: "type"
 	});
 	if (a === null) return n;
-	let o = ir({
+	let o = ar({
 		settings: t,
 		table: n,
 		element: r,
@@ -1786,67 +1786,67 @@ function tr(e) {
 		notation: !1
 	});
 	if (o === void 0) return n;
-	let s = Rn({
+	let s = zn({
 		table: o.table,
 		config: i,
-		uri: C.uri,
-		storedPrefix: C.prefix
+		uri: A.uri,
+		storedPrefix: A.prefix
 	});
-	return vn({
+	return yn({
 		element: r,
-		namespaceURI: C.uri,
+		namespaceURI: A.uri,
 		qualifiedName: `${s.prefix}:type`,
 		value: o.value
 	}), s.table;
 }
-function nr(e) {
-	let { settings: t, element: n, record: r, definition: a } = e, { table: o } = e;
-	for (let e of r.attributes) {
-		let r = Te({
+function rr(e) {
+	let { settings: t, element: r, record: i, definition: a } = e, { table: s } = e;
+	for (let e of i.attributes) {
+		let i = Ee({
 			definition: a,
 			attribute: e
 		});
-		if (r === void 0 || !y(r)) continue;
-		let s = rr({
+		if (i === void 0 || !o(i)) continue;
+		let c = ir({
 			settings: t,
-			table: o,
-			element: n,
-			type: r,
+			table: s,
+			element: r,
+			type: i,
 			value: String(e.value)
 		});
-		o = s.table, sr(e) && e.namespace.prefix ? vn({
-			element: n,
+		s = c.table, cr(e) && e.namespace.prefix ? yn({
+			element: r,
 			namespaceURI: e.namespace.uri,
-			qualifiedName: i(e.name),
-			value: s.value
-		}) : _n({
-			element: n,
+			qualifiedName: n(e.name),
+			value: c.value
+		}) : vn({
+			element: r,
 			qualifiedName: e.name,
-			value: s.value
+			value: c.value
 		});
 	}
-	let s = a.textContent?.type;
-	if (s === void 0 || !y(s) || r.value === "") return {
-		table: o,
-		text: r.value
+	let c = a.textContent?.type;
+	if (c === void 0 || !o(c) || i.value === "") return {
+		table: s,
+		text: i.value
 	};
-	let c = rr({
+	let l = ir({
 		settings: t,
-		table: o,
-		element: n,
-		type: s,
-		value: r.value
+		table: s,
+		element: r,
+		type: c,
+		value: i.value
 	});
 	return {
-		table: c.table,
-		text: c.value
+		table: l.table,
+		text: l.value
 	};
 }
-function rr(e) {
-	let { settings: t, element: n, value: r } = e, { table: i } = e, a = ae({
+function ir(e) {
+	let { settings: t, element: n, value: r } = e, { table: i } = e, a = oe({
 		type: e.type,
 		value: r,
-		namespaceOf: A({ dialecteConfig: t.config })
+		namespaceOf: k({ dialecteConfig: t.config })
 	});
 	if (a === void 0) return {
 		table: i,
@@ -1854,7 +1854,7 @@ function rr(e) {
 	};
 	if ("builtin" in a) {
 		let e = a.builtin === "NOTATION";
-		return ir({
+		return ar({
 			settings: t,
 			table: i,
 			element: n,
@@ -1866,8 +1866,8 @@ function rr(e) {
 		};
 	}
 	let o = [];
-	for (let e of s(r)) {
-		let r = rr({
+	for (let e of v(r)) {
+		let r = ir({
 			settings: t,
 			table: i,
 			element: n,
@@ -1881,25 +1881,25 @@ function rr(e) {
 		value: o.join(" ")
 	};
 }
-function ir(e) {
-	let { settings: t, table: n, element: r, value: i, notation: a } = e, o = S({
+function ar(e) {
+	let { settings: t, table: n, element: r, value: i, notation: a } = e, o = x({
 		value: i,
-		namespaceOf: A({ dialecteConfig: t.config })
+		namespaceOf: k({ dialecteConfig: t.config })
 	});
 	if (o === void 0) return;
-	if (o.namespace === "") return Sn({
+	if (o.namespace === "") return Cn({
 		element: r,
 		prefix: null
 	}) ? void 0 : {
 		table: n,
 		value: o.local
 	};
-	let s = or({
+	let s = sr({
 		settings: t,
 		table: n,
 		element: r,
 		uri: o.namespace
-	}), c = a && s.prefix === "" && o.namespace !== "" ? zn({
+	}), c = a && s.prefix === "" && o.namespace !== "" ? Bn({
 		table: s.table,
 		config: t.config,
 		storedPrefix: void 0
@@ -1909,73 +1909,73 @@ function ir(e) {
 		value: c.prefix ? `${c.prefix}:${o.local}` : o.local
 	};
 }
-function ar(e) {
-	let { settings: t, record: n } = e, { config: r, declareNamespaces: i } = t;
-	return i ? n.namespace.uri === r.namespaces.default.uri ? Z({
-		config: r,
-		record: n,
-		definition: D({
-			dialecteConfig: r,
-			tagName: n.tagName
-		}) ? we({
-			dialecteConfig: r,
-			record: n
+function Z(t) {
+	let { settings: n, record: r } = t, { config: i, declareNamespaces: a } = n;
+	return a ? r.namespace.uri === i.namespaces.default.uri ? or({
+		config: i,
+		record: r,
+		definition: e({
+			dialecteConfig: i,
+			tagName: r.tagName
+		}) ? Te({
+			dialecteConfig: i,
+			record: r
 		}) : void 0
-	}) ? "" : n.namespace.uri : "" : n.namespace.uri;
+	}) ? "" : r.namespace.uri : "" : r.namespace.uri;
 }
-function Z(e) {
+function or(e) {
 	let { record: t, definition: n, config: r } = e;
 	function i(e, t) {
-		return e === void 0 ? !1 : ae({
+		return e === void 0 ? !1 : oe({
 			type: e,
 			value: t,
-			namespaceOf: A({ dialecteConfig: r })
+			namespaceOf: k({ dialecteConfig: r })
 		}) !== void 0;
 	}
-	for (let e of t.attributes) if (typeof e.value == "string" && lr(e.value) && (ne(e) || i(n && Te({
+	for (let e of t.attributes) if (typeof e.value == "string" && ur(e.value) && (re(e) || i(n && Ee({
 		definition: n,
 		attribute: e
 	}), e.value))) return !0;
-	return lr(t.value) && i(n?.textContent?.type, t.value);
+	return ur(t.value) && i(n?.textContent?.type, t.value);
 }
-function or(e) {
-	let { settings: t, table: n, element: r, uri: i } = e, { config: a } = t, o = Rn({
+function sr(e) {
+	let { settings: t, table: n, element: r, uri: i } = e, { config: a } = t, o = zn({
 		table: n,
 		config: a,
 		uri: i,
 		storedPrefix: void 0
 	});
-	return o.prefix !== "" || i === "" || Sn({
+	return o.prefix !== "" || i === "" || Cn({
 		element: r,
 		prefix: null
-	}) === i ? o : zn({
+	}) === i ? o : Bn({
 		table: o.table,
 		config: a,
 		storedPrefix: void 0
 	});
 }
-function sr(e) {
+function cr(e) {
 	return !!e.namespace;
 }
-function cr(e) {
+function lr(e) {
 	return e.name === "xmlns" || e.name.startsWith("xmlns:") ? !0 : e.namespace?.prefix === "xmlns";
 }
-function lr(e) {
-	return s(e).some((e) => e.startsWith("{}"));
-}
 function ur(e) {
-	let t = d.exec(e.text);
-	if (t) return `U+${t[0].charCodeAt(0).toString(16).toUpperCase().padStart(4, "0")}`;
+	return v(e).some((e) => e.startsWith("{}"));
 }
 function dr(e) {
-	let { record: t, withId: n = !1 } = e, r = fr({ record: t }) ?? pr({
+	let t = fe.exec(e.text);
+	if (t) return `U+${t[0].charCodeAt(0).toString(16).toUpperCase().padStart(4, "0")}`;
+}
+function fr(e) {
+	let { record: t, withId: n = !1 } = e, r = pr({ record: t }) ?? mr({
 		record: t,
 		withId: n
 	});
 	if (!r) return;
 	let { character: i, attribute: a, part: o } = r;
-	f("XML_CHARACTER_NOT_ALLOWED", {
-		detail: `${mr({
+	m("XML_CHARACTER_NOT_ALLOWED", {
+		detail: `${hr({
 			place: r,
 			element: t.tagName ? `<${t.tagName}> '${t.id}'` : `the record '${t.id}'`
 		})} holds ${i}, a character XML does not allow.`,
@@ -1992,23 +1992,23 @@ function dr(e) {
 		}
 	});
 }
-function fr(e) {
-	let { record: t } = e, n = t.value === void 0 ? void 0 : hr({
+function pr(e) {
+	let { record: t } = e, n = t.value === void 0 ? void 0 : gr({
 		text: t.value,
 		part: "value"
 	});
 	if (n) return n;
-	let r = t.namespace && hr({
+	let r = t.namespace && gr({
 		text: t.namespace.uri,
 		part: "namespace"
 	});
 	if (r) return r;
 	for (let e of t.attributes ?? []) {
-		let t = hr({
+		let t = gr({
 			text: e.value,
 			part: "value",
 			attribute: e.name
-		}) ?? (e.namespace && hr({
+		}) ?? (e.namespace && gr({
 			text: e.namespace.uri,
 			part: "namespace",
 			attribute: e.name
@@ -2016,69 +2016,69 @@ function fr(e) {
 		if (t) return t;
 	}
 }
-function pr(e) {
-	let { record: t, withId: n } = e, r = t.tagName === void 0 ? void 0 : hr({
+function mr(e) {
+	let { record: t, withId: n } = e, r = t.tagName === void 0 ? void 0 : gr({
 		text: t.tagName,
 		part: "name"
 	});
 	if (r) return r;
-	let i = t.namespace && hr({
+	let i = t.namespace && gr({
 		text: t.namespace.prefix,
 		part: "prefix"
 	});
 	if (i) return i;
 	for (let e of t.attributes ?? []) {
-		let t = e.namespace && hr({
+		let t = e.namespace && gr({
 			text: e.namespace.prefix,
 			part: "prefix",
 			attribute: e.name
-		}) || hr({
+		}) || gr({
 			text: e.name,
 			part: "name",
 			attribute: e.name
 		});
 		if (t) return t;
 	}
-	return n ? hr({
+	return n ? gr({
 		text: t.id,
 		part: "id"
 	}) : void 0;
 }
-function mr(e) {
+function hr(e) {
 	let { place: t, element: n } = e, { part: r, attribute: i } = t;
 	return i ? r === "value" ? `The attribute ${i} of ${n}` : r === "name" ? `The name of the attribute ${i} of ${n}` : `The ${r === "prefix" ? "namespace prefix" : "namespace URI"} of the attribute ${i} of ${n}` : r === "name" ? `The tag name of ${n}` : r === "prefix" ? `The namespace prefix of ${n}` : r === "namespace" ? `The namespace URI of ${n}` : r === "id" ? `The id of ${n}` : `The value of ${n}`;
 }
-function hr(e) {
-	let { text: t, part: n, attribute: r } = e, i = ur({ text: t });
+function gr(e) {
+	let { text: t, part: n, attribute: r } = e, i = dr({ text: t });
 	if (i) return {
 		character: i,
 		part: n,
 		...r !== void 0 && { attribute: r }
 	};
 }
-function gr(e) {
+function _r(e) {
 	let { config: t, documentRoot: n, declareNamespaces: r = !0, withDatabaseIds: i = !1 } = e, a = e.indent ?? !0, o = e.includeXmlDeclaration ?? !0, s = {
 		config: t,
 		declareNamespaces: r,
 		withDatabaseIds: i
 	}, c = [], l = [], u, d, f = {
 		get bindings() {
-			return u ? u.bindings : mn.bindings;
+			return u ? u.bindings : hn.bindings;
 		},
 		parent: void 0
 	}, p = { next: 1 }, m = [];
 	function h(e) {
-		return m[e] ??= "\r\n" + on.repeat(e), m[e];
+		return m[e] ??= "\r\n" + sn.repeat(e), m[e];
 	}
 	function g(e) {
-		let { record: t } = e, n = c.at(-1), r = _r({
+		let { record: t } = e, n = c.at(-1), r = vr({
 			settings: s,
 			table: u,
 			record: t,
 			parent: n
 		});
 		u = r.table;
-		let { opened: i, startTag: o, text: m } = vr({
+		let { opened: i, startTag: o, text: m } = yr({
 			element: r.element,
 			record: t,
 			value: r.text,
@@ -2087,7 +2087,7 @@ function gr(e) {
 			prefixes: p,
 			indent: a
 		});
-		o === void 0 ? d = i : (a && !i.insideInline && l.push(h(i.level)), l.push(o, i.empty ? "/>" : ">")), c.push(i), m && (a && !i.inline && l.push(h(i.level + 1)), l.push(br({
+		o === void 0 ? d = i : (a && !i.insideInline && l.push(h(i.level)), l.push(o, i.empty ? "/>" : ">")), c.push(i), m && (a && !i.inline && l.push(h(i.level + 1)), l.push(xr({
 			text: m,
 			indent: a
 		})));
@@ -2100,7 +2100,7 @@ function gr(e) {
 		return l.splice(0).join("");
 	}
 	function y() {
-		return !d || !u ? "" : xr({
+		return !d || !u ? "" : Sr({
 			root: d,
 			table: u,
 			settings: s,
@@ -2116,16 +2116,16 @@ function gr(e) {
 		head: y
 	};
 }
-function _r(e) {
+function vr(e) {
 	let { settings: t, record: n, parent: r } = e;
-	return dr({
+	return fr({
 		record: n,
 		withId: t.withDatabaseIds
-	}), Yn({
+	}), Xn({
 		settings: t,
-		table: r && e.table ? e.table : Ln({
+		table: r && e.table ? e.table : Rn({
 			config: t.config,
-			rootUri: ar({
+			rootUri: Z({
 				settings: t,
 				record: n
 			})
@@ -2134,14 +2134,14 @@ function _r(e) {
 		parent: r?.element
 	});
 }
-function vr(e) {
-	let { element: t, record: n, value: r, parent: i, rootScope: a, prefixes: o, indent: s } = e, c = r ? E({ text: r }) : "", l = i ? Cn({
+function yr(e) {
+	let { element: t, record: n, value: r, parent: i, rootScope: a, prefixes: o, indent: s } = e, c = r ? f({ text: r }) : "", l = i ? wn({
 		element: t,
 		scope: i.scope,
 		prefixes: o
 	}) : void 0;
 	return {
-		opened: yr({
+		opened: br({
 			element: t,
 			parent: i,
 			scope: l ? l.scope : a,
@@ -2153,15 +2153,15 @@ function vr(e) {
 		text: c
 	};
 }
-function yr(e) {
+function br(e) {
 	let { element: t, parent: n, scope: r, text: i, hasChildren: a, indent: o } = e, s = n ? n.inline || n.insideInline : !1;
 	return {
 		element: t,
-		qualifiedName: jn(t),
+		qualifiedName: Mn(t),
 		level: n ? n.level + 1 : 0,
 		scope: r,
 		empty: !i && !a,
-		inline: !o || s || Sr({
+		inline: !o || s || Cr({
 			element: t,
 			text: i,
 			hasChildren: a
@@ -2169,20 +2169,20 @@ function yr(e) {
 		insideInline: s
 	};
 }
-function br(e) {
-	let { text: t, indent: n } = e;
-	return n ? wr(On(t)) : Dn(t);
-}
 function xr(e) {
-	let { root: t, table: n, settings: r, documentRoot: i, indent: a, includeXmlDeclaration: o } = e, { config: s } = r, { element: c } = t, l = r.declareNamespaces ? Bn({
+	let { text: t, indent: n } = e;
+	return n ? Tr(kn(t)) : On(t);
+}
+function Sr(e) {
+	let { root: t, table: n, settings: r, documentRoot: i, indent: a, includeXmlDeclaration: o } = e, { config: s } = r, { element: c } = t, l = r.declareNamespaces ? Vn({
 		table: n,
 		config: s
-	}) : [], u = Vn({
+	}) : [], u = Hn({
 		table: n,
 		config: s,
 		documentRoot: i,
 		element: c
-	}), { text: d } = Cn({
+	}), { text: d } = wn({
 		element: {
 			...c,
 			attributes: [
@@ -2191,49 +2191,49 @@ function xr(e) {
 				...u
 			]
 		},
-		scope: mn,
+		scope: hn,
 		prefixes: { next: 1 }
 	});
-	return (o ? an + (a ? "\r\n" : "") : "") + d + (t.empty ? "/>" : ">");
-}
-function Sr(e) {
-	let { element: t, text: n, hasChildren: r } = e;
-	return Cr(t) ? !0 : n ? !r || !n.includes("\n") : !1;
+	return (o ? on + (a ? "\r\n" : "") : "") + d + (t.empty ? "/>" : ">");
 }
 function Cr(e) {
-	return e.attributes.some((e) => e.value === "preserve" && (e.namespaceURI === "http://www.w3.org/XML/1998/namespace" && e.localName === "space" || e.namespaceURI === null && e.localName === "xml:space"));
+	let { element: t, text: n, hasChildren: r } = e;
+	return wr(t) ? !0 : n ? !r || !n.includes("\n") : !1;
 }
 function wr(e) {
+	return e.attributes.some((e) => e.value === "preserve" && (e.namespaceURI === "http://www.w3.org/XML/1998/namespace" && e.localName === "space" || e.namespaceURI === null && e.localName === "xml:space"));
+}
+function Tr(e) {
 	return e.includes("\n") ? e.replace(/\r\n/g, "\n").replace(/\n/g, "\r\n") : e;
 }
-async function Tr(e, t = {}) {
-	let { source: n, runtime: r, documentId: i } = e, a = $t({
+async function Er(e, t = {}) {
+	let { source: n, runtime: r, documentId: i } = e, a = en({
 		enabled: r.perf ?? !1,
 		timeline: !1
 	});
-	Ir({
+	Lr({
 		signal: t.signal,
 		documentId: i
 	});
-	let o = await Dr({
+	let o = await Or({
 		source: n,
 		documentId: i
-	}), { config: s } = en({
+	}), { config: s } = tn({
 		configs: r.configs,
 		defaultConfigKey: r.defaultConfigKey,
 		configKey: o.configKey
-	}), c = Er({ options: e.options });
+	}), c = Dr({ options: e.options });
 	a.start("export");
 	let l;
 	try {
-		let n = await Or({
+		let n = await kr({
 			...e,
 			config: s,
 			control: t,
 			perf: a,
 			batchSize: c
 		});
-		l = n.status === "moved" ? await Or({
+		l = n.status === "moved" ? await kr({
 			...e,
 			config: s,
 			control: t,
@@ -2243,7 +2243,7 @@ async function Tr(e, t = {}) {
 	} finally {
 		a.stop("export");
 	}
-	return l.status === "moved" && f("EXPORT_CONFLICT", {
+	return l.status === "moved" && m("EXPORT_CONFLICT", {
 		detail: `Document "${o.name}" changed twice while it was exported: export it again`,
 		meta: { documentId: i }
 	}), {
@@ -2252,29 +2252,29 @@ async function Tr(e, t = {}) {
 		...r.perf && { perf: a.snapshot() }
 	};
 }
-function Er(e) {
+function Dr(e) {
 	let t = e.options?.batchSize ?? 2e3;
-	return (!Number.isInteger(t) || t < 1) && f("ASSERTION_FAILED", { detail: `An export batch size is a whole number from 1, not ${t}` }), t;
-}
-async function Dr(e) {
-	let { source: t, documentId: n } = e, r = await t.getDocument(n);
-	return r && r.status === "ready" || Fr({ documentId: n }), r;
+	return (!Number.isInteger(t) || t < 1) && m("ASSERTION_FAILED", { detail: `An export batch size is a whole number from 1, not ${t}` }), t;
 }
 async function Or(e) {
+	let { source: t, documentId: n } = e, r = await t.getDocument(n);
+	return r && r.status === "ready" || Ir({ documentId: n }), r;
+}
+async function kr(e) {
 	let { source: t, documentId: n, options: r, config: i, control: a, perf: o, batchSize: s } = e, c = await t.getExportVersion({ documentId: n });
-	c === void 0 && Fr({ documentId: n });
-	let l = await t.count(n), u = await Ar({
+	c === void 0 && Ir({ documentId: n });
+	let l = await t.count(n), u = await jr({
 		source: t,
 		documentId: n,
 		config: i
 	});
 	if (!u) {
-		if (await Nr({
+		if (await Pr({
 			source: t,
 			documentId: n,
 			version: c
 		})) return { status: "moved" };
-		f("EXPORT_ROOT_NOT_FOUND", { detail: `No ${i.rootElementName} root element found in document "${n}"` });
+		m("EXPORT_ROOT_NOT_FOUND", { detail: `No ${i.rootElementName} root element found in document "${n}"` });
 	}
 	let d = {
 		source: t,
@@ -2283,7 +2283,7 @@ async function Or(e) {
 		totalRecords: l,
 		control: a,
 		perf: o,
-		writer: gr({
+		writer: _r({
 			config: i,
 			documentRoot: u,
 			indent: r?.indent,
@@ -2291,20 +2291,20 @@ async function Or(e) {
 		}),
 		parts: [],
 		recordsWritten: 0
-	}, p = [kr({
+	}, f = [Ar({
 		pass: d,
 		record: u,
 		config: i
 	})];
-	if (d.recordsWritten % s === 0 && await jr(d)) return { status: "moved" };
-	for (; p.length > 0;) {
-		let e = p.at(-1);
+	if (d.recordsWritten % s === 0 && await Mr(d)) return { status: "moved" };
+	for (; f.length > 0;) {
+		let e = f.at(-1);
 		if (e.next >= e.childRefs.length) {
-			o.time("export::write", () => d.writer.closeElement()), p.pop();
+			o.time("export::write", () => d.writer.closeElement()), f.pop();
 			continue;
 		}
 		if (e.next >= e.chunkStart + e.chunk.length) {
-			let r = e.childRefs.slice(e.next, e.next + s).map(Pr);
+			let r = e.childRefs.slice(e.next, e.next + s).map(Fr);
 			o.start("export::read");
 			try {
 				e.chunk = await t.getMany(r, n);
@@ -2315,8 +2315,8 @@ async function Or(e) {
 		}
 		let r = e.childRefs[e.next], a = e.chunk[e.next - e.chunkStart];
 		if (e.next++, !a) {
-			if (await Nr(d)) return { status: "moved" };
-			f("EXPORT_ORPHAN_CHILD_REF", {
+			if (await Pr(d)) return { status: "moved" };
+			m("EXPORT_ORPHAN_CHILD_REF", {
 				detail: `Parent '${e.record.tagName}' references non-existent child '${r.tagName}' (id: ${r.id})`,
 				ref: {
 					tagName: e.record.tagName,
@@ -2324,13 +2324,13 @@ async function Or(e) {
 				}
 			});
 		}
-		if (p.push(kr({
+		if (f.push(Ar({
 			pass: d,
 			record: a,
 			config: i
-		})), d.recordsWritten % s === 0 && await jr(d)) return { status: "moved" };
+		})), d.recordsWritten % s === 0 && await Mr(d)) return { status: "moved" };
 	}
-	if (Mr(d), d.recordsWritten % s !== 0 && await jr(d)) return { status: "moved" };
+	if (Nr(d), d.recordsWritten % s !== 0 && await Mr(d)) return { status: "moved" };
 	o.start("export::assemble");
 	try {
 		return {
@@ -2341,11 +2341,11 @@ async function Or(e) {
 		o.stop("export::assemble");
 	}
 }
-function kr(e) {
+function Ar(e) {
 	let { pass: t, record: n, config: r } = e;
 	return t.perf.time("export::write", () => t.writer.openElement({ record: n })), t.recordsWritten++, {
 		record: n,
-		childRefs: ce({
+		childRefs: ue({
 			parentTagName: n.tagName,
 			children: n.children,
 			childrenConfig: r.children,
@@ -2356,16 +2356,16 @@ function kr(e) {
 		chunkStart: 0
 	};
 }
-async function Ar(e) {
+async function jr(e) {
 	let { source: t, documentId: n, config: r } = e;
-	return (await t.getByTagNameInDocument(r.rootElementName, n)).find((e) => nn({
+	return (await t.getByTagNameInDocument(r.rootElementName, n)).find((e) => rn({
 		record: e,
 		config: r
 	}));
 }
-async function jr(e) {
+async function Mr(e) {
 	let { control: t, documentId: n, recordsWritten: r, totalRecords: i } = e;
-	return Mr(e), zt({
+	return Nr(e), zt({
 		listener: t.onProgress,
 		value: {
 			recordsWritten: r,
@@ -2373,52 +2373,52 @@ async function jr(e) {
 		},
 		of: Ht.exportProgress,
 		call: t
-	}), Ir({
+	}), Lr({
 		signal: t.signal,
 		documentId: n
-	}), await tn(), Nr(e);
+	}), await nn(), Pr(e);
 }
-function Mr(e) {
+function Nr(e) {
 	let t = e.writer.take();
 	t && e.parts.push(new Blob([t]));
 }
-async function Nr(e) {
+async function Pr(e) {
 	let { source: t, documentId: n, version: r } = e, i = await t.getExportVersion({ documentId: n });
-	return i === void 0 && Fr({ documentId: n }), i !== r;
-}
-function Pr(e) {
-	return e.id;
+	return i === void 0 && Ir({ documentId: n }), i !== r;
 }
 function Fr(e) {
+	return e.id;
+}
+function Ir(e) {
 	let { documentId: t } = e;
-	f("DOCUMENT_NOT_REGISTERED", {
+	m("DOCUMENT_NOT_REGISTERED", {
 		detail: `Document "${t}" is not registered, or not ready, in this store`,
 		meta: { documentId: t }
 	});
 }
-function Ir(e) {
+function Lr(e) {
 	let { signal: t, documentId: n } = e;
-	t?.aborted && f("EXPORT_ABORTED", {
+	t?.aborted && m("EXPORT_ABORTED", {
 		detail: `The export of document "${n}" was aborted`,
 		meta: { documentId: n }
 	});
 }
-function Lr(e) {
+function Rr(e) {
 	let { dialecteId: t, project: n } = e;
 	return `${encodeURIComponent(t)}/${encodeURIComponent(n)}`;
 }
 //#endregion
-//#region node_modules/.pnpm/@dialecte+core@0.12.1/node_modules/@dialecte/core/dist/same-json-value-DTtSsGUF.js
-var Rr = [
+//#region node_modules/.pnpm/@dialecte+core@0.14.0/node_modules/@dialecte/core/dist/same-json-value-Co-vqEAg.js
+var zr = [
 	"get",
 	"getMany",
 	"getByTagNameInDocument",
 	"getByAttributes",
 	"getByDocumentId"
 ];
-async function zr(e) {
+async function Br(e) {
 	let { reads: t, read: n, versionOf: r } = e;
-	j(Rr.includes(n.member), {
+	g(zr.includes(n.member), {
 		detail: `"${n.member}" is not a read a version is answered with`,
 		meta: { member: n.member }
 	});
@@ -2428,57 +2428,57 @@ async function zr(e) {
 		version: a
 	};
 }
-var Br = 1e3, Vr = "start";
-function Hr(e) {
+var Vr = 1e3, Hr = "start";
+function Ur(e) {
 	let { documents: t, writeId: n, isRunning: r } = e, i = t.find((e) => e.writeId === n);
 	return i ? i.status === "importing" ? r?.({ writeId: n }) === !1 ? "not-applied" : "running" : "applied" : "not-applied";
 }
-function Ur(e) {
-	let { documents: t, writeId: n, committed: r, isRunning: i } = e, a = Hr({
+function Wr(e) {
+	let { documents: t, writeId: n, committed: r, isRunning: i } = e, a = Ur({
 		documents: t,
 		writeId: n,
 		isRunning: i
 	});
 	return a === "not-applied" ? r ? "applied" : "not-applied" : a;
 }
-var Wr = 1e4;
-function Gr(e) {
+var Gr = 1e4;
+function Kr(e) {
 	let { creates: t, updates: n, deletes: r } = e;
 	return t.length + n.length + r.length > 5e3 ? { unknown: !0 } : {
-		created: t.map(qr),
-		updated: n.map(qr),
-		deleted: r.map(Kr)
-	};
-}
-function Kr(e) {
-	return {
-		id: e.id,
-		tagName: e.tagName,
-		parentId: e.parentId
+		created: t.map(Jr),
+		updated: n.map(Jr),
+		deleted: r.map(qr)
 	};
 }
 function qr(e) {
 	return {
 		id: e.id,
 		tagName: e.tagName,
-		parentId: e.parent?.id ?? null
+		parentId: e.parentId
 	};
 }
 function Jr(e) {
+	return {
+		id: e.id,
+		tagName: e.tagName,
+		parentId: e.parent?.id ?? null
+	};
+}
+function Yr(e) {
 	let { images: t, direction: n } = e, { creates: r, befores: i, afters: a, deletes: o } = t;
-	return Gr(n === "forward" ? {
+	return Kr(n === "forward" ? {
 		creates: r,
 		updates: a,
-		deletes: o.map(qr)
+		deletes: o.map(Jr)
 	} : {
 		creates: o,
 		updates: i,
-		deletes: r.map(qr)
+		deletes: r.map(Jr)
 	});
 }
-function Yr(e) {
+function Xr(e) {
 	let { operations: t, direction: n } = e;
-	return Jr({
+	return Yr({
 		images: {
 			creates: t.creates,
 			befores: t.updates.map((e) => e.before),
@@ -2488,14 +2488,14 @@ function Yr(e) {
 		direction: n
 	});
 }
-var Xr = 1024, Zr = /[\p{Cc}\p{Cf}\p{Zl}\p{Zp}]/u, Qr = [
+var Zr = 1024, Qr = /[\p{Cc}\p{Cf}\p{Zl}\p{Zp}]/u, $r = [
 	"name",
 	"path",
 	"metadata"
-], $r = ".xml";
-function ei(e) {
-	let { path: t } = e, n = ci({ path: t });
-	n !== void 0 && _t({
+], ei = ".xml";
+function ti(e) {
+	let { path: t } = e, n = li({ path: t });
+	n !== void 0 && vt({
 		path: t,
 		reason: n
 	});
@@ -2505,16 +2505,16 @@ function ei(e) {
 		fileName: r.pop()
 	};
 }
-function ti(e) {
-	let { extensions: t } = e;
-	return t.includes(".xml") ? t : [...t, $r];
-}
 function ni(e) {
-	let { path: t, extensions: n } = e, { fileName: r } = ei({ path: t }), i = r.lastIndexOf(".");
-	return (i < 1 || i === r.length - 1) && _t({
+	let { extensions: t } = e;
+	return t.includes(".xml") ? t : [...t, ei];
+}
+function ri(e) {
+	let { path: t, extensions: n } = e, { fileName: r } = ti({ path: t }), i = r.lastIndexOf(".");
+	return (i < 1 || i === r.length - 1) && vt({
 		path: t,
 		reason: "its file name has no extension after a name"
-	}), n && !n.some((e) => r.toLowerCase().endsWith(e)) && _t({
+	}), n && !n.some((e) => r.toLowerCase().endsWith(e)) && vt({
 		path: t,
 		reason: `its extension is not one the document's config reads (${n.join(", ")})`
 	}), {
@@ -2522,77 +2522,77 @@ function ni(e) {
 		extension: r.slice(i)
 	};
 }
-function ri(e) {
+function ii(e) {
 	let { name: t, extension: n, path: r } = e.document;
 	if (r === void 0) return;
-	let { fileName: i } = ei({ path: r });
-	(typeof t != "string" || typeof n != "string") && _t({
+	let { fileName: i } = ti({ path: r });
+	(typeof t != "string" || typeof n != "string") && vt({
 		path: r,
 		reason: "a path names a file of a name and an extension that are strings"
-	}), (t === "" || i !== `${t}${n}`) && _t({
+	}), (t === "" || i !== `${t}${n}`) && vt({
 		path: r,
 		reason: `it does not end with the document's file name ${JSON.stringify(`${t}${n}`)}`
 	});
 }
-function ii(e) {
-	let { document: t } = e, n = Object.fromEntries(Qr.filter((t) => e.updates[t] !== void 0).map((t) => [t, e.updates[t]])), r = {
+function ai(e) {
+	let { document: t } = e, n = Object.fromEntries($r.filter((t) => e.updates[t] !== void 0).map((t) => [t, e.updates[t]])), r = {
 		...t,
 		...n
 	};
 	if (n.path !== void 0) {
-		let { fileName: e } = ei({ path: n.path }), { extension: i } = t;
-		e.endsWith(i) && e.length !== i.length || _t({
+		let { fileName: e } = ti({ path: n.path }), { extension: i } = t;
+		e.endsWith(i) && e.length !== i.length || vt({
 			path: n.path,
 			reason: `it does not end with the document's extension ${JSON.stringify(i)}`
 		}), r.name = n.name ?? e.slice(0, e.length - i.length);
 	} else if (n.name !== void 0 && t.path !== void 0) {
-		let { folders: e } = ei({ path: t.path });
+		let { folders: e } = ti({ path: t.path });
 		r.path = [...e, `${n.name}${t.extension}`].join("/");
 	}
-	return (n.path !== void 0 || n.name !== void 0) && ri({ document: r }), r;
+	return (n.path !== void 0 || n.name !== void 0) && ii({ document: r }), r;
 }
-function ai(e) {
+function oi(e) {
 	let { document: t, documents: n } = e;
-	ri({ document: t });
+	ii({ document: t });
 	let { id: r, path: i } = t;
 	if (i === void 0) return;
-	let a = oi({
+	let a = si({
 		path: i,
 		documents: n,
 		documentId: r
 	});
-	a !== void 0 && vt({
+	a !== void 0 && yt({
 		documentId: r,
 		path: i,
 		takenBy: a
 	});
 }
-function oi(e) {
+function si(e) {
 	let { path: t, documents: n, documentId: r } = e;
-	return n.find((e) => e.id !== r && e.path !== void 0 && si({
+	return n.find((e) => e.id !== r && e.path !== void 0 && ci({
 		path: t,
 		other: e.path
 	}))?.id;
 }
-function si(e) {
+function ci(e) {
 	let { path: t, other: n } = e;
 	return t === n || t.startsWith(`${n}/`) || n.startsWith(`${t}/`);
 }
-function ci(e) {
+function li(e) {
 	let { path: t } = e;
 	if (typeof t != "string") return "it is not a string";
 	if (t.includes("\\")) return "it holds a backslash, a folder separator on Windows";
-	if (Zr.test(t)) return "it holds an invisible format, separator or control character (Unicode Cc, Cf, Zl or Zp)";
-	if (!t.isWellFormed()) return `it is ${pt}`;
+	if (Qr.test(t)) return "it holds an invisible format, separator or control character (Unicode Cc, Cf, Zl or Zp)";
+	if (!t.isWellFormed()) return `it is ${mt}`;
 	if (t.normalize("NFC") !== t) return "it is not in Unicode NFC";
 	let n = t.split("/");
 	if (n.some((e) => e === "")) return "it holds an empty folder or file name";
 	if (n.some((e) => e === "." || e === "..")) return "it holds a folder or file name \".\" or \"..\"";
 	let r = new TextEncoder();
 	if (n.some((e) => r.encode(e).length > 255)) return "it holds a folder or file name of more than 255 bytes (UTF-8)";
-	if (r.encode(t).length > 1024) return `it is more than ${Xr} bytes long (UTF-8)`;
+	if (r.encode(t).length > 1024) return `it is more than ${Zr} bytes long (UTF-8)`;
 }
-function li(e) {
+function ui(e) {
 	let { record: t } = e, { id: n, tagName: r, namespace: i, attributes: a, value: o, parent: s, children: c } = t;
 	return {
 		id: n,
@@ -2610,23 +2610,23 @@ function li(e) {
 		children: c
 	};
 }
-function ui(e) {
-	return Ot({ value: e.records }).map((e) => li({ record: e }));
-}
 function di(e) {
+	return V({ value: e.records }).map((e) => ui({ record: e }));
+}
+function fi(e) {
 	let { record: t, patch: n } = e, { recordId: r, attributes: i, children: a, removeAttributes: o, ...s } = n, c = { ...t };
 	for (let [e, t] of Object.entries(s)) t !== void 0 && Object.assign(c, { [e]: t });
-	return i && (c.attributes = fi({
+	return i && (c.attributes = pi({
 		held: t.attributes,
 		given: i,
 		key: "name"
-	})), o?.length && (c.attributes = c.attributes.filter((e) => !o.includes(e.name))), a && (c.children = fi({
+	})), o?.length && (c.attributes = c.attributes.filter((e) => !o.includes(e.name))), a && (c.children = pi({
 		held: t.children,
 		given: a,
 		key: "id"
-	})), li({ record: c });
+	})), ui({ record: c });
 }
-function fi(e) {
+function pi(e) {
 	let { held: t, given: n, key: r } = e, i = [...t];
 	for (let e of n) {
 		let t = i.findIndex((t) => t[r] === e[r]);
@@ -2634,7 +2634,7 @@ function fi(e) {
 	}
 	return i;
 }
-function pi(e) {
+function mi(e) {
 	let { onProgress: t, parts: n } = e, r = n.reduce((e, t) => e + t, 0), i = 0, a = {};
 	for (let e of n) i += e, zt({
 		listener: function(e) {
@@ -2645,10 +2645,10 @@ function pi(e) {
 		call: a
 	});
 }
-function mi(e) {
-	let { totalBytes: t, listener: n, perf: r = Y, intervalMs: i = 50, now: a = () => performance.now(), schedule: o = hi } = e, s = {}, c = 0, l, u = -Infinity, d, f, p, m = !1, h;
+function hi(e) {
+	let { totalBytes: t, listener: n, perf: r = Y, intervalMs: i = 50, now: a = () => performance.now(), schedule: o = gi } = e, s = {}, c = 0, l, u = -Infinity, d, f, p, m = !1, h;
 	function g(e) {
-		d = void 0, h?.(), h = void 0, l && bi({
+		d = void 0, h?.(), h = void 0, l && xi({
 			left: l,
 			right: e
 		}) || (l = e, u = a(), zt({
@@ -2668,17 +2668,17 @@ function mi(e) {
 		tell: function(e) {
 			if (m) return;
 			e.phase === "storing" && (c = e.bytesRead);
-			let n = gi({
+			let n = _i({
 				report: e,
 				bytesRead: c,
 				totalBytes: t
 			});
 			n.phase !== "indexing" && _(n);
-			let r = !l || !_i({
+			let r = !l || !vi({
 				left: l,
 				right: n
 			});
-			if (r && d && g(d), r || !vi(n) || yi(n)) {
+			if (r && d && g(d), r || !yi(n) || bi(n)) {
 				g(n);
 				return;
 			}
@@ -2695,13 +2695,13 @@ function mi(e) {
 		}
 	};
 }
-function hi(e) {
+function gi(e) {
 	let t = setTimeout(e.work, e.afterMs);
 	return t.unref?.(), function() {
 		clearTimeout(t);
 	};
 }
-function gi(e) {
+function _i(e) {
 	let { report: t, bytesRead: n, totalBytes: r } = e;
 	return {
 		...t,
@@ -2709,34 +2709,34 @@ function gi(e) {
 		totalBytes: r
 	};
 }
-function _i(e) {
+function vi(e) {
 	let { left: t, right: n } = e;
 	return t.phase === n.phase ? t.phase === "processing" && n.phase === "processing" ? t.step === n.step : t.phase === "indexing" && n.phase === "indexing" ? t.index === n.index : !0 : !1;
 }
-function vi(e) {
+function yi(e) {
 	return "done" in e && e.done !== void 0;
 }
-function yi(e) {
+function bi(e) {
 	return "done" in e && "total" in e && e.done === e.total;
 }
-function bi(e) {
+function xi(e) {
 	let { left: t, right: n } = e, r = Object.entries(t);
 	return r.length === Object.keys(n).length && r.every(([e, t]) => n[e] === t);
 }
-function xi(e) {
+function Si(e) {
 	let { ops: t, control: n } = e, r = (t.creates?.length ?? 0) + (t.updates?.length ?? 0) + (t.deletes?.length ?? 0);
 	n?.onProgress?.({
 		done: r,
 		total: r
 	});
 }
-async function Si(e) {
+async function Ci(e) {
 	let { file: t } = e, n = await t.text(), r = new DOMParser().parseFromString(n, "application/xml"), i = r.getElementsByTagName("parsererror")[0];
-	return i && f("PARSE_ERROR", { detail: i.textContent?.trim() || "The file is not well-formed XML" }), r;
+	return i && m("PARSE_ERROR", { detail: i.textContent?.trim() || "The file is not well-formed XML" }), r;
 }
-var Ci = /* @__PURE__ */ rt(((e, t) => {
+var wi = /* @__PURE__ */ it(((e, t) => {
 	t.exports = {};
-})), wi = /* @__PURE__ */ at((/* @__PURE__ */ rt(((e, t, n) => {
+})), Ti = /* @__PURE__ */ ot((/* @__PURE__ */ it(((e, t, n) => {
 	(function(e) {
 		e.parser = function(e, t) {
 			return new n(e, t);
@@ -2778,7 +2778,7 @@ var Ci = /* @__PURE__ */ rt(((e, t) => {
 		function n(t, r) {
 			if (!(this instanceof n)) return new n(t, r);
 			var a = this;
-			i(a), a.q = a.c = "", a.bufferCheckPosition = e.MAX_BUFFER_LENGTH, a.encoding = null, a.opt = r || {}, a.opt.lowercase = a.opt.lowercase || a.opt.lowercasetags, a.looseCase = a.opt.lowercase ? "toLowerCase" : "toUpperCase", a.opt.maxEntityCount = a.opt.maxEntityCount || 512, a.opt.maxEntityDepth = a.opt.maxEntityDepth || 4, a.entityCount = a.entityDepth = 0, a.tags = [], a.closed = a.closedRoot = a.sawRoot = !1, a.tag = a.error = null, a.strict = !!t, a.noscript = !!(t || a.opt.noscript), a.state = T.BEGIN, a.strictEntities = a.opt.strictEntities, a.ENTITIES = a.strictEntities ? Object.create(e.XML_ENTITIES) : Object.create(e.ENTITIES), a.attribList = [], a.opt.xmlns && (a.ns = Object.create(h)), a.opt.unquotedAttributeValues === void 0 && (a.opt.unquotedAttributeValues = !t), a.trackPosition = a.opt.position !== !1, a.trackPosition && (a.position = a.line = a.column = 0), te(a, "onready");
+			i(a), a.q = a.c = "", a.bufferCheckPosition = e.MAX_BUFFER_LENGTH, a.encoding = null, a.opt = r || {}, a.opt.lowercase = a.opt.lowercase || a.opt.lowercasetags, a.looseCase = a.opt.lowercase ? "toLowerCase" : "toUpperCase", a.opt.maxEntityCount = a.opt.maxEntityCount || 512, a.opt.maxEntityDepth = a.opt.maxEntityDepth || 4, a.entityCount = a.entityDepth = 0, a.tags = [], a.closed = a.closedRoot = a.sawRoot = !1, a.tag = a.error = null, a.strict = !!t, a.noscript = !!(t || a.opt.noscript), a.state = w.BEGIN, a.strictEntities = a.opt.strictEntities, a.ENTITIES = a.strictEntities ? Object.create(e.XML_ENTITIES) : Object.create(e.ENTITIES), a.attribList = [], a.opt.xmlns && (a.ns = Object.create(h)), a.opt.unquotedAttributeValues === void 0 && (a.opt.unquotedAttributeValues = !t), a.trackPosition = a.opt.position !== !1, a.trackPosition && (a.position = a.line = a.column = 0), ne(a, "onready");
 		}
 		Object.create || (Object.create = function(e) {
 			function t() {}
@@ -2793,15 +2793,15 @@ var Ci = /* @__PURE__ */ rt(((e, t) => {
 				var s = n[t[a]].length;
 				if (s > r) switch (t[a]) {
 					case "textNode":
-						D(n);
+						E(n);
 						break;
 					case "cdata":
-						E(n, "oncdata", n.cdata), n.cdata = "";
+						T(n, "oncdata", n.cdata), n.cdata = "";
 						break;
 					case "script":
-						E(n, "onscript", n.script), n.script = "";
+						T(n, "onscript", n.script), n.script = "";
 						break;
-					default: O(n, "Max buffer length exceeded: " + t[a]);
+					default: D(n, "Max buffer length exceeded: " + t[a]);
 				}
 				i = Math.max(i, s);
 			}
@@ -2811,11 +2811,11 @@ var Ci = /* @__PURE__ */ rt(((e, t) => {
 			for (var n = 0, r = t.length; n < r; n++) e[t[n]] = "";
 		}
 		function a(e) {
-			D(e), e.cdata !== "" && (E(e, "oncdata", e.cdata), e.cdata = ""), e.script !== "" && (E(e, "onscript", e.script), e.script = "");
+			E(e), e.cdata !== "" && (T(e, "oncdata", e.cdata), e.cdata = ""), e.script !== "" && (T(e, "onscript", e.script), e.script = "");
 		}
 		n.prototype = {
 			end: function() {
-				se(this);
+				ce(this);
 			},
 			write: me,
 			resume: function() {
@@ -2830,7 +2830,7 @@ var Ci = /* @__PURE__ */ rt(((e, t) => {
 		};
 		var o;
 		try {
-			o = Ci().Stream;
+			o = wi().Stream;
 		} catch {
 			o = function() {};
 		}
@@ -2910,53 +2910,53 @@ var Ci = /* @__PURE__ */ rt(((e, t) => {
 		function x(e) {
 			return e === "\"" || e === "'";
 		}
-		function S(e) {
+		function ee(e) {
 			return e === ">" || b(e);
 		}
-		function C(e, t) {
+		function S(e, t) {
 			return e.test(t);
 		}
-		function w(e, t) {
-			return !C(e, t);
+		function C(e, t) {
+			return !S(e, t);
 		}
-		var T = 0;
-		for (var ee in e.STATE = {
-			BEGIN: T++,
-			BEGIN_WHITESPACE: T++,
-			TEXT: T++,
-			TEXT_ENTITY: T++,
-			OPEN_WAKA: T++,
-			SGML_DECL: T++,
-			SGML_DECL_QUOTED: T++,
-			DOCTYPE: T++,
-			DOCTYPE_QUOTED: T++,
-			DOCTYPE_DTD: T++,
-			DOCTYPE_DTD_QUOTED: T++,
-			COMMENT_STARTING: T++,
-			COMMENT: T++,
-			COMMENT_ENDING: T++,
-			COMMENT_ENDED: T++,
-			CDATA: T++,
-			CDATA_ENDING: T++,
-			CDATA_ENDING_2: T++,
-			PROC_INST: T++,
-			PROC_INST_BODY: T++,
-			PROC_INST_ENDING: T++,
-			OPEN_TAG: T++,
-			OPEN_TAG_SLASH: T++,
-			ATTRIB: T++,
-			ATTRIB_NAME: T++,
-			ATTRIB_NAME_SAW_WHITE: T++,
-			ATTRIB_VALUE: T++,
-			ATTRIB_VALUE_QUOTED: T++,
-			ATTRIB_VALUE_CLOSED: T++,
-			ATTRIB_VALUE_UNQUOTED: T++,
-			ATTRIB_VALUE_ENTITY_Q: T++,
-			ATTRIB_VALUE_ENTITY_U: T++,
-			CLOSE_TAG: T++,
-			CLOSE_TAG_SAW_WHITE: T++,
-			SCRIPT: T++,
-			SCRIPT_ENDING: T++
+		var w = 0;
+		for (var te in e.STATE = {
+			BEGIN: w++,
+			BEGIN_WHITESPACE: w++,
+			TEXT: w++,
+			TEXT_ENTITY: w++,
+			OPEN_WAKA: w++,
+			SGML_DECL: w++,
+			SGML_DECL_QUOTED: w++,
+			DOCTYPE: w++,
+			DOCTYPE_QUOTED: w++,
+			DOCTYPE_DTD: w++,
+			DOCTYPE_DTD_QUOTED: w++,
+			COMMENT_STARTING: w++,
+			COMMENT: w++,
+			COMMENT_ENDING: w++,
+			COMMENT_ENDED: w++,
+			CDATA: w++,
+			CDATA_ENDING: w++,
+			CDATA_ENDING_2: w++,
+			PROC_INST: w++,
+			PROC_INST_BODY: w++,
+			PROC_INST_ENDING: w++,
+			OPEN_TAG: w++,
+			OPEN_TAG_SLASH: w++,
+			ATTRIB: w++,
+			ATTRIB_NAME: w++,
+			ATTRIB_NAME_SAW_WHITE: w++,
+			ATTRIB_VALUE: w++,
+			ATTRIB_VALUE_QUOTED: w++,
+			ATTRIB_VALUE_CLOSED: w++,
+			ATTRIB_VALUE_UNQUOTED: w++,
+			ATTRIB_VALUE_ENTITY_Q: w++,
+			ATTRIB_VALUE_ENTITY_U: w++,
+			CLOSE_TAG: w++,
+			CLOSE_TAG_SAW_WHITE: w++,
+			SCRIPT: w++,
+			SCRIPT_ENDING: w++
 		}, e.XML_ENTITIES = {
 			amp: "&",
 			gt: ">",
@@ -3220,146 +3220,146 @@ var Ci = /* @__PURE__ */ rt(((e, t) => {
 		}, Object.keys(e.ENTITIES).forEach(function(t) {
 			var n = e.ENTITIES[t], r = typeof n == "number" ? String.fromCharCode(n) : n;
 			e.ENTITIES[t] = r;
-		}), e.STATE) e.STATE[e.STATE[ee]] = ee;
-		T = e.STATE;
-		function te(e, t, n) {
+		}), e.STATE) e.STATE[e.STATE[te]] = te;
+		w = e.STATE;
+		function ne(e, t, n) {
 			e[t] && e[t](n);
 		}
-		function ne(e) {
+		function re(e) {
 			var t = e && e.match(/(?:^|\s)encoding\s*=\s*(['"])([^'"]+)\1/i);
 			return t ? t[2] : null;
 		}
-		function re(e) {
+		function ie(e) {
 			return e ? e.toLowerCase().replace(/[^a-z0-9]/g, "") : null;
 		}
-		function ie(e, t) {
-			let n = re(e), r = re(t);
+		function ae(e, t) {
+			let n = ie(e), r = ie(t);
 			return !n || !r ? !0 : r === "utf16" ? n === "utf16le" || n === "utf16be" : n === r;
 		}
-		function ae(e, t) {
+		function oe(e, t) {
 			if (e.strict && e.encoding && t && t.name === "xml") {
-				var n = ne(t.body);
-				n && !ie(e.encoding, n) && k(e, "XML declaration encoding " + n + " does not match detected stream encoding " + e.encoding.toUpperCase());
+				var n = re(t.body);
+				n && !ae(e.encoding, n) && O(e, "XML declaration encoding " + n + " does not match detected stream encoding " + e.encoding.toUpperCase());
 			}
 		}
-		function E(e, t, n) {
-			e.textNode && D(e), te(e, t, n);
+		function T(e, t, n) {
+			e.textNode && E(e), ne(e, t, n);
 		}
-		function D(e) {
-			e.textNode = oe(e.opt, e.textNode), e.textNode && te(e, "ontext", e.textNode), e.textNode = "";
+		function E(e) {
+			e.textNode = se(e.opt, e.textNode), e.textNode && ne(e, "ontext", e.textNode), e.textNode = "";
 		}
-		function oe(e, t) {
+		function se(e, t) {
 			return e.trim && (t = t.trim()), e.normalize && (t = t.replace(/\s+/g, " ")), t;
 		}
-		function O(e, t) {
-			return D(e), e.trackPosition && (t += "\nLine: " + e.line + "\nColumn: " + e.column + "\nChar: " + e.c), t = Error(t), e.error = t, te(e, "onerror", t), e;
-		}
-		function se(e) {
-			return e.sawRoot && !e.closedRoot && k(e, "Unclosed root tag"), e.state !== T.BEGIN && e.state !== T.BEGIN_WHITESPACE && e.state !== T.TEXT && O(e, "Unexpected end"), D(e), e.c = "", e.closed = !0, te(e, "onend"), n.call(e, e.strict, e.opt), e;
-		}
-		function k(e, t) {
-			if (typeof e != "object" || !(e instanceof n)) throw Error("bad call to strictFail");
-			e.strict && O(e, t);
+		function D(e, t) {
+			return E(e), e.trackPosition && (t += "\nLine: " + e.line + "\nColumn: " + e.column + "\nChar: " + e.c), t = Error(t), e.error = t, ne(e, "onerror", t), e;
 		}
 		function ce(e) {
+			return e.sawRoot && !e.closedRoot && O(e, "Unclosed root tag"), e.state !== w.BEGIN && e.state !== w.BEGIN_WHITESPACE && e.state !== w.TEXT && D(e, "Unexpected end"), E(e), e.c = "", e.closed = !0, ne(e, "onend"), n.call(e, e.strict, e.opt), e;
+		}
+		function O(e, t) {
+			if (typeof e != "object" || !(e instanceof n)) throw Error("bad call to strictFail");
+			e.strict && D(e, t);
+		}
+		function le(e) {
 			e.strict || (e.tagName = e.tagName[e.looseCase]());
 			var t = e.tags[e.tags.length - 1] || e, n = e.tag = {
 				name: e.tagName,
 				attributes: {}
 			};
-			e.opt.xmlns && (n.ns = t.ns), e.attribList.length = 0, E(e, "onopentagstart", n);
+			e.opt.xmlns && (n.ns = t.ns), e.attribList.length = 0, T(e, "onopentagstart", n);
 		}
-		function le(e, t) {
+		function ue(e, t) {
 			var n = e.indexOf(":") < 0 ? ["", e] : e.split(":"), r = n[0], i = n[1];
 			return t && e === "xmlns" && (r = "xmlns", i = ""), {
 				prefix: r,
 				local: i
 			};
 		}
-		function ue(e) {
+		function de(e) {
 			if (e.strict || (e.attribName = e.attribName[e.looseCase]()), e.attribList.indexOf(e.attribName) !== -1 || e.tag.attributes.hasOwnProperty(e.attribName)) e.attribName = e.attribValue = "";
 			else {
 				if (e.opt.xmlns) {
-					var t = le(e.attribName, !0), n = t.prefix, r = t.local;
-					if (n === "xmlns") if (r === "xml" && e.attribValue !== p) k(e, "xml: prefix must be bound to " + p + "\nActual: " + e.attribValue);
-					else if (r === "xmlns" && e.attribValue !== m) k(e, "xmlns: prefix must be bound to " + m + "\nActual: " + e.attribValue);
+					var t = ue(e.attribName, !0), n = t.prefix, r = t.local;
+					if (n === "xmlns") if (r === "xml" && e.attribValue !== p) O(e, "xml: prefix must be bound to " + p + "\nActual: " + e.attribValue);
+					else if (r === "xmlns" && e.attribValue !== m) O(e, "xmlns: prefix must be bound to " + m + "\nActual: " + e.attribValue);
 					else {
 						var i = e.tag, a = e.tags[e.tags.length - 1] || e;
 						i.ns === a.ns && (i.ns = Object.create(a.ns)), i.ns[r] = e.attribValue;
 					}
 					e.attribList.push([e.attribName, e.attribValue]);
-				} else e.tag.attributes[e.attribName] = e.attribValue, E(e, "onattribute", {
+				} else e.tag.attributes[e.attribName] = e.attribValue, T(e, "onattribute", {
 					name: e.attribName,
 					value: e.attribValue
 				});
 				e.attribName = e.attribValue = "";
 			}
 		}
-		function de(e, t) {
+		function fe(e, t) {
 			if (e.opt.xmlns) {
-				var n = e.tag, r = le(e.tagName);
-				n.prefix = r.prefix, n.local = r.local, n.uri = n.ns[r.prefix] || "", n.prefix && !n.uri && (k(e, "Unbound namespace prefix: " + JSON.stringify(e.tagName)), n.uri = r.prefix);
+				var n = e.tag, r = ue(e.tagName);
+				n.prefix = r.prefix, n.local = r.local, n.uri = n.ns[r.prefix] || "", n.prefix && !n.uri && (O(e, "Unbound namespace prefix: " + JSON.stringify(e.tagName)), n.uri = r.prefix);
 				var i = e.tags[e.tags.length - 1] || e;
 				n.ns && i.ns !== n.ns && Object.keys(n.ns).forEach(function(t) {
-					E(e, "onopennamespace", {
+					T(e, "onopennamespace", {
 						prefix: t,
 						uri: n.ns[t]
 					});
 				});
 				for (var a = 0, o = e.attribList.length; a < o; a++) {
-					var s = e.attribList[a], c = s[0], l = s[1], u = le(c, !0), d = u.prefix, f = u.local, p = d === "" ? "" : n.ns[d] || "", m = {
+					var s = e.attribList[a], c = s[0], l = s[1], u = ue(c, !0), d = u.prefix, f = u.local, p = d === "" ? "" : n.ns[d] || "", m = {
 						name: c,
 						value: l,
 						prefix: d,
 						local: f,
 						uri: p
 					};
-					d && d !== "xmlns" && !p && (k(e, "Unbound namespace prefix: " + JSON.stringify(d)), m.uri = d), e.tag.attributes[c] = m, E(e, "onattribute", m);
+					d && d !== "xmlns" && !p && (O(e, "Unbound namespace prefix: " + JSON.stringify(d)), m.uri = d), e.tag.attributes[c] = m, T(e, "onattribute", m);
 				}
 				e.attribList.length = 0;
 			}
-			e.tag.isSelfClosing = !!t, e.sawRoot = !0, e.tags.push(e.tag), E(e, "onopentag", e.tag), t || (e.state = !e.noscript && e.tagName.toLowerCase() === "script" ? T.SCRIPT : T.TEXT, e.tag = null, e.tagName = ""), e.attribName = e.attribValue = "", e.attribList.length = 0;
+			e.tag.isSelfClosing = !!t, e.sawRoot = !0, e.tags.push(e.tag), T(e, "onopentag", e.tag), t || (e.state = !e.noscript && e.tagName.toLowerCase() === "script" ? w.SCRIPT : w.TEXT, e.tag = null, e.tagName = ""), e.attribName = e.attribValue = "", e.attribList.length = 0;
 		}
-		function A(e) {
-			if (!e.tagName) k(e, "Weird empty close tag."), e.textNode += "</>", e.state = T.TEXT;
+		function k(e) {
+			if (!e.tagName) O(e, "Weird empty close tag."), e.textNode += "</>", e.state = w.TEXT;
 			else {
 				if (e.script) {
 					if (e.tagName !== "script") {
-						e.script += "</" + e.tagName + ">", e.tagName = "", e.state = T.SCRIPT;
+						e.script += "</" + e.tagName + ">", e.tagName = "", e.state = w.SCRIPT;
 						return;
 					}
-					E(e, "onscript", e.script), e.script = "";
+					T(e, "onscript", e.script), e.script = "";
 				}
 				var t = e.tags.length, n = e.tagName;
 				e.strict || (n = n[e.looseCase]());
-				for (var r = n; t-- && e.tags[t].name !== r;) k(e, "Unexpected close tag");
-				if (t < 0) k(e, "Unmatched closing tag: " + e.tagName), e.textNode += "</" + e.tagName + ">", e.state = T.TEXT;
+				for (var r = n; t-- && e.tags[t].name !== r;) O(e, "Unexpected close tag");
+				if (t < 0) O(e, "Unmatched closing tag: " + e.tagName), e.textNode += "</" + e.tagName + ">", e.state = w.TEXT;
 				else {
 					e.tagName = n;
 					for (var i = e.tags.length; i-- > t;) {
 						var a = e.tag = e.tags.pop();
-						e.tagName = e.tag.name, E(e, "onclosetag", e.tagName);
+						e.tagName = e.tag.name, T(e, "onclosetag", e.tagName);
 						var o = {};
 						for (var s in a.ns) o[s] = a.ns[s];
 						var c = e.tags[e.tags.length - 1] || e;
 						e.opt.xmlns && a.ns !== c.ns && Object.keys(a.ns).forEach(function(t) {
 							var n = a.ns[t];
-							E(e, "onclosenamespace", {
+							T(e, "onclosenamespace", {
 								prefix: t,
 								uri: n
 							});
 						});
 					}
-					t === 0 && (e.closedRoot = !0), e.tagName = e.attribValue = e.attribName = "", e.attribList.length = 0, e.state = T.TEXT;
+					t === 0 && (e.closedRoot = !0), e.tagName = e.attribValue = e.attribName = "", e.attribList.length = 0, e.state = w.TEXT;
 				}
 			}
 		}
-		function fe(e) {
+		function pe(e) {
 			var t = e.entity, n = t.toLowerCase(), r, i = "";
-			return e.ENTITIES[t] ? e.ENTITIES[t] : e.ENTITIES[n] ? e.ENTITIES[n] : (t = n, t.charAt(0) === "#" && (t.charAt(1) === "x" ? (t = t.slice(2), r = parseInt(t, 16), i = r.toString(16)) : (t = t.slice(1), r = parseInt(t, 10), i = r.toString(10))), t = t.replace(/^0+/, ""), isNaN(r) || i.toLowerCase() !== t || r < 0 || r > 1114111 ? (k(e, "Invalid character entity"), "&" + e.entity + ";") : String.fromCodePoint(r));
+			return e.ENTITIES[t] ? e.ENTITIES[t] : e.ENTITIES[n] ? e.ENTITIES[n] : (t = n, t.charAt(0) === "#" && (t.charAt(1) === "x" ? (t = t.slice(2), r = parseInt(t, 16), i = r.toString(16)) : (t = t.slice(1), r = parseInt(t, 10), i = r.toString(10))), t = t.replace(/^0+/, ""), isNaN(r) || i.toLowerCase() !== t || r < 0 || r > 1114111 ? (O(e, "Invalid character entity"), "&" + e.entity + ";") : String.fromCodePoint(r));
 		}
-		function pe(e, t) {
-			t === "<" ? (e.state = T.OPEN_WAKA, e.startTagPosition = e.position) : b(t) || (k(e, "Non-whitespace before first tag."), e.textNode = t, e.state = T.TEXT);
+		function A(e, t) {
+			t === "<" ? (e.state = w.OPEN_WAKA, e.startTagPosition = e.position) : b(t) || (O(e, "Non-whitespace before first tag."), e.textNode = t, e.state = w.TEXT);
 		}
 		function j(e, t) {
 			var n = "";
@@ -3368,170 +3368,170 @@ var Ci = /* @__PURE__ */ rt(((e, t) => {
 		function me(t) {
 			var n = this;
 			if (this.error) throw this.error;
-			if (n.closed) return O(n, "Cannot write after close. Assign an onready handler.");
-			if (t === null) return se(n);
+			if (n.closed) return D(n, "Cannot write after close. Assign an onready handler.");
+			if (t === null) return ce(n);
 			typeof t == "object" && (t = t.toString());
 			for (var i = 0, a = ""; a = j(t, i++), n.c = a, a;) switch (n.trackPosition && (n.position++, a === "\n" ? (n.line++, n.column = 0) : n.column++), n.state) {
-				case T.BEGIN:
-					if (n.state = T.BEGIN_WHITESPACE, a === "﻿") continue;
-					pe(n, a);
+				case w.BEGIN:
+					if (n.state = w.BEGIN_WHITESPACE, a === "﻿") continue;
+					A(n, a);
 					continue;
-				case T.BEGIN_WHITESPACE:
-					pe(n, a);
+				case w.BEGIN_WHITESPACE:
+					A(n, a);
 					continue;
-				case T.TEXT:
+				case w.TEXT:
 					if (n.sawRoot && !n.closedRoot) {
 						for (var o = i - 1; a && a !== "<" && a !== "&";) a = j(t, i++), a && n.trackPosition && (n.position++, a === "\n" ? (n.line++, n.column = 0) : n.column++);
 						n.textNode += t.substring(o, i - 1);
 					}
-					a === "<" && !(n.sawRoot && n.closedRoot && !n.strict) ? (n.state = T.OPEN_WAKA, n.startTagPosition = n.position) : (b(a) || n.sawRoot && !n.closedRoot || k(n, "Text data outside of root node."), a === "&" ? n.state = T.TEXT_ENTITY : n.textNode += a);
+					a === "<" && !(n.sawRoot && n.closedRoot && !n.strict) ? (n.state = w.OPEN_WAKA, n.startTagPosition = n.position) : (b(a) || n.sawRoot && !n.closedRoot || O(n, "Text data outside of root node."), a === "&" ? n.state = w.TEXT_ENTITY : n.textNode += a);
 					continue;
-				case T.SCRIPT:
-					a === "<" ? n.state = T.SCRIPT_ENDING : n.script += a;
+				case w.SCRIPT:
+					a === "<" ? n.state = w.SCRIPT_ENDING : n.script += a;
 					continue;
-				case T.SCRIPT_ENDING:
-					a === "/" ? n.state = T.CLOSE_TAG : (n.script += "<" + a, n.state = T.SCRIPT);
+				case w.SCRIPT_ENDING:
+					a === "/" ? n.state = w.CLOSE_TAG : (n.script += "<" + a, n.state = w.SCRIPT);
 					continue;
-				case T.OPEN_WAKA:
-					if (a === "!") n.state = T.SGML_DECL, n.sgmlDecl = "";
-					else if (!b(a)) if (C(g, a)) n.state = T.OPEN_TAG, n.tagName = a;
-					else if (a === "/") n.state = T.CLOSE_TAG, n.tagName = "";
-					else if (a === "?") n.state = T.PROC_INST, n.procInstName = n.procInstBody = "";
+				case w.OPEN_WAKA:
+					if (a === "!") n.state = w.SGML_DECL, n.sgmlDecl = "";
+					else if (!b(a)) if (S(g, a)) n.state = w.OPEN_TAG, n.tagName = a;
+					else if (a === "/") n.state = w.CLOSE_TAG, n.tagName = "";
+					else if (a === "?") n.state = w.PROC_INST, n.procInstName = n.procInstBody = "";
 					else {
-						if (k(n, "Unencoded <"), n.startTagPosition + 1 < n.position) {
+						if (O(n, "Unencoded <"), n.startTagPosition + 1 < n.position) {
 							var s = n.position - n.startTagPosition;
 							a = Array(s).join(" ") + a;
 						}
-						n.textNode += "<" + a, n.state = T.TEXT;
+						n.textNode += "<" + a, n.state = w.TEXT;
 					}
 					continue;
-				case T.SGML_DECL:
+				case w.SGML_DECL:
 					if (n.sgmlDecl + a === "--") {
-						n.state = T.COMMENT, n.comment = "", n.sgmlDecl = "";
+						n.state = w.COMMENT, n.comment = "", n.sgmlDecl = "";
 						continue;
 					}
-					n.doctype && n.doctype !== !0 && n.sgmlDecl ? (n.state = T.DOCTYPE_DTD, n.doctype += "<!" + n.sgmlDecl + a, n.sgmlDecl = "") : (n.sgmlDecl + a).toUpperCase() === d ? (E(n, "onopencdata"), n.state = T.CDATA, n.sgmlDecl = "", n.cdata = "") : (n.sgmlDecl + a).toUpperCase() === f ? (n.state = T.DOCTYPE, (n.doctype || n.sawRoot) && k(n, "Inappropriately located doctype declaration"), n.doctype = "", n.sgmlDecl = "") : a === ">" ? (E(n, "onsgmldeclaration", n.sgmlDecl), n.sgmlDecl = "", n.state = T.TEXT) : (x(a) && (n.state = T.SGML_DECL_QUOTED), n.sgmlDecl += a);
+					n.doctype && n.doctype !== !0 && n.sgmlDecl ? (n.state = w.DOCTYPE_DTD, n.doctype += "<!" + n.sgmlDecl + a, n.sgmlDecl = "") : (n.sgmlDecl + a).toUpperCase() === d ? (T(n, "onopencdata"), n.state = w.CDATA, n.sgmlDecl = "", n.cdata = "") : (n.sgmlDecl + a).toUpperCase() === f ? (n.state = w.DOCTYPE, (n.doctype || n.sawRoot) && O(n, "Inappropriately located doctype declaration"), n.doctype = "", n.sgmlDecl = "") : a === ">" ? (T(n, "onsgmldeclaration", n.sgmlDecl), n.sgmlDecl = "", n.state = w.TEXT) : (x(a) && (n.state = w.SGML_DECL_QUOTED), n.sgmlDecl += a);
 					continue;
-				case T.SGML_DECL_QUOTED:
-					a === n.q && (n.state = T.SGML_DECL, n.q = ""), n.sgmlDecl += a;
+				case w.SGML_DECL_QUOTED:
+					a === n.q && (n.state = w.SGML_DECL, n.q = ""), n.sgmlDecl += a;
 					continue;
-				case T.DOCTYPE:
-					a === ">" ? (n.state = T.TEXT, E(n, "ondoctype", n.doctype), n.doctype = !0) : (n.doctype += a, a === "[" ? n.state = T.DOCTYPE_DTD : x(a) && (n.state = T.DOCTYPE_QUOTED, n.q = a));
+				case w.DOCTYPE:
+					a === ">" ? (n.state = w.TEXT, T(n, "ondoctype", n.doctype), n.doctype = !0) : (n.doctype += a, a === "[" ? n.state = w.DOCTYPE_DTD : x(a) && (n.state = w.DOCTYPE_QUOTED, n.q = a));
 					continue;
-				case T.DOCTYPE_QUOTED:
-					n.doctype += a, a === n.q && (n.q = "", n.state = T.DOCTYPE);
+				case w.DOCTYPE_QUOTED:
+					n.doctype += a, a === n.q && (n.q = "", n.state = w.DOCTYPE);
 					continue;
-				case T.DOCTYPE_DTD:
-					a === "]" ? (n.doctype += a, n.state = T.DOCTYPE) : a === "<" ? (n.state = T.OPEN_WAKA, n.startTagPosition = n.position) : x(a) ? (n.doctype += a, n.state = T.DOCTYPE_DTD_QUOTED, n.q = a) : n.doctype += a;
+				case w.DOCTYPE_DTD:
+					a === "]" ? (n.doctype += a, n.state = w.DOCTYPE) : a === "<" ? (n.state = w.OPEN_WAKA, n.startTagPosition = n.position) : x(a) ? (n.doctype += a, n.state = w.DOCTYPE_DTD_QUOTED, n.q = a) : n.doctype += a;
 					continue;
-				case T.DOCTYPE_DTD_QUOTED:
-					n.doctype += a, a === n.q && (n.state = T.DOCTYPE_DTD, n.q = "");
+				case w.DOCTYPE_DTD_QUOTED:
+					n.doctype += a, a === n.q && (n.state = w.DOCTYPE_DTD, n.q = "");
 					continue;
-				case T.COMMENT:
-					a === "-" ? n.state = T.COMMENT_ENDING : n.comment += a;
+				case w.COMMENT:
+					a === "-" ? n.state = w.COMMENT_ENDING : n.comment += a;
 					continue;
-				case T.COMMENT_ENDING:
-					a === "-" ? (n.state = T.COMMENT_ENDED, n.comment = oe(n.opt, n.comment), n.comment && E(n, "oncomment", n.comment), n.comment = "") : (n.comment += "-" + a, n.state = T.COMMENT);
+				case w.COMMENT_ENDING:
+					a === "-" ? (n.state = w.COMMENT_ENDED, n.comment = se(n.opt, n.comment), n.comment && T(n, "oncomment", n.comment), n.comment = "") : (n.comment += "-" + a, n.state = w.COMMENT);
 					continue;
-				case T.COMMENT_ENDED:
-					a === ">" ? n.state = n.doctype && n.doctype !== !0 ? T.DOCTYPE_DTD : T.TEXT : (k(n, "Malformed comment"), n.comment += "--" + a, n.state = T.COMMENT);
+				case w.COMMENT_ENDED:
+					a === ">" ? n.state = n.doctype && n.doctype !== !0 ? w.DOCTYPE_DTD : w.TEXT : (O(n, "Malformed comment"), n.comment += "--" + a, n.state = w.COMMENT);
 					continue;
-				case T.CDATA:
+				case w.CDATA:
 					for (var o = i - 1; a && a !== "]";) a = j(t, i++), a && n.trackPosition && (n.position++, a === "\n" ? (n.line++, n.column = 0) : n.column++);
-					n.cdata += t.substring(o, i - 1), a === "]" && (n.state = T.CDATA_ENDING);
+					n.cdata += t.substring(o, i - 1), a === "]" && (n.state = w.CDATA_ENDING);
 					continue;
-				case T.CDATA_ENDING:
-					a === "]" ? n.state = T.CDATA_ENDING_2 : (n.cdata += "]" + a, n.state = T.CDATA);
+				case w.CDATA_ENDING:
+					a === "]" ? n.state = w.CDATA_ENDING_2 : (n.cdata += "]" + a, n.state = w.CDATA);
 					continue;
-				case T.CDATA_ENDING_2:
-					a === ">" ? (n.cdata && E(n, "oncdata", n.cdata), E(n, "onclosecdata"), n.cdata = "", n.state = T.TEXT) : a === "]" ? n.cdata += "]" : (n.cdata += "]]" + a, n.state = T.CDATA);
+				case w.CDATA_ENDING_2:
+					a === ">" ? (n.cdata && T(n, "oncdata", n.cdata), T(n, "onclosecdata"), n.cdata = "", n.state = w.TEXT) : a === "]" ? n.cdata += "]" : (n.cdata += "]]" + a, n.state = w.CDATA);
 					continue;
-				case T.PROC_INST:
-					a === "?" ? n.state = T.PROC_INST_ENDING : b(a) ? n.state = T.PROC_INST_BODY : n.procInstName += a;
+				case w.PROC_INST:
+					a === "?" ? n.state = w.PROC_INST_ENDING : b(a) ? n.state = w.PROC_INST_BODY : n.procInstName += a;
 					continue;
-				case T.PROC_INST_BODY:
+				case w.PROC_INST_BODY:
 					if (!n.procInstBody && b(a)) continue;
-					a === "?" ? n.state = T.PROC_INST_ENDING : n.procInstBody += a;
+					a === "?" ? n.state = w.PROC_INST_ENDING : n.procInstBody += a;
 					continue;
-				case T.PROC_INST_ENDING:
+				case w.PROC_INST_ENDING:
 					if (a === ">") {
 						let e = {
 							name: n.procInstName,
 							body: n.procInstBody
 						};
-						ae(n, e), E(n, "onprocessinginstruction", e), n.procInstName = n.procInstBody = "", n.state = T.TEXT;
-					} else n.procInstBody += "?" + a, n.state = T.PROC_INST_BODY;
+						oe(n, e), T(n, "onprocessinginstruction", e), n.procInstName = n.procInstBody = "", n.state = w.TEXT;
+					} else n.procInstBody += "?" + a, n.state = w.PROC_INST_BODY;
 					continue;
-				case T.OPEN_TAG:
-					C(_, a) ? n.tagName += a : (ce(n), a === ">" ? de(n) : a === "/" ? n.state = T.OPEN_TAG_SLASH : (b(a) || k(n, "Invalid character in tag name"), n.state = T.ATTRIB));
+				case w.OPEN_TAG:
+					S(_, a) ? n.tagName += a : (le(n), a === ">" ? fe(n) : a === "/" ? n.state = w.OPEN_TAG_SLASH : (b(a) || O(n, "Invalid character in tag name"), n.state = w.ATTRIB));
 					continue;
-				case T.OPEN_TAG_SLASH:
-					a === ">" ? (de(n, !0), A(n)) : (k(n, "Forward-slash in opening tag not followed by >"), n.state = T.ATTRIB);
+				case w.OPEN_TAG_SLASH:
+					a === ">" ? (fe(n, !0), k(n)) : (O(n, "Forward-slash in opening tag not followed by >"), n.state = w.ATTRIB);
 					continue;
-				case T.ATTRIB:
+				case w.ATTRIB:
 					if (b(a)) continue;
-					a === ">" ? de(n) : a === "/" ? n.state = T.OPEN_TAG_SLASH : C(g, a) ? (n.attribName = a, n.attribValue = "", n.state = T.ATTRIB_NAME) : k(n, "Invalid attribute name");
+					a === ">" ? fe(n) : a === "/" ? n.state = w.OPEN_TAG_SLASH : S(g, a) ? (n.attribName = a, n.attribValue = "", n.state = w.ATTRIB_NAME) : O(n, "Invalid attribute name");
 					continue;
-				case T.ATTRIB_NAME:
-					a === "=" ? n.state = T.ATTRIB_VALUE : a === ">" ? (k(n, "Attribute without value"), n.attribValue = n.attribName, ue(n), de(n)) : b(a) ? n.state = T.ATTRIB_NAME_SAW_WHITE : C(_, a) ? n.attribName += a : k(n, "Invalid attribute name");
+				case w.ATTRIB_NAME:
+					a === "=" ? n.state = w.ATTRIB_VALUE : a === ">" ? (O(n, "Attribute without value"), n.attribValue = n.attribName, de(n), fe(n)) : b(a) ? n.state = w.ATTRIB_NAME_SAW_WHITE : S(_, a) ? n.attribName += a : O(n, "Invalid attribute name");
 					continue;
-				case T.ATTRIB_NAME_SAW_WHITE:
-					if (a === "=") n.state = T.ATTRIB_VALUE;
+				case w.ATTRIB_NAME_SAW_WHITE:
+					if (a === "=") n.state = w.ATTRIB_VALUE;
 					else if (b(a)) continue;
-					else k(n, "Attribute without value"), n.tag.attributes[n.attribName] = "", n.attribValue = "", E(n, "onattribute", {
+					else O(n, "Attribute without value"), n.tag.attributes[n.attribName] = "", n.attribValue = "", T(n, "onattribute", {
 						name: n.attribName,
 						value: ""
-					}), n.attribName = "", a === ">" ? de(n) : C(g, a) ? (n.attribName = a, n.state = T.ATTRIB_NAME) : (k(n, "Invalid attribute name"), n.state = T.ATTRIB);
+					}), n.attribName = "", a === ">" ? fe(n) : S(g, a) ? (n.attribName = a, n.state = w.ATTRIB_NAME) : (O(n, "Invalid attribute name"), n.state = w.ATTRIB);
 					continue;
-				case T.ATTRIB_VALUE:
+				case w.ATTRIB_VALUE:
 					if (b(a)) continue;
-					x(a) ? (n.q = a, n.state = T.ATTRIB_VALUE_QUOTED) : (n.opt.unquotedAttributeValues || O(n, "Unquoted attribute value"), n.state = T.ATTRIB_VALUE_UNQUOTED, n.attribValue = a);
+					x(a) ? (n.q = a, n.state = w.ATTRIB_VALUE_QUOTED) : (n.opt.unquotedAttributeValues || D(n, "Unquoted attribute value"), n.state = w.ATTRIB_VALUE_UNQUOTED, n.attribValue = a);
 					continue;
-				case T.ATTRIB_VALUE_QUOTED:
+				case w.ATTRIB_VALUE_QUOTED:
 					if (a !== n.q) {
-						a === "&" ? n.state = T.ATTRIB_VALUE_ENTITY_Q : n.attribValue += a;
+						a === "&" ? n.state = w.ATTRIB_VALUE_ENTITY_Q : n.attribValue += a;
 						continue;
 					}
-					ue(n), n.q = "", n.state = T.ATTRIB_VALUE_CLOSED;
+					de(n), n.q = "", n.state = w.ATTRIB_VALUE_CLOSED;
 					continue;
-				case T.ATTRIB_VALUE_CLOSED:
-					b(a) ? n.state = T.ATTRIB : a === ">" ? de(n) : a === "/" ? n.state = T.OPEN_TAG_SLASH : C(g, a) ? (k(n, "No whitespace between attributes"), n.attribName = a, n.attribValue = "", n.state = T.ATTRIB_NAME) : k(n, "Invalid attribute name");
+				case w.ATTRIB_VALUE_CLOSED:
+					b(a) ? n.state = w.ATTRIB : a === ">" ? fe(n) : a === "/" ? n.state = w.OPEN_TAG_SLASH : S(g, a) ? (O(n, "No whitespace between attributes"), n.attribName = a, n.attribValue = "", n.state = w.ATTRIB_NAME) : O(n, "Invalid attribute name");
 					continue;
-				case T.ATTRIB_VALUE_UNQUOTED:
-					if (!S(a)) {
-						a === "&" ? n.state = T.ATTRIB_VALUE_ENTITY_U : n.attribValue += a;
+				case w.ATTRIB_VALUE_UNQUOTED:
+					if (!ee(a)) {
+						a === "&" ? n.state = w.ATTRIB_VALUE_ENTITY_U : n.attribValue += a;
 						continue;
 					}
-					ue(n), a === ">" ? de(n) : n.state = T.ATTRIB;
+					de(n), a === ">" ? fe(n) : n.state = w.ATTRIB;
 					continue;
-				case T.CLOSE_TAG:
-					if (n.tagName) a === ">" ? A(n) : C(_, a) ? n.tagName += a : n.script ? (n.script += "</" + n.tagName + a, n.tagName = "", n.state = T.SCRIPT) : (b(a) || k(n, "Invalid tagname in closing tag"), n.state = T.CLOSE_TAG_SAW_WHITE);
+				case w.CLOSE_TAG:
+					if (n.tagName) a === ">" ? k(n) : S(_, a) ? n.tagName += a : n.script ? (n.script += "</" + n.tagName + a, n.tagName = "", n.state = w.SCRIPT) : (b(a) || O(n, "Invalid tagname in closing tag"), n.state = w.CLOSE_TAG_SAW_WHITE);
 					else {
 						if (b(a)) continue;
-						w(g, a) ? n.script ? (n.script += "</" + a, n.state = T.SCRIPT) : k(n, "Invalid tagname in closing tag.") : n.tagName = a;
+						C(g, a) ? n.script ? (n.script += "</" + a, n.state = w.SCRIPT) : O(n, "Invalid tagname in closing tag.") : n.tagName = a;
 					}
 					continue;
-				case T.CLOSE_TAG_SAW_WHITE:
+				case w.CLOSE_TAG_SAW_WHITE:
 					if (b(a)) continue;
-					a === ">" ? A(n) : k(n, "Invalid characters in closing tag");
+					a === ">" ? k(n) : O(n, "Invalid characters in closing tag");
 					continue;
-				case T.TEXT_ENTITY:
-				case T.ATTRIB_VALUE_ENTITY_Q:
-				case T.ATTRIB_VALUE_ENTITY_U:
+				case w.TEXT_ENTITY:
+				case w.ATTRIB_VALUE_ENTITY_Q:
+				case w.ATTRIB_VALUE_ENTITY_U:
 					var c, l;
 					switch (n.state) {
-						case T.TEXT_ENTITY:
-							c = T.TEXT, l = "textNode";
+						case w.TEXT_ENTITY:
+							c = w.TEXT, l = "textNode";
 							break;
-						case T.ATTRIB_VALUE_ENTITY_Q:
-							c = T.ATTRIB_VALUE_QUOTED, l = "attribValue";
+						case w.ATTRIB_VALUE_ENTITY_Q:
+							c = w.ATTRIB_VALUE_QUOTED, l = "attribValue";
 							break;
-						case T.ATTRIB_VALUE_ENTITY_U: c = T.ATTRIB_VALUE_UNQUOTED, l = "attribValue";
+						case w.ATTRIB_VALUE_ENTITY_U: c = w.ATTRIB_VALUE_UNQUOTED, l = "attribValue";
 					}
 					if (a === ";") {
-						var u = fe(n);
-						n.opt.unparsedEntities && !Object.values(e.XML_ENTITIES).includes(u) ? ((n.entityCount += 1) > n.opt.maxEntityCount && O(n, "Parsed entity count exceeds max entity count"), (n.entityDepth += 1) > n.opt.maxEntityDepth && O(n, "Parsed entity depth exceeds max entity depth"), n.entity = "", n.state = c, n.write(u), --n.entityDepth) : (n[l] += u, n.entity = "", n.state = c);
-					} else C(n.entity.length ? y : v, a) ? n.entity += a : (k(n, "Invalid character in entity name"), n[l] += "&" + n.entity + a, n.entity = "", n.state = c);
+						var u = pe(n);
+						n.opt.unparsedEntities && !Object.values(e.XML_ENTITIES).includes(u) ? ((n.entityCount += 1) > n.opt.maxEntityCount && D(n, "Parsed entity count exceeds max entity count"), (n.entityDepth += 1) > n.opt.maxEntityDepth && D(n, "Parsed entity depth exceeds max entity depth"), n.entity = "", n.state = c, n.write(u), --n.entityDepth) : (n[l] += u, n.entity = "", n.state = c);
+					} else S(n.entity.length ? y : v, a) ? n.entity += a : (O(n, "Invalid character in entity name"), n[l] += "&" + n.entity + a, n.entity = "", n.state = c);
 					continue;
 				default: throw Error(n, "Unknown state: " + n.state);
 			}
@@ -3557,23 +3557,23 @@ var Ci = /* @__PURE__ */ rt(((e, t) => {
 			}) : String.fromCodePoint = n;
 		})();
 	})(e === void 0 ? n.sax = {} : e);
-})))(), 1), Ti = {
+})))(), 1), Ei = {
 	lowercase: !1,
 	trim: !1,
 	normalize: !1,
 	position: !1,
 	xmlns: !0
 };
-function Ei() {
+function Di() {
 	let e = /* @__PURE__ */ new Map();
 	function t(t) {
-		e = Di({
+		e = Oi({
 			pending: e,
 			...t
 		});
 	}
 	function n(t) {
-		let n = Oi({
+		let n = ki({
 			pending: e,
 			batch: t.batch
 		});
@@ -3584,11 +3584,11 @@ function Ei() {
 		resolve: n
 	};
 }
-function Di(e) {
+function Oi(e) {
 	let { pending: t, parentId: n, child: r } = e;
 	return new Map(t).set(n, [...t.get(n) ?? [], r]);
 }
-function Oi(e) {
+function ki(e) {
 	let { pending: t, batch: n } = e;
 	if (t.size === 0) return {
 		pending: t,
@@ -3604,32 +3604,32 @@ function Oi(e) {
 		batch: n
 	};
 }
-function ki(e) {
-	let { dialecteConfig: t, useCustomRecordsIds: n, hooks: r, importSession: i, perf: a = Y } = e, o = Ei(), s = {
+function Ai(e) {
+	let { dialecteConfig: t, useCustomRecordsIds: n, hooks: r, importSession: i, perf: a = Y } = e, o = Di(), s = {
 		defaultNamespace: null,
 		stack: [],
 		recordsBatch: [],
 		sawRoot: !1
-	}, c = [], l = wi.parser(!0, Ti), u = i?.recordTagNames && new Set(i.recordTagNames);
+	}, c = [], l = Ti.parser(!0, Ei), u = i?.recordTagNames && new Set(i.recordTagNames);
 	l.onopentag = (e) => {
-		c.push(Ai({
+		c.push(ji({
 			node: e,
 			state: s,
 			dialecteConfig: t,
 			useCustomRecordsIds: n
 		}));
 	}, l.ontext = (e) => {
-		ji({
-			text: e,
-			state: s
-		});
-	}, l.oncdata = (e) => {
 		Mi({
 			text: e,
 			state: s
 		});
+	}, l.oncdata = (e) => {
+		Ni({
+			text: e,
+			state: s
+		});
 	}, l.onclosetag = () => {
-		Fi({
+		Ii({
 			state: s,
 			namespaceOf: c.pop(),
 			hooks: r,
@@ -3639,7 +3639,7 @@ function ki(e) {
 			dialecteConfig: t,
 			perf: a
 		});
-	}, l.onerror = Ii;
+	}, l.onerror = Li;
 	function d() {
 		let e = s.recordsBatch;
 		return s.recordsBatch = [], o.resolve({ batch: e });
@@ -3653,82 +3653,82 @@ function ki(e) {
 		getSize: f
 	};
 }
-function Ai(e) {
-	let { node: t, state: n, dialecteConfig: r, useCustomRecordsIds: i } = e, a = Li(t);
-	n.stack.length === 0 && (n.sawRoot && f("PARSE_ERROR", {
-		detail: `XML parsing error: a second root element <${t.name}> after the root was closed`,
+function ji(e) {
+	let { node: n, state: r, dialecteConfig: i, useCustomRecordsIds: a } = e, o = Ri(n);
+	r.stack.length === 0 && (r.sawRoot && m("PARSE_ERROR", {
+		detail: `XML parsing error: a second root element <${n.name}> after the root was closed`,
 		meta: {
 			reason: "second-root",
-			tagName: t.name
+			tagName: n.name
 		}
-	}), n.sawRoot = !0), n.defaultNamespace ||= Ri({
-		element: t,
-		defaultNamespace: r.namespaces.default,
-		rootElementName: r.rootElementName
+	}), r.sawRoot = !0), r.defaultNamespace ||= zi({
+		element: n,
+		defaultNamespace: i.namespaces.default,
+		rootElementName: i.rootElementName
 	});
-	let o = n.defaultNamespace, s = zi({
-		element: t,
-		defaultNamespace: o
-	}), c = Wi({
-		attributes: t.attributes,
-		useCustomRecordsIds: i,
-		tagName: a
+	let s = r.defaultNamespace, c = Bi({
+		element: n,
+		defaultNamespace: s
 	}), l = Gi({
-		attributes: t.attributes,
-		useCustomRecordsIds: i
+		attributes: n.attributes,
+		useCustomRecordsIds: a,
+		tagName: o
+	}), u = Ki({
+		attributes: n.attributes,
+		useCustomRecordsIds: a
 	});
-	Vi({
-		attributes: t.attributes,
-		tagName: a
+	Hi({
+		attributes: n.attributes,
+		tagName: o
 	});
-	function u(e) {
-		return Hi({
-			node: t,
+	function d(e) {
+		return Ui({
+			node: n,
 			prefix: e,
-			documentDefault: o
+			documentDefault: s
 		});
 	}
-	let d = {
-		id: c,
-		tagName: a,
-		namespace: s,
-		attributes: g({
-			dialecteConfig: r,
-			attributes: Bi(l),
-			namespaceOf: u
+	let f = {
+		id: l,
+		tagName: o,
+		namespace: c,
+		attributes: t({
+			dialecteConfig: i,
+			attributes: Vi(u),
+			namespaceOf: d
 		}),
 		value: "",
-		parent: Ui(n.stack),
+		parent: Wi(r.stack),
 		children: []
 	};
-	return n.stack.push(d), u;
-}
-function ji(e) {
-	let { state: n } = e;
-	Mi({
-		text: t({ text: e.text }),
-		state: n
-	});
+	return r.stack.push(f), d;
 }
 function Mi(e) {
+	let { state: t } = e;
+	Ni({
+		text: y({ text: e.text }),
+		state: t
+	});
+}
+function Ni(e) {
 	let { text: t, state: n } = e;
 	t && n.stack.length > 0 && (n.stack[n.stack.length - 1].value += t);
 }
-function Ni(e) {
-	let { record: t } = e, n = fr({ record: t });
+function Pi(e) {
+	let { record: t } = e, n = pr({ record: t });
 	if (!n) return;
-	let r = mr({
+	let r = hr({
 		place: n,
 		element: `<${t.tagName}>`
 	});
-	Pi({
+	Fi({
 		character: n.character,
 		where: r
 	});
 }
-function Pi(e) {
+function Fi(e) {
 	let { character: t, where: n } = e;
-	f("PARSE_ERROR", {
+	m("PARSE_ERROR", {
 		detail: `XML parsing error: ${n} holds ${t}, a character XML does not allow (as written or as a character reference)`,
 		meta: {
 			reason: "not-xml-character",
@@ -3736,10 +3736,10 @@ function Pi(e) {
 		}
 	});
 }
-function Fi(e) {
+function Ii(e) {
 	let { state: t, namespaceOf: n, hooks: r, importSession: i, sessionTags: a, pendingChildren: o, dialecteConfig: s, perf: c = Y } = e, l = t.stack.pop();
 	if (!l) return;
-	let u = c.time("import::standardize", () => ze({
+	let u = c.time("import::standardize", () => F({
 		dialecteConfig: s,
 		hooks: r,
 		namespaceOf: n,
@@ -3748,7 +3748,7 @@ function Fi(e) {
 	d && (!a || a.has(u.tagName)) && c.time("import::hooks.record", () => d({
 		record: u,
 		ancestry: t.stack
-	})), Ni({ record: u });
+	})), Pi({ record: u });
 	let f = t.stack[t.stack.length - 1];
 	f ? f.children.push({
 		id: u.id,
@@ -3761,8 +3761,8 @@ function Fi(e) {
 		}
 	}), t.recordsBatch.push(u);
 }
-function Ii(e) {
-	f("PARSE_ERROR", {
+function Li(e) {
+	m("PARSE_ERROR", {
 		detail: `XML parsing error: ${e.message}`,
 		meta: {
 			reason: "malformed-xml",
@@ -3770,17 +3770,17 @@ function Ii(e) {
 		}
 	});
 }
-function Li(e) {
+function Ri(e) {
 	return e.local;
 }
-function Ri(e) {
+function zi(e) {
 	let { element: t, defaultNamespace: n, rootElementName: r } = e;
-	return j(t.name === r, { detail: `Expected root element <${r}>, got <${t.name}>` }), t.attributes?.xmlns?.value ? {
+	return g(t.name === r, { detail: `Expected root element <${r}>, got <${t.name}>` }), t.attributes?.xmlns?.value ? {
 		prefix: "",
 		uri: t.attributes.xmlns.value
 	} : n;
 }
-function zi(e) {
+function Bi(e) {
 	let { element: t, defaultNamespace: n } = e;
 	if (t.prefix) return {
 		prefix: t.prefix,
@@ -3792,7 +3792,7 @@ function zi(e) {
 		uri: r
 	};
 }
-function Bi(e) {
+function Vi(e) {
 	return e.filter((e) => e.prefix !== "xmlns").map((e) => {
 		let t = e.prefix && e.uri ? {
 			prefix: e.prefix,
@@ -3805,22 +3805,22 @@ function Bi(e) {
 		};
 	});
 }
-function Vi(e) {
+function Hi(e) {
 	let { attributes: t, tagName: n } = e;
 	for (let e of Object.values(t)) {
 		if (e.prefix !== "xmlns") continue;
-		let t = ur({ text: e.value });
-		t && Pi({
+		let t = dr({ text: e.value });
+		t && Fi({
 			character: t,
 			where: `The attribute ${e.name} of <${n}>`
 		});
 	}
 }
-function Hi(e) {
+function Ui(e) {
 	let { node: t, prefix: n, documentDefault: r } = e, i = t.ns[n];
 	return i !== void 0 || n !== "" ? i : r.uri;
 }
-function Ui(e) {
+function Wi(e) {
 	if (e.length === 0) return null;
 	let t = e[e.length - 1];
 	return t ? {
@@ -3828,27 +3828,27 @@ function Ui(e) {
 		tagName: t.tagName
 	} : null;
 }
-function Wi(e) {
-	let { attributes: t, useCustomRecordsIds: n, tagName: i } = e, a = t[r];
-	if (!n || !a || !a.value) return crypto.randomUUID();
-	let o = ur({ text: a.value });
-	return o && Pi({
-		character: o,
-		where: `The attribute ${r} of <${i}>`
-	}), a.value;
-}
 function Gi(e) {
-	let { attributes: t, useCustomRecordsIds: n } = e;
-	return n ? Object.values(t).filter((e) => e.name !== r) : Object.values(t);
+	let { attributes: t, useCustomRecordsIds: n, tagName: r } = e, i = t[p];
+	if (!n || !i || !i.value) return crypto.randomUUID();
+	let a = dr({ text: i.value });
+	return a && Fi({
+		character: a,
+		where: `The attribute ${p} of <${r}>`
+	}), i.value;
 }
-async function Ki(e, t = {}) {
-	let { file: n, perf: r = Y } = e, i = e.reporter ? void 0 : mi({
+function Ki(e) {
+	let { attributes: t, useCustomRecordsIds: n } = e;
+	return n ? Object.values(t).filter((e) => e.name !== p) : Object.values(t);
+}
+async function qi(e, t = {}) {
+	let { file: n, perf: r = Y } = e, i = e.reporter ? void 0 : hi({
 		totalBytes: n.size,
 		listener: t.onProgress,
 		perf: r
 	}), a = e.reporter ?? i;
 	try {
-		return await qi({
+		return await Ji({
 			...e,
 			reporter: a
 		}, t);
@@ -3856,9 +3856,9 @@ async function Ki(e, t = {}) {
 		i?.close();
 	}
 }
-async function qi(e, t) {
+async function Ji(e, t) {
 	let { documentId: n, configKey: r, store: i, config: a, useCustomRecordsIds: o = !1, chunkOptions: s, hooks: c, perf: l = Y, reporter: u } = e, { file: d } = e;
-	if (j(ti({ extensions: a.io.supportedFileExtensions }).some((e) => d.name.toLowerCase().endsWith(e)), {
+	if (g(ni({ extensions: a.io.supportedFileExtensions }).some((e) => d.name.toLowerCase().endsWith(e)), {
 		key: "ASSERTION_FAILED",
 		detail: `Unsupported file type: ${d.name}`
 	}), d.size === 0) return {
@@ -3874,15 +3874,15 @@ async function qi(e, t) {
 	let p = s?.chunkSize ?? 32768, m = s?.batchSize ?? 2e3, h = c?.createImportSession?.({
 		documentId: n,
 		configKey: r
-	}), g = ki({
+	}), _ = Ai({
 		dialecteConfig: a,
 		useCustomRecordsIds: o,
 		hooks: c,
 		importSession: h,
 		perf: l
-	}), _ = await Ji({
+	}), v = await Yi({
 		file: d,
-		sax: g,
+		sax: _,
 		store: i,
 		documentId: n,
 		chunkSize: p,
@@ -3890,7 +3890,7 @@ async function qi(e, t) {
 		perf: l,
 		control: t,
 		reporter: u
-	}), { recordDelta: v, diagnostics: y } = await Yi({
+	}), { recordDelta: y, diagnostics: b } = await Xi({
 		importSession: h,
 		store: i,
 		documentId: n,
@@ -3901,11 +3901,11 @@ async function qi(e, t) {
 	});
 	return {
 		documentId: n,
-		recordCount: _ + v,
-		diagnostics: y
+		recordCount: v + y,
+		diagnostics: b
 	};
 }
-async function Ji(e) {
+async function Yi(e) {
 	let { file: t, sax: n, store: r, documentId: i, chunkSize: a, batchSize: o, perf: s, control: c, reporter: l } = e, u = {
 		sax: n,
 		store: r,
@@ -3918,10 +3918,10 @@ async function Ji(e) {
 	for (; !g;) {
 		let e = await p.read();
 		if (g = e.done, e.value) {
-			let t = h.length === 0 ? e.value : na(h, e.value), r = 0;
+			let t = h.length === 0 ? e.value : ra(h, e.value), r = 0;
 			for (; r + a <= t.length;) {
 				let e = s.time("import::decode", () => m.decode(t.subarray(r, r + a), { stream: !0 }));
-				r += a, f += a, s.time("import::parse", () => n.parser.write(e)), d += await ra({
+				r += a, f += a, s.time("import::parse", () => n.parser.write(e)), d += await ia({
 					...u,
 					threshold: o,
 					bytesRead: f
@@ -3934,7 +3934,7 @@ async function Ji(e) {
 				let e = s.time("import::decode", () => m.decode(h));
 				f += h.length, s.time("import::parse", () => n.parser.write(e));
 			}
-			s.time("import::parse", () => n.parser.close()), d += await ra({
+			s.time("import::parse", () => n.parser.close()), d += await ia({
 				...u,
 				threshold: 0,
 				bytesRead: f
@@ -3943,29 +3943,29 @@ async function Ji(e) {
 	}
 	return d;
 }
-async function Yi(e) {
+async function Xi(e) {
 	let { importSession: t, store: n, documentId: r, file: i, perf: a, reporter: o } = e, s = e.signal ?? new AbortController().signal;
-	if (ta({
+	if (na({
 		signal: s,
 		file: i
 	}), o.tell({
 		phase: "processing",
-		step: Vr
+		step: Hr
 	}), !t?.afterImport) return {
 		recordDelta: 0,
 		diagnostics: []
 	};
-	let { creates: c, updates: l, deletes: u, diagnostics: d = [] } = await Xi({
+	let { creates: c, updates: l, deletes: u, diagnostics: d = [] } = await Zi({
 		afterImport: t.afterImport,
 		file: i,
 		perf: a,
 		signal: s,
 		reporter: o
 	});
-	ta({
+	na({
 		signal: s,
 		file: i
-	}), Qi({
+	}), $i({
 		diagnostics: d,
 		creates: c,
 		updates: l,
@@ -3973,7 +3973,7 @@ async function Yi(e) {
 	});
 	let f = (c?.length ?? 0) + (l?.length ?? 0) + (u?.length ?? 0);
 	if (f > 0) {
-		ta({
+		na({
 			signal: s,
 			file: i
 		}), o.tell({
@@ -4006,12 +4006,12 @@ async function Yi(e) {
 		diagnostics: d
 	};
 }
-async function Xi(e) {
+async function Zi(e) {
 	let { afterImport: t, file: n, perf: r, signal: i, reporter: a } = e, o = {
 		report: function(e) {
 			i.aborted || a.tell({
 				phase: "processing",
-				...Zi({ step: e })
+				...Qi({ step: e })
 			});
 		},
 		signal: i
@@ -4020,7 +4020,7 @@ async function Xi(e) {
 	try {
 		return await t(o);
 	} catch (e) {
-		throw ta({
+		throw na({
 			signal: i,
 			file: n
 		}), e;
@@ -4028,7 +4028,7 @@ async function Xi(e) {
 		r.stop("import::hooks.after");
 	}
 }
-function Zi(e) {
+function Qi(e) {
 	let { step: t, done: n, total: r } = e.step;
 	return {
 		step: String(t),
@@ -4036,16 +4036,16 @@ function Zi(e) {
 		...typeof r == "number" && { total: r }
 	};
 }
-function Qi(e) {
+function $i(e) {
 	let { diagnostics: t, creates: n = [], updates: r = [], reporter: i } = e, a = t.length + n.length + r.length, o = 0;
 	i.tell({
 		phase: "checking",
 		done: o,
 		total: a
 	});
-	for (let e = 0; e < t.length; e += Br) {
-		let n = t.slice(e, e + Br);
-		$i({
+	for (let e = 0; e < t.length; e += Vr) {
+		let n = t.slice(e, e + Vr);
+		ea({
 			diagnostics: n,
 			offset: e
 		}), o += n.length, i.tell({
@@ -4054,58 +4054,58 @@ function Qi(e) {
 			total: a
 		});
 	}
-	for (let e = 0; e < n.length; e += Br) {
-		let t = n.slice(e, e + Br);
-		ea({ creates: t }), o += t.length, i.tell({
+	for (let e = 0; e < n.length; e += Vr) {
+		let t = n.slice(e, e + Vr);
+		ta({ creates: t }), o += t.length, i.tell({
 			phase: "checking",
 			done: o,
 			total: a
 		});
 	}
-	for (let e = 0; e < r.length; e += Br) {
-		let t = r.slice(e, e + Br);
-		ea({ updates: t }), o += t.length, i.tell({
+	for (let e = 0; e < r.length; e += Vr) {
+		let t = r.slice(e, e + Vr);
+		ta({ updates: t }), o += t.length, i.tell({
 			phase: "checking",
 			done: o,
 			total: a
 		});
 	}
 }
-function $i(e) {
+function ea(e) {
 	let { diagnostics: t, offset: n } = e;
 	try {
 		wt({ value: t });
 	} catch (e) {
 		let r = `among the diagnostics ${n}-${n + t.length - 1}`;
-		f("STORE_VALUE_NOT_JSON", {
-			detail: `A diagnostic of the import session: ${b(e)?.detail ?? String(e)} (${r})`,
+		m("STORE_VALUE_NOT_JSON", {
+			detail: `A diagnostic of the import session: ${a(e)?.detail ?? String(e)} (${r})`,
 			cause: e instanceof Error ? e : void 0
 		});
 	}
 }
-function ea(e) {
+function ta(e) {
 	let { creates: t = [], updates: n = [] } = e;
-	for (let e of t) dr({ record: e });
-	for (let e of n) dr({ record: {
+	for (let e of t) fr({ record: e });
+	for (let e of n) fr({ record: {
 		...e,
 		id: e.recordId
 	} });
 }
-function ta(e) {
+function na(e) {
 	let { signal: t, file: n } = e;
-	t?.aborted && f("IMPORT_ABORTED", {
+	t?.aborted && m("IMPORT_ABORTED", {
 		detail: `The import of "${n.name}" was aborted`,
 		meta: { fileName: n.name }
 	});
 }
-function na(e, t) {
+function ra(e, t) {
 	let n = new Uint8Array(e.length + t.length);
 	return n.set(e), n.set(t, e.length), n;
 }
-async function ra(e) {
+async function ia(e) {
 	let { sax: t, store: n, documentId: r, file: i, threshold: a, perf: o, control: s, reporter: c, bytesRead: l } = e;
 	if (t.getSize() < a) return 0;
-	ta({
+	na({
 		signal: s.signal,
 		file: i
 	}), o.start("import::insert");
@@ -4121,72 +4121,72 @@ async function ra(e) {
 		bytesRead: l
 	}), u;
 }
-async function ia(e, t = {}) {
-	let { runtime: n, file: r, options: i, writeId: a } = e, o = e.perf ?? $t({
+async function aa(e, t = {}) {
+	let { runtime: n, file: i, options: o, writeId: s } = e, c = e.perf ?? en({
 		enabled: n.perf ?? !1,
 		timeline: !1
 	});
-	ta({
+	na({
 		signal: t.signal,
-		file: r
+		file: i
 	});
-	let { configKey: s, config: c } = en({
+	let { configKey: l, config: u } = tn({
 		configs: n.configs,
 		defaultConfigKey: n.defaultConfigKey,
-		configKey: i?.configKey
-	}), l = {
+		configKey: o?.configKey
+	}), d = {
 		id: crypto.randomUUID(),
-		...aa({
-			file: r,
-			path: i?.path,
-			config: c
+		...oa({
+			file: i,
+			path: o?.path,
+			config: u
 		}),
-		configKey: s,
+		configKey: l,
 		createdAt: Date.now(),
-		metadata: i?.metadata,
+		metadata: o?.metadata,
 		status: "importing",
-		writeId: a,
-		...i?.path !== void 0 && { path: i.path }
-	}, u = mi({
-		totalBytes: r.size,
+		writeId: s,
+		...o?.path !== void 0 && { path: o.path }
+	}, f = hi({
+		totalBytes: i.size,
 		listener: t.onProgress,
-		perf: o
+		perf: c
 	});
-	o.start("import");
-	let d;
+	c.start("import");
+	let p;
 	try {
-		d = await oa({
+		p = await sa({
 			...e,
 			control: t,
-			registered: l,
-			config: c,
-			perf: o,
-			reporter: u
+			registered: d,
+			config: u,
+			perf: c,
+			reporter: f
 		});
 	} catch (e) {
-		throw b(e) ? e : _("IMPORT_FAILED", {
+		throw a(e) ? e : r("IMPORT_FAILED", {
 			detail: e instanceof Error ? e.message : String(e),
 			cause: e instanceof Error ? e : void 0
 		});
 	} finally {
-		u.close(), o.stop("import");
+		f.close(), c.stop("import");
 	}
 	return {
-		...d,
-		...n.perf && { perf: o.snapshot() }
+		...p,
+		...n.perf && { perf: c.snapshot() }
 	};
 }
-function aa(e) {
-	let { file: t, path: n, config: r } = e, i = ti({ extensions: r.io.supportedFileExtensions });
+function oa(e) {
+	let { file: t, path: n, config: r } = e, i = ni({ extensions: r.io.supportedFileExtensions });
 	return n === void 0 ? {
 		name: t.name.replace(/\.[^.]+$/, "") || "untitled",
 		extension: t.name.includes(".") ? `.${t.name.split(".").pop()}` : i[0]
-	} : ni({
+	} : ri({
 		path: n,
 		extensions: i
 	});
 }
-async function oa(e) {
+async function sa(e) {
 	let { store: t, runtime: n, file: r, options: i, control: a, registered: o, config: s, perf: c, reporter: l } = e;
 	c.start("import::register");
 	try {
@@ -4195,7 +4195,7 @@ async function oa(e) {
 		c.stop("import::register");
 	}
 	try {
-		let e = await Ki({
+		let e = await qi({
 			file: r,
 			documentId: o.id,
 			configKey: o.configKey,
@@ -4207,12 +4207,12 @@ async function oa(e) {
 			perf: c,
 			reporter: l
 		}, a);
-		ta({
+		na({
 			signal: a.signal,
 			file: r
 		}), l.tell({ phase: "finishing" }), c.start("import::finalize");
 		try {
-			await t.getDocument(o.id) || f("DOCUMENT_NOT_REGISTERED", {
+			await t.getDocument(o.id) || m("DOCUMENT_NOT_REGISTERED", {
 				detail: `Document "${o.id}" of "${r.name}" was removed while it imported`,
 				meta: { documentId: o.id }
 			}), await t.markReady(o.id);
@@ -4228,33 +4228,33 @@ async function oa(e) {
 			diagnostics: e.diagnostics
 		};
 	} catch (e) {
-		throw await sa({
+		throw await ca({
 			store: t,
 			documentId: o.id
 		}), e;
 	}
 }
-async function sa(e) {
+async function ca(e) {
 	let { store: t, documentId: n } = e;
 	try {
 		await t.removeDocument(n);
 	} catch {}
 }
-var ca = {
+var la = {
 	import: "IMPORT_FAILED",
 	export: "ASSERTION_FAILED"
 };
-function la(e) {
+function ua(e) {
 	let { runtime: t, storeName: n, operation: r } = e;
-	return t || f(ca[r], { detail: `Store "${n}" has no dialecte to ${r} with: build it with a runtime` }), t;
+	return t || m(la[r], { detail: `Store "${n}" has no dialecte to ${r} with: build it with a runtime` }), t;
 }
-function ua(e, t) {
+function da(e, t) {
 	return e.id < t.id ? -1 : +(e.id > t.id);
 }
-function da(e) {
-	return fa({ value: e.first }) === fa({ value: e.second });
-}
 function fa(e) {
+	return pa({ value: e.first }) === pa({ value: e.second });
+}
+function pa(e) {
 	return JSON.stringify(e.value, function(e, t) {
 		return typeof t != "object" || !t || Array.isArray(t) ? t : Object.fromEntries(Object.entries(t).sort(function([e], [t]) {
 			return e < t ? -1 : +(e > t);
@@ -4262,44 +4262,44 @@ function fa(e) {
 	});
 }
 //#endregion
-//#region node_modules/.pnpm/@dialecte+core@0.12.1/node_modules/@dialecte/core/dist/dialecte-DHj8__Ch.js
-var pa = {};
-function ma() {
+//#region node_modules/.pnpm/@dialecte+core@0.14.0/node_modules/@dialecte/core/dist/dialecte-BEbOM6IE.js
+var ma = {};
+function ha() {
 	return {};
 }
-function ha(e) {
-	let { id: t, version: n, configs: r, defaultConfigKey: i, extensions: a, createHooks: o } = e;
-	if (!Object.hasOwn(r, i)) throw _("UNKNOWN_CONFIG_KEY", {
-		detail: `Dialecte "${t}" names "${i}" as its default config, which is none of its configs: ${Object.keys(r).join(", ") || "(none)"}.`,
+function ga(e) {
+	let { id: t, version: n, configs: i, defaultConfigKey: a, extensions: o, createHooks: s } = e;
+	if (!Object.hasOwn(i, a)) throw r("UNKNOWN_CONFIG_KEY", {
+		detail: `Dialecte "${t}" names "${a}" as its default config, which is none of its configs: ${Object.keys(i).join(", ") || "(none)"}.`,
 		meta: {
 			id: t,
-			defaultConfigKey: i,
-			configKeys: Object.keys(r)
+			defaultConfigKey: a,
+			configKeys: Object.keys(i)
 		}
 	});
 	return Object.freeze({
 		id: t,
 		version: n,
-		configs: r,
-		defaultConfigKey: i,
-		extensions: a ?? pa,
-		createHooks: o ?? ma
+		configs: i,
+		defaultConfigKey: a,
+		extensions: o ?? ma,
+		createHooks: s ?? ha
 	});
 }
-async function ga(e) {
+async function _a(e) {
 	let { store: t, isRunning: n } = e, r = await t.getDocuments();
 	for (let e of r) e.status === "importing" && (await n?.(e) || (await t.getDocument(e.id))?.status === "importing" && await t.removeDocument(e.id));
 }
-function _a(e) {
+function va(e) {
 	let { held: t, registered: n } = e;
 	return !t || !n || t.status !== "importing" ? !1 : t.id === n.id && t.writeId === n.writeId && t.createdAt === n.createdAt;
 }
-var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", xa = R(), Sa = ut(), Ca = /* @__PURE__ */ new Map(), wa = {
+var ya = "dialecte:local-open:", ba = "dialecte:local-import:", xa = "writes:", Sa = ft(), Ca = dt(), wa = /* @__PURE__ */ new Map(), Ta = {
 	primaryKey: "id",
 	indexes: ["tagName"],
 	compoundIndexes: [],
 	arrayIndexes: []
-}, Ta = /* @__PURE__ */ at((/* @__PURE__ */ rt(((e, t, n) => {
+}, Ea = /* @__PURE__ */ ot((/* @__PURE__ */ it(((e, t, n) => {
 	((n, r) => {
 		typeof e == "object" && t !== void 0 ? t.exports = r() : typeof define == "function" && define.amd ? define(r) : (n = typeof globalThis < "u" ? globalThis : n || self).Dexie = r();
 	})(n, function() {
@@ -4398,16 +4398,16 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 				} else n === void 0 ? a(e) && !isNaN(parseInt(t)) ? e.splice(t, 1) : delete e[t] : e[t] = n;
 			}
 		}
-		function S(e) {
+		function ee(e) {
 			var t, n = {};
 			for (t in e) l(e, t) && (n[t] = e[t]);
 			return n;
 		}
-		var C = [].concat;
-		function w(e) {
-			return C.apply([], e);
+		var S = [].concat;
+		function C(e) {
+			return S.apply([], e);
 		}
-		var T = "BigUint64Array,BigInt64Array,Array,Boolean,String,Date,RegExp,Blob,File,FileList,FileSystemFileHandle,FileSystemDirectoryHandle,ArrayBuffer,DataView,Uint8ClampedArray,ImageBitmap,ImageData,Map,Set,CryptoKey".split(",").concat(w([
+		var w = "BigUint64Array,BigInt64Array,Array,Boolean,String,Date,RegExp,Blob,File,FileList,FileSystemFileHandle,FileSystemDirectoryHandle,ArrayBuffer,DataView,Uint8ClampedArray,ImageBitmap,ImageData,Map,Set,CryptoKey".split(",").concat(C([
 			8,
 			16,
 			32,
@@ -4422,45 +4422,45 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			});
 		}))).filter(function(e) {
 			return r[e];
-		}), ee = new Set(T.map(function(e) {
+		}), te = new Set(w.map(function(e) {
 			return r[e];
-		})), te = null;
-		function ne(e) {
-			return te = /* @__PURE__ */ new WeakMap(), e = function e(t) {
+		})), ne = null;
+		function re(e) {
+			return ne = /* @__PURE__ */ new WeakMap(), e = function e(t) {
 				if (!t || typeof t != "object") return t;
-				var n = te.get(t);
+				var n = ne.get(t);
 				if (n) return n;
 				if (a(t)) {
-					n = [], te.set(t, n);
+					n = [], ne.set(t, n);
 					for (var r = 0, i = t.length; r < i; ++r) n.push(e(t[r]));
-				} else if (ee.has(t.constructor)) n = t;
+				} else if (te.has(t.constructor)) n = t;
 				else {
 					var o, c = s(t);
-					for (o in n = c === Object.prototype ? {} : Object.create(c), te.set(t, n), t) l(t, o) && (n[o] = e(t[o]));
+					for (o in n = c === Object.prototype ? {} : Object.create(c), ne.set(t, n), t) l(t, o) && (n[o] = e(t[o]));
 				}
 				return n;
-			}(e), te = null, e;
+			}(e), ne = null, e;
 		}
-		var re = {}.toString;
-		function ie(e) {
-			return re.call(e).slice(8, -1);
+		var ie = {}.toString;
+		function ae(e) {
+			return ie.call(e).slice(8, -1);
 		}
-		var ae = typeof Symbol < "u" ? Symbol.iterator : "@@iterator", E = typeof ae == "symbol" ? function(e) {
+		var oe = typeof Symbol < "u" ? Symbol.iterator : "@@iterator", T = typeof oe == "symbol" ? function(e) {
 			var t;
-			return e != null && (t = e[ae]) && t.apply(e);
+			return e != null && (t = e[oe]) && t.apply(e);
 		} : function() {
 			return null;
 		};
-		function D(e, t) {
+		function E(e, t) {
 			t = e.indexOf(t), 0 <= t && e.splice(t, 1);
 		}
-		var oe = {};
-		function O(e) {
+		var se = {};
+		function D(e) {
 			var t, n, r, i;
 			if (arguments.length === 1) {
 				if (a(e)) return e.slice();
-				if (this === oe && typeof e == "string") return [e];
-				if (i = E(e)) for (n = []; !(r = i.next()).done;) n.push(r.value);
+				if (this === se && typeof e == "string") return [e];
+				if (i = T(e)) for (n = []; !(r = i.next()).done;) n.push(r.value);
 				else {
 					if (e == null || typeof (t = e.length) != "number") return [e];
 					for (n = Array(t); t--;) n[t] = e[t];
@@ -4468,11 +4468,11 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			} else for (t = arguments.length, n = Array(t); t--;) n[t] = arguments[t];
 			return n;
 		}
-		var se = typeof Symbol < "u" ? function(e) {
+		var ce = typeof Symbol < "u" ? function(e) {
 			return e[Symbol.toStringTag] === "AsyncFunction";
 		} : function() {
 			return !1;
-		}, T = [
+		}, w = [
 			"Unknown",
 			"Constraint",
 			"Data",
@@ -4487,7 +4487,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			"QuotaExceeded",
 			"Syntax",
 			"DataClone"
-		], k = [
+		], O = [
 			"Modify",
 			"Bulk",
 			"OpenFailed",
@@ -4504,46 +4504,46 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			"DatabaseClosed",
 			"PrematureCommit",
 			"ForeignAwait"
-		].concat(T), ce = {
+		].concat(w), le = {
 			VersionChanged: "Database version changed by other database connection",
 			DatabaseClosed: "Database has been closed",
 			Abort: "Transaction aborted",
 			TransactionInactive: "Transaction has already completed or failed",
 			MissingAPI: "IndexedDB API missing. Please visit https://tinyurl.com/y2uuvskb"
 		};
-		function le(e, t) {
+		function ue(e, t) {
 			this.name = e, this.message = t;
 		}
-		function ue(e, t) {
+		function de(e, t) {
 			return e + ". Errors: " + Object.keys(t).map(function(e) {
 				return t[e].toString();
 			}).filter(function(e, t, n) {
 				return n.indexOf(e) === t;
 			}).join("\n");
 		}
-		function de(e, t, n, r) {
-			this.failures = t, this.failedKeys = r, this.successCount = n, this.message = ue(e, t);
+		function fe(e, t, n, r) {
+			this.failures = t, this.failedKeys = r, this.successCount = n, this.message = de(e, t);
 		}
-		function A(e, t) {
+		function k(e, t) {
 			this.name = "BulkError", this.failures = Object.keys(t).map(function(e) {
 				return t[e];
-			}), this.failuresByPos = t, this.message = ue(e, this.failures);
+			}), this.failuresByPos = t, this.message = de(e, this.failures);
 		}
-		p(le).from(Error).extend({ toString: function() {
+		p(ue).from(Error).extend({ toString: function() {
 			return this.name + ": " + this.message;
-		} }), p(de).from(le), p(A).from(le);
-		var fe = k.reduce(function(e, t) {
+		} }), p(fe).from(ue), p(k).from(ue);
+		var pe = O.reduce(function(e, t) {
 			return e[t] = t + "Error", e;
-		}, {}), pe = le, j = k.reduce(function(e, t) {
+		}, {}), A = ue, j = O.reduce(function(e, t) {
 			var n = t + "Error";
 			function r(e, r) {
-				this.name = n, e ? typeof e == "string" ? (this.message = `${e}${r ? "\n " + r : ""}`, this.inner = r || null) : typeof e == "object" && (this.message = `${e.name} ${e.message}`, this.inner = e) : (this.message = ce[t] || n, this.inner = null);
+				this.name = n, e ? typeof e == "string" ? (this.message = `${e}${r ? "\n " + r : ""}`, this.inner = r || null) : typeof e == "object" && (this.message = `${e.name} ${e.message}`, this.inner = e) : (this.message = le[t] || n, this.inner = null);
 			}
-			return p(r).from(pe), e[t] = r, e;
-		}, {}), me = (j.Syntax = SyntaxError, j.Type = TypeError, j.Range = RangeError, T.reduce(function(e, t) {
+			return p(r).from(A), e[t] = r, e;
+		}, {}), me = (j.Syntax = SyntaxError, j.Type = TypeError, j.Range = RangeError, w.reduce(function(e, t) {
 			return e[t + "Error"] = j[t], e;
 		}, {}));
-		T = k.reduce(function(e, t) {
+		w = O.reduce(function(e, t) {
 			return [
 				"Syntax",
 				"Type",
@@ -4600,20 +4600,20 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 				return t.apply(this, arguments);
 			};
 		}
-		T.ModifyError = de, T.DexieError = le, T.BulkError = A;
+		w.ModifyError = fe, w.DexieError = ue, w.BulkError = k;
 		var Ce = typeof location < "u" && /^(http|https):\/\/(localhost|127\.0\.0\.1)/.test(location.href);
 		function we(e) {
 			Ce = e;
 		}
-		var Te = {}, Ee = 100, De = typeof Promise > "u" ? [] : (k = Promise.resolve(), typeof crypto < "u" && crypto.subtle ? [
+		var Te = {}, Ee = 100, De = typeof Promise > "u" ? [] : (O = Promise.resolve(), typeof crypto < "u" && crypto.subtle ? [
 			De = crypto.subtle.digest("SHA-512", new Uint8Array([0])),
 			s(De),
-			k
+			O
 		] : [
-			k,
-			s(k),
-			k
-		]), k = De[0], Oe = De[1], Oe = Oe && Oe.then, ke = k && k.constructor, Ae = !!De[2], je = function(e, t) {
+			O,
+			s(O),
+			O
+		]), O = De[0], Oe = De[1], Oe = Oe && Oe.then, ke = O && O.constructor, Ae = !!De[2], je = function(e, t) {
 			Re.push([e, t]), Ne &&= (queueMicrotask(Ke), !1);
 		}, Me = !0, Ne = !0, Pe = [], Fe = [], Ie = he, Le = {
 			id: "global",
@@ -4624,7 +4624,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			pgp: !1,
 			env: {},
 			finalize: M
-		}, N = Le, Re = [], P = 0, ze = [];
+		}, N = Le, Re = [], ze = 0, P = [];
 		function F(e) {
 			if (typeof this != "object") throw TypeError("Promises must be constructed via new");
 			this._listeners = [], this._lib = !1;
@@ -4682,8 +4682,8 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			e._listeners = [];
 			for (var n = 0, r = t.length; n < r; ++n) We(e, t[n]);
 			var i = e._PSD;
-			--i.ref || i.finalize(), P === 0 && (++P, je(function() {
-				--P == 0 && Ye();
+			--i.ref || i.finalize(), ze === 0 && (++ze, je(function() {
+				--ze == 0 && Ye();
 			}, []));
 		}
 		function We(e, t) {
@@ -4691,7 +4691,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			else {
 				var n = e._state ? t.onFulfilled : t.onRejected;
 				if (n === null) return (e._state ? t.resolve : t.reject)(e._value);
-				++t.psd.ref, ++P, je(Ge, [
+				++t.psd.ref, ++ze, je(Ge, [
 					n,
 					e,
 					t
@@ -4709,7 +4709,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			} catch (e) {
 				n.reject(e);
 			} finally {
-				--P == 0 && Ye(), --n.psd.ref || n.psd.finalize();
+				--ze == 0 && Ye(), --n.psd.ref || n.psd.finalize();
 			}
 		}
 		function Ke() {
@@ -4734,7 +4734,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 		function Ye() {
 			for (var e = Pe, t = (Pe = [], e.forEach(function(e) {
 				e._PSD.onunhandled.call(null, e._value, e);
-			}), ze.slice(0)), n = t.length; n;) t[--n]();
+			}), P.slice(0)), n = t.length; n;) t[--n]();
 		}
 		function Xe(e) {
 			return new F(Te, !1, e);
@@ -4787,7 +4787,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			}
 		}), typeof Symbol < "u" && Symbol.toStringTag && f(F.prototype, Symbol.toStringTag, "Dexie.Promise"), Le.env = ct(), u(F, {
 			all: function() {
-				var e = O.apply(null, arguments).map(at);
+				var e = D.apply(null, arguments).map(at);
 				return new F(function(t, n) {
 					e.length === 0 && t([]);
 					var r = e.length;
@@ -4805,7 +4805,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			},
 			reject: Xe,
 			race: function() {
-				var e = O.apply(null, arguments).map(at);
+				var e = D.apply(null, arguments).map(at);
 				return new F(function(t, n) {
 					e.map(function(e) {
 						return F.resolve(e).then(t, n);
@@ -4849,17 +4849,17 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 							var e, r = this;
 							e = function() {
 								r.unhandleds.length === 0 ? t() : n(r.unhandleds[0]);
-							}, ze.push(function t() {
-								e(), ze.splice(ze.indexOf(t), 1);
-							}), ++P, je(function() {
-								--P == 0 && Ye();
+							}, P.push(function t() {
+								e(), P.splice(P.indexOf(t), 1);
+							}), ++ze, je(function() {
+								--ze == 0 && Ye();
 							}, []);
 						}, r.finalize), e();
 					}, t, n, r);
 				});
 			}
 		}), ke && (ke.allSettled && f(F, "allSettled", function() {
-			var e = O.apply(null, arguments).map(at);
+			var e = D.apply(null, arguments).map(at);
 			return new F(function(t) {
 				e.length === 0 && t([]);
 				var n = e.length, r = Array(n);
@@ -4880,7 +4880,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 				});
 			});
 		}), ke.any && typeof AggregateError < "u" && f(F, "any", function() {
-			var e = O.apply(null, arguments).map(at);
+			var e = D.apply(null, arguments).map(at);
 			return new F(function(t, n) {
 				e.length === 0 && n(/* @__PURE__ */ AggregateError([]));
 				var r = e.length, i = Array(r);
@@ -4989,30 +4989,30 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			upper: [[]],
 			upperOpen: !1
 		};
-		function bt(e) {
+		function z(e) {
 			return typeof e != "string" || /\./.test(e) ? function(e) {
 				return e;
 			} : function(t) {
-				return t[e] === void 0 && e in t && delete (t = ne(t))[e], t;
+				return t[e] === void 0 && e in t && delete (t = re(t))[e], t;
 			};
 		}
-		function xt() {
+		function bt() {
 			throw j.Type("Entity instances must never be new:ed. Instances are generated by the framework bypassing the constructor.");
 		}
-		function z(e, t) {
+		function B(e, t) {
 			try {
-				var n = St(e), r = St(t);
+				var n = xt(e), r = xt(t);
 				if (n !== r) return n === "Array" ? 1 : r === "Array" ? -1 : n === "binary" ? 1 : r === "binary" ? -1 : n === "string" ? 1 : r === "string" ? -1 : n === "Date" ? 1 : r === "Date" ? -1 : NaN;
 				switch (n) {
 					case "number":
 					case "Date":
 					case "string": return t < e ? 1 : e < t ? -1 : 0;
 					case "binary":
-						for (var i = Ct(e), a = Ct(t), o = i.length, s = a.length, c = o < s ? o : s, l = 0; l < c; ++l) if (i[l] !== a[l]) return i[l] < a[l] ? -1 : 1;
+						for (var i = St(e), a = St(t), o = i.length, s = a.length, c = o < s ? o : s, l = 0; l < c; ++l) if (i[l] !== a[l]) return i[l] < a[l] ? -1 : 1;
 						return o === s ? 0 : o < s ? -1 : 1;
 					case "Array":
 						for (var u = e, d = t, f = u.length, p = d.length, m = f < p ? f : p, h = 0; h < m; ++h) {
-							var g = z(u[h], d[h]);
+							var g = B(u[h], d[h]);
 							if (g !== 0) return g;
 						}
 						return f === p ? 0 : f < p ? -1 : 1;
@@ -5020,14 +5020,14 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			} catch {}
 			return NaN;
 		}
-		function St(e) {
+		function xt(e) {
 			var t = typeof e;
-			return t == "object" && (ArrayBuffer.isView(e) || (t = ie(e)) === "ArrayBuffer") ? "binary" : t;
+			return t == "object" && (ArrayBuffer.isView(e) || (t = ae(e)) === "ArrayBuffer") ? "binary" : t;
 		}
-		function Ct(e) {
+		function St(e) {
 			return e instanceof Uint8Array ? e : ArrayBuffer.isView(e) ? new Uint8Array(e.buffer, e.byteOffset, e.byteLength) : new Uint8Array(e);
 		}
-		function wt(e, t, n) {
+		function Ct(e, t, n) {
 			var r = e.schema.yProps;
 			return r ? (t && 0 < n.numFailures && (t = t.filter(function(e, t) {
 				return !n.failures[t];
@@ -5037,7 +5037,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 				return n;
 			})) : n;
 		}
-		Et.prototype.execute = function(e) {
+		Tt.prototype.execute = function(e) {
 			var t = this["@@propmod"];
 			if (t.add !== void 0) {
 				var r = t.add;
@@ -5065,18 +5065,18 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			}
 			return r = (r = t.replacePrefix)?.[0], r && typeof e == "string" && e.startsWith(r) ? t.replacePrefix[1] + e.substring(r.length) : e;
 		};
-		var Tt = Et;
-		function Et(e) {
+		var wt = Tt;
+		function Tt(e) {
 			this["@@propmod"] = e;
 		}
-		function Dt(e, t) {
+		function Et(e, t) {
 			for (var n = i(t), r = n.length, a = !1, o = 0; o < r; ++o) {
 				var s = n[o], c = t[s], l = b(e, s);
-				c instanceof Tt ? (x(e, s, c.execute(l)), a = !0) : l !== c && (x(e, s, c), a = !0);
+				c instanceof wt ? (x(e, s, c.execute(l)), a = !0) : l !== c && (x(e, s, c), a = !0);
 			}
 			return a;
 		}
-		B.prototype._trans = function(e, t, n) {
+		V.prototype._trans = function(e, t, n) {
 			var r = this._tx || N.trans, i = this.name, a = Ce && typeof console < "u" && console.createTask && console.createTask(`Dexie: ${e === "readonly" ? "read" : "write"} ${this.name}`);
 			function o(e, n, r) {
 				if (r.schema[i]) return t(r.idbtrans, r);
@@ -5095,7 +5095,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 						try {
 							a.create(), t._state.PR1398_maxLoop = 3;
 						} catch (a) {
-							return a.name === fe.InvalidState && t.isOpen() && 0 < --t._state.PR1398_maxLoop ? (console.warn("Dexie: Need to reopen db"), t.close({ disableAutoOpen: !1 }), t.open().then(function() {
+							return a.name === pe.InvalidState && t.isOpen() && 0 < --t._state.PR1398_maxLoop ? (console.warn("Dexie: Need to reopen db"), t.close({ disableAutoOpen: !1 }), t.open().then(function() {
 								return e(t, n, r, i);
 							})) : R(a);
 						}
@@ -5127,7 +5127,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			} finally {
 				s && Je();
 			}
-		}, B.prototype.get = function(e, t) {
+		}, V.prototype.get = function(e, t) {
 			var n = this;
 			return e && e.constructor === Object ? this.where(e).first(t) : e == null ? R(new j.Type("Invalid argument to Table.get()")) : this._trans("readonly", function(t) {
 				return n.core.get({
@@ -5137,7 +5137,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 					return n.hook.reading.fire(e);
 				});
 			}).then(t);
-		}, B.prototype.where = function(e) {
+		}, V.prototype.where = function(e) {
 			if (typeof e == "string") return new this.db.WhereClause(this, e);
 			if (a(e)) return new this.db.WhereClause(this, `[${e.join("+")}]`);
 			var t = i(e);
@@ -5159,7 +5159,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			!n && Ce && console.warn(`The query ${JSON.stringify(e)} on ${this.name} would benefit from a compound index [${t.join("+")}]`);
 			var r = this.schema.idxByName;
 			function o(e, t) {
-				return z(e, t) === 0;
+				return B(e, t) === 0;
 			}
 			var s = t.reduce(function(t, n) {
 				var i = t[0], t = t[1], s = r[n], c = e[n];
@@ -5172,26 +5172,26 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 				}) : t];
 			}, [null, null]), c = s[0], s = s[1];
 			return c ? this.where(c.name).equals(e[c.keyPath]).filter(s) : n ? this.filter(s) : this.where(t).equals("");
-		}, B.prototype.filter = function(e) {
+		}, V.prototype.filter = function(e) {
 			return this.toCollection().and(e);
-		}, B.prototype.count = function(e) {
+		}, V.prototype.count = function(e) {
 			return this.toCollection().count(e);
-		}, B.prototype.offset = function(e) {
+		}, V.prototype.offset = function(e) {
 			return this.toCollection().offset(e);
-		}, B.prototype.limit = function(e) {
+		}, V.prototype.limit = function(e) {
 			return this.toCollection().limit(e);
-		}, B.prototype.each = function(e) {
+		}, V.prototype.each = function(e) {
 			return this.toCollection().each(e);
-		}, B.prototype.toArray = function(e) {
+		}, V.prototype.toArray = function(e) {
 			return this.toCollection().toArray(e);
-		}, B.prototype.toCollection = function() {
+		}, V.prototype.toCollection = function() {
 			return new this.db.Collection(new this.db.WhereClause(this));
-		}, B.prototype.orderBy = function(e) {
+		}, V.prototype.orderBy = function(e) {
 			return new this.db.Collection(new this.db.WhereClause(this, a(e) ? `[${e.join("+")}]` : e));
-		}, B.prototype.reverse = function() {
+		}, V.prototype.reverse = function() {
 			return this.toCollection().reverse();
-		}, B.prototype.mapToClass = function(t) {
-			for (var n = this.db, r = this.name, i = ((this.schema.mappedClass = t).prototype instanceof xt && (t = ((t) => {
+		}, V.prototype.mapToClass = function(t) {
+			for (var n = this.db, r = this.name, i = ((this.schema.mappedClass = t).prototype instanceof bt && (t = ((t) => {
 				var i = s, a = t;
 				if (typeof a != "function" && a !== null) throw TypeError("Class extends value " + String(a) + " is not a constructor or null");
 				function o() {
@@ -5221,13 +5221,13 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 				return r;
 			}
 			return this.schema.readHook && this.hook.reading.unsubscribe(this.schema.readHook), this.schema.readHook = o, this.hook("reading", o), t;
-		}, B.prototype.defineClass = function() {
+		}, V.prototype.defineClass = function() {
 			return this.mapToClass(function(e) {
 				o(this, e);
 			});
-		}, B.prototype.add = function(e, t) {
+		}, V.prototype.add = function(e, t) {
 			var n = this, r = this.schema.primKey, i = r.auto, a = r.keyPath, o = e;
-			return a && i && (o = bt(a)(e)), this._trans("readwrite", function(e) {
+			return a && i && (o = z(a)(e)), this._trans("readwrite", function(e) {
 				return n.core.mutate({
 					trans: e,
 					type: "add",
@@ -5242,7 +5242,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 				} catch {}
 				return t;
 			});
-		}, B.prototype.upsert = function(e, t) {
+		}, V.prototype.upsert = function(e, t) {
 			var n = this, r = this.schema.primKey.keyPath;
 			return this._trans("readwrite", function(i) {
 				return n.core.get({
@@ -5250,7 +5250,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 					key: e
 				}).then(function(a) {
 					var o = a ?? {};
-					return Dt(o, t), r && x(o, r, e), n.core.mutate({
+					return Et(o, t), r && x(o, r, e), n.core.mutate({
 						trans: i,
 						type: "put",
 						values: [o],
@@ -5265,11 +5265,11 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 					});
 				});
 			});
-		}, B.prototype.update = function(e, t) {
+		}, V.prototype.update = function(e, t) {
 			return typeof e != "object" || a(e) ? this.where(":id").equals(e).modify(t) : (e = b(e, this.schema.primKey.keyPath)) === void 0 ? R(new j.InvalidArgument("Given object does not contain its primary key")) : this.where(":id").equals(e).modify(t);
-		}, B.prototype.put = function(e, t) {
+		}, V.prototype.put = function(e, t) {
 			var n = this, r = this.schema.primKey, i = r.auto, a = r.keyPath, o = e;
-			return a && i && (o = bt(a)(e)), this._trans("readwrite", function(e) {
+			return a && i && (o = z(a)(e)), this._trans("readwrite", function(e) {
 				return n.core.mutate({
 					trans: e,
 					type: "put",
@@ -5284,7 +5284,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 				} catch {}
 				return t;
 			});
-		}, B.prototype.delete = function(e) {
+		}, V.prototype.delete = function(e) {
 			var t = this;
 			return this._trans("readwrite", function(n) {
 				return t.core.mutate({
@@ -5292,12 +5292,12 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 					type: "delete",
 					keys: [e]
 				}).then(function(n) {
-					return wt(t, [e], n);
+					return Ct(t, [e], n);
 				}).then(function(e) {
 					return e.numFailures ? F.reject(e.failures[0]) : void 0;
 				});
 			});
-		}, B.prototype.clear = function() {
+		}, V.prototype.clear = function() {
 			var e = this;
 			return this._trans("readwrite", function(t) {
 				return e.core.mutate({
@@ -5305,12 +5305,12 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 					type: "deleteRange",
 					range: yt
 				}).then(function(t) {
-					return wt(e, null, t);
+					return Ct(e, null, t);
 				});
 			}).then(function(e) {
 				return e.numFailures ? F.reject(e.failures[0]) : void 0;
 			});
-		}, B.prototype.bulkGet = function(e) {
+		}, V.prototype.bulkGet = function(e) {
 			var t = this;
 			return this._trans("readonly", function(n) {
 				return t.core.getMany({
@@ -5322,13 +5322,13 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 					});
 				});
 			});
-		}, B.prototype.bulkAdd = function(e, t, n) {
+		}, V.prototype.bulkAdd = function(e, t, n) {
 			var r = this, i = Array.isArray(t) ? t : void 0, a = (n ||= i ? void 0 : t) ? n.allKeys : void 0;
 			return this._trans("readwrite", function(t) {
 				var n = r.schema.primKey, o = n.auto, n = n.keyPath;
 				if (n && i) throw new j.InvalidArgument("bulkAdd(): keys argument invalid on tables with inbound keys");
 				if (i && i.length !== e.length) throw new j.InvalidArgument("Arguments objects and keys must have the same length");
-				var s = e.length, o = n && o ? e.map(bt(n)) : e;
+				var s = e.length, o = n && o ? e.map(z(n)) : e;
 				return r.core.mutate({
 					trans: t,
 					type: "add",
@@ -5338,16 +5338,16 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 				}).then(function(e) {
 					var t = e.numFailures, n = e.failures;
 					if (t === 0) return a ? e.results : e.lastResult;
-					throw new A(`${r.name}.bulkAdd(): ${t} of ${s} operations failed`, n);
+					throw new k(`${r.name}.bulkAdd(): ${t} of ${s} operations failed`, n);
 				});
 			});
-		}, B.prototype.bulkPut = function(e, t, n) {
+		}, V.prototype.bulkPut = function(e, t, n) {
 			var r = this, i = Array.isArray(t) ? t : void 0, a = (n ||= i ? void 0 : t) ? n.allKeys : void 0;
 			return this._trans("readwrite", function(t) {
 				var n = r.schema.primKey, o = n.auto, n = n.keyPath;
 				if (n && i) throw new j.InvalidArgument("bulkPut(): keys argument invalid on tables with inbound keys");
 				if (i && i.length !== e.length) throw new j.InvalidArgument("Arguments objects and keys must have the same length");
-				var s = e.length, o = n && o ? e.map(bt(n)) : e;
+				var s = e.length, o = n && o ? e.map(z(n)) : e;
 				return r.core.mutate({
 					trans: t,
 					type: "put",
@@ -5357,10 +5357,10 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 				}).then(function(e) {
 					var t = e.numFailures, n = e.failures;
 					if (t === 0) return a ? e.results : e.lastResult;
-					throw new A(`${r.name}.bulkPut(): ${t} of ${s} operations failed`, n);
+					throw new k(`${r.name}.bulkPut(): ${t} of ${s} operations failed`, n);
 				});
 			});
-		}, B.prototype.bulkUpdate = function(e) {
+		}, V.prototype.bulkUpdate = function(e) {
 			var t = this, n = this.core, r = e.map(function(e) {
 				return e.key;
 			}), i = e.map(function(e) {
@@ -5378,7 +5378,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 							for (var u = 0, d = Object.keys(i); u < d.length; u++) {
 								var f = d[u], p = i[f];
 								if (f === t.schema.primKey.keyPath) {
-									if (z(p, r) !== 0) throw new j.Constraint("Cannot update primary key in bulkUpdate()");
+									if (B(p, r) !== 0) throw new j.Constraint("Cannot update primary key in bulkUpdate()");
 								} else x(o, f, p);
 							}
 							a.push(n), c.push(r), l.push(o);
@@ -5400,11 +5400,11 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 							var s, c = o[i], l = a[Number(c)];
 							l != null && (s = r[c], delete r[c], r[l] = s);
 						}
-						throw new A(`${t.name}.bulkUpdate(): ${n} of ${u} operations failed`, r);
+						throw new k(`${t.name}.bulkUpdate(): ${n} of ${u} operations failed`, r);
 					});
 				});
 			});
-		}, B.prototype.bulkDelete = function(e) {
+		}, V.prototype.bulkDelete = function(e) {
 			var t = this, n = e.length;
 			return this._trans("readwrite", function(n) {
 				return t.core.mutate({
@@ -5412,17 +5412,17 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 					type: "delete",
 					keys: e
 				}).then(function(n) {
-					return wt(t, e, n);
+					return Ct(t, e, n);
 				});
 			}).then(function(e) {
 				var r = e.numFailures, i = e.failures;
 				if (r === 0) return e.lastResult;
-				throw new A(`${t.name}.bulkDelete(): ${r} of ${n} operations failed`, i);
+				throw new k(`${t.name}.bulkDelete(): ${r} of ${n} operations failed`, i);
 			});
 		};
-		var Ot = B;
-		function B() {}
-		function kt(e) {
+		var Dt = V;
+		function V() {}
+		function Ot(e) {
 			function t(t, r) {
 				if (r) {
 					for (var i = arguments.length, a = Array(i - 1); --i;) a[i - 1] = arguments[i];
@@ -5465,29 +5465,29 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 				});
 			}
 		}
-		function At(e, t) {
+		function kt(e, t) {
 			return p(t).from({ prototype: e }), t;
 		}
-		function jt(e, t) {
+		function At(e, t) {
 			return !(e.filter || e.algorithm || e.or) && (t ? e.justLimit : !e.replayFilter);
 		}
-		function Mt(e, t) {
+		function jt(e, t) {
 			e.filter = vt(e.filter, t);
 		}
-		function Nt(e, t, n) {
+		function Mt(e, t, n) {
 			var r = e.replayFilter;
 			e.replayFilter = r ? function() {
 				return vt(r(), t());
 			} : t, e.justLimit = n && !r;
 		}
-		function Pt(e, t) {
+		function Nt(e, t) {
 			if (e.isPrimKey) return t.primaryKey;
 			var n = t.getIndexByKeyPath(e.index);
 			if (n) return n;
 			throw new j.Schema("KeyPath " + e.index + " on object store " + t.name + " is not indexed");
 		}
-		function Ft(e, t, n) {
-			var r = Pt(e, t.schema);
+		function Pt(e, t, n) {
+			var r = Nt(e, t.schema);
 			return t.openCursor({
 				trans: n,
 				values: !e.keysOnly,
@@ -5499,7 +5499,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 				}
 			});
 		}
-		function It(e, t, n, r) {
+		function Ft(e, t, n, r) {
 			var i, a, o = e.replayFilter ? vt(e.filter, e.replayFilter()) : e.filter;
 			return e.or ? (i = {}, a = function(e, n, r) {
 				var a, s;
@@ -5508,9 +5508,9 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 				}, function(e) {
 					return n.fail(e);
 				}) || ((s = "" + (a = n.primaryKey)) == "[object ArrayBuffer]" && (s = "" + new Uint8Array(a)), l(i, s)) || (i[s] = !0, t(e, n, r));
-			}, Promise.all([e.or._iterate(a, n), Lt(Ft(e, r, n), e.algorithm, a, !e.keysOnly && e.valueMapper)])) : Lt(Ft(e, r, n), vt(e.algorithm, o), t, !e.keysOnly && e.valueMapper);
+			}, Promise.all([e.or._iterate(a, n), It(Pt(e, r, n), e.algorithm, a, !e.keysOnly && e.valueMapper)])) : It(Pt(e, r, n), vt(e.algorithm, o), t, !e.keysOnly && e.valueMapper);
 		}
-		function Lt(e, t, n, r) {
+		function It(e, t, n, r) {
 			var i = I(r ? function(e, t, i) {
 				return n(r(e), t, i);
 			} : n);
@@ -5531,62 +5531,62 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 				});
 			});
 		}
-		V.prototype._read = function(e, t) {
+		H.prototype._read = function(e, t) {
 			var n = this._ctx;
 			return n.error ? n.table._trans(null, R.bind(null, n.error)) : n.table._trans("readonly", e).then(t);
-		}, V.prototype._write = function(e) {
+		}, H.prototype._write = function(e) {
 			var t = this._ctx;
 			return t.error ? t.table._trans(null, R.bind(null, t.error)) : t.table._trans("readwrite", e, "locked");
-		}, V.prototype._addAlgorithm = function(e) {
+		}, H.prototype._addAlgorithm = function(e) {
 			var t = this._ctx;
 			t.algorithm = vt(t.algorithm, e);
-		}, V.prototype._iterate = function(e, t) {
-			return It(this._ctx, e, t, this._ctx.table.core);
-		}, V.prototype.clone = function(e) {
+		}, H.prototype._iterate = function(e, t) {
+			return Ft(this._ctx, e, t, this._ctx.table.core);
+		}, H.prototype.clone = function(e) {
 			var t = Object.create(this.constructor.prototype), n = Object.create(this._ctx);
 			return e && o(n, e), t._ctx = n, t;
-		}, V.prototype.raw = function() {
+		}, H.prototype.raw = function() {
 			return this._ctx.valueMapper = null, this;
-		}, V.prototype.each = function(e) {
+		}, H.prototype.each = function(e) {
 			var t = this._ctx;
 			return this._read(function(n) {
-				return It(t, e, n, t.table.core);
+				return Ft(t, e, n, t.table.core);
 			});
-		}, V.prototype.count = function(e) {
+		}, H.prototype.count = function(e) {
 			var t = this;
 			return this._read(function(e) {
 				var n, r = t._ctx, i = r.table.core;
-				return jt(r, !0) ? i.count({
+				return At(r, !0) ? i.count({
 					trans: e,
 					query: {
-						index: Pt(r, i.schema),
+						index: Nt(r, i.schema),
 						range: r.range
 					}
 				}).then(function(e) {
 					return Math.min(e, r.limit);
-				}) : (n = 0, It(r, function() {
+				}) : (n = 0, Ft(r, function() {
 					return ++n, !1;
 				}, e, i).then(function() {
 					return n;
 				}));
 			}).then(e);
-		}, V.prototype.sortBy = function(e, t) {
+		}, H.prototype.sortBy = function(e, t) {
 			var n = e.split(".").reverse(), r = n[0], i = n.length - 1;
 			function a(e, t) {
 				return t ? a(e[n[t]], t - 1) : e[r];
 			}
 			var o = this._ctx.dir === "next" ? 1 : -1;
 			function s(e, t) {
-				return z(a(e, i), a(t, i)) * o;
+				return B(a(e, i), a(t, i)) * o;
 			}
 			return this.toArray(function(e) {
 				return e.slice().sort(s);
 			}).then(t);
-		}, V.prototype.toArray = function(e) {
+		}, H.prototype.toArray = function(e) {
 			var t = this;
 			return this._read(function(e) {
 				var n, r, i, a = t._ctx;
-				return jt(a, !0) && 0 < a.limit ? (n = a.valueMapper, r = Pt(a, a.table.core.schema), a.table.core.query({
+				return At(a, !0) && 0 < a.limit ? (n = a.valueMapper, r = Nt(a, a.table.core.schema), a.table.core.query({
 					trans: e,
 					limit: a.limit,
 					values: !0,
@@ -5597,80 +5597,80 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 					}
 				}).then(function(e) {
 					return e = e.result, n ? e.map(n) : e;
-				})) : (i = [], It(a, function(e) {
+				})) : (i = [], Ft(a, function(e) {
 					return i.push(e);
 				}, e, a.table.core).then(function() {
 					return i;
 				}));
 			}, e);
-		}, V.prototype.offset = function(e) {
+		}, H.prototype.offset = function(e) {
 			var t = this._ctx;
-			return e <= 0 || (t.offset += e, jt(t) ? Nt(t, function() {
+			return e <= 0 || (t.offset += e, At(t) ? Mt(t, function() {
 				var t = e;
 				return function(e, n) {
 					return t === 0 || (t === 1 ? --t : n(function() {
 						e.advance(t), t = 0;
 					}), !1);
 				};
-			}) : Nt(t, function() {
+			}) : Mt(t, function() {
 				var t = e;
 				return function() {
 					return --t < 0;
 				};
 			})), this;
-		}, V.prototype.limit = function(e) {
-			return this._ctx.limit = Math.min(this._ctx.limit, e), Nt(this._ctx, function() {
+		}, H.prototype.limit = function(e) {
+			return this._ctx.limit = Math.min(this._ctx.limit, e), Mt(this._ctx, function() {
 				var t = e;
 				return function(e, n, r) {
 					return --t <= 0 && n(r), 0 <= t;
 				};
 			}, !0), this;
-		}, V.prototype.until = function(e, t) {
-			return Mt(this._ctx, function(n, r, i) {
+		}, H.prototype.until = function(e, t) {
+			return jt(this._ctx, function(n, r, i) {
 				return !e(n.value) || (r(i), t);
 			}), this;
-		}, V.prototype.first = function(e) {
+		}, H.prototype.first = function(e) {
 			return this.limit(1).toArray(function(e) {
 				return e[0];
 			}).then(e);
-		}, V.prototype.last = function(e) {
+		}, H.prototype.last = function(e) {
 			return this.reverse().first(e);
-		}, V.prototype.filter = function(e) {
+		}, H.prototype.filter = function(e) {
 			var t;
-			return Mt(this._ctx, function(t) {
+			return jt(this._ctx, function(t) {
 				return e(t.value);
 			}), (t = this._ctx).isMatch = vt(t.isMatch, e), this;
-		}, V.prototype.and = function(e) {
+		}, H.prototype.and = function(e) {
 			return this.filter(e);
-		}, V.prototype.or = function(e) {
+		}, H.prototype.or = function(e) {
 			return new this.db.WhereClause(this._ctx.table, e, this);
-		}, V.prototype.reverse = function() {
+		}, H.prototype.reverse = function() {
 			return this._ctx.dir = this._ctx.dir === "prev" ? "next" : "prev", this._ondirectionchange && this._ondirectionchange(this._ctx.dir), this;
-		}, V.prototype.desc = function() {
+		}, H.prototype.desc = function() {
 			return this.reverse();
-		}, V.prototype.eachKey = function(e) {
+		}, H.prototype.eachKey = function(e) {
 			var t = this._ctx;
 			return t.keysOnly = !t.isMatch, this.each(function(t, n) {
 				e(n.key, n);
 			});
-		}, V.prototype.eachUniqueKey = function(e) {
+		}, H.prototype.eachUniqueKey = function(e) {
 			return this._ctx.unique = "unique", this.eachKey(e);
-		}, V.prototype.eachPrimaryKey = function(e) {
+		}, H.prototype.eachPrimaryKey = function(e) {
 			var t = this._ctx;
 			return t.keysOnly = !t.isMatch, this.each(function(t, n) {
 				e(n.primaryKey, n);
 			});
-		}, V.prototype.keys = function(e) {
+		}, H.prototype.keys = function(e) {
 			var t = this._ctx, n = (t.keysOnly = !t.isMatch, []);
 			return this.each(function(e, t) {
 				n.push(t.key);
 			}).then(function() {
 				return n;
 			}).then(e);
-		}, V.prototype.primaryKeys = function(e) {
+		}, H.prototype.primaryKeys = function(e) {
 			var t = this._ctx;
-			if (jt(t, !0) && 0 < t.limit) return this._read(function(e) {
-				var n = Pt(t, t.table.core.schema);
+			if (At(t, !0) && 0 < t.limit) return this._read(function(e) {
+				var n = Nt(t, t.table.core.schema);
 				return t.table.core.query({
 					trans: e,
 					values: !1,
@@ -5691,21 +5691,21 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			}).then(function() {
 				return n;
 			}).then(e);
-		}, V.prototype.uniqueKeys = function(e) {
+		}, H.prototype.uniqueKeys = function(e) {
 			return this._ctx.unique = "unique", this.keys(e);
-		}, V.prototype.firstKey = function(e) {
+		}, H.prototype.firstKey = function(e) {
 			return this.limit(1).keys(function(e) {
 				return e[0];
 			}).then(e);
-		}, V.prototype.lastKey = function(e) {
+		}, H.prototype.lastKey = function(e) {
 			return this.reverse().firstKey(e);
-		}, V.prototype.distinct = function() {
+		}, H.prototype.distinct = function() {
 			var e, t = this._ctx, t = t.index && t.table.schema.idxByName[t.index];
-			return t && t.multi && (e = {}, Mt(this._ctx, function(t) {
+			return t && t.multi && (e = {}, jt(this._ctx, function(t) {
 				var t = t.primaryKey.toString(), n = l(e, t);
 				return e[t] = !0, !n;
 			})), this;
-		}, V.prototype.modify = function(e) {
+		}, H.prototype.modify = function(e) {
 			var t = this, n = this._ctx;
 			return this._write(function(r) {
 				function a(e, t) {
@@ -5717,8 +5717,8 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 					}
 				}
 				var o = typeof e == "function" ? e : function(t) {
-					return Dt(t, e);
-				}, s = n.table.core, c = s.schema.primaryKey, l = c.outbound, u = c.extractKey, d = 200, c = t.db._options.modifyChunkSize, f = (c && (d = typeof c == "object" ? c[s.name] || c["*"] || 200 : c), []), p = 0, m = [], h = e === zt;
+					return Et(t, e);
+				}, s = n.table.core, c = s.schema.primaryKey, l = c.outbound, u = c.extractKey, d = 200, c = t.db._options.modifyChunkSize, f = (c && (d = typeof c == "object" ? c[s.name] || c["*"] || 200 : c), []), p = 0, m = [], h = e === Rt;
 				return t.clone().primaryKeys().then(function(t) {
 					function i(f) {
 						var p = Math.min(d, t.length - f), m = t.slice(f, f + p);
@@ -5729,11 +5729,11 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 						})).then(function(g) {
 							var _ = [], v = [], y = l ? [] : null, b = h ? m : [];
 							if (!h) for (var x = 0; x < p; ++x) {
-								var S = g[x], C = {
-									value: ne(S),
+								var ee = g[x], S = {
+									value: re(ee),
 									primKey: t[f + x]
 								};
-								!1 !== o.call(C, C.value, C) && (C.value == null ? b.push(t[f + x]) : l || z(u(S), u(C.value)) === 0 ? (v.push(C.value), l && y.push(t[f + x])) : (b.push(t[f + x]), _.push(C.value)));
+								!1 !== o.call(S, S.value, S) && (S.value == null ? b.push(t[f + x]) : l || B(u(ee), u(S.value)) === 0 ? (v.push(S.value), l && y.push(t[f + x])) : (b.push(t[f + x]), _.push(S.value)));
 							}
 							return Promise.resolve(0 < _.length && s.mutate({
 								trans: r,
@@ -5762,7 +5762,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 									criteria: c,
 									isAdditionalChunk: 0 < f
 								}).then(function(e) {
-									return wt(n.table, b, e);
+									return Ct(n.table, b, e);
 								}).then(function(e) {
 									return a(b.length, e);
 								});
@@ -5771,19 +5771,19 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 							});
 						});
 					}
-					var c = jt(n) && n.limit === Infinity && (typeof e != "function" || h) && {
+					var c = At(n) && n.limit === Infinity && (typeof e != "function" || h) && {
 						index: n.index,
 						range: n.range
 					};
 					return i(0).then(function() {
-						if (0 < f.length) throw new de("Error modifying one or more objects", f, p, m);
+						if (0 < f.length) throw new fe("Error modifying one or more objects", f, p, m);
 						return t.length;
 					});
 				});
 			});
-		}, V.prototype.delete = function() {
+		}, H.prototype.delete = function() {
 			var e = this._ctx, t = e.range;
-			return !jt(e) || e.table.schema.yProps || !e.isPrimKey && t.type !== 3 ? this.modify(zt) : this._write(function(n) {
+			return !At(e) || e.table.schema.yProps || !e.isPrimKey && t.type !== 3 ? this.modify(Rt) : this._write(function(n) {
 				var r = e.table.core.schema.primaryKey, i = t;
 				return e.table.core.count({
 					trans: n,
@@ -5798,7 +5798,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 						range: i
 					}).then(function(e) {
 						var n = e.failures, e = e.numFailures;
-						if (e) throw new de("Could not delete some values", Object.keys(n).map(function(e) {
+						if (e) throw new fe("Could not delete some values", Object.keys(n).map(function(e) {
 							return n[e];
 						}), t - e);
 						return t - e;
@@ -5806,30 +5806,30 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 				});
 			});
 		};
-		var Rt = V;
-		function V() {}
-		var zt = function(e, t) {
+		var Lt = H;
+		function H() {}
+		var Rt = function(e, t) {
 			return t.value = null;
 		};
-		function Bt(e, t) {
+		function zt(e, t) {
 			return e < t ? -1 : e === t ? 0 : 1;
 		}
-		function Vt(e, t) {
+		function Bt(e, t) {
 			return t < e ? -1 : e === t ? 0 : 1;
 		}
-		function H(e, t, n) {
+		function U(e, t, n) {
 			return e = e instanceof G ? new e.Collection(e) : e, e._ctx.error = new (n || TypeError)(t), e;
 		}
-		function Ht(e) {
+		function Vt(e) {
 			return new e.Collection(e, function() {
 				return W("");
 			}).limit(0);
 		}
-		function Ut(e, t, n, r) {
+		function Ht(e, t, n, r) {
 			var i, a, o, s, c, l, u, d = n.length;
 			if (!n.every(function(e) {
 				return typeof e == "string";
-			})) return H(e, mt);
+			})) return U(e, mt);
 			function f(e) {
 				i = e === "next" ? function(e) {
 					return e.toUpperCase();
@@ -5839,7 +5839,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 					return e.toLowerCase();
 				} : function(e) {
 					return e.toUpperCase();
-				}, o = e === "next" ? Bt : Vt;
+				}, o = e === "next" ? zt : Bt;
 				var t = n.map(function(e) {
 					return {
 						lower: a(e),
@@ -5856,7 +5856,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			}
 			f("next");
 			var e = new e.Collection(e, function() {
-				return U(s[0], c[d - 1] + r);
+				return Ut(s[0], c[d - 1] + r);
 			}), p = (e._ondirectionchange = function(e) {
 				f(e);
 			}, 0);
@@ -5883,7 +5883,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 				return !1;
 			}), e;
 		}
-		function U(e, t, n, r) {
+		function Ut(e, t, n, r) {
 			return {
 				type: 2,
 				lower: e,
@@ -5908,63 +5908,63 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 		}), K.prototype.between = function(e, t, n, r) {
 			n = !1 !== n, r = !0 === r;
 			try {
-				return 0 < this._cmp(e, t) || this._cmp(e, t) === 0 && (n || r) && (!n || !r) ? Ht(this) : new this.Collection(this, function() {
-					return U(e, t, !n, !r);
+				return 0 < this._cmp(e, t) || this._cmp(e, t) === 0 && (n || r) && (!n || !r) ? Vt(this) : new this.Collection(this, function() {
+					return Ut(e, t, !n, !r);
 				});
 			} catch {
-				return H(this, pt);
+				return U(this, pt);
 			}
 		}, K.prototype.equals = function(e) {
-			return e == null ? H(this, pt) : new this.Collection(this, function() {
+			return e == null ? U(this, pt) : new this.Collection(this, function() {
 				return W(e);
 			});
 		}, K.prototype.above = function(e) {
-			return e == null ? H(this, pt) : new this.Collection(this, function() {
-				return U(e, void 0, !0);
+			return e == null ? U(this, pt) : new this.Collection(this, function() {
+				return Ut(e, void 0, !0);
 			});
 		}, K.prototype.aboveOrEqual = function(e) {
-			return e == null ? H(this, pt) : new this.Collection(this, function() {
-				return U(e, void 0, !1);
+			return e == null ? U(this, pt) : new this.Collection(this, function() {
+				return Ut(e, void 0, !1);
 			});
 		}, K.prototype.below = function(e) {
-			return e == null ? H(this, pt) : new this.Collection(this, function() {
-				return U(void 0, e, !1, !0);
+			return e == null ? U(this, pt) : new this.Collection(this, function() {
+				return Ut(void 0, e, !1, !0);
 			});
 		}, K.prototype.belowOrEqual = function(e) {
-			return e == null ? H(this, pt) : new this.Collection(this, function() {
-				return U(void 0, e);
+			return e == null ? U(this, pt) : new this.Collection(this, function() {
+				return Ut(void 0, e);
 			});
 		}, K.prototype.startsWith = function(e) {
-			return typeof e == "string" ? this.between(e, e + ft, !0, !0) : H(this, mt);
+			return typeof e == "string" ? this.between(e, e + ft, !0, !0) : U(this, mt);
 		}, K.prototype.startsWithIgnoreCase = function(e) {
-			return e === "" ? this.startsWith(e) : Ut(this, function(e, t) {
+			return e === "" ? this.startsWith(e) : Ht(this, function(e, t) {
 				return e.indexOf(t[0]) === 0;
 			}, [e], ft);
 		}, K.prototype.equalsIgnoreCase = function(e) {
-			return Ut(this, function(e, t) {
+			return Ht(this, function(e, t) {
 				return e === t[0];
 			}, [e], "");
 		}, K.prototype.anyOfIgnoreCase = function() {
-			var e = O.apply(oe, arguments);
-			return e.length === 0 ? Ht(this) : Ut(this, function(e, t) {
+			var e = D.apply(se, arguments);
+			return e.length === 0 ? Vt(this) : Ht(this, function(e, t) {
 				return t.indexOf(e) !== -1;
 			}, e, "");
 		}, K.prototype.startsWithAnyOfIgnoreCase = function() {
-			var e = O.apply(oe, arguments);
-			return e.length === 0 ? Ht(this) : Ut(this, function(e, t) {
+			var e = D.apply(se, arguments);
+			return e.length === 0 ? Vt(this) : Ht(this, function(e, t) {
 				return t.some(function(t) {
 					return e.indexOf(t) === 0;
 				});
 			}, e, ft);
 		}, K.prototype.anyOf = function() {
-			var e, t, n = this, r = O.apply(oe, arguments), i = this._cmp;
+			var e, t, n = this, r = D.apply(se, arguments), i = this._cmp;
 			try {
 				r.sort(i);
 			} catch {
-				return H(this, pt);
+				return U(this, pt);
 			}
-			return r.length === 0 ? Ht(this) : ((e = new this.Collection(this, function() {
-				return U(r[0], r[r.length - 1]);
+			return r.length === 0 ? Vt(this) : ((e = new this.Collection(this, function() {
+				return Ut(r[0], r[r.length - 1]);
 			}))._ondirectionchange = function(e) {
 				i = e === "next" ? n._ascending : n._descending, r.sort(i);
 			}, t = 0, e._addAlgorithm(function(e, n, a) {
@@ -5979,12 +5979,12 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 				includeUppers: !1
 			});
 		}, K.prototype.noneOf = function() {
-			var e = O.apply(oe, arguments);
+			var e = D.apply(se, arguments);
 			if (e.length === 0) return new this.Collection(this);
 			try {
 				e.sort(this._ascending);
 			} catch {
-				return H(this, pt);
+				return U(this, pt);
 			}
 			var t = e.reduce(function(e, t) {
 				return e ? e.concat([[e[e.length - 1][1], t]]) : [[-Infinity, t]];
@@ -5995,10 +5995,10 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			});
 		}, K.prototype.inAnyRange = function(e, t) {
 			var n = this, r = this._cmp, i = this._ascending, a = this._descending, o = this._min, s = this._max;
-			if (e.length === 0) return Ht(this);
+			if (e.length === 0) return Vt(this);
 			if (!e.every(function(e) {
 				return e[0] !== void 0 && e[1] !== void 0 && i(e[0], e[1]) <= 0;
-			})) return H(this, "First argument to inAnyRange() must be an Array of two-value Arrays [lower,upper] where upper must not be lower than lower", j.InvalidArgument);
+			})) return U(this, "First argument to inAnyRange() must be an Array of two-value Arrays [lower,upper] where upper must not be lower than lower", j.InvalidArgument);
 			var c = !t || !1 !== t.includeLowers, l = t && !0 === t.includeUppers, u, d = i;
 			function f(e, t) {
 				return d(e[0], t[0]);
@@ -6015,7 +6015,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 					return n === i && e.push(t), e;
 				}, [])).sort(f);
 			} catch {
-				return H(this, pt);
+				return U(this, pt);
 			}
 			var p = 0, m = l ? function(e) {
 				return 0 < i(e, u[p][1]);
@@ -6026,7 +6026,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			} : function(e) {
 				return 0 <= a(e, u[p][0]);
 			}, g = m, t = new this.Collection(this, function() {
-				return U(u[0][0], u[u.length - 1][1], !c, !l);
+				return Ut(u[0][0], u[u.length - 1][1], !c, !l);
 			});
 			return t._ondirectionchange = function(e) {
 				d = e === "next" ? (g = m, i) : (g = h, a), u.sort(f);
@@ -6037,24 +6037,24 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 				}), !1);
 			}), t;
 		}, K.prototype.startsWithAnyOf = function() {
-			var e = O.apply(oe, arguments);
+			var e = D.apply(se, arguments);
 			return e.every(function(e) {
 				return typeof e == "string";
-			}) ? e.length === 0 ? Ht(this) : this.inAnyRange(e.map(function(e) {
+			}) ? e.length === 0 ? Vt(this) : this.inAnyRange(e.map(function(e) {
 				return [e, e + ft];
-			})) : H(this, "startsWithAnyOf() only works with strings");
+			})) : U(this, "startsWithAnyOf() only works with strings");
 		};
 		var G = K;
 		function K() {}
-		function q(e) {
+		function Wt(e) {
 			return I(function(t) {
-				return J(t), e(t.target.error), !1;
+				return Gt(t), e(t.target.error), !1;
 			});
 		}
-		function J(e) {
+		function Gt(e) {
 			e.stopPropagation && e.stopPropagation(), e.preventDefault && e.preventDefault();
 		}
-		var Wt = "storagemutated", Gt = "x-storagemutated-1", Kt = kt(null, Wt), qt = (Jt.prototype._lock = function() {
+		var q = "storagemutated", Kt = "x-storagemutated-1", J = Ot(null, q), qt = (Jt.prototype._lock = function() {
 			return v(!N.global), ++this._reculock, this._reculock !== 1 || N.global || (N.lockOwnerFor = this), this;
 		}, Jt.prototype._unlock = function() {
 			if (v(!N.global), --this._reculock == 0) for (N.global || (N.lockOwnerFor = null); 0 < this._blockedFuncs.length && !this._locked();) {
@@ -6077,11 +6077,11 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 				}
 				if (!this.active) throw new j.TransactionInactive();
 				v(this._completion._state === null), (e = this.idbtrans = e || (this.db.core || n).transaction(this.storeNames, this.mode, { durability: this.chromeTransactionDurability })).onerror = I(function(n) {
-					J(n), t._reject(e.error);
+					Gt(n), t._reject(e.error);
 				}), e.onabort = I(function(n) {
-					J(n), t.active && t._reject(new j.Abort(e.error)), t.active = !1, t.on("abort").fire(n);
+					Gt(n), t.active && t._reject(new j.Abort(e.error)), t.active = !1, t.on("abort").fire(n);
 				}), e.oncomplete = I(function() {
-					t.active = !1, t._resolve(), "mutatedParts" in e && Kt.storagemutated.fire(e.mutatedParts);
+					t.active = !1, t._resolve(), "mutatedParts" in e && J.storagemutated.fire(e.mutatedParts);
 				});
 			}
 			return this;
@@ -6161,18 +6161,18 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			};
 			var r;
 		}
-		var Y = function(e) {
+		var Qt = function(e) {
 			try {
-				return e.only([[]]), Y = function() {
+				return e.only([[]]), Qt = function() {
 					return [[]];
 				}, [[]];
 			} catch {
-				return Y = function() {
+				return Qt = function() {
 					return ft;
 				}, ft;
 			}
 		};
-		function Qt(e) {
+		function Y(e) {
 			return e == null ? function() {} : typeof e == "string" ? (t = e).split(".").length === 1 ? function(e) {
 				return e[t];
 			} : function(e) {
@@ -6216,7 +6216,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 								lastResult: void 0
 							});
 							function m(e) {
-								++_, J(e);
+								++_, Gt(e);
 							}
 							var h = [], g = [], _ = 0;
 							if (n === "deleteRange") {
@@ -6255,7 +6255,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 							e = I(e);
 							for (var a, o = t.objectStore(i), s = n.length, c = Array(s), l = 0, u = 0, d = function(t) {
 								t = t.target, c[t._pos] = t.result, ++u === l && e(c);
-							}, f = q(r), p = 0; p < s; ++p) n[p] != null && ((a = o.get(n[p]))._pos = p, a.onsuccess = d, a.onerror = f, ++l);
+							}, f = Wt(r), p = 0; p < s; ++p) n[p] != null && ((a = o.get(n[p]))._pos = p, a.onsuccess = d, a.onerror = f, ++l);
 							l === 0 && e(c);
 						});
 					},
@@ -6266,7 +6266,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 							var a = t.objectStore(i).get(n);
 							a.onsuccess = function(t) {
 								return e(t.target.result);
-							}, a.onerror = q(r);
+							}, a.onerror = Wt(r);
 						});
 					},
 					query: (t = c, n = l, function(e) {
@@ -6280,12 +6280,12 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 								direction: h
 							}, (s = f ? d.getAll(m) : d.getAllKeys(m)).onsuccess = function(e) {
 								return a({ result: e.target.result });
-							}, s.onerror = q(o)) : t && h === "next" ? ((s = f ? d.getAll(_, g) : d.getAllKeys(_, g)).onsuccess = function(e) {
+							}, s.onerror = Wt(o)) : t && h === "next" ? ((s = f ? d.getAll(_, g) : d.getAllKeys(_, g)).onsuccess = function(e) {
 								return a({ result: e.target.result });
-							}, s.onerror = q(o)) : (c = 0, l = !f && "openKeyCursor" in d ? d.openKeyCursor(_, h) : d.openCursor(_, h), u = [], l.onsuccess = function() {
+							}, s.onerror = Wt(o)) : (c = 0, l = !f && "openKeyCursor" in d ? d.openKeyCursor(_, h) : d.openCursor(_, h), u = [], l.onsuccess = function() {
 								var e = l.result;
 								return !e || (u.push(f ? e.value : e.primaryKey), ++c === p) ? a({ result: u }) : void e.continue();
-							}, l.onerror = q(o));
+							}, l.onerror = Wt(o));
 						});
 					}),
 					openCursor: function(e) {
@@ -6293,7 +6293,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 						return new Promise(function(e, c) {
 							e = I(e);
 							var l = a.index, u = a.range, d = t.objectStore(i), d = l.isPrimaryKey ? d : d.index(l.name), l = o ? s ? "prevunique" : "prev" : s ? "nextunique" : "next", f = !n && "openKeyCursor" in d ? d.openKeyCursor(r(u), l) : d.openCursor(r(u), l);
-							f.onerror = q(c), f.onsuccess = I(function(n) {
+							f.onerror = Wt(c), f.onsuccess = I(function(n) {
 								var r, i, a, o, s = f.result;
 								s ? (s.___id = ++en, s.done = !1, r = s.continue.bind(s), i = (i = s.continuePrimaryKey) && i.bind(s), a = s.advance.bind(s), o = function() {
 									throw Error("Cursor not stopped");
@@ -6318,7 +6318,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 										}, s.stop();
 									}
 									var n = new Promise(function(e, t) {
-										e = I(e), f.onerror = q(t), s.fail = t, s.stop = function(t) {
+										e = I(e), f.onerror = Wt(t), s.fail = t, s.stop = function(t) {
 											s.stop = s.continue = s.continuePrimaryKey = s.advance = o, e(t);
 										};
 									});
@@ -6335,7 +6335,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 							var s = n.objectStore(i), s = a.isPrimaryKey ? s : s.index(a.name), c = r(o), c = c ? s.count(c) : s.count();
 							c.onsuccess = I(function(t) {
 								return e(t.target.result);
-							}), c.onerror = q(t);
+							}), c.onerror = Wt(t);
 						});
 					}
 				};
@@ -6357,7 +6357,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 								keyPath: t,
 								autoIncrement: n,
 								unique: !0,
-								extractKey: Qt(t)
+								extractKey: Y(t)
 							},
 							indexes: $t(e.indexNames).map(function(t) {
 								return e.index(t);
@@ -6368,7 +6368,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 									keyPath: e,
 									unique: n,
 									multiEntry: r,
-									extractKey: Qt(e)
+									extractKey: Y(e)
 								};
 								return i[tn(e)] = t;
 							}),
@@ -6392,7 +6392,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 					throw Error(`Table '${e}' not found`);
 				},
 				MIN_KEY: -Infinity,
-				MAX_KEY: Y(t),
+				MAX_KEY: Qt(t),
 				schema: s
 			};
 		}
@@ -6465,9 +6465,9 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 									return t.deleteIndex(e);
 								});
 							}), e._cfg.contentUpgrade);
-							if (p && e._cfg.version > a) return an(r, c), s._memoizedTables = {}, t = S(d), f.del.forEach(function(e) {
+							if (p && e._cfg.version > a) return an(r, c), s._memoizedTables = {}, t = ee(d), f.del.forEach(function(e) {
 								t[e] = l[e];
-							}), sn(r, [r.Transaction.prototype]), on(r, [r.Transaction.prototype], i(t), t), s.schema = t, (n = se(p)) && rt(), d = F.follow(function() {
+							}), sn(r, [r.Transaction.prototype]), on(r, [r.Transaction.prototype], i(t), t), s.schema = t, (n = ce(p)) && rt(), d = F.follow(function() {
 								var e;
 								(o = p(s)) && n && (e = it.bind(null, null), o.then(e, e));
 							}), o && typeof o.then == "function" ? F.resolve(o) : d.then(function() {
@@ -6687,7 +6687,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			} : { d: 0 });
 		};
 		function Tn(e, t, n) {
-			var r = z(t, n);
+			var r = B(t, n);
 			if (!isNaN(r)) {
 				if (0 < r) throw RangeError();
 				if (wn(e)) return o(e, {
@@ -6696,21 +6696,21 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 					d: 1
 				});
 				var r = e.l, i = e.r;
-				if (z(n, e.from) < 0) return r ? Tn(r, t, n) : e.l = {
+				if (B(n, e.from) < 0) return r ? Tn(r, t, n) : e.l = {
 					from: t,
 					to: n,
 					d: 1,
 					l: null,
 					r: null
 				}, kn(e);
-				if (0 < z(t, e.to)) return i ? Tn(i, t, n) : e.r = {
+				if (0 < B(t, e.to)) return i ? Tn(i, t, n) : e.r = {
 					from: t,
 					to: n,
 					d: 1,
 					l: null,
 					r: null
 				}, kn(e);
-				z(t, e.from) < 0 && (e.from = t, e.l = null, e.d = i ? i.d + 1 : 1), 0 < z(n, e.to) && (e.to = n, e.r = null, e.d = e.l ? e.l.d + 1 : 1), t = !e.r, r && !e.l && En(e, r), i && t && En(e, i);
+				B(t, e.from) < 0 && (e.from = t, e.l = null, e.d = i ? i.d + 1 : 1), 0 < B(n, e.to) && (e.to = n, e.r = null, e.d = e.l ? e.l.d + 1 : 1), t = !e.r, r && !e.l && En(e, r), i && t && En(e, i);
 			}
 		}
 		function En(e, t) {
@@ -6722,8 +6722,8 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 		function Dn(e, t) {
 			var n = On(t), r = n.next();
 			if (!r.done) for (var i = r.value, a = On(e), o = a.next(i.from), s = o.value; !r.done && !o.done;) {
-				if (z(s.from, i.to) <= 0 && 0 <= z(s.to, i.from)) return !0;
-				z(i.from, s.from) < 0 ? i = (r = n.next(s.from)).value : s = (o = a.next(i.from)).value;
+				if (B(s.from, i.to) <= 0 && 0 <= B(s.to, i.from)) return !0;
+				B(i.from, s.from) < 0 ? i = (r = n.next(s.from)).value : s = (o = a.next(i.from)).value;
 			}
 			return !1;
 		}
@@ -6734,7 +6734,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			};
 			return { next: function(e) {
 				for (var n = 0 < arguments.length; t;) switch (t.s) {
-					case 0: if (t.s = 1, n) for (; t.n.l && z(e, t.n.from) < 0;) t = {
+					case 0: if (t.s = 1, n) for (; t.n.l && B(e, t.n.from) < 0;) t = {
 						up: t,
 						n: t.n.l,
 						s: 1
@@ -6744,7 +6744,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 						n: t.n.l,
 						s: 1
 					};
-					case 1: if (t.s = 2, !n || z(e, t.n.to) <= 0) return {
+					case 1: if (t.s = 2, !n || B(e, t.n.to) <= 0) return {
 						value: t.n,
 						done: !1
 					};
@@ -6773,7 +6773,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			return i(t).forEach(function(n) {
 				e[n] ? En(e[n], t[n]) : e[n] = function e(t) {
 					var n, r, i = {};
-					for (n in t) l(t, n) && (r = t[n], i[n] = !r || typeof r != "object" || ee.has(r.constructor) ? r : e(r));
+					for (n in t) l(t, n) && (r = t[n], i[n] = !r || typeof r != "object" || te.has(r.constructor) ? r : e(r));
 					return i;
 				}(t[n]);
 			}), e;
@@ -6783,7 +6783,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 				return t[n] && Dn(t[n], e[n]);
 			});
 		}
-		u(X.prototype, ((k = {
+		u(X.prototype, ((O = {
 			add: function(e) {
 				return En(this, e), this;
 			},
@@ -6798,11 +6798,11 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			},
 			hasKey: function(e) {
 				var t = On(this).next(e).value;
-				return t && z(t.from, e) <= 0 && 0 <= z(t.to, e);
+				return t && B(t.from, e) <= 0 && 0 <= B(t.to, e);
 			}
-		})[ae] = function() {
+		})[oe] = function() {
 			return On(this);
-		}, k));
+		}, O));
 		var Nn = {}, Pn = {}, Fn = !1;
 		function In(e) {
 			jn(Pn, e), Fn || (Fn = !0, setTimeout(function() {
@@ -6851,11 +6851,11 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 					if (s(), !n) throw new j.MissingAPI();
 					var u = e.name, p = t.autoSchema || !a ? n.open(u) : n.open(u, a);
 					if (!p) throw new j.MissingAPI();
-					p.onerror = q(l), p.onblocked = I(e._fireOnBlocked), p.onupgradeneeded = I(function(r) {
+					p.onerror = Wt(l), p.onblocked = I(e._fireOnBlocked), p.onupgradeneeded = I(function(r) {
 						var i;
-						d = p.transaction, t.autoSchema && !e._options.allowEmptyDB ? (p.onerror = J, d.abort(), p.result.close(), (i = n.deleteDatabase(u)).onsuccess = i.onerror = I(function() {
+						d = p.transaction, t.autoSchema && !e._options.allowEmptyDB ? (p.onerror = Gt, d.abort(), p.result.close(), (i = n.deleteDatabase(u)).onsuccess = i.onerror = I(function() {
 							l(new j.NoSuchDatabase(`Database ${u} doesnt exist`));
-						})) : (d.onerror = q(l), i = r.oldVersion > 2 ** 62 ? 0 : r.oldVersion, f = i < 1, e.idbdb = p.result, o && un(e, d), ln(e, i / 10, d, l));
+						})) : (d.onerror = Wt(l), i = r.oldVersion > 2 ** 62 ? 0 : r.oldVersion, f = i < 1, e.idbdb = p.result, o && un(e, d), ln(e, i / 10, d, l));
 					}, l), p.onsuccess = I(function() {
 						d = null;
 						var n, s, l, m, h, _, v = e.idbdb = p.result, y = g(v.objectStoreNames);
@@ -6916,7 +6916,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 					n.schema.indexes.forEach(function(r) {
 						r.name && (t[`idb://${e.name}/${n.name}/${r.name}`] = new X(-Infinity, [[[]]]));
 					}), t[`idb://${e.name}/${n.name}/`] = t[`idb://${e.name}/${n.name}/:dels`] = new X(-Infinity, [[[]]]);
-				}), Kt(Wt).fire(t), Ln(t, !0)), e;
+				}), J(q).fire(t), Ln(t, !0)), e;
 			});
 		}
 		function Bn(e) {
@@ -6952,7 +6952,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 							isVirtual: u,
 							keyTail: n,
 							keyLength: l,
-							extractKey: Qt(e),
+							extractKey: Y(e),
 							unique: !u && r.unique
 						});
 						return c.push(s), s.isPrimaryKey || a.push(s), 1 < l && o(l === 2 ? e[0] : e.slice(0, l - 1), n + 1, r), c.sort(function(e, t) {
@@ -7025,7 +7025,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 		function Un(e, t, n, r) {
 			return n ||= {}, r ||= "", i(e).forEach(function(i) {
 				var a, o, s;
-				l(t, i) ? (a = e[i], o = t[i], typeof a == "object" && typeof o == "object" && a && o ? (s = ie(a)) === ie(o) ? s === "Object" ? Un(a, o, n, r + i + ".") : a !== o && (n[r + i] = t[i]) : n[r + i] = t[i] : a !== o && (n[r + i] = t[i])) : n[r + i] = void 0;
+				l(t, i) ? (a = e[i], o = t[i], typeof a == "object" && typeof o == "object" && a && o ? (s = ae(a)) === ae(o) ? s === "Object" ? Un(a, o, n, r + i + ".") : a !== o && (n[r + i] = t[i]) : n[r + i] = t[i] : a !== o && (n[r + i] = t[i])) : n[r + i] = void 0;
 			}), i(t).forEach(function(i) {
 				l(e, i) || (n[r + i] = t[i]);
 			}), n;
@@ -7133,7 +7133,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 		function Kn(e, t, n) {
 			try {
 				if (!t || t.keys.length < e.length) return null;
-				for (var r = [], i = 0, a = 0; i < t.keys.length && a < e.length; ++i) z(t.keys[i], e[a]) === 0 && (r.push(n ? ne(t.values[i]) : t.values[i]), ++a);
+				for (var r = [], i = 0, a = 0; i < t.keys.length && a < e.length; ++i) B(t.keys[i], e[a]) === 0 && (r.push(n ? re(t.values[i]) : t.values[i]), ++a);
 				return r.length === e.length ? r : null;
 			} catch {
 				return null;
@@ -7151,7 +7151,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 							return e.cache ? (t = Kn(e.keys, e.trans._cache, e.cache === "clone")) ? F.resolve(t) : r.getMany(e).then(function(t) {
 								return e.trans._cache = {
 									keys: e.keys,
-									values: e.cache === "clone" ? ne(t) : t
+									values: e.cache === "clone" ? re(t) : t
 								}, t;
 							}) : r.getMany(e);
 						},
@@ -7211,7 +7211,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 								}
 								(d || f).forEach(function(e, t) {
 									var i = d && n(d[t]), t = f && n(f[t]);
-									z(i, t) !== 0 && (i != null && r(i), t != null) && r(t);
+									B(i, t) !== 0 && (i != null && r(i), t != null) && r(t);
 								});
 							}))) : b ? (y = {
 								from: (x = b.lower) ?? e.MIN_KEY,
@@ -7290,7 +7290,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			})), i);
 		}
 		function Qn(e, t) {
-			return n = e, ((r = t).lower === void 0 || (r.lowerOpen ? 0 < z(n, r.lower) : 0 <= z(n, r.lower))) && (n = e, (r = t).upper === void 0 || (r.upperOpen ? z(n, r.upper) < 0 : z(n, r.upper) <= 0));
+			return n = e, ((r = t).lower === void 0 || (r.lowerOpen ? 0 < B(n, r.lower) : 0 <= B(n, r.lower))) && (n = e, (r = t).upper === void 0 || (r.upperOpen ? B(n, r.upper) < 0 : B(n, r.upper) <= 0));
 			var n, r;
 		}
 		function $n(e, t, n, r, i, o) {
@@ -7339,19 +7339,19 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 				}
 				return r;
 			}, e)) === e) ? e : (p = function(e, t) {
-				return z(f(e), f(t)) || z(u(e), u(t));
+				return B(f(e), f(t)) || B(u(e), u(t));
 			}, r.sort(t.direction === "prev" || t.direction === "prevunique" ? function(e, t) {
 				return p(t, e);
 			} : p), t.limit && t.limit < Infinity && (r.length > t.limit ? r.length = t.limit : e.length === t.limit && r.length < t.limit && (i.dirty = !0)), o ? Object.freeze(r) : r);
 		}
 		function er(e, t) {
-			return z(e.lower, t.lower) === 0 && z(e.upper, t.upper) === 0 && !!e.lowerOpen == !!t.lowerOpen && !!e.upperOpen == !!t.upperOpen;
+			return B(e.lower, t.lower) === 0 && B(e.upper, t.upper) === 0 && !!e.lowerOpen == !!t.lowerOpen && !!e.upperOpen == !!t.upperOpen;
 		}
 		function tr(e, t) {
 			return ((e, t, n, r) => {
 				if (e === void 0) return t === void 0 ? 0 : -1;
 				if (t === void 0) return 1;
-				if ((e = z(e, t)) === 0) {
+				if ((e = B(e, t)) === 0) {
 					if (n && r) return 0;
 					if (n) return 1;
 					if (r) return -1;
@@ -7360,7 +7360,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			})(e.lower, t.lower, e.lowerOpen, t.lowerOpen) <= 0 && 0 <= ((e, t, n, r) => {
 				if (e === void 0) return t === void 0 ? 0 : 1;
 				if (t === void 0) return -1;
-				if ((e = z(e, t)) === 0) {
+				if ((e = B(e, t)) === 0) {
 					if (n && r) return 0;
 					if (n) return -1;
 					if (r) return 1;
@@ -7372,7 +7372,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			e.subscribers.add(n), r.addEventListener("abort", function() {
 				var r, i;
 				e.subscribers.delete(n), e.subscribers.size === 0 && (r = e, i = t, setTimeout(function() {
-					r.subscribers.size === 0 && D(i, r);
+					r.subscribers.size === 0 && E(i, r);
 				}, 3e3));
 			});
 		}
@@ -7394,16 +7394,16 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 											var f = e.table(u), p = d.optimisticOps.filter(function(e) {
 												return e.trans === s;
 											});
-											if (s._explicit && i && s.mutatedParts) for (var m = 0, h = Object.values(d.queries.query); m < h.length; m++) for (var g = 0, _ = (b = h[m]).slice(); g < _.length; g++) Mn((x = _[g]).obsSet, s.mutatedParts) && (D(b, x), x.subscribers.forEach(function(e) {
+											if (s._explicit && i && s.mutatedParts) for (var m = 0, h = Object.values(d.queries.query); m < h.length; m++) for (var g = 0, _ = (b = h[m]).slice(); g < _.length; g++) Mn((x = _[g]).obsSet, s.mutatedParts) && (E(b, x), x.subscribers.forEach(function(e) {
 												return o.add(e);
 											}));
 											else if (0 < p.length) {
 												d.optimisticOps = d.optimisticOps.filter(function(e) {
 													return e.trans !== s;
 												});
-												for (var v = 0, y = Object.values(d.queries.query); v < y.length; v++) for (var b, x, S, C = 0, w = (b = y[v]).slice(); C < w.length; C++) (x = w[C]).res != null && s.mutatedParts && (i && !x.dirty ? (S = Object.isFrozen(x.res), S = $n(x.res, x.req, p, f, x, S), x.dirty ? (D(b, x), x.subscribers.forEach(function(e) {
+												for (var v = 0, y = Object.values(d.queries.query); v < y.length; v++) for (var b, x, ee, S = 0, C = (b = y[v]).slice(); S < C.length; S++) (x = C[S]).res != null && s.mutatedParts && (i && !x.dirty ? (ee = Object.isFrozen(x.res), ee = $n(x.res, x.req, p, f, x, ee), x.dirty ? (E(b, x), x.subscribers.forEach(function(e) {
 													return o.add(e);
-												})) : S !== x.res && (x.res = S, x.promise = F.resolve({ result: S }))) : (x.dirty && D(b, x), x.subscribers.forEach(function(e) {
+												})) : ee !== x.res && (x.res = ee, x.promise = F.resolve({ result: ee }))) : (x.dirty && E(b, x), x.subscribers.forEach(function(e) {
 													return o.add(e);
 												})));
 											}
@@ -7424,13 +7424,13 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 								return !a.outbound && s.db._options.cache !== "disabled" && !s.explicit && s.idbtrans.mode === "readwrite" && (o = Nn[`idb://${n}/${r}`]) ? (s = i.mutate(e), e.type !== "add" && e.type !== "put" || !(50 <= e.values.length || Wn(a, e).some(function(e) {
 									return e == null;
 								})) ? (o.optimisticOps.push(e), e.mutatedParts && In(e.mutatedParts), s.then(function(t) {
-									0 < t.numFailures && (D(o.optimisticOps, e), (t = Zn(0, e, t)) && o.optimisticOps.push(t), e.mutatedParts) && In(e.mutatedParts);
+									0 < t.numFailures && (E(o.optimisticOps, e), (t = Zn(0, e, t)) && o.optimisticOps.push(t), e.mutatedParts) && In(e.mutatedParts);
 								}), s.catch(function() {
-									D(o.optimisticOps, e), e.mutatedParts && In(e.mutatedParts);
+									E(o.optimisticOps, e), e.mutatedParts && In(e.mutatedParts);
 								})) : s.then(function(n) {
 									var r = Zn(0, t(t({}, e), { values: e.values.map(function(e, r) {
 										var i;
-										return n.failures[r] ? e : (x(i = (i = a.keyPath) != null && i.includes(".") ? ne(e) : t({}, e), a.keyPath, n.results[r]), i);
+										return n.failures[r] ? e : (x(i = (i = a.keyPath) != null && i.includes(".") ? re(e) : t({}, e), a.keyPath, n.results[r]), i);
 									}) }), n);
 									o.optimisticOps.push(r), queueMicrotask(function() {
 										return e.mutatedParts && In(e.mutatedParts);
@@ -7479,7 +7479,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 									}
 									return e;
 								}).catch(function(e) {
-									return c && u && D(c, u), Promise.reject(e);
+									return c && u && E(c, u), Promise.reject(e);
 								}), u = {
 									obsSet: e.obsSet,
 									promise: l,
@@ -7496,7 +7496,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 									optimisticOps: [],
 									unsignaledParts: {}
 								}).queries.query[e.query.index.name || ""] = c)), nr(u, c, a, o), u.promise.then(function(n) {
-									return n = $n(n.result, e, s?.optimisticOps, i, u, t), { result: t ? n : ne(n) };
+									return n = $n(n.result, e, s?.optimisticOps, i, u, t), { result: t ? n : re(n) };
 								})) : i.query(e);
 							}
 						});
@@ -7576,7 +7576,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 					n.onsuccess = I(function() {
 						var e = t._deps, n = t.name, r;
 						Sn(r = e.indexedDB) || n === ht || xn(r, e.IDBKeyRange).delete(n).catch(M), i();
-					}), n.onerror = q(a), n.onblocked = t._fireOnBlocked;
+					}), n.onerror = Wt(a), n.onblocked = t._fireOnBlocked;
 				}
 				if (n) throw new j.InvalidArgument("Invalid closeOptions argument to db.delete()");
 				r.isBeingOpened ? r.dbReadyPromise.then(o) : o();
@@ -7608,7 +7608,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 				for (var i = Array(r - 1); --r;) i[r - 1] = arguments[r];
 				return n = i.pop(), [
 					e,
-					w(i),
+					C(i),
 					n
 				];
 			}.apply(this, arguments);
@@ -7652,11 +7652,11 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 					else try {
 						s.create(), s.idbtrans._explicit = !0, t._state.PR1398_maxLoop = 3;
 					} catch (i) {
-						return i.name === fe.InvalidState && t.isOpen() && 0 < --t._state.PR1398_maxLoop ? (console.warn("Dexie: Need to reopen db"), t.close({ disableAutoOpen: !1 }), t.open().then(function() {
+						return i.name === pe.InvalidState && t.isOpen() && 0 < --t._state.PR1398_maxLoop ? (console.warn("Dexie: Need to reopen db"), t.close({ disableAutoOpen: !1 }), t.open().then(function() {
 							return e(t, n, r, null, a);
 						})) : R(i);
 					}
-					var c, l = se(a), o = (l && rt(), F.follow(function() {
+					var c, l = ce(a), o = (l && rt(), F.follow(function() {
 						var e;
 						(c = a.call(s, s)) && (l ? (e = it.bind(null, null), c.then(e, e)) : typeof c.next == "function" && typeof c.throw == "function" && (c = Bn(c)));
 					}, o));
@@ -7708,7 +7708,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 				u.dbReadyResolve = e;
 			}), u.openCanceller = new F(function(e, t) {
 				u.cancelOpen = t;
-			}), this._state = u, this.name = e, this.on = kt(this, "populate", "blocked", "versionchange", "close", { ready: [Se, M] }), this.once = function(e, t) {
+			}), this._state = u, this.name = e, this.on = Ot(this, "populate", "blocked", "versionchange", "close", { ready: [Se, M] }), this.once = function(e, t) {
 				var n = function() {
 					var r = [...arguments];
 					c.on(e).unsubscribe(n), t.apply(c, r);
@@ -7723,7 +7723,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 						}));
 					});
 				};
-			}), this.Collection = (r = this, At(Rt.prototype, function(e, t) {
+			}), this.Collection = (r = this, kt(Lt.prototype, function(e, t) {
 				this.db = r;
 				var n = yt, i = null;
 				if (t) try {
@@ -7751,20 +7751,20 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 					or: t.or,
 					valueMapper: a === he ? null : a
 				};
-			})), this.Table = (i = this, At(Ot.prototype, function(e, t, n) {
-				this.db = i, this._tx = n, this.name = e, this.schema = t, this.hook = i._allTables[e] ? i._allTables[e].hook : kt(null, {
+			})), this.Table = (i = this, kt(Dt.prototype, function(e, t, n) {
+				this.db = i, this._tx = n, this.name = e, this.schema = t, this.hook = i._allTables[e] ? i._allTables[e].hook : Ot(null, {
 					creating: [ve, M],
 					reading: [ge, he],
 					updating: [be, M],
 					deleting: [ye, M]
 				});
-			})), this.Transaction = (a = this, At(qt.prototype, function(e, t, n, r, i) {
+			})), this.Transaction = (a = this, kt(qt.prototype, function(e, t, n, r, i) {
 				var o = this;
 				e !== "readonly" && t.forEach(function(e) {
 					e = (e = n[e])?.yProps, e && (t = t.concat(e.map(function(e) {
 						return e.updatesTable;
 					})));
-				}), this.db = a, this.mode = e, this.storeNames = t, this.schema = n, this.chromeTransactionDurability = r, this.idbtrans = null, this.on = kt(this, "complete", "error", "abort"), this.parent = i || null, this.active = !0, this._reculock = 0, this._blockedFuncs = [], this._resolve = null, this._reject = null, this._waitingFor = null, this._waitingQueue = null, this._spinCount = 0, this._completion = new F(function(e, t) {
+				}), this.db = a, this.mode = e, this.storeNames = t, this.schema = n, this.chromeTransactionDurability = r, this.idbtrans = null, this.on = Ot(this, "complete", "error", "abort"), this.parent = i || null, this.active = !0, this._reculock = 0, this._blockedFuncs = [], this._resolve = null, this._reject = null, this._waitingFor = null, this._waitingQueue = null, this._spinCount = 0, this._completion = new F(function(e, t) {
 					o._resolve = e, o._reject = t;
 				}), this._completion.then(function() {
 					o.active = !1, o.on.complete.fire();
@@ -7772,7 +7772,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 					var t = o.active;
 					return o.active = !1, o.on.error.fire(e), o.parent ? o.parent._reject(e) : t && o.idbtrans && o.idbtrans.abort(), R(e);
 				});
-			})), this.Version = (o = this, At(vn.prototype, function(e) {
+			})), this.Version = (o = this, kt(vn.prototype, function(e) {
 				this.db = o, this._cfg = {
 					version: e,
 					storesSource: null,
@@ -7780,23 +7780,23 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 					tables: {},
 					contentUpgrade: null
 				};
-			})), this.WhereClause = (s = this, At(G.prototype, function(e, t, n) {
+			})), this.WhereClause = (s = this, kt(G.prototype, function(e, t, n) {
 				if (this.db = s, this._ctx = {
 					table: e,
 					index: t === ":id" ? null : t,
 					or: n
-				}, this._cmp = this._ascending = z, this._descending = function(e, t) {
-					return z(t, e);
+				}, this._cmp = this._ascending = B, this._descending = function(e, t) {
+					return B(t, e);
 				}, this._max = function(e, t) {
-					return 0 < z(e, t) ? e : t;
+					return 0 < B(e, t) ? e : t;
 				}, this._min = function(e, t) {
-					return z(e, t) < 0 ? e : t;
+					return B(e, t) < 0 ? e : t;
 				}, this._IDBKeyRange = s._deps.IDBKeyRange, !this._IDBKeyRange) throw new j.MissingAPI();
 			})), this.on("versionchange", function(e) {
 				0 < e.newVersion ? console.warn(`Another connection wants to upgrade database '${c.name}'. Closing db now to resume the upgrade.`) : console.warn(`Another connection wants to delete database '${c.name}'. Closing db now to resume the delete request.`), c.close({ disableAutoOpen: !1 });
 			}), this.on("blocked", function(e) {
 				!e.newVersion || e.newVersion < e.oldVersion ? console.warn(`Dexie.delete('${c.name}') was blocked`) : console.warn(`Upgrade '${c.name}' blocked by other connection holding version ${e.oldVersion / 10}`);
-			}), this._maxKey = Y(n.IDBKeyRange), this._createTransaction = function(e, t, n, r) {
+			}), this._maxKey = Qt(n.IDBKeyRange), this._createTransaction = function(e, t, n, r) {
 				return new c.Transaction(e, t, n, c._options.chromeTransactionDurability, r);
 			}, this._fireOnBlocked = function(e) {
 				c.on("blocked").fire(e), bn.toArray().filter(function(e) {
@@ -7808,7 +7808,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 				var r;
 				return t === "_vip" || (t === "table" ? function(e) {
 					return ir(c.table(e), d);
-				} : (r = Reflect.get(e, t, n)) instanceof Ot ? ir(r, d) : t === "tables" ? r.map(function(e) {
+				} : (r = Reflect.get(e, t, n)) instanceof Dt ? ir(r, d) : t === "tables" ? r.map(function(e) {
 					return ir(e, d);
 				}) : t === "_createTransaction" ? function() {
 					return ir(r.apply(this, arguments), d);
@@ -7843,12 +7843,12 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 		}
 		function lr(e) {
 			var t, n = !1, r = new sr(function(r) {
-				var i = se(e), a, o = !1, s = {}, c = {}, l = {
+				var i = ce(e), a, o = !1, s = {}, c = {}, l = {
 					get closed() {
 						return o;
 					},
 					unsubscribe: function() {
-						o || (o = !0, a && a.abort(), u && Kt.storagemutated.unsubscribe(p));
+						o || (o = !0, a && a.abort(), u && J.storagemutated.unsubscribe(p));
 					}
 				}, u = (r.start && r.start(l), !1), d = function() {
 					return dt(m);
@@ -7875,7 +7875,7 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 						requery: d,
 						querier: e,
 						trans: null
-					}), u ||= (Kt.storagemutated.subscribe(p), !0), Promise.resolve(h).then(function(e) {
+					}), u ||= (J.storagemutated.subscribe(p), !0), Promise.resolve(h).then(function(e) {
 						n = !0, t = e, o || m.signal.aborted || (f() || (c = l, f()) ? d() : (s = {}, dt(function() {
 							return !o && r.next && r.next(e);
 						})));
@@ -7897,12 +7897,12 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 		function dr(e) {
 			var t = pr;
 			try {
-				pr = !0, Kt.storagemutated.fire(e), Ln(e, !0);
+				pr = !0, J.storagemutated.fire(e), Ln(e, !0);
 			} finally {
 				pr = t;
 			}
 		}
-		u(ur, t(t({}, T), {
+		u(ur, t(t({}, w), {
 			delete: function(e) {
 				return new ur(e, { addons: [] }).delete();
 			},
@@ -7973,8 +7973,8 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			extend: o,
 			props: u,
 			override: _,
-			Events: kt,
-			on: Kt,
+			Events: Ot,
+			on: J,
 			liveQuery: lr,
 			extendObservabilitySet: jn,
 			getByKeyPath: b,
@@ -7984,15 +7984,15 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 					x(e, t, void 0);
 				});
 			},
-			shallowClone: S,
-			deepClone: ne,
+			shallowClone: ee,
+			deepClone: re,
 			getObjectDiff: Un,
-			cmp: z,
+			cmp: B,
 			asap: y,
 			minKey: -Infinity,
 			addons: [],
 			connections: { get: bn.toArray },
-			errnames: fe,
+			errnames: pe,
 			dependencies: or,
 			cache: Nn,
 			semVer: "4.4.6",
@@ -8001,17 +8001,17 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 			}).reduce(function(e, t, n) {
 				return e + t / 10 ** (2 * n);
 			})
-		})), ur.maxKey = Y(ur.dependencies.IDBKeyRange), typeof dispatchEvent < "u" && typeof addEventListener < "u" && (Kt(Wt, function(e) {
-			pr ||= (e = new CustomEvent(Gt, { detail: e }), pr = !0, dispatchEvent(e), !1);
-		}), addEventListener(Gt, function(e) {
+		})), ur.maxKey = Qt(ur.dependencies.IDBKeyRange), typeof dispatchEvent < "u" && typeof addEventListener < "u" && (J(q, function(e) {
+			pr ||= (e = new CustomEvent(Kt, { detail: e }), pr = !0, dispatchEvent(e), !1);
+		}), addEventListener(Kt, function(e) {
 			e = e.detail, pr || dr(e);
 		}));
 		var fr, pr = !1, mr = function() {};
 		return typeof BroadcastChannel < "u" && ((mr = function() {
-			(fr = new BroadcastChannel(Gt)).onmessage = function(e) {
+			(fr = new BroadcastChannel(Kt)).onmessage = function(e) {
 				return e.data && dr(e.data);
 			};
-		})(), typeof fr.unref == "function" && fr.unref(), Kt(Wt, function(e) {
+		})(), typeof fr.unref == "function" && fr.unref(), J(q, function(e) {
 			pr || fr.postMessage(e);
 		})), typeof addEventListener < "u" && (addEventListener("pagehide", function(e) {
 			if (!ar.disableBfCache && e.persisted) {
@@ -8021,77 +8021,77 @@ var va = "dialecte:local-open:", ya = "dialecte:local-import:", ba = "writes:", 
 		}), addEventListener("pageshow", function(e) {
 			!ar.disableBfCache && e.persisted && (Ce && console.debug("Dexie: handling persisted pageshow"), mr(), dr({ all: new X(-Infinity, [[]]) }));
 		})), F.rejectionMapper = function(e, t) {
-			return !e || e instanceof le || e instanceof TypeError || e instanceof SyntaxError || !e.name || !me[e.name] ? e : (t = new me[e.name](t || e.message, e), "stack" in e && f(t, "stack", { get: function() {
+			return !e || e instanceof ue || e instanceof TypeError || e instanceof SyntaxError || !e.name || !me[e.name] ? e : (t = new me[e.name](t || e.message, e), "stack" in e && f(t, "stack", { get: function() {
 				return this.inner.stack;
 			} }), t);
 		}, we(Ce), t(ar, Object.freeze({
 			__proto__: null,
 			DEFAULT_MAX_CONNECTIONS: 1e3,
 			Dexie: ar,
-			Entity: xt,
-			PropModification: Tt,
+			Entity: bt,
+			PropModification: wt,
 			RangeSet: X,
 			add: function(e) {
-				return new Tt({ add: e });
+				return new wt({ add: e });
 			},
-			cmp: z,
+			cmp: B,
 			default: ar,
 			liveQuery: lr,
 			mergeRanges: En,
 			rangesOverlap: Dn,
 			remove: function(e) {
-				return new Tt({ remove: e });
+				return new wt({ remove: e });
 			},
 			replacePrefix: function(e, t) {
-				return new Tt({ replacePrefix: [e, t] });
+				return new wt({ replacePrefix: [e, t] });
 			}
 		}), { default: ar }), ar;
 	});
-})))(), 1), Ea = Symbol.for("Dexie"), Da = globalThis[Ea] || (globalThis[Ea] = Ta.default);
-if (Ta.default.semVer !== Da.semVer) throw Error(`Two different versions of Dexie loaded in the same app: ${Ta.default.semVer} and ${Da.semVer}`);
-var { liveQuery: Oa, mergeRanges: ka, rangesOverlap: Aa, RangeSet: ja, cmp: Ma, Entity: Na, PropModification: Pa, replacePrefix: Fa, add: Ia, remove: La, DexieYProvider: Ra } = Da;
-function za(e) {
-	return `${ba}${e}`;
-}
+})))(), 1), Da = Symbol.for("Dexie"), Oa = globalThis[Da] || (globalThis[Da] = Ea.default);
+if (Ea.default.semVer !== Oa.semVer) throw Error(`Two different versions of Dexie loaded in the same app: ${Ea.default.semVer} and ${Oa.semVer}`);
+var { liveQuery: ka, mergeRanges: Aa, rangesOverlap: ja, RangeSet: Ma, cmp: Na, Entity: Pa, PropModification: Fa, replacePrefix: Ia, add: La, remove: Ra, DexieYProvider: za } = Oa;
 function Ba(e) {
-	return `${ya}${e.storeName}:${e.writeId}`;
+	return `${xa}${e}`;
 }
 function Va(e) {
-	let { name: t, run: n } = e, r = (Ca.get(t) ?? Promise.resolve()).then(n), i = r.catch(ct);
-	return Ca.set(t, i), i.then(function() {
-		Ca.get(t) === i && Ca.delete(t);
-	}), r;
+	return `${ba}${e.storeName}:${e.writeId}`;
 }
 function Ha(e) {
+	let { name: t, run: n } = e, r = (wa.get(t) ?? Promise.resolve()).then(n), i = r.catch(lt);
+	return wa.set(t, i), i.then(function() {
+		wa.get(t) === i && wa.delete(t);
+	}), r;
+}
+function Ua(e) {
 	e();
 }
-async function Ua(e) {
+async function Wa(e) {
 	let { storeName: t, document: n } = e;
 	if (!navigator.locks || n.writeId === void 0) return !1;
-	let r = Ba({
+	let r = Va({
 		storeName: t,
 		writeId: n.writeId
 	});
 	return navigator.locks.request(r, { ifAvailable: !0 }, (e) => e === null);
 }
-function Wa(e) {
+function Ga(e) {
 	let t = [e.autoIncrement ? `++${e.primaryKey}` : e.primaryKey];
 	for (let n of e.indexes) t.push(n);
 	for (let n of e.compoundIndexes) t.push(`[${n.join("+")}]`);
 	for (let n of e.arrayIndexes) t.push(`*${n}`);
 	return t.join(", ");
 }
-var Ga = class {
+var Ka = class {
 	constructor(e, t) {
-		this.schemaVersion = 1, this.knownDocuments = /* @__PURE__ */ new Map(), this.schemaLock = Promise.resolve(), this.stale = !1, this.recordCounts = /* @__PURE__ */ new Map(), this.closed = !1, this.closings = 0, this.operations = lt(), this.openHoldEnded = Promise.resolve(), Zt({ project: e }), this.name = e, this.dexieRecordSchema = Wa(t?.recordSchema ?? wa), this.perf = t?.perf ?? Y, this.runtime = t?.runtime, this.db = new Da(e);
+		this.schemaVersion = 1, this.knownDocuments = /* @__PURE__ */ new Map(), this.schemaLock = Promise.resolve(), this.stale = !1, this.recordCounts = /* @__PURE__ */ new Map(), this.closed = !1, this.closings = 0, this.operations = ut(), this.openHoldEnded = Promise.resolve(), Qt({ project: e }), this.name = e, this.dexieRecordSchema = Ga(t?.recordSchema ?? Ta), this.perf = t?.perf ?? Y, this.runtime = t?.runtime, this.db = new Oa(e);
 	}
 	async open() {
 		let e = this.closings;
-		for (await this.operations.whenIdle(); this.destroying;) await this.destroying.catch(ct);
+		for (await this.operations.whenIdle(); this.destroying;) await this.destroying.catch(lt);
 		this.closings !== e && Ct({ storeName: this.name }), this.closed = !1, await this.holdOpen(), await this.tracked(async () => {
-			await this.reloadFromPersisted(), await ga({
+			await this.reloadFromPersisted(), await _a({
 				store: this.ownSweepTarget(),
-				isRunning: (e) => Ua({
+				isRunning: (e) => Wa({
 					storeName: this.name,
 					document: e
 				})
@@ -8108,15 +8108,15 @@ var Ga = class {
 		let e = this.openHold, t = this.openHoldEnded;
 		this.openHold = void 0;
 		let n = this.operations.whenIdle().then(function() {
-			return e?.then(Ha), t;
+			return e?.then(Ua), t;
 		});
-		Sa.markClosing({
+		Ca.markClosing({
 			name: this.name,
 			until: n
 		}), await n;
 	}
 	async destroy() {
-		for (; this.destroying;) await this.destroying.catch(ct);
+		for (; this.destroying;) await this.destroying.catch(lt);
 		let e = this.destroyOnceIdle();
 		this.destroying = e;
 		try {
@@ -8126,14 +8126,14 @@ var Ga = class {
 		}
 	}
 	async destroyOnceIdle() {
-		await this.operations.whenIdle(), await Va({
+		await this.operations.whenIdle(), await Ha({
 			name: this.name,
 			run: this.destroyIfAlone.bind(this)
 		});
 	}
 	async destroyIfAlone() {
 		let e = this.closings, t = this.openHold !== void 0;
-		this.letOpenHoldGo(), await this.openHoldEnded, await Sa.settled({ name: this.name }), (navigator.locks ? await this.deleteWhenAlone() : await this.deleteWhenAloneInRealm()) || (t && this.closings === e && await this.holdOpen(), St({ storeName: this.name }));
+		this.letOpenHoldGo(), await this.openHoldEnded, await Ca.settled({ name: this.name }), (navigator.locks ? await this.deleteWhenAlone() : await this.deleteWhenAloneInRealm()) || (t && this.closings === e && await this.holdOpen(), St({ storeName: this.name }));
 	}
 	async deleteWhenAlone() {
 		let e = performance.now() + 500;
@@ -8152,25 +8152,25 @@ var Ga = class {
 		return e !== null && this.deleteDatabase();
 	}
 	async deleteWhenAloneInRealm() {
-		return xa.others({
+		return Sa.others({
 			name: this.name,
 			connection: this
 		}) > 0 ? !1 : this.deleteDatabase();
 	}
 	async deleteDatabase() {
-		return this.db.isOpen() && (this.db.close(), await Ka()), await Da.delete(this.name), this.knownDocuments.clear(), this.recordCounts.clear(), this.stale = !0, !0;
+		return this.db.isOpen() && (this.db.close(), await qa()), await Oa.delete(this.name), this.knownDocuments.clear(), this.recordCounts.clear(), this.stale = !0, !0;
 	}
 	async holdOpen() {
 		this.openHold ??= this.askOpenHold(), await this.openHold;
 	}
 	askOpenHold() {
 		let e = this.name;
-		if (!navigator.locks) return xa.markOpen({
+		if (!navigator.locks) return Sa.markOpen({
 			name: e,
 			connection: this
 		}), Promise.resolve(this.countClosed.bind(this));
 		let t = Promise.resolve(), n = new Promise(function(n) {
-			t = navigator.locks.request(`${va}${e}`, { mode: "shared" }, function() {
+			t = navigator.locks.request(`${ya}${e}`, { mode: "shared" }, function() {
 				return new Promise(function(e) {
 					n(e);
 				});
@@ -8179,14 +8179,14 @@ var Ga = class {
 		return this.openHoldEnded = t, n;
 	}
 	countClosed() {
-		xa.markClosed({
+		Sa.markClosed({
 			name: this.name,
 			connection: this
 		});
 	}
 	letOpenHoldGo() {
 		let e = this.openHold;
-		this.openHold = void 0, e?.then(Ha);
+		this.openHold = void 0, e?.then(Ua);
 	}
 	async reconcile() {
 		return this.operation(async () => {
@@ -8235,13 +8235,13 @@ var Ga = class {
 	}
 	async importFile(e) {
 		return this.operation(async () => {
-			let { file: t, options: n, writeId: r = crypto.randomUUID(), onProgress: i, signal: a } = e, o = la({
+			let { file: t, options: n, writeId: r = crypto.randomUUID(), onProgress: i, signal: a } = e, o = ua({
 				runtime: this.runtime,
 				storeName: this.name,
 				operation: "import"
 			}), s = this.ownImportTarget();
 			function c() {
-				return ia({
+				return aa({
 					store: s,
 					runtime: o,
 					file: t,
@@ -8252,7 +8252,7 @@ var Ga = class {
 					signal: a
 				});
 			}
-			return navigator.locks ? navigator.locks.request(Ba({
+			return navigator.locks ? navigator.locks.request(Va({
 				storeName: this.name,
 				writeId: r
 			}), c) : c();
@@ -8260,12 +8260,12 @@ var Ga = class {
 	}
 	async exportFile(e) {
 		return this.operation(async () => {
-			let { documentId: t, options: n, onProgress: r, signal: i } = e, a = la({
+			let { documentId: t, options: n, onProgress: r, signal: i } = e, a = ua({
 				runtime: this.runtime,
 				storeName: this.name,
 				operation: "export"
 			});
-			return Tr({
+			return Er({
 				source: this.ownExportSource(),
 				runtime: a,
 				documentId: t,
@@ -8279,10 +8279,10 @@ var Ga = class {
 	async getWriteOutcome(e) {
 		return this.operation(async () => {
 			let { writeId: t } = e, n = await this.getDocumentsUnguarded();
-			return await this.ensureCurrentSchema(), Ur({
+			return await this.ensureCurrentSchema(), Wr({
 				documents: n,
 				writeId: t,
-				committed: await this.db.table(W).filter((e) => e.writeId === t).first() !== void 0
+				committed: await this.db.table(G).filter((e) => e.writeId === t).first() !== void 0
 			});
 		});
 	}
@@ -8292,8 +8292,8 @@ var Ga = class {
 	async commit(e) {
 		return this.operation(async () => {
 			try {
-				let { documentId: t, writeId: n, creates: r, updates: i, deletes: a, onProgress: o } = e, s = a.map((e) => e.id), c = await this.writeTable(t), l = await this.db.table(U).get(t);
-				l && Za(l).status === "importing" && yt({
+				let { documentId: t, writeId: n, creates: r, updates: i, deletes: o, onProgress: s } = e, c = o.map((e) => e.id), l = await this.writeTable(t), u = await this.db.table(W).get(t);
+				u && Qa(u).status === "importing" && z({
 					documentId: t,
 					what: "a commit"
 				}), Dt({
@@ -8301,44 +8301,44 @@ var Ga = class {
 					value: n
 				});
 				try {
-					await this.db.transaction("rw", c, this.db.table(W), this.db.table(G), async () => {
-						let e = await Ya({
-							table: c,
+					await this.db.transaction("rw", l, this.db.table(G), this.db.table(K), async () => {
+						let e = await Xa({
+							table: l,
 							updates: i,
 							documentId: t
-						}), a = ui({ records: r });
-						a.length > 0 && await qa({
-							table: c,
+						}), a = di({ records: r });
+						a.length > 0 && await Ja({
+							table: l,
 							creates: a,
 							documentId: t
 						});
-						let o = ui({ records: i });
+						let o = di({ records: i });
 						if (o.length > 0) try {
-							await c.bulkPut(o);
+							await l.bulkPut(o);
 						} catch (e) {
-							f("STORE_BULK_UPDATE_FAILED", {
+							m("STORE_BULK_UPDATE_FAILED", {
 								detail: e instanceof Error ? e.message : String(e),
 								cause: e instanceof Error ? e : void 0
 							});
 						}
-						let l = s.length > 0 ? await c.bulkGet(s) : [];
-						if (s.length > 0) try {
-							await c.bulkDelete(s);
+						let s = c.length > 0 ? await l.bulkGet(c) : [];
+						if (c.length > 0) try {
+							await l.bulkDelete(c);
 						} catch (e) {
-							f("STORE_DELETE_FAILED", {
+							m("STORE_DELETE_FAILED", {
 								detail: e instanceof Error ? e.message : String(e),
 								cause: e instanceof Error ? e : void 0
 							});
 						}
 						let u = await this.getHead(t);
-						await this.db.table(W).where({ documentId: t }).filter((e) => e.sequenceNumber > u).modify(function(e) {
+						await this.db.table(G).where({ documentId: t }).filter((e) => e.sequenceNumber > u).modify(function(e) {
 							e.sequenceNumber = -1, e.operations = {
 								creates: [],
 								updates: [],
 								deletes: []
 							};
 						});
-						let d = u + 1, p = {
+						let d = u + 1, f = {
 							documentId: t,
 							sequenceNumber: d,
 							timestamp: Date.now(),
@@ -8349,21 +8349,21 @@ var Ga = class {
 									before: e[n],
 									after: t
 								})),
-								deletes: l.filter(Boolean)
+								deletes: s.filter(Boolean)
 							}
 						};
-						await this.db.table(W).add(p), await this.setHead(t, d), await this.bumpVersion(t);
-					}), pi({
-						onProgress: o,
+						await this.db.table(G).add(f), await this.setHead(t, d), await this.bumpVersion(t);
+					}), mi({
+						onProgress: s,
 						parts: [
 							r.length,
 							i.length,
-							s.length
+							c.length
 						]
 					});
 				} catch (e) {
-					if (b(e)) throw e;
-					f("STORE_COMMIT_FAILED", {
+					if (a(e)) throw e;
+					m("STORE_COMMIT_FAILED", {
 						detail: e instanceof Error ? e.message : String(e),
 						cause: e instanceof Error ? e : void 0
 					});
@@ -8384,18 +8384,18 @@ var Ga = class {
 				await this.ensureCurrentSchema();
 				let e = await this.getHead(t);
 				if (e === 0) return !1;
-				let r = await this.db.table(W).where({
+				let r = await this.db.table(G).where({
 					documentId: t,
 					sequenceNumber: e
 				}).first();
 				if (!r) return !1;
 				let i = this.db.table(this.resolveTableName(t));
-				return await this.db.transaction("rw", i, this.db.table(G), async () => {
+				return await this.db.transaction("rw", i, this.db.table(K), async () => {
 					let { creates: n, updates: a, deletes: o } = r.operations;
 					o.length > 0 && await i.bulkPut(o), a.length > 0 && await i.bulkPut(a.map((e) => e.before)), n.length > 0 && await i.bulkDelete(n.map((e) => e.id)), await this.setHead(t, e - 1), await this.bumpVersion(t);
 				}), {
 					changeId: n,
-					changes: Yr({
+					changes: Xr({
 						operations: r.operations,
 						direction: "back"
 					})
@@ -8414,18 +8414,18 @@ var Ga = class {
 			});
 			try {
 				await this.ensureCurrentSchema();
-				let e = await this.getHead(t) + 1, r = await this.db.table(W).where({
+				let e = await this.getHead(t) + 1, r = await this.db.table(G).where({
 					documentId: t,
 					sequenceNumber: e
 				}).first();
 				if (!r) return !1;
 				let i = this.db.table(this.resolveTableName(t));
-				return await this.db.transaction("rw", i, this.db.table(G), async () => {
+				return await this.db.transaction("rw", i, this.db.table(K), async () => {
 					let { creates: n, updates: a, deletes: o } = r.operations;
 					n.length > 0 && await i.bulkPut(n), a.length > 0 && await i.bulkPut(a.map((e) => e.after)), o.length > 0 && await i.bulkDelete(o.map((e) => e.id)), await this.setHead(t, e), await this.bumpVersion(t);
 				}), {
 					changeId: n,
-					changes: Yr({
+					changes: Xr({
 						operations: r.operations,
 						direction: "forward"
 					})
@@ -8438,7 +8438,7 @@ var Ga = class {
 	async getHistoryStatus(e) {
 		return this.operation(async () => {
 			await this.ensureCurrentSchema();
-			let t = await this.getHead(e), n = await this.db.table(W).where({
+			let t = await this.getHead(e), n = await this.db.table(G).where({
 				documentId: e,
 				sequenceNumber: t + 1
 			}).first();
@@ -8449,14 +8449,14 @@ var Ga = class {
 		});
 	}
 	async getChangeLog(e) {
-		return this.operation(async () => (await this.ensureCurrentSchema(), (await this.db.table(W).where({ documentId: e }).sortBy("sequenceNumber")).filter((e) => e.sequenceNumber !== -1)));
+		return this.operation(async () => (await this.ensureCurrentSchema(), (await this.db.table(G).where({ documentId: e }).sortBy("sequenceNumber")).filter((e) => e.sequenceNumber !== -1)));
 	}
 	async addBlob(e, t) {
 		return this.operation(async () => {
-			await this.ensureCurrentSchema(), Xa(this.knownDocuments, e.documentId);
-			let n = Ot({ value: e }), r = this.db.table(Gt(e.documentId));
-			await this.db.transaction("rw", this.db.table(J), r, async () => {
-				await this.db.table(J).put(n), await r.put({
+			await this.ensureCurrentSchema(), Za(this.knownDocuments, e.documentId);
+			let n = V({ value: e }), r = this.db.table(J(e.documentId));
+			await this.db.transaction("rw", this.db.table(q), r, async () => {
+				await this.db.table(q).put(n), await r.put({
 					id: e.id,
 					data: t
 				});
@@ -8466,9 +8466,9 @@ var Ga = class {
 	async getBlob(e) {
 		return this.operation(async () => {
 			await this.ensureCurrentSchema();
-			let t = await this.db.table(J).get(e);
+			let t = await this.db.table(q).get(e);
 			if (!t) return;
-			let n = await this.db.table(Gt(t.documentId)).get(e);
+			let n = await this.db.table(J(t.documentId)).get(e);
 			if (n) return {
 				entry: t,
 				data: n.data
@@ -8476,42 +8476,42 @@ var Ga = class {
 		});
 	}
 	async getBlobsByDocument(e) {
-		return this.operation(async () => (await this.ensureCurrentSchema(), (await this.db.table(J).toArray()).filter((t) => t.attachedTo.some((t) => t.documentId === e))));
+		return this.operation(async () => (await this.ensureCurrentSchema(), (await this.db.table(q).toArray()).filter((t) => t.attachedTo.some((t) => t.documentId === e))));
 	}
 	async getBlobsByRecord(e, t) {
-		return this.operation(async () => (await this.ensureCurrentSchema(), (await this.db.table(J).toArray()).filter((n) => n.attachedTo.some((n) => n.documentId === e && n.recordRef === t))));
+		return this.operation(async () => (await this.ensureCurrentSchema(), (await this.db.table(q).toArray()).filter((n) => n.attachedTo.some((n) => n.documentId === e && n.recordRef === t))));
 	}
 	async getStandaloneBlobs() {
-		return this.operation(async () => (await this.ensureCurrentSchema(), (await this.db.table(J).toArray()).filter((e) => e.attachedTo.length === 0)));
+		return this.operation(async () => (await this.ensureCurrentSchema(), (await this.db.table(q).toArray()).filter((e) => e.attachedTo.length === 0)));
 	}
 	async attachBlob(e, t) {
 		return this.operation(async () => {
 			await this.ensureCurrentSchema();
-			let n = await this.db.table(J).get(e);
-			n || f("STORE_BLOB_NOT_FOUND", { detail: `Blob "${e}" not found` });
-			let r = Ot({ value: t });
+			let n = await this.db.table(q).get(e);
+			n || m("STORE_BLOB_NOT_FOUND", { detail: `Blob "${e}" not found` });
+			let r = V({ value: t });
 			if (n.attachedTo.some((e) => e.documentId === t.documentId && e.recordRef === t.recordRef && e.attribute === t.attribute)) return;
 			let i = [...n.attachedTo, r];
-			await this.db.table(J).update(e, { attachedTo: i });
+			await this.db.table(q).update(e, { attachedTo: i });
 		});
 	}
 	async detachBlob(e, t) {
 		return this.operation(async () => {
 			await this.ensureCurrentSchema();
-			let n = await this.db.table(J).get(e);
-			n || f("STORE_BLOB_NOT_FOUND", { detail: `Blob "${e}" not found` });
+			let n = await this.db.table(q).get(e);
+			n || m("STORE_BLOB_NOT_FOUND", { detail: `Blob "${e}" not found` });
 			let r = n.attachedTo.filter((e) => e.documentId !== t.documentId || e.recordRef !== t.recordRef);
-			await this.db.table(J).update(e, { attachedTo: r });
+			await this.db.table(q).update(e, { attachedTo: r });
 		});
 	}
 	async removeBlob(e) {
 		return this.operation(async () => {
 			await this.ensureCurrentSchema();
-			let t = await this.db.table(J).get(e);
+			let t = await this.db.table(q).get(e);
 			if (!t) return;
-			let n = this.db.table(Gt(t.documentId));
-			await this.db.transaction("rw", this.db.table(J), n, async () => {
-				await n.delete(e), await this.db.table(J).delete(e);
+			let n = this.db.table(J(t.documentId));
+			await this.db.transaction("rw", this.db.table(q), n, async () => {
+				await n.delete(e), await this.db.table(q).delete(e);
 			});
 		});
 	}
@@ -8520,7 +8520,7 @@ var Ga = class {
 	}
 	async operation(e) {
 		if (this.closed && Ct({ storeName: this.name }), this.destroying) {
-			for (; this.destroying;) await this.destroying.catch(ct);
+			for (; this.destroying;) await this.destroying.catch(lt);
 			this.closed && Ct({ storeName: this.name });
 		}
 		return this.openHold === void 0 && await this.holdOpen(), this.closed && Ct({ storeName: this.name }), this.tracked(e);
@@ -8539,7 +8539,7 @@ var Ga = class {
 			documentId: t,
 			ops: n,
 			registered: i
-		}), xi({
+		}), Si({
 			ops: n,
 			control: r
 		});
@@ -8588,44 +8588,44 @@ var Ga = class {
 	}
 	async registerDocumentUnguarded(e) {
 		await this.withSchemaLock(async () => {
-			this.stale && await this.reloadFromPersisted(), this.knownDocuments.has(e.id) && gt({ documentId: e.id });
-			let t = Ot({ value: e });
+			this.stale && await this.reloadFromPersisted(), this.knownDocuments.has(e.id) && _t({ documentId: e.id });
+			let t = V({ value: e });
 			await this.assertPlaceFree({ document: t }), this.knownDocuments.set(t.id, t), await this.reopenWithNewSchema();
 			try {
-				await this.db.transaction("rw", U, async () => {
-					await this.db.table("_documents").get(t.id) && gt({ documentId: t.id }), await this.assertPlaceFree({ document: t }), await this.db.table(U).add(t);
+				await this.db.transaction("rw", W, async () => {
+					await this.db.table("_documents").get(t.id) && _t({ documentId: t.id }), await this.assertPlaceFree({ document: t }), await this.db.table(W).add(t);
 				});
 			} catch (e) {
-				throw b(e)?.key === "DOCUMENT_PATH_TAKEN" ? (this.knownDocuments.delete(t.id), await this.reopenWithNewSchema({ drop: t.id }).catch(() => void 0)) : this.stale = !0, e;
+				throw a(e)?.key === "DOCUMENT_PATH_TAKEN" ? (this.knownDocuments.delete(t.id), await this.reopenWithNewSchema({ drop: t.id }).catch(() => void 0)) : this.stale = !0, e;
 			}
 		});
 	}
 	async assertPlaceFree(e) {
 		let { document: t } = e;
-		ai({
+		oi({
 			document: t,
-			documents: t.path === void 0 ? [] : await this.db.table(U).toArray()
+			documents: t.path === void 0 ? [] : await this.db.table(W).toArray()
 		});
 	}
 	async getDocumentsUnguarded() {
-		return await this.ensureCurrentSchema(), (await this.db.table(U).toArray()).map(Za);
+		return await this.ensureCurrentSchema(), (await this.db.table(W).toArray()).map(Qa);
 	}
 	async getDocumentUnguarded(e) {
 		await this.ensureCurrentSchema();
-		let t = await this.db.table(U).get(e);
-		return t && Za(t);
+		let t = await this.db.table(W).get(e);
+		return t && Qa(t);
 	}
 	async updateDocumentUnguarded(e, t) {
-		let n = Ot({ value: t });
+		let n = V({ value: t });
 		await this.ensureCurrentSchema();
-		let r = this.db.table(U), i = await this.db.transaction("rw", r, async () => {
+		let r = this.db.table(W), i = await this.db.transaction("rw", r, async () => {
 			let t = await r.get(e);
 			if (!t) return;
-			let i = ii({
-				document: Za(t),
+			let i = ai({
+				document: Qa(t),
 				updates: n
 			});
-			return i.path !== t.path && ai({
+			return i.path !== t.path && oi({
 				document: i,
 				documents: await r.toArray()
 			}), await r.put(i), i;
@@ -8635,19 +8635,19 @@ var Ga = class {
 	async markReadyUnguarded(e) {
 		let { documentId: t, registered: n } = e;
 		await this.ensureCurrentSchema();
-		let r = this.db.table(U), i = await this.db.transaction("rw", r, async () => {
+		let r = this.db.table(W), i = await this.db.transaction("rw", r, async () => {
 			let e = await r.get(t);
-			if (!e || !_a({
-				held: Za(e),
+			if (!e || !va({
+				held: Qa(e),
 				registered: n
 			})) return;
 			let i = {
-				...Za(e),
+				...Qa(e),
 				status: "ready"
 			};
 			return await r.put(i), i;
 		});
-		i || yt({
+		i || z({
 			documentId: t,
 			what: "its ready state"
 		}), this.knownDocuments.has(t) && this.knownDocuments.set(t, i);
@@ -8655,11 +8655,11 @@ var Ga = class {
 	async bulkWriteOwnImport(e) {
 		let { documentId: t, ops: n, registered: r } = e;
 		await this.ensureCurrentSchema();
-		let i = await this.db.table(U).get(t);
-		i && _a({
-			held: Za(i),
+		let i = await this.db.table(W).get(t);
+		i && va({
+			held: Qa(i),
 			registered: r
-		}) || yt({
+		}) || z({
 			documentId: t,
 			what: "records"
 		}), await this.bulkWriteUnguarded(t, n);
@@ -8667,9 +8667,9 @@ var Ga = class {
 	async removeOwnImport(e) {
 		let { documentId: t, registered: n } = e;
 		await this.ensureCurrentSchema();
-		let r = await this.db.table(U).get(t);
-		r && _a({
-			held: Za(r),
+		let r = await this.db.table(W).get(t);
+		r && va({
+			held: Qa(r),
 			registered: n
 		}) && await this.removeDocumentUnguarded(t);
 	}
@@ -8677,16 +8677,16 @@ var Ga = class {
 		try {
 			await this.withSchemaLock(async () => {
 				this.stale && await this.reloadFromPersisted();
-				let t = [this.resolveTableName(e), Gt(e)].filter((e) => this.db.tables.some((t) => t.name === e));
+				let t = [this.resolveTableName(e), J(e)].filter((e) => this.db.tables.some((t) => t.name === e));
 				await this.db.transaction("rw", [
 					...t,
-					J,
-					W,
+					q,
 					G,
-					U
+					K,
+					W
 				], async () => {
 					for (let e of t) await this.db.table(e).clear();
-					await this.db.table(J).where({ documentId: e }).delete(), await this.db.table(W).where({ documentId: e }).delete(), await this.db.table(G).delete(`head:${e}`), await this.db.table(U).delete(e);
+					await this.db.table(q).where({ documentId: e }).delete(), await this.db.table(G).where({ documentId: e }).delete(), await this.db.table(K).delete(`head:${e}`), await this.db.table(W).delete(e);
 				}), this.knownDocuments.delete(e), await this.reopenWithNewSchema({ drop: e });
 			});
 		} finally {
@@ -8695,28 +8695,28 @@ var Ga = class {
 	}
 	async bulkWriteUnguarded(e, t) {
 		try {
-			let { updates: n, deletes: r } = t, i = await this.writeTable(e), a = ui({ records: t.creates ?? [] });
-			await this.db.transaction("rw", i, this.db.table(G), async () => {
-				if (a.length > 0 && (this.perf.start("core::store::bulkWrite::add"), await qa({
+			let { updates: n, deletes: r } = t, i = await this.writeTable(e), o = di({ records: t.creates ?? [] });
+			await this.db.transaction("rw", i, this.db.table(K), async () => {
+				if (o.length > 0 && (this.perf.start("core::store::bulkWrite::add"), await Ja({
 					table: i,
-					creates: a,
+					creates: o,
 					documentId: e
 				}), this.perf.stop("core::store::bulkWrite::add")), n?.length) {
 					this.perf.start("core::store::bulkWrite::update");
 					try {
-						let e = await i.bulkGet(n.map((e) => e.recordId)), t = Ot({ value: n.filter((t, n) => e[n] !== void 0) }), r = /* @__PURE__ */ new Map();
+						let e = await i.bulkGet(n.map((e) => e.recordId)), t = V({ value: n.filter((t, n) => e[n] !== void 0) }), r = /* @__PURE__ */ new Map();
 						for (let t of e) t && r.set(t.id, t);
 						for (let e of t) {
 							let t = r.get(e.recordId);
-							t && r.set(e.recordId, di({
+							t && r.set(e.recordId, fi({
 								record: t,
 								patch: e
 							}));
 						}
 						await i.bulkPut([...r.values()]);
 					} catch (e) {
-						if (b(e)) throw e;
-						f("STORE_BULK_UPDATE_FAILED", {
+						if (a(e)) throw e;
+						m("STORE_BULK_UPDATE_FAILED", {
 							detail: e instanceof Error ? e.message : String(e),
 							cause: e instanceof Error ? e : void 0
 						});
@@ -8733,25 +8733,25 @@ var Ga = class {
 		return (await this.db.table("_meta").get(`head:${e}`))?.value ?? 0;
 	}
 	async setHead(e, t) {
-		await this.db.table(G).put({
+		await this.db.table(K).put({
 			key: `head:${e}`,
 			value: t
 		});
 	}
 	async bumpVersion(e) {
-		let t = this.db.table(G), n = await t.get(za(e));
+		let t = this.db.table(K), n = await t.get(Ba(e));
 		await t.put({
-			key: za(e),
+			key: Ba(e),
 			value: (n?.value ?? 0) + 1
 		});
 	}
 	async getExportVersion(e) {
 		let { documentId: t } = e;
 		await this.ensureCurrentSchema();
-		let n = this.db.table(U), r = this.db.table(G);
+		let n = this.db.table(W), r = this.db.table(K);
 		return this.db.transaction("r", n, r, async () => {
 			let e = await n.get(t);
-			if (e && Za(e).status === "ready") return (await r.get(za(t)))?.value ?? 0;
+			if (e && Qa(e).status === "ready") return (await r.get(Ba(t)))?.value ?? 0;
 		});
 	}
 	async countUnguarded(e) {
@@ -8777,18 +8777,18 @@ var Ga = class {
 	}
 	buildStores(e) {
 		let t = {
-			[U]: Wa(Kt),
-			[W]: Wa(qt),
-			[G]: Wa(Jt),
-			[J]: Wa(Yt)
-		}, n = Wa(Xt);
-		for (let e of this.knownDocuments.keys()) t[this.resolveTableName(e)] = this.dexieRecordSchema, t[Gt(e)] = n;
-		return e?.drop && (t[this.resolveTableName(e.drop)] = null, t[Gt(e.drop)] = null), t;
+			[W]: Ga(qt),
+			[G]: Ga(Jt),
+			[K]: Ga(Yt),
+			[q]: Ga(Xt)
+		}, n = Ga(Zt);
+		for (let e of this.knownDocuments.keys()) t[this.resolveTableName(e)] = this.dexieRecordSchema, t[J(e)] = n;
+		return e?.drop && (t[this.resolveTableName(e.drop)] = null, t[J(e.drop)] = null), t;
 	}
 	async reopenWithNewSchema(e) {
 		this.perf.start("core::store::reopenSchema");
 		try {
-			this.db.close(), await Ka(), this.schemaVersion++, this.db = new Da(this.name), this.db.version(this.schemaVersion).stores(this.buildStores(e)), this.attachVersionChangeHandler(), await this.db.open(), await this.db.table(G).put({
+			this.db.close(), await qa(), this.schemaVersion++, this.db = new Oa(this.name), this.db.version(this.schemaVersion).stores(this.buildStores(e)), this.attachVersionChangeHandler(), await this.db.open(), await this.db.table(K).put({
 				key: "schemaVersion",
 				value: this.schemaVersion
 			}), this.stale = !1;
@@ -8797,22 +8797,22 @@ var Ga = class {
 		}
 	}
 	async reloadFromPersisted() {
-		this.recordCounts.clear(), this.db.isOpen() && (this.db.close(), await Ka());
-		let e = new Da(this.name);
+		this.recordCounts.clear(), this.db.isOpen() && (this.db.close(), await qa());
+		let e = new Oa(this.name);
 		e.version(1).stores({
-			[U]: Wa(Kt),
-			[W]: Wa(qt),
-			[G]: Wa(Jt),
-			[J]: Wa(Yt)
+			[W]: Ga(qt),
+			[G]: Ga(Jt),
+			[K]: Ga(Yt),
+			[q]: Ga(Xt)
 		});
 		try {
 			await e.open();
-			let t = (await e.table(U).toArray()).map(Za), n = await e.table(G).get("schemaVersion");
+			let t = (await e.table(W).toArray()).map(Qa), n = await e.table(K).get("schemaVersion");
 			e.close(), this.knownDocuments = new Map(t.map((e) => [e.id, e])), this.schemaVersion = n?.value ?? 1;
 		} catch {
 			e.close();
 		}
-		this.db = new Da(this.name), this.db.version(this.schemaVersion).stores(this.buildStores()), this.attachVersionChangeHandler(), await this.db.open(), this.stale = !1;
+		this.db = new Oa(this.name), this.db.version(this.schemaVersion).stores(this.buildStores()), this.attachVersionChangeHandler(), await this.db.open(), this.stale = !1;
 	}
 	attachVersionChangeHandler() {
 		this.db.on("versionchange", () => {
@@ -8828,11 +8828,11 @@ var Ga = class {
 		return this.schemaLock = this.schemaLock.then(e, e), this.schemaLock;
 	}
 	resolveTableName(e) {
-		return q(e);
+		return Gt(e);
 	}
 	async writeTable(e) {
 		let t = await this.recordTable(e);
-		return t || yt({
+		return t || z({
 			documentId: e,
 			what: "records"
 		}), t;
@@ -8843,15 +8843,15 @@ var Ga = class {
 		if (this.db.tables.some((e) => e.name === t)) return this.db.table(t);
 	}
 };
-function Ka() {
+function qa() {
 	return new Promise((e) => setTimeout(e, 0));
 }
-async function qa(e) {
+async function Ja(e) {
 	let { table: t, creates: n, documentId: r } = e;
 	try {
 		await t.bulkAdd(n);
 	} catch (e) {
-		let t = e instanceof Error ? e : void 0, i = Ja(e);
+		let t = e instanceof Error ? e : void 0, i = Ya(e);
 		if (i) {
 			let e = i.map((e) => ({
 				position: e,
@@ -8860,44 +8860,44 @@ async function qa(e) {
 			function a(e) {
 				return n.findIndex((t) => t.id === e.id) < e.position;
 			}
-			xt({
+			B({
 				documentId: r,
 				held: e.filter((e) => !a(e)).map((e) => e.id),
 				repeated: e.filter(a).map((e) => e.id),
 				cause: t
 			});
 		}
-		f("STORE_BULK_ADD_FAILED", {
+		m("STORE_BULK_ADD_FAILED", {
 			detail: e instanceof Error ? e.message : String(e),
 			cause: t
 		});
 	}
 }
-function Ja(e) {
-	if (!(e instanceof Da.BulkError)) return;
+function Ya(e) {
+	if (!(e instanceof Oa.BulkError)) return;
 	let t = Object.entries(e.failuresByPos).filter(([, e]) => e.name === "ConstraintError").map(([e]) => Number(e));
 	return t.length > 0 ? t : void 0;
 }
-async function Ya(e) {
+async function Xa(e) {
 	let { table: t, updates: n, documentId: r } = e;
 	return n.length === 0 ? [] : (await t.bulkGet(n.map((e) => e.id))).map((e, t) => (e || bt({
 		documentId: r,
 		recordId: n[t].id
 	}), e));
 }
-function Xa(e, t) {
-	e.has(t) || yt({
+function Za(e, t) {
+	e.has(t) || z({
 		documentId: t,
 		what: "a blob"
 	});
 }
-function Za(e) {
+function Qa(e) {
 	return e.status ? e : {
 		...e,
 		status: "ready"
 	};
 }
-function Qa(e) {
+function $a(e) {
 	let { record: t } = e, { id: n, tagName: r, namespace: i, attributes: a, value: o, parent: s, children: c } = t;
 	return {
 		id: n,
@@ -8906,44 +8906,44 @@ function Qa(e) {
 			prefix: i.prefix,
 			uri: i.uri
 		},
-		attributes: a.map((e) => $a({ value: e })),
+		attributes: a.map((e) => eo({ value: e })),
 		value: o,
 		parent: s === null ? null : {
 			id: s.id,
 			tagName: s.tagName
 		},
-		children: c.map((e) => $a({ value: e }))
+		children: c.map((e) => eo({ value: e }))
 	};
 }
-function $a(e) {
-	return eo({ value: e.value });
-}
 function eo(e) {
+	return to({ value: e.value });
+}
+function to(e) {
 	let { value: t } = e;
 	if (typeof t != "object" || !t) return t;
-	if (Array.isArray(t)) return t.map((e) => eo({ value: e }));
+	if (Array.isArray(t)) return t.map((e) => to({ value: e }));
 	let n = {};
-	for (let e in t) n[e] = eo({ value: t[e] });
+	for (let e in t) n[e] = to({ value: t[e] });
 	return n;
 }
-var to = /* @__PURE__ */ new Map(), no = R(), ro = ut(), io = /* @__PURE__ */ new Map();
-function ao(e) {
-	let { key: t, connection: n, listener: r } = e, i = io.get(t) ?? /* @__PURE__ */ new Set();
-	io.set(t, i);
+var no = /* @__PURE__ */ new Map(), ro = ft(), io = dt(), ao = /* @__PURE__ */ new Map();
+function oo(e) {
+	let { key: t, connection: n, listener: r } = e, i = ao.get(t) ?? /* @__PURE__ */ new Set();
+	ao.set(t, i);
 	let a = {
 		connection: n,
 		listener: r
 	};
 	return i.add(a), function() {
-		i.delete(a), i.size === 0 && io.get(t) === i && io.delete(t);
+		i.delete(a), i.size === 0 && ao.get(t) === i && ao.delete(t);
 	};
 }
-function oo(e) {
+function so(e) {
 	let { key: t, name: n, connection: r, change: i } = e, a = {
 		...i,
 		timestamp: Date.now()
 	};
-	for (let e of Array.from(io.get(t) ?? [])) zt({
+	for (let e of Array.from(ao.get(t) ?? [])) zt({
 		listener: e.listener,
 		value: {
 			type: "change",
@@ -8953,26 +8953,26 @@ function oo(e) {
 		of: Bt({ name: n })
 	});
 }
-function so(e) {
+function co(e) {
 	let { project: t, dialecteId: n } = e;
-	return n === void 0 ? encodeURIComponent(t) : Lr({
+	return n === void 0 ? encodeURIComponent(t) : Rr({
 		dialecteId: n,
 		project: t
 	});
 }
-function co(e) {
-	return to.get(e.key);
-}
 function lo(e) {
-	let { key: t } = e, n = to.get(t);
-	if (n) return n;
-	let r = fo();
-	return to.set(t, r), r;
+	return no.get(e.key);
 }
 function uo(e) {
-	to.delete(e.key);
+	let { key: t } = e, n = no.get(t);
+	if (n) return n;
+	let r = po();
+	return no.set(t, r), r;
 }
-function fo() {
+function fo(e) {
+	no.delete(e.key);
+}
+function po() {
 	return {
 		documents: /* @__PURE__ */ new Map(),
 		records: /* @__PURE__ */ new Map(),
@@ -8985,15 +8985,31 @@ function fo() {
 		versions: /* @__PURE__ */ new Map()
 	};
 }
-function po(e) {
+function mo(e) {
 	let { state: t, documentId: n } = e;
 	t.versions.set(n, (t.versions.get(n) ?? 0) + 1);
 }
-function mo(e) {
+function ho(e) {
 	let [t, ...n] = [...e].sort((e, t) => e.size - t.size);
 	return t ? [...t].filter((e) => n.every((t) => t.has(e))) : [];
 }
-function ho() {
+function go(e) {
+	let { ids: t, byId: n, name: r } = e, i = /* @__PURE__ */ new Map();
+	for (let e of t) for (let t of n.get(e)?.attributes ?? []) {
+		if (t.name !== r) continue;
+		let n = i.get(t.value) ?? /* @__PURE__ */ new Set();
+		i.set(t.value, n), n.add(e);
+	}
+	return i;
+}
+function _o(e) {
+	let { attributes: t, byValueOf: n } = e;
+	return t.length === 0 ? [] : ho(t.map(function({ name: e, values: t }) {
+		let r = n(e);
+		return new Set(t.flatMap((e) => [...r.get(e) ?? []]));
+	})).sort();
+}
+function vo() {
 	let e = /* @__PURE__ */ new Map(), t = /* @__PURE__ */ new Map(), n = /* @__PURE__ */ new Map();
 	function r(e) {
 		let { id: n, tagName: r } = e, i = t.get(r);
@@ -9027,14 +9043,17 @@ function ho() {
 		let { tagName: i, attributes: a } = r, o = t.get(i);
 		if (!o || a.length === 0) return [];
 		let s = n.get(i) ?? /* @__PURE__ */ new Map();
-		return n.set(i, s), mo(a.map(function({ name: t, values: n }) {
-			let r = s.get(t) ?? go({
-				ids: o.ids,
-				byId: e,
-				name: t
-			});
-			return s.set(t, r), new Set(n.flatMap((e) => [...r.get(e) ?? []]));
-		})).sort();
+		return n.set(i, s), _o({
+			attributes: a,
+			byValueOf: function(t) {
+				let n = s.get(t) ?? go({
+					ids: o.ids,
+					byId: e,
+					name: t
+				});
+				return s.set(t, n), n;
+			}
+		});
 	}
 	return {
 		get: (t) => e.get(t),
@@ -9047,63 +9066,54 @@ function ho() {
 		drop: a
 	};
 }
-function go(e) {
-	let { ids: t, byId: n, name: r } = e, i = /* @__PURE__ */ new Map();
-	for (let e of t) for (let t of n.get(e)?.attributes ?? []) {
-		if (t.name !== r) continue;
-		let n = i.get(t.value) ?? /* @__PURE__ */ new Set();
-		i.set(t.value, n), n.add(e);
-	}
-	return i;
-}
-var _o = ho(), vo = fo();
-function yo(e) {
+var yo = vo(), bo = po();
+function xo(e) {
 	let { table: t, creates: n, documentId: r } = e, i = /* @__PURE__ */ new Set(), a = [], o = [];
 	for (let { id: e } of n) t.has(e) && a.push(e), i.has(e) && o.push(e), i.add(e);
-	(a.length > 0 || o.length > 0) && xt({
+	(a.length > 0 || o.length > 0) && B({
 		documentId: r,
 		held: a,
 		repeated: o
 	});
 }
-var bo = class e {
+var So = class e {
 	static {
 		this.reconcileWarned = !1;
 	}
 	constructor(e, t) {
-		this.closed = !1, this.closings = 0, this.operations = lt(), this.versionEngines = 0, Zt({
+		this.closed = !1, this.closings = 0, this.operations = ut(), this.versionEngines = 0, Qt({
 			project: e,
 			dialecteId: t?.dialecteId
-		}), this.name = e, this.writable = t?.writable ?? !0, this.runtime = t?.runtime, this.stateKey = so({
+		}), this.name = e, this.writable = t?.writable ?? !0, this.runtime = t?.runtime, this.stateKey = co({
 			project: e,
 			dialecteId: t?.dialecteId
 		});
 	}
 	async open() {
 		let e = this.closings;
-		for (await this.operations.whenIdle(); this.destroying;) await this.destroying.catch(ct);
-		this.closings !== e && Ct({ storeName: this.name }), this.closed = !1, this.writable && no.markOpen({
+		for (await this.operations.whenIdle(); this.destroying;) await this.destroying.catch(lt);
+		this.closings !== e && Ct({ storeName: this.name }), this.closed = !1, this.writable && ro.markOpen({
 			name: this.stateKey,
 			connection: this
-		}), await ga({
+		}), await _a({
 			store: this,
 			isRunning: (e) => e.writeId !== void 0 && this.readState().runningImports.has(e.writeId)
 		});
 	}
 	async close() {
-		if (this.closed = !0, this.closings += 1, no.markClosed({
+		if (this.closed = !0, this.closings += 1, ro.markClosed({
 			name: this.stateKey,
 			connection: this
 		}), this.operations.count === 0) return;
 		let e = this.operations.whenIdle();
-		ro.markClosing({
+		io.markClosing({
 			name: this.stateKey,
 			until: e
 		}), await e;
 	}
 	async destroy() {
 		if (!this.writable) return;
-		for (; this.destroying;) await this.destroying.catch(ct);
+		for (; this.destroying;) await this.destroying.catch(lt);
 		let e = this.destroyOnceIdle();
 		this.destroying = e;
 		try {
@@ -9113,15 +9123,15 @@ var bo = class e {
 		}
 	}
 	async destroyOnceIdle() {
-		await this.operations.whenIdle(), await ro.settled({ name: this.stateKey });
-		let e = no.others({
+		await this.operations.whenIdle(), await io.settled({ name: this.stateKey });
+		let e = ro.others({
 			name: this.stateKey,
 			connection: this
 		});
 		e > 0 && St({
 			storeName: this.name,
 			connections: e
-		}), uo({ key: this.stateKey }), no.markClosed({
+		}), fo({ key: this.stateKey }), ro.markClosed({
 			name: this.stateKey,
 			connection: this
 		});
@@ -9142,12 +9152,12 @@ var bo = class e {
 		return await this.guardOpen(), this.getDocumentUnguarded(e);
 	}
 	async getDocuments() {
-		return await this.guardOpen(), structuredClone([...this.readState().documents.values()].sort(ua));
+		return await this.guardOpen(), structuredClone([...this.readState().documents.values()].sort(da));
 	}
 	async updateDocument(e, t) {
 		await this.guardOpen();
 		let n = this.readState().documents.get(e);
-		await this.updateDocumentUnguarded(e, t), da({
+		await this.updateDocumentUnguarded(e, t), fa({
 			first: n,
 			second: this.readState().documents.get(e)
 		}) || this.announce({
@@ -9182,7 +9192,7 @@ var bo = class e {
 		return await this.guardOpen(), this.getByAttributesUnguarded(e);
 	}
 	async readVersioned(e) {
-		return await this.guardOpen(), zr({
+		return await this.guardOpen(), Br({
 			reads: this.unguardedReads(),
 			read: e.read,
 			versionOf: () => this.versionOf(e.documentId)
@@ -9209,29 +9219,29 @@ var bo = class e {
 	}
 	async getUnguarded(e, t) {
 		let n = this.readTable(t).get(e);
-		return n && Qa({ record: n });
+		return n && $a({ record: n });
 	}
 	async getByDocumentIdUnguarded(e) {
-		return [...this.readTable(e).records()].sort(ua).map((e) => Qa({ record: e }));
+		return [...this.readTable(e).records()].sort(da).map((e) => $a({ record: e }));
 	}
 	async getByAttributesUnguarded(e) {
 		let { documentId: t, ...n } = e, r = this.readTable(t);
 		return r.idsOfAttributes(n).flatMap(function(e) {
 			let t = r.get(e);
-			return t ? [Qa({ record: t })] : [];
+			return t ? [$a({ record: t })] : [];
 		});
 	}
 	async importFile(e) {
 		let t = this.guardOpen();
 		t && await t, this.guardWritable();
-		let { file: n, options: r, writeId: i = crypto.randomUUID(), onProgress: a, signal: o } = e, s = la({
+		let { file: n, options: r, writeId: i = crypto.randomUUID(), onProgress: a, signal: o } = e, s = ua({
 			runtime: this.runtime,
 			storeName: this.name,
 			operation: "import"
-		}), { runningImports: c } = lo({ key: this.stateKey });
+		}), { runningImports: c } = uo({ key: this.stateKey });
 		c.add(i), this.operations.start();
 		try {
-			let e = await ia({
+			let e = await aa({
 				store: this.ownImportTarget(),
 				runtime: s,
 				file: n,
@@ -9252,14 +9262,14 @@ var bo = class e {
 	async exportFile(e) {
 		let t = this.guardOpen();
 		t && await t;
-		let { documentId: n, options: r, onProgress: i, signal: a } = e, o = la({
+		let { documentId: n, options: r, onProgress: i, signal: a } = e, o = ua({
 			runtime: this.runtime,
 			storeName: this.name,
 			operation: "export"
 		});
 		this.operations.start();
 		try {
-			return await Tr({
+			return await Er({
 				source: this.ownExportSource(),
 				runtime: o,
 				documentId: n,
@@ -9275,7 +9285,7 @@ var bo = class e {
 	async getWriteOutcome(e) {
 		await this.guardOpen();
 		let { writeId: t } = e, { documents: n, changelog: r, discardedCommits: i, runningImports: a } = this.readState(), o = [...r.values()].some((e) => e.some((e) => e.writeId === t)) || [...i.values()].some((e) => e.has(t));
-		return Ur({
+		return Wr({
 			documents: [...n.values()],
 			writeId: t,
 			committed: o,
@@ -9297,7 +9307,7 @@ var bo = class e {
 	async commit(e) {
 		await this.guardOpen(), this.guardWritable();
 		let { documentId: t, writeId: n, deletes: r, onProgress: i } = e, { state: a, table: o } = this.writeTarget(t);
-		a.documents.get(t)?.status === "importing" && yt({
+		a.documents.get(t)?.status === "importing" && z({
 			documentId: t,
 			what: "a commit"
 		}), Dt({
@@ -9310,14 +9320,14 @@ var bo = class e {
 				documentId: t,
 				recordId: e.id
 			}), n;
-		}), c = ui({ records: e.creates });
-		yo({
+		}), c = di({ records: e.creates });
+		xo({
 			table: o,
 			creates: c,
 			documentId: t
 		});
-		let l = ui({ records: e.updates });
-		po({
+		let l = di({ records: e.updates });
+		mo({
 			state: a,
 			documentId: t
 		});
@@ -9346,7 +9356,7 @@ var bo = class e {
 				deletes: u
 			}
 		};
-		g.push(y), f.set(t, g), d.set(t, v), pi({
+		g.push(y), f.set(t, g), d.set(t, v), mi({
 			onProgress: i,
 			parts: [
 				c.length,
@@ -9357,7 +9367,7 @@ var bo = class e {
 			type: "commit",
 			documentId: t,
 			changeId: n,
-			changes: Gr({
+			changes: Kr({
 				creates: e.creates,
 				updates: e.updates,
 				deletes: r
@@ -9379,11 +9389,11 @@ var bo = class e {
 		for (let e of l) o.put(e);
 		for (let e of c) o.put(e.before);
 		for (let e of s) o.drop(e.id);
-		r.heads.set(t, i - 1), po({
+		r.heads.set(t, i - 1), mo({
 			state: r,
 			documentId: t
 		});
-		let u = Yr({
+		let u = Xr({
 			operations: a.operations,
 			direction: "back"
 		});
@@ -9412,11 +9422,11 @@ var bo = class e {
 		for (let e of s) o.put(e);
 		for (let e of c) o.put(e.after);
 		for (let e of l) o.drop(e.id);
-		r.heads.set(t, i), po({
+		r.heads.set(t, i), mo({
 			state: r,
 			documentId: t
 		});
-		let u = Yr({
+		let u = Xr({
 			operations: a.operations,
 			direction: "forward"
 		});
@@ -9447,10 +9457,10 @@ var bo = class e {
 	async addBlob(e, t) {
 		await this.guardOpen(), this.guardWritable();
 		let n = this.writeState();
-		n?.documents.has(e.documentId) || yt({
+		n?.documents.has(e.documentId) || z({
 			documentId: e.documentId,
 			what: "a blob"
-		}), n.blobs.set(e.id, Ot({ value: e }));
+		}), n.blobs.set(e.id, V({ value: e }));
 		let r = n.blobData.get(e.documentId) ?? /* @__PURE__ */ new Map();
 		n.blobData.set(e.documentId, r.set(e.id, t)), this.announce({
 			type: "blob-added",
@@ -9469,19 +9479,19 @@ var bo = class e {
 		};
 	}
 	async getBlobsByDocument(e) {
-		return await this.guardOpen(), structuredClone([...this.readState().blobs.values()].filter((t) => t.attachedTo.some((t) => t.documentId === e)).sort(ua));
+		return await this.guardOpen(), structuredClone([...this.readState().blobs.values()].filter((t) => t.attachedTo.some((t) => t.documentId === e)).sort(da));
 	}
 	async getBlobsByRecord(e, t) {
-		return await this.guardOpen(), structuredClone([...this.readState().blobs.values()].filter((n) => n.attachedTo.some((n) => n.documentId === e && n.recordRef === t)).sort(ua));
+		return await this.guardOpen(), structuredClone([...this.readState().blobs.values()].filter((n) => n.attachedTo.some((n) => n.documentId === e && n.recordRef === t)).sort(da));
 	}
 	async getStandaloneBlobs() {
-		return await this.guardOpen(), structuredClone([...this.readState().blobs.values()].filter((e) => e.attachedTo.length === 0).sort(ua));
+		return await this.guardOpen(), structuredClone([...this.readState().blobs.values()].filter((e) => e.attachedTo.length === 0).sort(da));
 	}
 	async attachBlob(e, t) {
 		await this.guardOpen(), this.guardWritable();
 		let n = this.writeState(), r = n?.blobs.get(e);
-		n && r || f("STORE_BLOB_NOT_FOUND", { detail: `Blob "${e}" not found` });
-		let i = Ot({ value: t });
+		n && r || m("STORE_BLOB_NOT_FOUND", { detail: `Blob "${e}" not found` });
+		let i = V({ value: t });
 		r.attachedTo.some((e) => e.documentId === t.documentId && e.recordRef === t.recordRef && e.attribute === t.attribute) || (n.blobs.set(e, {
 			...r,
 			attachedTo: [...r.attachedTo, i]
@@ -9494,7 +9504,7 @@ var bo = class e {
 	async detachBlob(e, t) {
 		await this.guardOpen(), this.guardWritable();
 		let n = this.writeState(), r = n?.blobs.get(e);
-		n && r || f("STORE_BLOB_NOT_FOUND", { detail: `Blob "${e}" not found` });
+		n && r || m("STORE_BLOB_NOT_FOUND", { detail: `Blob "${e}" not found` });
 		let i = r.attachedTo.filter((e) => e.documentId !== t.documentId || e.recordRef !== t.recordRef);
 		i.length !== r.attachedTo.length && (n.blobs.set(e, {
 			...r,
@@ -9517,16 +9527,16 @@ var bo = class e {
 		}));
 	}
 	subscribe(e) {
-		return this.writable ? ao({
+		return this.writable ? oo({
 			key: this.stateKey,
 			connection: this,
 			listener: (t) => {
 				this.closed || e(t);
 			}
-		}) : xo;
+		}) : Co;
 	}
 	announce(e) {
-		oo({
+		so({
 			key: this.stateKey,
 			name: this.name,
 			connection: this,
@@ -9535,26 +9545,26 @@ var bo = class e {
 	}
 	async registerDocumentUnguarded(e) {
 		this.guardWritable();
-		let t = lo({ key: this.stateKey });
-		t.documents.has(e.id) && gt({ documentId: e.id });
-		let n = Ot({ value: e });
-		ai({
+		let t = uo({ key: this.stateKey });
+		t.documents.has(e.id) && _t({ documentId: e.id });
+		let n = V({ value: e });
+		oi({
 			document: n,
 			documents: [...t.documents.values()]
-		}), t.documents.set(e.id, n), t.records.set(q(e.id), ho()), t.blobData.set(e.id, /* @__PURE__ */ new Map());
+		}), t.documents.set(e.id, n), t.records.set(Gt(e.id), vo()), t.blobData.set(e.id, /* @__PURE__ */ new Map());
 	}
 	async getDocumentUnguarded(e) {
 		return structuredClone(this.readState().documents.get(e));
 	}
 	async updateDocumentUnguarded(e, t) {
 		this.guardWritable();
-		let n = Ot({ value: t }), r = this.writeState(), i = r?.documents.get(e);
+		let n = V({ value: t }), r = this.writeState(), i = r?.documents.get(e);
 		if (!r || !i) return;
-		let a = ii({
+		let a = ai({
 			document: i,
 			updates: n
 		});
-		a.path !== i.path && ai({
+		a.path !== i.path && oi({
 			document: a,
 			documents: [...r.documents.values()]
 		}), r.documents.set(e, a);
@@ -9563,10 +9573,10 @@ var bo = class e {
 		let { documentId: t, registered: n } = e;
 		this.guardWritable();
 		let r = this.writeState(), i = r?.documents.get(t);
-		r && i && _a({
+		r && i && va({
 			held: i,
 			registered: n
-		}) || yt({
+		}) || z({
 			documentId: t,
 			what: "its ready state"
 		}), r.documents.set(t, {
@@ -9576,17 +9586,17 @@ var bo = class e {
 	}
 	async bulkWriteOwnImport(e) {
 		let { documentId: t, ops: n, registered: r } = e, i = this.writeState()?.documents.get(t);
-		_a({
+		va({
 			held: i,
 			registered: r
-		}) || yt({
+		}) || z({
 			documentId: t,
 			what: "records"
 		}), await this.bulkWriteUnguarded(t, n);
 	}
 	async removeOwnImport(e) {
 		let { documentId: t, registered: n } = e, r = this.writeState()?.documents.get(t);
-		_a({
+		va({
 			held: r,
 			registered: n
 		}) && await this.removeDocumentUnguarded(t);
@@ -9595,7 +9605,7 @@ var bo = class e {
 		this.guardWritable();
 		let t = this.writeState();
 		if (t) {
-			t.documents.delete(e), t.records.delete(q(e)), t.changelog.delete(e), t.heads.delete(e), t.discardedCommits.delete(e), po({
+			t.documents.delete(e), t.records.delete(Gt(e)), t.changelog.delete(e), t.heads.delete(e), t.discardedCommits.delete(e), mo({
 				state: t,
 				documentId: e
 			}), t.blobData.delete(e);
@@ -9604,39 +9614,39 @@ var bo = class e {
 	}
 	async bulkWriteUnguarded(e, t) {
 		this.guardWritable();
-		let { state: n, table: r } = this.writeTarget(e), i = ui({ records: t.creates ?? [] });
-		yo({
+		let { state: n, table: r } = this.writeTarget(e), i = di({ records: t.creates ?? [] });
+		xo({
 			table: r,
 			creates: i,
 			documentId: e
 		});
-		let a = new Set(i.map((e) => e.id)), o = Ot({ value: (t.updates ?? []).filter((e) => r.has(e.recordId) || a.has(e.recordId)) });
+		let a = new Set(i.map((e) => e.id)), o = V({ value: (t.updates ?? []).filter((e) => r.has(e.recordId) || a.has(e.recordId)) });
 		for (let e of i) r.put(e);
 		for (let e of o) {
 			let t = r.get(e.recordId);
-			t && r.put(di({
+			t && r.put(fi({
 				record: t,
 				patch: e
 			}));
 		}
 		if (t.deletes) for (let e of t.deletes) r.drop(e);
-		po({
+		mo({
 			state: n,
 			documentId: e
 		});
 	}
 	readState() {
-		return this.writable ? co({ key: this.stateKey }) ?? vo : vo;
+		return this.writable ? lo({ key: this.stateKey }) ?? bo : bo;
 	}
 	writeState() {
-		return co({ key: this.stateKey });
+		return lo({ key: this.stateKey });
 	}
 	readTable(e) {
-		return this.readState().records.get(q(e)) ?? _o;
+		return this.readState().records.get(Gt(e)) ?? yo;
 	}
 	writeTarget(e) {
-		let t = this.writeState(), n = t?.records.get(q(e));
-		return t && n || yt({
+		let t = this.writeState(), n = t?.records.get(Gt(e));
+		return t && n || z({
 			documentId: e,
 			what: "records"
 		}), {
@@ -9646,13 +9656,13 @@ var bo = class e {
 	}
 	guardOpen() {
 		if (this.closed && Ct({ storeName: this.name }), this.destroying) return this.guardOpenAfterOwnDestroy({ destroying: this.destroying });
-		this.writable && no.markOpen({
+		this.writable && ro.markOpen({
 			name: this.stateKey,
 			connection: this
 		});
 	}
 	async guardOpenAfterOwnDestroy(e) {
-		await e.destroying.catch(ct), await this.guardOpen();
+		await e.destroying.catch(lt), await this.guardOpen();
 	}
 	async writeOwnSession(e) {
 		let { documentId: t, ops: n, control: r, registered: i } = e;
@@ -9660,7 +9670,7 @@ var bo = class e {
 			documentId: t,
 			ops: n,
 			registered: i
-		}), xi({
+		}), Si({
 			ops: n,
 			control: r
 		});
@@ -9711,36 +9721,36 @@ var bo = class e {
 		let n = this.readTable(t);
 		return n.idsOfTag(e).flatMap(function(e) {
 			let t = n.get(e);
-			return t ? [Qa({ record: t })] : [];
+			return t ? [$a({ record: t })] : [];
 		});
 	}
 	async getManyUnguarded(e, t) {
 		let n = this.readTable(t);
 		return e.map(function(e) {
 			let t = n.get(e);
-			return t && Qa({ record: t });
+			return t && $a({ record: t });
 		});
 	}
 	guardWritable() {
-		this.writable || f("STORE_NOT_WRITABLE", { detail: "In-memory store is read-only. Hydrate with a real document before writing." });
+		this.writable || m("STORE_NOT_WRITABLE", { detail: "In-memory store is read-only. Hydrate with a real document before writing." });
 	}
 };
-function xo() {}
-function So(e) {
+function Co() {}
+function wo(e) {
 	let { name: t, storage: n, runtime: r, perf: i, dialecteId: a } = e, { type: o } = n;
 	if (n.type === "local") {
 		let e = r.configs[r.defaultConfigKey];
-		return new Ga(t, {
+		return new Ka(t, {
 			recordSchema: e.database.recordSchema,
 			perf: i,
 			runtime: r
 		});
 	}
-	return n.type === "inMemory" ? new bo(t, {
+	return n.type === "inMemory" ? new So(t, {
 		writable: n.writable ?? !0,
 		runtime: r,
 		dialecteId: a
-	}) : n.type === "custom" ? n.store : st({
+	}) : n.type === "custom" ? n.store : ct({
 		project: t,
 		type: o
 	}).storeOf({
@@ -9751,46 +9761,68 @@ function So(e) {
 		perf: i
 	});
 }
-async function Co(e) {
+async function To(e) {
 	let { store: t, state: n, projectName: r, perf: i, request: a } = e, { documentId: o, indent: s = !0, withDatabaseIds: c, xmlDocument: l, download: u } = a, d = n.documents.get(o);
-	j(d, {
+	g(d, {
 		key: "DOCUMENT_NOT_REGISTERED",
 		detail: `Document "${o}" not registered in project "${r}"`
 	});
-	let { record: f } = d, p = u ? await m({
-		filename: u === !0 ? `${f.name}${f.extension}` : u.filename,
-		pickerType: To({ extension: f.extension })
-	}) : void 0, h = await wo({
+	let { record: f } = d, p = await Eo({
+		download: u,
+		record: f
+	}), m = await Oo({
 		store: t,
 		documentId: o,
 		indent: s,
 		withDatabaseIds: c,
 		perf: i
-	});
-	if (p) {
-		let e = s ? h.file : (await wo({
-			store: t,
-			documentId: o,
-			indent: !0,
-			withDatabaseIds: c,
-			perf: i
-		})).file;
-		await p.write(e);
-	}
-	if (!l) return h;
-	let g = await Si({ file: s ? (await wo({
+	}), h = p && await Do({
+		saveTarget: p,
+		exported: m,
+		store: t,
+		documentId: o,
+		indent: s,
+		withDatabaseIds: c,
+		perf: i
+	}), _ = h && { saved: h };
+	if (!l) return {
+		...m,
+		..._
+	};
+	let v = await Ci({ file: s ? (await Oo({
 		store: t,
 		documentId: o,
 		indent: !1,
 		withDatabaseIds: c,
 		perf: i
-	})).file : h.file });
+	})).file : m.file });
 	return {
-		...h,
-		xmlDocument: g
+		...m,
+		..._,
+		xmlDocument: v
 	};
 }
-async function wo(e) {
+async function Eo(e) {
+	let { download: t, record: n } = e;
+	if (t) return typeof t == "object" && "target" in t ? t.target : i({
+		filename: t === !0 ? `${n.name}${n.extension}` : t.filename,
+		pickerType: ko({ extension: n.extension })
+	});
+}
+async function Do(e) {
+	let { saveTarget: t, exported: n, indent: r, ...i } = e;
+	return r || t.outcome === "cancelled" ? ae({
+		target: t,
+		data: n.file
+	}) : ae({
+		target: t,
+		data: (await Oo({
+			...i,
+			indent: !0
+		})).file
+	});
+}
+async function Oo(e) {
 	let { store: t, documentId: n, indent: r, withDatabaseIds: i, perf: a } = e, o = await t.exportFile({
 		documentId: n,
 		options: {
@@ -9806,27 +9838,33 @@ async function wo(e) {
 		filename: o.filename
 	};
 }
-function To(e) {
+function ko(e) {
 	let { extension: t } = e;
 	return {
 		description: `${t.replace(/^\./, "").toUpperCase()} Files`,
 		accept: { "application/xml": [t] }
 	};
 }
-async function Eo(e) {
-	let { store: t, request: n } = e, { blobId: r, download: i } = n, a = typeof i == "object" ? await m({ filename: i.filename }) : void 0, o = await t.getBlob(r);
-	j(o, {
+async function Ao(e) {
+	let { store: t, request: n } = e, { blobId: r, download: a } = n, o = typeof a == "object" ? "target" in a ? a.target : await i({ filename: a.filename }) : void 0, s = await t.getBlob(r);
+	g(s, {
 		key: "BLOB_NOT_FOUND",
 		detail: `Blob "${r}" not found in store`
 	});
-	let s = o.entry.name;
-	return await (i === !0 ? await m({ filename: s }) : a)?.write(o.data), {
-		entry: o.entry,
-		data: o.data,
-		filename: s
+	let c = s.entry.name, l = a === !0 ? await i({ filename: c }) : o, u = {
+		entry: s.entry,
+		data: s.data,
+		filename: c
 	};
+	return l ? {
+		...u,
+		saved: await ae({
+			target: l,
+			data: s.data
+		})
+	} : u;
 }
-function Do(e) {
+function jo(e) {
 	return {
 		record: e,
 		loading: !1,
@@ -9838,20 +9876,20 @@ function Do(e) {
 		canRedo: !1
 	};
 }
-function Oo(e, t) {
+function Mo(e, t) {
 	let n = new Set(t.map((e) => e.id));
-	for (let n of t) e.has(n.id) || e.set(n.id, Do(n));
+	for (let n of t) e.has(n.id) || e.set(n.id, jo(n));
 	for (let t of e.keys()) n.has(t) || e.delete(t);
 	return e;
 }
-async function ko(e) {
-	let { store: t, configs: n, defaultConfigKey: r, options: i, hooks: a } = e, { configKey: o, config: s } = en({
+async function No(e) {
+	let { store: t, configs: n, defaultConfigKey: r, options: i, hooks: a } = e, { configKey: o, config: s } = tn({
 		configs: n,
 		defaultConfigKey: r,
 		configKey: i?.configKey
 	}), c = crypto.randomUUID(), l = {
 		id: c,
-		...Ao({
+		...Po({
 			options: i,
 			config: s
 		}),
@@ -9862,7 +9900,7 @@ async function ko(e) {
 		...i?.path !== void 0 && { path: i.path }
 	};
 	await t.registerDocument(l);
-	let u = ze({
+	let u = F({
 		dialecteConfig: s,
 		hooks: a,
 		record: {
@@ -9876,17 +9914,17 @@ async function ko(e) {
 	return await t.bulkWrite(c, { creates: [u] }), {
 		documentId: c,
 		record: l,
-		documentState: Do(l)
+		documentState: jo(l)
 	};
 }
-function Ao(e) {
-	let { options: t, config: n } = e, { path: r, name: i, extension: a } = t ?? {}, o = ti({ extensions: n.io.supportedFileExtensions });
+function Po(e) {
+	let { options: t, config: n } = e, { path: r, name: i, extension: a } = t ?? {}, o = ni({ extensions: n.io.supportedFileExtensions });
 	if (r === void 0) return {
 		name: i ?? "untitled",
 		extension: a ?? o[0]
 	};
 	if (a === void 0) {
-		let e = ni({
+		let e = ri({
 			path: r,
 			extensions: o
 		});
@@ -9895,29 +9933,29 @@ function Ao(e) {
 			extension: e.extension
 		};
 	}
-	let { fileName: s } = ei({ path: r }), c = s.endsWith(a) ? s.slice(0, s.length - a.length) : s;
+	let { fileName: s } = ti({ path: r }), c = s.endsWith(a) ? s.slice(0, s.length - a.length) : s;
 	return {
 		name: i ?? c,
 		extension: a
 	};
 }
-function jo(e) {
+function Fo(e) {
 	let { name: t, instance: n } = e;
 	return n === void 0 ? `dialecte::project::${t}` : `dialecte::project::${t}::${n}`;
 }
-function Mo(e) {
+function Io(e) {
 	return e.status === "importing";
 }
-function No(e) {
-	return e.filter((e) => !Mo(e));
+function Lo(e) {
+	return e.filter((e) => !Io(e));
 }
-var Po = {
+var Ro = {
 	get: "get",
 	getMany: "getMany",
 	getByTagNameInDocument: "getByTagName",
 	getByAttributes: "getByAttributes",
 	getByDocumentId: "getByDocumentId"
-}, Fo = [
+}, zo = [
 	"getRoot",
 	"getRecord",
 	"getDefinition",
@@ -9935,30 +9973,30 @@ var Po = {
 	"getAttribute",
 	"getAttributes",
 	"findByAttributes"
-], Io = /* @__PURE__ */ new Set([
+], Bo = /* @__PURE__ */ new Set([
 	"commit",
 	"init-empty-document",
 	"document-removed",
 	"document-imported"
-]), Lo = Symbol("dialecte.readScopeWiring"), Ro = Symbol("dialecte.readScope");
-function zo(e) {
-	Go({
+]), Vo = Symbol("dialecte.readScopeWiring"), Ho = Symbol("dialecte.readScope");
+function Uo(e) {
+	Yo({
 		target: e.query,
-		key: Lo,
+		key: Vo,
 		value: e.wiring
 	});
 }
-function Bo(e) {
-	let t = Reflect.get(e, Ro);
+function Wo(e) {
+	let t = Reflect.get(e, Ho);
 	return t && !t.closed ? t : void 0;
 }
-function Vo(e) {
-	let { instance: t, call: n } = e, r = Reflect.get(t, Lo);
-	if (!r || Bo(t)) return n(t);
-	let i = Object.create(t), a = Uo({ wiring: r });
-	Go({
+function Go(e) {
+	let { instance: t, call: n } = e, r = Reflect.get(t, Vo);
+	if (!r || Wo(t)) return n(t);
+	let i = Object.create(t), a = qo({ wiring: r });
+	Yo({
 		target: i,
-		key: Ro,
+		key: Ho,
 		value: a
 	}), Object.assign(i, r.bindQueryExtensions(i));
 	let o;
@@ -9967,25 +10005,25 @@ function Vo(e) {
 	} catch (e) {
 		throw a.closed = !0, e;
 	}
-	return Wo(o) ? o.then(function(e) {
+	return Jo(o) ? o.then(function(e) {
 		return a.closed = !0, e;
 	}, function(e) {
 		throw a.closed = !0, e;
 	}) : (a.closed = !0, o);
 }
-function Ho(e) {
+function Ko(e) {
 	let { prototype: t, names: n } = e;
 	for (let e of n) {
 		let n = Reflect.get(t, e);
 		Reflect.set(t, e, function(...e) {
-			return Vo({
+			return Go({
 				instance: this,
 				call: (t) => n.apply(t, e)
 			});
 		});
 	}
 }
-function Uo(e) {
+function qo(e) {
 	let { wiring: t } = e;
 	return {
 		documentId: t.documentId,
@@ -9999,10 +10037,10 @@ function Uo(e) {
 		epochOf: t.epochOf
 	};
 }
-function Wo(e) {
+function Jo(e) {
 	return typeof e == "object" && !!e && typeof e.then == "function";
 }
-function Go(e) {
+function Yo(e) {
 	Object.defineProperty(e.target, e.key, {
 		value: e.value,
 		enumerable: !1,
@@ -10010,21 +10048,21 @@ function Go(e) {
 		configurable: !0
 	});
 }
-function Ko(e, t) {
-	return e ? qo(e, t) : {};
+function Xo(e, t) {
+	return e ? Zo(e, t) : {};
 }
-function qo(e, t) {
+function Zo(e, t) {
 	let n = {};
 	for (let r of Object.keys(e)) {
 		let i = e[r];
-		n[r] = typeof i == "function" ? (...e) => Vo({
+		n[r] = typeof i == "function" ? (...e) => Go({
 			instance: t,
 			call: (t) => i(t, ...e)
-		}) : qo(i, t);
+		}) : Zo(i, t);
 	}
 	return n;
 }
-function Jo(e, t = () => {}) {
+function Qo(e, t = () => {}) {
 	let n = [];
 	function r() {
 		if (n.length === 0) {
@@ -10066,13 +10104,13 @@ function Jo(e, t = () => {}) {
 		}
 	};
 }
-var Yo = Object.freeze({
+var $o = Object.freeze({
 	plan() {},
 	nextStep() {},
 	endPlan() {},
 	forceClear() {}
 });
-function Xo() {
+function es() {
 	return {
 		log: [],
 		byId: /* @__PURE__ */ new Map(),
@@ -10080,19 +10118,19 @@ function Xo() {
 		appended: /* @__PURE__ */ new Map()
 	};
 }
-function Zo(e) {
+function ts(e) {
 	let { stagedOperations: t, operation: n } = e, { log: r, byId: i, byAttribute: a, appended: o } = t, s = n.status === "deleted" ? n.oldRecord.id : n.newRecord.id, c = i.get(s);
-	c && c.status !== "deleted" && Qo({
+	c && c.status !== "deleted" && ns({
 		record: c.newRecord,
 		index: a,
 		act: "remove"
-	}), n.status === "deleted" ? o.delete(s) : (Qo({
+	}), n.status === "deleted" ? o.delete(s) : (ns({
 		record: n.newRecord,
 		index: a,
 		act: "add"
 	}), (c === void 0 ? n.status === "created" : c.status === "deleted") && !o.has(s) && o.set(s, r.length)), r.push(n), i.set(s, n);
 }
-function Qo(e) {
+function ns(e) {
 	let { record: t, index: n, act: r } = e, i = n.get(t.tagName) ?? /* @__PURE__ */ new Map();
 	n.set(t.tagName, i);
 	for (let { name: e, value: n } of t.attributes) {
@@ -10103,24 +10141,24 @@ function Qo(e) {
 	}
 	i.size === 0 && n.delete(t.tagName);
 }
-function $o(e) {
+function rs(e) {
 	let { perf: t, member: n, records: r } = e;
 	if (t === Y) return;
 	let i = `core::store::records.${n}`;
 	for (let e of r) e !== void 0 && t.count(i);
 }
-async function es(e) {
+async function is(e) {
 	let { context: t, read: n } = e, r = t.kind === "query" ? t.readScope : void 0, i = t.store;
-	if (!r || r.closed || typeof i.readVersioned != "function") return ts({
+	if (!r || r.closed || typeof i.readVersioned != "function") return as({
 		context: t,
 		read: n
 	});
-	ns({ scope: r });
-	let a = rs({
+	os({ scope: r });
+	let a = ss({
 		scope: r,
 		read: n
 	});
-	return a.complete ? (t.perf.count("core::query::readScope.hit"), a.value) : os({
+	return a.complete ? (t.perf.count("core::query::readScope.hit"), a.value) : us({
 		context: t,
 		scope: r,
 		store: i,
@@ -10128,21 +10166,21 @@ async function es(e) {
 		heldIds: a.heldIds
 	});
 }
-async function ts(e) {
+async function as(e) {
 	let { context: t, read: n } = e, r = t.store[n.member];
-	t.perf.count(`core::store::${Po[n.member]}`);
+	t.perf.count(`core::store::${Ro[n.member]}`);
 	let i = await r.apply(t.store, n.args);
-	return ms({
+	return vs({
 		context: t,
 		read: n,
 		value: i
 	}), i;
 }
-function ns(e) {
+function os(e) {
 	let { scope: t } = e, n = t.epochOf();
-	n !== t.epoch && (us({ scope: t }), t.epoch = n, t.version = void 0);
+	n !== t.epoch && (ms({ scope: t }), t.epoch = n, t.version = void 0);
 }
-function rs(e) {
+function ss(e) {
 	let { scope: t, read: n } = e, r = {
 		complete: !1,
 		heldIds: /* @__PURE__ */ new Set()
@@ -10152,7 +10190,7 @@ function rs(e) {
 			let [e] = n.args;
 			return t.records.has(e) ? {
 				complete: !0,
-				value: ps(t.records.get(e)),
+				value: _s(t.records.get(e)),
 				heldIds: r.heldIds
 			} : r;
 		}
@@ -10163,96 +10201,96 @@ function rs(e) {
 				heldIds: r
 			} : {
 				complete: !0,
-				value: e.map((e) => ps(t.records.get(e))),
+				value: e.map((e) => _s(t.records.get(e))),
 				heldIds: r
 			};
 		}
 		case "getByTagNameInDocument": {
-			let [e] = n.args, i = t.tagAnswers.get(e) ?? is({
+			let [e] = n.args, i = t.tagAnswers.get(e) ?? cs({
 				scope: t,
 				tagName: e
 			});
-			return i ? as({
+			return i ? ls({
 				scope: t,
 				ids: i
 			}) : r;
 		}
 		case "getByAttributes": {
-			let e = t.attributeAnswers.get(ds({ read: n }));
-			return e ? as({
+			let e = t.attributeAnswers.get(hs({ read: n }));
+			return e ? ls({
 				scope: t,
 				ids: e
 			}) : r;
 		}
-		case "getByDocumentId": return t.documentAnswer ? as({
+		case "getByDocumentId": return t.documentAnswer ? ls({
 			scope: t,
 			ids: t.documentAnswer
 		}) : r;
 	}
 }
-function is(e) {
+function cs(e) {
 	let { scope: t, tagName: n } = e;
 	return t.documentAnswer?.filter((e) => t.records.get(e)?.tagName === n);
 }
-function as(e) {
+function ls(e) {
 	let { scope: t, ids: n } = e;
 	return {
 		complete: !0,
-		value: n.map((e) => ps(t.records.get(e))),
+		value: n.map((e) => _s(t.records.get(e))),
 		heldIds: /* @__PURE__ */ new Set()
 	};
 }
-async function os(e) {
-	let { context: t, scope: n, store: r, read: i, heldIds: a } = e, o = n.epoch, s = n.version, c = cs({
+async function us(e) {
+	let { context: t, scope: n, store: r, read: i, heldIds: a } = e, o = n.epoch, s = n.version, c = fs({
 		read: i,
 		heldIds: a
-	}), l = c !== i, u = await ss({
+	}), l = c !== i, u = await ds({
 		context: t,
 		scope: n,
 		store: r,
 		read: c
-	}), d = n.closed || n.epochOf() !== o, f = fs({
+	}), d = n.closed || n.epochOf() !== o, f = gs({
 		held: n.version,
 		answered: u.version
 	});
-	if (d || f === "older") return l ? (await ss({
+	if (d || f === "older") return l ? (await ds({
 		context: t,
 		scope: n,
 		store: r,
 		read: i
 	})).value : u.value;
 	if (f === "newer") {
-		if (us({ scope: n }), n.version = u.version, l) return os({
+		if (ms({ scope: n }), n.version = u.version, l) return us({
 			...e,
 			heldIds: /* @__PURE__ */ new Set()
 		});
-	} else if (l && n.version !== s) return os({
+	} else if (l && n.version !== s) return us({
 		...e,
 		heldIds: /* @__PURE__ */ new Set()
 	});
-	return ls({
+	return ps({
 		scope: n,
 		read: c,
 		value: u.value
-	}), rs({
+	}), ss({
 		scope: n,
 		read: i
 	}).value;
 }
-async function ss(e) {
+async function ds(e) {
 	let { context: t, scope: n, store: r, read: i } = e;
-	t.perf.count(`core::store::${Po[i.member]}`);
+	t.perf.count(`core::store::${Ro[i.member]}`);
 	let a = await r.readVersioned({
 		documentId: n.documentId,
 		read: i
 	});
-	return ms({
+	return vs({
 		context: t,
 		read: i,
 		value: a.value
 	}), a;
 }
-function cs(e) {
+function fs(e) {
 	let { read: t, heldIds: n } = e;
 	if (t.member !== "getMany" || n.size === 0) return t;
 	let [r, i] = t.args;
@@ -10261,7 +10299,7 @@ function cs(e) {
 		args: [[...new Set(r.filter((e) => !n.has(e)))], i]
 	};
 }
-function ls(e) {
+function ps(e) {
 	let { scope: t, read: n, value: r } = e;
 	if (n.member === "get") {
 		t.records.set(n.args[0], r);
@@ -10275,36 +10313,36 @@ function ls(e) {
 	let i = r;
 	for (let e of i) t.records.set(e.id, e);
 	let a = i.map((e) => e.id);
-	n.member === "getByTagNameInDocument" ? t.tagAnswers.set(n.args[0], a) : n.member === "getByAttributes" ? t.attributeAnswers.set(ds({ read: n }), a) : t.documentAnswer = a;
+	n.member === "getByTagNameInDocument" ? t.tagAnswers.set(n.args[0], a) : n.member === "getByAttributes" ? t.attributeAnswers.set(hs({ read: n }), a) : t.documentAnswer = a;
 }
-function us(e) {
+function ms(e) {
 	let { scope: t } = e;
 	t.records.clear(), t.tagAnswers.clear(), t.attributeAnswers.clear(), t.documentAnswer = void 0;
 }
-function ds(e) {
+function hs(e) {
 	let [{ tagName: t, attributes: n }] = e.read.args;
 	return JSON.stringify([t, n]);
 }
-function fs(e) {
+function gs(e) {
 	let { held: t, answered: n } = e;
 	return t === void 0 || t.engineId !== n.engineId ? "newer" : n.count === t.count ? "same" : n.count > t.count ? "newer" : "older";
 }
-function ps(e) {
-	return e && Qa({ record: e });
+function _s(e) {
+	return e && $a({ record: e });
 }
-function ms(e) {
+function vs(e) {
 	let { context: t, read: n, value: r } = e, i = Array.isArray(r) ? r : [r];
-	$o({
+	rs({
 		perf: t.perf,
-		member: Po[n.member],
+		member: Ro[n.member],
 		records: i
 	});
 }
-function hs(e) {
+function ys(e) {
 	let { stagedOperations: t, tagName: n, id: r } = e, { log: i, byId: a } = t;
 	if (r !== void 0) {
 		let e = a.get(r);
-		return e ? gs({
+		return e ? bs({
 			operation: e,
 			tagName: n,
 			id: r
@@ -10312,29 +10350,29 @@ function hs(e) {
 	}
 	for (let e = i.length - 1; e >= 0; e--) {
 		let t = i[e];
-		if ((t.status === "created" || t.status === "updated") && Oe(t.newRecord, n)) return {
+		if ((t.status === "created" || t.status === "updated") && ke(t.newRecord, n)) return {
 			...t.newRecord,
 			status: t.status
 		};
-		if (t.status === "deleted" && Oe(t.oldRecord, n)) return {
+		if (t.status === "deleted" && ke(t.oldRecord, n)) return {
 			...t.oldRecord,
 			status: "deleted"
 		};
 	}
 }
-function gs(e) {
+function bs(e) {
 	let { operation: t, tagName: n, id: r } = e;
-	if ((t.status === "created" || t.status === "updated") && t.newRecord.id === r) return _s(t.newRecord.tagName, n, r), {
+	if ((t.status === "created" || t.status === "updated") && t.newRecord.id === r) return xs(t.newRecord.tagName, n, r), {
 		...t.newRecord,
 		status: t.status
 	};
-	if (t.status === "deleted" && t.oldRecord.id === r) return _s(t.oldRecord.tagName, n, r), {
+	if (t.status === "deleted" && t.oldRecord.id === r) return xs(t.oldRecord.tagName, n, r), {
 		...t.oldRecord,
 		status: "deleted"
 	};
 }
-function _s(e, t, n) {
-	e !== t && f("ELEMENT_TAGNAME_MISMATCH", {
+function xs(e, t, n) {
+	e !== t && m("ELEMENT_TAGNAME_MISMATCH", {
 		detail: `Expected tagName '${t}', got '${e}' for id '${n}'`,
 		ref: {
 			tagName: t,
@@ -10347,14 +10385,14 @@ function _s(e, t, n) {
 		}
 	});
 }
-function vs(e) {
+function Ss(e) {
 	let { rawRecords: t, stagedOperations: n, tagName: r } = e, i = new Map(t.map((e) => [e.id, {
 		...e,
 		status: "unchanged"
 	}]));
 	for (let e of n) {
 		if (e.status === "created" || e.status === "updated") {
-			if (!Oe(e.newRecord, r)) continue;
+			if (!ke(e.newRecord, r)) continue;
 			i.set(e.newRecord.id, {
 				...e.newRecord,
 				status: e.status
@@ -10364,7 +10402,7 @@ function vs(e) {
 	}
 	return Array.from(i.values());
 }
-function ys(e) {
+function Cs(e) {
 	let { rawRecords: t, stagedOperations: n, includeDeleted: r = !1 } = e, { log: i, byId: a } = n, o = new Map(t.map((e) => [e.id, {
 		...e,
 		status: "unchanged"
@@ -10389,7 +10427,7 @@ function ys(e) {
 		deleted: c
 	};
 }
-function bs(e) {
+function ws(e) {
 	let t = /* @__PURE__ */ new Set();
 	for (let n of e) n.status === "created" && t.add(n.newRecord.id);
 	let n = /* @__PURE__ */ new Map();
@@ -10407,10 +10445,195 @@ function bs(e) {
 	}
 	return n;
 }
+var Ts = 2e3, Es = {
+	hit: "core::transaction::readCache.hit",
+	complete: "core::transaction::readCache.complete",
+	dropped: "core::transaction::readCache.dropped",
+	storeCount: "core::store::count"
+}, Ds = Symbol("dialecte.transactionReadEpoch");
+function Os() {
+	return {
+		records: /* @__PURE__ */ new Map(),
+		tags: /* @__PURE__ */ new Map(),
+		epoch: void 0,
+		documentCount: void 0,
+		generation: 0,
+		completions: /* @__PURE__ */ new Map(),
+		documentCountRead: void 0
+	};
+}
+function ks(e) {
+	let { cache: t } = e;
+	t.records.clear(), t.tags.clear(), t.documentCount = void 0, t.completions.clear(), t.documentCountRead = void 0, t.generation += 1;
+}
+function As(e) {
+	let { cache: t, readEpoch: n } = e;
+	if (!n) return !1;
+	let r = n(), i = t.epoch !== void 0 && t.epoch !== r;
+	return i && ks({ cache: t }), t.epoch = r, i;
+}
+function js(e) {
+	let { cache: t, records: n, completes: r } = e;
+	for (let e of n) {
+		let n = t.records.get(e.id);
+		t.records.set(e.id, e);
+		let r = Is({
+			cache: t,
+			tagName: e.tagName
+		});
+		r.ids.has(e.id) || (r.ids.add(e.id), r.sorted = void 0), n && !Gs({
+			left: n.attributes,
+			right: e.attributes
+		}) && r.byAttribute.clear();
+	}
+	r !== void 0 && (Is({
+		cache: t,
+		tagName: r
+	}).complete = !0);
+}
+function Ms(e) {
+	let t = Is(e);
+	return t.lookups += 1, t.lookups;
+}
+function Ns(e) {
+	let { documentCount: t } = e;
+	return t <= 25e4 ? 8 : Math.max(8, Math.ceil(t / Ts));
+}
+function Ps(e) {
+	let { cache: t, tagName: n } = e, r = t.tags.get(n);
+	if (r?.complete) return r.sorted ??= [...r.ids].sort(), Ls({
+		cache: t,
+		ids: r.sorted
+	});
+}
+function Fs(e) {
+	let { cache: t, tagName: n, attributes: r } = e, i = t.tags.get(n);
+	if (i?.complete) return Ls({
+		cache: t,
+		ids: _o({
+			attributes: r,
+			byValueOf: function(e) {
+				let n = i.byAttribute.get(e) ?? go({
+					ids: i.ids,
+					byId: t.records,
+					name: e
+				});
+				return i.byAttribute.set(e, n), n;
+			}
+		})
+	});
+}
+function Is(e) {
+	let { cache: t, tagName: n } = e, r = t.tags.get(n);
+	if (r) return r;
+	let i = {
+		ids: /* @__PURE__ */ new Set(),
+		complete: !1,
+		sorted: void 0,
+		lookups: 0,
+		byAttribute: /* @__PURE__ */ new Map()
+	};
+	return t.tags.set(n, i), i;
+}
+function Ls(e) {
+	let { cache: t, ids: n } = e;
+	return n.flatMap(function(e) {
+		let n = t.records.get(e);
+		return n ? [n] : [];
+	});
+}
+function Rs(e) {
+	let { context: t } = e;
+	return t.kind === "transaction" ? t.readCache?.generation : void 0;
+}
+function zs(e) {
+	let { context: t, records: n, readAt: r, completes: i, singletonKey: a } = e;
+	if (t.kind !== "transaction") return;
+	let o = t.readCache;
+	if (!(o && o.generation !== r)) {
+		if (o) js({
+			cache: o,
+			records: n,
+			completes: i
+		});
+		else for (let e of n) t.recordCache.set(e.id, e);
+		a && n[0] && t.recordCache.set(a, n[0]);
+	}
+}
+function Bs(e) {
+	Object.defineProperty(e.transaction, Ds, {
+		value: e.readEpoch,
+		enumerable: !1,
+		writable: !0,
+		configurable: !0
+	});
+}
+function Vs(e) {
+	return Reflect.get(e.transaction, Ds);
+}
+async function Hs(e) {
+	let { context: t, cache: n } = e;
+	return n.documentCount === void 0 ? (n.documentCountRead ??= Us({
+		context: t,
+		cache: n
+	}), n.documentCountRead) : n.documentCount;
+}
+async function Us(e) {
+	let { context: t, cache: n } = e, r = n.generation;
+	t.perf.count(Es.storeCount);
+	let i = await t.store.count(t.documentId);
+	return n.generation === r && (n.documentCount = i), i;
+}
+async function Ws(e) {
+	let { cache: t, tagName: n, read: r } = e, i = t.completions.get(n);
+	if (i) return i;
+	let a = r().then(function() {
+		t.completions.get(n) === a && t.completions.delete(n);
+	});
+	return t.completions.set(n, a), a;
+}
+function Gs(e) {
+	let { left: t, right: n } = e;
+	return t === n || t.length === n.length && t.every(function(e, t) {
+		let r = n[t];
+		return e.name === r.name && e.value === r.value && e.namespace?.uri === r.namespace?.uri && e.namespace?.prefix === r.namespace?.prefix;
+	});
+}
+async function Ks(e) {
+	let { context: t, tagName: n } = e;
+	return Ss({
+		rawRecords: await qs({
+			context: t,
+			tagName: n
+		}),
+		stagedOperations: t.stagedOperations.log,
+		tagName: n
+	});
+}
+async function qs(e) {
+	let { context: t, tagName: n } = e, r = t.kind === "transaction" ? t.readCache : void 0, i = r && Ps({
+		cache: r,
+		tagName: n
+	});
+	if (i) return t.perf.count(Es.hit), i;
+	let a = Rs({ context: t }), o = await is({
+		context: t,
+		read: {
+			member: "getByTagNameInDocument",
+			args: [n, t.documentId]
+		}
+	});
+	return zs({
+		context: t,
+		records: o,
+		readAt: a,
+		completes: n
+	}), o;
+}
 async function Q(e) {
 	let { context: t, ref: n } = e;
 	if (t.stagedOperations.log.length > 0) {
-		let e = hs({
+		let e = ys({
 			stagedOperations: t.stagedOperations,
 			tagName: n.tagName,
 			id: n.id
@@ -10420,32 +10643,48 @@ async function Q(e) {
 	}
 	let r;
 	if (n.id === void 0) {
-		let e = `__singleton_${n.tagName}`, i = nu(t) ? t.recordCache.get(e) : void 0;
-		i ? (t.perf.count("core::query::getRecord.cacheHit"), r = i) : (t.perf.count("core::query::getRecord.miss"), r = (await es({
-			context: t,
-			read: {
-				member: "getByTagNameInDocument",
-				args: [n.tagName, t.documentId]
-			}
-		}))[0], r && nu(t) && (t.recordCache.set(r.id, r), t.recordCache.set(e, r)));
+		let e = `__singleton_${n.tagName}`, i = ju(t) ? t.recordCache.get(e) : void 0;
+		if (i) t.perf.count("core::query::getRecord.cacheHit"), r = i;
+		else {
+			t.perf.count("core::query::getRecord.miss");
+			let i = Rs({ context: t });
+			r = (await qs({
+				context: t,
+				tagName: n.tagName
+			}))[0], r && zs({
+				context: t,
+				records: [r],
+				readAt: i,
+				singletonKey: e
+			});
+		}
 	} else {
-		let e = nu(t) ? t.recordCache.get(n.id) : void 0;
-		e ? (t.perf.count("core::query::getRecord.cacheHit"), r = e) : (t.perf.count("core::query::getRecord.miss"), r = await es({
-			context: t,
-			read: {
-				member: "get",
-				args: [n.id, t.documentId]
-			}
-		}), r && nu(t) && t.recordCache.set(n.id, r));
+		let e = ju(t) ? t.recordCache.get(n.id) : void 0;
+		if (e) t.perf.count("core::query::getRecord.cacheHit"), r = e;
+		else {
+			t.perf.count("core::query::getRecord.miss");
+			let e = Rs({ context: t });
+			r = await is({
+				context: t,
+				read: {
+					member: "get",
+					args: [n.id, t.documentId]
+				}
+			}), r && zs({
+				context: t,
+				records: [r],
+				readAt: e
+			});
+		}
 	}
-	if (r) return xs({
+	if (r) return Js({
 		raw: r,
 		ref: n
 	});
 }
-function xs(e) {
+function Js(e) {
 	let { raw: t, ref: n } = e;
-	return t.tagName !== n.tagName && f("ELEMENT_TAGNAME_MISMATCH", {
+	return t.tagName !== n.tagName && m("ELEMENT_TAGNAME_MISMATCH", {
 		detail: `Expected tagName '${n.tagName}', got '${t.tagName}' for id '${n.id}'`,
 		ref: n,
 		meta: {
@@ -10458,14 +10697,14 @@ function xs(e) {
 		status: "unchanged"
 	};
 }
-async function Ss(e) {
+async function Ys(e) {
 	let { context: t, ref: n } = e;
-	if (j(n, { detail: "The record or ref is undefined" }), !("attributes" in n) || !Array.isArray(n.attributes)) return Q({
+	if (g(n, { detail: "The record or ref is undefined" }), !("attributes" in n) || !Array.isArray(n.attributes)) return Q({
 		context: t,
 		ref: n
 	});
 	if (t.stagedOperations.log.length > 0) {
-		let e = hs({
+		let e = ys({
 			stagedOperations: t.stagedOperations,
 			tagName: n.tagName,
 			id: n.id
@@ -10478,14 +10717,14 @@ async function Ss(e) {
 		status: "unchanged"
 	};
 }
-async function Cs(e) {
+async function Xs(e) {
 	let { context: t, refs: n } = e, r = n.map(() => void 0), i = [], a = [];
 	for (let [e, o] of n.entries()) {
 		if (o.id === void 0) {
 			i.push(e);
 			continue;
 		}
-		let n = Ts({
+		let n = Qs({
 			context: t,
 			ref: o,
 			id: o.id
@@ -10496,84 +10735,74 @@ async function Cs(e) {
 		});
 	}
 	let o = i.map(function(e) {
-		return ws({
+		return Zs({
 			context: t,
 			refs: n,
 			position: e,
 			results: r
 		});
 	});
-	return await Promise.all([...o, Es({
+	return await Promise.all([...o, $s({
 		context: t,
 		refs: n,
 		storePositions: a,
 		results: r
 	})]), r;
 }
-async function ws(e) {
+async function Zs(e) {
 	let { context: t, refs: n, position: r, results: i } = e;
 	i[r] = await Q({
 		context: t,
 		ref: n[r]
 	});
 }
-function Ts(e) {
+function Qs(e) {
 	let { context: t, ref: n, id: r } = e;
 	if (t.stagedOperations.log.length > 0) {
-		let e = hs({
+		let e = ys({
 			stagedOperations: t.stagedOperations,
 			tagName: n.tagName,
 			id: r
 		});
 		if (e) return { record: e.status === "deleted" ? void 0 : e };
 	}
-	let i = nu(t) ? t.recordCache.get(r) : void 0;
-	if (i) return t.perf.count("core::query::getRecord.cacheHit"), { record: xs({
+	let i = ju(t) ? t.recordCache.get(r) : void 0;
+	if (i) return t.perf.count("core::query::getRecord.cacheHit"), { record: Js({
 		raw: i,
 		ref: n
 	}) };
 }
-async function Es(e) {
+async function $s(e) {
 	let { context: t, refs: n, storePositions: r, results: i } = e, a = [...new Set(r.map(({ id: e }) => e))];
 	if (a.length === 0) return;
 	a.forEach(function() {
 		t.perf.count("core::query::getRecord.miss");
 	});
-	let o = await es({
+	let o = Rs({ context: t }), s = await is({
 		context: t,
 		read: {
 			member: "getMany",
 			args: [a, t.documentId]
 		}
-	}), s = /* @__PURE__ */ new Map();
-	for (let [e, n] of a.entries()) {
-		let r = o[e];
-		r && (s.set(n, r), nu(t) && t.recordCache.set(n, r));
+	}), c = /* @__PURE__ */ new Map();
+	for (let [e, t] of a.entries()) {
+		let n = s[e];
+		n && c.set(t, n);
 	}
+	zs({
+		context: t,
+		records: [...c.values()],
+		readAt: o
+	});
 	for (let { position: e, id: t } of r) {
-		let r = s.get(t);
-		i[e] = r ? xs({
+		let r = c.get(t);
+		i[e] = r ? Js({
 			raw: r,
 			ref: n[e]
 		}) : void 0;
 	}
 }
-async function Ds(e) {
-	let { context: t, tagName: n } = e, r = await es({
-		context: t,
-		read: {
-			member: "getByTagNameInDocument",
-			args: [n, t.documentId]
-		}
-	});
-	for (let e of r) nu(t) && t.recordCache.set(e.id, e);
-	return vs({
-		rawRecords: r,
-		stagedOperations: t.stagedOperations.log,
-		tagName: n
-	});
-}
-async function Os(e) {
+async function ec(e) {
 	let { context: t, ref: n, tagName: r } = e, i = await Q({
 		context: t,
 		ref: n
@@ -10600,43 +10829,43 @@ async function Os(e) {
 		});
 	}
 }
-function ks(e) {
+function tc(e) {
 	return "parent" in e;
 }
-async function As(e) {
+async function nc(e) {
 	let { context: t, links: n, known: r } = e, i = new Map(n.filter((e) => !r.has(e.id)).map((e) => [e.id, e]));
 	if (i.size === 0) return /* @__PURE__ */ new Map();
-	let a = await Cs({
+	let a = await Xs({
 		context: t,
 		refs: [...i.values()]
 	});
 	return new Map(a.flatMap((e) => e ? [[e.id, e]] : []));
 }
-async function js(e) {
-	let { context: t, refsOrRecords: n, tagName: r } = e, i = t.dialecteConfig.transparentElements ?? [], { parents: a, read: o } = await Fs({
+async function rc(e) {
+	let { context: t, refsOrRecords: n, tagName: r } = e, i = t.dialecteConfig.transparentElements ?? [], { parents: a, read: o } = await sc({
 		context: t,
 		refsOrRecords: n
-	}), s = a.map((e) => Ms({
+	}), s = a.map((e) => ic({
 		parent: e,
 		tagName: r,
 		transparentElements: i
-	})), c = await As({
+	})), c = await nc({
 		context: t,
 		known: o,
 		links: s.flatMap(({ direct: e, wrappers: t }) => [...e, ...t])
-	}), l = new Map([...o, ...c]), u = s.map(({ direct: e, wrappers: t }) => e.length > 0 ? e : t.flatMap((e) => Ns({
-		record: Ps({
+	}), l = new Map([...o, ...c]), u = s.map(({ direct: e, wrappers: t }) => e.length > 0 ? e : t.flatMap((e) => ac({
+		record: oc({
 			known: l,
 			link: e
 		}),
 		tagName: r
-	}))), d = await As({
+	}))), d = await nc({
 		context: t,
 		known: l,
 		links: u.flat()
 	}), f = new Map([...l, ...d]), p = /* @__PURE__ */ new Set();
 	return u.map((e) => e.flatMap((e) => {
-		let t = Ps({
+		let t = oc({
 			known: f,
 			link: e
 		});
@@ -10645,7 +10874,7 @@ async function js(e) {
 		return p.add(t.id), [n];
 	}));
 }
-function Ms(e) {
+function ic(e) {
 	let { parent: t, tagName: n, transparentElements: r } = e;
 	if (!t) return {
 		direct: [],
@@ -10660,13 +10889,13 @@ function Ms(e) {
 		wrappers: t.children.filter((e) => r.includes(e.tagName))
 	};
 }
-function Ns(e) {
+function ac(e) {
 	let { record: t, tagName: n } = e;
 	return t ? t.children.filter((e) => e.tagName === n) : [];
 }
-function Ps(e) {
+function oc(e) {
 	let { known: t, link: n } = e, r = t.get(n.id);
-	return r && r.tagName !== n.tagName && f("ELEMENT_TAGNAME_MISMATCH", {
+	return r && r.tagName !== n.tagName && m("ELEMENT_TAGNAME_MISMATCH", {
 		detail: `Expected tagName '${n.tagName}', got '${r.tagName}' for id '${n.id}'`,
 		ref: n,
 		meta: {
@@ -10676,13 +10905,13 @@ function Ps(e) {
 		}
 	}), r;
 }
-async function Fs(e) {
-	let { context: t, refsOrRecords: n } = e, r = n.map((e) => ks(e) ? { children: e.children } : void 0), i = [...n.keys()].filter((e) => !ks(n[e]));
+async function sc(e) {
+	let { context: t, refsOrRecords: n } = e, r = n.map((e) => tc(e) ? { children: e.children } : void 0), i = [...n.keys()].filter((e) => !tc(n[e]));
 	if (i.length === 0) return {
 		parents: r,
 		read: /* @__PURE__ */ new Map()
 	};
-	let a = await Cs({
+	let a = await Xs({
 		context: t,
 		refs: i.map((e) => P(n[e]))
 	});
@@ -10692,17 +10921,17 @@ async function Fs(e) {
 		read: new Map(a.flatMap((e) => e ? [[e.id, e]] : []))
 	};
 }
-async function Is(e) {
-	let { context: t, ref: n, tagName: r } = e, [i] = await js({
+async function cc(e) {
+	let { context: t, ref: n, tagName: r } = e, [i] = await rc({
 		context: t,
 		refsOrRecords: [P(n)],
 		tagName: r
 	});
 	return i ?? [];
 }
-async function Ls(e) {
-	let { live: t } = ys({
-		rawRecords: await es({
+async function lc(e) {
+	let { live: t } = Cs({
+		rawRecords: await is({
 			context: e,
 			read: {
 				member: "getByDocumentId",
@@ -10713,8 +10942,8 @@ async function Ls(e) {
 	});
 	return t;
 }
-async function Rs(e) {
-	let { context: t, refsOrRecords: n, options: r } = e, i = r?.depth ?? Infinity, a = r?.stopAtTagName, o = n.map(() => []), { starts: s, read: c } = await zs({
+async function uc(e) {
+	let { context: t, refsOrRecords: n, options: r } = e, i = r?.depth ?? Infinity, a = r?.stopAtTagName, o = n.map(() => []), { starts: s, read: c } = await dc({
 		context: t,
 		refsOrRecords: n
 	}), l = new Map(c), u = [];
@@ -10724,7 +10953,7 @@ async function Rs(e) {
 	});
 	let d = /* @__PURE__ */ new Set();
 	for (; u.length > 0;) {
-		let e = await As({
+		let e = await nc({
 			context: t,
 			links: u.map(({ parent: e }) => e),
 			known: l
@@ -10742,14 +10971,14 @@ async function Rs(e) {
 	}
 	return r?.order === "top-down" ? o.map((e) => [...e].reverse()) : o;
 }
-async function zs(e) {
+async function dc(e) {
 	let { context: t, refsOrRecords: n } = e, r = /* @__PURE__ */ new Map(), i = n.map(() => void 0), a = [], o = [];
-	for (let [e, t] of n.entries()) ks(t) ? i[e] = { parent: t.parent } : (a.push(e), o.push(P(t)));
+	for (let [e, t] of n.entries()) tc(t) ? i[e] = { parent: t.parent } : (a.push(e), o.push(P(t)));
 	if (o.length === 0) return {
 		starts: i,
 		read: r
 	};
-	let s = await Cs({
+	let s = await Xs({
 		context: t,
 		refs: o
 	});
@@ -10759,22 +10988,22 @@ async function zs(e) {
 		read: r
 	};
 }
-async function Bs(e) {
-	let { context: t, ref: n, options: r } = e, [i] = await Rs({
+async function fc(e) {
+	let { context: t, ref: n, options: r } = e, [i] = await uc({
 		context: t,
 		refsOrRecords: [n],
 		options: r
 	});
 	return i;
 }
-function Vs(e) {
-	let { dialecteConfig: t, tagName: n, attributes: r = {} } = e, i = o({
+function pc(e) {
+	let { dialecteConfig: t, tagName: n, attributes: r = {} } = e, i = l({
 		dialecteConfig: t,
 		tagName: n
 	}), a = [];
 	for (let [e, t] of Object.entries(r)) {
 		if (t === void 0 || e === "xsi:type" || i.has(e)) continue;
-		let n = (Array.isArray(t) ? t : [t]).filter(Hs);
+		let n = (Array.isArray(t) ? t : [t]).filter(mc);
 		if (n.length === 0) return { kind: "unmatchable" };
 		a.push({
 			name: e,
@@ -10786,26 +11015,26 @@ function Vs(e) {
 		attributes: a
 	};
 }
-function Hs(e) {
+function mc(e) {
 	return typeof e == "string" && e !== "";
 }
-function Us(e) {
+function hc(e) {
 	let { stagedOperations: t, tagName: n, attributes: r } = e, i = t.byAttribute.get(n);
 	if (!i || r.length === 0) return /* @__PURE__ */ new Set();
 	let a = r.map(function({ name: e, values: t }) {
 		let n = i.get(e);
 		return new Set(t.flatMap((e) => [...n?.get(e) ?? []]));
 	});
-	return new Set(mo(a));
+	return new Set(ho(a));
 }
-function Ws(e) {
-	let { stagedOperations: t, tagName: n, matches: r, pushed: i, stored: a } = e, { byId: o, appended: s } = t, c = new Map(a.map((e) => [e.id, e])), l = /* @__PURE__ */ new Set([...c.keys(), ...Us({
+function gc(e) {
+	let { stagedOperations: t, tagName: n, matches: r, pushed: i, stored: a } = e, { byId: o, appended: s } = t, c = new Map(a.map((e) => [e.id, e])), l = /* @__PURE__ */ new Set([...c.keys(), ...hc({
 		stagedOperations: t,
 		tagName: n,
 		attributes: i
 	})]), u = [], d = [];
 	for (let e of l) {
-		let t = Gs({
+		let t = _c({
 			id: e,
 			tagName: n,
 			byId: o,
@@ -10818,9 +11047,9 @@ function Ws(e) {
 			record: t
 		});
 	}
-	return u.sort(ua), d.sort((e, t) => e.place - t.place), [...u, ...d.map(({ record: e }) => e)];
+	return u.sort(da), d.sort((e, t) => e.place - t.place), [...u, ...d.map(({ record: e }) => e)];
 }
-function Gs(e) {
+function _c(e) {
 	let { id: t, tagName: n, byId: r, storedById: i } = e, a = r.get(t);
 	if (!a) {
 		let e = i.get(t);
@@ -10829,58 +11058,51 @@ function Gs(e) {
 			status: "unchanged"
 		};
 	}
-	if (a.status !== "deleted" && Oe(a.newRecord, n)) return {
+	if (a.status !== "deleted" && ke(a.newRecord, n)) return {
 		...a.newRecord,
 		status: a.status
 	};
 }
-async function Ks(e) {
-	let { context: t, tagName: n, attributes: r } = e, i = Vs({
+async function vc(e) {
+	let { context: t, tagName: n, attributes: r } = e, i = pc({
 		dialecteConfig: t.dialecteConfig,
 		tagName: n,
 		attributes: r
 	});
 	if (i.kind === "unmatchable") return [];
-	let a = Ys({
+	let a = Cc({
 		dialecteConfig: t.dialecteConfig,
 		tagName: n,
 		attributes: r
 	});
-	if (i.kind === "pushed" && t.store.getByAttributes) return qs({
+	if (i.kind === "pushed" && t.store.getByAttributes) return yc({
 		context: t,
 		tagName: n,
 		attributes: a,
 		pushed: i.attributes
 	});
-	let o = await Ds({
+	let o = await Ks({
 		context: t,
 		tagName: n
 	}), s = [];
-	for (let e of o) Js({
+	for (let e of o) Sc({
 		dialecteConfig: t.dialecteConfig,
 		record: e,
 		attributeFilter: a
 	}) && s.push(e);
 	return s;
 }
-async function qs(e) {
-	let { context: t, tagName: n, attributes: r, pushed: i } = e, a = await es({
+async function yc(e) {
+	let { context: t, tagName: n, attributes: r, pushed: i } = e, a = await bc({
 		context: t,
-		read: {
-			member: "getByAttributes",
-			args: [{
-				documentId: t.documentId,
-				tagName: n,
-				attributes: i
-			}]
-		}
+		tagName: n,
+		pushed: i
 	});
-	if (nu(t)) for (let e of a) t.recordCache.set(e.id, e);
-	return Ws({
+	return gc({
 		stagedOperations: t.stagedOperations,
 		tagName: n,
 		matches: function(e) {
-			return Js({
+			return Sc({
 				dialecteConfig: t.dialecteConfig,
 				record: e,
 				attributeFilter: r
@@ -10890,10 +11112,69 @@ async function qs(e) {
 		stored: a
 	});
 }
-function Js(e) {
+async function bc(e) {
+	let { context: t, tagName: n, pushed: r } = e, i = t.kind === "transaction" ? t.readCache : void 0;
+	if (i) {
+		let e = Fs({
+			cache: i,
+			tagName: n,
+			attributes: r
+		});
+		if (e) return t.perf.count(Es.hit), e;
+		if (await xc({
+			context: t,
+			cache: i,
+			lookups: Ms({
+				cache: i,
+				tagName: n
+			})
+		})) {
+			await Ws({
+				cache: i,
+				tagName: n,
+				read: function() {
+					return t.perf.count(Es.complete), qs({
+						context: t,
+						tagName: n
+					});
+				}
+			});
+			let e = Fs({
+				cache: i,
+				tagName: n,
+				attributes: r
+			});
+			if (e) return e;
+		}
+	}
+	let a = Rs({ context: t }), o = await is({
+		context: t,
+		read: {
+			member: "getByAttributes",
+			args: [{
+				documentId: t.documentId,
+				tagName: n,
+				attributes: r
+			}]
+		}
+	});
+	return zs({
+		context: t,
+		records: o,
+		readAt: a
+	}), o;
+}
+async function xc(e) {
+	let { context: t, cache: n, lookups: r } = e;
+	return r < 8 ? !1 : r >= Ns({ documentCount: await Hs({
+		context: t,
+		cache: n
+	}) });
+}
+function Sc(e) {
 	let { dialecteConfig: t, record: n, attributeFilter: r } = e;
 	if (!r || Object.keys(r).length === 0) return !0;
-	let i = Zs({
+	let i = Tc({
 		dialecteConfig: t,
 		record: n
 	});
@@ -10901,7 +11182,7 @@ function Js(e) {
 		if (a === void 0) continue;
 		let r = i(e, a);
 		if (e === "xsi:type") {
-			if (!Xs({
+			if (!wc({
 				dialecteConfig: t,
 				record: n,
 				expected: r
@@ -10918,10 +11199,10 @@ function Js(e) {
 	}
 	return !0;
 }
-function Ys(e) {
+function Cc(e) {
 	let { dialecteConfig: t, tagName: n, attributes: r } = e;
 	if (!r) return r;
-	let i = o({
+	let i = l({
 		dialecteConfig: t,
 		tagName: n
 	}), a = Object.entries(r).map(function([e, t]) {
@@ -10929,59 +11210,59 @@ function Ys(e) {
 	});
 	return Object.fromEntries(a);
 }
-function Xs(e) {
-	let { dialecteConfig: t, record: n, expected: r } = e, i = n.attributes.find(ne);
+function wc(e) {
+	let { dialecteConfig: t, record: n, expected: r } = e, i = n.attributes.find(re);
 	if (i === void 0 || i.value === "") return !1;
-	let a = ee({
+	let a = M({
 		dialecteConfig: t,
 		value: i.value,
-		namespaceOf: A({ dialecteConfig: t })
-	}), o = A({ dialecteConfig: t });
-	return (Array.isArray(r) ? r : [r]).filter((e) => typeof e == "string").some((e) => ee({
+		namespaceOf: k({ dialecteConfig: t })
+	}), o = k({ dialecteConfig: t });
+	return (Array.isArray(r) ? r : [r]).filter((e) => typeof e == "string").some((e) => M({
 		dialecteConfig: t,
 		value: e,
 		namespaceOf: o
 	}) === a);
 }
-function Zs(e) {
-	let { dialecteConfig: t, record: n } = e, r = o({
+function Tc(e) {
+	let { dialecteConfig: t, record: n } = e, r = l({
 		dialecteConfig: t,
 		tagName: n.tagName
 	});
-	if (r.size === 0) return Qs;
+	if (r.size === 0) return Ec;
 	let i, a = !1;
 	function s() {
-		return a || (i = we({
+		return a || (i = Te({
 			dialecteConfig: t,
 			record: n
 		})), a = !0, i;
 	}
-	let c = A({ dialecteConfig: t });
+	let c = k({ dialecteConfig: t });
 	return function(e, i) {
 		if (!r.has(e)) return i;
 		let a = s();
 		if (a === void 0) return i;
-		let o = n.attributes.find((t) => t.name === e), l = o === void 0 ? void 0 : Te({
+		let l = n.attributes.find((t) => t.name === e), u = l === void 0 ? void 0 : Ee({
 			definition: a,
-			attribute: o
+			attribute: l
 		});
-		if (l === void 0 || !y(l)) return i;
-		let u = l;
-		function d(e) {
-			return typeof e == "string" ? fe({
+		if (u === void 0 || !o(u)) return i;
+		let d = u;
+		function f(e) {
+			return typeof e == "string" ? pe({
 				dialecteConfig: t,
-				type: u,
+				type: d,
 				value: e,
 				namespaceOf: c
 			}) : e;
 		}
-		return Array.isArray(i) ? i.map(d) : d(i);
+		return Array.isArray(i) ? i.map(f) : f(i);
 	};
 }
-function Qs(e, t) {
+function Ec(e, t) {
 	return t;
 }
-function $s(e) {
+function Dc(e) {
 	let { omit: t, dialecteConfig: n } = e, r = /* @__PURE__ */ new Set(), i = [];
 	if (!t) return {
 		dialecteConfig: n,
@@ -11002,20 +11283,20 @@ function $s(e) {
 		conditional: i
 	};
 }
-function ec(e) {
+function Oc(e) {
 	return e.unconditional.size > 0 || e.conditional.length > 0;
 }
-function tc(e) {
+function kc(e) {
 	let { record: t, omitSpec: n } = e;
 	if (n.unconditional.has(t.tagName)) return !0;
-	for (let e of n.conditional) if (e.tagName === t.tagName && Js({
+	for (let e of n.conditional) if (e.tagName === t.tagName && Sc({
 		dialecteConfig: n.dialecteConfig,
 		record: t,
 		attributeFilter: e.where
 	})) return !0;
 	return !1;
 }
-function nc(e) {
+function Ac(e) {
 	if (typeof e == "string") return {
 		mode: "flat",
 		targets: [{ tagName: e }],
@@ -11037,15 +11318,15 @@ function nc(e) {
 	let t = e;
 	return {
 		mode: "path",
-		paths: rc({ entries: t }),
-		allTags: new Set(ac({ entries: t }))
+		paths: jc({ entries: t }),
+		allTags: new Set(Nc({ entries: t }))
 	};
 }
-function rc(e) {
+function jc(e) {
 	let t = [];
 	for (let [n, r] of Object.entries(e.entries)) {
 		if (n === "where") continue;
-		let e = ic({
+		let e = Mc({
 			tagName: n,
 			value: r
 		});
@@ -11053,7 +11334,7 @@ function rc(e) {
 	}
 	return t;
 }
-function ic(e) {
+function Mc(e) {
 	let { tagName: t, value: n } = e;
 	if (n === !0) return {
 		tagName: t,
@@ -11071,36 +11352,36 @@ function ic(e) {
 	} : {
 		tagName: t,
 		where: i,
-		children: rc({ entries: Object.fromEntries(a.map((e) => [e, r[e]])) }),
+		children: jc({ entries: Object.fromEntries(a.map((e) => [e, r[e]])) }),
 		isLeaf: !1
 	};
 }
-function ac(e) {
+function Nc(e) {
 	return Object.entries(e.entries).flatMap(function([e, t]) {
-		return e === "where" ? [] : [e, ...typeof t == "object" && t ? ac({ entries: t }) : []];
+		return e === "where" ? [] : [e, ...typeof t == "object" && t ? Nc({ entries: t }) : []];
 	});
 }
-function oc(e) {
+function Pc(e) {
 	let { dialecteConfig: t, record: n, where: r } = e;
-	return !r || Js({
+	return !r || Sc({
 		dialecteConfig: t,
 		record: n,
 		attributeFilter: r
 	});
 }
-function sc(e) {
+function Fc(e) {
 	return new Map([...e.allTags].map((e) => [e, /* @__PURE__ */ new Map()]));
 }
-function cc(e) {
+function Ic(e) {
 	let t = {};
 	for (let [n, r] of e.entries()) t[n] = Array.from(r.values());
 	return t;
 }
-var lc = 1 / 17;
-function uc(e) {
+var Lc = 1 / 17;
+function Rc(e) {
 	let { context: t } = e, n = /* @__PURE__ */ new Map(), r, i, a = 0, o;
 	function s(e) {
-		return !t.stagedOperations.byId.has(e) && !(nu(t) && t.recordCache.has(e));
+		return !t.stagedOperations.byId.has(e) && !(ju(t) && t.recordCache.has(e));
 	}
 	async function c(e) {
 		if (r) return r;
@@ -11108,13 +11389,13 @@ function uc(e) {
 			if (o === void 0) {
 				t.perf.count("core::store::count");
 				let e = await t.store.count(t.documentId);
-				o = Math.max(128, Math.ceil(e * lc));
+				o = Math.max(128, Math.ceil(e * Lc));
 			}
-			if (!(a + e <= o)) return r = await Ls(t), r;
+			if (!(a + e <= o)) return r = await lc(t), r;
 		}
 	}
 	function l(e, t) {
-		return t && t.tagName !== e.tagName && f("ELEMENT_TAGNAME_MISMATCH", {
+		return t && t.tagName !== e.tagName && m("ELEMENT_TAGNAME_MISMATCH", {
 			detail: `Expected tagName '${e.tagName}', got '${t.tagName}' for id '${e.id}'`,
 			ref: e
 		}), t;
@@ -11152,7 +11433,7 @@ function uc(e) {
 		}
 		return Promise.all(e.map((e) => u(e)));
 	}
-	function p(e, t) {
+	function f(e, t) {
 		if (!i) {
 			i = /* @__PURE__ */ new Map();
 			for (let t of e.values()) {
@@ -11162,9 +11443,9 @@ function uc(e) {
 		}
 		return i.get(t) ?? [];
 	}
-	async function m(e) {
+	async function p(e) {
 		let n = r ?? await c(1);
-		return n ? p(n, e) : (a++, Ds({
+		return n ? f(n, e) : (a++, Ks({
 			context: t,
 			tagName: e
 		}));
@@ -11172,19 +11453,19 @@ function uc(e) {
 	return {
 		get: u,
 		getMany: d,
-		byTag: m
+		byTag: p
 	};
 }
-async function dc(e) {
-	let { context: t, root: n, collectSpec: r, omitSpec: i, collected: a } = e, o = uc({ context: t });
-	r.mode === "flat" ? await fc({
+async function zc(e) {
+	let { context: t, root: n, collectSpec: r, omitSpec: i, collected: a } = e, o = Rc({ context: t });
+	r.mode === "flat" ? await Bc({
 		context: t,
 		source: o,
 		root: n,
 		collectSpec: r,
 		omitSpec: i,
 		collected: a
-	}) : await mc({
+	}) : await Hc({
 		context: t,
 		source: o,
 		record: n,
@@ -11193,8 +11474,8 @@ async function dc(e) {
 		collected: a
 	});
 }
-async function fc(e) {
-	let { context: t, source: n, root: r, collectSpec: i, omitSpec: a, collected: o } = e, s = !r.parent && !ec(a), c = pc({
+async function Bc(e) {
+	let { context: t, source: n, root: r, collectSpec: i, omitSpec: a, collected: o } = e, s = !r.parent && !Oc(a), c = Vc({
 		source: n,
 		rootId: r.id,
 		omitSpec: a
@@ -11202,20 +11483,20 @@ async function fc(e) {
 	for (let e of i.targets) {
 		if (a.unconditional.has(e.tagName)) continue;
 		let r = await n.byTag(e.tagName);
-		for (let n of r) oc({
+		for (let n of r) Pc({
 			dialecteConfig: t.dialecteConfig,
 			record: n,
 			where: e.where
-		}) && (s ? !tc({
+		}) && (s ? !kc({
 			record: n,
 			omitSpec: a
 		}) : await c.isUnderRoot(n)) && o.get(e.tagName).set(n.id, n);
 	}
 }
-function pc(e) {
+function Vc(e) {
 	let { source: t, rootId: n, omitSpec: r } = e, i = /* @__PURE__ */ new Map();
 	async function a(e) {
-		if (tc({
+		if (kc({
 			record: e,
 			omitSpec: r
 		})) return !1;
@@ -11237,7 +11518,7 @@ function pc(e) {
 				break;
 			}
 			let l = await t.get(P(e));
-			if (!l || tc({
+			if (!l || kc({
 				record: l,
 				omitSpec: r
 			})) {
@@ -11251,12 +11532,12 @@ function pc(e) {
 	}
 	return { isUnderRoot: a };
 }
-async function mc(e) {
+async function Hc(e) {
 	let { context: t, source: n, record: r, pathNodes: i, omitSpec: a, collected: o } = e;
 	if (!r.children?.length) return;
 	let s = new Set(i.map((e) => e.tagName));
 	for (let e of i) {
-		let i = await hc({
+		let i = await Uc({
 			context: t,
 			source: n,
 			record: r,
@@ -11265,7 +11546,7 @@ async function mc(e) {
 			omitSpec: a,
 			stopAtTagNames: s
 		});
-		for (let r of i) o.get(e.tagName).set(r.id, r), !e.isLeaf && e.children.length > 0 && await mc({
+		for (let r of i) o.get(e.tagName).set(r.id, r), !e.isLeaf && e.children.length > 0 && await Hc({
 			context: t,
 			source: n,
 			record: r,
@@ -11275,23 +11556,23 @@ async function mc(e) {
 		});
 	}
 }
-async function hc(e) {
+async function Uc(e) {
 	let { context: t, source: n, record: r, tagName: i, where: a, omitSpec: o, stopAtTagNames: s } = e, c = [];
 	if (!r.children?.length) return c;
-	let l = [], u = await gc({
+	let l = [], u = await Wc({
 		source: n,
 		record: r,
 		omitSpec: o
 	});
 	for (l.push(...u); l.length > 0;) {
 		let e = l.shift();
-		if (e.tagName === i) oc({
+		if (e.tagName === i) Pc({
 			dialecteConfig: t.dialecteConfig,
 			record: e,
 			where: a
 		}) && c.push(e);
 		else if (!(s.has(e.tagName) && e.tagName !== i) && e.children?.length) {
-			let t = await gc({
+			let t = await Wc({
 				source: n,
 				record: e,
 				omitSpec: o
@@ -11301,58 +11582,58 @@ async function hc(e) {
 	}
 	return c;
 }
-async function gc(e) {
+async function Wc(e) {
 	let { source: t, record: n, omitSpec: r } = e;
 	if (!n.children?.length) return [];
 	let i = n.children.filter((e) => !r.unconditional.has(e.tagName));
-	return i.length ? (await t.getMany(i.map((e) => P(e)))).filter((e) => e !== void 0 && !tc({
+	return i.length ? (await t.getMany(i.map((e) => P(e)))).filter((e) => e !== void 0 && !kc({
 		record: e,
 		omitSpec: r
 	})) : [];
 }
-async function _c(e) {
+async function Gc(e) {
 	let { context: t, refsOrRecords: n, options: r } = e;
-	if (!r) return await yc({
+	if (!r) return await qc({
 		context: t,
 		refsOrRecords: n
 	});
-	let i = nc(r.collect), a = $s({
+	let i = Ac(r.collect), a = Dc({
 		omit: r.omit,
 		dialecteConfig: t.dialecteConfig
-	}), o = await vc({
+	}), o = await Kc({
 		context: t,
 		refsOrRecords: n
-	}), s = o.map(() => sc(i)), c = [], l = [];
+	}), s = o.map(() => Fc(i)), c = [], l = [];
 	for (let [e, n] of o.entries()) n && (i.mode === "flat" && n.parent ? c.push({
 		position: e,
 		record: n
-	}) : l.push(dc({
+	}) : l.push(zc({
 		context: t,
 		root: n,
 		collectSpec: i,
 		omitSpec: a,
 		collected: s[e]
 	})));
-	let u = i.mode === "flat" ? bc({ scopes: c }).map((e) => xc({
+	let u = i.mode === "flat" ? Jc({ scopes: c }).map((e) => Yc({
 		context: t,
 		scopes: e,
 		collectSpec: i,
 		omitSpec: a,
 		answers: s
 	})) : [];
-	return await Promise.all([...u, ...l]), s.map((e) => cc(e));
+	return await Promise.all([...u, ...l]), s.map((e) => Ic(e));
 }
-async function vc(e) {
-	let { context: t, refsOrRecords: n } = e, r = n.map((e) => ks(e) ? e : void 0), i = [...n.keys()].filter((e) => !ks(n[e]));
+async function Kc(e) {
+	let { context: t, refsOrRecords: n } = e, r = n.map((e) => tc(e) ? e : void 0), i = [...n.keys()].filter((e) => !tc(n[e]));
 	if (i.length === 0) return r;
-	let a = await Cs({
+	let a = await Xs({
 		context: t,
 		refs: i.map((e) => P(n[e]))
 	});
 	for (let [e, t] of a.entries()) r[i[e]] = t;
 	return r;
 }
-async function yc(e) {
+async function qc(e) {
 	let { context: t, refsOrRecords: n } = e, r = /* @__PURE__ */ new Map();
 	for (let [e, t] of n.entries()) {
 		let n = r.get(t.tagName);
@@ -11360,7 +11641,7 @@ async function yc(e) {
 	}
 	let i = n.map(() => ({})), a = t.dialecteConfig.descendants;
 	return await Promise.all([...r].map(async function([e, r]) {
-		let o = [...a[e] ?? []], s = await _c({
+		let o = [...a[e] ?? []], s = await Gc({
 			context: t,
 			refsOrRecords: r.map((e) => n[e]),
 			options: { collect: o }
@@ -11368,7 +11649,7 @@ async function yc(e) {
 		for (let [e, t] of r.entries()) i[t] = s[e];
 	})), i;
 }
-function bc(e) {
+function Jc(e) {
 	let t = [];
 	for (let n of e.scopes) {
 		let { id: e } = n.record, r = JSON.stringify([n.record.attributes, n.record.children]), i = t.find(({ contentById: t }) => {
@@ -11382,13 +11663,13 @@ function bc(e) {
 	}
 	return t.map(({ scopes: e }) => e);
 }
-async function xc(e) {
-	let { context: t, scopes: n, collectSpec: r, omitSpec: i, answers: a } = e, o = wc({
+async function Yc(e) {
+	let { context: t, scopes: n, collectSpec: r, omitSpec: i, answers: a } = e, o = Qc({
 		targets: r.targets,
 		omitSpec: i
 	});
 	if (o.size === 0) return;
-	let s = Tc({
+	let s = $c({
 		dialecteConfig: t.dialecteConfig,
 		collected: new Set(o.keys())
 	}), c = /* @__PURE__ */ new Map(), l = /* @__PURE__ */ new Map(), u = [];
@@ -11409,13 +11690,13 @@ async function xc(e) {
 		for (let t of u) for (let r of t.record.children ?? []) {
 			if (i.unconditional.has(r.tagName) || !o.has(r.tagName) && !s(r.tagName)) continue;
 			let a = c.get(r.id);
-			a ? tc({
+			a ? kc({
 				record: a.record,
 				omitSpec: i
 			}) || (a.parentId = t.record.id) : (e.push(r), n.set(r.id, t.record.id));
 		}
 		if (e.length === 0) break;
-		let r = await As({
+		let r = await nc({
 			context: t,
 			links: e,
 			known: l
@@ -11423,7 +11704,7 @@ async function xc(e) {
 		for (let [e, t] of r) l.set(e, t);
 		let a = [];
 		for (let e of r.values()) {
-			if (tc({
+			if (kc({
 				record: e,
 				omitSpec: i
 			})) continue;
@@ -11436,7 +11717,7 @@ async function xc(e) {
 		}
 		u = a;
 	}
-	Sc({
+	Xc({
 		context: t,
 		nodes: c,
 		targets: o,
@@ -11444,21 +11725,21 @@ async function xc(e) {
 		answers: a
 	});
 }
-function Sc(e) {
-	let { context: t, nodes: n, targets: r, omitSpec: i, answers: a } = e, o = Cc({ nodes: n }), s = /* @__PURE__ */ new Set(), c = [...n.values()].map(({ record: e }) => e).sort(ua);
+function Xc(e) {
+	let { context: t, nodes: n, targets: r, omitSpec: i, answers: a } = e, o = Zc({ nodes: n }), s = /* @__PURE__ */ new Set(), c = [...n.values()].map(({ record: e }) => e).sort(da);
 	for (let e of c) {
 		let n = r.get(e.tagName);
-		if (n && !tc({
+		if (n && !kc({
 			record: e,
 			omitSpec: i
-		}) && n.some((n) => oc({
+		}) && n.some((n) => Pc({
 			dialecteConfig: t.dialecteConfig,
 			record: e,
 			where: n
 		}))) for (let t of o(e.id)) a[t].get(e.tagName).set(e.id, s.has(e.id) ? { ...e } : e), s.add(e.id);
 	}
 }
-function Cc(e) {
+function Zc(e) {
 	let { nodes: t } = e, n = /* @__PURE__ */ new Map();
 	function r(e) {
 		let i = n.get(e);
@@ -11471,7 +11752,7 @@ function Cc(e) {
 	}
 	return r;
 }
-function wc(e) {
+function Qc(e) {
 	let t = /* @__PURE__ */ new Map();
 	for (let { tagName: n, where: r } of e.targets) {
 		if (e.omitSpec.unconditional.has(n)) continue;
@@ -11480,7 +11761,7 @@ function wc(e) {
 	}
 	return t;
 }
-function Tc(e) {
+function $c(e) {
 	let { dialecteConfig: t, collected: n } = e, r = t.descendants, i = new Set(t.transparentElements ?? []), a = [...n].some((e) => r[e] === void 0), o = /* @__PURE__ */ new Map();
 	function s(e) {
 		return r[e] === void 0 || i.has(e) || t.definition[e]?.children.any === !0;
@@ -11493,22 +11774,22 @@ function Tc(e) {
 		return o.set(e, c), c;
 	};
 }
-async function Ec(e) {
-	let { context: t, ref: n, options: r } = e, [i] = await _c({
+async function el(e) {
+	let { context: t, ref: n, options: r } = e, [i] = await Gc({
 		context: t,
 		refsOrRecords: [n],
 		options: r
 	});
 	return i;
 }
-async function Dc(e) {
-	let { context: t, ref: n, name: r, namespace: i, defaults: a } = e, o = await Ss({
+async function tl(e) {
+	let { context: t, ref: n, name: r, namespace: i, defaults: a } = e, o = await Ys({
 		context: t,
 		ref: n
 	});
 	if (!o) return "";
 	let { dialecteConfig: s } = t;
-	return Ge({
+	return Ke({
 		record: o,
 		dialecteConfig: s,
 		name: r,
@@ -11516,14 +11797,14 @@ async function Dc(e) {
 		defaults: a
 	});
 }
-async function Oc(e) {
-	let { context: t, ref: n, name: r, namespace: i, defaults: a } = e, o = await Ss({
+async function nl(e) {
+	let { context: t, ref: n, name: r, namespace: i, defaults: a } = e, o = await Ys({
 		context: t,
 		ref: n
 	});
 	if (!o) return;
 	let { dialecteConfig: s } = t;
-	return Ge({
+	return Ke({
 		record: o,
 		dialecteConfig: s,
 		name: r,
@@ -11532,35 +11813,35 @@ async function Oc(e) {
 		fullObject: !0
 	});
 }
-async function kc(e) {
-	let { context: t, ref: n, namespace: r, defaults: i } = e, a = await Ss({
+async function rl(e) {
+	let { context: t, ref: n, namespace: r, defaults: i } = e, a = await Ys({
 		context: t,
 		ref: n
 	});
 	if (!a) return {};
 	let { dialecteConfig: o } = t;
-	return qe({
+	return Je({
 		record: a,
 		dialecteConfig: o,
 		namespace: r,
 		defaults: i
 	});
 }
-async function Ac(e) {
-	let { context: t, ref: n, defaults: r } = e, i = await Ss({
+async function il(e) {
+	let { context: t, ref: n, defaults: r } = e, i = await Ys({
 		context: t,
 		ref: n
 	});
 	if (!i) return [];
 	let { dialecteConfig: a } = t;
-	return qe({
+	return Je({
 		record: i,
 		dialecteConfig: a,
 		defaults: r,
 		fullObject: !0
 	});
 }
-async function jc(e) {
+async function al(e) {
 	let { context: t, ref: n } = e, r = await Q({
 		context: t,
 		ref: n
@@ -11570,7 +11851,7 @@ async function jc(e) {
 		record: r
 	});
 }
-function Mc(e) {
+function ol(e) {
 	let { tree: t, unwrapTagNames: n } = e;
 	function r(e) {
 		return e.flatMap((e) => n.includes(e.tagName) ? r(e.tree) : [{
@@ -11583,7 +11864,7 @@ function Mc(e) {
 		tree: r(t.tree)
 	};
 }
-function Nc(e) {
+function sl(e) {
 	let { omit: t, dialecteConfig: n } = e, r = /* @__PURE__ */ new Set(), i = [];
 	if (!t) return {
 		dialecteConfig: n,
@@ -11608,38 +11889,38 @@ function Nc(e) {
 		conditional: i
 	};
 }
-function Pc(e) {
+function cl(e) {
 	let { record: t, compiledOmit: n } = e;
-	return n.unconditional.has(t.tagName) ? !0 : n.conditional.some((e) => e.scope === "self" && e.tagName === t.tagName && Js({
+	return n.unconditional.has(t.tagName) ? !0 : n.conditional.some((e) => e.scope === "self" && e.tagName === t.tagName && Sc({
 		dialecteConfig: n.dialecteConfig,
 		record: t,
 		attributeFilter: e.where
 	}));
 }
-function Fc(e) {
+function ll(e) {
 	let { record: t, compiledOmit: n } = e;
-	return n.conditional.some((e) => e.scope === "children" && e.tagName === t.tagName && Js({
+	return n.conditional.some((e) => e.scope === "children" && e.tagName === t.tagName && Sc({
 		dialecteConfig: n.dialecteConfig,
 		record: t,
 		attributeFilter: e.where
 	}));
 }
-function Ic(e) {
+function ul(e) {
 	let { tree: t, omit: n, dialecteConfig: r } = e;
 	if (!n?.length) return t;
-	let i = Nc({
+	let i = sl({
 		omit: n,
 		dialecteConfig: r
 	});
 	function a(e) {
-		if (Fc({
+		if (ll({
 			record: e,
 			compiledOmit: i
 		})) return {
 			...e,
 			tree: []
 		};
-		let t = e.tree.filter((e) => !Pc({
+		let t = e.tree.filter((e) => !cl({
 			record: e,
 			compiledOmit: i
 		})).map((e) => a(e));
@@ -11650,11 +11931,11 @@ function Ic(e) {
 	}
 	return a(t);
 }
-function Lc(e) {
+function dl(e) {
 	let { tree: t, childrenConfig: n, definition: r } = e;
 	function i(e) {
 		if (e.tree.length === 0) return e;
-		let t = ce({
+		let t = ue({
 			parentTagName: e.tagName,
 			children: e.tree.map(i),
 			childrenConfig: n,
@@ -11667,34 +11948,41 @@ function Lc(e) {
 	}
 	return i(t);
 }
-var Rc = /* @__PURE__ */ new Set(["where", "recursive"]);
-function zc(e) {
-	let { record: t, remainingDepth: n, compiledOmit: r } = e;
-	return n > 0 && !Fc({
+var fl = /* @__PURE__ */ new Set(["where", "recursive"]);
+function pl(e) {
+	let { record: t, reach: n, shaping: r } = e, { compiledOmit: i, expanded: a } = r, o = n.hoisted || a === void 0 || a.has(t.id);
+	return n.remainingDepth > 0 && o && !ll({
 		record: t,
-		compiledOmit: r
+		compiledOmit: i
 	});
 }
-function Bc(e) {
+function ml(e) {
+	let { tagName: t, reach: n, shaping: r } = e, i = r.unwrapTagNames.has(t);
+	return {
+		remainingDepth: i ? n.remainingDepth : n.remainingDepth - 1,
+		hoisted: i
+	};
+}
+function hl(e) {
 	let { record: t, select: n, shaping: r } = e;
 	if (!t.children?.length) return [];
-	let i = n ? Hc({
+	let i = n ? _l({
 		record: t,
 		select: n,
 		shaping: r
 	}) : void 0;
-	return t.children.filter((e) => Uc({
+	return t.children.filter((e) => vl({
 		tagName: e.tagName,
 		selectKeys: i,
 		shaping: r
 	}));
 }
-function Vc(e) {
-	let { record: t, children: n, select: r, shaping: i } = e, a = n.filter((e) => !Pc({
+function gl(e) {
+	let { record: t, children: n, select: r, shaping: i } = e, a = n.filter((e) => !cl({
 		record: e,
 		compiledOmit: i.compiledOmit
 	}));
-	return Wc({
+	return yl({
 		filterConfig: i.compiledOmit.dialecteConfig,
 		children: a,
 		select: r,
@@ -11703,17 +11991,17 @@ function Vc(e) {
 		transparentElements: i.transparentElements
 	});
 }
-function Hc(e) {
-	let { record: t, select: n, shaping: r } = e, i = new Set(Object.keys(n).filter((e) => !Rc.has(e))), { dialecteConfig: a } = r;
+function _l(e) {
+	let { record: t, select: n, shaping: r } = e, i = new Set(Object.keys(n).filter((e) => !fl.has(e))), { dialecteConfig: a } = r;
 	if (!a || n.recursive === !1) return i;
 	let o = t.tagName, s = a.children[o], c = n[o] !== void 0;
 	return s?.includes(o) && !c && i.add(o), i;
 }
-function Uc(e) {
+function vl(e) {
 	let { tagName: t, selectKeys: n, shaping: r } = e;
 	return r.compiledOmit.unconditional.has(t) ? !1 : !n || n.has(t) ? !0 : r.transparentElements?.includes(t) ?? !1;
 }
-function Wc(e) {
+function yl(e) {
 	let { children: t, select: n, record: r, dialecteConfig: i, filterConfig: a, transparentElements: o } = e;
 	return n ? t.flatMap((e) => {
 		let t = n[e.tagName];
@@ -11722,7 +12010,7 @@ function Wc(e) {
 			select: n
 		}];
 		if (t === void 0 && e.tagName === r.tagName) {
-			let t = Gc({
+			let t = bl({
 				child: e,
 				select: n,
 				dialecteConfig: i,
@@ -11735,7 +12023,7 @@ function Wc(e) {
 			record: e,
 			select: void 0
 		}];
-		let s = Kc({
+		let s = xl({
 			child: e,
 			entry: t,
 			parentRecord: r,
@@ -11747,9 +12035,9 @@ function Wc(e) {
 		select: void 0
 	}));
 }
-function Gc(e) {
+function bl(e) {
 	let { child: t, select: n, dialecteConfig: r, filterConfig: i } = e;
-	if (r && n.recursive !== !1 && r.children[t.tagName]?.includes(t.tagName) && (!n.where || Js({
+	if (r && n.recursive !== !1 && r.children[t.tagName]?.includes(t.tagName) && (!n.where || Sc({
 		dialecteConfig: i,
 		record: t,
 		attributeFilter: n.where
@@ -11758,9 +12046,9 @@ function Gc(e) {
 		select: n
 	};
 }
-function Kc(e) {
+function xl(e) {
 	let { child: t, entry: n, parentRecord: r, filterConfig: i } = e, a = n;
-	if (!a.where || Js({
+	if (!a.where || Sc({
 		dialecteConfig: i,
 		record: t,
 		attributeFilter: a.where
@@ -11790,22 +12078,22 @@ function Kc(e) {
 		};
 	}
 }
-async function qc(e) {
+async function Sl(e) {
 	let { context: t, ref: n, select: r, depth: i, shaping: a } = e;
-	if (!(r !== void 0 || i !== void 0 || a.compiledOmit.unconditional.size > 0 || Jc({
+	if (!(r !== void 0 || i !== void 0 || a.expanded !== void 0 || a.compiledOmit.unconditional.size > 0 || Cl({
 		context: t,
 		ref: n
 	}))) {
-		let e = await Ls(t);
+		let e = await lc(t);
 		return {
-			root: Zc({
+			root: El({
 				recordsById: e,
 				ref: n
 			}),
 			recordsById: e
 		};
 	}
-	let o = await Yc({
+	let o = await wl({
 		context: t,
 		ref: n
 	});
@@ -11816,8 +12104,11 @@ async function qc(e) {
 	let s = {
 		record: o,
 		select: r,
-		remainingDepth: i ?? Infinity
-	}, c = await Xc({
+		reach: {
+			remainingDepth: i ?? Infinity,
+			hoisted: !1
+		}
+	}, c = await Tl({
 		context: t,
 		frontier: [s],
 		shaping: a
@@ -11827,40 +12118,40 @@ async function qc(e) {
 		recordsById: new Map([[o.id, s.record], ...c.flatMap((e) => [...e])])
 	};
 }
-function Jc(e) {
+function Cl(e) {
 	let { context: t, ref: n } = e;
 	return n.id !== void 0 && n.tagName !== t.dialecteConfig.rootElementName;
 }
-async function Yc(e) {
+async function wl(e) {
 	try {
 		return await Q(e);
 	} catch (e) {
-		if (b(e)?.key === "ELEMENT_TAGNAME_MISMATCH") return;
+		if (a(e)?.key === "ELEMENT_TAGNAME_MISMATCH") return;
 		throw e;
 	}
 }
-async function Xc(e) {
-	let { context: t, frontier: n, shaping: r } = e, i = n.filter((e) => zc({
+async function Tl(e) {
+	let { context: t, frontier: n, shaping: r } = e, i = n.filter((e) => pl({
 		record: e.record,
-		remainingDepth: e.remainingDepth,
-		compiledOmit: r.compiledOmit
+		reach: e.reach,
+		shaping: r
 	})).map((e) => ({
 		node: e,
-		links: Bc({
+		links: hl({
 			record: e.record,
 			select: e.select,
 			shaping: r
 		})
 	})), a = i.flatMap((e) => e.links);
 	if (a.length === 0) return [];
-	let o = await As({
+	let o = await nc({
 		context: t,
 		links: a,
 		known: /* @__PURE__ */ new Map()
 	});
-	return [o, ...await Xc({
+	return [o, ...await Tl({
 		context: t,
-		frontier: i.flatMap(({ node: e, links: t }) => Vc({
+		frontier: i.flatMap(({ node: e, links: t }) => gl({
 			record: e.record,
 			children: t.flatMap((e) => {
 				let t = o.get(e.id);
@@ -11870,61 +12161,70 @@ async function Xc(e) {
 			shaping: r
 		}).map((t) => ({
 			...t,
-			remainingDepth: e.remainingDepth - 1
+			reach: ml({
+				tagName: t.record.tagName,
+				reach: e.reach,
+				shaping: r
+			})
 		}))),
 		shaping: r
 	})];
 }
-function Zc(e) {
+function El(e) {
 	let { recordsById: t, ref: n } = e, r = n.id === void 0 ? [...t.values()].find((e) => e.tagName === n.tagName) : t.get(n.id);
 	return r?.tagName === n.tagName ? r : void 0;
 }
-async function Qc(e) {
-	let { context: t, ref: n, options: r = {}, dialecteConfig: i } = e, { omit: a, unwrap: o, depth: s } = r, c = r.select, l = t.dialecteConfig.transparentElements, u = {
-		compiledOmit: Nc({
+async function Dl(e) {
+	let { context: t, ref: n, options: r = {}, dialecteConfig: i } = e, { omit: a, unwrap: o, depth: s, expanded: c } = r, l = r.select, u = t.dialecteConfig.transparentElements, d = o ?? (u?.length ? u : void 0), f = {
+		compiledOmit: sl({
 			omit: a,
 			dialecteConfig: t.dialecteConfig
 		}),
 		dialecteConfig: i,
-		transparentElements: l
-	}, { root: d, recordsById: f } = await qc({
+		transparentElements: u,
+		unwrapTagNames: new Set(d),
+		expanded: c
+	}, { root: p, recordsById: m } = await Sl({
 		context: t,
 		ref: n,
-		select: c,
+		select: l,
 		depth: s,
-		shaping: u
+		shaping: f
 	});
-	j(d, {
+	g(p, {
 		detail: "No record found for provided ref",
 		key: "ELEMENT_NOT_FOUND"
 	});
-	let p = $c({
-		recordsById: f,
-		record: d,
-		select: c,
-		shaping: u,
-		remainingDepth: s ?? Infinity
-	}), m = o ?? (l?.length ? l : void 0);
-	return Lc({
-		tree: m ? Mc({
-			tree: p,
-			unwrapTagNames: m
-		}) : p,
+	let h = Ol({
+		recordsById: m,
+		record: p,
+		select: l,
+		shaping: f,
+		reach: {
+			remainingDepth: s ?? Infinity,
+			hoisted: !1
+		}
+	});
+	return dl({
+		tree: d ? ol({
+			tree: h,
+			unwrapTagNames: d
+		}) : h,
 		childrenConfig: t.dialecteConfig.children,
 		definition: t.dialecteConfig.definition
 	});
 }
-function $c(e) {
-	let { recordsById: t, record: n, select: r, shaping: i, remainingDepth: a } = e;
-	return zc({
+function Ol(e) {
+	let { recordsById: t, record: n, select: r, shaping: i, reach: a } = e;
+	return pl({
 		record: n,
-		remainingDepth: a,
-		compiledOmit: i.compiledOmit
-	}) ? Ie({
+		reach: a,
+		shaping: i
+	}) ? Le({
 		record: n,
-		tree: Vc({
+		tree: gl({
 			record: n,
-			children: Bc({
+			children: hl({
 				record: n,
 				select: r,
 				shaping: i
@@ -11934,22 +12234,26 @@ function $c(e) {
 			}),
 			select: r,
 			shaping: i
-		}).map((e) => $c({
+		}).map((e) => Ol({
 			recordsById: t,
 			record: e.record,
 			select: e.select,
 			shaping: i,
-			remainingDepth: a - 1
+			reach: ml({
+				tagName: e.record.tagName,
+				reach: a,
+				shaping: i
+			})
 		}))
-	}) : Ie({ record: n });
+	}) : Le({ record: n });
 }
-async function el(e) {
+async function kl(e) {
 	let { context: t, ref: n, ancestors: r = 0, depth: i, includeDeleted: a = !1 } = e;
-	if (!n && i === void 0) return tl({
+	if (!n && i === void 0) return Al({
 		context: t,
 		includeDeleted: a
 	});
-	let o = e.siblings ?? !1, s = o === !0 || typeof o == "object" && !!o, c = typeof o == "object" && !!o && o.expand === !0, l = n ?? { tagName: t.dialecteConfig.rootElementName }, u = /* @__PURE__ */ new Map(), d = /* @__PURE__ */ new Map(), f = a ? bs(t.stagedOperations.log) : void 0;
+	let o = e.siblings ?? !1, s = o === !0 || typeof o == "object" && !!o, c = typeof o == "object" && !!o && o.expand === !0, l = n ?? { tagName: t.dialecteConfig.rootElementName }, u = /* @__PURE__ */ new Map(), d = /* @__PURE__ */ new Map(), f = a ? ws(t.stagedOperations.log) : void 0;
 	function p(e) {
 		if (f) for (let t of f.get(e) ?? []) d.has(t.id) || (d.set(t.id, t), p(t.id));
 	}
@@ -11966,23 +12270,23 @@ async function el(e) {
 		context: t,
 		ref: l
 	});
-	j(h, {
+	g(h, {
 		key: "ELEMENT_NOT_FOUND",
 		detail: "No record found for the provided ref"
 	});
-	let g = h.id;
+	let _ = h.id;
 	await m(h, 0);
-	let _ = Math.max(r, +!!s);
-	if (_ > 0) {
-		let e = await Bs({
+	let v = Math.max(r, +!!s);
+	if (v > 0) {
+		let e = await fc({
 			context: t,
 			ref: l,
 			options: {
-				depth: _,
+				depth: v,
 				order: "bottom-up"
 			}
 		});
-		for (let t of e) u.set(t.id, t), g = t.id;
+		for (let t of e) u.set(t.id, t), _ = t.id;
 		if (s) {
 			let n = [h, ...e];
 			for (let e = 0; e < n.length - 1; e++) {
@@ -11998,15 +12302,15 @@ async function el(e) {
 			}
 		}
 	}
-	return nl({
+	return jl({
 		live: u,
 		deletedById: d,
-		rootId: g
+		rootId: _
 	});
 }
-async function tl(e) {
-	let { context: t, includeDeleted: n = !1 } = e, { live: r, deleted: i } = ys({
-		rawRecords: await es({
+async function Al(e) {
+	let { context: t, includeDeleted: n = !1 } = e, { live: r, deleted: i } = Cs({
+		rawRecords: await is({
 			context: t,
 			read: {
 				member: "getByDocumentId",
@@ -12020,16 +12324,16 @@ async function tl(e) {
 		a = e.id;
 		break;
 	}
-	return j(a, {
+	return g(a, {
 		key: "ROOT_NOT_FOUND",
 		detail: `No ${t.dialecteConfig.rootElementName} root element found in document`
-	}), nl({
+	}), jl({
 		live: r,
 		deletedById: new Map(i.map((e) => [e.id, e])),
 		rootId: a
 	});
 }
-function nl(e) {
+function jl(e) {
 	let { live: t, deletedById: n, rootId: r } = e, i = new Set(t.keys()), a = Array.from(t.values()).map((e) => ({
 		...e,
 		children: e.children.filter((e) => i.has(e.id))
@@ -12043,7 +12347,7 @@ function nl(e) {
 		rootId: r
 	};
 }
-function rl(e) {
+function Ml(e) {
 	let { liveRecords: t, deletedRecords: n, rootId: r } = e, i = new Map(t.map((e) => [e.id, e])), a = new Map(n.map((e) => [e.id, e])), o = /* @__PURE__ */ new Map();
 	for (let e of n) {
 		let t = e.parent?.id;
@@ -12052,31 +12356,31 @@ function rl(e) {
 		n.push(e), o.set(t, n);
 	}
 	let s = i.get(r);
-	j(s, {
+	g(s, {
 		key: "ROOT_NOT_FOUND",
 		detail: `No record found for rootId "${r}"`
 	});
 	function c(e, t) {
 		let n = t === "live" ? i : a, r = e.children.filter((e) => n.has(e.id)).map((e) => c(n.get(e.id), t)), s = t === "live" ? (o.get(e.id) ?? []).map((e) => c(e, "deleted")) : [];
-		return Ie({
+		return Le({
 			record: e,
 			tree: [...r, ...s]
 		});
 	}
 	return c(s, "live");
 }
-function il(e) {
+function Nl(e) {
 	let { records: t, config: n, rootId: r, indent: i, declareNamespaces: a, includeXmlDeclaration: o, withDatabaseIds: s } = e, c = /* @__PURE__ */ new Map();
 	for (let e of t) c.set(e.id, e);
-	let l = r ? c.get(r) : al({
+	let l = r ? c.get(r) : Pl({
 		records: t,
 		config: n
 	});
-	j(l, {
+	g(l, {
 		detail: r ? `No record found for rootId "${r}"` : `No ${n.rootElementName} root element found in records`,
 		key: "EXPORT_ROOT_NOT_FOUND"
 	});
-	let u = gr({
+	let u = _r({
 		config: n,
 		documentRoot: l.tagName === n.rootElementName ? l : void 0,
 		indent: i,
@@ -12084,7 +12388,7 @@ function il(e) {
 		includeXmlDeclaration: o,
 		withDatabaseIds: s
 	});
-	ol({
+	Fl({
 		writer: u,
 		record: l,
 		index: c,
@@ -12093,17 +12397,17 @@ function il(e) {
 	let d = u.take();
 	return u.head() + d;
 }
-function al(e) {
+function Pl(e) {
 	let { records: t, config: n } = e;
-	return t.find((e) => nn({
+	return t.find((e) => rn({
 		record: e,
 		config: n
 	}));
 }
-function ol(e) {
+function Fl(e) {
 	let { writer: t, record: n, index: r, config: i } = e;
 	t.openElement({ record: n });
-	let a = ce({
+	let a = ue({
 		parentTagName: n.tagName,
 		children: n.children,
 		childrenConfig: i.children,
@@ -12111,14 +12415,14 @@ function ol(e) {
 	});
 	for (let e of a) {
 		let a = r.get(e.id);
-		j(a, {
+		g(a, {
 			detail: `Parent '${n.tagName}' references non-existent child '${e.tagName}' (id: ${e.id})`,
 			key: "EXPORT_ORPHAN_CHILD_REF",
 			ref: {
 				tagName: n.tagName,
 				id: n.id
 			}
-		}), ol({
+		}), Fl({
 			writer: t,
 			record: a,
 			index: r,
@@ -12127,8 +12431,8 @@ function ol(e) {
 	}
 	t.closeElement();
 }
-async function sl(e) {
-	let { context: t, options: n = {} } = e, { ref: r, ancestors: i, siblings: a, depth: o, includeDeleted: s, omit: c, unwrap: l, as: u = "tree" } = n, d = await el({
+async function Il(e) {
+	let { context: t, options: n = {} } = e, { ref: r, ancestors: i, siblings: a, depth: o, includeDeleted: s, omit: c, unwrap: l, as: u = "tree" } = n, d = await kl({
 		context: t,
 		ref: r ? P(r) : void 0,
 		ancestors: i,
@@ -12136,35 +12440,35 @@ async function sl(e) {
 		depth: o,
 		includeDeleted: s
 	});
-	if (u === "xml") return ll(t, d, n.declareNamespaces, n.includeXmlDeclaration);
-	let f = cl(t, d, {
+	if (u === "xml") return Rl(t, d, n.declareNamespaces, n.includeXmlDeclaration);
+	let f = Ll(t, d, {
 		omit: c,
 		unwrap: l
 	});
 	return u === "tree" ? f : {
 		tree: f,
-		xmlString: ll(t, d, n.declareNamespaces, n.includeXmlDeclaration)
+		xmlString: Rl(t, d, n.declareNamespaces, n.includeXmlDeclaration)
 	};
 }
-function cl(e, t, n) {
-	let r = rl(t);
-	r = Ic({
+function Ll(e, t, n) {
+	let r = Ml(t);
+	r = ul({
 		tree: r,
 		omit: n.omit,
 		dialecteConfig: e.dialecteConfig
 	});
 	let i = e.dialecteConfig.transparentElements, a = n.unwrap ?? (i?.length ? [...i] : void 0);
-	return a?.length && (r = Mc({
+	return a?.length && (r = ol({
 		tree: r,
 		unwrapTagNames: a
-	})), r = Lc({
+	})), r = dl({
 		tree: r,
 		childrenConfig: e.dialecteConfig.children,
 		definition: e.dialecteConfig.definition
 	}), r;
 }
-function ll(e, t, n, r) {
-	return il({
+function Rl(e, t, n, r) {
+	return Nl({
 		records: t.liveRecords,
 		config: e.dialecteConfig,
 		rootId: t.rootId,
@@ -12172,7 +12476,7 @@ function ll(e, t, n, r) {
 		includeXmlDeclaration: r
 	});
 }
-var ul = class {
+var zl = class {
 	constructor(e, t) {
 		this.getContext = e, this.dialecteConfig = t;
 	}
@@ -12183,51 +12487,51 @@ var ul = class {
 		});
 	}
 	async getDefinition(e) {
-		return jc({
+		return al({
 			context: this.getContext(),
 			ref: P(e)
 		});
 	}
 	async getRecords(e) {
-		return Cs({
+		return Xs({
 			context: this.getContext(),
 			refs: e
 		});
 	}
 	async getChild(e, t) {
-		return Os({
+		return ec({
 			context: this.getContext(),
 			ref: P(e),
 			tagName: t
 		});
 	}
 	async getChildren(e, t) {
-		return Is({
+		return cc({
 			context: this.getContext(),
 			ref: P(e),
 			tagName: t
 		});
 	}
 	async getChildrenOfEach(e, t) {
-		return js({
+		return rc({
 			context: this.getContext(),
 			refsOrRecords: e,
 			tagName: t.tagName
 		});
 	}
 	async getRecordsByTagName(e) {
-		return Ds({
+		return Ks({
 			context: this.getContext(),
 			tagName: e
 		});
 	}
 	async getAttribute(e, t) {
 		let n = e, { fullObject: r } = t;
-		return r ? Oc({
+		return r ? nl({
 			context: this.getContext(),
 			ref: n,
 			...t
-		}) : Dc({
+		}) : tl({
 			context: this.getContext(),
 			ref: n,
 			...t
@@ -12235,18 +12539,18 @@ var ul = class {
 	}
 	async getAttributes(e, t) {
 		let n = e, { fullObject: r } = t || {};
-		return r ? Ac({
+		return r ? il({
 			context: this.getContext(),
 			ref: n,
 			...t
-		}) : kc({
+		}) : rl({
 			context: this.getContext(),
 			ref: n,
 			...t
 		});
 	}
 	async getTree(e, t) {
-		return Qc({
+		return Dl({
 			context: this.getContext(),
 			ref: P(e),
 			options: t,
@@ -12254,77 +12558,77 @@ var ul = class {
 		});
 	}
 	async getSnapshot(e) {
-		return sl({
+		return Il({
 			context: this.getContext(),
 			options: e
 		});
 	}
 	async findDescendants(e) {
 		let t = P(e), n = this.dialecteConfig.descendants[t.tagName] ?? [];
-		return Ec({
+		return el({
 			context: this.getContext(),
 			ref: t,
 			options: { collect: n }
 		});
 	}
 	async findDescendantsOfEach(e) {
-		return _c({
+		return Gc({
 			context: this.getContext(),
 			refsOrRecords: e
 		});
 	}
 	async findAncestors(e) {
-		return e ? Bs({
+		return e ? fc({
 			context: this.getContext(),
 			ref: P(e)
 		}) : [];
 	}
 	async findAncestorsOfEach(e) {
-		return Rs({
+		return uc({
 			context: this.getContext(),
 			refsOrRecords: e
 		});
 	}
 	async findByAttributes(e) {
-		return Ks({
+		return vc({
 			context: this.getContext(),
 			tagName: e.tagName,
 			attributes: e.attributes
 		});
 	}
 };
-function dl(e) {
-	let { dialecteConfig: t, parent: n, tagName: r, xsiType: i, attribute: a } = e, { child: o, parentDefinition: s, definition: l } = pl(e), u = a === void 0 ? void 0 : bl({
+function Bl(e) {
+	let { dialecteConfig: t, parent: n, tagName: r, xsiType: i, attribute: a } = e, { child: o, parentDefinition: s, definition: c } = Hl(e), l = a === void 0 ? void 0 : Yl({
 		dialecteConfig: t,
 		tagName: r,
 		attribute: a
 	});
-	if (i !== void 0 && vl({
+	if (i !== void 0 && ql({
 		dialecteConfig: t,
 		value: i
 	}) === void 0) return {
 		kind: "refused",
-		issue: yl(i)
+		issue: Jl(i)
 	};
-	if (l === void 0) return c;
-	if (u === void 0) return hl(ml({
+	if (c === void 0) return u;
+	if (l === void 0) return Wl(Ul({
 		dialecteConfig: t,
 		child: o,
 		parentDefinition: s,
 		xsiType: i
-	}) ?? l.textContent?.type);
-	let { name: d, namespaceUri: m } = u;
-	if (d === p) return {
+	}) ?? c.textContent?.type);
+	let { name: d, namespaceUri: f } = l;
+	if (d === D) return {
 		kind: "xsiType",
 		child: o,
 		parentDefinition: s
 	};
-	if (m === C.uri) return c;
-	let h = l.attributes.details[d];
-	return h === void 0 ? he({
-		wildcard: l.attributes.any,
-		namespaceUri: m
-	}) ? c : f("INVALID_ATTRIBUTE", {
+	if (f === A.uri) return u;
+	let p = c.attributes.details[d];
+	return p === void 0 ? te({
+		wildcard: c.attributes.any,
+		namespaceUri: f
+	}) ? u : m("INVALID_ATTRIBUTE", {
 		detail: `'${r}' under '${n.tagName}' declares no attribute '${d}'.`,
 		ref: { tagName: r },
 		meta: {
@@ -12332,27 +12636,27 @@ function dl(e) {
 			tagName: r,
 			attribute: d
 		}
-	}) : hl(h.type);
+	}) : Wl(p.type);
 }
-function fl(e) {
+function Vl(e) {
 	let { dialecteConfig: t, target: n, value: r } = e;
 	if (n.kind === "refused") return n.issue;
-	if (n.kind === "xsiType") return _l({
+	if (n.kind === "xsiType") return Kl({
 		dialecteConfig: t,
 		child: n.child,
 		parentDefinition: n.parentDefinition,
 		value: r
 	});
 	if (n.kind !== "datatype") return;
-	let i = A({ dialecteConfig: t });
-	return M({
+	let i = k({ dialecteConfig: t });
+	return h({
 		value: r,
 		type: n.type,
 		namespaces: i,
 		clarkNames: !0
 	}).issue;
 }
-function pl(e) {
+function Hl(e) {
 	let { dialecteConfig: t, parent: n, tagName: r, xsiType: i } = e, a = O({
 		dialecteConfig: t,
 		record: n
@@ -12363,12 +12667,12 @@ function pl(e) {
 			tagName: n.tagName
 		},
 		attributes: i === void 0 ? [] : [{
-			name: p,
+			name: D,
 			value: i,
-			namespace: C
+			namespace: A
 		}]
 	};
-	return gl({
+	return Gl({
 		parent: n,
 		parentDefinition: a,
 		tagName: r
@@ -12382,14 +12686,14 @@ function pl(e) {
 		})
 	};
 }
-function ml(e) {
+function Ul(e) {
 	let { dialecteConfig: t, child: n, parentDefinition: r, xsiType: i } = e;
 	if (i === void 0) return;
-	let a = vl({
+	let a = ql({
 		dialecteConfig: t,
 		value: i
 	});
-	if (!(a === void 0 || a.namespace !== "http://www.w3.org/2001/XMLSchema") && re({
+	if (!(a === void 0 || a.namespace !== "http://www.w3.org/2001/XMLSchema") && ie({
 		dialecteConfig: t,
 		record: {
 			...n,
@@ -12399,15 +12703,15 @@ function ml(e) {
 		typeName: a.clark
 	})) return { builtin: a.local };
 }
-function hl(e) {
-	return e === void 0 ? c : {
+function Wl(e) {
+	return e === void 0 ? u : {
 		kind: "datatype",
 		type: e
 	};
 }
-function gl(e) {
+function Gl(e) {
 	let { parent: t, parentDefinition: n, tagName: r } = e;
-	n === void 0 || n.children.any || n.children.sequence.includes(r) || f("INVALID_PARENT_CHILD", {
+	n === void 0 || n.children.any || n.children.sequence.includes(r) || m("INVALID_PARENT_CHILD", {
 		detail: `'${t.tagName}' cannot hold '${r}'.`,
 		ref: {
 			tagName: t.tagName,
@@ -12419,53 +12723,53 @@ function gl(e) {
 		}
 	});
 }
-function _l(e) {
-	let { dialecteConfig: t, child: n, parentDefinition: r, value: i } = e, a = vl({
+function Kl(e) {
+	let { dialecteConfig: t, child: n, parentDefinition: r, value: i } = e, a = ql({
 		dialecteConfig: t,
 		value: i
 	})?.clark;
-	if (a === void 0) return yl(i);
+	if (a === void 0) return Jl(i);
 	let o = {
 		...n,
 		attributes: []
 	};
-	if (!re({
+	if (!ie({
 		dialecteConfig: t,
 		record: o,
 		parentDefinition: r,
 		typeName: a
 	})) return {
 		reason: "datatype",
-		actual: T({
+		actual: w({
 			value: i,
 			whiteSpace: "collapse"
 		}),
-		expected: v({
+		expected: b({
 			dialecteConfig: t,
 			record: o,
 			parentDefinition: r
 		})
 	};
 }
-function vl(e) {
+function ql(e) {
 	let { dialecteConfig: t, value: n } = e;
-	return S({
+	return x({
 		value: n,
-		namespaceOf: A({ dialecteConfig: t })
+		namespaceOf: k({ dialecteConfig: t })
 	});
 }
-function yl(e) {
+function Jl(e) {
 	return {
 		reason: "datatype",
-		actual: T({
+		actual: w({
 			value: e,
 			whiteSpace: "collapse"
 		}),
 		expected: "QName"
 	};
 }
-function bl(e) {
-	let { dialecteConfig: t, tagName: n, attribute: r } = e, i = typeof r != "string", { name: a, namespace: o } = Ae({
+function Yl(e) {
+	let { dialecteConfig: t, tagName: n, attribute: r } = e, i = typeof r != "string", { name: a, namespace: o } = je({
 		dialecteConfig: t,
 		attribute: i ? r : { name: r },
 		tagName: n,
@@ -12476,7 +12780,7 @@ function bl(e) {
 		namespaceUri: o?.prefix ? o.uri : ""
 	};
 }
-var xl = class {
+var Xl = class {
 	constructor(e, t) {
 		this.getContext = e, this.dialecteConfig = t;
 	}
@@ -12485,13 +12789,13 @@ var xl = class {
 			context: a,
 			ref: s
 		});
-		return j(c, {
+		return g(c, {
 			key: "ELEMENT_NOT_FOUND",
 			detail: `validate.value: parent '${s.tagName}' not found`,
 			ref: s
-		}), fl({
+		}), Vl({
 			dialecteConfig: o,
-			target: dl({
+			target: Bl({
 				dialecteConfig: o,
 				parent: c,
 				tagName: t,
@@ -12501,7 +12805,7 @@ var xl = class {
 			value: i
 		});
 	}
-}, Sl = class {
+}, Zl = class {
 	constructor(e, t, n, r = Y) {
 		this.store = e, this.dialecteConfig = t, this.documentId = n, this._perf = r;
 	}
@@ -12509,30 +12813,30 @@ var xl = class {
 		return this._perf;
 	}
 	get any() {
-		return Object.hasOwn(this, "_any") && this._any || (this._any = new ul(() => this.context, this.dialecteConfig)), this._any;
+		return Object.hasOwn(this, "_any") && this._any || (this._any = new zl(() => this.context, this.dialecteConfig)), this._any;
 	}
 	get validate() {
-		return Object.hasOwn(this, "_validate") && this._validate || (this._validate = new xl(() => this.context, this.dialecteConfig)), this._validate;
+		return Object.hasOwn(this, "_validate") && this._validate || (this._validate = new Xl(() => this.context, this.dialecteConfig)), this._validate;
 	}
 	getOperations() {
-		return Xo();
+		return es();
 	}
 	get context() {
 		return {
 			kind: "query",
-			readScope: Bo(this),
+			readScope: Wo(this),
 			store: this.store,
 			dialecteConfig: this.dialecteConfig,
 			documentId: this.documentId,
 			recordCache: void 0,
 			stagedOperations: this.getOperations(),
-			progress: Yo,
+			progress: $o,
 			perf: this.perf
 		};
 	}
 	async getDocumentInfo() {
 		let e = await this.store.getDocument(this.documentId);
-		return j(e, {
+		return g(e, {
 			key: "DOCUMENT_NOT_REGISTERED",
 			detail: `Expected document id: ${this.documentId}`
 		}), e;
@@ -12542,7 +12846,7 @@ var xl = class {
 			context: this.context,
 			ref: { tagName: this.dialecteConfig.rootElementName }
 		});
-		return j(e, {
+		return g(e, {
 			key: "ROOT_NOT_FOUND",
 			detail: `Expected tag name: ${this.dialecteConfig.rootElementName}`
 		}), e;
@@ -12554,41 +12858,41 @@ var xl = class {
 		});
 	}
 	async getDefinition(e) {
-		return jc({
+		return al({
 			context: this.context,
 			ref: P(e)
 		});
 	}
 	async getRecords(e) {
 		let t = e.map((e) => P(e));
-		return Cs({
+		return Xs({
 			context: this.context,
 			refs: t
 		});
 	}
 	async getChild(e, t) {
-		if (e) return Os({
+		if (e) return ec({
 			context: this.context,
 			ref: P(e),
 			tagName: t
 		});
 	}
 	async getChildren(e, t) {
-		return e ? Is({
+		return e ? cc({
 			context: this.context,
 			ref: P(e),
 			tagName: t
 		}) : [];
 	}
 	async getChildrenOfEach(e, t) {
-		return js({
+		return rc({
 			context: this.context,
 			refsOrRecords: e,
 			tagName: t.tagName
 		});
 	}
 	async getRecordsByTagName(e) {
-		return Ds({
+		return Ks({
 			context: this.context,
 			tagName: e
 		});
@@ -12597,41 +12901,41 @@ var xl = class {
 		let n = P(e);
 		if (!t) {
 			let e = this.dialecteConfig.descendants[n.tagName] ?? [];
-			return Ec({
+			return el({
 				context: this.context,
 				ref: n,
 				options: { collect: e }
 			});
 		}
-		return Ec({
+		return el({
 			context: this.context,
 			ref: n,
 			options: t
 		});
 	}
 	async findDescendantsOfEach(e, t) {
-		return _c({
+		return Gc({
 			context: this.context,
 			refsOrRecords: e,
 			options: t
 		});
 	}
 	async findAncestors(e, t) {
-		return e ? Bs({
+		return e ? fc({
 			context: this.context,
 			ref: P(e),
 			options: t
 		}) : [];
 	}
 	async findAncestorsOfEach(e, t) {
-		return Rs({
+		return uc({
 			context: this.context,
 			refsOrRecords: e,
 			options: t
 		});
 	}
 	async getTree(e, t) {
-		return Qc({
+		return Dl({
 			context: this.context,
 			ref: P(e),
 			options: t,
@@ -12639,18 +12943,18 @@ var xl = class {
 		});
 	}
 	async getSnapshot(e) {
-		return sl({
+		return Il({
 			context: this.context,
 			options: e
 		});
 	}
 	async getAttribute(e, t) {
 		let { fullObject: n } = t;
-		return n ? Oc({
+		return n ? nl({
 			context: this.context,
 			ref: e,
 			...t
-		}) : Dc({
+		}) : tl({
 			context: this.context,
 			ref: e,
 			...t
@@ -12658,59 +12962,59 @@ var xl = class {
 	}
 	async getAttributes(e, t) {
 		let { fullObject: n } = t || {};
-		return n ? Ac({
+		return n ? il({
 			context: this.context,
 			ref: e,
 			...t
-		}) : kc({
+		}) : rl({
 			context: this.context,
 			ref: e,
 			...t
 		});
 	}
 	async findByAttributes(e) {
-		return Ks({
+		return vc({
 			context: this.context,
 			...e
 		});
 	}
 };
-Ho({
-	prototype: Sl.prototype,
-	names: Fo
+Ko({
+	prototype: Zl.prototype,
+	names: zo
 });
-function Cl(e) {
+function Ql(e) {
 	let { context: t, status: n, record: r, oldRecord: i, newRecord: a } = e, o, s, c;
-	if (r && (o = Pe(r)), i && (s = Pe(i)), a && (c = Pe(a)), n === "created") {
-		j(o, {
+	if (r && (o = Fe(r)), i && (s = Fe(i)), a && (c = Fe(a)), n === "created") {
+		g(o, {
 			detail: "Record is required for created",
 			key: "ELEMENT_NOT_FOUND"
-		}), dr({ record: o });
+		}), fr({ record: o });
 		let e = {
 			status: n,
 			oldRecord: void 0,
 			newRecord: o
 		};
-		Zo({
+		ts({
 			stagedOperations: t.stagedOperations,
 			operation: e
 		});
 	} else if (n === "updated") {
-		j(s && c, {
+		g(s && c, {
 			detail: "Old record and new record are required for updated",
 			key: "ELEMENT_NOT_FOUND"
-		}), dr({ record: c });
+		}), fr({ record: c });
 		let e = {
 			status: n,
 			oldRecord: s,
 			newRecord: c
 		};
-		Zo({
+		ts({
 			stagedOperations: t.stagedOperations,
 			operation: e
 		});
 	} else if (n === "deleted" && o) {
-		j(o, {
+		g(o, {
 			detail: "Record is required for deleted",
 			key: "ELEMENT_NOT_FOUND"
 		});
@@ -12719,40 +13023,40 @@ function Cl(e) {
 			oldRecord: o,
 			newRecord: void 0
 		};
-		Zo({
+		ts({
 			stagedOperations: t.stagedOperations,
 			operation: e
 		});
 	}
 }
-function wl(e) {
+function $l(e) {
 	let { context: t, operations: n } = e;
 	for (let e of n) switch (e.status) {
 		case "created":
-			Cl({
+			Ql({
 				context: t,
 				status: "created",
 				record: e.newRecord
 			});
 			break;
 		case "updated":
-			Cl({
+			Ql({
 				context: t,
 				status: "updated",
 				oldRecord: e.oldRecord,
 				newRecord: e.newRecord
 			});
 			break;
-		case "deleted": Cl({
+		case "deleted": Ql({
 			context: t,
 			status: "deleted",
 			record: e.oldRecord
 		});
 	}
 }
-async function Tl(e) {
+async function eu(e) {
 	let { dialecteConfig: t, hooks: n, context: r, query: i, parentRef: a, params: o, copiesStoredValues: s = !1 } = e, { id: c, tagName: l, attributes: u, namespace: d, value: f } = o;
-	Dl({
+	nu({
 		dialecteConfig: t,
 		attributes: u,
 		tagName: l
@@ -12761,12 +13065,12 @@ async function Tl(e) {
 		context: r,
 		ref: a
 	});
-	j(p, {
+	g(p, {
 		detail: "Parent record not found",
 		key: "ELEMENT_NOT_FOUND",
 		ref: a
 	});
-	let m = ze({
+	let m = F({
 		dialecteConfig: t,
 		hooks: n,
 		record: {
@@ -12782,11 +13086,11 @@ async function Tl(e) {
 			children: []
 		}
 	});
-	El({
+	tu({
 		dialecteConfig: t,
 		record: m,
 		copiesStoredValues: s
-	}), Cl({
+	}), Ql({
 		context: r,
 		status: "created",
 		record: m
@@ -12798,12 +13102,12 @@ async function Tl(e) {
 			tagName: m.tagName
 		}]
 	};
-	return Cl({
+	return Ql({
 		context: r,
 		status: "updated",
 		oldRecord: p,
 		newRecord: h
-	}), n?.afterCreated && wl({
+	}), n?.afterCreated && $l({
 		context: r,
 		operations: await n.afterCreated({
 			childRecord: m,
@@ -12812,38 +13116,38 @@ async function Tl(e) {
 		})
 	}), m;
 }
-function El(e) {
+function tu(e) {
 	let { dialecteConfig: t, record: n, copiesStoredValues: r } = e;
-	Be({
+	Ve({
 		dialecteConfig: t,
 		record: n,
 		attributes: n.attributes
-	}), r || (te({
+	}), r || (ne({
 		dialecteConfig: t,
 		record: n
-	}), De({
+	}), Oe({
 		dialecteConfig: t,
 		record: n
-	})), Ve({
+	})), He({
 		dialecteConfig: t,
 		record: n
 	});
 }
-function Dl(e) {
+function nu(e) {
 	let { dialecteConfig: t, attributes: n, tagName: r } = e;
-	if (n && Array.isArray(n)) for (let e of n) Ae({
+	if (n && Array.isArray(n)) for (let e of n) je({
 		dialecteConfig: t,
 		attribute: e,
 		tagName: r,
 		authored: !0
 	});
 }
-async function Ol(e) {
+async function ru(e) {
 	let { dialecteConfig: t, hooks: n, context: r, query: i, parentRef: a, record: o } = e, s = [];
 	r.perf.start("core::deepClone"), r.perf.start("core::deepClone::countNodes");
-	let c = kl(o);
+	let c = iu(o);
 	r.perf.stop("core::deepClone::countNodes"), r.progress.plan({ steps: c });
-	let l = await Al({
+	let l = await au({
 		dialecteConfig: t,
 		hooks: n,
 		context: r,
@@ -12857,19 +13161,19 @@ async function Ol(e) {
 		mappings: s
 	};
 }
-function kl(e) {
+function iu(e) {
 	let t = 1;
-	for (let n of e.tree) t += kl(n);
+	for (let n of e.tree) t += iu(n);
 	return t;
 }
-async function Al(e) {
+async function au(e) {
 	let { dialecteConfig: t, hooks: n, context: r, query: i, parentRef: a, record: o, mappings: s } = e, c = !0, l = o;
 	if (n?.beforeClone) {
 		let e = n.beforeClone({ record: o });
 		c = e.shouldBeCloned, l = e.transformedRecord;
 	}
 	if (!c) return l;
-	let u = await Tl({
+	let u = await eu({
 		dialecteConfig: t,
 		hooks: n,
 		context: r,
@@ -12887,7 +13191,7 @@ async function Al(e) {
 		source: Object.assign(d, { attributes: [...o.attributes] }),
 		target: P(u)
 	}), r.progress.nextStep();
-	for (let e of l.tree) await Al({
+	for (let e of l.tree) await au({
 		dialecteConfig: t,
 		hooks: n,
 		context: r,
@@ -12898,28 +13202,28 @@ async function Al(e) {
 	});
 	return u;
 }
-async function jl(e) {
+async function ou(e) {
 	let { hooks: t, context: n, query: r, ref: i } = e, a = await Q({
 		context: n,
 		ref: i
 	});
-	j(a, {
+	g(a, {
 		detail: `Record not found (tagName=${i.tagName}, id=${i.id})`,
 		key: "ELEMENT_NOT_FOUND",
 		ref: i
-	}), j(a.parent, {
+	}), g(a.parent, {
 		detail: "Cannot delete root element",
 		key: "PROTECTED_ROOT"
-	}), t?.beforeDelete && wl({
+	}), t?.beforeDelete && $l({
 		context: n,
 		operations: await t.beforeDelete({
 			record: a,
 			query: r
 		})
-	}), await Ml({
+	}), await su({
 		context: n,
 		record: a
-	}), Cl({
+	}), Ql({
 		context: n,
 		status: "deleted",
 		record: a
@@ -12928,7 +13232,7 @@ async function jl(e) {
 		context: n,
 		ref: P(a.parent)
 	});
-	j(o, {
+	g(o, {
 		detail: `Parent record not found (tagName=${a.parent.tagName}, id=${a.parent.id})`,
 		key: "ELEMENT_NOT_FOUND"
 	});
@@ -12936,12 +13240,12 @@ async function jl(e) {
 		...o,
 		children: o.children.filter((e) => e.id !== a.id)
 	};
-	return Cl({
+	return Ql({
 		context: n,
 		status: "updated",
 		oldRecord: o,
 		newRecord: s
-	}), t?.afterDelete && wl({
+	}), t?.afterDelete && $l({
 		context: n,
 		operations: await t.afterDelete({
 			record: a,
@@ -12950,34 +13254,34 @@ async function jl(e) {
 		})
 	}), s;
 }
-async function Ml(e) {
+async function su(e) {
 	let { context: t, record: n } = e;
 	for (let e of n.children) {
 		let n = await Q({
 			context: t,
 			ref: P(e)
 		});
-		n && (n.children.length > 0 && await Ml({
+		n && (n.children.length > 0 && await su({
 			context: t,
 			record: n
-		}), Cl({
+		}), Ql({
 			context: t,
 			status: "deleted",
 			record: n
 		}));
 	}
 }
-async function Nl(e) {
-	let { dialecteConfig: t, hooks: n, context: r, query: i, parentRef: a, params: o } = e, s = Pl(o.attributes), c = await Is({
+async function cu(e) {
+	let { dialecteConfig: t, hooks: n, context: r, query: i, parentRef: a, params: o } = e, s = lu(o.attributes), c = await cc({
 		context: r,
 		ref: a,
 		tagName: o.tagName
 	});
-	return (s ? c.find((e) => Js({
+	return (s ? c.find((e) => Sc({
 		dialecteConfig: t,
 		record: e,
 		attributeFilter: s
-	})) : o.id === void 0 ? c[0] : c.find((e) => e.id === o.id)) || Tl({
+	})) : o.id === void 0 ? c[0] : c.find((e) => e.id === o.id)) || eu({
 		dialecteConfig: t,
 		hooks: n,
 		context: r,
@@ -12986,54 +13290,54 @@ async function Nl(e) {
 		params: o
 	});
 }
-function Pl(e) {
+function lu(e) {
 	if (!e) return;
 	let t = Array.isArray(e) ? Object.fromEntries(e.map((e) => [e.name, e.value])) : e;
 	return Object.values(t).some((e) => e !== void 0 && e !== "") ? t : void 0;
 }
-async function Fl(e) {
-	let { context: t, ref: n, parentRef: r, beforeRef: i } = e, [a, o] = await Cs({
+async function uu(e) {
+	let { context: t, ref: n, parentRef: r, beforeRef: i } = e, [a, o] = await Xs({
 		context: t,
 		refs: [n, r]
 	});
-	j(a, {
+	g(a, {
 		detail: `Record to move not found (tagName=${n.tagName}, id=${n.id})`,
 		key: "ELEMENT_NOT_FOUND",
 		ref: n
-	}), j(a.parent, {
+	}), g(a.parent, {
 		detail: "Cannot move the root element",
 		key: "PROTECTED_ROOT"
-	}), j(o, {
+	}), g(o, {
 		detail: `New parent not found (tagName=${r.tagName}, id=${r.id})`,
 		key: "ELEMENT_NOT_FOUND",
 		ref: r
-	}), Il({
+	}), du({
 		context: t,
 		record: a,
 		newParent: o
-	}), await Ll({
+	}), await fu({
 		context: t,
 		record: a,
 		newParent: o
-	}), Rl({
+	}), pu({
 		record: a,
 		newParent: o,
 		beforeRef: i
 	});
-	let s = Pe(a), c = o.id === a.parent.id;
+	let s = Fe(a), c = o.id === a.parent.id;
 	if (c && i?.id === a.id) return s;
-	let l = zl({
+	let l = mu({
 		record: a,
 		newParent: o,
 		beforeRef: i
 	});
-	if (c) return Bl({
+	if (c) return hu({
 		tagName: a.tagName,
 		left: l,
 		right: o.children
-	}) || wl({
+	}) || $l({
 		context: t,
-		operations: [Hl({
+		operations: [_u({
 			record: o,
 			change: { children: l }
 		})]
@@ -13042,7 +13346,7 @@ async function Fl(e) {
 		context: t,
 		ref: P(a.parent)
 	});
-	j(u, {
+	g(u, {
 		detail: `Parent of the moved record not found (tagName=${a.parent.tagName}, id=${a.parent.id})`,
 		key: "ELEMENT_NOT_FOUND"
 	});
@@ -13050,18 +13354,18 @@ async function Fl(e) {
 		id: o.id,
 		tagName: o.tagName
 	};
-	return wl({
+	return $l({
 		context: t,
 		operations: [
-			Hl({
+			_u({
 				record: a,
 				change: { parent: d }
 			}),
-			Hl({
+			_u({
 				record: u,
 				change: { children: u.children.filter((e) => e.id !== a.id) }
 			}),
-			Hl({
+			_u({
 				record: o,
 				change: { children: l }
 			})
@@ -13071,31 +13375,31 @@ async function Fl(e) {
 		parent: d
 	};
 }
-function Il(e) {
+function du(e) {
 	let { context: t, record: n, newParent: r } = e, i = {
 		tagName: r.tagName,
 		id: r.id
-	}, o = O({
+	}, a = O({
 		dialecteConfig: t.dialecteConfig,
 		record: r
 	});
-	j(o !== void 0 && (o.children.any === !0 || o.children.sequence.includes(n.tagName)), {
+	g(a !== void 0 && (a.children.any === !0 || a.children.sequence.includes(n.tagName)), {
 		detail: `${r.tagName} may not hold ${n.tagName}`,
 		key: "INVALID_PARENT_CHILD",
 		ref: i
 	});
-	let s = a({ definition: o })[n.tagName]?.max;
-	if (s === void 0) return;
+	let o = s({ definition: a })[n.tagName]?.max;
+	if (o === void 0) return;
 	let c = r.children.filter((e) => e.tagName === n.tagName && e.id !== n.id).length;
-	j(c < s, {
+	g(c < o, {
 		detail: `${r.tagName} already holds ${c} ${n.tagName}, the most it may`,
 		key: "MAX_OCCURRENCES_REACHED",
 		ref: i
 	});
 }
-async function Ll(e) {
+async function fu(e) {
 	let { context: t, record: n, newParent: r } = e;
-	r.id !== n.parent?.id && j(!(r.id === n.id || (await Bs({
+	r.id !== n.parent?.id && g(!(r.id === n.id || (await fc({
 		context: t,
 		ref: P(r)
 	})).some((e) => e.id === n.id)), {
@@ -13107,9 +13411,9 @@ async function Ll(e) {
 		}
 	});
 }
-function Rl(e) {
+function pu(e) {
 	let { record: t, newParent: n, beforeRef: r } = e;
-	r !== void 0 && j(r.tagName === t.tagName && n.children.some((e) => e.id === r.id && e.tagName === t.tagName), {
+	r !== void 0 && g(r.tagName === t.tagName && n.children.some((e) => e.id === r.id && e.tagName === t.tagName), {
 		detail: `${r.tagName} ${r.id} is no ${t.tagName} child of ${n.tagName} ${n.id}`,
 		key: "MOVE_BEFORE_NOT_SIBLING",
 		ref: {
@@ -13118,7 +13422,7 @@ function Rl(e) {
 		}
 	});
 }
-function zl(e) {
+function mu(e) {
 	let { record: t, newParent: n, beforeRef: r } = e, i = n.children.filter((e) => e.id !== t.id), a = i.findLastIndex((e) => e.tagName === t.tagName), o = a === -1 ? i.length : a + 1, s = r === void 0 ? o : i.findIndex((e) => e.id === r.id), c = {
 		id: t.id,
 		tagName: t.tagName
@@ -13129,21 +13433,21 @@ function zl(e) {
 		...i.slice(s)
 	];
 }
-function Bl(e) {
-	let { tagName: t, left: n, right: r } = e, i = Vl({
+function hu(e) {
+	let { tagName: t, left: n, right: r } = e, i = gu({
 		tagName: t,
 		children: n
-	}), a = Vl({
+	}), a = gu({
 		tagName: t,
 		children: r
 	});
 	return i.length === a.length && i.every((e, t) => e === a[t]);
 }
-function Vl(e) {
+function gu(e) {
 	let { tagName: t, children: n } = e;
 	return n.filter((e) => e.tagName === t).map((e) => e.id);
 }
-function Hl(e) {
+function _u(e) {
 	let { record: t, change: n } = e;
 	return {
 		status: "updated",
@@ -13154,23 +13458,23 @@ function Hl(e) {
 		}
 	};
 }
-async function Ul(e) {
+async function vu(e) {
 	let { dialecteConfig: t, hooks: n, context: r, query: i, ref: a, params: o } = e, { attributes: s, value: c } = o, l = await Q({
 		context: r,
 		ref: a
 	});
-	j(l, {
+	g(l, {
 		detail: `Record not found (tagName=${a.tagName}, id=${a.id})`,
 		key: "ELEMENT_NOT_FOUND",
 		ref: a
 	});
-	let u = s ? Le({
+	let u = s ? N({
 		dialecteConfig: t,
 		tagName: l.tagName,
 		attributes: s,
 		stored: l.attributes
 	}) : [], d = l.attributes;
-	s && (d = [...l.attributes.filter((e) => !u.some((t) => t.name === e.name)), ...u].filter((e) => e.value !== void 0 && e.value !== null), Be({
+	s && (d = [...l.attributes.filter((e) => !u.some((t) => t.name === e.name)), ...u].filter((e) => e.value !== void 0 && e.value !== null), Ve({
 		dialecteConfig: t,
 		record: {
 			...l,
@@ -13178,7 +13482,7 @@ async function Ul(e) {
 		},
 		attributes: u
 	}));
-	let f = u.some(ne), p = ze({
+	let f = u.some(re), p = F({
 		dialecteConfig: t,
 		hooks: n,
 		record: {
@@ -13187,29 +13491,29 @@ async function Ul(e) {
 			value: c === void 0 ? l.value : c
 		}
 	});
-	return De({
+	return Oe({
 		dialecteConfig: t,
 		record: p,
 		authored: {
 			attributes: new Set(u.map((e) => e.name)),
 			text: c !== void 0
 		}
-	}), f && (te({
-		dialecteConfig: t,
-		record: p
-	}), Ve({
+	}), f && (ne({
 		dialecteConfig: t,
 		record: p
 	}), He({
 		dialecteConfig: t,
+		record: p
+	}), Ue({
+		dialecteConfig: t,
 		merged: d,
 		record: p
-	})), Wl(l, p) || (Cl({
+	})), yu(l, p) || (Ql({
 		context: r,
 		status: "updated",
 		oldRecord: l,
 		newRecord: p
-	}), n?.afterUpdated && wl({
+	}), n?.afterUpdated && $l({
 		context: r,
 		operations: await n.afterUpdated({
 			oldRecord: l,
@@ -13218,18 +13522,18 @@ async function Ul(e) {
 		})
 	})), p;
 }
-function Wl(e, t) {
-	return e.value !== t.value || e.attributes.length !== t.attributes.length ? !1 : e.attributes.every((e, n) => Gl(e, t.attributes[n]));
+function yu(e, t) {
+	return e.value !== t.value || e.attributes.length !== t.attributes.length ? !1 : e.attributes.every((e, n) => bu(e, t.attributes[n]));
 }
-function Gl(e, t) {
+function bu(e, t) {
 	return e.name === t.name && e.value === t.value && e.namespace?.uri === t.namespace?.uri && e.namespace?.prefix === t.namespace?.prefix;
 }
-var Kl = class extends ul {
+var xu = class extends zl {
 	constructor(e, t, n, r) {
 		super(e, t), this.hooks = n, this.query = r;
 	}
 	async addChild(e, t) {
-		return Tl({
+		return eu({
 			context: this.getContext(),
 			parentRef: P(e),
 			params: {
@@ -13245,7 +13549,7 @@ var Kl = class extends ul {
 		});
 	}
 	async ensureChild(e, t) {
-		return Nl({
+		return cu({
 			context: this.getContext(),
 			parentRef: P(e),
 			params: {
@@ -13261,7 +13565,7 @@ var Kl = class extends ul {
 		});
 	}
 	async update(e, t) {
-		return Ul({
+		return vu({
 			context: this.getContext(),
 			ref: P(e),
 			params: {
@@ -13274,7 +13578,7 @@ var Kl = class extends ul {
 		});
 	}
 	async delete(e) {
-		return jl({
+		return ou({
 			context: this.getContext(),
 			ref: P(e),
 			hooks: this.hooks,
@@ -13282,7 +13586,7 @@ var Kl = class extends ul {
 		});
 	}
 	async move(e, t) {
-		return Fl({
+		return uu({
 			context: this.getContext(),
 			ref: P(e),
 			parentRef: P(t.parent),
@@ -13290,7 +13594,7 @@ var Kl = class extends ul {
 		});
 	}
 	async deepClone(e, t) {
-		return await Ol({
+		return await ru({
 			dialecteConfig: this.dialecteConfig,
 			hooks: this.hooks,
 			context: this.getContext(),
@@ -13300,9 +13604,9 @@ var Kl = class extends ul {
 		});
 	}
 };
-async function ql(e) {
+async function Su(e) {
 	let { hooks: t, context: n, query: r } = e;
-	t?.beforeCommit && wl({
+	t?.beforeCommit && $l({
 		context: n,
 		operations: await t.beforeCommit({
 			operations: n.stagedOperations.log,
@@ -13310,7 +13614,7 @@ async function ql(e) {
 		})
 	});
 }
-function Jl(e) {
+function Cu(e) {
 	let t = /* @__PURE__ */ new Map();
 	for (let n of e) {
 		let e = (n.status === "deleted" ? n.oldRecord : n.newRecord).id, r = t.get(e);
@@ -13335,15 +13639,15 @@ function Jl(e) {
 		deletes: n.filter((e) => e.status === "deleted")
 	};
 }
-function Yl(e) {
-	return b(e.thrown)?.key === "STORE_CONNECTION_LOST";
+function wu(e) {
+	return a(e.thrown)?.key === "STORE_CONNECTION_LOST";
 }
-function Xl(e) {
-	let t = b(e.thrown);
+function Tu(e) {
+	let t = a(e.thrown);
 	return t?.key === "STORE_CONNECTION_LOST" && t.meta?.outcome === "not-applied";
 }
-function Zl() {}
-async function Ql(e) {
+function Eu() {}
+async function Du(e) {
 	let { store: t, writeId: n } = e;
 	try {
 		return await t.getWriteOutcome({ writeId: n });
@@ -13351,28 +13655,28 @@ async function Ql(e) {
 		return "unknown";
 	}
 }
-function $l(e) {
-	let { thrown: t, writeId: n, outcome: r, meta: i } = e, a = b(t);
-	return _("STORE_CONNECTION_LOST", {
-		detail: `${a?.detail ?? "The connection was lost"} - the write's outcome: ${r}`,
+function Ou(e) {
+	let { thrown: t, writeId: n, outcome: i, meta: o } = e, s = a(t);
+	return r("STORE_CONNECTION_LOST", {
+		detail: `${s?.detail ?? "The connection was lost"} - the write's outcome: ${i}`,
 		meta: {
-			...a?.meta,
-			...i,
+			...s?.meta,
+			...o,
 			writeId: n,
-			outcome: r
+			outcome: i
 		},
 		cause: t instanceof Error ? t : void 0
 	});
 }
-async function eu(e) {
+async function ku(e) {
 	let { writeId: t, stagedOperations: n, store: r, documentId: i, documentState: a, progress: o, perf: s = Y } = e;
 	s.start("core::commit"), s.start("core::commit::merge");
-	let { creates: c, updates: l, deletes: u } = Jl(n);
+	let { creates: c, updates: l, deletes: u } = Cu(n);
 	s.stop("core::commit::merge");
 	let d = {
 		creates: c.map((e) => e.newRecord),
 		updates: l.map((e) => e.newRecord),
-		deletes: u.map((e) => qr(e.oldRecord))
+		deletes: u.map((e) => Jr(e.oldRecord))
 	}, f = c.length + l.length + u.length;
 	a.loading = !0, o.plan({ steps: f });
 	let p = 0;
@@ -13393,12 +13697,12 @@ async function eu(e) {
 				}
 			});
 		} catch (e) {
-			if (!Yl({ thrown: e })) throw e;
-			let n = await Ql({
+			if (!wu({ thrown: e })) throw e;
+			let n = await Du({
 				store: r,
 				writeId: t
 			});
-			if (n !== "applied") throw $l({
+			if (n !== "applied") throw Ou({
 				thrown: e,
 				writeId: t,
 				outcome: n
@@ -13408,35 +13712,39 @@ async function eu(e) {
 	} catch (e) {
 		throw a.loading = !1, o.endPlan(), s.stop("core::commit"), e;
 	}
-	return a.lastUpdate = Date.now(), o.endPlan(), s.stop("core::commit"), Gr(d);
+	return a.lastUpdate = Date.now(), o.endPlan(), s.stop("core::commit"), Kr(d);
 }
-var tu = class extends Sl {
+var Au = class extends Zl {
 	constructor(e, t, n, r, i, a = Y, o = () => {}) {
-		super(e, t, n, a), this.stagedOperations = Xo(), this.recordCache = /* @__PURE__ */ new Map(), this.stagingFinished = !1, this.documentActivity = r, this.hooks = i, this.progressReporter = Jo(r, o);
+		super(e, t, n, a), this.stagedOperations = es(), this.readCache = Os(), this.stagingFinished = !1, this.documentActivity = r, this.hooks = i, this.progressReporter = Qo(r, o);
 	}
 	get progress() {
 		return this.progressReporter;
 	}
 	get any() {
-		return this._anyTx ??= new Kl(() => this.context, this.dialecteConfig, this.hooks, this);
+		return this._anyTx ??= new xu(() => this.context, this.dialecteConfig, this.hooks, this);
 	}
 	getOperations() {
 		return this.stagedOperations;
 	}
 	get context() {
-		return {
+		return As({
+			cache: this.readCache,
+			readEpoch: Vs({ transaction: this })
+		}) && this.perf.count(Es.dropped), {
 			kind: "transaction",
 			store: this.store,
 			dialecteConfig: this.dialecteConfig,
 			documentId: this.documentId,
-			recordCache: this.recordCache,
+			recordCache: this.readCache.records,
+			readCache: this.readCache,
 			stagedOperations: this.stagedOperations,
 			progress: this.progressReporter,
 			perf: this.perf
 		};
 	}
 	async addChild(e, t) {
-		return Tl({
+		return eu({
 			context: this.context,
 			parentRef: P(e),
 			params: t,
@@ -13446,7 +13754,7 @@ var tu = class extends Sl {
 		});
 	}
 	async ensureChild(e, t) {
-		return Nl({
+		return cu({
 			context: this.context,
 			parentRef: P(e),
 			params: t,
@@ -13456,7 +13764,7 @@ var tu = class extends Sl {
 		});
 	}
 	async update(e, t) {
-		return Ul({
+		return vu({
 			context: this.context,
 			ref: P(e),
 			params: t,
@@ -13466,7 +13774,7 @@ var tu = class extends Sl {
 		});
 	}
 	async delete(e) {
-		return jl({
+		return ou({
 			context: this.context,
 			ref: P(e),
 			hooks: this.hooks,
@@ -13474,7 +13782,7 @@ var tu = class extends Sl {
 		});
 	}
 	async move(e, t) {
-		return Fl({
+		return uu({
 			context: this.context,
 			ref: P(e),
 			parentRef: P(t.parent),
@@ -13482,7 +13790,7 @@ var tu = class extends Sl {
 		});
 	}
 	async deepClone(e, t) {
-		return Ol({
+		return ru({
 			dialecteConfig: this.dialecteConfig,
 			hooks: this.hooks,
 			context: this.context,
@@ -13492,7 +13800,7 @@ var tu = class extends Sl {
 		});
 	}
 	async finishStaging() {
-		this.stagingFinished || (this.stagingFinished = !0, await ql({
+		this.stagingFinished || (this.stagingFinished = !0, await Su({
 			hooks: this.hooks,
 			context: this.context,
 			query: this
@@ -13502,13 +13810,13 @@ var tu = class extends Sl {
 		return this.stagedOperations.log;
 	}
 	clearStagedOperations() {
-		this.stagedOperations = Xo();
+		this.stagedOperations = es();
 	}
 	clearRecordCache() {
-		this.recordCache.clear();
+		ks({ cache: this.readCache });
 	}
 	async commit(e) {
-		return eu({
+		return ku({
 			writeId: e.writeId,
 			stagedOperations: this.stagedOperations.log,
 			store: this.store,
@@ -13519,11 +13827,11 @@ var tu = class extends Sl {
 		});
 	}
 };
-function nu(e) {
+function ju(e) {
 	return e.kind === "transaction";
 }
-function ru(e) {
-	let { creates: t, updates: n, deletes: r } = Jl(e), i = /* @__PURE__ */ new Map();
+function Mu(e) {
+	let { creates: t, updates: n, deletes: r } = Cu(e), i = /* @__PURE__ */ new Map();
 	for (let e of [
 		...t,
 		...n,
@@ -13543,20 +13851,20 @@ function ru(e) {
 		byTag: Object.fromEntries([...i].sort(([e], [t]) => e.localeCompare(t)))
 	};
 }
-var iu = class {
+var Nu = class {
 	constructor(e, t, n, r, i, a) {
 		this.activeTransactions = 0, this.store = e, this.config = t, this.documentId = n, this.hooks = i, this.extensionsRegistry = r, this.state = a.state, this.channelName = a.channelName, this.broadcast = a.broadcast, this.refreshHistoryStatus = a.refreshHistoryStatus, this.perf = a.perf, this.subscribe = a.subscribeState, this.signalStateChange = a.signalStateChange, this.startWrite = a.startWrite, this.voidReadScopes = a.voidReadScopes, this.readScopeWiring = {
 			documentId: n,
 			epochOf: a.readEpoch,
-			bindQueryExtensions: (e) => Ko(this.extensionsRegistry?.query, e)
+			bindQueryExtensions: (e) => Xo(this.extensionsRegistry?.query, e)
 		};
 	}
 	withQueryExtensions(e) {
-		let t = Ko(this.extensionsRegistry?.query, e);
+		let t = Xo(this.extensionsRegistry?.query, e);
 		return Object.assign(e, t);
 	}
 	withAllExtensions(e) {
-		let t = Ko(this.extensionsRegistry?.query, e), n = Ko(this.extensionsRegistry?.transaction, e), r = {};
+		let t = Xo(this.extensionsRegistry?.query, e), n = Xo(this.extensionsRegistry?.transaction, e), r = {};
 		for (let [e, n] of Object.entries(t)) r[e] = {
 			...r[e],
 			...n
@@ -13568,24 +13876,31 @@ var iu = class {
 		return Object.assign(e, r);
 	}
 	createQuery() {
-		return new Sl(this.store, this.config, this.documentId, this.perf);
+		return new Zl(this.store, this.config, this.documentId, this.perf);
 	}
 	get query() {
 		let e = this.withQueryExtensions(this.createQuery());
-		return typeof this.store.readVersioned == "function" && zo({
+		return typeof this.store.readVersioned == "function" && Uo({
 			query: e,
 			wiring: this.readScopeWiring
 		}), e;
 	}
+	makeTransaction() {
+		let e = this.createTransaction();
+		return Bs({
+			transaction: e,
+			readEpoch: this.readScopeWiring.epochOf
+		}), e;
+	}
 	createTransaction() {
-		return new tu(this.store, this.config, this.documentId, this.state, this.hooks, this.perf, this.signalStateChange);
+		return new Au(this.store, this.config, this.documentId, this.state, this.hooks, this.perf, this.signalStateChange);
 	}
 	async transaction(e, t) {
 		this.assertNoActiveTransaction();
 		let n = this.startWrite(), r, i = Et();
 		try {
 			this.activeTransactions++, this.state.loading = !0, this.state.error = null, this.signalStateChange(!1);
-			let n = this.withAllExtensions(this.createTransaction());
+			let n = this.withAllExtensions(this.makeTransaction());
 			r = n;
 			let a = await e(n);
 			await n.finishStaging();
@@ -13611,7 +13926,7 @@ var iu = class {
 		}
 	}
 	async readAgainAfterLoss(e) {
-		Yl(e) && !Xl(e) && (this.voidReadScopes(), await this.refreshHistoryStatus().catch(Zl), this.broadcast({
+		wu(e) && !Tu(e) && (this.voidReadScopes(), await this.refreshHistoryStatus().catch(Eu), this.broadcast({
 			type: "commit",
 			documentId: this.documentId,
 			timestamp: Date.now(),
@@ -13621,14 +13936,14 @@ var iu = class {
 	}
 	async prepare(e, t) {
 		this.assertNoActiveTransaction(), this.activeTransactions++, this.state.loading = !0, this.state.error = null;
-		let n = this.createTransaction();
+		let n = this.makeTransaction();
 		try {
 			await e(this.withAllExtensions(n)), await n.finishStaging();
 		} catch (e) {
 			throw this.activeTransactions--, this.state.loading = !1, this.reportFailure(e);
 		}
 		this.activeTransactions--, this.state.loading = !1;
-		let r = n.getStagedOperations(), i = ru(r), a = !1;
+		let r = n.getStagedOperations(), i = Mu(r), a = !1;
 		return {
 			operations: r,
 			summary: i,
@@ -13653,7 +13968,7 @@ var iu = class {
 						timestamp: Date.now()
 					});
 				} catch (e) {
-					throw Xl({ thrown: e }) && (a = !1), await this.readAgainAfterLoss({
+					throw Tu({ thrown: e }) && (a = !1), await this.readAgainAfterLoss({
 						thrown: e,
 						changeId: r
 					}), this.reportFailure(e);
@@ -13667,16 +13982,16 @@ var iu = class {
 		};
 	}
 	reportFailure(e) {
-		let t = b(e);
+		let t = a(e);
 		if (e instanceof Error && t) return this.state.error = t, e;
-		let n = _("UNKNOWN", {
+		let n = r("UNKNOWN", {
 			detail: e instanceof Error ? e.message : String(e),
 			cause: e instanceof Error ? e : void 0
 		});
-		return this.state.error = b(n) ?? null, n;
+		return this.state.error = a(n) ?? null, n;
 	}
 	assertNoActiveTransaction() {
-		this.activeTransactions > 0 && f("CONCURRENT_TRANSACTION", { detail: `${this.activeTransactions} transaction(s) already active. Concurrent transactions risk lost updates — serialize them or implement a transaction queue.` });
+		this.activeTransactions > 0 && m("CONCURRENT_TRANSACTION", { detail: `${this.activeTransactions} transaction(s) already active. Concurrent transactions risk lost updates — serialize them or implement a transaction queue.` });
 	}
 	close() {
 		return this.store.close();
@@ -13684,15 +13999,15 @@ var iu = class {
 	async destroy() {
 		await this.store.destroy();
 	}
-}, au = class {
+}, Pu = class {
 	get name() {
-		return j(this._name !== void 0, {
+		return g(this._name !== void 0, {
 			key: "PROJECT_NOT_OPENED",
 			detail: "Call project.open(name) before accessing project properties."
 		}), this._name;
 	}
 	get store() {
-		return j(this._store !== void 0 && !this.closing && this.openSettled, {
+		return g(this._store !== void 0 && !this.closing && this.openSettled, {
 			key: "PROJECT_NOT_OPENED",
 			detail: this.closing ? "The project is closed: open it again before using it." : "Call project.open(name), and await it, before accessing project properties."
 		}), this._store;
@@ -13738,13 +14053,13 @@ var iu = class {
 		return this.importChain.then(e, e);
 	}
 	get channel() {
-		return j(this._channel !== void 0, {
+		return g(this._channel !== void 0, {
 			key: "PROJECT_NOT_OPENED",
 			detail: "Call project.open(name) before accessing project properties."
 		}), this._channel;
 	}
 	get channelName() {
-		return j(this._channelName !== void 0, {
+		return g(this._channelName !== void 0, {
 			key: "PROJECT_NOT_OPENED",
 			detail: "Call project.open(name) before accessing project properties."
 		}), this._channelName;
@@ -13757,7 +14072,7 @@ var iu = class {
 	}
 	postToldChanges(e) {
 		let { own: t } = e, n = this.ownChangesTold.splice(0), r = t ? n.findIndex(function(e) {
-			return uu({
+			return zu({
 				first: e,
 				second: t
 			});
@@ -13855,12 +14170,12 @@ var iu = class {
 		if (r.length > 0) throw r[0];
 	}
 	constructor(e) {
-		this.closing = !1, this.announcing = !1, this.stopStoreNotices = fu, this.ownChangesTold = [], this.openSettled = !1, this.toldWhileOpening = [], this.resyncWhenSettled = !1, this.pendingBroadcastWork = /* @__PURE__ */ new Set(), this.importChain = Promise.resolve(), this.importsInFlight = /* @__PURE__ */ new Set(), this.readEpochs = /* @__PURE__ */ new Map(), this.lifecycle = Promise.resolve(), this.opens = 0, this.lifecycleTurns = 0, this.writes = lt(), this.state = {
+		this.closing = !1, this.announcing = !1, this.stopStoreNotices = Vu, this.ownChangesTold = [], this.openSettled = !1, this.toldWhileOpening = [], this.resyncWhenSettled = !1, this.pendingBroadcastWork = /* @__PURE__ */ new Set(), this.importChain = Promise.resolve(), this.importsInFlight = /* @__PURE__ */ new Set(), this.readEpochs = /* @__PURE__ */ new Map(), this.lifecycle = Promise.resolve(), this.opens = 0, this.lifecycleTurns = 0, this.writes = ut(), this.state = {
 			documents: /* @__PURE__ */ new Map(),
 			activeTransactions: 0
 		}, this.stateSubscribers = /* @__PURE__ */ new Map();
 		let t = Object.keys(e.configs);
-		this.dialecteId = e.dialecteId, this.dialecteVersion = e.dialecteVersion, this.storage = e.storage, this.configs = e.configs, this.defaultConfigKey = e.defaultConfigKey ?? t[0], this.hooks = e.hooks, this.perfEnabled = e.dev?.perf ?? !1, this.perf = $t({ enabled: this.perfEnabled }), this.mergedExtensions = e.extensions ? We({
+		this.dialecteId = e.dialecteId, this.dialecteVersion = e.dialecteVersion, this.storage = e.storage, this.configs = e.configs, this.defaultConfigKey = e.defaultConfigKey ?? t[0], this.hooks = e.hooks, this.perfEnabled = e.dev?.perf ?? !1, this.perf = en({ enabled: this.perfEnabled }), this.mergedExtensions = e.extensions ? Ge({
 			base: e.extensions.base,
 			custom: e.extensions.custom
 		}) : void 0;
@@ -13873,25 +14188,25 @@ var iu = class {
 		await this.closeNow(), this._store = void 0, this.refusedStore = void 0, this._name = t;
 		let n, r;
 		try {
-			n = this.resolveProjectStore({ name: t }), this.announcing = typeof n.subscribe == "function", this.ownChangesTold = [], this.openSettled = !1, this.toldWhileOpening = [], this.resyncWhenSettled = !1, this._channelName = jo({
+			n = this.resolveProjectStore({ name: t }), this.announcing = typeof n.subscribe == "function", this.ownChangesTold = [], this.openSettled = !1, this.toldWhileOpening = [], this.resyncWhenSettled = !1, this._channelName = Fo({
 				name: t,
 				instance: this.announcing ? crypto.randomUUID() : void 0
 			}), n.subscribe && (this.stopStoreNotices = n.subscribe((e) => this.onStoreNotice(e))), r = new BroadcastChannel(this._channelName), this.announcing || r.addEventListener("message", (e) => {
 				this.onChannelHeard(e.data);
 			}), await n.open();
 		} catch (e) {
-			throw this.stopListeningToStore(), r?.close(), this.refusedStore = n, await su({ store: n }), e;
+			throw this.stopListeningToStore(), r?.close(), this.refusedStore = n, await Iu({ store: n }), e;
 		}
 		this._channel = r, this._store = n, this.opens += 1, this.closing = this.lifecycleTurns > 1;
 		try {
-			let e = No(await n.getDocuments());
-			for (let t of e) this.state.documents.set(t.id, Do(t));
+			let e = Lo(await n.getDocuments());
+			for (let t of e) this.state.documents.set(t.id, jo(t));
 			await Promise.all(e.map((e) => this.readHistoryStatus({
 				store: n,
 				documentId: e.id
 			})));
 		} catch (e) {
-			throw this.closing = !0, this.stopListeningToStore(), r.close(), this._channel = void 0, this._store = void 0, this.state.documents.clear(), this.refusedStore = n, await su({ store: n }), e;
+			throw this.closing = !0, this.stopListeningToStore(), r.close(), this._channel = void 0, this._store = void 0, this.state.documents.clear(), this.refusedStore = n, await Iu({ store: n }), e;
 		}
 		this.openSettled = !0;
 		let i = this.toldWhileOpening.splice(0), a = this.resyncWhenSettled;
@@ -13904,7 +14219,7 @@ var iu = class {
 		return this;
 	}
 	resolveProjectStore(e) {
-		return So({
+		return wo({
 			name: e.name,
 			dialecteId: this.dialecteId,
 			storage: this.storage,
@@ -13919,7 +14234,7 @@ var iu = class {
 		});
 	}
 	onChannelMessage(e) {
-		if (!this.closing) switch (e && Io.has(e.type) && "documentId" in e && this.voidReadScopes(e.documentId), e?.type) {
+		if (!this.closing) switch (e && Bo.has(e.type) && "documentId" in e && this.voidReadScopes(e.documentId), e?.type) {
 			case "document-updated":
 				this.trackBroadcastWork({
 					work: this.refreshDocumentRecord(e.documentId),
@@ -13945,11 +14260,11 @@ var iu = class {
 		}
 	}
 	stopListeningToStore() {
-		this.stopStoreNotices(), this.stopStoreNotices = fu;
+		this.stopStoreNotices(), this.stopStoreNotices = Vu;
 	}
 	trackBroadcastWork(e) {
 		let { work: t, told: n } = e, r = t.catch((e) => {
-			this.closing || Yl({ thrown: e }) || this.reportFoldFailure({
+			this.closing || wu({ thrown: e }) || this.reportFoldFailure({
 				told: n,
 				thrown: e
 			});
@@ -13992,7 +14307,7 @@ var iu = class {
 	}
 	async closeNow() {
 		if (this.closing = !0, this._channel === void 0) return;
-		let e = setTimeout(() => this.reportCloseWait(), Wr);
+		let e = setTimeout(() => this.reportCloseWait(), Gr);
 		try {
 			await this.settledImports(), await this.writes.whenIdle(), await Promise.allSettled(this.pendingBroadcastWork), this.stopListeningToStore(), this._channel?.close(), this._channel = void 0, await this._store?.close();
 		} finally {
@@ -14004,7 +14319,7 @@ var iu = class {
 		let e = [...this.importsInFlight].map(function({ fileName: e }) {
 			return `"${e}"`;
 		}), t = e.length === 0 ? "0 import(s)" : `${e.length} import(s) (${e.join(", ")}: an import hook that never settles keeps it waiting)`;
-		console.warn(`Project "${this._name}" has waited ${Wr} ms to close for ${t}, ${this.writes.count} write(s) and ${this.pendingBroadcastWork.size} other-tab update(s) in flight, then its store's close; it goes on waiting. If it never ends, a hook or a transaction callback is awaiting this Project's open, close or destroy.`);
+		console.warn(`Project "${this._name}" has waited ${Gr} ms to close for ${t}, ${this.writes.count} write(s) and ${this.pendingBroadcastWork.size} other-tab update(s) in flight, then its store's close; it goes on waiting. If it never ends, a hook or a transaction callback is awaiting this Project's open, close or destroy.`);
 	}
 	async destroy() {
 		return this.closing = !0, this.inLifecycleTurn(() => this.destroyNow());
@@ -14015,7 +14330,7 @@ var iu = class {
 	}
 	async initEmptyDocument(e) {
 		return this.counted(async () => {
-			let t = await ko({
+			let t = await No({
 				store: this.store,
 				configs: this.configs,
 				defaultConfigKey: this.defaultConfigKey,
@@ -14040,58 +14355,58 @@ var iu = class {
 	}
 	importStore(e) {
 		let t = this.store;
-		return en({
+		return tn({
 			configs: this.configs,
 			defaultConfigKey: this.defaultConfigKey,
 			configKey: e?.configKey
 		}), t;
 	}
 	async import(e, t) {
-		this.importStore(t), ou({ options: t });
-		let n = this.opens, { onProgress: r, onFile: i, ...a } = t ?? {}, o = {}, s = [];
-		for (let [t, c] of e.entries()) {
-			let l = {
+		this.importStore(t), Fu({ options: t });
+		let n = this.opens, { onProgress: i, onFile: o, ...s } = t ?? {}, c = {}, l = [];
+		for (let [t, u] of e.entries()) {
+			let d = {
 				fileIndex: t,
 				fileCount: e.length,
-				fileName: c.name
+				fileName: u.name
 			};
 			try {
 				this.refuseClosedOpen({ opened: n });
-				let e = await this.importFile(c, {
-					...a,
-					...r && { onProgress: function(e) {
-						r({
+				let e = await this.importFile(u, {
+					...s,
+					...i && { onProgress: function(e) {
+						i({
 							...e,
-							...l
+							...d
 						});
 					} }
 				});
-				s.push({
+				l.push({
 					status: "imported",
 					...e
 				});
 			} catch (e) {
-				let t = b(e) ?? b(_("IMPORT_FAILED", {
+				let t = a(e) ?? a(r("IMPORT_FAILED", {
 					detail: e instanceof Error ? e.message : String(e),
 					cause: e instanceof Error ? e : void 0
 				}));
-				s.push({
+				l.push({
 					status: "failed",
-					fileName: c.name,
+					fileName: u.name,
 					error: t
 				});
 			}
 			zt({
-				listener: i,
+				listener: o,
 				value: {
-					...s.at(-1),
+					...l.at(-1),
 					fileIndex: t
 				},
 				of: Ht.importedFile,
-				call: o
+				call: c
 			});
 		}
-		return s;
+		return l;
 	}
 	async importFile(e, t) {
 		let n = this.importStore(t);
@@ -14126,7 +14441,7 @@ var iu = class {
 				signal: a
 			});
 		} catch (e) {
-			throw Yl({ thrown: e }) ? await this.lostImportError({
+			throw wu({ thrown: e }) ? await this.lostImportError({
 				store: r,
 				thrown: e,
 				writeId: s
@@ -14135,7 +14450,7 @@ var iu = class {
 		return c.perf && this.perf.merge({
 			report: c.perf,
 			prefix: "store"
-		}), this.voidReadScopes(c.record.id), this.state.documents.set(c.record.id, Do(c.record)), this.broadcast({
+		}), this.voidReadScopes(c.record.id), this.state.documents.set(c.record.id, jo(c.record)), this.broadcast({
 			type: "document-imported",
 			documentId: c.record.id,
 			timestamp: Date.now()
@@ -14151,9 +14466,9 @@ var iu = class {
 		try {
 			return await t();
 		} catch (e) {
-			if (!Yl({ thrown: e })) throw e;
-			if (this.voidReadScopes(n), await this.refreshState().catch(Zl), this.announcing && this.postToldChanges({}), n !== void 0) {
-				await this.refreshHistoryStatus(n).catch(Zl);
+			if (!wu({ thrown: e })) throw e;
+			if (this.voidReadScopes(n), await this.refreshState().catch(Eu), this.announcing && this.postToldChanges({}), n !== void 0) {
+				await this.refreshHistoryStatus(n).catch(Eu);
 				try {
 					this.signalStateChange(n, !0);
 				} catch (e) {
@@ -14167,16 +14482,16 @@ var iu = class {
 		}
 	}
 	async lostImportError(e) {
-		let { store: t, thrown: n, writeId: r } = e, i = await Ql({
+		let { store: t, thrown: n, writeId: r } = e, i = await Du({
 			store: t,
 			writeId: r
 		});
-		if (i !== "applied") return this.announcing && this.postToldChanges({}), $l({
+		if (i !== "applied") return this.announcing && this.postToldChanges({}), Ou({
 			thrown: n,
 			writeId: r,
 			outcome: i
 		});
-		await this.refreshState().catch(Zl);
+		await this.refreshState().catch(Eu);
 		let a = Array.from(this.state.documents.values()).find(function(e) {
 			return e.record.writeId === r;
 		});
@@ -14184,7 +14499,7 @@ var iu = class {
 			type: "document-imported",
 			documentId: a.record.id,
 			timestamp: Date.now()
-		})) : this.announcing && this.postToldChanges({}), $l({
+		})) : this.announcing && this.postToldChanges({}), Ou({
 			thrown: n,
 			writeId: r,
 			outcome: i,
@@ -14192,7 +14507,7 @@ var iu = class {
 		});
 	}
 	async export(e) {
-		return Co({
+		return To({
 			store: this.store,
 			state: this.state,
 			projectName: this.name,
@@ -14201,20 +14516,20 @@ var iu = class {
 		});
 	}
 	async getDocuments() {
-		return No(await this.store.getDocuments());
+		return Lo(await this.store.getDocuments());
 	}
 	async getDocument(e) {
 		let t = await this.store.getDocument(e);
-		return t && !Mo(t) ? t : void 0;
+		return t && !Io(t) ? t : void 0;
 	}
 	openDocument(e) {
 		let t = this.store, n = this.state.documents.get(e);
-		j(n, {
+		g(n, {
 			key: "DOCUMENT_NOT_REGISTERED",
 			detail: `Document "${e}" not registered in project "${this.name}"`
 		});
 		let r = this.configs[n.record.configKey], i = this.opens;
-		return new iu(t, r, e, this.mergedExtensions, this.hooks, {
+		return new Nu(t, r, e, this.mergedExtensions, this.hooks, {
 			state: n,
 			channelName: this.channelName,
 			broadcast: (e) => {
@@ -14224,13 +14539,13 @@ var iu = class {
 				this.isCurrentOpen({ opened: i }) && await this.refreshHistoryStatus(e);
 			},
 			perf: this.perf,
-			subscribeState: (t) => this.isCurrentOpen({ opened: i }) ? this.subscribeState(e, t) : cu,
+			subscribeState: (t) => this.isCurrentOpen({ opened: i }) ? this.subscribeState(e, t) : Lu,
 			signalStateChange: (t) => {
 				this.isCurrentOpen({ opened: i }) && this.signalStateChange(e, t);
 			},
 			readEpoch: () => this.readEpochOf(e),
 			voidReadScopes: () => this.voidReadScopes(e),
-			startWrite: () => this.isCurrentOpen({ opened: i }) ? (this.refuseClosedOpen({ opened: i }), this.startCountedWrite()) : lu
+			startWrite: () => this.isCurrentOpen({ opened: i }) ? (this.refuseClosedOpen({ opened: i }), this.startCountedWrite()) : Ru
 		});
 	}
 	async getDocumentStatus(e) {
@@ -14248,7 +14563,7 @@ var iu = class {
 	async undo(e) {
 		return this.counted(async () => {
 			let t = this.state.documents.get(e);
-			j(t, {
+			g(t, {
 				key: "DOCUMENT_NOT_REGISTERED",
 				detail: `Document "${e}" not registered in project "${this.name}"`
 			});
@@ -14274,7 +14589,7 @@ var iu = class {
 	async redo(e) {
 		return this.counted(async () => {
 			let t = this.state.documents.get(e);
-			j(t, {
+			g(t, {
 				key: "DOCUMENT_NOT_REGISTERED",
 				detail: `Document "${e}" not registered in project "${this.name}"`
 			});
@@ -14320,7 +14635,7 @@ var iu = class {
 		return this.store.getBlob(e);
 	}
 	async exportBlob(e) {
-		return Eo({
+		return await Ao({
 			store: this.store,
 			request: e
 		});
@@ -14387,7 +14702,7 @@ var iu = class {
 		return this.opens === e.opened && this._channel !== void 0;
 	}
 	refuseClosedOpen(e) {
-		j(this.opens === e.opened && !this.closing, {
+		g(this.opens === e.opened && !this.closing, {
 			key: "PROJECT_NOT_OPENED",
 			detail: "The project was closed, or another one opened, while this call ran: open it again."
 		});
@@ -14397,50 +14712,50 @@ var iu = class {
 	}
 	async refreshState() {
 		let e = await this.store.getDocuments();
-		Oo(this.state.documents, No(e));
+		Mo(this.state.documents, Lo(e));
 	}
 	async reconcileFromBroadcast(e) {
 		this.closing || (await this.store.reconcile(e), await this.refreshState());
 	}
 };
-function ou(e) {
+function Fu(e) {
 	let { options: t } = e;
-	t && "path" in t && t.path !== void 0 && f("DOCUMENT_PATH_INVALID", {
+	t && "path" in t && t.path !== void 0 && m("DOCUMENT_PATH_INVALID", {
 		detail: "An import of several files takes no path: a path names one file, give it to importFile",
 		meta: { path: t.path }
 	});
 }
-async function su(e) {
+async function Iu(e) {
 	try {
 		await e.store?.close();
 	} catch {}
 }
-function cu() {}
-function lu() {}
-function uu(e) {
+function Lu() {}
+function Ru() {}
+function zu(e) {
 	let { first: t, second: n } = e;
-	return t.type === "commit" || n.type === "commit" ? t.type === "commit" && n.type === "commit" && t.changeId === n.changeId : t.type === n.type && du({
+	return t.type === "commit" || n.type === "commit" ? t.type === "commit" && n.type === "commit" && t.changeId === n.changeId : t.type === n.type && Bu({
 		message: t,
 		field: "documentId"
-	}) === du({
+	}) === Bu({
 		message: n,
 		field: "documentId"
-	}) && du({
+	}) && Bu({
 		message: t,
 		field: "blobId"
-	}) === du({
+	}) === Bu({
 		message: n,
 		field: "blobId"
 	});
 }
-function du(e) {
+function Bu(e) {
 	let { message: t, field: n } = e;
 	return n in t ? t[n] : void 0;
 }
-function fu() {}
-function pu(e) {
+function Vu() {}
+function Hu(e) {
 	let { dialecte: t, storage: n = { type: "local" }, extensions: r, dev: i } = e;
-	return new au({
+	return new Pu({
 		configs: t.configs,
 		defaultConfigKey: t.defaultConfigKey,
 		storage: n,
@@ -14454,17 +14769,17 @@ function pu(e) {
 		dialecteVersion: t.version
 	});
 }
-function mu(e) {
+function Uu(e) {
 	let { dialecte: t } = e;
 	function n(e) {
-		return pu({
+		return Hu({
 			...e,
 			dialecte: t
 		});
 	}
 	async function r(e) {
 		let { name: n, storage: r } = e;
-		await So({
+		await wo({
 			name: n,
 			dialecteId: t.id,
 			storage: r,
@@ -14481,8 +14796,8 @@ function mu(e) {
 	});
 }
 //#endregion
-//#region node_modules/.pnpm/@dialecte+nsd@0.7.0/node_modules/@dialecte/nsd/dist/config-tH6y0-wu.js
-var hu = "0.7.0", gu = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableServiceNS.ApplicableServices.AppliesTo.BasicType.BasicTypes.CDC.CDCs.Changes.ConstructedAttribute.ConstructedAttributes.Copyright.DataAttribute.DataObject.DataSetMemberOf.DependsOn.Doc.Enumeration.Enumerations.FunctionalConstraint.FunctionalConstraints.LNClass.LNClasses.License.Literal.NS.NSDoc.Notice.PresenceCondition.PresenceConditions.Service.ServiceCDC.ServiceCDCs.ServiceConstructedAttribute.ServiceConstructedAttributes.ServiceDataAttribute.ServiceNS.ServiceNsUsage.ServiceParameter.ServiceTypeRealization.ServiceTypeRealizations.SubDataAttribute.SubDataObject".split("."), _u = {
+//#region node_modules/.pnpm/@dialecte+nsd@0.8.0/node_modules/@dialecte/nsd/dist/config-C31RHX7E.js
+var Wu = "0.8.0", Gu = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNClass.ApplicableServiceNS.ApplicableServices.AppliesTo.BasicType.BasicTypes.CDC.CDCs.Changes.ConstructedAttribute.ConstructedAttributes.Copyright.DataAttribute.DataObject.DataSetMemberOf.DependsOn.Doc.Enumeration.Enumerations.FunctionalConstraint.FunctionalConstraints.LNClass.LNClasses.License.Literal.NS.NSDoc.Notice.PresenceCondition.PresenceConditions.Service.ServiceCDC.ServiceCDCs.ServiceConstructedAttribute.ServiceConstructedAttributes.ServiceDataAttribute.ServiceNS.ServiceNsUsage.ServiceParameter.ServiceTypeRealization.ServiceTypeRealizations.SubDataAttribute.SubDataObject".split("."), Ku = {
 	Abbreviation: [],
 	Abbreviations: ["Abbreviation"],
 	AbstractLNClass: ["DataObject"],
@@ -14553,7 +14868,7 @@ var hu = "0.7.0", gu = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNCla
 	ServiceTypeRealizations: ["ServiceTypeRealization"],
 	SubDataAttribute: [],
 	SubDataObject: []
-}, vu = {
+}, qu = {
 	Abbreviation: ["Abbreviations"],
 	Abbreviations: ["NS", "ServiceNS"],
 	AbstractLNClass: ["LNClasses"],
@@ -14608,7 +14923,7 @@ var hu = "0.7.0", gu = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNCla
 		"ServiceTypeRealization"
 	],
 	SubDataObject: ["CDC"]
-}, yu = {
+}, Ju = {
 	Abbreviation: [],
 	Abbreviations: ["Abbreviation"],
 	AbstractLNClass: ["DataObject"],
@@ -14709,7 +15024,7 @@ var hu = "0.7.0", gu = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNCla
 	ServiceTypeRealizations: ["ServiceTypeRealization", "SubDataAttribute"],
 	SubDataAttribute: [],
 	SubDataObject: []
-}, bu = {
+}, Yu = {
 	Abbreviation: [
 		"Abbreviations",
 		"NS",
@@ -14835,7 +15150,7 @@ var hu = "0.7.0", gu = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNCla
 		"CDCs",
 		"NS"
 	]
-}, xu = [
+}, Xu = [
 	"BasicTypes",
 	"CDCs",
 	"ConstructedAttributes",
@@ -15118,7 +15433,7 @@ var hu = "0.7.0", gu = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNCla
 		underlyingType: "",
 		underlyingTypeKind: ""
 	}
-}, Su = {
+}, Zu = {
 	byTag: $,
 	byParent: {
 		Abbreviations: { Abbreviation: $.Abbreviation },
@@ -15189,7 +15504,7 @@ var hu = "0.7.0", gu = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNCla
 		ServiceTypeRealization: { SubDataAttribute: $.SubDataAttribute },
 		ServiceTypeRealizations: { ServiceTypeRealization: $.ServiceTypeRealization }
 	}
-}, Cu = {
+}, Qu = {
 	Abbreviation: {
 		tag: "Abbreviation",
 		namespace: {
@@ -18470,7 +18785,7 @@ var hu = "0.7.0", gu = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNCla
 		},
 		type: "{http://www.iec.ch/61850/2016/NSD}tSubDataObject"
 	}
-}, wu = { "{http://www.iec.ch/61850/2016/NSD}tServiceConstructedAttribute": {
+}, $u = { "{http://www.iec.ch/61850/2016/NSD}tServiceConstructedAttribute": {
 	attributes: {
 		sequence: [
 			"deprecated",
@@ -18535,21 +18850,21 @@ var hu = "0.7.0", gu = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNCla
 			}]
 		}]
 	}
-} }, Tu = { supportedFileExtensions: [".nsd", ".nsdoc"] }, Eu = {
-	singletonElements: xu,
-	elements: gu,
+} }, ed = { supportedFileExtensions: [".nsd", ".nsdoc"] }, td = {
+	singletonElements: Xu,
+	elements: Gu,
 	namespaces: {
 		default: {
 			uri: "http://www.iec.ch/61850/2016/NSD",
 			prefix: ""
 		},
-		xsi: C
+		xsi: A
 	},
-	attributes: Su,
-	children: _u,
-	parents: vu,
-	descendants: yu,
-	ancestors: bu,
+	attributes: Zu,
+	children: Ku,
+	parents: qu,
+	descendants: Ju,
+	ancestors: Yu,
 	database: { recordSchema: {
 		primaryKey: "id",
 		indexes: [
@@ -18560,35 +18875,35 @@ var hu = "0.7.0", gu = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNCla
 		compoundIndexes: [["id", "tagName"]],
 		arrayIndexes: ["children.id", "children.tagName"]
 	} },
-	io: Tu,
-	definition: Cu,
-	types: wu
-}, Du = /* @__PURE__ */ mu({ dialecte: ha({
+	io: ed,
+	definition: Qu,
+	types: $u
+}, nd = /* @__PURE__ */ Uu({ dialecte: ga({
 	id: "nsd/v2017A",
-	version: hu,
+	version: Wu,
 	configs: {
 		nsd: {
-			...Eu,
+			...td,
 			rootElementName: "NS"
 		},
 		nsdoc: {
-			...Eu,
+			...td,
 			rootElementName: "NSDoc"
 		}
 	},
 	defaultConfigKey: "nsd",
 	extensions: {}
-}) }), Ou = "SET-LIBRARY-NSD", ku = null;
-function Au() {
-	return ku ||= Du({ storage: k() }).open(Ou), ku;
+}) }), rd = "SET-LIBRARY-NSD", id = null;
+function ad() {
+	return id ||= nd({ storage: le() }).open(rd), id;
 }
-var ju = l(0);
-function Mu() {
-	ju.value++;
+var od = d(0);
+function sd() {
+	od.value++;
 }
 //#endregion
 //#region src/nsd/utils/query-nsd-metadata.ts
-async function Nu(e) {
+async function cd(e) {
 	let { query: t } = e, n = await t.getRoot(), r = await t.getAttribute(n, { name: "id" }), i = await t.getAttribute(n, { name: "version" }), a = await t.getAttribute(n, { name: "revision" }), o = await t.getAttribute(n, { name: "release" });
 	if (!r || !i || !a) throw Error("Missing required NS attributes. Expected id, version, revision.");
 	if (n.tagName === "NSDoc") return {
@@ -18625,10 +18940,10 @@ async function Nu(e) {
 		isNsdoc: !1
 	};
 }
-function Pu(e) {
+function ld(e) {
 	return e.replace(/__+/g, "-").replace(/[\s_]/g, "").toLowerCase();
 }
-function Fu(e) {
+function ud(e) {
 	let t = [
 		e.version,
 		e.revision?.toUpperCase(),
@@ -18636,19 +18951,19 @@ function Fu(e) {
 	].filter((e) => !!e);
 	return t.length ? t.join(".") : "-";
 }
-function Iu(e, t) {
+function dd(e, t) {
 	return {
 		fileName: e,
 		isExtension: t.isExtension,
 		isNsdoc: t.isNsdoc,
-		versionRevisionRelease: Fu(t)
+		versionRevisionRelease: ud(t)
 	};
 }
-function Lu(e) {
+function fd(e) {
 	let t = e.id.replace(/\s+/g, "_");
 	if (!e.version || !e.revision) return `${t}.nsd`;
 	let n = e.revision.toUpperCase();
 	return `${t}_${e.version}${n}${e.release}.nsd`;
 }
 //#endregion
-export { Nu as a, Mu as c, Ce as d, ye as f, Pu as i, Tu as l, Fu as n, Au as o, Lu as r, ju as s, Iu as t, Ge as u };
+export { cd as a, sd as c, we as d, be as f, ld as i, ed as l, ud as n, ad as o, fd as r, od as s, dd as t, Ke as u };
