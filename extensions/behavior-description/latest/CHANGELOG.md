@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [30] - 2026-11-23
+
+### Added
+
+- Edit a BehaviorReference target from the References list, with save progress shown while it refreshes
+
 ## [29] - 2026-11-20
 
 ### Added
