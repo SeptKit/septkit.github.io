@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [Unreleased]
 
+## [59] - 2026-11-20
+
+### Added
+
+- When an IED is placed or updated from an ISD, **Confirm** lists what the commit also removes beyond the changes you decided: a container the update leaves empty (a subnetwork whose last connection goes, say) and a type no longer used, each with why it goes and what goes with it, counted with the removals.
+
 ## [58] - 2026-11-20
 
 ### Added
