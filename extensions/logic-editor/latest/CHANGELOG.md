@@ -7,6 +7,18 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [32] - 2026-11-24
+
+### Added
+
+- Typed values such as `BYTE#2`, `INT#-5`, `REAL#1.5` and times such as `T#5s` or `T#1m30s` can be used as constants; they are shown and exported exactly as entered, are type-checked against the inputs they feed (for example `T#5s` fits a timer preset `PT` but not a `BOOL` input), are used by the simulation, and a value outside its type's range (for example `BYTE#300`) or a decimal on a whole-number type (for example `INT#1.5`) is refused, as is a whole number that does not fit the variable it feeds (for example `INT#-5` or `300` into a `BYTE`)
+- Times in initial values and simulation inputs can combine several units, for example `T#1m30s`
+
+### Changed
+
+- A decimal value (`REAL`) can no longer be connected to a whole-number input such as `INT`, `BYTE` or a counter preset `PV`; a whole number can still feed a decimal input
+- A time can no longer be connected to or from a whole-number or decimal value, so a plain number such as `5000` or an `INT` variable no longer fits a timer preset `PT`; blocks that take any number, such as `ADD` or `MAX`, still accept times
+
 ## [31] - 2026-11-24
 
 ### Added
