@@ -7,6 +7,13 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [127] - 2026-11-24
+
+### Changed
+
+- **Implement by S-IED** builds the S-IED by the standard's rules (a logical device per function, LLN0 and LPHD in each, specified types and values).
+- No more LD0; logical nodes already implemented by another IED are left out and listed, never taken over. A logical node without a type takes the S-IED's own type of its class, else the first in the project, and a message after the build lists them. When the S-IED cannot be built, the form says why and nothing is written.
+
 ## [126] - 2026-11-24
 
 ### Changed
