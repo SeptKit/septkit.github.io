@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [70] - 2026-11-23
+
+### Added
+
+- Link one ExtRef to multiple SourceRefs with the same source and see the combined pending and applied link count in the Input table and ExtRef browser.
+
 ## [66] - 2026-11-19
 
 ### Changed
