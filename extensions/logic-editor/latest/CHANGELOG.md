@@ -5,7 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to a simple versioning system, increasing the number by one for each modification.
 
-## [UNRELEASED]
+## [33] - 2026-11-24
+
+### Added
+
+- Each Behavior Description on the start page shows where it sits in the SCL (for example `S1/B1/PTRC1`), so entries with the same name can be told apart
+- A search field on the start page shows only the Behavior Descriptions whose name, description or path contains the text, regardless of letter case; clear it with the clear button or Esc
+
+### Fixed
+
+- The start page list can be scrolled and the "Logic Editor" heading stays visible, so every Behavior Description can be reached and opened, even in documents with many of them
 
 ## [32] - 2026-11-24
 
