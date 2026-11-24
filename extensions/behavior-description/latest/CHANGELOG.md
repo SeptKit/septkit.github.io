@@ -7,6 +7,13 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [33] - 2026-11-24
+
+### Fixed
+
+- Show newly created Input/Output Variables in the overview
+- Show only LNodes belonging to the BehaviorDescription when selecting data for a variable
+
 ## [31] - 2026-11-23
 
 ### Added
