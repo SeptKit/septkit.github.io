@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [Unreleased]
 
+## [65] - 2026-11-23
+
+### Added
+
+- **Export for IED supplier** lists the logical nodes still to implement on that IED.
+
 ## [63] - 2026-11-23
 
 ### Fixed
