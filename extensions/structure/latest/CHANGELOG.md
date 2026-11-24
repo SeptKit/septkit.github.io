@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [126] - 2026-11-24
+
+### Changed
+
+- The sidebar panel of a Power System Relation now highlight the selected equipment and allows the user to deselect it.
+
 ## [124] - 2026-11-23
 
 ### Added
