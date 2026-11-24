@@ -7,6 +7,16 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [31] - 2026-11-24
+
+### Added
+
+- Fixed values (whole numbers, decimal numbers, `TRUE`/`FALSE`) can be inserted as constants and connected to block inputs without declaring a variable; constants from imported logics (for example the `2` in the CB_App logics) are shown as constants, are not listed as variables, are exported without a variable declaration, are used by the simulation, and are refused on inputs of a different type
+
+### Fixed
+
+- A logic saved with an earlier version, in which a value such as `2` became a `BOOL` variable that could not be renamed, now opens with that value as a constant; the variable declaration is removed on the next save
+
 ## [22] - 2026-11-03
 
 ### Changed
