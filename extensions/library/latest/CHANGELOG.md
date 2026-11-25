@@ -7,6 +7,23 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [42] - 2026-11-24
+
+### Added
+
+- See NSD/NSDoc matching status in the sidebar, including linked, missing, and unmatched indicators
+
+### Changed
+
+- Keep the NSD import dialog at a fixed size with labelled, independently scrollable file sections and shadows indicating more content below
+
+### Fixed
+
+- Keep the NSD import dropzone available when adding files sequentially
+- Keep imported NSD/NSDoc files when a staged replacement is removed or canceled
+- Keep staged NSD/NSDoc replacements out of the loaded-files sidebar until import is confirmed
+- Preserve NSD imports and report errors when cleanup or replacement fails
+
 ## [38] - 2026-11-19
 
 ### Fixed

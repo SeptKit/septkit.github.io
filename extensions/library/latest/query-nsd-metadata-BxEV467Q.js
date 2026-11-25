@@ -1,4 +1,4 @@
-import { A as e, C as t, D as n, E as r, Et as i, F as a, H as o, I as s, J as c, K as l, L as u, M as d, O as f, P as p, Q as m, Rt as h, S as g, T as _, U as v, V as y, W as b, X as x, Y as ee, Z as S, _ as C, a as w, at as te, b as ne, c as re, d as ie, f as ae, g as oe, gt as T, h as E, j as se, k as D, l as ce, m as O, n as le, o as ue, p as de, q as fe, s as k, u as pe, v as A, w as j, x as me, y as M, yt as he, z as ge } from "./main-C-DCaHeS.js";
+import { A as e, C as t, D as n, Dt as r, E as i, F as a, H as o, I as s, J as c, K as l, L as u, M as d, O as f, P as p, Q as m, S as h, T as g, U as _, V as v, Vt as y, W as b, X as x, Y as ee, Z as S, _ as C, a as w, at as te, b as ne, c as re, d as ie, f as ae, g as oe, gt as T, h as E, j as se, k as D, l as ce, m as O, n as le, o as ue, p as de, q as fe, s as k, u as pe, v as A, w as j, x as me, y as M, yt as he, z as ge } from "./main-g2N8Clir.js";
 //#region src/nsd/icons/close-icon.vue
 var _e = {}, ve = {
 	viewBox: "0 0 64 64",
@@ -6,7 +6,7 @@ var _e = {}, ve = {
 	focusable: "false"
 };
 function ye(e, t) {
-	return i(), he("svg", ve, [...t[0] ||= [T("path", {
+	return r(), he("svg", ve, [...t[0] ||= [T("path", {
 		fill: "currentColor",
 		d: "M 16 14 C 15.488 14 14.976938 14.194937 14.585938 14.585938 C 13.804937 15.366937 13.804937 16.633063 14.585938 17.414062 L 29.171875 32 L 14.585938 46.585938 C 13.804938 47.366938 13.804937 48.633063 14.585938 49.414062 C 14.976937 49.805062 15.488 50 16 50 C 16.512 50 17.023062 49.805062 17.414062 49.414062 L 32 34.828125 L 46.585938 49.414062 C 47.366938 50.195063 48.633063 50.195062 49.414062 49.414062 C 50.195063 48.633062 50.195062 47.366937 49.414062 46.585938 L 34.828125 32 L 49.414062 17.414062 C 50.195063 16.633063 50.195062 15.366938 49.414062 14.585938 C 48.633062 13.804938 47.366937 13.804938 46.585938 14.585938 L 32 29.171875 L 17.414062 14.585938 C 17.023062 14.194938 16.512 14 16 14 z"
 	}, null, -1)]]);
@@ -17,7 +17,7 @@ var be = /* @__PURE__ */ te(_e, [["render", ye]]), xe = {}, Se = {
 	focusable: "false"
 };
 function Ce(e, t) {
-	return i(), he("svg", Se, [...t[0] ||= [T("path", {
+	return r(), he("svg", Se, [...t[0] ||= [T("path", {
 		fill: "currentColor",
 		d: "M280-120q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM360-280h80v-360h-80v360Zm160 0h80v-360h-80v360ZM280-720v520-520Z"
 	}, null, -1)]]);
@@ -253,7 +253,7 @@ function Be(e) {
 	};
 }
 function I(e) {
-	return _(e, { detail: "The record or ref is undefined" }), {
+	return g(e, { detail: "The record or ref is undefined" }), {
 		id: e.id,
 		tagName: e.tagName
 	};
@@ -417,7 +417,7 @@ function Ge(e) {
 function Ke(e, t, n, r) {
 	if (!e || !t) return;
 	let i = Object.keys(t).filter((t) => t in e);
-	_(i.length === 0, {
+	g(i.length === 0, {
 		key: "EXTENSION_METHOD_COLLISION",
 		detail: `Module "${n}" has conflicting ${r} method(s): ${i.map((e) => `"${e}"`).join(", ")}`
 	});
@@ -1146,7 +1146,7 @@ function an({ enabled: e, timeline: t = !0 }) {
 }
 function on(e) {
 	let { configs: t, defaultConfigKey: n, configKey: r = n } = e, i = t[r];
-	return _(i, {
+	return g(i, {
 		key: "UNKNOWN_CONFIG_KEY",
 		detail: `Unknown configKey: "${r}". Available: ${Object.keys(t).join(", ")}`
 	}), {
@@ -1885,7 +1885,7 @@ function sr(e) {
 		};
 	}
 	let o = [];
-	for (let e of v(r)) {
+	for (let e of _(r)) {
 		let r = sr({
 			settings: t,
 			table: i,
@@ -1980,7 +1980,7 @@ function pr(e) {
 	return e.name === "xmlns" || e.name.startsWith("xmlns:") ? !0 : e.namespace?.prefix === "xmlns";
 }
 function mr(e) {
-	return v(e).some((e) => e.startsWith("{}"));
+	return _(e).some((e) => e.startsWith("{}"));
 }
 function hr(e) {
 	let t = c.exec(e.text);
@@ -2437,7 +2437,7 @@ var Ur = [
 ];
 async function Wr(e) {
 	let { reads: t, read: n, versionOf: r } = e;
-	_(Ur.includes(n.member), {
+	g(Ur.includes(n.member), {
 		detail: `"${n.member}" is not a read a version is answered with`,
 		meta: { member: n.member }
 	});
@@ -3725,7 +3725,7 @@ function Fi(e) {
 function Ii(e) {
 	let { state: t } = e;
 	Li({
-		text: y({ text: e.text }),
+		text: v({ text: e.text }),
 		state: t
 	});
 }
@@ -3794,7 +3794,7 @@ function Hi(e) {
 }
 function Ui(e) {
 	let { element: t, defaultNamespace: n, rootElementName: r } = e;
-	return _(t.name === r, { detail: `Expected root element <${r}>, got <${t.name}>` }), t.attributes?.xmlns?.value ? {
+	return g(t.name === r, { detail: `Expected root element <${r}>, got <${t.name}>` }), t.attributes?.xmlns?.value ? {
 		prefix: "",
 		uri: t.attributes.xmlns.value
 	} : n;
@@ -3877,7 +3877,7 @@ async function Zi(e, t = {}) {
 }
 async function Qi(e, t) {
 	let { documentId: n, configKey: r, store: i, config: a, useCustomRecordsIds: o = !1, chunkOptions: s, hooks: c, perf: l = nn, reporter: u } = e, { file: d } = e;
-	if (_(oi({ extensions: a.io.supportedFileExtensions }).some((e) => d.name.toLowerCase().endsWith(e)), {
+	if (g(oi({ extensions: a.io.supportedFileExtensions }).some((e) => d.name.toLowerCase().endsWith(e)), {
 		key: "ASSERTION_FAILED",
 		detail: `Unsupported file type: ${d.name}`
 	}), d.size === 0) return {
@@ -3893,7 +3893,7 @@ async function Qi(e, t) {
 	let p = s?.chunkSize ?? 32768, m = s?.batchSize ?? 2e3, h = c?.createImportSession?.({
 		documentId: n,
 		configKey: r
-	}), g = Pi({
+	}), _ = Pi({
 		dialecteConfig: a,
 		useCustomRecordsIds: o,
 		hooks: c,
@@ -3901,7 +3901,7 @@ async function Qi(e, t) {
 		perf: l
 	}), v = await $i({
 		file: d,
-		sax: g,
+		sax: _,
 		store: i,
 		documentId: n,
 		chunkSize: p,
@@ -4141,13 +4141,13 @@ async function ca(e) {
 	}), u;
 }
 async function la(e, t = {}) {
-	let { runtime: n, file: i, options: a, writeId: o } = e, s = e.perf ?? an({
+	let { runtime: n, file: r, options: a, writeId: o } = e, s = e.perf ?? an({
 		enabled: n.perf ?? !1,
 		timeline: !1
 	});
 	oa({
 		signal: t.signal,
-		file: i
+		file: r
 	});
 	let { configKey: c, config: u } = on({
 		configs: n.configs,
@@ -4156,7 +4156,7 @@ async function la(e, t = {}) {
 	}), d = {
 		id: crypto.randomUUID(),
 		...ua({
-			file: i,
+			file: r,
 			path: a?.path,
 			config: u
 		}),
@@ -4167,7 +4167,7 @@ async function la(e, t = {}) {
 		writeId: o,
 		...a?.path !== void 0 && { path: a.path }
 	}, f = yi({
-		totalBytes: i.size,
+		totalBytes: r.size,
 		listener: t.onProgress,
 		perf: s
 	});
@@ -4183,7 +4183,7 @@ async function la(e, t = {}) {
 			reporter: f
 		});
 	} catch (e) {
-		throw l(e) ? e : r("IMPORT_FAILED", {
+		throw l(e) ? e : i("IMPORT_FAILED", {
 			detail: e instanceof Error ? e.message : String(e),
 			cause: e instanceof Error ? e : void 0
 		});
@@ -4287,19 +4287,19 @@ function ya() {
 	return {};
 }
 function ba(e) {
-	let { id: t, version: n, configs: i, defaultConfigKey: a, extensions: o, createHooks: s } = e;
-	if (!Object.hasOwn(i, a)) throw r("UNKNOWN_CONFIG_KEY", {
-		detail: `Dialecte "${t}" names "${a}" as its default config, which is none of its configs: ${Object.keys(i).join(", ") || "(none)"}.`,
+	let { id: t, version: n, configs: r, defaultConfigKey: a, extensions: o, createHooks: s } = e;
+	if (!Object.hasOwn(r, a)) throw i("UNKNOWN_CONFIG_KEY", {
+		detail: `Dialecte "${t}" names "${a}" as its default config, which is none of its configs: ${Object.keys(r).join(", ") || "(none)"}.`,
 		meta: {
 			id: t,
 			defaultConfigKey: a,
-			configKeys: Object.keys(i)
+			configKeys: Object.keys(r)
 		}
 	});
 	return Object.freeze({
 		id: t,
 		version: n,
-		configs: i,
+		configs: r,
 		defaultConfigKey: a,
 		extensions: o ?? va,
 		createHooks: s ?? ya
@@ -9782,7 +9782,7 @@ function Oo(e) {
 }
 async function ko(e) {
 	let { store: t, state: n, projectName: r, perf: i, request: a } = e, { documentId: o, indent: s = !0, withDatabaseIds: c, xmlDocument: l, download: u } = a, d = n.documents.get(o);
-	_(d, {
+	g(d, {
 		key: "DOCUMENT_NOT_REGISTERED",
 		detail: `Document "${o}" not registered in project "${r}"`
 	});
@@ -9803,10 +9803,10 @@ async function ko(e) {
 		indent: s,
 		withDatabaseIds: c,
 		perf: i
-	}), g = h && { saved: h };
+	}), _ = h && { saved: h };
 	if (!l) return {
 		...m,
-		...g
+		..._
 	};
 	let v = await Di({ file: s ? (await Mo({
 		store: t,
@@ -9817,7 +9817,7 @@ async function ko(e) {
 	})).file : m.file });
 	return {
 		...m,
-		...g,
+		..._,
 		xmlDocument: v
 	};
 }
@@ -9866,7 +9866,7 @@ function No(e) {
 }
 async function Po(e) {
 	let { store: t, request: n } = e, { blobId: r, download: i } = n, o = typeof i == "object" ? "target" in i ? i.target : await a({ filename: i.filename }) : void 0, s = await t.getBlob(r);
-	_(s, {
+	g(s, {
 		key: "BLOB_NOT_FOUND",
 		detail: `Blob "${r}" not found in store`
 	});
@@ -10718,7 +10718,7 @@ function Qs(e) {
 }
 async function $s(e) {
 	let { context: t, ref: n } = e;
-	if (_(n, { detail: "The record or ref is undefined" }), !("attributes" in n) || !Array.isArray(n.attributes)) return Q({
+	if (g(n, { detail: "The record or ref is undefined" }), !("attributes" in n) || !Array.isArray(n.attributes)) return Q({
 		context: t,
 		ref: n
 	});
@@ -12210,7 +12210,7 @@ async function jl(e) {
 		depth: s,
 		shaping: f
 	});
-	_(p, {
+	g(p, {
 		detail: "No record found for provided ref",
 		key: "ELEMENT_NOT_FOUND"
 	});
@@ -12289,11 +12289,11 @@ async function Nl(e) {
 		context: t,
 		ref: l
 	});
-	_(h, {
+	g(h, {
 		key: "ELEMENT_NOT_FOUND",
 		detail: "No record found for the provided ref"
 	});
-	let g = h.id;
+	let _ = h.id;
 	await m(h, 0);
 	let v = Math.max(r, +!!s);
 	if (v > 0) {
@@ -12305,7 +12305,7 @@ async function Nl(e) {
 				order: "bottom-up"
 			}
 		});
-		for (let t of e) u.set(t.id, t), g = t.id;
+		for (let t of e) u.set(t.id, t), _ = t.id;
 		if (s) {
 			let n = [h, ...e];
 			for (let e = 0; e < n.length - 1; e++) {
@@ -12324,7 +12324,7 @@ async function Nl(e) {
 	return Fl({
 		live: u,
 		deletedById: d,
-		rootId: g
+		rootId: _
 	});
 }
 async function Pl(e) {
@@ -12343,7 +12343,7 @@ async function Pl(e) {
 		a = e.id;
 		break;
 	}
-	return _(a, {
+	return g(a, {
 		key: "ROOT_NOT_FOUND",
 		detail: `No ${t.dialecteConfig.rootElementName} root element found in document`
 	}), Fl({
@@ -12375,7 +12375,7 @@ function Il(e) {
 		n.push(e), o.set(t, n);
 	}
 	let s = i.get(r);
-	_(s, {
+	g(s, {
 		key: "ROOT_NOT_FOUND",
 		detail: `No record found for rootId "${r}"`
 	});
@@ -12395,7 +12395,7 @@ function Ll(e) {
 		records: t,
 		config: n
 	});
-	_(l, {
+	g(l, {
 		detail: r ? `No record found for rootId "${r}"` : `No ${n.rootElementName} root element found in records`,
 		key: "EXPORT_ROOT_NOT_FOUND"
 	});
@@ -12434,7 +12434,7 @@ function zl(e) {
 	});
 	for (let e of a) {
 		let a = r.get(e.id);
-		_(a, {
+		g(a, {
 			detail: `Parent '${n.tagName}' references non-existent child '${e.tagName}' (id: ${e.id})`,
 			key: "EXPORT_ORPHAN_CHILD_REF",
 			ref: {
@@ -12668,7 +12668,7 @@ function Gl(e) {
 	});
 	if (n.kind !== "datatype") return;
 	let i = k({ dialecteConfig: t });
-	return g({
+	return h({
 		value: r,
 		type: n.type,
 		namespaces: i,
@@ -12808,7 +12808,7 @@ var eu = class {
 			context: a,
 			ref: s
 		});
-		return _(c, {
+		return g(c, {
 			key: "ELEMENT_NOT_FOUND",
 			detail: `validate.value: parent '${s.tagName}' not found`,
 			ref: s
@@ -12855,7 +12855,7 @@ var eu = class {
 	}
 	async getDocumentInfo() {
 		let e = await this.store.getDocument(this.documentId);
-		return _(e, {
+		return g(e, {
 			key: "DOCUMENT_NOT_REGISTERED",
 			detail: `Expected document id: ${this.documentId}`
 		}), e;
@@ -12865,7 +12865,7 @@ var eu = class {
 			context: this.context,
 			ref: { tagName: this.dialecteConfig.rootElementName }
 		});
-		return _(e, {
+		return g(e, {
 			key: "ROOT_NOT_FOUND",
 			detail: `Expected tag name: ${this.dialecteConfig.rootElementName}`
 		}), e;
@@ -13005,7 +13005,7 @@ Xo({
 function nu(e) {
 	let { context: t, status: n, record: r, oldRecord: i, newRecord: a } = e, o, s, c;
 	if (r && (o = N(r)), i && (s = N(i)), a && (c = N(a)), n === "created") {
-		_(o, {
+		g(o, {
 			detail: "Record is required for created",
 			key: "ELEMENT_NOT_FOUND"
 		}), gr({ record: o });
@@ -13019,7 +13019,7 @@ function nu(e) {
 			operation: e
 		});
 	} else if (n === "updated") {
-		_(s && c, {
+		g(s && c, {
 			detail: "Old record and new record are required for updated",
 			key: "ELEMENT_NOT_FOUND"
 		}), gr({ record: c });
@@ -13033,7 +13033,7 @@ function nu(e) {
 			operation: e
 		});
 	} else if (n === "deleted" && o) {
-		_(o, {
+		g(o, {
 			detail: "Record is required for deleted",
 			key: "ELEMENT_NOT_FOUND"
 		});
@@ -13084,7 +13084,7 @@ async function iu(e) {
 		context: r,
 		ref: a
 	});
-	_(p, {
+	g(p, {
 		detail: "Parent record not found",
 		key: "ELEMENT_NOT_FOUND",
 		ref: a
@@ -13226,11 +13226,11 @@ async function uu(e) {
 		context: n,
 		ref: i
 	});
-	_(a, {
+	g(a, {
 		detail: `Record not found (tagName=${i.tagName}, id=${i.id})`,
 		key: "ELEMENT_NOT_FOUND",
 		ref: i
-	}), _(a.parent, {
+	}), g(a.parent, {
 		detail: "Cannot delete root element",
 		key: "PROTECTED_ROOT"
 	}), t?.beforeDelete && ru({
@@ -13251,7 +13251,7 @@ async function uu(e) {
 		context: n,
 		ref: I(a.parent)
 	});
-	_(o, {
+	g(o, {
 		detail: `Parent record not found (tagName=${a.parent.tagName}, id=${a.parent.id})`,
 		key: "ELEMENT_NOT_FOUND"
 	});
@@ -13319,14 +13319,14 @@ async function mu(e) {
 		context: t,
 		refs: [n, r]
 	});
-	_(a, {
+	g(a, {
 		detail: `Record to move not found (tagName=${n.tagName}, id=${n.id})`,
 		key: "ELEMENT_NOT_FOUND",
 		ref: n
-	}), _(a.parent, {
+	}), g(a.parent, {
 		detail: "Cannot move the root element",
 		key: "PROTECTED_ROOT"
-	}), _(o, {
+	}), g(o, {
 		detail: `New parent not found (tagName=${r.tagName}, id=${r.id})`,
 		key: "ELEMENT_NOT_FOUND",
 		ref: r
@@ -13365,7 +13365,7 @@ async function mu(e) {
 		context: t,
 		ref: I(a.parent)
 	});
-	_(u, {
+	g(u, {
 		detail: `Parent of the moved record not found (tagName=${a.parent.tagName}, id=${a.parent.id})`,
 		key: "ELEMENT_NOT_FOUND"
 	});
@@ -13402,7 +13402,7 @@ function hu(e) {
 		dialecteConfig: t.dialecteConfig,
 		record: r
 	});
-	_(a !== void 0 && (a.children.any === !0 || a.children.sequence.includes(n.tagName)), {
+	g(a !== void 0 && (a.children.any === !0 || a.children.sequence.includes(n.tagName)), {
 		detail: `${r.tagName} may not hold ${n.tagName}`,
 		key: "INVALID_PARENT_CHILD",
 		ref: i
@@ -13410,7 +13410,7 @@ function hu(e) {
 	let o = s({ definition: a })[n.tagName]?.max;
 	if (o === void 0) return;
 	let c = r.children.filter((e) => e.tagName === n.tagName && e.id !== n.id).length;
-	_(c < o, {
+	g(c < o, {
 		detail: `${r.tagName} already holds ${c} ${n.tagName}, the most it may`,
 		key: "MAX_OCCURRENCES_REACHED",
 		ref: i
@@ -13418,7 +13418,7 @@ function hu(e) {
 }
 async function gu(e) {
 	let { context: t, record: n, newParent: r } = e;
-	r.id !== n.parent?.id && _(!(r.id === n.id || (await gc({
+	r.id !== n.parent?.id && g(!(r.id === n.id || (await gc({
 		context: t,
 		ref: I(r)
 	})).some((e) => e.id === n.id)), {
@@ -13432,7 +13432,7 @@ async function gu(e) {
 }
 function _u(e) {
 	let { record: t, newParent: n, beforeRef: r } = e;
-	r !== void 0 && _(r.tagName === t.tagName && n.children.some((e) => e.id === r.id && e.tagName === t.tagName), {
+	r !== void 0 && g(r.tagName === t.tagName && n.children.some((e) => e.id === r.id && e.tagName === t.tagName), {
 		detail: `${r.tagName} ${r.id} is no ${t.tagName} child of ${n.tagName} ${n.id}`,
 		key: "MOVE_BEFORE_NOT_SIBLING",
 		ref: {
@@ -13482,7 +13482,7 @@ async function Su(e) {
 		context: r,
 		ref: a
 	});
-	_(l, {
+	g(l, {
 		detail: `Record not found (tagName=${a.tagName}, id=${a.id})`,
 		key: "ELEMENT_NOT_FOUND",
 		ref: a
@@ -13675,14 +13675,14 @@ async function ju(e) {
 	}
 }
 function Mu(e) {
-	let { thrown: t, writeId: n, outcome: i, meta: a } = e, o = l(t);
-	return r("STORE_CONNECTION_LOST", {
-		detail: `${o?.detail ?? "The connection was lost"} - the write's outcome: ${i}`,
+	let { thrown: t, writeId: n, outcome: r, meta: a } = e, o = l(t);
+	return i("STORE_CONNECTION_LOST", {
+		detail: `${o?.detail ?? "The connection was lost"} - the write's outcome: ${r}`,
 		meta: {
 			...o?.meta,
 			...a,
 			writeId: n,
-			outcome: i
+			outcome: r
 		},
 		cause: t instanceof Error ? t : void 0
 	});
@@ -14003,7 +14003,7 @@ var Lu = class {
 	reportFailure(e) {
 		let t = l(e);
 		if (e instanceof Error && t) return this.state.error = t, e;
-		let n = r("UNKNOWN", {
+		let n = i("UNKNOWN", {
 			detail: e instanceof Error ? e.message : String(e),
 			cause: e instanceof Error ? e : void 0
 		});
@@ -14020,13 +14020,13 @@ var Lu = class {
 	}
 }, Ru = class {
 	get name() {
-		return _(this._name !== void 0, {
+		return g(this._name !== void 0, {
 			key: "PROJECT_NOT_OPENED",
 			detail: "Call project.open(name) before accessing project properties."
 		}), this._name;
 	}
 	get store() {
-		return _(this._store !== void 0 && !this.closing && this.openSettled, {
+		return g(this._store !== void 0 && !this.closing && this.openSettled, {
 			key: "PROJECT_NOT_OPENED",
 			detail: this.closing ? "The project is closed: open it again before using it." : "Call project.open(name), and await it, before accessing project properties."
 		}), this._store;
@@ -14072,13 +14072,13 @@ var Lu = class {
 		return this.importChain.then(e, e);
 	}
 	get channel() {
-		return _(this._channel !== void 0, {
+		return g(this._channel !== void 0, {
 			key: "PROJECT_NOT_OPENED",
 			detail: "Call project.open(name) before accessing project properties."
 		}), this._channel;
 	}
 	get channelName() {
-		return _(this._channelName !== void 0, {
+		return g(this._channelName !== void 0, {
 			key: "PROJECT_NOT_OPENED",
 			detail: "Call project.open(name) before accessing project properties."
 		}), this._channelName;
@@ -14382,7 +14382,7 @@ var Lu = class {
 	}
 	async import(e, t) {
 		this.importStore(t), zu({ options: t });
-		let n = this.opens, { onProgress: i, onFile: a, ...o } = t ?? {}, s = {}, c = [];
+		let n = this.opens, { onProgress: r, onFile: a, ...o } = t ?? {}, s = {}, c = [];
 		for (let [t, u] of e.entries()) {
 			let d = {
 				fileIndex: t,
@@ -14393,8 +14393,8 @@ var Lu = class {
 				this.refuseClosedOpen({ opened: n });
 				let e = await this.importFile(u, {
 					...o,
-					...i && { onProgress: function(e) {
-						i({
+					...r && { onProgress: function(e) {
+						r({
 							...e,
 							...d
 						});
@@ -14405,7 +14405,7 @@ var Lu = class {
 					...e
 				});
 			} catch (e) {
-				let t = l(e) ?? l(r("IMPORT_FAILED", {
+				let t = l(e) ?? l(i("IMPORT_FAILED", {
 					detail: e instanceof Error ? e.message : String(e),
 					cause: e instanceof Error ? e : void 0
 				}));
@@ -14543,7 +14543,7 @@ var Lu = class {
 	}
 	openDocument(e) {
 		let t = this.store, n = this.state.documents.get(e);
-		_(n, {
+		g(n, {
 			key: "DOCUMENT_NOT_REGISTERED",
 			detail: `Document "${e}" not registered in project "${this.name}"`
 		});
@@ -14582,7 +14582,7 @@ var Lu = class {
 	async undo(e) {
 		return this.counted(async () => {
 			let t = this.state.documents.get(e);
-			_(t, {
+			g(t, {
 				key: "DOCUMENT_NOT_REGISTERED",
 				detail: `Document "${e}" not registered in project "${this.name}"`
 			});
@@ -14608,7 +14608,7 @@ var Lu = class {
 	async redo(e) {
 		return this.counted(async () => {
 			let t = this.state.documents.get(e);
-			_(t, {
+			g(t, {
 				key: "DOCUMENT_NOT_REGISTERED",
 				detail: `Document "${e}" not registered in project "${this.name}"`
 			});
@@ -14721,7 +14721,7 @@ var Lu = class {
 		return this.opens === e.opened && this._channel !== void 0;
 	}
 	refuseClosedOpen(e) {
-		_(this.opens === e.opened && !this.closing, {
+		g(this.opens === e.opened && !this.closing, {
 			key: "PROJECT_NOT_OPENED",
 			detail: "The project was closed, or another one opened, while this call ran: open it again."
 		});
@@ -18932,7 +18932,7 @@ var Yu = "0.8.0", Xu = /* @__PURE__ */ "Abbreviation.Abbreviations.AbstractLNCla
 function ud() {
 	return ld ||= sd({ storage: le() }).open(cd), ld;
 }
-var dd = h(0);
+var dd = y(0);
 function fd() {
 	dd.value++;
 }
