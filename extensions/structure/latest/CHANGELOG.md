@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [128] - 2026-11-24
+
+### Added
+
+- **Export ISD for real IED**: on an allocation role, exports an ISD built from the role's current specification for the real IED implementing it.
+
 ## [127] - 2026-11-24
 
 ### Changed
