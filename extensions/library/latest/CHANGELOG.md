@@ -7,6 +7,20 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [43] - 2026-11-25
+
+### Added
+
+- The DataTypeTemplates tree marks nodes containing `<Val>` values, shows each DA/BDA's values with their effective `valKind` in the detail popup, and preserves `valKind` and setting-group attributes when saving.
+
+### Changed
+
+- DataTypeTemplate value details show the effective `valKind` and identify `sGroup` as a setting group only for `SG` attributes.
+
+### Fixed
+
+- Editing DataTypeTemplates no longer drops `valKind` when saving.
+
 ## [42] - 2026-11-24
 
 ### Added

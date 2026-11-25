@@ -1,4 +1,4 @@
-(function(){try{if(typeof document<`u`){var e=document.createElement(`style`);e.appendChild(document.createTextNode(`.lnode-type-list-layout[data-v-61ca118a]{border:1px solid var(--color-base-300,#e5e7eb);border-radius:.5rem;flex-direction:column;height:100%;display:flex;overflow:hidden}.lnode-type-list-layout__header[data-v-61ca118a]{border-bottom:1px solid var(--color-base-300,#e5e7eb);padding:.75rem}.lnode-type-list-layout__list[data-v-61ca118a]{flex:1;min-height:0;overflow-y:auto}.lnode-type-list-header[data-v-73c437e5]{align-items:center;gap:.5rem;display:flex}.lnode-type-list-header__search[data-v-73c437e5]{flex:1;min-width:0}.lnode-type-list-header__sort[data-v-73c437e5]{white-space:nowrap}ul[data-v-9a863e39]{margin:0;padding:0;list-style:none}li[data-v-9a863e39]{cursor:pointer;border-bottom:1px solid var(--color-base-300,#e5e7eb);justify-content:space-between;align-items:center;padding:.5rem .75rem;display:flex}li[data-v-9a863e39]:nth-child(2n){background:var(--color-base-200,#f5f5f5)}li.selected[data-v-9a863e39]{background:var(--color-primary,#2563eb);color:var(--color-primary-content,#fff)}span[data-v-9a863e39]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}button[data-v-9a863e39]{visibility:hidden}button[data-v-9a863e39]:not(:disabled){color:var(--color-error)}li:hover button[data-v-9a863e39]{visibility:visible}li.empty[data-v-9a863e39]{text-align:center;opacity:.6;cursor:default;background:0 0;border:none;padding:1rem;display:block}.ln-class-dialog[data-v-b9c4a18b]{flex-direction:column;gap:.75rem;max-height:80vh;display:flex}.ln-class-dialog__close[data-v-b9c4a18b]{position:absolute;top:.5rem;right:.5rem}.ln-class-dialog__title[data-v-b9c4a18b]{font-weight:600}.ln-class-dialog__search[data-v-b9c4a18b],.ln-class-dialog__name-input[data-v-b9c4a18b]{width:100%}.ln-class-dialog__list[data-v-b9c4a18b]{border:1px solid var(--color-base-300,#e5e7eb);border-radius:.25rem;flex:1;min-height:8rem;max-height:40vh;margin:0;padding:0;list-style:none;overflow-y:auto}.ln-class-dialog__row[data-v-b9c4a18b]{cursor:pointer;border-bottom:1px solid var(--color-base-300,#e5e7eb);flex-direction:column;padding:.4rem .6rem;display:flex}.ln-class-dialog__row--selected[data-v-b9c4a18b]{background:var(--color-primary,#2563eb);color:var(--color-primary-content,#fff)}.ln-class-dialog__namespace[data-v-b9c4a18b]{opacity:.7;font-size:.75rem}.ln-class-dialog__extended-by[data-v-b9c4a18b]{opacity:.7;font-size:.7rem;font-style:italic}.ln-class-dialog__empty[data-v-b9c4a18b]{text-align:center;opacity:.6;padding:1rem}.ln-class-dialog__actions[data-v-b9c4a18b]{justify-content:flex-end;display:flex}.lnode-type-list__error[data-v-d3cfc3c5]{color:var(--color-error,#dc2626);margin-top:.5rem;font-size:.75rem}.add-do-dialog[data-v-f9c51e84]{flex-direction:column;gap:.75rem;max-height:80vh;display:flex}.add-do-dialog__close[data-v-f9c51e84]{position:absolute;top:.5rem;right:.5rem}.add-do-dialog__title[data-v-f9c51e84]{font-weight:600}.add-do-dialog__search[data-v-f9c51e84],.add-do-dialog__name[data-v-f9c51e84]{width:100%}.add-do-dialog__list[data-v-f9c51e84]{border:1px solid var(--color-base-300,#e5e7eb);border-radius:.25rem;min-height:8rem;max-height:40vh;margin:0;padding:0;list-style:none;overflow-y:auto}.add-do-dialog__row[data-v-f9c51e84]{cursor:pointer;border-bottom:1px solid var(--color-base-300,#e5e7eb);grid-template-columns:minmax(3rem,max-content) 1fr max-content;gap:.75rem;padding:.4rem .6rem;display:grid}.add-do-dialog__row--selected[data-v-f9c51e84]{background:var(--color-primary,#2563eb);color:var(--color-primary-content,#fff)}.add-do-dialog__description[data-v-f9c51e84]{text-overflow:ellipsis;white-space:nowrap;opacity:.75;font-size:.75rem;overflow:hidden}.add-do-dialog__namespace[data-v-f9c51e84]{opacity:.7;font-size:.75rem}.add-do-dialog__empty[data-v-f9c51e84]{text-align:center;opacity:.6;padding:1rem}.add-do-dialog__error[data-v-f9c51e84]{color:var(--color-error,#dc2626);font-size:.75rem}.add-do-dialog__actions[data-v-f9c51e84]{justify-content:flex-end;display:flex}.enum-editor[data-v-fb6c3661]{flex-direction:column;gap:.75rem;display:flex}.enum-editor__close[data-v-fb6c3661]{position:absolute;top:.5rem;right:.5rem}.enum-editor__title[data-v-fb6c3661]{font-weight:600}.enum-editor__list[data-v-fb6c3661]{flex-direction:column;gap:.3rem;max-height:50vh;margin:0;padding:0;list-style:none;display:flex;overflow-y:auto}.enum-editor__row[data-v-fb6c3661]{align-items:center;gap:.4rem;display:flex}.enum-editor__ord[data-v-fb6c3661]{width:4rem}.enum-editor__value[data-v-fb6c3661]{flex:1}.enum-editor__actions[data-v-fb6c3661]{justify-content:space-between;display:flex}.lnode-type-details-header[data-v-9b5aed3f]{flex-direction:column;gap:.5rem;display:flex}.lnode-type-details-header__row[data-v-9b5aed3f]{flex-wrap:wrap;align-items:center;gap:.5rem;display:flex}.lnode-type-details-header__title-group[data-v-9b5aed3f]{flex:1;align-items:baseline;gap:.5rem;min-width:0;display:flex}.lnode-type-details-header__title[data-v-9b5aed3f]{text-overflow:ellipsis;white-space:nowrap;font-weight:600;overflow:hidden}.lnode-type-details-header__namespace[data-v-9b5aed3f]{opacity:.7;white-space:nowrap;text-overflow:ellipsis;min-width:0;font-size:.75rem;overflow:hidden}.lnode-type-details-header__search[data-v-9b5aed3f]{flex:1;min-width:8rem}.info-popup__close[data-v-5825e64d]{position:absolute;top:.5rem;right:.5rem}.info-popup__title[data-v-5825e64d]{margin-bottom:.75rem;font-weight:600}.info-popup__grid[data-v-5825e64d]{grid-template-columns:max-content 1fr;gap:.3rem .75rem;font-size:.85rem;display:grid}.info-popup__grid dt[data-v-5825e64d]{text-align:right;font-weight:600}.info-popup__grid dd[data-v-5825e64d]{margin:0}.info-popup__condition-description[data-v-5825e64d],.info-popup__meta[data-v-5825e64d]{opacity:.75}.lnode-type-details-layout[data-v-ce2d87fb]{border:1px solid var(--color-base-300,#e5e7eb);border-radius:.5rem;flex-direction:column;height:100%;display:flex;overflow:hidden}.lnode-type-details-layout__header[data-v-ce2d87fb]{border-bottom:1px solid var(--color-base-300,#e5e7eb);padding:.75rem}.lnode-type-details-layout__body[data-v-ce2d87fb]{flex:1;min-height:0;display:flex}.lnode-type-details-layout__tree[data-v-ce2d87fb]{flex:1;min-width:0;overflow-y:auto}.lnode-type-details-layout__references[data-v-ce2d87fb]:empty{display:none}.reference-panel[data-v-4531446f]{border-left:1px solid var(--color-base-300,#e5e7eb);flex-direction:column;width:18rem;height:100%;display:flex}.reference-panel__header[data-v-4531446f]{border-bottom:1px solid var(--color-base-300,#e5e7eb);justify-content:space-between;align-items:center;padding:.5rem .75rem;font-size:.85rem;font-weight:600;display:flex}.reference-panel__list[data-v-4531446f]{flex:1;margin:0;padding:0;list-style:none;overflow-y:auto}.reference-panel__list li[data-v-4531446f]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .75rem;font-size:.8rem;display:flex}.reference-panel__path[data-v-4531446f]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.reference-panel__empty[data-v-4531446f]{opacity:.6}.tree-node__row[data-v-f826d537]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__expander--leaf[data-v-f826d537]{cursor:default;width:1rem}.tree-node__name[data-v-f826d537]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__allatleastonegroup-select[data-v-f826d537]{max-width:16rem}.tree-node__row[data-v-35bf2d11]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__expander--leaf[data-v-35bf2d11]{cursor:default;width:1rem}.tree-node__name[data-v-35bf2d11]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__allonlyonegroup-select[data-v-35bf2d11]{max-width:16rem}.tree-node__row[data-v-80861559]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__expander--leaf[data-v-80861559]{cursor:default;width:1rem}.tree-node__name[data-v-80861559]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__row[data-v-8611a072]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__expander--leaf[data-v-8611a072]{cursor:default;width:1rem}.tree-node__name[data-v-8611a072]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__atleastone-select[data-v-8611a072]{max-width:16rem}.tree-node__row[data-v-535878a6]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__expander--leaf[data-v-535878a6]{cursor:default;width:1rem}.tree-node__name[data-v-535878a6]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__atmostone-select[data-v-535878a6]{max-width:16rem}.tree-node__row[data-v-c667b70f]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__row[data-v-c667b70f]:hover{background:var(--color-base-200,#f5f5f5)}.tree-node__expander[data-v-c667b70f]{cursor:pointer;background:0 0;border:none;width:1rem;padding:0;font-size:.7rem}.tree-node__expander--leaf[data-v-c667b70f]{cursor:default}.tree-node__name[data-v-c667b70f]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__info[data-v-c667b70f]{visibility:hidden;cursor:pointer;opacity:.7;background:0 0;border:none;font-size:.75rem}.tree-node__row:hover .tree-node__info[data-v-c667b70f]{visibility:visible}.tree-node__cdc[data-v-c667b70f]{opacity:.6;font-size:.75rem}.tree-node__enum[data-v-c667b70f]{margin-left:auto}.tree-node__setting-fc[data-v-c667b70f]{width:auto}.tree-node__instance-count[data-v-c667b70f]{align-items:center;gap:.25rem;font-size:.75rem;display:inline-flex}.tree-node__instance-count-input[data-v-c667b70f]{width:3.5rem}.tree-node__enum-val[data-v-c667b70f]{border-bottom:1px solid var(--color-base-300,#e5e7eb);opacity:.9;align-items:center;gap:.4rem;padding:.25rem .5rem;display:flex}.tree-node__enum-ord[data-v-c667b70f]{font-variant-numeric:tabular-nums}.lnode-type-tree__warning[data-v-2b6ba5e0]{color:var(--color-warning,#b45309);padding:.4rem .75rem;font-size:.75rem}.lnode-type-tree__group-header[data-v-2b6ba5e0]{border-top:1px solid var(--color-base-300,#e5e7eb);border-bottom:1px solid var(--color-base-300,#e5e7eb);background:var(--color-base-200,#f3f4f6);padding:.35rem .75rem;font-size:.75rem;font-weight:600}.lnode-type-tree__empty[data-v-2b6ba5e0]{text-align:center;opacity:.6;padding:1rem}.lnode-type-details__error[data-v-10f13347]{color:var(--color-error,#dc2626);margin-top:.5rem;font-size:.75rem}.lnode-type-details__placeholder[data-v-10f13347]{text-align:center;opacity:.6;padding:2rem}main[data-v-c82fcc52]{grid-template-columns:minmax(16rem,1fr) 2fr;gap:1rem;height:100%;padding:1rem;display:grid;overflow:hidden}.pane[data-v-c82fcc52]{min-height:0;overflow:hidden}p[data-v-c82fcc52]{text-align:center;opacity:.6;grid-column:1/-1;align-self:center}`)),document.head.appendChild(e)}}catch(e){console.error(`vite-plugin-css-injected-by-js`,e)}})();import { At as e, B as t, Dt as n, G as r, Gt as i, Jt as a, Kt as o, Mt as s, N as c, Nt as l, Ot as u, P as d, Pt as f, R as p, St as m, T as h, Tt as g, Vt as _, Yt as v, _t as y, at as b, bt as x, ct as S, dt as C, et as w, gt as T, ht as E, it as D, jt as O, kt as k, lt as A, m as j, mt as M, nt as ee, o as te, ot as ne, pt as re, qt as N, rt as ie, st as ae, t as oe, ut as se, v as ce, vt as P, w as le, wt as ue, xt as F, yt as I } from "./main-g2N8Clir.js";
+(function(){try{if(typeof document<`u`){var e=document.createElement(`style`);e.appendChild(document.createTextNode(`.lnode-type-list-layout[data-v-61ca118a]{border:1px solid var(--color-base-300,#e5e7eb);border-radius:.5rem;flex-direction:column;height:100%;display:flex;overflow:hidden}.lnode-type-list-layout__header[data-v-61ca118a]{border-bottom:1px solid var(--color-base-300,#e5e7eb);padding:.75rem}.lnode-type-list-layout__list[data-v-61ca118a]{flex:1;min-height:0;overflow-y:auto}.lnode-type-list-header[data-v-73c437e5]{align-items:center;gap:.5rem;display:flex}.lnode-type-list-header__search[data-v-73c437e5]{flex:1;min-width:0}.lnode-type-list-header__sort[data-v-73c437e5]{white-space:nowrap}ul[data-v-9a863e39]{margin:0;padding:0;list-style:none}li[data-v-9a863e39]{cursor:pointer;border-bottom:1px solid var(--color-base-300,#e5e7eb);justify-content:space-between;align-items:center;padding:.5rem .75rem;display:flex}li[data-v-9a863e39]:nth-child(2n){background:var(--color-base-200,#f5f5f5)}li.selected[data-v-9a863e39]{background:var(--color-primary,#2563eb);color:var(--color-primary-content,#fff)}span[data-v-9a863e39]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}button[data-v-9a863e39]{visibility:hidden}button[data-v-9a863e39]:not(:disabled){color:var(--color-error)}li:hover button[data-v-9a863e39]{visibility:visible}li.empty[data-v-9a863e39]{text-align:center;opacity:.6;cursor:default;background:0 0;border:none;padding:1rem;display:block}.ln-class-dialog[data-v-b9c4a18b]{flex-direction:column;gap:.75rem;max-height:80vh;display:flex}.ln-class-dialog__close[data-v-b9c4a18b]{position:absolute;top:.5rem;right:.5rem}.ln-class-dialog__title[data-v-b9c4a18b]{font-weight:600}.ln-class-dialog__search[data-v-b9c4a18b],.ln-class-dialog__name-input[data-v-b9c4a18b]{width:100%}.ln-class-dialog__list[data-v-b9c4a18b]{border:1px solid var(--color-base-300,#e5e7eb);border-radius:.25rem;flex:1;min-height:8rem;max-height:40vh;margin:0;padding:0;list-style:none;overflow-y:auto}.ln-class-dialog__row[data-v-b9c4a18b]{cursor:pointer;border-bottom:1px solid var(--color-base-300,#e5e7eb);flex-direction:column;padding:.4rem .6rem;display:flex}.ln-class-dialog__row--selected[data-v-b9c4a18b]{background:var(--color-primary,#2563eb);color:var(--color-primary-content,#fff)}.ln-class-dialog__namespace[data-v-b9c4a18b]{opacity:.7;font-size:.75rem}.ln-class-dialog__extended-by[data-v-b9c4a18b]{opacity:.7;font-size:.7rem;font-style:italic}.ln-class-dialog__empty[data-v-b9c4a18b]{text-align:center;opacity:.6;padding:1rem}.ln-class-dialog__actions[data-v-b9c4a18b]{justify-content:flex-end;display:flex}.lnode-type-list__error[data-v-d3cfc3c5]{color:var(--color-error,#dc2626);margin-top:.5rem;font-size:.75rem}.add-do-dialog[data-v-f9c51e84]{flex-direction:column;gap:.75rem;max-height:80vh;display:flex}.add-do-dialog__close[data-v-f9c51e84]{position:absolute;top:.5rem;right:.5rem}.add-do-dialog__title[data-v-f9c51e84]{font-weight:600}.add-do-dialog__search[data-v-f9c51e84],.add-do-dialog__name[data-v-f9c51e84]{width:100%}.add-do-dialog__list[data-v-f9c51e84]{border:1px solid var(--color-base-300,#e5e7eb);border-radius:.25rem;min-height:8rem;max-height:40vh;margin:0;padding:0;list-style:none;overflow-y:auto}.add-do-dialog__row[data-v-f9c51e84]{cursor:pointer;border-bottom:1px solid var(--color-base-300,#e5e7eb);grid-template-columns:minmax(3rem,max-content) 1fr max-content;gap:.75rem;padding:.4rem .6rem;display:grid}.add-do-dialog__row--selected[data-v-f9c51e84]{background:var(--color-primary,#2563eb);color:var(--color-primary-content,#fff)}.add-do-dialog__description[data-v-f9c51e84]{text-overflow:ellipsis;white-space:nowrap;opacity:.75;font-size:.75rem;overflow:hidden}.add-do-dialog__namespace[data-v-f9c51e84]{opacity:.7;font-size:.75rem}.add-do-dialog__empty[data-v-f9c51e84]{text-align:center;opacity:.6;padding:1rem}.add-do-dialog__error[data-v-f9c51e84]{color:var(--color-error,#dc2626);font-size:.75rem}.add-do-dialog__actions[data-v-f9c51e84]{justify-content:flex-end;display:flex}.enum-editor[data-v-fb6c3661]{flex-direction:column;gap:.75rem;display:flex}.enum-editor__close[data-v-fb6c3661]{position:absolute;top:.5rem;right:.5rem}.enum-editor__title[data-v-fb6c3661]{font-weight:600}.enum-editor__list[data-v-fb6c3661]{flex-direction:column;gap:.3rem;max-height:50vh;margin:0;padding:0;list-style:none;display:flex;overflow-y:auto}.enum-editor__row[data-v-fb6c3661]{align-items:center;gap:.4rem;display:flex}.enum-editor__ord[data-v-fb6c3661]{width:4rem}.enum-editor__value[data-v-fb6c3661]{flex:1}.enum-editor__actions[data-v-fb6c3661]{justify-content:space-between;display:flex}.lnode-type-details-header[data-v-9b5aed3f]{flex-direction:column;gap:.5rem;display:flex}.lnode-type-details-header__row[data-v-9b5aed3f]{flex-wrap:wrap;align-items:center;gap:.5rem;display:flex}.lnode-type-details-header__title-group[data-v-9b5aed3f]{flex:1;align-items:baseline;gap:.5rem;min-width:0;display:flex}.lnode-type-details-header__title[data-v-9b5aed3f]{text-overflow:ellipsis;white-space:nowrap;font-weight:600;overflow:hidden}.lnode-type-details-header__namespace[data-v-9b5aed3f]{opacity:.7;white-space:nowrap;text-overflow:ellipsis;min-width:0;font-size:.75rem;overflow:hidden}.lnode-type-details-header__search[data-v-9b5aed3f]{flex:1;min-width:8rem}.info-popup__close[data-v-612a6466]{position:absolute;top:.5rem;right:.5rem}.info-popup__title[data-v-612a6466]{margin-bottom:.75rem;font-weight:600}.info-popup__grid[data-v-612a6466]{grid-template-columns:max-content 1fr;gap:.3rem .75rem;font-size:.85rem;display:grid}.info-popup__grid dt[data-v-612a6466]{text-align:right;font-weight:600}.info-popup__grid dd[data-v-612a6466]{margin:0}.info-popup__condition-description[data-v-612a6466],.info-popup__meta[data-v-612a6466]{opacity:.75}.lnode-type-details-layout[data-v-ce2d87fb]{border:1px solid var(--color-base-300,#e5e7eb);border-radius:.5rem;flex-direction:column;height:100%;display:flex;overflow:hidden}.lnode-type-details-layout__header[data-v-ce2d87fb]{border-bottom:1px solid var(--color-base-300,#e5e7eb);padding:.75rem}.lnode-type-details-layout__body[data-v-ce2d87fb]{flex:1;min-height:0;display:flex}.lnode-type-details-layout__tree[data-v-ce2d87fb]{flex:1;min-width:0;overflow-y:auto}.lnode-type-details-layout__references[data-v-ce2d87fb]:empty{display:none}.reference-panel[data-v-4531446f]{border-left:1px solid var(--color-base-300,#e5e7eb);flex-direction:column;width:18rem;height:100%;display:flex}.reference-panel__header[data-v-4531446f]{border-bottom:1px solid var(--color-base-300,#e5e7eb);justify-content:space-between;align-items:center;padding:.5rem .75rem;font-size:.85rem;font-weight:600;display:flex}.reference-panel__list[data-v-4531446f]{flex:1;margin:0;padding:0;list-style:none;overflow-y:auto}.reference-panel__list li[data-v-4531446f]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .75rem;font-size:.8rem;display:flex}.reference-panel__path[data-v-4531446f]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.reference-panel__empty[data-v-4531446f]{opacity:.6}.tree-node__row[data-v-b9b7a52f]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__expander--leaf[data-v-b9b7a52f]{cursor:default;width:1rem}.tree-node__name[data-v-b9b7a52f]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__allatleastonegroup-select[data-v-b9b7a52f]{max-width:16rem}.tree-node__row[data-v-11e35bff]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__expander--leaf[data-v-11e35bff]{cursor:default;width:1rem}.tree-node__name[data-v-11e35bff]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__allonlyonegroup-select[data-v-11e35bff]{max-width:16rem}.tree-node__row[data-v-db425c93]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__expander--leaf[data-v-db425c93]{cursor:default;width:1rem}.tree-node__name[data-v-db425c93]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__row[data-v-21c19575]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__expander--leaf[data-v-21c19575]{cursor:default;width:1rem}.tree-node__name[data-v-21c19575]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__atleastone-select[data-v-21c19575]{max-width:16rem}.tree-node__row[data-v-f54796ac]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__expander--leaf[data-v-f54796ac]{cursor:default;width:1rem}.tree-node__name[data-v-f54796ac]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__atmostone-select[data-v-f54796ac]{max-width:16rem}.tree-node__row[data-v-a7b7cab3]{border-bottom:1px solid var(--color-base-300,#e5e7eb);align-items:center;gap:.4rem;padding:.35rem .5rem;display:flex}.tree-node__row[data-v-a7b7cab3]:hover{background:var(--color-base-200,#f5f5f5)}.tree-node__expander[data-v-a7b7cab3]{cursor:pointer;background:0 0;border:none;width:1rem;padding:0;font-size:.7rem}.tree-node__expander--leaf[data-v-a7b7cab3]{cursor:default}.tree-node__name[data-v-a7b7cab3]{text-overflow:ellipsis;white-space:nowrap;overflow:hidden}.tree-node__info[data-v-a7b7cab3]{visibility:hidden;cursor:pointer;opacity:.7;background:0 0;border:none;font-size:.75rem}.tree-node__row:hover .tree-node__info[data-v-a7b7cab3]{visibility:visible}.tree-node__cdc[data-v-a7b7cab3]{opacity:.6;font-size:.75rem}.tree-node__enum[data-v-a7b7cab3]{margin-left:auto}.tree-node__setting-fc[data-v-a7b7cab3]{width:auto}.tree-node__instance-count[data-v-a7b7cab3]{align-items:center;gap:.25rem;font-size:.75rem;display:inline-flex}.tree-node__instance-count-input[data-v-a7b7cab3]{width:3.5rem}.tree-node__enum-val[data-v-a7b7cab3]{border-bottom:1px solid var(--color-base-300,#e5e7eb);opacity:.9;align-items:center;gap:.4rem;padding:.25rem .5rem;display:flex}.tree-node__enum-ord[data-v-a7b7cab3]{font-variant-numeric:tabular-nums}.lnode-type-tree__warning[data-v-2b6ba5e0]{color:var(--color-warning,#b45309);padding:.4rem .75rem;font-size:.75rem}.lnode-type-tree__group-header[data-v-2b6ba5e0]{border-top:1px solid var(--color-base-300,#e5e7eb);border-bottom:1px solid var(--color-base-300,#e5e7eb);background:var(--color-base-200,#f3f4f6);padding:.35rem .75rem;font-size:.75rem;font-weight:600}.lnode-type-tree__empty[data-v-2b6ba5e0]{text-align:center;opacity:.6;padding:1rem}.lnode-type-details__error[data-v-3831da5c]{color:var(--color-error,#dc2626);margin-top:.5rem;font-size:.75rem}.lnode-type-details__placeholder[data-v-3831da5c]{text-align:center;opacity:.6;padding:2rem}main[data-v-c82fcc52]{grid-template-columns:minmax(16rem,1fr) 2fr;gap:1rem;height:100%;padding:1rem;display:grid;overflow:hidden}.pane[data-v-c82fcc52]{min-height:0;overflow:hidden}p[data-v-c82fcc52]{text-align:center;opacity:.6;grid-column:1/-1;align-self:center}`)),document.head.appendChild(e)}}catch(e){console.error(`vite-plugin-css-injected-by-js`,e)}})();import { At as e, B as t, Dt as n, G as r, Gt as i, Jt as a, Kt as o, Mt as s, N as c, Nt as l, Ot as u, P as d, Pt as f, R as p, St as m, T as h, Tt as g, Vt as _, Yt as v, _t as y, at as b, bt as x, ct as S, dt as C, et as w, gt as T, ht as E, it as D, jt as O, kt as k, lt as A, m as j, mt as M, nt as ee, o as te, ot as ne, pt as re, qt as N, rt as ie, st as ae, t as oe, ut as se, v as ce, vt as P, w as le, wt as ue, xt as F, yt as I } from "./main-g2N8Clir.js";
 import { _ as de, a as fe, b as pe, d as L, f as me, g as he, h as ge, m as _e, n as ve, o as ye, p as R, s as be, u as xe, v as Se, y as Ce } from "./query-nsd-metadata-BxEV467Q.js";
 //#region src/data-type-templates/lnode-type-list/layout.vue
 var we = {}, Te = { class: "lnode-type-list-layout" }, Ee = { class: "lnode-type-list-layout__header" }, De = { class: "lnode-type-list-layout__list" };
@@ -319,12 +319,19 @@ async function at(e, t, n, r) {
 		name: i,
 		bType: a,
 		fc: z(t, "fc") || void 0,
+		valKind: z(t, "valKind") || void 0,
 		vals: await ot(e, t)
 	};
 	return a === "Enum" && o && (s.enumType = await rt(e, o)), a === "Struct" && o && (s.daType = await nt(e, o, n, r), s.daType || r.push(`DA "${i}": DAType "${o}" not found`)), s;
 }
 async function ot(e, t) {
-	return (await e.getChildren(t, "Val")).map((e) => e.value);
+	return (await e.getChildren(t, "Val")).map((e) => {
+		let t = z(e, "sGroup");
+		return t ? {
+			value: e.value,
+			sGroup: t
+		} : { value: e.value };
+	});
 }
 function z(e, t) {
 	return e.attributes.find((e) => e.name === t)?.value ?? "";
@@ -6703,7 +6710,7 @@ var _t = Object.defineProperty, vt = (e, t) => {
 	VariableRef: [],
 	Voltage: ["unit"],
 	VoltageLevel: ["name"]
-}, H = {
+}, Et = {
 	AccessControl: {
 		tag: "AccessControl",
 		namespace: {
@@ -42498,7 +42505,7 @@ var _t = Object.defineProperty, vt = (e, t) => {
 		}],
 		type: "{http://www.iec.ch/61850/2003/SCL}tVoltageLevel"
 	}
-}, Et = {
+}, Dt = {
 	"{http://www.iec.ch/61850/2003/SCL}tCommProt": {
 		attributes: {
 			sequence: ["ipv6"],
@@ -43857,7 +43864,7 @@ var _t = Object.defineProperty, vt = (e, t) => {
 			}]
 		}
 	}
-}, Dt = { supportedFileExtensions: [
+}, Ot = { supportedFileExtensions: [
 	".fsd",
 	".asd",
 	".ssd",
@@ -43866,7 +43873,7 @@ var _t = Object.defineProperty, vt = (e, t) => {
 	".icd",
 	".iid",
 	".xml"
-] }, Ot = {
+] }, kt = {
 	recordSchema: {
 		primaryKey: "id",
 		indexes: [
@@ -43884,7 +43891,7 @@ var _t = Object.defineProperty, vt = (e, t) => {
 		},
 		additionalTables: { attachedFiles: { schema: "id, filename, file" } }
 	}
-}, kt = {
+}, At = {
 	default: {
 		uri: "http://www.iec.ch/61850/2003/SCL",
 		prefix: ""
@@ -43894,22 +43901,22 @@ var _t = Object.defineProperty, vt = (e, t) => {
 		prefix: "eIEC61850-6-100"
 	},
 	xsi: ce
-}, U = {
+}, H = {
 	rootElementName: "SCL",
 	singletonElements: Ct,
 	transparentElements: ["Private"],
 	elements: yt,
-	namespaces: kt,
+	namespaces: At,
 	attributes: wt,
 	children: B,
 	parents: bt,
 	descendants: xt,
 	ancestors: St,
-	database: Ot,
-	io: Dt,
-	definition: H,
-	types: Et
-}, At = new Set(["Function", "EqFunction"]), W = {
+	database: kt,
+	io: Ot,
+	definition: Et,
+	types: Dt
+}, jt = new Set(["Function", "EqFunction"]), U = {
 	AllocationRoleRef: [{
 		attribute: {
 			path: "allocationRole",
@@ -44294,7 +44301,7 @@ var _t = Object.defineProperty, vt = (e, t) => {
 		target: ["Variable"],
 		companions: []
 	}]
-}, G = {
+}, W = {
 	Association: [{
 		attribute: { uuid: "lnUuid" },
 		target: ["LN", "LN0"],
@@ -44460,7 +44467,7 @@ var _t = Object.defineProperty, vt = (e, t) => {
 			controlBlock: "cbName"
 		}
 	}]
-}, jt = new Set([
+}, Mt = new Set([
 	"SourceRef",
 	"ControlRef",
 	"DOS",
@@ -44469,24 +44476,24 @@ var _t = Object.defineProperty, vt = (e, t) => {
 	"InputVar",
 	"OutputVar",
 	"ProcessEcho"
-]), Mt = Object.keys(W), Nt = new Set(Mt), Pt = new Set(Object.values(W).flatMap((e) => e.flatMap((e) => e.target))), Ft = "TEMPLATE", It = "None", Lt = "grounded", Rt = [
+]), Nt = Object.keys(U), Pt = new Set(Nt), Ft = new Set(Object.values(U).flatMap((e) => e.flatMap((e) => e.target))), It = "TEMPLATE", Lt = "None", Rt = "grounded", zt = [
 	"Substation",
 	"VoltageLevel",
 	"Bay"
-], zt = [
+], Bt = [
 	"Application",
 	"Function",
 	"FunctionCategory",
 	"AllocationRole",
 	"Variable",
 	"BehaviorDescription"
-], Bt = new Set([
+], Vt = new Set([
 	"Text",
 	"Private",
 	"Labels",
 	"Label"
 ]);
-Vt({ roots: [
+Ht({ roots: [
 	"ReportControl",
 	"LogControl",
 	"GSEControl",
@@ -44495,26 +44502,26 @@ Vt({ roots: [
 	"DataSet",
 	"ExtRef",
 	"DAI"
-] }), Vt({
+] }), Ht({
 	roots: ["ConnectedAP"],
-	excluded: new Set([...Bt, "PhysConn"])
-}), Vt({
+	excluded: new Set([...Vt, "PhysConn"])
+}), Ht({
 	roots: ["SubNetwork"],
-	excluded: Vt({ roots: ["ConnectedAP"] })
-}), Ht();
-function Vt(e) {
+	excluded: Ht({ roots: ["ConnectedAP"] })
+}), Ut();
+function Ht(e) {
 	let { roots: t, excluded: n } = e, r = xt, i = t.flatMap((e) => [e, ...r[e] ?? []]);
-	return new Set(i.filter((e) => !Bt.has(e) && !n?.has(e)));
+	return new Set(i.filter((e) => !Vt.has(e) && !n?.has(e)));
 }
-function Ht() {
-	let e = H.MinRequestedSCDFile.attributes.identityFields, t = Tt.MinRequestedSCDFile;
+function Ut() {
+	let e = Et.MinRequestedSCDFile.attributes.identityFields, t = Tt.MinRequestedSCDFile;
 	return Object.keys(wt.byTag.MinRequestedSCDFile).filter((n) => !e.includes(n) && !t.includes(n));
 }
-var Ut = H.LNode?.attributes?.identityFields ?? [], Wt = new Map(Ut.map((e) => [e, qt(e)]).filter(([, e]) => e in wt.byTag.LNodeSpecNaming)), Gt = qt("iedName"), Kt = qt("ldInst");
-function qt(e) {
+var Wt = Et.LNode?.attributes?.identityFields ?? [], Gt = new Map(Wt.map((e) => [e, Jt(e)]).filter(([, e]) => e in wt.byTag.LNodeSpecNaming)), Kt = Jt("iedName"), qt = Jt("ldInst");
+function Jt(e) {
 	return `s${e.charAt(0).toUpperCase()}${e.slice(1)}`;
 }
-var Jt = [
+var Yt = [
 	{
 		name: "processName",
 		from: "Process"
@@ -44539,7 +44546,7 @@ var Jt = [
 		name: "cNodeName",
 		from: "ConnectivityNode"
 	}
-], Yt = {
+], Xt = {
 	ConnectivityNode: {
 		follows: "self",
 		attributes: [{
@@ -44549,13 +44556,13 @@ var Jt = [
 	},
 	NeutralPoint: {
 		follows: "connectivityNode",
-		attributes: Jt
+		attributes: Yt
 	},
 	Terminal: {
 		follows: "connectivityNode",
-		attributes: Jt
+		attributes: Yt
 	}
-}, K = {
+}, G = {
 	direct: "direct",
 	lnode: "lnode",
 	iedAddress: "ied-address",
@@ -44563,7 +44570,7 @@ var Jt = [
 	ancestorName: "ancestor-name",
 	scopedName: "scoped-name",
 	unsupported: "unsupported"
-}, Xt = {
+}, Zt = {
 	LN: [{
 		attribute: "lnType",
 		target: "LNodeType"
@@ -44615,7 +44622,7 @@ var Jt = [
 		}
 	}]
 };
-function Zt(e) {
+function Qt(e) {
 	let t = {};
 	for (let [n, r] of Object.entries(e)) for (let e of r) {
 		let r = t[e.resolution] ??= /* @__PURE__ */ new Map();
@@ -44630,7 +44637,7 @@ function Zt(e) {
 	}
 	return t;
 }
-function Qt(e) {
+function $t(e) {
 	let t = /* @__PURE__ */ new Map();
 	for (let [n, r] of Object.entries(e)) t.set(n, r.map((e) => ({
 		uuidAttr: e.attribute.uuid,
@@ -44640,7 +44647,7 @@ function Qt(e) {
 	})));
 	return t;
 }
-function $t(e) {
+function en(e) {
 	let t = /* @__PURE__ */ new Map();
 	for (let [n, r] of Object.entries(e)) for (let e of r) {
 		let r = t.get(e.target) ?? [];
@@ -44652,11 +44659,11 @@ function $t(e) {
 	}
 	return t;
 }
-function en(e) {
+function tn(e) {
 	let { tagName: t, derived: n, rootConstraints: r } = e;
 	return {
 		...n,
-		attributes: n.attributes.map((e) => tn({
+		attributes: n.attributes.map((e) => nn({
 			tagName: t,
 			attribute: e,
 			rootConstraints: r
@@ -44666,50 +44673,50 @@ function en(e) {
 		} : e)
 	};
 }
-function tn(e) {
+function nn(e) {
 	let { rootConstraints: t } = e;
-	return t.some((t) => nn({
+	return t.some((t) => rn({
 		...e,
 		keyref: t
 	}));
 }
-function nn(e) {
+function rn(e) {
 	let { keyref: t, tagName: n, attribute: r, rootConstraints: i } = e;
 	if (t.kind !== "keyref" || t.fields.length !== 1) return !1;
 	let a = t.selector.some((e) => e.steps.at(-1)?.name === n), o = t.fields[0].some((e) => e.steps.length === 0 && e.attribute?.name === r.name), s = i.find((e) => e.kind !== "keyref" && e.name === t.refer?.name), c = s?.selector.every((e) => !e.deep && e.steps.length === 1), l = s?.selector.some((e) => e.steps[0]?.name === r.from);
 	return a && o && c === !0 && l === !0;
 }
-var rn = Zt(W), an = [...[
-	K.direct,
-	K.lnode,
-	K.iedAddress,
-	K.behaviorDescription,
-	K.ancestorName,
-	K.scopedName
-], K.unsupported], on = gn(), sn = new Map(Object.values(W).flatMap((e) => e.flatMap((e) => "nameScope" in e ? e.target.map((t) => [t, e.nameScope]) : []))), cn = Qt(W), ln = new Map(Object.entries(W).flatMap(([e, t]) => t.filter((e) => e.attribute.path === "mappedDoName" || e.attribute.path === "mappedDaName").map((t) => [e, {
+var an = Qt(U), on = [...[
+	G.direct,
+	G.lnode,
+	G.iedAddress,
+	G.behaviorDescription,
+	G.ancestorName,
+	G.scopedName
+], G.unsupported], sn = gn(), cn = new Map(Object.values(U).flatMap((e) => e.flatMap((e) => "nameScope" in e ? e.target.map((t) => [t, e.nameScope]) : []))), ln = $t(U), K = new Map(Object.entries(U).flatMap(([e, t]) => t.filter((e) => e.attribute.path === "mappedDoName" || e.attribute.path === "mappedDaName").map((t) => [e, {
 	path: t.attribute.path,
 	uuid: t.attribute.uuid
-}]))), un = [...Ut, "lnUuid"];
+}]))), un = [...Wt, "lnUuid"];
 _n();
-var dn = new Map([...ln].map(([e, t]) => {
-	let n = H[e]?.attributes.details[t.path]?.type;
+var dn = new Map([...K].map(([e, t]) => {
+	let n = Et[e]?.attributes.details[t.path]?.type;
 	return [e, c(n)];
 }));
-[...new Set(Object.values(W).flatMap((e) => e.map((e) => e.attribute.uuid)))];
-var fn = new Map(Object.entries(Yt).map(([e, t]) => [e, en({
+[...new Set(Object.values(U).flatMap((e) => e.map((e) => e.attribute.uuid)))];
+var fn = new Map(Object.entries(Xt).map(([e, t]) => [e, tn({
 	tagName: e,
 	derived: t,
-	rootConstraints: H.SCL?.constraints ?? []
-})])), pn = new Map(Object.entries(Xt).map(([e, t]) => [e, [...new Set(t.map((e) => e.attribute))]])), mn = $t(Xt), hn = new Set(mn.keys());
+	rootConstraints: Et.SCL?.constraints ?? []
+})])), pn = new Map(Object.entries(Zt).map(([e, t]) => [e, [...new Set(t.map((e) => e.attribute))]])), mn = en(Zt), hn = new Set(mn.keys());
 function gn() {
 	let e = /* @__PURE__ */ new Map();
-	for (let t of an) for (let [n, r] of rn[t] ?? []) e.set(n, [...e.get(n) ?? [], ...r]);
+	for (let t of on) for (let [n, r] of an[t] ?? []) e.set(n, [...e.get(n) ?? [], ...r]);
 	return e;
 }
 function _n() {
 	let e = [["LNode", un]];
 	for (let t of ["DOS", "SDS"]) {
-		let n = ln.get(t);
+		let n = K.get(t);
 		n && e.push([t, [
 			"name",
 			"ix",
@@ -44836,26 +44843,26 @@ var vn = {
 			...e.data ? [e.data] : []
 		];
 	}
-})), Sn = new Set(["LN", "LN0"]), Cn = new Map(Object.entries(W).flatMap(([e, t]) => {
+})), Sn = new Set(["LN", "LN0"]), Cn = new Map(Object.entries(U).flatMap(([e, t]) => {
 	let n = t.filter(wn);
 	return n.length > 0 ? [[e, n]] : [];
 }));
 new Set([...Sn, ...[...Cn.values()].flatMap((e) => e.flatMap((e) => e.target))]), new Map([["LNode", new Set(un)], ...[...Cn].map(([e, t]) => [e, new Set(t.map((e) => e.attribute.uuid))])]);
 function wn(e) {
-	return e.resolution === K.iedAddress || e.target.every((e) => Sn.has(e));
+	return e.resolution === G.iedAddress || e.target.every((e) => Sn.has(e));
 }
 var Tn = /* @__PURE__ */ new Map();
 function En(e) {
 	let t = Tn.get(e);
 	if (t) return t;
-	let n = H[e]?.attributes?.identityFields ?? [], r = new Set(n);
+	let n = Et[e]?.attributes?.identityFields ?? [], r = new Set(n);
 	return Tn.set(e, r), r;
 }
 function Dn() {
-	let e = new Map(Object.entries(Xt)), t = B.DataTypeTemplates.filter((t) => On({
+	let e = new Map(Object.entries(Zt)), t = B.DataTypeTemplates.filter((t) => On({
 		typeTag: t,
 		pairsByReferrer: e
-	}).length > 0), n = Xt.LNode[0].target, r = Pn({
+	}).length > 0), n = Zt.LNode[0].target, r = Pn({
 		values: On({
 			typeTag: n,
 			pairsByReferrer: e
@@ -44950,7 +44957,7 @@ function Pn(e) {
 		detail: n
 	}), r;
 }
-var Fn = Xt.LNode[0].attribute, In = { DataTypeTemplates: !0 }, Ln = Dn(), Rn = new Map([...Ln.types].map(([e, t]) => [e, [...t.members.keys()]])), zn = new Map([...Rn.values()].flat().map((e) => [e, Xt[e] ?? []])), Bn = Vn();
+var Fn = Zt.LNode[0].attribute, In = { DataTypeTemplates: !0 }, Ln = Dn(), Rn = new Map([...Ln.types].map(([e, t]) => [e, [...t.members.keys()]])), zn = new Map([...Rn.values()].flat().map((e) => [e, Zt[e] ?? []])), Bn = Vn();
 function Vn() {
 	let e = Ln.types.get(Ln.rootType);
 	return h(e, {
@@ -44962,7 +44969,7 @@ function q(e) {
 	let { fullObject: t, ...n } = e;
 	return _e({
 		...n,
-		dialecteConfig: U,
+		dialecteConfig: H,
 		fullObject: t
 	});
 }
@@ -44970,7 +44977,7 @@ function J(e) {
 	let { fullObject: t, ...n } = e;
 	return he({
 		...n,
-		dialecteConfig: U,
+		dialecteConfig: H,
 		fullObject: t
 	});
 }
@@ -45007,24 +45014,24 @@ function qn(e) {
 	return e.kind === "element" ? [e.name] : e.kind === "any" ? [""] : e.particles.flatMap((e) => qn(e));
 }
 function Y(e) {
-	return Rt.includes(e);
+	return zt.includes(e);
 }
 function Jn(e) {
 	let { tagName: t, definition: n } = e;
 	if (Y(t) || !Hn(n.contentModel)) return !1;
 	let { identityFields: r = [], sequence: i } = n.attributes;
-	return r.length === 0 && !i.includes("uuid") ? !0 : [...Wn(n.contentModel)].every((e) => Nt.has(e));
+	return r.length === 0 && !i.includes("uuid") ? !0 : [...Wn(n.contentModel)].every((e) => Pt.has(e));
 }
-var Yn = U.definition, Xn = new Set(Object.entries(Yn).filter(([e, t]) => Jn({
+var Yn = H.definition, Xn = new Set(Object.entries(Yn).filter(([e, t]) => Jn({
 	tagName: e,
 	definition: t
-})).map(([e]) => e)), Zn = new Set(Object.values(U.namespaces).map((e) => e.prefix).filter((e) => e !== U.namespaces.default.prefix)), Qn = new Set(["DataSet", "SubNetwork"]), $n = new Set([
-	...U.transparentElements,
+})).map(([e]) => e)), Zn = new Set(Object.values(H.namespaces).map((e) => e.prefix).filter((e) => e !== H.namespaces.default.prefix)), Qn = new Set(["DataSet", "SubNetwork"]), $n = new Set([
+	...H.transparentElements,
 	...Xn,
 	...Qn
 ]), er = new Set(Object.entries(Yn).filter(([, e]) => (e.attributes.identityFields ?? []).length > 0 || e.attributes.sequence.includes("uuid")).map(([e]) => e)), tr = new Map([...Xn, ...Qn].map((e) => [e, Kn(Yn[e]?.contentModel)]));
 function nr(e) {
-	return U.transparentElements.includes(e);
+	return H.transparentElements.includes(e);
 }
 function rr(e) {
 	return Xn.has(e.tagName) || Qn.has(e.tagName) || cr({ record: e });
@@ -45319,7 +45326,7 @@ async function br(e) {
 }
 function xr(e) {
 	let t = wr({ iedName: e.iedName }), n = t ? ["iedName", "ldInst"] : ["iedName"], r = [];
-	for (let [t, i] of Wt) {
+	for (let [t, i] of Gt) {
 		let a = e[t];
 		!a || n.includes(t) || r.push({
 			name: i,
@@ -45342,12 +45349,12 @@ function Sr(e) {
 	} : r;
 }
 function Cr(e) {
-	let { lnodeAttributes: t, specifiedAttributes: n } = e, r = { iedName: It };
+	let { lnodeAttributes: t, specifiedAttributes: n } = e, r = { iedName: Lt };
 	if (!n) return {
 		...r,
 		ldInst: void 0
 	};
-	for (let [e, i] of Wt) {
+	for (let [e, i] of Gt) {
 		if (e in r) continue;
 		let a = n[i] || void 0;
 		r[e] = e === "lnClass" ? a ?? t.lnClass : a;
@@ -45359,20 +45366,20 @@ function wr(e) {
 	return !!t && t !== "None";
 }
 function Tr(e) {
-	let { attributes: t, specificationIed: n } = e, r = t.filter((e) => e.name !== Gt && e.name !== Kt), i = [{
-		name: Gt,
+	let { attributes: t, specificationIed: n } = e, r = t.filter((e) => e.name !== Kt && e.name !== qt), i = [{
+		name: Kt,
 		value: n.iedName
 	}];
 	return n.ldInst && i.push({
-		name: Kt,
+		name: qt,
 		value: n.ldInst
 	}), [...r, ...i];
 }
 function Er(e) {
-	let { lnodeAttributes: t, specifiedAttributes: n, specificationLogicalNode: r } = e, i = n?.[Gt], a = wr({ iedName: t.iedName }) && t.iedName === i;
+	let { lnodeAttributes: t, specifiedAttributes: n, specificationLogicalNode: r } = e, i = n?.[Kt], a = wr({ iedName: t.iedName }) && t.iedName === i;
 	if (n && r && !a) {
 		let e = {};
-		for (let [t, r] of Wt) e[t] = n[r] || void 0;
+		for (let [t, r] of Gt) e[t] = n[r] || void 0;
 		return e.lnClass ??= t.lnClass, {
 			...e,
 			lnUuid: r.uuid
@@ -45410,7 +45417,7 @@ function Mr(e) {
 function Nr(e) {
 	let { specifiedAttributes: t, lnodeAttributes: n } = e;
 	if (!t) return null;
-	let r = Object.fromEntries([...Wt].map(([e, n]) => [e, t[n] || void 0]));
+	let r = Object.fromEntries([...Gt].map(([e, n]) => [e, t[n] || void 0]));
 	return Ar({
 		...r,
 		lnClass: r.lnClass ?? n.lnClass
@@ -45676,11 +45683,11 @@ function Yr(e) {
 	}) : null;
 }
 function Xr(e) {
-	return Wt.get(e) ?? e;
+	return Gt.get(e) ?? e;
 }
 function Zr(e, t) {
 	return le({
-		dialecteConfig: U,
+		dialecteConfig: H,
 		record: e,
 		attributeName: t
 	}).default;
@@ -45730,7 +45737,7 @@ function ri(e) {
 	let t = ti(e);
 	return t?.segments.at(-1)?.ref.id === e.record.id ? t.path : void 0;
 }
-var ii = new Set(U.transparentElements);
+var ii = new Set(H.transparentElements);
 function ai() {
 	return [];
 }
@@ -45880,7 +45887,7 @@ async function _i(e, t) {
 }
 function vi(e) {
 	let t = j({
-		dialecteConfig: U,
+		dialecteConfig: H,
 		record: e
 	});
 	return e.namespace.uri === t?.namespace.uri;
@@ -46039,15 +46046,15 @@ function ki(e) {
 function Ai(e) {
 	return e.controlBlock ? "cb" : e.accessPoint ? "ap" : e.lnClass ? "ln" : "ld";
 }
-var ji = new Map(Object.values(G).flatMap((e) => e.flatMap((e) => e.target.map((t) => [t, Ai(e.tuple)])))), Mi = new Map([...new Set(ji.values())].map((e) => [e, [...ji].flatMap(([t, n]) => n === e ? [t] : [])])), Ni = le({
-	dialecteConfig: U,
+var ji = new Map(Object.values(W).flatMap((e) => e.flatMap((e) => e.target.map((t) => [t, Ai(e.tuple)])))), Mi = new Map([...new Set(ji.values())].map((e) => [e, [...ji].flatMap(([t, n]) => n === e ? [t] : [])])), Ni = le({
+	dialecteConfig: H,
 	record: {
 		tagName: "LN0",
 		parent: null,
 		attributes: []
 	},
 	attributeName: "lnClass"
-}).fixed ?? "", Pi = [...new Set(Object.values(G).flatMap((e) => e.flatMap((e) => Object.keys(e.tuple).filter((e) => e !== "ied"))))];
+}).fixed ?? "", Pi = [...new Set(Object.values(W).flatMap((e) => e.flatMap((e) => Object.keys(e.tuple).filter((e) => e !== "ied"))))];
 Mi.get("ln"), Mi.get("ap"), Mi.get("ld");
 function Fi(e) {
 	let { context: t, segments: n } = e;
@@ -46067,7 +46074,7 @@ function Li(e) {
 	};
 }
 function Ri(e) {
-	let t = e.segments.findLastIndex((e) => At.has(e.ref.tagName));
+	let t = e.segments.findLastIndex((e) => jt.has(e.ref.tagName));
 	return t === -1 ? null : ni(e.segments.slice(0, t + 1));
 }
 function zi(e) {
@@ -46354,20 +46361,20 @@ function ia(e) {
 		targetPath: e.targetPath,
 		base: e.functionBase
 	}) ?? e.targetPath : e.targetPath;
-	if (t.resolution === K.behaviorDescription) return r ? oa({
+	if (t.resolution === G.behaviorDescription) return r ? oa({
 		pair: t,
 		referenceAttributes: n,
 		targetPath: i,
 		behaviorContext: r
 	}) : null;
-	if (t.resolution === K.ancestorName || t.resolution === K.scopedName) return i.segments.at(-1)?.segment ?? null;
-	if (t.resolution === K.iedAddress) return aa({
+	if (t.resolution === G.ancestorName || t.resolution === G.scopedName) return i.segments.at(-1)?.segment ?? null;
+	if (t.resolution === G.iedAddress) return aa({
 		pair: t,
 		targetPath: i,
 		referrerContext: e.referrerContext
 	});
 	let a = i.path;
-	if (t.resolution !== K.lnode) return a;
+	if (t.resolution !== G.lnode) return a;
 	let o = ca(n, t);
 	if (!o) {
 		let e = sa(n, t);
@@ -46407,12 +46414,12 @@ function ca(e, t) {
 }
 async function la(e, t) {
 	let { reference: n, target: r } = t;
-	if (ln.has(n.tagName)) return null;
+	if (K.has(n.tagName)) return null;
 	let i = fa(n.tagName, r.tagName);
 	if (!i) return null;
 	let a = t.targetPath ?? await Gi(e, r);
 	if (!a) return null;
-	let o = t.referenceRecord ?? await e.getRecord(n), s = i.resolution === K.behaviorDescription && o?.parent ? await da(e, o.parent) : void 0, c = t.referrerContext ?? (i.resolution === K.iedAddress && o?.parent ? await ua(e, o.parent) : void 0), l = t.functionBases ?? (Ii(i) && o ? await vs(e, {
+	let o = t.referenceRecord ?? await e.getRecord(n), s = i.resolution === G.behaviorDescription && o?.parent ? await da(e, o.parent) : void 0, c = t.referrerContext ?? (i.resolution === G.iedAddress && o?.parent ? await ua(e, o.parent) : void 0), l = t.functionBases ?? (Ii(i) && o ? await vs(e, {
 		record: o,
 		cache: t.functionBasesCache
 	}) : void 0);
@@ -46434,7 +46441,7 @@ async function da(e, t) {
 	return (await Gi(e, t))?.segments.slice(0, -1);
 }
 function fa(e, t) {
-	let n = W[e];
+	let n = U[e];
 	return n ? n.find((e) => e.target.includes(t)) ?? null : null;
 }
 async function pa(e, t) {
@@ -46635,7 +46642,7 @@ async function Da(e, t) {
 		}),
 		mappedLNodes: a
 	}), u = /* @__PURE__ */ new Map();
-	for (let e of c) for (let t of ln.keys()) for (let r of e[t] ?? []) {
+	for (let e of c) for (let t of K.keys()) for (let r of e[t] ?? []) {
 		if (u.has(r.id)) continue;
 		let { mappedData: e } = await xa(l, { node: {
 			tagName: r.tagName,
@@ -46646,7 +46653,7 @@ async function Da(e, t) {
 	return [...u.values()];
 }
 function Oa(e) {
-	return [...ln.keys()].some(function(t) {
+	return [...K.keys()].some(function(t) {
 		return (e[t]?.length ?? 0) > 0;
 	});
 }
@@ -46705,7 +46712,7 @@ function Pa(e) {
 	let { query: t, records: n, mappedLNodes: r } = e, i = /* @__PURE__ */ new Map(), a = /* @__PURE__ */ new Map();
 	return {
 		async readNode(e) {
-			let t = ln.get(e.tagName), r = n.get(e.id);
+			let t = K.get(e.tagName), r = n.get(e.id);
 			if (!t || !r) return;
 			let i = J({ record: r }), a = Na({
 				records: n,
@@ -46747,7 +46754,7 @@ function Fa(e) {
 		id: e.ln.id
 	};
 }
-var X = new Map([...Object.entries(W).map(([e, t]) => [e, t.map(Ga)]), ...Object.entries(G).map(([e, t]) => [e, t.map(Ka)])]), Ia = new Map([...X].map(([e, t]) => [e, new Set(t.flatMap((e) => [e.uuid, ...e.names]))])), La = Xa(), Ra = new Set(["Text", "Private"]), za = new Set(Object.keys(G).filter(Ja)), Ba = new Set([...Nt, ...za]), Va = new Set(Object.keys(G).filter((e) => !Ya(e) && !Ja(e))), Ha = new Set(Object.keys(G).filter((e) => !Ya(e))), Ua = new Set(Object.entries(G).filter(([, e]) => e.some(Wa)).map(([e]) => e));
+var X = new Map([...Object.entries(U).map(([e, t]) => [e, t.map(Ga)]), ...Object.entries(W).map(([e, t]) => [e, t.map(Ka)])]), Ia = new Map([...X].map(([e, t]) => [e, new Set(t.flatMap((e) => [e.uuid, ...e.names]))])), La = Xa(), Ra = new Set(["Text", "Private"]), za = new Set(Object.keys(W).filter(Ja)), Ba = new Set([...Pt, ...za]), Va = new Set(Object.keys(W).filter((e) => !Ya(e) && !Ja(e))), Ha = new Set(Object.keys(W).filter((e) => !Ya(e))), Ua = new Set(Object.entries(W).filter(([, e]) => e.some(Wa)).map(([e]) => e));
 function Wa(e) {
 	let t = e.tuple.ied;
 	return typeof t == "object" && "text" in t;
@@ -46836,7 +46843,7 @@ async function to(e, t) {
 	if (!n) return [];
 	let r = La.get(t.tagName) ?? [], i = [];
 	for (let t of r) {
-		if (!de(t.refTagName, U)) continue;
+		if (!de(t.refTagName, H)) continue;
 		let r = await e.findByAttributes({
 			tagName: t.refTagName,
 			attributes: { [t.uuidAttr]: n }
@@ -46853,7 +46860,7 @@ async function no(e, t) {
 	if (!n) return [];
 	let r = mn.get(t.tagName) ?? [], i = [];
 	for (let t of r) {
-		if (!de(t.refTagName, U)) continue;
+		if (!de(t.refTagName, H)) continue;
 		let r = await e.findByAttributes({
 			tagName: t.refTagName,
 			attributes: { [t.attribute]: n }
@@ -47138,7 +47145,7 @@ function wo(e) {
 	})?.value : void 0;
 	if (s !== void 0) return s;
 	let c = le({
-		dialecteConfig: U,
+		dialecteConfig: H,
 		record: t,
 		attributeName: i
 	});
@@ -47266,10 +47273,10 @@ async function Ao(e, t) {
 	if (i.size === 0) return;
 	let o = /* @__PURE__ */ new Map();
 	for (let { target: t } of n) {
-		if (!(t.tagName in W)) continue;
+		if (!(t.tagName in U)) continue;
 		let n = await e.getRecord(t);
 		if (!n) continue;
-		let r = W[t.tagName], s = {};
+		let r = U[t.tagName], s = {};
 		for (let c of r) {
 			let r = q({
 				record: n,
@@ -47310,7 +47317,7 @@ async function Ao(e, t) {
 async function jo(e, t) {
 	let { cloneMappings: n, uuidMap: r, uuidToRef: i } = t, a = [], o = /* @__PURE__ */ new Set();
 	for (let { target: t } of n) {
-		let n = G[t.tagName];
+		let n = W[t.tagName];
 		if (!n) continue;
 		let i = await e.getRecord(t);
 		if (!i) continue;
@@ -47681,7 +47688,7 @@ function Yo(e, t) {
 	let { mappedLNodes: n } = t;
 	return {
 		async readNode(t) {
-			let n = ln.get(t.tagName);
+			let n = K.get(t.tagName);
 			if (!n) return;
 			let r = await e.getAttributes(t), i = (await e.findAncestors(t)).find((e) => e.tagName === "DOS" || e.tagName === "SDS");
 			return {
@@ -47723,7 +47730,7 @@ async function Xo(e, t) {
 	};
 }
 async function Zo(e, t) {
-	let { reference: n, implementation: r } = t, i = ln.get(n.tagName);
+	let { reference: n, implementation: r } = t, i = K.get(n.tagName);
 	if (!i) return { kind: "inexpressible" };
 	let a = r ? await e.getAttribute(r.ln, { name: "uuid" }) : void 0;
 	if (r && !a) return { kind: "inexpressible" };
@@ -47782,19 +47789,19 @@ function es(e) {
 }
 function ts(e) {
 	let { resolution: t, pathAttribute: n, pathValue: r, ancestry: i, specNamings: a, functionBase: o, formerFunctionBase: s, nameScope: c } = e;
-	return !t || t === K.unsupported ? null : o === void 0 ? t === K.direct ? { lookupKey: r } : t === K.iedAddress ? ss({
+	return !t || t === G.unsupported ? null : o === void 0 ? t === G.direct ? { lookupKey: r } : t === G.iedAddress ? ss({
 		pathValue: r,
 		ancestry: i
-	}) : t === K.lnode ? os(r) : t === K.behaviorDescription ? cs({
+	}) : t === G.lnode ? os(r) : t === G.behaviorDescription ? cs({
 		pathAttribute: n,
 		pathValue: r,
 		ancestry: i,
 		specNamings: a
-	}) : t === K.ancestorName ? is({
+	}) : t === G.ancestorName ? is({
 		pathValue: r,
 		ancestry: i,
 		specNamings: a
-	}) : t === K.scopedName ? ns({
+	}) : t === G.scopedName ? ns({
 		pathValue: r,
 		ancestry: i,
 		specNamings: a,
@@ -47823,14 +47830,14 @@ function ns(e) {
 }
 function rs(e) {
 	let { resolution: t, pathValue: n, functionBase: r, formerFunctionBase: i } = e, a = [r, i].filter((e) => e !== void 0);
-	if (t === K.lnode) {
+	if (t === G.lnode) {
 		let [e, ...t] = [...a.map((e) => `${e}/${n}`), n].map(os);
 		return {
 			...e,
 			fallbackLookupKeys: [...new Set(t.map((e) => e.lookupKey))].filter((t) => t !== e.lookupKey)
 		};
 	}
-	if (t !== K.direct) return null;
+	if (t !== G.direct) return null;
 	let o = n.lastIndexOf("/"), s = o === -1 ? n : `${n.slice(0, o)}.${n.slice(o + 1)}`, c = [...a.flatMap((e) => [`${e}/${n}`, `${e}/${s}`]), n], [l, ...u] = [...new Set(c)];
 	return {
 		lookupKey: l,
@@ -47921,7 +47928,7 @@ async function ds(e, t) {
 	let { mappedData: n } = await Jo(e, t);
 	return n;
 }
-var fs = new Set(p(H.LNode.attributes.details.lnClass.type)), ps = {
+var fs = new Set(p(Et.LNode.attributes.details.lnClass.type)), ps = {
 	LN: "inst",
 	LN0: "inst"
 };
@@ -47952,7 +47959,7 @@ async function hs(e, t) {
 async function gs(e) {
 	let { query: t, reads: n, record: r, pathAttribute: i, cache: a } = e, o = ws(r.tagName, i);
 	if (!o) return;
-	if (ln.has(r.tagName)) {
+	if (K.has(r.tagName)) {
 		let e = await ds(t, { reference: {
 			tagName: r.tagName,
 			id: r.id
@@ -47994,7 +48001,7 @@ async function gs(e) {
 }
 async function _s(e) {
 	let { query: t, reads: n, record: r, pair: i, pathAttribute: a, pathValue: o, cache: s } = e, c, l;
-	(i.resolution === K.behaviorDescription || i.resolution === K.iedAddress || i.resolution === K.ancestorName || i.resolution === K.scopedName) && (c = [...await n.ancestorsOf(r)].reverse().map((e) => L(e)), l = await n.specNamingsOf({ records: c }));
+	(i.resolution === G.behaviorDescription || i.resolution === G.iedAddress || i.resolution === G.ancestorName || i.resolution === G.scopedName) && (c = [...await n.ancestorsOf(r)].reverse().map((e) => L(e)), l = await n.specNamingsOf({ records: c }));
 	let u = Ii(i) ? await ys({
 		query: t,
 		reads: n,
@@ -48011,7 +48018,7 @@ async function _s(e) {
 		nameScope: zi(i)
 	});
 	if (!d) return;
-	let f = i.resolution === K.scopedName;
+	let f = i.resolution === G.scopedName;
 	if (f) {
 		let e = await Ss({
 			reads: n,
@@ -48136,7 +48143,7 @@ async function Cs(e) {
 	return r ?? void 0;
 }
 function ws(e, t) {
-	let n = W[e];
+	let n = U[e];
 	if (n) return n.find((e) => e.attribute.path === t);
 }
 async function Ts(e, t, n) {
@@ -48168,8 +48175,8 @@ async function Es(e) {
 }
 function Ds(e) {
 	let { pair: t, pathAttribute: n, pathValue: r } = e;
-	if (t.resolution === K.lnode) return es(r).qualifier;
-	if (t.resolution === K.behaviorDescription && n === "dataName") return r;
+	if (t.resolution === G.lnode) return es(r).qualifier;
+	if (t.resolution === G.behaviorDescription && n === "dataName") return r;
 }
 function Os(e) {
 	for (let t = 0; t <= e.length - 4; t++) {
@@ -48393,10 +48400,10 @@ async function qs(e, t) {
 	return o.every((e) => e.status === "unchanged") ? o.sort((e, t) => e.id < t.id ? -1 : +(e.id > t.id)) : (await e.getRecordsByTagName(n)).flatMap((e) => a.get(e.id) ?? []);
 }
 function Js(e) {
-	let { record: t, level: n } = e, r = ln.has(t.tagName);
+	let { record: t, level: n } = e, r = K.has(t.tagName);
 	if (!r && n > 0 && t.tagName === "LNode" || !r && n >= 2) return [];
 	let i = !r && n + 1 < 2;
-	return t.children.filter((e) => ln.has(e.tagName) || i);
+	return t.children.filter((e) => K.has(e.tagName) || i);
 }
 function Ys(e) {
 	let { derived: t, sourcePath: n } = e;
@@ -48420,7 +48427,7 @@ function Zs(e) {
 	return r.length > 0 ? r.join("/") : void 0;
 }
 async function Qs(e, t) {
-	let { reference: n, referenceRecord: r, target: i, referrerContext: a, functionBases: o } = t, s = cn.get(n.tagName)?.find((e) => e.targetTagNames.includes(i.tagName));
+	let { reference: n, referenceRecord: r, target: i, referrerContext: a, functionBases: o } = t, s = ln.get(n.tagName)?.find((e) => e.targetTagNames.includes(i.tagName));
 	if (!s) return [];
 	let c = t.targetPath ?? await Gi(e, i);
 	if (!c) return [];
@@ -48443,12 +48450,12 @@ async function Qs(e, t) {
 		sourcePath: c
 	}) : []];
 }
-var $s = new Map(Object.entries(W).flatMap(([e, t]) => {
-	if (ln.has(e)) return [];
-	let n = t.filter((e) => e.resolution !== K.unsupported);
+var $s = new Map(Object.entries(U).flatMap(([e, t]) => {
+	if (K.has(e)) return [];
+	let n = t.filter((e) => e.resolution !== G.unsupported);
 	return n.length > 0 ? [[e, n]] : [];
 }));
-new Set(Object.entries(W).flatMap(([e, t]) => t.flatMap((t) => (Tt[e] ?? []).includes(t.attribute.path) ? [`${e}@${t.attribute.path}`] : [])));
+new Set(Object.entries(U).flatMap(([e, t]) => t.flatMap((t) => (Tt[e] ?? []).includes(t.attribute.path) ? [`${e}@${t.attribute.path}`] : [])));
 async function ec(e, t) {
 	let { roots: n, read: r } = t, i = n.filter((e) => e.below), a = n.filter((e) => !e.below), o = r ? tc({
 		read: r,
@@ -48519,7 +48526,7 @@ function rc(e) {
 }
 function ic(e) {
 	let { record: t } = e;
-	return e.references && on.has(t.tagName) && !!q({
+	return e.references && sn.has(t.tagName) && !!q({
 		record: t,
 		name: "uuid"
 	}) || ac(e);
@@ -48538,7 +48545,7 @@ async function oc(e, t) {
 			record: e.record,
 			name: "uuid"
 		});
-		if (!t || !on.has(e.record.tagName)) continue;
+		if (!t || !sn.has(e.record.tagName)) continue;
 		let r = n.get(t);
 		r ? r.push(e) : n.set(t, [e]);
 	}
@@ -48567,8 +48574,8 @@ function sc(e) {
 	let t = /* @__PURE__ */ new Map();
 	for (let [n, r] of e.targetsByUuid) for (let e of r) {
 		let r = e.record.tagName;
-		for (let e of on.get(r) ?? []) {
-			if (!de(e.refTagName, U)) continue;
+		for (let e of sn.get(r) ?? []) {
+			if (!de(e.refTagName, H)) continue;
 			let i = `${e.refTagName} ${e.uuidAttr}`, a = t.get(i) ?? {
 				tagName: e.refTagName,
 				uuidAttribute: e.uuidAttr,
@@ -48684,8 +48691,8 @@ async function mc(e, t) {
 	}
 	return a;
 }
-var hc = new Map([...cn].flatMap(([e, t]) => {
-	let n = t.filter((e) => e.resolution === K.iedAddress);
+var hc = new Map([...ln].flatMap(([e, t]) => {
+	let n = t.filter((e) => e.resolution === G.iedAddress);
 	return n.length > 0 ? [[e, n]] : [];
 }));
 async function gc(e, t) {
@@ -48920,7 +48927,7 @@ function Jc(e) {
 		subtree: n
 	}) : []];
 }
-var Yc = U.definition, Xc = new Set(Object.entries(Yc).filter(([, e]) => e.attributes.sequence.includes("datSet")).map(([e]) => e));
+var Yc = H.definition, Xc = new Set(Object.entries(Yc).filter(([, e]) => e.attributes.sequence.includes("datSet")).map(([e]) => e));
 function Zc(e) {
 	let { value: t, step: n } = e, r = t !== void 0 && /^\d+$/.test(t) ? Number(t) : NaN;
 	return !Number.isInteger(r) || r < 0 || r > 4294967295 ? { refusal: "invalid" } : r > 4294967295 - n ? { refusal: "overflow" } : { next: String(r + n) };
@@ -49112,7 +49119,7 @@ async function ul(e) {
 		uuidTags: new Set([...a.values()].map((e) => e.tagName))
 	}, c = [];
 	for (let { refTagName: e, refRecords: t } of await dl(n, { subtreeUuids: i })) {
-		let n = W[e];
+		let n = U[e];
 		for (let i of t) {
 			if (r.has(i.id)) continue;
 			let { attributes: t, cause: o } = pl({
@@ -49142,7 +49149,7 @@ async function ul(e) {
 	return c;
 }
 async function dl(e, t) {
-	let n = [...t.subtreeUuids], r = Mt.flatMap((e) => W[e].map((t) => ({
+	let n = [...t.subtreeUuids], r = Nt.flatMap((e) => U[e].map((t) => ({
 		refTagName: e,
 		uuidAttribute: t.attribute.uuid
 	}))), i = await Promise.all(r.map(function({ refTagName: t, uuidAttribute: r }) {
@@ -49151,7 +49158,7 @@ async function dl(e, t) {
 			attributes: { [r]: n }
 		});
 	}));
-	return Promise.all(Mt.map(async function(t) {
+	return Promise.all(Nt.map(async function(t) {
 		return {
 			refTagName: t,
 			refRecords: await qs(e, {
@@ -49162,7 +49169,7 @@ async function dl(e, t) {
 	}));
 }
 function fl(e) {
-	return jt.has(e.tagName) ? "cleared" : "deleted";
+	return Mt.has(e.tagName) ? "cleared" : "deleted";
 }
 function pl(e) {
 	let { refPairs: t, refRecord: n, byUuid: r } = e, i = /* @__PURE__ */ new Set(), a;
@@ -49342,7 +49349,7 @@ function Sl(e) {
 function Cl(e) {
 	let t = /* @__PURE__ */ new Map(), n = e ? pn.get(e.tagName) : void 0;
 	if (!e || !n) return t;
-	let r = Xt[e.tagName];
+	let r = Zt[e.tagName];
 	for (let i of n) {
 		let n = q({
 			record: e,
@@ -49590,9 +49597,9 @@ function Hl(e) {
 	return e.places.movedBy.has(e.id);
 }
 var Ul = new Set([
-	K.ancestorName,
-	K.scopedName,
-	K.behaviorDescription
+	G.ancestorName,
+	G.scopedName,
+	G.behaviorDescription
 ]), Wl = Gl();
 function Gl() {
 	let e = /* @__PURE__ */ new Map();
@@ -49618,7 +49625,7 @@ function Yl() {
 	}
 	return t;
 }
-var Xl = G;
+var Xl = W;
 Zl();
 function Zl() {
 	let e = Yl();
@@ -49774,7 +49781,7 @@ function vu(e) {
 		id: n
 	}).findLast((e) => e.tagName === r);
 }
-var yu = new Map((on.get("ConnectivityNode") ?? []).map((e) => [e.refTagName, e])), bu = new Set([
+var yu = new Map((sn.get("ConnectivityNode") ?? []).map((e) => [e.refTagName, e])), bu = new Set([
 	"Substation",
 	"Line",
 	"Process"
@@ -49797,15 +49804,15 @@ function Su(e) {
 var Cu = "Private", wu = "type", Tu = "BehaviorDescription";
 function Eu(e) {
 	let { pair: t, referrerAncestry: n, target: r, targetAncestry: i } = e;
-	if (t.resolution === K.ancestorName) {
+	if (t.resolution === G.ancestorName) {
 		let e = i.findLast(Du);
 		return e !== void 0 && n.some((t) => t.id === e.id);
 	}
-	if (t.resolution === K.scopedName) {
+	if (t.resolution === G.scopedName) {
 		let e = zi(t), r = n.findLast((t) => t.tagName === e), a = i.findLast((t) => t.tagName === e);
 		return r !== void 0 && r.id === a?.id;
 	}
-	if (t.resolution === K.behaviorDescription) {
+	if (t.resolution === G.behaviorDescription) {
 		let e = Ou({ referrerAncestry: n });
 		return e !== void 0 && (r.id === e.id || i.some((t) => t.id === e.id));
 	}
@@ -49850,7 +49857,7 @@ function Nu(e) {
 	];
 }
 function Pu(e) {
-	return Ml({ pairs: G[e] ?? [] });
+	return Ml({ pairs: W[e] ?? [] });
 }
 function Fu(e) {
 	let { targets: t, specNamings: n } = e, r = Ru(t), i = {
@@ -49940,7 +49947,7 @@ function Iu(e) {
 	}
 }
 function Lu(e) {
-	let { target: t, specNamings: n } = e, { record: r, ancestry: i, uuid: a } = t, o = sn.get(r.tagName), s = q({
+	let { target: t, specNamings: n } = e, { record: r, ancestry: i, uuid: a } = t, o = cn.get(r.tagName), s = q({
 		record: r,
 		name: "name",
 		defaults: "none"
@@ -50062,10 +50069,10 @@ function Uu() {
 	});
 }
 var Wu = new Set([
-	K.behaviorDescription,
-	K.iedAddress,
-	K.ancestorName,
-	K.scopedName
+	G.behaviorDescription,
+	G.iedAddress,
+	G.ancestorName,
+	G.scopedName
 ]);
 function Gu() {
 	let e = new Map([...Ln.types.keys()].map((e) => [e, /* @__PURE__ */ new Map()]));
@@ -50340,7 +50347,7 @@ function ld() {
 				record: a,
 				name: "type",
 				defaults: "none"
-			}) === U.namespaces.v2019C1.prefix && t.set(s.id, a);
+			}) === H.namespaces.v2019C1.prefix && t.set(s.id, a);
 		}
 	}
 	function a() {
@@ -50353,7 +50360,7 @@ function ld() {
 			}), d = t.get(r.id), f = d ?? ud(r), p = {
 				id: crypto.randomUUID(),
 				tagName: "LNodeSpecNaming",
-				namespace: U.namespaces.v2019C1,
+				namespace: H.namespaces.v2019C1,
 				attributes: l,
 				value: "",
 				parent: {
@@ -50406,10 +50413,10 @@ function ud(e) {
 	return {
 		id: crypto.randomUUID(),
 		tagName: "Private",
-		namespace: U.namespaces.default,
+		namespace: H.namespaces.default,
 		attributes: [{
 			name: "type",
-			value: U.namespaces.v2019C1.prefix
+			value: H.namespaces.v2019C1.prefix
 		}],
 		value: "",
 		parent: {
@@ -50452,7 +50459,7 @@ function pd() {
 			});
 			return;
 		}
-		let s = ln.get(i.tagName);
+		let s = K.get(i.tagName);
 		s && e.set(i.id, {
 			tagName: i.tagName,
 			name: o.name,
@@ -50493,7 +50500,7 @@ function pd() {
 		function d(e) {
 			let [, t] = e;
 			if (!t.mappedName && !t.mappedLnUuid) return;
-			let n = ln.get(t.tagName);
+			let n = K.get(t.tagName);
 			if (n) return f({
 				entry: e,
 				attributeNames: n
@@ -50720,7 +50727,7 @@ function xd() {
 			ancestry: r,
 			uuid: a
 		});
-		let o = (G[t.tagName] ?? []).flatMap((e) => {
+		let o = (W[t.tagName] ?? []).flatMap((e) => {
 			let n = q({
 				record: t,
 				name: e.attribute.uuid,
@@ -51028,7 +51035,7 @@ function jd(e) {
 		formerFunctionBase: o ? Ri(o) ?? void 0 : void 0,
 		nameScope: zi(t.pair)
 	});
-	if (!s && t.uuidValue && t.pair.resolution === K.scopedName) return Fd({
+	if (!s && t.uuidValue && t.pair.resolution === G.scopedName) return Fd({
 		pending: t,
 		uuid: t.uuidValue,
 		index: n,
@@ -51037,7 +51044,7 @@ function jd(e) {
 		formerForm: !1
 	});
 	if (!s) return { diagnostics: [] };
-	let c = [s.lookupKey, ...s.fallbackLookupKeys ?? []], l = c.find((e) => n.byPath.has(e) || n.shared.has(e)), u = l !== void 0 && n.shared.has(l) ? l : void 0, d = u === void 0 ? l : void 0, f = d ? n.byPath.get(d) : void 0, p = d !== void 0 && (n.legacyKeys.has(d) || (a || t.pair.resolution === K.scopedName) && d !== s.lookupKey);
+	let c = [s.lookupKey, ...s.fallbackLookupKeys ?? []], l = c.find((e) => n.byPath.has(e) || n.shared.has(e)), u = l !== void 0 && n.shared.has(l) ? l : void 0, d = u === void 0 ? l : void 0, f = d ? n.byPath.get(d) : void 0, p = d !== void 0 && (n.legacyKeys.has(d) || (a || t.pair.resolution === G.scopedName) && d !== s.lookupKey);
 	if (t.uuidValue) return Fd({
 		pending: t,
 		uuid: t.uuidValue,
@@ -51141,7 +51148,7 @@ function Pd(e) {
 function Fd(e) {
 	let { pending: t, uuid: n, index: r, specNamings: i, pathUuid: a, formerForm: o } = e;
 	if (a === n) {
-		let e = t.alwaysStandardize && t.pair.resolution !== K.lnode;
+		let e = t.alwaysStandardize && t.pair.resolution !== G.lnode;
 		return Id({
 			pending: t,
 			index: r,
@@ -51301,7 +51308,7 @@ function Hd(e) {
 }
 function Ud(e) {
 	let { pair: t, ancestry: n } = e;
-	if (t.resolution !== K.iedAddress) return;
+	if (t.resolution !== G.iedAddress) return;
 	let r = n?.findLast((e) => e.tagName === "LNode");
 	return r ? { mappedLnPath: Ar(J({
 		record: r,
@@ -51311,7 +51318,7 @@ function Ud(e) {
 function Wd(e) {
 	let { ancestry: t, index: n } = e, r = t?.findLast((e) => e.tagName === "FunctionRef");
 	if (!r) return;
-	let [i] = W.FunctionRef, a = i.target;
+	let [i] = U.FunctionRef, a = i.target;
 	function o(e) {
 		let t = e ? n.targetsByUuid.get(e) : void 0;
 		return t && a.includes(t.tagName) ? t.path : void 0;
@@ -51366,7 +51373,7 @@ function Jd(e) {
 	let { several: t, dataPath: n, untyped: r } = e;
 	return t ? "several elements" : n ? r ? `an element of no type to split its data ${n} by` : `an element whose type holds no ${n}` : "no element";
 }
-var Yd = G.LNode[0];
+var Yd = W.LNode[0];
 ({
 	lnUuid: Yd.attribute.uuid,
 	iedName: "attribute" in Yd.tuple.ied ? Yd.tuple.ied.attribute : void 0,
@@ -51393,7 +51400,7 @@ async function ef(e, t) {
 	return nf(t.ref, n);
 }
 function tf(e, t) {
-	return H[e]?.attributes?.details?.[t]?.default;
+	return Et[e]?.attributes?.details?.[t]?.default;
 }
 async function nf(e, t) {
 	let n = `${e.tagName}:${e.id}`, r = t.signatureCache.get(n);
@@ -51458,7 +51465,7 @@ async function af(e, t, n, r) {
 	return null;
 }
 function of(e, t) {
-	return Xt[e.tagName]?.find((n) => n.attribute === t && sf(e, n));
+	return Zt[e.tagName]?.find((n) => n.attribute === t && sf(e, n));
 }
 function sf(e, t) {
 	return t.when ? q({
@@ -51468,10 +51475,10 @@ function sf(e, t) {
 	}) === t.when.equals : !0;
 }
 function cf(e, t) {
-	return W[e]?.find((e) => e.attribute.uuid === t);
+	return U[e]?.find((e) => e.attribute.uuid === t);
 }
 function lf(e) {
-	let t = W[e];
+	let t = U[e];
 	return t ? new Set(t.map((e) => e.attribute.path)) : Qd;
 }
 async function uf(e) {
@@ -51930,7 +51937,7 @@ async function jf(e, t) {
 	for (let { source: t, target: a } of n) {
 		let n = await e.getRecord(a);
 		if (!n) continue;
-		let o = {}, s = Xt[a.tagName];
+		let o = {}, s = Zt[a.tagName];
 		for (let e of s) {
 			let a = q({
 				record: t,
@@ -51990,7 +51997,7 @@ function Lf(e) {
 var Rf = Mi.get("cb") ?? [], zf = Bf();
 function Bf() {
 	let e = Lf({
-		pairs: G.ExtRef,
+		pairs: W.ExtRef,
 		kind: "cb"
 	});
 	return h(e && If(e), {
@@ -51998,7 +52005,7 @@ function Bf() {
 		detail: "an ExtRef names the control block publishing its signal"
 	}), e;
 }
-new Set(Rf.flatMap((e) => xt[e]).filter((e) => e in G));
+new Set(Rf.flatMap((e) => xt[e]).filter((e) => e in W));
 var Vf = [
 	"ln",
 	"ld",
@@ -52007,7 +52014,7 @@ var Vf = [
 Vf[Vf.length - 1], Hf();
 function Hf() {
 	let e = Lf({
-		pairs: G.IEDName,
+		pairs: W.IEDName,
 		kind: "ap"
 	});
 	return h(e?.tuple.accessPoint, {
@@ -52016,11 +52023,11 @@ function Hf() {
 	}), e.tuple.accessPoint;
 }
 var Uf = {
-	SourceRef: Wf(W.SourceRef),
-	ControlRef: Wf(W.ControlRef)
+	SourceRef: Wf(U.SourceRef),
+	ControlRef: Wf(U.ControlRef)
 };
 function Wf(e) {
-	let t = e.find((e) => e.resolution === K.lnode), n = e.find((e) => e.resolution === K.iedAddress);
+	let t = e.find((e) => e.resolution === G.lnode), n = e.find((e) => e.resolution === G.iedAddress);
 	h(t && n, {
 		key: "ASSERTION_FAILED",
 		detail: "a signal names a logical node and the element implementing it"
@@ -52084,7 +52091,7 @@ function Jf(e) {
 	let { ied: t, lDevice: n, lnClass: r } = e.tuple;
 	return "attribute" in t && n !== void 0 && r !== void 0;
 }
-var Yf = Zf(G.ExtRef), Xf = Zf(G.ExtCtrl);
+var Yf = Zf(W.ExtRef), Xf = Zf(W.ExtCtrl);
 function Zf(e) {
 	let t = Lf({
 		pairs: e,
@@ -52263,7 +52270,7 @@ async function wp(e, t) {
 			name: "uuid"
 		}) };
 		le({
-			dialecteConfig: U,
+			dialecteConfig: H,
 			record: t,
 			attributeName: "originUuid"
 		}).isDefined && (i.originUuid = Sp({
@@ -52331,7 +52338,7 @@ async function Op(e, t) {
 }
 function kp(e) {
 	return le({
-		dialecteConfig: U,
+		dialecteConfig: H,
 		record: e,
 		attributeName: "templateUuid"
 	}).isDefined;
@@ -52379,16 +52386,16 @@ var Np = {
 	ExtCtrl: Ip
 };
 async function Pp(e) {
-	let { record: t, attributes: n } = e, r = cn.get(t.tagName) ?? [];
+	let { record: t, attributes: n } = e, r = ln.get(t.tagName) ?? [];
 	return {
 		binding: _p({
 			pairs: r,
-			resolution: K.lnode,
+			resolution: G.lnode,
 			attributes: n
 		}) ? "connected" : "open",
 		implemented: _p({
 			pairs: r,
-			resolution: K.iedAddress,
+			resolution: G.iedAddress,
 			attributes: n
 		})
 	};
@@ -52710,7 +52717,7 @@ async function om(e, t) {
 	};
 }
 async function sm(e, t) {
-	let n = U.transparentElements, r = (await e.getRecord(t.ref))?.parent;
+	let n = H.transparentElements, r = (await e.getRecord(t.ref))?.parent;
 	for (; r && n.includes(r.tagName);) r = (await e.getRecord(r))?.parent;
 	return r ? R(r) : void 0;
 }
@@ -52987,7 +52994,7 @@ async function Cm(e) {
 function wm(e) {
 	return he({
 		record: e.record,
-		dialecteConfig: U
+		dialecteConfig: H
 	});
 }
 async function Tm(e) {
@@ -53005,7 +53012,7 @@ function Em(e) {
 	}
 	let s = (o ?? "").trim();
 	if (s) return s;
-	let c = (H[t]?.attributes?.identityFields ?? []).filter((e) => !Bp.has(e)), l = c.find((e) => e === "name" || e === "id") ?? c[0];
+	let c = (Et[t]?.attributes?.identityFields ?? []).filter((e) => !Bp.has(e)), l = c.find((e) => e === "name" || e === "id") ?? c[0];
 	return l && i[l] ? i[l] : i.name || t;
 }
 function Dm(e) {
@@ -53285,7 +53292,7 @@ function dh(e) {
 }
 function fh(e) {
 	let { tree: t, parentTagName: n, tagOf: r } = e, i = r(t.tagName), a = j({
-		dialecteConfig: U,
+		dialecteConfig: H,
 		record: {
 			tagName: i,
 			parent: {
@@ -53477,7 +53484,7 @@ function xh(e) {
 	return t.length - n.length;
 }
 async function Sh(e, t) {
-	let { sourceQuery: n, scopeRef: r, refTagName: i, targetTagName: a, alreadyCloned: o } = t, s = W[i][0].attribute.uuid, { [i]: c = [] } = await n.findDescendants(r, { collect: i }), l = /* @__PURE__ */ new Set();
+	let { sourceQuery: n, scopeRef: r, refTagName: i, targetTagName: a, alreadyCloned: o } = t, s = U[i][0].attribute.uuid, { [i]: c = [] } = await n.findDescendants(r, { collect: i }), l = /* @__PURE__ */ new Set();
 	for (let e of c) {
 		let t = q({
 			record: e,
@@ -53527,8 +53534,8 @@ async function Ch(e, t) {
 	return d;
 }
 async function wh(e, t) {
-	let { sourceQuery: n, scopeTagName: r, scopeRef: i, resolveTargetParent: a, alreadyCloned: o, skip: s = /* @__PURE__ */ new Set(), omit: c, leaveOut: l } = t, u = (xt[r] ?? []).filter((e) => e in W && !s.has(e)), d = Ch, f = [];
-	for (let t of u) for (let r of W[t]) for (let s of r.target) {
+	let { sourceQuery: n, scopeTagName: r, scopeRef: i, resolveTargetParent: a, alreadyCloned: o, skip: s = /* @__PURE__ */ new Set(), omit: c, leaveOut: l } = t, u = (xt[r] ?? []).filter((e) => e in U && !s.has(e)), d = Ch, f = [];
+	for (let t of u) for (let r of U[t]) for (let s of r.target) {
 		let r = await d(e, {
 			sourceQuery: n,
 			scopeRef: i,
@@ -53845,7 +53852,7 @@ function Zh(e) {
 	}
 }
 async function Qh(e, t) {
-	let n = W[t.tagName];
+	let n = U[t.tagName];
 	if (!n) return;
 	let r = [];
 	for (let i of n) {
@@ -53868,7 +53875,7 @@ async function $h(e, t) {
 async function eg(e, t, n) {
 	let { placeholderLineages: r, targetLineages: i } = n;
 	if (r.size === 0) return;
-	let a = W[t.tagName];
+	let a = U[t.tagName];
 	if (!a) return;
 	let o = await e.any.getAttributes(t);
 	for (let e of a) {
@@ -53936,7 +53943,7 @@ async function og(e, t) {
 	}), l = await ig(e, {
 		nodes: [...c.values()],
 		matchKey: a,
-		referrerTags: Nt
+		referrerTags: Pt
 	});
 	async function u({ source: t, instanceRef: r }) {
 		let i = await n.any.getAttribute(t.ref, { name: "uuid" });
@@ -54029,7 +54036,7 @@ async function sg(e) {
 }
 async function cg(e, t) {
 	let { node: n, side: r, identities: i } = t;
-	if (n.tagName in W) {
+	if (n.tagName in U) {
 		let t = await qh(e, n, r);
 		t && i.add(t);
 	}
@@ -54329,7 +54336,7 @@ async function jg(e, t) {
 		defaults: "none"
 	}) === r) : [];
 	if (s.length > 0) return s;
-	if ("uuid" in U.definition[n].attributes.details || a?.kind !== "fields") return [];
+	if ("uuid" in H.definition[n].attributes.details || a?.kind !== "fields") return [];
 	let c = [];
 	for (let t of o) xp(await bp(e, t), a) && c.push(t);
 	return c.length === 1 ? c : [];
@@ -54423,7 +54430,7 @@ async function Bg(e, t) {
 async function Vg(e, t) {
 	let { node: n, foreignScope: r, foreignReferenceIds: i } = t;
 	for (let t of n.tree) {
-		if (!Nt.has(t.tagName)) {
+		if (!Pt.has(t.tagName)) {
 			await Vg(e, {
 				node: t,
 				foreignScope: r,
@@ -54522,7 +54529,7 @@ async function qg(e, t) {
 async function Jg(e, t) {
 	let { node: n, instanceScope: r, contributions: i } = t;
 	for (let t of n.tree) {
-		if (!Nt.has(t.tagName)) {
+		if (!Pt.has(t.tagName)) {
 			await Jg(e, {
 				node: t,
 				instanceScope: r,
@@ -54551,9 +54558,9 @@ async function Yg(e, t) {
 		});
 	}
 }
-var Xg = ["Variable", "BehaviorDescription"], Zg = new Set(Xg), Qg = new Set(zt.filter(function(e) {
+var Xg = ["Variable", "BehaviorDescription"], Zg = new Set(Xg), Qg = new Set(Bt.filter(function(e) {
 	return !Zg.has(e);
-})), $g = new Map(Object.entries(W).flatMap(function([e, t]) {
+})), $g = new Map(Object.entries(U).flatMap(function([e, t]) {
 	return t.flatMap(function(t) {
 		return t.target.every(function(e) {
 			return Zg.has(e);
@@ -54564,7 +54571,7 @@ var Xg = ["Variable", "BehaviorDescription"], Zg = new Set(Xg), Qg = new Set(zt.
 	});
 })), e_ = Xg.flatMap(function(e) {
 	return B[e].flatMap(function(t) {
-		let n = W[t];
+		let n = U[t];
 		return n ? [{
 			satelliteTag: e,
 			tagName: t,
@@ -54914,7 +54921,7 @@ function x_(e) {
 	return a;
 }
 function S_(e) {
-	let { reference: t, scope: n } = e, r = W[t.tagName];
+	let { reference: t, scope: n } = e, r = U[t.tagName];
 	for (let e of r ?? []) {
 		let r = q({
 			record: t,
@@ -54933,7 +54940,7 @@ function S_(e) {
 	return C_({ reference: t });
 }
 function C_(e) {
-	let { reference: t } = e, n = W[t.tagName];
+	let { reference: t } = e, n = U[t.tagName];
 	for (let e of n ?? []) {
 		let n = e.target;
 		if (!T_(n)) continue;
@@ -55224,7 +55231,7 @@ function z_(e) {
 function B_(e) {
 	let { ancestors: t, structure: n } = e, r = t.find(function(e) {
 		return e.tagName in n;
-	}), i = Rt.map(function(e) {
+	}), i = zt.map(function(e) {
 		return n[e];
 	}).find(Boolean);
 	return R(r ? n[r.tagName] : i);
@@ -55692,7 +55699,7 @@ function Sv(e) {
 var Cv = {
 	entry: "FCDA",
 	input: "ExtRef"
-}, wv = new Set(G.FCDA[0].target);
+}, wv = new Set(W.FCDA[0].target);
 function Tv(e) {
 	let { index: t, omit: n, notSelected: r } = e, i = [], a = e.node.tree.map((t) => ({
 		child: t,
@@ -56871,7 +56878,7 @@ async function Qy(e, t) {
 	return o && { record: o };
 }
 async function $y(e, t) {
-	let n = W[t.record.tagName] ?? [], r = await e.any.getAttributes(t.record), i = n.flatMap((e) => {
+	let n = U[t.record.tagName] ?? [], r = await e.any.getAttributes(t.record), i = n.flatMap((e) => {
 		let t = r[e.attribute.path];
 		return t ? [`${e.attribute.path}=${t}`] : [];
 	});
@@ -56923,7 +56930,7 @@ var nb = new Set(["IED"]), rb = new Map([["ExtRef", [[
 function ab(e) {
 	let t = `${e.parentTag}>${e.childTag}`, n = ib.get(t);
 	if (n !== void 0) return n;
-	let r = H[e.parentTag]?.contentModel, i = r ? ob({
+	let r = Et[e.parentTag]?.contentModel, i = r ? ob({
 		particle: r,
 		childTag: e.childTag
 	}) === !0 : !1;
@@ -57057,16 +57064,16 @@ var db = {
 	attributes: new Set(un),
 	listedAsKept: /* @__PURE__ */ new Map()
 }, pb = {
-	attributes: new Set([Gt, Kt]),
+	attributes: new Set([Kt, qt]),
 	listedAsKept: /* @__PURE__ */ new Map()
 }, mb = new Map((pn.get("LNode") ?? []).map((e) => [e, "bound-logical-node"])), hb = {
 	attributes: new Set([...un, ...mb.keys()]),
 	listedAsKept: mb
 }, gb = {
-	attributes: new Set([...Ut, ...mb.keys()]),
+	attributes: new Set([...Wt, ...mb.keys()]),
 	listedAsKept: mb
 }, _b = {
-	attributes: new Set(Ut),
+	attributes: new Set(Wt),
 	listedAsKept: /* @__PURE__ */ new Map()
 }, vb = new Map([...new Map([["BehaviorDescription", ["fileReference"]], ["Variable", ["value"]]])].map(([e, t]) => [e, {
 	attributes: new Set(t),
@@ -57089,7 +57096,7 @@ function xb(e) {
 		let t = wb(e.boundLogicalNodeTypes ?? "follow");
 		return e.bindingFollows ? t ? gb : _b : t ? hb : fb;
 	}
-	if (t === "LNodeSpecNaming" && wr({ iedName: n[Gt] })) return pb;
+	if (t === "LNodeSpecNaming" && wr({ iedName: n[Kt] })) return pb;
 	if (!Tb(r)) return db;
 	let i = bb.get(t);
 	return i && Sb({
@@ -57193,7 +57200,7 @@ function jb(e) {
 		retargets: e.retargets
 	}), c = fn.get(o)?.attributes ?? [], l = pn.get(o) ?? [], u = Pb(a), d = {};
 	for (let [e, i] of Object.entries(n)) Bp.has(e) || s.has(e) || l.includes(e) || e === "name" && !u || c.some((t) => t.name === e) || r({
-		dialecteConfig: U,
+		dialecteConfig: H,
 		record: t,
 		attributeName: e,
 		value: i
@@ -57495,7 +57502,7 @@ async function Ib(e) {
 			});
 			continue;
 		}
-		if (Ba.has(t.tagName) && !jt.has(t.tagName)) {
+		if (Ba.has(t.tagName) && !Mt.has(t.tagName)) {
 			let r = s ? { sibling: !0 } : await Vb({
 				targetQuery: n,
 				instanceChild: t,
@@ -58112,7 +58119,7 @@ async function tx(e, t) {
 	}
 	for (let t of f ? w : []) await om(e, { ref: R(t) });
 	for (let n of i.tree) if (!b.has(n.id) && !m?.includes(n.tagName) && !await e.any.getAttribute(n, { name: l })) {
-		if (Ba.has(n.tagName) && !jt.has(n.tagName) && xg({ tagName: n.tagName }) === "removed") {
+		if (Ba.has(n.tagName) && !Mt.has(n.tagName) && xg({ tagName: n.tagName }) === "removed") {
 			if (v && !o || o && !o.instanceIds.has(n.id)) continue;
 		} else if (t.valueOwnership.lostData.has(n.id)) {
 			if (o && !o.instanceIds.has(n.id)) continue;
@@ -58579,7 +58586,7 @@ function Mx(e) {
 		id: e.id
 	};
 }
-var Nx = [...Rt, ...zt];
+var Nx = [...zt, ...Bt];
 async function Px(e, t) {
 	let { sourceQuery: n, scopeRef: r, targetParent: i, leftOut: a } = t, o = t.placementLevels ?? await Fx(e, {
 		sourceQuery: n,
@@ -58686,7 +58693,7 @@ async function Rx(e, t) {
 		id: e.id
 	});
 	n.push(t);
-	let i = Rt, a = i.indexOf(t.tagName), o = i.length - 1 - a, s = a >= 0 && o > 0 ? await e.any.getTree(t, { depth: o }) : void 0;
+	let i = zt, a = i.indexOf(t.tagName), o = i.length - 1 - a, s = a >= 0 && o > 0 ? await e.any.getTree(t, { depth: o }) : void 0;
 	for (let e of i) s && n.push(...zx({
 		node: s,
 		tagName: e
@@ -58802,7 +58809,7 @@ async function Gx(e, t) {
 }
 async function Kx(e) {
 	let t = [];
-	for (let n of Rt) {
+	for (let n of zt) {
 		let r = await e.getRecordsByTagName(n);
 		for (let e of r) {
 			let r = q({
@@ -58834,8 +58841,8 @@ function qx(e) {
 	});
 }
 function Jx(e) {
-	let { structure: t } = e, n = Rt.indexOf(e.tagName);
-	for (let e of Rt.slice(0, n + 1).reverse()) {
+	let { structure: t } = e, n = zt.indexOf(e.tagName);
+	for (let e of zt.slice(0, n + 1).reverse()) {
 		let n = t[e];
 		if (n) return n;
 	}
@@ -59736,7 +59743,7 @@ async function OS(e, t) {
 		return t ? [t] : [];
 	}));
 }
-var kS = "FunctionalVariantRef", [AS] = W[kS], jS = AS.attribute, MS = new Set(AS.target), NS = new Set([...MS].flatMap((e) => U.parents[e])), PS = W.FunctionRef[0].attribute.uuid, FS = "remove", IS = {
+var kS = "FunctionalVariantRef", [AS] = U[kS], jS = AS.attribute, MS = new Set(AS.target), NS = new Set([...MS].flatMap((e) => H.parents[e])), PS = U.FunctionRef[0].attribute.uuid, FS = "remove", IS = {
 	variantsNotSelected: [],
 	leftOut: /* @__PURE__ */ new Set(),
 	within: /* @__PURE__ */ new Set()
@@ -60026,7 +60033,7 @@ function $S(e) {
 function eC(e) {
 	let { node: t, leftOut: n, leftOutUuids: r } = e;
 	if (!n.has(t.id)) {
-		if ((W[t.tagName] ?? []).some((e) => r.has(q({
+		if ((U[t.tagName] ?? []).some((e) => r.has(q({
 			record: t,
 			name: e.attribute.uuid,
 			defaults: "none"
@@ -60178,7 +60185,7 @@ async function cC(e) {
 		undecided: !1
 	};
 }
-var lC = Rt;
+var lC = zt;
 async function uC(e, t) {
 	let { sourceQuery: n, primaryRefs: r, anchor: i, decisionMappings: a } = t, o = await ih(e, i), s = dC(Object.keys(o)), c = /* @__PURE__ */ new Map(), l = -1;
 	for (let t of r) {
@@ -60395,9 +60402,9 @@ async function DC(e, t) {
 }
 function OC(e) {
 	return {
-		path: `${e.path}/${Lt}`,
+		path: `${e.path}/${Rt}`,
 		segments: [...e.segments, {
-			segment: Lt,
+			segment: Rt,
 			separator: "/",
 			ref: { tagName: "ConnectivityNode" }
 		}]
@@ -61591,18 +61598,18 @@ function iw(e) {
 function aw(e) {
 	return [e, ...e.tree.flatMap(aw)];
 }
-new Map(Object.entries(G).flatMap(([e, t]) => e === "LNode" ? [] : [[e, t.map((e) => e.attribute.uuid)]]));
-var ow = [K.direct, K.lnode];
-ow.flatMap((e) => [...rn[e].values()].flat()).reduce(function(e, t) {
+new Map(Object.entries(W).flatMap(([e, t]) => e === "LNode" ? [] : [[e, t.map((e) => e.attribute.uuid)]]));
+var ow = [G.direct, G.lnode];
+ow.flatMap((e) => [...an[e].values()].flat()).reduce(function(e, t) {
 	return e.set(t.refTagName, [...new Set([...e.get(t.refTagName) ?? [], t.uuidAttr])]), e;
-}, /* @__PURE__ */ new Map()), new Set(ow.flatMap((e) => [...rn[e].keys()]));
+}, /* @__PURE__ */ new Map()), new Set(ow.flatMap((e) => [...an[e].keys()]));
 function sw(e) {
 	return [e, ...e.children.flatMap(sw)];
 }
 function cw(e) {
 	return [e, ...e.tree.flatMap(cw)];
 }
-var lw = W.FunctionRef.flatMap((e) => e.target), uw = (() => {
+var lw = U.FunctionRef.flatMap((e) => e.target), uw = (() => {
 	let e = lw[0], t = Object.entries(ah).filter(([, e]) => lw.includes(e)).map(([e]) => e);
 	return new Map([...lw, ...t].map((t) => [t, e]));
 })();
@@ -61694,13 +61701,13 @@ var _w = new Set([
 	"Line",
 	"Process"
 ]);
-new Set(["LNode", ...U.ancestors.LNode]), new Set(Object.entries(W).filter(function([, e]) {
+new Set(["LNode", ...H.ancestors.LNode]), new Set(Object.entries(U).filter(function([, e]) {
 	return e.some(function(e) {
 		return e.target.includes("ConnectivityNode");
 	});
 }).map(function([e]) {
 	return e;
-})), new Set([...Rt, ..._w]);
+})), new Set([...zt, ..._w]);
 function vw(e) {
 	return e.pairedByName !== void 0 || e.children.some(vw);
 }
@@ -61826,7 +61833,7 @@ async function Sw(e, t) {
 		node: a,
 		out: o
 	}), async (t) => {
-		let r = W[t.tagName];
+		let r = U[t.tagName];
 		if (!r) return "keep";
 		for (let a of r) {
 			let r = await e.any.getAttribute(t, { name: a.attribute.uuid });
@@ -61846,7 +61853,7 @@ async function Sw(e, t) {
 	};
 }
 async function Cw(e, t) {
-	let { node: n, out: r } = t, i = W[n.tagName];
+	let { node: n, out: r } = t, i = U[n.tagName];
 	if (i) for (let t of i) {
 		let i = await e.any.getAttribute(n, { name: t.attribute.uuid });
 		i && r.add(i);
@@ -62863,8 +62870,8 @@ function nT(e) {
 	let { node: t } = e, n = t.change === "removed" || t.change === "target-only" ? [t] : [], r = t.children.filter((e) => e.change !== "target-only" && !e.requiresDecision).flatMap((e) => nT({ node: e }));
 	return [...n, ...r];
 }
-var rT = H.LDevice.attributes.details.inst.type.facets, iT = H.LN.attributes.details.prefix.type.facets, aT = H.LN.attributes.details.inst.type.facets;
-RegExp(`^(?:${rT.pattern[0].join("|")})$`), RegExp(`^(?:${iT.pattern[0].filter((e) => e !== "").join("|")})$`), iT.maxLength, RegExp(`^(?:${aT.pattern[0].join("|")})$`), H.LDevice.attributes.details.ldName.type.facets.maxLength, new Set([
+var rT = Et.LDevice.attributes.details.inst.type.facets, iT = Et.LN.attributes.details.prefix.type.facets, aT = Et.LN.attributes.details.inst.type.facets;
+RegExp(`^(?:${rT.pattern[0].join("|")})$`), RegExp(`^(?:${iT.pattern[0].filter((e) => e !== "").join("|")})$`), iT.maxLength, RegExp(`^(?:${aT.pattern[0].join("|")})$`), Et.LDevice.attributes.details.ldName.type.facets.maxLength, new Set([
 	"Function",
 	"SubFunction",
 	"EqFunction",
@@ -62874,13 +62881,13 @@ RegExp(`^(?:${rT.pattern[0].join("|")})$`), RegExp(`^(?:${iT.pattern[0].filter((
 	"Line",
 	"Process"
 ]);
-var [oT] = W.FunctionRef, sT = oT.target;
+var [oT] = U.FunctionRef, sT = oT.target;
 oT.attribute, cT({
 	from: sT,
 	to: "LNode"
 });
 function cT(e) {
-	let t = B, n = new Set(U.transparentElements), r = /* @__PURE__ */ new Set(), i = [...e.from];
+	let t = B, n = new Set(H.transparentElements), r = /* @__PURE__ */ new Set(), i = [...e.from];
 	for (; i.length > 0;) {
 		let e = i.pop();
 		r.has(e) || n.has(e) || (r.add(e), i.push(...t[e] ?? []));
@@ -62892,10 +62899,10 @@ function cT(e) {
 	}
 	return [...r].filter((e) => a.has(e));
 }
-new Set(Object.values(kt).map((e) => e.uri)), new Set(Object.values(kt).map((e) => e.prefix).filter(Boolean));
+new Set(Object.values(At).map((e) => e.uri)), new Set(Object.values(At).map((e) => e.prefix).filter(Boolean));
 //#endregion
 //#region src/data-type-templates/dialecte/query/list-selector-locked-paths.ts
-var lT = U.namespaces.v2019C1.prefix;
+var lT = H.namespaces.v2019C1.prefix;
 async function uT(e, t) {
 	let n = /* @__PURE__ */ new Set(), r = await e.findByAttributes({
 		tagName: "LNode",
@@ -62967,7 +62974,11 @@ function _T(e) {
 		name: e.name,
 		bType: e.bType,
 		fc: e.fc ?? "",
-		vals: e.vals,
+		valKind: e.valKind ?? "Set",
+		vals: e.vals.map((e) => ({
+			value: e.value,
+			sGroup: e.sGroup ?? ""
+		})),
 		enumType: e.enumType ? gT(e.enumType) : "",
 		daType: e.daType ? hT(e.daType) : ""
 	};
@@ -63228,15 +63239,15 @@ async function RT(e, t, n, r, i) {
 		name: r.name,
 		bType: r.bType
 	};
-	n === "DA" && r.fc && (a.fc = r.fc), i && (a.type = i);
+	n === "DA" && r.fc && (a.fc = r.fc), r.valKind && (a.valKind = r.valKind), i && (a.type = i);
 	let o = await e.addChild(t, {
 		tagName: n,
 		attributes: a
 	});
 	for (let t of r.vals) await e.addChild(o, {
 		tagName: "Val",
-		attributes: {},
-		value: t
+		attributes: t.sGroup ? { sGroup: t.sGroup } : {},
+		value: t.value
 	});
 }
 async function zT(e, t, n, r, i) {
@@ -63540,7 +63551,8 @@ function wE(e) {
 		name: e.name,
 		bType: t,
 		fc: e.kind === "DA" ? e.fc : void 0,
-		vals: []
+		valKind: e.valKind,
+		vals: e.vals ?? []
 	};
 	return t === "Enum" && (n.enumType = {
 		baseName: e.enumName ?? e.key,
@@ -63566,14 +63578,14 @@ function EE(e, t, n) {
 	if (!n) return;
 	let r = e.find((e) => e.name === t);
 	if (r) {
-		r.vals = [n];
+		r.vals = [{ value: n }];
 		return;
 	}
 	e.push({
 		name: t,
 		bType: "VisString255",
 		fc: "EX",
-		vals: [n]
+		vals: [{ value: n }]
 	});
 }
 function DE(e, t, n, r = !1, i = !0) {
@@ -63593,6 +63605,8 @@ function DE(e, t, n, r = !1, i = !0) {
 		structName: e.typeKind === "CONSTRUCTED" ? e.type : void 0,
 		enumName: e.enumName,
 		enumVals: kE(e, c),
+		vals: c?.vals,
+		valKind: c?.valKind,
 		memberLnNs: e.kind === "DO" ? e.namespace?.lnNs : void 0,
 		isCustom: !1,
 		enabled: d,
@@ -63697,10 +63711,12 @@ function UE(e, t, n, r) {
 		name: t[t.length - 1] ?? "",
 		bType: r.bType,
 		fc: r.fc,
+		valKind: r.valKind,
 		enumVals: r.enumType?.vals.map((e) => ({
 			ord: e.ord,
 			value: e.value
 		})),
+		vals: r.vals,
 		matched: !1,
 		childKeys: a
 	});
@@ -63719,8 +63735,10 @@ function GE(e, t, n) {
 		presCond: "O",
 		cdc: t.cdc,
 		fc: t.fc,
+		valKind: t.valKind,
 		bType: t.bType,
 		enumVals: t.enumVals ?? [],
+		vals: t.vals ?? [],
 		isCustom: !0,
 		enabled: !0,
 		toggleLocked: !1,
@@ -64967,13 +64985,13 @@ var bD = "This type is exclusively used by IED LN instances and cannot be modifi
 }, rO = { class: "info-popup__title" }, iO = { class: "info-popup__grid" }, aO = {
 	key: 0,
 	class: "info-popup__condition-description"
-}, oO = {
+}, oO = { "data-testid": "dtt-node-type-default-label" }, sO = { "data-testid": "dtt-node-type-default-value" }, cO = {
 	key: 0,
 	class: "info-popup__meta"
-}, sO = {
+}, lO = {
 	key: 1,
 	class: "info-popup__meta"
-}, cO = /* @__PURE__ */ b(/* @__PURE__ */ m({
+}, uO = /* @__PURE__ */ b(/* @__PURE__ */ m({
 	__name: "info-popup",
 	props: { info: { default: void 0 } },
 	setup(e, { expose: t }) {
@@ -65003,48 +65021,78 @@ var bD = "This type is exclusively used by IED LN instances and cannot be modifi
 				t[4] ||= T("dt", null, "Condition:", -1),
 				T("dd", null, [x(a(r.info.condition) + " ", 1), r.info.conditionDescription ? (n(), I("span", aO, " — " + a(r.info.conditionDescription), 1)) : P("", !0)]),
 				r.info.type ? (n(), I(M, { key: 0 }, [t[0] ||= T("dt", null, "Type:", -1), T("dd", null, a(r.info.type), 1)], 64)) : P("", !0),
-				r.info.inheritedFrom ? (n(), I(M, { key: 1 }, [t[1] ||= T("dt", null, "Inherited:", -1), T("dd", null, a(r.info.inheritedFrom), 1)], 64)) : P("", !0),
-				r.info.cdc ? (n(), I(M, { key: 2 }, [t[2] ||= T("dt", null, "CDC:", -1), T("dd", null, [
+				r.info.values?.length ? (n(!0), I(M, { key: 1 }, u(r.info.values, (e, t) => (n(), I(M, { key: t }, [T("dt", oO, a(e.label) + ":", 1), T("dd", sO, a(e.value), 1)], 64))), 128)) : P("", !0),
+				r.info.inheritedFrom ? (n(), I(M, { key: 2 }, [t[1] ||= T("dt", null, "Inherited:", -1), T("dd", null, a(r.info.inheritedFrom), 1)], 64)) : P("", !0),
+				r.info.cdc ? (n(), I(M, { key: 3 }, [t[2] ||= T("dt", null, "CDC:", -1), T("dd", null, [
 					x(a(r.info.cdc) + " ", 1),
-					r.info.cdcTitle ? (n(), I("span", oO, " - " + a(r.info.cdcTitle), 1)) : P("", !0),
-					r.info.cdcCategory ? (n(), I("span", sO, " (" + a(r.info.cdcCategory) + ") ", 1)) : P("", !0)
+					r.info.cdcTitle ? (n(), I("span", cO, " - " + a(r.info.cdcTitle), 1)) : P("", !0),
+					r.info.cdcCategory ? (n(), I("span", lO, " (" + a(r.info.cdcCategory) + ") ", 1)) : P("", !0)
 				])], 64)) : P("", !0),
-				r.info.description ? (n(), I(M, { key: 3 }, [t[3] ||= T("dt", null, "Description:", -1), T("dd", null, a(r.info.description), 1)], 64)) : P("", !0)
+				r.info.description ? (n(), I(M, { key: 4 }, [t[3] ||= T("dt", null, "Description:", -1), T("dd", null, a(r.info.description), 1)], 64)) : P("", !0)
 			])
 		])) : P("", !0)], 512));
 	}
-}), [["__scopeId", "data-v-5825e64d"]]), lO = {}, uO = { class: "lnode-type-details-layout" }, dO = { class: "lnode-type-details-layout__header" }, fO = { class: "lnode-type-details-layout__body" }, pO = { class: "lnode-type-details-layout__tree" }, mO = { class: "lnode-type-details-layout__references" };
-function hO(e, t) {
-	return n(), I("section", uO, [T("header", dO, [k(e.$slots, "header", {}, void 0, !0)]), T("div", fO, [T("div", pO, [k(e.$slots, "tree", {}, void 0, !0)]), T("aside", mO, [k(e.$slots, "references", {}, void 0, !0)])])]);
+}), [["__scopeId", "data-v-612a6466"]]), dO = {}, fO = { class: "lnode-type-details-layout" }, pO = { class: "lnode-type-details-layout__header" }, mO = { class: "lnode-type-details-layout__body" }, hO = { class: "lnode-type-details-layout__tree" }, gO = { class: "lnode-type-details-layout__references" };
+function _O(e, t) {
+	return n(), I("section", fO, [T("header", pO, [k(e.$slots, "header", {}, void 0, !0)]), T("div", mO, [T("div", hO, [k(e.$slots, "tree", {}, void 0, !0)]), T("aside", gO, [k(e.$slots, "references", {}, void 0, !0)])])]);
 }
-var gO = /* @__PURE__ */ b(lO, [["render", hO], ["__scopeId", "data-v-ce2d87fb"]]), _O = {
+var vO = /* @__PURE__ */ b(dO, [["render", _O], ["__scopeId", "data-v-ce2d87fb"]]), yO = {
 	class: "reference-panel",
 	"data-testid": "dtt-reference-panel"
-}, vO = { class: "reference-panel__header" }, yO = { class: "reference-panel__list" }, bO = ["title"], xO = {
+}, bO = { class: "reference-panel__header" }, xO = { class: "reference-panel__list" }, SO = ["title"], CO = {
 	key: 0,
 	class: "reference-panel__empty"
-}, SO = /* @__PURE__ */ b(/* @__PURE__ */ m({
+}, wO = /* @__PURE__ */ b(/* @__PURE__ */ m({
 	__name: "reference-panel",
 	props: { references: { default: () => [] } },
 	emits: ["collapse"],
 	setup(e, { emit: t }) {
 		let r = e, i = t;
-		return (e, t) => (n(), I("div", _O, [T("div", vO, [T("span", null, "References (" + a(r.references.length) + ")", 1), T("button", {
+		return (e, t) => (n(), I("div", yO, [T("div", bO, [T("span", null, "References (" + a(r.references.length) + ")", 1), T("button", {
 			class: "btn btn-xs btn-ghost",
 			onClick: t[0] ||= (e) => i("collapse")
-		}, "collapse")]), T("ul", yO, [(n(!0), I(M, null, u(r.references, (e) => (n(), I("li", {
+		}, "collapse")]), T("ul", xO, [(n(!0), I(M, null, u(r.references, (e) => (n(), I("li", {
 			key: e.recordId,
 			"data-testid": "dtt-reference-item"
 		}, [T("span", { class: o(["badge badge-xs", e.isLocked ? "badge-error" : "badge-success"]) }, a(e.isLocked ? "locked" : "unlocked"), 3), T("span", {
 			class: "reference-panel__path",
 			title: e.path
-		}, [x(a(e.path) + " ", 1), e.iedName ? (n(), I(M, { key: 0 }, [x(" (" + a(e.iedName) + ")", 1)], 64)) : P("", !0)], 8, bO)]))), 128)), r.references.length ? P("", !0) : (n(), I("li", xO, "No references."))])]));
+		}, [x(a(e.path) + " ", 1), e.iedName ? (n(), I(M, { key: 0 }, [x(" (" + a(e.iedName) + ")", 1)], 64)) : P("", !0)], 8, SO)]))), 128)), r.references.length ? P("", !0) : (n(), I("li", CO, "No references."))])]));
 	}
-}), [["__scopeId", "data-v-4531446f"]]), CO = {
-	key: 1,
+}), [["__scopeId", "data-v-4531446f"]]);
+//#endregion
+//#region src/data-type-templates/lnode-type-details/type-default-values.ts
+function TO(e) {
+	return Z(e) !== "unchecked" && !!(e.vals?.length || e.children.some(TO));
+}
+function EO(e, t = {}) {
+	return e.map((e) => {
+		let n = [`valKind: ${t.valKind ?? "Set"}`];
+		return e.sGroup && n.push(t.fc === "SG" ? `setting group ${e.sGroup}` : `sGroup: ${e.sGroup}`), {
+			label: `Val (${n.join(") (")})`,
+			value: e.value
+		};
+	});
+}
+function DO(e) {
+	return e.kind !== "DA" && e.kind !== "BDA" || Z(e) === "unchecked" ? [] : EO(e.vals ?? [], {
+		fc: e.fc,
+		valKind: e.valKind
+	});
+}
+//#endregion
+//#region src/data-type-templates/lnode-type-details/all-at-least-one-group-row.vue?vue&type=script&setup=true&lang.ts
+var OO = {
+	key: 0,
+	class: "badge badge-xs badge-warning badge-soft",
+	title: "A Val is defined here or on a child node.",
+	"aria-label": "A Val is defined here or on a child node.",
+	"data-testid": "dtt-node-value-marker"
+}, kO = {
+	key: 2,
 	class: "tree-node__name",
 	"data-testid": "dtt-allatleastonegroup-readonly"
-}, wO = /* @__PURE__ */ b(/* @__PURE__ */ m({
+}, AO = /* @__PURE__ */ b(/* @__PURE__ */ m({
 	__name: "all-at-least-one-group-row",
 	props: {
 		groups: {},
@@ -65081,6 +65129,7 @@ var gO = /* @__PURE__ */ b(lO, [["render", hO], ["__scopeId", "data-v-ce2d87fb"]
 				n !== r && f(e.members[0], r);
 			}
 		}
+		let m = E(() => r.groups.some((e) => e.members.some(TO)));
 		return (e, t) => (n(), I("div", {
 			class: "tree-node__row",
 			style: N({ paddingLeft: `${.5 + r.depth * 1.25}rem` }),
@@ -65091,22 +65140,29 @@ var gO = /* @__PURE__ */ b(lO, [["render", hO], ["__scopeId", "data-v-ce2d87fb"]
 				class: "badge badge-xs badge-warning",
 				"data-testid": "dtt-node-condition-badge"
 			}, " AllAtLeastOneGroup ", -1),
+			m.value ? (n(), I("span", OO, " Val ")) : P("", !0),
 			r.isEditing ? (n(), y(i(w), {
-				key: 0,
+				key: 1,
 				class: "tree-node__allatleastonegroup-select",
 				size: "xs",
 				"model-value": l.value,
 				options: u.value,
 				separator: "; ",
 				"onUpdate:modelValue": p
-			}, null, 8, ["model-value", "options"])) : (n(), I("span", CO, a(d.value), 1))
+			}, null, 8, ["model-value", "options"])) : (n(), I("span", kO, a(d.value), 1))
 		], 4));
 	}
-}), [["__scopeId", "data-v-f826d537"]]), TO = {
-	key: 1,
+}), [["__scopeId", "data-v-b9b7a52f"]]), jO = {
+	key: 0,
+	class: "badge badge-xs badge-warning badge-soft",
+	title: "A Val is defined here or on a child node.",
+	"aria-label": "A Val is defined here or on a child node.",
+	"data-testid": "dtt-node-value-marker"
+}, MO = {
+	key: 2,
 	class: "tree-node__name",
 	"data-testid": "dtt-allonlyonegroup-readonly"
-}, EO = /* @__PURE__ */ b(/* @__PURE__ */ m({
+}, NO = /* @__PURE__ */ b(/* @__PURE__ */ m({
 	__name: "all-only-one-group-row",
 	props: {
 		groups: {},
@@ -65146,6 +65202,7 @@ var gO = /* @__PURE__ */ b(lO, [["render", hO], ["__scopeId", "data-v-ce2d87fb"]
 				t && m(t.members[0], !0);
 			}
 		}
+		let g = E(() => r.groups.some((e) => e.members.some(TO)));
 		return (e, t) => (n(), I("div", {
 			class: "tree-node__row",
 			style: N({ paddingLeft: `${.5 + r.depth * 1.25}rem` }),
@@ -65156,28 +65213,35 @@ var gO = /* @__PURE__ */ b(lO, [["render", hO], ["__scopeId", "data-v-ce2d87fb"]
 				class: "badge badge-xs badge-warning",
 				"data-testid": "dtt-node-condition-badge"
 			}, " AllOnlyOneGroup ", -1),
+			g.value ? (n(), I("span", jO, " Val ")) : P("", !0),
 			r.isEditing ? (n(), y(i(ee), {
-				key: 0,
+				key: 1,
 				class: "tree-node__allonlyonegroup-select",
 				size: "xs",
 				"model-value": l.value,
 				options: u.value,
 				"display-value": f,
 				"onUpdate:modelValue": h
-			}, null, 8, ["model-value", "options"])) : (n(), I("span", TO, a(p.value), 1))
+			}, null, 8, ["model-value", "options"])) : (n(), I("span", MO, a(p.value), 1))
 		], 4));
 	}
-}), [["__scopeId", "data-v-35bf2d11"]]), DO = ["checked", "disabled"], OO = {
+}), [["__scopeId", "data-v-11e35bff"]]), PO = ["checked", "disabled"], FO = {
 	class: "badge badge-xs badge-warning",
 	"data-testid": "dtt-node-condition-badge"
-}, kO = {
+}, IO = {
+	key: 0,
+	class: "badge badge-xs badge-warning badge-soft",
+	title: "A Val is defined here or on a child node.",
+	"aria-label": "A Val is defined here or on a child node.",
+	"data-testid": "dtt-node-value-marker"
+}, LO = {
 	class: "tree-node__name",
 	"data-testid": "dtt-allornonepergroup-label"
-}, AO = ["value", "disabled"], jO = ["value"], MO = {
-	key: 1,
+}, RO = ["value", "disabled"], zO = ["value"], BO = {
+	key: 2,
 	class: "badge badge-xs badge-ghost tree-node__setting-fc",
 	"data-testid": "dtt-allornonepergroup-setting-fc-readonly"
-}, NO = /* @__PURE__ */ b(/* @__PURE__ */ m({
+}, VO = /* @__PURE__ */ b(/* @__PURE__ */ m({
 	__name: "all-or-none-per-group-row",
 	props: {
 		members: {},
@@ -65221,6 +65285,7 @@ var gO = /* @__PURE__ */ b(lO, [["render", hO], ["__scopeId", "data-v-ce2d87fb"]
 			let t = r.members[0];
 			t && i("set-fc", t.key, e.target.value);
 		}
+		let y = E(() => r.members.some(TO));
 		return (e, t) => (n(), I("div", {
 			class: "tree-node__row",
 			style: N({ paddingLeft: `${.5 + r.depth * 1.25}rem` }),
@@ -65235,12 +65300,13 @@ var gO = /* @__PURE__ */ b(lO, [["render", hO], ["__scopeId", "data-v-ce2d87fb"]
 				disabled: !r.isEditing || m.value,
 				"data-testid": "dtt-allornonepergroup-toggle",
 				onChange: h
-			}, null, 40, DO),
+			}, null, 40, PO),
 			t[0] ||= T("span", { class: "tree-node__expander tree-node__expander--leaf" }, null, -1),
-			T("span", OO, " AllOrNonePerGroup(" + a(r.args) + ") ", 1),
-			T("span", kO, a(p.value), 1),
+			T("span", FO, " AllOrNonePerGroup(" + a(r.args) + ") ", 1),
+			y.value ? (n(), I("span", IO, " Val ")) : P("", !0),
+			T("span", LO, a(p.value), 1),
 			r.isEditing && g.value ? (n(), I("select", {
-				key: 0,
+				key: 1,
 				class: "select select-xs tree-node__setting-fc",
 				"data-testid": "dtt-allornonepergroup-setting-fc",
 				value: g.value?.fc,
@@ -65249,17 +65315,23 @@ var gO = /* @__PURE__ */ b(lO, [["render", hO], ["__scopeId", "data-v-ce2d87fb"]
 			}, [(n(!0), I(M, null, u(g.value?.fcOptions, (e) => (n(), I("option", {
 				key: e,
 				value: e
-			}, a(e), 9, jO))), 128))], 40, AO)) : !r.isEditing && g.value ? (n(), I("span", MO, a(g.value?.fc), 1)) : P("", !0)
+			}, a(e), 9, zO))), 128))], 40, RO)) : !r.isEditing && g.value ? (n(), I("span", BO, a(g.value?.fc), 1)) : P("", !0)
 		], 4));
 	}
-}), [["__scopeId", "data-v-80861559"]]), PO = {
+}), [["__scopeId", "data-v-db425c93"]]), HO = {
 	class: "badge badge-xs badge-warning",
 	"data-testid": "dtt-node-condition-badge"
-}, FO = {
-	key: 1,
+}, UO = {
+	key: 0,
+	class: "badge badge-xs badge-warning badge-soft",
+	title: "A Val is defined here or on a child node.",
+	"aria-label": "A Val is defined here or on a child node.",
+	"data-testid": "dtt-node-value-marker"
+}, WO = {
+	key: 2,
 	class: "tree-node__name",
 	"data-testid": "dtt-atleastone-readonly"
-}, IO = /* @__PURE__ */ b(/* @__PURE__ */ m({
+}, GO = /* @__PURE__ */ b(/* @__PURE__ */ m({
 	__name: "at-least-one-group-row",
 	props: {
 		members: {},
@@ -65293,28 +65365,36 @@ var gO = /* @__PURE__ */ b(lO, [["render", hO], ["__scopeId", "data-v-ce2d87fb"]
 				}
 			}
 		}
+		let f = E(() => r.members.some(TO));
 		return (e, t) => (n(), I("div", {
 			class: "tree-node__row",
 			style: N({ paddingLeft: `${.5 + r.depth * 1.25}rem` }),
 			"data-testid": "dtt-atleastone-group"
 		}, [
 			t[0] ||= T("span", { class: "tree-node__expander tree-node__expander--leaf" }, null, -1),
-			T("span", PO, " AtLeastOne(" + a(r.args) + ") ", 1),
+			T("span", HO, " AtLeastOne(" + a(r.args) + ") ", 1),
+			f.value ? (n(), I("span", UO, " Val ")) : P("", !0),
 			r.isEditing ? (n(), y(i(w), {
-				key: 0,
+				key: 1,
 				class: "tree-node__atleastone-select",
 				size: "xs",
 				"model-value": c.value,
 				options: l.value,
 				"onUpdate:modelValue": d
-			}, null, 8, ["model-value", "options"])) : (n(), I("span", FO, a(u.value), 1))
+			}, null, 8, ["model-value", "options"])) : (n(), I("span", WO, a(u.value), 1))
 		], 4));
 	}
-}), [["__scopeId", "data-v-8611a072"]]), LO = {
-	key: 1,
+}), [["__scopeId", "data-v-21c19575"]]), KO = {
+	key: 0,
+	class: "badge badge-xs badge-warning badge-soft",
+	title: "A Val is defined here or on a child node.",
+	"aria-label": "A Val is defined here or on a child node.",
+	"data-testid": "dtt-node-value-marker"
+}, qO = {
+	key: 2,
 	class: "tree-node__name",
 	"data-testid": "dtt-atmostone-readonly"
-}, RO = /* @__PURE__ */ b(/* @__PURE__ */ m({
+}, JO = /* @__PURE__ */ b(/* @__PURE__ */ m({
 	__name: "at-most-one-group-row",
 	props: {
 		members: {},
@@ -65349,6 +65429,7 @@ var gO = /* @__PURE__ */ b(lO, [["render", hO], ["__scopeId", "data-v-ce2d87fb"]
 				t && p(t, !0);
 			}
 		}
+		let h = E(() => r.members.some(TO));
 		return (e, t) => (n(), I("div", {
 			class: "tree-node__row",
 			style: N({ paddingLeft: `${.5 + r.depth * 1.25}rem` }),
@@ -65359,21 +65440,22 @@ var gO = /* @__PURE__ */ b(lO, [["render", hO], ["__scopeId", "data-v-ce2d87fb"]
 				class: "badge badge-xs badge-warning",
 				"data-testid": "dtt-node-condition-badge"
 			}, " AtMostOne ", -1),
+			h.value ? (n(), I("span", KO, " Val ")) : P("", !0),
 			r.isEditing ? (n(), y(i(ee), {
-				key: 0,
+				key: 1,
 				class: "tree-node__atmostone-select",
 				size: "xs",
 				"model-value": l.value,
 				options: u.value,
 				"display-value": d,
 				"onUpdate:modelValue": m
-			}, null, 8, ["model-value", "options"])) : (n(), I("span", LO, a(f.value), 1))
+			}, null, 8, ["model-value", "options"])) : (n(), I("span", qO, a(f.value), 1))
 		], 4));
 	}
-}), [["__scopeId", "data-v-535878a6"]]);
+}), [["__scopeId", "data-v-f54796ac"]]);
 //#endregion
 //#region src/data-type-templates/lnode-type-details/cdc-groups.ts
-function zO(e, t) {
+function YO(e, t) {
 	let n = /* @__PURE__ */ new Map();
 	for (let r of e) {
 		let e = t[r.cdc ?? ""]?.categoryLabel ?? "Other", i = n.get(e) ?? [];
@@ -65392,7 +65474,7 @@ function zO(e, t) {
 }
 //#endregion
 //#region src/data-type-templates/lnode-type-details/all-at-least-one-groups.ts
-function BO(e) {
+function XO(e) {
 	let t = [], n = !1;
 	for (let r of e) {
 		if (r.presCond !== "AllAtLeastOneGroup" || !r.presCondArgs) {
@@ -65419,7 +65501,7 @@ function BO(e) {
 }
 //#endregion
 //#region src/data-type-templates/lnode-type-details/all-only-one-groups.ts
-function VO(e) {
+function ZO(e) {
 	let t = [], n = !1;
 	for (let r of e) {
 		if (r.presCond !== "AllOnlyOneGroup" || !r.presCondArgs) {
@@ -65446,7 +65528,7 @@ function VO(e) {
 }
 //#endregion
 //#region src/data-type-templates/lnode-type-details/all-or-none-per-group-groups.ts
-function HO(e) {
+function QO(e) {
 	let t = [], n = /* @__PURE__ */ new Set();
 	for (let r of e) {
 		if (r.presCond !== "AllOrNonePerGroup" || !r.presCondArgs) {
@@ -65469,7 +65551,7 @@ function HO(e) {
 }
 //#endregion
 //#region src/data-type-templates/lnode-type-details/at-least-one-groups.ts
-function UO(e) {
+function $O(e) {
 	let t = [], n = /* @__PURE__ */ new Set();
 	for (let r of e) {
 		if (r.presCond !== "AtLeastOne" || !r.presCondArgs) {
@@ -65492,7 +65574,7 @@ function UO(e) {
 }
 //#endregion
 //#region src/data-type-templates/lnode-type-details/at-most-one-groups.ts
-function WO(e) {
+function ek(e) {
 	let t = [], n = !1;
 	for (let r of e) {
 		if (r.presCond !== "AtMostOne") {
@@ -65514,7 +65596,7 @@ function WO(e) {
 }
 //#endregion
 //#region src/data-type-templates/lnode-type-details/presence-groups.ts
-function GO(e) {
+function tk(e) {
 	function t(e) {
 		let t = /* @__PURE__ */ new Map(), n = /* @__PURE__ */ new Set();
 		for (let r of e) if (r.type !== "node") {
@@ -65527,20 +65609,20 @@ function GO(e) {
 		};
 	}
 	let n = [
-		t(WO(e)),
-		t(HO(e)),
-		t(VO(e).map((e) => e.type === "node" ? e : {
+		t(ek(e)),
+		t(QO(e)),
+		t(ZO(e).map((e) => e.type === "node" ? e : {
 			type: "allOnlyOneGroup",
 			groups: e.groups,
 			members: e.groups.flatMap((e) => e.members)
 		})),
-		t(BO(e).map((e) => e.type === "node" ? e : {
+		t(XO(e).map((e) => e.type === "node" ? e : {
 			type: "allAtLeastOneGroup",
 			groups: e.groups,
 			members: e.groups.flatMap((e) => e.members)
 		}))
 	], r = [];
-	for (let t of UO(e)) {
+	for (let t of $O(e)) {
 		if (t.type !== "node") {
 			r.push(t);
 			continue;
@@ -65553,57 +65635,63 @@ function GO(e) {
 }
 //#endregion
 //#region src/nsd/icons/info-icon.vue
-var KO = {}, qO = {
+var nk = {}, rk = {
 	viewBox: "0 0 64 64",
 	width: "1em",
 	height: "1em",
 	"aria-hidden": "true",
 	focusable: "false"
 };
-function JO(e, t) {
-	return n(), I("svg", qO, [...t[0] ||= [T("path", {
+function ik(e, t) {
+	return n(), I("svg", rk, [...t[0] ||= [T("path", {
 		fill: "currentColor",
 		d: "M32 4C16.536 4 4 16.536 4 32s12.536 28 28 28 28-12.536 28-28S47.464 4 32 4zm0 4c13.255 0 24 10.745 24 24S45.255 56 32 56 8 45.255 8 32 18.745 8 32 8zm0 10a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm-2 12v16h4V30h-4z"
 	}, null, -1)]]);
 }
-var YO = /* @__PURE__ */ b(KO, [["render", JO]]), XO = { class: "tree-node" }, ZO = ["title"], QO = ["checked", "disabled"], $O = {
+var ak = /* @__PURE__ */ b(nk, [["render", ik]]), ok = { class: "tree-node" }, sk = ["title"], ck = ["checked", "disabled"], lk = {
 	key: 1,
 	class: "tree-node__expander tree-node__expander--leaf"
-}, ek = { class: "tree-node__name" }, tk = {
+}, uk = { class: "tree-node__name" }, dk = {
 	key: 2,
 	class: "tree-node__cdc",
 	"data-testid": "dtt-node-cdc"
-}, nk = {
+}, fk = {
 	key: 3,
-	class: "badge badge-xs badge-accent"
-}, rk = {
+	class: "badge badge-xs badge-warning badge-soft",
+	title: "A Val is defined here or on a child node.",
+	"aria-label": "A Val is defined here or on a child node.",
+	"data-testid": "dtt-node-value-marker"
+}, pk = {
 	key: 4,
+	class: "badge badge-xs badge-accent"
+}, mk = {
+	key: 5,
 	class: "badge badge-xs badge-warning",
 	"data-testid": "dtt-node-condition-badge"
-}, ik = {
-	key: 5,
-	class: "badge badge-xs badge-ghost",
-	"data-testid": "dtt-node-base-ns"
-}, ak = {
+}, hk = {
 	key: 6,
 	class: "badge badge-xs badge-ghost",
+	"data-testid": "dtt-node-base-ns"
+}, gk = {
+	key: 7,
+	class: "badge badge-xs badge-ghost",
 	"data-testid": "dtt-node-member-ns"
-}, ok = ["value", "disabled"], sk = ["value"], ck = {
-	key: 8,
+}, _k = ["value", "disabled"], vk = ["value"], yk = {
+	key: 9,
 	class: "badge badge-xs badge-ghost tree-node__setting-fc",
 	"data-testid": "dtt-setting-fc-readonly"
-}, lk = {
-	key: 9,
-	class: "tree-node__instance-count"
-}, uk = ["min", "value"], dk = { "data-testid": "dtt-instance-count-unit" }, fk = {
+}, bk = {
 	key: 10,
+	class: "tree-node__instance-count"
+}, xk = ["min", "value"], Sk = { "data-testid": "dtt-instance-count-unit" }, Ck = {
+	key: 11,
 	class: "badge badge-xs badge-ghost",
 	"data-testid": "dtt-instance-count-readonly"
-}, pk = ["disabled"], mk = [
+}, wk = ["disabled"], Tk = [
 	"checked",
 	"disabled",
 	"onChange"
-], hk = { class: "badge badge-xs badge-ghost tree-node__enum-ord" }, gk = { class: "tree-node__name" }, _k = /* @__PURE__ */ b(/* @__PURE__ */ m({
+], Ek = { class: "badge badge-xs badge-ghost tree-node__enum-ord" }, Dk = { class: "tree-node__name" }, Ok = /* @__PURE__ */ b(/* @__PURE__ */ m({
 	__name: "tree-node",
 	props: {
 		node: {},
@@ -65653,7 +65741,7 @@ var YO = /* @__PURE__ */ b(KO, [["render", JO]]), XO = { class: "tree-node" }, Z
 			return e.children.filter((e) => o.visibleKeys.has(e.key));
 		}
 		function h(e) {
-			return GO(m(e));
+			return tk(m(e));
 		}
 		function g(e) {
 			return o.isEditing ? e.enumVals : e.enumVals.filter((e) => e.selected !== !1);
@@ -65692,7 +65780,7 @@ var YO = /* @__PURE__ */ b(KO, [["render", JO]]), XO = { class: "tree-node" }, Z
 		}
 		return (t, r) => {
 			let s = e("TreeNode", !0);
-			return n(), I("div", XO, [T("div", {
+			return n(), I("div", ok, [T("div", {
 				class: "tree-node__row",
 				style: N({ paddingLeft: `${.5 + o.depth * 1.25}rem` }),
 				title: o.node.blockedReason,
@@ -65707,20 +65795,21 @@ var YO = /* @__PURE__ */ b(KO, [["render", JO]]), XO = { class: "tree-node" }, Z
 					disabled: !o.isEditing || o.node.toggleLocked,
 					"data-testid": "dtt-node-toggle",
 					onChange: d
-				}, null, 40, QO),
+				}, null, 40, ck),
 				b(o.node) ? (n(), I("button", {
 					key: 0,
 					class: "tree-node__expander",
 					onClick: r[0] ||= (e) => c("expand", o.node.key)
-				}, a(o.expandedKeys.has(o.node.key) ? "▼" : "▶"), 1)) : (n(), I("span", $O)),
-				T("span", ek, a(o.node.name), 1),
-				o.node.cdc ? (n(), I("span", tk, a(o.node.cdc), 1)) : P("", !0),
-				o.node.isCustom ? (n(), I("span", nk, "custom")) : P("", !0),
-				p(o.node) ? (n(), I("span", rk, a(o.node.presCond), 1)) : P("", !0),
-				o.node.name === "NamPlt" && o.lnNs ? (n(), I("span", ik, a(o.lnNs), 1)) : P("", !0),
-				S(o.node) ? (n(), I("span", ak, a(o.node.memberLnNs), 1)) : P("", !0),
+				}, a(o.expandedKeys.has(o.node.key) ? "▼" : "▶"), 1)) : (n(), I("span", lk)),
+				T("span", uk, a(o.node.name), 1),
+				o.node.cdc ? (n(), I("span", dk, a(o.node.cdc), 1)) : P("", !0),
+				i(TO)(o.node) ? (n(), I("span", fk, " Val ")) : P("", !0),
+				o.node.isCustom ? (n(), I("span", pk, "custom")) : P("", !0),
+				p(o.node) ? (n(), I("span", mk, a(o.node.presCond), 1)) : P("", !0),
+				o.node.name === "NamPlt" && o.lnNs ? (n(), I("span", hk, a(o.lnNs), 1)) : P("", !0),
+				S(o.node) ? (n(), I("span", gk, a(o.node.memberLnNs), 1)) : P("", !0),
 				o.isEditing && C(o.node) ? (n(), I("select", {
-					key: 7,
+					key: 8,
 					class: "select select-xs tree-node__setting-fc",
 					"data-testid": "dtt-setting-fc",
 					value: C(o.node)?.fc,
@@ -65729,27 +65818,27 @@ var YO = /* @__PURE__ */ b(KO, [["render", JO]]), XO = { class: "tree-node" }, Z
 				}, [(n(!0), I(M, null, u(C(o.node)?.fcOptions, (e) => (n(), I("option", {
 					key: e,
 					value: e
-				}, a(e), 9, sk))), 128))], 40, ok)) : !o.isEditing && C(o.node) ? (n(), I("span", ck, a(C(o.node)?.fc), 1)) : P("", !0),
-				o.isEditing && D(o.node) !== void 0 ? (n(), I("label", lk, [T("input", {
+				}, a(e), 9, vk))), 128))], 40, _k)) : !o.isEditing && C(o.node) ? (n(), I("span", yk, a(C(o.node)?.fc), 1)) : P("", !0),
+				o.isEditing && D(o.node) !== void 0 ? (n(), I("label", bk, [T("input", {
 					type: "number",
 					class: "input input-xs tree-node__instance-count-input",
 					"data-testid": "dtt-instance-count",
 					min: D(o.node),
 					value: o.node.instanceCount,
 					onChange: r[2] ||= (e) => k(o.node, e)
-				}, null, 40, uk), T("span", dk, a(O(o.node.instanceCount)), 1)])) : !o.isEditing && D(o.node) !== void 0 ? (n(), I("span", fk, a(o.node.instanceCount) + " " + a(O(o.node.instanceCount)), 1)) : P("", !0),
+				}, null, 40, xk), T("span", Sk, a(O(o.node.instanceCount)), 1)])) : !o.isEditing && D(o.node) !== void 0 ? (n(), I("span", Ck, a(o.node.instanceCount) + " " + a(O(o.node.instanceCount)), 1)) : P("", !0),
 				o.isEditing && o.node.bType === "Enum" && o.node.enabled ? (n(), I("button", {
-					key: 11,
+					key: 12,
 					class: "btn btn-xs btn-ghost tree-node__enum",
 					disabled: o.node.toggleLocked,
 					onClick: r[3] ||= (e) => c("edit-enum", o.node.key)
-				}, " enum ", 8, pk)) : P("", !0),
+				}, " enum ", 8, wk)) : P("", !0),
 				T("button", {
 					class: "tree-node__info",
 					title: "Details",
 					onClick: r[4] ||= (e) => c("info", o.node.key)
-				}, [F(YO)])
-			], 12, ZO), o.expandedKeys.has(o.node.key) ? (n(), I(M, { key: 0 }, [(n(!0), I(M, null, u(h(o.node), (e) => (n(), I(M, { key: e.type === "node" ? e.node.key : e.type === "atLeastOneGroup" ? `alo:${e.args}` : e.type === "atMostOneGroup" ? `amo:${e.members[0]?.key}` : e.type === "allOrNonePerGroupGroup" ? `aonp:${e.args}` : e.type === "allOnlyOneGroup" ? `aoo:${e.members[0]?.key}` : `aalo:${e.members[0]?.key}` }, [e.type === "node" ? (n(), y(s, {
+				}, [F(ak)])
+			], 12, sk), o.expandedKeys.has(o.node.key) ? (n(), I(M, { key: 0 }, [(n(!0), I(M, null, u(h(o.node), (e) => (n(), I(M, { key: e.type === "node" ? e.node.key : e.type === "atLeastOneGroup" ? `alo:${e.args}` : e.type === "atMostOneGroup" ? `amo:${e.members[0]?.key}` : e.type === "allOrNonePerGroupGroup" ? `aonp:${e.args}` : e.type === "allOnlyOneGroup" ? `aoo:${e.members[0]?.key}` : `aalo:${e.members[0]?.key}` }, [e.type === "node" ? (n(), y(s, {
 				key: 0,
 				node: e.node,
 				depth: o.depth + 1,
@@ -65772,7 +65861,7 @@ var YO = /* @__PURE__ */ b(KO, [["render", JO]]), XO = { class: "tree-node" }, Z
 				"expanded-keys",
 				"is-editing",
 				"ln-ns"
-			])) : e.type === "atLeastOneGroup" ? (n(), y(IO, {
+			])) : e.type === "atLeastOneGroup" ? (n(), y(GO, {
 				key: 1,
 				members: e.members,
 				args: e.args,
@@ -65785,7 +65874,7 @@ var YO = /* @__PURE__ */ b(KO, [["render", JO]]), XO = { class: "tree-node" }, Z
 				"args",
 				"depth",
 				"is-editing"
-			])) : e.type === "atMostOneGroup" ? (n(), y(RO, {
+			])) : e.type === "atMostOneGroup" ? (n(), y(JO, {
 				key: 2,
 				members: e.members,
 				depth: o.depth + 1,
@@ -65796,7 +65885,7 @@ var YO = /* @__PURE__ */ b(KO, [["render", JO]]), XO = { class: "tree-node" }, Z
 				"members",
 				"depth",
 				"is-editing"
-			])) : e.type === "allOrNonePerGroupGroup" ? (n(), y(NO, {
+			])) : e.type === "allOrNonePerGroupGroup" ? (n(), y(VO, {
 				key: 3,
 				members: e.members,
 				args: e.args,
@@ -65810,7 +65899,7 @@ var YO = /* @__PURE__ */ b(KO, [["render", JO]]), XO = { class: "tree-node" }, Z
 				"args",
 				"depth",
 				"is-editing"
-			])) : e.type === "allOnlyOneGroup" ? (n(), y(EO, {
+			])) : e.type === "allOnlyOneGroup" ? (n(), y(NO, {
 				key: 4,
 				groups: e.groups,
 				depth: o.depth + 1,
@@ -65821,7 +65910,7 @@ var YO = /* @__PURE__ */ b(KO, [["render", JO]]), XO = { class: "tree-node" }, Z
 				"groups",
 				"depth",
 				"is-editing"
-			])) : (n(), y(wO, {
+			])) : (n(), y(AO, {
 				key: 5,
 				groups: e.groups,
 				depth: o.depth + 1,
@@ -65845,19 +65934,19 @@ var YO = /* @__PURE__ */ b(KO, [["render", JO]]), XO = { class: "tree-node" }, Z
 					disabled: !o.isEditing || !!o.node.blockedReason,
 					"data-testid": "dtt-enum-val-toggle",
 					onChange: (t) => x(o.node, e.ord, t)
-				}, null, 40, mk),
-				T("span", hk, a(e.ord), 1),
-				T("span", gk, a(e.value), 1)
+				}, null, 40, Tk),
+				T("span", Ek, a(e.ord), 1),
+				T("span", Dk, a(e.value), 1)
 			], 4))), 128)) : P("", !0)], 64)) : P("", !0)]);
 		};
 	}
-}), [["__scopeId", "data-v-c667b70f"]]), vk = { class: "lnode-type-tree" }, yk = {
+}), [["__scopeId", "data-v-a7b7cab3"]]), kk = { class: "lnode-type-tree" }, Ak = {
 	key: 0,
 	class: "lnode-type-tree__group-header"
-}, bk = {
+}, jk = {
 	key: 0,
 	class: "lnode-type-tree__empty"
-}, xk = /* @__PURE__ */ b(/* @__PURE__ */ m({
+}, Mk = /* @__PURE__ */ b(/* @__PURE__ */ m({
 	__name: "tree",
 	props: {
 		nodes: { default: () => [] },
@@ -65894,10 +65983,10 @@ var YO = /* @__PURE__ */ b(KO, [["render", JO]]), XO = { class: "tree-node" }, Z
 		}), l = E(function() {
 			return r.nodes.filter((e) => s.value.has(e.key));
 		}), d = E(function() {
-			return zO(l.value, r.cdcMetadataByName);
+			return YO(l.value, r.cdcMetadataByName);
 		});
 		function f(e) {
-			return GO(e);
+			return tk(e);
 		}
 		function p(e) {
 			let t = new Set(o.value);
@@ -65927,7 +66016,7 @@ var YO = /* @__PURE__ */ b(KO, [["render", JO]]), XO = { class: "tree-node" }, Z
 			for (let t of r.nodes) s.value.has(t.key) && e.add(t.key);
 			return e;
 		}
-		return (e, t) => (n(), I("div", vk, [
+		return (e, t) => (n(), I("div", kk, [
 			(n(!0), I(M, null, u(r.warnings, (e) => (n(), I("p", {
 				key: e,
 				class: "lnode-type-tree__warning"
@@ -65935,7 +66024,7 @@ var YO = /* @__PURE__ */ b(KO, [["render", JO]]), XO = { class: "tree-node" }, Z
 			(n(!0), I(M, null, u(d.value, (e) => (n(), I("div", {
 				key: e.key,
 				class: "lnode-type-tree__group"
-			}, [e.showHeader ? (n(), I("div", yk, a(e.label), 1)) : P("", !0), (n(!0), I(M, null, u(f(e.nodes), (e) => (n(), I(M, { key: e.type === "node" ? e.node.key : e.type === "atLeastOneGroup" ? `alo:${e.args}` : e.type === "atMostOneGroup" ? `amo:${e.members[0]?.key}` : e.type === "allOrNonePerGroupGroup" ? `aonp:${e.args}` : e.type === "allOnlyOneGroup" ? `aoo:${e.members[0]?.key}` : `aalo:${e.members[0]?.key}` }, [e.type === "node" ? (n(), y(_k, {
+			}, [e.showHeader ? (n(), I("div", Ak, a(e.label), 1)) : P("", !0), (n(!0), I(M, null, u(f(e.nodes), (e) => (n(), I(M, { key: e.type === "node" ? e.node.key : e.type === "atLeastOneGroup" ? `alo:${e.args}` : e.type === "atMostOneGroup" ? `amo:${e.members[0]?.key}` : e.type === "allOrNonePerGroupGroup" ? `aonp:${e.args}` : e.type === "allOnlyOneGroup" ? `aoo:${e.members[0]?.key}` : `aalo:${e.members[0]?.key}` }, [e.type === "node" ? (n(), y(Ok, {
 				key: 0,
 				node: e.node,
 				"visible-keys": s.value,
@@ -65956,7 +66045,7 @@ var YO = /* @__PURE__ */ b(KO, [["render", JO]]), XO = { class: "tree-node" }, Z
 				"expanded-keys",
 				"is-editing",
 				"ln-ns"
-			])) : e.type === "atLeastOneGroup" ? (n(), y(IO, {
+			])) : e.type === "atLeastOneGroup" ? (n(), y(GO, {
 				key: 1,
 				members: e.members,
 				args: e.args,
@@ -65967,13 +66056,13 @@ var YO = /* @__PURE__ */ b(KO, [["render", JO]]), XO = { class: "tree-node" }, Z
 				"members",
 				"args",
 				"is-editing"
-			])) : e.type === "atMostOneGroup" ? (n(), y(RO, {
+			])) : e.type === "atMostOneGroup" ? (n(), y(JO, {
 				key: 2,
 				members: e.members,
 				"is-editing": r.isEditing,
 				onToggle: t[9] ||= (e, t) => i("toggle", e, t),
 				onToggleBranch: t[10] ||= (e) => i("toggle-branch", e)
-			}, null, 8, ["members", "is-editing"])) : e.type === "allOrNonePerGroupGroup" ? (n(), y(NO, {
+			}, null, 8, ["members", "is-editing"])) : e.type === "allOrNonePerGroupGroup" ? (n(), y(VO, {
 				key: 3,
 				members: e.members,
 				args: e.args,
@@ -65985,29 +66074,29 @@ var YO = /* @__PURE__ */ b(KO, [["render", JO]]), XO = { class: "tree-node" }, Z
 				"members",
 				"args",
 				"is-editing"
-			])) : e.type === "allOnlyOneGroup" ? (n(), y(EO, {
+			])) : e.type === "allOnlyOneGroup" ? (n(), y(NO, {
 				key: 4,
 				groups: e.groups,
 				"is-editing": r.isEditing,
 				onToggle: t[14] ||= (e, t) => i("toggle", e, t),
 				onToggleBranch: t[15] ||= (e) => i("toggle-branch", e)
-			}, null, 8, ["groups", "is-editing"])) : (n(), y(wO, {
+			}, null, 8, ["groups", "is-editing"])) : (n(), y(AO, {
 				key: 5,
 				groups: e.groups,
 				"is-editing": r.isEditing,
 				onToggle: t[16] ||= (e, t) => i("toggle", e, t),
 				onToggleBranch: t[17] ||= (e) => i("toggle-branch", e)
 			}, null, 8, ["groups", "is-editing"]))], 64))), 128))]))), 128)),
-			l.value.length ? P("", !0) : (n(), I("p", bk, "No elements to show."))
+			l.value.length ? P("", !0) : (n(), I("p", jk, "No elements to show."))
 		]));
 	}
-}), [["__scopeId", "data-v-2b6ba5e0"]]), Sk = {
+}), [["__scopeId", "data-v-2b6ba5e0"]]), Nk = {
 	key: 0,
 	class: "lnode-type-details__error"
-}, Ck = {
+}, Pk = {
 	key: 1,
 	class: "lnode-type-details__placeholder"
-}, wk = /* @__PURE__ */ b(/* @__PURE__ */ m({
+}, Fk = /* @__PURE__ */ b(/* @__PURE__ */ m({
 	__name: "lnode-type-details",
 	setup(e) {
 		let t = xD(), { draft: r, references: o, referencePanelOpen: s, isEditing: c, editBlockedReason: u, error: d, hasChange: f, treeSearch: p, treeFilter: m, selectedLnodeTypeId: h } = A(t), v = E(function() {
@@ -66041,6 +66130,7 @@ var YO = /* @__PURE__ */ b(KO, [["render", JO]]), XO = { class: "tree-node" }, Z
 				conditionDescription: n?.description,
 				type: t.bType ?? (t.kind === "DO" || t.kind === "SDO" ? "structure" : void 0),
 				inheritedFrom: t.inheritedFrom,
+				values: DO(t),
 				cdc: t.cdc,
 				cdcTitle: t.cdc ? w.value[t.cdc]?.title : void 0,
 				cdcCategory: t.cdc ? w.value[t.cdc]?.categoryLabel : void 0,
@@ -66082,7 +66172,7 @@ var YO = /* @__PURE__ */ b(KO, [["render", JO]]), XO = { class: "tree-node" }, Z
 			t && ie(t.key);
 		}
 		return (e, g) => (n(), I(M, null, [
-			F(gO, null, {
+			F(vO, null, {
 				header: l(() => [F(tO, {
 					title: b.value,
 					"namespace-info": x.value,
@@ -66116,8 +66206,8 @@ var YO = /* @__PURE__ */ b(KO, [["render", JO]]), XO = { class: "tree-node" }, Z
 					"onEdit",
 					"onCancel",
 					"onNewVersion"
-				]), i(d) ? (n(), I("p", Sk, a(i(d)), 1)) : P("", !0)]),
-				tree: l(() => [i(r) ? (n(), y(xk, {
+				]), i(d) ? (n(), I("p", Nk, a(i(d)), 1)) : P("", !0)]),
+				tree: l(() => [i(r) ? (n(), y(Mk, {
 					key: 0,
 					nodes: i(r).nodes,
 					search: i(p),
@@ -66148,15 +66238,15 @@ var YO = /* @__PURE__ */ b(KO, [["render", JO]]), XO = { class: "tree-node" }, Z
 					"onToggleEnumVal",
 					"onSetFc",
 					"onSetInstanceCount"
-				])) : (n(), I("p", Ck, " Select an LNodeType from the list or create a new one. "))]),
-				references: l(() => [i(s) && i(h) ? (n(), y(SO, {
+				])) : (n(), I("p", Pk, " Select an LNodeType from the list or create a new one. "))]),
+				references: l(() => [i(s) && i(h) ? (n(), y(wO, {
 					key: 0,
 					references: i(o),
 					onCollapse: g[4] ||= (e) => s.value = !1
 				}, null, 8, ["references"])) : P("", !0)]),
 				_: 1
 			}),
-			F(cO, {
+			F(uO, {
 				ref_key: "infoPopup",
 				ref: T,
 				info: D.value
@@ -66175,7 +66265,7 @@ var YO = /* @__PURE__ */ b(KO, [["render", JO]]), XO = { class: "tree-node" }, Z
 			}, null, 512)
 		], 64));
 	}
-}), [["__scopeId", "data-v-10f13347"]]), Tk = { class: "modal-box" }, Ek = { class: "modal-action" }, Dk = /* @__PURE__ */ m({
+}), [["__scopeId", "data-v-3831da5c"]]), Ik = { class: "modal-box" }, Lk = { class: "modal-action" }, Rk = /* @__PURE__ */ m({
 	__name: "unsaved-changes-dialog",
 	props: { open: {
 		type: Boolean,
@@ -66200,10 +66290,10 @@ var YO = /* @__PURE__ */ b(KO, [["render", JO]]), XO = { class: "tree-node" }, Z
 			class: "modal",
 			"data-testid": "dtt-unsaved-dialog",
 			onClose: t[3] ||= (e) => i("keep-editing")
-		}, [T("div", Tk, [
+		}, [T("div", Ik, [
 			t[4] ||= T("h3", { class: "font-bold text-lg" }, "Unsaved changes", -1),
 			t[5] ||= T("p", { class: "py-4" }, "Save changes before continuing?", -1),
-			T("div", Ek, [
+			T("div", Lk, [
 				T("button", {
 					class: "btn",
 					"data-testid": "dtt-unsaved-keep",
@@ -66225,14 +66315,14 @@ var YO = /* @__PURE__ */ b(KO, [["render", JO]]), XO = { class: "tree-node" }, Z
 			class: "modal-backdrop"
 		}, [T("button", null, "close")], -1)], 544));
 	}
-}), Ok = { "data-testid": "dtt-root" }, kk = {
+}), zk = { "data-testid": "dtt-root" }, Bk = {
 	key: 1,
 	"data-testid": "dtt-no-file"
-}, Ak = /* @__PURE__ */ b(/* @__PURE__ */ m({
+}, Vk = /* @__PURE__ */ b(/* @__PURE__ */ m({
 	__name: "data-type-templates",
 	setup(e) {
 		let t = xD(), { unsavedChangesDialogOpen: r } = A(t);
-		return (e, a) => (n(), I("main", Ok, [i(VT) ? (n(), I(M, { key: 0 }, [F(CD, { class: "pane" }), F(wk, { class: "pane" })], 64)) : (n(), I("p", kk, "No SCL file is open.")), F(Dk, {
+		return (e, a) => (n(), I("main", zk, [i(VT) ? (n(), I(M, { key: 0 }, [F(CD, { class: "pane" }), F(Fk, { class: "pane" })], 64)) : (n(), I("p", Bk, "No SCL file is open.")), F(Rk, {
 			open: i(r),
 			onKeepEditing: i(t).keepEditingAfterUnsavedPrompt,
 			onDiscardAndContinue: i(t).continueAfterDiscard,
@@ -66247,16 +66337,16 @@ var YO = /* @__PURE__ */ b(KO, [["render", JO]]), XO = { class: "tree-node" }, Z
 }), [["__scopeId", "data-v-c82fcc52"]]);
 //#endregion
 //#region set-editor.ts
-function jk(e, t) {
+function Hk(e, t) {
 	h(document.getElementById(e), { detail: `could not find root element: ${e}` });
 	let n = oe(t), r = (e) => {
 		VT.value && e === BT.value.documentId || (e ? HT(t.project.openDocument(e)) : UT());
 	};
 	r(t.activeDocumentId.value);
-	let i = t.activeDocumentId.subscribe(r), a = ne(), o = se(Ak);
+	let i = t.activeDocumentId.subscribe(r), a = ne(), o = se(Vk);
 	return o.use(a), o.mount(`#${e}`), () => {
 		i(), o.unmount(), S(a), n(), UT();
 	};
 }
 //#endregion
-export { jk as default };
+export { Hk as default };
