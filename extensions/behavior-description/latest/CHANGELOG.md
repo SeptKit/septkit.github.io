@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [34] - 2026-11-25
+
+### Added
+
+- Mark BehaviorDescriptions with references in the selector
+
 ## [33] - 2026-11-24
 
 ### Fixed
