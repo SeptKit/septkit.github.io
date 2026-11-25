@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-explorer",
-	"version": "32",
+	"version": "33",
 	"displayName": "Explorer",
 	"description": "SeptKit extension - explorer that draws an outline view of an SCL file",
 	"private": true,
@@ -47,6 +47,7 @@
 		"@dialecte/core": "catalog:",
 		"@dialecte/scl": "catalog:",
 		"@lucide/vue": "^1.16.0",
+		"@septkit/event-bus": "workspace:^",
 		"@septkit/shell-lib": "catalog:",
 		"@septkit/ui": "catalog:",
 		"@vueuse/core": "^14.2.1",
