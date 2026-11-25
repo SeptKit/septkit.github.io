@@ -7,6 +7,15 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [21] - 2026-11-25
+
+### Added
+
+- Select several access points with checkboxes and change their SubNetwork, Subnet mask and Gateway in one step with **Bulk edit**. IP addresses stay per access point and are edited in the table.
+- While bulk edit is open, only the selected access points are shown and the table is locked until you apply or cancel.
+- Values shared by all selected access points are pre-filled; differing values leave the field empty and stay untouched.
+- Invalid addresses, e.g. outside the subnet, and emptied fields are flagged and block applying.
+
 ## [17] - 2026-11-19
 
 ### Changed
