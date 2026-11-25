@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [71] - 2026-11-25
+
+### Fixed
+
+- Show the SourceRef match indicator for exact ExtRef matches before linking, after linking, and after unlinking.
+
 ## [70] - 2026-11-23
 
 ### Added
