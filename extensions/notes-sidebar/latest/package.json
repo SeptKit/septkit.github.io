@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-notes-sidebar",
-	"version": "20",
+	"version": "21",
 	"displayName": "Notes Sidebar",
 	"description": "A sidebar extension for managing notes",
 	"private": true,
@@ -44,6 +44,7 @@
 		"@dialecte/core": "catalog:",
 		"@dialecte/scl": "catalog:",
 		"@lucide/vue": "^1.17.0",
+		"@septkit/event-bus": "workspace:^",
 		"@septkit/shell-lib": "catalog:",
 		"@septkit/ui": "catalog:",
 		"@vueuse/core": "^14.4.0",
