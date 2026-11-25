@@ -1,7 +1,7 @@
 {
 	"name": "@septkit/ext-structure",
 	"displayName": "Structure",
-	"version": "128",
+	"version": "129",
 	"description": "SeptKit extension to manage structures in SCL",
 	"private": true,
 	"type": "module",
@@ -69,6 +69,7 @@
 		"@dialecte/core": "catalog:",
 		"@dialecte/scl": "catalog:",
 		"@lucide/vue": "^1.16.0",
+		"@septkit/event-bus": "workspace:^",
 		"@septkit/merge": "workspace:^",
 		"@septkit/shell-lib": "catalog:",
 		"@septkit/ui": "catalog:",
