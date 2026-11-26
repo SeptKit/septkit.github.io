@@ -7,6 +7,18 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [130] - 2026-11-26
+
+### Changed
+
+- Picking a Function for an AllocationRole: the list groups functions under their full path, typing finds them by name or path, and a function that cannot be chosen says why.
+
+## [128] - 2026-11-26
+
+### Added
+
+- Highlight a node that has been selected via the explorer.
+
 ## [128] - 2026-11-24
 
 ### Added
