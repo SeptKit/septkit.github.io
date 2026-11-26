@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [72] - 2026-11-25
+
+### Fixed
+
+- Apply links each SourceRef or ControlRef to the selected ExtRef or ExtCtrl even when another logical node has an identical reference.
+
 ## [71] - 2026-11-25
 
 ### Fixed
