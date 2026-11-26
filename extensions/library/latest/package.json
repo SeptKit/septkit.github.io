@@ -1,6 +1,6 @@
 {
 	"name": "@septkit/ext-library",
-	"version": "43",
+	"version": "44",
 	"displayName": "Library",
 	"description": "Library",
 	"private": true,

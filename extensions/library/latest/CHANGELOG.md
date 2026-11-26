@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [44] - 2026-11-26
+
+### Changed
+
+- Sort loaded NSD and NSDoc files newest first by Version, Revision, and Release.
+
 ## [43] - 2026-11-25
 
 ### Added

@@ -1204,7 +1204,14 @@ function rn(e, t) {
 }
 //#endregion
 //#region src/nsd/library/nsd-library.store.ts
-async function an() {
+var an = new Intl.Collator(void 0, {
+	numeric: !0,
+	sensitivity: "base"
+});
+function on(e, t) {
+	return an.compare(t.meta.version, e.meta.version) || an.compare(t.meta.revision, e.meta.revision) || an.compare(t.meta.release, e.meta.release) || e.fileName.localeCompare(t.fileName);
+}
+async function sn() {
 	let e = await B(), t = await e.getDocuments(), n = [], r = [];
 	for (let i of t) if (!zt(i.id)) try {
 		let t = await F(e.openDocument(i.id));
@@ -1220,10 +1227,10 @@ async function an() {
 			versionRevisionRelease: "-"
 		});
 	}
-	return [...Ht(n), ...r].sort((e, t) => e.fileName.localeCompare(t.fileName));
+	return [...Ht(n.sort(on)), ...r.sort((e, t) => e.fileName.localeCompare(t.fileName))];
 }
-function on() {
-	let { state: e, error: t } = rn(an, []);
+function cn() {
+	let { state: e, error: t } = rn(sn, []);
 	return {
 		rows: e,
 		error: t
@@ -1231,16 +1238,16 @@ function on() {
 }
 //#endregion
 //#region src/nsd/library/sidebar-nsd-table.vue?vue&type=script&setup=true&lang.ts
-var sn = { class: "sidebar-nsd" }, cn = {
+var ln = { class: "sidebar-nsd" }, un = {
 	key: 0,
 	class: "text-(--color-error)"
-}, ln = /* @__PURE__ */ S(/* @__PURE__ */ h({
+}, dn = /* @__PURE__ */ S(/* @__PURE__ */ h({
 	__name: "sidebar-nsd-table",
 	setup(e) {
-		let { rows: t, error: r } = on();
-		return (e, a) => (n(), N("section", sn, [
+		let { rows: t, error: r } = cn();
+		return (e, a) => (n(), N("section", ln, [
 			a[0] ||= C("header", { class: "sidebar-nsd__header" }, [C("div", { class: "sidebar-nsd__title" }, "Loaded NSD files")], -1),
-			i(r) ? (n(), N("p", cn, s(i(r)), 1)) : A("", !0),
+			i(r) ? (n(), N("p", un, s(i(r)), 1)) : A("", !0),
 			M(qe, {
 				rows: i(t),
 				showDependencyColumn: !0,
@@ -1250,14 +1257,14 @@ var sn = { class: "sidebar-nsd" }, cn = {
 			}, null, 8, ["rows"])
 		]));
 	}
-}), [["__scopeId", "data-v-89b5d511"]]), un = { class: "overflow-auto h-full nsd-sidebar p-4" }, dn = /* @__PURE__ */ h({
+}), [["__scopeId", "data-v-89b5d511"]]), fn = { class: "overflow-auto h-full nsd-sidebar p-4" }, pn = /* @__PURE__ */ h({
 	__name: "primary-sidebar",
 	setup(e) {
 		let t = y(null);
 		function r() {
 			t.value?.open();
 		}
-		return (e, i) => (n(), N("div", un, [
+		return (e, i) => (n(), N("div", fn, [
 			C("button", {
 				class: "btn mb-4 w-full overflow-hidden text-ellipsis whitespace-nowrap",
 				onClick: r,
@@ -1267,18 +1274,18 @@ var sn = { class: "sidebar-nsd" }, cn = {
 				ref_key: "importDialog",
 				ref: t
 			}, null, 512),
-			M(ln)
+			M(dn)
 		]));
 	}
 });
 //#endregion
 //#region set-sidebar.ts
-function fn(e, t) {
+function mn(e, t) {
 	g(document.getElementById(e), { detail: `could not find root element: ${e}` });
-	let n = O(t), r = ee(dn);
+	let n = O(t), r = ee(pn);
 	return r.use(D()), r.mount(`#${e}`), () => {
 		n(), r.unmount();
 	};
 }
 //#endregion
-export { fn as default };
+export { mn as default };
