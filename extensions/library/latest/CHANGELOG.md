@@ -7,6 +7,12 @@ and this project adheres to a simple versioning system, increasing the number by
 
 ## [UNRELEASED]
 
+## [45] - 2026-11-27
+
+### Fixed
+
+- In the DataTypeTemplates editor, only members with presence condition `M` or `Mmulti` are preselected and locked as mandatory; conditional members such as `MOcond` or `MONamPlt` are now optional, selectable, and listed under the Optional filter.
+
 ## [44] - 2026-11-26
 
 ### Changed

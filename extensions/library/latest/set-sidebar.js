@@ -1,5 +1,5 @@
-(function(){try{if(typeof document<`u`){var e=document.createElement(`style`);e.appendChild(document.createTextNode(`.nsd-table__cell[data-v-5ac9989c]{vertical-align:middle;text-align:left;overflow-wrap:anywhere;word-break:break-word;white-space:normal;font-weight:400}.nsd-table__thead th[data-v-5ac9989c]{white-space:nowrap;text-overflow:ellipsis;word-break:normal;overflow-wrap:normal;background:0 0;overflow:hidden}.nsd-table[data-v-5ac9989c] svg{width:1.25rem;height:1.25rem;display:block}.nsd-table__warning[data-v-5ac9989c],.nsd-table__nsdoc-status[data-v-5ac9989c]{cursor:help;display:inline-flex}.fileupload__dropzone--over[data-v-11af98d8]{border-color:oklch(var(--p));background-color:oklch(var(--p) / .05)}.fileupload__dropzone--disabled[data-v-11af98d8]{opacity:.6;cursor:not-allowed;pointer-events:none}.fileupload--scrollable[data-v-11af98d8]{flex-direction:column;gap:1rem;min-height:0;display:flex}.fileupload--scrollable .fileupload__dropzone[data-v-11af98d8]{flex-shrink:0;min-height:4rem;padding:.5rem}.fileupload__selection--scrollable[data-v-11af98d8]{flex-direction:column;flex:1;min-height:0;display:flex;position:relative}.fileupload__files--scrollable[data-v-11af98d8]{flex-direction:column;flex:1;min-height:0;display:flex;overflow-y:auto}.fileupload__files--scrollable>div[data-v-11af98d8]{flex-shrink:0}.fileupload__selection--scrollable.has-more-below[data-v-11af98d8]:after{content:"";pointer-events:none;background:linear-gradient(#0000,#00000024);height:8px;position:absolute;bottom:0;left:0;right:0}.import-nsd-dialog[data-v-5e87dae5]{flex-direction:column;width:min(860px,92vw);max-width:none;height:min(90dvh,720px);max-height:90dvh;display:flex;overflow:hidden}.import-nsd-dialog__close[data-v-5e87dae5]{position:absolute;top:.5rem;right:.5rem}.import-nsd-dialog__body[data-v-5e87dae5]{flex:1;grid-template-rows:minmax(0,3fr) minmax(0,2fr) auto;gap:1rem;min-height:0;display:grid;overflow:hidden}.import-nsd-dialog__body[data-v-5e87dae5]>.import-nsd-dialog__file-input{min-height:0}.import-nsd-dialog__tableArea[data-v-5e87dae5]{flex-direction:column;min-height:0;display:flex}.import-nsd-dialog__tableArea>.nsd-table[data-v-5e87dae5]{min-height:0;overflow:auto}.import-nsd-dialog__tableArea[data-v-5e87dae5]{position:relative}.import-nsd-dialog__tableArea.has-more-below[data-v-5e87dae5]:after{content:"";pointer-events:none;background:linear-gradient(#0000,#00000024);height:8px;position:absolute;bottom:0;left:0;right:0}.import-nsd-dialog__messages[data-v-5e87dae5]{min-height:1.25rem;max-height:4rem;overflow-y:auto}.import-nsd-dialog__footer[data-v-5e87dae5]{flex-shrink:0;justify-content:flex-end;display:flex}.sidebar-nsd[data-v-89b5d511]{flex-direction:column;gap:.5rem;display:flex}.sidebar-nsd__header[data-v-89b5d511]{justify-content:space-between;align-items:center;display:flex}.sidebar-nsd__title[data-v-89b5d511]{font-size:.875rem;font-weight:600}`)),document.head.appendChild(e)}}catch(e){console.error(`vite-plugin-css-injected-by-js`,e)}})();import { Bt as e, Ct as t, Dt as n, Ft as r, Gt as i, Ht as a, It as o, Jt as s, Kt as c, Lt as l, Mt as u, Nt as d, Ot as f, Pt as p, Rt as m, St as h, T as g, Tt as _, Ut as v, Vt as y, Wt as b, _t as x, at as S, gt as C, ht as w, jt as T, mt as E, ot as D, t as O, tt as k, ut as ee, vt as A, wt as j, xt as M, yt as N, zt as P } from "./main-g2N8Clir.js";
-import { a as F, b as I, c as L, i as R, l as z, o as B, r as te, s as ne, t as re, y as ie } from "./query-nsd-metadata-BxEV467Q.js";
+(function(){try{if(typeof document<`u`){var e=document.createElement(`style`);e.appendChild(document.createTextNode(`.nsd-table__cell[data-v-5ac9989c]{vertical-align:middle;text-align:left;overflow-wrap:anywhere;word-break:break-word;white-space:normal;font-weight:400}.nsd-table__thead th[data-v-5ac9989c]{white-space:nowrap;text-overflow:ellipsis;word-break:normal;overflow-wrap:normal;background:0 0;overflow:hidden}.nsd-table[data-v-5ac9989c] svg{width:1.25rem;height:1.25rem;display:block}.nsd-table__warning[data-v-5ac9989c],.nsd-table__nsdoc-status[data-v-5ac9989c]{cursor:help;display:inline-flex}.fileupload__dropzone--over[data-v-11af98d8]{border-color:oklch(var(--p));background-color:oklch(var(--p) / .05)}.fileupload__dropzone--disabled[data-v-11af98d8]{opacity:.6;cursor:not-allowed;pointer-events:none}.fileupload--scrollable[data-v-11af98d8]{flex-direction:column;gap:1rem;min-height:0;display:flex}.fileupload--scrollable .fileupload__dropzone[data-v-11af98d8]{flex-shrink:0;min-height:4rem;padding:.5rem}.fileupload__selection--scrollable[data-v-11af98d8]{flex-direction:column;flex:1;min-height:0;display:flex;position:relative}.fileupload__files--scrollable[data-v-11af98d8]{flex-direction:column;flex:1;min-height:0;display:flex;overflow-y:auto}.fileupload__files--scrollable>div[data-v-11af98d8]{flex-shrink:0}.fileupload__selection--scrollable.has-more-below[data-v-11af98d8]:after{content:"";pointer-events:none;background:linear-gradient(#0000,#00000024);height:8px;position:absolute;bottom:0;left:0;right:0}.import-nsd-dialog[data-v-5e87dae5]{flex-direction:column;width:min(860px,92vw);max-width:none;height:min(90dvh,720px);max-height:90dvh;display:flex;overflow:hidden}.import-nsd-dialog__close[data-v-5e87dae5]{position:absolute;top:.5rem;right:.5rem}.import-nsd-dialog__body[data-v-5e87dae5]{flex:1;grid-template-rows:minmax(0,3fr) minmax(0,2fr) auto;gap:1rem;min-height:0;display:grid;overflow:hidden}.import-nsd-dialog__body[data-v-5e87dae5]>.import-nsd-dialog__file-input{min-height:0}.import-nsd-dialog__tableArea[data-v-5e87dae5]{flex-direction:column;min-height:0;display:flex}.import-nsd-dialog__tableArea>.nsd-table[data-v-5e87dae5]{min-height:0;overflow:auto}.import-nsd-dialog__tableArea[data-v-5e87dae5]{position:relative}.import-nsd-dialog__tableArea.has-more-below[data-v-5e87dae5]:after{content:"";pointer-events:none;background:linear-gradient(#0000,#00000024);height:8px;position:absolute;bottom:0;left:0;right:0}.import-nsd-dialog__messages[data-v-5e87dae5]{min-height:1.25rem;max-height:4rem;overflow-y:auto}.import-nsd-dialog__footer[data-v-5e87dae5]{flex-shrink:0;justify-content:flex-end;display:flex}.sidebar-nsd[data-v-89b5d511]{flex-direction:column;gap:.5rem;display:flex}.sidebar-nsd__header[data-v-89b5d511]{justify-content:space-between;align-items:center;display:flex}.sidebar-nsd__title[data-v-89b5d511]{font-size:.875rem;font-weight:600}`)),document.head.appendChild(e)}}catch(e){console.error(`vite-plugin-css-injected-by-js`,e)}})();import { Bt as e, Ct as t, Dt as n, Ft as r, Gt as i, Ht as a, It as o, Jt as s, Kt as c, Lt as l, Mt as u, Nt as d, Ot as f, Pt as p, Rt as m, St as h, T as g, Tt as _, Ut as v, Vt as y, Wt as b, _t as x, at as S, gt as C, ht as w, jt as T, mt as E, nt as D, ot as O, t as k, ut as ee, vt as A, wt as j, xt as M, yt as N, zt as P } from "./main-CqcXRvD1.js";
+import { a as F, b as I, c as L, i as R, l as z, o as B, r as te, s as ne, t as re, y as ie } from "./query-nsd-metadata-D6Ool-Ie.js";
 //#region src/nsd/icons/upload-icon.vue
 var ae = {}, oe = {
 	xmlns: "http://www.w3.org/2000/svg",
@@ -159,7 +159,7 @@ var we = /* @__PURE__ */ S(xe, [["render", Ce]]), Te = { class: "nsd-table text-
 						title: e.fileName
 					}, s(e.fileName), 9, Ne),
 					e.isNsdoc ? (n(), N("span", Pe, " NSDoc ")) : A("", !0),
-					t.showNsdocStatus && e.isNsdoc && e.nsdocStatus === "unmatched" ? (n(), x(i(k), {
+					t.showNsdocStatus && e.isNsdoc && e.nsdocStatus === "unmatched" ? (n(), x(i(D), {
 						key: 1,
 						content: "This NSDoc does not match a loaded NSD"
 					}, {
@@ -167,7 +167,7 @@ var we = /* @__PURE__ */ S(xe, [["render", Ce]]), Te = { class: "nsd-table text-
 						_: 1
 					})) : A("", !0),
 					t.showExtensionLabel && e.isExtension ? (n(), N("span", Ie, " Extension ")) : A("", !0),
-					t.showNsdocStatus && !e.isNsdoc && (e.nsdocStatus === "matched" || e.nsdocStatus === "missing") ? (n(), x(i(k), {
+					t.showNsdocStatus && !e.isNsdoc && (e.nsdocStatus === "matched" || e.nsdocStatus === "missing") ? (n(), x(i(D), {
 						key: 3,
 						content: l(e)
 					}, {
@@ -187,7 +187,7 @@ var we = /* @__PURE__ */ S(xe, [["render", Ce]]), Te = { class: "nsd-table text-
 					class: "block min-w-0 truncate",
 					title: e.versionRevisionRelease
 				}, s(e.versionRevisionRelease), 9, ze)]),
-				t.showDependencyColumn ? (n(), N("td", Be, [C("div", Ve, [e.dependencyStatus === "ok" ? (n(), N("span", He, [M(we, { "aria-label": "Dependencies satisfied" })])) : e.dependencyStatus === "missing" ? (n(), x(i(k), {
+				t.showDependencyColumn ? (n(), N("td", Be, [C("div", Ve, [e.dependencyStatus === "ok" ? (n(), N("span", He, [M(we, { "aria-label": "Dependencies satisfied" })])) : e.dependencyStatus === "missing" ? (n(), x(i(D), {
 					key: 1,
 					content: o(e)
 				}, {
@@ -1282,8 +1282,8 @@ var ln = { class: "sidebar-nsd" }, un = {
 //#region set-sidebar.ts
 function mn(e, t) {
 	g(document.getElementById(e), { detail: `could not find root element: ${e}` });
-	let n = O(t), r = ee(pn);
-	return r.use(D()), r.mount(`#${e}`), () => {
+	let n = k(t), r = ee(pn);
+	return r.use(O()), r.mount(`#${e}`), () => {
 		n(), r.unmount();
 	};
 }
